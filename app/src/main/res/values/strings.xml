@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Italiano</string>
+    <string name="channel_reminders_name">Practice reminders</string>
+    <string name="channel_reminders_description">Gentle nudges at the times you choose in Settings.</string>
+</resources>

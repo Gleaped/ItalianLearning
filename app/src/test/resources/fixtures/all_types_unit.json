@@ -1,0 +1,41 @@
+{
+  "id": "b1-01",
+  "level": "B1",
+  "title": "Al bar",
+  "objective": "By the end you can order at a bar.",
+  "grammarFocus": "Condizionale di cortesia",
+  "remedialUnitIds": ["a2r-01"],
+  "unknownTopLevel": { "nested": true },
+  "lessons": [
+    {
+      "id": "b1-01-l1",
+      "title": "Tutti i tipi",
+      "minutes": 12,
+      "exercises": [
+        { "type": "grammar_note", "id": "e1", "title": "Il condizionale", "body": "Use **vorrei** to ask politely.\n\n- vorrei\n- potrei", "examples": [ { "it": "Vorrei un caffè.", "en": "I'd like a coffee." } ] },
+        { "type": "flashcard", "front": "la ricevuta", "back": "receipt", "example": "Mi può fare la ricevuta?" },
+        { "type": "multiple_choice", "instruction": "Scegli", "prompt": "___ un caffè, per favore.", "options": ["Voglio", "Vorrei", "Volevo"], "answer": 1, "explanation": "Vorrei is polite.", "extra": 42 },
+        { "type": "gap_fill", "sentence": "Mi ___ il conto?", "answers": ["porta", "può portare"], "hint": "portare" },
+        { "type": "conjugation", "verb": "volere", "tense": "condizionale presente", "items": [ { "person": "io", "answer": "vorrei" }, { "person": "tu (f.)", "answer": "vorresti" } ] },
+        { "type": "sentence_build", "translation": "I'd like a glass of water.", "tiles": ["Vorrei", "un", "bicchiere", "d'acqua"], "distractors": ["voglio"] },
+        { "type": "translate", "direction": "en_it", "source": "The bill, please.", "answers": ["Il conto, per favore."] },
+        { "type": "translate", "direction": "it_en", "source": "Il conto, per favore.", "answers": ["The bill, please."] },
+        { "type": "match_pairs", "pairs": [ { "left": "il conto", "right": "the bill" }, { "left": "lo scontrino", "right": "the receipt" } ] },
+        { "type": "error_correction", "sentence": "Io vorrebbe un caffè.", "answers": ["Io vorrei un caffè."] },
+        { "type": "listen_transcribe", "audioText": "Un cappuccino, per favore.", "answers": ["Un cappuccino, per favore."], "slow": true },
+        { "type": "listen_choose", "audioText": "Sono tre euro e cinquanta.", "question": "Quanto costa?", "options": ["3,50 €", "13,50 €"], "answer": 0 },
+        { "type": "reading", "title": "Al bar", "passage": "Marco entra al bar e ordina un caffè.", "questions": [ { "question": "Che cosa ordina Marco?", "options": ["Un tè", "Un caffè"], "answer": 1 } ] },
+        { "type": "speak_repeat", "text": "Vorrei un cornetto.", "translation": "I'd like a croissant." },
+        { "type": "speak_respond", "prompt": "Ordina qualcosa da bere.", "keywords": ["vorrei", "per favore"], "modelAnswer": "Vorrei un'aranciata, per favore." },
+        { "type": "roleplay", "scenario": "You are at a bar.", "turns": [ { "speaker": "npc", "text": "Buongiorno, che cosa prende?" }, { "speaker": "you", "text": "Vorrei un caffè, grazie.", "hint": "Order a coffee", "keywords": ["caffè"] } ] },
+        { "type": "free_write", "prompt": "Descrivi il tuo bar preferito.", "minWords": 30, "checklist": ["Use c'è / ci sono"], "modelAnswer": "Il mio bar preferito..." },
+        { "type": "hologram_quiz", "prompt": "From the future" },
+        { "type": "multiple_choice", "prompt": "Missing options and answer" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "it": "la ricevuta", "en": "receipt", "example": "Mi può fare la ricevuta?" },
+    { "it": "il conto", "en": "the bill" }
+  ]
+}

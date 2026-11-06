@@ -1,0 +1,797 @@
+{
+  "id": "b1-01",
+  "level": "B1",
+  "title": "Com'è andata?",
+  "objective": "By the end you can tell someone how a recent day, appointment or weekend went, using the imperfetto for the scene and the passato prossimo for what happened.",
+  "grammarFocus": "Passato prossimo vs imperfetto (mentre/quando, bounded duration, habits); verbs that change meaning: conoscere, sapere, dovere, potere, volere.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "b1-01-l1",
+      "title": "Com'era? L'imperfetto",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-01-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Ieri sera ___ una pizza con degli amici.",
+          "options": [
+            "sono mangiato",
+            "ho mangiato",
+            "mangiavo ieri",
+            "ho mangiata"
+          ],
+          "answer": 1,
+          "explanation": "Mangiare takes avere, and with avere the participle doesn't agree with the subject: ho mangiato."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-01-l1-e02",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Maria ___ a casa alle otto.",
+          "options": [
+            "ha tornato",
+            "è tornato",
+            "è tornata",
+            "ha tornata"
+          ],
+          "answer": 2,
+          "explanation": "Tornare (movement) takes essere, so the participle agrees with Maria: è tornata."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-01-l1-e03",
+          "title": "L'imperfetto: forme e usi",
+          "body": "The **passato prossimo** tells you *what happened*. The **imperfetto** paints the *scene around it*.\n\n**Forms** – drop -re and add the endings:\n- parlare → parla**vo**, parla**vi**, parla**va**, parla**vamo**, parla**vate**, parla**vano**\n- avere → ave**vo**, ave**vi**, ave**va**… / dormire → dormi**vo**, dormi**vi**, dormi**va**…\n- Irregular: **essere** (ero, eri, era, eravamo, eravate, erano), **fare** (facevo), **dire** (dicevo), **bere** (bevevo)\n\n**Use the imperfetto for:**\n- descriptions: time, weather, age, places, people (*Erano le nove. Pioveva.*)\n- physical and mental states (*Avevo fame. Ero stanco.*)\n- habits and repeated actions in the past – English *used to / would* (*Di solito prendevo il treno.*)\n- actions in progress – English *was …-ing* (*Leggevo il giornale.*)\n\nWatch out: English simple past (*I lived, I was*) can be either tense in Italian. Ask yourself: is it a finished event, or background/habit?",
+          "examples": [
+            {
+              "it": "Quando ero piccolo, abitavo in campagna.",
+              "en": "When I was little, I lived in the countryside."
+            },
+            {
+              "it": "C'era molta gente e faceva caldo.",
+              "en": "There were a lot of people and it was hot."
+            },
+            {
+              "it": "Il sabato andavamo sempre al mercato.",
+              "en": "On Saturdays we always used to go to the market."
+            },
+            {
+              "it": "Avevo mal di testa, quindi sono rimasto a casa.",
+              "en": "I had a headache, so I stayed at home."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-01-l1-e04",
+          "instruction": "Scrivi le forme dell'imperfetto.",
+          "verb": "essere",
+          "tense": "imperfetto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "ero"
+            },
+            {
+              "person": "tu",
+              "answer": "eri"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "era"
+            },
+            {
+              "person": "noi",
+              "answer": "eravamo"
+            },
+            {
+              "person": "voi",
+              "answer": "eravate"
+            },
+            {
+              "person": "loro",
+              "answer": "erano"
+            }
+          ],
+          "explanation": "Essere is the main irregular imperfetto – and one of the most frequent verbs in any story."
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-01-l1-e05",
+          "instruction": "Scrivi le forme dell'imperfetto.",
+          "verb": "fare",
+          "tense": "imperfetto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "facevo"
+            },
+            {
+              "person": "tu",
+              "answer": "facevi"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "faceva"
+            },
+            {
+              "person": "noi",
+              "answer": "facevamo"
+            },
+            {
+              "person": "voi",
+              "answer": "facevate"
+            },
+            {
+              "person": "loro",
+              "answer": "facevano"
+            }
+          ],
+          "explanation": "Fare builds the imperfetto on the old stem fac- (from Latin facere). Dire (dicevo) and bere (bevevo) work the same way."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-01-l1-e06",
+          "instruction": "Completa con l'imperfetto del verbo tra parentesi.",
+          "sentence": "Quando ero piccolo, ___ (abitare) in campagna con i miei nonni.",
+          "answers": [
+            "abitavo"
+          ],
+          "hint": "abitare – io",
+          "explanation": "A long-lasting past situation, with no defined end: imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-01-l1-e07",
+          "instruction": "Completa con l'imperfetto del verbo tra parentesi.",
+          "sentence": "Era tardi e fuori ___ (piovere) forte.",
+          "answers": [
+            "pioveva"
+          ],
+          "hint": "piovere – 3ª persona",
+          "explanation": "Weather as background to a story: imperfetto."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-01-l1-e08",
+          "instruction": "Abbina ogni frase al suo uso.",
+          "pairs": [
+            {
+              "left": "Erano le nove di sera.",
+              "right": "ora (time)"
+            },
+            {
+              "left": "Avevo la febbre.",
+              "right": "stato fisico (physical state)"
+            },
+            {
+              "left": "Di solito prendevamo il treno.",
+              "right": "abitudine (habit)"
+            },
+            {
+              "left": "La sala d'attesa era piena.",
+              "right": "descrizione (description)"
+            },
+            {
+              "left": "Ho preso il treno delle otto.",
+              "right": "evento concluso (completed event)"
+            }
+          ],
+          "explanation": "Only the last sentence reports a single finished event – that's the one in passato prossimo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-01-l1-e09",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Quando sono arrivato in farmacia, c'era molta gente.",
+          "answers": [
+            "Quando sono arrivato in farmacia, c'era molta gente.",
+            "Quando sono arrivato in farmacia c'era molta gente."
+          ],
+          "slow": false,
+          "explanation": "Sono arrivato = the event; c'era molta gente = the scene you found."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-01-l1-e10",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Quando ero bambino, passavo l'estate dai nonni.",
+          "translation": "When I was a child, I used to spend the summer at my grandparents'."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-01-l1-e11",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Com'era la casa dove abitavi da bambino? Dov'era, com'era, che cosa c'era?",
+          "keywords": [
+            "era",
+            "c'era",
+            "abitavo"
+          ],
+          "modelAnswer": "Da bambino abitavo in una casa piccola vicino al mare. Era vecchia ma molto luminosa, e c'era un giardino dove giocavo con mio fratello.",
+          "explanation": "Descriptions of the past are almost all imperfetto: era, c'era, abitavo, giocavo."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-01-l1-e12",
+          "front": "di solito",
+          "back": "usually",
+          "example": "Di solito facevo colazione al bar sotto casa."
+        }
+      ]
+    },
+    {
+      "id": "b1-01-l2",
+      "title": "Mentre aspettavo…",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-01-l2-e01",
+          "instruction": "Riscaldamento: completa con l'imperfetto.",
+          "sentence": "Da piccolo mio fratello ___ (avere) paura del buio.",
+          "answers": [
+            "aveva"
+          ],
+          "hint": "avere – lui",
+          "explanation": "A state that lasted through his childhood: imperfetto."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-01-l2-e02",
+          "front": "all'improvviso",
+          "back": "suddenly",
+          "example": "Stavo leggendo quando all'improvviso è andata via la luce."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-01-l2-e03",
+          "title": "Passato prossimo o imperfetto?",
+          "body": "Think of a film: the **imperfetto** is the set and what is already going on; the **passato prossimo** is the action that moves the plot forward.\n\n- **mentre** + imperfetto: an action in progress (*Mentre aspettavo…*)\n- **quando / all'improvviso / a un certo punto** + passato prossimo: the event that interrupts (*…è arrivato il dottore.*)\n- A sequence of events is passato prossimo: *Sono entrato, ho preso il numerino e mi sono seduto.*\n- A **defined duration or number of times** is passato prossimo, even if it was long: *Ho aspettato **due ore**. Ci sono andato **tre volte**.*\n\nTwo actions in progress at the same time are both imperfetto: *Mentre io cucinavo, lui apparecchiava.*\n\nIn speech you'll also hear **stavo + gerundio** for an action in progress: *Stavo uscendo quando hai chiamato.*",
+          "examples": [
+            {
+              "it": "Mentre aspettavo l'autobus, ho incontrato una vicina.",
+              "en": "While I was waiting for the bus, I met a neighbour."
+            },
+            {
+              "it": "Dormivo quando è suonato il telefono.",
+              "en": "I was sleeping when the phone rang."
+            },
+            {
+              "it": "Ho aspettato dal medico per due ore.",
+              "en": "I waited at the doctor's for two hours."
+            },
+            {
+              "it": "Mentre io cucinavo, i bambini giocavano in giardino.",
+              "en": "While I was cooking, the children were playing in the garden."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-01-l2-e04",
+          "instruction": "Scegli il tempo giusto.",
+          "prompt": "Mentre ___ il caffè, è suonato il telefono.",
+          "options": [
+            "ho preparato",
+            "preparavo",
+            "preparo",
+            "avevo preparato"
+          ],
+          "answer": 1,
+          "explanation": "Mentre introduces the action in progress: preparavo. The ringing phone interrupts it: è suonato."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-01-l2-e05",
+          "instruction": "Scegli il tempo giusto.",
+          "prompt": "Ieri ___ dal medico per due ore!",
+          "options": [
+            "aspettavo",
+            "sono aspettato",
+            "ho aspettato",
+            "aspetto"
+          ],
+          "answer": 2,
+          "explanation": "A defined duration (per due ore) closes the action: passato prossimo, even though it felt endless."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-01-l2-e06",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "While I was waiting for the bus, I met a neighbour.",
+          "tiles": [
+            "Mentre",
+            "aspettavo",
+            "l'autobus",
+            "ho",
+            "incontrato",
+            "una",
+            "vicina"
+          ],
+          "distractors": [
+            "aspettato",
+            "incontravo"
+          ],
+          "explanation": "In-progress background (aspettavo) + interrupting event (ho incontrato)."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-01-l2-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Mentre ho guidato, ho sentito un rumore strano.",
+          "answers": [
+            "Mentre guidavo, ho sentito un rumore strano.",
+            "Mentre guidavo ho sentito un rumore strano.",
+            "Mentre stavo guidando, ho sentito un rumore strano.",
+            "Mentre stavo guidando ho sentito un rumore strano.",
+            "Ho sentito un rumore strano mentre guidavo."
+          ],
+          "explanation": "After mentre the action in progress needs the imperfetto: mentre guidavo (or mentre stavo guidando)."
+        },
+        {
+          "type": "translate",
+          "id": "b1-01-l2-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "When I arrived at the office, the door was closed.",
+          "answers": [
+            "Quando sono arrivato in ufficio, la porta era chiusa.",
+            "Quando sono arrivato in ufficio la porta era chiusa.",
+            "Quando sono arrivata in ufficio, la porta era chiusa.",
+            "Quando sono arrivata in ufficio la porta era chiusa.",
+            "Quando sono arrivato all'ufficio, la porta era chiusa.",
+            "Quando sono arrivato all'ufficio la porta era chiusa.",
+            "Quando sono arrivata all'ufficio, la porta era chiusa.",
+            "Quando sono arrivata all'ufficio la porta era chiusa.",
+            "Quando io sono arrivato in ufficio, la porta era chiusa.",
+            "Quando io sono arrivato in ufficio la porta era chiusa.",
+            "Quando io sono arrivata in ufficio, la porta era chiusa.",
+            "Quando io sono arrivata in ufficio la porta era chiusa.",
+            "La porta era chiusa quando sono arrivato in ufficio.",
+            "La porta era chiusa quando sono arrivata in ufficio."
+          ],
+          "explanation": "Arriving is the event (sono arrivato/a); the closed door is the state you found (era chiusa)."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-01-l2-e09",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Stamattina ero in coda alla posta. Mentre aspettavo, una signora anziana si è sentita male. Per fortuna c'era un medico lì vicino, che l'ha aiutata subito.",
+          "question": "Che cosa è successo mentre la persona aspettava?",
+          "options": [
+            "L'ufficio postale ha chiuso.",
+            "Una signora si è sentita male.",
+            "Un medico l'ha chiamata al telefono.",
+            "Ha perso il suo numero."
+          ],
+          "answer": 1,
+          "explanation": "Mentre aspettavo (background) → una signora si è sentita male (event)."
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-01-l2-e10",
+          "instruction": "Passato prossimo di rimanere (con essere!). Attenzione al genere e al numero.",
+          "verb": "rimanere",
+          "tense": "passato prossimo",
+          "items": [
+            {
+              "person": "io (m.)",
+              "answer": "sono rimasto"
+            },
+            {
+              "person": "tu (f.)",
+              "answer": "sei rimasta"
+            },
+            {
+              "person": "lui",
+              "answer": "è rimasto"
+            },
+            {
+              "person": "noi (m.)",
+              "answer": "siamo rimasti"
+            },
+            {
+              "person": "voi (f.)",
+              "answer": "siete rimaste"
+            },
+            {
+              "person": "loro (m.)",
+              "answer": "sono rimasti"
+            }
+          ],
+          "explanation": "Rimanere takes essere and has an irregular participle: rimasto. The ending agrees with the subject."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-01-l2-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Mentre tornavo a casa, ho incontrato la mia vicina e abbiamo chiacchierato un po'.",
+          "translation": "While I was going home, I met my neighbour and we chatted for a bit."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-01-l2-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Racconta un piccolo imprevisto recente: dov'eri, che cosa facevi e che cosa è successo?",
+          "keywords": [
+            "mentre",
+            "ero",
+            "è successo"
+          ],
+          "modelAnswer": "La settimana scorsa ero al supermercato. Mentre facevo la spesa, è successo un imprevisto: è andata via la luce e abbiamo aspettato al buio per dieci minuti.",
+          "explanation": "Background (ero, facevo) in imperfetto; the unexpected event and its bounded duration in passato prossimo."
+        }
+      ]
+    },
+    {
+      "id": "b1-01-l3",
+      "title": "Racconta com'è andata",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "b1-01-l3-e01",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Mentre cucinavo, è andata via la luce.",
+          "answers": [
+            "While I was cooking, the power went out.",
+            "While I was cooking the power went out.",
+            "While I was cooking, the power went off.",
+            "While I was cooking the power went off.",
+            "While I was cooking, the electricity went off.",
+            "While I was cooking the electricity went off.",
+            "While I was cooking, the electricity went out.",
+            "While I was cooking the electricity went out.",
+            "While I was cooking, the lights went out.",
+            "While I was cooking the lights went out.",
+            "While I was cooking, there was a power cut.",
+            "While I was cooking there was a power cut.",
+            "While I was cooking, we had a power cut.",
+            "While I was cooking we had a power cut.",
+            "The power went out while I was cooking.",
+            "The power went off while I was cooking.",
+            "There was a power cut while I was cooking."
+          ],
+          "explanation": "Andare via la luce = the power goes out (colloquial, very common)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-01-l3-e02",
+          "instruction": "Riscaldamento: completa con il passato prossimo.",
+          "sentence": "Sabato scorso io e i miei amici ___ (andare) al mare.",
+          "answers": [
+            "siamo andati"
+          ],
+          "hint": "andare – noi",
+          "explanation": "Andare takes essere; a group including at least one man takes the masculine plural: siamo andati."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-01-l3-e03",
+          "title": "Verbi che cambiano significato",
+          "body": "With some verbs the choice of tense changes the **meaning**, not just the time frame.\n\n- **conoscere**: *conoscevo* = I knew (someone) / *ho conosciuto* = I **met** (for the first time)\n- **sapere**: *sapevo* = I knew (a fact) / *ho saputo* = I **found out**, I heard\n- **dovere**: *dovevo* = I was supposed to (did I? unclear) / *sono dovuto/ho dovuto* = I had to, **and I did**\n- **potere**: *potevo* = I could, I was able (in general) / *ho potuto* = I managed to, I got to\n- **volere**: *volevo* = I wanted (intention) / *ho voluto* = I insisted on, I chose to\n\nWith a following verb that takes essere, careful Italian uses essere with the modal (*sono dovuto andare*), but *ho dovuto andare* is also widely used and accepted.\n\nTip: *Volevo…* is also a very common polite way to ask for something in shops: *Volevo un chilo di pane.*",
+          "examples": [
+            {
+              "it": "Conoscevo già Marco, ma alla festa ho conosciuto sua moglie.",
+              "en": "I already knew Marco, but at the party I met his wife."
+            },
+            {
+              "it": "Ho saputo che il negozio chiude a dicembre.",
+              "en": "I heard that the shop is closing in December."
+            },
+            {
+              "it": "Dovevo andare in banca, ma non ho avuto tempo.",
+              "en": "I was supposed to go to the bank, but I didn't have time."
+            },
+            {
+              "it": "Sono dovuto tornare a casa a prendere i documenti.",
+              "en": "I had to go back home to get the documents."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-01-l3-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Alla festa di sabato ___ la nuova vicina: è simpaticissima!",
+          "options": [
+            "conoscevo",
+            "ho saputo",
+            "sapevo",
+            "ho conosciuto"
+          ],
+          "answer": 3,
+          "explanation": "Meeting someone for the first time = ho conosciuto."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-01-l3-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "___ andare in posta, ma alla fine non ci sono andato.",
+          "options": [
+            "Dovevo",
+            "Sono dovuto",
+            "Ho dovuto",
+            "Devo"
+          ],
+          "answer": 0,
+          "explanation": "The plan didn't happen, so the obligation stays open: dovevo. Sono dovuto andare would mean you actually went."
+        },
+        {
+          "type": "reading",
+          "id": "b1-01-l3-e06",
+          "instruction": "Leggi il messaggio di Paolo e rispondi alle domande.",
+          "title": "Una mattina all'anagrafe",
+          "passage": "Ciao Giulia! Ti racconto la mia mattinata. La mia carta d'identità stava per scadere, così alle otto e mezza sono andato all'anagrafe. C'era già una fila lunghissima e la sala d'attesa era piena. Ho preso il numerino e mi sono seduto. Mentre aspettavo, ho conosciuto un signore molto simpatico: era un maestro in pensione e sapeva tutto del quartiere! Abbiamo chiacchierato per quasi un'ora. A un certo punto hanno chiamato il mio numero, ma allo sportello ho saputo che mancava una fototessera. Che pazienza! Alla fine sono dovuto tornare a casa a prenderla. Comunque, la nuova carta arriverà tra qualche giorno. E tu, com'è andato il colloquio?",
+          "questions": [
+            {
+              "question": "Perché Paolo è andato all'anagrafe?",
+              "options": [
+                "Per cambiare residenza",
+                "Per rinnovare la carta d'identità",
+                "Per chiedere un certificato",
+                "Per accompagnare Giulia"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Chi ha conosciuto mentre aspettava?",
+              "options": [
+                "Un maestro in pensione",
+                "Un impiegato dell'anagrafe",
+                "Un vecchio compagno di scuola",
+                "Un fotografo"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché è dovuto tornare a casa?",
+              "options": [
+                "Aveva perso il numerino.",
+                "L'ufficio stava per chiudere.",
+                "Mancava una fototessera.",
+                "Aveva dimenticato il portafoglio."
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "Notice the pattern: scene in imperfetto (c'era, era piena, sapeva), events in passato prossimo (ho preso, ho conosciuto, ho saputo)."
+        },
+        {
+          "type": "translate",
+          "id": "b1-01-l3-e07",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I found out that the pharmacy was closed.",
+          "answers": [
+            "Ho saputo che la farmacia era chiusa.",
+            "Io ho saputo che la farmacia era chiusa.",
+            "Ho scoperto che la farmacia era chiusa.",
+            "Io ho scoperto che la farmacia era chiusa."
+          ],
+          "explanation": "Found out = ho saputo (or ho scoperto); the pharmacy's state = era chiusa."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-01-l3-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Da bambino andavo sempre al mare e ho nuotato ogni giorno.",
+          "answers": [
+            "Da bambino andavo sempre al mare e nuotavo ogni giorno."
+          ],
+          "explanation": "Ogni giorno describes a past habit, so it needs the imperfetto: nuotavo."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-01-l3-e09",
+          "instruction": "Parla con la tua vicina. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "Monday morning. Your neighbour Paola meets you on the stairs and asks about your weekend. Tell her where you went, what the weather was like and what happened.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno! Allora, com'è andato il fine settimana?"
+            },
+            {
+              "speaker": "you",
+              "text": "Bene, grazie! Sabato sono andato al mare con degli amici.",
+              "hint": "Say where you went on Saturday (passato prossimo).",
+              "keywords": [
+                "sabato",
+                "sono"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che bello! E com'era il tempo?"
+            },
+            {
+              "speaker": "you",
+              "text": "La mattina c'era il sole, ma nel pomeriggio pioveva.",
+              "hint": "Describe the weather (imperfetto).",
+              "keywords": [
+                "c'era",
+                "pioveva"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Peccato! E allora che cosa avete fatto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mentre tornavamo a casa, abbiamo trovato un ristorante sul porto e abbiamo cenato lì.",
+              "hint": "Mentre + imperfetto, then what happened.",
+              "keywords": [
+                "mentre",
+                "abbiamo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ah, quindi alla fine è stata una bella giornata!"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, alla fine ci siamo divertiti molto. E lei, che cosa ha fatto?",
+              "hint": "Sum up and ask her back (Lei).",
+              "keywords": [
+                "alla fine",
+                "lei"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Niente di speciale, sono rimasta a casa a riposarmi. Buona settimana!"
+            }
+          ],
+          "explanation": "You used the imperfetto for the weather and the journey home, and the passato prossimo for what you did."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-01-l3-e10",
+          "instruction": "Scrivi un messaggio.",
+          "prompt": "Scrivi un messaggio a un amico o a un'amica (60–90 parole). Racconta una giornata recente in cui è successo un imprevisto: dal medico, in un ufficio, in viaggio… Descrivi la scena con l'imperfetto e gli eventi con il passato prossimo.",
+          "minWords": 60,
+          "checklist": [
+            "Ho usato l'imperfetto per la scena: ora, tempo, persone, come mi sentivo.",
+            "Ho usato il passato prossimo per gli eventi principali.",
+            "Ho usato almeno una volta mentre + imperfetto.",
+            "Ho usato almeno due connettivi: all'inizio, a un certo punto, all'improvviso, per fortuna, alla fine.",
+            "Ho controllato essere/avere e l'accordo del participio."
+          ],
+          "modelAnswer": "Ciao Sara! Ieri è stata una giornata strana. Avevo un appuntamento dal dentista alle dieci, ma c'era un traffico terribile e l'autobus era pienissimo. Mentre aspettavo alla fermata, all'improvviso ha cominciato a piovere e io non avevo l'ombrello! Alla fine sono arrivato con venti minuti di ritardo, tutto bagnato. Per fortuna il dentista era ancora libero e mi ha visitato subito. Poi sono tornato a casa a piedi, perché ormai c'era di nuovo il sole. E tu, come stai?"
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-01-l3-e11",
+          "front": "ho saputo (che…)",
+          "back": "I found out / I heard (that…)",
+          "example": "Ho saputo che la farmacia di turno è in via Roma."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "di solito",
+      "en": "usually",
+      "example": "Di solito facevo colazione al bar."
+    },
+    {
+      "it": "all'improvviso",
+      "en": "suddenly",
+      "example": "All'improvviso è andata via la luce."
+    },
+    {
+      "it": "mentre",
+      "en": "while",
+      "example": "Mentre aspettavo, ho letto il giornale."
+    },
+    {
+      "it": "a un certo punto",
+      "en": "at one point, at some point",
+      "example": "A un certo punto hanno chiamato il mio numero."
+    },
+    {
+      "it": "alla fine",
+      "en": "in the end",
+      "example": "Alla fine è andato tutto bene."
+    },
+    {
+      "it": "per fortuna",
+      "en": "luckily",
+      "example": "Per fortuna c'era un medico lì vicino."
+    },
+    {
+      "it": "nel frattempo",
+      "en": "in the meantime",
+      "example": "Nel frattempo è arrivato il dottore."
+    },
+    {
+      "it": "l'imprevisto (m.)",
+      "en": "unexpected problem, hitch",
+      "example": "Scusa il ritardo, ho avuto un imprevisto."
+    },
+    {
+      "it": "l'appuntamento (m.)",
+      "en": "appointment",
+      "example": "Avevo un appuntamento dal dentista alle dieci."
+    },
+    {
+      "it": "la sala d'attesa",
+      "en": "waiting room",
+      "example": "La sala d'attesa era piena."
+    },
+    {
+      "it": "fare la fila / la coda",
+      "en": "to queue",
+      "example": "Ho fatto la fila per mezz'ora."
+    },
+    {
+      "it": "il numerino",
+      "en": "queue ticket (take-a-number)",
+      "example": "Ho preso il numerino e mi sono seduto."
+    },
+    {
+      "it": "lo sportello",
+      "en": "counter, service window",
+      "example": "Allo sportello mi hanno chiesto un documento."
+    },
+    {
+      "it": "l'anagrafe (f.)",
+      "en": "registry office (at the Comune)",
+      "example": "Sono andato all'anagrafe per la carta d'identità."
+    },
+    {
+      "it": "la fototessera",
+      "en": "passport-size photo",
+      "example": "Mancava una fototessera."
+    },
+    {
+      "it": "scadere (è scaduto)",
+      "en": "to expire",
+      "example": "La mia carta d'identità sta per scadere."
+    },
+    {
+      "it": "sentirsi male",
+      "en": "to feel unwell, to be taken ill",
+      "example": "Una signora si è sentita male in coda."
+    },
+    {
+      "it": "andare via (la luce)",
+      "en": "to go out (the power)",
+      "example": "Mentre cucinavo, è andata via la luce."
+    },
+    {
+      "it": "succedere (è successo)",
+      "en": "to happen",
+      "example": "Che cosa è successo ieri?"
+    },
+    {
+      "it": "conoscere (ho conosciuto)",
+      "en": "to meet (for the first time)",
+      "example": "Alla festa ho conosciuto la nuova vicina."
+    },
+    {
+      "it": "sapere (ho saputo)",
+      "en": "to find out, to hear",
+      "example": "Ho saputo che il negozio chiude."
+    },
+    {
+      "it": "chiacchierare",
+      "en": "to chat",
+      "example": "Abbiamo chiacchierato per quasi un'ora."
+    },
+    {
+      "it": "il/la vicino/a di casa",
+      "en": "neighbour",
+      "example": "Ho incontrato la mia vicina di casa sulle scale."
+    }
+  ]
+}
