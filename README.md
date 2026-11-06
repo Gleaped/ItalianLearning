@@ -48,7 +48,7 @@ create `local.properties` with `sdk.dir=...`). The Gradle wrapper downloads Grad
 ./gradlew testDebugUnitTest   # unit tests (grading, SRS, reminders, content parsing)
 ./gradlew lintDebug           # Android lint
 ./gradlew assembleDebug       # app/build/outputs/apk/debug/   (id com.gleaped.italianlearning.debug)
-./gradlew assembleRelease     # app/build/outputs/apk/release/ (minified, signed with the sideload key)
+./gradlew assembleRelease     # app/build/outputs/apk/release/ (minified; signed if the signing env vars are set)
 ```
 
 Versioning: `versionCode` = `GITHUB_RUN_NUMBER` (1 locally), `versionName` = `0.1.<run number>`.
@@ -74,35 +74,18 @@ artifact. On pushes to `main` it also creates the GitHub Release that Obtainium 
 
 ## Signing
 
-`app/signing/italiano-sideload.jks` is a **personal sideload key, committed on purpose**. Obtainium can only
-update the app if every release carries the same signature, and committing the key keeps CI reproducible
-without any secrets setup. It is **not** a Play Store key and offers no protection against anyone who can
-read this repository; do not reuse it for anything else.
+The release signing key is **not** in the repository. CI reads it from two repository secrets:
 
-- alias `italiano`, RSA 2048, valid 10 000 days, store/key password `italiano-debug`.
+- `ITALIANO_KEYSTORE_BASE64`: the PKCS12 keystore, base64-encoded (`base64 -w0 italiano-sideload.jks`)
+- `ITALIANO_KEYSTORE_PASSWORD`: its store/key password (alias `italiano`)
 
-To switch to a private key later:
+Optional overrides: `ITALIANO_KEY_ALIAS`, `ITALIANO_KEY_PASSWORD` (environment variables read by `app/build.gradle.kts`).
 
-1. Create a new keystore locally:
-   `keytool -genkeypair -keystore italiano-release.jks -alias italiano -keyalg RSA -keysize 2048 -validity 10000`
-2. Add repository secrets: `ITALIANO_KEYSTORE_BASE64` (`base64 -w0 italiano-release.jks`),
-   `ITALIANO_KEYSTORE_PASSWORD`, `ITALIANO_KEY_ALIAS`, `ITALIANO_KEY_PASSWORD`.
-3. In the workflow, before the Gradle step, decode the keystore and export the variables the build reads:
+Without the secrets, CI still runs tests and lint and builds an **unsigned** APK artifact, but publishes
+no Release. Obtainium can only update the app if every release carries the same signature, so keep a
+backup of the keystore: losing it means uninstalling and reinstalling the app.
 
-   ```yaml
-   - name: Decode keystore
-     run: echo "${{ secrets.ITALIANO_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/release.jks"
-   - name: Unit tests, lint and release build
-     env:
-       ITALIANO_KEYSTORE_PATH: ${{ runner.temp }}/release.jks
-       ITALIANO_KEYSTORE_PASSWORD: ${{ secrets.ITALIANO_KEYSTORE_PASSWORD }}
-       ITALIANO_KEY_ALIAS: ${{ secrets.ITALIANO_KEY_ALIAS }}
-       ITALIANO_KEY_PASSWORD: ${{ secrets.ITALIANO_KEY_PASSWORD }}
-     run: ./gradlew testDebugUnitTest lintDebug assembleRelease
-   ```
-
-4. Delete `app/signing/italiano-sideload.jks`. Note that a new key changes the signature: uninstall the old
-   app once (progress is lost unless restored from Android backup) and let Obtainium install the new one.
+To sign locally, export `ITALIANO_KEYSTORE_PATH` and `ITALIANO_KEYSTORE_PASSWORD` before `./gradlew assembleRelease`.
 
 ## Adding content
 

@@ -22,16 +22,21 @@ android {
         versionName = "0.1.$runNumber"
     }
 
+    // Release signing key comes from the environment (GitHub secrets in CI), never
+    // from the repo. Without it the release APK is built unsigned.
+    val keystorePath = System.getenv("ITALIANO_KEYSTORE_PATH")
+    val keystorePassword = System.getenv("ITALIANO_KEYSTORE_PASSWORD")
+    val hasSigningKey = !keystorePath.isNullOrBlank() && !keystorePassword.isNullOrBlank() &&
+        file(keystorePath).exists()
+
     signingConfigs {
-        // Personal sideload key, committed on purpose so every CI build has the
-        // same signature (required for Obtainium updates). NOT a Play Store key.
-        // See README "Signing" for how to swap it for a secret-based key.
-        create("sideload") {
-            val ksPath = System.getenv("ITALIANO_KEYSTORE_PATH")
-            storeFile = if (ksPath.isNullOrBlank()) file("signing/italiano-sideload.jks") else file(ksPath)
-            storePassword = System.getenv("ITALIANO_KEYSTORE_PASSWORD") ?: "italiano-debug"
-            keyAlias = System.getenv("ITALIANO_KEY_ALIAS") ?: "italiano"
-            keyPassword = System.getenv("ITALIANO_KEY_PASSWORD") ?: "italiano-debug"
+        if (hasSigningKey) {
+            create("sideload") {
+                storeFile = file(keystorePath!!)
+                storePassword = keystorePassword
+                keyAlias = System.getenv("ITALIANO_KEY_ALIAS") ?: "italiano"
+                keyPassword = System.getenv("ITALIANO_KEY_PASSWORD") ?: keystorePassword
+            }
         }
     }
 
@@ -39,7 +44,7 @@ android {
         getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = true
-            signingConfig = signingConfigs.getByName("sideload")
+            if (hasSigningKey) signingConfig = signingConfigs.getByName("sideload")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
