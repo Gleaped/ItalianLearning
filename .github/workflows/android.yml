@@ -31,8 +31,10 @@ jobs:
           distribution: temurin
           java-version: "21"
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Check Android SDK
+        # ubuntu-latest ships the Android SDK with licences accepted; AGP installs
+        # any missing platform/build-tools itself.
+        run: echo "ANDROID_HOME=$ANDROID_HOME" && ls "$ANDROID_HOME"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
