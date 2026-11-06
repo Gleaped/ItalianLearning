@@ -79,3 +79,32 @@ Accents are required but a missing accent is reported as "almost" rather than wr
 | `speak_respond` | `prompt` (question or situation), `keywords`: [string], `modelAnswer` | Answers aloud; scored on keywords used, model answer shown |
 | `roleplay` | `scenario`, `turns`: [{`speaker`: `npc` or `you`, `text` (npc line, or model answer for you), `hint?`, `keywords?`}] | NPC lines are spoken; on "you" turns the learner speaks |
 | `free_write` | `prompt`, `minWords`, `checklist`: [string], `modelAnswer` | Writes freely, then self-checks against the checklist and model |
+
+## Grammar tips (notification challenges)
+
+Each unit file may carry `grammarTips`. Reminders draw from tips of units the learner has started (plus
+remedial units they opened), so a notification can be a grammar reminder with a quick challenge rather than
+only a flashcard.
+
+```json
+"grammarTips": [
+  {
+    "id": "b1-01-t1",
+    "rule": "Imperfetto per lo sfondo",
+    "tip": "Use the imperfetto for background and the passato prossimo for the event that happened.",
+    "example": { "it": "Pioveva quando sono uscito.", "en": "It was raining when I went out." },
+    "challenge": { "type": "gap_fill", "sentence": "Mentre ___ (cucinare), è suonato il telefono.", "answers": ["cucinavo"] }
+  }
+]
+```
+
+- `rule`: short title, max 40 characters (notification title).
+- `tip`: one sentence, max 140 characters (notification body).
+- `challenge`: one exercise object, limited to the quick types `multiple_choice`, `gap_fill`, `translate`,
+  `error_correction` or `conjugation` with at most 3 items. It opens from the notification in a one-card screen.
+- Aim for 3–6 tips per unit, one per key rule; checkpoint units mix rules from the units they review.
+
+## Exam track
+
+Level `CELI3` holds exam-preparation units aligned to the CELI 3 (B2) exam of the Università per Stranieri
+di Perugia. They use the same exercise types; timed mock sections set `minutes` to the real section length.

@@ -21,6 +21,11 @@
       "id": "C1",
       "title": "C1 – Avanzato",
       "description": "Use Italian flexibly and precisely across registers: formal writing, nuance, idiom and mediation."
+    },
+    {
+      "id": "CELI3",
+      "title": "Esame CELI 3 (B2)",
+      "description": "Exam preparation for CELI 3: every section of the exam, strategies and timed mock papers."
     }
   ],
   "units": [
@@ -342,6 +347,54 @@
       "order": 10,
       "title": "Ripasso finale",
       "summary": "Final C1 checkpoint: extended argument, mediation and formal writing across the whole course.",
+      "available": false
+    },
+    {
+      "id": "celi-01",
+      "level": "CELI3",
+      "order": 1,
+      "title": "Leggere per l'esame",
+      "summary": "Reading section strategies and practice tasks in the CELI 3 format.",
+      "available": false
+    },
+    {
+      "id": "celi-02",
+      "level": "CELI3",
+      "order": 2,
+      "title": "Ascoltare per l'esame",
+      "summary": "Listening section strategies and practice tasks in the CELI 3 format.",
+      "available": false
+    },
+    {
+      "id": "celi-03",
+      "level": "CELI3",
+      "order": 3,
+      "title": "Competenza linguistica",
+      "summary": "Grammar and vocabulary section (cloze, word formation, transformations) in the CELI 3 format.",
+      "available": false
+    },
+    {
+      "id": "celi-04",
+      "level": "CELI3",
+      "order": 4,
+      "title": "Scrivere per l'esame",
+      "summary": "Writing section: letters, emails and essays to CELI 3 length, register and marking criteria.",
+      "available": false
+    },
+    {
+      "id": "celi-05",
+      "level": "CELI3",
+      "order": 5,
+      "title": "Parlare per l'esame",
+      "summary": "Speaking section: self-presentation, describing an image and a role-play/discussion task.",
+      "available": false
+    },
+    {
+      "id": "celi-06",
+      "level": "CELI3",
+      "order": 6,
+      "title": "Simulazione d'esame",
+      "summary": "Timed mock exam covering every CELI 3 section with self-assessment against the criteria.",
       "available": false
     }
   ]
