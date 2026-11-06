@@ -1,0 +1,19 @@
+# Gradle / build
+.gradle/
+build/
+**/build/
+.kotlin/
+local.properties
+captures/
+*.apk
+*.aab
+*.ap_
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Signing: keep the committed sideload key, ignore any other keystores
+*.jks
+*.keystore

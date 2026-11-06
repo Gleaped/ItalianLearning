@@ -1,0 +1,348 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "id": "A2R",
+      "title": "Ripasso A2",
+      "description": "Remedial refreshers of core A2 grammar, to revisit whenever a B1 unit feels shaky.",
+      "remedial": true
+    },
+    {
+      "id": "B1",
+      "title": "B1 – Intermedio",
+      "description": "Narrate past events, handle everyday services, give opinions and make plans with confidence."
+    },
+    {
+      "id": "B2",
+      "title": "B2 – Intermedio superiore",
+      "description": "Argue, hypothesise and report in detail; understand news, notices and longer conversations."
+    },
+    {
+      "id": "C1",
+      "title": "C1 – Avanzato",
+      "description": "Use Italian flexibly and precisely across registers: formal writing, nuance, idiom and mediation."
+    }
+  ],
+  "units": [
+    {
+      "id": "a2r-01",
+      "level": "A2R",
+      "order": 1,
+      "title": "Il passato prossimo",
+      "summary": "Passato prossimo with avere or essere, irregular participles and agreement, to say what you did yesterday or last weekend.",
+      "available": true
+    },
+    {
+      "id": "a2r-02",
+      "level": "A2R",
+      "order": 2,
+      "title": "L'imperfetto",
+      "summary": "Imperfetto forms and core uses (habits, descriptions, background) to describe how things used to be.",
+      "available": false
+    },
+    {
+      "id": "a2r-03",
+      "level": "A2R",
+      "order": 3,
+      "title": "Preposizioni articolate",
+      "summary": "Articles and articulated prepositions (al, nel, dal, sul…) to say where things are and how to get somewhere.",
+      "available": false
+    },
+    {
+      "id": "a2r-04",
+      "level": "A2R",
+      "order": 4,
+      "title": "Pronomi diretti e indiretti",
+      "summary": "Direct and indirect object pronouns (lo, la, gli, le…) to handle everyday shopping and service exchanges.",
+      "available": false
+    },
+    {
+      "id": "a2r-05",
+      "level": "A2R",
+      "order": 5,
+      "title": "La giornata e i riflessivi",
+      "summary": "Reflexive verbs in the present and passato prossimo to describe daily routines.",
+      "available": false
+    },
+    {
+      "id": "a2r-06",
+      "level": "A2R",
+      "order": 6,
+      "title": "Futuro e confronti",
+      "summary": "Futuro semplice plus comparatives and superlatives to talk about plans and compare options.",
+      "available": false
+    },
+    {
+      "id": "b1-01",
+      "level": "B1",
+      "order": 1,
+      "title": "Com'è andata?",
+      "summary": "Passato prossimo vs imperfetto to tell someone how a recent day, appointment or weekend went.",
+      "available": true
+    },
+    {
+      "id": "b1-02",
+      "level": "B1",
+      "order": 2,
+      "title": "Ci e ne",
+      "summary": "The particles ci and ne to talk about places and quantities at the market, shops and home.",
+      "available": false
+    },
+    {
+      "id": "b1-03",
+      "level": "B1",
+      "order": 3,
+      "title": "Me lo dà?",
+      "summary": "Combined pronouns (me lo, glielo, ce ne…) to ask for, offer and return things at the pharmacy, post office or shop.",
+      "available": false
+    },
+    {
+      "id": "b1-04",
+      "level": "B1",
+      "order": 4,
+      "title": "Ripasso 1",
+      "summary": "Checkpoint reviewing past tenses, ci/ne and combined pronouns through a mixed real-life task set.",
+      "available": false
+    },
+    {
+      "id": "b1-05",
+      "level": "B1",
+      "order": 5,
+      "title": "Come si fa?",
+      "summary": "Si impersonale and the imperative (tu and Lei, with pronouns) to understand and give instructions and procedures.",
+      "available": false
+    },
+    {
+      "id": "b1-06",
+      "level": "B1",
+      "order": 6,
+      "title": "Vorrei sapere…",
+      "summary": "Condizionale presente to make polite requests, give advice and express wishes on the phone and at the counter.",
+      "available": false
+    },
+    {
+      "id": "b1-07",
+      "level": "B1",
+      "order": 7,
+      "title": "Progetti e previsioni",
+      "summary": "Futuro semplice and futuro anteriore to make plans, predictions and guesses about the present.",
+      "available": false
+    },
+    {
+      "id": "b1-08",
+      "level": "B1",
+      "order": 8,
+      "title": "Ripasso 2",
+      "summary": "Checkpoint reviewing instructions, conditional and future through an appointment-booking and planning task.",
+      "available": false
+    },
+    {
+      "id": "b1-09",
+      "level": "B1",
+      "order": 9,
+      "title": "Secondo me…",
+      "summary": "Congiuntivo presente after opinion, wish and emotion verbs to give and ask for opinions.",
+      "available": false
+    },
+    {
+      "id": "b1-10",
+      "level": "B1",
+      "order": 10,
+      "title": "La persona che cerco",
+      "summary": "Relative pronouns (che, cui, chi, quello che) to describe people, things and what you need.",
+      "available": false
+    },
+    {
+      "id": "b1-11",
+      "level": "B1",
+      "order": 11,
+      "title": "Era già successo",
+      "summary": "Trapassato prossimo and time connectors (prima, dopo, appena, ormai) to tell a story in a clear sequence.",
+      "available": false
+    },
+    {
+      "id": "b1-12",
+      "level": "B1",
+      "order": 12,
+      "title": "Ripasso B1",
+      "summary": "End-of-B1 checkpoint: narrating, opining and handling services across all B1 grammar.",
+      "available": false
+    },
+    {
+      "id": "b2-01",
+      "level": "B2",
+      "order": 1,
+      "title": "Speravo che fosse vero",
+      "summary": "Congiuntivo passato and imperfetto to express feelings, doubts and expectations about past and present events.",
+      "available": false
+    },
+    {
+      "id": "b2-02",
+      "level": "B2",
+      "order": 2,
+      "title": "Se fosse possibile…",
+      "summary": "Periodo ipotetico types 1 and 2 to discuss real and hypothetical options and their consequences.",
+      "available": false
+    },
+    {
+      "id": "b2-03",
+      "level": "B2",
+      "order": 3,
+      "title": "Avrei voluto…",
+      "summary": "Condizionale passato to express regrets, the future in the past and unconfirmed news.",
+      "available": false
+    },
+    {
+      "id": "b2-04",
+      "level": "B2",
+      "order": 4,
+      "title": "Ripasso 3",
+      "summary": "Checkpoint reviewing subjunctive, conditional and hypotheticals through a complaint-and-negotiation task.",
+      "available": false
+    },
+    {
+      "id": "b2-05",
+      "level": "B2",
+      "order": 5,
+      "title": "Si comunica che…",
+      "summary": "The passive (essere, venire, si passivante) to understand news, notices and official announcements.",
+      "available": false
+    },
+    {
+      "id": "b2-06",
+      "level": "B2",
+      "order": 6,
+      "title": "Mi ha detto che…",
+      "summary": "Reported speech with tense shifts to pass on what a doctor, teacher or official said.",
+      "available": false
+    },
+    {
+      "id": "b2-07",
+      "level": "B2",
+      "order": 7,
+      "title": "La concordanza dei tempi",
+      "summary": "Sequence of tenses with indicative and subjunctive to build longer, well-linked opinions.",
+      "available": false
+    },
+    {
+      "id": "b2-08",
+      "level": "B2",
+      "order": 8,
+      "title": "Ripasso 4",
+      "summary": "Checkpoint reviewing passive, reported speech and sequence of tenses through a news-and-retell task.",
+      "available": false
+    },
+    {
+      "id": "b2-09",
+      "level": "B2",
+      "order": 9,
+      "title": "Se l'avessi saputo…",
+      "summary": "Periodo ipotetico type 3 and mixed conditionals to talk about what could have happened.",
+      "available": false
+    },
+    {
+      "id": "b2-10",
+      "level": "B2",
+      "order": 10,
+      "title": "Detto fatto",
+      "summary": "Gerundio, participio and infinito in implicit clauses to make sentences shorter and more fluent.",
+      "available": false
+    },
+    {
+      "id": "b2-11",
+      "level": "B2",
+      "order": 11,
+      "title": "Benché, purché, affinché",
+      "summary": "Concessive, conditional and purpose connectors with the subjunctive to argue a point in a meeting.",
+      "available": false
+    },
+    {
+      "id": "b2-12",
+      "level": "B2",
+      "order": 12,
+      "title": "Ripasso B2",
+      "summary": "End-of-B2 checkpoint: argue, report and hypothesise in extended speech and writing.",
+      "available": false
+    },
+    {
+      "id": "c1-01",
+      "level": "C1",
+      "order": 1,
+      "title": "Registro e cortesia",
+      "summary": "Formal register and nominalisation to write effective formal emails, complaints and requests.",
+      "available": false
+    },
+    {
+      "id": "c1-02",
+      "level": "C1",
+      "order": 2,
+      "title": "Il passato remoto",
+      "summary": "Passato remoto (recognition and active use) to read and retell narratives, history and literary texts.",
+      "available": false
+    },
+    {
+      "id": "c1-03",
+      "level": "C1",
+      "order": 3,
+      "title": "È lui che…",
+      "summary": "Marked word order (dislocation, cleft sentences) to sound natural and emphasise ideas in speech.",
+      "available": false
+    },
+    {
+      "id": "c1-04",
+      "level": "C1",
+      "order": 4,
+      "title": "Ripasso 5",
+      "summary": "Checkpoint reviewing register, passato remoto and marked word order through a formal-and-informal retelling task.",
+      "available": false
+    },
+    {
+      "id": "c1-05",
+      "level": "C1",
+      "order": 5,
+      "title": "Modi di dire",
+      "summary": "Idioms and strong collocations to understand and use colloquial, vivid Italian appropriately.",
+      "available": false
+    },
+    {
+      "id": "c1-06",
+      "level": "C1",
+      "order": 6,
+      "title": "Cavarsela",
+      "summary": "Pronominal verbs (farcela, cavarsela, prendersela, andarsene) to talk about coping, conflict and emotions.",
+      "available": false
+    },
+    {
+      "id": "c1-07",
+      "level": "C1",
+      "order": 7,
+      "title": "Il burocratese",
+      "summary": "Bureaucratic language and impersonal constructions to read contracts, forms and official letters.",
+      "available": false
+    },
+    {
+      "id": "c1-08",
+      "level": "C1",
+      "order": 8,
+      "title": "Come se niente fosse",
+      "summary": "Advanced subjunctive (come se, chiunque, qualunque, relative clauses) to express nuance and hypotheticals precisely.",
+      "available": false
+    },
+    {
+      "id": "c1-09",
+      "level": "C1",
+      "order": 9,
+      "title": "Discutere e mediare",
+      "summary": "Discourse markers, hedging and mitigation to lead discussions, disagree politely and mediate.",
+      "available": false
+    },
+    {
+      "id": "c1-10",
+      "level": "C1",
+      "order": 10,
+      "title": "Ripasso finale",
+      "summary": "Final C1 checkpoint: extended argument, mediation and formal writing across the whole course.",
+      "available": false
+    }
+  ]
+}

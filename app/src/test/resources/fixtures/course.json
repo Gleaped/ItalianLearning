@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "futureField": "ignored",
+  "levels": [
+    { "id": "A2R", "title": "Ripasso A2", "description": "Remedial refreshers", "remedial": true },
+    { "id": "B1", "title": "B1 – Intermedio", "description": "..." },
+    { "id": "B2", "title": "B2 – Intermedio superiore", "description": "..." },
+    { "id": "C1", "title": "C1 – Avanzato", "description": "..." }
+  ],
+  "units": [
+    { "id": "a2r-01", "level": "A2R", "order": 1, "title": "Ripasso", "summary": "s", "available": true },
+    { "id": "b1-01", "level": "B1", "order": 1, "title": "Primo", "summary": "s", "available": true },
+    { "id": "b1-02", "level": "B1", "order": 2, "title": "Secondo", "summary": "s", "available": true },
+    { "id": "b1-03", "level": "B1", "order": 3, "title": "Terzo", "summary": "s", "available": false }
+  ]
+}
