@@ -44,8 +44,13 @@ import androidx.compose.ui.unit.dp
 import androidx.activity.compose.BackHandler
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.gleaped.italianlearning.content.reference.GrammarReference
+import com.gleaped.italianlearning.content.reference.ReferenceParser
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
+import com.gleaped.italianlearning.ui.components.LookupText
 import com.gleaped.italianlearning.ui.components.SpeakerButton
+import com.gleaped.italianlearning.ui.lookup.WordLookupHost
+import androidx.compose.runtime.produceState
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -55,8 +60,17 @@ fun LessonScreen(
     onClose: () -> Unit,
     onOpenLesson: (unitId: String, lessonId: String) -> Unit,
     onReview: () -> Unit,
+    onOpenRule: (topicId: String) -> Unit = {},
+    onOpenWord: (lemmaId: Long) -> Unit = {},
 ) {
     val container = LocalAppContainer.current
+    val reference by produceState<GrammarReference?>(null, container) { value = container.reference.load() }
+    val ruleFor: (com.gleaped.italianlearning.content.GrammarNote) -> RuleLink? = remember(reference, unitId) {
+        { note: com.gleaped.italianlearning.content.GrammarNote ->
+            reference?.let { ReferenceParser.topicForNote(it, unitId, note.title, note.body) }
+                ?.let { topic -> RuleLink(topic.title) { onOpenRule(topic.id) } }
+        }
+    }
     val vm: LessonViewModel = viewModel(factory = LessonViewModel.factory(container, unitId, lessonId))
     val state by vm.state.collectAsStateWithLifecycle()
     var confirmExit by remember { mutableStateOf(false) }
@@ -80,66 +94,70 @@ fun LessonScreen(
         )
     }
 
-    Scaffold(
-        // Edge-to-edge: the window is not resized for the keyboard, so pad for it here. The
-        // exercise column and the feedback bar then always end at the top of the keyboard.
-        modifier = Modifier.imePadding(),
-        topBar = {
-            TopAppBar(
-                navigationIcon = {
-                    IconButton(onClick = { if (running) confirmExit = true else onClose() }) {
-                        Icon(Icons.Filled.Close, contentDescription = "Close lesson")
-                    }
-                },
-                title = {
-                    when (val s = state) {
-                        is LessonUiState.Running -> LinearProgressIndicator(
-                            progress = { s.progress },
-                            modifier = Modifier.fillMaxWidth().padding(end = 16.dp),
-                        )
-                        is LessonUiState.Finished -> Text(s.lesson.title)
-                        else -> Text("")
-                    }
-                },
-            )
-        },
-        bottomBar = {
-            val s = state
-            if (s is LessonUiState.Running && s.feedback != null) {
-                FeedbackPanel(s.feedback, onContinue = vm::next)
-            }
-        },
-    ) { padding ->
-        Box(Modifier.fillMaxSize().padding(padding)) {
-            when (val s = state) {
-                LessonUiState.Loading -> CircularProgressIndicator(Modifier.align(Alignment.Center))
-                is LessonUiState.Error -> Column(
-                    Modifier.align(Alignment.Center).padding(24.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                ) {
-                    Text(s.message, textAlign = TextAlign.Center)
-                    Spacer(Modifier.height(12.dp))
-                    Button(onClick = onClose) { Text("Back") }
-                }
-                is LessonUiState.Running -> RunningLesson(s, vm)
-                is LessonUiState.Finished -> SummaryView(
-                    s,
-                    onClose = onClose,
-                    onNext = { u, l -> onOpenLesson(u, l) },
-                    onReview = onReview,
+    // Long-press an Italian word anywhere in the lesson to look it up.
+    WordLookupHost(onOpenEntry = onOpenWord) {
+        Scaffold(
+            // Edge-to-edge: the window is not resized for the keyboard, so pad for it here. The
+            // exercise column and the feedback bar then always end at the top of the keyboard.
+            modifier = Modifier.imePadding(),
+            topBar = {
+                TopAppBar(
+                    navigationIcon = {
+                        IconButton(onClick = { if (running) confirmExit = true else onClose() }) {
+                            Icon(Icons.Filled.Close, contentDescription = "Close lesson")
+                        }
+                    },
+                    title = {
+                        when (val s = state) {
+                            is LessonUiState.Running -> LinearProgressIndicator(
+                                progress = { s.progress },
+                                modifier = Modifier.fillMaxWidth().padding(end = 16.dp),
+                            )
+                            is LessonUiState.Finished -> Text(s.lesson.title)
+                            else -> Text("")
+                        }
+                    },
                 )
+            },
+            bottomBar = {
+                val s = state
+                if (s is LessonUiState.Running && s.feedback != null) {
+                    FeedbackPanel(s.feedback, onContinue = vm::next)
+                }
+            },
+        ) { padding ->
+            Box(Modifier.fillMaxSize().padding(padding)) {
+                when (val s = state) {
+                    LessonUiState.Loading -> CircularProgressIndicator(Modifier.align(Alignment.Center))
+                    is LessonUiState.Error -> Column(
+                        Modifier.align(Alignment.Center).padding(24.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                    ) {
+                        Text(s.message, textAlign = TextAlign.Center)
+                        Spacer(Modifier.height(12.dp))
+                        Button(onClick = onClose) { Text("Back") }
+                    }
+                    is LessonUiState.Running -> RunningLesson(s, vm, ruleFor)
+                    is LessonUiState.Finished -> SummaryView(
+                        s,
+                        onClose = onClose,
+                        onNext = { u, l -> onOpenLesson(u, l) },
+                        onReview = onReview,
+                    )
+                }
             }
         }
     }
 }
 
 @Composable
-private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel) {
-    val actions = remember(vm) {
+private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor: (com.gleaped.italianlearning.content.GrammarNote) -> RuleLink?) {
+    val actions = remember(vm, ruleFor) {
         ExerciseActions(
             answer = vm::answer,
             continueWith = vm::recordAndContinue,
             flashcardSeen = vm::onFlashcardSeen,
+            ruleFor = ruleFor,
         )
     }
     key(s.index) {
@@ -203,13 +221,13 @@ fun FeedbackBody(feedback: Feedback) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) {
                     Text(feedback.expectedLabel, style = MaterialTheme.typography.labelMedium)
-                    Text(feedback.expected.orEmpty(), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
+                    LookupText(feedback.expected.orEmpty(), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
                 }
                 SpeakerButton(feedback.expected.orEmpty())
             }
         }
         feedback.explanation?.takeIf { it.isNotBlank() }?.let {
-            Text(it, style = MaterialTheme.typography.bodyMedium)
+            LookupText(it, style = MaterialTheme.typography.bodyMedium)
         }
     }
 }

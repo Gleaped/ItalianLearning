@@ -213,8 +213,6 @@ fun SettingsScreen() {
             .padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Impostazioni", style = MaterialTheme.typography.headlineMedium)
-
         // ---------------- Reminders
         SectionTitle("Reminders")
         SwitchRow(

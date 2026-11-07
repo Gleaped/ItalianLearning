@@ -51,6 +51,7 @@ import com.gleaped.italianlearning.domain.progress.CourseProgress
 import com.gleaped.italianlearning.domain.progress.UnitStatus
 import com.gleaped.italianlearning.ui.components.ItalianText
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
+import com.gleaped.italianlearning.ui.lookup.WordLookupHost
 import com.gleaped.italianlearning.ui.lesson.ExerciseActions
 import com.gleaped.italianlearning.ui.lesson.ExerciseView
 import com.gleaped.italianlearning.ui.lesson.Feedback
@@ -162,6 +163,7 @@ fun ChallengeScreen(
     onClose: () -> Unit,
     onOpenLesson: (unitId: String, lessonId: String) -> Unit,
     onOpenUnit: (unitId: String) -> Unit,
+    onOpenWord: (lemmaId: Long) -> Unit = {},
 ) {
     val container = LocalAppContainer.current
     val vm: ChallengeViewModel = viewModel(
@@ -173,38 +175,41 @@ fun ChallengeScreen(
         vm.continueLesson { u, l -> if (l != null) onOpenLesson(u, l) else onOpenUnit(u) }
     }
 
-    Scaffold(
-        // Pads for the keyboard (edge-to-edge), so typed answers and buttons stay visible.
-        modifier = Modifier.imePadding(),
-        topBar = {
-            TopAppBar(
-                title = { Text("Sfida") },
-                navigationIcon = {
-                    IconButton(onClick = onClose) {
-                        Icon(Icons.Filled.Close, contentDescription = "Chiudi")
-                    }
-                },
-            )
-        },
-        bottomBar = {
-            val s = state
-            if (s is ChallengeUiState.Ready && s.done) {
-                ChallengeActions(onContinue = onContinue, onClose = onClose)
-            }
-        },
-    ) { padding ->
-        Box(Modifier.fillMaxSize().padding(padding)) {
-            when (val s = state) {
-                ChallengeUiState.Loading -> CircularProgressIndicator(Modifier.align(Alignment.Center))
-                ChallengeUiState.Missing -> Column(
-                    Modifier.align(Alignment.Center).padding(24.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    Text("This challenge is no longer available.", textAlign = TextAlign.Center)
-                    Button(onClick = onClose) { Text("Chiudi") }
+    // Long-press an Italian word to look it up.
+    WordLookupHost(onOpenEntry = onOpenWord) {
+        Scaffold(
+            // Pads for the keyboard (edge-to-edge), so typed answers and buttons stay visible.
+            modifier = Modifier.imePadding(),
+            topBar = {
+                TopAppBar(
+                    title = { Text("Sfida") },
+                    navigationIcon = {
+                        IconButton(onClick = onClose) {
+                            Icon(Icons.Filled.Close, contentDescription = "Chiudi")
+                        }
+                    },
+                )
+            },
+            bottomBar = {
+                val s = state
+                if (s is ChallengeUiState.Ready && s.done) {
+                    ChallengeActions(onContinue = onContinue, onClose = onClose)
                 }
-                is ChallengeUiState.Ready -> ChallengeContent(s, vm)
+            },
+        ) { padding ->
+            Box(Modifier.fillMaxSize().padding(padding)) {
+                when (val s = state) {
+                    ChallengeUiState.Loading -> CircularProgressIndicator(Modifier.align(Alignment.Center))
+                    ChallengeUiState.Missing -> Column(
+                        Modifier.align(Alignment.Center).padding(24.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.spacedBy(12.dp),
+                    ) {
+                        Text("This challenge is no longer available.", textAlign = TextAlign.Center)
+                        Button(onClick = onClose) { Text("Chiudi") }
+                    }
+                    is ChallengeUiState.Ready -> ChallengeContent(s, vm)
+                }
             }
         }
     }
