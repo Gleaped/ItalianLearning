@@ -7,7 +7,12 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -28,7 +33,11 @@ import com.gleaped.italianlearning.domain.reminders.ReminderTarget
 import com.gleaped.italianlearning.ui.challenge.ChallengeScreen
 import com.gleaped.italianlearning.ui.course.CourseMapScreen
 import com.gleaped.italianlearning.ui.course.UnitScreen
+import com.gleaped.italianlearning.ui.grammar.GrammarScreen
+import com.gleaped.italianlearning.ui.grammar.GrammarTopicScreen
 import com.gleaped.italianlearning.ui.home.HomeScreen
+import com.gleaped.italianlearning.ui.lookup.LookupScreen
+import com.gleaped.italianlearning.ui.lookup.WordEntryScreen
 import com.gleaped.italianlearning.ui.lesson.LessonScreen
 import com.gleaped.italianlearning.ui.review.ReviewScreen
 import com.gleaped.italianlearning.ui.settings.SettingsScreen
@@ -41,22 +50,31 @@ object Routes {
     const val UNIT = "unit/{unitId}"
     const val LESSON = "lesson/{unitId}/{lessonId}"
     const val CHALLENGE = "challenge/{unitId}/{tipId}"
+    const val GRAMMAR = "grammar"
+    const val GRAMMAR_TOPIC = "grammar/topic/{topicId}"
+    const val LOOKUP = "lookup"
+    const val WORD = "word/{lemmaId}"
 
     fun unit(id: String) = "unit/${Uri.encode(id)}"
     fun lesson(unitId: String, lessonId: String) = "lesson/${Uri.encode(unitId)}/${Uri.encode(lessonId)}"
     fun challenge(unitId: String, tipId: String) = "challenge/${Uri.encode(unitId)}/${Uri.encode(tipId)}"
+    fun grammarTopic(id: String) = "grammar/topic/${Uri.encode(id)}"
+    fun word(lemmaId: Long) = "word/$lemmaId"
 }
 
 /** A notification target waiting to be opened; [id] makes repeated taps distinct. */
 data class PendingDeepLink(val target: ReminderTarget, val id: Long)
 
-private data class TopLevel(val route: String, val label: String, @param:DrawableRes val icon: Int)
+/** [label] is the bottom-bar label, [title] the top app bar title. */
+private data class TopLevel(val route: String, val label: String, val title: String, @param:DrawableRes val icon: Int)
 
+// Five destinations: Material's maximum for a navigation bar.
 private val topLevel = listOf(
-    TopLevel(Routes.TODAY, "Today", R.drawable.ic_today),
-    TopLevel(Routes.COURSE, "Course", R.drawable.ic_map),
-    TopLevel(Routes.REVIEW, "Review", R.drawable.ic_cards),
-    TopLevel(Routes.SETTINGS, "Settings", R.drawable.ic_settings),
+    TopLevel(Routes.TODAY, "Today", "Oggi", R.drawable.ic_today),
+    TopLevel(Routes.COURSE, "Course", "Il corso", R.drawable.ic_map),
+    TopLevel(Routes.GRAMMAR, "Grammar", "Grammatica", R.drawable.ic_book),
+    TopLevel(Routes.REVIEW, "Review", "Ripasso", R.drawable.ic_cards),
+    TopLevel(Routes.SETTINGS, "Settings", "Impostazioni", R.drawable.ic_settings),
 )
 
 private fun NavHostController.navigateTopLevel(route: String) {
@@ -71,16 +89,28 @@ private fun NavHostController.navigateTopLevel(route: String) {
  * @param deepLink set when a reminder notification is tapped (cold start or while running);
  * the app opens its target and then calls [onDeepLinkHandled].
  */
-@OptIn(ExperimentalLayoutApi::class)
+@OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLink) -> Unit) {
     val nav = rememberNavController()
     val backStack by nav.currentBackStackEntryAsState()
     val currentRoute = backStack?.destination?.route
-    val showBottomBar = topLevel.any { it.route == currentRoute }
-
+    val currentTopLevel = topLevel.firstOrNull { it.route == currentRoute }
+    val showBottomBar = currentTopLevel != null
 
     Scaffold(
+        topBar = {
+            if (currentTopLevel != null) {
+                TopAppBar(
+                    title = { Text(currentTopLevel.title) },
+                    actions = {
+                        IconButton(onClick = { nav.navigate(Routes.LOOKUP) { launchSingleTop = true } }) {
+                            Icon(Icons.Filled.Search, contentDescription = "Look up a word")
+                        }
+                    },
+                )
+            }
+        },
         bottomBar = {
             if (showBottomBar) {
                 NavigationBar {
@@ -112,6 +142,28 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                 }
                 composable(Routes.COURSE) {
                     CourseMapScreen(onOpenUnit = { nav.navigate(Routes.unit(it)) })
+                }
+                composable(Routes.GRAMMAR) {
+                    GrammarScreen(onOpenTopic = { nav.navigate(Routes.grammarTopic(it)) })
+                }
+                composable(Routes.GRAMMAR_TOPIC) { entry ->
+                    GrammarTopicScreen(
+                        topicId = entry.arguments?.getString("topicId").orEmpty(),
+                        onBack = { nav.popBackStack() },
+                        onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                    )
+                }
+                composable(Routes.LOOKUP) {
+                    LookupScreen(
+                        onBack = { nav.popBackStack() },
+                        onOpenEntry = { nav.navigate(Routes.word(it)) },
+                    )
+                }
+                composable(Routes.WORD) { entry ->
+                    WordEntryScreen(
+                        lemmaId = entry.arguments?.getString("lemmaId")?.toLongOrNull() ?: -1L,
+                        onBack = { nav.popBackStack() },
+                    )
                 }
                 composable(Routes.REVIEW) {
                     ReviewScreen(onDone = { nav.navigateTopLevel(Routes.TODAY) })
@@ -148,6 +200,7 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                                 popUpTo(Routes.CHALLENGE) { inclusive = true }
                             }
                         },
+                        onOpenWord = { nav.navigate(Routes.word(it)) },
                     )
                 }
                 composable(Routes.LESSON) { entry ->
@@ -166,6 +219,8 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                             nav.popBackStack()
                             nav.navigateTopLevel(Routes.REVIEW)
                         },
+                        onOpenRule = { nav.navigate(Routes.grammarTopic(it)) },
+                        onOpenWord = { nav.navigate(Routes.word(it)) },
                     )
                 }
             }

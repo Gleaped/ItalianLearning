@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Checkbox
@@ -68,15 +69,21 @@ import com.gleaped.italianlearning.speech.SpeechCapture
 import com.gleaped.italianlearning.speech.TtsStatus
 import com.gleaped.italianlearning.ui.components.ItalianText
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
+import com.gleaped.italianlearning.ui.components.LookupText
 import com.gleaped.italianlearning.ui.components.RichText
 import com.gleaped.italianlearning.ui.components.SpeakerButton
 import kotlin.math.roundToInt
+
+/** A link from a grammar note to its page in the grammar reference. */
+class RuleLink(val title: String, val open: () -> Unit)
 
 /** Callbacks from an exercise to the lesson player. */
 class ExerciseActions(
     val answer: (Feedback) -> Unit,
     val continueWith: (Verdict?) -> Unit,
     val flashcardSeen: (Flashcard) -> Unit,
+    /** The reference topic for a grammar note, when one lists this unit. */
+    val ruleFor: (GrammarNote) -> RuleLink? = { null },
 )
 
 @Composable
@@ -88,7 +95,7 @@ fun ExerciseView(
     actions: ExerciseActions,
 ) {
     when (exercise) {
-        is GrammarNote -> GrammarNoteView(exercise) { actions.continueWith(null) }
+        is GrammarNote -> GrammarNoteView(exercise, actions.ruleFor(exercise)) { actions.continueWith(null) }
         is Flashcard -> FlashcardView(exercise, actions)
         is MultipleChoice -> ChoiceView(exercise.prompt, null, exercise.options, exercise.answer, answered, actions)
         is GapFill -> GapFillView(exercise, answered, actions)
@@ -120,7 +127,7 @@ private fun UnavailableView(message: String, onSkip: () -> Unit) {
 // ---------------------------------------------------------------- grammar_note
 
 @Composable
-private fun GrammarNoteView(e: GrammarNote, onContinue: () -> Unit) {
+private fun GrammarNoteView(e: GrammarNote, rule: RuleLink?, onContinue: () -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         if (e.title.isNotBlank()) Text(e.title, style = MaterialTheme.typography.headlineSmall)
         RichText(e.body)
@@ -137,7 +144,13 @@ private fun GrammarNoteView(e: GrammarNote, onContinue: () -> Unit) {
                 }
             }
         }
-        Spacer(Modifier.height(8.dp))
+        if (rule != null) {
+            TextButton(onClick = rule.open, contentPadding = ButtonDefaults.TextButtonContentPadding) {
+                Text("Vedi la regola: ${rule.title}", style = MaterialTheme.typography.labelLarge)
+            }
+        } else {
+            Spacer(Modifier.height(8.dp))
+        }
         Button(onClick = onContinue, modifier = Modifier.fillMaxWidth()) { Text("Continue") }
     }
 }
@@ -160,7 +173,7 @@ private fun FlashcardView(e: Flashcard, actions: ExerciseActions) {
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(e.front, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
+                    LookupText(e.front, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
                     SpeakerButton(e.front)
                 }
                 if (flipped) {
@@ -168,7 +181,7 @@ private fun FlashcardView(e: Flashcard, actions: ExerciseActions) {
                     Text(e.back, style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
                     e.example?.let { ex ->
                         Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(ex, style = MaterialTheme.typography.bodyLarge, fontStyle = FontStyle.Italic, textAlign = TextAlign.Center)
+                            LookupText(ex, style = MaterialTheme.typography.bodyLarge, fontStyle = FontStyle.Italic, textAlign = TextAlign.Center)
                             SpeakerButton(ex)
                         }
                     }
@@ -230,7 +243,7 @@ private fun ChoiceView(
             ListenControls(listen.audioText, autoPlay = autoPlay, revealAfterAnswer = answered)
         }
         if (prompt.isNotBlank()) {
-            Text(prompt, style = MaterialTheme.typography.titleLarge)
+            LookupText(prompt, style = MaterialTheme.typography.titleLarge)
         }
         options.forEachIndexed { i, option ->
             OptionButton(
@@ -285,7 +298,7 @@ private fun ListenControls(audioText: String, autoPlay: Boolean, revealAfterAnsw
             else -> Unit
         }
         if (revealed || revealAfterAnswer) {
-            Text(audioText, style = MaterialTheme.typography.bodyLarge, fontStyle = FontStyle.Italic, textAlign = TextAlign.Center)
+            LookupText(audioText, style = MaterialTheme.typography.bodyLarge, fontStyle = FontStyle.Italic, textAlign = TextAlign.Center)
         }
     }
 }
@@ -300,7 +313,7 @@ private fun GapFillView(e: GapFill, answered: Boolean, actions: ExerciseActions)
         actions.answer(Feedback(r.verdict, expected = e.sentence.replace("___", r.expected), note = r.note))
     }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(e.sentence.replace("___", "_____"), style = MaterialTheme.typography.titleLarge)
+        LookupText(e.sentence.replace("___", "_____"), style = MaterialTheme.typography.titleLarge)
         e.hint?.let { Hint(it) }
         AnswerField(input, { input = it }, enabled = !answered, onDone = check)
         CheckButton(enabled = !answered && input.isNotBlank(), onClick = check)
@@ -329,7 +342,7 @@ private fun ConjugationView(e: Conjugation, answered: Boolean, actions: Exercise
         )
     }
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        Text(e.verb, style = MaterialTheme.typography.headlineSmall)
+        LookupText(e.verb, style = MaterialTheme.typography.headlineSmall)
         if (e.tense.isNotBlank()) Text(e.tense, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.secondary)
         e.items.forEachIndexed { i, item ->
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -490,7 +503,7 @@ private fun ErrorCorrectionView(e: ErrorCorrection, answered: Boolean, actions: 
     }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text("Find and fix the mistake:", style = MaterialTheme.typography.labelLarge)
-        Text(e.sentence, style = MaterialTheme.typography.titleLarge)
+        LookupText(e.sentence, style = MaterialTheme.typography.titleLarge)
         AnswerField(input, { input = it }, enabled = !answered, onDone = check, label = "Corrected sentence", singleLine = false, minLines = 2)
         CheckButton(enabled = !answered && input.isNotBlank(), onClick = check)
     }
@@ -526,7 +539,7 @@ private fun ReadingView(e: Reading, answered: Boolean, actions: ExerciseActions)
             }
         }
         e.questions.forEachIndexed { qi, q ->
-            Text(q.question, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp))
+            LookupText(q.question, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp))
             q.options.forEachIndexed { oi, option ->
                 OptionButton(
                     text = option,
@@ -734,7 +747,7 @@ private fun ChatBubble(line: RoleplayLine) {
         ) {
             Column(Modifier.padding(start = 12.dp, top = 6.dp, bottom = 8.dp, end = 4.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(line.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+                    LookupText(line.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
                     if (line.npc) SpeakerButton(line.text)
                 }
                 line.sub?.let { sub ->
@@ -779,7 +792,7 @@ private fun FreeWriteView(e: FreeWrite, answered: Boolean, actions: ExerciseActi
                 SectionLabel("Model answer")
                 OutlinedCard(Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(12.dp)) {
-                        Text(e.modelAnswer, style = MaterialTheme.typography.bodyLarge)
+                        LookupText(e.modelAnswer, style = MaterialTheme.typography.bodyLarge)
                         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) { SpeakerButton(e.modelAnswer) }
                     }
                 }

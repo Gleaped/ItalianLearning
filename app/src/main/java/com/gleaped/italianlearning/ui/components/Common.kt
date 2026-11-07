@@ -46,7 +46,7 @@ fun SpeakerButton(text: String, modifier: Modifier = Modifier, slow: Boolean = f
     }
 }
 
-/** Italian text with a speaker button next to it. */
+/** Italian text with a speaker button next to it (long-press a word to look it up, where offered). */
 @Composable
 fun ItalianText(
     text: String,
@@ -54,7 +54,7 @@ fun ItalianText(
     style: TextStyle = MaterialTheme.typography.bodyLarge,
 ) {
     Row(modifier = modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-        Text(text = text, style = style, modifier = Modifier.weight(1f))
+        LookupText(text = text, style = style, modifier = Modifier.weight(1f))
         SpeakerButton(text)
     }
 }
@@ -106,10 +106,10 @@ fun RichText(body: String, modifier: Modifier = Modifier) {
                         Row(modifier = Modifier.padding(start = 8.dp, bottom = 4.dp)) {
                             Text("•", style = MaterialTheme.typography.bodyLarge)
                             Spacer(Modifier.width(8.dp))
-                            Text(inlineMarkup(line.drop(2)), style = MaterialTheme.typography.bodyLarge)
+                            LookupText(inlineMarkup(line.drop(2)), style = MaterialTheme.typography.bodyLarge)
                         }
                     } else if (line.isNotEmpty()) {
-                        Text(inlineMarkup(line), style = MaterialTheme.typography.bodyLarge)
+                        LookupText(inlineMarkup(line), style = MaterialTheme.typography.bodyLarge)
                     }
                 }
             }

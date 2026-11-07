@@ -74,9 +74,6 @@ fun CourseMapScreen(onOpenUnit: (String) -> Unit) {
         contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        item {
-            Text("Il corso", style = MaterialTheme.typography.headlineMedium)
-        }
         levels.forEach { level ->
             item(key = "level-${level.id}") {
                 Column(Modifier.padding(top = 16.dp)) {

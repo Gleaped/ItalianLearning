@@ -11,6 +11,7 @@ import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
+import com.gleaped.italianlearning.domain.dictionary.RecentLookups
 import com.gleaped.italianlearning.domain.reminders.ReminderKind
 import com.gleaped.italianlearning.domain.reminders.TipSelector
 import kotlinx.coroutines.flow.Flow
@@ -76,6 +77,7 @@ class SettingsRepository(context: Context) {
         val reminderSequence = longPreferencesKey("reminder_sequence")
         val tipHistory = stringPreferencesKey("tip_history")
         val openedUnits = stringSetPreferencesKey("opened_units")
+        val recentLookups = stringPreferencesKey("recent_lookups")
     }
 
     val settings: Flow<Settings> = store.data.map { p ->
@@ -103,6 +105,15 @@ class SettingsRepository(context: Context) {
             openedUnitIds = p[Keys.openedUnits] ?: emptySet(),
         )
     }.distinctUntilChanged()
+
+    /** Words opened in the dictionary, most recent first. */
+    val recentLookups: Flow<List<String>> = store.data.map { RecentLookups.decode(it[Keys.recentLookups]) }.distinctUntilChanged()
+
+    suspend fun addRecentLookup(lemma: String) = store.edit { p ->
+        p[Keys.recentLookups] = RecentLookups.encode(RecentLookups.add(RecentLookups.decode(p[Keys.recentLookups]), lemma))
+    }
+
+    suspend fun clearRecentLookups() = store.edit { it.remove(Keys.recentLookups) }
 
     suspend fun current(): Settings = settings.first()
     suspend fun currentReminderState(): ReminderState = reminderState.first()

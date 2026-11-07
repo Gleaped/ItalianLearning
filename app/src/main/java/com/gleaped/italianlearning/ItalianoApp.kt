@@ -5,6 +5,8 @@ import android.content.Context
 import com.gleaped.italianlearning.data.LearningRepository
 import com.gleaped.italianlearning.data.content.ContentRepository
 import com.gleaped.italianlearning.data.db.AppDatabase
+import com.gleaped.italianlearning.data.dictionary.DictionaryRepository
+import com.gleaped.italianlearning.data.reference.ReferenceRepository
 import com.gleaped.italianlearning.data.settings.SettingsRepository
 import com.gleaped.italianlearning.reminders.Notifications
 import com.gleaped.italianlearning.reminders.ReminderContentBuilder
@@ -21,6 +23,8 @@ class AppContainer(context: Context) {
     val database: AppDatabase by lazy { AppDatabase.build(appContext) }
     val settings: SettingsRepository by lazy { SettingsRepository(appContext) }
     val content: ContentRepository by lazy { ContentRepository(appContext) }
+    val reference: ReferenceRepository by lazy { ReferenceRepository(appContext) }
+    val dictionary: DictionaryRepository by lazy { DictionaryRepository(appContext) }
     val learning: LearningRepository by lazy { LearningRepository(database) }
     val reminderScheduler: ReminderScheduler by lazy {
         ReminderScheduler(appContext, database.reminderDao(), settings)

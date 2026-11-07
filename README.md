@@ -33,6 +33,18 @@ and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
   and the **next lesson**. Tips come from units you have started (plus refreshers you opened) and none repeats
   until the others have been shown. Each kind can be switched off in Settings. Every unit page lists its
   grammar tips with their challenges.
+- **Grammatica** — a rules reference in the bottom bar: sections and topics (level, one-line summary) with a
+  filter field; each topic has the explanation, compact charts (e.g. every passato prossimo form), examples with
+  audio, common mistakes and links to the units that practise it. Grammar notes in lessons show a quiet
+  *Vedi la regola* link to the matching topic. Content: `assets/grammar/reference.json`
+  ([format](docs/reference-and-dictionary-format.md)).
+- **Dictionary** — the search icon in the top bar opens an offline lookup: type any form ("andò", "belle") and see
+  the lemma, part of speech, meaning and which form matched; open an entry for every gloss, an example, notes
+  and every form as collapsible tables (verbs grouped by mood). Recent lookups, a speaker button and a *Fonti*
+  sheet with the data sources and licences. In lessons and challenges, **long-press any Italian word** for a
+  quick lookup sheet. Data: `assets/dictionary/dictionary.db` (read-only SQLite, copied to no-backup storage on
+  first use and after an update that changes `meta.version`); without it the app works and says the dictionary
+  isn't installed.
 - **CELI 3 exam track** — exam-preparation units after C1 on the course map, always open.
 
 ## Install on your phone (Obtainium)
@@ -110,7 +122,7 @@ app/src/main/java/com/gleaped/italianlearning/
   data/         Room database, DataStore settings, asset loader, LearningRepository
   reminders/    AlarmManager scheduling, notification, boot/time-change receivers
   speech/       TextToSpeech wrapper, SpeechRecognizer composable
-  ui/           Compose screens: home, course, lesson (+ exercise views), review, settings, navigation
+  ui/           Compose screens: home, course, lesson (+ exercise views), grammar, lookup, review, settings, navigation
 ```
 
 Reminder scheduling uses a single inexact `AlarmManager.setAndAllowWhileIdle` alarm for the next reminder

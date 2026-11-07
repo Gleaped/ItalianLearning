@@ -119,7 +119,6 @@ fun ReviewScreen(onDone: () -> Unit) {
             .padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text("Ripasso", style = MaterialTheme.typography.headlineMedium)
         if (card == null) {
             Text(
                 if (state.reviewed > 0) {

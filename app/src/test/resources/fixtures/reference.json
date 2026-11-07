@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "unknownTopLevel": true,
+  "sections": [
+    {
+      "id": "verbi-tempi",
+      "title": "Tempi verbali",
+      "topics": [
+        {
+          "id": "passato-prossimo",
+          "title": "Passato prossimo",
+          "level": "A2",
+          "summary": "Completed actions in the past.",
+          "body": "Formed with **avere** or **essere** + past participle.\n\n- essere: the participle agrees",
+          "tables": [
+            {
+              "title": "Regular verbs",
+              "columns": ["", "parlare", "credere", "dormire"],
+              "rows": [["io", "ho parlato", "ho creduto", "ho dormito"], ["tu", "hai parlato"]],
+              "note": "Short rows are padded."
+            }
+          ],
+          "examples": [{ "it": "Ieri ho lavorato fino a tardi.", "en": "Yesterday I worked late." }],
+          "pitfalls": ["Sono andato, not ho andato."],
+          "relatedUnitIds": ["a2r-01", "b1-01"]
+        },
+        {
+          "id": "imperfetto",
+          "title": "Imperfetto",
+          "level": "A2",
+          "summary": "Habits and descriptions in the past.",
+          "body": "Background, habits.",
+          "relatedUnitIds": ["b1-01"]
+        }
+      ]
+    },
+    {
+      "id": "pronomi",
+      "title": "Pronomi",
+      "topics": [
+        {
+          "id": "pronomi-diretti",
+          "title": "Pronomi diretti",
+          "level": "B1",
+          "summary": "lo, la, li, le.",
+          "body": "Replace the direct object."
+        }
+      ]
+    },
+    { "id": "empty", "title": "Empty", "topics": [] }
+  ]
+}
