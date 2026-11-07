@@ -126,7 +126,7 @@ class LookupViewModel(private val container: AppContainer) : ViewModel() {
         }
     }
 
-    fun setQuery(value: String) {
+    fun updateQuery(value: String) {
         query = value
     }
 
@@ -181,13 +181,13 @@ fun LookupScreen(onBack: () -> Unit, onOpenEntry: (Long) -> Unit) {
             }
             OutlinedTextField(
                 value = vm.query,
-                onValueChange = vm::setQuery,
+                onValueChange = vm::updateQuery,
                 singleLine = true,
                 placeholder = { Text("Cerca una parola: andò, casa, bello…") },
                 leadingIcon = { Icon(Icons.Filled.Search, contentDescription = null) },
                 trailingIcon = {
                     if (vm.query.isNotEmpty()) {
-                        IconButton(onClick = { vm.setQuery("") }) { Icon(Icons.Filled.Clear, contentDescription = "Clear") }
+                        IconButton(onClick = { vm.updateQuery("") }) { Icon(Icons.Filled.Clear, contentDescription = "Clear") }
                     }
                 },
                 keyboardOptions = KeyboardOptions(
@@ -239,7 +239,7 @@ fun LookupScreen(onBack: () -> Unit, onOpenEntry: (Long) -> Unit) {
                                     style = MaterialTheme.typography.bodyLarge,
                                     modifier = Modifier
                                         .fillMaxWidth()
-                                        .clickable { vm.setQuery(word) }
+                                        .clickable { vm.updateQuery(word) }
                                         .padding(horizontal = 20.dp, vertical = 12.dp),
                                 )
                             }
