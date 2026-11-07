@@ -6,7 +6,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.gleaped.italianlearning.AppContainer
-import com.gleaped.italianlearning.data.content.CourseContent
+import com.gleaped.italianlearning.content.CourseContent
 import com.gleaped.italianlearning.domain.progress.CourseProgress
 import com.gleaped.italianlearning.domain.progress.Streak
 import kotlinx.coroutines.flow.SharingStarted

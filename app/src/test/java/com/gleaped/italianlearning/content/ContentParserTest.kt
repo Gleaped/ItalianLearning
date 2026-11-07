@@ -1,5 +1,7 @@
 package com.gleaped.italianlearning.content
 
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.jsonObject
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
@@ -129,27 +131,105 @@ class ContentParserTest {
         assertEquals("multiple_choice", (ex as Invalid).type)
     }
 
-    /** Parses the real shipped content, when present, so broken JSON fails CI. */
+    @Test
+    fun grammarTipsParseLeniently() {
+        val tipsUnit = ContentParser.parseUnit(resource("grammar_tips_unit.json"))
+        val tips = tipsUnit.grammarTips
+        assertEquals(listOf("b1-02-t1", "b1-02-t2", "b1-02-t3", "b1-02-t4", "b1-02-t7"), tips.map { it.id })
+        assertTrue(tips.all { it.unitId == "b1-02" })
+
+        val first = tips[0]
+        assertEquals("Imperfetto per lo sfondo", first.rule)
+        assertEquals("Pioveva quando sono uscito.", first.example?.it)
+        assertEquals("It was raining when I went out.", first.example?.en)
+        val gap = first.challenge as GapFill
+        assertEquals(listOf("cucinavo"), gap.answers)
+        assertEquals("Background action: imperfetto.", gap.explanation)
+
+        assertEquals(0, (tips[1].challenge as MultipleChoice).answer)
+        assertEquals(null, tips[1].example)
+
+        // Missing id is derived; a blank Italian example is dropped; no challenge.
+        assertEquals("Senza id", tips[2].rule)
+        assertEquals(null, tips[2].example)
+        assertEquals(null, tips[2].challenge)
+
+        // Broken or unknown challenges leave the tip without one.
+        assertEquals(null, tips[3].challenge)
+        assertEquals(null, tips[4].challenge)
+    }
+
+    @Test
+    fun unitWithoutTipsHasEmptyList() {
+        assertTrue(unit.grammarTips.isEmpty())
+    }
+
+    /**
+     * Parses the real shipped content, when present, so broken JSON fails CI. Covers every
+     * unit file in units/ (listed as available or not) and every grammar tip.
+     */
     @Test
     fun shippedContentParses() {
         val dir = listOf(File("src/main/assets/course"), File("app/src/main/assets/course")).firstOrNull { it.isDirectory }
             ?: return
         val course = ContentParser.parseCourse(File(dir, "course.json").readText())
         assertTrue(course.levels.isNotEmpty())
+        val levelIds = course.levels.map { it.id }.toSet()
+        course.units.forEach { assertTrue("unit ${it.id} has undeclared level ${it.level}", it.level in levelIds) }
+        assertEquals("duplicate unit ids in course.json", course.units.size, course.units.map { it.id }.toSet().size)
+
         for (ref in course.units.filter { it.available }) {
-            val file = File(dir, "units/${ref.id}.json")
-            assertTrue("missing unit file for available unit ${ref.id}", file.isFile)
-            val unit = ContentParser.parseUnit(file.readText())
-            assertEquals(ref.id, unit.id)
+            assertTrue("missing unit file for available unit ${ref.id}", File(dir, "units/${ref.id}.json").isFile)
+        }
+
+        val tipIds = mutableSetOf<String>()
+        val files = File(dir, "units").listFiles { f -> f.isFile && f.name.endsWith(".json") }.orEmpty().sortedBy { it.name }
+        for (file in files) {
+            val fileId = file.name.removeSuffix(".json")
+            val unit = try {
+                ContentParser.parseUnit(file.readText())
+            } catch (e: Exception) {
+                throw AssertionError("${file.name} does not parse: ${e.message}", e)
+            }
+            assertEquals("${file.name} id", fileId, unit.id)
+            val ref = course.units.firstOrNull { it.id == fileId }
+            assertTrue("${file.name} is not listed in course.json", ref != null)
+            assertEquals("${file.name} level", ref!!.level, unit.level)
             for (lesson in unit.lessons) {
-                for (ex in lesson.exercises) {
-                    assertFalse("${lesson.id}: $ex", ex is Invalid || ex is Unsupported)
-                    if (ex is MultipleChoice) assertTrue("${lesson.id} answer index", ex.answer in ex.options.indices)
-                    if (ex is ListenChoose) assertTrue("${lesson.id} answer index", ex.answer in ex.options.indices)
-                    if (ex is Reading) ex.questions.forEach { assertTrue("${lesson.id} reading answer", it.answer in it.options.indices) }
+                for (ex in lesson.exercises) checkExercise("${unit.id}/${lesson.id}", ex)
+            }
+            unit.remedialUnitIds.forEach { id -> assertTrue("${unit.id}: unknown remedial unit $id", course.units.any { it.id == id }) }
+
+            val rawTips = rawTipCount(file.readText())
+            assertEquals("${unit.id}: a grammar tip was dropped (missing rule/tip or wrong shape)", rawTips, unit.grammarTips.size)
+            for (tip in unit.grammarTips) {
+                val where = "${unit.id} tip ${tip.id}"
+                assertTrue("$where: duplicate tip id", tipIds.add(tip.id))
+                assertTrue("$where: rule longer than ${GrammarTip.MAX_RULE_LENGTH}", tip.rule.length <= GrammarTip.MAX_RULE_LENGTH)
+                assertTrue("$where: tip longer than ${GrammarTip.MAX_TIP_LENGTH}", tip.tip.length <= GrammarTip.MAX_TIP_LENGTH)
+                val challenge = tip.challenge
+                assertTrue("$where: challenge missing or invalid", challenge != null)
+                val type = ExerciseTypes.of(challenge!!)
+                assertTrue("$where: challenge type $type is not a quick type", type in GrammarTip.QUICK_TYPES)
+                checkExercise(where, challenge)
+                if (challenge is Conjugation) {
+                    assertTrue("$where: conjugation has more than ${GrammarTip.MAX_CHALLENGE_ITEMS} items", challenge.items.size <= GrammarTip.MAX_CHALLENGE_ITEMS)
                 }
             }
-            unit.remedialUnitIds.forEach { id -> assertTrue("unknown remedial unit $id", course.units.any { it.id == id }) }
         }
+    }
+
+    private fun rawTipCount(text: String): Int =
+        (ContentParser.json.parseToJsonElement(text).jsonObject["grammarTips"] as? JsonArray)?.size ?: 0
+
+    private fun checkExercise(where: String, ex: Exercise) {
+        assertFalse("$where: $ex", ex is Invalid || ex is Unsupported)
+        if (ex is MultipleChoice) assertTrue("$where answer index", ex.answer in ex.options.indices)
+        if (ex is ListenChoose) assertTrue("$where answer index", ex.answer in ex.options.indices)
+        if (ex is Reading) ex.questions.forEach { assertTrue("$where reading answer", it.answer in it.options.indices) }
+        if (ex is GapFill) assertTrue("$where gap_fill needs answers", ex.answers.isNotEmpty())
+        if (ex is Translate) assertTrue("$where translate needs answers", ex.answers.isNotEmpty())
+        if (ex is ErrorCorrection) assertTrue("$where error_correction needs answers", ex.answers.isNotEmpty())
+        if (ex is Conjugation) assertTrue("$where conjugation needs items", ex.items.isNotEmpty())
     }
 }

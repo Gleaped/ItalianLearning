@@ -20,6 +20,9 @@ interface ProgressDao {
     @Upsert
     suspend fun upsertLesson(entity: LessonProgressEntity)
 
+    @Query("SELECT DISTINCT unitId FROM lesson_progress")
+    suspend fun startedUnitIds(): List<String>
+
     @Insert
     suspend fun insertResults(results: List<ExerciseResultEntity>)
 
@@ -64,6 +67,12 @@ interface SrsDao {
 
     @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay IS NULL")
     fun observeNewCount(): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay IS NOT NULL AND dueEpochDay <= :today")
+    suspend fun dueReviewCount(today: Long): Int
+
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay IS NULL")
+    suspend fun newCount(): Int
 
     @Query("SELECT COUNT(*) FROM srs_cards")
     fun observeTotal(): Flow<Int>

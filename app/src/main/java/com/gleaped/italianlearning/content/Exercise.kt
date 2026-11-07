@@ -282,6 +282,28 @@ object ExerciseTypes {
         TRANSLATE, MATCH_PAIRS, ERROR_CORRECTION, LISTEN_TRANSCRIBE, LISTEN_CHOOSE, READING,
         SPEAK_REPEAT, SPEAK_RESPOND, ROLEPLAY, FREE_WRITE,
     )
+
+    /** The JSON `type` name of a decoded exercise. */
+    fun of(e: Exercise): String = when (e) {
+        is GrammarNote -> GRAMMAR_NOTE
+        is Flashcard -> FLASHCARD
+        is MultipleChoice -> MULTIPLE_CHOICE
+        is GapFill -> GAP_FILL
+        is Conjugation -> CONJUGATION
+        is SentenceBuild -> SENTENCE_BUILD
+        is Translate -> TRANSLATE
+        is MatchPairs -> MATCH_PAIRS
+        is ErrorCorrection -> ERROR_CORRECTION
+        is ListenTranscribe -> LISTEN_TRANSCRIBE
+        is ListenChoose -> LISTEN_CHOOSE
+        is Reading -> READING
+        is SpeakRepeat -> SPEAK_REPEAT
+        is SpeakRespond -> SPEAK_RESPOND
+        is Roleplay -> ROLEPLAY
+        is FreeWrite -> FREE_WRITE
+        is Unsupported -> e.type
+        is Invalid -> e.type
+    }
 }
 
 /** Picks the concrete serializer from the `type` field. */

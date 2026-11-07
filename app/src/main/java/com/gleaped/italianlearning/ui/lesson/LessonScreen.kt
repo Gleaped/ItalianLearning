@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
@@ -80,6 +81,9 @@ fun LessonScreen(
     }
 
     Scaffold(
+        // Edge-to-edge: the window is not resized for the keyboard, so pad for it here. The
+        // exercise column and the feedback bar then always end at the top of the keyboard.
+        modifier = Modifier.imePadding(),
         topBar = {
             TopAppBar(
                 navigationIcon = {
@@ -180,24 +184,32 @@ private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit) {
                 .padding(horizontal = 20.dp, vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(6.dp),
         ) {
-            Text(verdictTitle(feedback.verdict), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            feedback.note?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
-            val showExpected = feedback.expected != null &&
-                (feedback.verdict != com.gleaped.italianlearning.domain.grading.Verdict.CORRECT || feedback.expectedLabel != "Answer")
-            if (showExpected) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Column(Modifier.weight(1f)) {
-                        Text(feedback.expectedLabel, style = MaterialTheme.typography.labelMedium)
-                        Text(feedback.expected.orEmpty(), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
-                    }
-                    SpeakerButton(feedback.expected.orEmpty())
-                }
-            }
-            feedback.explanation?.takeIf { it.isNotBlank() }?.let {
-                Text(it, style = MaterialTheme.typography.bodyMedium)
-            }
+            FeedbackBody(feedback)
             Spacer(Modifier.height(4.dp))
             Button(onClick = onContinue, modifier = Modifier.fillMaxWidth()) { Text("Continue") }
+        }
+    }
+}
+
+/** Verdict, note, expected answer and explanation; shared by lessons and challenges. */
+@Composable
+fun FeedbackBody(feedback: Feedback) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Text(verdictTitle(feedback.verdict), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        feedback.note?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
+        val showExpected = feedback.expected != null &&
+            (feedback.verdict != com.gleaped.italianlearning.domain.grading.Verdict.CORRECT || feedback.expectedLabel != "Answer")
+        if (showExpected) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text(feedback.expectedLabel, style = MaterialTheme.typography.labelMedium)
+                    Text(feedback.expected.orEmpty(), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
+                }
+                SpeakerButton(feedback.expected.orEmpty())
+            }
+        }
+        feedback.explanation?.takeIf { it.isNotBlank() }?.let {
+            Text(it, style = MaterialTheme.typography.bodyMedium)
         }
     }
 }

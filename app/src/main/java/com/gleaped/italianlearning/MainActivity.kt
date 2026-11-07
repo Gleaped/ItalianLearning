@@ -8,31 +8,41 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import com.gleaped.italianlearning.data.settings.Settings
-import com.gleaped.italianlearning.reminders.Notifications
+import com.gleaped.italianlearning.reminders.DeepLinks
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import com.gleaped.italianlearning.ui.navigation.AppNavigation
+import com.gleaped.italianlearning.ui.navigation.PendingDeepLink
 import com.gleaped.italianlearning.ui.theme.ItalianoTheme
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
 
-    private var openTodaySignal by mutableIntStateOf(0)
+    /** Set when a notification opened (or re-opened) the app; consumed by [AppNavigation]. */
+    private var pendingDeepLink by mutableStateOf<PendingDeepLink?>(null)
+    private var deepLinkCounter = 0L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         val container = (application as ItalianoApp).container
+        // Only a fresh launch: after recreation the launch intent was already handled.
+        if (savedInstanceState == null) handleIntent(intent)
+        // Warm the content cache in the background so the course map opens instantly.
+        lifecycleScope.launch { container.content.load() }
         setContent {
             val settings by container.settings.settings.collectAsStateWithLifecycle(initialValue = Settings())
             LaunchedEffect(settings.speechRate) { container.tts.setRate(settings.speechRate) }
             CompositionLocalProvider(LocalAppContainer provides container) {
                 ItalianoTheme(themeMode = settings.themeMode) {
-                    AppNavigation(openTodaySignal = openTodaySignal)
+                    AppNavigation(
+                        deepLink = pendingDeepLink,
+                        onDeepLinkHandled = { handled -> if (pendingDeepLink == handled) pendingDeepLink = null },
+                    )
                 }
             }
         }
@@ -41,7 +51,12 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         setIntent(intent)
-        if (intent.getBooleanExtra(Notifications.EXTRA_OPEN_TODAY, false)) openTodaySignal++
+        handleIntent(intent)
+    }
+
+    private fun handleIntent(intent: Intent?) {
+        val target = DeepLinks.parse(intent) ?: return
+        pendingDeepLink = PendingDeepLink(target, ++deepLinkCounter)
     }
 
     override fun onStart() {

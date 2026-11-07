@@ -25,6 +25,10 @@ enum class UnitStatus { UNLOCKED, LOCKED, COMING_SOON }
 /**
  * Course navigation rules:
  *  - remedial (A2R) units are always open when available
+ *  - exam-preparation units (CELI3) are always open when available; they are not part
+ *    of the main path
+ *  - units whose level is not declared in course.json are treated like exam units
+ *    (open, off the main path) rather than being hidden or blocking the path
  *  - main-path units (B1 → B2 → C1, by order) open one after another: a unit is
  *    open when every lesson of the previous available unit is complete
  *  - `available: false` units are "coming soon"
@@ -36,14 +40,18 @@ class CourseProgress(
     private val unlockAll: Boolean = false,
 ) {
     private val remedialLevels: Set<String> = course.levels.filter { it.remedial }.map { it.id }.toSet()
+    private val pathLevels: Set<String> = course.levels.filter { !it.remedial && !it.isExam }.map { it.id }.toSet()
     private val levelOrder: Map<String, Int> = course.levels.mapIndexed { i, l -> l.id to i }.toMap()
 
-    /** Main path in study order (non-remedial levels, by level order then unit order). */
+    /** Main path in study order (B1 → B2 → C1: by level order then unit order). */
     val mainPath: List<UnitRef> = course.units
-        .filter { it.level !in remedialLevels }
+        .filter { it.level in pathLevels }
         .sortedWith(compareBy({ levelOrder[it.level] ?: Int.MAX_VALUE }, { it.order }))
 
     fun isRemedial(ref: UnitRef): Boolean = ref.level in remedialLevels
+
+    /** Open-access units outside the main path: exam prep and units of undeclared levels. */
+    fun isOffPath(ref: UnitRef): Boolean = ref.level !in remedialLevels && ref.level !in pathLevels
 
     fun isUnitComplete(unitId: String): Boolean {
         val unit = units[unitId] ?: return false
@@ -52,7 +60,7 @@ class CourseProgress(
 
     fun status(ref: UnitRef): UnitStatus {
         if (!ref.available || units[ref.id] == null) return UnitStatus.COMING_SOON
-        if (unlockAll || isRemedial(ref)) return UnitStatus.UNLOCKED
+        if (unlockAll || isRemedial(ref) || isOffPath(ref)) return UnitStatus.UNLOCKED
         val index = mainPath.indexOfFirst { it.id == ref.id }
         if (index <= 0) return UnitStatus.UNLOCKED
         val previous = mainPath.subList(0, index).lastOrNull { it.available && units[it.id] != null }

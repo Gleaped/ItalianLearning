@@ -37,6 +37,16 @@ object ContentParser {
         val remedialUnitIds: List<String> = emptyList(),
         val lessons: List<LessonDto> = emptyList(),
         val vocabulary: List<VocabItem> = emptyList(),
+        val grammarTips: List<JsonObject> = emptyList(),
+    )
+
+    @Serializable
+    private data class GrammarTipDto(
+        val id: String = "",
+        val rule: String = "",
+        val tip: String = "",
+        val example: ItEn? = null,
+        val challenge: JsonObject? = null,
     )
 
     fun parseCourse(text: String): Course = json.decodeFromString(Course.serializer(), text)
@@ -59,6 +69,31 @@ object ContentParser {
                 )
             },
             vocabulary = dto.vocabulary,
+            grammarTips = dto.grammarTips.mapIndexedNotNull { i, obj -> parseGrammarTip(dto.id, i, obj) },
+        )
+    }
+
+    /**
+     * One tip, decoded on its own so a broken tip is dropped without breaking the unit.
+     * A tip without rule or text is dropped; a broken challenge leaves the tip without one.
+     */
+    fun parseGrammarTip(unitId: String, index: Int, obj: JsonObject): GrammarTip? {
+        val dto = try {
+            json.decodeFromJsonElement(GrammarTipDto.serializer(), obj)
+        } catch (e: SerializationException) {
+            return null
+        } catch (e: IllegalArgumentException) {
+            return null
+        }
+        if (dto.rule.isBlank() || dto.tip.isBlank()) return null
+        val challenge = dto.challenge?.let(::parseExercise)?.takeUnless { it is Invalid || it is Unsupported }
+        return GrammarTip(
+            id = dto.id.ifBlank { "$unitId-t${index + 1}" },
+            unitId = unitId,
+            rule = dto.rule.trim(),
+            tip = dto.tip.trim(),
+            example = dto.example?.takeIf { it.it.isNotBlank() },
+            challenge = challenge,
         )
     }
 

@@ -137,6 +137,16 @@ class LearningRepository(private val db: AppDatabase) {
         )
     }
 
+    /** Units with at least one completed lesson. */
+    suspend fun startedUnitIds(): Set<String> = progress.startedUnitIds().toSet()
+
+    /** Cards a review session would offer right now: due reviews plus today's new-card allowance. */
+    suspend fun reviewReadyCount(dailyNewCards: Int): Int {
+        val day = today()
+        val allowance = (dailyNewCards - srs.newIntroducedOn(day)).coerceAtLeast(0)
+        return srs.dueReviewCount(day) + minOf(srs.newCount(), allowance)
+    }
+
     suspend fun practicedToday(): Boolean {
         val a = progress.activity(today()) ?: return false
         return a.lessonsCompleted > 0 || a.cardsReviewed > 0

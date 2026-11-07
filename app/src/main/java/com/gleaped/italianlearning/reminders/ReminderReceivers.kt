@@ -5,7 +5,6 @@ import android.content.Context
 import android.content.Intent
 import android.util.Log
 import com.gleaped.italianlearning.ItalianoApp
-import com.gleaped.italianlearning.domain.reminders.ReminderMessages
 import com.gleaped.italianlearning.domain.reminders.ReminderPlanner
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -40,13 +39,13 @@ class ReminderReceiver : BroadcastReceiver() {
             val lastFired = s.lastReminderFiredMillis.takeIf { it > 0 }?.let(Instant::ofEpochMilli)
             if (ReminderPlanner.shouldNotify(now, lastOpened, lastFired, s.remindersPaused)) {
                 val inactive = ReminderPlanner.isInactiveAt(now.toInstant(), lastOpened)
-                val message = ReminderMessages.pick(
+                val reminder = container.reminderContent.build(
                     seed = now.toLocalDate().toEpochDay() * 31 + now.hour,
                     inactive = inactive,
                     practicedToday = container.learning.practicedToday(),
                 )
-                Notifications.showReminder(context, message)
-                container.settings.markReminderFired(now.toInstant().toEpochMilli())
+                Notifications.showReminder(context, reminder)
+                container.settings.recordReminder(now.toInstant().toEpochMilli(), reminder.tipId)
             }
             container.reminderScheduler.reschedule(now)
         }
