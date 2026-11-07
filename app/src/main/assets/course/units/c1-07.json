@@ -1,0 +1,950 @@
+{
+  "id": "c1-07",
+  "level": "C1",
+  "title": "Il burocratese",
+  "objective": "Alla fine dell'unità sai leggere e capire avvisi, moduli, contratti e lettere ufficiali, riconoscere le costruzioni impersonali del linguaggio amministrativo e spiegarle a qualcuno in italiano semplice.",
+  "grammarFocus": "Si impersonale e passivante, andare + participio, da + infinito, qualora + congiuntivo, participio e gerundio assoluti, nominalizzazione e formule fisse del linguaggio amministrativo (il sottoscritto, ai sensi di, entro e non oltre, previa, la S.V.).",
+  "remedialUnitIds": [
+    "b2-05",
+    "b2-10",
+    "c1-01",
+    "b1-05"
+  ],
+  "lessons": [
+    {
+      "id": "c1-07-l1",
+      "title": "Si prega di… Avvisi e comunicazioni",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-07-l1-e01",
+          "prompt": "Le domande ___ presentate entro il 30 giugno.",
+          "options": [
+            "devono essere",
+            "devono avere",
+            "si devono",
+            "hanno da"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento (b2-05): scegli la forma passiva giusta.",
+          "explanation": "Passivo con un verbo modale: dovere + essere + participio (presentate, accordato con le domande)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-07-l1-e02",
+          "sentence": "In questo ufficio ___ (accettare) solo pagamenti con carta.",
+          "answers": [
+            "si accettano"
+          ],
+          "hint": "accettare – si + 3ª persona",
+          "instruction": "Riscaldamento: completa con il si passivante.",
+          "explanation": "Il verbo concorda con il soggetto grammaticale: pagamenti → si accettano."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-07-l1-e03",
+          "title": "La lingua degli avvisi",
+          "body": "Il **burocratese** è la lingua di uffici, enti e contratti: impersonale, formale, piena di formule fisse. Per leggerlo bene bisogna riconoscere poche strutture ricorrenti.\n\n- **si** impersonale e passivante: *Si comunica che…, Si avvisa la gentile clientela…, Si prega di (non) + infinito*\n- **andare + participio passato** = dovere essere: *La domanda va presentata in carta semplice* (= deve essere presentata). Si usa con i tempi semplici: *va, andrà, andrebbe*.\n- **da + infinito** dopo un nome = che deve essere…: *i documenti da allegare, l'importo da versare*\n- **è fatto divieto / è fatto obbligo di** + infinito = è vietato / è obbligatorio\n- **entro e non oltre** = al più tardi (la data è tassativa)\n- **a decorrere da / a far data da** = a partire da\n- **previa** + nome (*previa prenotazione*) = solo dopo, a condizione di",
+          "examples": [
+            {
+              "it": "Si prega di non lasciare i bagagli incustoditi.",
+              "en": "Please do not leave luggage unattended."
+            },
+            {
+              "it": "Il modulo va firmato in ogni pagina.",
+              "en": "The form must be signed on every page."
+            },
+            {
+              "it": "Ecco l'elenco dei documenti da allegare.",
+              "en": "Here is the list of documents to be attached."
+            },
+            {
+              "it": "L'accesso è consentito solo previa prenotazione.",
+              "en": "Access is by appointment only."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-07-l1-e04",
+          "prompt": "La ricevuta ___ conservata fino alla fine dell'anno.",
+          "options": [
+            "va",
+            "viene da",
+            "è da",
+            "si va"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Va conservata = deve essere conservata. (Si può dire anche è da conservare, ma con l'infinito.)"
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-07-l1-e05",
+          "sentence": "Il modulo deve essere firmato in ogni pagina. = Il modulo ___ firmato in ogni pagina.",
+          "answers": [
+            "va"
+          ],
+          "instruction": "Riformula con andare + participio.",
+          "explanation": "Deve essere firmato → va firmato. Andare passivo esprime sempre un obbligo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-07-l1-e06",
+          "sentence": "Ecco l'elenco dei documenti ___ (allegare) alla domanda.",
+          "answers": [
+            "da allegare"
+          ],
+          "instruction": "Completa con da + infinito.",
+          "explanation": "Nome + da + infinito = qualcosa che deve essere fatto: i documenti che devono essere allegati."
+        },
+        {
+          "type": "reading",
+          "id": "c1-07-l1-e07",
+          "title": "AVVISO – Interruzione del servizio idrico",
+          "passage": "Si comunica ai gentili residenti che, a causa di lavori urgenti di manutenzione sulla rete idrica, il giorno giovedì 12 novembre, dalle ore 8.30 alle ore 14.00, l'erogazione dell'acqua sarà sospesa in tutto lo stabile. Si raccomanda di provvedere per tempo a un'adeguata scorta d'acqua per uso alimentare e di tenere chiusi i rubinetti durante l'interruzione, al fine di evitare allagamenti alla ripresa del servizio. Eventuali danni derivanti dal mancato rispetto di tale indicazione non saranno imputabili all'amministrazione. Per segnalazioni urgenti è possibile contattare l'amministratore al numero indicato in bacheca. Si ringrazia per la collaborazione.",
+          "questions": [
+            {
+              "question": "Che cosa succederà giovedì?",
+              "options": [
+                "Mancherà l'acqua per alcune ore.",
+                "Mancherà la luce tutto il giorno.",
+                "Ci sarà una riunione di condominio.",
+                "Si pagheranno le spese dell'acqua."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa si chiede di fare ai residenti?",
+              "options": [
+                "Lasciare i rubinetti aperti.",
+                "Fare una scorta d'acqua e tenere chiusi i rubinetti.",
+                "Chiamare l'amministratore prima dei lavori.",
+                "Uscire di casa durante i lavori."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa significa «non saranno imputabili all'amministrazione»?",
+              "options": [
+                "L'amministrazione pagherà i danni.",
+                "L'amministrazione non sarà responsabile dei danni.",
+                "I danni saranno impossibili.",
+                "L'amministrazione controllerà i danni."
+              ],
+              "answer": 1
+            }
+          ],
+          "instruction": "Leggi l'avviso affisso nel tuo palazzo e rispondi alle domande.",
+          "explanation": "Nota: si comunica, si raccomanda, si ringrazia (si impersonale); al fine di = per; eventuali = possibili."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-07-l1-e08",
+          "pairs": [
+            {
+              "left": "si prega di",
+              "right": "per favore"
+            },
+            {
+              "left": "entro e non oltre",
+              "right": "al massimo entro"
+            },
+            {
+              "left": "in allegato",
+              "right": "insieme a questo messaggio"
+            },
+            {
+              "left": "previa prenotazione",
+              "right": "solo se hai prenotato"
+            },
+            {
+              "left": "è fatto divieto di",
+              "right": "è vietato"
+            },
+            {
+              "left": "a decorrere dal",
+              "right": "a partire dal"
+            }
+          ],
+          "instruction": "Abbina la formula burocratica all'italiano di tutti i giorni."
+        },
+        {
+          "type": "translate",
+          "id": "c1-07-l1-e09",
+          "direction": "it_en",
+          "source": "Si avvisa la gentile clientela che l'ufficio resterà chiuso per inventario.",
+          "answers": [
+            "Customers are advised that the office will be closed for stocktaking.",
+            "Customers are informed that the office will be closed for stocktaking.",
+            "Customers are advised that the office will remain closed for stocktaking.",
+            "Customers are advised that the office will be closed for inventory.",
+            "Customers are informed that the office will remain closed for inventory.",
+            "Customers are advised that the office will remain closed for inventory.",
+            "Customers are informed that the office will be closed for inventory.",
+            "Please note that the office will be closed for stocktaking.",
+            "Please note that the office will be closed for inventory.",
+            "We inform our customers that the office will be closed for stocktaking.",
+            "We inform our customers that the office will be closed for inventory.",
+            "Dear customers, the office will be closed for stocktaking.",
+            "Dear customers the office will be closed for stocktaking.",
+            "Dear customers, the office will be closed for inventory.",
+            "Dear customers the office will be closed for inventory."
+          ],
+          "instruction": "Traduci in inglese.",
+          "explanation": "Si avvisa la gentile clientela è una formula fissa: in inglese si rende con un passivo o con «please note»."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-07-l1-e10",
+          "audioText": "Si prega di non lasciare i bagagli incustoditi.",
+          "answers": [
+            "Si prega di non lasciare i bagagli incustoditi."
+          ],
+          "slow": false,
+          "instruction": "Ascolta l'annuncio e scrivi la frase.",
+          "explanation": "Formula tipica di stazioni e aeroporti: incustodito = senza nessuno che lo sorvegli."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-07-l1-e11",
+          "text": "La domanda va presentata entro e non oltre il quindici marzo.",
+          "translation": "The application must be submitted no later than the fifteenth of March.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-07-l1-e12",
+          "prompt": "Un'amica straniera ti mostra questo avviso: «Si comunica che, a decorrere dal 1° ottobre, l'accesso agli sportelli sarà consentito esclusivamente previa prenotazione.» Spiegale con parole semplici che cosa significa.",
+          "keywords": [
+            "dal primo ottobre",
+            "prenotare",
+            "solo"
+          ],
+          "modelAnswer": "Vuol dire che dal primo ottobre puoi andare allo sportello solo se prima prenoti un appuntamento. Senza prenotazione non ti fanno entrare, quindi conviene prenotare online o per telefono qualche giorno prima.",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "explanation": "Mediare un testo burocratico = sciogliere le formule: a decorrere da → da; esclusivamente previa prenotazione → solo se prenoti."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-07-l1-e13",
+          "front": "previa (prenotazione)",
+          "back": "subject to / after prior (booking)",
+          "example": "Il ritiro è possibile solo previa prenotazione."
+        }
+      ]
+    },
+    {
+      "id": "c1-07-l2",
+      "title": "Il sottoscritto dichiara… Moduli e contratti",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-07-l2-e01",
+          "prompt": "Secondo le istruzioni, i documenti ___ inviati via PEC.",
+          "options": [
+            "vanno",
+            "vengono da",
+            "sono da essere",
+            "vanno a"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Vanno inviati = devono essere inviati."
+        },
+        {
+          "type": "translate",
+          "id": "c1-07-l2-e02",
+          "direction": "en_it",
+          "source": "the amount to be paid",
+          "answers": [
+            "l'importo da pagare",
+            "l'importo da versare",
+            "la somma da pagare",
+            "la somma da versare",
+            "la cifra da pagare"
+          ],
+          "instruction": "Riscaldamento: traduci in italiano.",
+          "explanation": "Nome + da + infinito."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-07-l2-e03",
+          "title": "Moduli e contratti: le formule fisse",
+          "body": "- **Il/La sottoscritto/a** … nato/a a … il … **dichiara**: chi firma un modulo parla di sé alla **terza persona**.\n- **ai sensi di / ai sensi dell'art.** … = secondo, in base a (una legge, un articolo)\n- **in qualità di** = nel ruolo di: *in qualità di genitore, in qualità di conduttore*\n- **il locatore / il conduttore**: nel contratto d'affitto, il proprietario e l'inquilino\n- **il canone** = l'affitto da pagare; **recedere dal contratto / il recesso**, **la disdetta**, **il preavviso**: le parole per lasciare un contratto\n- **salvo** + nome = tranne, a meno di: *salvo diversa indicazione*\n- **qualora** + congiuntivo = se (formale): *Qualora il conduttore non paghi…, Qualora avesse bisogno…*\n- **mediante** = con, per mezzo di: *mediante raccomandata*",
+          "examples": [
+            {
+              "it": "Il sottoscritto dichiara di essere residente in via Garibaldi 12.",
+              "en": "The undersigned declares that he lives at 12 Via Garibaldi."
+            },
+            {
+              "it": "Firma in qualità di legale rappresentante.",
+              "en": "He signs as legal representative."
+            },
+            {
+              "it": "Il canone va versato entro il giorno 5 di ogni mese.",
+              "en": "The rent must be paid by the 5th of each month."
+            },
+            {
+              "it": "Qualora avesse bisogno di chiarimenti, non esiti a contattarci.",
+              "en": "Should you need any clarification, do not hesitate to contact us."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-07-l2-e04",
+          "prompt": "Nel contratto d'affitto, il «conduttore» è…",
+          "options": [
+            "l'inquilino",
+            "il proprietario",
+            "l'agente immobiliare",
+            "il notaio"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la risposta giusta.",
+          "explanation": "Locatore = chi dà in affitto (il proprietario); conduttore = chi prende in affitto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-07-l2-e05",
+          "sentence": "___ il pagamento non avvenga entro dieci giorni, il contratto si intenderà risolto.",
+          "answers": [
+            "Qualora"
+          ],
+          "hint": "= se (formale) + congiuntivo",
+          "instruction": "Completa con la congiunzione formale.",
+          "explanation": "Qualora regge il congiuntivo: avvenga."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-07-l2-e06",
+          "sentence": "Qualora Lei ___ bisogno di ulteriori informazioni, non esiti a contattarci.",
+          "answers": [
+            "abbia",
+            "avesse"
+          ],
+          "hint": "avere – Lei",
+          "instruction": "Completa con il congiuntivo di avere.",
+          "explanation": "Si trovano tutte e due: qualora abbia (più neutro) e qualora avesse (più ipotetico, molto frequente nelle lettere)."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-07-l2-e07",
+          "sentence": "Il sottoscritto Mario Rossi dichiaro di essere residente in via Garibaldi 12.",
+          "answers": [
+            "Il sottoscritto Mario Rossi dichiara di essere residente in via Garibaldi 12."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Il sottoscritto è un soggetto di terza persona: dichiara."
+        },
+        {
+          "type": "reading",
+          "id": "c1-07-l2-e08",
+          "title": "Contratto di locazione – estratto",
+          "passage": "Art. 4 – Durata e recesso. Il contratto ha durata di quattro anni a decorrere dal 1° marzo 2026. Il conduttore ha facoltà di recedere in qualsiasi momento dal contratto, dandone avviso al locatore mediante lettera raccomandata o PEC con un preavviso di almeno sei mesi.\n\nArt. 5 – Canone. Il canone annuo è convenuto in euro 9.600, da corrispondersi in dodici rate mensili anticipate di euro 800 ciascuna, entro il giorno 5 di ogni mese, mediante bonifico bancario.\n\nArt. 6 – Divieti. È fatto divieto al conduttore di sublocare l'immobile, in tutto o in parte, salvo consenso scritto del locatore.",
+          "questions": [
+            {
+              "question": "Che cosa deve fare l'inquilino per lasciare l'appartamento?",
+              "options": [
+                "Avvisare il proprietario per iscritto almeno sei mesi prima.",
+                "Aspettare la fine dei quattro anni.",
+                "Pagare sei mesi di affitto in più.",
+                "Telefonare al proprietario un mese prima."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come e quando si paga l'affitto?",
+              "options": [
+                "In contanti alla fine del mese.",
+                "Con un bonifico, ogni mese in anticipo, entro il 5.",
+                "Una volta all'anno, a marzo.",
+                "Con un assegno ogni tre mesi."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "L'inquilino può affittare una stanza a un'altra persona?",
+              "options": [
+                "Sì, sempre.",
+                "No, mai.",
+                "Solo se il proprietario è d'accordo per iscritto.",
+                "Solo per sei mesi."
+              ],
+              "answer": 2
+            }
+          ],
+          "instruction": "Leggi l'estratto del contratto d'affitto e rispondi alle domande.",
+          "explanation": "Recedere = uscire dal contratto; sublocare = dare in affitto a un'altra persona ciò che si ha in affitto; salvo = tranne se c'è."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-07-l2-e09",
+          "translation": "The undersigned declares that he has received the documents.",
+          "tiles": [
+            "Il",
+            "sottoscritto",
+            "dichiara",
+            "di",
+            "aver",
+            "ricevuto",
+            "i",
+            "documenti"
+          ],
+          "distractors": [
+            "dichiaro",
+            "che"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Dichiarare di + infinito passato (aver ricevuto) quando il soggetto è lo stesso."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-07-l2-e10",
+          "audioText": "Buongiorno, la chiamo dall'agenzia per il contratto di via Mazzini. Le ricordo che per la registrazione ci servono una copia del documento d'identità e del codice fiscale, da inviare entro venerdì. Il contratto, poi, va firmato in ogni pagina il giorno dell'appuntamento. Per qualsiasi dubbio mi richiami pure.",
+          "question": "Che cosa deve fare il cliente entro venerdì?",
+          "options": [
+            "Mandare la copia di due documenti.",
+            "Firmare il contratto.",
+            "Pagare la prima rata.",
+            "Andare in agenzia."
+          ],
+          "answer": 0,
+          "instruction": "Ascolta il messaggio dell'agenzia e rispondi.",
+          "explanation": "Da inviare entro venerdì = devono essere inviati; la firma (va firmato) è per il giorno dell'appuntamento."
+        },
+        {
+          "type": "translate",
+          "id": "c1-07-l2-e11",
+          "direction": "it_en",
+          "source": "Il conduttore ha facoltà di recedere dal contratto con un preavviso di sei mesi.",
+          "answers": [
+            "The tenant may withdraw from the contract with six months' notice.",
+            "The tenant can withdraw from the contract with six months' notice.",
+            "The tenant has the right to withdraw from the contract with six months' notice.",
+            "The tenant may terminate the contract with six months' notice.",
+            "The tenant can terminate the contract with six months' notice.",
+            "The tenant has the right to terminate the contract with six months' notice.",
+            "The tenant may withdraw from the contract by giving six months' notice.",
+            "The tenant may terminate the contract by giving six months' notice.",
+            "The tenant can terminate the contract by giving six months' notice.",
+            "The tenant may withdraw from the contract with six months notice.",
+            "The tenant may terminate the contract with six months notice.",
+            "The tenant can end the contract with six months' notice.",
+            "The tenant may cancel the contract with six months' notice."
+          ],
+          "instruction": "Traduci in inglese.",
+          "explanation": "Avere facoltà di = avere il diritto di, potere."
+        },
+        {
+          "type": "roleplay",
+          "id": "c1-07-l2-e12",
+          "scenario": "Stai per firmare un contratto d'affitto. Prima di firmare chiedi all'agente di chiarire alcune clausole che non ti sono chiare. Usa il Lei.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ecco il contratto. Se è tutto a posto, può firmare in fondo a ogni pagina."
+            },
+            {
+              "speaker": "you",
+              "text": "Prima di firmare vorrei chiederle un paio di chiarimenti, se possibile.",
+              "hint": "Chiedi con cortesia dei chiarimenti.",
+              "keywords": [
+                "vorrei",
+                "chiarimenti"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo, mi dica pure."
+            },
+            {
+              "speaker": "you",
+              "text": "All'articolo 4 si parla di recesso: se ho capito bene, posso lasciare l'appartamento quando voglio, ma con sei mesi di preavviso?",
+              "hint": "Verifica di aver capito la clausola sul recesso.",
+              "keywords": [
+                "recesso",
+                "preavviso"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Esatto. Basta mandare una raccomandata o una PEC al proprietario."
+            },
+            {
+              "speaker": "you",
+              "text": "E le spese condominiali sono comprese nel canone o vanno pagate a parte?",
+              "hint": "Chiedi delle spese condominiali (andare + participio).",
+              "keywords": [
+                "spese",
+                "canone"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Vanno pagate a parte: sono circa cinquanta euro al mese, con conguaglio a fine anno."
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto. Un'ultima cosa: qualora volessi ospitare un amico per qualche mese, ci sarebbero problemi?",
+              "hint": "Chiedi un'informazione ipotetica con qualora.",
+              "keywords": [
+                "qualora",
+                "ospitare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Per un'ospitalità temporanea no, ma la sublocazione richiede il consenso scritto del proprietario."
+            }
+          ],
+          "instruction": "Sei in un'agenzia immobiliare. Rispondi ad alta voce quando tocca a te.",
+          "explanation": "Hai usato strutture formali (vorrei, qualora + congiuntivo imperfetto, vanno pagate) e la riformulazione per verificare (se ho capito bene)."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-07-l2-e13",
+          "front": "la disdetta",
+          "back": "notice of termination / cancellation",
+          "example": "Ho mandato la disdetta del contratto con sei mesi di preavviso."
+        }
+      ]
+    },
+    {
+      "id": "c1-07-l3",
+      "title": "Visto il ricorso… Lettere ufficiali",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-07-l3-e01",
+          "prompt": "___ Lei non possa presentarsi all'appuntamento, è pregato di avvisarci.",
+          "options": [
+            "Qualora",
+            "Siccome",
+            "Perché",
+            "Dato"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli la congiunzione giusta.",
+          "explanation": "Qualora + congiuntivo = se (formale)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-07-l3-e02",
+          "sentence": "Il ___ dichiara di essere residente in Italia dal 2020.",
+          "answers": [
+            "sottoscritto"
+          ],
+          "hint": "chi firma il modulo",
+          "instruction": "Riscaldamento: completa con la formula giusta.",
+          "explanation": "Il sottoscritto (la sottoscritta) = io che firmo, alla terza persona."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-07-l3-e03",
+          "title": "Participio e gerundio nelle lettere ufficiali",
+          "body": "Le lettere degli enti usano spesso costruzioni **implicite** (b2-10) e **nomi** al posto dei verbi (c1-01).\n\n- **Participio assoluto** all'inizio della frase: *Visto il ricorso…, Considerata la richiesta…, Verificata la documentazione…, Preso atto di…* = dopo aver visto / poiché si è considerato… Il participio **concorda** con il nome che segue: *Vista la domanda, Visti i documenti.* Ma *considerato che / visto che* + frase restano invariabili.\n- **Gerundio** con valore causale: *Essendo scaduto il termine…* (= poiché il termine è scaduto); *Non avendo ricevuto risposta…* (= poiché non ho ricevuto risposta).\n- **Nominalizzazione**: *pagare → il pagamento, rinnovare → il rinnovo, versare → il versamento*: *Ai fini del rinnovo…*\n- **La S.V.** (la Signoria Vostra) = Lei, molto formale e un po' antiquato, ancora frequente nelle lettere della pubblica amministrazione.\n\nPer **spiegare** una lettera a qualcuno, sciogli queste forme in frasi esplicite.",
+          "examples": [
+            {
+              "it": "Verificata la documentazione, si accoglie la richiesta.",
+              "en": "Having checked the documents, the request is granted."
+            },
+            {
+              "it": "Essendo scaduto il termine, la domanda non può essere accolta.",
+              "en": "As the deadline has passed, the application cannot be accepted."
+            },
+            {
+              "it": "Non avendo ricevuto alcuna risposta, Le scrivo nuovamente.",
+              "en": "Having received no reply, I am writing to you again."
+            },
+            {
+              "it": "Si invita la S.V. a presentarsi presso i nostri uffici.",
+              "en": "You are requested to come to our offices."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-07-l3-e04",
+          "prompt": "___ la documentazione presentata, si accoglie la richiesta.",
+          "options": [
+            "Verificata",
+            "Verificato",
+            "Verificando",
+            "Verificati"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Participio assoluto accordato con la documentazione (femminile singolare)."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-07-l3-e05",
+          "sentence": "Considerato i motivi esposti, la domanda non può essere accolta.",
+          "answers": [
+            "Considerati i motivi esposti, la domanda non può essere accolta.",
+            "Considerati i motivi esposti la domanda non può essere accolta."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Davanti a un nome il participio concorda: considerati i motivi. Considerato che + frase, invece, resta invariabile."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-07-l3-e06",
+          "sentence": "Non avendo ricevuto risposta, Le scrivo di nuovo. = ___ non ho ricevuto risposta, Le scrivo di nuovo.",
+          "answers": [
+            "Poiché",
+            "Siccome",
+            "Dato che",
+            "Visto che",
+            "Dal momento che",
+            "Giacché"
+          ],
+          "instruction": "Sciogli il gerundio: scrivi una congiunzione causale.",
+          "explanation": "Il gerundio qui ha valore causale: poiché, siccome, dato che…"
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-07-l3-e07",
+          "translation": "With reference to your letter of 3 March, I am writing to ask for clarification.",
+          "tiles": [
+            "In",
+            "riferimento",
+            "alla",
+            "Sua",
+            "lettera",
+            "del",
+            "3",
+            "marzo",
+            "Le",
+            "scrivo",
+            "per",
+            "chiedere",
+            "chiarimenti"
+          ],
+          "distractors": [
+            "Ti",
+            "della"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Apertura classica di una lettera formale: In riferimento a… / In merito a…"
+        },
+        {
+          "type": "reading",
+          "id": "c1-07-l3-e08",
+          "title": "Comune – Ufficio Tributi",
+          "passage": "Oggetto: sollecito di pagamento TARI 2025 – seconda rata.\n\nGentile contribuente, dall'esame della posizione tributaria della S.V. risulta non pervenuto il versamento della seconda rata della tassa sui rifiuti (TARI) per l'anno 2025, scaduta il 2 dicembre u.s. Si invita pertanto la S.V. a provvedere al pagamento entro e non oltre 30 giorni dal ricevimento della presente, utilizzando il modello allegato. Decorso inutilmente tale termine, si procederà alla riscossione coattiva, con addebito di sanzioni e interessi. Qualora il pagamento fosse già stato effettuato, si prega di non tenere conto della presente e di inviare copia della ricevuta all'indirizzo PEC dell'ufficio. Distinti saluti. Il Responsabile del Servizio",
+          "questions": [
+            {
+              "question": "Perché il Comune ha scritto questa lettera?",
+              "options": [
+                "Per chiedere il pagamento di una rata non pagata.",
+                "Per comunicare un rimborso.",
+                "Per annunciare un aumento della tassa.",
+                "Per invitare il cittadino a una riunione."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa succede se non si paga entro 30 giorni?",
+              "options": [
+                "Niente, si può pagare l'anno dopo.",
+                "Il Comune riscuoterà la somma con sanzioni e interessi.",
+                "Il contratto della casa viene annullato.",
+                "Si riceve un altro sollecito gratuito."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa deve fare chi ha già pagato?",
+              "options": [
+                "Pagare di nuovo e chiedere il rimborso.",
+                "Andare di persona all'ufficio.",
+                "Ignorare la lettera e mandare la ricevuta via PEC.",
+                "Telefonare entro 30 giorni."
+              ],
+              "answer": 2
+            }
+          ],
+          "instruction": "Leggi la lettera e rispondi alle domande.",
+          "explanation": "U.s. = ultimo scorso; decorso inutilmente il termine = se il termine passa senza che si paghi; la presente = questa lettera."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-07-l3-e09",
+          "audioText": "Qualora il pagamento sia già stato effettuato, si prega di non tenere conto della presente.",
+          "answers": [
+            "Qualora il pagamento sia già stato effettuato, si prega di non tenere conto della presente.",
+            "Qualora il pagamento sia già stato effettuato si prega di non tenere conto della presente.",
+            "Qualora il pagamento fosse già stato effettuato, si prega di non tenere conto della presente.",
+            "Qualora il pagamento fosse già stato effettuato si prega di non tenere conto della presente."
+          ],
+          "slow": true,
+          "instruction": "Ascolta e scrivi la frase.",
+          "explanation": "La presente = questa lettera. Qualora + congiuntivo passato."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-07-l3-e10",
+          "text": "Non avendo ricevuto alcuna risposta, mi permetto di sollecitare un Suo riscontro.",
+          "translation": "Having received no reply, I take the liberty of asking for your response.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-07-l3-e11",
+          "prompt": "La tua vicina anziana ha ricevuto la lettera dell'Ufficio Tributi e non la capisce. Spiegale in italiano semplice che cosa deve fare. Usa il Lei.",
+          "keywords": [
+            "pagare",
+            "trenta giorni",
+            "ricevuta"
+          ],
+          "modelAnswer": "Signora, il Comune dice che non risulta pagata la seconda rata della tassa sui rifiuti. Lei ha trenta giorni per pagarla con il modulo allegato, altrimenti dovrà pagare anche una multa e gli interessi. Se invece l'ha già pagata, non deve pagare di nuovo: basta mandare una copia della ricevuta all'ufficio. Se vuole, la aiuto io a mandarla.",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "explanation": "Mediare = semplificare: risulta non pervenuto il versamento → non risulta pagata; decorso inutilmente il termine → se non paga in tempo."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-07-l3-e12",
+          "prompt": "Rispondi all'Ufficio Tributi (90–130 parole). Hai già pagato la seconda rata il 28 novembre e alleghi la ricevuta. Chiedi di aggiornare la tua posizione e di confermare per iscritto. Usa un registro formale.",
+          "minWords": 90,
+          "checklist": [
+            "Ho indicato l'oggetto e ho aperto con una formula formale (Spettabile Ufficio…, In riferimento a…).",
+            "Ho usato almeno una costruzione implicita (participio o gerundio).",
+            "Ho usato si allega / in allegato e qualora o un altro connettivo formale.",
+            "Ho chiesto una conferma scritta con una richiesta cortese.",
+            "Ho chiuso con una formula di saluto formale e i miei dati."
+          ],
+          "modelAnswer": "Oggetto: sollecito di pagamento TARI 2025 – seconda rata.\n\nSpettabile Ufficio Tributi,\n\nin riferimento al sollecito ricevuto in data 15 gennaio, desidero comunicare che il versamento della seconda rata TARI 2025 è stato regolarmente effettuato il 28 novembre, quindi prima della scadenza. Si allega copia della ricevuta di pagamento. Verificata la documentazione, vi chiedo cortesemente di aggiornare la mia posizione tributaria e di confermarmi per iscritto la regolarità dei pagamenti. Qualora fossero necessari ulteriori documenti, resto a disposizione per fornirli. Ringraziando per l'attenzione, porgo distinti saluti.\n\n[Nome e cognome]\n[Codice fiscale]",
+          "instruction": "Scrivi un'email formale."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-07-l3-e13",
+          "front": "la S.V. (la Signoria Vostra)",
+          "back": "you (very formal, in official letters)",
+          "example": "Si invita la S.V. a presentarsi presso i nostri uffici."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il modulo",
+      "en": "form",
+      "example": "Il modulo va compilato in stampatello."
+    },
+    {
+      "it": "la domanda",
+      "en": "application",
+      "example": "Ho presentato la domanda di residenza."
+    },
+    {
+      "it": "allegare / in allegato",
+      "en": "to attach / attached",
+      "example": "In allegato trova la ricevuta."
+    },
+    {
+      "it": "il sottoscritto / la sottoscritta",
+      "en": "the undersigned",
+      "example": "Il sottoscritto dichiara di essere residente in Italia."
+    },
+    {
+      "it": "ai sensi di",
+      "en": "pursuant to, under",
+      "example": "Ai sensi dell'art. 5 del contratto…"
+    },
+    {
+      "it": "entro e non oltre",
+      "en": "no later than",
+      "example": "Da presentare entro e non oltre il 30 aprile."
+    },
+    {
+      "it": "previa prenotazione",
+      "en": "by appointment only",
+      "example": "Il servizio è disponibile previa prenotazione."
+    },
+    {
+      "it": "a decorrere da",
+      "en": "with effect from, starting from",
+      "example": "A decorrere dal 1° gennaio l'ufficio cambia sede."
+    },
+    {
+      "it": "il locatore",
+      "en": "landlord (in a lease)",
+      "example": "Il locatore deve restituire il deposito."
+    },
+    {
+      "it": "il conduttore",
+      "en": "tenant (in a lease)",
+      "example": "Il conduttore paga il canone ogni mese."
+    },
+    {
+      "it": "il canone",
+      "en": "rent; fee",
+      "example": "Il canone mensile è di 800 euro."
+    },
+    {
+      "it": "la disdetta",
+      "en": "notice of termination",
+      "example": "Ho inviato la disdetta con raccomandata."
+    },
+    {
+      "it": "il preavviso",
+      "en": "notice (period)",
+      "example": "Ci vogliono sei mesi di preavviso."
+    },
+    {
+      "it": "recedere (dal contratto) / il recesso",
+      "en": "to withdraw (from a contract) / withdrawal",
+      "example": "Il conduttore può recedere in qualsiasi momento."
+    },
+    {
+      "it": "qualora",
+      "en": "if, should (formal, + congiuntivo)",
+      "example": "Qualora avesse domande, ci contatti."
+    },
+    {
+      "it": "la PEC (posta elettronica certificata)",
+      "en": "certified email",
+      "example": "La disdetta può essere inviata via PEC."
+    },
+    {
+      "it": "il sollecito",
+      "en": "reminder (for payment)",
+      "example": "Ho ricevuto un sollecito di pagamento."
+    },
+    {
+      "it": "il versamento",
+      "en": "payment, deposit",
+      "example": "Il versamento risulta effettuato."
+    },
+    {
+      "it": "la scadenza",
+      "en": "deadline, expiry date",
+      "example": "La scadenza è fissata al 2 dicembre."
+    },
+    {
+      "it": "l'autocertificazione (f.)",
+      "en": "self-certification",
+      "example": "Basta un'autocertificazione firmata."
+    },
+    {
+      "it": "lo sportello",
+      "en": "counter (in an office)",
+      "example": "Allo sportello mi hanno chiesto un documento."
+    },
+    {
+      "it": "pervenire",
+      "en": "to reach, to be received (formal)",
+      "example": "La Sua richiesta è pervenuta ieri."
+    },
+    {
+      "it": "mediante",
+      "en": "by means of",
+      "example": "Il pagamento avviene mediante bonifico."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "c1-07-t1",
+      "rule": "Va firmato = deve essere firmato",
+      "tip": "Andare + participio esprime un obbligo passivo: la domanda va presentata = deve essere presentata.",
+      "example": {
+        "it": "Il modulo va compilato in stampatello.",
+        "en": "The form must be filled in in block capitals."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "La domanda ___ firmata dal richiedente.",
+        "answers": [
+          "va"
+        ],
+        "instruction": "Completa con andare."
+      }
+    },
+    {
+      "id": "c1-07-t2",
+      "rule": "Da + infinito: i documenti da allegare",
+      "tip": "Nome + da + infinito indica qualcosa che deve essere fatto: l'importo da versare, i documenti da allegare.",
+      "example": {
+        "it": "Ecco i documenti da allegare.",
+        "en": "Here are the documents to be attached."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "the amount to be paid",
+        "answers": [
+          "l'importo da pagare",
+          "l'importo da versare",
+          "la somma da pagare",
+          "la somma da versare"
+        ],
+        "instruction": "Traduci in italiano."
+      }
+    },
+    {
+      "id": "c1-07-t3",
+      "rule": "Qualora + congiuntivo",
+      "tip": "Qualora significa «se» in registro formale e vuole il congiuntivo: qualora avesse bisogno…",
+      "example": {
+        "it": "Qualora avesse domande, non esiti a contattarci.",
+        "en": "Should you have any questions, do not hesitate to contact us."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Qualora il pagamento non ___ entro dieci giorni, il contratto sarà risolto.",
+        "options": [
+          "avvenga",
+          "avviene",
+          "avverrà"
+        ],
+        "answer": 0,
+        "instruction": "Scegli la forma giusta."
+      }
+    },
+    {
+      "id": "c1-07-t4",
+      "rule": "Participio assoluto: Visti i documenti",
+      "tip": "Il participio assoluto concorda con il nome che segue: vista la domanda, visti i documenti, considerate le circostanze.",
+      "example": {
+        "it": "Verificata la documentazione, si accoglie la richiesta.",
+        "en": "Having checked the documents, the request is granted."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Vista i documenti, si approva la domanda.",
+        "answers": [
+          "Visti i documenti, si approva la domanda.",
+          "Visti i documenti si approva la domanda."
+        ],
+        "instruction": "C'è un errore. Correggilo."
+      }
+    },
+    {
+      "id": "c1-07-t5",
+      "rule": "Il sottoscritto dichiara",
+      "tip": "Nei moduli chi firma parla di sé alla terza persona: il sottoscritto dichiara, la sottoscritta chiede.",
+      "example": {
+        "it": "La sottoscritta chiede il rilascio del certificato.",
+        "en": "The undersigned requests the issue of the certificate."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Il sottoscritto ___ di aver preso visione del regolamento.",
+        "options": [
+          "dichiara",
+          "dichiaro",
+          "dichiari"
+        ],
+        "answer": 0,
+        "instruction": "Scegli la forma giusta."
+      }
+    }
+  ]
+}

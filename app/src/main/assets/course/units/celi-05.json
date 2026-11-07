@@ -1,0 +1,904 @@
+{
+  "id": "celi-05",
+  "level": "CELI3",
+  "title": "Parlare per l'esame",
+  "objective": "Alla fine dell'unità sai affrontare l'orale del CELI 3 (circa 15 minuti, con 15 minuti di preparazione): ti presenti, descrivi e commenti una foto, riassumi un breve testo e lo discuti, e svolgi un compito comunicativo (role-play) con il registro giusto.",
+  "grammarFocus": "Descrivere un'immagine (in primo piano, sullo sfondo, sembra che + congiuntivo), riassumere (il testo parla di, secondo l'autore, discorso indiretto), funzioni del role-play (lamentarsi, chiedere, proporre, rifiutare con cortesia) con condizionale e congiuntivo imperfetto.",
+  "remedialUnitIds": [
+    "b2-06",
+    "b2-02",
+    "c1-01"
+  ],
+  "lessons": [
+    {
+      "id": "celi-05-l1",
+      "title": "Presentarsi e descrivere una foto",
+      "minutes": 14,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "celi-05-l1-e01",
+          "instruction": "Riscaldamento: completa la richiesta cortese.",
+          "sentence": "Le ___ grato se potesse ripetere la domanda.",
+          "answers": [
+            "sarei"
+          ],
+          "explanation": "Sarei grato se potesse… funziona anche a voce, per esempio con l'esaminatore."
+        },
+        {
+          "type": "translate",
+          "id": "celi-05-l1-e02",
+          "instruction": "Riscaldamento: traduci in italiano.",
+          "direction": "en_it",
+          "source": "In my opinion it's a good idea, although it's expensive.",
+          "answers": [
+            "Secondo me è una buona idea, anche se è cara.",
+            "Secondo me è una buona idea, anche se è costosa.",
+            "Secondo me è una buona idea, benché sia cara.",
+            "Secondo me è una buona idea, benché sia costosa.",
+            "Secondo me è una buona idea, sebbene sia cara.",
+            "Secondo me è una buona idea, sebbene sia costosa.",
+            "Secondo me è una buona idea anche se è cara.",
+            "Secondo me è una buona idea anche se è costosa.",
+            "Per me è una buona idea, anche se è cara.",
+            "Penso che sia una buona idea, anche se è cara.",
+            "Penso che sia una buona idea, anche se è costosa."
+          ],
+          "explanation": "Anche se + indicativo; benché / sebbene + congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-05-l1-e03",
+          "title": "L'orale del CELI 3",
+          "body": "L'orale dura **circa 15 minuti**. Ricevi i materiali **circa 15 minuti prima** per prepararti. Ci sono **due esaminatori**: uno parla con te, l'altro ascolta e valuta. Gli esaminatori ti danno del **Lei**.\n\n**Le fasi:**\n1. una breve **presentazione** di te stesso\n2. la **descrizione di una foto**, che diventa lo spunto per una conversazione\n3. il **riassunto di un breve testo**, da cui parte una discussione\n4. un **compito comunicativo** (role-play) in una situazione definita\n\nDopo la presentazione, di solito puoi scegliere l'ordine delle altre parti.\n\n**Criteri (da 1 a 5 ciascuno, totale ×3 = 60 punti; per superare l'orale servono almeno 33):**\n- **competenza lessicale** – lessico adeguato, non ripetitivo\n- **competenza grammaticale** – varietà di strutture, pochi errori\n- **competenza sociolinguistica** – registro adatto, partecipazione attiva e fluida\n- **competenza fonetica** – pronuncia chiara, intonazione naturale\n\nUn errore ripetuto più volte conta una sola volta, e le tue opinioni non influiscono sul voto: conta come parli, non che cosa pensi.",
+          "examples": [
+            {
+              "it": "Mi chiamo Richard, sono inglese e vivo in Italia da due anni.",
+              "en": "My name is Richard, I'm English and I've lived in Italy for two years."
+            },
+            {
+              "it": "Studio italiano perché vorrei sentirmi a casa qui.",
+              "en": "I'm studying Italian because I'd like to feel at home here."
+            },
+            {
+              "it": "Scusi, può ripetere la domanda?",
+              "en": "Sorry, could you repeat the question?"
+            }
+          ]
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-05-l1-e04",
+          "instruction": "Presentazione: rispondi ad alta voce in 4–5 frasi, come all'inizio dell'esame.",
+          "prompt": "«Buongiorno, si accomodi. Prima di cominciare, ci parli un po' di sé: chi è, dove vive, perché studia l'italiano?»",
+          "keywords": [
+            "mi chiamo",
+            "vivo",
+            "perché"
+          ],
+          "modelAnswer": "Buongiorno. Mi chiamo Richard e vivo in Italia da qualche anno. Nel tempo libero mi piace camminare e cucinare. Studio l'italiano perché voglio integrarmi meglio e parlare senza difficoltà con i vicini, in ufficio e dal medico. Ho deciso di fare il CELI 3 perché vorrei avere una certificazione ufficiale del mio livello.",
+          "explanation": "Prepara la presentazione prima dell'esame: 4–5 frasi naturali, con un motivo e un progetto. Non impararla a memoria parola per parola: deve suonare spontanea."
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-05-l1-e05",
+          "instruction": "Abbina le espressioni per descrivere una foto.",
+          "pairs": [
+            {
+              "left": "in primo piano",
+              "right": "in the foreground"
+            },
+            {
+              "left": "sullo sfondo",
+              "right": "in the background"
+            },
+            {
+              "left": "a sinistra / a destra",
+              "right": "on the left / on the right"
+            },
+            {
+              "left": "al centro",
+              "right": "in the middle"
+            },
+            {
+              "left": "sembra che…",
+              "right": "it seems that…"
+            }
+          ],
+          "explanation": "Descrivi prima la scena generale, poi i dettagli dal primo piano allo sfondo, poi fai ipotesi."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-05-l1-e06",
+          "instruction": "Scegli la forma giusta per fare un'ipotesi sulla foto.",
+          "prompt": "Sembra che le persone ___ aspettando l'autobus.",
+          "options": [
+            "stanno",
+            "stiano",
+            "stavano",
+            "staranno"
+          ],
+          "answer": 1,
+          "explanation": "Sembra che + congiuntivo: stiano aspettando. In alternativa: probabilmente stanno aspettando / staranno aspettando (futuro di ipotesi)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-05-l1-e07",
+          "instruction": "Completa.",
+          "sentence": "In primo piano ___ vede una signora anziana con una borsa della spesa.",
+          "answers": [
+            "si"
+          ],
+          "explanation": "Si vede (una cosa) / si vedono (più cose): la forma impersonale tipica delle descrizioni."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-05-l1-e08",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "In the background you can see some mountains covered in snow.",
+          "tiles": [
+            "Sullo",
+            "sfondo",
+            "si",
+            "vedono",
+            "delle",
+            "montagne",
+            "coperte",
+            "di",
+            "neve"
+          ],
+          "distractors": [
+            "vede",
+            "Sul"
+          ],
+          "explanation": "Sullo sfondo (lo sfondo). Si vedono + plurale."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-05-l1-e09",
+          "instruction": "Descrivi la foto ad alta voce (5–6 frasi): scena, dettagli, ipotesi.",
+          "prompt": "Immagina la foto: un mercato all'aperto in una piazza, in una mattina di sole. In primo piano un venditore di frutta parla con una signora anziana; a destra due ragazzi guardano il telefono; sullo sfondo c'è una chiesa e alcuni tavolini di un bar.",
+          "keywords": [
+            "in primo piano",
+            "sullo sfondo",
+            "sembra"
+          ],
+          "modelAnswer": "Nella foto si vede un mercato all'aperto in una piazza, probabilmente la mattina, perché c'è il sole. In primo piano un venditore di frutta parla con una signora anziana: sembra che si conoscano da tanto tempo. A destra ci sono due ragazzi che guardano il telefono. Sullo sfondo si vedono una chiesa e i tavolini di un bar. Secondo me è una piccola città italiana, in un giorno di mercato.",
+          "explanation": "Scena generale → dettagli → ipotesi (probabilmente, sembra che + congiuntivo). Usi strutture varie: relativa, impersonale, congiuntivo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-05-l1-e10",
+          "instruction": "L'esaminatore continua la conversazione. Rispondi in 3–4 frasi.",
+          "prompt": "«Lei preferisce fare la spesa al mercato o al supermercato? Perché?»",
+          "keywords": [
+            "preferisco",
+            "perché",
+            "invece"
+          ],
+          "modelAnswer": "Preferisco il mercato, perché la frutta e la verdura sono più fresche e posso parlare con i venditori. Il supermercato, invece, è più comodo quando ho poco tempo. Quindi durante la settimana vado al supermercato, mentre il sabato mattina vado al mercato.",
+          "explanation": "La foto è uno spunto: la discussione passa subito alle tue esperienze e opinioni. Rispondi sempre con un motivo."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-05-l1-e11",
+          "instruction": "Ascolta e ripeti con intonazione naturale.",
+          "text": "Sullo sfondo si vede una chiesa, mentre in primo piano c'è un venditore di frutta.",
+          "translation": "In the background you can see a church, while in the foreground there's a fruit seller."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-05-l1-e12",
+          "front": "sullo sfondo",
+          "back": "in the background",
+          "example": "Sullo sfondo si vedono le colline."
+        }
+      ]
+    },
+    {
+      "id": "celi-05-l2",
+      "title": "Riassumere un testo",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "celi-05-l2-e01",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Sullo ___ si vedono delle colline.",
+          "answers": [
+            "sfondo"
+          ],
+          "explanation": "Lo sfondo → sullo sfondo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-05-l2-e02",
+          "title": "Riassumere e discutere un testo",
+          "body": "All'orale ricevi un **breve testo** da leggere durante la preparazione. Devi **riassumerlo con parole tue** e poi **discuterne** con l'esaminatore.\n\n**Come fare (consigli pratici):**\n- Durante la preparazione annota **4–5 parole chiave**: chi? che cosa? dove? perché? con quali conseguenze?\n- **Non leggere** il testo ad alta voce: riformula, in terza persona.\n- Comincia con una **formula d'apertura**, segui l'ordine logico, chiudi con **un'opinione**.\n\n**Formule utili:**\n- *Il testo parla di… / tratta di… / È un articolo su…*\n- *Secondo l'autore… / Il sindaco sostiene che…*\n- *Si dice che… / Si spiega che…*\n- *In sintesi… / Insomma…*\n- *Personalmente penso che… / Mi ha colpito che…* (+ congiuntivo)\n\n**Discorso indiretto:** «Vogliamo ripopolare il paese» → *Il sindaco dice che vogliono ripopolare il paese* / *ha detto che volevano ripopolare il paese*.",
+          "examples": [
+            {
+              "it": "Il testo parla dei piccoli paesi che vendono case a un euro.",
+              "en": "The text is about small towns selling houses for one euro."
+            },
+            {
+              "it": "Secondo il sindaco, il progetto ha avuto successo.",
+              "en": "According to the mayor, the project has been a success."
+            },
+            {
+              "it": "Mi ha colpito che molti acquirenti siano stranieri.",
+              "en": "I was struck by the fact that many buyers are foreigners."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "celi-05-l2-e03",
+          "instruction": "Testo per l'orale. Leggilo come durante la preparazione, poi rispondi.",
+          "title": "Case a un euro: il paese che rinasce",
+          "passage": "Qualche anno fa, nel piccolo borgo di Santa Lucia, metà delle case erano vuote e la scuola rischiava di chiudere. Il sindaco ha allora deciso di mettere in vendita le case abbandonate al prezzo simbolico di un euro. C'era però una condizione: chi comprava doveva ristrutturare l'edificio entro tre anni. «Volevamo ripopolare il paese, non solo vendere muri», spiega il sindaco. Le richieste sono arrivate da tutto il mondo. Oggi trenta case sono state ristrutturate, sono nati due bed and breakfast e una bottega artigiana, e la scuola ha di nuovo abbastanza alunni. Non mancano le critiche: alcuni abitanti lamentano l'aumento dei prezzi delle altre case e temono che il paese diventi solo una meta turistica.",
+          "questions": [
+            {
+              "question": "Che cosa dovevano fare gli acquirenti?",
+              "options": [
+                "Pagare le tasse per dieci anni",
+                "Ristrutturare la casa entro tre anni",
+                "Aprire un bed and breakfast",
+                "Iscrivere i figli alla scuola"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale critica fanno alcuni abitanti?",
+              "options": [
+                "Le case sono troppo care da ristrutturare",
+                "I prezzi delle case sono aumentati",
+                "La scuola ha chiuso",
+                "Non sono arrivate richieste"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Prima di riassumere, assicurati di aver capito il problema iniziale, la soluzione, i risultati e le critiche: sono i quattro blocchi del riassunto."
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-05-l2-e04",
+          "instruction": "Abbina la frase del testo alla versione per il riassunto.",
+          "pairs": [
+            {
+              "left": "«Volevamo ripopolare il paese.»",
+              "right": "Il sindaco spiega che volevano ripopolare il paese."
+            },
+            {
+              "left": "Metà delle case erano vuote.",
+              "right": "Il paese si stava spopolando."
+            },
+            {
+              "left": "Sono nati due bed and breakfast.",
+              "right": "Sono state aperte nuove attività."
+            },
+            {
+              "left": "Alcuni abitanti lamentano l'aumento dei prezzi.",
+              "right": "Non tutti sono contenti."
+            },
+            {
+              "left": "Le richieste sono arrivate da tutto il mondo.",
+              "right": "Il progetto ha avuto un'eco internazionale."
+            }
+          ],
+          "explanation": "Riassumere significa generalizzare e riformulare, non ripetere."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-05-l2-e05",
+          "instruction": "Discorso indiretto: completa.",
+          "sentence": "«Il progetto ha avuto successo.» → Il sindaco ha detto che il progetto ___ successo.",
+          "answers": [
+            "aveva avuto"
+          ],
+          "explanation": "Verbo introduttivo al passato (ha detto) → il passato prossimo diventa trapassato prossimo: aveva avuto."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-05-l2-e06",
+          "instruction": "Quale apertura di riassunto è migliore?",
+          "prompt": "Scegli l'inizio più efficace.",
+          "options": [
+            "«Qualche anno fa, nel piccolo borgo di Santa Lucia, metà delle case…» (lettura del testo)",
+            "Il testo parla di un piccolo paese che ha venduto case abbandonate a un euro per ripopolarsi.",
+            "Allora… case… un euro… non so.",
+            "Mi piace molto viaggiare nei piccoli paesi."
+          ],
+          "answer": 1,
+          "explanation": "Una frase che dice subito l'argomento e lo scopo, con parole tue."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-05-l2-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Il testo parla del case a un euro in un piccolo paese.",
+          "answers": [
+            "Il testo parla delle case a un euro in un piccolo paese."
+          ],
+          "explanation": "Di + le = delle (case è femminile plurale)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-05-l2-e08",
+          "instruction": "Riassumi il testo ad alta voce (5–6 frasi).",
+          "prompt": "Riassumi il testo «Case a un euro: il paese che rinasce»: problema, soluzione, risultati, critiche.",
+          "keywords": [
+            "il testo parla",
+            "secondo",
+            "però"
+          ],
+          "modelAnswer": "Il testo parla di un piccolo paese, Santa Lucia, che si stava spopolando: molte case erano vuote e la scuola rischiava di chiudere. Il sindaco ha deciso di vendere le case abbandonate a un euro, a condizione che gli acquirenti le ristrutturassero entro tre anni. Secondo il sindaco, lo scopo era ripopolare il paese. Il progetto ha avuto successo: molte case sono state ristrutturate, sono nate nuove attività e la scuola è rimasta aperta. Però alcuni abitanti si lamentano perché i prezzi delle altre case sono aumentati.",
+          "explanation": "Formula d'apertura, terza persona, connettivi (però), un passivo (sono state ristrutturate): varietà di strutture."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-05-l2-e09",
+          "instruction": "L'esaminatore apre la discussione. Rispondi in 3–4 frasi.",
+          "prompt": "«Secondo Lei, iniziative come questa sono una buona idea? Lei andrebbe a vivere in un paese così?»",
+          "keywords": [
+            "secondo me",
+            "perché",
+            "se"
+          ],
+          "modelAnswer": "Secondo me sono una buona idea, perché salvano paesi che altrimenti morirebbero. Però bisogna fare attenzione, affinché il paese non diventi solo un luogo per turisti. Se lavorassi da casa, ci andrei volentieri, ma ristrutturare una casa vecchia costa molto.",
+          "explanation": "Opinione + motivo + un'ipotesi (se lavorassi… ci andrei): mostri varietà grammaticale anche nella discussione."
+        },
+        {
+          "type": "translate",
+          "id": "celi-05-l2-e10",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Alcuni abitanti temono che il paese diventi solo una meta turistica.",
+          "answers": [
+            "Some residents fear that the village will become just a tourist destination.",
+            "Some residents fear the village will become just a tourist destination.",
+            "Some inhabitants fear that the village will become just a tourist destination.",
+            "Some locals fear that the village will become just a tourist destination.",
+            "Some residents fear that the town will become just a tourist destination.",
+            "Some residents are afraid that the village will become just a tourist destination.",
+            "Some residents fear that the village will become only a tourist destination.",
+            "Some residents fear that the village might become just a tourist destination.",
+            "Some residents fear that the village will just become a tourist destination."
+          ],
+          "explanation": "Temere che + congiuntivo (diventi)."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-05-l2-e11",
+          "instruction": "Ascolta e ripeti la formula.",
+          "text": "In sintesi, il progetto ha salvato il paese, anche se non tutti sono contenti.",
+          "translation": "In short, the project saved the village, although not everyone is happy."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-05-l2-e12",
+          "front": "in sintesi",
+          "back": "in short, to sum up",
+          "example": "In sintesi, il progetto ha funzionato."
+        }
+      ]
+    },
+    {
+      "id": "celi-05-l3",
+      "title": "Il compito comunicativo (role-play)",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-05-l3-e01",
+          "instruction": "Riscaldamento: quale formula introduce un riassunto?",
+          "prompt": "Scegli la formula giusta.",
+          "options": [
+            "Il testo tratta di…",
+            "Cordiali saluti",
+            "Sullo sfondo…",
+            "Magari!"
+          ],
+          "answer": 0,
+          "explanation": "Il testo tratta di / parla di: per cominciare il riassunto."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-05-l3-e02",
+          "title": "Il role-play: funzioni e cortesia",
+          "body": "Nel **compito comunicativo** ricevi una situazione (per esempio un reclamo in un negozio, una trattativa con il padrone di casa, una richiesta a un ufficio). L'esaminatore interpreta l'altro personaggio. Si valuta anche quanto sei **convincente e naturale**.\n\n**Consigli pratici:**\n- Durante la preparazione chiediti: **chi sono? con chi parlo? che cosa voglio ottenere?** Scegli il **registro** (di solito Lei).\n- **Prendi l'iniziativa**: saluta, spiega il problema, fai proposte, fai domande. Non aspettare solo le domande.\n- **Ammorbidisci** con condizionale e formule cortesi: *vorrei, potrebbe, sarebbe possibile…?, mi dispiace, ma…, capisco, però…*\n- Se non conosci una parola, **riformula**: *quella cosa che serve per…*\n- **Chiudi** la conversazione: *Allora siamo d'accordo. La ringrazio.*\n\n**Funzioni utili:**\n- lamentarsi: *Purtroppo ho un problema con…*\n- chiedere: *Sarebbe possibile…? Vorrei che + congiuntivo imperfetto*\n- proporre: *E se + congiuntivo imperfetto…? Potremmo…*\n- rifiutare con cortesia: *Mi dispiace, ma non mi è possibile.*\n- accettare un compromesso: *Va bene, mi sembra una soluzione ragionevole.*",
+          "examples": [
+            {
+              "it": "Purtroppo il frullatore che ho comprato non funziona.",
+              "en": "Unfortunately the blender I bought doesn't work."
+            },
+            {
+              "it": "Sarebbe possibile avere un rimborso?",
+              "en": "Would it be possible to get a refund?"
+            },
+            {
+              "it": "E se ci vedessimo martedì?",
+              "en": "What if we met on Tuesday?"
+            },
+            {
+              "it": "Va bene, mi sembra una soluzione ragionevole.",
+              "en": "OK, that seems a reasonable solution."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-05-l3-e03",
+          "instruction": "Abbina la funzione all'espressione.",
+          "pairs": [
+            {
+              "left": "lamentarsi",
+              "right": "Purtroppo ho un problema con…"
+            },
+            {
+              "left": "chiedere con cortesia",
+              "right": "Sarebbe possibile…?"
+            },
+            {
+              "left": "proporre",
+              "right": "E se provassimo…?"
+            },
+            {
+              "left": "rifiutare con cortesia",
+              "right": "Mi dispiace, ma non mi è possibile."
+            },
+            {
+              "left": "accettare",
+              "right": "Mi sembra una soluzione ragionevole."
+            }
+          ],
+          "explanation": "Avere una formula pronta per ogni funzione ti dà fluidità: è un criterio della competenza sociolinguistica."
+        },
+        {
+          "type": "conjugation",
+          "id": "celi-05-l3-e04",
+          "instruction": "Condizionale presente di dovere: per consigli e richieste attenuate.",
+          "verb": "dovere",
+          "tense": "condizionale presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "dovrei"
+            },
+            {
+              "person": "tu",
+              "answer": "dovresti"
+            },
+            {
+              "person": "lui/lei/Lei",
+              "answer": "dovrebbe"
+            },
+            {
+              "person": "noi",
+              "answer": "dovremmo"
+            },
+            {
+              "person": "voi",
+              "answer": "dovreste"
+            },
+            {
+              "person": "loro",
+              "answer": "dovrebbero"
+            }
+          ],
+          "explanation": "Dovrebbe essere ancora in garanzia: il condizionale ammorbidisce un'affermazione."
+        },
+        {
+          "type": "roleplay",
+          "id": "celi-05-l3-e05",
+          "instruction": "Role-play 1. Rispondi ad alta voce.",
+          "scenario": "Role card: Two weeks ago you bought a blender in an electronics shop. It has already stopped working. Go back to the shop, explain the problem and ask for a refund. If the shop assistant refuses, negotiate an acceptable solution.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, desidera?"
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno. Purtroppo ho un problema con un frullatore che ho comprato qui due settimane fa: non funziona più.",
+              "hint": "Greet and explain the problem.",
+              "keywords": [
+                "purtroppo",
+                "frullatore",
+                "non funziona"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mi dispiace. Ha lo scontrino?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, eccolo. Sarebbe possibile avere un rimborso?",
+              "hint": "Show the receipt and ask for a refund politely.",
+              "keywords": [
+                "scontrino",
+                "rimborso"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mah, guardi, il rimborso non lo facciamo. Possiamo mandarlo in assistenza, ci vogliono circa tre settimane."
+            },
+            {
+              "speaker": "you",
+              "text": "Capisco, però tre settimane sono tante. E se me lo cambiaste con uno nuovo? Dovrebbe essere ancora in garanzia.",
+              "hint": "Object politely and propose an alternative.",
+              "keywords": [
+                "capisco",
+                "però",
+                "garanzia"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Va bene, visto che l'ha comprato da poco, glielo cambio subito."
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto, mi sembra una soluzione ragionevole. La ringrazio molto.",
+              "hint": "Accept and close the conversation.",
+              "keywords": [
+                "ragionevole",
+                "ringrazio"
+              ]
+            }
+          ],
+          "explanation": "Hai preso l'iniziativa, hai usato Lei, condizionale e un'ipotesi (E se me lo cambiaste…?). Nota: le regole su resi e garanzia dipendono dal negozio e dalla legge; qui conta la lingua."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-05-l3-e06",
+          "instruction": "Il padrone di casa ti chiede di pagare una riparazione che secondo te spetta a lui. Quale risposta è più adatta?",
+          "prompt": "Scegli la risposta più appropriata.",
+          "options": [
+            "No. Non pago niente.",
+            "Mi dispiace, ma credo che questa spesa spetti al proprietario. Potremmo verificare il contratto insieme?",
+            "Fai tu, a me non interessa.",
+            "Va bene, pago tutto io, scusi."
+          ],
+          "answer": 1,
+          "explanation": "Rifiuto cortese + motivazione + proposta: è ciò che rende un role-play convincente."
+        },
+        {
+          "type": "translate",
+          "id": "celi-05-l3-e07",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "Would it be possible to postpone the appointment to next week?",
+          "answers": [
+            "Sarebbe possibile rinviare l'appuntamento alla prossima settimana?",
+            "Sarebbe possibile spostare l'appuntamento alla prossima settimana?",
+            "Sarebbe possibile rimandare l'appuntamento alla prossima settimana?",
+            "Sarebbe possibile posticipare l'appuntamento alla prossima settimana?",
+            "Sarebbe possibile rinviare l'appuntamento alla settimana prossima?",
+            "Sarebbe possibile spostare l'appuntamento alla settimana prossima?",
+            "Sarebbe possibile rimandare l'appuntamento alla settimana prossima?",
+            "Sarebbe possibile posticipare l'appuntamento alla settimana prossima?"
+          ],
+          "explanation": "Rinviare / rimandare / spostare / posticipare: tutti possibili. Sarebbe possibile + infinito: richiesta cortese."
+        },
+        {
+          "type": "roleplay",
+          "id": "celi-05-l3-e08",
+          "instruction": "Role-play 2. Rispondi ad alta voce.",
+          "scenario": "Role card: You rent a flat. The boiler has broken and you have had no hot water for three days. Phone the landlord, Signora Galli, explain the situation, ask for a quick repair and agree on a time for the plumber.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Pronto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno signora Galli, sono Richard, l'inquilino di via Roma. La chiamo perché la caldaia si è rotta e da tre giorni non ho l'acqua calda.",
+              "hint": "Introduce yourself and explain the problem.",
+              "keywords": [
+                "caldaia",
+                "acqua calda"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Oh, mi dispiace! Però questa settimana sono fuori città, non so se riesco a mandare qualcuno."
+            },
+            {
+              "speaker": "you",
+              "text": "Capisco, ma è un problema urgente. Potrebbe darmi il numero del suo idraulico? Così lo chiamo io.",
+              "hint": "Insist politely and propose a solution.",
+              "keywords": [
+                "urgente",
+                "potrebbe",
+                "idraulico"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, certo, è una buona idea. Glielo mando per messaggio. Lei quando è a casa?"
+            },
+            {
+              "speaker": "you",
+              "text": "Domani pomeriggio sono a casa dalle due in poi. Vorrei che la fattura fosse intestata a lei, visto che la caldaia è sua.",
+              "hint": "Give your availability and clarify who pays (vorrei che + cong. imperfetto).",
+              "keywords": [
+                "domani",
+                "vorrei che",
+                "fattura"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo, nessun problema. Mi faccia sapere com'è andata."
+            },
+            {
+              "speaker": "you",
+              "text": "Senz'altro. La ringrazio e buona giornata.",
+              "hint": "Close politely.",
+              "keywords": [
+                "ringrazio"
+              ]
+            }
+          ],
+          "explanation": "Vorrei che + congiuntivo imperfetto (fosse intestata) e visto che + indicativo: due strutture B2 in un contesto realistico."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-05-l3-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Vorrei che mi restituisce i soldi.",
+          "answers": [
+            "Vorrei che mi restituisse i soldi.",
+            "Vorrei che Lei mi restituisse i soldi.",
+            "Vorrei che lei mi restituisse i soldi."
+          ],
+          "explanation": "Vorrei che + congiuntivo imperfetto: restituisse."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-05-l3-e10",
+          "instruction": "Ascolta la consegna del role-play e rispondi.",
+          "audioText": "Lei ha prenotato un tavolo per dieci persone in un ristorante per una cena di compleanno. Il giorno prima scopre che verranno solo sei persone. Telefoni al ristorante, spieghi la situazione e chieda se è possibile cambiare la prenotazione senza pagare la caparra.",
+          "question": "Qual è il tuo obiettivo nel role-play?",
+          "options": [
+            "Annullare la cena",
+            "Modificare la prenotazione senza perdere la caparra",
+            "Prenotare per altre dieci persone",
+            "Lamentarsi del cibo"
+          ],
+          "answer": 1,
+          "explanation": "Capire bene l'obiettivo della consegna è il primo passo: tutta la conversazione deve andare in quella direzione."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-05-l3-e11",
+          "instruction": "Ora fai tu la telefonata al ristorante (3–4 frasi).",
+          "prompt": "Telefona al ristorante: spiega che sarete in sei invece che in dieci e chiedi di modificare la prenotazione senza pagare la caparra.",
+          "keywords": [
+            "prenotazione",
+            "sarebbe possibile",
+            "caparra"
+          ],
+          "modelAnswer": "Buonasera, ho prenotato un tavolo per dieci persone per domani sera, a nome Smith. Purtroppo alcuni amici non possono venire e saremo solo in sei. Sarebbe possibile modificare la prenotazione? Spero che non sia necessario pagare la caparra, visto che vi avviso con un giorno di anticipo.",
+          "explanation": "Presentazione, problema, richiesta cortese, motivazione: la sequenza di ogni role-play."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-05-l3-e12",
+          "front": "spettare a",
+          "back": "to be up to, to be the responsibility of",
+          "example": "Questa spesa spetta al proprietario."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "in primo piano",
+      "en": "in the foreground",
+      "example": "In primo piano c'è un venditore."
+    },
+    {
+      "it": "sullo sfondo",
+      "en": "in the background",
+      "example": "Sullo sfondo si vede il mare."
+    },
+    {
+      "it": "sembra che (+ cong.)",
+      "en": "it seems that",
+      "example": "Sembra che siano amici."
+    },
+    {
+      "it": "probabilmente",
+      "en": "probably",
+      "example": "Probabilmente è domenica."
+    },
+    {
+      "it": "il testo parla di / tratta di",
+      "en": "the text is about",
+      "example": "Il testo tratta di un progetto sociale."
+    },
+    {
+      "it": "secondo l'autore",
+      "en": "according to the author",
+      "example": "Secondo l'autore, è un successo."
+    },
+    {
+      "it": "in sintesi",
+      "en": "in short",
+      "example": "In sintesi, il progetto funziona."
+    },
+    {
+      "it": "mi ha colpito che (+ cong.)",
+      "en": "I was struck that",
+      "example": "Mi ha colpito che fossero così tanti."
+    },
+    {
+      "it": "ripopolare",
+      "en": "to repopulate",
+      "example": "Vogliono ripopolare il paese."
+    },
+    {
+      "it": "ristrutturare",
+      "en": "to renovate",
+      "example": "Hanno ristrutturato trenta case."
+    },
+    {
+      "it": "l'acquirente (m./f.)",
+      "en": "buyer",
+      "example": "Molti acquirenti sono stranieri."
+    },
+    {
+      "it": "lo scontrino",
+      "en": "receipt (shop)",
+      "example": "Ha conservato lo scontrino?"
+    },
+    {
+      "it": "il rimborso",
+      "en": "refund",
+      "example": "Vorrei chiedere un rimborso."
+    },
+    {
+      "it": "la garanzia",
+      "en": "warranty, guarantee",
+      "example": "Il frullatore è ancora in garanzia."
+    },
+    {
+      "it": "l'assistenza (f.)",
+      "en": "repair service, customer support",
+      "example": "Lo mandiamo in assistenza."
+    },
+    {
+      "it": "la caldaia",
+      "en": "boiler",
+      "example": "La caldaia si è rotta."
+    },
+    {
+      "it": "l'idraulico (m.)",
+      "en": "plumber",
+      "example": "Chiamo l'idraulico domani."
+    },
+    {
+      "it": "l'inquilino / l'inquilina",
+      "en": "tenant",
+      "example": "Sono l'inquilino del secondo piano."
+    },
+    {
+      "it": "la caparra",
+      "en": "deposit",
+      "example": "Abbiamo lasciato una caparra di cinquanta euro."
+    },
+    {
+      "it": "spettare a",
+      "en": "to be the responsibility of",
+      "example": "La riparazione spetta al proprietario."
+    },
+    {
+      "it": "sarebbe possibile…?",
+      "en": "would it be possible…?",
+      "example": "Sarebbe possibile cambiare data?"
+    },
+    {
+      "it": "una soluzione ragionevole",
+      "en": "a reasonable solution",
+      "example": "Mi sembra una soluzione ragionevole."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "celi-05-t1",
+      "rule": "Foto: generale → dettagli → ipotesi",
+      "tip": "Descrivi la scena, poi primo piano e sfondo, poi fai ipotesi con «sembra che» + congiuntivo.",
+      "example": {
+        "it": "Sembra che stiano aspettando qualcuno.",
+        "en": "It seems they're waiting for someone."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Sembra che i ragazzi ___ in vacanza.",
+        "options": [
+          "sono",
+          "siano",
+          "erano",
+          "saranno"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-05-t2",
+      "rule": "Riassunto: parole tue, 3ª persona",
+      "tip": "All'orale non leggere il testo: apri con «Il testo parla di…» e riformula in terza persona.",
+      "example": {
+        "it": "Il sindaco spiega che volevano ripopolare il paese.",
+        "en": "The mayor explains they wanted to repopulate the village."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "«Siamo contenti.» → Gli abitanti dicono che ___ contenti.",
+        "answers": [
+          "sono"
+        ]
+      }
+    },
+    {
+      "id": "celi-05-t3",
+      "rule": "Discorso indiretto al passato",
+      "tip": "Con ha detto che, il passato prossimo diventa trapassato: «è andato» → aveva detto che era andato.",
+      "example": {
+        "it": "Ha detto che il progetto aveva avuto successo.",
+        "en": "He said the project had been successful."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "«Ho finito.» → Ha detto che ___ finito.",
+        "answers": [
+          "aveva"
+        ]
+      }
+    },
+    {
+      "id": "celi-05-t4",
+      "rule": "Role-play: ammorbidisci",
+      "tip": "Nel role-play usa il condizionale e formule cortesi: sarebbe possibile…? potrebbe…? mi dispiace, ma…",
+      "example": {
+        "it": "Sarebbe possibile avere un rimborso?",
+        "en": "Would it be possible to get a refund?"
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "Could you give me the plumber's number?",
+        "answers": [
+          "Potrebbe darmi il numero dell'idraulico?",
+          "Mi potrebbe dare il numero dell'idraulico?",
+          "Potrebbe darmi il numero del suo idraulico?",
+          "Mi potrebbe dare il numero del suo idraulico?"
+        ]
+      }
+    },
+    {
+      "id": "celi-05-t5",
+      "rule": "Orale: minimo 33 punti su 60",
+      "tip": "All'orale 4 criteri da 1 a 5 (lessico, grammatica, registro, pronuncia), ×3: servono almeno 33 punti su 60.",
+      "example": {
+        "it": "Scusi, può ripetere la domanda?",
+        "en": "Sorry, could you repeat the question?"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Quale NON è un criterio dell'orale CELI 3?",
+        "options": [
+          "competenza fonetica",
+          "competenza lessicale",
+          "velocità di lettura",
+          "competenza sociolinguistica"
+        ],
+        "answer": 2
+      }
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import com.gleaped.italianlearning.data.content.ContentRepository
 import com.gleaped.italianlearning.data.db.AppDatabase
 import com.gleaped.italianlearning.data.settings.SettingsRepository
 import com.gleaped.italianlearning.reminders.Notifications
+import com.gleaped.italianlearning.reminders.ReminderContentBuilder
 import com.gleaped.italianlearning.reminders.ReminderScheduler
 import com.gleaped.italianlearning.speech.TtsManager
 import kotlinx.coroutines.CoroutineScope
@@ -24,6 +25,7 @@ class AppContainer(context: Context) {
     val reminderScheduler: ReminderScheduler by lazy {
         ReminderScheduler(appContext, database.reminderDao(), settings)
     }
+    val reminderContent: ReminderContentBuilder by lazy { ReminderContentBuilder(content, learning, settings) }
     val tts: TtsManager by lazy { TtsManager(appContext) }
 }
 

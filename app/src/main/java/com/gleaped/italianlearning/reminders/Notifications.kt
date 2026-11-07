@@ -6,20 +6,19 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
-import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import com.gleaped.italianlearning.MainActivity
 import com.gleaped.italianlearning.R
-import com.gleaped.italianlearning.domain.reminders.ReminderMessage
+import com.gleaped.italianlearning.domain.reminders.ReminderContent
 
 object Notifications {
     const val CHANNEL_REMINDERS = "practice_reminders"
-    const val EXTRA_OPEN_TODAY = "open_today"
     private const val NOTIFICATION_ID = 1001
+    private const val REQUEST_CONTENT = 0
+    private const val REQUEST_ACTION = 1
 
     fun createChannels(context: Context) {
         val channel = NotificationChannel(
@@ -43,32 +42,36 @@ object Notifications {
 
     // Permission is checked at the top of the function (lint cannot always see through the SDK check).
     @SuppressLint("MissingPermission")
-    fun showReminder(context: Context, message: ReminderMessage) {
+    fun showReminder(context: Context, content: ReminderContent) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
             ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) {
             return
         }
-        val open = Intent(context, MainActivity::class.java).apply {
-            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
-            putExtra(EXTRA_OPEN_TODAY, true)
-        }
         val contentIntent = PendingIntent.getActivity(
             context,
-            0,
-            open,
+            REQUEST_CONTENT,
+            DeepLinks.intentFor(context, content.target),
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
         )
-        val notification = NotificationCompat.Builder(context, CHANNEL_REMINDERS)
+        val builder = NotificationCompat.Builder(context, CHANNEL_REMINDERS)
             .setSmallIcon(R.drawable.ic_notification)
-            .setContentTitle(message.title)
-            .setContentText(message.body)
-            .setStyle(NotificationCompat.BigTextStyle().bigText(message.body))
+            .setContentTitle(content.title)
+            .setContentText(content.body)
+            .setStyle(NotificationCompat.BigTextStyle().bigText(content.bigText))
             .setContentIntent(contentIntent)
             .setAutoCancel(true)
             .setCategory(NotificationCompat.CATEGORY_REMINDER)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .build()
-        NotificationManagerCompat.from(context).notify(NOTIFICATION_ID, notification)
+        content.actionLabel?.let { label ->
+            val actionIntent = PendingIntent.getActivity(
+                context,
+                REQUEST_ACTION,
+                DeepLinks.intentFor(context, content.target),
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+            )
+            builder.addAction(NotificationCompat.Action.Builder(R.drawable.ic_notification, label, actionIntent).build())
+        }
+        NotificationManagerCompat.from(context).notify(NOTIFICATION_ID, builder.build())
     }
 }

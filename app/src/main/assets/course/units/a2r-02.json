@@ -1,0 +1,656 @@
+{
+  "id": "a2r-02",
+  "level": "A2R",
+  "title": "L'imperfetto",
+  "objective": "By the end you can describe how things used to be – where you lived, what you did every day and what places and people were like – using the imperfetto.",
+  "grammarFocus": "Imperfetto: regular forms, essere and the irregular stems of fare, dire, bere; uses for habits, descriptions, states and actions in progress; time signals (di solito, sempre, da piccolo, mentre).",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a2r-02-l1",
+      "title": "Com'era una volta",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2r-02-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta del passato prossimo.",
+          "prompt": "Ieri sera ___ a casa e ho cucinato.",
+          "options": [
+            "sono rimasto",
+            "ho rimasto",
+            "sono rimasti",
+            "ho rimasta"
+          ],
+          "answer": 0,
+          "explanation": "Rimanere takes essere and the participle is irregular: sono rimasto. Today we add the other key past tense: the imperfetto."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-02-l1-e02",
+          "title": "L'imperfetto: forme e abitudini",
+          "body": "The **imperfetto** describes how things *used to be* and what you *used to do*. It is the tense of habits and descriptions, not of single events.\n\n**Regular forms** – take the infinitive, drop **-re**, add the endings:\n- abitare → abita**vo**, abita**vi**, abita**va**, abita**vamo**, abita**vate**, abita**vano**\n- avere → ave**vo**, ave**vi**, ave**va**… / dormire → dormi**vo**, dormi**vi**, dormi**va**…\n\n**Irregular:**\n- **essere**: ero, eri, era, eravamo, eravate, erano\n- **fare** → facevo, **dire** → dicevo, **bere** → bevevo (old stems fac-, dic-, bev-)\n\n**Stress:** in the *loro* form the stress stays where it is in *io*: a-bi-TA-vo → a-bi-TA-va-no.\n\n**Use it for past habits** – English *used to / would*. Typical signals: *di solito, sempre, spesso, ogni giorno, il sabato, da piccolo, da bambino*.",
+          "examples": [
+            {
+              "it": "Da piccolo abitavo in campagna.",
+              "en": "As a child I lived in the countryside."
+            },
+            {
+              "it": "Il sabato andavamo sempre al mercato.",
+              "en": "On Saturdays we always used to go to the market."
+            },
+            {
+              "it": "Di solito mio padre beveva il caffè al bar.",
+              "en": "My father usually drank his coffee at the café."
+            },
+            {
+              "it": "I miei nonni dicevano sempre: «Chi va piano va sano e va lontano».",
+              "en": "My grandparents always used to say: 'Slow and steady wins the race'."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "a2r-02-l1-e03",
+          "instruction": "Scrivi le forme dell'imperfetto.",
+          "verb": "abitare",
+          "tense": "imperfetto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "abitavo"
+            },
+            {
+              "person": "tu",
+              "answer": "abitavi"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "abitava"
+            },
+            {
+              "person": "noi",
+              "answer": "abitavamo"
+            },
+            {
+              "person": "voi",
+              "answer": "abitavate"
+            },
+            {
+              "person": "loro",
+              "answer": "abitavano"
+            }
+          ],
+          "explanation": "Regular -are verb: abita- + -vo, -vi, -va, -vamo, -vate, -vano."
+        },
+        {
+          "type": "conjugation",
+          "id": "a2r-02-l1-e04",
+          "instruction": "Scrivi le forme dell'imperfetto.",
+          "verb": "essere",
+          "tense": "imperfetto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "ero"
+            },
+            {
+              "person": "tu",
+              "answer": "eri"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "era"
+            },
+            {
+              "person": "noi",
+              "answer": "eravamo"
+            },
+            {
+              "person": "voi",
+              "answer": "eravate"
+            },
+            {
+              "person": "loro",
+              "answer": "erano"
+            }
+          ],
+          "explanation": "Essere is the one truly irregular imperfetto – and you need it in almost every description."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2r-02-l1-e05",
+          "instruction": "Abbina l'infinito alla forma io dell'imperfetto.",
+          "pairs": [
+            {
+              "left": "fare",
+              "right": "facevo"
+            },
+            {
+              "left": "dire",
+              "right": "dicevo"
+            },
+            {
+              "left": "bere",
+              "right": "bevevo"
+            },
+            {
+              "left": "dormire",
+              "right": "dormivo"
+            },
+            {
+              "left": "leggere",
+              "right": "leggevo"
+            },
+            {
+              "left": "capire",
+              "right": "capivo"
+            }
+          ],
+          "explanation": "Capire has no -isc- in the imperfetto: capivo (not capiscevo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-02-l1-e06",
+          "instruction": "Completa con l'imperfetto.",
+          "sentence": "Da piccolo ___ (andare) a scuola a piedi.",
+          "answers": [
+            "andavo"
+          ],
+          "hint": "andare – io",
+          "explanation": "A repeated action in the past (every school day): imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-02-l1-e07",
+          "instruction": "Completa con l'imperfetto.",
+          "sentence": "Ogni estate i miei genitori ___ (affittare) una casa al mare.",
+          "answers": [
+            "affittavano"
+          ],
+          "hint": "affittare – loro",
+          "explanation": "Ogni estate signals a habit → imperfetto. Stress: af-fit-TA-va-no."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-02-l1-e08",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Quando abitavamo a Roma, ___ spesso il tram.",
+          "options": [
+            "prendevamo",
+            "abbiamo preso",
+            "prendevano",
+            "prendemmo"
+          ],
+          "answer": 0,
+          "explanation": "Spesso + a period in the past (quando abitavamo) = habit → imperfetto. Prendemmo is the passato remoto, used mainly in writing."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a2r-02-l1-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "As a child I lived in a small town.",
+          "tiles": [
+            "Da",
+            "bambino",
+            "abitavo",
+            "in",
+            "un",
+            "piccolo",
+            "paese"
+          ],
+          "distractors": [
+            "ho abitato",
+            "abitavi"
+          ],
+          "explanation": "Da bambino/da piccolo + imperfetto for a situation that lasted. Il paese = small town or village (also 'country')."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-02-l1-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Di solito facevo colazione al bar sotto casa.",
+          "answers": [
+            "Di solito facevo colazione al bar sotto casa."
+          ],
+          "slow": true,
+          "explanation": "Facevo: fare keeps the old stem fac- in the imperfetto."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "a2r-02-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Quando ero piccolo, passavo l'estate dai nonni.",
+          "translation": "When I was little, I spent the summer at my grandparents'."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-02-l1-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Com'era la tua vita da bambino? Dove abitavi e che cosa facevi di solito?",
+          "keywords": [
+            "abitavo",
+            "ero",
+            "di solito"
+          ],
+          "modelAnswer": "Da bambino abitavo in una piccola città. Ero molto vivace: di solito giocavo a calcio con gli amici dopo la scuola e la domenica andavamo dai nonni.",
+          "explanation": "Every verb here is a habit or description, so they're all imperfetto."
+        }
+      ]
+    },
+    {
+      "id": "a2r-02-l2",
+      "title": "Descrivere il passato",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2r-02-l2-e01",
+          "instruction": "Riscaldamento: completa con l'imperfetto.",
+          "sentence": "Quando ero giovane, ___ (giocare) a tennis ogni sabato.",
+          "answers": [
+            "giocavo"
+          ],
+          "hint": "giocare – io",
+          "explanation": "Ogni sabato = a habit → imperfetto."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-02-l2-e02",
+          "title": "Descrizioni, stati e azioni in corso",
+          "body": "Besides habits, the imperfetto **describes the scene** in the past:\n- time, weather, age: *Erano le otto. Faceva freddo. Avevo vent'anni.*\n- places and people: *La casa era grande. C'era / c'erano…*\n- physical and mental states: *Avevo fame. Ero stanco. Non stavo bene.*\n- actions in progress – English *was …-ing*: *Leggevo il giornale.*\n\n**Mentre** + imperfetto = two things happening at the same time: *Mentre cucinavo, ascoltavo la radio.*\n\nWhen a single **event** happens against this background, it goes in the passato prossimo: *Faceva freddo quando sono uscito.* (You'll practise this contrast in depth in B1 unit 1.)",
+          "examples": [
+            {
+              "it": "C'era molta gente in piazza.",
+              "en": "There were a lot of people in the square."
+            },
+            {
+              "it": "Avevo mal di testa e non volevo uscire.",
+              "en": "I had a headache and didn't want to go out."
+            },
+            {
+              "it": "Mentre aspettavo l'autobus, leggevo le notizie.",
+              "en": "While I was waiting for the bus, I was reading the news."
+            },
+            {
+              "it": "Faceva caldo quando siamo arrivati.",
+              "en": "It was hot when we arrived."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-02-l2-e03",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Quando sono uscito, ___ molto freddo.",
+          "options": [
+            "faceva",
+            "ha fatto",
+            "facevo",
+            "fa"
+          ],
+          "answer": 0,
+          "explanation": "The weather is the background to the event (sono uscito): imperfetto. Weather uses the 3rd person: faceva freddo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-02-l2-e04",
+          "instruction": "Completa con l'imperfetto.",
+          "sentence": "Mentre ___ (guardare) la TV, mio fratello leggeva un libro.",
+          "answers": [
+            "guardavo"
+          ],
+          "hint": "guardare – io",
+          "explanation": "Mentre + two actions in progress at the same time: both imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-02-l2-e05",
+          "instruction": "Completa con l'imperfetto.",
+          "sentence": "Il medico ___ (avere) circa cinquant'anni ed era molto gentile.",
+          "answers": [
+            "aveva"
+          ],
+          "hint": "avere – lui",
+          "explanation": "Age in the past is a description: aveva cinquant'anni."
+        },
+        {
+          "type": "flashcard",
+          "id": "a2r-02-l2-e06",
+          "front": "There was / there were (description in the past)",
+          "back": "c'era / c'erano",
+          "example": "C'era un bel sole e c'erano tante persone al parco."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-02-l2-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Quando eravamo piccoli, andavano al mare ogni estate.",
+          "answers": [
+            "Quando eravamo piccoli, andavamo al mare ogni estate.",
+            "Quando eravamo piccoli andavamo al mare ogni estate.",
+            "Quando eravamo piccoli, noi andavamo al mare ogni estate.",
+            "Quando eravamo piccoli noi andavamo al mare ogni estate.",
+            "Quando eravamo piccoli, ogni estate andavamo al mare.",
+            "Quando eravamo piccoli ogni estate andavamo al mare."
+          ],
+          "explanation": "The subject is noi (eravamo), so the verb must be andavamo, not andavano (loro)."
+        },
+        {
+          "type": "translate",
+          "id": "a2r-02-l2-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "It was raining and I was tired.",
+          "answers": [
+            "Pioveva e io ero stanco.",
+            "Pioveva ed ero stanco.",
+            "Pioveva e ero stanco.",
+            "Pioveva ed io ero stanco.",
+            "Pioveva e io ero stanca.",
+            "Pioveva ed ero stanca."
+          ],
+          "explanation": "Weather (pioveva) and physical state (ero stanco) are descriptions → imperfetto. Ed before a vowel is optional but common."
+        },
+        {
+          "type": "reading",
+          "id": "a2r-02-l2-e09",
+          "instruction": "Leggi il racconto e rispondi alle domande.",
+          "title": "La casa dei nonni",
+          "passage": "Quando ero piccolo, passavo tutte le estati dai miei nonni in campagna. La loro casa era vecchia ma molto grande, e dietro c'era un orto pieno di pomodori. La mattina mi svegliavo presto perché il nonno andava a lavorare nei campi e io volevo sempre andare con lui. La nonna invece cucinava per tutti: la domenica preparava le lasagne e venivano anche gli zii. Non c'era la televisione, ma non mi annoiavo mai.",
+          "questions": [
+            {
+              "question": "Dove passava le estati il ragazzo?",
+              "options": [
+                "Al mare con i genitori",
+                "In campagna dai nonni",
+                "In città con gli zii",
+                "In un campeggio"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché si svegliava presto?",
+              "options": [
+                "Doveva andare a scuola",
+                "Voleva andare nei campi con il nonno",
+                "La nonna cucinava presto",
+                "C'era rumore"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa succedeva la domenica?",
+              "options": [
+                "Andavano al ristorante",
+                "Guardavano la televisione",
+                "La nonna preparava le lasagne e venivano gli zii",
+                "Il nonno lavorava tutto il giorno"
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "Every verb in the story is imperfetto: it describes repeated summers, not one specific day."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a2r-02-l2-e10",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Quando abitavo a Bologna, prendevo sempre la bicicletta per andare al lavoro. Il sabato andavo al mercato e la domenica mangiavo dai miei amici.",
+          "question": "Come andava al lavoro?",
+          "options": [
+            "In autobus",
+            "A piedi",
+            "In bicicletta",
+            "In macchina"
+          ],
+          "answer": 2,
+          "explanation": "Prendevo sempre la bicicletta – a habit, so imperfetto."
+        },
+        {
+          "type": "roleplay",
+          "id": "a2r-02-l2-e11",
+          "instruction": "Parla con la tua nuova vicina. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "A friendly neighbour (you use Lei with each other) asks where you lived before moving into the building.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno! Lei è nuovo qui, vero? Dove abitava prima?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, sono arrivato il mese scorso. Prima abitavo in una città vicino al mare.",
+              "hint": "Abitare → imperfetto for where you used to live.",
+              "keywords": [
+                "abitavo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che bello! E com'era la vita lì?"
+            },
+            {
+              "speaker": "you",
+              "text": "Era tranquilla. C'erano molti parchi e la gente era gentile.",
+              "hint": "Describe: era…, c'erano…",
+              "keywords": [
+                "era",
+                "c'erano"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E che cosa faceva nel tempo libero?"
+            },
+            {
+              "speaker": "you",
+              "text": "Di solito andavo a correre sulla spiaggia e la sera leggevo.",
+              "hint": "Habits: di solito + imperfetto.",
+              "keywords": [
+                "di solito",
+                "andavo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Allora qui deve provare il parco dietro la chiesa. Benvenuto!"
+            }
+          ],
+          "explanation": "Check: every description and habit used the imperfetto (abitavo, era, c'erano, andavo, leggevo); only the single event 'sono arrivato' is passato prossimo."
+        },
+        {
+          "type": "free_write",
+          "id": "a2r-02-l2-e12",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Descrivi la casa o il quartiere dove abitavi da bambino: com'era, chi c'era, che cosa facevi di solito (almeno 40 parole).",
+          "minWords": 40,
+          "checklist": [
+            "Ho usato l'imperfetto per tutte le descrizioni e le abitudini.",
+            "Ho usato almeno una volta c'era o c'erano.",
+            "Ho usato almeno due espressioni di frequenza (di solito, sempre, ogni…).",
+            "Ho usato correttamente essere all'imperfetto (ero, era, erano…)."
+          ],
+          "modelAnswer": "Da bambino abitavo in un appartamento al terzo piano, in un quartiere molto vivace. Sotto casa c'erano un panificio e un piccolo bar. Di solito, dopo la scuola, giocavo in cortile con i figli dei vicini. La sera mia madre cucinava e mio padre leggeva il giornale. Ero felice."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "di solito",
+      "en": "usually",
+      "example": "Di solito facevo colazione al bar."
+    },
+    {
+      "it": "da piccolo / da bambino",
+      "en": "as a child",
+      "example": "Da piccolo abitavo in campagna."
+    },
+    {
+      "it": "una volta",
+      "en": "once; in the past, in the old days",
+      "example": "Una volta qui c'era un cinema."
+    },
+    {
+      "it": "ogni estate",
+      "en": "every summer",
+      "example": "Ogni estate andavamo al mare."
+    },
+    {
+      "it": "spesso",
+      "en": "often",
+      "example": "Prendevamo spesso il tram."
+    },
+    {
+      "it": "mentre",
+      "en": "while",
+      "example": "Mentre cucinavo, ascoltavo la radio."
+    },
+    {
+      "it": "c'era / c'erano",
+      "en": "there was / there were",
+      "example": "C'era molta gente in piazza."
+    },
+    {
+      "it": "il quartiere",
+      "en": "neighbourhood",
+      "example": "Il mio quartiere era molto tranquillo."
+    },
+    {
+      "it": "il paese",
+      "en": "small town, village; country",
+      "example": "Abitavo in un piccolo paese."
+    },
+    {
+      "it": "la campagna",
+      "en": "the countryside",
+      "example": "I nonni abitavano in campagna."
+    },
+    {
+      "it": "l'orto",
+      "en": "vegetable garden",
+      "example": "Dietro la casa c'era un orto."
+    },
+    {
+      "it": "il cortile",
+      "en": "courtyard",
+      "example": "Giocavamo in cortile dopo la scuola."
+    },
+    {
+      "it": "annoiarsi",
+      "en": "to get bored",
+      "example": "Non mi annoiavo mai."
+    },
+    {
+      "it": "avere fame / sete",
+      "en": "to be hungry / thirsty",
+      "example": "Avevo fame e non c'era niente in frigo."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2r-02-t1",
+      "rule": "Le desinenze dell'imperfetto",
+      "tip": "Drop -re and add -vo, -vi, -va, -vamo, -vate, -vano: parlavo, avevo, dormivo.",
+      "example": {
+        "it": "Da ragazzo dormivo pochissimo.",
+        "en": "As a teenager I slept very little."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "dormire",
+        "tense": "imperfetto",
+        "items": [
+          {
+            "person": "io",
+            "answer": "dormivo"
+          },
+          {
+            "person": "noi",
+            "answer": "dormivamo"
+          },
+          {
+            "person": "loro",
+            "answer": "dormivano"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2r-02-t2",
+      "rule": "Essere all'imperfetto",
+      "tip": "Essere is fully irregular: ero, eri, era, eravamo, eravate, erano.",
+      "example": {
+        "it": "Eravamo stanchi ma contenti.",
+        "en": "We were tired but happy."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Quando ___ (noi, essere) piccoli, giocavamo in cortile.",
+        "answers": [
+          "eravamo"
+        ],
+        "hint": "essere – noi"
+      }
+    },
+    {
+      "id": "a2r-02-t3",
+      "rule": "Abitudini: used to = imperfetto",
+      "tip": "For past habits (English used to / would) use the imperfetto: il sabato andavo al mercato.",
+      "example": {
+        "it": "Ogni mattina prendevo il tram delle otto.",
+        "en": "Every morning I used to take the eight o'clock tram."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Da bambino ___ sempre il latte a colazione.",
+        "options": [
+          "bevevo",
+          "ho bevuto",
+          "bevo",
+          "bevvi"
+        ],
+        "answer": 0,
+        "explanation": "Sempre + da bambino = habit → imperfetto."
+      }
+    },
+    {
+      "id": "a2r-02-t4",
+      "rule": "Fare, dire, bere",
+      "tip": "These three use old stems in the imperfetto: facevo, dicevo, bevevo.",
+      "example": {
+        "it": "Mia nonna diceva sempre la verità.",
+        "en": "My grandmother always told the truth."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "I used to drink a lot of coffee.",
+        "answers": [
+          "Bevevo molto caffè.",
+          "Bevevo tanto caffè.",
+          "Io bevevo molto caffè.",
+          "Io bevevo tanto caffè."
+        ]
+      }
+    },
+    {
+      "id": "a2r-02-t5",
+      "rule": "C'era, c'erano: descrivere",
+      "tip": "Describe a past scene with c'era (singular) and c'erano (plural), plus time and weather in the imperfetto.",
+      "example": {
+        "it": "C'erano tanti turisti e faceva caldo.",
+        "en": "There were lots of tourists and it was hot."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Quando sono arrivato, c'erano molta gente.",
+        "answers": [
+          "Quando sono arrivato, c'era molta gente.",
+          "Quando sono arrivato c'era molta gente."
+        ],
+        "explanation": "Molta gente is singular → c'era."
+      }
+    }
+  ]
+}

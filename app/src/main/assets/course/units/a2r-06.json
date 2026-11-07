@@ -1,0 +1,664 @@
+{
+  "id": "a2r-06",
+  "level": "A2R",
+  "title": "Futuro e confronti",
+  "objective": "By the end you can talk about your plans and predictions with the futuro semplice and compare options – flats, transport, prices – to explain your choice.",
+  "grammarFocus": "Futuro semplice: regular forms, spelling changes (-care/-gare, -ciare/-giare), main irregulars; comparatives (più/meno … di/che, quanto/come), relative and absolute superlatives, migliore/peggiore vs meglio/peggio.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a2r-06-l1",
+      "title": "Che cosa farai?",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2r-06-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Domani ___ presto perché ho un appuntamento alle otto.",
+          "options": [
+            "mi alzo",
+            "alzo",
+            "mi alzi",
+            "si alzo"
+          ],
+          "answer": 0,
+          "explanation": "Italian often uses the present for a planned near future: domani mi alzo presto. Today you'll learn the futuro for plans and predictions."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-06-l1-e02",
+          "title": "Il futuro semplice",
+          "body": "Use the **futuro** for plans, intentions and predictions – especially further ahead or less certain: *L'anno prossimo cercherò un'altra casa.* For fixed arrangements in the near future, the present is just as common: *Domani parto.*\n\n**Regular forms** – infinitive minus final -e, plus **-ò, -ai, -à, -emo, -ete, -anno**. In -are verbs the **a becomes e**:\n- parlare → parl**erò**, parl**erai**, parl**erà**, parl**eremo**, parl**erete**, parl**eranno**\n- prendere → prender**ò**… / partire → partir**ò**…\n\n**Spelling:** -care/-gare add h (*cercherò, pagherò*); -ciare/-giare drop the i (*comincerò, mangerò*).\n\n**Irregular** – learn them as groups:\n- **essere** → sarò; **avere** → avrò; **fare** → farò; **stare** → starò; **dare** → darò\n- lose a vowel: andare → **andrò**, potere → **potrò**, dovere → **dovrò**, vedere → **vedrò**, sapere → **saprò**, vivere → **vivrò**\n- double r: venire → **verrò**, volere → **vorrò**, rimanere → **rimarrò**, bere → **berrò**\n\nTime signals: *domani, dopodomani, la settimana prossima, l'anno prossimo, tra/fra un mese, presto*.",
+          "examples": [
+            {
+              "it": "Il mese prossimo farò un corso di cucina.",
+              "en": "Next month I'll do a cooking course."
+            },
+            {
+              "it": "Domani pioverà in tutto il Nord.",
+              "en": "Tomorrow it will rain across the North."
+            },
+            {
+              "it": "Tra due settimane andremo in Puglia.",
+              "en": "In two weeks we'll go to Puglia."
+            },
+            {
+              "it": "Se avrò tempo, verrò alla festa.",
+              "en": "If I have time, I'll come to the party."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "a2r-06-l1-e03",
+          "instruction": "Scrivi le forme del futuro.",
+          "verb": "parlare",
+          "tense": "futuro semplice",
+          "items": [
+            {
+              "person": "io",
+              "answer": "parlerò"
+            },
+            {
+              "person": "tu",
+              "answer": "parlerai"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "parlerà"
+            },
+            {
+              "person": "noi",
+              "answer": "parleremo"
+            },
+            {
+              "person": "voi",
+              "answer": "parlerete"
+            },
+            {
+              "person": "loro",
+              "answer": "parleranno"
+            }
+          ],
+          "explanation": "Parl-a-re → parl-e-rò: the a becomes e. Note the accents on parlerò and parlerà."
+        },
+        {
+          "type": "conjugation",
+          "id": "a2r-06-l1-e04",
+          "instruction": "Scrivi le forme del futuro.",
+          "verb": "essere",
+          "tense": "futuro semplice",
+          "items": [
+            {
+              "person": "io",
+              "answer": "sarò"
+            },
+            {
+              "person": "tu",
+              "answer": "sarai"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "sarà"
+            },
+            {
+              "person": "noi",
+              "answer": "saremo"
+            },
+            {
+              "person": "voi",
+              "answer": "sarete"
+            },
+            {
+              "person": "loro",
+              "answer": "saranno"
+            }
+          ],
+          "explanation": "Stem sar- + regular endings."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2r-06-l1-e05",
+          "instruction": "Abbina l'infinito alla forma io del futuro.",
+          "pairs": [
+            {
+              "left": "andare",
+              "right": "andrò"
+            },
+            {
+              "left": "avere",
+              "right": "avrò"
+            },
+            {
+              "left": "fare",
+              "right": "farò"
+            },
+            {
+              "left": "venire",
+              "right": "verrò"
+            },
+            {
+              "left": "potere",
+              "right": "potrò"
+            },
+            {
+              "left": "rimanere",
+              "right": "rimarrò"
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-06-l1-e06",
+          "instruction": "Completa con il futuro.",
+          "sentence": "L'anno prossimo ___ (cercare) una casa più grande.",
+          "answers": [
+            "cercherò"
+          ],
+          "hint": "cercare – io",
+          "explanation": "-care verbs add h to keep the hard c sound: cercherò."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-06-l1-e07",
+          "instruction": "Completa con il futuro.",
+          "sentence": "Se domani piove, ___ (restare) a casa.",
+          "answers": [
+            "resteremo"
+          ],
+          "hint": "restare – noi",
+          "explanation": "Restare → resteremo (a → e)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-06-l1-e08",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Domani ___ il treno delle otto, così arriveremo in tempo.",
+          "options": [
+            "prenderemo",
+            "prendremo",
+            "prenderemmo",
+            "prenderamo"
+          ],
+          "answer": 0,
+          "explanation": "Futuro: prender- + -emo. Careful: prenderemmo (double m) is the conditional – 'we would take'."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-06-l1-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Domani pagarò io il conto.",
+          "answers": [
+            "Domani pagherò io il conto.",
+            "Domani il conto lo pagherò io."
+          ],
+          "explanation": "Pagare: a → e and add h → pagherò."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-06-l1-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Sabato andremo al mare e torneremo domenica sera.",
+          "answers": [
+            "Sabato andremo al mare e torneremo domenica sera."
+          ],
+          "slow": true,
+          "explanation": "Andare → andremo (irregular), tornare → torneremo (regular)."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "a2r-06-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Il mese prossimo farò un corso di cucina e vedrò i miei amici.",
+          "translation": "Next month I'll do a cooking course and see my friends."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-06-l1-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Che cosa farai il prossimo fine settimana?",
+          "keywords": [
+            "sabato",
+            "domenica"
+          ],
+          "modelAnswer": "Sabato mattina farò la spesa e poi andrò in palestra. Domenica, se farà bel tempo, andrò al lago con degli amici e la sera mi riposerò.",
+          "explanation": "Try to use at least two irregular futures: farò, andrò, sarò, vedrò…"
+        }
+      ]
+    },
+    {
+      "id": "a2r-06-l2",
+      "title": "Meglio questo o quello?",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2r-06-l2-e01",
+          "instruction": "Riscaldamento: completa con il futuro.",
+          "sentence": "Domani ___ (andare) in banca a chiedere informazioni.",
+          "answers": [
+            "andrò"
+          ],
+          "hint": "andare – io",
+          "explanation": "Andare → andrò (the e of the ending drops)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-06-l2-e02",
+          "title": "Comparativi e superlativi",
+          "body": "**Più / meno … di** – compare two people or things (di + noun or pronoun, with articles merging):\n- *Il treno è più veloce dell'autobus. Marco è più alto di me.*\n\n**Più / meno … che** – compare two adjectives, two verbs, or two words with a preposition:\n- *È più facile parlare che scrivere. È più comodo che elegante. In città fa più caldo che al mare.*\n\n**Equality:** (tanto) … quanto / (così) … come: *Il mio appartamento è grande quanto il tuo.*\n\n**Superlatives:**\n- relative: il/la/i/le + più/meno + adjective (+ di): *È il ristorante più caro del quartiere.*\n- absolute: **-issimo** or molto + adjective: *buonissimo, carissima, lentissimi*\n\n**Irregular forms:** buono → **migliore** (also più buono), cattivo → **peggiore**; bene → **meglio**, male → **peggio**. *Migliore / peggiore* are adjectives (*un'offerta migliore*); *meglio / peggio* are adverbs (*sto meglio*).",
+          "examples": [
+            {
+              "it": "Questa offerta è migliore di quella.",
+              "en": "This offer is better than that one."
+            },
+            {
+              "it": "Costa meno andare in treno che in macchina.",
+              "en": "It costs less to go by train than by car."
+            },
+            {
+              "it": "È il periodo più tranquillo dell'anno.",
+              "en": "It's the quietest time of the year."
+            },
+            {
+              "it": "Oggi mi sento molto meglio.",
+              "en": "Today I feel much better."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-06-l2-e03",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Il treno è più veloce ___ autobus.",
+          "options": [
+            "dell'",
+            "che l'",
+            "di",
+            "del"
+          ],
+          "answer": 0,
+          "explanation": "Two nouns compared → di + article: di + l'autobus = dell'autobus."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-06-l2-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Per me è più facile parlare ___ scrivere.",
+          "options": [
+            "che",
+            "di",
+            "del",
+            "come"
+          ],
+          "answer": 0,
+          "explanation": "Two verbs compared → che."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-06-l2-e05",
+          "instruction": "Completa con un comparativo irregolare.",
+          "sentence": "Questo appartamento è ___ di quello in centro: è più luminoso e più tranquillo.",
+          "answers": [
+            "migliore",
+            "più bello"
+          ],
+          "hint": "buono → ?",
+          "explanation": "Buono → migliore (adjective, agrees with appartamento)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-06-l2-e06",
+          "instruction": "Completa con un comparativo irregolare.",
+          "sentence": "Grazie, oggi mi sento ___ di ieri.",
+          "answers": [
+            "meglio"
+          ],
+          "hint": "bene → ?",
+          "explanation": "After a verb you need the adverb: bene → meglio. Never 'più bene'."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a2r-06-l2-e07",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "This is the cheapest restaurant in the neighbourhood.",
+          "tiles": [
+            "Questo",
+            "è",
+            "il",
+            "ristorante",
+            "più",
+            "economico",
+            "del",
+            "quartiere"
+          ],
+          "distractors": [
+            "di",
+            "meno"
+          ],
+          "explanation": "Relative superlative: il + noun + più + adjective + di (del quartiere). English 'in the…' → di + article."
+        },
+        {
+          "type": "translate",
+          "id": "a2r-06-l2-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "My flat is as big as yours.",
+          "answers": [
+            "Il mio appartamento è grande quanto il tuo.",
+            "Il mio appartamento è grande come il tuo.",
+            "Il mio appartamento è tanto grande quanto il tuo.",
+            "Il mio appartamento è così grande come il tuo.",
+            "Il mio appartamento è grande come il suo.",
+            "Il mio appartamento è grande quanto il suo."
+          ],
+          "explanation": "Equality: (tanto) … quanto or (così) … come. Tanto and così are usually dropped."
+        },
+        {
+          "type": "reading",
+          "id": "a2r-06-l2-e09",
+          "instruction": "Leggi gli annunci e rispondi.",
+          "title": "Due appartamenti in affitto",
+          "passage": "Appartamento A: in centro, 60 metri quadri, terzo piano senza ascensore, 850 euro al mese. La stazione è a cinque minuti a piedi.\n\nAppartamento B: in periferia, 80 metri quadri, primo piano con giardino, 700 euro al mese. Per arrivare alla stazione ci vogliono venticinque minuti in autobus.\n\nIl B è più grande e più economico dell'A, ma è molto più lontano dalla stazione.",
+          "questions": [
+            {
+              "question": "Quale appartamento costa di più?",
+              "options": [
+                "L'appartamento A",
+                "L'appartamento B",
+                "Costano uguale",
+                "Non si sa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quale frase è vera?",
+              "options": [
+                "Il B è più piccolo dell'A.",
+                "Il B è più grande ma più lontano dalla stazione.",
+                "L'A ha il giardino.",
+                "L'A è più economico del B."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale appartamento è più comodo per chi prende il treno ogni giorno?",
+              "options": [
+                "L'appartamento A",
+                "L'appartamento B",
+                "Tutti e due",
+                "Nessuno dei due"
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Notice più … di with nouns (più economico dell'A) – and lontano da (far from) keeps its own da: più lontano dalla stazione."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a2r-06-l2-e10",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Allora, ho visto due telefoni. Il primo costa trecento euro, il secondo quattrocento. Il secondo ha una fotocamera migliore, ma la batteria del primo dura di più. Alla fine prenderò il primo: per me la batteria è più importante.",
+          "question": "Quale telefono prenderà e perché?",
+          "options": [
+            "Il secondo, per la fotocamera",
+            "Il primo, per la batteria",
+            "Il primo, perché è più bello",
+            "Nessuno dei due"
+          ],
+          "answer": 1,
+          "explanation": "Prenderò il primo: la batteria è più importante. Note migliore (adjective) and dura di più."
+        },
+        {
+          "type": "roleplay",
+          "id": "a2r-06-l2-e11",
+          "instruction": "Organizzi una gita con un amico. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You and your friend Sara are planning a day trip to Florence on Saturday.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Allora, sabato andiamo a Firenze in treno o in macchina?"
+            },
+            {
+              "speaker": "you",
+              "text": "Secondo me il treno è più comodo della macchina.",
+              "hint": "Più comodo di + la macchina = della macchina.",
+              "keywords": [
+                "più comodo",
+                "della"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, ma in macchina spendiamo meno, no?"
+            },
+            {
+              "speaker": "you",
+              "text": "Non credo. Con la benzina e il parcheggio, la macchina costa quanto il treno.",
+              "hint": "Equality: costa quanto…",
+              "keywords": [
+                "quanto"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Hai ragione. E a che ora partiremo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Prenderemo il treno delle otto e arriveremo verso le dieci.",
+              "hint": "Futuro: prenderemo, arriveremo.",
+              "keywords": [
+                "prenderemo",
+                "arriveremo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto, allora stasera comprerò io i biglietti!"
+            }
+          ],
+          "explanation": "You used a comparative (più comodo della), an equality (costa quanto) and two futures (prenderemo, arriveremo)."
+        },
+        {
+          "type": "free_write",
+          "id": "a2r-06-l2-e12",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Devi scegliere tra due posti per le vacanze (o due case, o due palestre). Confrontali e spiega che cosa sceglierai e perché (almeno 40 parole).",
+          "minWords": 40,
+          "checklist": [
+            "Ho usato almeno due comparativi (più/meno … di/che).",
+            "Ho usato almeno un superlativo (il più…, -issimo).",
+            "Ho usato migliore/peggiore o meglio/peggio in modo corretto.",
+            "Ho usato il futuro per dire che cosa farò."
+          ],
+          "modelAnswer": "Quest'estate posso andare al mare in Sardegna o in montagna in Trentino. Il mare è più bello, ma la Sardegna è più cara e più lontana. In montagna fa meno caldo e gli alberghi costano pochissimo. Per me è meglio la montagna: prenoterò una settimana a luglio e farò lunghe passeggiate."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'anno prossimo",
+      "en": "next year",
+      "example": "L'anno prossimo cercherò un'altra casa."
+    },
+    {
+      "it": "la settimana prossima",
+      "en": "next week",
+      "example": "La settimana prossima sarò a Roma."
+    },
+    {
+      "it": "tra / fra (due giorni)",
+      "en": "in (two days' time)",
+      "example": "Tra due giorni partirò per le vacanze."
+    },
+    {
+      "it": "dopodomani",
+      "en": "the day after tomorrow",
+      "example": "Dopodomani andrò dal medico."
+    },
+    {
+      "it": "prenotare",
+      "en": "to book",
+      "example": "Prenoterò un tavolo per le otto."
+    },
+    {
+      "it": "migliore",
+      "en": "better (adjective)",
+      "example": "Questa è un'offerta migliore."
+    },
+    {
+      "it": "peggiore",
+      "en": "worse (adjective)",
+      "example": "È stato il viaggio peggiore della mia vita."
+    },
+    {
+      "it": "meglio",
+      "en": "better (adverb)",
+      "example": "Oggi sto meglio."
+    },
+    {
+      "it": "peggio",
+      "en": "worse (adverb)",
+      "example": "Con la pioggia si guida peggio."
+    },
+    {
+      "it": "economico",
+      "en": "cheap, inexpensive",
+      "example": "Il treno regionale è più economico."
+    },
+    {
+      "it": "caro",
+      "en": "expensive; dear",
+      "example": "Quel ristorante è carissimo."
+    },
+    {
+      "it": "comodo",
+      "en": "comfortable, convenient",
+      "example": "Il treno è più comodo della macchina."
+    },
+    {
+      "it": "luminoso",
+      "en": "bright, full of light",
+      "example": "L'appartamento è molto luminoso."
+    },
+    {
+      "it": "in affitto",
+      "en": "for rent, rented",
+      "example": "Cerco un appartamento in affitto."
+    },
+    {
+      "it": "il metro quadro",
+      "en": "square metre",
+      "example": "La casa è di ottanta metri quadri."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2r-06-t1",
+      "rule": "Futuro: -are diventa -erò",
+      "tip": "In the future, -are verbs change a to e: parlare → parlerò, lavorare → lavorerò.",
+      "example": {
+        "it": "Domani lavorerò fino a tardi.",
+        "en": "Tomorrow I'll work until late."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "lavorare",
+        "tense": "futuro semplice",
+        "items": [
+          {
+            "person": "io",
+            "answer": "lavorerò"
+          },
+          {
+            "person": "noi",
+            "answer": "lavoreremo"
+          },
+          {
+            "person": "loro",
+            "answer": "lavoreranno"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2r-06-t2",
+      "rule": "Futuri irregolari",
+      "tip": "Many irregular futures drop a vowel or double the r: andrò, avrò, potrò, vedrò, verrò, vorrò, rimarrò.",
+      "example": {
+        "it": "Verrò alla festa, ma non potrò restare molto.",
+        "en": "I'll come to the party, but I won't be able to stay long."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Domani non ___ (potere, io) venire alla riunione.",
+        "answers": [
+          "potrò"
+        ],
+        "hint": "potere – io"
+      }
+    },
+    {
+      "id": "a2r-06-t3",
+      "rule": "Cercherò, pagherò, mangerò",
+      "tip": "-care/-gare add h (cercherò, pagherò); -ciare/-giare drop the i (comincerò, mangerò).",
+      "example": {
+        "it": "Comincerò il corso a gennaio.",
+        "en": "I'll start the course in January."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Domani mangierò da mia madre.",
+        "answers": [
+          "Domani mangerò da mia madre."
+        ],
+        "explanation": "Mangiare → mangerò: the i drops."
+      }
+    },
+    {
+      "id": "a2r-06-t4",
+      "rule": "Più … di o più … che?",
+      "tip": "Use di before nouns and pronouns (più alto di me); che between two adjectives, verbs or prepositional phrases.",
+      "example": {
+        "it": "In città fa più caldo che al mare.",
+        "en": "It's hotter in town than at the seaside."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Mi piace più camminare ___ correre.",
+        "options": [
+          "che",
+          "di",
+          "del",
+          "come"
+        ],
+        "answer": 0,
+        "explanation": "Two verbs → che."
+      }
+    },
+    {
+      "id": "a2r-06-t5",
+      "rule": "Migliore o meglio?",
+      "tip": "Migliore is an adjective (un lavoro migliore); meglio is an adverb (sto meglio, cucina meglio di me).",
+      "example": {
+        "it": "Luca cucina meglio di me.",
+        "en": "Luca cooks better than me."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Oggi mi sento ___.",
+        "options": [
+          "meglio",
+          "migliore",
+          "più bene",
+          "più buono"
+        ],
+        "answer": 0,
+        "explanation": "After a verb → adverb: meglio."
+      }
+    }
+  ]
+}

@@ -10,11 +10,7 @@ import com.gleaped.italianlearning.content.CourseUnit
 import com.gleaped.italianlearning.content.Exercise
 import com.gleaped.italianlearning.content.ExerciseTypes
 import com.gleaped.italianlearning.content.Flashcard
-import com.gleaped.italianlearning.content.FreeWrite
-import com.gleaped.italianlearning.content.GrammarNote
-import com.gleaped.italianlearning.content.Invalid
 import com.gleaped.italianlearning.content.Lesson
-import com.gleaped.italianlearning.content.Unsupported
 import com.gleaped.italianlearning.data.ExerciseOutcome
 import com.gleaped.italianlearning.domain.grading.Verdict
 import com.gleaped.italianlearning.domain.progress.CourseProgress
@@ -62,27 +58,6 @@ sealed interface LessonUiState {
     data class Finished(val unit: CourseUnit, val lesson: Lesson, val summary: LessonSummary) : LessonUiState
 }
 
-private fun typeOf(e: Exercise): String = when (e) {
-    is GrammarNote -> ExerciseTypes.GRAMMAR_NOTE
-    is Flashcard -> ExerciseTypes.FLASHCARD
-    is com.gleaped.italianlearning.content.MultipleChoice -> ExerciseTypes.MULTIPLE_CHOICE
-    is com.gleaped.italianlearning.content.GapFill -> ExerciseTypes.GAP_FILL
-    is com.gleaped.italianlearning.content.Conjugation -> ExerciseTypes.CONJUGATION
-    is com.gleaped.italianlearning.content.SentenceBuild -> ExerciseTypes.SENTENCE_BUILD
-    is com.gleaped.italianlearning.content.Translate -> ExerciseTypes.TRANSLATE
-    is com.gleaped.italianlearning.content.MatchPairs -> ExerciseTypes.MATCH_PAIRS
-    is com.gleaped.italianlearning.content.ErrorCorrection -> ExerciseTypes.ERROR_CORRECTION
-    is com.gleaped.italianlearning.content.ListenTranscribe -> ExerciseTypes.LISTEN_TRANSCRIBE
-    is com.gleaped.italianlearning.content.ListenChoose -> ExerciseTypes.LISTEN_CHOOSE
-    is com.gleaped.italianlearning.content.Reading -> ExerciseTypes.READING
-    is com.gleaped.italianlearning.content.SpeakRepeat -> ExerciseTypes.SPEAK_REPEAT
-    is com.gleaped.italianlearning.content.SpeakRespond -> ExerciseTypes.SPEAK_RESPOND
-    is com.gleaped.italianlearning.content.Roleplay -> ExerciseTypes.ROLEPLAY
-    is FreeWrite -> ExerciseTypes.FREE_WRITE
-    is Unsupported -> e.type
-    is Invalid -> e.type
-}
-
 class LessonViewModel(
     private val container: AppContainer,
     private val unitId: String,
@@ -96,8 +71,8 @@ class LessonViewModel(
 
     init {
         viewModelScope.launch {
-            val content = container.content.load()
-            val unit = content.units[unitId]
+            // Only this unit's file is parsed (off the main thread); the rest stays lazy.
+            val unit = container.content.unit(unitId)
             val lesson = unit?.lessons?.firstOrNull { it.id == lessonId }
             if (unit == null || lesson == null) {
                 _state.value = LessonUiState.Error("This lesson could not be found.")
@@ -125,7 +100,7 @@ class LessonViewModel(
         outcomes += ExerciseOutcome(
             index = running.index,
             exerciseId = ex.id,
-            type = typeOf(ex),
+            type = ExerciseTypes.of(ex),
             verdict = if (ex.scored) verdict else null,
         )
     }

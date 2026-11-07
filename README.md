@@ -28,7 +28,12 @@ and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
 - **Reminders** — as many as you like, each with its own time and days of the week, individually switchable,
   plus a global pause. Friendly, varied copy (a short Italian phrase plus English, never guilt-tripping).
   If you haven't opened the app for 2+ days, reminders drop to at most one a day until you come back.
-  Tapping a reminder opens Today.
+  Reminders rotate between a **grammar tip with a quick challenge** (two in three; title = rule, body = tip
+  and example, button *Prova la sfida* opens a one-card challenge), **vocabulary review** when cards are due,
+  and the **next lesson**. Tips come from units you have started (plus refreshers you opened) and none repeats
+  until the others have been shown. Each kind can be switched off in Settings. Every unit page lists its
+  grammar tips with their challenges.
+- **CELI 3 exam track** — exam-preparation units after C1 on the course map, always open.
 
 ## Install on your phone (Obtainium)
 

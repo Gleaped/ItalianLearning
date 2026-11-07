@@ -1,0 +1,962 @@
+{
+  "id": "b1-11",
+  "level": "B1",
+  "title": "Era già successo",
+  "objective": "By the end you can tell a story in a clear sequence, saying what had already happened before a past moment and linking events with time connectors.",
+  "grammarFocus": "Trapassato prossimo (form, auxiliary choice, già/mai/non ancora); prima di + infinito, dopo + infinito passato, appena, dopo che, ormai; combining imperfetto, passato prossimo and trapassato in a narrative.",
+  "remedialUnitIds": [
+    "a2r-01",
+    "a2r-02"
+  ],
+  "lessons": [
+    {
+      "id": "b1-11-l1",
+      "title": "Era già partito: il trapassato prossimo",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l1-e01",
+          "instruction": "Riscaldamento: completa con l'imperfetto.",
+          "sentence": "Mentre ___ (aspettare) il treno, ho letto il giornale.",
+          "answers": [
+            "aspettavo"
+          ],
+          "hint": "aspettare – io",
+          "explanation": "Mentre + imperfetto for the background action."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-11-l1-e02",
+          "instruction": "Riscaldamento: scegli il pronome relativo.",
+          "prompt": "Il treno ___ dovevo prendere è stato cancellato.",
+          "options": [
+            "che",
+            "cui",
+            "chi",
+            "di cui"
+          ],
+          "answer": 0,
+          "explanation": "Object of prendere, no preposition: che."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-11-l1-e03",
+          "title": "Il trapassato prossimo",
+          "body": "The **trapassato prossimo** is the *past of the past*: an action that had already happened before another past moment. It corresponds to English **had + past participle**.\n\n**Form**: imperfetto of **avere** or **essere** + past participle\n- avevo mangiato, avevi visto, aveva detto…\n- ero arrivato/a, era uscita, eravamo partiti… (same auxiliary and agreement as the passato prossimo)\n\n**Compare:**\n- *Quando sono arrivato alla stazione, il treno **è partito**.* (it left as I arrived)\n- *Quando sono arrivato alla stazione, il treno **era già partito**.* (it had left before I got there)\n\n**Typical uses**\n- with **già, non… ancora, mai, prima**: *Non ero mai stato a Napoli.*\n- to explain a cause: *Ero stanco perché **avevo dormito** poco.*\n- to refer back to something earlier in a story: *Ho trovato il libro che **avevo perso**.*",
+          "examples": [
+            {
+              "it": "Quando sono arrivato, il film era già cominciato.",
+              "en": "When I arrived, the film had already started."
+            },
+            {
+              "it": "Non avevo mai visto tanta neve in città.",
+              "en": "I had never seen so much snow in the city."
+            },
+            {
+              "it": "Ero stanchissimo perché avevo dormito solo quattro ore.",
+              "en": "I was exhausted because I had only slept four hours."
+            },
+            {
+              "it": "Ho mangiato la torta che aveva preparato mia nonna.",
+              "en": "I ate the cake my grandmother had made."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-11-l1-e04",
+          "instruction": "Trapassato prossimo di partire (con essere!). Attenzione al genere e al numero.",
+          "verb": "partire",
+          "tense": "trapassato prossimo",
+          "items": [
+            {
+              "person": "io (m.)",
+              "answer": "ero partito"
+            },
+            {
+              "person": "tu (f.)",
+              "answer": "eri partita"
+            },
+            {
+              "person": "lui",
+              "answer": "era partito"
+            },
+            {
+              "person": "noi (m.)",
+              "answer": "eravamo partiti"
+            },
+            {
+              "person": "voi (f.)",
+              "answer": "eravate partite"
+            },
+            {
+              "person": "loro (m.)",
+              "answer": "erano partiti"
+            }
+          ],
+          "explanation": "Partire takes essere, so the participle agrees with the subject."
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-11-l1-e05",
+          "instruction": "Trapassato prossimo di fare (con avere).",
+          "verb": "fare",
+          "tense": "trapassato prossimo",
+          "items": [
+            {
+              "person": "io",
+              "answer": "avevo fatto"
+            },
+            {
+              "person": "tu",
+              "answer": "avevi fatto"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "aveva fatto"
+            },
+            {
+              "person": "noi",
+              "answer": "avevamo fatto"
+            },
+            {
+              "person": "voi",
+              "answer": "avevate fatto"
+            },
+            {
+              "person": "loro",
+              "answer": "avevano fatto"
+            }
+          ],
+          "explanation": "With avere the participle doesn't agree with the subject: avevamo fatto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l1-e06",
+          "instruction": "Completa con il trapassato prossimo.",
+          "sentence": "Quando sono arrivato in stazione, il treno ___ (già – partire).",
+          "answers": [
+            "era già partito"
+          ],
+          "hint": "partire – lui, con già",
+          "explanation": "Già goes between the auxiliary and the participle: era già partito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l1-e07",
+          "instruction": "Completa con il trapassato prossimo.",
+          "sentence": "Ero stanchissimo perché la notte prima ___ (dormire) solo quattro ore.",
+          "answers": [
+            "avevo dormito"
+          ],
+          "hint": "dormire – io",
+          "explanation": "The cause happened before the tiredness: avevo dormito."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-11-l1-e08",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Ho mangiato la torta che ___ mia nonna il giorno prima.",
+          "options": [
+            "aveva preparato",
+            "preparava",
+            "preparerà",
+            "avrà preparato"
+          ],
+          "answer": 0,
+          "explanation": "Il giorno prima: the baking came before the eating – trapassato prossimo."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-11-l1-e09",
+          "instruction": "Abbina l'inglese all'italiano.",
+          "pairs": [
+            {
+              "left": "I had already eaten.",
+              "right": "Avevo già mangiato."
+            },
+            {
+              "left": "She had left.",
+              "right": "Era partita."
+            },
+            {
+              "left": "We had never seen it.",
+              "right": "Non l'avevamo mai visto."
+            },
+            {
+              "left": "They hadn't arrived yet.",
+              "right": "Non erano ancora arrivati."
+            },
+            {
+              "left": "You had forgotten.",
+              "right": "Avevi dimenticato."
+            }
+          ],
+          "explanation": "Had + participle = imperfetto of avere/essere + participle."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-11-l1-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Quando sono arrivato alla fermata, l'autobus era già passato.",
+          "answers": [
+            "Quando sono arrivato alla fermata, l'autobus era già passato.",
+            "Quando sono arrivato alla fermata l'autobus era già passato."
+          ],
+          "slow": false,
+          "explanation": "Sono arrivato (event) – era già passato (before that)."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-11-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Non ero mai stato in Sicilia prima di quel viaggio.",
+          "translation": "I had never been to Sicily before that trip."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-11-l1-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Racconta una volta in cui sei arrivato tardi da qualche parte. Che cosa era già successo quando sei arrivato?",
+          "keywords": [
+            "quando sono arrivato",
+            "era già",
+            "avevano già"
+          ],
+          "modelAnswer": "Una volta sono arrivato tardi a una festa di compleanno. Quando sono arrivato, avevano già tagliato la torta e molti invitati erano già andati via. Per fortuna c'era ancora un po' di spumante!",
+          "explanation": "Passato prossimo for your arrival, trapassato for what had already happened."
+        }
+      ]
+    },
+    {
+      "id": "b1-11-l2",
+      "title": "Prima, dopo, appena, ormai",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l2-e01",
+          "instruction": "Riscaldamento: completa con il participio.",
+          "sentence": "Quando ho chiamato, Laura era già ___ (uscire).",
+          "answers": [
+            "uscita"
+          ],
+          "hint": "uscire – lei",
+          "explanation": "Uscire takes essere: era uscita, agreeing with Laura."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-11-l2-e02",
+          "front": "ormai",
+          "back": "by now, by then; (resigned) it's too late now",
+          "example": "Ormai è tardi, ci vediamo domani."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-11-l2-e03",
+          "title": "Mettere in ordine i fatti",
+          "body": "**Sequence**: prima → poi → dopo → alla fine\n\n**prima di + infinito** (same subject) = before …-ing\n- *Prima di uscire, ho spento le luci.*\n\n**dopo + infinito passato** = after …-ing / after having…\n- *Dopo **aver** mangiato, siamo usciti.* (avere → aver)\n- *Dopo **essere** arrivat**a**, Giulia ha chiamato sua madre.* (essere verbs: participle agrees)\n\n**appena** (= as soon as) + passato prossimo: *Appena sono arrivato, ti ho chiamato.*\n**dopo che** + indicative: *Dopo che sei partito, è arrivata la lettera.*\n\n**già / non… ancora / mai** – with the passato prossimo or trapassato\n**ormai** – *by now / by then*, often with a sense that it's too late: *Siamo arrivati alle undici, ma ormai la cucina era chiusa.*\n\nAvoid *dopo mangiare*: standard Italian uses the past infinitive, *dopo aver mangiato*.",
+          "examples": [
+            {
+              "it": "Prima di partire, controlla di avere il passaporto.",
+              "en": "Before leaving, check you have your passport."
+            },
+            {
+              "it": "Dopo aver finito la cena, siamo andati a fare una passeggiata.",
+              "en": "After finishing dinner, we went for a walk."
+            },
+            {
+              "it": "Appena ho finito di lavorare, sono corso alla stazione.",
+              "en": "As soon as I finished work, I ran to the station."
+            },
+            {
+              "it": "Ormai il treno era partito.",
+              "en": "By then the train had left."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-11-l2-e04",
+          "instruction": "Scegli il connettivo giusto.",
+          "prompt": "___ uscire, controlla di avere le chiavi.",
+          "options": [
+            "Prima di",
+            "Dopo",
+            "Appena",
+            "Ormai"
+          ],
+          "answer": 0,
+          "explanation": "Prima di + infinitive."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-11-l2-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Dopo ___ la cena, siamo andati a fare una passeggiata.",
+          "options": [
+            "aver finito",
+            "finire",
+            "finito avere",
+            "che finire"
+          ],
+          "answer": 0,
+          "explanation": "Dopo + past infinitive: dopo aver finito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l2-e06",
+          "instruction": "Completa con l'infinito passato.",
+          "sentence": "Dopo ___ (arrivare) in albergo, Giulia ha chiamato sua madre.",
+          "answers": [
+            "essere arrivata",
+            "esser arrivata"
+          ],
+          "hint": "arrivare – Giulia",
+          "explanation": "Arrivare takes essere, so: dopo essere arrivata (agreeing with Giulia)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l2-e07",
+          "instruction": "Completa con un connettivo.",
+          "sentence": "Siamo arrivati al ristorante alle undici, ma ___ la cucina era chiusa.",
+          "answers": [
+            "ormai",
+            "già"
+          ],
+          "hint": "by then",
+          "explanation": "Ormai = by then, with a sense that it was too late."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-11-l2-e08",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "Before going out, I turned off the lights.",
+          "tiles": [
+            "Prima",
+            "di",
+            "uscire",
+            "ho",
+            "spento",
+            "le",
+            "luci"
+          ],
+          "distractors": [
+            "dopo",
+            "uscito"
+          ],
+          "explanation": "Prima di + infinitive, then the main event in the passato prossimo."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-11-l2-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Dopo avere arrivato a casa, ho fatto la doccia.",
+          "answers": [
+            "Dopo essere arrivato a casa, ho fatto la doccia.",
+            "Dopo essere arrivato a casa ho fatto la doccia.",
+            "Dopo essere arrivata a casa, ho fatto la doccia.",
+            "Dopo essere arrivata a casa ho fatto la doccia.",
+            "Dopo esser arrivato a casa, ho fatto la doccia.",
+            "Dopo esser arrivato a casa ho fatto la doccia.",
+            "Dopo esser arrivata a casa, ho fatto la doccia.",
+            "Dopo esser arrivata a casa ho fatto la doccia.",
+            "Ho fatto la doccia dopo essere arrivato a casa.",
+            "Ho fatto la doccia dopo essere arrivata a casa."
+          ],
+          "explanation": "Arrivare takes essere, also in the past infinitive: dopo essere arrivato/a."
+        },
+        {
+          "type": "translate",
+          "id": "b1-11-l2-e10",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "As soon as I got home, I called my sister.",
+          "answers": [
+            "Appena sono arrivato a casa, io ho chiamato mia sorella.",
+            "Appena sono arrivato a casa io ho chiamato mia sorella.",
+            "Appena sono arrivato a casa, ho chiamato mia sorella.",
+            "Appena sono arrivato a casa ho chiamato mia sorella.",
+            "Appena sono arrivata a casa, io ho chiamato mia sorella.",
+            "Appena sono arrivata a casa io ho chiamato mia sorella.",
+            "Appena sono arrivata a casa, ho chiamato mia sorella.",
+            "Appena sono arrivata a casa ho chiamato mia sorella.",
+            "Appena sono tornato a casa, io ho chiamato mia sorella.",
+            "Appena sono tornato a casa io ho chiamato mia sorella.",
+            "Appena sono tornato a casa, ho chiamato mia sorella.",
+            "Appena sono tornato a casa ho chiamato mia sorella.",
+            "Appena sono tornata a casa, io ho chiamato mia sorella.",
+            "Appena sono tornata a casa io ho chiamato mia sorella.",
+            "Appena sono tornata a casa, ho chiamato mia sorella.",
+            "Appena sono tornata a casa ho chiamato mia sorella.",
+            "Non appena sono arrivato a casa, io ho chiamato mia sorella.",
+            "Non appena sono arrivato a casa io ho chiamato mia sorella.",
+            "Non appena sono arrivato a casa, ho chiamato mia sorella.",
+            "Non appena sono arrivato a casa ho chiamato mia sorella.",
+            "Non appena sono arrivata a casa, io ho chiamato mia sorella.",
+            "Non appena sono arrivata a casa io ho chiamato mia sorella.",
+            "Non appena sono arrivata a casa, ho chiamato mia sorella.",
+            "Non appena sono arrivata a casa ho chiamato mia sorella.",
+            "Non appena sono tornato a casa, io ho chiamato mia sorella.",
+            "Non appena sono tornato a casa io ho chiamato mia sorella.",
+            "Non appena sono tornato a casa, ho chiamato mia sorella.",
+            "Non appena sono tornato a casa ho chiamato mia sorella.",
+            "Non appena sono tornata a casa, io ho chiamato mia sorella.",
+            "Non appena sono tornata a casa io ho chiamato mia sorella.",
+            "Non appena sono tornata a casa, ho chiamato mia sorella.",
+            "Non appena sono tornata a casa ho chiamato mia sorella.",
+            "Appena arrivato a casa, ho chiamato mia sorella.",
+            "Appena arrivato a casa ho chiamato mia sorella.",
+            "Appena arrivata a casa, ho chiamato mia sorella.",
+            "Appena arrivata a casa ho chiamato mia sorella.",
+            "Appena tornato a casa, ho chiamato mia sorella.",
+            "Appena tornato a casa ho chiamato mia sorella.",
+            "Appena tornata a casa, ho chiamato mia sorella.",
+            "Appena tornata a casa ho chiamato mia sorella.",
+            "Non appena arrivato a casa, ho chiamato mia sorella.",
+            "Non appena arrivato a casa ho chiamato mia sorella.",
+            "Non appena arrivata a casa, ho chiamato mia sorella.",
+            "Non appena arrivata a casa ho chiamato mia sorella.",
+            "Non appena tornato a casa, ho chiamato mia sorella.",
+            "Non appena tornato a casa ho chiamato mia sorella.",
+            "Non appena tornata a casa, ho chiamato mia sorella.",
+            "Non appena tornata a casa ho chiamato mia sorella.",
+            "Ho chiamato mia sorella appena sono arrivato a casa.",
+            "Ho chiamato mia sorella appena sono arrivata a casa.",
+            "Ho chiamato mia sorella appena sono tornato a casa.",
+            "Ho chiamato mia sorella appena sono tornata a casa.",
+            "Ho chiamato mia sorella non appena sono arrivato a casa.",
+            "Ho chiamato mia sorella non appena sono arrivata a casa.",
+            "Ho chiamato mia sorella non appena sono tornato a casa.",
+            "Ho chiamato mia sorella non appena sono tornata a casa."
+          ],
+          "explanation": "Appena + passato prossimo for a sequence of events."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-11-l2-e11",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Stamattina mi sono svegliato tardi. Prima di uscire non ho fatto colazione, perché ormai era tardissimo. Appena sono arrivato in ufficio, mi sono accorto che avevo dimenticato il telefono a casa. Dopo aver finito la riunione, sono tornato a prenderlo.",
+          "question": "Che cosa aveva dimenticato a casa?",
+          "options": [
+            "La colazione.",
+            "Il telefono.",
+            "Le chiavi dell'ufficio.",
+            "I documenti per la riunione."
+          ],
+          "answer": 1,
+          "explanation": "Mi sono accorto che avevo dimenticato: the forgetting happened before he noticed."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-11-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Appena ho finito di lavorare, sono corso alla stazione, ma ormai il treno era partito.",
+          "translation": "As soon as I finished work I ran to the station, but by then the train had left."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-11-l2-e13",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Racconta in ordine la tua mattina di ieri. Usa prima di…, dopo aver… e appena…",
+          "keywords": [
+            "prima di",
+            "dopo aver",
+            "appena"
+          ],
+          "modelAnswer": "Ieri mi sono alzato alle sette. Prima di fare colazione, sono andato a correre. Dopo aver fatto la doccia, ho bevuto un caffè. Appena sono uscito di casa, ha cominciato a piovere!",
+          "explanation": "Three connectors put your morning in a clear sequence."
+        }
+      ]
+    },
+    {
+      "id": "b1-11-l3",
+      "title": "Racconta una storia",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-11-l3-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Quando sono arrivato in banca, ___ già chiuso.",
+          "options": [
+            "avevano",
+            "erano",
+            "hanno",
+            "sono"
+          ],
+          "answer": 0,
+          "explanation": "Chiudere (lo sportello) is transitive here: avevano già chiuso."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-11-l3-e02",
+          "title": "Raccontare con ordine",
+          "body": "A clear story uses **three past tenses**, each with its own job:\n- **imperfetto** – the scene: *Era sabato, pioveva, ero stanco.*\n- **passato prossimo** – the events that move the story on: *Sono uscito, ho preso l'autobus…*\n- **trapassato prossimo** – the backstory, what had happened before: *…ma avevo dimenticato il portafoglio.*\n\n**Story connectors**\n- all'inizio, quella mattina, poco dopo, a quel punto, nel frattempo, all'improvviso, alla fine, insomma\n- **accorgersi che** + trapassato is a classic: *Mi sono accorto che avevo perso le chiavi.*",
+          "examples": [
+            {
+              "it": "Era una giornata grigia e faceva freddo.",
+              "en": "It was a grey day and it was cold."
+            },
+            {
+              "it": "A quel punto mi sono accorto che avevo lasciato il passaporto in albergo.",
+              "en": "At that point I realised I had left my passport at the hotel."
+            },
+            {
+              "it": "Poco dopo è arrivato un vigile, che aveva visto tutto.",
+              "en": "Shortly after, a traffic warden arrived, who had seen everything."
+            },
+            {
+              "it": "Insomma, è stato un viaggio da dimenticare.",
+              "en": "In short, it was a trip to forget."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "b1-11-l3-e03",
+          "instruction": "Leggi il racconto e rispondi alle domande.",
+          "title": "Un viaggio da dimenticare",
+          "passage": "L'estate scorsa sono andato a Napoli per un matrimonio. Avevo prenotato il treno delle 8, ma quella mattina la sveglia non è suonata, perché la sera prima non l'avevo caricata. Quando sono arrivato in stazione, il treno era già partito. Ho comprato un altro biglietto e sono partito alle 10. A Roma ho dovuto cambiare treno, ma ormai avevo perso la coincidenza. Alla fine sono arrivato in chiesa alle quattro: gli sposi si erano già detti «sì» e tutti stavano uscendo. Per fortuna, al ristorante mi avevano tenuto il posto!",
+          "questions": [
+            {
+              "question": "Perché la sveglia non è suonata?",
+              "options": [
+                "Era rotta.",
+                "Non l'aveva caricata.",
+                "L'aveva lasciata a casa.",
+                "Era impostata male."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa era successo quando è arrivato in stazione?",
+              "options": [
+                "Il treno era in ritardo.",
+                "Il treno era già partito.",
+                "La stazione era chiusa.",
+                "Aveva perso il biglietto."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa è successo al ristorante?",
+              "options": [
+                "Non c'era più posto.",
+                "Gli avevano tenuto il posto.",
+                "Era chiuso.",
+                "Aveva sbagliato ristorante."
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Spot the backstory: non l'avevo caricata, era già partito, avevo perso la coincidenza, si erano già detti «sì»."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l3-e04",
+          "instruction": "Completa con il trapassato prossimo e il pronome.",
+          "sentence": "Ho cercato il passaporto dappertutto, ma alla fine ho capito che ___ (lasciarlo) in albergo.",
+          "answers": [
+            "l'avevo lasciato"
+          ],
+          "hint": "lasciare + lo – io",
+          "explanation": "Lo + avevo = l'avevo; with a direct pronoun the participle agrees: l'avevo lasciato (il passaporto)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-11-l3-e05",
+          "instruction": "Completa con il trapassato prossimo.",
+          "sentence": "A quel punto mi sono ricordato che non ___ (chiudere) la porta di casa!",
+          "answers": [
+            "avevo chiuso"
+          ],
+          "hint": "chiudere – io",
+          "explanation": "Not closing the door happened before remembering."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-11-l3-e06",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Quando la polizia è arrivata, il ladro è già scappato.",
+          "answers": [
+            "Quando la polizia è arrivata, il ladro era già scappato.",
+            "Quando la polizia è arrivata il ladro era già scappato.",
+            "Il ladro era già scappato quando la polizia è arrivata."
+          ],
+          "explanation": "The escape happened before the police arrived: era già scappato."
+        },
+        {
+          "type": "translate",
+          "id": "b1-11-l3-e07",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Ormai era troppo tardi: il negozio aveva già chiuso.",
+          "answers": [
+            "By then it was too late: the shop had already closed.",
+            "By then it was too late, the shop had already closed.",
+            "By then it was too late the shop had already closed.",
+            "By then it was too late; the shop had already closed.",
+            "It was too late by then: the shop had already closed.",
+            "It was too late by then, the shop had already closed.",
+            "It was too late by then the shop had already closed.",
+            "It was already too late: the shop had already closed.",
+            "It was already too late, the shop had already closed.",
+            "It was already too late the shop had already closed.",
+            "By then it was too late: the store had already closed.",
+            "By then it was too late, the store had already closed.",
+            "By then it was too late the store had already closed.",
+            "By now it was too late: the shop had already closed.",
+            "By now it was too late, the shop had already closed.",
+            "By now it was too late the shop had already closed."
+          ],
+          "explanation": "Ormai = by then; aveva chiuso = had closed."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-11-l3-e08",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Non avevo mai visto tanta neve in città.",
+          "answers": [
+            "Non avevo mai visto tanta neve in città."
+          ],
+          "slow": true,
+          "explanation": "Mai sits between the auxiliary and the participle."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-11-l3-e09",
+          "instruction": "Sei dai Carabinieri per fare una denuncia di smarrimento. Rispondi ad alta voce.",
+          "scenario": "You lost your wallet yesterday and go to the Carabinieri to report the loss. Tell the officer what happened, in order.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, devo fare una denuncia di smarrimento: ho perso il portafoglio.",
+              "hint": "Say why you're there.",
+              "keywords": [
+                "denuncia",
+                "portafoglio"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Quando se n'è accorto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Ieri sera, appena sono tornato a casa.",
+              "hint": "Appena + passato prossimo.",
+              "keywords": [
+                "appena"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E l'ultima volta che l'ha usato?"
+            },
+            {
+              "speaker": "you",
+              "text": "Al bar, verso le sei. Avevo pagato un caffè con la carta.",
+              "hint": "Backstory: trapassato.",
+              "keywords": [
+                "avevo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Dopo il bar dov'è andato?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sono salito sull'autobus 12. Prima di scendere, avevo ancora il portafoglio in tasca.",
+              "hint": "Prima di + infinito.",
+              "keywords": [
+                "prima di"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che cosa c'era dentro?"
+            },
+            {
+              "speaker": "you",
+              "text": "La carta d'identità, il bancomat e circa cinquanta euro. Il bancomat l'ho già bloccato.",
+              "hint": "List the contents; say you blocked the card.",
+              "keywords": [
+                "carta d'identità",
+                "bloccato"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Bene. Firmi qui, le do una copia della denuncia."
+            }
+          ],
+          "explanation": "A clear sequence: appena, prima di, trapassato for the backstory, già for what you've done since."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-11-l3-e10",
+          "instruction": "Racconta una disavventura.",
+          "prompt": "Scrivi un racconto (80–110 parole) di una piccola disavventura: un viaggio, un appuntamento, una giornata storta. Usa l'imperfetto per la scena, il passato prossimo per gli eventi e il trapassato per quello che era successo prima.",
+          "minWords": 80,
+          "checklist": [
+            "Ho usato almeno due verbi al trapassato prossimo.",
+            "Ho usato l'imperfetto per descrivere la scena.",
+            "Ho usato il passato prossimo per gli eventi principali.",
+            "Ho usato almeno tre connettivi (prima di, dopo aver, appena, ormai, a quel punto, alla fine).",
+            "Ho controllato essere/avere e l'accordo del participio."
+          ],
+          "modelAnswer": "Il mese scorso avevo un colloquio importante alle nove. Quella mattina pioveva e c'era molto traffico. Prima di uscire avevo controllato tutto due volte, ma appena sono salito sull'autobus mi sono accorto che avevo dimenticato il curriculum sulla scrivania. Sono sceso subito e sono tornato a casa di corsa. Quando finalmente sono arrivato in ufficio, ormai erano le nove e venti e il direttore aveva già cominciato un altro colloquio. A quel punto ho aspettato con pazienza. Alla fine mi hanno ricevuto e, per fortuna, è andato tutto bene!"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-11-l3-e11",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Prima di cominciare a studiare l'italiano, che cosa sapevi già dell'Italia? Ci eri già stato?",
+          "keywords": [
+            "avevo",
+            "ero già stato",
+            "non ero mai stato"
+          ],
+          "modelAnswer": "Prima di cominciare a studiare l'italiano ero già stato in Italia due volte, in vacanza. Avevo visto Roma e Firenze, ma non avevo mai parlato con nessuno in italiano!",
+          "explanation": "Trapassato for experiences before a past starting point."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-11-l3-e12",
+          "front": "accorgersi (di / che)",
+          "back": "to notice, to realise",
+          "example": "Mi sono accorto che avevo perso le chiavi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "già",
+      "en": "already",
+      "example": "Il treno era già partito."
+    },
+    {
+      "it": "non… ancora",
+      "en": "not yet",
+      "example": "Non erano ancora arrivati."
+    },
+    {
+      "it": "non… mai",
+      "en": "never",
+      "example": "Non ero mai stato a Napoli."
+    },
+    {
+      "it": "ormai",
+      "en": "by now, by then",
+      "example": "Ormai era troppo tardi."
+    },
+    {
+      "it": "appena",
+      "en": "as soon as, just",
+      "example": "Appena sono arrivato, ti ho chiamato."
+    },
+    {
+      "it": "prima di (+ inf.)",
+      "en": "before (…-ing)",
+      "example": "Prima di uscire, ho spento le luci."
+    },
+    {
+      "it": "dopo aver / essere (+ part.)",
+      "en": "after (having) …",
+      "example": "Dopo aver cenato, siamo usciti."
+    },
+    {
+      "it": "a quel punto",
+      "en": "at that point",
+      "example": "A quel punto ho chiamato la polizia."
+    },
+    {
+      "it": "poco dopo",
+      "en": "shortly after",
+      "example": "Poco dopo è arrivato l'autobus."
+    },
+    {
+      "it": "insomma",
+      "en": "in short, basically",
+      "example": "Insomma, è stata una giornata storta."
+    },
+    {
+      "it": "accorgersi (mi sono accorto)",
+      "en": "to notice, to realise",
+      "example": "Mi sono accorto dell'errore troppo tardi."
+    },
+    {
+      "it": "la denuncia di smarrimento",
+      "en": "report of a lost item",
+      "example": "Ho fatto la denuncia di smarrimento dai Carabinieri."
+    },
+    {
+      "it": "smarrire (smarrito)",
+      "en": "to lose, to mislay (formal)",
+      "example": "Ho smarrito la carta d'identità."
+    },
+    {
+      "it": "bloccare la carta",
+      "en": "to block/cancel a card",
+      "example": "Ho bloccato subito il bancomat."
+    },
+    {
+      "it": "il ladro",
+      "en": "thief",
+      "example": "Il ladro era già scappato."
+    },
+    {
+      "it": "scappare",
+      "en": "to run away, to escape",
+      "example": "Il cane è scappato dal giardino."
+    },
+    {
+      "it": "la coincidenza",
+      "en": "(train) connection; coincidence",
+      "example": "Ho perso la coincidenza a Roma."
+    },
+    {
+      "it": "la sveglia",
+      "en": "alarm clock",
+      "example": "Stamattina la sveglia non è suonata."
+    },
+    {
+      "it": "la disavventura",
+      "en": "mishap",
+      "example": "Ti racconto la mia ultima disavventura."
+    },
+    {
+      "it": "una giornata storta",
+      "en": "a day when everything goes wrong",
+      "example": "Oggi è proprio una giornata storta."
+    },
+    {
+      "it": "di corsa",
+      "en": "in a rush, running",
+      "example": "Sono tornato a casa di corsa."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-11-t1",
+      "rule": "Trapassato: il passato del passato",
+      "tip": "Use the trapassato (had + participle) for what had already happened before another past event.",
+      "example": {
+        "it": "Quando sono arrivato, il treno era già partito.",
+        "en": "When I arrived, the train had already left."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Quando ho chiamato, Marco ___ (già – uscire).",
+        "answers": [
+          "era già uscito"
+        ],
+        "hint": "uscire – lui"
+      }
+    },
+    {
+      "id": "b1-11-t2",
+      "rule": "Avevo / ero + participio",
+      "tip": "Trapassato = imperfetto of avere/essere + participle, with the same auxiliary as the passato prossimo.",
+      "example": {
+        "it": "Non avevo mai visto tanta neve.",
+        "en": "I had never seen so much snow."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "arrivare",
+        "tense": "trapassato prossimo",
+        "items": [
+          {
+            "person": "io (m.)",
+            "answer": "ero arrivato"
+          },
+          {
+            "person": "lei",
+            "answer": "era arrivata"
+          },
+          {
+            "person": "noi (m.)",
+            "answer": "eravamo arrivati"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-11-t3",
+      "rule": "Prima di + infinito",
+      "tip": "Before …-ing = prima di + infinitive (same subject): Prima di uscire, chiudi la finestra.",
+      "example": {
+        "it": "Prima di partire, controlla il passaporto.",
+        "en": "Before leaving, check your passport."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "Before going out, I turned off the lights.",
+        "answers": [
+          "Prima di uscire, io ho spento le luci.",
+          "Prima di uscire io ho spento le luci.",
+          "Prima di uscire, ho spento le luci.",
+          "Prima di uscire ho spento le luci.",
+          "Prima di uscire, io ho spento la luce.",
+          "Prima di uscire io ho spento la luce.",
+          "Prima di uscire, ho spento la luce.",
+          "Prima di uscire ho spento la luce.",
+          "Ho spento le luci prima di uscire."
+        ]
+      }
+    },
+    {
+      "id": "b1-11-t4",
+      "rule": "Dopo + infinito passato",
+      "tip": "After …-ing = dopo aver/essere + participle: dopo aver mangiato, dopo essere arrivata.",
+      "example": {
+        "it": "Dopo aver finito, siamo usciti.",
+        "en": "After finishing, we went out."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Dopo avere arrivato, ho chiamato mia madre.",
+        "answers": [
+          "Dopo essere arrivato, ho chiamato mia madre.",
+          "Dopo essere arrivato ho chiamato mia madre.",
+          "Dopo essere arrivata, ho chiamato mia madre.",
+          "Dopo essere arrivata ho chiamato mia madre.",
+          "Dopo esser arrivato, ho chiamato mia madre.",
+          "Dopo esser arrivato ho chiamato mia madre.",
+          "Dopo esser arrivata, ho chiamato mia madre.",
+          "Dopo esser arrivata ho chiamato mia madre."
+        ]
+      }
+    },
+    {
+      "id": "b1-11-t5",
+      "rule": "Ormai = by now / by then",
+      "tip": "Ormai often adds that it's too late: Ormai il negozio aveva chiuso. Ormai è tardi.",
+      "example": {
+        "it": "Ormai era troppo tardi.",
+        "en": "By then it was too late."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Siamo arrivati alle undici, ma ___ la cucina era chiusa.",
+        "options": [
+          "ormai",
+          "appena",
+          "prima di",
+          "mai"
+        ],
+        "answer": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+{
+  "id": "celi-04",
+  "level": "CELI3",
+  "title": "Scrivere per l'esame",
+  "objective": "Alla fine dell'unità sai scrivere i due testi della Parte B del CELI 3: una lettera o e-mail formale o informale di 80–100 parole (B.2) e una composizione di 120–180 parole (B.1), rispettando tutti i punti della traccia e i criteri ufficiali di valutazione.",
+  "grammarFocus": "Registro formale e informale (Lei/tu, formule d'apertura e chiusura), richieste cortesi con condizionale e congiuntivo imperfetto, struttura argomentativa e connettivi, autocorrezione con i criteri ufficiali.",
+  "remedialUnitIds": [
+    "c1-01",
+    "b2-02",
+    "b1-09"
+  ],
+  "lessons": [
+    {
+      "id": "celi-04-l1",
+      "title": "B.2 – La lettera o e-mail (80–100 parole)",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "celi-04-l1-e01",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Ti scrivo ___ chiederti un piccolo favore.",
+          "answers": [
+            "per"
+          ],
+          "explanation": "Scrivere per + infinito: lo scopo del messaggio. È una delle prime frasi di quasi tutte le lettere."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-04-l1-e02",
+          "instruction": "Riscaldamento: quale apertura è adatta a una e-mail all'amministratore del tuo condominio?",
+          "prompt": "Scegli l'apertura più adatta.",
+          "options": [
+            "Ciao Bianchi!",
+            "Gentile signor Bianchi,",
+            "Caro amico,",
+            "Ehi, Bianchi,"
+          ],
+          "answer": 1,
+          "explanation": "Gentile + titolo + cognome è l'apertura formale standard. Caro/Cara si usa con persone che conosci bene, o in formule come Caro Direttore."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-04-l1-e03",
+          "title": "La Parte B del CELI 3 e la prova B.2",
+          "body": "La Parte B è nel **primo fascicolo**, insieme alla lettura (in tutto **2 ore e 15 minuti**).\n\n- **B.1** – una **composizione** di **120–180 parole**: scegli **una traccia tra due**.\n- **B.2** – una **lettera o e-mail** di **80–100 parole**, *fortemente contestualizzata*: scegli **una traccia tra tre**.\n\nOgni prova vale **20 punti**, divisi in quattro criteri. Nella **B.2** il peso è questo:\n- **competenza sociolinguistica** (registro, formule): **6** punti, il criterio più pesante\n- **competenza lessicale**: 5\n- **coerenza e coesione** (hai svolto tutte le consegne?): 5\n- **competenza grammaticale**: 4\n\n**Quindi:** scegli un registro (*tu* o *Lei*) e **mantienilo** fino alla fine; usa formule d'apertura e di chiusura adatte; rispondi a **ogni punto** della traccia (se manca un'indicazione, perdi punti in coerenza).\n\n**Formule formali utili:** *Gentile signora…, Egregio Direttore, Le scrivo per…, Vorrei sapere se…, Le sarei grato se potesse…, In attesa di una Sua risposta, porgo cordiali saluti.*",
+          "examples": [
+            {
+              "it": "Le scrivo per segnalare un problema nel mio appartamento.",
+              "en": "I'm writing to report a problem in my flat."
+            },
+            {
+              "it": "Le sarei grato se potesse inviarmi il modulo.",
+              "en": "I would be grateful if you could send me the form."
+            },
+            {
+              "it": "In attesa di un Suo cortese riscontro, porgo cordiali saluti.",
+              "en": "Looking forward to your reply, kind regards."
+            },
+            {
+              "it": "Ti scrivo per raccontarti una bella notizia!",
+              "en": "I'm writing to tell you some good news!"
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-04-l1-e04",
+          "instruction": "Abbina la formula informale alla formula formale corrispondente.",
+          "pairs": [
+            {
+              "left": "Ciao Marco,",
+              "right": "Gentile signor Rossi,"
+            },
+            {
+              "left": "Ti scrivo per…",
+              "right": "Le scrivo per…"
+            },
+            {
+              "left": "Fammi sapere!",
+              "right": "Resto in attesa di una Sua risposta."
+            },
+            {
+              "left": "Scusa se…",
+              "right": "Mi scuso per…"
+            },
+            {
+              "left": "Un abbraccio",
+              "right": "Cordiali saluti"
+            }
+          ],
+          "explanation": "Una formula fuori registro (Un abbraccio in una lettera a un ufficio) costa punti nella competenza sociolinguistica."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-04-l1-e05",
+          "instruction": "Stai scrivendo un reclamo alla palestra. Quale frase è più adatta?",
+          "prompt": "Scegli la frase più appropriata.",
+          "options": [
+            "Sono arrabbiatissimo, la vostra palestra fa schifo!",
+            "Vorrei segnalare che da due settimane le docce non funzionano.",
+            "Ehi, aggiustate le docce, ok?",
+            "Le docce? Un disastro totale, come sempre."
+          ],
+          "answer": 1,
+          "explanation": "Un reclamo efficace è fermo ma cortese: vorrei segnalare che… + fatto preciso."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-04-l1-e06",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I'm writing to ask for information about the cooking course.",
+          "tiles": [
+            "Le",
+            "scrivo",
+            "per",
+            "chiedere",
+            "informazioni",
+            "sul",
+            "corso",
+            "di",
+            "cucina"
+          ],
+          "distractors": [
+            "Ti",
+            "chiedo"
+          ],
+          "explanation": "Le scrivo (formale) + per + infinito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-04-l1-e07",
+          "instruction": "Completa con il congiuntivo imperfetto.",
+          "sentence": "Le sarei grato se ___ inviarmi il programma del corso.",
+          "answers": [
+            "potesse"
+          ],
+          "hint": "potere – Lei",
+          "explanation": "Condizionale (sarei grato) + se + congiuntivo imperfetto (potesse): la richiesta più cortese."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-04-l1-e08",
+          "instruction": "C'è un errore di registro. Riscrivi la frase corretta.",
+          "sentence": "Gentile signora Neri, ti scrivo per confermare l'appuntamento di giovedì.",
+          "answers": [
+            "Gentile signora Neri, Le scrivo per confermare l'appuntamento di giovedì.",
+            "Gentile signora Neri, le scrivo per confermare l'appuntamento di giovedì."
+          ],
+          "explanation": "Con Gentile signora si usa il Lei: Le scrivo. Mescolare tu e Lei è uno degli errori più penalizzati nella B.2."
+        },
+        {
+          "type": "reading",
+          "id": "celi-04-l1-e09",
+          "instruction": "Leggi la traccia e l'e-mail di un candidato. Poi rispondi.",
+          "title": "Una traccia B.2 e una risposta",
+          "passage": "TRACCIA: Hai visto su un sito l'annuncio di un corso serale di fotografia. Scrivi un'e-mail alla scuola (80–100 parole): presentati, chiedi quanto costa il corso e in quali giorni si svolge, e domanda se serve una macchina fotografica professionale.\n\nE-MAIL DEL CANDIDATO:\nGentile segreteria,\nmi chiamo Richard e Le scrivo perché ho visto sul vostro sito l'annuncio del corso serale di fotografia. Sono un appassionato di fotografia da molti anni, ma non ho mai seguito un corso. Vorrei sapere in quali giorni si svolgono le lezioni e se è necessario avere una macchina fotografica professionale, perché per ora uso solo il telefono. Le sarei grato se potesse rispondermi al più presto, perché vorrei iscrivermi prima dell'inizio delle lezioni.\nIn attesa di una Sua risposta, porgo cordiali saluti.\nRichard",
+          "questions": [
+            {
+              "question": "Quale punto della traccia manca nell'e-mail?",
+              "options": [
+                "La presentazione",
+                "Il costo del corso",
+                "I giorni delle lezioni",
+                "La domanda sulla macchina fotografica"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale criterio penalizza questa omissione?",
+              "options": [
+                "Competenza lessicale",
+                "Competenza grammaticale",
+                "Coerenza e coesione",
+                "Competenza fonetica"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Il registro è…",
+              "options": [
+                "informale e coerente",
+                "formale e coerente",
+                "misto tu/Lei",
+                "troppo colloquiale"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Una buona e-mail può perdere punti solo perché dimentica una consegna. Prima di scrivere, numera i punti della traccia e spuntali alla fine."
+        },
+        {
+          "type": "free_write",
+          "id": "celi-04-l1-e10",
+          "instruction": "Prova B.2. Scrivi l'e-mail.",
+          "prompt": "Da due settimane nel tuo palazzo l'ascensore è guasto e nessuno è venuto a ripararlo. Scrivi un'e-mail all'amministratore del condominio (80–100 parole): descrivi il problema, spiega quali disagi causa a te e agli altri condomini e chiedi un intervento entro una data precisa.",
+          "minWords": 80,
+          "checklist": [
+            "Ho risposto a tutti i punti della traccia (coerenza e coesione).",
+            "Il registro è coerente dall'inizio alla fine: formule d'apertura e di chiusura adatte (competenza sociolinguistica, 6 punti).",
+            "Ho usato un lessico preciso, senza ripetere sempre le stesse parole (competenza lessicale).",
+            "Ho controllato verbi, accordi e preposizioni (competenza grammaticale).",
+            "Ho scritto tra 80 e 100 parole."
+          ],
+          "modelAnswer": "Gentile signor Ferri,\nLe scrivo per segnalare che da due settimane l'ascensore del nostro palazzo, in via Verdi 12, è guasto. Nonostante le nostre telefonate, finora nessun tecnico è venuto a ripararlo. La situazione causa molti disagi: io abito al quinto piano e ogni giorno devo portare la spesa a piedi, ma il problema è ancora più grave per i condomini anziani, che ormai escono pochissimo. Le sarei grato se potesse far intervenire un tecnico entro venerdì prossimo.\nIn attesa di un Suo cortese riscontro, porgo cordiali saluti.\nRichard Smith",
+          "explanation": "Nel modello: tre punti della traccia tutti svolti, registro formale costante, nonostante + nome (nonostante le nostre telefonate), richiesta cortese con condizionale + congiuntivo imperfetto."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-04-l1-e11",
+          "instruction": "Ascolta e ripeti la formula di chiusura.",
+          "text": "In attesa di un Suo cortese riscontro, porgo cordiali saluti.",
+          "translation": "Looking forward to your kind reply, I send my best regards."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-04-l1-e12",
+          "front": "Le sarei grato se potesse…",
+          "back": "I would be grateful if you could…",
+          "example": "Le sarei grato se potesse rispondermi entro venerdì."
+        }
+      ]
+    },
+    {
+      "id": "celi-04-l2",
+      "title": "B.1 – La composizione (120–180 parole)",
+      "minutes": 16,
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "celi-04-l2-e01",
+          "instruction": "Riscaldamento: traduci in italiano (registro formale).",
+          "direction": "en_it",
+          "source": "I'm writing to report a problem.",
+          "answers": [
+            "Le scrivo per segnalare un problema.",
+            "Le scrivo per segnalarle un problema.",
+            "Le scrivo per segnalare un problema",
+            "Vi scrivo per segnalare un problema.",
+            "Scrivo per segnalare un problema."
+          ],
+          "explanation": "Segnalare = to report, to point out (un guasto, un problema, un disservizio)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-04-l2-e02",
+          "instruction": "Riscaldamento: quale criterio pesa di più nella B.2?",
+          "prompt": "Nella lettera B.2 il criterio con il punteggio più alto è…",
+          "options": [
+            "la competenza grammaticale",
+            "la competenza sociolinguistica",
+            "la competenza lessicale",
+            "la lunghezza del testo"
+          ],
+          "answer": 1,
+          "explanation": "Sociolinguistica: 6 punti su 20 nella B.2. Nella B.1 invece i quattro criteri valgono 5 punti ciascuno."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-04-l2-e03",
+          "title": "B.1: costruire la composizione",
+          "body": "La **B.1** chiede una **breve composizione** di **120–180 parole** su esperienze personali o temi d'interesse generale (lavoro, ambiente, tecnologia, città, abitudini). Scegli **una traccia tra due**. Ogni criterio vale **5 punti**: lessico, registro, grammatica, coerenza e coesione.\n\nIl testo deve essere *semplice ma coerente e coeso*. Una struttura sicura:\n- **Introduzione** (2–3 frasi): presenta il tema e la tua posizione. *Oggi si parla molto di… Secondo me…*\n- **Sviluppo** (2 paragrafi): un argomento per paragrafo, con un **esempio** o un'esperienza personale. *Innanzitutto… Per esempio… Inoltre…*\n- **Altro punto di vista** (1–2 frasi): *D'altra parte… È vero che…, tuttavia…*\n- **Conclusione** (1–2 frasi): *In conclusione / Per concludere…*\n\n**Per mostrare varietà di strutture** (criterio grammaticale): un congiuntivo dopo un verbo d'opinione (*credo che sia…*), un periodo ipotetico (*se potessi, …*), una frase relativa, un connettivo concessivo.\n\n*Tip: spend 5 minutes on a plan before writing; it saves time and improves coherence.*",
+          "examples": [
+            {
+              "it": "Oggi si parla molto del lavoro da casa.",
+              "en": "Nowadays there's a lot of talk about working from home."
+            },
+            {
+              "it": "Innanzitutto, si risparmia tempo.",
+              "en": "First of all, you save time."
+            },
+            {
+              "it": "È vero che si esce meno; tuttavia si vive meglio.",
+              "en": "It's true you go out less; however, you live better."
+            },
+            {
+              "it": "In conclusione, credo che sia una buona soluzione.",
+              "en": "In conclusion, I believe it is a good solution."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-04-l2-e04",
+          "instruction": "Abbina il connettivo alla sua funzione nel testo.",
+          "pairs": [
+            {
+              "left": "innanzitutto",
+              "right": "introdurre il primo argomento"
+            },
+            {
+              "left": "inoltre",
+              "right": "aggiungere un argomento"
+            },
+            {
+              "left": "per esempio",
+              "right": "fare un esempio"
+            },
+            {
+              "left": "d'altra parte",
+              "right": "presentare l'altro punto di vista"
+            },
+            {
+              "left": "in conclusione",
+              "right": "chiudere il testo"
+            }
+          ],
+          "explanation": "Connettivi vari e usati bene = punti in coerenza e coesione."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-04-l2-e05",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Secondo me è importante che i giovani ___ un'esperienza di volontariato.",
+          "answers": [
+            "facciano"
+          ],
+          "hint": "fare – loro",
+          "explanation": "È importante che + congiuntivo: facciano (fare)."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-04-l2-e06",
+          "instruction": "Metti le parole in ordine: è l'inizio di una composizione.",
+          "translation": "Nowadays there is a lot of talk about the four-day week.",
+          "tiles": [
+            "Oggi",
+            "si",
+            "parla",
+            "molto",
+            "della",
+            "settimana",
+            "di",
+            "quattro",
+            "giorni"
+          ],
+          "distractors": [
+            "parlano",
+            "sulla"
+          ],
+          "explanation": "Si parla di… : formula impersonale per introdurre un tema."
+        },
+        {
+          "type": "reading",
+          "id": "celi-04-l2-e07",
+          "instruction": "Leggi una composizione modello e rispondi.",
+          "title": "Traccia: Vivere in città o in campagna?",
+          "passage": "Oggi molte persone si chiedono se sia meglio vivere in città o in campagna. Secondo me la risposta dipende dalla fase della vita.\n\nInnanzitutto, la città offre servizi che in campagna mancano: ospedali, scuole, trasporti, cinema. Quando ero studente abitavo in centro e potevo andare dappertutto a piedi, senza bisogno della macchina. Inoltre in città è più facile trovare lavoro e conoscere persone nuove.\n\nD'altra parte, la vita in campagna è più tranquilla e meno costosa. È vero che bisogna spostarsi in auto, tuttavia l'aria è più pulita e si ha più tempo per sé. Molti amici che si sono trasferiti fuori città mi dicono che non tornerebbero indietro.\n\nIn conclusione, credo che la città sia ideale da giovani, mentre la campagna è più adatta a chi cerca tranquillità. Se potessi scegliere oggi, vivrei in un paese vicino a una città, per avere i vantaggi di entrambe.",
+          "questions": [
+            {
+              "question": "Dove esprime l'autore la sua posizione per la prima volta?",
+              "options": [
+                "Nell'introduzione",
+                "Solo nella conclusione",
+                "Nel secondo paragrafo",
+                "Non la esprime"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che funzione ha il terzo paragrafo?",
+              "options": [
+                "Ripete gli argomenti del secondo",
+                "Presenta i vantaggi dell'altra scelta",
+                "Racconta una storia senza relazione con il tema",
+                "Fa una domanda al lettore"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale struttura mostra varietà grammaticale nella conclusione?",
+              "options": [
+                "Un imperativo",
+                "Un periodo ipotetico (se potessi… vivrei)",
+                "Un passato remoto",
+                "Una forma passiva"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Circa 150 parole, quattro paragrafi, connettivi vari, esperienza personale, congiuntivo e periodo ipotetico: un testo semplice ma completo."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-04-l2-e08",
+          "instruction": "Quale conclusione è più efficace?",
+          "prompt": "Traccia: È giusto vietare le auto nei centri storici?",
+          "options": [
+            "Basta, ho finito.",
+            "In conclusione, credo che vietare le auto sia giusto, purché si migliorino i trasporti pubblici.",
+            "Le auto sono macchine con quattro ruote.",
+            "Non so, ognuno fa come vuole."
+          ],
+          "answer": 1,
+          "explanation": "Una buona conclusione riprende la posizione e la sfuma o la completa (purché + congiuntivo)."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-04-l2-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Penso che il lavoro da casa è una buona soluzione per molte famiglie.",
+          "answers": [
+            "Penso che il lavoro da casa sia una buona soluzione per molte famiglie."
+          ],
+          "explanation": "Penso che + congiuntivo: sia. Errore frequentissimo nelle composizioni d'opinione."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-04-l2-e10",
+          "instruction": "Prepara la composizione a voce: dai la tua opinione con due argomenti.",
+          "prompt": "Traccia: «La tecnologia ci rende più soli?» Di' in 3–4 frasi qual è la tua posizione e quali due argomenti useresti.",
+          "keywords": [
+            "secondo me",
+            "innanzitutto",
+            "inoltre"
+          ],
+          "modelAnswer": "Secondo me la tecnologia non ci rende più soli, se la usiamo bene. Innanzitutto permette di restare in contatto con amici e parenti lontani. Inoltre aiuta a trovare persone con gli stessi interessi. D'altra parte, è vero che a volte passiamo troppo tempo davanti allo schermo.",
+          "explanation": "Pianificare ad alta voce aiuta anche all'orale, dove devi argomentare in modo semplice ma logico."
+        },
+        {
+          "type": "free_write",
+          "id": "celi-04-l2-e11",
+          "instruction": "Prova B.1. Scrivi la composizione.",
+          "prompt": "Traccia: «Il lavoro da casa: un vantaggio o un problema?» Scrivi un testo (120–180 parole) in cui esprimi la tua opinione, porti almeno due argomenti con esempi, consideri l'altro punto di vista e concludi.",
+          "minWords": 120,
+          "checklist": [
+            "Ho svolto tutti i punti della traccia, con introduzione, sviluppo e conclusione (coerenza e coesione).",
+            "Ho collegato le idee con connettivi vari: innanzitutto, inoltre, tuttavia, per esempio, in conclusione.",
+            "Ho usato strutture varie: almeno un congiuntivo dopo un verbo d'opinione e un periodo ipotetico (competenza grammaticale).",
+            "Il lessico è adeguato al tema e non ripetitivo (competenza lessicale).",
+            "Il registro è adatto al lettore (competenza sociolinguistica).",
+            "Ho scritto tra 120 e 180 parole."
+          ],
+          "modelAnswer": "Negli ultimi anni il lavoro da casa è diventato molto comune. Secondo me è un grande vantaggio, purché sia organizzato bene.\n\nInnanzitutto, si risparmia tempo. Un mio amico prima passava due ore al giorno in macchina; adesso usa quel tempo per fare sport e cucinare. Inoltre si risparmiano soldi, perché non si spende in benzina e pranzi al bar, e c'è meno traffico nelle città.\n\nD'altra parte, è vero che lavorare sempre da soli può essere pesante. Molte persone sentono la mancanza dei colleghi e fanno fatica a separare il lavoro dalla vita privata. Per questo credo che la soluzione migliore sia un modello misto: alcuni giorni a casa e altri in ufficio.\n\nIn conclusione, se fossi un datore di lavoro, offrirei ai dipendenti la possibilità di scegliere, perché penso che le persone soddisfatte lavorino meglio.",
+          "explanation": "Controlla la tua composizione con la lista: struttura, connettivi, varietà grammaticale, lunghezza. Il modello ha circa 135 parole."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-04-l2-e12",
+          "front": "d'altra parte",
+          "back": "on the other hand",
+          "example": "D'altra parte, lavorare da soli può essere pesante."
+        }
+      ]
+    },
+    {
+      "id": "celi-04-l3",
+      "title": "Rileggere con i criteri",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-04-l3-e01",
+          "instruction": "Riscaldamento: quanto deve essere lunga la B.2?",
+          "prompt": "La lettera o e-mail B.2 deve avere…",
+          "options": [
+            "40–60 parole",
+            "80–100 parole",
+            "120–180 parole",
+            "200–250 parole"
+          ],
+          "answer": 1,
+          "explanation": "B.2: 80–100 parole. B.1: 120–180 parole."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-04-l3-e02",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "In ___, credo che il lavoro da casa sia una buona soluzione.",
+          "answers": [
+            "conclusione"
+          ],
+          "explanation": "In conclusione / per concludere: formula per chiudere la composizione."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-04-l3-e03",
+          "title": "Gli ultimi 10 minuti: rileggere come un esaminatore",
+          "body": "Lascia sempre circa **10 minuti** per rileggere *(our advice)*. Rileggi **una volta per ogni criterio**:\n\n- **Coerenza e coesione**: ho svolto **tutti i punti** della traccia? Ci sono paragrafi e connettivi?\n- **Competenza sociolinguistica**: tu o Lei dall'inizio alla fine? Formule giuste? (*Gentile… / Cordiali saluti*; *Caro… / Un abbraccio*)\n- **Competenza grammaticale**: accordi nome–aggettivo, participi con *essere*, congiuntivo dopo *penso che, benché, è importante che*, preposizioni (*decidere di, cominciare a*).\n- **Competenza lessicale**: ripeto sempre *cosa, fare, bello*? Ortografia: doppie, accenti (*perché, città, è*), apostrofi (*qual è* senza apostrofo, *un'amica* con apostrofo).\n- **Lunghezza**: conta le parole. Un testo troppo corto rischia di non svolgere tutte le consegne.",
+          "examples": [
+            {
+              "it": "Le persone erano molto gentili. (non gentile)",
+              "en": "People were very kind. (agreement)"
+            },
+            {
+              "it": "Ho deciso di iscrivermi. (non a iscrivermi)",
+              "en": "I decided to enrol. (preposition)"
+            },
+            {
+              "it": "Qual è il problema? (senza apostrofo)",
+              "en": "What's the problem? (no apostrophe)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-04-l3-e04",
+          "instruction": "Correggi l'errore di accordo.",
+          "sentence": "Le persone che ho conosciuto al corso erano molto gentile.",
+          "answers": [
+            "Le persone che ho conosciuto al corso erano molto gentili."
+          ],
+          "explanation": "Persone è femminile plurale: gentili."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-04-l3-e05",
+          "instruction": "Correggi l'errore di preposizione.",
+          "sentence": "Ho deciso a iscrivermi a un corso di fotografia.",
+          "answers": [
+            "Ho deciso di iscrivermi a un corso di fotografia."
+          ],
+          "explanation": "Decidere di + infinito. (Cominciare a, provare a, riuscire a; ma decidere di, cercare di, smettere di.)"
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-04-l3-e06",
+          "instruction": "Correggi l'errore di ortografia.",
+          "sentence": "Qual'è il costo del corso?",
+          "answers": [
+            "Qual è il costo del corso?"
+          ],
+          "explanation": "Qual è si scrive senza apostrofo: qual è una forma tronca, non elisa."
+        },
+        {
+          "type": "conjugation",
+          "id": "celi-04-l3-e07",
+          "instruction": "Condizionale presente di potere: per richieste cortesi.",
+          "verb": "potere",
+          "tense": "condizionale presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "potrei"
+            },
+            {
+              "person": "tu",
+              "answer": "potresti"
+            },
+            {
+              "person": "lui/lei/Lei",
+              "answer": "potrebbe"
+            },
+            {
+              "person": "noi",
+              "answer": "potremmo"
+            },
+            {
+              "person": "voi",
+              "answer": "potreste"
+            },
+            {
+              "person": "loro",
+              "answer": "potrebbero"
+            }
+          ],
+          "explanation": "Potrebbe inviarmi…? / Potresti dirmi…? : le richieste più comuni nelle lettere."
+        },
+        {
+          "type": "translate",
+          "id": "celi-04-l3-e08",
+          "instruction": "Traduci in italiano (registro formale).",
+          "direction": "en_it",
+          "source": "I would be grateful if you could let me know as soon as possible.",
+          "answers": [
+            "Le sarei grato se potesse farmi sapere al più presto.",
+            "Le sarei grato se potesse farmelo sapere al più presto.",
+            "Le sarei grato se mi potesse far sapere al più presto.",
+            "Le sarei grato se potesse farmi sapere il prima possibile.",
+            "Le sarei grato se potesse comunicarmelo al più presto.",
+            "Le sarei grato se mi facesse sapere al più presto.",
+            "Le sarei grata se potesse farmi sapere al più presto.",
+            "Le sarei molto grato se potesse farmi sapere al più presto."
+          ],
+          "explanation": "Sarei grato (m.) / grata (f.) + se + congiuntivo imperfetto."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-04-l3-e09",
+          "instruction": "Ascolta il messaggio vocale della tua amica e rispondi.",
+          "audioText": "Ciao! Senti, ho una notizia: a settembre mi trasferisco in Italia per lavoro, a Torino! Sono felicissima ma anche un po' agitata. Tu che ci vivi da un po', mi dai qualche consiglio? Soprattutto per trovare casa e per imparare meglio la lingua. Scrivimi quando puoi, un bacio!",
+          "question": "Che cosa chiede l'amica?",
+          "options": [
+            "Un posto dove dormire a Torino",
+            "Consigli su casa e lingua",
+            "Un lavoro in Italia",
+            "Di andarla a prendere all'aeroporto"
+          ],
+          "answer": 1,
+          "explanation": "Mi dai qualche consiglio? Soprattutto per trovare casa e per imparare la lingua: sono i due punti a cui rispondere nell'e-mail."
+        },
+        {
+          "type": "free_write",
+          "id": "celi-04-l3-e10",
+          "instruction": "Prova B.2 (informale). Rispondi all'amica.",
+          "prompt": "Scrivi un'e-mail alla tua amica (80–100 parole): rallegrati per la notizia, dalle almeno un consiglio per trovare casa e uno per imparare l'italiano, e proponi di vedervi quando arriva.",
+          "minWords": 80,
+          "checklist": [
+            "Ho risposto a tutti i punti della traccia (coerenza e coesione).",
+            "Il registro è coerente dall'inizio alla fine: formule d'apertura e di chiusura adatte (competenza sociolinguistica, 6 punti).",
+            "Ho usato un lessico preciso, senza ripetere sempre le stesse parole (competenza lessicale).",
+            "Ho controllato verbi, accordi e preposizioni (competenza grammaticale).",
+            "Ho scritto tra 80 e 100 parole."
+          ],
+          "modelAnswer": "Cara Sophie,\nche bella notizia! Sono davvero contento per te. Per la casa, ti consiglio di cercare prima una stanza in affitto per qualche mese: così conosci i quartieri e poi scegli con calma. Fai attenzione agli annunci troppo convenienti e non mandare mai soldi prima di aver visto l'appartamento. Per la lingua, iscriviti a un corso, ma soprattutto parla con tutti: al bar, al mercato, con i vicini. Io ho imparato così! Quando arrivi, ti vengo a trovare e ti porto a mangiare in un posto che conosco io.\nUn abbraccio,\nRichard",
+          "explanation": "Registro informale costante (tu, Cara, Un abbraccio), tre consegne svolte, imperativi informali per i consigli (iscriviti, parla, fai attenzione)."
+        },
+        {
+          "type": "roleplay",
+          "id": "celi-04-l3-e11",
+          "instruction": "Un compagno del corso CELI ti chiede consigli sulla prova scritta. Rispondi ad alta voce.",
+          "scenario": "A classmate, Tomás, is worried about the writing section. Explain your strategy, using what you learnt in this unit.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao! Domani c'è la simulazione della prova scritta e sono nel panico. Tu come ti organizzi?"
+            },
+            {
+              "speaker": "you",
+              "text": "Prima leggo bene la traccia e numero tutti i punti che devo svolgere.",
+              "hint": "Say you read the prompt and number the points.",
+              "keywords": [
+                "traccia",
+                "punti"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E poi? Comincio subito a scrivere?"
+            },
+            {
+              "speaker": "you",
+              "text": "No, prima faccio una scaletta di cinque minuti, poi scrivo e alla fine lascio dieci minuti per rileggere.",
+              "hint": "Explain the plan, writing and rereading.",
+              "keywords": [
+                "scaletta",
+                "rileggere"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che cosa controlli quando rileggi?"
+            },
+            {
+              "speaker": "you",
+              "text": "Controllo il registro, gli accordi, il congiuntivo e conto le parole.",
+              "hint": "Name what you check.",
+              "keywords": [
+                "registro",
+                "parole"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ottimo, grazie! Mi hai tranquillizzato."
+            }
+          ],
+          "explanation": "La scaletta = outline. Spiegare una procedura usa prima, poi, alla fine: utile anche all'orale."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-04-l3-e12",
+          "front": "la scaletta",
+          "back": "outline, plan (of a text)",
+          "example": "Prima di scrivere faccio sempre una scaletta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "Gentile signora / signor…",
+      "en": "Dear Mrs / Mr… (formal)",
+      "example": "Gentile signor Ferri, Le scrivo per…"
+    },
+    {
+      "it": "Le scrivo per…",
+      "en": "I am writing to… (formal)",
+      "example": "Le scrivo per chiedere informazioni."
+    },
+    {
+      "it": "Cordiali saluti",
+      "en": "Kind regards",
+      "example": "In attesa di una Sua risposta, cordiali saluti."
+    },
+    {
+      "it": "porgere i saluti",
+      "en": "to send one's regards (formal)",
+      "example": "Porgo distinti saluti."
+    },
+    {
+      "it": "il riscontro",
+      "en": "reply, feedback (formal)",
+      "example": "Resto in attesa di un Suo riscontro."
+    },
+    {
+      "it": "segnalare",
+      "en": "to report, to point out",
+      "example": "Vorrei segnalare un guasto."
+    },
+    {
+      "it": "il reclamo",
+      "en": "complaint (formal)",
+      "example": "Ho presentato un reclamo all'ufficio clienti."
+    },
+    {
+      "it": "l'amministratore di condominio",
+      "en": "building manager",
+      "example": "Ho scritto all'amministratore di condominio."
+    },
+    {
+      "it": "il condomino / la condomina",
+      "en": "resident of a block of flats",
+      "example": "I condomini anziani escono poco."
+    },
+    {
+      "it": "essere grato (a qualcuno)",
+      "en": "to be grateful",
+      "example": "Le sarei grato se potesse aiutarmi."
+    },
+    {
+      "it": "la traccia",
+      "en": "writing prompt, task",
+      "example": "Leggi bene la traccia prima di scrivere."
+    },
+    {
+      "it": "la scaletta",
+      "en": "outline, plan",
+      "example": "Faccio una scaletta di cinque minuti."
+    },
+    {
+      "it": "innanzitutto",
+      "en": "first of all",
+      "example": "Innanzitutto, si risparmia tempo."
+    },
+    {
+      "it": "inoltre",
+      "en": "moreover, in addition",
+      "example": "Inoltre si inquina meno."
+    },
+    {
+      "it": "d'altra parte",
+      "en": "on the other hand",
+      "example": "D'altra parte, ci sono anche svantaggi."
+    },
+    {
+      "it": "in conclusione",
+      "en": "in conclusion",
+      "example": "In conclusione, sono favorevole."
+    },
+    {
+      "it": "si parla molto di…",
+      "en": "there is a lot of talk about…",
+      "example": "Oggi si parla molto di intelligenza artificiale."
+    },
+    {
+      "it": "il datore di lavoro",
+      "en": "employer",
+      "example": "Il datore di lavoro offre il lavoro da casa."
+    },
+    {
+      "it": "il / la dipendente",
+      "en": "employee",
+      "example": "I dipendenti sono più soddisfatti."
+    },
+    {
+      "it": "il vantaggio / lo svantaggio",
+      "en": "advantage / disadvantage",
+      "example": "Ci sono vantaggi e svantaggi."
+    },
+    {
+      "it": "fare fatica a",
+      "en": "to struggle to",
+      "example": "Faccio fatica a concentrarmi a casa."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "celi-04-t1",
+      "rule": "B.2: il registro vale 6 punti",
+      "tip": "Nella B.2 la competenza sociolinguistica vale 6 punti su 20: scegli tu o Lei e non cambiarlo mai.",
+      "example": {
+        "it": "Gentile signora, Le scrivo per…",
+        "en": "Dear Madam, I'm writing to…"
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Gentile direttore, ti scrivo per chiedere un'informazione.",
+        "answers": [
+          "Gentile direttore, Le scrivo per chiedere un'informazione.",
+          "Gentile direttore, le scrivo per chiedere un'informazione."
+        ]
+      }
+    },
+    {
+      "id": "celi-04-t2",
+      "rule": "Numera i punti della traccia",
+      "tip": "Ogni consegna dimenticata costa punti in coerenza: numera i punti della traccia e spuntali quando rileggi.",
+      "example": {
+        "it": "1. presentati 2. chiedi il costo 3. chiedi i giorni",
+        "en": "1. introduce yourself 2. ask the price 3. ask the days"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Se la tua lettera non svolge una consegna, perdi punti in…",
+        "options": [
+          "competenza fonetica",
+          "coerenza e coesione",
+          "competenza lessicale",
+          "nessun criterio"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-04-t3",
+      "rule": "Richiesta cortese: sarei grato se",
+      "tip": "Condizionale + se + congiuntivo imperfetto: la richiesta più elegante in una lettera formale.",
+      "example": {
+        "it": "Le sarei grato se potesse rispondermi.",
+        "en": "I'd be grateful if you could reply."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Le sarei grato se mi ___ (mandare) il modulo.",
+        "answers": [
+          "mandasse",
+          "inviasse"
+        ]
+      }
+    },
+    {
+      "id": "celi-04-t4",
+      "rule": "B.1: 120–180 parole in 4 blocchi",
+      "tip": "Introduzione con la tua tesi, due argomenti con esempi, l'altro punto di vista, conclusione.",
+      "example": {
+        "it": "D'altra parte, è vero che… tuttavia…",
+        "en": "On the other hand, it's true that… however…"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Quale connettivo introduce l'altro punto di vista?",
+        "options": [
+          "innanzitutto",
+          "d'altra parte",
+          "per esempio",
+          "inoltre"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-04-t5",
+      "rule": "Penso che + congiuntivo",
+      "tip": "Nelle composizioni d'opinione: penso / credo / è importante che + congiuntivo. È l'errore più frequente.",
+      "example": {
+        "it": "Credo che sia una buona idea.",
+        "en": "I think it's a good idea."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Penso che la città è troppo cara.",
+        "answers": [
+          "Penso che la città sia troppo cara."
+        ]
+      }
+    }
+  ]
+}

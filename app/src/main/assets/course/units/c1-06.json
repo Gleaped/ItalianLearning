@@ -1,0 +1,996 @@
+{
+  "id": "c1-06",
+  "level": "C1",
+  "title": "Cavarsela",
+  "objective": "Alla fine dell'unità sai parlare di come affronti difficoltà, conflitti ed emozioni con i verbi pronominali più frequenti: farcela, cavarsela, prendersela, avercela con, andarsene, metterci e mettercela tutta.",
+  "grammarFocus": "Verbi pronominali con ci, la, ne (farcela, cavarsela, prendersela, avercela, andarsene, tenerci, metterci/volerci, mettercela tutta, smetterla, passarsela, sentirsela): presente, passato prossimo con accordo del participio, infinito e imperativo.",
+  "remedialUnitIds": [
+    "b1-02",
+    "b1-03",
+    "a2r-05",
+    "c1-05"
+  ],
+  "lessons": [
+    {
+      "id": "c1-06-l1",
+      "title": "Ce l'ho fatta! Farcela e cavarsela",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-06-l1-e01",
+          "prompt": "Sei stato al nuovo mercato coperto? – Sì, ___ sono stato ieri mattina.",
+          "options": [
+            "ci",
+            "ne",
+            "lo",
+            "gli"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli la particella giusta.",
+          "explanation": "Ci sostituisce il luogo (al mercato): ci sono stato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-06-l1-e02",
+          "sentence": "Hai dato le chiavi a Marco? – Sì, ___ ho date stamattina.",
+          "answers": [
+            "gliele"
+          ],
+          "hint": "a Marco + le chiavi",
+          "instruction": "Riscaldamento: completa con il pronome combinato.",
+          "explanation": "Gli + le = gliele; il participio concorda con le chiavi: date."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-06-l1-e03",
+          "title": "Verbi pronominali: farcela e cavarsela",
+          "body": "Alcuni verbi si combinano con le particelle **ci, la, ne, si** e prendono un significato nuovo, spesso idiomatico. Qui **la** non si riferisce a niente di preciso: fa parte del verbo.\n\n- **farcela** = riuscire, essere capace (*to manage, to make it*): ce la faccio, ce la fai, ce la fa, ce la facciamo, ce la fate, ce la fanno\n- **cavarsela** = superare una difficoltà in modo accettabile (*to get by, to cope*): me la cavo, te la cavi, se la cava, ce la caviamo, ve la cavate, se la cavano\n\n**Passato prossimo**: farcela vuole **avere**, cavarsela vuole **essere**. In tutti e due il participio concorda con **la**, quindi è sempre femminile singolare: *ce l'ho fatta*, *me la sono cavata* – anche se chi parla è un uomo.\n\n**Infinito**: le particelle si attaccano alla fine: *Non credo di farcela. Devi cavartela da solo.*",
+          "examples": [
+            {
+              "it": "Non ce la faccio più!",
+              "en": "I can't take it any more!"
+            },
+            {
+              "it": "Con l'italiano me la cavo abbastanza bene.",
+              "en": "I get by quite well in Italian."
+            },
+            {
+              "it": "Alla fine ce l'abbiamo fatta a prendere il treno.",
+              "en": "In the end we managed to catch the train."
+            },
+            {
+              "it": "Se l'è cavata con una multa.",
+              "en": "He got off with a fine."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-06-l1-e04",
+          "verb": "farcela",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "ce la faccio"
+            },
+            {
+              "person": "tu",
+              "answer": "ce la fai"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "ce la fa"
+            },
+            {
+              "person": "noi",
+              "answer": "ce la facciamo"
+            },
+            {
+              "person": "voi",
+              "answer": "ce la fate"
+            },
+            {
+              "person": "loro",
+              "answer": "ce la fanno"
+            }
+          ],
+          "instruction": "Coniuga farcela al presente.",
+          "explanation": "Si coniuga solo fare; ce la resta fisso davanti al verbo."
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-06-l1-e05",
+          "verb": "cavarsela",
+          "tense": "passato prossimo",
+          "items": [
+            {
+              "person": "io (m.)",
+              "answer": "me la sono cavata"
+            },
+            {
+              "person": "tu (m.)",
+              "answer": "te la sei cavata"
+            },
+            {
+              "person": "lui",
+              "answer": "se l'è cavata"
+            },
+            {
+              "person": "noi (m.)",
+              "answer": "ce la siamo cavata"
+            },
+            {
+              "person": "loro (m.)",
+              "answer": "se la sono cavata"
+            }
+          ],
+          "instruction": "Coniuga cavarsela al passato prossimo. Attenzione: il participio concorda con la.",
+          "explanation": "Ausiliare essere, ma il participio segue la, non il soggetto: cavata in tutte le persone. Davanti a è, la diventa l': se l'è cavata."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-06-l1-e06",
+          "prompt": "Hai finito la relazione? – Sì, per fortuna ___ in tempo.",
+          "options": [
+            "ce l'ho fatta",
+            "ce l'ho fatto",
+            "l'ho fatta",
+            "ce la sono fatta"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Farcela: ausiliare avere, participio femminile per accordo con la. Senza ce (l'ho fatta) vorrebbe dire «I did it» riferito a una cosa femminile."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-06-l1-e07",
+          "sentence": "Il colloquio era difficile, ma Marco ___ benissimo.",
+          "answers": [
+            "se l'è cavata",
+            "se la è cavata"
+          ],
+          "hint": "cavarsela – lui, passato prossimo",
+          "instruction": "Completa con cavarsela al passato prossimo.",
+          "explanation": "Se + la + è → se l'è cavata. Il participio resta femminile anche con un soggetto maschile."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-06-l1-e08",
+          "pairs": [
+            {
+              "left": "Non ce la faccio più.",
+              "right": "I'm at the end of my tether."
+            },
+            {
+              "left": "Me la cavo.",
+              "right": "I get by."
+            },
+            {
+              "left": "Ce l'ho fatta!",
+              "right": "I made it!"
+            },
+            {
+              "left": "Ce la puoi fare.",
+              "right": "You can do it."
+            },
+            {
+              "left": "Se l'è cavata per un pelo.",
+              "right": "He scraped through."
+            }
+          ],
+          "instruction": "Abbina l'espressione italiana al suo significato.",
+          "explanation": "Per un pelo (c1-05) = per pochissimo: un'espressione che si abbina spesso a cavarsela."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-06-l1-e09",
+          "translation": "I don't think I can make it by Friday.",
+          "tiles": [
+            "Non",
+            "credo",
+            "di",
+            "farcela",
+            "entro",
+            "venerdì"
+          ],
+          "distractors": [
+            "farla",
+            "che"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Dopo credo di si usa l'infinito, e le particelle si attaccano alla fine: farcela."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-06-l1-e10",
+          "audioText": "Allora, com'è andato l'esame di guida? – Guarda, ero agitatissimo e ho sbagliato il parcheggio, ma alla fine me la sono cavata: l'ho passato!",
+          "question": "Com'è andato l'esame?",
+          "options": [
+            "L'ha passato nonostante un errore.",
+            "Non l'ha passato.",
+            "Non l'ha ancora fatto.",
+            "L'ha passato senza nessun errore."
+          ],
+          "answer": 0,
+          "instruction": "Ascolta e rispondi.",
+          "explanation": "Me la sono cavata = ha superato la difficoltà, anche se non in modo perfetto."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-06-l1-e11",
+          "text": "All'inizio era dura, ma adesso con l'italiano me la cavo.",
+          "translation": "At first it was hard, but now I get by in Italian.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-06-l1-e12",
+          "prompt": "Racconta una situazione in cui pensavi di non farcela e invece ce l'hai fatta. Com'è andata?",
+          "keywords": [
+            "pensavo",
+            "ce l'ho fatta",
+            "cavata"
+          ],
+          "modelAnswer": "L'anno scorso dovevo rinnovare il permesso di soggiorno e mancavano solo tre giorni alla scadenza. Pensavo di non farcela, perché non trovavo un documento. Invece ho chiesto aiuto a un'amica, che mi ha accompagnato in questura, e alla fine me la sono cavata: ce l'ho fatta proprio all'ultimo momento.",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "explanation": "Ricontrolla l'accordo: ce l'ho fatta, me la sono cavata."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-06-l1-e13",
+          "front": "cavarsela",
+          "back": "to get by, to cope, to get away with it",
+          "example": "Non parlo perfettamente, ma me la cavo."
+        }
+      ]
+    },
+    {
+      "id": "c1-06-l2",
+      "title": "Non te la prendere! Emozioni e conflitti",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-06-l2-e01",
+          "sentence": "Sono stanchissimo, non ___ più!",
+          "answers": [
+            "ce la faccio"
+          ],
+          "hint": "farcela – io",
+          "instruction": "Riscaldamento: completa con farcela al presente."
+        },
+        {
+          "type": "translate",
+          "id": "c1-06-l2-e02",
+          "direction": "it_en",
+          "source": "Se l'è cavata con un piccolo graffio.",
+          "answers": [
+            "He got away with a small scratch.",
+            "She got away with a small scratch.",
+            "He got off with a small scratch.",
+            "She got off with a small scratch.",
+            "He escaped with a small scratch.",
+            "She escaped with a small scratch.",
+            "He got away with just a small scratch.",
+            "She got away with just a small scratch.",
+            "He came away with a small scratch.",
+            "She came away with a small scratch."
+          ],
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "explanation": "Cavarsela con… = uscire da una brutta situazione con un danno minimo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-06-l2-e03",
+          "title": "Prendersela, avercela, andarsene, tenerci",
+          "body": "- **prendersela** (con qualcuno / per qualcosa) = offendersi, arrabbiarsi: *me la prendo, te la prendi…* Passato: *me la sono presa* (participio femminile, come cavarsela).\n- **avercela con qualcuno** = essere arrabbiato con qualcuno, provare rancore: *Ce l'hai con me? Ce l'avevo con lui.* Si usa soprattutto al presente e all'imperfetto.\n- **andarsene** = andare via da un luogo: *me ne vado, te ne vai, se ne va, ce ne andiamo, ve ne andate, se ne vanno*. Passato: *me ne sono andato/a* – qui non c'è la, quindi il participio concorda con il **soggetto**.\n- **tenerci (a)** = considerare importante: *Ci tengo molto. Ci tengo a ringraziarti.*\n\n**Imperativo**: *Vattene! Andatevene!* Al negativo con tu due forme: *Non te la prendere! / Non prendertela!*, *Non te ne andare! / Non andartene!*\n\nRegistro: **fregarsene** (*me ne frego* = non m'importa) è molto colloquiale e un po' brusco: evitalo in contesti formali.",
+          "examples": [
+            {
+              "it": "Non te la prendere, stavo scherzando.",
+              "en": "Don't take it badly, I was joking."
+            },
+            {
+              "it": "Ce l'ha con il vicino per via del rumore.",
+              "en": "He's angry with the neighbour because of the noise."
+            },
+            {
+              "it": "Dopo cena ce ne siamo andati subito.",
+              "en": "After dinner we left straight away."
+            },
+            {
+              "it": "Ci tengo a dirtelo di persona.",
+              "en": "I want to tell you in person (it matters to me)."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-06-l2-e04",
+          "verb": "andarsene",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "me ne vado"
+            },
+            {
+              "person": "tu",
+              "answer": "te ne vai"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "se ne va"
+            },
+            {
+              "person": "noi",
+              "answer": "ce ne andiamo"
+            },
+            {
+              "person": "voi",
+              "answer": "ve ne andate"
+            },
+            {
+              "person": "loro",
+              "answer": "se ne vanno"
+            }
+          ],
+          "instruction": "Coniuga andarsene al presente.",
+          "explanation": "Mi/ti/si/ci/vi diventano me/te/se/ce/ve davanti a ne."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-06-l2-e05",
+          "prompt": "Ieri alla riunione Luca ___ prima della fine, senza salutare.",
+          "options": [
+            "se n'è andato",
+            "se ne ha andato",
+            "se l'è andato",
+            "ne è andato"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Andarsene: ausiliare essere, participio accordato con il soggetto (Luca → andato). Ne + è → n'è."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-06-l2-e06",
+          "prompt": "Perché non mi rispondi più ai messaggi? ___ con me?",
+          "options": [
+            "Ce l'hai",
+            "Ce la fai",
+            "Te la cavi",
+            "Ne hai"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Avercela con qualcuno = essere arrabbiato con qualcuno."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-06-l2-e07",
+          "sentence": "Non te lo prendere, stavo scherzando!",
+          "answers": [
+            "Non te la prendere, stavo scherzando!",
+            "Non te la prendere stavo scherzando!",
+            "Non prendertela, stavo scherzando!",
+            "Non prendertela stavo scherzando!"
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Il verbo è prendersela: la particella è la, non lo."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-06-l2-e08",
+          "sentence": "Marco se l'è preso con me per un messaggio.",
+          "answers": [
+            "Marco se l'è presa con me per un messaggio.",
+            "Marco se la è presa con me per un messaggio."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Il participio concorda con la, non con Marco: se l'è presa."
+        },
+        {
+          "type": "translate",
+          "id": "c1-06-l2-e09",
+          "direction": "en_it",
+          "source": "Don't take it personally: he's angry with everyone today.",
+          "answers": [
+            "Non prendertela: oggi ce l'ha con tutti.",
+            "Non prendertela oggi ce l'ha con tutti.",
+            "Non prendertela, oggi ce l'ha con tutti.",
+            "Non prendertela. oggi ce l'ha con tutti.",
+            "Non te la prendere: oggi ce l'ha con tutti.",
+            "Non te la prendere oggi ce l'ha con tutti.",
+            "Non te la prendere, oggi ce l'ha con tutti.",
+            "Non te la prendere. oggi ce l'ha con tutti.",
+            "Non prendertela, ce l'ha con tutti oggi.",
+            "Non prendertela ce l'ha con tutti oggi.",
+            "Non te la prendere, ce l'ha con tutti oggi.",
+            "Non te la prendere ce l'ha con tutti oggi.",
+            "Non prendertela sul personale: oggi ce l'ha con tutti.",
+            "Non prendertela sul personale oggi ce l'ha con tutti.",
+            "Non prendertela sul personale, oggi ce l'ha con tutti.",
+            "Non prendertela sul personale. oggi ce l'ha con tutti.",
+            "Non te la prendere sul personale: oggi ce l'ha con tutti.",
+            "Non te la prendere sul personale oggi ce l'ha con tutti.",
+            "Non te la prendere sul personale, oggi ce l'ha con tutti.",
+            "Non te la prendere sul personale. oggi ce l'ha con tutti.",
+            "Non prenderla sul personale: oggi ce l'ha con tutti.",
+            "Non prenderla sul personale oggi ce l'ha con tutti.",
+            "Non prenderla sul personale, oggi ce l'ha con tutti.",
+            "Non prenderla sul personale. oggi ce l'ha con tutti.",
+            "Non prendertela: ce l'ha con tutti oggi.",
+            "Non prendertela. ce l'ha con tutti oggi."
+          ],
+          "instruction": "Traduci in italiano.",
+          "explanation": "Take it personally ≈ prendersela; be angry with = avercela con."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-06-l2-e10",
+          "audioText": "Se te ne vai adesso, ti perdi la parte più bella.",
+          "answers": [
+            "Se te ne vai adesso, ti perdi la parte più bella.",
+            "Se te ne vai adesso ti perdi la parte più bella."
+          ],
+          "slow": false,
+          "instruction": "Ascolta e scrivi la frase.",
+          "explanation": "Te ne vai = andarsene (tu). Perdersi qualcosa = to miss out on something."
+        },
+        {
+          "type": "reading",
+          "id": "c1-06-l2-e11",
+          "title": "Problemi con il coinquilino",
+          "passage": "Ciao a tutti, vi chiedo un consiglio. Divido un appartamento con un ragazzo da sei mesi e finora ce la siamo cavata bene, anche se abbiamo abitudini diverse. La settimana scorsa, però, gli ho chiesto di non suonare la chitarra dopo mezzanotte, perché la mattina mi alzo presto. Non ho alzato la voce, giuro! Lui se l'è presa moltissimo: ha sbattuto la porta e se n'è andato dagli amici per due giorni. Adesso fa finta di niente, ma si vede che ce l'ha ancora con me. Io ci tengo a mantenere un buon rapporto, anche perché il contratto scade tra un anno. Secondo voi devo parlargli di nuovo o lasciar perdere?",
+          "questions": [
+            {
+              "question": "Com'era il rapporto tra i coinquilini prima del problema?",
+              "options": [
+                "Abbastanza buono, nonostante le differenze.",
+                "Pessimo fin dall'inizio.",
+                "Non si parlavano mai.",
+                "Erano grandi amici d'infanzia."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come ha reagito il coinquilino alla richiesta?",
+              "options": [
+                "Ha smesso di suonare senza problemi.",
+                "Si è offeso ed è andato via per due giorni.",
+                "Ha chiesto scusa subito.",
+                "Ha cambiato casa."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa vuole l'autore del messaggio?",
+              "options": [
+                "Trovare un nuovo coinquilino.",
+                "Rompere il contratto.",
+                "Mantenere un buon rapporto.",
+                "Imparare a suonare la chitarra."
+              ],
+              "answer": 2
+            }
+          ],
+          "instruction": "Leggi il messaggio sul forum e rispondi alle domande.",
+          "explanation": "Nota i verbi pronominali: ce la siamo cavata, se l'è presa, se n'è andato, ce l'ha con me, ci tengo."
+        },
+        {
+          "type": "roleplay",
+          "id": "c1-06-l2-e12",
+          "scenario": "Hai dimenticato la cena per il compleanno di Chiara. Lei è offesa. Chiedi scusa, spiega e cerca di fare pace.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ah, finalmente ti fai sentire. Ieri sera ti abbiamo aspettato per un'ora!"
+            },
+            {
+              "speaker": "you",
+              "text": "Hai ragione, scusami tantissimo. Me ne sono completamente dimenticato, è stata una settimana terribile.",
+              "hint": "Chiedi scusa e ammetti di aver dimenticato (dimenticarsene).",
+              "keywords": [
+                "scusa",
+                "dimenticato"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Potevi almeno mandare un messaggio. Ci tenevo che ci fossi anche tu."
+            },
+            {
+              "speaker": "you",
+              "text": "Lo so, e capisco che te la sia presa. Ce l'hai ancora con me?",
+              "hint": "Riconosci che si è offesa e chiedi se è ancora arrabbiata.",
+              "keywords": [
+                "presa",
+                "ce l'hai"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Un po' sì, non te lo nascondo. Mi è dispiaciuto."
+            },
+            {
+              "speaker": "you",
+              "text": "Ti va se ti invito a cena io sabato? Così festeggiamo con calma e mi faccio perdonare.",
+              "hint": "Proponi di rimediare.",
+              "keywords": [
+                "sabato",
+                "perdonare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Va bene, dai. Però stavolta non te ne dimenticare!"
+            },
+            {
+              "speaker": "you",
+              "text": "Te lo prometto. Grazie di non avercela con me.",
+              "hint": "Prometti e ringrazia.",
+              "keywords": [
+                "prometto",
+                "grazie"
+              ]
+            }
+          ],
+          "instruction": "Parla con la tua amica Chiara. Rispondi ad alta voce quando tocca a te.",
+          "explanation": "Dimenticarsene funziona come andarsene: me ne sono dimenticato. Capisco che te la sia presa: capire che + congiuntivo passato."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-06-l2-e13",
+          "front": "avercela con qualcuno",
+          "back": "to be angry with someone, to have it in for someone",
+          "example": "Ce l'ha con me perché non l'ho invitato."
+        }
+      ]
+    },
+    {
+      "id": "c1-06-l3",
+      "title": "Mettercela tutta: affrontare le difficoltà",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-06-l3-e01",
+          "prompt": "Quando ha sentito la notizia, Anna ___ senza dire una parola.",
+          "options": [
+            "se n'è andata",
+            "se n'è andato",
+            "se l'è andata",
+            "ne è andata"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Andarsene: participio accordato con il soggetto (Anna → andata)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-06-l3-e02",
+          "sentence": "Dai, non ___! Era solo uno scherzo.",
+          "answers": [
+            "te la prendere",
+            "prendertela"
+          ],
+          "instruction": "Riscaldamento: completa con l'imperativo negativo di prendersela (tu).",
+          "explanation": "Due forme corrette: non te la prendere / non prendertela."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-06-l3-e03",
+          "title": "Metterci, mettercela tutta, smetterla, passarsela, sentirsela",
+          "body": "- **metterci** (+ tempo) = impiegare, con un soggetto personale: *Ci metto mezz'ora ad arrivare. Ci ho messo due ore.*\n- **volerci** (+ tempo/cosa) = essere necessario, impersonale: *Ci vuole mezz'ora. Ci vogliono due ore.* Al passato vuole essere: *Ci sono volute due ore.*\n- **mettercela tutta** = impegnarsi al massimo: *Ce la metto tutta. Ce l'ho messa tutta.*\n- **smetterla** = smettere di fare qualcosa di fastidioso: *Smettila! La smettete di urlare?* Più brusco e colloquiale: **piantarla** (*Piantala!*).\n- **passarsela** (bene/male) = vivere un periodo: *Come te la passi? Me la passo bene.*\n- **sentirsela** (di + infinito) = sentirsi in grado, avere il coraggio: *Non me la sento di guidare con questa nebbia.*",
+          "examples": [
+            {
+              "it": "Quanto ci hai messo ad arrivare?",
+              "en": "How long did it take you to get here?"
+            },
+            {
+              "it": "Ci vogliono tre settimane per il passaporto.",
+              "en": "It takes three weeks to get the passport."
+            },
+            {
+              "it": "Ce l'ho messa tutta, ma non è bastato.",
+              "en": "I gave it my all, but it wasn't enough."
+            },
+            {
+              "it": "Te la senti di parlare tu con il proprietario?",
+              "en": "Do you feel up to talking to the landlord yourself?"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-06-l3-e04",
+          "prompt": "Per andare in centro in autobus ___ quaranta minuti.",
+          "options": [
+            "ci vogliono",
+            "ci mettono",
+            "ci metto",
+            "ce la fanno"
+          ],
+          "answer": 0,
+          "instruction": "Metterci o volerci? Scegli la forma giusta.",
+          "explanation": "Frase impersonale (non c'è una persona che impiega il tempo): ci vogliono + plurale."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-06-l3-e05",
+          "sentence": "Quanto tempo ___ ieri per trovare parcheggio?",
+          "answers": [
+            "ci hai messo"
+          ],
+          "hint": "metterci – tu",
+          "instruction": "Completa con metterci al passato prossimo.",
+          "explanation": "Metterci vuole avere: ci hai messo. Confronta: Quanto tempo ci è voluto?"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-06-l3-e06",
+          "prompt": "Ragazzi, ___ di urlare! I vicini dormono.",
+          "options": [
+            "smettetela",
+            "smettetelo",
+            "smetteteci",
+            "smettetene"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Smetterla + di + infinito: Smettetela di urlare!"
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-06-l3-e07",
+          "sentence": "Non ___ di fare il trasloco da solo: mi aiuti?",
+          "answers": [
+            "me la sento"
+          ],
+          "hint": "sentirsela – io",
+          "instruction": "Completa con sentirsela al presente."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-06-l3-e08",
+          "translation": "I gave it my all, but it wasn't enough.",
+          "tiles": [
+            "Ce",
+            "l'ho",
+            "messa",
+            "tutta",
+            "ma",
+            "non",
+            "è",
+            "bastato"
+          ],
+          "distractors": [
+            "messo",
+            "ci"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Il participio concorda con la: messa."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-06-l3-e09",
+          "pairs": [
+            {
+              "left": "farcela",
+              "right": "riuscire"
+            },
+            {
+              "left": "cavarsela",
+              "right": "superare una difficoltà alla meglio"
+            },
+            {
+              "left": "prendersela",
+              "right": "offendersi"
+            },
+            {
+              "left": "andarsene",
+              "right": "andare via"
+            },
+            {
+              "left": "smetterla",
+              "right": "finire di fare qualcosa di fastidioso"
+            },
+            {
+              "left": "metterci",
+              "right": "impiegare (tempo)"
+            }
+          ],
+          "instruction": "Abbina ogni verbo al suo significato."
+        },
+        {
+          "type": "translate",
+          "id": "c1-06-l3-e10",
+          "direction": "it_en",
+          "source": "Come te la passi da quando hai cambiato lavoro?",
+          "answers": [
+            "How are you getting on since you changed jobs?",
+            "How are you doing since you changed jobs?",
+            "How have you been since you changed jobs?",
+            "How are things since you changed jobs?",
+            "How are you getting along since you changed jobs?",
+            "How are you getting on since you changed job?",
+            "How are you doing since you changed job?",
+            "How have you been since you changed job?",
+            "How are things going since you changed jobs?",
+            "How have things been since you changed jobs?"
+          ],
+          "instruction": "Traduci in inglese."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-06-l3-e11",
+          "audioText": "I primi mesi in Italia non me la passavo affatto bene. Ci mettevo ore a capire un modulo e me la prendevo con me stesso per ogni errore. Poi ho deciso di mettercela tutta: corso serale, chiacchiere con i vicini, film senza sottotitoli. Non è stato facile, ma adesso me la cavo, e ogni tanto mi dicono perfino che parlo bene.",
+          "question": "Come sta adesso la persona che parla?",
+          "options": [
+            "Si arrangia bene e ha fatto progressi.",
+            "È ancora molto in difficoltà.",
+            "Vuole tornare nel suo paese.",
+            "Ha rinunciato a studiare."
+          ],
+          "answer": 0,
+          "instruction": "Ascolta e rispondi.",
+          "explanation": "Adesso me la cavo = ora riesce a gestire le situazioni; prima non me la passavo bene."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-06-l3-e12",
+          "text": "Ci ho messo un po', ma alla fine ce l'ho fatta.",
+          "translation": "It took me a while, but in the end I made it.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-06-l3-e13",
+          "prompt": "Un amico ti dice che vuole lasciare il corso di italiano perché non ce la fa più. Incoraggialo usando almeno tre verbi pronominali.",
+          "keywords": [
+            "ce la puoi fare",
+            "cavi",
+            "tutta"
+          ],
+          "modelAnswer": "Dai, non mollare proprio adesso! Ce la puoi fare. All'inizio è normale metterci tanto tempo, ma tu te la cavi già benissimo. Se ce la metti tutta ancora per qualche mese, vedrai che i risultati arrivano. E non prendertela per gli errori: li facciamo tutti.",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-06-l3-e14",
+          "prompt": "Scrivi un messaggio a un amico italiano (80–120 parole). Racconta un periodo difficile (un trasloco, un nuovo lavoro, una pratica burocratica) e come te la sei cavata. Usa almeno quattro verbi pronominali diversi.",
+          "minWords": 80,
+          "checklist": [
+            "Ho usato almeno quattro verbi pronominali (farcela, cavarsela, prendersela, metterci, andarsene…).",
+            "Al passato prossimo ho accordato il participio con la: ce l'ho fatta, me la sono cavata.",
+            "Ho distinto metterci (io ci ho messo) da volerci (ci è voluto/ci sono volute).",
+            "Ho raccontato le emozioni, non solo i fatti.",
+            "Ho usato un registro informale e coerente."
+          ],
+          "modelAnswer": "Ciao Luca! Scusa se sparisco da settimane, ma è stato un periodo pazzesco. A settembre ho cambiato casa e il trasloco è stato un incubo: ci ho messo tre giorni solo a smontare i mobili, e il furgone è arrivato con cinque ore di ritardo. A un certo punto non ce la facevo più e me la sono presa anche con il povero autista, che non c'entrava niente. Poi ci sono volute due settimane per l'allaccio del gas, quindi ho fatto docce fredde per giorni! Comunque ce l'ho messa tutta e alla fine me la sono cavata: adesso la casa è quasi pronta. Quando vieni a trovarmi?",
+          "instruction": "Scrivi un messaggio."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "farcela",
+      "en": "to manage, to make it",
+      "example": "Non so se ce la faccio per le otto."
+    },
+    {
+      "it": "cavarsela",
+      "en": "to get by, to cope",
+      "example": "Con il tedesco me la cavo."
+    },
+    {
+      "it": "prendersela (con qualcuno)",
+      "en": "to take offence, to get upset (with someone)",
+      "example": "Non prendertela, non l'ha fatto apposta."
+    },
+    {
+      "it": "avercela con qualcuno",
+      "en": "to be angry with someone",
+      "example": "Ce l'hai ancora con me?"
+    },
+    {
+      "it": "andarsene",
+      "en": "to go away, to leave",
+      "example": "È tardi, me ne vado."
+    },
+    {
+      "it": "tenerci (a)",
+      "en": "to care (about), to be keen (on)",
+      "example": "Ci tengo a ringraziarti di persona."
+    },
+    {
+      "it": "metterci (tempo)",
+      "en": "to take (time) – personal subject",
+      "example": "Ci metto venti minuti a piedi."
+    },
+    {
+      "it": "volerci",
+      "en": "to take, to be needed – impersonal",
+      "example": "Ci vogliono due ore di treno."
+    },
+    {
+      "it": "mettercela tutta",
+      "en": "to give it one's all",
+      "example": "Ce l'ho messa tutta per l'esame."
+    },
+    {
+      "it": "smetterla (di)",
+      "en": "to stop (doing something annoying)",
+      "example": "Smettila di lamentarti!"
+    },
+    {
+      "it": "passarsela (bene/male)",
+      "en": "to be getting on (well/badly)",
+      "example": "Come te la passi?"
+    },
+    {
+      "it": "sentirsela (di)",
+      "en": "to feel up to (doing)",
+      "example": "Non me la sento di guidare stasera."
+    },
+    {
+      "it": "fregarsene (colloquiale)",
+      "en": "not to give a damn (informal)",
+      "example": "Se ne frega delle regole."
+    },
+    {
+      "it": "piantarla (colloquiale)",
+      "en": "to cut it out (informal)",
+      "example": "Piantala, per favore!"
+    },
+    {
+      "it": "dimenticarsene",
+      "en": "to forget (about it)",
+      "example": "Me ne sono dimenticato."
+    },
+    {
+      "it": "per un pelo",
+      "en": "by a whisker, narrowly",
+      "example": "Ho preso il treno per un pelo."
+    },
+    {
+      "it": "mollare",
+      "en": "to give up, to quit (informal)",
+      "example": "Non mollare proprio adesso!"
+    },
+    {
+      "it": "fare pace",
+      "en": "to make up (after a quarrel)",
+      "example": "Abbiamo litigato, ma poi abbiamo fatto pace."
+    },
+    {
+      "it": "lo sfogo",
+      "en": "outburst, venting",
+      "example": "Scusa lo sfogo, è stata una giornata pesante."
+    },
+    {
+      "it": "il rancore",
+      "en": "resentment, grudge",
+      "example": "Non porto rancore a nessuno."
+    },
+    {
+      "it": "essere giù di morale",
+      "en": "to feel down",
+      "example": "Oggi sono un po' giù di morale."
+    },
+    {
+      "it": "fare finta di niente",
+      "en": "to act as if nothing happened",
+      "example": "Mi ha visto, ma ha fatto finta di niente."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "c1-06-t1",
+      "rule": "Ce l'ho fatta: accordo con «la»",
+      "tip": "Con farcela e cavarsela il participio concorda con la: ce l'ho fatta, me la sono cavata, anche se il soggetto è maschile.",
+      "example": {
+        "it": "Marco se l'è cavata bene all'esame.",
+        "en": "Marco got through the exam well."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Paolo ha passato l'esame: se l'è ___ benissimo.",
+        "answers": [
+          "cavata"
+        ],
+        "hint": "cavare",
+        "instruction": "Completa con il participio."
+      }
+    },
+    {
+      "id": "c1-06-t2",
+      "rule": "Prendersela = offendersi",
+      "tip": "Prendersela (con qualcuno, per qualcosa) significa offendersi o arrabbiarsi. Passato: me la sono presa.",
+      "example": {
+        "it": "Non te la prendere, scherzavo.",
+        "en": "Don't be offended, I was joking."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Luca se l'è preso per una battuta.",
+        "answers": [
+          "Luca se l'è presa per una battuta."
+        ],
+        "instruction": "C'è un errore. Correggilo."
+      }
+    },
+    {
+      "id": "c1-06-t3",
+      "rule": "Andarsene: me ne sono andato",
+      "tip": "Andarsene vuole essere; il participio concorda con il soggetto: me ne sono andato, se n'è andata.",
+      "example": {
+        "it": "Dopo cena ce ne siamo andati subito.",
+        "en": "After dinner we left straight away."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "andarsene",
+        "tense": "passato prossimo",
+        "items": [
+          {
+            "person": "io (m.)",
+            "answer": "me ne sono andato"
+          },
+          {
+            "person": "lei",
+            "answer": "se n'è andata"
+          },
+          {
+            "person": "noi (m.)",
+            "answer": "ce ne siamo andati"
+          }
+        ],
+        "instruction": "Coniuga andarsene al passato prossimo."
+      }
+    },
+    {
+      "id": "c1-06-t4",
+      "rule": "Ci metto o ci vuole?",
+      "tip": "Ci metto (io impiego) ha un soggetto personale; ci vuole / ci vogliono è impersonale: ci vogliono due ore.",
+      "example": {
+        "it": "Ci ho messo un'ora, ma di solito ci vogliono venti minuti.",
+        "en": "It took me an hour, but it usually takes twenty minutes."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Per il passaporto ___ almeno tre settimane.",
+        "options": [
+          "ci vogliono",
+          "ci mettono",
+          "ci metto"
+        ],
+        "answer": 0,
+        "instruction": "Scegli la forma giusta."
+      }
+    },
+    {
+      "id": "c1-06-t5",
+      "rule": "Non te ne andare! / Non andartene!",
+      "tip": "All'imperativo negativo con tu le particelle vanno prima o dopo l'infinito: non te ne andare = non andartene.",
+      "example": {
+        "it": "Non te la prendere! / Non prendertela!",
+        "en": "Don't get upset!"
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "Don't go away!",
+        "answers": [
+          "Non te ne andare!",
+          "Non andartene!",
+          "Non andare via!"
+        ],
+        "instruction": "Traduci in italiano (tu)."
+      }
+    }
+  ]
+}

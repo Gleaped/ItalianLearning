@@ -1,0 +1,998 @@
+{
+  "id": "c1-02",
+  "level": "C1",
+  "title": "Il passato remoto",
+  "objective": "Alla fine dell'unità riconosci con sicurezza il passato remoto nei testi narrativi, storici e letterari e sai usarlo per raccontare una storia o una biografia.",
+  "grammarFocus": "Passato remoto regolare e irregolare (essere, avere, schema 1-3-3, dare e stare); uso nella narrazione scritta e variazione regionale nel parlato; passato remoto vs imperfetto; riconoscimento del trapassato remoto.",
+  "remedialUnitIds": [
+    "b1-01",
+    "b1-11"
+  ],
+  "lessons": [
+    {
+      "id": "c1-02-l1",
+      "title": "C'era una volta: le forme",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-02-l1-e01",
+          "instruction": "Riscaldamento: scegli il tempo giusto.",
+          "prompt": "Mentre ___ colazione, è arrivato il postino.",
+          "options": [
+            "ho fatto",
+            "facevo",
+            "feci",
+            "avevo fatto"
+          ],
+          "answer": 1,
+          "explanation": "Azione in corso (mentre + imperfetto) interrotta da un evento (passato prossimo) – unità b1-01."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-02-l1-e02",
+          "instruction": "Riscaldamento: completa con il trapassato prossimo.",
+          "sentence": "Quando sono arrivato alla stazione, il treno ___ (già partire).",
+          "answers": [
+            "era già partito",
+            "già era partito"
+          ],
+          "hint": "partire – essere + participio",
+          "explanation": "Un'azione anteriore a un'altra nel passato: trapassato prossimo (unità b1-11)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-02-l1-e03",
+          "title": "Il passato remoto: quando e come",
+          "body": "Il **passato remoto** racconta azioni concluse in un passato sentito come lontano o staccato dal presente. Lo trovi soprattutto **nello scritto**: romanzi, fiabe, biografie, libri di storia, articoli su fatti storici.\n\n**Nel parlato** l'uso cambia da regione a regione: in Toscana e in buona parte del Sud è frequente anche per fatti abbastanza recenti; al Nord si usa poco e si preferisce il passato prossimo. Per leggere devi **riconoscerlo** con sicurezza; per scrivere un racconto devi saperlo **usare**.\n\n**Verbi regolari**\n- parlare → parl**ai**, parl**asti**, parl**ò**, parl**ammo**, parl**aste**, parl**arono**\n- credere → cred**ei** (cred**etti**), cred**esti**, cred**é** (cred**ette**), cred**emmo**, cred**este**, cred**erono** (cred**ettero**)\n- partire → part**ii**, part**isti**, part**ì**, part**immo**, part**iste**, part**irono**\n\n**Essere**: fui, fosti, fu, fummo, foste, furono\n**Avere**: ebbi, avesti, ebbe, avemmo, aveste, ebbero\n\nAttenzione all'accento: *parlò* (passato remoto) ≠ *parlo* (presente); *partì* ≠ *parti*.",
+          "examples": [
+            {
+              "it": "Nel 1946 gli italiani scelsero la Repubblica.",
+              "en": "In 1946 Italians chose the Republic."
+            },
+            {
+              "it": "Il viaggio fu lungo e faticoso.",
+              "en": "The journey was long and tiring."
+            },
+            {
+              "it": "Ebbe subito l'impressione di essere seguito.",
+              "en": "He immediately had the impression he was being followed."
+            },
+            {
+              "it": "Partirono all'alba e arrivarono a sera.",
+              "en": "They left at dawn and arrived in the evening."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-02-l1-e04",
+          "instruction": "Scrivi le forme del passato remoto.",
+          "verb": "essere",
+          "tense": "passato remoto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "fui"
+            },
+            {
+              "person": "tu",
+              "answer": "fosti"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "fu"
+            },
+            {
+              "person": "noi",
+              "answer": "fummo"
+            },
+            {
+              "person": "voi",
+              "answer": "foste"
+            },
+            {
+              "person": "loro",
+              "answer": "furono"
+            }
+          ],
+          "explanation": "Essere al passato remoto è completamente irregolare: fu = è stato/a, furono = sono stati/e."
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-02-l1-e05",
+          "instruction": "Scrivi le forme del passato remoto.",
+          "verb": "avere",
+          "tense": "passato remoto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "ebbi"
+            },
+            {
+              "person": "tu",
+              "answer": "avesti"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "ebbe"
+            },
+            {
+              "person": "noi",
+              "answer": "avemmo"
+            },
+            {
+              "person": "voi",
+              "answer": "aveste"
+            },
+            {
+              "person": "loro",
+              "answer": "ebbero"
+            }
+          ],
+          "explanation": "Avere: irregolari solo ebbi, ebbe, ebbero; le altre persone sono regolari (avesti, avemmo, aveste)."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-02-l1-e06",
+          "instruction": "Abbina il passato remoto al passato prossimo con lo stesso significato.",
+          "pairs": [
+            {
+              "left": "fu",
+              "right": "è stato"
+            },
+            {
+              "left": "ebbe",
+              "right": "ha avuto"
+            },
+            {
+              "left": "parlarono",
+              "right": "hanno parlato"
+            },
+            {
+              "left": "partì",
+              "right": "è partito"
+            },
+            {
+              "left": "fummo",
+              "right": "siamo stati"
+            },
+            {
+              "left": "credetti",
+              "right": "ho creduto"
+            }
+          ],
+          "explanation": "Il significato è lo stesso: cambia il registro e la distanza dal presente."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-02-l1-e07",
+          "instruction": "Completa con il passato remoto.",
+          "sentence": "Nel 1946 gli italiani ___ (votare) per scegliere tra monarchia e repubblica.",
+          "answers": [
+            "votarono"
+          ],
+          "hint": "votare – loro",
+          "explanation": "Votare (-are), 3ª plurale: votarono. Il referendum istituzionale si tenne il 2 giugno 1946."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-02-l1-e08",
+          "instruction": "Completa con il passato remoto.",
+          "sentence": "Il giovane ___ (partire) all'alba e non tornò più al villaggio.",
+          "answers": [
+            "partì"
+          ],
+          "hint": "partire – lui",
+          "explanation": "Partire (-ire), 3ª singolare: partì, con l'accento."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-02-l1-e09",
+          "instruction": "In quale testo è più naturale il passato remoto?",
+          "prompt": "Scegli il contesto.",
+          "options": [
+            "Un messaggio a un amico su ieri sera",
+            "Una breve biografia di Giuseppe Verdi",
+            "Un'email al collega su stamattina",
+            "Una chat di famiglia sul pranzo di oggi"
+          ],
+          "answer": 1,
+          "explanation": "Il passato remoto è tipico dei testi narrativi e storici. Per fatti recenti legati al presente si usa il passato prossimo (anche se in alcune regioni nel parlato si usa il remoto)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-02-l1-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Arrivarono a Genova di sera e trovarono subito una locanda.",
+          "answers": [
+            "Arrivarono a Genova di sera e trovarono subito una locanda."
+          ],
+          "slow": true,
+          "explanation": "Arrivarono, trovarono: 3ª plurale dei verbi in -are (-arono)."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-02-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce. Attenzione all'accento finale di partì e tornò.",
+          "text": "Il nonno di Luca partì per l'America nel 1952 e non tornò mai più.",
+          "translation": "Luca's grandfather left for America in 1952 and never came back."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-02-l1-e12",
+          "instruction": "Leggi ad alta voce trasformando i verbi al passato remoto.",
+          "prompt": "«Il ragazzo è entrato, ha salutato tutti e ha parlato a lungo con il nonno.»",
+          "keywords": [
+            "entrò",
+            "salutò",
+            "parlò"
+          ],
+          "modelAnswer": "Il ragazzo entrò, salutò tutti e parlò a lungo con il nonno.",
+          "explanation": "Entrare → entrò, salutare → salutò, parlare → parlò: tutti regolari in -are."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-02-l1-e13",
+          "front": "c'era una volta",
+          "back": "once upon a time",
+          "example": "C'era una volta un re che viveva in un castello sul mare."
+        }
+      ]
+    },
+    {
+      "id": "c1-02-l2",
+      "title": "Fece, disse, venne",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-02-l2-e01",
+          "instruction": "Riscaldamento: completa con il passato remoto.",
+          "sentence": "Lei ___ (arrivare) tardi e non disse nulla a nessuno.",
+          "answers": [
+            "arrivò"
+          ],
+          "hint": "arrivare – lei",
+          "explanation": "Arrivare → arrivò (3ª singolare, -are)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-02-l2-e02",
+          "instruction": "Riscaldamento: che cosa significa «fummo»?",
+          "prompt": "«Fummo i primi ad arrivare.»",
+          "options": [
+            "Siamo stati",
+            "Saremo",
+            "Eravamo stati",
+            "Fossimo"
+          ],
+          "answer": 0,
+          "explanation": "Fummo = noi, passato remoto di essere."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-02-l2-e03",
+          "title": "Gli irregolari: lo schema 1-3-3",
+          "body": "Quasi tutti i verbi irregolari seguono lo schema **1-3-3**: sono irregolari solo la **1ª persona singolare**, la **3ª singolare** e la **3ª plurale**. Le altre persone sono regolari e si formano dalla radice dell'infinito.\n\n- **fare**: **feci**, facesti, **fece**, facemmo, faceste, **fecero**\n- **dire**: **dissi**, dicesti, **disse**, dicemmo, diceste, **dissero**\n- **prendere**: **presi**, prendesti, **prese**, prendemmo, prendeste, **presero**\n- **venire**: **venni**, venisti, **venne**, venimmo, veniste, **vennero**\n\nBasta ricordare la 1ª persona: le altre forme irregolari si ricavano (feci → fece, fecero).\n\n**Da imparare**: vedere → vidi, mettere → misi, scrivere → scrissi, leggere → lessi, chiedere → chiesi, rispondere → risposi, decidere → decisi, nascere → nacqui, vivere → vissi, conoscere → conobbi, sapere → seppi, volere → volli, rimanere → rimasi, scegliere → scelsi.\n\n**Attenzione anche a**: dare → diedi (detti), desti, diede (dette), demmo, deste, diedero (dettero); stare → stetti, stesti, stette, stemmo, steste, stettero.",
+          "examples": [
+            {
+              "it": "Fece una lunga pausa e poi disse la verità.",
+              "en": "He paused for a long time and then told the truth."
+            },
+            {
+              "it": "Quando vide la lettera, capì tutto.",
+              "en": "When she saw the letter, she understood everything."
+            },
+            {
+              "it": "Rimasero in silenzio per qualche minuto.",
+              "en": "They remained silent for a few minutes."
+            },
+            {
+              "it": "Conobbi Luisa a una festa nel 1998.",
+              "en": "I met Luisa at a party in 1998."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-02-l2-e04",
+          "instruction": "Scrivi le forme del passato remoto di fare.",
+          "verb": "fare",
+          "tense": "passato remoto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "feci"
+            },
+            {
+              "person": "tu",
+              "answer": "facesti"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "fece"
+            },
+            {
+              "person": "noi",
+              "answer": "facemmo"
+            },
+            {
+              "person": "voi",
+              "answer": "faceste"
+            },
+            {
+              "person": "loro",
+              "answer": "fecero"
+            }
+          ],
+          "explanation": "Schema 1-3-3: feci, fece, fecero sono irregolari; facesti, facemmo, faceste vengono dalla radice fac- (come l'imperfetto facevo)."
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-02-l2-e05",
+          "instruction": "Scrivi la 3ª persona singolare del passato remoto.",
+          "verb": "vari verbi irregolari",
+          "tense": "passato remoto, 3ª persona singolare",
+          "items": [
+            {
+              "person": "dire (lei)",
+              "answer": "disse"
+            },
+            {
+              "person": "vedere (lui)",
+              "answer": "vide"
+            },
+            {
+              "person": "nascere (lei)",
+              "answer": "nacque"
+            },
+            {
+              "person": "mettere (lui)",
+              "answer": "mise"
+            },
+            {
+              "person": "scrivere (lei)",
+              "answer": "scrisse"
+            },
+            {
+              "person": "decidere (lui)",
+              "answer": "decise"
+            }
+          ],
+          "explanation": "Dalla 1ª persona (dissi, vidi, nacqui, misi, scrissi, decisi) ricavi la 3ª cambiando -i in -e."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-02-l2-e06",
+          "instruction": "Abbina l'infinito alla 1ª persona del passato remoto.",
+          "pairs": [
+            {
+              "left": "conoscere",
+              "right": "conobbi"
+            },
+            {
+              "left": "sapere",
+              "right": "seppi"
+            },
+            {
+              "left": "volere",
+              "right": "volli"
+            },
+            {
+              "left": "rimanere",
+              "right": "rimasi"
+            },
+            {
+              "left": "scegliere",
+              "right": "scelsi"
+            },
+            {
+              "left": "chiedere",
+              "right": "chiesi"
+            }
+          ],
+          "explanation": "Questi sono tra gli irregolari più frequenti nei testi narrativi."
+        },
+        {
+          "type": "reading",
+          "id": "c1-02-l2-e07",
+          "instruction": "Leggi la biografia e rispondi alle domande.",
+          "title": "Maria Montessori",
+          "passage": "Maria Montessori nacque a Chiaravalle, in provincia di Ancona, nel 1870. Da ragazza decise di studiare medicina, una scelta molto insolita per una donna dell'epoca, e nel 1896 si laureò a Roma: fu una delle prime donne laureate in medicina in Italia. Lavorando con bambini in difficoltà, si convinse che l'ambiente e il materiale giusto potevano cambiare il modo di imparare. Nel 1907 aprì la prima Casa dei Bambini nel quartiere romano di San Lorenzo. Il suo metodo ebbe un successo enorme e si diffuse presto in tutto il mondo. Negli anni Trenta, in contrasto con il regime fascista, lasciò l'Italia; durante la Seconda guerra mondiale visse in India. Morì in Olanda nel 1952.",
+          "questions": [
+            {
+              "question": "Perché la scelta di studiare medicina era insolita?",
+              "options": [
+                "Perché la famiglia era povera",
+                "Perché all'epoca pochissime donne studiavano medicina",
+                "Perché a Roma non c'era l'università",
+                "Perché voleva fare l'insegnante"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa aprì nel 1907?",
+              "options": [
+                "Un ospedale a Chiaravalle",
+                "Una scuola di medicina",
+                "La prima Casa dei Bambini a Roma",
+                "Un ufficio in India"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa fece negli anni Trenta?",
+              "options": [
+                "Lasciò l'Italia per contrasti con il regime.",
+                "Tornò a Chiaravalle.",
+                "Si laureò una seconda volta.",
+                "Morì in Olanda."
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Nota i verbi: nacque, decise, si laureò, fu, aprì, ebbe, lasciò, visse, morì (eventi) e potevano (sfondo, imperfetto)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-02-l2-e08",
+          "instruction": "Completa con il passato remoto.",
+          "sentence": "Quando ___ (sapere) la notizia, mio nonno non disse una parola.",
+          "answers": [
+            "seppe"
+          ],
+          "hint": "sapere – lui",
+          "explanation": "Sapere al passato remoto (seppi, seppe) significa venire a sapere, come ho saputo (unità b1-01)."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-02-l2-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "They decided to leave the following day.",
+          "tiles": [
+            "Decisero",
+            "di",
+            "partire",
+            "il",
+            "giorno",
+            "dopo"
+          ],
+          "distractors": [
+            "Decidettero",
+            "partirono"
+          ],
+          "explanation": "Decidere → decisi, decise, decisero (schema 1-3-3)."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-02-l2-e10",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Nel 1907 Maria Montessori aprii la prima Casa dei Bambini.",
+          "answers": [
+            "Nel 1907 Maria Montessori aprì la prima Casa dei Bambini."
+          ],
+          "explanation": "Aprii = io; per la 3ª persona singolare serve aprì."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-02-l2-e11",
+          "instruction": "Ascolta il racconto e rispondi.",
+          "audioText": "Quando arrivò in città, Luca non conosceva nessuno. Il primo giorno chiese informazioni a un vecchio signore, che lo accompagnò fino alla pensione. Da quel giorno i due diventarono amici.",
+          "question": "Chi aiutò Luca?",
+          "options": [
+            "Il proprietario della pensione",
+            "Un vecchio signore",
+            "Un amico d'infanzia",
+            "Un vigile"
+          ],
+          "answer": 1,
+          "explanation": "Chiese, accompagnò, diventarono: eventi al passato remoto; non conosceva: situazione di sfondo."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-02-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Disse che sarebbe tornato presto, ma nessuno lo vide più.",
+          "translation": "He said he would be back soon, but no one ever saw him again."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-02-l2-e13",
+          "front": "nacque (nascere)",
+          "back": "he/she was born",
+          "example": "Maria Montessori nacque a Chiaravalle nel 1870."
+        }
+      ]
+    },
+    {
+      "id": "c1-02-l3",
+      "title": "Raccontare una storia",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-02-l3-e01",
+          "instruction": "Riscaldamento: completa con il passato remoto.",
+          "sentence": "Quando lo ___ (vedere), lo riconobbi subito.",
+          "answers": [
+            "vidi"
+          ],
+          "hint": "vedere – io",
+          "explanation": "Vedere → vidi (io)."
+        },
+        {
+          "type": "translate",
+          "id": "c1-02-l3-e02",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Nacque a Napoli e visse a Roma per vent'anni.",
+          "answers": [
+            "He was born in Naples and lived in Rome for twenty years.",
+            "He was born in Naples and lived in Rome for 20 years.",
+            "She was born in Naples and lived in Rome for twenty years.",
+            "She was born in Naples and lived in Rome for 20 years.",
+            "He was born in Naples and lived in Rome for twenty years",
+            "He was born in Naples and lived in Rome for 20 years",
+            "She was born in Naples and lived in Rome for twenty years",
+            "She was born in Naples and lived in Rome for 20 years"
+          ],
+          "explanation": "Nacque (nascere) e visse (vivere): due irregolari frequentissimi nelle biografie."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-02-l3-e03",
+          "title": "Passato remoto e imperfetto nel racconto",
+          "body": "Nel racconto il passato remoto prende il posto del passato prossimo, ma la logica non cambia:\n\n- **passato remoto** = gli **eventi** che fanno andare avanti la storia (*aprì, vide, decise*)\n- **imperfetto** = lo **sfondo**: descrizioni, stati, abitudini, azioni in corso (*era, copriva, faceva*)\n\n*Era una mattina di novembre e la nebbia **copriva** la valle. Anna **aprì** la cassetta della posta.*\n\n**Coerenza**: in un testo scegli un tempo narrativo e mantienilo; non passare dal remoto al prossimo per eventi dello stesso racconto.\n\n**Trapassato remoto** (da riconoscere): *ebbi finito, fu partito*. Si usa solo dopo **dopo che, appena, quando, non appena** se la frase principale è al passato remoto, per un'azione immediatamente precedente:\n*Dopo che **ebbe letto** la lettera, **prese** il telefono.*\nÈ tipico della lingua letteraria; nel parlato e nello scritto comune si dice *dopo aver letto la lettera*.",
+          "examples": [
+            {
+              "it": "Faceva freddo e la strada era deserta quando sentì dei passi.",
+              "en": "It was cold and the street was deserted when she heard footsteps."
+            },
+            {
+              "it": "Appena fu uscito, la porta si chiuse alle sue spalle.",
+              "en": "As soon as he had gone out, the door closed behind him."
+            },
+            {
+              "it": "Dopo aver letto la lettera, prese il telefono.",
+              "en": "After reading the letter, she picked up the phone."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-02-l3-e04",
+          "instruction": "Scegli il tempo giusto.",
+          "prompt": "Era una sera d'inverno. Fuori ___ e la strada era deserta.",
+          "options": [
+            "nevicava",
+            "nevicò",
+            "nevicasse",
+            "è nevicato"
+          ],
+          "answer": 0,
+          "explanation": "Il tempo atmosferico come sfondo: imperfetto."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-02-l3-e05",
+          "instruction": "Scegli il tempo giusto.",
+          "prompt": "All'improvviso qualcuno ___ alla porta.",
+          "options": [
+            "bussava",
+            "bussò",
+            "bussasse",
+            "bussi"
+          ],
+          "answer": 1,
+          "explanation": "Un evento improvviso che fa avanzare la storia: passato remoto."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-02-l3-e06",
+          "instruction": "Che cosa esprime «ebbe chiuso»?",
+          "prompt": "«Appena ebbe chiuso la porta, sentì un rumore.»",
+          "options": [
+            "Un'azione abituale nel passato",
+            "Un'azione conclusa subito prima di un'altra nel passato",
+            "Un'azione futura",
+            "Un'ipotesi"
+          ],
+          "answer": 1,
+          "explanation": "Trapassato remoto: azione conclusa subito prima di un'altra al passato remoto, dopo appena/dopo che/quando."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-02-l3-e07",
+          "instruction": "Completa con il tempo giusto.",
+          "sentence": "Mentre ___ (camminare) verso casa, incontrò un vecchio amico.",
+          "answers": [
+            "camminava"
+          ],
+          "hint": "camminare – lui",
+          "explanation": "Mentre + azione in corso: imperfetto, anche in un racconto al passato remoto."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-02-l3-e08",
+          "instruction": "C'è un errore di tempo. Riscrivi la frase corretta.",
+          "sentence": "Quella mattina Giulia si svegliava presto, prese il treno e arrivò a Firenze alle nove.",
+          "answers": [
+            "Quella mattina Giulia si svegliò presto, prese il treno e arrivò a Firenze alle nove.",
+            "Quella mattina Giulia si svegliò presto prese il treno e arrivò a Firenze alle nove."
+          ],
+          "explanation": "Svegliarsi quella mattina è un evento della sequenza, come prese e arrivò: passato remoto (si svegliò)."
+        },
+        {
+          "type": "translate",
+          "id": "c1-02-l3-e09",
+          "instruction": "Traduci in italiano usando il passato remoto.",
+          "direction": "en_it",
+          "source": "When he arrived, the shop was already closed.",
+          "answers": [
+            "Quando arrivò, il negozio era già chiuso.",
+            "Quando arrivò il negozio era già chiuso.",
+            "Quando lui arrivò, il negozio era già chiuso.",
+            "Quando lui arrivò il negozio era già chiuso.",
+            "Quando arrivò, la bottega era già chiusa.",
+            "Quando arrivò la bottega era già chiusa.",
+            "Quando arrivò, il negozio era chiuso già.",
+            "Quando arrivò il negozio era chiuso già."
+          ],
+          "explanation": "Arrivò = evento; era già chiuso = situazione che trovò (imperfetto)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-02-l3-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Dopo che ebbe letto la lettera, la mise nel cassetto e uscì.",
+          "answers": [
+            "Dopo che ebbe letto la lettera, la mise nel cassetto e uscì.",
+            "Dopo che ebbe letto la lettera la mise nel cassetto e uscì."
+          ],
+          "slow": true,
+          "explanation": "Ebbe letto (trapassato remoto) → mise, uscì (passato remoto)."
+        },
+        {
+          "type": "reading",
+          "id": "c1-02-l3-e11",
+          "instruction": "Leggi l'inizio del racconto e rispondi.",
+          "title": "La busta gialla",
+          "passage": "Era una mattina di novembre e la nebbia copriva tutta la valle. Anna aprì la cassetta della posta senza pensarci, come faceva ogni giorno. Dentro c'era una busta gialla, senza francobollo. La riconobbe subito: era la scrittura di suo fratello, che non vedeva da dieci anni. Rimase immobile per qualche minuto, poi entrò in casa e si sedette vicino alla finestra. Dopo che ebbe letto la lettera due volte, prese il telefono e chiamò la stazione. Il primo treno per Torino partiva alle undici: decise di prenderlo.",
+          "questions": [
+            {
+              "question": "Perché Anna riconobbe la busta?",
+              "options": [
+                "Aveva un francobollo straniero.",
+                "C'era la scrittura di suo fratello.",
+                "La aspettava da giorni.",
+                "Gliel'aveva annunciata il postino."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa fece dopo aver letto la lettera?",
+              "options": [
+                "La strappò.",
+                "Chiamò suo fratello.",
+                "Telefonò alla stazione.",
+                "Uscì a passeggiare nella nebbia."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quale verbo descrive un'abitudine?",
+              "options": [
+                "aprì",
+                "riconobbe",
+                "faceva",
+                "decise"
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "Sfondo all'imperfetto (era, copriva, faceva, partiva), eventi al passato remoto (aprì, riconobbe, rimase, prese, decise)."
+        },
+        {
+          "type": "roleplay",
+          "id": "c1-02-l3-e12",
+          "instruction": "Al circolo di lettura racconti l'inizio di un romanzo. Rispondi ad alta voce usando il passato remoto per gli eventi.",
+          "scenario": "At a book club, a member asks you about the novel you've just read. Retell the opening using the passato remoto for events and the imperfetto for the background.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Allora, com'è questo romanzo? Di che cosa parla?"
+            },
+            {
+              "speaker": "you",
+              "text": "È la storia di un medico che nel 1920 lasciò Napoli e partì per l'Argentina.",
+              "hint": "Introduce the protagonist and the first event (lasciò, partì).",
+              "keywords": [
+                "lasciò",
+                "partì"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Interessante! E perché partì?"
+            },
+            {
+              "speaker": "you",
+              "text": "Era molto povero e in città non trovava lavoro. Un giorno ricevette una lettera da un cugino.",
+              "hint": "Background in imperfetto, then the event (ricevette).",
+              "keywords": [
+                "era",
+                "ricevette"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E che cosa gli scrisse il cugino?"
+            },
+            {
+              "speaker": "you",
+              "text": "Gli disse che a Buenos Aires c'era bisogno di medici. Così vendette tutto e prese la nave.",
+              "hint": "Disse (dire), vendette, prese.",
+              "keywords": [
+                "disse",
+                "prese"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E come finisce il primo capitolo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Quando arrivò al porto, nessuno lo aspettava. Fu l'inizio di una nuova vita.",
+              "hint": "Arrivò, fu – and a background detail.",
+              "keywords": [
+                "arrivò",
+                "fu"
+              ]
+            }
+          ],
+          "explanation": "Hai alternato passato remoto (eventi) e imperfetto (sfondo), come nella narrativa scritta."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-02-l3-e13",
+          "instruction": "Scrivi l'inizio di un racconto.",
+          "prompt": "Scrivi l'inizio di un racconto (80–120 parole) al passato remoto e all'imperfetto. Comincia con una descrizione (luogo, tempo, atmosfera) e poi racconta che cosa successe al protagonista.",
+          "minWords": 80,
+          "checklist": [
+            "Ho descritto lo sfondo all'imperfetto (tempo, luogo, stati d'animo).",
+            "Ho usato il passato remoto per gli eventi principali.",
+            "Ho usato almeno quattro verbi irregolari al passato remoto (fece, disse, vide, prese…).",
+            "Non ho mescolato passato remoto e passato prossimo nello stesso racconto.",
+            "Ho usato connettivi narrativi: all'improvviso, poco dopo, quella sera, alla fine."
+          ],
+          "modelAnswer": "Era una sera di ottobre e pioveva da ore. Il paese sembrava addormentato e nelle strade non c'era nessuno. Paolo tornava a casa dal lavoro, stanco e un po' triste, quando all'improvviso vide una luce accesa nella vecchia stazione, chiusa da anni. Si fermò, incuriosito, e si avvicinò alla finestra. Dentro c'era un uomo anziano che leggeva un giornale ingiallito. Paolo bussò al vetro. L'uomo alzò gli occhi, sorrise e gli fece cenno di entrare. «Ti aspettavo», disse soltanto. Paolo non capì, ma entrò lo stesso. Quella sera la sua vita cambiò per sempre."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-02-l3-e14",
+          "front": "d'un tratto",
+          "back": "suddenly, all of a sudden",
+          "example": "D'un tratto si spensero tutte le luci."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "c'era una volta",
+      "en": "once upon a time",
+      "example": "C'era una volta un piccolo paese tra le montagne."
+    },
+    {
+      "it": "nacque (nascere)",
+      "en": "he/she was born",
+      "example": "Nacque a Napoli nel 1901."
+    },
+    {
+      "it": "visse (vivere)",
+      "en": "he/she lived",
+      "example": "Visse a lungo in Francia."
+    },
+    {
+      "it": "morì (morire)",
+      "en": "he/she died",
+      "example": "Morì nella sua città natale."
+    },
+    {
+      "it": "fu (essere)",
+      "en": "he/she/it was",
+      "example": "Fu una decisione difficile."
+    },
+    {
+      "it": "d'un tratto",
+      "en": "suddenly",
+      "example": "D'un tratto sentì un rumore."
+    },
+    {
+      "it": "all'epoca",
+      "en": "at the time, back then",
+      "example": "All'epoca le donne non potevano votare."
+    },
+    {
+      "it": "in seguito",
+      "en": "later, subsequently",
+      "example": "In seguito si trasferì a Milano."
+    },
+    {
+      "it": "la vicenda",
+      "en": "story, affair, events",
+      "example": "La vicenda si svolge a Palermo."
+    },
+    {
+      "it": "la trama",
+      "en": "plot",
+      "example": "La trama del romanzo è molto complessa."
+    },
+    {
+      "it": "il protagonista",
+      "en": "main character",
+      "example": "Il protagonista è un medico napoletano."
+    },
+    {
+      "it": "il racconto",
+      "en": "short story; account",
+      "example": "Ho letto un racconto di Calvino."
+    },
+    {
+      "it": "il romanzo",
+      "en": "novel",
+      "example": "È un romanzo ambientato negli anni Venti."
+    },
+    {
+      "it": "la leggenda",
+      "en": "legend",
+      "example": "Secondo la leggenda, il ponte fu costruito in una notte."
+    },
+    {
+      "it": "il secolo",
+      "en": "century",
+      "example": "La chiesa risale al XII secolo."
+    },
+    {
+      "it": "emigrare",
+      "en": "to emigrate",
+      "example": "Molti italiani emigrarono in Argentina."
+    },
+    {
+      "it": "trasferirsi",
+      "en": "to move (house, city)",
+      "example": "Nel 1950 si trasferirono a Torino."
+    },
+    {
+      "it": "fondare",
+      "en": "to found",
+      "example": "La città fu fondata dai Romani."
+    },
+    {
+      "it": "laurearsi",
+      "en": "to graduate (from university)",
+      "example": "Si laureò in medicina a Roma."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "c1-02-t1",
+      "rule": "Passato remoto: verbi in -are",
+      "tip": "Verbi in -are: -ai, -asti, -ò, -ammo, -aste, -arono. Attenzione all'accento: parlò (remoto) ≠ parlo.",
+      "example": {
+        "it": "Arrivarono a sera e parlarono a lungo.",
+        "en": "They arrived in the evening and talked for a long time."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "instruction": "Passato remoto di arrivare.",
+        "verb": "arrivare",
+        "tense": "passato remoto",
+        "items": [
+          {
+            "person": "io",
+            "answer": "arrivai"
+          },
+          {
+            "person": "lui/lei",
+            "answer": "arrivò"
+          },
+          {
+            "person": "loro",
+            "answer": "arrivarono"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-02-t2",
+      "rule": "Essere e avere al remoto",
+      "tip": "Essere: fui, fosti, fu… Avere: ebbi, avesti, ebbe… Fu = è stato, ebbe = ha avuto.",
+      "example": {
+        "it": "Fu un viaggio lungo, ma ebbe un lieto fine.",
+        "en": "It was a long journey, but it had a happy ending."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa con il passato remoto.",
+        "sentence": "Nel 1861 Torino ___ (essere) la prima capitale del Regno d'Italia.",
+        "answers": [
+          "fu"
+        ]
+      }
+    },
+    {
+      "id": "c1-02-t3",
+      "rule": "Irregolari: schema 1-3-3",
+      "tip": "Irregolari solo io, lui/lei, loro: feci, fece, fecero. Le altre persone sono regolari: facesti, facemmo.",
+      "example": {
+        "it": "Dissi di sì, ma lui disse di no.",
+        "en": "I said yes, but he said no."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "instruction": "Passato remoto di dire.",
+        "verb": "dire",
+        "tense": "passato remoto",
+        "items": [
+          {
+            "person": "io",
+            "answer": "dissi"
+          },
+          {
+            "person": "lui/lei",
+            "answer": "disse"
+          },
+          {
+            "person": "loro",
+            "answer": "dissero"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-02-t4",
+      "rule": "Remoto per l'evento, imperfetto…",
+      "tip": "Nel racconto: passato remoto per gli eventi, imperfetto per lo sfondo. «Pioveva quando uscì.»",
+      "example": {
+        "it": "Era tardi e pioveva quando arrivò.",
+        "en": "It was late and raining when he arrived."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "instruction": "Scegli il tempo giusto.",
+        "prompt": "La casa ___ silenziosa quando entrò.",
+        "options": [
+          "fu",
+          "era",
+          "è stata",
+          "sia"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "c1-02-t5",
+      "rule": "Trapassato remoto",
+      "tip": "Dopo che / appena + trapassato remoto (ebbe finito) se la principale è al remoto. È tipico dello scritto letterario.",
+      "example": {
+        "it": "Appena ebbe finito, uscì.",
+        "en": "As soon as he had finished, he went out."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "instruction": "Completa.",
+        "prompt": "Dopo che ___ la cena, uscirono a passeggiare.",
+        "options": [
+          "ebbero finito",
+          "finivano",
+          "hanno finito",
+          "finissero"
+        ],
+        "answer": 0
+      }
+    }
+  ]
+}

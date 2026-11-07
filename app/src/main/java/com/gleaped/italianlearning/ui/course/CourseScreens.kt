@@ -20,6 +20,7 @@ import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -31,13 +32,18 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.gleaped.italianlearning.content.GrammarTip
 import com.gleaped.italianlearning.content.UnitRef
 import com.gleaped.italianlearning.domain.progress.UnitStatus
 import com.gleaped.italianlearning.ui.components.ItalianText
@@ -84,10 +90,33 @@ fun CourseMapScreen(onOpenUnit: (String) -> Unit) {
                             style = MaterialTheme.typography.bodySmall,
                         )
                     }
+                    if (level.isExam) {
+                        Text(
+                            "Exam prep · always open. Practise any section of the exam whenever you like.",
+                            style = MaterialTheme.typography.labelLarge,
+                            color = MaterialTheme.colorScheme.secondary,
+                        )
+                    }
                 }
             }
             val units = course.units.filter { it.level == level.id }.sortedBy { it.order }
             items(units, key = { it.id }) { ref ->
+                UnitRow(ref, o, onOpenUnit)
+            }
+        }
+        // Units whose level course.json does not declare: still reachable, never lost.
+        val declared = course.levels.map { it.id }.toSet()
+        val orphans = course.units.filter { it.level !in declared }.sortedWith(compareBy({ it.level }, { it.order }))
+        if (orphans.isNotEmpty()) {
+            item(key = "level-other") {
+                Text(
+                    "Altre unità",
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.padding(top = 16.dp),
+                )
+            }
+            items(orphans, key = { it.id }) { ref ->
                 UnitRow(ref, o, onOpenUnit)
             }
         }
@@ -141,9 +170,13 @@ fun UnitScreen(
     onBack: () -> Unit,
     onStartLesson: (unitId: String, lessonId: String) -> Unit,
     onOpenUnit: (String) -> Unit,
+    onOpenChallenge: (unitId: String, tipId: String) -> Unit,
 ) {
     val o = rememberOverview()
     val unit = o?.content?.units?.get(unitId)
+    val container = LocalAppContainer.current
+    // Remembered so grammar-tip reminders can draw on refresher units the learner opened.
+    LaunchedEffect(unitId) { container.settings.markUnitOpened(unitId) }
     Scaffold(
         topBar = {
             TopAppBar(
@@ -219,6 +252,18 @@ fun UnitScreen(
                     )
                 }
             }
+            if (unit.grammarTips.isNotEmpty()) {
+                item {
+                    Text("Grammar tips", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))
+                    Text(
+                        "Short reminders of this unit's rules, each with a quick challenge. They also turn up in your reminders.",
+                        style = MaterialTheme.typography.bodySmall,
+                    )
+                }
+                items(unit.grammarTips, key = { "tip-" + it.id }) { tip ->
+                    GrammarTipCard(tip, onTry = { onOpenChallenge(unit.id, tip.id) })
+                }
+            }
             if (unit.vocabulary.isNotEmpty()) {
                 item {
                     Text("Vocabulary", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))
@@ -234,6 +279,30 @@ fun UnitScreen(
                         HorizontalDivider(Modifier.padding(top = 6.dp))
                     }
                 }
+            }
+        }
+    }
+}
+
+@Composable
+private fun GrammarTipCard(tip: GrammarTip, onTry: () -> Unit) {
+    var expanded by rememberSaveable(tip.id) { mutableStateOf(false) }
+    OutlinedCard(onClick = { expanded = !expanded }, modifier = Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text(tip.rule, style = MaterialTheme.typography.titleSmall)
+            Text(tip.tip, style = MaterialTheme.typography.bodyMedium)
+            if (expanded) {
+                tip.example?.let { ex ->
+                    ItalianText(ex.it, style = MaterialTheme.typography.bodyLarge)
+                    if (ex.en.isNotBlank()) {
+                        Text(ex.en, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
+            } else if (tip.example != null) {
+                Text("Tap for an example", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            if (tip.challenge != null) {
+                FilledTonalButton(onClick = onTry) { Text("Prova la sfida") }
             }
         }
     }

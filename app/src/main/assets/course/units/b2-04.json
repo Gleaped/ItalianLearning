@@ -1,0 +1,882 @@
+{
+  "id": "b2-04",
+  "level": "B2",
+  "title": "Ripasso 3",
+  "objective": "By the end you can complain about a service that didn't match expectations, both in a formal email and on the phone, and negotiate a fair compromise, using the subjunctive, conditional and hypotheticals of units B2-01 to B2-03.",
+  "grammarFocus": "Ripasso: congiuntivo passato e imperfetto, periodo ipotetico tipo 1 e 2, condizionale passato (rimpianti e futuro nel passato); formule della lettera di reclamo e della trattativa.",
+  "remedialUnitIds": [
+    "b2-01",
+    "b2-02",
+    "b2-03"
+  ],
+  "lessons": [
+    {
+      "id": "b2-04-l1",
+      "title": "Non era come nell'annuncio",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-04-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Pensavo che l'appartamento ___ l'aria condizionata in tutte le stanze.",
+          "options": [
+            "aveva",
+            "avesse",
+            "abbia",
+            "avrebbe"
+          ],
+          "answer": 1,
+          "explanation": "Pensavo (passato) → congiuntivo imperfetto (B2-01)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e02",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "La proprietaria ci aveva promesso che ___ (trovare, noi) le chiavi nella cassetta della posta.",
+          "answers": [
+            "avremmo trovato"
+          ],
+          "hint": "trovare – noi",
+          "explanation": "Futuro nel passato → condizionale passato (B2-03)."
+        },
+        {
+          "type": "reading",
+          "id": "b2-04-l1-e03",
+          "instruction": "Lettura (stile CELI): leggi la recensione e rispondi.",
+          "title": "Recensione: «Bilocale vista mare» ★★☆☆☆",
+          "passage": "Abbiamo prenotato questo bilocale per una settimana ad agosto, attirati dalle foto e dalla descrizione: «a due passi dalla spiaggia, silenzioso, con aria condizionata e wifi veloce». Purtroppo la realtà era piuttosto diversa.\nLa spiaggia era a quasi un chilometro e per arrivarci bisognava attraversare una strada molto trafficata. Pensavamo che la zona fosse tranquilla, invece sotto le finestre c'era un bar aperto fino alle due di notte. Il condizionatore c'era, ma funzionava solo in camera da letto, e il wifi andava e veniva.\nLa proprietaria, quando l'abbiamo chiamata, è stata gentile: ci ha detto che avrebbe mandato un tecnico il giorno dopo. Il tecnico in effetti è venuto, ma solo dopo tre giorni. Visto il prezzo, ci saremmo aspettati più attenzione.\nSe dovessi dare un consiglio a chi pensa di prenotare: chiedete foto recenti e fatevi dire la distanza esatta dal mare. Al posto vostro, io cercherei altrove.",
+          "questions": [
+            {
+              "question": "Che cosa prometteva l'annuncio?",
+              "options": [
+                "Una casa vicinissima alla spiaggia.",
+                "Un parcheggio privato.",
+                "Una vista sulle colline.",
+                "Un bar sotto casa."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché la zona non era tranquilla?",
+              "options": [
+                "Per i lavori in strada.",
+                "Per i vicini rumorosi.",
+                "Per la stazione vicina.",
+                "Per un bar aperto fino a tardi."
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa aveva detto la proprietaria?",
+              "options": [
+                "Che avrebbe ridato i soldi.",
+                "Che un tecnico sarebbe passato il giorno dopo.",
+                "Che il wifi era sempre lento.",
+                "Che avrebbe cambiato appartamento."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa consiglia l'autore della recensione?",
+              "options": [
+                "Di prenotare in un altro mese.",
+                "Di non chiamare la proprietaria.",
+                "Di chiedere foto recenti e la distanza esatta dal mare.",
+                "Di portare un condizionatore portatile."
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "Trova le strutture di B2-01/03: pensavamo che fosse, avrebbe mandato, ci saremmo aspettati, se dovessi… cercherei."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e04",
+          "instruction": "Cloze (stile CELI): completa il reclamo con la forma giusta del verbo. (1/4)",
+          "sentence": "Quando abbiamo prenotato, speravamo che la casa ___ (essere) tranquilla.",
+          "answers": [
+            "fosse"
+          ],
+          "hint": "essere – lei",
+          "explanation": "Speravamo (passato) → congiuntivo imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e05",
+          "instruction": "Cloze (stile CELI): completa il reclamo con la forma giusta del verbo. (2/4)",
+          "sentence": "La proprietaria ci aveva assicurato che il condizionatore ___ (funzionare) in tutte le stanze.",
+          "answers": [
+            "funzionava",
+            "avrebbe funzionato"
+          ],
+          "hint": "funzionare – lui",
+          "explanation": "Funzionava descrive lo stato (contemporaneo); avrebbe funzionato lo presenta come futuro nel passato. Sono corretti entrambi."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e06",
+          "instruction": "Cloze (stile CELI): completa il reclamo con la forma giusta del verbo. (3/4)",
+          "sentence": "Sarebbe giusto che l'agenzia ci ___ (rimborsare) almeno una parte del soggiorno.",
+          "answers": [
+            "rimborsasse"
+          ],
+          "hint": "rimborsare – lei",
+          "explanation": "Sarebbe giusto che + congiuntivo imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e07",
+          "instruction": "Cloze (stile CELI): completa il reclamo con la forma giusta del verbo. (4/4)",
+          "sentence": "Se non ___ (ricevere, noi) una risposta entro dieci giorni, ci rivolgeremo a un'associazione di consumatori.",
+          "answers": [
+            "riceviamo",
+            "riceveremo"
+          ],
+          "hint": "ricevere – noi",
+          "explanation": "Condizione reale (tipo 1): se + presente o futuro → futuro."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e08",
+          "instruction": "Trasformazione (stile CELI): completa la seconda frase in modo che abbia lo stesso significato della prima.",
+          "sentence": "«Non ho tempo, quindi non vengo.» → Se ___ tempo, verrei.",
+          "answers": [
+            "avessi"
+          ],
+          "explanation": "Realtà presente → ipotesi irreale: se + congiuntivo imperfetto (B2-02)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e09",
+          "instruction": "Trasformazione (stile CELI): completa la seconda frase in modo che abbia lo stesso significato della prima.",
+          "sentence": "«Sicuramente Marco ha già pagato.» → Credo che Marco ___ già pagato.",
+          "answers": [
+            "abbia"
+          ],
+          "explanation": "Credo che + azione passata → congiuntivo passato: abbia pagato (B2-01)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l1-e10",
+          "instruction": "Trasformazione (stile CELI): completa la seconda frase in modo che abbia lo stesso significato della prima.",
+          "sentence": "«Era meglio prenotare prima, ma non l'ho fatto.» → ___ prenotare prima.",
+          "answers": [
+            "Avrei dovuto"
+          ],
+          "explanation": "Rimpianto → avrei dovuto + infinito (B2-03)."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-04-l1-e11",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Se l'annuncio sarebbe stato chiaro, non avrei prenotato.",
+          "answers": [
+            "Se l'annuncio fosse stato chiaro, non avrei prenotato.",
+            "Se l'annuncio fosse stato chiaro non avrei prenotato."
+          ],
+          "explanation": "Mai il condizionale dopo se. (Fosse stato è il congiuntivo trapassato: lo vedrai in B2-09.)"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-04-l1-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Racconta un acquisto o un servizio che ti ha deluso. Che cosa pensavi o ti aspettavi, e che cosa è successo davvero?",
+          "keywords": [
+            "pensavo che",
+            "mi aspettavo",
+            "invece"
+          ],
+          "modelAnswer": "L'anno scorso ho comprato un aspirapolvere online. Pensavo che fosse potente come nelle recensioni e mi aspettavo che durasse anni. Invece dopo due mesi si è rotto, e il servizio clienti mi ha risposto solo dopo tre settimane.",
+          "explanation": "Aspettative (pensavo che / mi aspettavo che + cong. imperfetto) contro realtà (invece + passato prossimo)."
+        }
+      ]
+    },
+    {
+      "id": "b2-04-l2",
+      "title": "Il reclamo scritto",
+      "minutes": 14,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-04-l2-e01",
+          "instruction": "Riscaldamento: registro.",
+          "prompt": "Quale saluto iniziale è adatto a un'email di reclamo a un'agenzia?",
+          "options": [
+            "Ciao ragazzi,",
+            "Gentili Signori,",
+            "Caro amico,",
+            "Ehi, buongiorno!"
+          ],
+          "answer": 1,
+          "explanation": "Gentili Signori (o Spett.le Agenzia) è l'apertura standard per un'azienda."
+        },
+        {
+          "type": "translate",
+          "id": "b2-04-l2-e02",
+          "instruction": "Riscaldamento: traduci in italiano.",
+          "direction": "en_it",
+          "source": "I would have liked a quieter room.",
+          "answers": [
+            "Avrei voluto una camera più tranquilla.",
+            "Avrei voluto una stanza più tranquilla.",
+            "Io avrei voluto una camera più tranquilla.",
+            "Io avrei voluto una stanza più tranquilla.",
+            "Avrei preferito una camera più tranquilla.",
+            "Avrei preferito una stanza più tranquilla."
+          ],
+          "explanation": "Avrei voluto + nome: un desiderio non realizzato."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-04-l2-e03",
+          "title": "La lettera di reclamo",
+          "body": "Una lettera o email di reclamo segue uno schema chiaro. Usa il **Voi** per un'azienda e il **Lei** per una persona.\n\n- **Oggetto**: *Reclamo per il soggiorno dal 3 al 10 agosto*\n- **Apertura**: *Gentili Signori, / Spett.le Agenzia, / Gentile Dott.ssa Ferri,*\n- **Motivo**: *Vi scrivo in merito a… / Le scrivo per segnalare…*\n- **Fatti** (passato prossimo + imperfetto): *Al nostro arrivo l'appartamento era sporco e il wifi non funzionava.*\n- **Aspettative deluse**: *Mi aspettavo che… / Ci era stato detto che… / L'annuncio garantiva che…*\n- **Richiesta** (cortese ma ferma): *Vi chiedo di… / Ritengo giusto che mi rimborsiate… / **Vi sarei grato se** poteste…*\n- **Chiusura**: *In attesa di un Vostro cortese riscontro, porgo distinti saluti.*\n\nNote *Vi sarei grato se* + **congiuntivo imperfetto** (*se poteste, se rispondeste*): it's the periodo ipotetico of B2-02 used as a polite request. A woman writes *grata*.",
+          "examples": [
+            {
+              "it": "Vi scrivo in merito alla prenotazione n. 4521.",
+              "en": "I am writing regarding booking no. 4521."
+            },
+            {
+              "it": "L'annuncio garantiva che la casa fosse a due passi dal mare.",
+              "en": "The ad guaranteed the house was a stone's throw from the sea."
+            },
+            {
+              "it": "Vi sarei grato se poteste rispondermi entro quindici giorni.",
+              "en": "I would be grateful if you could reply within fifteen days."
+            },
+            {
+              "it": "In attesa di un Vostro cortese riscontro, porgo distinti saluti.",
+              "en": "Looking forward to your reply, yours faithfully."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-04-l2-e04",
+          "instruction": "Abbina ogni espressione informale alla sua versione formale.",
+          "pairs": [
+            {
+              "left": "Ciao!",
+              "right": "Gentili Signori,"
+            },
+            {
+              "left": "Ti scrivo per…",
+              "right": "Vi scrivo in merito a…"
+            },
+            {
+              "left": "Mi devi ridare i soldi.",
+              "right": "Vi chiedo il rimborso della somma versata."
+            },
+            {
+              "left": "Fammi sapere!",
+              "right": "Resto in attesa di un Vostro cortese riscontro."
+            },
+            {
+              "left": "Un abbraccio",
+              "right": "Distinti saluti"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-04-l2-e05",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Vi sarei grato se ___ entro dieci giorni.",
+          "options": [
+            "rispondete",
+            "rispondeste",
+            "rispondereste",
+            "abbiate risposto"
+          ],
+          "answer": 1,
+          "explanation": "Vi sarei grato se + congiuntivo imperfetto: rispondeste."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l2-e06",
+          "instruction": "Completa la frase.",
+          "sentence": "Sarebbe opportuno che l'agenzia ___ (controllare) gli annunci prima di pubblicarli.",
+          "answers": [
+            "controllasse"
+          ],
+          "hint": "controllare – lei",
+          "explanation": "Sarebbe opportuno che + congiuntivo imperfetto."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-04-l2-e07",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I am writing regarding my booking of 12 July.",
+          "tiles": [
+            "Vi",
+            "scrivo",
+            "in",
+            "merito",
+            "alla",
+            "mia",
+            "prenotazione",
+            "del",
+            "12",
+            "luglio"
+          ],
+          "distractors": [
+            "della",
+            "scriverei"
+          ],
+          "explanation": "In merito a = regarding: formula tipica dell'apertura formale."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-04-l2-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Vi sarei grato se mi rispondereste al più presto.",
+          "answers": [
+            "Vi sarei grato se mi rispondeste al più presto.",
+            "Vi sarei grata se mi rispondeste al più presto."
+          ],
+          "explanation": "Dopo se: congiuntivo imperfetto (rispondeste), non condizionale."
+        },
+        {
+          "type": "translate",
+          "id": "b2-04-l2-e09",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I would be grateful if you could refund half of the amount.",
+          "answers": [
+            "Vi sarei grato se poteste rimborsare la metà della somma.",
+            "Vi sarei grato se poteste rimborsare la metà dell'importo.",
+            "Vi sarei grato se poteste rimborsare metà della somma.",
+            "Vi sarei grato se poteste rimborsare metà dell'importo.",
+            "Vi sarei grato se poteste rimborsarmi la metà della somma.",
+            "Vi sarei grato se poteste rimborsarmi la metà dell'importo.",
+            "Vi sarei grato se poteste rimborsarmi metà della somma.",
+            "Vi sarei grato se poteste rimborsarmi metà dell'importo.",
+            "Vi sarei grato se poteste restituire la metà della somma.",
+            "Vi sarei grato se poteste restituire la metà dell'importo.",
+            "Vi sarei grato se poteste restituire metà della somma.",
+            "Vi sarei grato se poteste restituire metà dell'importo.",
+            "Vi sarei grato se poteste restituirmi la metà della somma.",
+            "Vi sarei grato se poteste restituirmi la metà dell'importo.",
+            "Vi sarei grato se poteste restituirmi metà della somma.",
+            "Vi sarei grato se poteste restituirmi metà dell'importo.",
+            "Vi sarei grata se poteste rimborsare la metà della somma.",
+            "Vi sarei grata se poteste rimborsare la metà dell'importo.",
+            "Vi sarei grata se poteste rimborsare metà della somma.",
+            "Vi sarei grata se poteste rimborsare metà dell'importo.",
+            "Vi sarei grata se poteste rimborsarmi la metà della somma.",
+            "Vi sarei grata se poteste rimborsarmi la metà dell'importo.",
+            "Vi sarei grata se poteste rimborsarmi metà della somma.",
+            "Vi sarei grata se poteste rimborsarmi metà dell'importo.",
+            "Vi sarei grata se poteste restituire la metà della somma.",
+            "Vi sarei grata se poteste restituire la metà dell'importo.",
+            "Vi sarei grata se poteste restituire metà della somma.",
+            "Vi sarei grata se poteste restituire metà dell'importo.",
+            "Vi sarei grata se poteste restituirmi la metà della somma.",
+            "Vi sarei grata se poteste restituirmi la metà dell'importo.",
+            "Vi sarei grata se poteste restituirmi metà della somma.",
+            "Vi sarei grata se poteste restituirmi metà dell'importo."
+          ],
+          "explanation": "Vi sarei grato se poteste… : richiesta formale e cortese."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-04-l2-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Vi scrivo in merito al soggiorno presso il vostro appartamento dal 3 al 10 agosto.",
+          "answers": [
+            "Vi scrivo in merito al soggiorno presso il vostro appartamento dal 3 al 10 agosto.",
+            "Vi scrivo in merito al soggiorno presso il Vostro appartamento dal 3 al 10 agosto.",
+            "Vi scrivo in merito al soggiorno presso il vostro appartamento dal tre al dieci agosto.",
+            "Vi scrivo in merito al soggiorno presso il Vostro appartamento dal tre al dieci agosto."
+          ],
+          "slow": false,
+          "explanation": "Presso = at (formale): presso il vostro appartamento, presso l'ufficio anagrafe."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-04-l2-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Resto in attesa di un Vostro cortese riscontro e porgo distinti saluti.",
+          "translation": "I look forward to your reply. Yours faithfully."
+        },
+        {
+          "type": "free_write",
+          "id": "b2-04-l2-e12",
+          "instruction": "Scrittura (stile CELI, registro formale).",
+          "prompt": "Scrivi un'email di reclamo all'agenzia «Case al Mare» (120–180 parole). Hai passato una settimana in un appartamento che non corrispondeva all'annuncio. Descrivi i problemi, spiega che cosa ti aspettavi e chiedi un rimborso parziale.",
+          "minWords": 120,
+          "checklist": [
+            "Ho scritto oggetto, apertura e chiusura formali (Gentili Signori… Distinti saluti).",
+            "Ho usato il Voi in modo coerente per tutta l'email.",
+            "Ho descritto i fatti con passato prossimo e imperfetto.",
+            "Ho espresso le aspettative deluse con mi aspettavo che / pensavo che + congiuntivo imperfetto.",
+            "Ho fatto una richiesta precisa e cortese (Vi sarei grato se + cong. imperfetto, ritengo giusto che…).",
+            "Ho scritto tra 120 e 180 parole."
+          ],
+          "modelAnswer": "Oggetto: Reclamo per il soggiorno dal 3 al 10 agosto – prenotazione n. 4521\n\nGentili Signori,\nVi scrivo in merito al soggiorno presso l'appartamento «Bilocale vista mare», prenotato tramite la Vostra agenzia per la settimana dal 3 al 10 agosto.\nPurtroppo l'appartamento non corrispondeva alla descrizione dell'annuncio. La spiaggia, che secondo l'annuncio era «a due passi», si trovava a quasi un chilometro. Inoltre il condizionatore del soggiorno non funzionava e il wifi era quasi sempre assente. Quando abbiamo segnalato il problema, la proprietaria ci ha assicurato che un tecnico sarebbe passato il giorno dopo, ma è arrivato soltanto dopo tre giorni.\nVisto il prezzo pagato, mi aspettavo che le informazioni fossero corrette e che la proprietaria risolvesse i problemi in tempi brevi. Ritengo quindi giusto che mi rimborsiate almeno il 40% della somma versata.\nVi sarei grato se poteste darmi una risposta entro quindici giorni.\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\nRichard"
+        }
+      ]
+    },
+    {
+      "id": "b2-04-l3",
+      "title": "Trattare al telefono",
+      "minutes": 14,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l3-e01",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Vi sarei grato se mi ___ (inviare) una conferma scritta.",
+          "answers": [
+            "inviaste",
+            "mandaste"
+          ],
+          "hint": "inviare – voi",
+          "explanation": "Vi sarei grato se + congiuntivo imperfetto."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-04-l3-e02",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Al telefono, l'agenzia ha detto che ___ entro lunedì.",
+          "options": [
+            "avrebbe risposto",
+            "risponderebbe",
+            "rispondesse",
+            "abbia risposto"
+          ],
+          "answer": 0,
+          "explanation": "Futuro nel passato → condizionale passato."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-04-l3-e03",
+          "title": "Negoziare con cortesia",
+          "body": "In una trattativa servono frasi che **riconoscono** il punto dell'altro, **attenuano** la richiesta e **propongono** un compromesso:\n- *Mi rendo conto che non è colpa Sua, però…* (riconoscere)\n- *Non pretendo il rimborso totale, ma mi aspettavo che…* (attenuare)\n- *Se mi rimborsaste almeno il 40%, considererei chiusa la questione.* (proposta – tipo 2)\n- *Sarei disposto ad accettare…* (concessione)\n- *Se non troviamo un accordo, mi rivolgerò a un'associazione di consumatori.* (conseguenza – tipo 1, più diretta)\n- *Mi potrebbe confermare tutto per email?* (chiudere in modo sicuro)\n\nTipo 2 = proposta morbida, ipotetica; tipo 1 = condizione concreta, più ferma. Scegli in base al tono che vuoi dare.",
+          "examples": [
+            {
+              "it": "Mi rendo conto che non è colpa Sua.",
+              "en": "I realise it's not your fault."
+            },
+            {
+              "it": "Non pretendo il rimborso totale.",
+              "en": "I'm not demanding a full refund."
+            },
+            {
+              "it": "Sarei disposto ad accettare un buono.",
+              "en": "I'd be willing to accept a voucher."
+            },
+            {
+              "it": "Se mi veniste incontro, la questione sarebbe chiusa.",
+              "en": "If you met me halfway, the matter would be closed."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-04-l3-e04",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Buongiorno, la chiamo dall'agenzia Case al Mare per il suo reclamo. Abbiamo verificato con la proprietaria e ci scusiamo per il ritardo del tecnico. Il rimborso totale purtroppo non è possibile, ma possiamo offrirle il venti per cento in denaro, oppure un buono del trentacinque per cento da usare entro un anno.",
+          "question": "Che cosa offre l'agenzia?",
+          "options": [
+            "Il rimborso totale.",
+            "Un buono del venti per cento.",
+            "Il venti per cento in denaro o un buono più alto.",
+            "Una settimana gratis nello stesso appartamento."
+          ],
+          "answer": 2,
+          "explanation": "Venti per cento in denaro oppure buono del trentacinque per cento."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-04-l3-e05",
+          "instruction": "Abbina ogni espressione alla sua funzione.",
+          "pairs": [
+            {
+              "left": "Mi rendo conto che…",
+              "right": "riconoscere il punto dell'altro"
+            },
+            {
+              "left": "Non pretendo…, ma…",
+              "right": "attenuare una richiesta"
+            },
+            {
+              "left": "Sarei disposto ad accettare…",
+              "right": "fare una concessione"
+            },
+            {
+              "left": "Se mi veniste incontro, …",
+              "right": "proporre un compromesso"
+            },
+            {
+              "left": "Altrimenti mi rivolgerò a…",
+              "right": "avvertire di una conseguenza"
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-04-l3-e06",
+          "instruction": "Completa la frase.",
+          "sentence": "Se mi ___ (rimborsare, voi) almeno il trenta per cento, considererei chiusa la questione.",
+          "answers": [
+            "rimborsaste"
+          ],
+          "hint": "rimborsare – voi",
+          "explanation": "Proposta ipotetica: se + congiuntivo imperfetto → condizionale."
+        },
+        {
+          "type": "roleplay",
+          "id": "b2-04-l3-e07",
+          "instruction": "Role-play: rispondi ad alta voce quando tocca a te.",
+          "scenario": "Chiami l'assistenza clienti dell'agenzia Case al Mare per trattare il rimborso dopo il tuo reclamo. Usa il Lei.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Assistenza clienti, buongiorno, sono Federica. Come posso aiutarla?"
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, la chiamo in merito al reclamo che ho inviato la settimana scorsa per il Bilocale vista mare.",
+              "hint": "Presentati e spiega il motivo: in merito a…",
+              "keywords": [
+                "in merito",
+                "reclamo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, ho la pratica davanti. Come le abbiamo scritto, possiamo offrirle un rimborso del venti per cento."
+            },
+            {
+              "speaker": "you",
+              "text": "Mi rendo conto che non è colpa sua, ma mi aspettavo che l'annuncio fosse corretto. Il venti per cento mi sembra poco.",
+              "hint": "Riconosci il suo punto, poi esprimi l'aspettativa delusa.",
+              "keywords": [
+                "mi aspettavo che",
+                "fosse"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Capisco. Lei che cosa proporrebbe?"
+            },
+            {
+              "speaker": "you",
+              "text": "Se mi rimborsaste il quaranta per cento, considererei chiusa la questione.",
+              "hint": "Fai una proposta con se + congiuntivo imperfetto.",
+              "keywords": [
+                "se mi rimborsaste",
+                "considererei"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Il quaranta è difficile… Posso arrivare al trenta per cento in denaro."
+            },
+            {
+              "speaker": "you",
+              "text": "Va bene, sarei disposto ad accettare il trenta per cento. Me lo potrebbe confermare per email?",
+              "hint": "Accetta il compromesso e chiedi una conferma scritta.",
+              "keywords": [
+                "sarei disposto",
+                "email"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo, le mando la conferma oggi stesso. Il bonifico arriverà entro quindici giorni."
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto, la ringrazio per la disponibilità. Buona giornata.",
+              "hint": "Ringrazia e saluta.",
+              "keywords": [
+                "ringrazio"
+              ]
+            }
+          ],
+          "explanation": "Hai riconosciuto, attenuato, proposto e chiuso con una conferma scritta: la sequenza ideale di una trattativa."
+        },
+        {
+          "type": "translate",
+          "id": "b2-04-l3-e08",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Sarei disposto ad accettare un buono.",
+          "answers": [
+            "I would be willing to accept a voucher.",
+            "I would be willing to accept a coupon.",
+            "I would be willing to accept a credit note.",
+            "I would be prepared to accept a voucher.",
+            "I would be prepared to accept a coupon.",
+            "I would be prepared to accept a credit note.",
+            "I'd be willing to accept a voucher.",
+            "I'd be willing to accept a coupon.",
+            "I'd be willing to accept a credit note.",
+            "I'd be prepared to accept a voucher.",
+            "I'd be prepared to accept a coupon.",
+            "I'd be prepared to accept a credit note."
+          ],
+          "explanation": "Essere disposto a = to be willing to."
+        },
+        {
+          "type": "reading",
+          "id": "b2-04-l3-e09",
+          "instruction": "Lettura (stile CELI): leggi l'email e rispondi.",
+          "title": "La risposta dell'agenzia",
+          "passage": "Gentile Cliente,\nabbiamo ricevuto il Suo reclamo del 14 agosto relativo al soggiorno presso l'appartamento «Bilocale vista mare» e ci scusiamo per i disagi.\nAbbiamo verificato con la proprietaria che il condizionatore del soggiorno era effettivamente guasto e che il tecnico è intervenuto in ritardo. Per quanto riguarda la distanza dalla spiaggia, ci rendiamo conto che la descrizione poteva risultare poco chiara e provvederemo a correggerla.\nNon ci è possibile rimborsare l'intero soggiorno, ma desideriamo venirLe incontro: Le proponiamo un rimborso del 30% oppure un buono del 35% da utilizzare entro dodici mesi presso qualsiasi struttura del nostro catalogo. La preghiamo di comunicarci la Sua scelta entro il 30 settembre.\nCordiali saluti,\nUfficio Assistenza Clienti – Case al Mare",
+          "questions": [
+            {
+              "question": "Che cosa ammette l'agenzia?",
+              "options": [
+                "Che la casa era sporca.",
+                "Che il condizionatore era guasto e il tecnico è arrivato tardi.",
+                "Che la proprietaria è stata scortese.",
+                "Che il prezzo era troppo alto."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa farà l'agenzia con l'annuncio?",
+              "options": [
+                "Lo toglierà dal sito.",
+                "Lo lascerà così com'è.",
+                "Lo correggerà.",
+                "Abbasserà il prezzo."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa deve fare il cliente entro il 30 settembre?",
+              "options": [
+                "Comunicare se preferisce il rimborso o il buono.",
+                "Usare il buono.",
+                "Inviare le foto dell'appartamento.",
+                "Pagare il resto del soggiorno."
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Nota le formule formali: relativo a, per quanto riguarda, provvederemo a, La preghiamo di."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-04-l3-e10",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Se l'agenzia mi offrirebbe un buono più alto, lo accetterei.",
+          "answers": [
+            "Se l'agenzia mi offrisse un buono più alto, lo accetterei.",
+            "Se l'agenzia mi offrisse un buono più alto lo accetterei.",
+            "Accetterei un buono più alto se l'agenzia me lo offrisse."
+          ],
+          "explanation": "Dopo se → congiuntivo imperfetto: offrisse."
+        },
+        {
+          "type": "free_write",
+          "id": "b2-04-l3-e11",
+          "instruction": "Scrittura (stile CELI, registro informale).",
+          "prompt": "Scrivi un'email a un amico o a un'amica (120–180 parole) per raccontare tutta la storia della vacanza: che cosa vi aspettavate, che cosa non ha funzionato, come hai trattato con l'agenzia e com'è finita. Usa un registro informale.",
+          "minWords": 120,
+          "checklist": [
+            "Ho usato un registro informale (Ciao…, tu, un abbraccio) diverso da quello del reclamo.",
+            "Ho usato pensavo / speravo che + congiuntivo imperfetto per le aspettative.",
+            "Ho usato almeno un condizionale passato (avrei voluto, avrebbe mandato…).",
+            "Ho usato almeno un periodo ipotetico (tipo 1 o 2).",
+            "Ho espresso un'emozione con mi dispiace / sono contento che + congiuntivo.",
+            "Ho scritto tra 120 e 180 parole."
+          ],
+          "modelAnswer": "Ciao Laura,\nti racconto com'è finita la storia della casa al mare! Ti ricordi le foto? Pensavamo che fosse a due passi dalla spiaggia e che la zona fosse tranquillissima. Invece il mare era a un chilometro e sotto le finestre c'era un bar aperto fino alle due. In più il condizionatore funzionava solo in camera e il tecnico, che doveva venire il giorno dopo, è arrivato dopo tre giorni!\nAl ritorno ho scritto un reclamo all'agenzia. All'inizio mi hanno offerto solo il venti per cento, così li ho chiamati e ho detto che con il quaranta avrei chiuso la questione. Alla fine ci siamo accordati sul trenta per cento: non è il massimo, ma sono contento che abbiano riconosciuto i problemi.\nComunque la prossima volta, se prenoto qualcosa online, chiedo prima foto recenti! E tu, com'è andata la vacanza in montagna?\nUn bacio,\nRichard"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-04-l3-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Un amico ti chiede: «Allora, com'è finita con l'agenzia?» Rispondi in 3–4 frasi: che cosa ti hanno offerto, che cosa hai proposto tu e com'è finita.",
+          "keywords": [
+            "offerto",
+            "proposto",
+            "alla fine"
+          ],
+          "modelAnswer": "Mi hanno offerto il venti per cento, ma mi sembrava poco. Ho proposto il quaranta, perché mi aspettavo che l'annuncio fosse corretto. Alla fine ci siamo accordati sul trenta per cento e mi hanno mandato la conferma per email.",
+          "explanation": "Passato prossimo per gli eventi, congiuntivo imperfetto per le aspettative."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il reclamo",
+      "en": "complaint",
+      "example": "Ho inviato un reclamo all'agenzia."
+    },
+    {
+      "it": "l'annuncio (m.)",
+      "en": "advert, listing",
+      "example": "L'appartamento non corrispondeva all'annuncio."
+    },
+    {
+      "it": "corrispondere a",
+      "en": "to match, correspond to",
+      "example": "La casa non corrispondeva alla descrizione."
+    },
+    {
+      "it": "il soggiorno",
+      "en": "stay; living room",
+      "example": "Vi scrivo in merito al soggiorno dal 3 al 10 agosto."
+    },
+    {
+      "it": "il disagio",
+      "en": "inconvenience, discomfort",
+      "example": "Ci scusiamo per i disagi."
+    },
+    {
+      "it": "segnalare",
+      "en": "to report, point out",
+      "example": "Abbiamo segnalato subito il problema."
+    },
+    {
+      "it": "in merito a",
+      "en": "regarding",
+      "example": "Vi scrivo in merito alla prenotazione n. 4521."
+    },
+    {
+      "it": "la somma versata",
+      "en": "amount paid",
+      "example": "Chiedo il rimborso del 40% della somma versata."
+    },
+    {
+      "it": "il buono",
+      "en": "voucher",
+      "example": "Ci hanno offerto un buono del 35%."
+    },
+    {
+      "it": "venire incontro a qualcuno",
+      "en": "to meet someone halfway",
+      "example": "L'agenzia ha deciso di venirci incontro."
+    },
+    {
+      "it": "essere disposto a",
+      "en": "to be willing to",
+      "example": "Sarei disposto ad accettare un compromesso."
+    },
+    {
+      "it": "rendersi conto (che)",
+      "en": "to realise (that)",
+      "example": "Mi rendo conto che non è colpa Sua."
+    },
+    {
+      "it": "pretendere",
+      "en": "to demand, expect (strongly)",
+      "example": "Non pretendo il rimborso totale."
+    },
+    {
+      "it": "il riscontro",
+      "en": "reply, feedback (formal)",
+      "example": "Resto in attesa di un Vostro cortese riscontro."
+    },
+    {
+      "it": "l'associazione dei consumatori (f.)",
+      "en": "consumer association",
+      "example": "Se non rispondono, mi rivolgerò a un'associazione dei consumatori."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b2-04-t1",
+      "rule": "Mi aspettavo che + cong. imperf.",
+      "tip": "Disappointed expectations: mi aspettavo / pensavo che + congiuntivo imperfetto: mi aspettavo che fosse pulito.",
+      "example": {
+        "it": "Mi aspettavo che l'annuncio fosse corretto.",
+        "en": "I expected the ad to be accurate."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa la frase.",
+        "sentence": "Mi aspettavo che il tecnico ___ (venire) il giorno dopo.",
+        "answers": [
+          "venisse"
+        ],
+        "hint": "venire – lui"
+      }
+    },
+    {
+      "id": "b2-04-t2",
+      "rule": "Vi sarei grato se…",
+      "tip": "Formal request: Vi sarei grato/a se + congiuntivo imperfetto: se poteste, se rispondeste.",
+      "example": {
+        "it": "Vi sarei grato se poteste rispondermi entro venerdì.",
+        "en": "I'd be grateful if you could reply by Friday."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "instruction": "Scegli la risposta giusta.",
+        "prompt": "Le sarei grato se mi ___ il modulo.",
+        "options": [
+          "manda",
+          "mandasse",
+          "manderebbe",
+          "abbia mandato"
+        ],
+        "answer": 1,
+        "explanation": "Lei → mandasse (congiuntivo imperfetto, 3ª persona)."
+      }
+    },
+    {
+      "id": "b2-04-t3",
+      "rule": "Ritengo giusto che…",
+      "tip": "Present main verb (ritengo giusto, è giusto che) → congiuntivo presente: ritengo giusto che mi rimborsiate.",
+      "example": {
+        "it": "È giusto che l'agenzia paghi i danni.",
+        "en": "It's right that the agency should pay for the damage."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa la frase.",
+        "sentence": "Ritengo giusto che mi ___ (rimborsare, voi) il 40%.",
+        "answers": [
+          "rimborsiate"
+        ],
+        "hint": "rimborsare – voi"
+      }
+    },
+    {
+      "id": "b2-04-t4",
+      "rule": "Proposta: se + cong. → condiz.",
+      "tip": "Make a soft offer in a negotiation: Se mi rimborsaste il 40%, considererei chiusa la questione.",
+      "example": {
+        "it": "Se mi veniste incontro, accetterei.",
+        "en": "If you met me halfway, I'd accept."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "instruction": "C'è un errore. Riscrivi la frase corretta.",
+        "sentence": "Se mi offrireste un buono, lo accetterei.",
+        "answers": [
+          "Se mi offriste un buono, lo accetterei.",
+          "Se mi offriste un buono lo accetterei."
+        ],
+        "explanation": "Dopo se → congiuntivo imperfetto: offriste."
+      }
+    },
+    {
+      "id": "b2-04-t5",
+      "rule": "Ha detto che avrebbe…",
+      "tip": "Reporting a promise made in the past: condizionale passato. Ha detto che avrebbe mandato un tecnico.",
+      "example": {
+        "it": "Mi hanno detto che avrebbero risposto entro lunedì.",
+        "en": "They told me they would reply by Monday."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa la frase.",
+        "sentence": "La proprietaria ha detto che ___ (mandare) un tecnico.",
+        "answers": [
+          "avrebbe mandato"
+        ],
+        "hint": "mandare – lei"
+      }
+    }
+  ]
+}

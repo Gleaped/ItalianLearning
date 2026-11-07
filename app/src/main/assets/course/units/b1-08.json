@@ -1,0 +1,888 @@
+{
+  "id": "b1-08",
+  "level": "B1",
+  "title": "Ripasso 2",
+  "objective": "By the end you can book and reschedule an appointment, understand and give instructions, and plan an outing, combining the conditional, the imperative and the future.",
+  "grammarFocus": "Review of b1-05 to b1-07: si impersonale and imperative (tu/Lei with pronouns), condizionale presente for requests and advice, futuro semplice and anteriore for plans and promises.",
+  "remedialUnitIds": [
+    "a2r-04",
+    "a2r-06"
+  ],
+  "lessons": [
+    {
+      "id": "b1-08-l1",
+      "title": "Vorrei prenotare una visita",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l1-e01",
+          "instruction": "Riscaldamento: completa con il condizionale.",
+          "sentence": "Buongiorno, ___ (volere) prenotare una visita dal dermatologo.",
+          "answers": [
+            "vorrei"
+          ],
+          "hint": "volere – io",
+          "explanation": "Vorrei is the standard polite way to ask for something."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-08-l1-e02",
+          "instruction": "Riscaldamento: scegli l'imperativo formale (Lei).",
+          "prompt": "Signora, ___ pure, il dottore arriva subito.",
+          "options": [
+            "si accomodi",
+            "accomodati",
+            "si accomoda",
+            "accomodarsi"
+          ],
+          "answer": 0,
+          "explanation": "Lei imperative of a reflexive verb: the pronoun goes before – si accomodi. Accomodati is the tu form."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-08-l1-e03",
+          "title": "Ripasso: chiedere, consigliare, organizzare",
+          "body": "Three tools you need in any phone call or at any counter:\n\n**1. Condizionale** – polite requests and advice\n- *Vorrei…, Potrebbe…?, Le dispiacerebbe…?, Sarebbe possibile…?*\n- advice: *Dovrebbe / Dovresti…, Al suo posto io…*\n\n**2. Futuro** – promises, plans and arrangements\n- *La richiamerò domani. Sarò lì alle nove.*\n- *Appena avrò ricevuto l'esito, prenoterò.* (futuro anteriore for what comes first)\n\n**3. Imperativo** – instructions\n- **Lei**: pronouns *before* the verb – *Mi dica. Lo compili. Me lo mandi.*\n- **tu**: pronouns *attached* – *Dimmi. Compilalo. Mandamelo.*\n- negative tu: *non* + infinitive – *Non dimenticarlo / Non lo dimenticare.*",
+          "examples": [
+            {
+              "it": "Sarebbe possibile spostare l'appuntamento?",
+              "en": "Would it be possible to move the appointment?"
+            },
+            {
+              "it": "Al suo posto, chiederei un certificato.",
+              "en": "If I were you, I'd ask for a certificate."
+            },
+            {
+              "it": "La richiamerò appena avrò parlato con il medico.",
+              "en": "I'll call you back as soon as I've spoken to the doctor."
+            },
+            {
+              "it": "Porti l'impegnativa e la tessera sanitaria.",
+              "en": "Bring the referral and your health card."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-08-l1-e04",
+          "instruction": "Ascolta il messaggio registrato e rispondi.",
+          "audioText": "Buongiorno, ha chiamato il Centro Unico di Prenotazione. Per prenotare una visita specialistica, prema uno. Per disdire o spostare un appuntamento, prema due. Per informazioni sugli orari, prema tre. Per parlare con un operatore, resti in linea.",
+          "question": "Che cosa deve fare chi vuole spostare un appuntamento?",
+          "options": [
+            "Premere uno.",
+            "Premere due.",
+            "Premere tre.",
+            "Restare in linea."
+          ],
+          "answer": 1,
+          "explanation": "Recorded messages use the Lei imperative: prema, resti."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-08-l1-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Dottore, che cosa mi consiglia? – ___ bere più acqua e dormire di più.",
+          "options": [
+            "Dovrebbe",
+            "Dovrà essere",
+            "Debba",
+            "Dovesse"
+          ],
+          "answer": 0,
+          "explanation": "Advice is softened with the conditional: dovrebbe."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l1-e06",
+          "instruction": "Completa con il condizionale (Lei).",
+          "sentence": "Mi ___ (potere) dire se c'è posto giovedì?",
+          "answers": [
+            "potrebbe",
+            "può"
+          ],
+          "hint": "potere – Lei",
+          "explanation": "Potrebbe is more polite than può, but both are correct."
+        },
+        {
+          "type": "translate",
+          "id": "b1-08-l1-e07",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "Would it be possible to move the appointment to next week?",
+          "answers": [
+            "Sarebbe possibile spostare l'appuntamento alla settimana prossima?",
+            "Sarebbe possibile spostare l'appuntamento alla prossima settimana?",
+            "Sarebbe possibile spostare l'appuntamento la settimana prossima?",
+            "Sarebbe possibile spostare l'appuntamento la prossima settimana?",
+            "Si potrebbe spostare l'appuntamento alla settimana prossima?",
+            "Si potrebbe spostare l'appuntamento alla prossima settimana?",
+            "Si potrebbe spostare l'appuntamento la settimana prossima?",
+            "Potrei spostare l'appuntamento alla settimana prossima?",
+            "Potrei spostare l'appuntamento alla prossima settimana?",
+            "Potrei spostare l'appuntamento la settimana prossima?",
+            "Potremmo spostare l'appuntamento alla settimana prossima?",
+            "Potremmo spostare l'appuntamento alla prossima settimana?",
+            "Potremmo spostare l'appuntamento la settimana prossima?"
+          ],
+          "explanation": "Sarebbe possibile + infinitive is a polite, all-purpose request."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l1-e08",
+          "instruction": "Completa con il futuro semplice.",
+          "sentence": "Va bene, allora la ___ (richiamare) domani mattina.",
+          "answers": [
+            "richiamerò"
+          ],
+          "hint": "richiamare – io",
+          "explanation": "La richiamerò = I'll call you back (Lei). A promise: futuro."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-08-l1-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "As soon as I've received the results, I'll book the appointment.",
+          "tiles": [
+            "Appena",
+            "avrò",
+            "ricevuto",
+            "i",
+            "risultati",
+            "prenoterò",
+            "la",
+            "visita"
+          ],
+          "distractors": [
+            "ricevevo",
+            "prenotavo"
+          ],
+          "explanation": "Futuro anteriore for the first action, futuro semplice for the second."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-08-l1-e10",
+          "instruction": "Telefoni al CUP per prenotare una visita. Rispondi ad alta voce.",
+          "scenario": "You call the CUP (the regional booking centre) to book an eye examination. You have a referral from your doctor (l'impegnativa).",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "CUP, buongiorno. Mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, vorrei prenotare una visita oculistica.",
+              "hint": "Polite request: vorrei…",
+              "keywords": [
+                "vorrei",
+                "prenotare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ha l'impegnativa del medico?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, ce l'ho. Gliela leggo?",
+              "hint": "Say you have it (ce l'ho) and offer to read it to her.",
+              "keywords": [
+                "ce l'ho"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, grazie. ... Allora, il primo posto disponibile è il 14 marzo alle otto e mezza, all'ospedale San Carlo."
+            },
+            {
+              "speaker": "you",
+              "text": "È un po' tardi. Non ci sarebbe qualcosa prima?",
+              "hint": "Ask politely for an earlier slot (condizionale).",
+              "keywords": [
+                "sarebbe",
+                "prima"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mi dispiace, prima non c'è niente. Posso metterla in lista d'attesa, se vuole."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, grazie. Intanto prenoto il 14. Che cosa devo portare?",
+              "hint": "Accept, book the 14th and ask what to bring.",
+              "keywords": [
+                "portare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Porti l'impegnativa, la tessera sanitaria e la ricevuta del ticket. E arrivi quindici minuti prima."
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto. Allora il 14 sarò lì alle otto e un quarto. Grazie mille!",
+              "hint": "Confirm with a future.",
+              "keywords": [
+                "sarò"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie a lei, buona giornata."
+            }
+          ],
+          "explanation": "Condizionale to ask, ce l'ho / gliela to refer back, futuro to confirm. The operator's instructions were Lei imperatives: porti, arrivi."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-08-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Le dispiacerebbe ripetere il numero di prenotazione?",
+          "translation": "Would you mind repeating the booking number?"
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-08-l1-e12",
+          "front": "disdire (un appuntamento)",
+          "back": "to cancel (an appointment, a booking)",
+          "example": "Se non può venire, disdica almeno due giorni prima."
+        }
+      ]
+    },
+    {
+      "id": "b1-08-l2",
+      "title": "Come si fa? Istruzioni e procedure",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "conjugation",
+          "id": "b1-08-l2-e01",
+          "instruction": "Riscaldamento: scrivi l'imperativo di prendere.",
+          "verb": "prendere",
+          "tense": "imperativo",
+          "items": [
+            {
+              "person": "tu",
+              "answer": "prendi"
+            },
+            {
+              "person": "Lei",
+              "answer": "prenda"
+            },
+            {
+              "person": "noi",
+              "answer": "prendiamo"
+            },
+            {
+              "person": "voi",
+              "answer": "prendete"
+            }
+          ],
+          "explanation": "-ere/-ire verbs: tu -i, Lei -a. (-are verbs swap: tu parla, Lei parli.)"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l2-e02",
+          "instruction": "Riscaldamento: completa con il si impersonale.",
+          "sentence": "In questo bar ___ (pagare) prima alla cassa.",
+          "answers": [
+            "si paga"
+          ],
+          "hint": "si + pagare",
+          "explanation": "Si + 3rd person singular: si paga = you pay / people pay."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-08-l2-e03",
+          "title": "Istruzioni: si, tu, Lei",
+          "body": "**Si impersonale / passivante** – how things are done in general\n- *Si paga alla cassa.* / with a plural noun the verb is plural: *Si accettano solo carte.*\n- with a modal: *Si deve prenotare. Si possono portare due bagagli.*\n- reflexive verbs need **ci si**: *Ci si iscrive online.*\n- written instructions often use the **infinitive**: *Compilare il modulo in stampatello.*\n\n**Imperativo + pronomi**\n- tu: attached – *Compilalo. Mandamelo. Fammi sapere.* (da', di', fa', sta', va' double the consonant: *dimmi, fammi, dammi*)\n- Lei: before – *Lo compili. Me lo mandi. Mi faccia sapere.*\n- negative tu: *Non preoccuparti / Non ti preoccupare.* Negative Lei: *Non si preoccupi.*",
+          "examples": [
+            {
+              "it": "Si compila il modulo e si porta allo sportello.",
+              "en": "You fill in the form and take it to the counter."
+            },
+            {
+              "it": "Non si accettano contanti.",
+              "en": "Cash is not accepted."
+            },
+            {
+              "it": "Fammi sapere quando arrivi.",
+              "en": "Let me know when you arrive."
+            },
+            {
+              "it": "Me lo mandi per email, per favore.",
+              "en": "Please send it to me by email."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "b1-08-l2-e04",
+          "instruction": "Leggi l'avviso dell'Anagrafe e rispondi alle domande.",
+          "title": "Carta d'identità elettronica: come fare",
+          "passage": "Per richiedere la carta d'identità elettronica si prenota un appuntamento online sul sito del Comune oppure si telefona all'Ufficio Anagrafe, dal lunedì al venerdì dalle 9 alle 12. Il giorno dell'appuntamento si devono portare: una fototessera recente, il vecchio documento oppure, in caso di furto o smarrimento, la copia della denuncia, e la tessera sanitaria. Si paga allo sportello solo con carta o bancomat: non si accettano contanti. La carta non si ritira in Comune: arriva per posta all'indirizzo indicato.",
+          "questions": [
+            {
+              "question": "Come si prenota l'appuntamento?",
+              "options": [
+                "Solo di persona.",
+                "Online o per telefono.",
+                "Per posta.",
+                "Con un'email al sindaco."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa si porta se il vecchio documento è stato rubato?",
+              "options": [
+                "Niente.",
+                "Due fototessere.",
+                "La copia della denuncia.",
+                "Il passaporto."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Come si riceve la nuova carta?",
+              "options": [
+                "Si ritira allo sportello.",
+                "Arriva per posta.",
+                "Si scarica dal sito.",
+                "La porta un vigile."
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Notice the si forms: si prenota, si devono portare, si paga, non si accettano, non si ritira."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-08-l2-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Scusi, dove ___ lo scontrino? – Alla cassa, a sinistra.",
+          "options": [
+            "si fa",
+            "si fanno",
+            "ci si fa",
+            "si facciamo"
+          ],
+          "answer": 0,
+          "explanation": "Lo scontrino is singular, so si fa."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l2-e06",
+          "instruction": "Completa con il si passivante.",
+          "sentence": "In questo negozio non ___ (accettare) carte di credito.",
+          "answers": [
+            "si accettano"
+          ],
+          "hint": "si + accettare",
+          "explanation": "Carte di credito is plural, so the verb is plural: si accettano."
+        },
+        {
+          "type": "translate",
+          "id": "b1-08-l2-e07",
+          "instruction": "Traduci in italiano. Parli a un amico (tu); it = il modulo.",
+          "direction": "en_it",
+          "source": "Fill it in and send it to me by Friday.",
+          "answers": [
+            "Compilalo e mandamelo entro venerdì.",
+            "Compilalo e inviamelo entro venerdì.",
+            "Compilalo e spediscimelo entro venerdì.",
+            "Riempilo e mandamelo entro venerdì.",
+            "Riempilo e inviamelo entro venerdì.",
+            "Riempilo e spediscimelo entro venerdì."
+          ],
+          "explanation": "Tu imperative: pronouns attached, indirect before direct – manda + me + lo = mandamelo."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-08-l2-e08",
+          "instruction": "C'è un errore di registro. Riscrivi la frase corretta (Lei).",
+          "sentence": "Signora, dammi il suo codice fiscale, per favore.",
+          "answers": [
+            "Signora, mi dia il suo codice fiscale, per favore.",
+            "Signora mi dia il suo codice fiscale per favore.",
+            "Signora, mi dia il codice fiscale, per favore.",
+            "Signora mi dia il codice fiscale per favore.",
+            "Signora, mi può dare il suo codice fiscale, per favore?",
+            "Signora mi può dare il suo codice fiscale per favore?",
+            "Signora, mi potrebbe dare il suo codice fiscale, per favore?",
+            "Signora mi potrebbe dare il suo codice fiscale per favore?"
+          ],
+          "explanation": "With Lei the imperative of dare is dia, and the pronoun goes before: mi dia."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-08-l2-e09",
+          "instruction": "Abbina la forma con tu alla forma con Lei.",
+          "pairs": [
+            {
+              "left": "Dimmi.",
+              "right": "Mi dica."
+            },
+            {
+              "left": "Fammi sapere.",
+              "right": "Mi faccia sapere."
+            },
+            {
+              "left": "Aspettami qui.",
+              "right": "Mi aspetti qui."
+            },
+            {
+              "left": "Non preoccuparti.",
+              "right": "Non si preoccupi."
+            },
+            {
+              "left": "Vieni pure.",
+              "right": "Venga pure."
+            }
+          ],
+          "explanation": "Lei imperative: pronouns before the verb, and the endings swap (-a for -ere/-ire verbs, -i for -are verbs)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-08-l2-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Si compila il modulo e si porta allo sportello con un documento.",
+          "answers": [
+            "Si compila il modulo e si porta allo sportello con un documento."
+          ],
+          "slow": false,
+          "explanation": "Two si + verb forms in a row – very typical of instructions."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-08-l2-e11",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Un amico deve fare l'abbonamento mensile dell'autobus. Spiegagli come si fa: usa il si impersonale e l'imperativo con tu.",
+          "keywords": [
+            "si",
+            "vai",
+            "porta"
+          ],
+          "modelAnswer": "È facile: vai in biglietteria o scarica l'app dell'azienda dei trasporti. Si compila un modulo, si porta una fototessera e si paga con la carta. Porta anche un documento, perché te lo chiedono sempre.",
+          "explanation": "Si for the general procedure, tu imperative for direct advice to your friend."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-08-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Mi faccia sapere quando sarà pronto, per favore.",
+          "translation": "Let me know when it's ready, please."
+        }
+      ]
+    },
+    {
+      "id": "b1-08-l3",
+      "title": "Prova in stile esame",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-08-l3-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Quando ___ tutti i documenti, li porterò allo sportello.",
+          "options": [
+            "avrò preparato",
+            "avrei preparato",
+            "preparavo",
+            "sarò preparato"
+          ],
+          "answer": 0,
+          "explanation": "Preparing comes before taking: futuro anteriore with avere."
+        },
+        {
+          "type": "reading",
+          "id": "b1-08-l3-e02",
+          "instruction": "Completa l'email: scegli la parola giusta per ogni spazio.",
+          "title": "Intervento sulla caldaia",
+          "passage": "Gentile signor Neri,\nle scrivo per organizzare l'intervento sulla caldaia. Il tecnico (1) ______ da lei martedì prossimo tra le 9 e le 11. (2) ______ così gentile da lasciare libero l'accesso al balcone? Se martedì non le va bene, mi (3) ______ sapere entro venerdì e (4) ______ un'altra data. Appena il tecnico (5) ______ il lavoro, le manderò la fattura.\nCordiali saluti,\nStudio Ferri – Amministrazione condomini",
+          "questions": [
+            {
+              "question": "(1)",
+              "options": [
+                "passerà",
+                "passava",
+                "passi",
+                "sarà passato"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "(2)",
+              "options": [
+                "Sarà",
+                "Sarebbe",
+                "Era",
+                "Sia"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "(3)",
+              "options": [
+                "fa",
+                "fai",
+                "faccia",
+                "farebbe"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "(4)",
+              "options": [
+                "cercheremo",
+                "cercavamo",
+                "cercato",
+                "cercando"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "(5)",
+              "options": [
+                "finiva",
+                "avrà finito",
+                "sarà finito",
+                "finisca"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "(1) future plan; (2) polite conditional; (3) Lei imperative mi faccia sapere; (4) future promise; (5) appena + futuro anteriore."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l3-e03",
+          "instruction": "Trasforma la richiesta con il condizionale.",
+          "sentence": "Mi dà il modulo? → ___ darmi il modulo?",
+          "answers": [
+            "Potrebbe",
+            "Le dispiacerebbe"
+          ],
+          "hint": "potere / dispiacere – Lei",
+          "explanation": "Potrebbe darmi…? or Le dispiacerebbe darmi…? – both more polite than mi dà…?"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l3-e04",
+          "instruction": "Riscrivi con i pronomi combinati.",
+          "sentence": "Mandi a me i documenti. → ___ mandi.",
+          "answers": [
+            "Me li"
+          ],
+          "hint": "a me + i documenti",
+          "explanation": "Lei imperative: the combined pronoun goes before – me li mandi."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-08-l3-e05",
+          "instruction": "Trasforma con il si impersonale.",
+          "sentence": "In questo ufficio la gente aspetta molto. → In questo ufficio ___ molto.",
+          "answers": [
+            "si aspetta"
+          ],
+          "hint": "si + aspettare",
+          "explanation": "La gente aspetta = si aspetta."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-08-l3-e06",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Dopo che avrò mangiato, ti chiamerei.",
+          "answers": [
+            "Dopo che avrò mangiato, ti chiamerò.",
+            "Dopo che avrò mangiato ti chiamerò.",
+            "Ti chiamerò dopo che avrò mangiato."
+          ],
+          "explanation": "A promise in the future needs the futuro semplice: ti chiamerò. Chiamerei would mean 'I would call'."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-08-l3-e07",
+          "instruction": "Ascolta il messaggio vocale di Francesca e rispondi.",
+          "audioText": "Ciao! Allora, per sabato ho pensato una cosa: partiamo alle nove e andiamo al lago in treno. Arriveremo verso le dieci e mezza. Porta il costume e la crema, e non dimenticare il pranzo, perché lì i ristoranti costano un occhio della testa. Se piove, invece, potremmo andare al museo. Fammi sapere entro giovedì!",
+          "question": "Che cosa devi fare se vuoi andare con Francesca?",
+          "options": [
+            "Prenotare il ristorante.",
+            "Rispondere entro giovedì.",
+            "Comprare i biglietti del museo.",
+            "Partire alle dieci e mezza."
+          ],
+          "answer": 1,
+          "explanation": "Fammi sapere entro giovedì = let me know by Thursday. Costare un occhio della testa = to cost an arm and a leg."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-08-l3-e08",
+          "instruction": "Organizzi una gita con un amico (tu). Rispondi ad alta voce.",
+          "scenario": "You and your friend Matteo are planning a day trip to the mountains next Sunday. Make the plan, give instructions and suggestions.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Allora, domenica che facciamo? Andiamo in montagna?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì! Partiremo presto, verso le sette, così eviteremo il traffico.",
+              "hint": "Say when you'll leave (futuro).",
+              "keywords": [
+                "partiremo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Le sette? Va bene... E come ci andiamo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Potremmo prendere la mia macchina. Tu porta i panini, io porto l'acqua.",
+              "hint": "Suggest (condizionale) and give an instruction (tu).",
+              "keywords": [
+                "potremmo",
+                "porta"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto. E se piove?"
+            },
+            {
+              "speaker": "you",
+              "text": "Se pioverà, andremo al museo della montagna. Controlla le previsioni sabato sera e fammi sapere.",
+              "hint": "Se + futuro; then two tu imperatives.",
+              "keywords": [
+                "se pioverà",
+                "fammi sapere"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "D'accordo. Ti scrivo sabato sera, appena avrò visto il meteo."
+            },
+            {
+              "speaker": "you",
+              "text": "Ottimo, a domenica allora!",
+              "hint": "Close the conversation.",
+              "keywords": [
+                "domenica"
+              ]
+            }
+          ],
+          "explanation": "Futuro for the plan, condizionale to suggest, tu imperative for instructions, se + futuro for the alternative."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-08-l3-e09",
+          "instruction": "Scrivi un'email formale (stile esame).",
+          "prompt": "Rispondi all'email dello Studio Ferri (80–110 parole). Martedì mattina non sei a casa: chiedi gentilmente di spostare l'intervento, proponi due alternative, spiega come entrerà il tecnico se tu non ci sarai e chiedi una conferma.",
+          "minWords": 80,
+          "checklist": [
+            "Ho usato un saluto e una chiusura formali (Gentile…, Cordiali saluti).",
+            "Ho fatto la richiesta con il condizionale (sarebbe possibile, potrei, vorrei).",
+            "Ho usato il futuro per i miei impegni (sarò, avrò…).",
+            "Ho usato almeno un imperativo con Lei (mi faccia sapere, mi chiami…).",
+            "Ho dato del Lei in tutta l'email."
+          ],
+          "modelAnswer": "Gentile amministratore,\nla ringrazio per l'email e per l'organizzazione dell'intervento. Purtroppo martedì mattina sarò al lavoro fuori città e non potrò essere a casa. Sarebbe possibile spostare l'intervento a mercoledì pomeriggio o a giovedì dopo le 17? Se per il tecnico queste date non vanno bene, potrei lasciare le chiavi alla portinaia: in questo caso il tecnico dovrebbe solo passare a prenderle e riportargliele alla fine del lavoro. Il balcone sarà libero. Mi faccia sapere quale soluzione preferisce, così mi organizzerò.\nCordiali saluti,\nRichard"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-08-l3-e10",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Un amico arriva in Italia per la prima volta e ti chiede consigli pratici. Che cosa dovrebbe fare appena arriva?",
+          "keywords": [
+            "dovresti",
+            "ti consiglio"
+          ],
+          "modelAnswer": "Appena arrivi, dovresti fare la tessera dell'autobus, perché si risparmia molto. Ti consiglio anche di scaricare l'app della farmacia di turno. E non dimenticare: al bar si paga prima alla cassa!",
+          "explanation": "Condizionale for advice, imperative for direct instructions, si for general rules."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-08-l3-e11",
+          "front": "fare sapere (a qualcuno)",
+          "back": "to let (someone) know",
+          "example": "Mi faccia sapere entro venerdì, per favore."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'impegnativa (f.)",
+      "en": "doctor's referral (for tests or specialists)",
+      "example": "Per la visita serve l'impegnativa del medico."
+    },
+    {
+      "it": "la tessera sanitaria",
+      "en": "health insurance card",
+      "example": "Porti la tessera sanitaria, per favore."
+    },
+    {
+      "it": "il ticket",
+      "en": "patient's contribution fee (healthcare)",
+      "example": "Il ticket si paga prima della visita."
+    },
+    {
+      "it": "la lista d'attesa",
+      "en": "waiting list",
+      "example": "Mi hanno messo in lista d'attesa."
+    },
+    {
+      "it": "spostare (un appuntamento)",
+      "en": "to move, to reschedule",
+      "example": "Potrei spostare l'appuntamento a giovedì?"
+    },
+    {
+      "it": "disdire (disdetto)",
+      "en": "to cancel (a booking)",
+      "example": "Ho disdetto la prenotazione."
+    },
+    {
+      "it": "restare in linea",
+      "en": "to hold the line",
+      "example": "Resti in linea, la passo a un operatore."
+    },
+    {
+      "it": "il modulo",
+      "en": "form",
+      "example": "Compili il modulo in stampatello."
+    },
+    {
+      "it": "compilare",
+      "en": "to fill in (a form)",
+      "example": "Ho già compilato la domanda online."
+    },
+    {
+      "it": "lo scontrino",
+      "en": "receipt (shop, bar)",
+      "example": "Prima si fa lo scontrino alla cassa."
+    },
+    {
+      "it": "i contanti",
+      "en": "cash",
+      "example": "Non si accettano contanti."
+    },
+    {
+      "it": "la fattura",
+      "en": "invoice",
+      "example": "Le manderò la fattura per email."
+    },
+    {
+      "it": "l'intervento (m.)",
+      "en": "repair job, call-out; (medical) operation",
+      "example": "L'intervento del tecnico è martedì."
+    },
+    {
+      "it": "l'amministratore (m.) di condominio",
+      "en": "building manager",
+      "example": "Ho scritto all'amministratore di condominio."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-08-t1",
+      "rule": "Imperativo Lei: pronome prima",
+      "tip": "With Lei, pronouns go before the imperative: Mi dica. Lo compili. Me lo mandi.",
+      "example": {
+        "it": "Mi faccia sapere entro venerdì.",
+        "en": "Let me know by Friday."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Signora, dammi il suo documento, per favore.",
+        "answers": [
+          "Signora, mi dia il suo documento, per favore.",
+          "Signora mi dia il suo documento per favore.",
+          "Signora, mi dia il documento, per favore.",
+          "Signora mi dia il documento per favore."
+        ]
+      }
+    },
+    {
+      "id": "b1-08-t2",
+      "rule": "Imperativo tu: pronome attaccato",
+      "tip": "With tu, pronouns attach to the imperative; da', di', fa', sta', va' double the consonant: dimmi, fammi.",
+      "example": {
+        "it": "Compilalo e mandamelo.",
+        "en": "Fill it in and send it to me."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Il modulo? ___ (mandare + a me + lo) entro venerdì!",
+        "answers": [
+          "Mandamelo"
+        ],
+        "hint": "tu"
+      }
+    },
+    {
+      "id": "b1-08-t3",
+      "rule": "Si + verbo plurale",
+      "tip": "With a plural noun the si verb is plural too: Si accettano carte. Si vendono biglietti.",
+      "example": {
+        "it": "Qui si parlano tre lingue.",
+        "en": "Three languages are spoken here."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "In questa tabaccheria ___ i biglietti dell'autobus.",
+        "options": [
+          "si vendono",
+          "si vende",
+          "si vendiamo",
+          "ci si vende"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "b1-08-t4",
+      "rule": "Condizionale di cortesia",
+      "tip": "Sarebbe possibile…? Potrebbe…? Le dispiacerebbe…? make a request polite at any counter or on the phone.",
+      "example": {
+        "it": "Potrebbe ripetere, per favore?",
+        "en": "Could you repeat that, please?"
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "Would it be possible to pay by card?",
+        "answers": [
+          "Sarebbe possibile pagare con la carta?",
+          "Sarebbe possibile pagare con carta?",
+          "Sarebbe possibile pagare con il bancomat?",
+          "Sarebbe possibile pagare col bancomat?",
+          "Sarebbe possibile pagare con la carta di credito?",
+          "Si potrebbe pagare con la carta?",
+          "Si potrebbe pagare con carta?",
+          "Si potrebbe pagare con il bancomat?",
+          "Potrei pagare con la carta?",
+          "Potrei pagare con carta?",
+          "Potrei pagare con il bancomat?"
+        ]
+      }
+    },
+    {
+      "id": "b1-08-t5",
+      "rule": "Quando/appena + futuro anteriore",
+      "tip": "First action futuro anteriore, second futuro: Appena avrò ricevuto l'esito, prenoterò.",
+      "example": {
+        "it": "Quando avrò finito, ti chiamerò.",
+        "en": "When I've finished, I'll call you."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Appena ___ (ricevere) la conferma, ti scriverò.",
+        "answers": [
+          "avrò ricevuto"
+        ],
+        "hint": "ricevere – io"
+      }
+    }
+  ]
+}

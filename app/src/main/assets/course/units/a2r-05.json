@@ -1,0 +1,646 @@
+{
+  "id": "a2r-05",
+  "level": "A2R",
+  "title": "La giornata e i riflessivi",
+  "objective": "By the end you can describe your daily routine and tell someone how your day went, using reflexive verbs in the present and passato prossimo.",
+  "grammarFocus": "Reflexive verbs in the present and passato prossimo (essere + agreement); pronoun position with dovere/potere/volere; sentirsi, trovarsi bene and other common reflexives; reciprocal ci/vi/si.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "a2r-05-l1",
+      "title": "Mi alzo alle sette",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2r-05-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Stamattina mi ___ alle sei.",
+          "options": [
+            "sono svegliato",
+            "ho svegliato",
+            "sono svegliati",
+            "svegliato sono"
+          ],
+          "answer": 0,
+          "explanation": "Reflexive verbs take essere in the passato prossimo: mi sono svegliato. Today we start from the present."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-05-l1-e02",
+          "title": "I verbi riflessivi al presente",
+          "body": "A **reflexive verb** has an extra pronoun that refers back to the subject: *lavare* (to wash something) → *lavarsi* (to wash oneself). In the dictionary it ends in **-si**.\n\n**Present** – pronoun + verb:\n- alzarsi: **mi** alzo, **ti** alzi, **si** alza, **ci** alziamo, **vi** alzate, **si** alzano\n- vestirsi: mi vesto, ti vesti, si veste, ci vestiamo, vi vestite, si vestono\n\n**Daily-routine verbs:** svegliarsi, alzarsi, lavarsi, farsi la doccia, vestirsi, prepararsi, sbrigarsi, fermarsi, riposarsi, addormentarsi.\n\n**With dovere, potere, volere** the pronoun goes before the modal or attaches to the infinitive, changing to match the subject: *Mi devo alzare* = *Devo alzarmi*. *Ti vuoi riposare?* = *Vuoi riposarti?*\n\n**Many English verbs are not reflexive in Italian, and vice versa:** *mi sveglio* = I wake up; *mi annoio* = I get bored; *mi sbrigo* = I hurry up.",
+          "examples": [
+            {
+              "it": "Di solito mi sveglio alle sette.",
+              "en": "I usually wake up at seven."
+            },
+            {
+              "it": "Paolo si fa la barba ogni mattina.",
+              "en": "Paolo shaves every morning."
+            },
+            {
+              "it": "Ci fermiamo al bar prima del lavoro.",
+              "en": "We stop at the café before work."
+            },
+            {
+              "it": "Domani devo alzarmi presto.",
+              "en": "Tomorrow I have to get up early."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "a2r-05-l1-e03",
+          "instruction": "Scrivi le forme del presente. Ricorda il pronome!",
+          "verb": "alzarsi",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "mi alzo"
+            },
+            {
+              "person": "tu",
+              "answer": "ti alzi"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "si alza"
+            },
+            {
+              "person": "noi",
+              "answer": "ci alziamo"
+            },
+            {
+              "person": "voi",
+              "answer": "vi alzate"
+            },
+            {
+              "person": "loro",
+              "answer": "si alzano"
+            }
+          ],
+          "explanation": "Stress in the loro form: si AL-za-no, like the io form."
+        },
+        {
+          "type": "conjugation",
+          "id": "a2r-05-l1-e04",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "vestirsi",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "mi vesto"
+            },
+            {
+              "person": "tu",
+              "answer": "ti vesti"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "si veste"
+            },
+            {
+              "person": "noi",
+              "answer": "ci vestiamo"
+            },
+            {
+              "person": "loro",
+              "answer": "si vestono"
+            }
+          ],
+          "explanation": "Vestirsi is an -ire verb without -isc-: mi vesto, si vestono."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2r-05-l1-e05",
+          "instruction": "Abbina il verbo al significato.",
+          "pairs": [
+            {
+              "left": "svegliarsi",
+              "right": "to wake up"
+            },
+            {
+              "left": "addormentarsi",
+              "right": "to fall asleep"
+            },
+            {
+              "left": "lavarsi",
+              "right": "to wash (oneself)"
+            },
+            {
+              "left": "vestirsi",
+              "right": "to get dressed"
+            },
+            {
+              "left": "sbrigarsi",
+              "right": "to hurry up"
+            },
+            {
+              "left": "riposarsi",
+              "right": "to rest"
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-05-l1-e06",
+          "instruction": "Completa con il presente.",
+          "sentence": "Di solito Marta ___ (addormentarsi) verso mezzanotte.",
+          "answers": [
+            "si addormenta"
+          ],
+          "hint": "addormentarsi – lei",
+          "explanation": "Pronoun si + 3rd person singular."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-05-l1-e07",
+          "instruction": "Completa con il presente.",
+          "sentence": "Noi ___ (fermarsi) sempre al bar prima del lavoro.",
+          "answers": [
+            "ci fermiamo"
+          ],
+          "hint": "fermarsi – noi",
+          "explanation": "Noi → ci + fermiamo."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-05-l1-e08",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Domani devo ___ presto.",
+          "options": [
+            "alzarmi",
+            "alzarsi",
+            "mi alzare",
+            "alzarti"
+          ],
+          "answer": 0,
+          "explanation": "The pronoun matches the subject (io → mi) and attaches to the infinitive: devo alzarmi. Also correct: mi devo alzare."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a2r-05-l1-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I get dressed quickly and have breakfast.",
+          "tiles": [
+            "Mi",
+            "vesto",
+            "in",
+            "fretta",
+            "e",
+            "faccio",
+            "colazione"
+          ],
+          "distractors": [
+            "si",
+            "vesti"
+          ],
+          "explanation": "In fretta = quickly, in a hurry. Fare colazione is not reflexive."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-05-l1-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Mi lavo, mi vesto e faccio colazione in dieci minuti.",
+          "answers": [
+            "Mi lavo, mi vesto e faccio colazione in dieci minuti.",
+            "Mi lavo mi vesto e faccio colazione in dieci minuti."
+          ],
+          "slow": true,
+          "explanation": "Three actions, two reflexive verbs: mi lavo, mi vesto."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "a2r-05-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "La mattina mi sveglio presto, ma la domenica mi riposo.",
+          "translation": "In the morning I wake up early, but on Sundays I rest."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-05-l1-e12",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Descrivi la tua mattina tipica: a che ora ti svegli, quando ti alzi, che cosa fai prima di uscire?",
+          "keywords": [
+            "mi sveglio",
+            "mi alzo"
+          ],
+          "modelAnswer": "Di solito mi sveglio alle sette, ma mi alzo alle sette e un quarto. Mi faccio la doccia, mi vesto e faccio colazione. Esco di casa verso le otto.",
+          "explanation": "Use pronoun + verb in every reflexive form: mi sveglio, mi alzo, mi vesto."
+        }
+      ]
+    },
+    {
+      "id": "a2r-05-l2",
+      "title": "Com'è andata la giornata?",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2r-05-l2-e01",
+          "instruction": "Riscaldamento: completa con il presente.",
+          "sentence": "Tu a che ora ___ (svegliarsi) di solito?",
+          "answers": [
+            "ti svegli"
+          ],
+          "hint": "svegliarsi – tu",
+          "explanation": "Tu → ti svegli."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-05-l2-e02",
+          "title": "Riflessivi al passato, sentirsi e verbi reciproci",
+          "body": "**Passato prossimo:** always **essere**, and the participle agrees with the subject: *Paola si è alzata tardi. Ci siamo fermati in autostrada.*\n\n**With a modal verb** there are two correct patterns:\n- pronoun before → essere: *Mi sono dovuto alzare presto.*\n- pronoun attached → avere: *Ho dovuto alzarmi presto.*\n\n**Feelings and states:**\n- *sentirsi* = to feel: *Come ti senti? Mi sento meglio.* (sentire = to hear / to feel something: *sento un rumore*)\n- *trovarsi bene* = to be happy somewhere / with people: *Mi trovo bene in questo quartiere.*\n- *annoiarsi, arrabbiarsi, preoccuparsi, ricordarsi di, dimenticarsi di*\n\n**Reciprocal verbs** – ci, vi, si can mean *each other*: *Ci vediamo domani. Si conoscono da anni. Ci siamo incontrati in piazza.*",
+          "examples": [
+            {
+              "it": "Ieri sera mi sono addormentato sul divano.",
+              "en": "Last night I fell asleep on the sofa."
+            },
+            {
+              "it": "Giulia si è sentita male ed è tornata a casa.",
+              "en": "Giulia felt ill and went home."
+            },
+            {
+              "it": "Marco e Lucia si sono conosciuti all'università.",
+              "en": "Marco and Lucia met at university."
+            },
+            {
+              "it": "Non mi ricordo il suo nome.",
+              "en": "I don't remember his/her name."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "a2r-05-l2-e03",
+          "instruction": "Passato prossimo di addormentarsi. Attenzione al genere.",
+          "verb": "addormentarsi",
+          "tense": "passato prossimo",
+          "items": [
+            {
+              "person": "io (m.)",
+              "answer": "mi sono addormentato"
+            },
+            {
+              "person": "tu (f.)",
+              "answer": "ti sei addormentata"
+            },
+            {
+              "person": "lei",
+              "answer": "si è addormentata"
+            },
+            {
+              "person": "noi (m.)",
+              "answer": "ci siamo addormentati"
+            },
+            {
+              "person": "loro (f.)",
+              "answer": "si sono addormentate"
+            }
+          ],
+          "explanation": "Pronoun + essere + participle agreeing with the subject."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-05-l2-e04",
+          "instruction": "Completa con il passato prossimo.",
+          "sentence": "Ieri sera Giulia ___ (sentirsi) male ed è andata a letto presto.",
+          "answers": [
+            "si è sentita"
+          ],
+          "hint": "sentirsi – lei",
+          "explanation": "Reflexive → essere; Giulia → sentita."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-05-l2-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Marco e Lucia ___ all'università.",
+          "options": [
+            "si sono conosciuti",
+            "si hanno conosciuto",
+            "sono conosciuti",
+            "si sono conosciute"
+          ],
+          "answer": 0,
+          "explanation": "Reciprocal conoscersi → essere. Mixed couple → masculine plural: conosciuti."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-05-l2-e06",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Ieri ___ alzarmi alle cinque.",
+          "options": [
+            "ho dovuto",
+            "sono dovuto",
+            "mi sono dovuto",
+            "mi ho dovuto"
+          ],
+          "answer": 0,
+          "explanation": "When the pronoun is attached to the infinitive (alzarmi), the modal takes avere: ho dovuto alzarmi. With the pronoun in front: mi sono dovuto alzare."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-05-l2-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Stamattina mi ho fatto la doccia in fretta.",
+          "answers": [
+            "Stamattina mi sono fatto la doccia in fretta.",
+            "Stamattina mi sono fatta la doccia in fretta.",
+            "Stamattina ho fatto la doccia in fretta."
+          ],
+          "explanation": "Farsi la doccia is reflexive → essere: mi sono fatto. You can also simply say ho fatto la doccia."
+        },
+        {
+          "type": "translate",
+          "id": "a2r-05-l2-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "We met at the station and had a great time.",
+          "answers": [
+            "Ci siamo incontrati alla stazione e ci siamo divertiti molto.",
+            "Ci siamo incontrati alla stazione e ci siamo divertiti tanto.",
+            "Ci siamo incontrate alla stazione e ci siamo divertite molto.",
+            "Ci siamo visti alla stazione e ci siamo divertiti molto.",
+            "Ci siamo incontrati in stazione e ci siamo divertiti molto.",
+            "Ci siamo incontrati alla stazione e ci siamo divertiti un sacco."
+          ],
+          "explanation": "Incontrarsi (reciprocal) and divertirsi (reflexive) both take essere, with plural agreement."
+        },
+        {
+          "type": "flashcard",
+          "id": "a2r-05-l2-e09",
+          "front": "to be happy / get on well (somewhere, with someone)",
+          "back": "trovarsi bene",
+          "example": "Mi trovo bene nel nuovo quartiere."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a2r-05-l2-e10",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Ieri è stata una giornata lunghissima. Mi sono svegliato alle cinque perché dovevo prendere il treno per Milano. Non mi sono fermato un attimo e la sera mi sono addormentato sul divano davanti alla TV.",
+          "question": "Dove si è addormentato?",
+          "options": [
+            "In treno",
+            "Sul divano",
+            "A letto",
+            "In ufficio"
+          ],
+          "answer": 1,
+          "explanation": "Mi sono addormentato sul divano davanti alla TV."
+        },
+        {
+          "type": "roleplay",
+          "id": "a2r-05-l2-e11",
+          "instruction": "Un'amica ti telefona la sera. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "Your friend Chiara calls in the evening to ask how your day went.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao! Allora, com'è andata oggi?"
+            },
+            {
+              "speaker": "you",
+              "text": "Che giornata! Mi sono svegliato alle sei e non mi sono mai fermato.",
+              "hint": "Svegliarsi, fermarsi → essere.",
+              "keywords": [
+                "mi sono svegliato",
+                "fermato"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Poverino! E adesso come ti senti?"
+            },
+            {
+              "speaker": "you",
+              "text": "Meglio, grazie. Mi sono fatto una doccia e adesso mi riposo un po'.",
+              "hint": "Sentirsi meglio; farsi una doccia; riposarsi.",
+              "keywords": [
+                "meglio",
+                "mi riposo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Bravo. Senti, domani ci vediamo per un caffè?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, volentieri! Ci vediamo al bar della piazza alle dieci?",
+              "hint": "Ci vediamo = we'll see each other.",
+              "keywords": [
+                "ci vediamo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto, a domani!"
+            }
+          ],
+          "explanation": "Watch the agreement: as a man you say mi sono svegliato, mi sono fatto. A woman would say svegliata, fatta."
+        },
+        {
+          "type": "free_write",
+          "id": "a2r-05-l2-e12",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Racconta la tua giornata di ieri, dalla sveglia a quando sei andato a letto (almeno 40 parole). Usa almeno quattro verbi riflessivi.",
+          "minWords": 40,
+          "checklist": [
+            "Ho usato almeno quattro verbi riflessivi.",
+            "Ho usato essere con tutti i riflessivi al passato.",
+            "Il participio concorda con il soggetto (svegliato/svegliata…).",
+            "Il pronome riflessivo cambia con la persona (mi, si, ci…)."
+          ],
+          "modelAnswer": "Ieri mi sono svegliato alle sette, ma mi sono alzato solo alle sette e mezza. Mi sono fatto la doccia, mi sono vestito in fretta e sono uscito. Nel pomeriggio mi sono fermato in libreria. La sera mi sono riposato un po' e mi sono addormentato verso le undici."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "svegliarsi",
+      "en": "to wake up",
+      "example": "Di solito mi sveglio alle sette."
+    },
+    {
+      "it": "alzarsi",
+      "en": "to get up",
+      "example": "Domani devo alzarmi presto."
+    },
+    {
+      "it": "addormentarsi",
+      "en": "to fall asleep",
+      "example": "Mi sono addormentato sul divano."
+    },
+    {
+      "it": "vestirsi",
+      "en": "to get dressed",
+      "example": "Mi vesto in fretta."
+    },
+    {
+      "it": "farsi la doccia",
+      "en": "to have a shower",
+      "example": "Mi faccio la doccia la sera."
+    },
+    {
+      "it": "sbrigarsi",
+      "en": "to hurry up",
+      "example": "Sbrigati, il treno parte!"
+    },
+    {
+      "it": "fermarsi",
+      "en": "to stop",
+      "example": "Ci fermiamo al bar?"
+    },
+    {
+      "it": "sentirsi bene / male",
+      "en": "to feel well / ill",
+      "example": "Oggi non mi sento bene."
+    },
+    {
+      "it": "trovarsi bene",
+      "en": "to be happy, get on well (somewhere)",
+      "example": "Mi trovo bene in questo quartiere."
+    },
+    {
+      "it": "arrabbiarsi",
+      "en": "to get angry",
+      "example": "Non arrabbiarti, è solo un ritardo."
+    },
+    {
+      "it": "ricordarsi di",
+      "en": "to remember",
+      "example": "Ti ricordi di Paolo?"
+    },
+    {
+      "it": "dimenticarsi di",
+      "en": "to forget",
+      "example": "Mi sono dimenticato dell'appuntamento."
+    },
+    {
+      "it": "in fretta",
+      "en": "in a hurry, quickly",
+      "example": "Ho fatto colazione in fretta."
+    },
+    {
+      "it": "la sveglia",
+      "en": "alarm clock",
+      "example": "La sveglia suona alle sei e mezza."
+    },
+    {
+      "it": "ci vediamo",
+      "en": "see you; we'll meet",
+      "example": "Ci vediamo domani alle dieci."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2r-05-t1",
+      "rule": "Mi alzo, ti alzi, si alza",
+      "tip": "Reflexive verbs need a pronoun matching the subject – mi, ti, si, ci, vi, si – before the conjugated verb.",
+      "example": {
+        "it": "La domenica ci alziamo tardi.",
+        "en": "On Sundays we get up late."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "lavarsi",
+        "tense": "presente",
+        "items": [
+          {
+            "person": "io",
+            "answer": "mi lavo"
+          },
+          {
+            "person": "noi",
+            "answer": "ci laviamo"
+          },
+          {
+            "person": "loro",
+            "answer": "si lavano"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2r-05-t2",
+      "rule": "Riflessivi al passato: essere",
+      "tip": "Reflexive verbs take essere in the passato prossimo, and the participle agrees: si è alzata, ci siamo fermati.",
+      "example": {
+        "it": "Le ragazze si sono divertite.",
+        "en": "The girls had fun."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Ieri Paola ___ (arrabbiarsi) con il vicino.",
+        "answers": [
+          "si è arrabbiata"
+        ],
+        "hint": "arrabbiarsi – lei"
+      }
+    },
+    {
+      "id": "a2r-05-t3",
+      "rule": "Devo alzarmi = mi devo alzare",
+      "tip": "With dovere, potere, volere the pronoun goes before the modal or attaches to the infinitive: devo alzarmi.",
+      "example": {
+        "it": "Vuoi riposarti un po'?",
+        "en": "Do you want to rest a bit?"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Domani ___ presto.",
+        "options": [
+          "voglio svegliarmi",
+          "voglio svegliarsi",
+          "voglio mi svegliare",
+          "mi voglio svegliarmi"
+        ],
+        "answer": 0,
+        "explanation": "Io → mi: voglio svegliarmi (or mi voglio svegliare)."
+      }
+    },
+    {
+      "id": "a2r-05-t4",
+      "rule": "Ci vediamo: i reciproci",
+      "tip": "Ci, vi, si can mean 'each other': ci vediamo domani, si conoscono da anni, vi scrivete spesso?",
+      "example": {
+        "it": "Ci sentiamo stasera.",
+        "en": "Let's talk (on the phone) this evening."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "We've known each other for ten years.",
+        "answers": [
+          "Ci conosciamo da dieci anni.",
+          "Noi ci conosciamo da dieci anni."
+        ],
+        "explanation": "Da + present tense for something still going on."
+      }
+    },
+    {
+      "id": "a2r-05-t5",
+      "rule": "Sentirsi o sentire?",
+      "tip": "Sentirsi = to feel (well, tired); sentire = to hear or feel something: mi sento stanco, sento un rumore.",
+      "example": {
+        "it": "Come ti senti oggi?",
+        "en": "How are you feeling today?"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Oggi non ___ (sentirsi) bene, resto a casa.",
+        "answers": [
+          "mi sento"
+        ],
+        "hint": "sentirsi – io"
+      }
+    }
+  ]
+}

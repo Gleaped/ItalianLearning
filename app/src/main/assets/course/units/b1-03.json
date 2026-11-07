@@ -1,0 +1,884 @@
+{
+  "id": "b1-03",
+  "level": "B1",
+  "title": "Me lo dà?",
+  "objective": "By the end you can ask for, offer, send and return things at the pharmacy, the post office or a shop, using combined pronouns (me lo, glielo, ce l'ho) instead of repeating nouns.",
+  "grammarFocus": "Combined pronouns: me lo / te la / ce li / ve ne; glielo, gliela, gliene for him, her, them and Lei; position with infinitives and modals; agreement in the passato prossimo (gliel'ho data); reflexive + object (me le lavo); ce l'ho, ce n'è.",
+  "remedialUnitIds": [
+    "a2r-04",
+    "a2r-05"
+  ],
+  "lessons": [
+    {
+      "id": "b1-03-l1",
+      "title": "Me lo può dare?",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-03-l1-e01",
+          "instruction": "Riscaldamento: scegli il pronome diretto.",
+          "prompt": "Hai visto Marta? – Sì, ___ ho vista ieri al bar.",
+          "options": [
+            "l'",
+            "le",
+            "gli",
+            "ne"
+          ],
+          "answer": 0,
+          "explanation": "La (Marta) becomes l' before ho, and the participle agrees: l'ho vista."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l1-e02",
+          "instruction": "Riscaldamento: completa con il pronome indiretto.",
+          "sentence": "Ho telefonato a mio fratello e ___ ho raccontato tutto.",
+          "answers": [
+            "gli"
+          ],
+          "explanation": "Telefonare a mio fratello → a lui = gli."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-03-l1-e03",
+          "title": "I pronomi combinati: me lo, te la…",
+          "body": "When one sentence has **both** an indirect pronoun (*to me, to you…*) and a direct one (*it, them*) or **ne**, Italian puts them together: **indirect first, then direct**.\n\nThe indirect pronoun changes its vowel: **mi → me, ti → te, ci → ce, vi → ve**.\n- **me** lo / la / li / le / ne\n- **te** lo / la / li / le / ne\n- **ce** lo… / **ve** lo…\n\n**Position:**\n- before a conjugated verb, as two words: ***Me lo** dai?* – *Sì, **te lo** do.*\n- attached to an infinitive, as one word: *Puoi dar**melo**?*\n- with dovere / potere / volere you can choose: ***Me lo** puoi dare?* = *Puoi dar**melo**?*\n\nTypical English-speaker error: *~~mi lo~~* – it's always **me lo**.",
+          "examples": [
+            {
+              "it": "Mi presti la penna? – Sì, te la presto.",
+              "en": "Will you lend me the pen? – Yes, I'll lend it to you."
+            },
+            {
+              "it": "Ci porta il conto? – Ve lo porto subito.",
+              "en": "Can you bring us the bill? – I'll bring it to you right away."
+            },
+            {
+              "it": "Me lo può scrivere qui, per favore?",
+              "en": "Could you write it down for me here, please?"
+            },
+            {
+              "it": "Ti servono delle buste? Te ne do due.",
+              "en": "Do you need some bags? I'll give you two."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-03-l1-e04",
+          "instruction": "Abbina i pronomi alla forma combinata.",
+          "pairs": [
+            {
+              "left": "mi + lo",
+              "right": "me lo"
+            },
+            {
+              "left": "ti + la",
+              "right": "te la"
+            },
+            {
+              "left": "ci + li",
+              "right": "ce li"
+            },
+            {
+              "left": "vi + le",
+              "right": "ve le"
+            },
+            {
+              "left": "mi + ne",
+              "right": "me ne"
+            }
+          ],
+          "explanation": "Mi, ti, ci, vi turn their -i into -e before lo, la, li, le, ne."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-03-l1-e05",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Mi presti la penna un attimo? – Certo, ___ presto.",
+          "options": [
+            "te la",
+            "me la",
+            "te lo",
+            "ce la"
+          ],
+          "answer": 0,
+          "explanation": "To you (te) + the pen (la): te la presto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l1-e06",
+          "instruction": "Completa con il pronome combinato.",
+          "sentence": "Scusi, ci porta il conto? – Certo, ___ porto subito.",
+          "answers": [
+            "ve lo"
+          ],
+          "explanation": "Ci (to us) becomes ve when the waiter answers: to you all + il conto (lo) = ve lo."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-03-l1-e07",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "Can you give it to me?",
+          "tiles": [
+            "Me",
+            "lo",
+            "puoi",
+            "dare"
+          ],
+          "distractors": [
+            "mi",
+            "glielo"
+          ],
+          "explanation": "Before the modal: me lo puoi dare. Puoi darmelo is also correct."
+        },
+        {
+          "type": "translate",
+          "id": "b1-03-l1-e08",
+          "instruction": "Traduci in italiano (informale). La bici = the bike.",
+          "direction": "en_it",
+          "source": "Can you lend it to me? (the bike)",
+          "answers": [
+            "Puoi prestarmela?",
+            "Me la puoi prestare?",
+            "Me la presti?",
+            "Me la presteresti?",
+            "Potresti prestarmela?",
+            "Me la potresti prestare?"
+          ],
+          "explanation": "Attached to the infinitive (prestarmela) or before the modal (me la puoi prestare)."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-03-l1-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Mi lo puoi mandare stasera?",
+          "answers": [
+            "Me lo puoi mandare stasera?",
+            "Puoi mandarmelo stasera?",
+            "Stasera me lo puoi mandare?"
+          ],
+          "explanation": "Mi becomes me before lo: me lo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-03-l1-e10",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Buongiorno, ho la ricetta del medico per questo antibiotico. – Sì, ce l'abbiamo, ma solo in compresse. Va bene lo stesso? – Sì, va benissimo. Me lo può scrivere qui come lo devo prendere? – Certo, glielo scrivo sulla scatola: una compressa ogni dodici ore.",
+          "question": "Che cosa chiede il cliente al farmacista?",
+          "options": [
+            "Di scrivergli come prendere il medicinale.",
+            "Di cambiare la ricetta.",
+            "Di dargli lo sciroppo invece delle compresse.",
+            "Di telefonare al medico."
+          ],
+          "answer": 0,
+          "explanation": "Glielo preparo (to Lei) is how a pharmacist talks to a customer – you'll practise it in the next lesson."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-03-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Me lo può scrivere qui, per favore? Così non me lo dimentico.",
+          "translation": "Could you write it down here for me, please? That way I won't forget it."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-03-l1-e12",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Un amico ti scrive: «Mi mandi le foto di sabato?». Rispondi di sì e di' quando gliele mandi.",
+          "keywords": [
+            "te le",
+            "mando"
+          ],
+          "modelAnswer": "Sì, certo! Te le mando stasera, appena torno a casa. Sono venute benissimo!",
+          "explanation": "To you + them (le foto): te le."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-03-l1-e13",
+          "front": "prestare / in prestito",
+          "back": "to lend / on loan",
+          "example": "Mi presti il caricabatterie? Te lo restituisco domani."
+        }
+      ]
+    },
+    {
+      "id": "b1-03-l2",
+      "title": "Glielo mando subito",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l2-e01",
+          "instruction": "Riscaldamento: completa con il pronome combinato.",
+          "sentence": "Mi porti il giornale quando esci? – Sì, te ___ porto.",
+          "answers": [
+            "lo"
+          ],
+          "explanation": "To you (te) + il giornale (lo): te lo."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-03-l2-e02",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Ci mandate le foto della festa? – Sì, ___ mandiamo stasera.",
+          "options": [
+            "ve le",
+            "ce le",
+            "vi le",
+            "ve li"
+          ],
+          "answer": 0,
+          "explanation": "Ci mandate…? → we answer 'to you all': ve le (le foto)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-03-l2-e03",
+          "title": "Glielo, gliela, gliene",
+          "body": "**Gli** (to him, to them) and **le** (to her, and to **Lei**, formal *you*) both become **glie-** and join the next pronoun in **one word**:\n- **glielo**, **gliela**, **glieli**, **gliele**, **gliene**\n\nSo *glielo do* can mean: I'll give it to him / to her / to them / to you (Lei). Context makes it clear. That's why you hear *glielo* constantly at counters: *Glielo incarto? Gliela preparo subito.*\n\n**Passato prossimo:** *lo* and *la* become **l'** before *ho, hai, ha…*, and the participle **agrees** with the direct object:\n- la ricevuta → *Glie**l'**ho dat**a***\n- i documenti → *Me **li** ha dat**i***\n- le chiavi → *Ce **le** ha lasciat**e***\n\nWith **ne**, the participle agrees with the noun it replaces: *Di francobolli, **gliene** ho dat**i** tre.*",
+          "examples": [
+            {
+              "it": "Il modulo? Glielo mando per email.",
+              "en": "The form? I'll send it to you by email."
+            },
+            {
+              "it": "Ho chiesto la ricevuta e me l'hanno data subito.",
+              "en": "I asked for the receipt and they gave it to me straight away."
+            },
+            {
+              "it": "Signora, gliela incarto?",
+              "en": "Madam, shall I wrap it for you?"
+            },
+            {
+              "it": "Gli ho chiesto due euro e me ne ha dati cinque.",
+              "en": "I asked him for two euros and he gave me five."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-03-l2-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Hai dato il pacco alla signora Bini? – Sì, ___ dato stamattina.",
+          "options": [
+            "gliel'ho",
+            "le l'ho",
+            "gli lo ho",
+            "glie l'ho"
+          ],
+          "answer": 0,
+          "explanation": "To her (alla signora) + it (il pacco) = glielo; before ho: gliel'ho."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l2-e05",
+          "instruction": "Completa con il pronome combinato.",
+          "sentence": "Signora, la ricevuta ___ lascio qui sul banco.",
+          "answers": [
+            "gliela"
+          ],
+          "explanation": "To you (Lei) + la ricevuta = gliela, one word."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l2-e06",
+          "instruction": "Completa con il participio passato. Attenzione all'accordo!",
+          "sentence": "Le chiavi del portone? Me le ha ___ (dare) il portiere.",
+          "answers": [
+            "date"
+          ],
+          "explanation": "Me le ha date: le = le chiavi (feminine plural), so date."
+        },
+        {
+          "type": "translate",
+          "id": "b1-03-l2-e07",
+          "instruction": "Traduci in italiano (formale, Lei). Il modulo = the form.",
+          "direction": "en_it",
+          "source": "I'll send it to you tomorrow.",
+          "answers": [
+            "Glielo mando domani.",
+            "Domani glielo mando.",
+            "Glielo spedisco domani.",
+            "Domani glielo spedisco.",
+            "Glielo invio domani.",
+            "Glielo manderò domani.",
+            "Glielo spedirò domani."
+          ],
+          "explanation": "To you (Lei) + it = glielo, before the verb."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-03-l2-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Gli lo do subito, signore.",
+          "answers": [
+            "Glielo do subito, signore.",
+            "Glielo do subito signore."
+          ],
+          "explanation": "Gli + lo is written as one word: glielo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-03-l2-e09",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Gliel'ho già detto ieri.",
+          "answers": [
+            "Gliel'ho già detto ieri.",
+            "Gliel'ho detto già ieri."
+          ],
+          "slow": true,
+          "explanation": "Gliel'ho = glielo + ho. The participle detto stays masculine because lo is 'it' (the thing said)."
+        },
+        {
+          "type": "reading",
+          "id": "b1-03-l2-e10",
+          "instruction": "Leggi il dialogo all'ufficio postale e rispondi.",
+          "title": "Allo sportello",
+          "passage": "Impiegato: Buongiorno, mi dica.\nCliente: Buongiorno, dovrei ritirare una raccomandata. Ecco l'avviso.\nImpiegato: Mi dà anche un documento d'identità?\nCliente: Sì, glielo do subito. Ecco la carta d'identità.\nImpiegato: Grazie. Ah, ma la raccomandata è intestata a Paolo Ferri, non a lei.\nCliente: Sì, è mio fratello. Ha firmato la delega: gliela faccio vedere.\nImpiegato: Perfetto, è tutto in regola. Ecco la busta. Mi firma qui, per favore?\nCliente: Certo. Gliela porto stasera, così non deve venire lui.",
+          "questions": [
+            {
+              "question": "Perché il cliente è alla posta?",
+              "options": [
+                "Per spedire una raccomandata",
+                "Per ritirare una raccomandata",
+                "Per pagare una bolletta",
+                "Per fare una delega"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa mostra il cliente all'impiegato?",
+              "options": [
+                "Solo l'avviso",
+                "L'avviso e il passaporto di Paolo",
+                "L'avviso, la carta d'identità e la delega",
+                "La carta d'identità di Paolo"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Nell'ultima frase, «Gliela porto» significa:",
+              "options": [
+                "Porto la busta all'impiegato.",
+                "Porto la delega a mio fratello.",
+                "Porto la busta a mio fratello.",
+                "Porto la firma all'ufficio."
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "Every glie- form here refers to the customer (Lei) or to a third person – context decides."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-03-l2-e11",
+          "instruction": "Alla posta. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You're at the post office to send a parcel. The clerk asks for the form and some details.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, vorrei spedire questo pacco in Germania.",
+              "hint": "Say you'd like to send this parcel to Germany.",
+              "keywords": [
+                "spedire",
+                "pacco"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ha compilato il modulo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, eccolo, glielo do subito.",
+              "hint": "Yes – hand it over (glielo).",
+              "keywords": [
+                "glielo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie. Vuole anche il tracciamento? Costa due euro in più."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, grazie. Il numero me lo può scrivere sulla ricevuta?",
+              "hint": "Yes – ask for the tracking number on the receipt (me lo).",
+              "keywords": [
+                "me lo",
+                "ricevuta"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo, glielo scrivo qui. Sono quindici euro in tutto."
+            },
+            {
+              "speaker": "you",
+              "text": "Ecco a lei. Mi dà anche due francobolli per l'Italia?",
+              "hint": "Pay and ask for two stamps.",
+              "keywords": [
+                "francobolli"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, glieli do subito. Ecco, buona giornata!"
+            }
+          ],
+          "explanation": "Glielo/gliela to the clerk (Lei); me lo/me la when you ask for something."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-03-l2-e12",
+          "instruction": "Rispondi ad alta voce (formale, Lei).",
+          "prompt": "Un impiegato ti chiede: «Mi può mandare il modulo firmato?». Rispondi che glielo mandi oggi per email.",
+          "keywords": [
+            "glielo",
+            "mando"
+          ],
+          "modelAnswer": "Sì, certo. Glielo mando oggi pomeriggio per email, appena torno in ufficio.",
+          "explanation": "To you (Lei) + it (il modulo) = glielo; or attach it: posso mandarglielo."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-03-l2-e13",
+          "front": "la raccomandata",
+          "back": "registered letter",
+          "example": "Devo ritirare una raccomandata alla posta."
+        }
+      ]
+    },
+    {
+      "id": "b1-03-l3",
+      "title": "Ce l'ha lo scontrino?",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "b1-03-l3-e01",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Gliel'ho spiegato due volte.",
+          "answers": [
+            "I explained it to him twice.",
+            "I explained it to her twice.",
+            "I explained it to them twice.",
+            "I've explained it to him twice.",
+            "I've explained it to her twice.",
+            "I've explained it to them twice.",
+            "I have explained it to him twice.",
+            "I have explained it to her twice.",
+            "I have explained it to them twice."
+          ],
+          "explanation": "Gliel'ho = glielo + ho: it to him / her / them."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l3-e02",
+          "instruction": "Riscaldamento: completa con il pronome combinato.",
+          "sentence": "Ci dai il tuo numero? – Sì, ___ do subito.",
+          "answers": [
+            "ve lo"
+          ],
+          "explanation": "Ci dai…? → I answer to you all: ve lo (il numero)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-03-l3-e03",
+          "title": "Me le lavo, ce l'ho, ce n'è",
+          "body": "**Reflexive + object.** With reflexive verbs the reflexive pronoun behaves like an indirect one: **mi → me, ti → te, si → se**.\n- *Mi lavo le mani* → ***Me le** lavo.*\n- *Si mette la giacca* → ***Se la** mette.*\n- *Ti ricordi il codice?* → ***Te lo** ricordi?*\n\n**Ce l'ho.** In everyday Italian, *avere* + lo / la / li / le adds **ci**, which becomes **ce**:\n- *Ha lo scontrino?* – Sì, **ce l'ho**. / No, **non ce l'ho**.\n- *Hai le chiavi?* – Sì, **ce le** ho.\n\n**Ce n'è / ce ne sono.** *C'è / ci sono* + **ne** for quantities:\n- *Ci sono ancora posti?* – Sì, **ce ne sono** due. / No, **non ce n'è** più nessuno.",
+          "examples": [
+            {
+              "it": "Ce l'ha la tessera sanitaria?",
+              "en": "Have you got your health card?"
+            },
+            {
+              "it": "Le scarpe? Me le sono provate, ma erano strette.",
+              "en": "The shoes? I tried them on, but they were tight."
+            },
+            {
+              "it": "Il latte è finito? – No, ce n'è ancora un po'.",
+              "en": "Has the milk run out? – No, there's still a bit."
+            },
+            {
+              "it": "Ti ricordi il PIN? – No, non me lo ricordo mai!",
+              "en": "Do you remember the PIN? – No, I never remember it!"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-03-l3-e04",
+          "instruction": "Scegli la risposta più naturale.",
+          "prompt": "Ha lo scontrino? – Sì, ___.",
+          "options": [
+            "ce l'ho",
+            "lo ce ho",
+            "ne ho",
+            "ci lo ho"
+          ],
+          "answer": 0,
+          "explanation": "Avere + lo in speech: ce l'ho."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-03-l3-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Ci sono ancora biglietti per stasera? – Sì, ___ sono ancora tre.",
+          "options": [
+            "ce ne",
+            "ci ne",
+            "ce li",
+            "ne ci"
+          ],
+          "answer": 0,
+          "explanation": "Ci sono + a quantity (tre) of biglietti: ce ne sono."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l3-e06",
+          "instruction": "Completa con il pronome combinato.",
+          "sentence": "Le mani? ___ lavo sempre appena torno a casa.",
+          "answers": [
+            "me le"
+          ],
+          "explanation": "Mi lavo le mani → me le lavo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-03-l3-e07",
+          "instruction": "Completa con il pronome combinato.",
+          "sentence": "Hai le chiavi di casa? – No, non ___ ho, le ho lasciate in ufficio.",
+          "answers": [
+            "ce le"
+          ],
+          "explanation": "Avere le chiavi → ce le ho; negative: non ce le ho."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-03-l3-e08",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "She always puts it on before going out. (the jacket)",
+          "tiles": [
+            "Se",
+            "la",
+            "mette",
+            "sempre",
+            "prima",
+            "di",
+            "uscire"
+          ],
+          "distractors": [
+            "si",
+            "lo"
+          ],
+          "explanation": "Si mette la giacca → se la mette."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-03-l3-e09",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Buongiorno, ho comprato questa camicia sabato, ma è troppo stretta. Me la può cambiare? – Certo, ce l'ha lo scontrino? – Sì, eccolo. – Allora, la taglia più grande in bianco non ce l'abbiamo, però ce l'abbiamo in azzurro. Gliela faccio vedere?",
+          "question": "Che cosa propone la commessa?",
+          "options": [
+            "La stessa camicia in un altro colore",
+            "Un rimborso",
+            "Una camicia più piccola",
+            "Di tornare la settimana prossima"
+          ],
+          "answer": 0,
+          "explanation": "Non ce l'abbiamo = we haven't got it; ce l'abbiamo in blu = we have it in blue."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-03-l3-e10",
+          "instruction": "In un negozio di abbigliamento. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You bought a jumper yesterday but it's too small. Go back to the shop and ask to change it.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, posso aiutarla?"
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno. Ieri ho comprato questo maglione, ma è troppo piccolo. Me lo può cambiare?",
+              "hint": "Explain the problem and ask to change it (me lo).",
+              "keywords": [
+                "me lo",
+                "cambiare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo. Ce l'ha lo scontrino?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, ce l'ho. Eccolo.",
+              "hint": "Yes, you have it (ce l'ho).",
+              "keywords": [
+                "ce l'ho"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto. Vuole la taglia più grande? Nello stesso colore ce n'è ancora uno."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, grazie. Posso provarmelo prima?",
+              "hint": "Ask if you can try it on first (provarmelo).",
+              "keywords": [
+                "provarmelo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ma certo, il camerino è lì in fondo."
+            },
+            {
+              "speaker": "you",
+              "text": "Va benissimo, me lo prendo. Me lo può mettere in una busta?",
+              "hint": "It fits – say you'll take it and ask for a bag.",
+              "keywords": [
+                "me lo",
+                "busta"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, glielo metto subito. Ecco a lei, arrivederci!"
+            }
+          ],
+          "explanation": "Me la può cambiare? / Ce l'ho. / Me la provo: combined pronouns everywhere in real shop talk."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-03-l3-e11",
+          "instruction": "Scrivi un messaggio.",
+          "prompt": "Hai prestato a un amico alcune cose (un libro, il caricabatterie, le chiavi del garage) e ora ti servono. Scrivigli un messaggio (50–80 parole): chiedi quando te le restituisce, proponi di passare a prenderle o di farle lasciare a qualcuno.",
+          "minWords": 50,
+          "checklist": [
+            "Ho usato almeno tre pronomi combinati (me lo, te lo, glielo, ce l'ho…).",
+            "Ho scritto glielo / gliela come una parola sola.",
+            "Ho messo i pronomi prima del verbo coniugato o attaccati all'infinito.",
+            "Ho controllato l'accordo del participio (te le ho prestate…).",
+            "Il tono è amichevole: ho salutato e ringraziato."
+          ],
+          "modelAnswer": "Ciao Andrea! Scusa se ti disturbo. Ti ricordi il libro di cucina che ti ho prestato? Me lo puoi restituire questa settimana? Mi serve per una cena sabato. E il caricabatterie ce l'hai ancora tu? Anche quello mi serve. Le chiavi del garage invece non sono urgenti: se vuoi, lasciale alla portinaia e me le dà lei. Se preferisci, passo io a prendere tutto giovedì sera. Grazie mille, a presto!"
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-03-l3-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Ce l'ha lo scontrino? – Sì, ce l'ho, eccolo.",
+          "translation": "Have you got the receipt? – Yes, I have, here it is."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-03-l3-e13",
+          "front": "lo scontrino",
+          "back": "receipt (till receipt)",
+          "example": "Per cambiare un articolo serve lo scontrino."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "prestare",
+      "en": "to lend",
+      "example": "Mi presti la penna? Te la restituisco subito."
+    },
+    {
+      "it": "restituire (restituisco)",
+      "en": "to give back, to return",
+      "example": "Te lo restituisco domani."
+    },
+    {
+      "it": "cambiare (un articolo)",
+      "en": "to exchange (an item)",
+      "example": "Me lo può cambiare con una taglia più grande?"
+    },
+    {
+      "it": "il rimborso",
+      "en": "refund",
+      "example": "Posso avere un rimborso o solo un buono?"
+    },
+    {
+      "it": "lo scontrino",
+      "en": "till receipt",
+      "example": "Ce l'ha lo scontrino?"
+    },
+    {
+      "it": "la ricevuta",
+      "en": "receipt (formal, issued)",
+      "example": "Mi può fare la ricevuta?"
+    },
+    {
+      "it": "la taglia",
+      "en": "size (clothes)",
+      "example": "Avete la taglia più grande?"
+    },
+    {
+      "it": "il camerino",
+      "en": "fitting room",
+      "example": "Il camerino è in fondo a destra."
+    },
+    {
+      "it": "incartare",
+      "en": "to wrap",
+      "example": "Glielo incarto? È un regalo?"
+    },
+    {
+      "it": "la ricetta (del medico)",
+      "en": "prescription",
+      "example": "Per questo farmaco serve la ricetta."
+    },
+    {
+      "it": "la compressa",
+      "en": "tablet",
+      "example": "Prenda una compressa ogni dodici ore."
+    },
+    {
+      "it": "lo sciroppo",
+      "en": "syrup (medicine)",
+      "example": "Me lo può dare in sciroppo?"
+    },
+    {
+      "it": "la raccomandata",
+      "en": "registered letter",
+      "example": "Devo ritirare una raccomandata."
+    },
+    {
+      "it": "l'avviso (m.)",
+      "en": "notice, delivery slip",
+      "example": "Ho trovato l'avviso nella cassetta della posta."
+    },
+    {
+      "it": "la delega",
+      "en": "written authorisation (proxy)",
+      "example": "Mio fratello mi ha fatto la delega."
+    },
+    {
+      "it": "ritirare",
+      "en": "to collect, to pick up",
+      "example": "Posso ritirare il pacco per lui?"
+    },
+    {
+      "it": "spedire (spedisco)",
+      "en": "to send, to post",
+      "example": "Gliela spedisco domani."
+    },
+    {
+      "it": "il francobollo",
+      "en": "stamp",
+      "example": "Mi dà due francobolli per l'estero?"
+    },
+    {
+      "it": "il modulo",
+      "en": "form",
+      "example": "Ha già compilato il modulo?"
+    },
+    {
+      "it": "avercela (ce l'ho)",
+      "en": "to have it (spoken)",
+      "example": "Il biglietto? Sì, ce l'ho."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-03-t1",
+      "rule": "Mi + lo = me lo",
+      "tip": "Before lo, la, li, le, ne: mi, ti, ci, vi become me, te, ce, ve. Me lo dai? – Te lo do.",
+      "example": {
+        "it": "Mi presti la penna? – Sì, te la presto.",
+        "en": "Will you lend me the pen? – Yes, I'll lend it to you."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Mi presti la bici? – Sì, ___ presto volentieri.",
+        "answers": [
+          "te la"
+        ]
+      }
+    },
+    {
+      "id": "b1-03-t2",
+      "rule": "Glielo: una parola sola",
+      "tip": "To him, to her, to them or to Lei + it: gli/le + lo = glielo, always one word.",
+      "example": {
+        "it": "Il modulo? Glielo mando oggi.",
+        "en": "The form? I'll send it to you today."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Le lo mando domani, signora.",
+        "answers": [
+          "Glielo mando domani, signora.",
+          "Glielo mando domani signora."
+        ]
+      }
+    },
+    {
+      "id": "b1-03-t3",
+      "rule": "Pronomi con l'infinito",
+      "tip": "With a modal + infinitive: pronouns before the modal or attached to the infinitive.",
+      "example": {
+        "it": "Me lo può dare? = Può darmelo?",
+        "en": "Could you give it to me?"
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "Can you give it to me? (tu, il libro)",
+        "answers": [
+          "Puoi darmelo?",
+          "Me lo puoi dare?",
+          "Me lo dai?"
+        ]
+      }
+    },
+    {
+      "id": "b1-03-t4",
+      "rule": "Gliel'ho data",
+      "tip": "In the passato prossimo lo/la → l', and the participle agrees with the object: Gliel'ho data.",
+      "example": {
+        "it": "La ricevuta? Me l'hanno data subito.",
+        "en": "The receipt? They gave it to me straight away."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Le chiavi? Me le ha ___ il portiere.",
+        "options": [
+          "date",
+          "dato",
+          "dati",
+          "data"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "b1-03-t5",
+      "rule": "Ce l'ho",
+      "tip": "With avere + lo/la/li/le, spoken Italian adds ci: Ce l'hai il biglietto? – Sì, ce l'ho.",
+      "example": {
+        "it": "Hai le chiavi? – No, non ce le ho.",
+        "en": "Have you got the keys? – No, I haven't."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Hai i documenti? – Sì, ___ ho tutti.",
+        "answers": [
+          "ce li"
+        ]
+      }
+    }
+  ]
+}

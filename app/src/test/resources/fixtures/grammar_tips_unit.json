@@ -1,0 +1,41 @@
+{
+  "id": "b1-02",
+  "level": "B1",
+  "title": "Imperfetto e passato prossimo",
+  "lessons": [],
+  "grammarTips": [
+    {
+      "id": "b1-02-t1",
+      "rule": "Imperfetto per lo sfondo",
+      "tip": "Use the imperfetto for background and the passato prossimo for the event that happened.",
+      "example": { "it": "Pioveva quando sono uscito.", "en": "It was raining when I went out." },
+      "challenge": { "type": "gap_fill", "sentence": "Mentre ___ (cucinare), è suonato il telefono.", "answers": ["cucinavo"], "explanation": "Background action: imperfetto." }
+    },
+    {
+      "id": "b1-02-t2",
+      "rule": "Sapere vs conoscere",
+      "tip": "Al passato prossimo, sapere = to find out; conoscere = to meet.",
+      "challenge": { "type": "multiple_choice", "prompt": "Ieri ___ la verità.", "options": ["ho saputo", "sapevo"], "answer": 0 }
+    },
+    {
+      "rule": "Senza id",
+      "tip": "A tip without an id gets one from the unit and its position.",
+      "example": { "it": "", "en": "blank Italian example is dropped" }
+    },
+    {
+      "id": "b1-02-t4",
+      "rule": "Broken challenge",
+      "tip": "A broken challenge leaves the tip without one.",
+      "challenge": { "type": "multiple_choice", "prompt": "Missing options" }
+    },
+    { "id": "b1-02-t5", "rule": "", "tip": "No rule: dropped." },
+    { "id": "b1-02-t6", "rule": "Wrong shape", "tip": ["not", "a", "string"] },
+    {
+      "id": "b1-02-t7",
+      "rule": "Unknown challenge type",
+      "tip": "An unknown challenge type is dropped, the tip stays.",
+      "challenge": { "type": "hologram_quiz" },
+      "futureField": true
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "id": "c1-10",
+  "level": "C1",
+  "title": "Ripasso finale",
+  "objective": "Alla fine del percorso sai argomentare a lungo, mediare tra posizioni diverse, riferire e scrivere testi formali usando con sicurezza le strutture di B2 e C1.",
+  "grammarFocus": "Ripasso cumulativo: concordanza dei tempi, periodo ipotetico (anche misto), passivo e andare + participio, discorso indiretto, passato remoto, ordine marcato, registro formale e burocratese, verbi pronominali, congiuntivo avanzato, connettivi e mediazione.",
+  "remedialUnitIds": [
+    "c1-04",
+    "b2-12",
+    "c1-07",
+    "c1-08",
+    "c1-09"
+  ],
+  "lessons": [
+    {
+      "id": "c1-10-l1",
+      "title": "Precisione grammaticale",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-10-l1-e01",
+          "prompt": "Se l'avessi saputo prima, ieri ___ in modo diverso.",
+          "options": [
+            "avrei agito",
+            "agirei",
+            "avessi agito",
+            "agivo"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento (b2-09): scegli la forma giusta.",
+          "explanation": "Periodo ipotetico dell'irrealtà nel passato: se + trapassato congiuntivo → condizionale passato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l1-e02",
+          "sentence": "Dante ___ (nascere) a Firenze nel 1265.",
+          "answers": [
+            "nacque"
+          ],
+          "hint": "nascere – lui",
+          "instruction": "Riscaldamento (c1-02): completa con il passato remoto."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-10-l1-e03",
+          "title": "Ripasso: le strutture chiave del percorso",
+          "body": "Prima della prova, ripassa le strutture che fanno la differenza tra B2 e C1:\n\n- **Concordanza dei tempi**: principale al passato → congiuntivo imperfetto/trapassato: *Pensavo che fossi già partito.*\n- **Periodo ipotetico misto**: *Se avessi accettato quel lavoro, ora vivrei a Milano.*\n- **Passivo**: *Il progetto è stato approvato / venne approvato*; **andare + participio**: *va firmato*.\n- **Discorso indiretto** al passato: futuro → condizionale passato: *«Tornerò» → Disse che sarebbe tornato.*\n- **Ordine marcato** (c1-03): *Il caffè lo prendo amaro. È stato lui a decidere.*\n- **Verbi pronominali** (c1-06): *ce l'ho fatta, me la sono cavata.*\n- **Congiuntivo avanzato** (c1-08): *come se fosse, chiunque sia, il migliore che io abbia visto.*",
+          "examples": [
+            {
+              "it": "Pensavo che tu fossi già partito.",
+              "en": "I thought you had already left."
+            },
+            {
+              "it": "Se avessi accettato, ora vivrei a Milano.",
+              "en": "If I had accepted, I'd be living in Milan now."
+            },
+            {
+              "it": "Disse che sarebbe tornato il giorno dopo.",
+              "en": "He said he would come back the next day."
+            },
+            {
+              "it": "È stato il direttore a decidere.",
+              "en": "It was the director who decided."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "c1-10-l1-e04",
+          "title": "Una nuova vita",
+          "passage": "Quando arrivai in Italia, non pensavo che la burocrazia (1) ___ così complicata. Il primo mese ci (2) ___ tre settimane solo per ottenere il codice fiscale! Eppure, (3) ___ abbia vissuto un'esperienza simile sa che, alla fine, in qualche modo ce la si fa. Oggi, se qualcuno mi chiedesse un consiglio, gli (4) ___ di armarsi di pazienza e di un buon dizionario.",
+          "questions": [
+            {
+              "question": "(1)",
+              "options": [
+                "fosse",
+                "era",
+                "sarà",
+                "sia stata"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "(2)",
+              "options": [
+                "misi",
+                "volle",
+                "volli",
+                "messe"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "(3)",
+              "options": [
+                "chiunque",
+                "qualunque",
+                "comunque",
+                "ovunque"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "(4)",
+              "options": [
+                "direi",
+                "avrei detto",
+                "dicessi",
+                "dirò"
+              ],
+              "answer": 0
+            }
+          ],
+          "instruction": "Leggi il testo e scegli la forma giusta per ogni spazio numerato.",
+          "explanation": "(1) concordanza al passato → congiuntivo imperfetto; (2) metterci al passato remoto (io misi); (3) chiunque + congiuntivo; (4) se + congiuntivo imperfetto → condizionale presente."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l1-e05",
+          "sentence": "Il Comune ha approvato il progetto. → Il progetto ___ dal Comune.",
+          "answers": [
+            "è stato approvato",
+            "fu approvato",
+            "venne approvato"
+          ],
+          "instruction": "Trasforma la frase al passivo.",
+          "explanation": "Passato prossimo passivo: è stato + participio accordato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l1-e06",
+          "sentence": "«Tornerò domani», disse. → Disse che ___ il giorno dopo.",
+          "answers": [
+            "sarebbe tornato"
+          ],
+          "instruction": "Trasforma in discorso indiretto.",
+          "explanation": "Futuro nel passato = condizionale passato; domani → il giorno dopo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l1-e07",
+          "sentence": "Il caffè, ___ prendo senza zucchero.",
+          "answers": [
+            "lo"
+          ],
+          "instruction": "Completa la dislocazione con il pronome.",
+          "explanation": "Oggetto dislocato a sinistra → ripresa con il pronome clitico."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-10-l1-e08",
+          "sentence": "Pensavo che tu sei già partito.",
+          "answers": [
+            "Pensavo che tu fossi già partito.",
+            "Pensavo che fossi già partito."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Pensavo che + anteriorità → congiuntivo trapassato."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-10-l1-e09",
+          "sentence": "Alla fine ce l'abbiamo fatto.",
+          "answers": [
+            "Alla fine ce l'abbiamo fatta."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Farcela: il participio concorda con la."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-10-l1-e10",
+          "translation": "It was the director who decided, not us.",
+          "tiles": [
+            "È",
+            "stato",
+            "il",
+            "direttore",
+            "a",
+            "decidere",
+            "non",
+            "noi"
+          ],
+          "distractors": [
+            "decide",
+            "era"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Frase scissa: essere + elemento messo in rilievo + a + infinito."
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-10-l1-e11",
+          "verb": "fare",
+          "tense": "passato remoto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "feci"
+            },
+            {
+              "person": "tu",
+              "answer": "facesti"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "fece"
+            },
+            {
+              "person": "noi",
+              "answer": "facemmo"
+            },
+            {
+              "person": "voi",
+              "answer": "faceste"
+            },
+            {
+              "person": "loro",
+              "answer": "fecero"
+            }
+          ],
+          "instruction": "Ripassa il passato remoto di fare."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-10-l1-e12",
+          "text": "Se avessi saputo che il termine era scaduto, avrei presentato la domanda prima.",
+          "translation": "If I had known the deadline had passed, I would have submitted the application earlier.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-10-l1-e13",
+          "prompt": "Riferisci che cosa ti ha detto l'ultima volta un medico, un funzionario o un insegnante. Usa il discorso indiretto.",
+          "keywords": [
+            "mi ha detto che",
+            "avrei dovuto",
+            "consigliato"
+          ],
+          "modelAnswer": "L'ultima volta il medico mi ha detto che avrei dovuto fare più movimento e che la pressione era un po' alta. Mi ha chiesto se dormissi bene e mi ha consigliato di bere meno caffè. Ha aggiunto che, se le cose non fossero migliorate, avremmo fatto altri esami.",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "explanation": "Discorso indiretto al passato: dovrai → avrei dovuto; dormi? → se dormissi."
+        }
+      ]
+    },
+    {
+      "id": "c1-10-l2",
+      "title": "Registro formale: leggere e scrivere",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-10-l2-e01",
+          "prompt": "«Da presentare entro e non oltre il 30 aprile» significa…",
+          "options": [
+            "Il 30 aprile è l'ultimo giorno possibile.",
+            "Si può presentare anche dopo il 30 aprile.",
+            "Si può presentare solo il 30 aprile.",
+            "Bisogna presentarlo prima di aprile."
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento (c1-07): scegli il significato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l2-e02",
+          "sentence": "Qualora ___ (essere) necessario, La contatteremo noi.",
+          "answers": [
+            "fosse",
+            "sia"
+          ],
+          "instruction": "Riscaldamento: completa con il congiuntivo."
+        },
+        {
+          "type": "reading",
+          "id": "c1-10-l2-e03",
+          "title": "La pubblica amministrazione diventa digitale?",
+          "passage": "Negli ultimi anni molti servizi pubblici italiani si sono spostati online. Con l'identità digitale, per esempio, si possono prenotare visite, scaricare certificati o consultare la propria posizione fiscale senza fare la fila allo sportello. Per molti cittadini è stata una rivoluzione: ciò che un tempo richiedeva una mattinata di permesso dal lavoro, oggi si risolve in pochi minuti.\n\nEppure la digitalizzazione non è priva di ombre. Chi non ha dimestichezza con la tecnologia, soprattutto tra le persone anziane, rischia di restare escluso, e non sempre gli sportelli fisici offrono un'alternativa adeguata. Inoltre, il linguaggio dei portali resta spesso quello del burocratese, come se il passaggio al digitale non avesse cambiato nulla nel modo di comunicare.\n\nInsomma, la tecnologia da sola non basta: servono testi chiari e un'assistenza che accompagni chiunque abbia bisogno di aiuto.",
+          "questions": [
+            {
+              "question": "Qual è il principale vantaggio della digitalizzazione secondo il testo?",
+              "options": [
+                "Si risparmia molto tempo.",
+                "I servizi costano meno.",
+                "Gli sportelli sono più numerosi.",
+                "I testi sono più chiari."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Chi rischia di restare escluso?",
+              "options": [
+                "Chi ha poca familiarità con la tecnologia.",
+                "Chi lavora la mattina.",
+                "I funzionari degli sportelli.",
+                "Chi abita in città."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa critica l'autore riguardo ai portali?",
+              "options": [
+                "Sono troppo lenti.",
+                "Usano ancora un linguaggio burocratico.",
+                "Costano troppo.",
+                "Non funzionano di notte."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è la conclusione dell'articolo?",
+              "options": [
+                "La tecnologia va abbandonata.",
+                "Gli sportelli fisici vanno chiusi.",
+                "Servono chiarezza e assistenza oltre alla tecnologia.",
+                "Bisogna tornare alla carta."
+              ],
+              "answer": 2
+            }
+          ],
+          "instruction": "Leggi l'articolo e rispondi alle domande.",
+          "explanation": "Nota i connettivi che organizzano il testo: eppure (svolta), inoltre (aggiunta), insomma (conclusione)."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-10-l2-e04",
+          "pairs": [
+            {
+              "left": "Ti scrivo per…",
+              "right": "Le scrivo in merito a…"
+            },
+            {
+              "left": "Ti mando i documenti.",
+              "right": "Si allega la documentazione."
+            },
+            {
+              "left": "Fammi sapere.",
+              "right": "Resto in attesa di un Suo cortese riscontro."
+            },
+            {
+              "left": "Se hai bisogno…",
+              "right": "Qualora avesse bisogno…"
+            },
+            {
+              "left": "Grazie in anticipo.",
+              "right": "La ringrazio anticipatamente per l'attenzione."
+            }
+          ],
+          "instruction": "Abbina la frase informale alla versione formale."
+        },
+        {
+          "type": "translate",
+          "id": "c1-10-l2-e05",
+          "direction": "en_it",
+          "source": "I am writing regarding the invoice I received on 10 May.",
+          "answers": [
+            "Le scrivo in merito alla fattura che ho ricevuto il 10 maggio.",
+            "Le scrivo in merito alla fattura ricevuta il 10 maggio.",
+            "Le scrivo riguardo alla fattura che ho ricevuto il 10 maggio.",
+            "Le scrivo riguardo alla fattura ricevuta il 10 maggio.",
+            "Le scrivo a proposito della fattura che ho ricevuto il 10 maggio.",
+            "Le scrivo a proposito della fattura ricevuta il 10 maggio.",
+            "Scrivo in merito alla fattura ricevuta il 10 maggio.",
+            "Vi scrivo in merito alla fattura ricevuta il 10 maggio.",
+            "Vi scrivo in merito alla fattura che ho ricevuto il 10 maggio.",
+            "Le scrivo in riferimento alla fattura ricevuta il 10 maggio.",
+            "Le scrivo in merito alla fattura che ho ricevuto in data 10 maggio.",
+            "Le scrivo in merito alla fattura ricevuta in data 10 maggio."
+          ],
+          "instruction": "Traduci in italiano (registro formale)."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-10-l2-e06",
+          "sentence": "Gentile dottoressa Ferri, ti scrivo per chiedere un appuntamento.",
+          "answers": [
+            "Gentile dottoressa Ferri, Le scrivo per chiedere un appuntamento.",
+            "Gentile dottoressa Ferri Le scrivo per chiedere un appuntamento.",
+            "Gentile dottoressa Ferri, le scrivo per chiedere un appuntamento.",
+            "Gentile dottoressa Ferri le scrivo per chiedere un appuntamento.",
+            "Gentile Dottoressa Ferri, Le scrivo per chiedere un appuntamento.",
+            "Gentile Dottoressa Ferri Le scrivo per chiedere un appuntamento."
+          ],
+          "instruction": "C'è un errore di registro. Riscrivi la frase corretta.",
+          "explanation": "Con una dottoressa si usa il Lei: Le scrivo (spesso con la maiuscola di cortesia)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l2-e07",
+          "sentence": "Ai fini del ___ (rinnovare) del contratto, Le chiediamo di inviarci i documenti aggiornati.",
+          "answers": [
+            "rinnovo"
+          ],
+          "instruction": "Nominalizza il verbo tra parentesi.",
+          "explanation": "Rinnovare → il rinnovo: lo stile formale preferisce i nomi ai verbi."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-10-l2-e08",
+          "audioText": "Buongiorno, sono Elena Rinaldi dell'ufficio personale. La chiamo in merito alla Sua domanda di trasferimento: la documentazione è stata esaminata, ma manca il modulo firmato. Qualora non riuscisse a portarlo entro venerdì, può inviarlo anche via PEC. Per qualsiasi chiarimento, mi richiami pure.",
+          "question": "Che cosa manca alla domanda?",
+          "options": [
+            "Il modulo firmato.",
+            "Un documento d'identità.",
+            "L'indirizzo PEC.",
+            "Una lettera di presentazione."
+          ],
+          "answer": 0,
+          "instruction": "Ascolta il messaggio in segreteria e rispondi."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-10-l2-e09",
+          "prompt": "Quale frase chiude meglio la lettera?",
+          "options": [
+            "In attesa di un Suo cortese riscontro, porgo distinti saluti.",
+            "Ciao e a presto!",
+            "Fammi sapere qualcosa, grazie.",
+            "Rispondete subito, è urgente!"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la chiusura più adatta a una lettera formale di reclamo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-10-l2-e10",
+          "prompt": "Lascia un messaggio in segreteria all'amministratore di condominio: c'è un'infiltrazione d'acqua nel soffitto del tuo bagno. Spiega il problema e chiedi un sopralluogo urgente.",
+          "keywords": [
+            "la chiamo",
+            "sopralluogo",
+            "la ringrazio"
+          ],
+          "modelAnswer": "Buongiorno, sono l'inquilino dell'interno 8 di via Verdi 14. La chiamo in merito a un'infiltrazione d'acqua nel soffitto del bagno, che da ieri si è allargata parecchio. Temo che il problema venga dal terrazzo condominiale. Le sarei grato se potesse organizzare un sopralluogo al più presto. Mi può richiamare a questo numero. La ringrazio e buona giornata.",
+          "instruction": "Rispondi ad alta voce (registro formale)."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-10-l2-e11",
+          "text": "Resto in attesa di un Suo cortese riscontro e porgo distinti saluti.",
+          "translation": "I look forward to your kind reply. Yours sincerely.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-10-l2-e12",
+          "prompt": "Hai comprato online una lavatrice che è arrivata danneggiata. Hai scritto al servizio clienti due settimane fa, ma nessuno ti ha risposto. Scrivi un'email formale di reclamo (120–160 parole): descrivi il problema, ricorda il contatto precedente, chiedi una soluzione precisa (sostituzione o rimborso) entro una data.",
+          "minWords": 120,
+          "checklist": [
+            "Ho indicato l'oggetto e ho usato formule di apertura e chiusura formali.",
+            "Ho descritto il problema in modo ordinato (data dell'ordine, danno, contatto precedente).",
+            "Ho usato almeno una costruzione implicita (participio o gerundio) e una nominalizzazione.",
+            "Ho chiesto una soluzione precisa con una scadenza, in tono fermo ma cortese.",
+            "Ho usato il Lei/Voi in modo coerente e ho controllato congiuntivi e concordanze."
+          ],
+          "modelAnswer": "Oggetto: reclamo per lavatrice danneggiata – ordine n. 45821\n\nSpettabile Servizio Clienti,\n\nin data 3 ottobre ho acquistato sul Vostro sito una lavatrice, consegnata il 10 ottobre. Aperto l'imballo, ho constatato che lo sportello era rotto e la parte posteriore presentava un'ammaccatura evidente. Il giorno stesso ho segnalato il problema tramite il modulo online, allegando le fotografie del danno. Non avendo ricevuto alcuna risposta a distanza di due settimane, mi vedo costretto a scriverVi nuovamente. Vi chiedo pertanto la sostituzione dell'apparecchio o, in alternativa, il rimborso integrale dell'importo pagato, entro e non oltre il 15 novembre. Qualora non ricevessi un riscontro entro tale data, mi riserverò di rivolgermi a un'associazione dei consumatori. Restando in attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n[Nome e cognome]",
+          "instruction": "Scrivi un'email formale di reclamo."
+        }
+      ]
+    },
+    {
+      "id": "c1-10-l3",
+      "title": "Argomentare e mediare",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-10-l3-e01",
+          "prompt": "Il progetto è costoso; ___, potrebbe farci risparmiare molto in futuro.",
+          "options": [
+            "tuttavia",
+            "anzi",
+            "insomma",
+            "cioè"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento (c1-09): scegli il connettivo.",
+          "explanation": "Tuttavia introduce un contrasto: costoso, ma conveniente nel lungo periodo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l3-e02",
+          "sentence": "Chiunque ___ (volere) partecipare deve iscriversi entro lunedì.",
+          "answers": [
+            "voglia"
+          ],
+          "instruction": "Riscaldamento (c1-08): completa con il congiuntivo."
+        },
+        {
+          "type": "reading",
+          "id": "c1-10-l3-e03",
+          "title": "Lavorare da casa: una scelta per tutti?",
+          "passage": "Dalla pandemia in poi il lavoro da remoto è entrato nelle abitudini di molti italiani. I sostenitori sottolineano i vantaggi: meno ore perse nel traffico, più tempo per la famiglia, la possibilità di vivere in piccoli centri dove la casa costa meno. Non sono pochi, infatti, quelli che hanno lasciato la città per tornare al paese d'origine.\n\nTuttavia, non tutto è così semplice. Lavorare da soli può isolare, e i confini tra vita privata e lavoro rischiano di sparire: c'è chi risponde alle email alle dieci di sera come se fosse in ufficio. Inoltre, non tutti i lavori si possono fare da casa, il che crea nuove disuguaglianze.\n\nDirei che la soluzione non sta in un modello unico, ma in un equilibrio: alcuni giorni in presenza, altri da remoto, con regole chiare sul diritto alla disconnessione.",
+          "questions": [
+            {
+              "question": "Quale vantaggio del lavoro da remoto NON è citato?",
+              "options": [
+                "Uno stipendio più alto.",
+                "Meno tempo nel traffico.",
+                "Più tempo per la famiglia.",
+                "Case meno care nei piccoli centri."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa significa «come se fosse in ufficio» nel testo?",
+              "options": [
+                "Che si lavora anche fuori orario.",
+                "Che si va in ufficio la sera.",
+                "Che l'ufficio è a casa.",
+                "Che si lavora meno."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è la posizione dell'autore?",
+              "options": [
+                "Propone un modello misto con regole chiare.",
+                "È contrario al lavoro da remoto.",
+                "Vuole il lavoro da remoto per tutti.",
+                "Non esprime un'opinione."
+              ],
+              "answer": 0
+            }
+          ],
+          "instruction": "Leggi il testo argomentativo e rispondi alle domande.",
+          "explanation": "Struttura argomentativa: tesi dei sostenitori → tuttavia (antitesi) → inoltre → direi che (conclusione attenuata)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-10-l3-e04",
+          "prompt": "«il che» si riferisce a…",
+          "options": [
+            "tutta la frase precedente",
+            "il lavoro",
+            "la casa",
+            "le disuguaglianze"
+          ],
+          "answer": 0,
+          "instruction": "Rileggi il testo: che funzione ha «il che» nella frase «il che crea nuove disuguaglianze»?",
+          "explanation": "Il che = e questo fatto: riprende un'intera frase."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-10-l3-e05",
+          "sentence": "Ne parla come se ___ (essere) facile, ma non lo è affatto.",
+          "answers": [
+            "fosse"
+          ],
+          "instruction": "Completa con il congiuntivo."
+        },
+        {
+          "type": "translate",
+          "id": "c1-10-l3-e06",
+          "direction": "it_en",
+          "source": "Non che sia sbagliato, ma direi che è un po' prematuro.",
+          "answers": [
+            "Not that it's wrong, but I'd say it's a bit premature.",
+            "Not that it's wrong but I'd say it's a bit premature.",
+            "Not that it is wrong, but I would say it is a bit premature.",
+            "Not that it is wrong but I would say it is a bit premature.",
+            "Not that it's wrong, but I would say it's a bit premature.",
+            "Not that it's wrong but I would say it's a bit premature.",
+            "Not that it's wrong, but I'd say it's a little premature.",
+            "Not that it's wrong but I'd say it's a little premature.",
+            "It's not that it's wrong, but I'd say it's a bit premature.",
+            "It's not that it's wrong but I'd say it's a bit premature.",
+            "Not that it's wrong, but I'd say it's slightly premature.",
+            "Not that it's wrong but I'd say it's slightly premature.",
+            "Not that it's wrong, but I'd say it's a bit early.",
+            "Not that it's wrong but I'd say it's a bit early.",
+            "It's not that it's wrong, but I'd say it's a little premature.",
+            "It's not that it's wrong but I'd say it's a little premature."
+          ],
+          "instruction": "Traduci in inglese."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-10-l3-e07",
+          "audioText": "Tutto sommato, mi pare che entrambe le proposte abbiano dei vantaggi.",
+          "answers": [
+            "Tutto sommato, mi pare che entrambe le proposte abbiano dei vantaggi.",
+            "Tutto sommato mi pare che entrambe le proposte abbiano dei vantaggi."
+          ],
+          "slow": true,
+          "instruction": "Ascolta e scrivi la frase."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-10-l3-e08",
+          "prompt": "Due colleghi non sono d'accordo. Che cosa dici?",
+          "options": [
+            "Mi pare che siate d'accordo almeno sull'obiettivo: e se provassimo a cercare insieme i tempi giusti?",
+            "Ha ragione lui, punto.",
+            "Decidete voi, io non c'entro.",
+            "Smettetela di litigare!"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la frase migliore per un mediatore."
+        },
+        {
+          "type": "roleplay",
+          "id": "c1-10-l3-e09",
+          "scenario": "L'azienda vuole introdurre due giorni di lavoro da remoto alla settimana. Il signor Conti è favorevole, la signora Neri teme che il gruppo perda coesione. Modera la discussione e guidala verso una decisione.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Conti: Secondo me due giorni da casa sono il minimo, ci farebbero risparmiare tempo e soldi."
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie, signor Conti. Prima di andare avanti, sentiamo anche la signora Neri. Prego, a lei la parola.",
+              "hint": "Gestisci i turni con cortesia.",
+              "keywords": [
+                "a lei la parola",
+                "prego"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Neri: Non è che io sia contraria in assoluto, ma ho paura che lavorando da casa ci si parli sempre meno."
+            },
+            {
+              "speaker": "you",
+              "text": "Se ho capito bene, lei non è contraria al lavoro da remoto in sé, ma alla perdita di contatto tra i colleghi.",
+              "hint": "Riformula la posizione.",
+              "keywords": [
+                "se ho capito bene",
+                "contraria"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Neri: Esatto. Conti: Beh, su questo posso essere d'accordo, anche a me mancherebbero le riunioni in presenza."
+            },
+            {
+              "speaker": "you",
+              "text": "Mi pare quindi che siate d'accordo su un punto: il contatto diretto è importante. E se fissassimo un giorno in cui tutti sono in ufficio?",
+              "hint": "Trova il punto comune e proponi.",
+              "keywords": [
+                "d'accordo",
+                "e se"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Conti: Mi sembra una buona idea. Neri: Anche a me, direi."
+            },
+            {
+              "speaker": "you",
+              "text": "Tirando le somme: due giorni da remoto, un giorno fisso tutti in presenza e una verifica tra tre mesi. Lo metto a verbale.",
+              "hint": "Riassumi e chiudi formalmente.",
+              "keywords": [
+                "tirando le somme",
+                "verbale"
+              ]
+            }
+          ],
+          "instruction": "Sei il moderatore di una riunione di lavoro. Rispondi ad alta voce quando tocca a te.",
+          "explanation": "Hai usato la sequenza completa della mediazione e il lessico formale delle riunioni."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-10-l3-e10",
+          "prompt": "Esprimi la tua opinione: è meglio vivere in una grande città o in un piccolo paese? Presenta pro e contro, poi la tua posizione.",
+          "keywords": [
+            "da un lato",
+            "dall'altro",
+            "tuttavia",
+            "direi"
+          ],
+          "modelAnswer": "Da un lato la grande città offre più lavoro, più servizi e una vita culturale ricca: cinema, mostre, collegamenti. Dall'altro, però, la vita è più cara e lo stress è più alto, soprattutto per il traffico. Il piccolo paese, invece, è più tranquillo e i rapporti sono più umani; tuttavia, i servizi sono pochi e chi non ha la macchina può sentirsi isolato. Tutto sommato, direi che la soluzione migliore sia una città media, che abbia i servizi essenziali senza il caos delle metropoli.",
+          "instruction": "Parla per circa un minuto."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-10-l3-e11",
+          "prompt": "Scrivi un testo argomentativo (150–180 parole) sul tema: «Il lavoro da remoto: un'opportunità o un rischio per le città?». Presenta la tesi, almeno un'obiezione, la tua opinione argomentata e una conclusione.",
+          "minWords": 150,
+          "checklist": [
+            "Ho organizzato il testo in introduzione, sviluppo e conclusione.",
+            "Ho usato connettivi vari (da un lato… dall'altro, tuttavia, inoltre, eppure, insomma).",
+            "Ho presentato almeno un'obiezione e l'ho discussa.",
+            "Ho usato il congiuntivo dove serve (credo che, benché, chiunque, come se) e almeno un periodo ipotetico.",
+            "Ho mantenuto un registro formale e impersonale (si, nominalizzazioni)."
+          ],
+          "modelAnswer": "Negli ultimi anni il lavoro da remoto ha cambiato il rapporto tra le persone e le città. Da un lato, molti lavoratori hanno lasciato i grandi centri per trasferirsi in paesi più tranquilli, dove la vita costa meno e il tempo perso nel traffico si riduce. Dall'altro, i quartieri degli uffici si sono svuotati, e bar e negozi che vivevano dei pendolari faticano ad andare avanti.\n\nC'è chi sostiene che questo sia un rischio per le città, destinate a perdere vitalità. Tuttavia, credo che si tratti soprattutto di un'occasione: se gli spazi vuoti venissero trasformati in case, servizi e luoghi di incontro, i centri urbani potrebbero diventare più vivibili. Inoltre, il ritorno nei piccoli centri potrebbe frenarne lo spopolamento.\n\nInsomma, il lavoro da remoto non è né un bene né un male in sé. Tutto dipende da come lo si governa: benché il cambiamento sia ormai avviato, spetta alle amministrazioni fare in modo che ne beneficino tutti.",
+          "instruction": "Scrivi un testo argomentativo."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-10-l3-e12",
+          "translation": "Summing up, it seems to me that both proposals have their merits.",
+          "tiles": [
+            "Riassumendo",
+            "mi",
+            "pare",
+            "che",
+            "entrambe",
+            "le",
+            "proposte",
+            "abbiano",
+            "dei",
+            "meriti"
+          ],
+          "distractors": [
+            "hanno",
+            "entrambi"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Mi pare che + congiuntivo; entrambe concorda con proposte (femminile)."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "in merito a",
+      "en": "regarding, concerning",
+      "example": "Le scrivo in merito alla Sua richiesta."
+    },
+    {
+      "it": "il riscontro",
+      "en": "reply, feedback (formal)",
+      "example": "Resto in attesa di un Suo riscontro."
+    },
+    {
+      "it": "porgere distinti saluti",
+      "en": "to send kind regards (formal closing)",
+      "example": "Porgo distinti saluti."
+    },
+    {
+      "it": "il reclamo",
+      "en": "complaint",
+      "example": "Ho presentato un reclamo scritto."
+    },
+    {
+      "it": "il sopralluogo",
+      "en": "site inspection",
+      "example": "Il tecnico farà un sopralluogo domani."
+    },
+    {
+      "it": "l'infiltrazione (f.)",
+      "en": "leak, seepage",
+      "example": "C'è un'infiltrazione d'acqua nel soffitto."
+    },
+    {
+      "it": "il rimborso",
+      "en": "refund",
+      "example": "Ho chiesto il rimborso integrale."
+    },
+    {
+      "it": "la tesi",
+      "en": "thesis, argument",
+      "example": "La tesi dell'autore è chiara."
+    },
+    {
+      "it": "l'obiezione (f.)",
+      "en": "objection",
+      "example": "Vorrei sollevare un'obiezione."
+    },
+    {
+      "it": "i pro e i contro",
+      "en": "pros and cons",
+      "example": "Valutiamo i pro e i contro."
+    },
+    {
+      "it": "il lavoro da remoto",
+      "en": "remote work",
+      "example": "Lavoro da remoto due giorni a settimana."
+    },
+    {
+      "it": "prematuro",
+      "en": "premature",
+      "example": "Mi sembra prematuro decidere oggi."
+    },
+    {
+      "it": "spettare a",
+      "en": "to be up to, to be the responsibility of",
+      "example": "La decisione spetta al direttore."
+    },
+    {
+      "it": "la disconnessione",
+      "en": "disconnection (right to switch off)",
+      "example": "Esiste il diritto alla disconnessione?"
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "c1-10-t1",
+      "rule": "Pensavo che fossi…",
+      "tip": "Con la principale al passato il congiuntivo va all'imperfetto (contemporaneità) o al trapassato (anteriorità).",
+      "example": {
+        "it": "Pensavo che fossi già partito.",
+        "en": "I thought you had already left."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Credevo che lui è già arrivato.",
+        "answers": [
+          "Credevo che lui fosse già arrivato.",
+          "Credevo che fosse già arrivato."
+        ],
+        "instruction": "C'è un errore. Correggilo."
+      }
+    },
+    {
+      "id": "c1-10-t2",
+      "rule": "Periodo ipotetico misto",
+      "tip": "Passato irreale con effetto sul presente: se + congiuntivo trapassato → condizionale presente.",
+      "example": {
+        "it": "Se avessi studiato di più, ora parlerei meglio.",
+        "en": "If I had studied more, I'd speak better now."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Se avessi preso quel treno, adesso ___ già a casa.",
+        "options": [
+          "sarei",
+          "sarei stato",
+          "fossi"
+        ],
+        "answer": 0,
+        "instruction": "Scegli la forma giusta."
+      }
+    },
+    {
+      "id": "c1-10-t3",
+      "rule": "Indiretto: futuro → cond. passato",
+      "tip": "Al passato il futuro del discorso diretto diventa condizionale passato: «Verrò» → disse che sarebbe venuto.",
+      "example": {
+        "it": "Mi ha detto che mi avrebbe chiamato.",
+        "en": "He told me he would call me."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "«Ti scriverò» → Mi ha promesso che mi ___ .",
+        "answers": [
+          "avrebbe scritto"
+        ],
+        "instruction": "Completa."
+      }
+    },
+    {
+      "id": "c1-10-t4",
+      "rule": "Dislocazione: ripresa con il pronome",
+      "tip": "Se anticipi l'oggetto, riprendilo con un pronome: il caffè lo prendo amaro; le chiavi le ho io.",
+      "example": {
+        "it": "La lettera l'ho già spedita.",
+        "en": "I've already sent the letter."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Le bollette ___ pago online.",
+        "answers": [
+          "le"
+        ],
+        "instruction": "Completa con il pronome."
+      }
+    },
+    {
+      "id": "c1-10-t5",
+      "rule": "Lettera formale: Le scrivo",
+      "tip": "In una lettera formale usa il Lei (spesso con la maiuscola: Le, Suo) e formule come in merito a, resto in attesa.",
+      "example": {
+        "it": "Le scrivo in merito alla Sua richiesta.",
+        "en": "I am writing regarding your request."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Gentile signora Bassi, ___ in merito alla fattura di marzo.",
+        "options": [
+          "Le scrivo",
+          "ti scrivo",
+          "vi scrivete"
+        ],
+        "answer": 0,
+        "instruction": "Scegli l'apertura giusta."
+      }
+    }
+  ]
+}

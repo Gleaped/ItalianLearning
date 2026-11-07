@@ -1,0 +1,997 @@
+{
+  "id": "c1-09",
+  "level": "C1",
+  "title": "Discutere e mediare",
+  "objective": "Alla fine dell'unità sai partecipare a una discussione e guidarla: argomentare con i connettivi giusti, attenuare le tue affermazioni, esprimere disaccordo con cortesia e mediare tra posizioni diverse.",
+  "grammarFocus": "Connettivi e segnali discorsivi (anzi, eppure, tuttavia, piuttosto che, insomma, d'altronde, da un lato… dall'altro); condizionale e congiuntivo di attenuazione (direi, mi permetterei, non so se sia); formule di disaccordo cortese, riformulazione e mediazione (se ho capito bene, e se + congiuntivo imperfetto, venirsi incontro).",
+  "remedialUnitIds": [
+    "b1-06",
+    "b2-07",
+    "b2-11",
+    "c1-03"
+  ],
+  "lessons": [
+    {
+      "id": "c1-09-l1",
+      "title": "Anzi, eppure, insomma: i connettivi",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-09-l1-e01",
+          "prompt": "___ fosse stanco, è venuto alla riunione.",
+          "options": [
+            "Benché",
+            "Anche",
+            "Però",
+            "Quindi"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento (b2-11): scegli il connettivo giusto.",
+          "explanation": "Benché + congiuntivo = anche se."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l1-e02",
+          "sentence": "Penso che ___ (essere) meglio rimandare la riunione.",
+          "answers": [
+            "sia"
+          ],
+          "hint": "essere – 3ª persona",
+          "instruction": "Riscaldamento: completa con il congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-09-l1-e03",
+          "title": "Connettivi per argomentare",
+          "body": "I connettivi danno forma al ragionamento: chi ascolta capisce subito se stai aggiungendo, correggendo, opponendo o concludendo.\n\n- **anzi** = al contrario, o meglio (corregge e rafforza): *Non è caro, anzi, è un affare. Ti chiamo domani, anzi, stasera.*\n- **eppure** = nonostante questo (contrasto inatteso): *Ha studiato tanto, eppure non ha passato l'esame.*\n- **tuttavia / però / ciononostante**: contrasto; tuttavia e ciononostante sono più formali.\n- **piuttosto che / piuttosto** = invece di, preferibilmente: *Piuttosto che lamentarci, proponiamo una soluzione.*\n- **insomma** = in conclusione, per farla breve (anche impazienza: *Insomma, vieni o no?*)\n- **cioè / vale a dire / in altre parole**: riformulare e precisare\n- **d'altronde / del resto** = after all: aggiunge una giustificazione: *Non mi stupisce: d'altronde, l'aveva detto.*\n- **da un lato… dall'altro** = on the one hand… on the other",
+          "examples": [
+            {
+              "it": "Non è una cattiva idea, anzi.",
+              "en": "It's not a bad idea at all – quite the opposite."
+            },
+            {
+              "it": "Ho spiegato tutto, eppure nessuno ha capito.",
+              "en": "I explained everything, and yet nobody understood."
+            },
+            {
+              "it": "Piuttosto che aspettare, scriviamo al Comune.",
+              "en": "Rather than waiting, let's write to the council."
+            },
+            {
+              "it": "Insomma, la decisione spetta a noi.",
+              "en": "In short, the decision is ours."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-09-l1-e04",
+          "prompt": "Il nuovo orario non mi dispiace, ___, lo trovo più comodo.",
+          "options": [
+            "anzi",
+            "eppure",
+            "piuttosto",
+            "insomma"
+          ],
+          "answer": 0,
+          "instruction": "Scegli il connettivo giusto.",
+          "explanation": "Anzi corregge e rafforza: non solo non mi dispiace, mi piace."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-09-l1-e05",
+          "prompt": "Abbiamo spiegato il problema tre volte, ___ nessuno ci ha ascoltato.",
+          "options": [
+            "eppure",
+            "anzi",
+            "cioè",
+            "d'altronde"
+          ],
+          "answer": 0,
+          "instruction": "Scegli il connettivo giusto.",
+          "explanation": "Eppure introduce un risultato inatteso."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l1-e06",
+          "sentence": "___ che spendere soldi in avvocati, proviamo a parlarne tra noi.",
+          "answers": [
+            "Piuttosto"
+          ],
+          "instruction": "Completa con il connettivo giusto.",
+          "explanation": "Piuttosto che + infinito = invece di (alternativa preferita)."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-09-l1-e07",
+          "pairs": [
+            {
+              "left": "anzi",
+              "right": "correggere rafforzando"
+            },
+            {
+              "left": "eppure",
+              "right": "contrasto inaspettato"
+            },
+            {
+              "left": "insomma",
+              "right": "riassumere, concludere"
+            },
+            {
+              "left": "cioè",
+              "right": "riformulare, precisare"
+            },
+            {
+              "left": "d'altronde",
+              "right": "aggiungere una giustificazione"
+            },
+            {
+              "left": "piuttosto che",
+              "right": "indicare un'alternativa preferita"
+            }
+          ],
+          "instruction": "Abbina il connettivo alla sua funzione."
+        },
+        {
+          "type": "reading",
+          "id": "c1-09-l1-e08",
+          "title": "Zona pedonale: sì o no?",
+          "passage": "Da un lato capisco i commercianti del centro, che temono di perdere clienti se le auto non potranno più arrivare davanti ai negozi. Dall'altro, però, le esperienze di altre città dimostrano che una zona pedonale ben organizzata non svuota il centro, anzi: spesso lo rende più vivo. Eppure ogni volta che se ne parla il dibattito si blocca. D'altronde, cambiare abitudini fa sempre paura. Piuttosto che dividerci tra favorevoli e contrari, proporrei una prova di sei mesi, con parcheggi e navette ai margini del centro. Insomma, decidiamo sui fatti, non sulle paure. — Lettera firmata",
+          "questions": [
+            {
+              "question": "Qual è la posizione dell'autore?",
+              "options": [
+                "È favorevole e propone una sperimentazione.",
+                "È contrario alla zona pedonale.",
+                "Non ha un'opinione.",
+                "Vuole più parcheggi in centro."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Nel testo, «anzi» serve a…",
+              "options": [
+                "rafforzare l'idea che il centro diventa più vivo.",
+                "introdurre un esempio.",
+                "concludere il ragionamento.",
+                "riportare l'opinione dei commercianti."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa introduce «d'altronde»?",
+              "options": [
+                "Una spiegazione del perché il dibattito si blocca.",
+                "Una proposta concreta.",
+                "Un'opinione contraria.",
+                "Un dato statistico."
+              ],
+              "answer": 0
+            }
+          ],
+          "instruction": "Leggi la lettera al giornale locale e rispondi alle domande."
+        },
+        {
+          "type": "translate",
+          "id": "c1-09-l1-e09",
+          "direction": "it_en",
+          "source": "Ha studiato molto, eppure non ha superato l'esame.",
+          "answers": [
+            "He studied a lot, yet he didn't pass the exam.",
+            "He studied a lot yet he didn't pass the exam.",
+            "He studied a lot, and yet he didn't pass the exam.",
+            "He studied a lot and yet he didn't pass the exam.",
+            "He studied hard, yet he didn't pass the exam.",
+            "He studied hard yet he didn't pass the exam.",
+            "He studied hard, and yet he didn't pass the exam.",
+            "He studied hard and yet he didn't pass the exam.",
+            "She studied a lot, yet she didn't pass the exam.",
+            "She studied a lot yet she didn't pass the exam.",
+            "She studied a lot, and yet she didn't pass the exam.",
+            "She studied a lot and yet she didn't pass the exam.",
+            "She studied hard, yet she didn't pass the exam.",
+            "She studied hard yet she didn't pass the exam.",
+            "She studied hard, and yet she didn't pass the exam.",
+            "She studied hard and yet she didn't pass the exam.",
+            "He studied a lot, yet he failed the exam.",
+            "He studied a lot yet he failed the exam.",
+            "He studied hard, yet he failed the exam.",
+            "He studied hard yet he failed the exam.",
+            "She studied a lot, yet she failed the exam.",
+            "She studied a lot yet she failed the exam.",
+            "She studied hard, yet she failed the exam.",
+            "She studied hard yet she failed the exam.",
+            "He studied a lot but still didn't pass the exam.",
+            "She studied a lot but still didn't pass the exam."
+          ],
+          "instruction": "Traduci in inglese."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-09-l1-e10",
+          "audioText": "Insomma, piuttosto che lamentarci, cerchiamo una soluzione insieme.",
+          "answers": [
+            "Insomma, piuttosto che lamentarci, cerchiamo una soluzione insieme.",
+            "Insomma piuttosto che lamentarci cerchiamo una soluzione insieme."
+          ],
+          "slow": false,
+          "instruction": "Ascolta e scrivi la frase."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-09-l1-e11",
+          "text": "Non è una cattiva idea, anzi, secondo me è l'unica possibile.",
+          "translation": "It's not a bad idea; in fact I think it's the only possible one.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-09-l1-e12",
+          "prompt": "Il tuo comune vuole chiudere il centro storico alle auto. Esprimi la tua opinione usando almeno tre connettivi (anzi, eppure, d'altronde, insomma…).",
+          "keywords": [
+            "anzi",
+            "d'altronde",
+            "insomma"
+          ],
+          "modelAnswer": "Secondo me non è una cattiva idea, anzi: il centro diventerebbe più vivibile. È vero che i negozianti sono preoccupati, eppure in molte città i negozi hanno guadagnato clienti. D'altronde, chi passeggia compra più di chi passa in macchina. Insomma, io proverei, magari con più autobus e qualche parcheggio fuori dal centro.",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-09-l1-e13",
+          "front": "anzi",
+          "back": "on the contrary; or rather; in fact",
+          "example": "Non sono stanco, anzi, ho voglia di uscire."
+        }
+      ]
+    },
+    {
+      "id": "c1-09-l2",
+      "title": "Non sono del tutto d'accordo",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-09-l2-e01",
+          "prompt": "Il ristorante non è caro, ___ è molto conveniente.",
+          "options": [
+            "anzi",
+            "eppure",
+            "tuttavia",
+            "piuttosto"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli il connettivo giusto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l2-e02",
+          "sentence": "___ (volere – io) fare una domanda, se posso.",
+          "answers": [
+            "Vorrei"
+          ],
+          "hint": "volere – io",
+          "instruction": "Riscaldamento (b1-06): completa con il condizionale."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-09-l2-e03",
+          "title": "Attenuare e dissentire con cortesia",
+          "body": "In una discussione formale l'italiano preferisce **attenuare**: si dice la stessa cosa, ma senza imporla.\n\n- **Condizionale di attenuazione**: *Direi che…, Mi permetterei di far notare che…, Avrei qualche dubbio su…, Sarebbe forse il caso di…*\n- **Congiuntivo** dopo verbi di opinione e di dubbio: *Non so se sia la soluzione migliore. Ho l'impressione che manchi qualcosa.*\n- **Riduttori**: *forse, un po', in un certo senso, per così dire, tutto sommato, se non sbaglio, a quanto pare*\n- **Concedere, poi obiettare**: *Capisco il suo punto di vista, però…; Ha ragione su un punto, ma…; In linea di principio sono d'accordo, tuttavia…*\n- **Disaccordo esplicito ma cortese**: *Non sono del tutto d'accordo. Su questo mi permetto di dissentire. Non mi risulta che sia così.*\n\nTroppo diretti in un contesto formale: *Si sbaglia. Non è vero. Assolutamente no.*",
+          "examples": [
+            {
+              "it": "Direi che il problema principale è il tempo.",
+              "en": "I'd say the main problem is time."
+            },
+            {
+              "it": "Non so se sia la scelta migliore.",
+              "en": "I'm not sure it's the best choice."
+            },
+            {
+              "it": "Capisco il suo punto di vista, però avrei qualche perplessità.",
+              "en": "I understand your point of view, but I'd have some reservations."
+            },
+            {
+              "it": "Non mi risulta che la riunione sia stata spostata.",
+              "en": "As far as I know, the meeting hasn't been moved."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-09-l2-e04",
+          "prompt": "Quale frase useresti?",
+          "options": [
+            "Capisco il suo punto di vista, però avrei qualche dubbio sui costi.",
+            "Lei si sbaglia sui costi.",
+            "Non è vero, i costi sono altri.",
+            "No, i costi non vanno bene."
+          ],
+          "answer": 0,
+          "instruction": "Scegli la frase più cortese per esprimere disaccordo in una riunione.",
+          "explanation": "Concessione (capisco…) + obiezione attenuata (avrei qualche dubbio)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l2-e05",
+          "sentence": "Non so se questa ___ (essere) la soluzione migliore.",
+          "answers": [
+            "sia"
+          ],
+          "instruction": "Completa con il congiuntivo.",
+          "explanation": "Non so se + congiuntivo è più curato; nel parlato si sente anche l'indicativo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l2-e06",
+          "sentence": "___ (dire – io) che il problema principale è la mancanza di tempo.",
+          "answers": [
+            "Direi"
+          ],
+          "instruction": "Completa con il condizionale di attenuazione."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-09-l2-e07",
+          "sentence": "Ho l'impressione che manca ancora qualche documento.",
+          "answers": [
+            "Ho l'impressione che manchi ancora qualche documento."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Avere l'impressione che + congiuntivo."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-09-l2-e08",
+          "translation": "I would point out that the deadline has already passed.",
+          "tiles": [
+            "Mi",
+            "permetterei",
+            "di",
+            "far",
+            "notare",
+            "che",
+            "la",
+            "scadenza",
+            "è",
+            "già",
+            "passata"
+          ],
+          "distractors": [
+            "permetterebbe",
+            "notando"
+          ],
+          "instruction": "Metti le parole in ordine."
+        },
+        {
+          "type": "translate",
+          "id": "c1-09-l2-e09",
+          "direction": "en_it",
+          "source": "I'm not entirely sure that's true.",
+          "answers": [
+            "Non sono del tutto sicuro che sia vero.",
+            "Non sono del tutto convinto che sia vero.",
+            "Non sono completamente sicuro che sia vero.",
+            "Non sono proprio sicuro che sia vero.",
+            "Non sono del tutto sicuro che sia così.",
+            "Non sono del tutto convinto che sia così.",
+            "Non sono sicurissimo che sia vero.",
+            "Non sono totalmente sicuro che sia vero."
+          ],
+          "instruction": "Traduci in italiano.",
+          "explanation": "Essere sicuro che + congiuntivo quando è negato."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-09-l2-e10",
+          "audioText": "Guardi, capisco perfettamente le sue ragioni e in linea di principio sono d'accordo. Tuttavia, mi permetterei di far notare che con questo budget sarebbe difficile finire i lavori entro giugno. Forse sarebbe il caso di rivedere i tempi.",
+          "question": "Che cosa pensa davvero chi parla?",
+          "options": [
+            "È d'accordo sull'idea, ma pensa che i tempi non siano realistici.",
+            "È completamente d'accordo.",
+            "È contrario all'idea.",
+            "Vuole aumentare il budget."
+          ],
+          "answer": 0,
+          "instruction": "Ascolta e rispondi.",
+          "explanation": "Dietro le formule cortesi (in linea di principio, tuttavia, mi permetterei) c'è un'obiezione chiara."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-09-l2-e11",
+          "pairs": [
+            {
+              "left": "Si sbaglia.",
+              "right": "Forse c'è un piccolo equivoco."
+            },
+            {
+              "left": "Non è vero.",
+              "right": "Non mi risulta che sia così."
+            },
+            {
+              "left": "È una pessima idea.",
+              "right": "Avrei qualche perplessità su questa proposta."
+            },
+            {
+              "left": "Dovete cambiare il piano.",
+              "right": "Sarebbe forse il caso di rivedere il piano."
+            },
+            {
+              "left": "Non ha capito.",
+              "right": "Forse non mi sono spiegato bene."
+            }
+          ],
+          "instruction": "Abbina la frase diretta alla versione attenuata."
+        },
+        {
+          "type": "roleplay",
+          "id": "c1-09-l2-e12",
+          "scenario": "L'amministratore propone di rifare la facciata subito, con una spesa alta per tutti. Tu non sei d'accordo sui tempi e sui costi: esprimi il tuo disaccordo con cortesia e proponi un'alternativa. Usa il Lei.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Allora, la proposta è chiara: iniziamo i lavori a marzo e dividiamo la spesa in due rate. Qualcuno vuole intervenire?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, vorrei intervenire io. In linea di principio sono d'accordo che la facciata vada rifatta.",
+              "hint": "Chiedi la parola e concedi un punto.",
+              "keywords": [
+                "vorrei",
+                "d'accordo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Bene, allora possiamo votare."
+            },
+            {
+              "speaker": "you",
+              "text": "Mi permetterei però di far notare che due rate così ravvicinate sarebbero pesanti per molte famiglie.",
+              "hint": "Obietta con il condizionale di attenuazione.",
+              "keywords": [
+                "mi permetterei",
+                "rate"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Capisco, ma i preventivi valgono solo fino a fine anno."
+            },
+            {
+              "speaker": "you",
+              "text": "Non so se sia davvero così urgente. Sarebbe forse il caso di chiedere un altro preventivo e dividere la spesa in più rate.",
+              "hint": "Esprimi un dubbio (non so se + congiuntivo) e proponi un'alternativa.",
+              "keywords": [
+                "non so se",
+                "preventivo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mah, potremmo valutarlo. Altri sono d'accordo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Direi che vale la pena di aspettare un mese: tutto sommato, ci guadagniamo tutti.",
+              "hint": "Concludi con un'opinione attenuata.",
+              "keywords": [
+                "direi",
+                "tutto sommato"
+              ]
+            }
+          ],
+          "instruction": "Sei all'assemblea di condominio. Rispondi ad alta voce quando tocca a te.",
+          "explanation": "Hai concesso, obiettato e proposto senza mai essere brusco: è esattamente ciò che si valuta in una discussione di livello C1."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-09-l2-e13",
+          "front": "avere qualche perplessità (su)",
+          "back": "to have some reservations (about)",
+          "example": "Avrei qualche perplessità sui costi."
+        }
+      ]
+    },
+    {
+      "id": "c1-09-l3",
+      "title": "Se ho capito bene… Mediare",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-09-l3-e01",
+          "prompt": "Qual è la versione cortese di «È una proposta assurda»?",
+          "options": [
+            "Avrei qualche perplessità su questa proposta.",
+            "La proposta è assurda, punto.",
+            "Questa proposta non ha senso.",
+            "Che proposta assurda!"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli la versione attenuata."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l3-e02",
+          "sentence": "Non mi ___ (risultare) che la riunione sia stata spostata.",
+          "answers": [
+            "risulta"
+          ],
+          "instruction": "Riscaldamento: completa con il verbo giusto al presente."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-09-l3-e03",
+          "title": "Mediare: riformulare, sintetizzare, proporre",
+          "body": "Chi media non prende posizione subito: ascolta, riformula, trova il terreno comune e propone.\n\n- **Riformulare** per verificare: *Se ho capito bene, lei sostiene che…; In altre parole, il problema è…; Mi corregga se sbaglio, ma…*\n- **Gestire i turni**: *Prego, a lei la parola. Lasciamo finire la signora Bianchi. Scusi se la interrompo, ma…*\n- **Trovare un punto comune**: *Mi pare che siamo tutti d'accordo su un punto… Entrambi avete ragione su…*\n- **Proporre un compromesso**: *E se provassimo a…?* (e se + congiuntivo imperfetto = proposta), *Che ne direste di…? Potremmo venirci incontro.*\n- **Riassumere e concludere**: *Riassumendo…, Tirando le somme…, Per tornare alla questione principale…*",
+          "examples": [
+            {
+              "it": "Se ho capito bene, il problema sono gli orari.",
+              "en": "If I've understood correctly, the problem is the timetable."
+            },
+            {
+              "it": "Mi corregga se sbaglio, ma mi pare che siamo d'accordo.",
+              "en": "Correct me if I'm wrong, but it seems we agree."
+            },
+            {
+              "it": "E se dividessimo le spese a metà?",
+              "en": "What if we split the costs in half?"
+            },
+            {
+              "it": "Tirando le somme, possiamo venirci incontro.",
+              "en": "All things considered, we can meet halfway."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-09-l3-e04",
+          "prompt": "Scegli la frase del mediatore.",
+          "options": [
+            "Se ho capito bene, lei propone di dividere le spese a metà.",
+            "Lei propone sempre cose strane.",
+            "Andiamo avanti.",
+            "Ne parliamo un'altra volta."
+          ],
+          "answer": 0,
+          "instruction": "Che cosa dici per verificare di aver capito?"
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l3-e05",
+          "sentence": "E se ___ (provare – noi) a dividere le spese in base all'uso?",
+          "answers": [
+            "provassimo"
+          ],
+          "instruction": "Completa con il congiuntivo imperfetto.",
+          "explanation": "E se + congiuntivo imperfetto = proposta cortese (What if we…?)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-09-l3-e06",
+          "sentence": "Potremmo ___ incontro: voi pagate l'ascensore, noi le scale.",
+          "answers": [
+            "venirci"
+          ],
+          "hint": "venirsi incontro – noi, infinito",
+          "instruction": "Completa con l'espressione giusta.",
+          "explanation": "Venirsi incontro = fare un passo ciascuno verso l'altro."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-09-l3-e07",
+          "translation": "Correct me if I'm wrong, but it seems to me that we all agree on one point.",
+          "tiles": [
+            "Mi",
+            "corregga",
+            "se",
+            "sbaglio",
+            "ma",
+            "mi",
+            "pare",
+            "che",
+            "siamo",
+            "tutti",
+            "d'accordo",
+            "su",
+            "un",
+            "punto"
+          ],
+          "distractors": [
+            "sbaglia",
+            "correggi"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Mi corregga = imperativo di cortesia (Lei)."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-09-l3-e08",
+          "audioText": "Allora, se ho capito bene, il signor Ferri vuole lasciare le biciclette in cortile, mentre la signora Gatti teme che blocchino il passaggio. Mi pare che siate d'accordo su una cosa: le biciclette non devono stare sulle scale. E se mettessimo una rastrelliera nell'angolo vicino al cancello? Così il passaggio resta libero.",
+          "question": "Che cosa propone il mediatore?",
+          "options": [
+            "Una rastrelliera in un angolo del cortile.",
+            "Vietare le biciclette nel palazzo.",
+            "Lasciare le biciclette sulle scale.",
+            "Spostare il cancello."
+          ],
+          "answer": 0,
+          "instruction": "Ascolta e rispondi.",
+          "explanation": "Riformula (se ho capito bene), trova il punto comune (mi pare che siate d'accordo) e propone (e se mettessimo…)."
+        },
+        {
+          "type": "reading",
+          "id": "c1-09-l3-e09",
+          "title": "Verbale dell'assemblea condominiale – estratto",
+          "passage": "Punto 3 all'ordine del giorno: utilizzo del cortile. Il sig. Ferri chiede di poter parcheggiare le biciclette nel cortile comune. La sig.ra Gatti si dichiara contraria, temendo che il passaggio verso i box venga ostacolato. Dopo ampia discussione, l'amministratore propone l'installazione di una rastrelliera per sei biciclette nell'angolo nord del cortile, con spesa ripartita tra i condomini che ne faranno uso. La proposta viene approvata a maggioranza. La sig.ra Gatti chiede che venga messo a verbale che il passaggio dovrà comunque restare libero.",
+          "questions": [
+            {
+              "question": "Perché la signora Gatti era contraria?",
+              "options": [
+                "Temeva che le biciclette bloccassero il passaggio.",
+                "Non voleva pagare la rastrelliera.",
+                "Non ha una bicicletta.",
+                "Voleva parcheggiare la sua auto in cortile."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Chi pagherà la rastrelliera?",
+              "options": [
+                "Tutti i condomini in parti uguali.",
+                "Solo chi la userà.",
+                "L'amministratore.",
+                "Il signor Ferri da solo."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa significa «messo a verbale»?",
+              "options": [
+                "Scritto nel documento ufficiale dell'assemblea.",
+                "Detto ad alta voce.",
+                "Votato all'unanimità.",
+                "Rimandato alla prossima riunione."
+              ],
+              "answer": 0
+            }
+          ],
+          "instruction": "Leggi il verbale e rispondi alle domande.",
+          "explanation": "Il verbale usa il burocratese di c1-07: si dichiara contraria, temendo che…, viene approvata, ripartita."
+        },
+        {
+          "type": "translate",
+          "id": "c1-09-l3-e10",
+          "direction": "it_en",
+          "source": "Tirando le somme, mi pare che possiamo venirci incontro.",
+          "answers": [
+            "All things considered, it seems to me that we can meet each other halfway.",
+            "All things considered it seems to me that we can meet each other halfway.",
+            "All things considered, it seems to me we can meet each other halfway.",
+            "All things considered it seems to me we can meet each other halfway.",
+            "All things considered, it seems to me that we can meet halfway.",
+            "All things considered it seems to me that we can meet halfway.",
+            "All things considered, it seems to me we can meet halfway.",
+            "All things considered it seems to me we can meet halfway.",
+            "To sum up, it seems to me that we can meet each other halfway.",
+            "To sum up it seems to me that we can meet each other halfway.",
+            "To sum up, it seems to me that we can meet halfway.",
+            "To sum up it seems to me that we can meet halfway.",
+            "To sum up, it seems to me we can meet halfway.",
+            "To sum up it seems to me we can meet halfway.",
+            "Summing up, it seems to me that we can meet halfway.",
+            "Summing up it seems to me that we can meet halfway.",
+            "All in all, it seems to me that we can meet halfway.",
+            "All in all it seems to me that we can meet halfway.",
+            "All in all, it seems to me we can meet halfway.",
+            "All in all it seems to me we can meet halfway.",
+            "All things considered, I think we can meet halfway.",
+            "All things considered I think we can meet halfway.",
+            "To sum up, I think we can meet halfway.",
+            "To sum up I think we can meet halfway.",
+            "All things considered, it seems to me that we can reach a compromise.",
+            "All things considered it seems to me that we can reach a compromise.",
+            "To sum up, it seems to me that we can reach a compromise.",
+            "To sum up it seems to me that we can reach a compromise."
+          ],
+          "instruction": "Traduci in inglese."
+        },
+        {
+          "type": "roleplay",
+          "id": "c1-09-l3-e11",
+          "scenario": "Due colleghi, Sara e Giorgio, discutono: tutti e due vogliono le ferie nelle prime due settimane di agosto, ma l'ufficio non può restare vuoto. Ascolta, riformula, trova un punto comune e proponi un compromesso.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Sara: Io ho già prenotato il volo, non posso cambiare le date!"
+            },
+            {
+              "speaker": "you",
+              "text": "Lasciamo finire Sara. Se ho capito bene, tu hai già un volo prenotato per la prima settimana?",
+              "hint": "Gestisci il turno e riformula.",
+              "keywords": [
+                "se ho capito bene",
+                "volo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sara: Esatto, parto il primo agosto. Giorgio: Sì, ma io ho i bambini a casa da scuola proprio in quelle settimane!"
+            },
+            {
+              "speaker": "you",
+              "text": "Mi pare che siate d'accordo su una cosa: tutti e due avete bisogno di almeno una settimana all'inizio di agosto.",
+              "hint": "Trova il punto comune.",
+              "keywords": [
+                "mi pare",
+                "d'accordo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Giorgio: Beh, sì, una settimana mi basterebbe, se poi posso prenderne un'altra a fine mese."
+            },
+            {
+              "speaker": "you",
+              "text": "E se Sara prendesse la prima settimana e Giorgio la seconda, e poi Giorgio recuperasse l'ultima settimana di agosto?",
+              "hint": "Proponi un compromesso: e se + congiuntivo imperfetto.",
+              "keywords": [
+                "e se",
+                "settimana"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sara: Per me va bene. Giorgio: Anche per me, direi."
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto. Tirando le somme, ci siamo venuti incontro: lo comunico io al responsabile.",
+              "hint": "Riassumi e chiudi.",
+              "keywords": [
+                "tirando le somme",
+                "venuti incontro"
+              ]
+            }
+          ],
+          "instruction": "Sei il mediatore tra due colleghi. Rispondi ad alta voce quando tocca a te.",
+          "explanation": "Sequenza del mediatore: gestire i turni → riformulare → punto comune → proposta → sintesi."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-09-l3-e12",
+          "prompt": "Due vicini litigano: uno vuole fare una festa in terrazza sabato sera, l'altro ha un bambino piccolo che dorme presto. Riassumi le due posizioni e proponi un compromesso.",
+          "keywords": [
+            "se ho capito bene",
+            "e se",
+            "entrambi"
+          ],
+          "modelAnswer": "Se ho capito bene, lei vorrebbe festeggiare in terrazza sabato sera, mentre la signora ha paura che il rumore svegli il bambino. Entrambi avete ragione: una festa è legittima, ma anche il sonno di un bambino. E se la festa finisse alle undici e dopo continuaste dentro casa, con la musica bassa? Così vi venite incontro.",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-09-l3-e13",
+          "prompt": "Scrivi un intervento per il forum del tuo quartiere (100–140 parole) su un tema controverso (la movida notturna, una nuova zona pedonale, un parcheggio al posto di un giardino). Presenta le due posizioni, esprimi la tua opinione in modo attenuato e proponi un compromesso.",
+          "minWords": 100,
+          "checklist": [
+            "Ho presentato con equilibrio le due posizioni (da un lato… dall'altro).",
+            "Ho usato almeno tre connettivi (anzi, eppure, d'altronde, tuttavia, insomma…).",
+            "Ho attenuato la mia opinione (direi, mi sembra che + congiuntivo, forse).",
+            "Ho proposto un compromesso concreto (e se…, si potrebbe…).",
+            "Ho concluso con una sintesi (insomma, tirando le somme)."
+          ],
+          "modelAnswer": "Da qualche mese nel nostro quartiere si discute della movida in piazza. Da un lato, i residenti si lamentano del rumore fino alle due di notte e, d'altronde, hanno diritto a dormire. Dall'altro, i locali danno lavoro a molti giovani e rendono la zona più viva e sicura. Direi che entrambe le posizioni sono ragionevoli, eppure finora ci si è limitati a lamentarsi. Mi sembra che il problema non siano i locali in sé, ma la musica all'aperto dopo una certa ora. E se si fissasse un orario, per esempio mezzanotte, per la musica fuori, con qualche controllo in più nel fine settimana? Insomma, piuttosto che dividerci tra favorevoli e contrari, proviamo a venirci incontro.",
+          "instruction": "Scrivi un intervento per il forum."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "anzi",
+      "en": "on the contrary; or rather",
+      "example": "Non mi disturbi, anzi."
+    },
+    {
+      "it": "eppure",
+      "en": "and yet",
+      "example": "Era tutto pronto, eppure qualcosa è andato storto."
+    },
+    {
+      "it": "tuttavia",
+      "en": "however (formal)",
+      "example": "La proposta è interessante; tuttavia costa troppo."
+    },
+    {
+      "it": "piuttosto che",
+      "en": "rather than",
+      "example": "Piuttosto che aspettare, telefoniamo."
+    },
+    {
+      "it": "insomma",
+      "en": "in short, all in all",
+      "example": "Insomma, com'è andata?"
+    },
+    {
+      "it": "d'altronde",
+      "en": "after all, besides",
+      "example": "D'altronde, l'aveva detto lui."
+    },
+    {
+      "it": "da un lato… dall'altro",
+      "en": "on the one hand… on the other",
+      "example": "Da un lato è comodo, dall'altro è caro."
+    },
+    {
+      "it": "avere qualche perplessità",
+      "en": "to have some reservations",
+      "example": "Ho qualche perplessità sul progetto."
+    },
+    {
+      "it": "mi permetto di far notare",
+      "en": "I would point out (formal)",
+      "example": "Mi permetto di far notare un errore nella fattura."
+    },
+    {
+      "it": "non mi risulta",
+      "en": "not as far as I know",
+      "example": "Non mi risulta che abbia pagato."
+    },
+    {
+      "it": "in linea di principio",
+      "en": "in principle",
+      "example": "In linea di principio sono d'accordo."
+    },
+    {
+      "it": "tutto sommato",
+      "en": "all things considered",
+      "example": "Tutto sommato, è andata bene."
+    },
+    {
+      "it": "se ho capito bene",
+      "en": "if I've understood correctly",
+      "example": "Se ho capito bene, lei vuole annullare."
+    },
+    {
+      "it": "mi corregga se sbaglio",
+      "en": "correct me if I'm wrong",
+      "example": "Mi corregga se sbaglio, ma la scadenza era ieri."
+    },
+    {
+      "it": "venirsi incontro",
+      "en": "to meet halfway",
+      "example": "Possiamo venirci incontro sul prezzo."
+    },
+    {
+      "it": "il compromesso",
+      "en": "compromise",
+      "example": "Abbiamo trovato un compromesso."
+    },
+    {
+      "it": "tirare le somme",
+      "en": "to sum up, to draw conclusions",
+      "example": "Tirando le somme, conviene aspettare."
+    },
+    {
+      "it": "l'equivoco (m.)",
+      "en": "misunderstanding",
+      "example": "Forse c'è stato un equivoco."
+    },
+    {
+      "it": "intervenire",
+      "en": "to speak (in a meeting), to intervene",
+      "example": "Posso intervenire un momento?"
+    },
+    {
+      "it": "l'assemblea condominiale (f.)",
+      "en": "residents' meeting",
+      "example": "L'assemblea condominiale è giovedì."
+    },
+    {
+      "it": "l'amministratore (di condominio)",
+      "en": "building manager",
+      "example": "Ho scritto all'amministratore."
+    },
+    {
+      "it": "il verbale",
+      "en": "minutes (of a meeting)",
+      "example": "Chiedo che venga messo a verbale."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "c1-09-t1",
+      "rule": "Anzi: corregge e rafforza",
+      "tip": "Anzi corregge quanto detto prima e lo rafforza: non è caro, anzi, è un affare.",
+      "example": {
+        "it": "Ti chiamo domani, anzi, stasera.",
+        "en": "I'll call you tomorrow – actually, tonight."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Non mi disturbi, ___, mi fa piacere vederti.",
+        "options": [
+          "anzi",
+          "eppure",
+          "quindi"
+        ],
+        "answer": 0,
+        "instruction": "Scegli il connettivo."
+      }
+    },
+    {
+      "id": "c1-09-t2",
+      "rule": "Eppure = and yet",
+      "tip": "Eppure introduce un risultato inatteso rispetto a quanto detto: ha studiato tanto, eppure non ha passato l'esame.",
+      "example": {
+        "it": "Era tutto pronto, eppure è andato storto qualcosa.",
+        "en": "Everything was ready, and yet something went wrong."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Abbiamo spiegato tutto, ___ nessuno ha capito.",
+        "options": [
+          "eppure",
+          "anzi",
+          "d'altronde"
+        ],
+        "answer": 0,
+        "instruction": "Scegli il connettivo."
+      }
+    },
+    {
+      "id": "c1-09-t3",
+      "rule": "Direi che… (attenuare)",
+      "tip": "Il condizionale attenua un'opinione: direi che, avrei qualche dubbio, sarebbe forse il caso di.",
+      "example": {
+        "it": "Direi che conviene aspettare.",
+        "en": "I'd say it's best to wait."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ (avere – io) qualche dubbio su questa proposta.",
+        "answers": [
+          "Avrei"
+        ],
+        "instruction": "Completa con il condizionale."
+      }
+    },
+    {
+      "id": "c1-09-t4",
+      "rule": "Non so se + congiuntivo",
+      "tip": "Per esprimere un dubbio cortese: non so se sia, ho l'impressione che manchi, non mi risulta che abbia.",
+      "example": {
+        "it": "Non so se sia la scelta migliore.",
+        "en": "I'm not sure it's the best choice."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Ho l'impressione che manca un documento.",
+        "answers": [
+          "Ho l'impressione che manchi un documento."
+        ],
+        "instruction": "C'è un errore. Correggilo."
+      }
+    },
+    {
+      "id": "c1-09-t5",
+      "rule": "E se provassimo…? (proporre)",
+      "tip": "E se + congiuntivo imperfetto fa una proposta cortese: e se provassimo a dividere le spese?",
+      "example": {
+        "it": "E se ci vedessimo lunedì?",
+        "en": "What if we met on Monday?"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "E se ___ (chiedere – noi) un altro preventivo?",
+        "answers": [
+          "chiedessimo"
+        ],
+        "instruction": "Completa."
+      }
+    }
+  ]
+}

@@ -19,7 +19,12 @@ data class Level(
     val title: String,
     val description: String = "",
     val remedial: Boolean = false,
-)
+    /** Exam-preparation track (e.g. CELI3): always open, outside the B1 → C1 unlock chain. */
+    val exam: Boolean = false,
+) {
+    /** `exam: true`, or a CELI level id (course.json marks CELI3 by id only). */
+    val isExam: Boolean get() = exam || id.uppercase().startsWith("CELI")
+}
 
 @Serializable
 data class UnitRef(
@@ -48,7 +53,36 @@ data class CourseUnit(
     val remedialUnitIds: List<String>,
     val lessons: List<Lesson>,
     val vocabulary: List<VocabItem>,
+    val grammarTips: List<GrammarTip> = emptyList(),
 )
+
+/**
+ * A short grammar reminder used by notifications and the unit page. [challenge] is
+ * null when the tip has none or it could not be decoded.
+ */
+data class GrammarTip(
+    val id: String,
+    val unitId: String,
+    val rule: String,
+    val tip: String,
+    val example: ItEn?,
+    val challenge: Exercise?,
+) {
+    companion object {
+        const val MAX_RULE_LENGTH = 40
+        const val MAX_TIP_LENGTH = 140
+        const val MAX_CHALLENGE_ITEMS = 3
+
+        /** Exercise types a tip challenge may use (one-card, quick to answer). */
+        val QUICK_TYPES: Set<String> = setOf(
+            ExerciseTypes.MULTIPLE_CHOICE,
+            ExerciseTypes.GAP_FILL,
+            ExerciseTypes.TRANSLATE,
+            ExerciseTypes.ERROR_CORRECTION,
+            ExerciseTypes.CONJUGATION,
+        )
+    }
+}
 
 data class Lesson(
     val id: String,

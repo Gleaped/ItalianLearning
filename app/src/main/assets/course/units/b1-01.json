@@ -793,5 +793,115 @@
       "en": "neighbour",
       "example": "Ho incontrato la mia vicina di casa sulle scale."
     }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-01-t1",
+      "rule": "Imperfetto per lo sfondo",
+      "tip": "Use the imperfetto for the scene (time, weather, states) and the passato prossimo for what happened.",
+      "example": {
+        "it": "Pioveva quando sono uscito.",
+        "en": "It was raining when I went out."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Quando sono arrivato in posta, ___ (esserci) molta gente.",
+        "answers": [
+          "c'era"
+        ]
+      }
+    },
+    {
+      "id": "b1-01-t2",
+      "rule": "Mentre + imperfetto",
+      "tip": "Mentre introduces an action in progress (imperfetto); the interruption is passato prossimo.",
+      "example": {
+        "it": "Mentre cucinavo, è suonato il telefono.",
+        "en": "While I was cooking, the phone rang."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Mentre ___ (aspettare) l'autobus, ho incontrato una vicina.",
+        "answers": [
+          "aspettavo"
+        ]
+      }
+    },
+    {
+      "id": "b1-01-t3",
+      "rule": "Durata definita: passato prossimo",
+      "tip": "A bounded duration or number of times takes the passato prossimo: Ho aspettato due ore.",
+      "example": {
+        "it": "Ci sono andato tre volte.",
+        "en": "I went there three times."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ieri ___ dal medico per due ore!",
+        "options": [
+          "ho aspettato",
+          "aspettavo",
+          "sono aspettato",
+          "aspetto"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "b1-01-t4",
+      "rule": "Abitudini: imperfetto",
+      "tip": "Past habits (used to, would) take the imperfetto: Di solito prendevo il treno.",
+      "example": {
+        "it": "Da bambino andavo al mare ogni estate.",
+        "en": "As a child I went to the seaside every summer."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Da piccolo ho giocato a calcio ogni giorno.",
+        "answers": [
+          "Da piccolo giocavo a calcio ogni giorno."
+        ]
+      }
+    },
+    {
+      "id": "b1-01-t5",
+      "rule": "Conoscevo / ho conosciuto",
+      "tip": "Ho conosciuto = I met (first time); ho saputo = I found out. Conoscevo/sapevo = I already knew.",
+      "example": {
+        "it": "Alla festa ho conosciuto la nuova vicina.",
+        "en": "At the party I met the new neighbour."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ieri ___ che il negozio chiude a dicembre.",
+        "options": [
+          "ho saputo",
+          "sapevo",
+          "ho conosciuto",
+          "conoscevo"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "b1-01-t6",
+      "rule": "Dovevo o sono dovuto?",
+      "tip": "Dovevo = I was supposed to (maybe I didn't); sono dovuto/ho dovuto = I had to, and I did.",
+      "example": {
+        "it": "Dovevo andare in banca, ma non ho avuto tempo.",
+        "en": "I was supposed to go to the bank, but I didn't have time."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "___ tornare a casa a prendere i documenti, poi sono ripartito.",
+        "options": [
+          "Sono dovuto",
+          "Dovevo",
+          "Devo",
+          "Dovrei"
+        ],
+        "answer": 0
+      }
+    }
   ]
 }

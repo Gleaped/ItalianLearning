@@ -1,5 +1,6 @@
 package com.gleaped.italianlearning.ui.navigation
 
+import android.net.Uri
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -23,6 +24,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.gleaped.italianlearning.R
+import com.gleaped.italianlearning.domain.reminders.ReminderTarget
+import com.gleaped.italianlearning.ui.challenge.ChallengeScreen
 import com.gleaped.italianlearning.ui.course.CourseMapScreen
 import com.gleaped.italianlearning.ui.course.UnitScreen
 import com.gleaped.italianlearning.ui.home.HomeScreen
@@ -37,10 +40,15 @@ object Routes {
     const val SETTINGS = "settings"
     const val UNIT = "unit/{unitId}"
     const val LESSON = "lesson/{unitId}/{lessonId}"
+    const val CHALLENGE = "challenge/{unitId}/{tipId}"
 
-    fun unit(id: String) = "unit/$id"
-    fun lesson(unitId: String, lessonId: String) = "lesson/$unitId/$lessonId"
+    fun unit(id: String) = "unit/${Uri.encode(id)}"
+    fun lesson(unitId: String, lessonId: String) = "lesson/${Uri.encode(unitId)}/${Uri.encode(lessonId)}"
+    fun challenge(unitId: String, tipId: String) = "challenge/${Uri.encode(unitId)}/${Uri.encode(tipId)}"
 }
+
+/** A notification target waiting to be opened; [id] makes repeated taps distinct. */
+data class PendingDeepLink(val target: ReminderTarget, val id: Long)
 
 private data class TopLevel(val route: String, val label: String, @param:DrawableRes val icon: Int)
 
@@ -60,20 +68,17 @@ private fun NavHostController.navigateTopLevel(route: String) {
 }
 
 /**
- * @param openTodaySignal incremented when a reminder notification is tapped while the
- * app is already running; the app then jumps to Today.
+ * @param deepLink set when a reminder notification is tapped (cold start or while running);
+ * the app opens its target and then calls [onDeepLinkHandled].
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun AppNavigation(openTodaySignal: Int) {
+fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLink) -> Unit) {
     val nav = rememberNavController()
     val backStack by nav.currentBackStackEntryAsState()
     val currentRoute = backStack?.destination?.route
     val showBottomBar = topLevel.any { it.route == currentRoute }
 
-    LaunchedEffect(openTodaySignal) {
-        if (openTodaySignal > 0) nav.navigateTopLevel(Routes.TODAY)
-    }
 
     Scaffold(
         bottomBar = {
@@ -121,6 +126,28 @@ fun AppNavigation(openTodaySignal: Int) {
                         onBack = { nav.popBackStack() },
                         onStartLesson = { u, l -> nav.navigate(Routes.lesson(u, l)) },
                         onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                        onOpenChallenge = { u, t -> nav.navigate(Routes.challenge(u, t)) },
+                    )
+                }
+                composable(Routes.CHALLENGE) { entry ->
+                    val unitId = entry.arguments?.getString("unitId").orEmpty()
+                    val tipId = entry.arguments?.getString("tipId").orEmpty()
+                    ChallengeScreen(
+                        unitId = unitId,
+                        tipId = tipId,
+                        onClose = {
+                            if (!nav.popBackStack()) nav.navigateTopLevel(Routes.TODAY)
+                        },
+                        onOpenLesson = { u, l ->
+                            nav.navigate(Routes.lesson(u, l)) {
+                                popUpTo(Routes.CHALLENGE) { inclusive = true }
+                            }
+                        },
+                        onOpenUnit = { u ->
+                            nav.navigate(Routes.unit(u)) {
+                                popUpTo(Routes.CHALLENGE) { inclusive = true }
+                            }
+                        },
                     )
                 }
                 composable(Routes.LESSON) { entry ->
@@ -141,6 +168,19 @@ fun AppNavigation(openTodaySignal: Int) {
                         },
                     )
                 }
+            }
+            // After NavHost in the same composition, so the graph is set before navigating.
+            LaunchedEffect(deepLink) {
+                val link = deepLink ?: return@LaunchedEffect
+                when (val target = link.target) {
+                    ReminderTarget.Today -> nav.navigateTopLevel(Routes.TODAY)
+                    ReminderTarget.Review -> nav.navigateTopLevel(Routes.REVIEW)
+                    is ReminderTarget.Challenge -> nav.navigate(Routes.challenge(target.unitId, target.tipId)) {
+                        // A newer challenge replaces one that is still open.
+                        popUpTo(Routes.CHALLENGE) { inclusive = true }
+                    }
+                }
+                onDeepLinkHandled(link)
             }
         }
     }

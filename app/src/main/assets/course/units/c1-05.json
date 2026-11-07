@@ -1,0 +1,984 @@
+{
+  "id": "c1-05",
+  "level": "C1",
+  "title": "Modi di dire",
+  "objective": "Alla fine dell'unità capisci e usi in modo appropriato i modi di dire, i proverbi e le collocazioni più frequenti, scegliendo quando sono adatti al registro e quando evitarli.",
+  "grammarFocus": "Modi di dire frequenti e loro forma fissa; non vedere l'ora di + infinito / che + congiuntivo; collocazioni forti (fare una domanda, prendere una decisione, sostenere/superare un esame, correre un rischio, trarre una conclusione, fare fronte a); proverbi; registro degli idiomi.",
+  "remedialUnitIds": [
+    "b1-09",
+    "c1-01"
+  ],
+  "lessons": [
+    {
+      "id": "c1-05-l1",
+      "title": "In bocca al lupo!",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l1-e01",
+          "instruction": "Riscaldamento: completa la pseudoscissa.",
+          "sentence": "Quello che mi serve adesso ___ una bella vacanza.",
+          "answers": [
+            "è"
+          ],
+          "explanation": "Quello che mi serve è…: pseudoscissa (unità c1-03)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-05-l1-e02",
+          "instruction": "Riscaldamento: come rispondi?",
+          "prompt": "– Domani ho il colloquio. – In bocca al lupo! – ___",
+          "options": [
+            "Crepi!",
+            "Grazie, anche a te!",
+            "Salute!",
+            "Buon appetito!"
+          ],
+          "answer": 0,
+          "explanation": "A «In bocca al lupo!» si risponde tradizionalmente «Crepi!» (oppure «Crepi il lupo!»)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-05-l1-e03",
+          "title": "Gli idiomi: forma fissa, significato figurato",
+          "body": "Un **modo di dire** ha un significato figurato e una forma quasi **fissa**: non si cambiano articoli, preposizioni o parole. Si dice *costa un occhio della testa*, e non «costa un occhio di testa».\n\nDi solito si **coniuga solo il verbo**: *Sono al verde → Ero al verde → Siamo al verde.*\n\n**Stati d'animo e situazioni**\n- **non vedere l'ora** di + infinito / che + congiuntivo = non riuscire ad aspettare: *Non vedo l'ora di partire. Non vedo l'ora che arrivi l'estate.*\n- **essere al verde** = non avere soldi\n- **costare un occhio della testa** = costare moltissimo\n- **avere la testa fra le nuvole** = essere distratto\n- **cadere dalle nuvole** = essere molto sorpreso (a volte fingendo di non sapere niente)\n- **avere un diavolo per capello** = essere di pessimo umore\n- **essere in gamba** = essere bravo, capace\n- **fare le ore piccole** = andare a letto molto tardi\n\n**Registro**: quasi tutti sono colloquiali o neutri. In un'email formale evita *sono al verde*: scrivi *al momento non dispongo della somma*.",
+          "examples": [
+            {
+              "it": "Non vedo l'ora che finisca questa settimana.",
+              "en": "I can't wait for this week to be over."
+            },
+            {
+              "it": "Fino a venerdì sono al verde.",
+              "en": "I'm broke until Friday."
+            },
+            {
+              "it": "La nuova dottoressa è molto in gamba.",
+              "en": "The new doctor is very capable."
+            },
+            {
+              "it": "Quando gli ho detto della multa, è caduto dalle nuvole.",
+              "en": "When I told him about the fine, he was completely taken aback."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-05-l1-e04",
+          "instruction": "Abbina il modo di dire al suo significato.",
+          "pairs": [
+            {
+              "left": "essere al verde",
+              "right": "non avere soldi"
+            },
+            {
+              "left": "avere la testa fra le nuvole",
+              "right": "essere distratto"
+            },
+            {
+              "left": "essere in gamba",
+              "right": "essere bravo e capace"
+            },
+            {
+              "left": "cadere dalle nuvole",
+              "right": "essere molto sorpreso"
+            },
+            {
+              "left": "avere un diavolo per capello",
+              "right": "essere di pessimo umore"
+            },
+            {
+              "left": "fare le ore piccole",
+              "right": "andare a letto molto tardi"
+            }
+          ],
+          "explanation": "Impara gli idiomi come blocchi unici: verbo + espressione fissa."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l1-e05",
+          "instruction": "Completa con la preposizione giusta.",
+          "sentence": "Non vedo l'ora ___ andare in vacanza.",
+          "answers": [
+            "di"
+          ],
+          "explanation": "Stesso soggetto (io vedo l'ora / io vado): non vedere l'ora di + infinito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l1-e06",
+          "instruction": "Completa con il congiuntivo.",
+          "sentence": "Non vedo l'ora che ___ (finire) questa settimana.",
+          "answers": [
+            "finisca"
+          ],
+          "hint": "finire – congiuntivo presente",
+          "explanation": "Soggetto diverso: non vedere l'ora che + congiuntivo (finisca)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-05-l1-e07",
+          "instruction": "Scegli la forma corretta del modo di dire.",
+          "prompt": "Quella macchina è bellissima, ma costa ___.",
+          "options": [
+            "un occhio della testa",
+            "un occhio di testa",
+            "una testa dell'occhio",
+            "gli occhi dalla testa"
+          ],
+          "answer": 0,
+          "explanation": "La forma è fissa: un occhio della testa."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-05-l1-e08",
+          "instruction": "Il modo di dire non è nella forma giusta. Riscrivi la frase corretta.",
+          "sentence": "Scusa, oggi ho la testa nelle nuvole.",
+          "answers": [
+            "Scusa, oggi ho la testa fra le nuvole.",
+            "Scusa oggi ho la testa fra le nuvole.",
+            "Scusa, oggi ho la testa tra le nuvole.",
+            "Scusa oggi ho la testa tra le nuvole."
+          ],
+          "explanation": "La forma fissa è avere la testa fra (o tra) le nuvole."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-05-l1-e09",
+          "instruction": "Ascolta il dialogo e rispondi.",
+          "audioText": "Vieni a cena fuori stasera? Mi piacerebbe, ma sono al verde fino a venerdì. Dai, offro io! Non vedo l'ora di raccontarti del nuovo lavoro.",
+          "question": "Perché all'inizio la persona non vuole uscire?",
+          "options": [
+            "È stanca.",
+            "Non ha soldi.",
+            "Ha già un impegno.",
+            "Non le piace il ristorante."
+          ],
+          "answer": 1,
+          "explanation": "Sono al verde = non ho soldi; offro io = pago io."
+        },
+        {
+          "type": "translate",
+          "id": "c1-05-l1-e10",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Ieri abbiamo fatto le ore piccole e oggi sono distrutto.",
+          "answers": [
+            "Yesterday we stayed up really late and today I'm exhausted.",
+            "Yesterday we stayed up really late and today I'm shattered.",
+            "Yesterday we stayed up really late and today I'm wrecked.",
+            "Yesterday we stayed up really late and today I'm worn out.",
+            "Yesterday we stayed up very late and today I'm exhausted.",
+            "Yesterday we stayed up very late and today I'm shattered.",
+            "Yesterday we stayed up very late and today I'm wrecked.",
+            "Yesterday we stayed up very late and today I'm worn out.",
+            "Yesterday we stayed up late and today I'm exhausted.",
+            "Yesterday we stayed up late and today I'm shattered.",
+            "Yesterday we stayed up late and today I'm wrecked.",
+            "Yesterday we stayed up late and today I'm worn out.",
+            "Yesterday we were up very late and today I'm exhausted.",
+            "Yesterday we were up very late and today I'm shattered.",
+            "Yesterday we were up very late and today I'm wrecked.",
+            "Yesterday we were up very late and today I'm worn out.",
+            "Yesterday we went to bed very late and today I'm exhausted.",
+            "Yesterday we went to bed very late and today I'm shattered.",
+            "Yesterday we went to bed very late and today I'm wrecked.",
+            "Yesterday we went to bed very late and today I'm worn out.",
+            "Last night we stayed up really late and today I'm exhausted.",
+            "Last night we stayed up really late and today I'm shattered.",
+            "Last night we stayed up really late and today I'm wrecked.",
+            "Last night we stayed up really late and today I'm worn out.",
+            "Last night we stayed up very late and today I'm exhausted.",
+            "Last night we stayed up very late and today I'm shattered.",
+            "Last night we stayed up very late and today I'm wrecked.",
+            "Last night we stayed up very late and today I'm worn out.",
+            "Last night we stayed up late and today I'm exhausted.",
+            "Last night we stayed up late and today I'm shattered.",
+            "Last night we stayed up late and today I'm wrecked.",
+            "Last night we stayed up late and today I'm worn out.",
+            "Last night we were up very late and today I'm exhausted.",
+            "Last night we were up very late and today I'm shattered.",
+            "Last night we were up very late and today I'm wrecked.",
+            "Last night we were up very late and today I'm worn out.",
+            "Last night we went to bed very late and today I'm exhausted.",
+            "Last night we went to bed very late and today I'm shattered.",
+            "Last night we went to bed very late and today I'm wrecked.",
+            "Last night we went to bed very late and today I'm worn out.",
+            "Yesterday we stayed up really late and today I am exhausted.",
+            "Yesterday we stayed up really late and today I am worn out.",
+            "Yesterday we stayed up very late and today I am exhausted.",
+            "Yesterday we stayed up very late and today I am worn out.",
+            "Yesterday we stayed up late and today I am exhausted.",
+            "Yesterday we stayed up late and today I am worn out.",
+            "Last night we stayed up really late and today I am exhausted.",
+            "Last night we stayed up really late and today I am worn out.",
+            "Last night we stayed up very late and today I am exhausted.",
+            "Last night we stayed up very late and today I am worn out.",
+            "Last night we stayed up late and today I am exhausted.",
+            "Last night we stayed up late and today I am worn out."
+          ],
+          "explanation": "Fare le ore piccole = to stay up (very) late; essere distrutto = to be exhausted."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "c1-05-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Non vedo l'ora che arrivi il fine settimana!",
+          "translation": "I can't wait for the weekend to come!"
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-05-l1-e12",
+          "instruction": "Rispondi ad alta voce usando almeno due modi di dire di questa lezione.",
+          "prompt": "Un amico ti chiede: «Allora, come va questo periodo?»",
+          "keywords": [
+            "non vedo l'ora",
+            "al verde",
+            "ore piccole"
+          ],
+          "modelAnswer": "Mah, insomma. Lavoro tantissimo e ieri ho fatto le ore piccole per finire un progetto. In più sono al verde fino a fine mese. Non vedo l'ora che arrivino le vacanze!",
+          "explanation": "Gli idiomi rendono la risposta viva e naturale, ma non esagerare: due o tre bastano."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-05-l1-e13",
+          "front": "essere al verde",
+          "back": "to be broke",
+          "example": "Non posso venire, sono al verde fino a venerdì."
+        }
+      ]
+    },
+    {
+      "id": "c1-05-l2",
+      "title": "Prendere una decisione",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-05-l2-e01",
+          "instruction": "Riscaldamento: completa il modo di dire.",
+          "prompt": "Sono stanchissimo: ieri ho fatto le ore ___.",
+          "options": [
+            "piccole",
+            "corte",
+            "basse",
+            "tarde"
+          ],
+          "answer": 0,
+          "explanation": "Fare le ore piccole = andare a letto molto tardi."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l2-e02",
+          "instruction": "Riscaldamento: completa il modo di dire.",
+          "sentence": "Marco ha sempre la testa fra le ___: oggi ha dimenticato di nuovo le chiavi.",
+          "answers": [
+            "nuvole"
+          ],
+          "explanation": "Avere la testa fra le nuvole = essere distratto."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-05-l2-e03",
+          "title": "Le collocazioni: quale verbo?",
+          "body": "Una **collocazione** è una combinazione di parole che «stanno bene insieme». Spesso il verbo italiano è diverso da quello inglese: tradurre parola per parola produce errori tipici.\n\n- **fare una domanda** (non «chiedere una domanda»); formale: **porre / rivolgere una domanda**\n- **prendere una decisione** (non «fare una decisione»)\n- **fare una foto**, **fare due passi**, **fare la fila**\n- **sostenere un esame** (formale) / **dare un esame** (parlato) = to take an exam\n- **superare / passare un esame** = to pass an exam\n- **correre un rischio**, **prestare attenzione**, **mantenere una promessa**\n- **prendere appunti**, **prendere un appuntamento**, **prendere sul serio**\n- **trarre una conclusione**, **fare fronte a** (una spesa, un problema)\n\nAttenzione al falso amico: *passare un esame* significa superarlo, non «sostenerlo».",
+          "examples": [
+            {
+              "it": "Posso farle una domanda?",
+              "en": "May I ask you a question?"
+            },
+            {
+              "it": "Abbiamo preso una decisione difficile.",
+              "en": "We made a difficult decision."
+            },
+            {
+              "it": "A giugno sostengo l'esame CELI.",
+              "en": "In June I'm taking the CELI exam."
+            },
+            {
+              "it": "Dobbiamo fare fronte a spese impreviste.",
+              "en": "We have to cope with unexpected expenses."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-05-l2-e04",
+          "instruction": "Abbina il verbo al nome con cui forma una collocazione.",
+          "pairs": [
+            {
+              "left": "prendere",
+              "right": "una decisione"
+            },
+            {
+              "left": "fare",
+              "right": "una domanda"
+            },
+            {
+              "left": "correre",
+              "right": "un rischio"
+            },
+            {
+              "left": "mantenere",
+              "right": "una promessa"
+            },
+            {
+              "left": "prestare",
+              "right": "attenzione"
+            },
+            {
+              "left": "trarre",
+              "right": "una conclusione"
+            }
+          ],
+          "explanation": "Questi abbinamenti sono fissi: «fare un rischio» o «fare una conclusione» non si dicono."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-05-l2-e05",
+          "instruction": "Scegli il verbo giusto.",
+          "prompt": "Domani ___ l'esame di italiano: incrociamo le dita!",
+          "options": [
+            "sostengo",
+            "supero",
+            "prendo",
+            "passo"
+          ],
+          "answer": 0,
+          "explanation": "Prima dell'esame: sostenere (o dare) un esame. Superare indica il risultato positivo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l2-e06",
+          "instruction": "Completa con il verbo giusto (infinito).",
+          "sentence": "Scusi, posso ___ una domanda?",
+          "answers": [
+            "fare",
+            "porre",
+            "farle",
+            "porle",
+            "rivolgerle"
+          ],
+          "explanation": "Una domanda si fa (o, in registro formale, si pone)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l2-e07",
+          "instruction": "Completa con il participio passato giusto.",
+          "sentence": "Secondo me non hai ___ la decisione giusta.",
+          "answers": [
+            "preso"
+          ],
+          "explanation": "Prendere una decisione → ho preso."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-05-l2-e08",
+          "instruction": "C'è un errore di collocazione. Riscrivi la frase corretta.",
+          "sentence": "Ho chiesto una domanda all'impiegato, ma non mi ha risposto.",
+          "answers": [
+            "Ho fatto una domanda all'impiegato, ma non mi ha risposto.",
+            "Ho fatto una domanda all'impiegato ma non mi ha risposto.",
+            "Ho posto una domanda all'impiegato, ma non mi ha risposto.",
+            "Ho posto una domanda all'impiegato ma non mi ha risposto.",
+            "Ho rivolto una domanda all'impiegato, ma non mi ha risposto.",
+            "Ho rivolto una domanda all'impiegato ma non mi ha risposto."
+          ],
+          "explanation": "In italiano una domanda si fa (o si pone, si rivolge), non si chiede."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-05-l2-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "We must cope with unexpected expenses.",
+          "tiles": [
+            "Dobbiamo",
+            "fare",
+            "fronte",
+            "a",
+            "spese",
+            "impreviste"
+          ],
+          "distractors": [
+            "prendere",
+            "di"
+          ],
+          "explanation": "Fare fronte a = affrontare, sostenere (una spesa, un problema)."
+        },
+        {
+          "type": "translate",
+          "id": "c1-05-l2-e10",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I passed the exam!",
+          "answers": [
+            "Ho superato l'esame!",
+            "Ho passato l'esame!",
+            "Io ho superato l'esame!",
+            "Ho superato l'esame",
+            "Ho passato l'esame"
+          ],
+          "explanation": "To pass an exam = superare (o passare) un esame."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-05-l2-e11",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Prima di firmare, presta attenzione alle condizioni del contratto.",
+          "answers": [
+            "Prima di firmare, presta attenzione alle condizioni del contratto.",
+            "Prima di firmare presta attenzione alle condizioni del contratto."
+          ],
+          "slow": false,
+          "explanation": "Prestare attenzione a = fare attenzione a."
+        },
+        {
+          "type": "conjugation",
+          "id": "c1-05-l2-e12",
+          "instruction": "Presente indicativo di trarre (trarre una conclusione).",
+          "verb": "trarre",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "traggo"
+            },
+            {
+              "person": "tu",
+              "answer": "trai"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "trae"
+            },
+            {
+              "person": "noi",
+              "answer": "traiamo"
+            },
+            {
+              "person": "voi",
+              "answer": "traete"
+            },
+            {
+              "person": "loro",
+              "answer": "traggono"
+            }
+          ],
+          "explanation": "Trarre è irregolare: traggo, traggono (come attrarre, distrarre, sottrarre)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-05-l2-e13",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Racconta una decisione importante che hai preso: perché l'hai presa e che rischi hai corso?",
+          "keywords": [
+            "ho preso",
+            "decisione",
+            "rischio"
+          ],
+          "modelAnswer": "Qualche anno fa ho preso la decisione di trasferirmi in Italia. Sapevo di correre un rischio, perché non parlavo bene la lingua. Però ho mantenuto la promessa che avevo fatto a me stesso: studiare ogni giorno. Alla fine ne ho tratto una conclusione: è stata la scelta giusta.",
+          "explanation": "Usa le collocazioni: prendere una decisione, correre un rischio, trarre una conclusione."
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-05-l2-e14",
+          "front": "fare fronte a",
+          "back": "to cope with, to meet (an expense)",
+          "example": "Con questo stipendio è difficile fare fronte alle spese."
+        }
+      ]
+    },
+    {
+      "id": "c1-05-l3",
+      "title": "Al momento giusto",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l3-e01",
+          "instruction": "Riscaldamento: completa con il verbo giusto.",
+          "sentence": "Se parti senza assicurazione, ___ un rischio inutile.",
+          "answers": [
+            "corri"
+          ],
+          "explanation": "Il rischio si corre."
+        },
+        {
+          "type": "translate",
+          "id": "c1-05-l3-e02",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Non vedo l'ora di rivederti.",
+          "answers": [
+            "I can't wait to see you again.",
+            "I cannot wait to see you again.",
+            "I'm looking forward to seeing you again.",
+            "I am looking forward to seeing you again.",
+            "I can't wait to see you.",
+            "I look forward to seeing you again."
+          ],
+          "explanation": "Non vedere l'ora di = can't wait to / to look forward to."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-05-l3-e03",
+          "title": "Proverbi, idiomi e registro",
+          "body": "I **proverbi** si citano spesso a metà di una conversazione, a volte solo a metà (*Chi dorme…*).\n\n- **Chi dorme non piglia pesci** = se non ti dai da fare, non ottieni niente\n- **Tra il dire e il fare c'è di mezzo il mare** = dire è facile, fare è difficile\n- **Piove sul bagnato** = i guai (o la fortuna) arrivano a chi ne ha già\n- **Non tutto il male vien per nuocere** = anche da una cosa negativa può nascere qualcosa di buono\n- **Meglio tardi che mai**\n\n**Il registro degli idiomi**\n- **colloquiali**: *tagliare la corda* (andarsene di nascosto), *rompere le scatole* (dare fastidio), *fare una figuraccia*\n- **neutri**: *rompere il ghiaccio*, *fare quattro chiacchiere*, *a occhio e croce* (più o meno)\n- **adatti anche al lavoro e allo scritto**: *fare il punto della situazione*, *mettere i puntini sulle i* (precisare), *a tutti gli effetti*\n\nIn un'email formale o all'esame scritto usa con prudenza gli idiomi colloquiali: un'espressione neutra al posto giusto vale più di tre proverbi.",
+          "examples": [
+            {
+              "it": "Dai, iscriviti al corso: chi dorme non piglia pesci!",
+              "en": "Come on, sign up for the course: the early bird catches the worm!"
+            },
+            {
+              "it": "A occhio e croce ci vorranno due ore.",
+              "en": "Roughly speaking, it'll take two hours."
+            },
+            {
+              "it": "Giovedì facciamo il punto della situazione sul progetto.",
+              "en": "On Thursday we'll take stock of the project."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-05-l3-e04",
+          "instruction": "Quale proverbio è adatto?",
+          "prompt": "Luca voleva iscriversi al corso, ma ha aspettato troppo e i posti sono finiti.",
+          "options": [
+            "Chi dorme non piglia pesci.",
+            "Meglio tardi che mai.",
+            "Non tutto il male vien per nuocere.",
+            "Piove sul bagnato."
+          ],
+          "answer": 0,
+          "explanation": "Ha perso l'occasione perché non si è dato da fare: chi dorme non piglia pesci."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-05-l3-e05",
+          "instruction": "Quale frase va bene in un'email al tuo responsabile?",
+          "prompt": "Scegli la frase più adatta.",
+          "options": [
+            "Facciamo il punto della situazione giovedì?",
+            "Il cliente ci rompe le scatole da una settimana.",
+            "Venerdì taglio la corda alle tre.",
+            "Ieri il cliente è caduto dalle nuvole, che ridere!"
+          ],
+          "answer": 0,
+          "explanation": "Fare il punto della situazione è neutro e professionale; le altre espressioni sono colloquiali."
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-05-l3-e06",
+          "instruction": "Abbina l'espressione al suo significato.",
+          "pairs": [
+            {
+              "left": "rompere il ghiaccio",
+              "right": "iniziare a parlare con persone nuove"
+            },
+            {
+              "left": "tagliare la corda",
+              "right": "andarsene di nascosto"
+            },
+            {
+              "left": "a occhio e croce",
+              "right": "più o meno, approssimativamente"
+            },
+            {
+              "left": "fare il punto della situazione",
+              "right": "riassumere a che punto si è"
+            },
+            {
+              "left": "mettere i puntini sulle i",
+              "right": "precisare ogni dettaglio"
+            }
+          ],
+          "explanation": "Rompere il ghiaccio e fare il punto sono neutri; tagliare la corda è colloquiale."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l3-e07",
+          "instruction": "Completa il modo di dire.",
+          "sentence": "A occhio e ___, saranno almeno cinquanta persone.",
+          "answers": [
+            "croce"
+          ],
+          "explanation": "A occhio e croce = approssimativamente."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-05-l3-e08",
+          "instruction": "Completa il proverbio.",
+          "sentence": "Ha promesso di aiutarci, ma tra il dire e il fare c'è di mezzo il ___.",
+          "answers": [
+            "mare"
+          ],
+          "explanation": "Tra il dire e il fare c'è di mezzo il mare: le promesse sono facili, i fatti no."
+        },
+        {
+          "type": "reading",
+          "id": "c1-05-l3-e09",
+          "instruction": "Leggi l'email di Luca e rispondi alle domande.",
+          "title": "Giorni da pazzi",
+          "passage": "Ciao Richard!\n\nTi scrivo due righe al volo perché sono giorni da pazzi. Al lavoro il nuovo capo ha sempre un diavolo per capello e io, come al solito, ho la testa fra le nuvole: ieri ho dimenticato una riunione importante. Che figuraccia! In più la macchina si è rotta di nuovo e la riparazione costa un occhio della testa, quindi fino a fine mese sono al verde. Piove sul bagnato, come si dice!\n\nPerò c'è anche una bella notizia: sabato prossimo Chiara e io facciamo una festa per la casa nuova. A occhio e croce saremo una trentina. Vieni? Così ti presento un po' di gente, e non preoccuparti per il ghiaccio: lo rompe Chiara, lei parla con tutti!\n\nNon vedo l'ora di vederti. Un abbraccio,\nLuca",
+          "questions": [
+            {
+              "question": "Com'è il nuovo capo di Luca in questo periodo?",
+              "options": [
+                "Molto distratto",
+                "Sempre di pessimo umore",
+                "Molto generoso",
+                "Spesso assente"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché Luca dice «Piove sul bagnato»?",
+              "options": [
+                "Perché il tempo è brutto",
+                "Perché ai problemi di lavoro si aggiungono quelli con la macchina",
+                "Perché la festa è stata annullata",
+                "Perché ha vinto dei soldi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa farà Chiara alla festa?",
+              "options": [
+                "Preparerà da mangiare",
+                "Aiuterà gli ospiti a fare conoscenza",
+                "Porterà il ghiaccio per le bibite",
+                "Arriverà in ritardo"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Hai riconosciuto: un diavolo per capello, la testa fra le nuvole, figuraccia, un occhio della testa, al verde, piove sul bagnato, a occhio e croce, rompere il ghiaccio, non vedo l'ora."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-05-l3-e10",
+          "instruction": "Il proverbio non è nella forma giusta. Riscrivi la frase corretta.",
+          "sentence": "Chi dorme non prende pesci.",
+          "answers": [
+            "Chi dorme non piglia pesci."
+          ],
+          "explanation": "La forma fissa usa il verbo pigliare (toscano/colloquiale per prendere): chi dorme non piglia pesci."
+        },
+        {
+          "type": "roleplay",
+          "id": "c1-05-l3-e11",
+          "instruction": "A una festa conosci una persona nuova. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "At Luca's housewarming party you're standing next to someone you don't know. Break the ice and chat, using a few idioms naturally.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buonasera! Che bella festa, eh?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, bellissima! Rompo il ghiaccio: io sono Richard, un amico di Luca. E tu?",
+              "hint": "Introduce yourself – use rompere il ghiaccio.",
+              "keywords": [
+                "rompo il ghiaccio",
+                "amico"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Piacere, Marta! Sono la collega di Chiara. Ma quanta gente c'è stasera?"
+            },
+            {
+              "speaker": "you",
+              "text": "A occhio e croce saremo una trentina. Luca conosce mezzo mondo!",
+              "hint": "Give a rough estimate with a occhio e croce.",
+              "keywords": [
+                "a occhio e croce",
+                "trentina"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Davvero! E tu che fai di bello in questo periodo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Studio per l'esame CELI di giugno. Non vedo l'ora di sostenerlo, ma ho anche un po' paura.",
+              "hint": "Say you're preparing for the exam: non vedo l'ora di + sostenere.",
+              "keywords": [
+                "non vedo l'ora",
+                "sostenerlo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ma dai, parli benissimo! E studi tutti i giorni?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, almeno mezz'ora al giorno. Chi dorme non piglia pesci!",
+              "hint": "Say how often – and add a proverb.",
+              "keywords": [
+                "al giorno",
+                "chi dorme"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Bravo! Allora in bocca al lupo!"
+            },
+            {
+              "speaker": "you",
+              "text": "Crepi! Grazie mille.",
+              "hint": "Answer the good-luck wish.",
+              "keywords": [
+                "crepi"
+              ]
+            }
+          ],
+          "explanation": "Hai usato idiomi neutri e colloquiali in un contesto informale: rompere il ghiaccio, a occhio e croce, non vedo l'ora, chi dorme non piglia pesci."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-05-l3-e12",
+          "instruction": "Scrivi un messaggio a un amico.",
+          "prompt": "Un amico sta per sostenere un esame importante ed è molto in ansia. Scrivigli un messaggio (70–100 parole) per incoraggiarlo. Usa almeno tre modi di dire o collocazioni di questa unità.",
+          "minWords": 70,
+          "checklist": [
+            "Ho usato almeno tre modi di dire o collocazioni (in bocca al lupo, non vedere l'ora, sostenere/superare un esame…).",
+            "Gli idiomi sono nella forma fissa corretta.",
+            "Ho usato non vedere l'ora di + infinito o che + congiuntivo correttamente.",
+            "Il tono è informale e incoraggiante."
+          ],
+          "modelAnswer": "Ciao Marco! So che domani sostieni l'esame e che sei in ansia, ma ascoltami: hai studiato per mesi e sei in gamba, lo sappiamo tutti. Stasera non fare le ore piccole sui libri: ormai il lavoro l'hai fatto. Fai due passi, mangia bene e vai a letto presto. Domani presta attenzione alle domande, leggi tutto con calma e vedrai che andrà benissimo. Non vedo l'ora che tu mi chiami per dirmi che l'hai superato! In bocca al lupo!"
+        },
+        {
+          "type": "flashcard",
+          "id": "c1-05-l3-e13",
+          "front": "a occhio e croce",
+          "back": "roughly, at a rough guess",
+          "example": "A occhio e croce ci vorrà un'ora."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "in bocca al lupo! – crepi!",
+      "en": "good luck! – thanks! (traditional reply)",
+      "example": "– Domani ho l'esame. – In bocca al lupo! – Crepi!"
+    },
+    {
+      "it": "non vedere l'ora di / che",
+      "en": "to look forward to, can't wait",
+      "example": "Non vedo l'ora di partire."
+    },
+    {
+      "it": "essere al verde",
+      "en": "to be broke",
+      "example": "Fino a venerdì sono al verde."
+    },
+    {
+      "it": "costare un occhio della testa",
+      "en": "to cost an arm and a leg",
+      "example": "Quella riparazione costa un occhio della testa."
+    },
+    {
+      "it": "avere la testa fra le nuvole",
+      "en": "to have one's head in the clouds",
+      "example": "Scusa, oggi ho la testa fra le nuvole."
+    },
+    {
+      "it": "cadere dalle nuvole",
+      "en": "to be taken aback, act surprised",
+      "example": "Quando gliel'ho detto, è caduto dalle nuvole."
+    },
+    {
+      "it": "avere un diavolo per capello",
+      "en": "to be in a foul mood",
+      "example": "Il capo oggi ha un diavolo per capello."
+    },
+    {
+      "it": "essere in gamba",
+      "en": "to be capable, on the ball",
+      "example": "La nuova collega è molto in gamba."
+    },
+    {
+      "it": "fare le ore piccole",
+      "en": "to stay up very late",
+      "example": "Ieri abbiamo fatto le ore piccole."
+    },
+    {
+      "it": "fare una figuraccia",
+      "en": "to embarrass oneself",
+      "example": "Ho dimenticato il suo nome: che figuraccia!"
+    },
+    {
+      "it": "prendere una decisione",
+      "en": "to make a decision",
+      "example": "Dobbiamo prendere una decisione entro domani."
+    },
+    {
+      "it": "fare (porre) una domanda",
+      "en": "to ask a question",
+      "example": "Posso farle una domanda?"
+    },
+    {
+      "it": "sostenere un esame",
+      "en": "to take an exam",
+      "example": "A giugno sostengo l'esame CELI."
+    },
+    {
+      "it": "superare un esame",
+      "en": "to pass an exam",
+      "example": "Ha superato l'esame al primo tentativo."
+    },
+    {
+      "it": "correre un rischio",
+      "en": "to take/run a risk",
+      "example": "Non voglio correre rischi inutili."
+    },
+    {
+      "it": "prestare attenzione",
+      "en": "to pay attention",
+      "example": "Presta attenzione alle scadenze."
+    },
+    {
+      "it": "mantenere una promessa",
+      "en": "to keep a promise",
+      "example": "Ha mantenuto la promessa."
+    },
+    {
+      "it": "trarre una conclusione",
+      "en": "to draw a conclusion",
+      "example": "Non traiamo conclusioni affrettate."
+    },
+    {
+      "it": "fare fronte a",
+      "en": "to cope with, meet (an expense)",
+      "example": "Dobbiamo fare fronte a molte spese."
+    },
+    {
+      "it": "rompere il ghiaccio",
+      "en": "to break the ice",
+      "example": "Ho fatto una battuta per rompere il ghiaccio."
+    },
+    {
+      "it": "tagliare la corda",
+      "en": "to sneak off, slip away",
+      "example": "Alle undici ha tagliato la corda."
+    },
+    {
+      "it": "a occhio e croce",
+      "en": "roughly, at a rough guess",
+      "example": "A occhio e croce saranno cento euro."
+    },
+    {
+      "it": "fare il punto della situazione",
+      "en": "to take stock, review progress",
+      "example": "Facciamo il punto della situazione lunedì."
+    },
+    {
+      "it": "chi dorme non piglia pesci",
+      "en": "the early bird catches the worm",
+      "example": "Iscriviti subito: chi dorme non piglia pesci!"
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "c1-05-t1",
+      "rule": "Fare una domanda",
+      "tip": "In italiano la domanda si fa (o si pone), non si chiede: «Posso farle una domanda?»",
+      "example": {
+        "it": "Posso farle una domanda?",
+        "en": "May I ask you a question?"
+      },
+      "challenge": {
+        "type": "error_correction",
+        "instruction": "Correggi l'errore.",
+        "sentence": "Vorrei chiedere una domanda sul contratto.",
+        "answers": [
+          "Vorrei fare una domanda sul contratto.",
+          "Vorrei porre una domanda sul contratto.",
+          "Vorrei farle una domanda sul contratto."
+        ]
+      }
+    },
+    {
+      "id": "c1-05-t2",
+      "rule": "Prendere una decisione",
+      "tip": "Decisione vuole prendere: «Abbiamo preso una decisione», mai «fatto una decisione».",
+      "example": {
+        "it": "Ho preso la decisione di restare.",
+        "en": "I made the decision to stay."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa.",
+        "sentence": "Avete già ___ una decisione?",
+        "answers": [
+          "preso"
+        ]
+      }
+    },
+    {
+      "id": "c1-05-t3",
+      "rule": "Non vedo l'ora di / che",
+      "tip": "Non vedo l'ora di + infinito (stesso soggetto); non vedo l'ora che + congiuntivo (soggetto diverso).",
+      "example": {
+        "it": "Non vedo l'ora che arrivino le vacanze.",
+        "en": "I can't wait for the holidays to come."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa con il congiuntivo.",
+        "sentence": "Non vedo l'ora che ___ (arrivare) le vacanze.",
+        "answers": [
+          "arrivino"
+        ]
+      }
+    },
+    {
+      "id": "c1-05-t4",
+      "rule": "Sostenere o superare?",
+      "tip": "Sostenere (o dare) un esame = to take it; superare (o passare) un esame = to pass it.",
+      "example": {
+        "it": "A giugno sostengo l'esame e spero di superarlo.",
+        "en": "In June I'm taking the exam and I hope to pass it."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "instruction": "Scegli il verbo giusto.",
+        "prompt": "Che bello, ho ___ l'esame con un ottimo voto!",
+        "options": [
+          "superato",
+          "sostenuto",
+          "preso",
+          "dato"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "c1-05-t5",
+      "rule": "Idiomi: forma fissa",
+      "tip": "Negli idiomi cambia solo il verbo: «costa un occhio della testa», «sono al verde», «ho la testa fra le nuvole».",
+      "example": {
+        "it": "Quel cappotto costa un occhio della testa.",
+        "en": "That coat costs an arm and a leg."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "instruction": "Scegli la forma corretta.",
+        "prompt": "Questo mese siamo ___.",
+        "options": [
+          "al verde",
+          "nel verde",
+          "in verde",
+          "del verde"
+        ],
+        "answer": 0
+      }
+    }
+  ]
+}

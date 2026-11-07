@@ -103,6 +103,9 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
     fun setUnlockAll(v: Boolean) = update { repo.setUnlockAll(v) }
     fun setTheme(v: ThemeMode) = update { repo.setThemeMode(v) }
     fun setPaused(v: Boolean) = updateReminders { repo.setRemindersPaused(v) }
+    fun setReminderGrammar(v: Boolean) = update { repo.setReminderGrammar(v) }
+    fun setReminderReview(v: Boolean) = update { repo.setReminderReview(v) }
+    fun setReminderNextLesson(v: Boolean) = update { repo.setReminderNextLesson(v) }
 
     fun addReminder(hour: Int, minute: Int) = updateReminders {
         reminderDao.insert(ReminderEntity(hour = hour, minute = minute, daysMask = DayOfWeek.entries.toSet().toMask(), enabled = true))
@@ -281,6 +284,32 @@ fun SettingsScreen() {
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+        Text("What reminders can be about", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 4.dp))
+        SwitchRow(
+            "Grammar tips & challenges",
+            "A rule from a unit you've started, with a quick challenge to try.",
+            settings.reminderGrammar,
+            vm::setReminderGrammar,
+        )
+        SwitchRow(
+            "Vocabulary review",
+            "When review cards are ready.",
+            settings.reminderReview,
+            vm::setReminderReview,
+        )
+        SwitchRow(
+            "Next lesson",
+            "Your next lesson on the path.",
+            settings.reminderNextLesson,
+            vm::setReminderNextLesson,
+        )
+        if (!settings.reminderGrammar && !settings.reminderReview && !settings.reminderNextLesson) {
+            Text(
+                "With all three off, reminders use a short friendly nudge instead.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
 
         HorizontalDivider()
 

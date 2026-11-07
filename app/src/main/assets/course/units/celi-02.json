@@ -1,0 +1,802 @@
+{
+  "id": "celi-02",
+  "level": "CELI3",
+  "title": "Ascoltare per l'esame",
+  "objective": "Alla fine dell'unità sai affrontare la Parte D del CELI 3 (25 minuti): rispondi a domande a scelta multipla su notiziari, annunci, interviste e telefonate (D.1) e completi frasi con le parole esatte del testo ascoltato (D.2).",
+  "grammarFocus": "Strategie di ascolto: anticipare il contenuto dalle opzioni, numeri e date, segnali discorsivi e stati d'animo (figurati, magari, mica, insomma, meno male), ortografia delle parole ascoltate (doppie, accenti).",
+  "remedialUnitIds": [
+    "celi-01",
+    "b1-07",
+    "b2-06"
+  ],
+  "lessons": [
+    {
+      "id": "celi-02-l1",
+      "title": "D.1 – Notiziari e annunci",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-02-l1-e01",
+          "instruction": "Riscaldamento: quale opzione è una parafrasi corretta?",
+          "prompt": "«La partita è stata rinviata a causa del maltempo.»",
+          "options": [
+            "La partita si è giocata sotto la pioggia.",
+            "La partita si giocherà un altro giorno.",
+            "La partita è stata vinta grazie al tempo.",
+            "La partita è finita prima del previsto."
+          ],
+          "answer": 1,
+          "explanation": "Anche nell'ascolto le opzioni giuste riformulano il testo: rinviata → si giocherà un altro giorno."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-02-l1-e02",
+          "instruction": "Riscaldamento: ascolta e scrivi. Attenzione a numeri e orari.",
+          "audioText": "Il treno regionale delle diciassette e quindici partirà dal binario tre.",
+          "answers": [
+            "Il treno regionale delle diciassette e quindici partirà dal binario tre.",
+            "Il treno regionale delle 17:15 partirà dal binario 3.",
+            "Il treno regionale delle 17.15 partirà dal binario 3.",
+            "Il treno regionale delle 17 e 15 partirà dal binario 3.",
+            "Il treno regionale delle diciassette e quindici partirà dal binario 3."
+          ],
+          "slow": false,
+          "explanation": "Negli annunci gli orari si dicono con le 24 ore: le diciassette e quindici = 5.15 pm."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-02-l1-e03",
+          "title": "La Parte D del CELI 3: comprensione dell'ascolto",
+          "body": "La Parte D è nel **terzo fascicolo** e dura **25 minuti**.\n\n- **D.1** – **due testi** ascoltati, con domande a **scelta multipla** (4 opzioni): **10 domande** (5 + 5), **3 punti** ciascuna.\n- **D.2** – **10 frasi** da completare con **parole del testo** ascoltato, **1 punto** ciascuna.\n\nI testi sono di tipo radiofonico e televisivo (annunci, pubblicità, notiziari, programmi), telefonate in diretta, interviste, talk show e brevi monologhi. La lingua è vicina all'italiano standard, con qualche leggera inflessione regionale. Devi capire la **situazione**, come si **sviluppa**, e gli **stati d'animo** e le **intenzioni** di chi parla.\n\n**Strategie (consigli pratici):**\n- Prima dell'ascolto leggi **tutte le opzioni**: ti dicono l'argomento e le parole da aspettarti.\n- Durante l'ascolto segna **numeri, date, luoghi, nomi**: le opzioni sbagliate spesso cambiano proprio questi dettagli.\n- Non bloccarti su una parola che non capisci: segui il filo e passa alla domanda successiva.\n- Quante volte si ascolta ogni testo non è indicato nella descrizione ufficiale *(check on the day: listen to the instructions)*.",
+          "examples": [
+            {
+              "it": "Lo sciopero interesserà autobus e metropolitana.",
+              "en": "The strike will affect buses and the underground."
+            },
+            {
+              "it": "Sono previsti forti ritardi.",
+              "en": "Long delays are expected."
+            },
+            {
+              "it": "L'ingresso è gratuito la prima domenica del mese.",
+              "en": "Entry is free on the first Sunday of the month."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l1-e04",
+          "instruction": "Notiziario 1/3. Ascolta e rispondi.",
+          "audioText": "Venerdì prossimo sciopero di ventiquattro ore dei trasporti pubblici locali. Si fermeranno autobus e tram, mentre la metropolitana garantirà il servizio nelle fasce di garanzia, dalle sei alle nove e dalle diciotto alle ventuno. I sindacati chiedono il rinnovo del contratto, scaduto da due anni.",
+          "question": "Che cosa funzionerà venerdì?",
+          "options": [
+            "Autobus e tram per tutto il giorno",
+            "La metropolitana solo in alcuni orari",
+            "Nessun mezzo pubblico",
+            "La metropolitana fino alle nove di sera, senza interruzioni"
+          ],
+          "answer": 1,
+          "explanation": "Fasce di garanzia = le ore in cui il servizio è garantito durante uno sciopero (6–9 e 18–21)."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l1-e05",
+          "instruction": "Notiziario 2/3. Ascolta e rispondi.",
+          "audioText": "Torna domenica l'iniziativa dei musei gratuiti. Come ogni prima domenica del mese, i musei e i parchi archeologici statali si potranno visitare senza pagare il biglietto. Per i siti più frequentati, però, è consigliata la prenotazione online, perché gli ingressi sono contingentati.",
+          "question": "Che cosa si consiglia di fare?",
+          "options": [
+            "Arrivare presto la mattina",
+            "Comprare il biglietto in anticipo",
+            "Prenotare online per i siti più visitati",
+            "Visitare solo i parchi archeologici"
+          ],
+          "answer": 2,
+          "explanation": "Ingressi contingentati = numero limitato di persone. La prenotazione è consigliata, non obbligatoria: attenzione alle opzioni che esagerano."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l1-e06",
+          "instruction": "Notiziario 3/3. Ascolta e rispondi.",
+          "audioText": "Allerta meteo arancione da domani mattina su gran parte della regione. Sono attesi temporali anche forti, con possibili grandinate. Le scuole resteranno aperte, ma il sindaco invita i cittadini a limitare gli spostamenti e a non sostare vicino agli alberi.",
+          "question": "Che cosa chiede il sindaco?",
+          "options": [
+            "Di chiudere le scuole",
+            "Di uscire di casa il meno possibile",
+            "Di tagliare gli alberi",
+            "Di non andare al lavoro"
+          ],
+          "answer": 1,
+          "explanation": "Limitare gli spostamenti = muoversi il meno possibile. Le scuole restano aperte: un dettaglio che serve a eliminare un'opzione."
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-02-l1-e07",
+          "instruction": "Abbina le espressioni tipiche degli annunci al loro significato.",
+          "pairs": [
+            {
+              "left": "il treno è stato soppresso",
+              "right": "il treno non partirà"
+            },
+            {
+              "left": "è previsto un ritardo",
+              "right": "il treno arriverà più tardi"
+            },
+            {
+              "left": "gli ingressi sono contingentati",
+              "right": "entra un numero limitato di persone"
+            },
+            {
+              "left": "fino a esaurimento posti",
+              "right": "finché ci sono posti liberi"
+            },
+            {
+              "left": "salvo imprevisti",
+              "right": "se non succede niente di strano"
+            }
+          ],
+          "explanation": "Queste formule ricorrono negli annunci di stazioni, musei ed eventi: riconoscerle subito libera attenzione per i dettagli."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l1-e08",
+          "instruction": "Ascolta la pubblicità e rispondi.",
+          "audioText": "Hai sempre sognato di suonare la chitarra? Da settembre la scuola di musica Armonia apre i corsi serali per adulti. La prima lezione è gratuita e, per chi si iscrive entro il quindici settembre, c'è il venti per cento di sconto sulla quota annuale. Ti aspettiamo in via Garibaldi dodici!",
+          "question": "A quale condizione si ha lo sconto?",
+          "options": [
+            "Se si frequenta la prima lezione",
+            "Se ci si iscrive entro una certa data",
+            "Se si porta un amico",
+            "Se si paga in contanti"
+          ],
+          "answer": 1,
+          "explanation": "Entro il quindici settembre = non dopo il 15 settembre. Entro indica una scadenza."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-02-l1-e09",
+          "instruction": "Completa con una parola dei notiziari.",
+          "sentence": "Venerdì c'è uno ___ dei trasporti: meglio andare in bicicletta.",
+          "answers": [
+            "sciopero"
+          ],
+          "explanation": "Lo sciopero (scioperare): parola frequentissima nei notiziari italiani."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-02-l1-e10",
+          "instruction": "Ascolta e ripeti con l'intonazione dell'annuncio.",
+          "text": "Si avvisano i signori passeggeri che il treno regionale per Firenze è in arrivo con quindici minuti di ritardo.",
+          "translation": "Passengers are advised that the regional train to Florence is arriving fifteen minutes late."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-02-l1-e11",
+          "instruction": "Rispondi ad alta voce: lascia un messaggio vocale.",
+          "prompt": "Hai sentito alla radio che venerdì c'è sciopero dei trasporti. Lascia un messaggio vocale a un amico che venerdì deve venire da te in autobus: spiega la situazione e proponi una soluzione.",
+          "keywords": [
+            "sciopero",
+            "venerdì",
+            "metropolitana"
+          ],
+          "modelAnswer": "Ciao Luca, ho sentito alla radio che venerdì c'è sciopero dei trasporti per tutto il giorno. Gli autobus non passano, ma la metropolitana funziona dalle sei alle nove e dalle diciotto alle ventuno. Se vuoi, vengo a prenderti io in macchina. Fammi sapere!",
+          "explanation": "Riferire un'informazione ascoltata è anche un modo per ripassare: hai riusato sciopero, orari e fasce di garanzia."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-02-l1-e12",
+          "front": "lo sciopero",
+          "back": "strike",
+          "example": "Venerdì c'è sciopero dei mezzi pubblici."
+        }
+      ]
+    },
+    {
+      "id": "celi-02-l2",
+      "title": "D.1 – Interviste e telefonate",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "listen_transcribe",
+          "id": "celi-02-l2-e01",
+          "instruction": "Riscaldamento: ascolta e scrivi.",
+          "audioText": "Lo sciopero interesserà autobus e tram per tutta la giornata.",
+          "answers": [
+            "Lo sciopero interesserà autobus e tram per tutta la giornata."
+          ],
+          "slow": false,
+          "explanation": "Interessare qui significa coinvolgere, riguardare (to affect)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-02-l2-e02",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Per avere lo sconto bisogna iscriversi ___ il quindici settembre.",
+          "answers": [
+            "entro"
+          ],
+          "explanation": "Entro = by, not later than. Tra/fra indica invece un tempo futuro a partire da adesso (tra due giorni)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-02-l2-e03",
+          "title": "Capire intenzioni e stati d'animo",
+          "body": "Nelle interviste e nelle telefonate le domande chiedono spesso **che cosa pensa o prova** chi parla (*how the speaker feels, what they want*). Le parole contano, ma contano anche i **segnali discorsivi** e l'intonazione.\n\n- **Figurati! / Si figuri!** – non c'è problema, prego (risposta a un grazie o a una scusa)\n- **Magari!** – lo vorrei tanto (desiderio)\n- **Mica** + verbo – rafforza la negazione: *Non è mica facile* = non è affatto facile\n- **Insomma** – così così; oppure *in conclusione*; con tono seccato: *basta!*\n- **Meno male** – per fortuna (sollievo)\n- **Ma dai!** – sorpresa o incredulità\n- **Ci mancherebbe (altro)!** – certo, è il minimo\n- **Che peccato!** – dispiacere\n\nSe l'opzione dice *è deluso*, *è sollevato*, *è irritato*, cerca nell'audio le parole e il tono che lo dimostrano.",
+          "examples": [
+            {
+              "it": "— Grazie mille! — Figurati!",
+              "en": "— Thanks a lot! — Don't mention it!"
+            },
+            {
+              "it": "— Vieni al mare con noi? — Magari! Devo lavorare.",
+              "en": "— Coming to the beach? — I wish! I have to work."
+            },
+            {
+              "it": "Non è mica colpa mia!",
+              "en": "It's not my fault at all!"
+            },
+            {
+              "it": "Meno male che hai chiamato.",
+              "en": "Good thing you called."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-02-l2-e04",
+          "instruction": "Abbina il segnale discorsivo allo stato d'animo o all'intenzione.",
+          "pairs": [
+            {
+              "left": "Meno male!",
+              "right": "sollievo"
+            },
+            {
+              "left": "Magari!",
+              "right": "desiderio"
+            },
+            {
+              "left": "Ma dai!",
+              "right": "sorpresa"
+            },
+            {
+              "left": "Che peccato!",
+              "right": "dispiacere"
+            },
+            {
+              "left": "Ci mancherebbe!",
+              "right": "disponibilità"
+            }
+          ],
+          "explanation": "Riconoscere questi segnali ti aiuta nelle domande sugli stati d'animo della prova D.1."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l2-e05",
+          "instruction": "Ascolta la telefonata e rispondi.",
+          "audioText": "Pronto, buongiorno, chiamo per la terza volta per la lavatrice. Il tecnico doveva venire martedì, ho preso un giorno di ferie per aspettarlo e non si è visto nessuno. Nessuno mi ha avvisato. Insomma, vorrei sapere quando viene, ma questa volta con un orario preciso, perché non posso perdere un altro giorno di lavoro.",
+          "question": "Come si sente la persona che telefona?",
+          "options": [
+            "Soddisfatta del servizio",
+            "Irritata per il disservizio",
+            "Preoccupata per il costo della riparazione",
+            "Indifferente"
+          ],
+          "answer": 1,
+          "explanation": "Per la terza volta, non si è visto nessuno, nessuno mi ha avvisato, insomma: tutti segnali di irritazione."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l2-e06",
+          "instruction": "Ascolta l'intervista e rispondi.",
+          "audioText": "— Lei ha aperto una libreria in un paese di mille abitanti. Non è un rischio? — Certo che lo è! Non è mica facile vendere libri oggi. Però qui la libreria più vicina era a quaranta chilometri. Organizziamo letture per bambini, gruppi di lettura per adulti, e il sabato la libreria diventa un punto di ritrovo. Più che un negozio, volevo creare un posto dove la gente si incontra.",
+          "question": "Qual era l'obiettivo principale della libraia?",
+          "options": [
+            "Guadagnare molto in poco tempo",
+            "Creare un luogo di incontro per il paese",
+            "Vendere libri online",
+            "Aprire una seconda libreria in città"
+          ],
+          "answer": 1,
+          "explanation": "Più che un negozio, volevo creare un posto dove la gente si incontra: è l'intenzione dichiarata. Non è mica facile = non è affatto facile."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l2-e07",
+          "instruction": "Ascolta il talk show e rispondi.",
+          "audioText": "Guardi, io sulla settimana di quattro giorni sono d'accordo a metà. Per chi lavora in ufficio può funzionare, e alcune aziende hanno visto aumentare la produttività. Ma in un ospedale, in un negozio, in una scuola? Lì servono più persone, non meno ore. Prima di generalizzare, bisognerebbe fare delle prove settore per settore.",
+          "question": "Qual è la posizione di chi parla?",
+          "options": [
+            "È completamente favorevole",
+            "È completamente contrario",
+            "La ritiene possibile solo in alcuni settori",
+            "Pensa che riduca la produttività"
+          ],
+          "answer": 2,
+          "explanation": "D'accordo a metà, per chi lavora in ufficio può funzionare, ma… : posizione sfumata. Le opzioni estreme (completamente) sono spesso sbagliate."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-02-l2-e08",
+          "instruction": "Che cosa significa la risposta?",
+          "prompt": "— Ti va di venire in montagna questo weekend? — Magari! Ma devo finire un lavoro.",
+          "options": [
+            "Ci andrà sicuramente.",
+            "Vorrebbe tanto, ma non può.",
+            "Non gli piace la montagna.",
+            "Forse ci andrà."
+          ],
+          "answer": 1,
+          "explanation": "Magari! da solo esprime un forte desiderio, spesso irrealizzabile. (Magari + verbo può anche voler dire forse: Magari vengo più tardi.)"
+        },
+        {
+          "type": "translate",
+          "id": "celi-02-l2-e09",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Figurati, non è un problema!",
+          "answers": [
+            "Don't worry, it's not a problem!",
+            "Don't mention it, it's not a problem!",
+            "Not at all, it's not a problem!",
+            "Don't worry, it's no problem!",
+            "Don't mention it, it's no problem!",
+            "No worries, it's not a problem!",
+            "No worries, it's no problem!",
+            "Not at all, it's no problem!",
+            "Don't worry about it, it's not a problem!",
+            "Don't worry about it, it's no problem!"
+          ],
+          "explanation": "Figurati (tu) / si figuri (Lei): risposta tipica a grazie o a scusa."
+        },
+        {
+          "type": "roleplay",
+          "id": "celi-02-l2-e10",
+          "instruction": "Telefonata in diretta a un programma radiofonico. Rispondi ad alta voce.",
+          "scenario": "You call a radio phone-in about the four-day working week. Give a nuanced opinion, as the exam recordings do – and as you will in the oral exam.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, è in diretta! Come si chiama e da dove chiama?"
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, mi chiamo Richard e chiamo da casa.",
+              "hint": "Introduce yourself.",
+              "keywords": [
+                "mi chiamo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Allora, Richard, lei che ne pensa della settimana di quattro giorni?"
+            },
+            {
+              "speaker": "you",
+              "text": "Secondo me è un'idea interessante, ma non funziona per tutti i lavori.",
+              "hint": "Give a nuanced opinion (ma…).",
+              "keywords": [
+                "secondo me",
+                "ma"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Per esempio?"
+            },
+            {
+              "speaker": "you",
+              "text": "Per esempio negli ospedali o nei negozi servirebbero più persone, quindi bisognerebbe fare delle prove settore per settore.",
+              "hint": "Give an example and a proposal (condizionale).",
+              "keywords": [
+                "per esempio",
+                "bisognerebbe"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie, Richard, è stato chiarissimo!"
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie a voi e buon lavoro!",
+              "hint": "Thank them and say goodbye.",
+              "keywords": [
+                "grazie"
+              ]
+            }
+          ],
+          "explanation": "Hai usato secondo me, ma, per esempio e un condizionale per una proposta: struttura chiara e sfumata."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-02-l2-e11",
+          "instruction": "Ascolta e ripeti con l'intonazione giusta (sollievo).",
+          "text": "Meno male che hai chiamato, ero proprio preoccupato!",
+          "translation": "Good thing you called, I was really worried!"
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-02-l2-e12",
+          "front": "magari!",
+          "back": "I wish! / if only!",
+          "example": "— Vieni in vacanza con noi? — Magari!"
+        }
+      ]
+    },
+    {
+      "id": "celi-02-l3",
+      "title": "D.2 – Completare con le parole del testo",
+      "minutes": 13,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-02-l3-e01",
+          "instruction": "Riscaldamento: scegli lo stato d'animo.",
+          "prompt": "«Insomma, è la terza volta che chiamo e nessuno mi risponde!»",
+          "options": [
+            "sollievo",
+            "irritazione",
+            "gratitudine",
+            "sorpresa positiva"
+          ],
+          "answer": 1,
+          "explanation": "Insomma con tono seccato + la terza volta: irritazione."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-02-l3-e02",
+          "title": "D.2: frasi da completare",
+          "body": "Nella prova **D.2** completi **10 frasi** con **parole del testo** ascoltato (1 punto ciascuna). Spesso il testo è un'intervista o un monologo informativo.\n\n**Strategie (consigli pratici):**\n- Prima di ascoltare leggi le frasi e **prevedi che tipo di parola manca**: un nome? un numero? un aggettivo? un verbo all'infinito?\n- Controlla che la parola scelta sia **grammaticalmente compatibile**: articolo, genere, numero (*una ___* → nome femminile singolare).\n- Scrivi **le parole che senti**, senza sinonimi: la consegna chiede le parole del testo.\n- Alla fine rileggi l'**ortografia**: doppie (*settembre, raccolta*), accenti (*città, perché*), apostrofi (*un'ora*).",
+          "examples": [
+            {
+              "it": "La mostra resterà aperta fino al ___ gennaio. → un numero",
+              "en": "The exhibition will stay open until ___ January. → a number"
+            },
+            {
+              "it": "I visitatori possono partecipare a una ___ guidata. → nome femminile",
+              "en": "Visitors can join a guided ___. → feminine noun"
+            },
+            {
+              "it": "Per i gruppi è ___ prenotare. → aggettivo / participio",
+              "en": "For groups it is ___ to book. → adjective / participle"
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-02-l3-e03",
+          "instruction": "Ascolta il monologo della guida e rispondi.",
+          "audioText": "Benvenuti alla mostra sulla storia del cinema italiano. Il percorso è diviso in sei sale e dura circa un'ora. Nella prima sala trovate i manifesti originali degli anni Cinquanta; nell'ultima, i costumi di scena di alcuni film famosi. Vi ricordo che non è consentito fotografare con il flash. La mostra resterà aperta fino al trenta gennaio, e ogni sabato alle undici c'è una visita guidata gratuita. Per i gruppi superiori a dieci persone è obbligatorio prenotare.",
+          "question": "Di che cosa parla principalmente la guida?",
+          "options": [
+            "Della storia del teatro",
+            "Dell'organizzazione e delle regole della mostra",
+            "Dei prezzi dei biglietti",
+            "Dei film più recenti"
+          ],
+          "answer": 1,
+          "explanation": "Prima capisci il senso generale, poi completa i dettagli. Negli esercizi seguenti riascolti alcune frasi."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-02-l3-e04",
+          "instruction": "Riascolta un pezzo e scrivi esattamente le parole.",
+          "audioText": "Il percorso è diviso in sei sale e dura circa un'ora.",
+          "answers": [
+            "Il percorso è diviso in sei sale e dura circa un'ora.",
+            "Il percorso è diviso in 6 sale e dura circa un'ora."
+          ],
+          "slow": false,
+          "explanation": "Attenzione all'apostrofo: un'ora (femminile) – un anno (maschile, senza apostrofo)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-02-l3-e05",
+          "instruction": "Riascolta e scrivi.",
+          "audioText": "Ogni sabato alle undici c'è una visita guidata gratuita.",
+          "answers": [
+            "Ogni sabato alle undici c'è una visita guidata gratuita.",
+            "Ogni sabato alle 11 c'è una visita guidata gratuita."
+          ],
+          "slow": false,
+          "explanation": "Ogni + nome singolare: ogni sabato, ogni giorno."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-02-l3-e06",
+          "instruction": "Completa con la parola che hai sentito nel monologo.",
+          "sentence": "Non è consentito fotografare con il ___.",
+          "answers": [
+            "flash"
+          ],
+          "explanation": "Non è consentito = è vietato (registro formale degli avvisi)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-02-l3-e07",
+          "instruction": "Completa con la parola che hai sentito nel monologo.",
+          "sentence": "Per i gruppi superiori a dieci persone è ___ prenotare.",
+          "answers": [
+            "obbligatorio"
+          ],
+          "explanation": "Dopo è serve un aggettivo: obbligatorio (non obbligo, che è un nome)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-02-l3-e08",
+          "instruction": "Completa con la parola che hai sentito nel monologo.",
+          "sentence": "Nell'ultima sala ci sono i ___ di scena di alcuni film famosi.",
+          "answers": [
+            "costumi"
+          ],
+          "explanation": "I costumi di scena = costumes. Dopo i serve un nome maschile plurale."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-02-l3-e09",
+          "instruction": "C'è un errore di ortografia. Riscrivi la frase corretta.",
+          "sentence": "La mostra comincerà a setembre e finirà a gennaio.",
+          "answers": [
+            "La mostra comincerà a settembre e finirà a gennaio."
+          ],
+          "explanation": "Settembre ha la doppia t. Nelle frasi della D.2 l'ortografia conta: rileggi sempre doppie e accenti."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-02-l3-e10",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "Groups of more than ten people must book.",
+          "tiles": [
+            "I",
+            "gruppi",
+            "di",
+            "più",
+            "di",
+            "dieci",
+            "persone",
+            "devono",
+            "prenotare"
+          ],
+          "distractors": [
+            "superiore",
+            "deve"
+          ],
+          "explanation": "Più di dieci persone = gruppi superiori a dieci persone (registro più formale)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-02-l3-e11",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Un amico vuole vedere la mostra sul cinema con un gruppo di dodici persone. Riferiscigli le informazioni utili che hai ascoltato.",
+          "keywords": [
+            "prenotare",
+            "sabato",
+            "gennaio"
+          ],
+          "modelAnswer": "La mostra è aperta fino al trenta gennaio. Visto che siete dodici, dovete prenotare, perché per i gruppi di più di dieci persone è obbligatorio. Se andate di sabato alle undici, c'è anche una visita guidata gratuita. Ricordati che non si possono fare foto con il flash.",
+          "explanation": "Visto che, perché, se: riferire dati ascoltati con connettivi rende il discorso più coeso (utile anche all'orale)."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-02-l3-e12",
+          "instruction": "Ascolta e ripeti con attenzione alle doppie.",
+          "text": "Per i gruppi è obbligatorio prenotare: la mostra chiude il trenta gennaio.",
+          "translation": "Groups must book: the exhibition closes on 30 January."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-02-l3-e13",
+          "front": "entro",
+          "back": "by, no later than",
+          "example": "Bisogna iscriversi entro il quindici settembre."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "lo sciopero",
+      "en": "strike",
+      "example": "Venerdì c'è sciopero dei treni."
+    },
+    {
+      "it": "le fasce di garanzia",
+      "en": "guaranteed service hours (during a strike)",
+      "example": "La metro funziona nelle fasce di garanzia."
+    },
+    {
+      "it": "il notiziario",
+      "en": "news bulletin",
+      "example": "L'ho sentito al notiziario delle otto."
+    },
+    {
+      "it": "l'annuncio (m.)",
+      "en": "announcement",
+      "example": "Hai sentito l'annuncio in stazione?"
+    },
+    {
+      "it": "soppresso",
+      "en": "cancelled (train, service)",
+      "example": "Il regionale delle 8 è stato soppresso."
+    },
+    {
+      "it": "contingentato",
+      "en": "limited (entry numbers)",
+      "example": "Gli ingressi sono contingentati."
+    },
+    {
+      "it": "fino a esaurimento posti",
+      "en": "while places last",
+      "example": "Ingresso libero fino a esaurimento posti."
+    },
+    {
+      "it": "salvo imprevisti",
+      "en": "barring the unexpected",
+      "example": "Salvo imprevisti, arrivo alle sette."
+    },
+    {
+      "it": "l'allerta meteo (f.)",
+      "en": "weather warning",
+      "example": "Domani c'è allerta meteo arancione."
+    },
+    {
+      "it": "limitare gli spostamenti",
+      "en": "to limit travel",
+      "example": "Il sindaco invita a limitare gli spostamenti."
+    },
+    {
+      "it": "entro",
+      "en": "by (deadline)",
+      "example": "Rispondi entro venerdì."
+    },
+    {
+      "it": "il disservizio",
+      "en": "poor service, service failure",
+      "example": "Ho segnalato il disservizio."
+    },
+    {
+      "it": "figurati / si figuri",
+      "en": "don't mention it",
+      "example": "— Scusa il ritardo. — Figurati!"
+    },
+    {
+      "it": "magari!",
+      "en": "I wish!",
+      "example": "— Ti hanno dato le ferie? — Magari!"
+    },
+    {
+      "it": "mica",
+      "en": "(not) at all – reinforces a negative",
+      "example": "Non è mica facile."
+    },
+    {
+      "it": "meno male",
+      "en": "thank goodness, good thing",
+      "example": "Meno male che hai l'ombrello."
+    },
+    {
+      "it": "ci mancherebbe (altro)!",
+      "en": "of course! not at all!",
+      "example": "— Posso aiutarti? Ci mancherebbe!"
+    },
+    {
+      "it": "insomma",
+      "en": "so-so; in short; (annoyed) come on",
+      "example": "— Com'è andata? — Insomma…"
+    },
+    {
+      "it": "la visita guidata",
+      "en": "guided tour",
+      "example": "C'è una visita guidata ogni sabato."
+    },
+    {
+      "it": "non è consentito",
+      "en": "it is not allowed",
+      "example": "Non è consentito fotografare con il flash."
+    },
+    {
+      "it": "obbligatorio",
+      "en": "compulsory",
+      "example": "La prenotazione è obbligatoria."
+    },
+    {
+      "it": "in diretta",
+      "en": "live (broadcast)",
+      "example": "Siamo in diretta da Perugia."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "celi-02-t1",
+      "rule": "D.1: leggi le opzioni prima",
+      "tip": "Prima di ascoltare leggi tutte le opzioni: ti dicono l'argomento e i dettagli (numeri, luoghi) da controllare.",
+      "example": {
+        "it": "Opzioni: «sabato / domenica / lunedì» → ascolta il giorno.",
+        "en": "Options list days → listen for the day."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Durante uno sciopero, le «fasce di garanzia» sono…",
+        "options": [
+          "le ore in cui il servizio funziona",
+          "le ore di sciopero",
+          "i biglietti rimborsati",
+          "le linee soppresse"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "celi-02-t2",
+      "rule": "Opzioni estreme? Attenzione",
+      "tip": "Nelle domande d'opinione le opzioni con «completamente» o «mai» sono spesso sbagliate: chi parla sfuma.",
+      "example": {
+        "it": "«Sono d'accordo a metà» = né favorevole né contrario.",
+        "en": "\"I half agree\" = neither for nor against."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "«Non è mica facile» significa…",
+        "options": [
+          "è facilissimo",
+          "non è affatto facile",
+          "è facile per tutti",
+          "forse è facile"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-02-t3",
+      "rule": "Segnali discorsivi = emozioni",
+      "tip": "Meno male, magari, ma dai, che peccato: segnalano sollievo, desiderio, sorpresa, dispiacere.",
+      "example": {
+        "it": "Meno male che hai chiamato!",
+        "en": "Good thing you called!"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "«Magari!» in risposta a un invito esprime…",
+        "options": [
+          "rifiuto netto",
+          "desiderio, ma spesso impossibilità",
+          "sorpresa",
+          "indifferenza"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-02-t4",
+      "rule": "D.2: prevedi la parola",
+      "tip": "Prima dell'ascolto guarda la frase: articolo e genere ti dicono che tipo di parola manca.",
+      "example": {
+        "it": "una ___ guidata → visita (nome femminile)",
+        "en": "a guided ___ → tour (feminine noun)"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Per i gruppi è ___ prenotare. (agg.: compulsory)",
+        "answers": [
+          "obbligatorio"
+        ]
+      }
+    },
+    {
+      "id": "celi-02-t5",
+      "rule": "Doppie e accenti contano",
+      "tip": "In D.2 scrivi le parole del testo e rileggi l'ortografia: doppie, accenti e apostrofi.",
+      "example": {
+        "it": "settembre, città, un'ora",
+        "en": "September, city, an hour"
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Il percorso dura circa un ora.",
+        "answers": [
+          "Il percorso dura circa un'ora."
+        ]
+      }
+    }
+  ]
+}

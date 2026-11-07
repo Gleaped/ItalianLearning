@@ -37,6 +37,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.gleaped.italianlearning.R
@@ -333,13 +334,15 @@ private fun ConjugationView(e: Conjugation, answered: Boolean, actions: Exercise
         e.items.forEachIndexed { i, item ->
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(item.person, modifier = Modifier.width(96.dp), style = MaterialTheme.typography.bodyLarge)
+                val last = i == e.items.lastIndex
                 AnswerField(
                     value = inputs[i],
                     onValueChange = { inputs[i] = it },
                     enabled = !answered,
-                    onDone = {},
+                    onDone = { if (last && inputs.any { it.isNotBlank() }) check() },
                     label = "",
                     modifier = Modifier.weight(1f),
+                    imeAction = if (last) ImeAction.Done else ImeAction.Next,
                 )
                 val v = results[i]
                 Text(

@@ -1,0 +1,858 @@
+{
+  "id": "b1-04",
+  "level": "B1",
+  "title": "Ripasso 1",
+  "objective": "By the end you can tell how a day of errands went and handle shops, the pharmacy and the post office smoothly, combining past tenses, ci / ne and combined pronouns in real tasks.",
+  "grammarFocus": "Checkpoint: passato prossimo vs imperfetto (and conoscere, sapere, dovere); ci and ne (places, quantities, volerci / metterci); combined pronouns and participle agreement. CELI-style cloze, transformations and reading.",
+  "remedialUnitIds": [
+    "a2r-01",
+    "a2r-02",
+    "a2r-04"
+  ],
+  "lessons": [
+    {
+      "id": "b1-04-l1",
+      "title": "Una mattina al mercato",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-04-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Quando ___ in farmacia, c'era una fila lunghissima.",
+          "options": [
+            "sono arrivato",
+            "arrivavo",
+            "ero arrivato",
+            "ho arrivato"
+          ],
+          "answer": 0,
+          "explanation": "Arriving is the event (sono arrivato); the queue is the scene you found (c'era)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l1-e02",
+          "instruction": "Riscaldamento: completa con il participio passato.",
+          "sentence": "Quanti biglietti hai comprato? – Ne ho ___ (comprare) due.",
+          "answers": [
+            "comprati"
+          ],
+          "explanation": "Ne replaces biglietti (masculine plural): comprati."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-04-l1-e03",
+          "title": "Ripasso: tre strumenti",
+          "body": "This checkpoint mixes the three tools of units 1–3. Before each answer, ask yourself **which job the word does**.\n\n**1. Which past tense?**\n- imperfetto = scene, state, habit, action in progress (*c'era, faceva caldo, mentre aspettavo*)\n- passato prossimo = event, sequence, bounded duration (*è arrivato, ho aspettato due ore*)\n\n**2. Ci or ne?**\n- **ci** = to/in that place, or *a* + thing (*ci vado, ci penso*); **volerci / metterci** for time\n- **ne** = a quantity of it, or *di* + thing (*ne prendo due, ne ho bisogno*)\n\n**3. Combined pronouns**\n- indirect first, with -e: **me lo, te la, ce li, ve ne**; for him / her / them / Lei: **glielo, gliela…**\n- passato prossimo: *lo / la → l'*, participle agrees: *Gliel'ho dat**a**. Me **li** ha dat**i**.*\n- spoken *avere*: **ce l'ho, ce li ho**",
+          "examples": [
+            {
+              "it": "Mentre aspettavo, ci ho pensato bene.",
+              "en": "While I was waiting, I thought it over carefully."
+            },
+            {
+              "it": "Di pane ce n'era poco, così ne ho preso solo mezzo chilo.",
+              "en": "There wasn't much bread, so I only took half a kilo."
+            },
+            {
+              "it": "Il pacco? Me l'hanno consegnato ieri.",
+              "en": "The parcel? They delivered it to me yesterday."
+            },
+            {
+              "it": "Ci è voluta un'ora, ma alla fine ce l'ho fatta.",
+              "en": "It took an hour, but in the end I managed."
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l1-e04",
+          "instruction": "Prova in stile CELI – testo a buchi (1/4). Completa con la forma giusta.",
+          "sentence": "Sabato mattina ___ (fare) bel tempo, così sono andato al mercato a piedi.",
+          "answers": [
+            "faceva"
+          ],
+          "explanation": "Weather as background: imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l1-e05",
+          "instruction": "Testo a buchi (2/4). Completa con ci + volerci.",
+          "sentence": "Al banco del pesce c'era la fila: per essere servito ___ voluta mezz'ora!",
+          "answers": [
+            "ci è",
+            "c'è"
+          ],
+          "explanation": "Volerci takes essere and agrees with mezz'ora (feminine): ci è voluta, often shortened to c'è voluta."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l1-e06",
+          "instruction": "Testo a buchi (3/4). Completa con un pronome.",
+          "sentence": "Volevo delle cozze, ma il pescivendolo non ___ aveva più.",
+          "answers": [
+            "ne"
+          ],
+          "explanation": "Avere cozze → quantity (none left): non ne aveva più."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l1-e07",
+          "instruction": "Testo a buchi (4/4). Completa con un pronome combinato.",
+          "sentence": "Allora ho preso due orate e il pescivendolo ___ ha pulite subito.",
+          "answers": [
+            "me le"
+          ],
+          "explanation": "Ha pulito le orate per me → me le ha pulite (participle agrees with le)."
+        },
+        {
+          "type": "reading",
+          "id": "b1-04-l1-e08",
+          "instruction": "Prova in stile CELI. Leggi l'email e scegli la risposta giusta.",
+          "title": "Una settimana di commissioni",
+          "passage": "Cara Francesca,\nscusa se non ti ho risposto prima, ma è stata una settimana pienissima. Lunedì dovevo andare in banca per cambiare l'indirizzo, ma quando ci sono arrivato era già chiuso: ci tornerò la settimana prossima. Martedì invece sono dovuto andare in posta a ritirare un pacco di mia sorella. Lei era in viaggio, quindi mi ha fatto una delega e io gliel'ho portato a casa la sera. Mercoledì ho finalmente conosciuto i nuovi vicini: sono una coppia giovane e molto gentile. Mi hanno chiesto dove si compra il pane buono e io gli ho consigliato il forno in piazza: ci sono andati il giorno dopo e ne hanno comprato un chilo! E tu come stai? Ci vediamo sabato?\nUn abbraccio,\nDavide",
+          "questions": [
+            {
+              "question": "Che cosa è successo lunedì?",
+              "options": [
+                "Davide ha cambiato l'indirizzo in banca.",
+                "Davide non è riuscito a fare quello che voleva.",
+                "Davide ha ritirato un pacco.",
+                "Davide ha conosciuto i vicini."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Nella frase «io gliel'ho portato», «gli» si riferisce a:",
+              "options": [
+                "la sorella",
+                "l'impiegato della posta",
+                "i vicini",
+                "Francesca"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa significa «ho finalmente conosciuto i nuovi vicini»?",
+              "options": [
+                "Li ho incontrati per la prima volta.",
+                "Sapevo già chi erano.",
+                "Ho saputo che erano arrivati.",
+                "Li ho aiutati a traslocare."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Nella frase «ne hanno comprato un chilo», «ne» si riferisce a:",
+              "options": [
+                "la piazza",
+                "il forno",
+                "il pane",
+                "i vicini"
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "In CELI-style reading, questions often test what a pronoun refers to. Go back to the sentence and replace it with the noun."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l1-e09",
+          "instruction": "Trasforma la frase: sostituisci il luogo con ci.",
+          "sentence": "Sono andato dal dentista ieri. → ___ ieri.",
+          "answers": [
+            "Ci sono andato",
+            "Ci sono andata"
+          ],
+          "explanation": "Dal dentista → ci, before the auxiliary."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l1-e10",
+          "instruction": "Trasforma la frase: sostituisci le arance con ne.",
+          "sentence": "Ho comprato due chili di arance. → ___ due chili.",
+          "answers": [
+            "Ne ho comprati",
+            "Ne ho comprate"
+          ],
+          "explanation": "Ne replaces arance; keep the quantity. Agreement usually follows chili (comprati); comprate, agreeing with arance, is also heard."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-04-l1-e11",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Sabato dovevo andare al mare con Giulia, ma la mattina pioveva, così siamo rimasti in città. Siamo andati al mercato dell'antiquariato: c'era tantissima gente e per fare un giro ci abbiamo messo tutta la mattina. Alla fine ho comprato una vecchia lampada: costava poco e me l'hanno anche incartata.",
+          "question": "Perché non sono andati al mare?",
+          "options": [
+            "Perché il tempo era brutto.",
+            "Perché Giulia stava male.",
+            "Perché c'era troppa gente.",
+            "Perché dovevano fare la spesa."
+          ],
+          "answer": 0,
+          "explanation": "Dovevo = the plan didn't happen; ci ho messo = it took me."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-04-l1-e12",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Racconta l'ultima volta che sei andato a fare la spesa: com'era il posto, che cosa hai comprato e quanto ne hai preso?",
+          "keywords": [
+            "c'era",
+            "ci sono andato",
+            "ne ho"
+          ],
+          "modelAnswer": "L'ultima volta sono andato al supermercato venerdì sera. Ci sono andato tardi e c'era pochissima gente. Ho comprato un po' di frutta: di mele ne ho prese sei. Il pane invece non c'era più, quindi ci sono tornato sabato mattina.",
+          "explanation": "A good answer mixes imperfetto (scene), passato prossimo (events), ci and ne."
+        }
+      ]
+    },
+    {
+      "id": "b1-04-l2",
+      "title": "Glielo porto io",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-04-l2-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Hai restituito il libro a Giulia? – Sì, ___ restituito ieri.",
+          "options": [
+            "gliel'ho",
+            "le l'ho",
+            "gli ho",
+            "glie ho"
+          ],
+          "answer": 0,
+          "explanation": "Il libro to Giulia → glielo; before ho: gliel'ho."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l2-e02",
+          "instruction": "Riscaldamento: completa con volerci al presente.",
+          "sentence": "Per avere il nuovo passaporto ___ (volerci) circa un mese.",
+          "answers": [
+            "ci vuole"
+          ],
+          "explanation": "Un mese is singular: ci vuole."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-04-l2-e03",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Ieri ___ andare in banca, ma era chiusa: ci torno domani.",
+          "options": [
+            "dovevo",
+            "sono dovuto",
+            "ho dovuto",
+            "devo"
+          ],
+          "answer": 0,
+          "explanation": "The plan didn't happen (era chiusa, ci torno domani): dovevo."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-04-l2-e04",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Ho saputo Marco tre anni fa a una festa.",
+          "answers": [
+            "Ho conosciuto Marco tre anni fa a una festa.",
+            "Tre anni fa ho conosciuto Marco a una festa."
+          ],
+          "explanation": "Meeting someone for the first time = conoscere (ho conosciuto). Sapere is for facts."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-04-l2-e05",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Le scarpe? Le ho comprato ieri in centro.",
+          "answers": [
+            "Le scarpe? Le ho comprate ieri in centro."
+          ],
+          "explanation": "With le before avere, the participle must agree: le ho comprate."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-04-l2-e06",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I'll bring it to you tomorrow morning. (formal)",
+          "tiles": [
+            "Glielo",
+            "porto",
+            "domani",
+            "mattina"
+          ],
+          "distractors": [
+            "Gli",
+            "lo",
+            "Le"
+          ],
+          "explanation": "To you (Lei) + it = glielo, one word, before the verb."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l2-e07",
+          "instruction": "Trasforma la frase con un pronome combinato.",
+          "sentence": "Il farmacista ha dato lo sciroppo a mia madre. → Il farmacista ___ dato.",
+          "answers": [
+            "gliel'ha"
+          ],
+          "explanation": "A mia madre → le; lo sciroppo → lo: glielo; before ha: gliel'ha."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l2-e08",
+          "instruction": "Trasforma la frase con un pronome combinato.",
+          "sentence": "Mi hanno spedito i documenti. → ___ hanno spediti.",
+          "answers": [
+            "Me li"
+          ],
+          "explanation": "Mi + li = me li; the participle agrees with li (i documenti)."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-04-l2-e09",
+          "instruction": "Abbina la frase al significato.",
+          "pairs": [
+            {
+              "left": "Ce l'ho.",
+              "right": "I've got it."
+            },
+            {
+              "left": "Ci vuole un'ora.",
+              "right": "It takes an hour."
+            },
+            {
+              "left": "Ne ho bisogno.",
+              "right": "I need it."
+            },
+            {
+              "left": "Glielo dico io.",
+              "right": "I'll tell him / her."
+            },
+            {
+              "left": "Ci ho messo un'ora.",
+              "right": "It took me an hour."
+            },
+            {
+              "left": "Ho saputo che…",
+              "right": "I found out that…"
+            }
+          ],
+          "explanation": "Small words, big meanings: these are the high-frequency chunks of this checkpoint."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-04-l2-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Il pacco? Me l'hanno consegnato stamattina.",
+          "answers": [
+            "Il pacco? Me l'hanno consegnato stamattina.",
+            "Il pacco me l'hanno consegnato stamattina."
+          ],
+          "slow": true,
+          "explanation": "Me l'hanno = me + lo + hanno; consegnato agrees with lo (il pacco)."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-04-l2-e11",
+          "instruction": "In farmacia. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "Yesterday you went to the pharmacy for a syrup, but they didn't have it. Go back today.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno. Ieri sono passato per uno sciroppo per la tosse, ma non ce l'avevate.",
+              "hint": "Say you came yesterday but they didn't have the syrup.",
+              "keywords": [
+                "sono passato",
+                "ce l'avevate"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ah sì, me lo ricordo. Ce l'hanno portato stamattina. Quanti ne vuole?"
+            },
+            {
+              "speaker": "you",
+              "text": "Ne prendo due, per favore.",
+              "hint": "Take two (ne).",
+              "keywords": [
+                "ne",
+                "due"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ecco qua. Ha la tessera sanitaria?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, ce l'ho. Eccola.",
+              "hint": "Yes, you have it.",
+              "keywords": [
+                "ce l'ho"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie. Sono diciotto euro."
+            },
+            {
+              "speaker": "you",
+              "text": "Me li può mettere in una busta, per favore?",
+              "hint": "Ask her to put them in a bag (me li).",
+              "keywords": [
+                "me li",
+                "busta"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo, glieli metto subito. Buona guarigione!"
+            }
+          ],
+          "explanation": "Past tenses for what happened yesterday, ne for the quantity, combined pronouns for the bag and the card."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-04-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Dovevo passare in posta, ma ci sono andato troppo tardi ed era già chiusa.",
+          "translation": "I was supposed to stop by the post office, but I went too late and it was already closed."
+        }
+      ]
+    },
+    {
+      "id": "b1-04-l3",
+      "title": "Prova finale: com'è andata?",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-04-l3-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Alla festa c'era Luca: lo ___ già dall'università.",
+          "options": [
+            "conoscevo",
+            "ho conosciuto",
+            "sapevo",
+            "ho saputo"
+          ],
+          "answer": 0,
+          "explanation": "Already knowing someone = conoscevo (imperfetto)."
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-04-l3-e02",
+          "instruction": "Riscaldamento: passato prossimo di metterci.",
+          "verb": "metterci",
+          "tense": "passato prossimo",
+          "items": [
+            {
+              "person": "io",
+              "answer": "ci ho messo"
+            },
+            {
+              "person": "tu",
+              "answer": "ci hai messo"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "ci ha messo"
+            },
+            {
+              "person": "noi",
+              "answer": "ci abbiamo messo"
+            },
+            {
+              "person": "voi",
+              "answer": "ci avete messo"
+            },
+            {
+              "person": "loro",
+              "answer": "ci hanno messo"
+            }
+          ],
+          "explanation": "Metterci takes avere and the irregular participle messo: ci ho messo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l3-e03",
+          "instruction": "Testo a buchi (1/3). Completa con la forma giusta.",
+          "sentence": "Mentre ___ (tornare) a casa, ho visto che il forno era ancora aperto.",
+          "answers": [
+            "tornavo"
+          ],
+          "explanation": "Mentre + action in progress: imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l3-e04",
+          "instruction": "Testo a buchi (2/3). Completa con un pronome combinato.",
+          "sentence": "Il pane era finito, ma la fornaia ___ ha dato due pezzi di focaccia.",
+          "answers": [
+            "me ne"
+          ],
+          "explanation": "To me (mi → me) + some of it (ne): me ne."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-04-l3-e05",
+          "instruction": "Testo a buchi (3/3). Completa con un pronome.",
+          "sentence": "Erano buonissimi: ___ abbiamo mangiati subito tutti e due.",
+          "answers": [
+            "li"
+          ],
+          "explanation": "The whole amount (tutti e due) → li, not ne."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-04-l3-e06",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "La lettera? Gliel'ho mandato ieri.",
+          "answers": [
+            "La lettera? Gliel'ho mandata ieri.",
+            "La lettera gliel'ho mandata ieri."
+          ],
+          "explanation": "Gliel'ho = glie + la + ho: the participle agrees with la (la lettera)."
+        },
+        {
+          "type": "translate",
+          "id": "b1-04-l3-e07",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "It took me an hour to find it.",
+          "answers": [
+            "Ci ho messo un'ora a trovarlo.",
+            "Ci ho messo un'ora per trovarlo.",
+            "Ci ho messo un'ora per trovarla.",
+            "Ci ho messo un'ora a trovarla.",
+            "Ci è voluta un'ora per trovarlo.",
+            "Ci è voluta un'ora per trovarla.",
+            "C'è voluta un'ora per trovarlo.",
+            "C'è voluta un'ora per trovarla.",
+            "Per trovarlo ci ho messo un'ora.",
+            "Per trovarla ci ho messo un'ora.",
+            "Io ci ho messo un'ora a trovarlo.",
+            "Io ci ho messo un'ora per trovarlo."
+          ],
+          "explanation": "Metterci + a / per + infinitive; trovarlo with the pronoun attached."
+        },
+        {
+          "type": "reading",
+          "id": "b1-04-l3-e08",
+          "instruction": "Prova in stile CELI. Leggi l'annuncio e rispondi.",
+          "title": "Bacheca del condominio",
+          "passage": "Cari vicini,\nsabato scorso, mentre facevo le pulizie in cantina, ho trovato una bicicletta da bambino rossa, in buono stato. Nessuno di noi ne ha una, quindi forse qualcuno l'ha dimenticata dopo il trasloco di settembre. Se è vostra, o se sapete di chi è, ditemelo pure: ve la riporto volentieri. Altrimenti, tra un mese la regalo alla parrocchia, che ne ha bisogno per la raccolta di giocattoli di Natale. Ci tengo a dire che non è un problema tenerla in cantina fino ad allora.\nGrazie e buona domenica,\nAnna (interno 6)",
+          "questions": [
+            {
+              "question": "Dove ha trovato la bicicletta Anna?",
+              "options": [
+                "Nel cortile",
+                "In cantina",
+                "In parrocchia",
+                "Davanti al portone"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa chiede Anna ai vicini?",
+              "options": [
+                "Di portare la bicicletta in parrocchia",
+                "Di dirle se sanno di chi è la bicicletta",
+                "Di pulire la cantina",
+                "Di regalare dei giocattoli"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Nella frase «che ne ha bisogno», «ne» si riferisce a:",
+              "options": [
+                "la cantina",
+                "la bicicletta",
+                "Natale",
+                "il trasloco"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Notices use ci and ne a lot to avoid repetition: always check what they replace."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-04-l3-e09",
+          "instruction": "Parla con il tuo vicino. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "Your neighbour Giorgio meets you in the hallway. He lent you his drill last week and asks how your morning at the registry office went.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao! Allora, com'è andata stamattina all'anagrafe?"
+            },
+            {
+              "speaker": "you",
+              "text": "Lunga! C'era una fila enorme e ci ho messo due ore.",
+              "hint": "Describe the queue (imperfetto) and say how long it took you (metterci).",
+              "keywords": [
+                "c'era",
+                "ci ho messo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che pazienza! E la carta d'identità?"
+            },
+            {
+              "speaker": "you",
+              "text": "L'ho richiesta, ma me la spediscono a casa tra qualche giorno.",
+              "hint": "You applied for it; they'll send it to you (me la).",
+              "keywords": [
+                "l'ho richiesta",
+                "me la"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Meno male. Senti, il trapano che ti ho prestato… ce l'hai ancora?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, ce l'ho. Scusa, te lo riporto stasera.",
+              "hint": "Yes, you have it – you'll bring it back tonight.",
+              "keywords": [
+                "ce l'ho",
+                "te lo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Nessun problema. Ah, per caso hai delle uova? Ne ho bisogno per una torta."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, ne ho sei. Te ne do tre?",
+              "hint": "Say how many you have and offer three (te ne).",
+              "keywords": [
+                "ne ho",
+                "te ne"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto, grazie mille! Allora a stasera."
+            }
+          ],
+          "explanation": "Everything together: past tenses, metterci, ce l'ho, combined pronouns and ne."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-04-l3-e10",
+          "instruction": "Prova in stile CELI – scrivi un'email informale.",
+          "prompt": "Scrivi un'email a un amico italiano (80–100 parole). Racconta una giornata di commissioni (banca, posta, farmacia, negozi…): com'era la situazione, che cosa è successo, che cosa hai dovuto fare. Usa i tempi del passato, ci / ne e almeno due pronomi combinati.",
+          "minWords": 80,
+          "checklist": [
+            "Ho usato l'imperfetto per la scena e il passato prossimo per gli eventi.",
+            "Ho usato ci per un luogo e ne per una quantità.",
+            "Ho usato almeno due pronomi combinati (me l'hanno dato, glielo porto…).",
+            "Ho controllato l'accordo del participio con lo / la / li / le e ne.",
+            "L'email ha un saluto iniziale, un saluto finale e una domanda all'amico."
+          ],
+          "modelAnswer": "Ciao Matteo,\nieri è stata una giornata di commissioni! La mattina dovevo ritirare un pacco in posta. Quando ci sono arrivato c'erano già venti persone in fila, quindi ci ho messo quasi un'ora. Il pacco era un regalo di un amico: me l'ha mandato da Londra. Poi sono passato in farmacia, perché avevo bisogno di un antibiotico, ma non ce l'avevano. Il farmacista me l'ha ordinato e domani ci torno. Alla fine ho comprato due etti di prosciutto e ne ho mangiato metà in macchina! E tu, come va?\nUn abbraccio,\nRichard"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-04-l3-e11",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Hai mai cambiato o restituito qualcosa in un negozio? Racconta che cosa era, che problema c'era e come è andata.",
+          "keywords": [
+            "me l'hanno",
+            "ce l'avevo",
+            "era"
+          ],
+          "modelAnswer": "Sì, il mese scorso ho comprato una giacca, ma a casa ho visto che era troppo stretta. Il giorno dopo l'ho riportata al negozio. Per fortuna lo scontrino ce l'avevo ancora, quindi me l'hanno cambiata subito con una taglia più grande.",
+          "explanation": "Use combined pronouns for the item (me l'hanno cambiato, gliel'ho dato) and the past tenses for the story."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-04-l3-e12",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Quanto tempo ___ l'autobus per arrivare in centro?",
+          "options": [
+            "ci mette",
+            "ci vuole",
+            "ci vogliono",
+            "ne mette"
+          ],
+          "answer": 0,
+          "explanation": "A vehicle as subject takes metterci: l'autobus ci mette."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "le commissioni",
+      "en": "errands",
+      "example": "Stamattina ho fatto tutte le commissioni."
+    },
+    {
+      "it": "sbrigare",
+      "en": "to deal with, to get done",
+      "example": "Devo sbrigare due cose in posta."
+    },
+    {
+      "it": "il pescivendolo",
+      "en": "fishmonger",
+      "example": "Il pescivendolo me le ha pulite subito."
+    },
+    {
+      "it": "pulire (il pesce)",
+      "en": "to clean, to gut (fish)",
+      "example": "Me lo può pulire, per favore?"
+    },
+    {
+      "it": "consegnare",
+      "en": "to deliver, to hand in",
+      "example": "Il pacco me l'hanno consegnato ieri."
+    },
+    {
+      "it": "riportare",
+      "en": "to bring back",
+      "example": "Il trapano te lo riporto stasera."
+    },
+    {
+      "it": "richiedere",
+      "en": "to apply for, to request",
+      "example": "Ho richiesto la nuova carta d'identità."
+    },
+    {
+      "it": "la tessera sanitaria",
+      "en": "health insurance card",
+      "example": "Ha la tessera sanitaria? – Sì, ce l'ho."
+    },
+    {
+      "it": "la cantina",
+      "en": "cellar, basement storage room",
+      "example": "Ho trovato una bici in cantina."
+    },
+    {
+      "it": "la bacheca",
+      "en": "noticeboard",
+      "example": "Ho letto l'avviso sulla bacheca del condominio."
+    },
+    {
+      "it": "per caso",
+      "en": "by any chance",
+      "example": "Per caso hai delle uova?"
+    },
+    {
+      "it": "meno male",
+      "en": "thank goodness",
+      "example": "Meno male che il pacco è arrivato!"
+    },
+    {
+      "it": "Che pazienza!",
+      "en": "What patience you need! / How tedious!",
+      "example": "Due ore di fila? Che pazienza!"
+    },
+    {
+      "it": "tenerci (a)",
+      "en": "to care (about), to be keen (on)",
+      "example": "Ci tengo a ringraziarvi tutti."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-04-t1",
+      "rule": "Dovevo o sono dovuto?",
+      "tip": "Dovevo = I was supposed to (maybe I didn't); sono dovuto/ho dovuto = I had to, and I did.",
+      "example": {
+        "it": "Dovevo andare in banca, ma era chiusa.",
+        "en": "I was supposed to go to the bank, but it was closed."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ieri ___ partire presto, ma ho perso il treno.",
+        "options": [
+          "dovevo",
+          "sono dovuto",
+          "ho dovuto",
+          "devo"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "b1-04-t2",
+      "rule": "Mentre + imperfetto",
+      "tip": "Mentre introduces the action in progress (imperfetto); the interruption is passato prossimo.",
+      "example": {
+        "it": "Mentre pagavo, è squillato il telefono.",
+        "en": "While I was paying, the phone rang."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Mentre ho aspettato, ho letto il giornale.",
+        "answers": [
+          "Mentre aspettavo, ho letto il giornale.",
+          "Mentre aspettavo ho letto il giornale."
+        ]
+      }
+    },
+    {
+      "id": "b1-04-t3",
+      "rule": "C'è voluta un'ora",
+      "tip": "Volerci takes essere: the participle agrees with the time. Ci è voluta un'ora, ci sono voluti due giorni.",
+      "example": {
+        "it": "Ci sono voluti tre giorni per il pacco.",
+        "en": "The parcel took three days."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Per arrivare ci sono ___ (volere) due ore.",
+        "answers": [
+          "volute"
+        ]
+      }
+    },
+    {
+      "id": "b1-04-t4",
+      "rule": "Gliele ho date",
+      "tip": "Plural objects: glieli / gliele are not shortened, and the participle agrees: Gliele ho date.",
+      "example": {
+        "it": "Le chiavi? Gliele ho date ieri.",
+        "en": "The keys? I gave them to him yesterday."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Ho dato le chiavi a Luca. → ___ ho date.",
+        "answers": [
+          "gliele",
+          "Gliele"
+        ]
+      }
+    },
+    {
+      "id": "b1-04-t5",
+      "rule": "Ce n'è / ce ne sono",
+      "tip": "C'è / ci sono + ne for quantities: Ce n'è ancora un po'. Ce ne sono tre.",
+      "example": {
+        "it": "Posti liberi? Ce ne sono ancora due.",
+        "en": "Free seats? There are still two."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "C'è ancora del caffè? – Sì, ___ ancora un po'.",
+        "options": [
+          "ce n'è",
+          "ci ne è",
+          "ce l'è",
+          "ne c'è"
+        ],
+        "answer": 0
+      }
+    }
+  ]
+}
