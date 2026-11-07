@@ -1,0 +1,860 @@
+{
+  "id": "celi-03",
+  "level": "CELI3",
+  "title": "Competenza linguistica",
+  "objective": "Alla fine dell'unità sai affrontare la Parte C del CELI 3 (45 minuti): completi testi lacunosi (C.1), ricostruisci frasi collegandole con i connettivi giusti (C.2) e formi parole della stessa famiglia (C.3).",
+  "grammarFocus": "Cloze: articoli, preposizioni, pronomi, relativi, tempi e modi; connettivi con indicativo, congiuntivo, infinito e gerundio (benché, affinché, purché, pur + gerundio, prima di, dopo aver); formazione delle parole (suffissi e prefissi).",
+  "remedialUnitIds": [
+    "b2-07",
+    "b2-11",
+    "b1-10"
+  ],
+  "lessons": [
+    {
+      "id": "celi-03-l1",
+      "title": "C.1 – Il testo da completare",
+      "minutes": 14,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-03-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Penso che tu ___ ragione.",
+          "options": [
+            "hai",
+            "abbia",
+            "avresti",
+            "avevi"
+          ],
+          "answer": 1,
+          "explanation": "Pensare che + congiuntivo: penso che tu abbia ragione."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e02",
+          "instruction": "Riscaldamento: completa con la preposizione.",
+          "sentence": "Non sono abituato ___ alzarmi così presto.",
+          "answers": [
+            "ad",
+            "a"
+          ],
+          "explanation": "Essere abituato a + infinito; davanti a vocale spesso ad: abituato ad alzarmi."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-03-l1-e03",
+          "title": "La Parte C del CELI 3: competenza linguistica",
+          "body": "La Parte C è nel **secondo fascicolo** e dura **45 minuti**. Vale 20 punti convertiti (10% del totale).\n\n- **C.1** – **due testi da completare**: **23 item**, 1 punto ciascuno.\n- **C.2** – **7 frasi da ricostruire**: 2 punti per una frase corretta, 1 se incompleta o costruita male.\n- **C.3** – **5 frasi** da completare con una parola **della stessa famiglia** di una parola data, 1 punto ciascuna.\n\n**Strategia per il testo lacunoso (consigli pratici):**\n- Leggi **tutto il testo** prima di completare: il tempo verbale e il soggetto spesso si capiscono dalle frasi vicine.\n- Per ogni spazio chiediti **che categoria manca**: articolo, preposizione (semplice o articolata?), pronome, relativo, verbo (quale tempo e modo?), connettivo.\n- Controlla **accordi** di genere e numero e la **reggenza** dei verbi (*pensare che* + congiuntivo, *telefonare a qualcuno* → *gli/le*).\n- Alla fine rileggi tutto il testo: deve suonare naturale.",
+          "examples": [
+            {
+              "it": "Mi ha accompagnato all'anagrafe. → preposizione articolata (a + l')",
+              "en": "She took me to the registry office."
+            },
+            {
+              "it": "La vicina, che abita al piano di sopra, è gentile. → pronome relativo",
+              "en": "The neighbour, who lives upstairs, is kind."
+            },
+            {
+              "it": "Le telefonavo ogni volta. → pronome indiretto (a lei)",
+              "en": "I used to phone her every time."
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e04",
+          "instruction": "Testo 1 (1/8). Completa.",
+          "sentence": "Mi sono trasferito in Italia tre anni fa. All'inizio non conoscevo nessuno e ___ ancora male l'italiano.",
+          "answers": [
+            "parlavo"
+          ],
+          "hint": "parlare",
+          "explanation": "Una situazione del passato, in parallelo a conoscevo: imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e05",
+          "instruction": "Testo 1 (2/8). Completa.",
+          "sentence": "Per fortuna la mia vicina, ___ abita al piano di sopra, mi ha aiutato moltissimo.",
+          "answers": [
+            "che"
+          ],
+          "hint": "pronome relativo",
+          "explanation": "Che: pronome relativo soggetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e06",
+          "instruction": "Testo 1 (3/8). Completa.",
+          "sentence": "Mi ha spiegato come funziona la raccolta differenziata e mi ha accompagnato ___ anagrafe per la residenza.",
+          "answers": [
+            "all'"
+          ],
+          "hint": "a + articolo",
+          "explanation": "Andare/accompagnare a + l'anagrafe = all'anagrafe."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e07",
+          "instruction": "Testo 1 (4/8). Completa.",
+          "sentence": "Ogni volta che avevo un problema, ___ telefonavo e lei trovava sempre una soluzione.",
+          "answers": [
+            "le"
+          ],
+          "hint": "a lei",
+          "explanation": "Telefonare a qualcuno → pronome indiretto. A lei = le."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e08",
+          "instruction": "Testo 1 (5/8). Completa.",
+          "sentence": "Oggi parlo italiano molto meglio, anche ___ a volte faccio ancora qualche errore.",
+          "answers": [
+            "se"
+          ],
+          "explanation": "Anche se + indicativo (faccio). Con benché servirebbe il congiuntivo: benché faccia."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e09",
+          "instruction": "Testo 1 (6/8). Completa.",
+          "sentence": "Penso che il segreto ___ parlare con tutti, senza vergognarsi degli errori.",
+          "answers": [
+            "sia"
+          ],
+          "hint": "essere",
+          "explanation": "Penso che + congiuntivo presente di essere: sia."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e10",
+          "instruction": "Testo 1 (7/8). Completa.",
+          "sentence": "Se fossi rimasto chiuso in casa, non ___ mai imparato così tanto.",
+          "answers": [
+            "avrei"
+          ],
+          "hint": "avere",
+          "explanation": "Periodo ipotetico dell'irrealtà nel passato: se + congiuntivo trapassato, condizionale passato (avrei imparato)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l1-e11",
+          "instruction": "Testo 1 (8/8). Completa.",
+          "sentence": "Ormai vivo qui ___ tre anni e mi sento a casa.",
+          "answers": [
+            "da"
+          ],
+          "explanation": "Presente + da + durata: un'azione cominciata nel passato che continua ancora."
+        },
+        {
+          "type": "conjugation",
+          "id": "celi-03-l1-e12",
+          "instruction": "Congiuntivo presente: forme che servono spesso nei testi da completare.",
+          "verb": "andare",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "vada"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "vada"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "vada"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "andiamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "andiate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "vadano"
+            }
+          ],
+          "explanation": "Noi e voi riprendono la radice regolare and-: andiamo, andiate."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-03-l1-e13",
+          "instruction": "Ascolta e ripeti la frase completa del testo.",
+          "text": "Penso che il segreto sia parlare con tutti, senza vergognarsi degli errori.",
+          "translation": "I think the secret is to talk to everyone, without being embarrassed about mistakes."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-03-l1-e14",
+          "front": "vergognarsi (di)",
+          "back": "to be embarrassed (about), to be ashamed (of)",
+          "example": "Non devi vergognarti dei tuoi errori."
+        }
+      ]
+    },
+    {
+      "id": "celi-03-l2",
+      "title": "C.2 – Frasi da ricostruire",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l2-e01",
+          "instruction": "Riscaldamento: completa (testo lacunoso).",
+          "sentence": "Ogni volta che incontro il mio vicino, ___ chiedo come sta.",
+          "answers": [
+            "gli"
+          ],
+          "explanation": "Chiedere a qualcuno → pronome indiretto: a lui = gli."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-03-l2-e02",
+          "instruction": "Riscaldamento: che cosa esprime «affinché»?",
+          "prompt": "Ti lascio le chiavi affinché tu possa entrare.",
+          "options": [
+            "causa",
+            "fine (scopo)",
+            "concessione",
+            "tempo"
+          ],
+          "answer": 1,
+          "explanation": "Affinché = perché (finale), così che. Vuole il congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-03-l2-e03",
+          "title": "C.2: collegare e ricostruire le frasi",
+          "body": "Nella prova **C.2** ricostruisci **7 frasi** usando gli elementi dati e collegandoli in modo corretto. Ogni frase vale **2 punti** se è corretta, **1** se è incompleta o costruita male. La descrizione ufficiale parla di *frasi da ricostruire*: qui ci alleniamo sia a **riordinare** sia a **unire** frasi con i connettivi *(the exact layout may vary)*.\n\n**I connettivi da sapere e il modo che vogliono:**\n- **causa**: perché, poiché, dato che, visto che, siccome + indicativo\n- **concessione**: benché, sebbene, nonostante + **congiuntivo**; anche se + indicativo; **pur** + gerundio\n- **fine**: affinché, perché + **congiuntivo**; per + infinito (stesso soggetto)\n- **condizione**: purché, a patto che, a condizione che + **congiuntivo**; se + indicativo\n- **tempo**: prima che + **congiuntivo**; prima di + infinito; dopo + infinito passato (*dopo aver finito*); mentre + indicativo\n- **modo / causa**: il **gerundio** (*Lavorando da casa, risparmio tempo*)\n\nRicorda la **concordanza dei tempi**: verbo principale al passato → congiuntivo imperfetto (*Benché piovesse, siamo usciti*).",
+          "examples": [
+            {
+              "it": "Benché piovesse, siamo usciti lo stesso.",
+              "en": "Although it was raining, we went out anyway."
+            },
+            {
+              "it": "Pur essendo stanco, è andato alla festa.",
+              "en": "Although he was tired, he went to the party."
+            },
+            {
+              "it": "Ti presto la macchina purché tu me la riporti domenica.",
+              "en": "I'll lend you the car as long as you bring it back on Sunday."
+            },
+            {
+              "it": "Dopo aver finito il lavoro, sono tornato a casa.",
+              "en": "After finishing work, I went home."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-03-l2-e04",
+          "instruction": "Abbina il connettivo alla sua funzione.",
+          "pairs": [
+            {
+              "left": "siccome",
+              "right": "causa"
+            },
+            {
+              "left": "nonostante",
+              "right": "concessione"
+            },
+            {
+              "left": "affinché",
+              "right": "fine"
+            },
+            {
+              "left": "purché",
+              "right": "condizione"
+            },
+            {
+              "left": "prima che",
+              "right": "tempo"
+            }
+          ],
+          "explanation": "Nonostante, affinché, purché e prima che vogliono il congiuntivo; siccome vuole l'indicativo."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-03-l2-e05",
+          "instruction": "Ricostruisci la frase.",
+          "translation": "Although he was tired, Marco went out with his friends.",
+          "tiles": [
+            "Pur",
+            "essendo",
+            "stanco",
+            "Marco",
+            "è",
+            "uscito",
+            "con",
+            "gli",
+            "amici"
+          ],
+          "distractors": [
+            "fosse",
+            "benché"
+          ],
+          "explanation": "Pur + gerundio = benché + congiuntivo, con lo stesso soggetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l2-e06",
+          "instruction": "Ricostruisci la frase con gli elementi dati (verbo principale al passato prossimo).",
+          "sentence": "benché / piovere / noi / uscire lo stesso → ___",
+          "answers": [
+            "Benché piovesse, siamo usciti lo stesso.",
+            "Benché piovesse siamo usciti lo stesso.",
+            "Siamo usciti lo stesso benché piovesse.",
+            "Benché piovesse, noi siamo usciti lo stesso.",
+            "Benché piovesse noi siamo usciti lo stesso.",
+            "Benché piovesse, siamo uscite lo stesso.",
+            "Benché piovesse siamo uscite lo stesso."
+          ],
+          "hint": "congiuntivo imperfetto + passato prossimo",
+          "explanation": "Principale al passato → congiuntivo imperfetto nella concessiva: benché piovesse."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l2-e07",
+          "instruction": "Unisci le due frasi con «affinché».",
+          "sentence": "Ti lascio le chiavi. Puoi entrare quando vuoi. → Ti lascio le chiavi ___",
+          "answers": [
+            "affinché tu possa entrare quando vuoi",
+            "affinché tu possa entrare quando vuoi.",
+            "affinché possa entrare quando vuoi",
+            "affinché possa entrare quando vuoi."
+          ],
+          "explanation": "Affinché + congiuntivo presente: tu possa. Il soggetto tu chiarisce la persona (possa è uguale per io, tu, lui)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-03-l2-e08",
+          "instruction": "Quale frase unisce correttamente le due informazioni?",
+          "prompt": "Ho finito il lavoro. Poi sono andato in palestra.",
+          "options": [
+            "Dopo che finito il lavoro, sono andato in palestra.",
+            "Dopo aver finito il lavoro, sono andato in palestra.",
+            "Dopo di finire il lavoro, sono andato in palestra.",
+            "Dopo finendo il lavoro, sono andato in palestra."
+          ],
+          "answer": 1,
+          "explanation": "Dopo + infinito passato (aver finito / essere arrivato) quando il soggetto è lo stesso."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-03-l2-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Nonostante è tardi, il negozio è ancora aperto.",
+          "answers": [
+            "Nonostante sia tardi, il negozio è ancora aperto.",
+            "Nonostante sia tardi il negozio è ancora aperto.",
+            "Anche se è tardi, il negozio è ancora aperto.",
+            "Anche se è tardi il negozio è ancora aperto."
+          ],
+          "explanation": "Nonostante + congiuntivo (sia). Con l'indicativo devi usare anche se."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l2-e10",
+          "instruction": "Completa con la preposizione giusta.",
+          "sentence": "Prima ___ uscire, controlla di aver chiuso il gas.",
+          "answers": [
+            "di"
+          ],
+          "explanation": "Prima di + infinito (stesso soggetto); prima che + congiuntivo (soggetti diversi): prima che tu esca."
+        },
+        {
+          "type": "translate",
+          "id": "celi-03-l2-e11",
+          "instruction": "Traduci in italiano usando «purché».",
+          "direction": "en_it",
+          "source": "I'll lend you the car as long as you bring it back by Sunday.",
+          "answers": [
+            "Ti presto la macchina purché tu me la riporti entro domenica.",
+            "Ti presto la macchina purché me la riporti entro domenica.",
+            "Ti presto l'auto purché tu me la riporti entro domenica.",
+            "Ti presto l'auto purché me la riporti entro domenica.",
+            "Ti presto la macchina purché tu la riporti entro domenica.",
+            "Ti presto la macchina purché la riporti entro domenica.",
+            "Ti presto la macchina, purché tu me la riporti entro domenica.",
+            "Ti presto la macchina, purché me la riporti entro domenica.",
+            "Io ti presto la macchina purché tu me la riporti entro domenica."
+          ],
+          "explanation": "Purché + congiuntivo (riporti). Me la = a me + la macchina."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-03-l2-e12",
+          "instruction": "Ricostruisci la frase.",
+          "translation": "Working from home, I save two hours a day.",
+          "tiles": [
+            "Lavorando",
+            "da",
+            "casa",
+            "risparmio",
+            "due",
+            "ore",
+            "al",
+            "giorno"
+          ],
+          "distractors": [
+            "Lavorare",
+            "per"
+          ],
+          "explanation": "Il gerundio esprime qui causa o modo: lavorando da casa = poiché lavoro da casa."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-03-l2-e13",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi, usando almeno due connettivi della lezione.",
+          "prompt": "Parla di una cosa che hai fatto anche se non avevi voglia, e spiega perché l'hai fatta.",
+          "keywords": [
+            "benché",
+            "pur",
+            "perché"
+          ],
+          "modelAnswer": "Benché fossi stanchissimo, sabato sono andato a correre con un amico. Pur non avendo voglia, ci sono andato perché gliel'avevo promesso. Alla fine sono stato contento, perché mi sono sentito meglio.",
+          "explanation": "Benché + congiuntivo imperfetto, pur + gerundio, perché + indicativo: hai combinato tre strutture della C.2."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-03-l2-e14",
+          "instruction": "Ascolta e ripeti.",
+          "text": "Ti lascio le chiavi affinché tu possa entrare quando vuoi.",
+          "translation": "I'll leave you the keys so that you can come in whenever you want."
+        }
+      ]
+    },
+    {
+      "id": "celi-03-l3",
+      "title": "C.3 – Famiglie di parole",
+      "minutes": 14,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l3-e01",
+          "instruction": "Riscaldamento: completa con un connettivo.",
+          "sentence": "___ fosse tardi, il negozio era ancora aperto.",
+          "answers": [
+            "Benché",
+            "Sebbene",
+            "Nonostante",
+            "Malgrado"
+          ],
+          "explanation": "Fosse è un congiuntivo: serve benché / sebbene / nonostante."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-03-l3-e02",
+          "title": "C.3: formare le parole",
+          "body": "Nella prova **C.3** completi **5 frasi** con una parola formata da una **parola data della stessa famiglia** (per esempio *GENTILE → gentilezza*). Ogni parola vale **1 punto**. Guarda la frase: ti dice se serve un **nome**, un **aggettivo**, un **verbo** o un **avverbio**, e con quale **genere e numero**.\n\n**Suffissi utili:**\n- verbo → nome: **-zione** (*organizzare → organizzazione*), **-mento** (*aumentare → aumento*, *pagare → pagamento*), **-tura** (*chiudere → chiusura*), **-enza/-anza** (*partire → partenza*), forme brevi (*raccogliere → raccolta*, *firmare → firma*)\n- aggettivo → nome: **-ità** (*libero → libertà*), **-ezza** (*gentile → gentilezza*), **-ia** (*allegro → allegria*), **-tudine** (*solo → solitudine*)\n- nome → aggettivo: **-oso** (*coraggio → coraggioso*), **-ale** (*nazione → nazionale*), **-ico** (*economia → economico*), **-ivo** (*sport → sportivo*)\n- verbo → aggettivo: **-bile** (*leggere → leggibile*)\n- persone: **-tore/-trice** (*dirigere → direttore, direttrice*), **-ista** (*giornale → giornalista*), **-ante/-ente** (*abitare → abitante*)\n- contrari: **in-/im-/il-/ir-** (*possibile → impossibile*), **s-** (*comodo → scomodo*), **dis-** (*onesto → disonesto*)",
+          "examples": [
+            {
+              "it": "La raccolta dei rifiuti è il martedì. (RACCOGLIERE)",
+              "en": "Rubbish collection is on Tuesday."
+            },
+            {
+              "it": "Ho apprezzato la sua gentilezza. (GENTILE)",
+              "en": "I appreciated her kindness."
+            },
+            {
+              "it": "È stata una scelta coraggiosa. (CORAGGIO)",
+              "en": "It was a brave choice."
+            },
+            {
+              "it": "Parcheggiare qui è impossibile. (POSSIBILE)",
+              "en": "Parking here is impossible."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-03-l3-e03",
+          "instruction": "Abbina la parola di base alla parola derivata.",
+          "pairs": [
+            {
+              "left": "pagare",
+              "right": "il pagamento"
+            },
+            {
+              "left": "chiudere",
+              "right": "la chiusura"
+            },
+            {
+              "left": "solo",
+              "right": "la solitudine"
+            },
+            {
+              "left": "economia",
+              "right": "economico"
+            },
+            {
+              "left": "abitare",
+              "right": "l'abitante"
+            }
+          ],
+          "explanation": "Imparare le parole a famiglie moltiplica il tuo lessico e ti prepara alla C.3."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l3-e04",
+          "instruction": "Completa con una parola derivata da quella tra parentesi.",
+          "sentence": "La ___ differenziata dei rifiuti è obbligatoria in tutta la città. (RACCOGLIERE)",
+          "answers": [
+            "raccolta"
+          ],
+          "explanation": "Raccogliere → la raccolta (dal participio raccolto). Dopo la serve un nome femminile."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l3-e05",
+          "instruction": "Completa con una parola derivata da quella tra parentesi.",
+          "sentence": "Quest'anno c'è stato un forte ___ dei prezzi degli affitti. (AUMENTARE)",
+          "answers": [
+            "aumento"
+          ],
+          "explanation": "Aumentare → l'aumento. Un forte ___ → nome maschile singolare."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l3-e06",
+          "instruction": "Completa con una parola derivata da quella tra parentesi.",
+          "sentence": "Ti ringrazio per la tua ___: senza il tuo aiuto non ce l'avrei fatta. (GENTILE)",
+          "answers": [
+            "gentilezza",
+            "disponibilità"
+          ],
+          "explanation": "Gentile → la gentilezza."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l3-e07",
+          "instruction": "Completa con una parola derivata da quella tra parentesi.",
+          "sentence": "Mia sorella è una persona molto ___: non ha paura di niente. (CORAGGIO)",
+          "answers": [
+            "coraggiosa"
+          ],
+          "explanation": "Coraggio → coraggioso; accordo con persona (femminile): coraggiosa."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l3-e08",
+          "instruction": "Completa con una parola derivata da quella tra parentesi.",
+          "sentence": "Purtroppo l'orario della biblioteca è ___ per chi lavora: chiude alle cinque. (COMODO)",
+          "answers": [
+            "scomodo"
+          ],
+          "explanation": "Il senso della frase è negativo: serve il contrario, s- + comodo = scomodo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-03-l3-e09",
+          "instruction": "Completa con una parola derivata da quella tra parentesi.",
+          "sentence": "Il ___ del museo ha presentato la nuova mostra ai giornalisti. (DIRIGERE)",
+          "answers": [
+            "direttore"
+          ],
+          "explanation": "Dirigere → il direttore (la direttrice). Il ___ → maschile singolare."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-03-l3-e10",
+          "instruction": "Quale parola esiste?",
+          "prompt": "L'aggettivo libero diventa nome così:",
+          "options": [
+            "la liberezza",
+            "la libertà",
+            "la liberità",
+            "la liberazza"
+          ],
+          "answer": 1,
+          "explanation": "Libero → libertà (forma contratta). Attenzione: liberazione esiste, ma viene dal verbo liberare (the act of freeing)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-03-l3-e11",
+          "instruction": "Ascolta e scrivi: ci sono tre parole derivate.",
+          "audioText": "La chiusura della strada ha creato un grande disagio per gli abitanti del quartiere.",
+          "answers": [
+            "La chiusura della strada ha creato un grande disagio per gli abitanti del quartiere."
+          ],
+          "slow": false,
+          "explanation": "Chiudere → chiusura; agio → disagio; abitare → abitante."
+        },
+        {
+          "type": "roleplay",
+          "id": "celi-03-l3-e12",
+          "instruction": "All'ufficio del Comune: chiedi informazioni. Rispondi ad alta voce.",
+          "scenario": "You've just moved into a new flat and go to the Comune's front office (URP) to ask about rubbish collection and the waste tax. Use the nouns you've just practised.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, mi sono appena trasferito e vorrei informazioni sulla raccolta differenziata.",
+              "hint": "Say you've just moved and ask about recycling collection.",
+              "keywords": [
+                "trasferito",
+                "raccolta"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo. Nel suo quartiere la raccolta è porta a porta: la carta il lunedì, la plastica il giovedì."
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie. E per il pagamento della tassa sui rifiuti come devo fare?",
+              "hint": "Ask about payment of the waste tax (il pagamento).",
+              "keywords": [
+                "pagamento",
+                "tassa"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Le arriverà a casa il modulo per il pagamento. Deve solo presentare la dichiarazione di inizio occupazione."
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto. C'è una scadenza per la dichiarazione?",
+              "hint": "Ask if there's a deadline (la scadenza).",
+              "keywords": [
+                "scadenza"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, la trova indicata sul sito del Comune. Può presentarla anche online."
+            }
+          ],
+          "explanation": "Raccolta, pagamento, scadenza, dichiarazione, trasferimento: tutti nomi derivati da verbi."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-03-l3-e13",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Quali qualità apprezzi di più in un amico o in un vicino di casa? Usa almeno due nomi astratti (gentilezza, sincerità, disponibilità…).",
+          "keywords": [
+            "gentilezza",
+            "sincerità",
+            "disponibilità"
+          ],
+          "modelAnswer": "In un vicino di casa apprezzo soprattutto la gentilezza e la disponibilità, perché fa piacere sapere di poter chiedere aiuto. In un amico, invece, per me conta di più la sincerità.",
+          "explanation": "Gentile → gentilezza, sincero → sincerità, disponibile → disponibilità."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-03-l3-e14",
+          "front": "il disagio",
+          "back": "inconvenience, discomfort",
+          "example": "Lo sciopero ha creato molti disagi ai pendolari."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "benché / sebbene (+ cong.)",
+      "en": "although",
+      "example": "Benché fosse tardi, ha telefonato."
+    },
+    {
+      "it": "nonostante (+ cong.)",
+      "en": "despite, although",
+      "example": "Nonostante piova, esco."
+    },
+    {
+      "it": "pur + gerundio",
+      "en": "although, even though",
+      "example": "Pur essendo stanco, è uscito."
+    },
+    {
+      "it": "affinché (+ cong.)",
+      "en": "so that",
+      "example": "Te lo dico affinché tu lo sappia."
+    },
+    {
+      "it": "purché (+ cong.)",
+      "en": "provided that, as long as",
+      "example": "Vengo purché non si faccia tardi."
+    },
+    {
+      "it": "a patto che (+ cong.)",
+      "en": "on condition that",
+      "example": "Ti aiuto a patto che tu mi aiuti."
+    },
+    {
+      "it": "siccome",
+      "en": "since, as (cause, at the start)",
+      "example": "Siccome pioveva, siamo rimasti a casa."
+    },
+    {
+      "it": "dato che / visto che",
+      "en": "given that, since",
+      "example": "Visto che sei qui, resta a cena."
+    },
+    {
+      "it": "prima di / prima che",
+      "en": "before (+ inf. / + cong.)",
+      "example": "Prima che tu parta, chiamami."
+    },
+    {
+      "it": "dopo aver + participio",
+      "en": "after (doing)",
+      "example": "Dopo aver mangiato, sono uscito."
+    },
+    {
+      "it": "la raccolta differenziata",
+      "en": "recycling collection",
+      "example": "La raccolta differenziata è porta a porta."
+    },
+    {
+      "it": "l'aumento (m.)",
+      "en": "increase, rise",
+      "example": "C'è stato un aumento degli affitti."
+    },
+    {
+      "it": "la chiusura",
+      "en": "closure, closing",
+      "example": "La chiusura è prevista alle 20."
+    },
+    {
+      "it": "il pagamento",
+      "en": "payment",
+      "example": "Il pagamento si fa online."
+    },
+    {
+      "it": "la scadenza",
+      "en": "deadline, expiry date",
+      "example": "Qual è la scadenza per la domanda?"
+    },
+    {
+      "it": "la gentilezza",
+      "en": "kindness",
+      "example": "Grazie per la gentilezza."
+    },
+    {
+      "it": "la disponibilità",
+      "en": "willingness to help; availability",
+      "example": "Grazie per la disponibilità."
+    },
+    {
+      "it": "la solitudine",
+      "en": "loneliness",
+      "example": "Molti anziani soffrono di solitudine."
+    },
+    {
+      "it": "il disagio",
+      "en": "inconvenience, discomfort",
+      "example": "Ci scusiamo per il disagio."
+    },
+    {
+      "it": "vergognarsi (di)",
+      "en": "to be embarrassed (about)",
+      "example": "Non vergognarti degli errori."
+    },
+    {
+      "it": "coraggioso",
+      "en": "brave",
+      "example": "È stata una decisione coraggiosa."
+    },
+    {
+      "it": "scomodo",
+      "en": "inconvenient, uncomfortable",
+      "example": "L'orario è scomodo per chi lavora."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "celi-03-t1",
+      "rule": "Nonostante vuole il congiuntivo",
+      "tip": "Benché, sebbene, nonostante + congiuntivo; anche se + indicativo. È un classico della Parte C.",
+      "example": {
+        "it": "Nonostante sia tardi, il bar è aperto.",
+        "en": "Although it's late, the bar is open."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Benché è stanco, lavora ancora.",
+        "answers": [
+          "Benché sia stanco, lavora ancora.",
+          "Benché sia stanco lavora ancora."
+        ]
+      }
+    },
+    {
+      "id": "celi-03-t2",
+      "rule": "Passato → congiuntivo imperfetto",
+      "tip": "Se il verbo principale è al passato, la concessiva va al congiuntivo imperfetto: benché piovesse, siamo usciti.",
+      "example": {
+        "it": "Sebbene fosse stanco, è venuto alla festa.",
+        "en": "Although he was tired, he came to the party."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Benché ___ (fare) freddo, siamo andati al mare.",
+        "answers": [
+          "facesse"
+        ]
+      }
+    },
+    {
+      "id": "celi-03-t3",
+      "rule": "Prima di + infinito",
+      "tip": "Stesso soggetto: prima di + infinito. Soggetti diversi: prima che + congiuntivo.",
+      "example": {
+        "it": "Prima di uscire, chiudo il gas. / Prima che tu esca, chiamami.",
+        "en": "Before going out… / Before you go out…"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Chiamami prima ___ partire.",
+        "options": [
+          "che",
+          "di",
+          "a",
+          "da"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-03-t4",
+      "rule": "C.3: guarda articolo e accordo",
+      "tip": "Nella C.3 la frase ti dice se serve un nome, un aggettivo o un contrario: controlla articolo, genere e numero.",
+      "example": {
+        "it": "una persona ___ (CORAGGIO) → coraggiosa",
+        "en": "a ___ person (COURAGE) → brave"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "C'è stato un forte ___ dei prezzi. (AUMENTARE)",
+        "answers": [
+          "aumento"
+        ]
+      }
+    },
+    {
+      "id": "celi-03-t5",
+      "rule": "Cloze: leggi tutto il testo prima",
+      "tip": "Prima di completare leggi tutto il testo: tempo, soggetto e registro si capiscono dal contesto.",
+      "example": {
+        "it": "…e ___ male l'italiano → parlavo (come conoscevo).",
+        "en": "…and I ___ Italian badly → I spoke (like 'I knew')."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Abito qui ___ tre anni e mi trovo bene.",
+        "answers": [
+          "da"
+        ]
+      }
+    }
+  ]
+}

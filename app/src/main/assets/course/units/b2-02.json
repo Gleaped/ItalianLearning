@@ -1,0 +1,970 @@
+{
+  "id": "b2-02",
+  "level": "B2",
+  "title": "Se fosse possibile…",
+  "objective": "By the end you can discuss real and hypothetical options and their consequences, give advice and make polite requests, using the periodo ipotetico of types 1 and 2.",
+  "grammarFocus": "Periodo ipotetico della realtà (se + presente/futuro → presente/futuro/imperativo) e della possibilità (se + congiuntivo imperfetto → condizionale presente); se fossi in te, sarebbe meglio se, altrimenti.",
+  "remedialUnitIds": [
+    "b2-01",
+    "b1-06"
+  ],
+  "lessons": [
+    {
+      "id": "b2-02-l1",
+      "title": "Se piove, restiamo a casa",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b2-02-l1-e01",
+          "instruction": "Riscaldamento: completa con il condizionale presente.",
+          "sentence": "Mi ___ (piacere) visitare Matera il prossimo autunno.",
+          "answers": [
+            "piacerebbe"
+          ],
+          "hint": "piacere – condizionale",
+          "explanation": "Riscaldamento (B1-06): condizionale presente per un desiderio: mi piacerebbe."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-02-l1-e02",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Pensavo che tu ___ in ufficio oggi.",
+          "options": [
+            "sei",
+            "fossi",
+            "saresti",
+            "sia"
+          ],
+          "answer": 1,
+          "explanation": "Riscaldamento (B2-01): pensavo che + congiuntivo imperfetto."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-02-l1-e03",
+          "title": "Il periodo ipotetico della realtà (tipo 1)",
+          "body": "Un periodo ipotetico ha due parti: la **condizione** (*se…*) e la **conseguenza**.\n\n**Tipo 1 – realtà**: the condition is real or likely to happen.\n- se + **presente** → presente / futuro / imperativo\n- *Se **arrivi** tardi, **chiamami**.* · *Se **piove**, **restiamo** a casa.*\n- se + **futuro** → futuro (più formale, chiaramente futuro): *Se **avrò** tempo, **passerò** da te.*\n\nNel parlato **se + presente** è di gran lunga il più comune, anche per il futuro: *Se domani fa bello, andiamo al mare.*\n\nUtili anche:\n- **se no / altrimenti** = otherwise: *Prenota adesso, altrimenti non trovi posto.*\n- **in caso di** + nome, tipico di avvisi e istruzioni: *In caso di ritardo, avvisare la segreteria.*",
+          "examples": [
+            {
+              "it": "Se hai bisogno di aiuto, chiamami.",
+              "en": "If you need help, call me."
+            },
+            {
+              "it": "Se il pacco non arriva entro venerdì, contatto il servizio clienti.",
+              "en": "If the parcel doesn't arrive by Friday, I'll contact customer service."
+            },
+            {
+              "it": "Se finiremo presto, andremo a cena fuori.",
+              "en": "If we finish early, we'll go out for dinner."
+            },
+            {
+              "it": "In caso di smarrimento, rivolgersi all'ufficio oggetti smarriti.",
+              "en": "In case of loss, contact the lost property office."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-02-l1-e04",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Se ___ tempo domani, ti aiuto con il trasloco.",
+          "options": [
+            "ho",
+            "avessi",
+            "avrei",
+            "abbia"
+          ],
+          "answer": 0,
+          "explanation": "Condizione reale e probabile → se + presente, conseguenza al presente."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-02-l1-e05",
+          "instruction": "Completa la frase.",
+          "sentence": "Se non ___ (trovare) parcheggio, ti chiamo e mi vieni a prendere.",
+          "answers": [
+            "trovo"
+          ],
+          "hint": "trovare – io",
+          "explanation": "Tipo 1: se + presente indicativo."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-02-l1-e06",
+          "instruction": "Abbina la condizione alla conseguenza.",
+          "pairs": [
+            {
+              "left": "Se hai la febbre,",
+              "right": "resta a casa."
+            },
+            {
+              "left": "Se perdi il treno,",
+              "right": "prendi il pullman delle dieci."
+            },
+            {
+              "left": "Se il pacco non arriva,",
+              "right": "contatta il servizio clienti."
+            },
+            {
+              "left": "Se finiremo presto,",
+              "right": "andremo a cena fuori."
+            },
+            {
+              "left": "Se non paghi entro la scadenza,",
+              "right": "dovrai pagare una mora."
+            }
+          ],
+          "explanation": "Nel tipo 1 la conseguenza può essere al presente, al futuro o all'imperativo."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-02-l1-e07",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "If you need help, call me.",
+          "tiles": [
+            "Se",
+            "hai",
+            "bisogno",
+            "di",
+            "aiuto",
+            "chiamami"
+          ],
+          "distractors": [
+            "avessi",
+            "chiameresti"
+          ],
+          "explanation": "Tipo 1: se + presente → imperativo."
+        },
+        {
+          "type": "translate",
+          "id": "b2-02-l1-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "If it rains tomorrow, we'll stay home.",
+          "answers": [
+            "Se domani piove, restiamo a casa.",
+            "Se domani piove restiamo a casa.",
+            "Se domani piove, rimaniamo a casa.",
+            "Se domani piove rimaniamo a casa.",
+            "Se domani piove, resteremo a casa.",
+            "Se domani piove resteremo a casa.",
+            "Se domani piove, rimarremo a casa.",
+            "Se domani piove rimarremo a casa.",
+            "Se domani piove, stiamo a casa.",
+            "Se domani piove stiamo a casa.",
+            "Se domani piove, staremo a casa.",
+            "Se domani piove staremo a casa.",
+            "Se piove domani, restiamo a casa.",
+            "Se piove domani restiamo a casa.",
+            "Se piove domani, rimaniamo a casa.",
+            "Se piove domani rimaniamo a casa.",
+            "Se piove domani, resteremo a casa.",
+            "Se piove domani resteremo a casa.",
+            "Se piove domani, rimarremo a casa.",
+            "Se piove domani rimarremo a casa.",
+            "Se piove domani, stiamo a casa.",
+            "Se piove domani stiamo a casa.",
+            "Se piove domani, staremo a casa.",
+            "Se piove domani staremo a casa.",
+            "Se domani pioverà, resteremo a casa.",
+            "Se domani pioverà resteremo a casa.",
+            "Se domani pioverà, rimarremo a casa.",
+            "Se domani pioverà rimarremo a casa.",
+            "Se domani pioverà, staremo a casa.",
+            "Se domani pioverà staremo a casa.",
+            "Se pioverà domani, resteremo a casa.",
+            "Se pioverà domani resteremo a casa.",
+            "Se pioverà domani, rimarremo a casa.",
+            "Se pioverà domani rimarremo a casa.",
+            "Se pioverà domani, staremo a casa.",
+            "Se pioverà domani staremo a casa.",
+            "Domani, se piove, restiamo a casa.",
+            "Domani se piove restiamo a casa.",
+            "Domani, se piove, rimaniamo a casa.",
+            "Domani se piove rimaniamo a casa.",
+            "Domani, se piove, stiamo a casa.",
+            "Domani se piove stiamo a casa."
+          ],
+          "explanation": "Nel parlato: se + presente → presente. Più formale: se + futuro → futuro."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-02-l1-e09",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Gentili clienti, il concerto di sabato è rinviato al 20 marzo. Se avete già acquistato il biglietto, potete chiedere il rimborso entro la fine del mese. Se invece preferite partecipare alla nuova data, il vostro biglietto resta valido e non dovete fare nulla.",
+          "question": "Che cosa succede se si vuole andare al concerto nella nuova data?",
+          "options": [
+            "Bisogna comprare un nuovo biglietto.",
+            "Bisogna chiedere il rimborso.",
+            "Il biglietto resta valido.",
+            "Si paga una differenza."
+          ],
+          "answer": 2,
+          "explanation": "Se preferite partecipare alla nuova data, il vostro biglietto resta valido."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-02-l1-e10",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Se mi chiameresti, ti rispondo subito.",
+          "answers": [
+            "Se mi chiami, ti rispondo subito.",
+            "Se mi chiami ti rispondo subito.",
+            "Se mi chiamerai, ti risponderò subito.",
+            "Se mi chiamerai ti risponderò subito.",
+            "Ti rispondo subito se mi chiami."
+          ],
+          "explanation": "Mai il condizionale dopo se. Tipo 1: se mi chiami, ti rispondo."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-02-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Se non trovi il modulo, chiedi allo sportello informazioni.",
+          "translation": "If you can't find the form, ask at the information desk."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-02-l1-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Un collega straniero arriva nella tua città domani. Dagli tre consigli pratici con se + presente.",
+          "keywords": [
+            "se",
+            "prendi"
+          ],
+          "modelAnswer": "Se arrivi in treno, prendi l'autobus 12 per il centro. Se la sera hai fame, ti consiglio la trattoria vicino alla stazione. E se hai bisogno di qualcosa, chiamami pure.",
+          "explanation": "Se + presente → imperativo o presente: perfetto per dare istruzioni e consigli concreti."
+        }
+      ]
+    },
+    {
+      "id": "b2-02-l2",
+      "title": "Se avessi più tempo…",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b2-02-l2-e01",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Se ___ (finire, noi) presto, andiamo al cinema.",
+          "answers": [
+            "finiamo"
+          ],
+          "hint": "finire – noi",
+          "explanation": "Tipo 1: se + presente."
+        },
+        {
+          "type": "conjugation",
+          "id": "b2-02-l2-e02",
+          "instruction": "Riscaldamento: condizionale presente di potere.",
+          "verb": "potere",
+          "tense": "condizionale presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "potrei"
+            },
+            {
+              "person": "tu",
+              "answer": "potresti"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "potrebbe"
+            },
+            {
+              "person": "noi",
+              "answer": "potremmo"
+            },
+            {
+              "person": "voi",
+              "answer": "potreste"
+            },
+            {
+              "person": "loro",
+              "answer": "potrebbero"
+            }
+          ],
+          "explanation": "Il condizionale presente sarà la conseguenza del periodo ipotetico di tipo 2."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-02-l2-e03",
+          "title": "Il periodo ipotetico della possibilità (tipo 2)",
+          "body": "**Tipo 2**: la condizione è poco probabile, immaginaria o contraria alla realtà presente.\n- se + **congiuntivo imperfetto** → **condizionale presente**\n- *Se **avessi** più tempo, **imparerei** a suonare la chitarra.*\n- *Se **fossi** il sindaco, **chiuderei** il centro alle auto.*\n\n**Confronta**:\n- *Se ho tempo, vengo.* (è possibile, vedremo)\n- *Se avessi tempo, verrei.* (in realtà non ho tempo)\n\n**Errore classico**: mai il condizionale dopo *se*: ~~*se avrei*~~ → *se avessi*. L'ordine delle due parti è libero: *Verrei, se potessi.*\n\n**Se fossi in te** = if I were you: *Se fossi in te, chiederei un preventivo scritto.*",
+          "examples": [
+            {
+              "it": "Se avessi più tempo, farei volontariato.",
+              "en": "If I had more time, I'd do voluntary work."
+            },
+            {
+              "it": "Se il treno costasse meno, lo prenderei sempre.",
+              "en": "If the train cost less, I'd always take it."
+            },
+            {
+              "it": "Verrei volentieri, se non dovessi lavorare.",
+              "en": "I'd gladly come if I didn't have to work."
+            },
+            {
+              "it": "Se fossi in te, non firmerei niente.",
+              "en": "If I were you, I wouldn't sign anything."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-02-l2-e04",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Se ___ più soldi, comprerei una casa in campagna.",
+          "options": [
+            "avrei",
+            "avessi",
+            "ho",
+            "abbia"
+          ],
+          "answer": 1,
+          "explanation": "Tipo 2: se + congiuntivo imperfetto → condizionale presente."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-02-l2-e05",
+          "instruction": "Completa la frase.",
+          "sentence": "Se il treno ___ (essere) più economico, lo prenderei tutti i giorni.",
+          "answers": [
+            "fosse"
+          ],
+          "hint": "essere – lui",
+          "explanation": "Condizione irreale nel presente → congiuntivo imperfetto: fosse."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-02-l2-e06",
+          "instruction": "Completa la frase.",
+          "sentence": "Se potessi scegliere, ___ (vivere) vicino al mare.",
+          "answers": [
+            "vivrei"
+          ],
+          "hint": "vivere – io, condizionale",
+          "explanation": "Conseguenza del tipo 2 → condizionale presente: vivrei (forma contratta, come vedrei, andrei)."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-02-l2-e07",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "If I were you, I would ask for a written quote.",
+          "tiles": [
+            "Se",
+            "fossi",
+            "in",
+            "te",
+            "chiederei",
+            "un",
+            "preventivo",
+            "scritto"
+          ],
+          "distractors": [
+            "sarei",
+            "chiedessi"
+          ],
+          "explanation": "Se fossi in te + condizionale: la formula più comune per dare un consiglio."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-02-l2-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Se avrei più tempo, farei volontariato.",
+          "answers": [
+            "Se avessi più tempo, farei volontariato.",
+            "Se avessi più tempo farei volontariato.",
+            "Farei volontariato se avessi più tempo."
+          ],
+          "explanation": "Dopo se → congiuntivo imperfetto (avessi), non condizionale."
+        },
+        {
+          "type": "translate",
+          "id": "b2-02-l2-e09",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Se fossi in te, non firmerei niente.",
+          "answers": [
+            "If I were you, I wouldn't sign anything.",
+            "If I were you I wouldn't sign anything.",
+            "If I were you, I would not sign anything.",
+            "If I were you I would not sign anything.",
+            "If I were you, I wouldn't sign a thing.",
+            "If I were you I wouldn't sign a thing.",
+            "I wouldn't sign anything if I were you.",
+            "I wouldn't sign anything, if I were you."
+          ],
+          "explanation": "Se fossi in te = if I were you."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-02-l2-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Se abitassi più vicino, verrei a trovarti più spesso.",
+          "answers": [
+            "Se abitassi più vicino, verrei a trovarti più spesso.",
+            "Se abitassi più vicino verrei a trovarti più spesso.",
+            "Se abitassi più vicino, ti verrei a trovare più spesso.",
+            "Se abitassi più vicino ti verrei a trovare più spesso."
+          ],
+          "slow": false,
+          "explanation": "Abitassi (cong. imperfetto) → verrei (condizionale presente)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-02-l2-e11",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Quale frase indica che chi parla probabilmente NON avrà tempo?",
+          "options": [
+            "Se ho tempo, ti aiuto.",
+            "Se avessi tempo, ti aiuterei.",
+            "Se avrò tempo, ti aiuterò.",
+            "Quando ho tempo, ti aiuto."
+          ],
+          "answer": 1,
+          "explanation": "Il tipo 2 presenta la condizione come poco probabile o irreale."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-02-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Se fossi in te, chiederei un preventivo scritto prima di cominciare i lavori.",
+          "translation": "If I were you, I'd ask for a written quote before starting the work."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-02-l2-e13",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Che cosa faresti se fossi il sindaco della tua città per un giorno? Rispondi in 2–3 frasi.",
+          "keywords": [
+            "se fossi",
+            "sindaco"
+          ],
+          "modelAnswer": "Se fossi il sindaco, prima di tutto renderei gratuiti gli autobus. Poi aprirei più asili nido e farei piantare alberi in ogni quartiere.",
+          "explanation": "Se fossi… → condizionale presente: renderei, aprirei, farei."
+        }
+      ]
+    },
+    {
+      "id": "b2-02-l3",
+      "title": "Pro e contro",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-02-l3-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Se ___ in te, accetterei l'offerta.",
+          "options": [
+            "sarei",
+            "fossi",
+            "sono",
+            "sia"
+          ],
+          "answer": 1,
+          "explanation": "Se fossi in te: congiuntivo imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-02-l3-e02",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Se domani ___ (fare) bello, andiamo in bici al lago.",
+          "answers": [
+            "fa"
+          ],
+          "hint": "fare – tempo atmosferico",
+          "explanation": "Condizione reale → tipo 1: se fa bello."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-02-l3-e03",
+          "title": "Ipotesi per chiedere, consigliare e valutare",
+          "body": "Le ipotesi servono anche per essere cortesi e per confrontare opzioni:\n- **Se fosse possibile**, vorrei spostare l'appuntamento. (richiesta molto cortese; anche *se possibile*)\n- **Sarebbe meglio se** + cong. imperfetto: *Sarebbe meglio se partissimo presto.*\n- **Al posto tuo** / **Fossi in te** (colloquiale, senza *se*): *Fossi in te, ci penserei bene.*\n- **Altrimenti / se no**: *Prenota adesso, altrimenti non trovi posto.*\n- **Valutare un'opzione**: *Se scegliessimo il treno, spenderemmo di più ma arriveremmo riposati.*\n- **Conviene** + infinito = it's worth it, it's better: *Conviene prendere l'abbonamento.*\n\nWhen you have to compare options in speaking or writing, these structures let you weigh pros and cons in a single sentence.",
+          "examples": [
+            {
+              "it": "Se fosse possibile, vorrei pagare a rate.",
+              "en": "If it were possible, I'd like to pay in instalments."
+            },
+            {
+              "it": "Sarebbe meglio se ne parlassimo di persona.",
+              "en": "It would be better if we talked about it in person."
+            },
+            {
+              "it": "Al posto tuo, prenderei l'abbonamento annuale.",
+              "en": "In your place, I'd get the annual pass."
+            },
+            {
+              "it": "Se prendessimo la macchina, saremmo più liberi, ma spenderemmo di più.",
+              "en": "If we took the car, we'd be freer, but we'd spend more."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-02-l3-e04",
+          "instruction": "Abbina ogni espressione alla sua funzione.",
+          "pairs": [
+            {
+              "left": "Se fosse possibile, vorrei…",
+              "right": "richiesta cortese"
+            },
+            {
+              "left": "Fossi in te…",
+              "right": "consiglio"
+            },
+            {
+              "left": "Sarebbe meglio se…",
+              "right": "proposta"
+            },
+            {
+              "left": "…altrimenti perdiamo il treno.",
+              "right": "conseguenza negativa"
+            },
+            {
+              "left": "Se scegliessimo il treno, …",
+              "right": "valutare un'opzione"
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-02-l3-e05",
+          "instruction": "Completa la frase.",
+          "sentence": "Sarebbe meglio se ___ (partire, noi) prima delle otto.",
+          "answers": [
+            "partissimo"
+          ],
+          "hint": "partire – noi",
+          "explanation": "Sarebbe meglio se + congiuntivo imperfetto."
+        },
+        {
+          "type": "reading",
+          "id": "b2-02-l3-e06",
+          "instruction": "Leggi il testo e rispondi alle domande.",
+          "title": "Città o paese?",
+          "passage": "Ciao a tutti! Ho bisogno di un consiglio. Lavoro in centro a Torino e pago un affitto altissimo per un bilocale piccolo e rumoroso. Un collega mi ha proposto di trasferirmi in un paese a quaranta minuti di treno, dove con la stessa cifra potrei avere una casa con giardino.\nSe mi trasferissi, risparmierei almeno trecento euro al mese e vivrei in un posto più tranquillo. Però dovrei alzarmi un'ora prima e, se il treno facesse ritardo, arriverei tardi in ufficio. In più, la sera i treni sono pochi: se uscissi a cena con gli amici, dovrei tornare con l'ultimo treno delle 23.\nIl mio capo dice che, se mi trasferisco, posso lavorare da casa due giorni alla settimana. Questo cambierebbe molto le cose… Voi che cosa fareste al posto mio?\nDavide",
+          "questions": [
+            {
+              "question": "Quale vantaggio avrebbe Davide trasferendosi?",
+              "options": [
+                "Arriverebbe prima in ufficio.",
+                "Spenderebbe meno per la casa.",
+                "Avrebbe più treni la sera.",
+                "Avrebbe uno stipendio più alto."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è uno svantaggio del paese?",
+              "options": [
+                "Le case sono piccole.",
+                "È molto rumoroso.",
+                "La sera ci sono pochi treni.",
+                "Non c'è la stazione."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa potrebbe cambiare la decisione?",
+              "options": [
+                "La possibilità di lavorare da casa due giorni.",
+                "Un aumento di stipendio.",
+                "Un collega che va a vivere con lui.",
+                "Un nuovo bilocale in centro."
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Davide usa il tipo 2 (se mi trasferissi, risparmierei) perché è un'ipotesi; il capo usa il tipo 1 (se mi trasferisco, posso) perché è una condizione concreta."
+        },
+        {
+          "type": "translate",
+          "id": "b2-02-l3-e07",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "If it were possible, I'd like to move the appointment to Thursday.",
+          "answers": [
+            "Se fosse possibile, vorrei spostare l'appuntamento a giovedì.",
+            "Se fosse possibile vorrei spostare l'appuntamento a giovedì.",
+            "Se fosse possibile, vorrei rimandare l'appuntamento a giovedì.",
+            "Se fosse possibile vorrei rimandare l'appuntamento a giovedì.",
+            "Se fosse possibile, mi piacerebbe spostare l'appuntamento a giovedì.",
+            "Se fosse possibile mi piacerebbe spostare l'appuntamento a giovedì.",
+            "Se fosse possibile, mi piacerebbe rimandare l'appuntamento a giovedì.",
+            "Se fosse possibile mi piacerebbe rimandare l'appuntamento a giovedì.",
+            "Se possibile, vorrei spostare l'appuntamento a giovedì.",
+            "Se possibile vorrei spostare l'appuntamento a giovedì.",
+            "Se possibile, vorrei rimandare l'appuntamento a giovedì.",
+            "Se possibile vorrei rimandare l'appuntamento a giovedì.",
+            "Se possibile, mi piacerebbe spostare l'appuntamento a giovedì.",
+            "Se possibile mi piacerebbe spostare l'appuntamento a giovedì.",
+            "Se possibile, mi piacerebbe rimandare l'appuntamento a giovedì.",
+            "Se possibile mi piacerebbe rimandare l'appuntamento a giovedì.",
+            "Se fosse possibile, vorrei spostare a giovedì l'appuntamento.",
+            "Se fosse possibile vorrei spostare a giovedì l'appuntamento.",
+            "Se fosse possibile, vorrei rimandare a giovedì l'appuntamento.",
+            "Se fosse possibile vorrei rimandare a giovedì l'appuntamento.",
+            "Se fosse possibile, mi piacerebbe spostare a giovedì l'appuntamento.",
+            "Se fosse possibile mi piacerebbe spostare a giovedì l'appuntamento.",
+            "Se fosse possibile, mi piacerebbe rimandare a giovedì l'appuntamento.",
+            "Se fosse possibile mi piacerebbe rimandare a giovedì l'appuntamento.",
+            "Se possibile, vorrei spostare a giovedì l'appuntamento.",
+            "Se possibile vorrei spostare a giovedì l'appuntamento.",
+            "Se possibile, vorrei rimandare a giovedì l'appuntamento.",
+            "Se possibile vorrei rimandare a giovedì l'appuntamento.",
+            "Se possibile, mi piacerebbe spostare a giovedì l'appuntamento.",
+            "Se possibile mi piacerebbe spostare a giovedì l'appuntamento.",
+            "Se possibile, mi piacerebbe rimandare a giovedì l'appuntamento.",
+            "Se possibile mi piacerebbe rimandare a giovedì l'appuntamento."
+          ],
+          "explanation": "Se fosse possibile, vorrei… è una formula molto cortese per uffici, medici e servizi."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-02-l3-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Se il corso sarebbe online, mi iscriverei subito.",
+          "answers": [
+            "Se il corso fosse online, mi iscriverei subito.",
+            "Se il corso fosse online mi iscriverei subito.",
+            "Mi iscriverei subito se il corso fosse online."
+          ],
+          "explanation": "Dopo se: congiuntivo imperfetto (fosse), mai condizionale."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-02-l3-e09",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Allora, se mi iscrivessi alla palestra sotto casa, risparmierei un sacco di tempo, ma costa quasi il doppio. Quella in centro è più economica, però se ci andassi dopo il lavoro troverei sempre traffico. Alla fine credo che sceglierò quella sotto casa: per me il tempo vale più dei soldi.",
+          "question": "Quale palestra sceglierà e perché?",
+          "options": [
+            "Quella in centro, perché costa meno.",
+            "Quella in centro, perché c'è meno traffico.",
+            "Quella sotto casa, perché costa meno.",
+            "Quella sotto casa, per risparmiare tempo."
+          ],
+          "answer": 3,
+          "explanation": "Per me il tempo vale più dei soldi → sceglie la palestra sotto casa."
+        },
+        {
+          "type": "roleplay",
+          "id": "b2-02-l3-e10",
+          "instruction": "Role-play: rispondi ad alta voce quando tocca a te.",
+          "scenario": "Il tuo amico Luca sta pensando di comprare una macchina usata. Tu non sei convinto: valutate insieme le alternative.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Sto pensando di comprare una macchina usata. Tu che ne dici?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mah, se fossi in te ci penserei bene. Con l'assicurazione e il parcheggio spenderesti parecchio.",
+              "hint": "Dai un consiglio con se fossi in te + condizionale.",
+              "keywords": [
+                "se fossi in te"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, ma senza macchina il sabato non posso andare da nessuna parte."
+            },
+            {
+              "speaker": "you",
+              "text": "Se usassi il car sharing solo nel fine settimana, risparmieresti un sacco di soldi.",
+              "hint": "Proponi un'alternativa con se + congiuntivo imperfetto.",
+              "keywords": [
+                "se usassi",
+                "risparmieresti"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E se poi non trovo una macchina libera proprio quando mi serve?"
+            },
+            {
+              "speaker": "you",
+              "text": "Se prenoti qualche giorno prima, la trovi di sicuro. Altrimenti puoi noleggiarne una.",
+              "hint": "Rispondi con un'ipotesi reale (tipo 1) e un'alternativa: altrimenti…",
+              "keywords": [
+                "se prenoti",
+                "altrimenti"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Hmm, forse hai ragione. Se fosse così semplice, ci proverei per qualche mese."
+            },
+            {
+              "speaker": "you",
+              "text": "Dai, provaci. Se poi non ti trovi bene, la macchina la compri dopo.",
+              "hint": "Incoraggialo e chiudi con un'ultima ipotesi.",
+              "keywords": [
+                "se",
+                "dopo"
+              ]
+            }
+          ],
+          "explanation": "Hai alternato il tipo 2 (ipotesi: se usassi) e il tipo 1 (condizioni concrete: se prenoti)."
+        },
+        {
+          "type": "free_write",
+          "id": "b2-02-l3-e11",
+          "instruction": "Scrittura (stile CELI, registro informale).",
+          "prompt": "Un amico ti scrive: ha ricevuto un'offerta di lavoro a Milano, ma lo stipendio è solo un po' più alto e gli affitti sono molto cari. Rispondigli con un'email (120–150 parole): valuta pro e contro con il periodo ipotetico e dagli un consiglio.",
+          "minWords": 120,
+          "checklist": [
+            "Ho usato almeno due periodi ipotetici di tipo 2 (se + cong. imperfetto → condizionale).",
+            "Ho usato almeno un periodo ipotetico di tipo 1 per una condizione concreta.",
+            "Ho dato un consiglio chiaro (se fossi in te / al posto tuo…).",
+            "Ho usato connettivi per organizzare il testo: da un lato, dall'altro, però, alla fine.",
+            "Registro informale coerente, almeno 120 parole."
+          ],
+          "modelAnswer": "Ciao Andrea,\nche bella notizia! Capisco però che tu abbia qualche dubbio. Da un lato, se accettassi, faresti un'esperienza importante in una grande azienda e conosceresti un sacco di gente nuova. Dall'altro, se lo stipendio è solo un po' più alto, a Milano rischi di spendere quasi tutto per l'affitto. Se trovassi una stanza in un appartamento condiviso, forse ce la faresti, ma non so se ne avresti voglia.\nSe fossi in te, prima di decidere chiederei all'azienda se è possibile lavorare da remoto almeno due giorni alla settimana: in quel caso potresti vivere fuori città e pagare molto meno. Se ti dicono di no, proverei a trattare sullo stipendio. Altrimenti, sinceramente, resterei dove sei.\nFammi sapere cosa decidi!\nUn abbraccio,\nRichard"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-02-l3-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Il tuo vicino fa rumore ogni sera dopo mezzanotte. Valuta due possibili soluzioni e di' quale sceglieresti.",
+          "keywords": [
+            "se",
+            "parlerei"
+          ],
+          "modelAnswer": "Se gli scrivessi un biglietto, forse si offenderebbe. Se invece ci parlassi di persona, potrei spiegargli il problema con calma. Quindi prima parlerei con lui, e solo se non cambia niente scriverei all'amministratore.",
+          "explanation": "Tipo 2 per valutare le opzioni; tipo 1 (se non cambia niente) per la condizione concreta."
+        },
+        {
+          "type": "flashcard",
+          "id": "b2-02-l3-e13",
+          "front": "al posto tuo / fossi in te",
+          "back": "if I were you, in your place",
+          "example": "Al posto tuo chiederei un secondo parere."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la condizione",
+      "en": "condition",
+      "example": "Accetto, a una condizione."
+    },
+    {
+      "it": "la conseguenza",
+      "en": "consequence",
+      "example": "Ogni scelta ha le sue conseguenze."
+    },
+    {
+      "it": "l'ipotesi (f.)",
+      "en": "hypothesis, possibility",
+      "example": "È solo un'ipotesi, non è ancora deciso."
+    },
+    {
+      "it": "i pro e i contro",
+      "en": "pros and cons",
+      "example": "Prima di decidere valuto i pro e i contro."
+    },
+    {
+      "it": "il vantaggio",
+      "en": "advantage",
+      "example": "Il vantaggio è che risparmierei tempo."
+    },
+    {
+      "it": "lo svantaggio",
+      "en": "disadvantage",
+      "example": "Lo svantaggio è il traffico."
+    },
+    {
+      "it": "valutare",
+      "en": "to weigh up, assess",
+      "example": "Devo valutare bene l'offerta."
+    },
+    {
+      "it": "convenire (conviene)",
+      "en": "to be worth it, be better",
+      "example": "Conviene prendere l'abbonamento mensile."
+    },
+    {
+      "it": "valerne la pena",
+      "en": "to be worth it",
+      "example": "Ne vale la pena, anche se costa di più."
+    },
+    {
+      "it": "altrimenti",
+      "en": "otherwise",
+      "example": "Prenota adesso, altrimenti non trovi posto."
+    },
+    {
+      "it": "in caso di",
+      "en": "in case of",
+      "example": "In caso di ritardo, avvisare la segreteria."
+    },
+    {
+      "it": "il preventivo",
+      "en": "quote, estimate",
+      "example": "Chiederei un preventivo scritto."
+    },
+    {
+      "it": "il rimborso",
+      "en": "refund",
+      "example": "Potete chiedere il rimborso entro fine mese."
+    },
+    {
+      "it": "la scadenza",
+      "en": "deadline, expiry date",
+      "example": "La scadenza per il pagamento è il 30."
+    },
+    {
+      "it": "la mora",
+      "en": "late-payment penalty",
+      "example": "Se paghi in ritardo, c'è una mora."
+    },
+    {
+      "it": "rinviare",
+      "en": "to postpone",
+      "example": "Il concerto è stato rinviato a marzo."
+    },
+    {
+      "it": "l'offerta di lavoro",
+      "en": "job offer",
+      "example": "Ho ricevuto un'offerta di lavoro a Milano."
+    },
+    {
+      "it": "lo stipendio",
+      "en": "salary",
+      "example": "Lo stipendio è un po' più alto."
+    },
+    {
+      "it": "lavorare da remoto",
+      "en": "to work remotely",
+      "example": "Potrei lavorare da remoto due giorni alla settimana."
+    },
+    {
+      "it": "il pendolare",
+      "en": "commuter",
+      "example": "Se mi trasferissi in paese, diventerei un pendolare."
+    },
+    {
+      "it": "risparmiare",
+      "en": "to save (money, time)",
+      "example": "Risparmierei trecento euro al mese."
+    },
+    {
+      "it": "noleggiare",
+      "en": "to rent, hire (car, bike)",
+      "example": "Possiamo noleggiare una macchina per il weekend."
+    },
+    {
+      "it": "se fossi in te",
+      "en": "if I were you",
+      "example": "Se fossi in te, ci penserei bene."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b2-02-t1",
+      "rule": "Se + presente: realtà",
+      "tip": "For real, likely conditions use se + presente, then presente, futuro or imperativo: Se piove, restiamo a casa.",
+      "example": {
+        "it": "Se hai bisogno, chiamami.",
+        "en": "If you need anything, call me."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa la frase.",
+        "sentence": "Se ___ (arrivare, tu) prima delle otto, ceniamo insieme.",
+        "answers": [
+          "arrivi"
+        ],
+        "hint": "arrivare – tu"
+      }
+    },
+    {
+      "id": "b2-02-t2",
+      "rule": "Se + cong. imperf. → condiz.",
+      "tip": "Unlikely or imaginary: se + congiuntivo imperfetto, then condizionale presente: Se avessi tempo, verrei.",
+      "example": {
+        "it": "Se avessi più soldi, viaggerei di più.",
+        "en": "If I had more money, I'd travel more."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa la frase.",
+        "sentence": "Se ___ (potere), lavorerei da casa tutti i giorni.",
+        "answers": [
+          "potessi"
+        ],
+        "hint": "potere – io"
+      }
+    },
+    {
+      "id": "b2-02-t3",
+      "rule": "Mai «se avrei»",
+      "tip": "Never put the condizionale right after se: se avessi, se fossi, se potessi – not se avrei, se sarei.",
+      "example": {
+        "it": "Se fossi più giovane, cambierei lavoro.",
+        "en": "If I were younger, I'd change jobs."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "instruction": "C'è un errore. Riscrivi la frase corretta.",
+        "sentence": "Se sarei in te, accetterei.",
+        "answers": [
+          "Se fossi in te, accetterei.",
+          "Se fossi in te accetterei."
+        ],
+        "explanation": "Dopo se → congiuntivo imperfetto: fossi."
+      }
+    },
+    {
+      "id": "b2-02-t4",
+      "rule": "Se fossi in te…",
+      "tip": "Give advice with Se fossi in te / Al posto tuo + condizionale presente.",
+      "example": {
+        "it": "Al posto tuo chiederei un preventivo.",
+        "en": "In your place, I'd ask for a quote."
+      },
+      "challenge": {
+        "type": "translate",
+        "instruction": "Traduci in italiano.",
+        "direction": "en_it",
+        "source": "If I were you, I'd call the landlord.",
+        "answers": [
+          "Se fossi in te, chiamerei il padrone di casa.",
+          "Se fossi in te chiamerei il padrone di casa.",
+          "Se fossi in te, telefonerei a il padrone di casa.",
+          "Se fossi in te telefonerei a il padrone di casa.",
+          "Al posto tuo chiamerei il padrone di casa.",
+          "Al posto tuo telefonerei a il padrone di casa.",
+          "Fossi in te, chiamerei il padrone di casa.",
+          "Fossi in te chiamerei il padrone di casa.",
+          "Fossi in te, telefonerei a il padrone di casa.",
+          "Fossi in te telefonerei a il padrone di casa."
+        ]
+      }
+    },
+    {
+      "id": "b2-02-t5",
+      "rule": "Sarebbe meglio se…",
+      "tip": "Make a polite proposal with Sarebbe meglio se + congiuntivo imperfetto.",
+      "example": {
+        "it": "Sarebbe meglio se ne parlassimo domani.",
+        "en": "It would be better if we talked about it tomorrow."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "instruction": "Scegli la risposta giusta.",
+        "prompt": "Sarebbe meglio se ___ prima.",
+        "options": [
+          "partiamo",
+          "partissimo",
+          "partiremmo",
+          "partiremo"
+        ],
+        "answer": 1
+      }
+    }
+  ]
+}

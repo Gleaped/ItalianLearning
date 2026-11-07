@@ -1,0 +1,584 @@
+{
+  "id": "a2r-04",
+  "level": "A2R",
+  "title": "Pronomi diretti e indiretti",
+  "objective": "By the end you can handle everyday shopping and service exchanges without repeating nouns, using direct and indirect object pronouns in the present and passato prossimo.",
+  "grammarFocus": "Direct pronouns (mi, ti, lo, la, La, ci, vi, li, le) and indirect pronouns (mi, ti, gli, le, Le, ci, vi, gli); position with conjugated verbs and infinitives; l' before vowels; participle agreement with lo/la/li/le; chiamare vs telefonare; piacere.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a2r-04-l1",
+      "title": "La prendo!",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2r-04-l1-e01",
+          "instruction": "Riscaldamento: scegli il pronome giusto.",
+          "prompt": "Conosci Marco? – Sì, ___ conosco bene.",
+          "options": [
+            "lo",
+            "gli",
+            "la",
+            "le"
+          ],
+          "answer": 0,
+          "explanation": "Conoscere qualcuno: no preposition, so it's a direct object. Marco → lo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-04-l1-e02",
+          "title": "I pronomi diretti",
+          "body": "A **direct object pronoun** replaces a person or thing that receives the action directly – with **no preposition** in between.\n\n- **mi** (me), **ti** (you), **lo** (him / it m.), **la** (her / it f.), **La** (you, formal), **ci** (us), **vi** (you pl.)\n- **li** (them, m. or mixed), **le** (them, f.)\n\n**Position:** before the conjugated verb: *Il pane? Lo prendo io.* With an infinitive it attaches to the end: *Posso provarla?* – or it goes before the modal verb: *La posso provare?*\n\n**Lo and la become l'** before a vowel or h: *L'aspetto qui. L'ho comprato.*\n\n**Passato prossimo:** with lo, la, li, le the participle **agrees**: *La giacca? L'ho comprata ieri. Le scarpe? Le ho prese in centro. I biglietti? Li ho pagati io.*\n\n**Lo** can also mean 'it' as a fact: *Non lo so. Lo sapevi?*",
+          "examples": [
+            {
+              "it": "Questa giacca mi piace: la prendo.",
+              "en": "I like this jacket: I'll take it."
+            },
+            {
+              "it": "I pomodori? Li compro sempre al mercato.",
+              "en": "Tomatoes? I always buy them at the market."
+            },
+            {
+              "it": "Scusi, La disturbo?",
+              "en": "Excuse me, am I disturbing you?"
+            },
+            {
+              "it": "Le uova? Le ho già messe in frigo.",
+              "en": "The eggs? I've already put them in the fridge."
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-04-l1-e03",
+          "instruction": "Completa con il pronome diretto.",
+          "sentence": "Questi pomodori sono belli: ___ prendo.",
+          "answers": [
+            "li"
+          ],
+          "hint": "i pomodori (m. pl.)",
+          "explanation": "I pomodori → li."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-04-l1-e04",
+          "instruction": "Completa con verbo + pronome.",
+          "sentence": "Questa maglietta mi piace. Posso ___?",
+          "answers": [
+            "provarla"
+          ],
+          "hint": "provare + la",
+          "explanation": "With an infinitive the pronoun attaches: provare → provar + la = provarla."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-04-l1-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Le scarpe? ___ ho comprate ieri.",
+          "options": [
+            "Le",
+            "Li",
+            "L'",
+            "La"
+          ],
+          "answer": 0,
+          "explanation": "Le scarpe (f. pl.) → le, and the participle agrees: comprate. Le and li don't elide before ho."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2r-04-l1-e06",
+          "instruction": "Abbina la cosa al pronome diretto.",
+          "pairs": [
+            {
+              "left": "il giornale",
+              "right": "lo"
+            },
+            {
+              "left": "la borsa",
+              "right": "la"
+            },
+            {
+              "left": "gli occhiali",
+              "right": "li"
+            },
+            {
+              "left": "le uova",
+              "right": "le"
+            }
+          ],
+          "explanation": "Careful: uovo is masculine in the singular but becomes feminine in the plural (le uova), so the pronoun is le."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-04-l1-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "La torta? Ho la comprata in pasticceria.",
+          "answers": [
+            "La torta? L'ho comprata in pasticceria.",
+            "La torta? La ho comprata in pasticceria.",
+            "L'ho comprata in pasticceria."
+          ],
+          "explanation": "The pronoun goes before the auxiliary, and la usually becomes l' before ho: l'ho comprata."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a2r-04-l1-e08",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "The tickets? I bought them online.",
+          "tiles": [
+            "I",
+            "biglietti",
+            "li",
+            "ho",
+            "comprati",
+            "online"
+          ],
+          "distractors": [
+            "le",
+            "comprato"
+          ],
+          "explanation": "Putting the object first and repeating it with a pronoun (I biglietti li ho…) is very common in spoken Italian. Li → comprati."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-04-l1-e09",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Il pane lo prendo io, tu prendi il vino.",
+          "answers": [
+            "Il pane lo prendo io, tu prendi il vino.",
+            "Il pane lo prendo io tu prendi il vino."
+          ],
+          "slow": true,
+          "explanation": "Il pane lo prendo io: object first, then repeated with lo – typical spoken Italian."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "a2r-04-l1-e10",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Questa giacca mi piace molto. Posso provarla?",
+          "translation": "I really like this jacket. Can I try it on?"
+        },
+        {
+          "type": "roleplay",
+          "id": "a2r-04-l1-e11",
+          "instruction": "Sei in un negozio di abbigliamento. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You want to try on and buy a blue jacket you saw in the shop window.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, posso aiutarla?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, grazie. Vorrei vedere la giacca blu in vetrina.",
+              "hint": "Vorrei vedere…",
+              "keywords": [
+                "giacca",
+                "vetrina"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo. Che taglia porta?"
+            },
+            {
+              "speaker": "you",
+              "text": "Porto la cinquanta. Posso provarla?",
+              "hint": "Provare + la.",
+              "keywords": [
+                "provarla"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, il camerino è lì in fondo… Allora, come va?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mi sta bene. La prendo!",
+              "hint": "Mi sta bene = it fits/suits me. La = the jacket.",
+              "keywords": [
+                "la prendo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto. Paga con la carta?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, con la carta, grazie.",
+              "keywords": [
+                "carta"
+              ]
+            }
+          ],
+          "explanation": "La prendo / posso provarla: the pronoun always refers back to la giacca. The shop assistant uses La (formal you): posso aiutarLa?"
+        }
+      ]
+    },
+    {
+      "id": "a2r-04-l2",
+      "title": "Gli telefono domani",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2r-04-l2-e01",
+          "instruction": "Riscaldamento: completa con il pronome diretto.",
+          "sentence": "Il caffè? ___ bevo senza zucchero.",
+          "answers": [
+            "lo"
+          ],
+          "hint": "il caffè (m. sing.)",
+          "explanation": "Il caffè → lo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-04-l2-e02",
+          "title": "I pronomi indiretti",
+          "body": "An **indirect object pronoun** answers *to whom? / for whom?* – it replaces **a + person**.\n\n- **mi** (to me), **ti** (to you), **gli** (to him), **le** (to her), **Le** (to you, formal), **ci** (to us), **vi** (to you pl.)\n- **gli** (to them) in everyday Italian; *loro* after the verb is formal: *Telefono loro.*\n\nCommon verbs with **a + person**: *telefonare, scrivere, dire, chiedere, rispondere, dare, mandare, regalare, spiegare, piacere*.\n\n**Watch out:**\n- *chiamare qualcuno* is direct (**la** chiamo), *telefonare a qualcuno* is indirect (**le** telefono)\n- indirect pronouns never make the participle agree: *Le ho scritto* (to her) vs *L'ho vista* (her)\n- *piacere* works with indirect pronouns: *Gli piace il calcio. Le piacciono i film italiani.*",
+          "examples": [
+            {
+              "it": "Ho visto Anna e le ho dato il tuo numero.",
+              "en": "I saw Anna and gave her your number."
+            },
+            {
+              "it": "Signora, Le posso offrire un caffè?",
+              "en": "Madam, may I offer you a coffee?"
+            },
+            {
+              "it": "Ai miei genitori? Gli telefono ogni domenica.",
+              "en": "My parents? I phone them every Sunday."
+            },
+            {
+              "it": "Mio fratello? Gli piace molto cucinare.",
+              "en": "My brother? He really likes cooking."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-04-l2-e03",
+          "instruction": "Scegli il pronome giusto.",
+          "prompt": "Ho visto Anna ieri e ___ ho dato il libro.",
+          "options": [
+            "gli",
+            "le",
+            "la",
+            "lo"
+          ],
+          "answer": 1,
+          "explanation": "Dare a Anna → le (to her)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-04-l2-e04",
+          "instruction": "Scegli il pronome giusto.",
+          "prompt": "Signora, ___ posso offrire un caffè?",
+          "options": [
+            "La",
+            "Le",
+            "Gli",
+            "Ti"
+          ],
+          "answer": 1,
+          "explanation": "Offrire a qualcuno → indirect. Formal 'to you' = Le."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-04-l2-e05",
+          "instruction": "Completa con il pronome indiretto.",
+          "sentence": "Domani è il compleanno di Marco: ___ regalo un libro.",
+          "answers": [
+            "gli"
+          ],
+          "hint": "a Marco",
+          "explanation": "Regalare a Marco → gli."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-04-l2-e06",
+          "instruction": "Completa con il pronome indiretto.",
+          "sentence": "I miei genitori? ___ telefono ogni domenica.",
+          "answers": [
+            "gli"
+          ],
+          "hint": "ai miei genitori",
+          "explanation": "In everyday Italian gli also means 'to them'. Telefono loro is correct but formal."
+        },
+        {
+          "type": "flashcard",
+          "id": "a2r-04-l2-e07",
+          "front": "chiamare vs telefonare",
+          "back": "chiamare qualcuno → la chiamo (direct) · telefonare a qualcuno → le telefono (indirect)",
+          "example": "Giulia? La chiamo stasera, anzi le telefono subito."
+        },
+        {
+          "type": "translate",
+          "id": "a2r-04-l2-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I wrote to her yesterday but she didn't answer me.",
+          "answers": [
+            "Le ho scritto ieri ma non mi ha risposto.",
+            "Ieri le ho scritto ma non mi ha risposto.",
+            "Le ho scritto ieri, ma non mi ha risposto.",
+            "Ieri le ho scritto, ma non mi ha risposto.",
+            "Le ho scritto ieri però non mi ha risposto."
+          ],
+          "explanation": "Scrivere a lei → le; rispondere a me → mi. No agreement of the participle with indirect pronouns."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-04-l2-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Mia sorella? La ho telefonato ieri sera.",
+          "answers": [
+            "Mia sorella? Le ho telefonato ieri sera.",
+            "Mia sorella? Le ho telefonato ieri."
+          ],
+          "explanation": "Telefonare a qualcuno is indirect: le ho telefonato. (With chiamare: l'ho chiamata.)"
+        },
+        {
+          "type": "reading",
+          "id": "a2r-04-l2-e10",
+          "instruction": "Leggi il messaggio di Paolo e rispondi.",
+          "title": "Un messaggio dall'ufficio",
+          "passage": "Ciao! Ho parlato con il direttore e gli ho spiegato il problema: il preventivo lo firma domani. A Giulia ho mandato i documenti, ma non le ho ancora telefonato: puoi chiamarla tu? I biglietti per la riunione di Roma li ho già comprati e li porto in ufficio lunedì. A presto, Paolo",
+          "questions": [
+            {
+              "question": "Chi deve chiamare Giulia?",
+              "options": [
+                "Paolo",
+                "Il direttore",
+                "La persona che riceve il messaggio",
+                "Nessuno"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa ha già comprato Paolo?",
+              "options": [
+                "I documenti",
+                "I biglietti",
+                "Il preventivo",
+                "Niente"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Nella frase «gli ho spiegato il problema», gli significa…",
+              "options": [
+                "a Giulia",
+                "al direttore",
+                "a me",
+                "ai biglietti"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Track each pronoun back: gli = al direttore, lo = il preventivo, le / la = Giulia, li = i biglietti."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a2r-04-l2-e11",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Allora, a mia madre regalo un libro, perché le piace leggere. A mio padre invece compro una cravatta: gli piacciono quelle colorate.",
+          "question": "Che cosa piace al padre?",
+          "options": [
+            "Leggere",
+            "Le cravatte colorate",
+            "I libri gialli",
+            "Niente di speciale"
+          ],
+          "answer": 1,
+          "explanation": "Gli piacciono = he likes (to him are pleasing). Le piace = she likes."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-04-l2-e12",
+          "instruction": "Rispondi ad alta voce usando i pronomi.",
+          "prompt": "Un amico ti chiede: «Hai invitato la tua vicina alla festa? E i tuoi colleghi?»",
+          "keywords": [
+            "l'ho",
+            "le",
+            "li"
+          ],
+          "modelAnswer": "Sì, la vicina l'ho invitata ieri e le ho detto di venire alle otto. I colleghi invece li invito domani, gli scrivo un messaggio.",
+          "explanation": "Invitare is direct (l'ho invitata, li invito); dire and scrivere a are indirect (le ho detto, gli scrivo)."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la taglia",
+      "en": "(clothes) size",
+      "example": "Che taglia porta?"
+    },
+    {
+      "it": "il camerino",
+      "en": "fitting room",
+      "example": "Il camerino è in fondo a destra."
+    },
+    {
+      "it": "provare",
+      "en": "to try (on)",
+      "example": "Posso provarla?"
+    },
+    {
+      "it": "la vetrina",
+      "en": "shop window",
+      "example": "Vorrei vedere la giacca in vetrina."
+    },
+    {
+      "it": "mi sta bene",
+      "en": "it fits / suits me",
+      "example": "Questa giacca mi sta bene."
+    },
+    {
+      "it": "il commesso / la commessa",
+      "en": "shop assistant",
+      "example": "La commessa mi ha consigliato un'altra taglia."
+    },
+    {
+      "it": "pagare con la carta",
+      "en": "to pay by card",
+      "example": "Posso pagare con la carta?"
+    },
+    {
+      "it": "lo scontrino",
+      "en": "receipt (till)",
+      "example": "Conservi lo scontrino per il cambio."
+    },
+    {
+      "it": "regalare",
+      "en": "to give (as a present)",
+      "example": "Le regalo un libro."
+    },
+    {
+      "it": "telefonare a",
+      "en": "to phone (someone)",
+      "example": "Gli telefono stasera."
+    },
+    {
+      "it": "chiamare",
+      "en": "to call",
+      "example": "La chiamo domani."
+    },
+    {
+      "it": "rispondere (risposto)",
+      "en": "to answer, reply",
+      "example": "Non mi ha ancora risposto."
+    },
+    {
+      "it": "spiegare",
+      "en": "to explain",
+      "example": "Gli ho spiegato il problema."
+    },
+    {
+      "it": "il compleanno",
+      "en": "birthday",
+      "example": "Domani è il compleanno di Marco."
+    },
+    {
+      "it": "le uova",
+      "en": "eggs (sing. l'uovo)",
+      "example": "Le uova le ho messe in frigo."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2r-04-t1",
+      "rule": "Lo, la, li, le",
+      "tip": "Direct pronouns replace a thing or person with no preposition: il pane → lo prendo, le mele → le compro.",
+      "example": {
+        "it": "Gli occhiali? Li ho sul naso!",
+        "en": "My glasses? They're on my nose!"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Gli occhiali? ___ cerco da un'ora!",
+        "answers": [
+          "li"
+        ],
+        "hint": "gli occhiali (m. pl.)"
+      }
+    },
+    {
+      "id": "a2r-04-t2",
+      "rule": "L'ho presa: l'accordo",
+      "tip": "With lo/la/li/le in the passato prossimo, the participle agrees: la borsa? L'ho presa. I soldi? Li ho spesi.",
+      "example": {
+        "it": "Le foto? Le ho mandate ieri.",
+        "en": "The photos? I sent them yesterday."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Le chiavi? Le ho ___ (perdere) ieri.",
+        "answers": [
+          "perse"
+        ],
+        "hint": "perdere → perso"
+      }
+    },
+    {
+      "id": "a2r-04-t3",
+      "rule": "Gli e le: a chi?",
+      "tip": "Indirect pronouns answer 'to whom?': gli = to him (and to them in speech), le = to her, Le = to you (formal).",
+      "example": {
+        "it": "Le ho chiesto un'informazione.",
+        "en": "I asked her for some information."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ho incontrato Sara e ___ ho dato il tuo numero.",
+        "options": [
+          "le",
+          "la",
+          "gli",
+          "lo"
+        ],
+        "answer": 0,
+        "explanation": "Dare a Sara → le."
+      }
+    },
+    {
+      "id": "a2r-04-t4",
+      "rule": "Chiamare o telefonare?",
+      "tip": "Chiamare takes a direct pronoun (la chiamo), telefonare takes an indirect one (le telefono).",
+      "example": {
+        "it": "Il tecnico? L'ho chiamato, anzi gli ho telefonato due volte.",
+        "en": "The technician? I called him – actually, I phoned him twice."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Mio fratello? Lo telefono stasera.",
+        "answers": [
+          "Mio fratello? Gli telefono stasera."
+        ],
+        "explanation": "Telefonare a → gli."
+      }
+    },
+    {
+      "id": "a2r-04-t5",
+      "rule": "Pronome + infinito",
+      "tip": "With an infinitive the pronoun attaches to it (posso provarla?) or goes before the modal (la posso provare?).",
+      "example": {
+        "it": "Devo chiamarlo oggi. / Lo devo chiamare oggi.",
+        "en": "I must call him today."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "The jacket? Can I try it on?",
+        "answers": [
+          "La giacca? Posso provarla?",
+          "La giacca? La posso provare?"
+        ]
+      }
+    }
+  ]
+}

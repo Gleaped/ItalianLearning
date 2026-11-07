@@ -1,0 +1,915 @@
+{
+  "id": "b2-07",
+  "level": "B2",
+  "title": "La concordanza dei tempi",
+  "objective": "By the end you can build longer, well-linked opinions about past and present situations, choosing the right indicative or subjunctive tense in the dependent clause (penso che sia, pensavo che fosse, vorrei che venissi, ha detto che sarebbe venuto).",
+  "grammarFocus": "Concordanza dei tempi: principale al presente vs al passato o al condizionale; contemporaneità, anteriorità e posteriorità con congiuntivo e indicativo; congiuntivo trapassato; vorrei che + congiuntivo imperfetto; futuro nel passato con il condizionale passato; connettivi per argomentare.",
+  "remedialUnitIds": [
+    "b2-01",
+    "b1-09",
+    "b2-03"
+  ],
+  "lessons": [
+    {
+      "id": "b2-07-l1",
+      "title": "Penso che… / Pensavo che…",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-07-l1-e01",
+          "prompt": "Credo che Marco ___ ragione, ma non ne sono sicuro.",
+          "options": [
+            "ha",
+            "abbia",
+            "avesse",
+            "avrà avuto"
+          ],
+          "answer": 1,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Riscaldamento (B1-09): credere che + congiuntivo. Principale al presente, stesso momento → congiuntivo presente: abbia."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l1-e02",
+          "sentence": "Speravo che tu ___ (venire) alla festa.",
+          "answers": [
+            "venissi"
+          ],
+          "hint": "venire – tu",
+          "instruction": "Riscaldamento: completa con il congiuntivo imperfetto.",
+          "explanation": "Riscaldamento (B2-01): dopo un verbo al passato (speravo) → congiuntivo imperfetto: venissi."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-07-l1-e03",
+          "title": "Principale al presente: tre rapporti di tempo",
+          "body": "La **concordanza dei tempi** collega il tempo della frase principale al tempo della frase dipendente. Fatti due domande: *in che tempo è il verbo principale?* e *l'azione dipendente avviene prima, nello stesso momento o dopo?*\n\n**Principale al presente** (o al futuro, o all'imperativo) + verbo che vuole il congiuntivo:\n- **contemporaneità** (same time) → congiuntivo presente: *Penso che Luca **sia** a casa.*\n- **anteriorità** (before) → congiuntivo passato: *Penso che Luca **sia uscito** un'ora fa.*\n- **posteriorità** (after) → futuro indicativo o congiuntivo presente: *Penso che Luca **verrà** / **venga** domani.*\n\nIl futuro dopo *penso che* è normalissimo nel parlato; con il congiuntivo presente serve una parola di tempo (*domani*) per chiarire che è futuro.\n\nIn English *I think he's left* and *I think he left* look different from Italian: choose the tense by the **time relation**, not by translating word for word.",
+          "examples": [
+            {
+              "it": "Credo che il negozio sia ancora aperto.",
+              "en": "I think the shop is still open."
+            },
+            {
+              "it": "Mi sembra che abbiano già chiuso le iscrizioni.",
+              "en": "It seems to me they've already closed enrolment."
+            },
+            {
+              "it": "Dubito che il pacco arrivi prima di lunedì.",
+              "en": "I doubt the parcel will arrive before Monday."
+            },
+            {
+              "it": "Non penso che domani pioverà.",
+              "en": "I don't think it will rain tomorrow."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-07-l1-e04",
+          "pairs": [
+            {
+              "left": "Penso che Anna sia in ufficio.",
+              "right": "adesso (contemporaneità)"
+            },
+            {
+              "left": "Penso che Anna sia andata in ufficio.",
+              "right": "prima di adesso (anteriorità)"
+            },
+            {
+              "left": "Penso che Anna andrà in ufficio.",
+              "right": "dopo adesso (posteriorità)"
+            },
+            {
+              "left": "Pensavo che Anna fosse in ufficio.",
+              "right": "nello stesso momento, nel passato"
+            },
+            {
+              "left": "Pensavo che Anna fosse andata in ufficio.",
+              "right": "prima di un momento passato"
+            }
+          ],
+          "instruction": "Abbina ogni frase al rapporto di tempo.",
+          "explanation": "Le ultime due frasi hanno la principale al passato: il congiuntivo 'si sposta indietro' (fosse, fosse andata)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-07-l1-e05",
+          "prompt": "Credo che ieri Luca ___ tardi dal lavoro.",
+          "options": [
+            "tornasse",
+            "torni",
+            "sia tornato",
+            "tornerà"
+          ],
+          "answer": 2,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Ieri = prima del momento in cui parlo → anteriorità con principale al presente: congiuntivo passato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l1-e06",
+          "sentence": "Non penso che domani ___ (piovere): le previsioni sono buone.",
+          "answers": [
+            "piova",
+            "pioverà"
+          ],
+          "hint": "piovere – posteriorità",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Posteriorità con principale al presente: va bene sia il congiuntivo presente (piova) sia il futuro (pioverà)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-07-l1-e07",
+          "title": "Principale al passato o al condizionale",
+          "body": "Quando il verbo principale è **al passato** (imperfetto, passato prossimo, trapassato…) o **al condizionale**, tutto si sposta indietro:\n- **contemporaneità** → congiuntivo **imperfetto**: *Pensavo che Luca **fosse** a casa.*\n- **anteriorità** → congiuntivo **trapassato**: *Pensavo che Luca **fosse uscito**.*\n- **posteriorità** → **condizionale passato**: *Pensavo che Luca **sarebbe venuto** il giorno dopo.*\n\n**Congiuntivo trapassato** = congiuntivo imperfetto di *avere/essere* + participio: *avessi capito, fossi arrivato/a*.\n\nErrori tipici: ~~*Pensavo che è…*~~, ~~*Pensavo che sia…*~~ → *Pensavo che **fosse**…* E il 'futuro nel passato' è sempre **condizionale passato**, mai condizionale presente: *Ha detto che **sarebbe venuto*** (non ~~*verrebbe*~~).",
+          "examples": [
+            {
+              "it": "Pensavo che il museo fosse aperto il lunedì.",
+              "en": "I thought the museum was open on Mondays."
+            },
+            {
+              "it": "Credevo che avessi già pagato la bolletta.",
+              "en": "I thought you had already paid the bill."
+            },
+            {
+              "it": "Non immaginavo che sarebbe stato così difficile.",
+              "en": "I didn't imagine it would be so hard."
+            },
+            {
+              "it": "Mi sembrava che il medico avesse ragione.",
+              "en": "It seemed to me that the doctor was right."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-07-l1-e08",
+          "prompt": "Quando sono arrivato in stazione, pensavo che il treno ___ già partito.",
+          "options": [
+            "sia",
+            "sarebbe",
+            "fosse",
+            "era stato"
+          ],
+          "answer": 2,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Principale al passato (pensavo) + azione precedente → congiuntivo trapassato: fosse partito."
+        },
+        {
+          "type": "conjugation",
+          "id": "b2-07-l1-e09",
+          "verb": "capire",
+          "tense": "congiuntivo trapassato",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "avessi capito"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "avessi capito"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "avesse capito"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "avessimo capito"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "aveste capito"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "avessero capito"
+            }
+          ],
+          "instruction": "Scrivi il congiuntivo trapassato di capire.",
+          "explanation": "Congiuntivo imperfetto di avere (avessi, avessi, avesse…) + participio. Con i verbi di movimento usa essere: fossi arrivato/a."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-07-l1-e10",
+          "translation": "I thought you had already left.",
+          "tiles": [
+            "Pensavo",
+            "che",
+            "fossi",
+            "già",
+            "partito"
+          ],
+          "distractors": [
+            "sei",
+            "saresti"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Anteriorità nel passato → congiuntivo trapassato: fossi partito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l1-e11",
+          "sentence": "Pensavo che il direttore ___ in ferie.",
+          "answers": [
+            "fosse"
+          ],
+          "hint": "essere – contemporaneità nel passato",
+          "instruction": "Trasforma al passato: «Penso che il direttore sia in ferie.»",
+          "explanation": "Sia (presente) diventa fosse (imperfetto) quando la principale passa al passato."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-07-l1-e12",
+          "audioText": "Credevo che la farmacia fosse aperta anche la domenica.",
+          "answers": [
+            "Credevo che la farmacia fosse aperta anche la domenica."
+          ],
+          "slow": false,
+          "instruction": "Ascolta e scrivi la frase.",
+          "explanation": "Credevo (passato) → fosse aperta (congiuntivo imperfetto: contemporaneità)."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-07-l1-e13",
+          "text": "Non immaginavo che l'esame sarebbe stato così lungo.",
+          "translation": "I didn't imagine the exam would be so long.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-07-l1-e14",
+          "prompt": "Pensa alla prima volta in un posto nuovo (un viaggio, un corso, un lavoro). Che cosa pensavi prima? Che cosa credevi che sarebbe successo?",
+          "keywords": [
+            "pensavo che",
+            "credevo",
+            "sarebbe"
+          ],
+          "modelAnswer": "Prima del mio primo viaggio in Italia pensavo che tutti parlassero inglese e credevo che sarebbe stato facile capire le persone. In realtà parlavano velocissimo!",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "explanation": "Aspettative passate: pensavo che + congiuntivo imperfetto; ciò che doveva succedere dopo: condizionale passato (sarebbe stato)."
+        }
+      ]
+    },
+    {
+      "id": "b2-07-l2",
+      "title": "Vorrei che… / Ha detto che sarebbe…",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "b2-07-l2-e01",
+          "direction": "it_en",
+          "source": "Pensavo che il negozio fosse chiuso.",
+          "answers": [
+            "I thought the shop was closed.",
+            "I thought the store was closed.",
+            "I thought that the shop was closed.",
+            "I thought that the store was closed.",
+            "I thought the shop was shut.",
+            "I thought that the shop was shut."
+          ],
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "explanation": "Pensavo che + congiuntivo imperfetto = I thought (that) + past simple."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l2-e02",
+          "sentence": "Credevo che Giulia ___ (partire) ieri, invece è ancora qui.",
+          "answers": [
+            "fosse partita"
+          ],
+          "hint": "partire – lei, anteriorità nel passato",
+          "instruction": "Riscaldamento: completa con il congiuntivo trapassato.",
+          "explanation": "Credevo (passato) + azione precedente → fosse partita (accordo con Giulia)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-07-l2-e03",
+          "title": "Vorrei che…, il futuro nel passato, la certezza",
+          "body": "**1. Vorrei che + congiuntivo imperfetto.** Il condizionale conta come un tempo 'passato' per la concordanza. Dopo *vorrei che, mi piacerebbe che, preferirei che, sarebbe meglio che* usa il **congiuntivo imperfetto**, anche se parli di adesso o del futuro:\n- *Vorrei che tu **venissi** domani.* (non ~~*venga*~~)\n- *Sarebbe meglio che il medico la **visitasse** subito.*\n\n**2. Futuro nel passato.** Per dire che qualcosa *doveva* succedere dopo un momento passato, usa il **condizionale passato**:\n- *Mi ha detto che **sarebbe arrivato** alle otto.* (He said he would arrive at eight.)\n- *Ieri ha detto che domani **avrebbe chiamato**.* – anche se 'domani' è ancora nel futuro.\n\n**3. Certezza → indicativo.** Dopo *sapere, essere sicuro, è chiaro / evidente / vero che, scoprire che* si usa l'**indicativo**, con la stessa logica di tempo: *Sapevo che **era** vero. Era chiaro che **aveva** sbagliato.*",
+          "examples": [
+            {
+              "it": "Vorrei che mi chiamassi appena arrivi.",
+              "en": "I'd like you to call me as soon as you arrive."
+            },
+            {
+              "it": "Preferirei che la riunione fosse di mattina.",
+              "en": "I'd prefer the meeting to be in the morning."
+            },
+            {
+              "it": "Il tecnico ha detto che sarebbe passato nel pomeriggio.",
+              "en": "The technician said he would come by in the afternoon."
+            },
+            {
+              "it": "Sapevo che il treno era in ritardo.",
+              "en": "I knew the train was late."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-07-l2-e04",
+          "prompt": "Vorrei che tu mi ___ con questo modulo.",
+          "options": [
+            "hai aiutato",
+            "aiutassi",
+            "aiuti",
+            "aiuterai"
+          ],
+          "answer": 1,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Vorrei che + congiuntivo imperfetto, anche per una richiesta presente."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-07-l2-e05",
+          "sentence": "Mi piacerebbe che il comune apra una nuova biblioteca nel quartiere.",
+          "answers": [
+            "Mi piacerebbe che il comune aprisse una nuova biblioteca nel quartiere."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Mi piacerebbe che (condizionale) → congiuntivo imperfetto: aprisse."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l2-e06",
+          "sentence": "Ero sicuro che il treno ___ (arrivare) in ritardo, e infatti è arrivato alle dieci.",
+          "answers": [
+            "sarebbe arrivato"
+          ],
+          "hint": "arrivare – futuro nel passato",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Ero sicuro (certezza, indicativo) + azione successiva nel passato → condizionale passato."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-07-l2-e07",
+          "prompt": "Sapevo benissimo che Marco ___ malato, per questo non l'ho chiamato.",
+          "options": [
+            "fosse",
+            "sia",
+            "sarebbe",
+            "era"
+          ],
+          "answer": 3,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Sapere esprime certezza: indicativo. Contemporaneità nel passato → imperfetto: era."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-07-l2-e08",
+          "pairs": [
+            {
+              "left": "Penso che",
+              "right": "tu abbia ragione."
+            },
+            {
+              "left": "Pensavo che",
+              "right": "tu avessi ragione."
+            },
+            {
+              "left": "Vorrei che",
+              "right": "tu restassi a cena."
+            },
+            {
+              "left": "Sapevo che",
+              "right": "tu avevi ragione."
+            },
+            {
+              "left": "Mi ha promesso che",
+              "right": "sarebbe venuto presto."
+            }
+          ],
+          "instruction": "Abbina l'inizio alla fine giusta.",
+          "explanation": "Presente → congiuntivo presente; passato e condizionale → congiuntivo imperfetto; certezza → indicativo; futuro nel passato → condizionale passato."
+        },
+        {
+          "type": "translate",
+          "id": "b2-07-l2-e09",
+          "direction": "en_it",
+          "source": "I'd like you to call me tomorrow.",
+          "answers": [
+            "Vorrei che mi chiamassi domani.",
+            "Vorrei che tu mi chiamassi domani.",
+            "Vorrei che domani mi chiamassi.",
+            "Vorrei che tu domani mi chiamassi.",
+            "Domani vorrei che mi chiamassi.",
+            "Vorrei che mi chiamasse domani.",
+            "Vorrei che lei mi chiamasse domani.",
+            "Vorrei che Lei mi chiamasse domani.",
+            "Vorrei che domani mi chiamasse.",
+            "Mi piacerebbe che mi chiamassi domani."
+          ],
+          "instruction": "Traduci in italiano.",
+          "explanation": "I'd like you to… = vorrei che + congiuntivo imperfetto (non 'vorrei te chiamare')."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-07-l2-e10",
+          "audioText": "Ciao, sono Davide. Senti, ieri l'idraulico mi ha detto che sarebbe passato stamattina, ma non si è visto nessuno. Pensavo che fosse una persona seria! Vorrei che lo chiamassi tu, visto che lo conosci bene.",
+          "question": "Che cosa chiede Davide all'amico?",
+          "options": [
+            "Di riparare il lavandino insieme.",
+            "Di passare da lui stamattina.",
+            "Il numero di un altro idraulico.",
+            "Di chiamare l'idraulico."
+          ],
+          "answer": 3,
+          "instruction": "Ascolta il messaggio vocale e rispondi.",
+          "explanation": "Vorrei che lo chiamassi tu = vuole che sia l'amico a telefonare all'idraulico."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-07-l2-e11",
+          "text": "Vorrei che il medico mi spiegasse meglio la terapia.",
+          "translation": "I'd like the doctor to explain the treatment to me better.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-07-l2-e12",
+          "prompt": "Che cosa vorresti che cambiasse nel posto dove vivi? Di' almeno due cose con «vorrei che» o «mi piacerebbe che».",
+          "keywords": [
+            "vorrei che",
+            "mi piacerebbe che"
+          ],
+          "modelAnswer": "Vorrei che gli autobus passassero più spesso, soprattutto la sera. E mi piacerebbe che ci fossero più spazi verdi e meno traffico in centro.",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "explanation": "Dopo vorrei che / mi piacerebbe che: passassero, ci fossero (congiuntivo imperfetto)."
+        },
+        {
+          "type": "flashcard",
+          "id": "b2-07-l2-e13",
+          "front": "dare per scontato (che)",
+          "back": "to take for granted (that)",
+          "example": "Davo per scontato che il negozio fosse aperto."
+        }
+      ]
+    },
+    {
+      "id": "b2-07-l3",
+      "title": "Dire la propria opinione",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-07-l3-e01",
+          "prompt": "Mi piacerebbe che il comune ___ più piste ciclabili.",
+          "options": [
+            "costruirà",
+            "costruisse",
+            "costruisca",
+            "ha costruito"
+          ],
+          "answer": 1,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Mi piacerebbe che → congiuntivo imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l3-e02",
+          "sentence": "Pensavo che il film ___ (finire) da un pezzo, invece era appena cominciato.",
+          "answers": [
+            "fosse finito"
+          ],
+          "hint": "finire – anteriorità nel passato",
+          "instruction": "Riscaldamento: completa.",
+          "explanation": "Pensavo + azione precedente → congiuntivo trapassato: fosse finito."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-07-l3-e03",
+          "title": "Costruire un'opinione articolata",
+          "body": "A livello B2 (e nelle prove scritte e orali di un esame come il CELI 3) non basta dire *secondo me*: bisogna **argomentare**. Combina i verbi di opinione con i **connettivi**:\n- per introdurre: *secondo me, a mio parere, ho l'impressione che* + congiuntivo\n- per aggiungere: *inoltre, per di più, non solo… ma anche*\n- per contrapporre: *tuttavia, eppure, d'altra parte, invece*\n- per correggere o rafforzare: **anzi** (*Non è caro, anzi, è conveniente.* = on the contrary / actually)\n- per concludere: *insomma, in conclusione, per questo*\n\nAnche le **espressioni impersonali** seguono la concordanza: *È importante che **si investa**… / Era importante che **si investisse**… / Sarebbe utile che **ci fossero**…* Ma quelle di certezza vogliono l'indicativo: *È evidente che il servizio **è peggiorato**.*\n\n**Riepilogo**\n- principale al presente → cong. presente / cong. passato / futuro\n- principale al passato o al condizionale → cong. imperfetto / cong. trapassato / condizionale passato",
+          "examples": [
+            {
+              "it": "Ho l'impressione che il servizio sia peggiorato.",
+              "en": "I have the impression the service has got worse."
+            },
+            {
+              "it": "Era necessario che tutti firmassero il modulo.",
+              "en": "Everyone had to sign the form."
+            },
+            {
+              "it": "Non è caro, anzi, mi sembra conveniente.",
+              "en": "It isn't expensive; on the contrary, it seems good value."
+            },
+            {
+              "it": "Pensavo che fosse una buona idea; tuttavia ho cambiato idea.",
+              "en": "I thought it was a good idea; however, I changed my mind."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "b2-07-l3-e04",
+          "title": "Lettera al direttore: il nuovo orario degli autobus",
+          "passage": "Gentile direttore,\nle scrivo a proposito del nuovo orario degli autobus, entrato in vigore il mese scorso. Quando il comune ha annunciato la riforma, pensavo che il servizio sarebbe finalmente migliorato. Il sindaco aveva promesso che le corse serali sarebbero raddoppiate e io, come molti cittadini, credevo che fosse un impegno serio.\nPurtroppo la realtà è diversa. È vero che di giorno gli autobus passano più spesso; tuttavia, dopo le nove di sera, la linea 12 è stata praticamente cancellata. Ho l'impressione che nessuno abbia pensato a chi lavora fino a tardi o a chi non ha la macchina.\nNon chiedo miracoli, anzi, capisco che le risorse siano limitate. Vorrei però che l'amministrazione ascoltasse gli utenti prima di prendere decisioni così importanti. Sarebbe utile, per esempio, che si organizzasse un incontro pubblico nel quartiere.\nInsomma, mi aspettavo un cambiamento in meglio, non un servizio a metà.\nDistinti saluti,\nMarco Ferri",
+          "questions": [
+            {
+              "question": "Che cosa pensava Marco quando è stata annunciata la riforma?",
+              "options": [
+                "Che le corse serali sarebbero diminuite.",
+                "Che il servizio sarebbe migliorato.",
+                "Che il sindaco non fosse serio.",
+                "Che la linea 12 sarebbe stata cancellata."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è il problema principale del nuovo orario?",
+              "options": [
+                "Di giorno gli autobus sono troppo pochi.",
+                "La sera la linea 12 non passa quasi più.",
+                "Gli autobus sono sempre in ritardo.",
+                "I biglietti costano di più."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa propone Marco?",
+              "options": [
+                "Di cancellare la riforma.",
+                "Più parcheggi in centro.",
+                "Un incontro pubblico con i cittadini.",
+                "Di comprare nuovi autobus."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Nella frase «Non chiedo miracoli, anzi…», anzi significa:",
+              "options": [
+                "purtroppo",
+                "per esempio",
+                "al contrario, e in più",
+                "quindi"
+              ],
+              "answer": 2
+            }
+          ],
+          "instruction": "Leggi la lettera a un giornale locale e rispondi (compito di comprensione in stile CELI).",
+          "explanation": "Nota come la lettera alterna aspettative passate (pensavo che sarebbe migliorato, credevo che fosse) e richieste presenti (vorrei che ascoltasse, sarebbe utile che si organizzasse)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l3-e05",
+          "sentence": "Il sindaco aveva promesso che le corse serali ___ (raddoppiare).",
+          "answers": [
+            "sarebbero raddoppiate"
+          ],
+          "hint": "raddoppiare – futuro nel passato",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Promessa nel passato di un'azione successiva → condizionale passato, accordo con le corse."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-07-l3-e06",
+          "sentence": "Sarebbe utile che il comune ___ (organizzare) un incontro pubblico.",
+          "answers": [
+            "organizzasse"
+          ],
+          "hint": "organizzare – lui",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Sarebbe utile che (condizionale) → congiuntivo imperfetto."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-07-l3-e07",
+          "sentence": "Era chiaro che l'impiegato non abbia capito la mia domanda.",
+          "answers": [
+            "Era chiaro che l'impiegato non aveva capito la mia domanda."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Era chiaro che = certezza → indicativo. Principale al passato e azione precedente → trapassato prossimo: aveva capito."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-07-l3-e08",
+          "prompt": "Il trasloco non è stato un problema, ___, è stata un'occasione per buttare tante cose inutili!",
+          "options": [
+            "anzi",
+            "tuttavia",
+            "quindi",
+            "inoltre"
+          ],
+          "answer": 0,
+          "instruction": "Scegli il connettivo giusto.",
+          "explanation": "Anzi corregge e rafforza quello che hai appena detto: non un problema, al contrario un'occasione."
+        },
+        {
+          "type": "translate",
+          "id": "b2-07-l3-e09",
+          "direction": "en_it",
+          "source": "I had the impression that nobody had read my email.",
+          "answers": [
+            "Aavevo l'impressione che nessuno avesse letto la mia email.",
+            "Aavevo l'impressione che nessuno avesse letto la mia mail.",
+            "Aavevo l'impressione che nessuno avesse letto la mia e-mail.",
+            "Io aavevo l'impressione che nessuno avesse letto la mia email.",
+            "Io aavevo l'impressione che nessuno avesse letto la mia mail.",
+            "Io aavevo l'impressione che nessuno avesse letto la mia e-mail."
+          ],
+          "instruction": "Traduci in italiano.",
+          "explanation": "Avevo l'impressione (passato) + azione precedente → congiuntivo trapassato: avesse letto."
+        },
+        {
+          "type": "roleplay",
+          "id": "b2-07-l3-e10",
+          "scenario": "You meet your friend Chiara at a café. The council has closed a street in the centre to cars. She asks what you think: compare what you expected with what you think now, and say what you'd like.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Hai visto? Hanno chiuso via Garibaldi alle macchine. Che ne pensi?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sinceramente pensavo che sarebbe stato un disastro per i negozi, ma mi sbagliavo.",
+              "hint": "Say what you thought would happen (pensavo che + condizionale passato).",
+              "keywords": [
+                "pensavo che",
+                "sarebbe"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Davvero? Io credevo che fossi contrario!"
+            },
+            {
+              "speaker": "you",
+              "text": "All'inizio sì, però adesso mi sembra che la strada sia più vivibile, anzi, è molto più bella.",
+              "hint": "Now: mi sembra che + congiuntivo presente; add anzi.",
+              "keywords": [
+                "mi sembra che",
+                "anzi"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E secondo te che cosa dovrebbe fare il comune adesso?"
+            },
+            {
+              "speaker": "you",
+              "text": "Vorrei che mettessero più panchine e che gli autobus passassero più spesso.",
+              "hint": "Two wishes with vorrei che + congiuntivo imperfetto.",
+              "keywords": [
+                "vorrei che",
+                "passassero"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sono d'accordo. Insomma, alla fine è stata una buona idea!"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, insomma, non immaginavo che il cambiamento mi sarebbe piaciuto così tanto.",
+              "hint": "Conclude with insomma + a future in the past.",
+              "keywords": [
+                "insomma",
+                "sarebbe"
+              ]
+            }
+          ],
+          "instruction": "Parla con la tua amica Chiara. Rispondi ad alta voce quando tocca a te.",
+          "explanation": "Hai alternato aspettative passate (pensavo che sarebbe stato), opinione attuale (mi sembra che sia) e desideri (vorrei che mettessero)."
+        },
+        {
+          "type": "free_write",
+          "id": "b2-07-l3-e11",
+          "prompt": "Scrivi un post (120–150 parole) per il forum di un sito per chi studia italiano: «Quello che mi aspettavo e quello che ho trovato». Racconta che cosa pensavi dell'Italia o dell'italiano prima di un'esperienza importante (un viaggio, un corso, un trasferimento) e che cosa pensi oggi. Concludi con un desiderio (vorrei che… / mi piacerebbe che…).",
+          "minWords": 120,
+          "checklist": [
+            "Ho usato pensavo / credevo che + congiuntivo imperfetto o trapassato.",
+            "Ho usato almeno un futuro nel passato (condizionale passato).",
+            "Ho espresso un'opinione attuale con mi sembra che / ho l'impressione che + congiuntivo.",
+            "Ho usato vorrei che / mi piacerebbe che + congiuntivo imperfetto.",
+            "Ho usato l'indicativo dopo espressioni di certezza (so che, è chiaro che, mi sono reso conto che).",
+            "Ho collegato le idee con almeno tre connettivi (tuttavia, anzi, inoltre, insomma…)."
+          ],
+          "modelAnswer": "Prima del mio primo viaggio in Italia pensavo che l'italiano fosse una lingua facile, perché conoscevo già molte parole. Credevo anche che tutti parlassero lentamente con gli stranieri e che sarebbe stato semplice fare amicizia. In realtà, appena arrivato, mi sono reso conto che la gente parlava velocissimo e usava molte espressioni che non avevo mai studiato. Tuttavia non mi sono scoraggiato, anzi: ho cominciato a seguire un corso e a guardare film in lingua originale. Oggi ho l'impressione di aver fatto molti progressi, anche se è chiaro che devo ancora migliorare, soprattutto nello scritto. Inoltre mi sembra che le persone apprezzino molto chi prova a parlare la loro lingua. Insomma, l'esperienza è stata più difficile di quanto pensassi, ma anche più bella. Mi piacerebbe che i corsi dedicassero più tempo alla conversazione.",
+          "instruction": "Scrivi un testo per un forum.",
+          "explanation": "Più difficile di quanto pensassi: dopo un comparativo + di quanto si usa spesso il congiuntivo. È una struttura molto apprezzata a livello B2."
+        },
+        {
+          "type": "flashcard",
+          "id": "b2-07-l3-e12",
+          "front": "rendersi conto (di / che)",
+          "back": "to realise",
+          "example": "Mi sono reso conto che avevo dimenticato i documenti."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "dare per scontato",
+      "en": "to take for granted",
+      "example": "Davo per scontato che il negozio fosse aperto."
+    },
+    {
+      "it": "rendersi conto (di / che)",
+      "en": "to realise",
+      "example": "Mi sono reso conto che avevo sbagliato indirizzo."
+    },
+    {
+      "it": "avere l'impressione che",
+      "en": "to have the impression that",
+      "example": "Ho l'impressione che il servizio sia peggiorato."
+    },
+    {
+      "it": "aspettarsi",
+      "en": "to expect",
+      "example": "Non mi aspettavo che fosse così caro."
+    },
+    {
+      "it": "immaginare",
+      "en": "to imagine",
+      "example": "Non immaginavo che sarebbe stato così difficile."
+    },
+    {
+      "it": "essere convinto (che)",
+      "en": "to be convinced (that)",
+      "example": "Ero convinto che avessero già risposto."
+    },
+    {
+      "it": "il dubbio",
+      "en": "doubt",
+      "example": "Ho ancora qualche dubbio sulla proposta."
+    },
+    {
+      "it": "mantenere una promessa",
+      "en": "to keep a promise",
+      "example": "Il sindaco non ha mantenuto la promessa."
+    },
+    {
+      "it": "tuttavia",
+      "en": "however",
+      "example": "Il progetto è interessante; tuttavia costa troppo."
+    },
+    {
+      "it": "eppure",
+      "en": "and yet",
+      "example": "Me l'avevano spiegato tre volte, eppure ho sbagliato."
+    },
+    {
+      "it": "anzi",
+      "en": "on the contrary; actually, even",
+      "example": "Non mi disturbi, anzi, mi fa piacere."
+    },
+    {
+      "it": "d'altra parte",
+      "en": "on the other hand",
+      "example": "È caro; d'altra parte, la qualità è ottima."
+    },
+    {
+      "it": "inoltre",
+      "en": "moreover, in addition",
+      "example": "Inoltre, gli autobus sono sempre pieni."
+    },
+    {
+      "it": "insomma",
+      "en": "in short, all in all",
+      "example": "Insomma, è stata una buona idea."
+    },
+    {
+      "it": "il punto di vista",
+      "en": "point of view",
+      "example": "Dal mio punto di vista, la proposta è giusta."
+    },
+    {
+      "it": "sostenere",
+      "en": "to maintain, to argue",
+      "example": "Il sindaco sostiene che il traffico sia diminuito."
+    },
+    {
+      "it": "la proposta",
+      "en": "proposal",
+      "example": "La proposta è stata accolta da tutti."
+    },
+    {
+      "it": "migliorare / peggiorare",
+      "en": "to improve / to get worse",
+      "example": "Il servizio è migliorato, ma i prezzi sono peggiorati."
+    },
+    {
+      "it": "l'utente (m./f.)",
+      "en": "user (of a service)",
+      "example": "Gli utenti si lamentano del nuovo orario."
+    },
+    {
+      "it": "la corsa",
+      "en": "run, trip (of a bus or train)",
+      "example": "L'ultima corsa parte a mezzanotte."
+    },
+    {
+      "it": "entrare in vigore",
+      "en": "to come into force",
+      "example": "Il nuovo orario entra in vigore lunedì."
+    },
+    {
+      "it": "il cambiamento",
+      "en": "change",
+      "example": "È stato un cambiamento in meglio."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b2-07-t1",
+      "rule": "Presente → cong. presente o passato",
+      "tip": "After a present main verb, use the cong. presente for the same time and the cong. passato for what already happened.",
+      "example": {
+        "it": "Credo che ieri Luca sia tornato tardi.",
+        "en": "I think Luca came home late yesterday."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Credo che ieri Anna ___ (uscire) presto dall'ufficio.",
+        "answers": [
+          "sia uscita"
+        ],
+        "hint": "uscire – lei, anteriorità",
+        "instruction": "Completa la frase."
+      }
+    },
+    {
+      "id": "b2-07-t2",
+      "rule": "Passato → congiuntivo imperfetto",
+      "tip": "After a past main verb (pensavo, credevo), move the subjunctive back: fosse, avesse, potesse.",
+      "example": {
+        "it": "Pensavo che fosse chiuso.",
+        "en": "I thought it was closed."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Pensavo che il museo ___ aperto anche il lunedì.",
+        "options": [
+          "sarà",
+          "è",
+          "fosse",
+          "sia"
+        ],
+        "answer": 2,
+        "instruction": "Scegli la forma giusta."
+      }
+    },
+    {
+      "id": "b2-07-t3",
+      "rule": "Vorrei che + cong. imperfetto",
+      "tip": "Vorrei che, mi piacerebbe che, sarebbe meglio che: always the congiuntivo imperfetto, even about the future.",
+      "example": {
+        "it": "Vorrei che tu venissi domani.",
+        "en": "I'd like you to come tomorrow."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Vorrei che tu vieni con me.",
+        "answers": [
+          "Vorrei che tu venissi con me.",
+          "Vorrei che venissi con me."
+        ],
+        "instruction": "C'è un errore. Correggi."
+      }
+    },
+    {
+      "id": "b2-07-t4",
+      "rule": "Futuro nel passato",
+      "tip": "From a past viewpoint, a later action takes the condizionale passato: ha detto che sarebbe venuto.",
+      "example": {
+        "it": "Mi ha detto che sarebbe arrivato alle otto.",
+        "en": "He told me he would arrive at eight."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Il tecnico ha detto che ___ (passare) nel pomeriggio.",
+        "answers": [
+          "sarebbe passato"
+        ],
+        "hint": "passare – lui",
+        "instruction": "Completa la frase."
+      }
+    },
+    {
+      "id": "b2-07-t5",
+      "rule": "Certezza → indicativo",
+      "tip": "Sapere, essere sicuro and è chiaro che take the indicative, not the subjunctive: sapevo che era vero.",
+      "example": {
+        "it": "Era chiaro che aveva sbagliato.",
+        "en": "It was clear he had made a mistake."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Sapevo che Marco ___ ragione.",
+        "options": [
+          "avesse",
+          "avrebbe",
+          "abbia",
+          "aveva"
+        ],
+        "answer": 3,
+        "instruction": "Scegli la forma giusta."
+      }
+    }
+  ]
+}

@@ -76,6 +76,19 @@ Units marked ✅ are written and playable now. The rest show as "coming soon".
 
 C1 has 5 content units between its two checkpoints, not 3. Its later units are more about range and register than new grammar, so they recycle each other heavily.
 
+## Esame CELI 3 (B2): exam preparation (6 units, always open)
+
+The track mirrors the real CELI 3 sections; the verified format and sources are in [celi3-exam.md](celi3-exam.md).
+
+| Unit | Title | Focus |
+|---|---|---|
+| celi-01 | Leggere per l'esame | Reading (Part A): A.1 multiple choice, A.2 comparing two texts, A.3 open questions |
+| celi-02 | Ascoltare per l'esame | Listening (Part D): D.1 multiple choice, D.2 sentence completion |
+| celi-03 | Competenza linguistica | Part C: cloze, rebuilding sentences, word formation |
+| celi-04 | Scrivere per l'esame | Part B: 80–100-word letter/email and 120–180-word composition |
+| celi-05 | Parlare per l'esame | Oral: self-presentation, photo, text summary, role-play |
+| celi-06 | Simulazione d'esame | Timed mock of all sections, scored against the official pass marks |
+
 ## Unit 1 in detail: `b1-01` Com'è andata?
 
 **Objective:** tell someone how a recent day, appointment or weekend went, with the imperfetto for the scene and the passato prossimo for what happened.

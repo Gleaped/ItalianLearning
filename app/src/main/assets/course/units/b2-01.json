@@ -1,0 +1,946 @@
+{
+  "id": "b2-01",
+  "level": "B2",
+  "title": "Speravo che fosse vero",
+  "objective": "By the end you can express feelings, doubts, hopes and expectations about past and present events, using the congiuntivo passato and the congiuntivo imperfetto.",
+  "grammarFocus": "Congiuntivo passato (abbia fatto, sia andato); congiuntivo imperfetto (fossi, avessi, facessi) after past main verbs and after vorrei che; magari + congiuntivo imperfetto.",
+  "remedialUnitIds": [
+    "b1-09"
+  ],
+  "lessons": [
+    {
+      "id": "b2-01-l1",
+      "title": "Penso che sia già arrivato",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-01-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Penso che Luca ___ ragione: è meglio partire presto.",
+          "options": [
+            "ha",
+            "abbia",
+            "avesse",
+            "avrà"
+          ],
+          "answer": 1,
+          "explanation": "Riscaldamento (B1-09): pensare che + congiuntivo presente → abbia."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-01-l1-e02",
+          "instruction": "Riscaldamento: completa con il congiuntivo presente.",
+          "sentence": "È importante che tu ___ (portare) un documento d'identità.",
+          "answers": [
+            "porti"
+          ],
+          "hint": "portare – tu",
+          "explanation": "È importante che + congiuntivo presente: porti."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-01-l1-e03",
+          "title": "Il congiuntivo passato",
+          "body": "When the main verb needs the subjunctive (*penso, credo, spero, mi dispiace, sono contento, è strano che…*) and the action in the *che*-clause **has already happened**, use the **congiuntivo passato**.\n\n**Forma**: congiuntivo presente di *avere* o *essere* + participio passato\n- avere: abbia, abbia, abbia, abbiamo, abbiate, abbiano + *fatto*\n- essere: sia, sia, sia, siamo, siate, siano + *partito/a/i/e*\n\nStessi ausiliari e stesso accordo del passato prossimo: *è partita → penso che **sia partita***.\n\n**Confronta**:\n- *Penso che Anna **sia** a casa.* (adesso)\n- *Penso che Anna **sia uscita**.* (prima di adesso)\n\nEnglish often uses a plain past here (*I think she left*), but Italian keeps the subjunctive after verbs of opinion, doubt, hope and emotion.",
+          "examples": [
+            {
+              "it": "Spero che tu abbia dormito bene.",
+              "en": "I hope you slept well."
+            },
+            {
+              "it": "Mi dispiace che non siate potuti venire.",
+              "en": "I'm sorry you couldn't come."
+            },
+            {
+              "it": "Non credo che il pacco sia già arrivato.",
+              "en": "I don't think the parcel has arrived yet."
+            },
+            {
+              "it": "È strano che non abbia ancora risposto.",
+              "en": "It's odd that he hasn't answered yet."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "b2-01-l1-e04",
+          "instruction": "Scrivi le forme: partire, congiuntivo passato.",
+          "verb": "partire",
+          "tense": "congiuntivo passato",
+          "items": [
+            {
+              "person": "(che) io (m.)",
+              "answer": "sia partito"
+            },
+            {
+              "person": "(che) tu (f.)",
+              "answer": "sia partita"
+            },
+            {
+              "person": "(che) lui",
+              "answer": "sia partito"
+            },
+            {
+              "person": "(che) noi (m.)",
+              "answer": "siamo partiti"
+            },
+            {
+              "person": "(che) voi (f.)",
+              "answer": "siate partite"
+            },
+            {
+              "person": "(che) loro (m.)",
+              "answer": "siano partiti"
+            }
+          ],
+          "explanation": "Partire prende essere: il participio si accorda con il soggetto, come nel passato prossimo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-01-l1-e05",
+          "instruction": "Completa la frase.",
+          "sentence": "Spero che il tecnico ___ (riparare) la caldaia ieri pomeriggio.",
+          "answers": [
+            "abbia riparato"
+          ],
+          "hint": "riparare – lui, azione già successa",
+          "explanation": "Spero che + un'azione passata (ieri) → congiuntivo passato: abbia riparato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-01-l1-e06",
+          "instruction": "Completa la frase.",
+          "sentence": "Mi dispiace che tu non ___ (potere) venire alla festa sabato.",
+          "answers": [
+            "sia potuto",
+            "sia potuta",
+            "abbia potuto"
+          ],
+          "hint": "potere – tu",
+          "explanation": "Con potere + venire l'uso curato preferisce essere (sia potuto/a), ma abbia potuto è molto diffuso."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-01-l1-e07",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Paolo oggi è in ufficio? Credo che ___ ieri sera dalle vacanze.",
+          "options": [
+            "è tornato",
+            "sia tornato",
+            "tornasse",
+            "torni"
+          ],
+          "answer": 1,
+          "explanation": "Credo che + azione già avvenuta (ieri sera) → congiuntivo passato: sia tornato."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-01-l1-e08",
+          "instruction": "Abbina ogni notizia alla reazione giusta.",
+          "pairs": [
+            {
+              "left": "Ho trovato lavoro!",
+              "right": "Sono contentissimo che tu l'abbia trovato!"
+            },
+            {
+              "left": "Ho perso il treno.",
+              "right": "Mi dispiace che tu l'abbia perso."
+            },
+            {
+              "left": "Hanno chiuso il negozio sotto casa.",
+              "right": "Che peccato che l'abbiano chiuso!"
+            },
+            {
+              "left": "Giulia non ha ancora risposto.",
+              "right": "È strano che non abbia risposto."
+            },
+            {
+              "left": "Sono arrivati i miei genitori.",
+              "right": "Spero che abbiano fatto buon viaggio."
+            }
+          ],
+          "explanation": "Ogni reazione esprime un'emozione o una speranza su un fatto già successo → congiuntivo passato."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-01-l1-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I'm sorry you had to wait.",
+          "tiles": [
+            "Mi",
+            "dispiace",
+            "che",
+            "tu",
+            "abbia",
+            "dovuto",
+            "aspettare"
+          ],
+          "distractors": [
+            "hai",
+            "avessi"
+          ],
+          "explanation": "Mi dispiace che + congiuntivo passato. Il pronome tu chiarisce la persona (abbia = io/tu/lui)."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-01-l1-e10",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Penso che Marco è già uscito.",
+          "answers": [
+            "Penso che Marco sia già uscito."
+          ],
+          "explanation": "Dopo penso che serve il congiuntivo: è uscito → sia uscito."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-01-l1-e11",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Spero che abbiate trovato facilmente la strada.",
+          "answers": [
+            "Spero che abbiate trovato facilmente la strada."
+          ],
+          "slow": false,
+          "explanation": "Abbiate trovato: congiuntivo passato, voi."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-01-l1-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Mi fa piacere che tu sia venuto, anche se è tardi.",
+          "translation": "I'm glad you came, even though it's late."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-01-l1-e13",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Un amico ti dice che ha appena cambiato casa. Reagisci: esprimi un'emozione e una speranza.",
+          "keywords": [
+            "contento",
+            "spero",
+            "abbia"
+          ],
+          "modelAnswer": "Che bello, sono contento che tu abbia trovato una casa nuova! Spero che il trasloco sia andato bene e che tu non abbia speso troppo.",
+          "explanation": "Sono contento che / spero che + congiuntivo passato per le cose già successe."
+        }
+      ]
+    },
+    {
+      "id": "b2-01-l2",
+      "title": "Pensavo che fosse più facile",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b2-01-l2-e01",
+          "instruction": "Riscaldamento: completa con il congiuntivo passato.",
+          "sentence": "Credo che i vicini ___ (partire) ieri per le vacanze.",
+          "answers": [
+            "siano partiti"
+          ],
+          "hint": "partire – loro",
+          "explanation": "Azione già avvenuta dopo credo che → congiuntivo passato con essere: siano partiti."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-01-l2-e02",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Mi dispiace che tu ___ male ieri sera.",
+          "options": [
+            "sei stato",
+            "sia stato",
+            "fossi stato",
+            "sarai stato"
+          ],
+          "answer": 1,
+          "explanation": "Verbo principale al presente (mi dispiace) + fatto passato → sia stato."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-01-l2-e03",
+          "title": "Il congiuntivo imperfetto",
+          "body": "Quando il verbo principale è **al passato** (o al condizionale), la subordinata va al **congiuntivo imperfetto** for an action happening at the same time or later.\n\n- *Penso che **sia** caro.* → *Pensavo che **fosse** caro.*\n- *Spero che **venga**.* → *Speravo che **venisse**.*\n\n**Forma** – tema dell'imperfetto + **-ssi, -ssi, -sse, -ssimo, -ste, -ssero**:\n- parlare → parla**ssi**, parla**ssi**, parla**sse**, parla**ssimo**, parla**ste**, parla**ssero**\n- avere → ave**ssi** · partire → parti**ssi**\n\n**Irregolari da sapere**: essere (**fossi**, fossi, fosse, fossimo, foste, fossero), dare (**dessi**), stare (**stessi**), fare (**facessi**), dire (**dicessi**), bere (**bevessi**).\n\nTrucco: if you know the indicativo imperfetto (*facevo, dicevo, bevevo*), you already know the stem.",
+          "examples": [
+            {
+              "it": "Pensavo che il museo fosse aperto anche il lunedì.",
+              "en": "I thought the museum was open on Mondays too."
+            },
+            {
+              "it": "Speravo che mi chiamassi.",
+              "en": "I was hoping you'd call me."
+            },
+            {
+              "it": "Non sapevo che tu parlassi così bene il tedesco.",
+              "en": "I didn't know you spoke German so well."
+            },
+            {
+              "it": "Volevano che firmassi subito il contratto.",
+              "en": "They wanted me to sign the contract straight away."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "b2-01-l2-e04",
+          "instruction": "Scrivi le forme: essere, congiuntivo imperfetto.",
+          "verb": "essere",
+          "tense": "congiuntivo imperfetto",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "fossi"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "fossi"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "fosse"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "fossimo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "foste"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "fossero"
+            }
+          ],
+          "explanation": "Essere è il verbo più frequente al congiuntivo imperfetto: Pensavo che fosse…, Magari fosse…"
+        },
+        {
+          "type": "conjugation",
+          "id": "b2-01-l2-e05",
+          "instruction": "Scrivi le forme: fare, congiuntivo imperfetto.",
+          "verb": "fare",
+          "tense": "congiuntivo imperfetto",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "facessi"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "facessi"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "facesse"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "facessimo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "faceste"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "facessero"
+            }
+          ],
+          "explanation": "Tema fac- come nell'imperfetto (facevo). Lo stesso per dire (dicessi) e bere (bevessi)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-01-l2-e06",
+          "instruction": "Completa la frase.",
+          "sentence": "Pensavo che la farmacia ___ (essere) aperta fino alle otto.",
+          "answers": [
+            "fosse"
+          ],
+          "hint": "essere – lei",
+          "explanation": "Pensavo (passato) + azione contemporanea → congiuntivo imperfetto: fosse."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-01-l2-e07",
+          "instruction": "Completa la frase.",
+          "sentence": "Il medico voleva che io ___ (fare) altre analisi.",
+          "answers": [
+            "facessi"
+          ],
+          "hint": "fare – io",
+          "explanation": "Voleva che + congiuntivo imperfetto. Volere che richiede sempre il congiuntivo."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-01-l2-e08",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Speravo che il tecnico ___ prima delle dieci, invece è arrivato a mezzogiorno.",
+          "options": [
+            "venga",
+            "venisse",
+            "è venuto",
+            "verrebbe"
+          ],
+          "answer": 1,
+          "explanation": "Speravo (passato) → congiuntivo imperfetto: venisse."
+        },
+        {
+          "type": "translate",
+          "id": "b2-01-l2-e09",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I didn't know you lived here.",
+          "answers": [
+            "Non sapevo che tu abitassi qui.",
+            "Non sapevo che abitassi qui.",
+            "Non sapevo che tu vivessi qui.",
+            "Non sapevo che vivessi qui.",
+            "Io non sapevo che tu abitassi qui.",
+            "Io non sapevo che abitassi qui.",
+            "Io non sapevo che tu vivessi qui.",
+            "Io non sapevo che vivessi qui."
+          ],
+          "explanation": "Non sapevo che + congiuntivo imperfetto (more natural than the indicative in careful Italian)."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-01-l2-e10",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Quando sono arrivato in Italia, pensavo che la burocrazia fosse un incubo. In realtà, all'anagrafe sono stati gentilissimi e ho fatto tutto in mezz'ora. Non immaginavo che fosse così semplice.",
+          "question": "Che cosa pensava prima di arrivare?",
+          "options": [
+            "Che la burocrazia fosse complicata.",
+            "Che all'anagrafe fossero scortesi.",
+            "Che servisse un'ora intera.",
+            "Che si facesse tutto online."
+          ],
+          "answer": 0,
+          "explanation": "Pensavo che fosse un incubo… Non immaginavo che fosse così semplice."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-01-l2-e11",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Credevo che il treno partiva alle nove.",
+          "answers": [
+            "Credevo che il treno partisse alle nove."
+          ],
+          "explanation": "Credere che + congiuntivo; con il verbo principale al passato → partisse."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-01-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Non pensavo che fosse così difficile trovare casa in centro.",
+          "translation": "I didn't think it was so hard to find a flat in the centre."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-01-l2-e13",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Pensa al tuo arrivo in Italia (o a un viaggio importante). Che cosa immaginavi prima, e com'era davvero?",
+          "keywords": [
+            "pensavo che",
+            "invece"
+          ],
+          "modelAnswer": "Pensavo che gli italiani parlassero sempre velocissimo e che fosse impossibile capirli. Invece, quando chiedevo di ripetere, tutti erano molto pazienti.",
+          "explanation": "Pensavo / immaginavo / credevo che + congiuntivo imperfetto; invece + indicativo per la realtà."
+        }
+      ]
+    },
+    {
+      "id": "b2-01-l3",
+      "title": "Magari! Desideri e aspettative",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-01-l3-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Pensavo che tu ___ in ferie questa settimana.",
+          "options": [
+            "sei",
+            "fossi",
+            "sia",
+            "saresti"
+          ],
+          "answer": 1,
+          "explanation": "Pensavo → congiuntivo imperfetto: fossi."
+        },
+        {
+          "type": "translate",
+          "id": "b2-01-l3-e02",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Speravo che il pacco arrivasse oggi.",
+          "answers": [
+            "I was hoping the parcel would arrive today.",
+            "I was hoping the parcel would come today.",
+            "I was hoping the parcel would arrive today",
+            "I was hoping the package would arrive today.",
+            "I was hoping the package would come today.",
+            "I was hoping the package would arrive today",
+            "I hoped the parcel would arrive today.",
+            "I hoped the parcel would come today.",
+            "I hoped the parcel would arrive today",
+            "I hoped the package would arrive today.",
+            "I hoped the package would come today.",
+            "I hoped the package would arrive today"
+          ],
+          "explanation": "Speravo che + congiuntivo imperfetto ≈ English 'was hoping … would'."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-01-l3-e03",
+          "title": "Vorrei che… e Magari…",
+          "body": "**Vorrei che** + congiuntivo imperfetto: a wish about **someone else**.\n- *Vorrei che mi **richiamasse** domani.* (non ~~vorrei che mi richiami~~)\n- Same subject? Use the infinitive: *Vorrei partire* (non ~~vorrei che io partissi~~).\n\n**Magari** + congiuntivo imperfetto = *if only* (a wish that is unlikely or not true now):\n- *Magari **fosse** vero!* · *Magari **avessi** più tempo!*\n- Da solo, *Magari!* = \"I wish!\"\n- Attenzione: *magari* + **indicativo** = *maybe* (colloquiale): *Magari ci vediamo domani.*\n\n**Riepilogo – quale congiuntivo?**\n- verbo principale al presente, azione contemporanea → cong. presente (*penso che sia*)\n- verbo principale al presente, azione precedente → cong. passato (*penso che sia stato*)\n- verbo principale al passato o *vorrei* → cong. imperfetto (*pensavo che fosse, vorrei che fosse*)\n\nLa concordanza completa dei tempi arriva nell'unità B2-07.",
+          "examples": [
+            {
+              "it": "Vorrei che tu fossi più paziente.",
+              "en": "I'd like you to be more patient."
+            },
+            {
+              "it": "Magari potessi lavorare da casa!",
+              "en": "If only I could work from home!"
+            },
+            {
+              "it": "Il capo vorrebbe che finissimo entro venerdì.",
+              "en": "The boss would like us to finish by Friday."
+            },
+            {
+              "it": "Mi piacerebbe che venissero anche loro.",
+              "en": "I'd like them to come too."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-01-l3-e04",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Vorrei che il padrone di casa ___ la caldaia prima dell'inverno.",
+          "options": [
+            "ripari",
+            "riparasse",
+            "ripara",
+            "ha riparato"
+          ],
+          "answer": 1,
+          "explanation": "Vorrei che + congiuntivo imperfetto: riparasse."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-01-l3-e05",
+          "instruction": "Completa la frase.",
+          "sentence": "Magari ___ (avere) un balcone più grande!",
+          "answers": [
+            "avessi"
+          ],
+          "hint": "avere – io",
+          "explanation": "Magari + congiuntivo imperfetto per un desiderio poco realistico: avessi."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-01-l3-e06",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I would like you to come with me.",
+          "tiles": [
+            "Vorrei",
+            "che",
+            "tu",
+            "venissi",
+            "con",
+            "me"
+          ],
+          "distractors": [
+            "venga",
+            "vieni"
+          ],
+          "explanation": "Vorrei che + congiuntivo imperfetto: venissi."
+        },
+        {
+          "type": "reading",
+          "id": "b2-01-l3-e07",
+          "instruction": "Leggi il testo e rispondi alle domande.",
+          "title": "Un anno a Bologna",
+          "passage": "Cara Elena,\nè passato quasi un anno da quando mi sono trasferito a Bologna e ti devo confessare una cosa: prima di partire avevo un sacco di dubbi. Pensavo che fosse difficile fare amicizia e temevo che il lavoro mi lasciasse poco tempo libero. Mia madre, poi, aveva paura che non mi trovassi bene con il cibo – figurati!\nIn realtà le cose sono andate meglio del previsto. I colleghi mi hanno accolto subito e il sabato andiamo spesso a camminare in collina. L'unica cosa che non immaginavo era che gli affitti fossero così alti: magari costassero come al mio paese!\nMi dispiace che tu non sia potuta venire a trovarmi quest'estate, ma spero che tu abbia passato delle belle vacanze. Vorrei che venissi a dicembre: la città con le luci di Natale è bellissima.\nUn abbraccio,\nTommaso",
+          "questions": [
+            {
+              "question": "Prima di partire, che cosa temeva Tommaso?",
+              "options": [
+                "Di avere poco tempo libero.",
+                "Di non trovare lavoro.",
+                "Di perdere i vecchi amici.",
+                "Di non capire il dialetto."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa lo ha sorpreso negativamente?",
+              "options": [
+                "Il cibo.",
+                "I colleghi.",
+                "Il costo degli affitti.",
+                "Il clima."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa vorrebbe Tommaso?",
+              "options": [
+                "Tornare al suo paese.",
+                "Che Elena andasse a trovarlo a dicembre.",
+                "Che sua madre si trasferisse a Bologna.",
+                "Cambiare lavoro."
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Nota i tre congiuntivi: pensavo che fosse (imperfetto), mi dispiace che tu non sia potuta (passato), vorrei che venissi (imperfetto)."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-01-l3-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Vorrei che tu mi chiami domani mattina.",
+          "answers": [
+            "Vorrei che tu mi chiamassi domani mattina.",
+            "Vorrei che mi chiamassi domani mattina.",
+            "Domani mattina vorrei che tu mi chiamassi.",
+            "Domani mattina vorrei che mi chiamassi."
+          ],
+          "explanation": "Vorrei (condizionale) + che → congiuntivo imperfetto: chiamassi."
+        },
+        {
+          "type": "translate",
+          "id": "b2-01-l3-e09",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "If only it were true!",
+          "answers": [
+            "Magari fosse vero!",
+            "Se solo fosse vero!",
+            "Magari fosse così!"
+          ],
+          "explanation": "Magari + congiuntivo imperfetto."
+        },
+        {
+          "type": "roleplay",
+          "id": "b2-01-l3-e10",
+          "instruction": "Role-play: rispondi ad alta voce quando tocca a te.",
+          "scenario": "Un'amica, Sara, ti chiede com'è andata la visita a un appartamento in affitto. Sei rimasto un po' deluso.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Allora, com'era l'appartamento?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sinceramente pensavo che fosse più grande. Nelle foto sembrava diverso.",
+              "hint": "Dì che ti aspettavi una cosa diversa: pensavo che + congiuntivo imperfetto.",
+              "keywords": [
+                "pensavo che",
+                "fosse"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che delusione! E il prezzo? Si può trattare?"
+            },
+            {
+              "speaker": "you",
+              "text": "Non credo che sia trattabile, ma speravo che l'agente fosse più flessibile.",
+              "hint": "Non credo che + cong. presente; speravo che + cong. imperfetto.",
+              "keywords": [
+                "non credo",
+                "speravo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E adesso cosa fai?"
+            },
+            {
+              "speaker": "you",
+              "text": "Vorrei che l'agenzia mi mostrasse altri appartamenti in zona.",
+              "hint": "Esprimi un desiderio: vorrei che…",
+              "keywords": [
+                "vorrei che"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Dai, vedrai che trovi qualcosa. Magari trovi casa entro fine mese!"
+            },
+            {
+              "speaker": "you",
+              "text": "Magari! Spero proprio che vada tutto bene.",
+              "hint": "Rispondi: Magari! + una speranza.",
+              "keywords": [
+                "magari",
+                "spero"
+              ]
+            }
+          ],
+          "explanation": "Sara usa magari + indicativo (= forse): magari trovi casa. Tu rispondi con Magari! (= lo spero tanto)."
+        },
+        {
+          "type": "free_write",
+          "id": "b2-01-l3-e11",
+          "instruction": "Scrittura (stile CELI, registro informale).",
+          "prompt": "Scrivi un'email a un amico (120–150 parole). Racconta un evento recente (un viaggio, un corso, un nuovo lavoro, una festa) che è stato diverso da come te lo aspettavi. Spiega che cosa pensavi o temevi prima, com'è andata davvero, ed esprimi un desiderio per il futuro.",
+          "minWords": 120,
+          "checklist": [
+            "Ho usato almeno due volte pensavo / credevo / temevo che + congiuntivo imperfetto.",
+            "Ho usato almeno un congiuntivo passato (sono contento / mi dispiace che… abbia/sia…).",
+            "Ho espresso un desiderio con vorrei che… o magari…",
+            "Ho usato un registro informale coerente: saluto, domanda all'amico, saluto finale.",
+            "Ho scritto almeno 120 parole e ho controllato accordi e accenti."
+          ],
+          "modelAnswer": "Ciao Marco,\ncome stai? Ti scrivo per raccontarti del corso di cucina che ho cominciato a settembre. Prima di iscrivermi avevo un po' di paura: pensavo che gli altri partecipanti fossero tutti esperti e temevo che l'insegnante parlasse troppo velocemente per me. Invece è andata benissimo! Il gruppo è simpatico, ci sono altri principianti e l'insegnante spiega tutto con calma, anche due volte se serve. Non immaginavo che fosse così divertente fare la pasta fresca a mano. L'unica cosa negativa è l'orario: le lezioni finiscono alle dieci di sera e il giorno dopo sono distrutto. Mi dispiace che tu non sia potuto venire alla cena di fine corso, perché abbiamo cucinato per trenta persone. Vorrei che la prossima volta venissi anche tu: magari ci iscriviamo insieme al corso di dolci in primavera! E tu, che cosa mi racconti?\nUn abbraccio,\nRichard"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-01-l3-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Esprimi tre desideri per il prossimo anno: uno per te (vorrei + infinito), uno per un'altra persona (vorrei che…) e uno poco realistico (magari…).",
+          "keywords": [
+            "vorrei",
+            "vorrei che",
+            "magari"
+          ],
+          "modelAnswer": "Il prossimo anno vorrei passare l'esame di italiano. Vorrei che i miei amici venissero a trovarmi più spesso. E magari vincessi un viaggio in Sicilia!",
+          "explanation": "Stesso soggetto → infinito; soggetto diverso → che + congiuntivo imperfetto."
+        },
+        {
+          "type": "flashcard",
+          "id": "b2-01-l3-e13",
+          "front": "Magari!",
+          "back": "I wish! / If only!",
+          "example": "– Hai vinto alla lotteria? – Magari!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "sperare (che)",
+      "en": "to hope (that)",
+      "example": "Spero che tu abbia passato una bella serata."
+    },
+    {
+      "it": "temere (che)",
+      "en": "to fear (that)",
+      "example": "Temevo che non ci fosse più posto."
+    },
+    {
+      "it": "avere paura che",
+      "en": "to be afraid that",
+      "example": "Avevo paura che il volo fosse cancellato."
+    },
+    {
+      "it": "aspettarsi",
+      "en": "to expect",
+      "example": "Non mi aspettavo che fosse così caro."
+    },
+    {
+      "it": "immaginare",
+      "en": "to imagine",
+      "example": "Non immaginavo che fosse così semplice."
+    },
+    {
+      "it": "dubitare (che)",
+      "en": "to doubt (that)",
+      "example": "Dubito che abbiano già deciso."
+    },
+    {
+      "it": "il dubbio",
+      "en": "doubt",
+      "example": "Prima di partire avevo un sacco di dubbi."
+    },
+    {
+      "it": "la delusione",
+      "en": "disappointment",
+      "example": "Che delusione, il concerto è stato annullato!"
+    },
+    {
+      "it": "deluso",
+      "en": "disappointed",
+      "example": "Sono rimasto un po' deluso dall'appartamento."
+    },
+    {
+      "it": "rimanerci male",
+      "en": "to be hurt, upset",
+      "example": "Ci sono rimasto male quando non mi ha invitato."
+    },
+    {
+      "it": "mi fa piacere che",
+      "en": "I'm glad that",
+      "example": "Mi fa piacere che tu sia venuto."
+    },
+    {
+      "it": "è un peccato che",
+      "en": "it's a shame that",
+      "example": "È un peccato che abbiano chiuso il cinema."
+    },
+    {
+      "it": "è strano che",
+      "en": "it's odd that",
+      "example": "È strano che non abbia ancora risposto."
+    },
+    {
+      "it": "magari",
+      "en": "if only (+ cong.) / maybe (+ ind.)",
+      "example": "Magari avessi più tempo!"
+    },
+    {
+      "it": "figurati!",
+      "en": "you can imagine! / don't mention it",
+      "example": "Mia madre aveva paura che non mangiassi bene – figurati!"
+    },
+    {
+      "it": "meglio del previsto",
+      "en": "better than expected",
+      "example": "Il colloquio è andato meglio del previsto."
+    },
+    {
+      "it": "trasferirsi",
+      "en": "to move (city, country)",
+      "example": "Mi sono trasferito a Bologna un anno fa."
+    },
+    {
+      "it": "il trasloco",
+      "en": "house move, removal",
+      "example": "Spero che il trasloco sia andato bene."
+    },
+    {
+      "it": "l'affitto (m.)",
+      "en": "rent",
+      "example": "Non immaginavo che gli affitti fossero così alti."
+    },
+    {
+      "it": "trattabile",
+      "en": "negotiable",
+      "example": "Il prezzo non è trattabile."
+    },
+    {
+      "it": "trovarsi bene",
+      "en": "to get on well, feel at ease",
+      "example": "Mi trovo bene con i colleghi."
+    },
+    {
+      "it": "fare amicizia",
+      "en": "to make friends",
+      "example": "Pensavo che fosse difficile fare amicizia."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b2-01-t1",
+      "rule": "Congiuntivo passato",
+      "tip": "After penso / spero / mi dispiace che, use abbia or sia + participle for something that has already happened.",
+      "example": {
+        "it": "Spero che tu abbia dormito bene.",
+        "en": "I hope you slept well."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "instruction": "Completa la frase.",
+        "sentence": "Mi dispiace che tu ___ (perdere) il treno.",
+        "answers": [
+          "abbia perso",
+          "abbia perduto"
+        ],
+        "hint": "perdere – tu",
+        "explanation": "Fatto già avvenuto + mi dispiace che → congiuntivo passato."
+      }
+    },
+    {
+      "id": "b2-01-t2",
+      "rule": "Pensavo che + cong. imperfetto",
+      "tip": "Main verb in the past → congiuntivo imperfetto: penso che sia → pensavo che fosse.",
+      "example": {
+        "it": "Pensavo che il negozio fosse aperto.",
+        "en": "I thought the shop was open."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "instruction": "Scegli la risposta giusta.",
+        "prompt": "Credevo che la riunione ___ alle tre.",
+        "options": [
+          "comincia",
+          "cominci",
+          "cominciasse",
+          "sia cominciata"
+        ],
+        "answer": 2,
+        "explanation": "Credevo (passato) → congiuntivo imperfetto."
+      }
+    },
+    {
+      "id": "b2-01-t3",
+      "rule": "Essere: fossi, fosse, fossero",
+      "tip": "Congiuntivo imperfetto of essere: fossi, fossi, fosse, fossimo, foste, fossero.",
+      "example": {
+        "it": "Speravo che fossero già arrivati.",
+        "en": "I was hoping they had already arrived."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "instruction": "Scrivi le forme: essere, congiuntivo imperfetto.",
+        "verb": "essere",
+        "tense": "congiuntivo imperfetto",
+        "items": [
+          {
+            "person": "(che) io",
+            "answer": "fossi"
+          },
+          {
+            "person": "(che) lui",
+            "answer": "fosse"
+          },
+          {
+            "person": "(che) loro",
+            "answer": "fossero"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-01-t4",
+      "rule": "Vorrei che + cong. imperfetto",
+      "tip": "Vorrei che is followed by the congiuntivo imperfetto, never the presente: vorrei che venissi.",
+      "example": {
+        "it": "Vorrei che mi richiamasse domani.",
+        "en": "I'd like him to call me back tomorrow."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "instruction": "C'è un errore. Riscrivi la frase corretta.",
+        "sentence": "Vorrei che mi aiuti con il trasloco.",
+        "answers": [
+          "Vorrei che mi aiutassi con il trasloco.",
+          "Vorrei che tu mi aiutassi con il trasloco."
+        ],
+        "explanation": "Vorrei che → congiuntivo imperfetto: aiutassi."
+      }
+    },
+    {
+      "id": "b2-01-t5",
+      "rule": "Magari + cong. = if only",
+      "tip": "Magari + congiuntivo imperfetto expresses an unlikely wish: Magari fosse vero! (= If only it were true!)",
+      "example": {
+        "it": "Magari avessi più tempo!",
+        "en": "If only I had more time!"
+      },
+      "challenge": {
+        "type": "translate",
+        "instruction": "Traduci in italiano.",
+        "direction": "en_it",
+        "source": "If only I had more time!",
+        "answers": [
+          "Magari avessi più tempo!",
+          "Se solo avessi più tempo!"
+        ]
+      }
+    }
+  ]
+}

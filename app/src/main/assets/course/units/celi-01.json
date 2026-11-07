@@ -1,0 +1,1004 @@
+{
+  "id": "celi-01",
+  "level": "CELI3",
+  "title": "Leggere per l'esame",
+  "objective": "Alla fine dell'unità sai affrontare le tre prove di lettura del CELI 3 (A.1 scelta multipla, A.2 testi a confronto, A.3 domande aperte): riconosci le parafrasi, individui le informazioni che distinguono due testi e rispondi in modo breve e completo.",
+  "grammarFocus": "Strategie per la Parte A: parafrasi e sinonimi, connettivi (tuttavia, pertanto, infatti, invece), inferenze semplici, risposte aperte brevi e complete.",
+  "remedialUnitIds": [
+    "b1-09",
+    "b2-05",
+    "b2-11"
+  ],
+  "lessons": [
+    {
+      "id": "celi-01-l1",
+      "title": "A.1 – Testi con scelta multipla",
+      "minutes": 14,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-01-l1-e01",
+          "instruction": "Riscaldamento: scegli il significato del connettivo.",
+          "prompt": "«Il progetto è costoso; il Comune ha tuttavia deciso di finanziarlo.» Tuttavia significa…",
+          "options": [
+            "quindi",
+            "però",
+            "inoltre",
+            "infatti"
+          ],
+          "answer": 1,
+          "explanation": "Tuttavia = però, ciononostante (however). Annuncia un contrasto: è costoso, ma lo finanziano lo stesso."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-01-l1-e02",
+          "instruction": "Riscaldamento: completa con un connettivo di conseguenza.",
+          "sentence": "La domenica il museo è gratuito; ___ c'è sempre molta gente.",
+          "answers": [
+            "perciò",
+            "quindi",
+            "per questo",
+            "di conseguenza",
+            "pertanto"
+          ],
+          "explanation": "Perciò / quindi / pertanto introducono una conseguenza. Pertanto è più formale, tipico dei testi giornalistici e burocratici."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-01-l1-e03",
+          "title": "La Parte A del CELI 3: comprensione della lettura",
+          "body": "La Parte A si svolge nel **primo fascicolo** insieme alla Parte B (scrittura): in tutto **2 ore e 15 minuti** per leggere e scrivere. Organizza bene il tempo (*plan your time: reading and writing share the same 2 h 15*).\n\n- **A.1** – due testi con domande a **scelta multipla** (4 opzioni): **9 domande** (5 + 4), **3 punti** ciascuna.\n- **A.2** – **due testi a confronto**: 10 affermazioni da attribuire al testo 1 o al testo 2, **1 punto** ciascuna.\n- **A.3** – un testo con **4 domande aperte**: 3 punti per una risposta corretta, 2 se parzialmente corretta, 1 se incompleta.\n\nI testi sono autentici, soprattutto **giornalistici**: articoli, interviste, notizie, lettere ai giornali, pubblicità, sondaggi.\n\n**Strategia per A.1 (consigli pratici):**\n- Leggi prima il titolo e le domande: sai già che cosa cercare.\n- Le domande seguono di solito l'ordine del testo *(usually, not always)*.\n- L'opzione giusta raramente ripete le parole del testo: di solito è una **parafrasi** (*è stato rinviato* → *è stato spostato a un'altra data*).\n- Diffida delle opzioni che usano **le stesse parole** del testo ma dicono un'altra cosa: sono le trappole più comuni.\n- Non lasciare risposte vuote: una risposta sbagliata vale 0, come una vuota.",
+          "examples": [
+            {
+              "it": "Il concerto è stato rinviato a data da destinarsi.",
+              "en": "The concert has been postponed to a date to be announced."
+            },
+            {
+              "it": "→ Il concerto non si terrà nella data prevista.",
+              "en": "→ The concert won't take place on the planned date."
+            },
+            {
+              "it": "Le iscrizioni sono in calo rispetto all'anno scorso.",
+              "en": "Enrolments are down compared to last year."
+            },
+            {
+              "it": "→ Quest'anno si sono iscritte meno persone.",
+              "en": "→ Fewer people have enrolled this year."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-01-l1-e04",
+          "instruction": "Abbina l'espressione del testo alla parafrasi che troveresti tra le opzioni.",
+          "pairs": [
+            {
+              "left": "è stato rinviato",
+              "right": "è stato spostato a più tardi"
+            },
+            {
+              "left": "ha registrato un calo",
+              "right": "è diminuito"
+            },
+            {
+              "left": "a costo zero",
+              "right": "gratuitamente"
+            },
+            {
+              "left": "i residenti",
+              "right": "chi abita nella zona"
+            },
+            {
+              "left": "ha preso il via",
+              "right": "è cominciato"
+            }
+          ],
+          "explanation": "Riconoscere le parafrasi è la competenza chiave della prova A.1."
+        },
+        {
+          "type": "reading",
+          "id": "celi-01-l1-e05",
+          "instruction": "Testo 1 (prova A.1). Leggi l'articolo e scegli la risposta giusta.",
+          "title": "Biblioteca aperta fino a mezzanotte: l'esperimento piace",
+          "passage": "Da ottobre la biblioteca civica resta aperta fino a mezzanotte dal lunedì al venerdì. L'iniziativa, partita come sperimentazione di sei mesi, ha preso il via su richiesta di un gruppo di studenti universitari, che lamentavano la mancanza di spazi tranquilli dove studiare la sera. «Molti ragazzi vivono in appartamenti condivisi, spesso rumorosi», spiega la direttrice, Laura Bassi. «Qui trovano silenzio, connessione gratuita e un ambiente riscaldato.»\n\nI numeri sembrano darle ragione: nel primo mese gli ingressi serali sono stati oltre tremila, con un picco il giovedì. A sorpresa, però, non si tratta solo di studenti. «Vengono anche lavoratori che escono tardi dall'ufficio e pensionati che preferiscono leggere qui i giornali piuttosto che restare soli a casa», racconta un bibliotecario.\n\nIl servizio non è a costo zero: per coprire i turni serali il Comune ha assunto quattro operatori con un contratto a tempo determinato e ha prolungato il servizio di vigilanza. Non tutti, tuttavia, sono convinti. Alcuni residenti del centro storico temono più rumore in strada dopo la chiusura e chiedono che l'orario venga anticipato alle 23. L'amministrazione comunale ha promesso di valutare la questione a marzo, quando si deciderà se rendere l'apertura serale definitiva.",
+          "questions": [
+            {
+              "question": "Perché è nata l'iniziativa?",
+              "options": [
+                "Per volontà della direttrice della biblioteca",
+                "Perché alcuni studenti avevano chiesto spazi per studiare la sera",
+                "Per ridurre i costi del riscaldamento negli appartamenti",
+                "Perché l'università aveva chiuso la sua biblioteca"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Secondo la direttrice, che cosa offre la biblioteca ai ragazzi?",
+              "options": [
+                "Un posto letto per la notte",
+                "Corsi serali gratuiti",
+                "Un luogo silenzioso e confortevole",
+                "Lavoro a tempo determinato"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa ha sorpreso nei dati del primo mese?",
+              "options": [
+                "Il numero di ingressi era inferiore al previsto",
+                "Il giovedì la biblioteca era quasi vuota",
+                "Gli utenti serali non sono soltanto studenti",
+                "I pensionati hanno chiesto di chiudere prima"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quale costo ha avuto il servizio per il Comune?",
+              "options": [
+                "Nessuno, perché lavorano dei volontari",
+                "Ha dovuto assumere personale e prolungare la vigilanza",
+                "Ha dovuto ristrutturare il centro storico",
+                "Ha aumentato il prezzo dell'iscrizione"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa succederà a marzo?",
+              "options": [
+                "La biblioteca chiuderà alle 23",
+                "Si deciderà se l'apertura serale diventerà stabile",
+                "Finirà il contratto dei residenti",
+                "Inizieranno i lavori di ristrutturazione"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Nota le parafrasi: ha preso il via su richiesta di… → alcuni studenti avevano chiesto; rendere definitiva → diventare stabile. La domanda 4 ha una trappola: «a costo zero» compare nel testo, ma in una frase negativa."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-01-l1-e06",
+          "instruction": "Inferenza: che cosa annuncia questa frase del testo?",
+          "prompt": "«Non tutti, tuttavia, sono convinti.»",
+          "options": [
+            "Una conclusione positiva",
+            "Un'opinione contraria o un problema",
+            "Un dato statistico",
+            "Un esempio della frase precedente"
+          ],
+          "answer": 1,
+          "explanation": "Tuttavia + non tutti sono convinti prepara il lettore a una critica: qui le proteste dei residenti. Riconoscere la funzione dei connettivi ti aiuta a prevedere il contenuto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-01-l1-e07",
+          "instruction": "Completa con una parola del testo.",
+          "sentence": "L'iniziativa è partita come ___ di sei mesi: se funziona, diventerà definitiva.",
+          "answers": [
+            "sperimentazione",
+            "una sperimentazione"
+          ],
+          "explanation": "La sperimentazione = trial period. Parole utili per i testi di cronaca: sperimentazione, iniziativa, amministrazione comunale."
+        },
+        {
+          "type": "translate",
+          "id": "celi-01-l1-e08",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "I residenti chiedono che l'orario venga anticipato alle 23.",
+          "answers": [
+            "The residents are asking for the closing time to be brought forward to 11 pm.",
+            "Residents are asking for the closing time to be brought forward to 11 pm.",
+            "The residents are asking for the opening hours to be brought forward to 11 pm.",
+            "The residents are asking that the closing time be brought forward to 11 pm.",
+            "Residents are asking that the closing time be brought forward to 11 pm.",
+            "The residents ask for the closing time to be brought forward to 11 pm.",
+            "The residents are asking for the closing time to be moved to 11 pm.",
+            "Residents are asking for the closing time to be moved to 11 pm.",
+            "The residents want the closing time to be brought forward to 11 pm.",
+            "The residents are asking for the library to close at 11 pm.",
+            "Residents are asking for the library to close at 11 pm."
+          ],
+          "explanation": "Chiedere che + congiuntivo; venga anticipato è un passivo con venire (be brought forward). Anticipare = spostare prima; posticipare/rinviare = spostare dopo."
+        },
+        {
+          "type": "reading",
+          "id": "celi-01-l1-e09",
+          "instruction": "Testo 2 (prova A.1). Leggi la lettera e scegli la risposta giusta.",
+          "title": "Lettera al direttore: monopattini sui marciapiedi",
+          "passage": "Gentile direttore,\nle scrivo perché, da quando in città è arrivato il servizio di monopattini in condivisione, camminare in centro è diventato un'impresa. I mezzi vengono lasciati ovunque: davanti ai portoni, sulle strisce pedonali, persino sulle rampe per le carrozzine. La settimana scorsa mia madre, che ha ottantadue anni, è inciampata in un monopattino abbandonato davanti alla farmacia ed è caduta. Per fortuna se l'è cavata con qualche livido, ma poteva andare molto peggio.\n\nNon sono contrario ai monopattini: anzi, penso che siano un'ottima alternativa all'auto per i tragitti brevi, e ogni tanto li uso anch'io. Il problema è che nessuno controlla. Altre città hanno introdotto aree di parcheggio obbligatorie e multe per chi lascia il mezzo fuori posto; da noi, invece, si è preferito aspettare. Chiedo quindi all'amministrazione di intervenire prima dell'estate, quando i turisti e i mezzi in circolazione aumenteranno.\n\nMarco T.",
+          "questions": [
+            {
+              "question": "Perché scrive l'autore della lettera?",
+              "options": [
+                "Per chiedere l'introduzione dei monopattini in città",
+                "Per lamentarsi di come vengono lasciati i monopattini",
+                "Per raccontare un incidente stradale con un'auto",
+                "Per pubblicizzare un servizio di noleggio"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa è successo alla madre dell'autore?",
+              "options": [
+                "È stata investita da un monopattino in corsa",
+                "È caduta a causa di un monopattino lasciato per terra",
+                "Si è rotta una gamba in farmacia",
+                "Ha perso la carrozzina"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è l'opinione dell'autore sui monopattini?",
+              "options": [
+                "Andrebbero vietati in tutto il centro",
+                "Sono utili, ma serve più controllo",
+                "Sono adatti solo ai turisti",
+                "Non li ha mai usati e non li userà"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa chiede al Comune?",
+              "options": [
+                "Di aspettare la fine dell'estate",
+                "Di intervenire con regole prima dell'estate",
+                "Di aumentare il numero dei monopattini",
+                "Di chiudere il centro alle auto"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Domanda 3: «non sono contrario… anzi» segnala che l'autore è favorevole in generale; la critica riguarda solo i controlli. Anzi = on the contrary, rafforza e corregge."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-01-l1-e10",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi, come all'orale quando commenti un testo.",
+          "prompt": "Sei d'accordo con l'autore della lettera? Nella tua esperienza, i monopattini sono più un vantaggio o un problema?",
+          "keywords": [
+            "secondo me",
+            "però",
+            "per esempio"
+          ],
+          "modelAnswer": "Secondo me l'autore ha ragione, anche se i monopattini sono utili. Per esempio, per i tragitti brevi sono più comodi dell'autobus. Però bisognerebbe introdurre delle aree di parcheggio, perché lasciarli sui marciapiedi è pericoloso per gli anziani.",
+          "explanation": "Dai un'opinione, motivala e porta un esempio: è la stessa struttura che ti serve nella discussione orale e nella composizione B.1."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-01-l1-e11",
+          "front": "tuttavia",
+          "back": "however, nevertheless",
+          "example": "Il servizio è caro; il Comune ha tuttavia deciso di mantenerlo."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-01-l1-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Non sono contrario ai monopattini, anzi: il problema è che nessuno controlla.",
+          "translation": "I'm not against scooters – quite the opposite: the problem is that nobody checks."
+        }
+      ]
+    },
+    {
+      "id": "celi-01-l2",
+      "title": "A.2 – Due testi a confronto",
+      "minutes": 14,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-01-l2-e01",
+          "instruction": "Riscaldamento: quale opzione è una parafrasi corretta?",
+          "prompt": "«L'iniziativa ha preso il via a ottobre.»",
+          "options": [
+            "L'iniziativa è finita a ottobre.",
+            "L'iniziativa è cominciata a ottobre.",
+            "L'iniziativa è stata rinviata a ottobre.",
+            "L'iniziativa ha avuto successo a ottobre."
+          ],
+          "answer": 1,
+          "explanation": "Prendere il via = cominciare, partire. Ripassa le parafrasi della lezione 1."
+        },
+        {
+          "type": "translate",
+          "id": "celi-01-l2-e02",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Le iscrizioni sono in calo rispetto all'anno scorso.",
+          "answers": [
+            "Enrolments are down compared to last year.",
+            "Enrollments are down compared to last year.",
+            "Registrations are down compared to last year.",
+            "Enrolments are down on last year.",
+            "Enrolments have fallen compared to last year.",
+            "Registrations have fallen compared to last year.",
+            "Enrolments are falling compared to last year.",
+            "Registrations are falling compared to last year.",
+            "Sign-ups are down compared to last year.",
+            "Enrolments are lower than last year.",
+            "Registrations are lower than last year."
+          ],
+          "explanation": "Essere in calo = diminuire. Il contrario: essere in aumento / in crescita."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-01-l2-e03",
+          "title": "A.2: testi a confronto",
+          "body": "Nella prova **A.2** leggi **due testi sullo stesso tema** (per esempio due esperienze, due opinioni, due annunci) e attribuisci **10 affermazioni** al testo 1 o al testo 2. Ogni risposta giusta vale **1 punto**.\n\n**Come lavorare (consigli pratici):**\n- Leggi i due testi una volta per capire **in che cosa sono diversi** (*what makes each text unique*).\n- Per ogni affermazione cerca l'**informazione esclusiva**: un dettaglio che c'è solo in uno dei due testi.\n- Attenzione ai **sinonimi**: l'affermazione dice *si è trasferita*, il testo dice *ha cambiato casa*.\n- Se un'informazione sembra presente in entrambi i testi, rileggi: spesso uno dei due la **nega** o la presenta in modo diverso (*rimpiange* vs *non rimpiange*).\n- Segna nel testo le parole chiave con numeri o sigle (T1, T2): ti fa risparmiare tempo.",
+          "examples": [
+            {
+              "it": "Nel primo testo Marco rimpiange la città; nel secondo Elena non tornerebbe mai indietro.",
+              "en": "In the first text Marco misses the city; in the second Elena would never go back."
+            },
+            {
+              "it": "A differenza di Marco, Elena lavora da casa.",
+              "en": "Unlike Marco, Elena works from home."
+            },
+            {
+              "it": "Entrambi hanno lasciato Milano.",
+              "en": "They both left Milan."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "celi-01-l2-e04",
+          "instruction": "Prova A.2. Leggi i due testi. A quale testo si riferisce ogni affermazione?",
+          "title": "Lasciare la città: due esperienze",
+          "passage": "TESTO 1 – Marco, 41 anni\nTre anni fa io e la mia compagna abbiamo lasciato Milano per un paese di seicento abitanti sull'Appennino. Volevamo più tempo e meno stress, e in parte l'abbiamo trovato: l'aria è pulita, i vicini ti salutano, l'affitto costa un terzo. Il lavoro, però, è stato il problema più grande. Io faccio l'elettricista e qui di clienti ce ne sono pochi, così tre giorni alla settimana scendo in città, con un'ora e mezza di macchina all'andata e altrettanto al ritorno. D'inverno, con la neve, è dura. A volte rimpiango i cinema e i concerti, e mi pesa dover prendere l'auto anche per comprare il latte. Non mi pento della scelta, ma consiglierei a tutti di provare prima un anno in affitto.\n\nTESTO 2 – Elena, 35 anni\nSono traduttrice e lavoro da casa, quindi per me trasferirmi da Milano in un borgo vicino al lago è stato semplice. Ho scelto un paese con la scuola, il medico e una connessione veloce: senza internet non potrei lavorare. All'inizio ero preoccupata di sentirmi sola, invece mi sono iscritta al coro del paese e in pochi mesi conoscevo mezzo paese. Ho comprato una casa da ristrutturare grazie a un contributo regionale per chi si trasferisce nei piccoli comuni. Della città non mi manca niente: quando ho voglia di una mostra prendo il treno, che passa ogni ora. Indietro non tornerei mai.",
+          "questions": [
+            {
+              "question": "Ha ottenuto un aiuto economico pubblico.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Deve spostarsi spesso per lavorare.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Non sente la mancanza della vita in città.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Paga molto meno di casa rispetto a prima.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Temeva la solitudine.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Trova scomodo dover usare l'auto per tutto.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Ha scelto il paese anche in base ai servizi disponibili.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Suggerisce di non comprare subito casa.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Raggiunge la città con i mezzi pubblici.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Il clima rende più difficili gli spostamenti.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Sinonimi e parafrasi: contributo regionale → aiuto economico pubblico; non mi manca niente → non sente la mancanza; un anno in affitto → non comprare subito; con la neve è dura → il clima rende difficili gli spostamenti."
+        },
+        {
+          "type": "match_pairs",
+          "id": "celi-01-l2-e05",
+          "instruction": "Abbina le parole dei testi ai loro sinonimi.",
+          "pairs": [
+            {
+              "left": "rimpiangere",
+              "right": "sentire la mancanza di"
+            },
+            {
+              "left": "pentirsi",
+              "right": "considerare sbagliata una scelta fatta"
+            },
+            {
+              "left": "il borgo",
+              "right": "il piccolo paese"
+            },
+            {
+              "left": "il contributo",
+              "right": "l'aiuto economico"
+            },
+            {
+              "left": "trasferirsi",
+              "right": "andare a vivere altrove"
+            }
+          ],
+          "explanation": "Rimpiangere qualcosa = sentirne la mancanza; pentirsi di qualcosa = pensare che sia stato un errore. Marco rimpiange i cinema ma non si pente della scelta."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-01-l2-e06",
+          "instruction": "Leggi la frase di Marco e scegli l'interpretazione giusta.",
+          "prompt": "«Non mi pento della scelta, ma consiglierei a tutti di provare prima un anno in affitto.»",
+          "options": [
+            "Marco è pentito e vuole tornare in città.",
+            "Marco è contento, ma invita alla prudenza.",
+            "Marco ha comprato casa troppo presto.",
+            "Marco consiglia di non lasciare la città."
+          ],
+          "answer": 1,
+          "explanation": "Il ma dopo una frase negativa introduce una riserva, non un cambio d'idea. Molte opzioni sbagliate esagerano il tono del testo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-01-l2-e07",
+          "instruction": "Completa con l'espressione giusta per confrontare.",
+          "sentence": "___ Marco, Elena lavora da casa e non deve spostarsi.",
+          "answers": [
+            "A differenza di",
+            "Diversamente da",
+            "Al contrario di"
+          ],
+          "explanation": "A differenza di / diversamente da / al contrario di + nome: espressioni utili per riassumere due testi, anche all'orale."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-01-l2-e08",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "Both of them left Milan, but only Elena would never go back.",
+          "tiles": [
+            "Entrambi",
+            "hanno",
+            "lasciato",
+            "Milano",
+            "ma",
+            "solo",
+            "Elena",
+            "non",
+            "tornerebbe",
+            "mai",
+            "indietro"
+          ],
+          "distractors": [
+            "Entrambe",
+            "tornerà"
+          ],
+          "explanation": "Entrambi (m./misto) – entrambe (f.). Tornerebbe: condizionale, perché è un'ipotesi."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-01-l2-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "A differenza che Marco, Elena ha comprato una casa.",
+          "answers": [
+            "A differenza di Marco, Elena ha comprato una casa.",
+            "A differenza di Marco Elena ha comprato una casa.",
+            "Elena, a differenza di Marco, ha comprato una casa."
+          ],
+          "explanation": "Si dice a differenza di + nome. (A differenza che esiste solo davanti a frasi o avverbi, ed è raro.)"
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-01-l2-e10",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi: confronta le due esperienze.",
+          "prompt": "Che cosa hanno in comune Marco ed Elena e in che cosa sono diverse le loro esperienze?",
+          "keywords": [
+            "entrambi",
+            "mentre",
+            "invece"
+          ],
+          "modelAnswer": "Entrambi hanno lasciato Milano per vivere in un piccolo paese. Marco però ha avuto problemi con il lavoro e deve viaggiare molto, mentre Elena lavora da casa. Lei invece si è integrata subito grazie al coro e non tornerebbe mai in città.",
+          "explanation": "Entrambi, mentre, invece, a differenza di: il lessico del confronto ti serve in A.2, nella composizione e all'orale."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-01-l2-e11",
+          "front": "rimpiangere (ho rimpianto)",
+          "back": "to miss, to regret losing",
+          "example": "A volte rimpiango i concerti della città."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-01-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Mentre Marco rimpiange la città, Elena non tornerebbe mai indietro.",
+          "translation": "While Marco misses the city, Elena would never go back."
+        }
+      ]
+    },
+    {
+      "id": "celi-01-l3",
+      "title": "A.3 – Domande aperte",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-01-l3-e01",
+          "instruction": "Riscaldamento: ricordi il formato?",
+          "prompt": "Nella prova A.3 quante domande aperte ci sono e quanto vale una risposta completamente corretta?",
+          "options": [
+            "2 domande, 5 punti",
+            "4 domande, 3 punti",
+            "10 domande, 1 punto",
+            "5 domande, 2 punti"
+          ],
+          "answer": 1,
+          "explanation": "A.3: un testo con 4 domande aperte. 3 punti se la risposta è corretta, 2 se è parzialmente corretta, 1 se è incompleta."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-01-l3-e02",
+          "instruction": "Riscaldamento: completa con il connettivo giusto (contrasto + congiuntivo).",
+          "sentence": "___ il paese sia piccolo, Elena non si sente sola.",
+          "answers": [
+            "Sebbene",
+            "Benché",
+            "Nonostante",
+            "Malgrado",
+            "Anche se"
+          ],
+          "explanation": "Sebbene / benché / nonostante + congiuntivo (sia). Anche se vuole l'indicativo: Anche se il paese è piccolo…"
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-01-l3-e03",
+          "title": "Rispondere alle domande aperte",
+          "body": "Nella prova **A.3** devi dimostrare di aver capito, non di saper copiare. Il punteggio distingue tra risposta **corretta** (3), **parzialmente corretta** (2) e **incompleta** (1).\n\n**Consigli pratici** *(our advice, based on the marking)*:\n- Rispondi **esattamente** a ciò che chiede la domanda: *perché?* → una causa (*perché / poiché…*); *in che modo?* → un modo; *che cosa propone?* → una proposta.\n- Scrivi **frasi brevi ma complete**, con soggetto e verbo. Una risposta di una o due frasi di solito basta.\n- Quando possibile **riformula con parole tue**: dimostri comprensione e riduci il rischio di copiare un pezzo sbagliato.\n- Controlla che la risposta contenga **tutte le informazioni** richieste: se la domanda chiede due ragioni, dagliele entrambe, altrimenti la risposta è incompleta.\n- Attenzione a persone e tempi verbali: nel testo *«Ho aperto il laboratorio»* → nella risposta *Ha aperto il laboratorio.*",
+          "examples": [
+            {
+              "it": "Domanda: Perché Giulia ha aperto il Repair Café?",
+              "en": "Question: Why did Giulia open the Repair Café?"
+            },
+            {
+              "it": "Risposta debole: «Buttare via è un peccato».",
+              "en": "Weak answer: a fragment copied from the text."
+            },
+            {
+              "it": "Risposta buona: Perché non sopportava che si buttassero oggetti ancora riparabili.",
+              "en": "Good answer: a complete sentence that rephrases."
+            },
+            {
+              "it": "Domanda: Chi frequenta il laboratorio? → Soprattutto pensionati e studenti.",
+              "en": "Who goes there? → Mainly pensioners and students."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "celi-01-l3-e04",
+          "instruction": "Prova A.3. Leggi l'intervista. Prima rispondi a due domande di controllo.",
+          "title": "«Ripariamo insieme»: intervista a Giulia, fondatrice di un Repair Café",
+          "passage": "Che cos'è un Repair Café?\nÈ un incontro gratuito, una volta al mese, in cui volontari esperti aiutano le persone a riparare oggetti rotti: lampade, tostapane, biciclette, vestiti. La regola è che il proprietario non lascia l'oggetto e se ne va: resta e impara.\n\nCome è nata l'idea?\nLavoravo in un negozio di elettrodomestici e vedevo ogni giorno clienti che buttavano apparecchi con un guasto da cinque euro, perché comprarne uno nuovo costava poco di più. Mi sembrava uno spreco assurdo. Poi ho letto di un'esperienza simile in Olanda e mi sono detta: perché non qui?\n\nChi frequenta i vostri incontri?\nAll'inizio venivano soprattutto pensionati, che sanno ancora aggiustare le cose. Adesso arrivano molti studenti, per motivi economici ma anche ambientali. Gli anziani insegnano, i giovani imparano: è diventato anche un luogo di incontro tra generazioni.\n\nQuali sono le difficoltà?\nTrovare i pezzi di ricambio, perché molti produttori non li vendono più, e lo spazio: ci ospita una parrocchia, ma la sala è piccola. Il nostro sogno è avere un laboratorio aperto tutti i giorni.",
+          "questions": [
+            {
+              "question": "Che cosa deve fare chi porta un oggetto da riparare?",
+              "options": [
+                "Lasciarlo e tornare dopo",
+                "Restare e partecipare alla riparazione",
+                "Pagare i pezzi di ricambio in anticipo",
+                "Comprarne uno nuovo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove si svolgono gli incontri?",
+              "options": [
+                "In un negozio di elettrodomestici",
+                "In una sala messa a disposizione da una parrocchia",
+                "In un laboratorio aperto tutti i giorni",
+                "In Olanda"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "free_write",
+          "id": "celi-01-l3-e05",
+          "instruction": "Ora scrivi le risposte alle 4 domande aperte, con frasi brevi e complete.",
+          "prompt": "Rispondi alle domande sul testo «Ripariamo insieme» (1–2 frasi per ciascuna, in tutto almeno 40 parole):\n1. Che cosa ha spinto Giulia a creare il Repair Café?\n2. Come è cambiato il pubblico degli incontri?\n3. Perché il Repair Café è diventato anche un luogo di incontro tra generazioni?\n4. Quali sono i due problemi principali che Giulia indica?",
+          "minWords": 40,
+          "checklist": [
+            "Ho risposto a tutte e 4 le domande, nell'ordine.",
+            "Ogni risposta è una frase completa, con soggetto e verbo.",
+            "Ho riformulato con parole mie invece di copiare pezzi interi.",
+            "Nella domanda 4 ho indicato entrambi i problemi (pezzi di ricambio e spazio).",
+            "Ho trasformato la prima persona del testo in terza persona (ha visto, ha letto…)."
+          ],
+          "modelAnswer": "1. Lavorando in un negozio, vedeva molti clienti buttare apparecchi con piccoli guasti e considerava questo uno spreco; poi ha letto di un'esperienza simile in Olanda.\n2. All'inizio venivano soprattutto pensionati, mentre adesso partecipano anche molti studenti.\n3. Perché gli anziani, che sanno aggiustare le cose, insegnano ai giovani.\n4. È difficile trovare i pezzi di ricambio e la sala in cui si incontrano è troppo piccola.",
+          "explanation": "Confronta con il modello: non serve la stessa formulazione, serve la stessa informazione. Se ti manca un elemento, la risposta vale meno punti."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "celi-01-l3-e06",
+          "instruction": "Quale risposta otterrebbe il punteggio pieno?",
+          "prompt": "Domanda: Perché i giovani partecipano agli incontri?",
+          "options": [
+            "«Per motivi.»",
+            "Perché sono studenti.",
+            "Per motivi economici e ambientali.",
+            "«Adesso arrivano molti studenti.»"
+          ],
+          "answer": 2,
+          "explanation": "La risposta completa contiene entrambe le ragioni del testo. La prima è incompleta, la seconda non risponde, la quarta copia una frase che non spiega il perché."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-01-l3-e07",
+          "instruction": "Ricostruisci una risposta riformulata.",
+          "translation": "Many manufacturers no longer sell spare parts.",
+          "tiles": [
+            "Molti",
+            "produttori",
+            "non",
+            "vendono",
+            "più",
+            "i",
+            "pezzi",
+            "di",
+            "ricambio"
+          ],
+          "distractors": [
+            "ancora",
+            "venduti"
+          ],
+          "explanation": "Non… più = no longer. Pezzi di ricambio = spare parts."
+        },
+        {
+          "type": "error_correction",
+          "id": "celi-01-l3-e08",
+          "instruction": "C'è un errore nella risposta di uno studente. Riscrivi la frase corretta.",
+          "sentence": "Giulia ha aperto il Repair Café perché vedevo molti oggetti buttati via.",
+          "answers": [
+            "Giulia ha aperto il Repair Café perché vedeva molti oggetti buttati via.",
+            "Giulia ha aperto il Repair Café perché vedeva molti oggetti buttati."
+          ],
+          "explanation": "Errore tipico in A.3: copiare la prima persona dell'intervista (vedevo). Nella risposta si parla di Giulia: vedeva."
+        },
+        {
+          "type": "translate",
+          "id": "celi-01-l3-e09",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "It seemed an absurd waste to me.",
+          "answers": [
+            "Mi sembrava uno spreco assurdo.",
+            "Mi sembrava uno spreco assurdo",
+            "Mi pareva uno spreco assurdo.",
+            "Mi è sembrato uno spreco assurdo.",
+            "Mi sembrava un assurdo spreco."
+          ],
+          "explanation": "Mi sembrava: imperfetto, perché è un'opinione che durava nel tempo."
+        },
+        {
+          "type": "roleplay",
+          "id": "celi-01-l3-e10",
+          "instruction": "Parla con un'amica dell'intervista che hai letto. Rispondi ad alta voce.",
+          "scenario": "Your friend Chiara saw you reading about the Repair Café. Summarise the article briefly and give your opinion – good practice for the oral exam, where you summarise a text.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Che cosa stai leggendo di bello?"
+            },
+            {
+              "speaker": "you",
+              "text": "Un'intervista a Giulia, che ha fondato un Repair Café: è un incontro gratuito in cui dei volontari aiutano a riparare oggetti rotti.",
+              "hint": "Say what the text is about (Il testo parla di… / È un'intervista a…).",
+              "keywords": [
+                "intervista",
+                "riparare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ah, interessante! E perché l'ha fondato?"
+            },
+            {
+              "speaker": "you",
+              "text": "Perché lavorava in un negozio e vedeva troppi apparecchi buttati per un piccolo guasto.",
+              "hint": "Give the reason in the third person (lavorava, vedeva).",
+              "keywords": [
+                "perché",
+                "lavorava"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E secondo te funziona?"
+            },
+            {
+              "speaker": "you",
+              "text": "Secondo me sì, perché si risparmia e si inquina meno. In più è un modo per conoscere altre persone.",
+              "hint": "Give your opinion with a reason.",
+              "keywords": [
+                "secondo me",
+                "perché"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Quasi quasi ci porto la mia vecchia lampada!"
+            }
+          ],
+          "explanation": "Riassunto in terza persona + opinione motivata: è la sequenza che userai nella parte «testo da riassumere» dell'orale."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-01-l3-e11",
+          "instruction": "Ascolta e ripeti ad alta voce: è una formula utile per riassumere.",
+          "text": "Il testo parla di un'iniziativa gratuita che aiuta le persone a riparare gli oggetti invece di buttarli.",
+          "translation": "The text is about a free initiative that helps people repair things instead of throwing them away."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-01-l3-e12",
+          "front": "lo spreco",
+          "back": "waste",
+          "example": "Buttare un tostapane per un guasto da cinque euro è uno spreco."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "tuttavia",
+      "en": "however, nevertheless",
+      "example": "Il servizio costa; tuttavia il Comune lo mantiene."
+    },
+    {
+      "it": "pertanto",
+      "en": "therefore (formal)",
+      "example": "La sala è piccola; pertanto si accettano solo prenotazioni."
+    },
+    {
+      "it": "anzi",
+      "en": "on the contrary, actually",
+      "example": "Non sono contrario, anzi: li uso anch'io."
+    },
+    {
+      "it": "a differenza di",
+      "en": "unlike",
+      "example": "A differenza di Marco, Elena lavora da casa."
+    },
+    {
+      "it": "entrambi / entrambe",
+      "en": "both",
+      "example": "Entrambi hanno lasciato la città."
+    },
+    {
+      "it": "la sperimentazione",
+      "en": "trial, pilot",
+      "example": "L'apertura serale è una sperimentazione di sei mesi."
+    },
+    {
+      "it": "l'iniziativa (f.)",
+      "en": "initiative, scheme",
+      "example": "L'iniziativa piace molto ai giovani."
+    },
+    {
+      "it": "l'amministrazione comunale",
+      "en": "the town council",
+      "example": "L'amministrazione comunale deciderà a marzo."
+    },
+    {
+      "it": "i residenti",
+      "en": "residents",
+      "example": "Alcuni residenti temono più rumore."
+    },
+    {
+      "it": "prendere il via",
+      "en": "to get under way, to start",
+      "example": "Il progetto ha preso il via in ottobre."
+    },
+    {
+      "it": "rinviare (rinviato)",
+      "en": "to postpone",
+      "example": "La riunione è stata rinviata."
+    },
+    {
+      "it": "anticipare",
+      "en": "to bring forward",
+      "example": "Hanno anticipato la chiusura alle 23."
+    },
+    {
+      "it": "essere in calo / in aumento",
+      "en": "to be falling / rising",
+      "example": "Gli incidenti sono in calo."
+    },
+    {
+      "it": "a costo zero",
+      "en": "at no cost",
+      "example": "Il servizio non è a costo zero."
+    },
+    {
+      "it": "lamentarsi (di)",
+      "en": "to complain (about)",
+      "example": "Molti si lamentano dei monopattini."
+    },
+    {
+      "it": "rimpiangere (rimpianto)",
+      "en": "to miss, to regret losing",
+      "example": "Rimpiango i concerti della città."
+    },
+    {
+      "it": "pentirsi (di)",
+      "en": "to regret (a choice)",
+      "example": "Non mi pento della scelta."
+    },
+    {
+      "it": "trasferirsi",
+      "en": "to move (house, town)",
+      "example": "Si è trasferita in un borgo vicino al lago."
+    },
+    {
+      "it": "il borgo",
+      "en": "village, small historic town",
+      "example": "Vive in un borgo di seicento abitanti."
+    },
+    {
+      "it": "il contributo",
+      "en": "grant, contribution",
+      "example": "Ha ottenuto un contributo regionale."
+    },
+    {
+      "it": "lo spreco",
+      "en": "waste",
+      "example": "Buttare cibo è uno spreco."
+    },
+    {
+      "it": "il pezzo di ricambio",
+      "en": "spare part",
+      "example": "Non si trovano più i pezzi di ricambio."
+    },
+    {
+      "it": "il guasto",
+      "en": "fault, breakdown",
+      "example": "La lavatrice ha un piccolo guasto."
+    },
+    {
+      "it": "la parafrasi",
+      "en": "paraphrase",
+      "example": "L'opzione giusta è spesso una parafrasi del testo."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "celi-01-t1",
+      "rule": "A.1: le opzioni parafrasano",
+      "tip": "Nella scelta multipla l'opzione giusta di solito riformula il testo; diffida di chi ripete le sue parole.",
+      "example": {
+        "it": "«È stato rinviato» → «non si terrà nella data prevista».",
+        "en": "\"Postponed\" → \"won't happen on the planned date\"."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Testo: «Le iscrizioni sono in calo». Quale opzione lo parafrasa?",
+        "options": [
+          "Ci sono più iscritti",
+          "Si sono iscritte meno persone",
+          "Le iscrizioni sono chiuse",
+          "Le iscrizioni sono gratuite"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-01-t2",
+      "rule": "A.2: cerca il dettaglio esclusivo",
+      "tip": "Per ogni affermazione cerca l'informazione che compare in un solo testo, spesso con un sinonimo.",
+      "example": {
+        "it": "«Non mi manca niente» = non sente la mancanza della città.",
+        "en": "\"I don't miss anything\" = doesn't miss the city."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "«Rimpiange i concerti» significa…",
+        "options": [
+          "ne sente la mancanza",
+          "li odia",
+          "ci va spesso",
+          "li organizza"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "celi-01-t3",
+      "rule": "A.3: frasi complete, parole tue",
+      "tip": "Rispondi con una frase completa in terza persona; se la domanda chiede due cose, scrivile entrambe.",
+      "example": {
+        "it": "Intervista: «Vedevo sprechi» → Risposta: Vedeva molti sprechi.",
+        "en": "Interview: \"I saw waste\" → Answer: She saw a lot of waste."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Giulia ha creato il laboratorio perché lavoravo in un negozio.",
+        "answers": [
+          "Giulia ha creato il laboratorio perché lavorava in un negozio."
+        ]
+      }
+    },
+    {
+      "id": "celi-01-t4",
+      "rule": "Tuttavia annuncia un contrasto",
+      "tip": "Tuttavia, però, eppure annunciano un contrasto: la risposta alla domanda è spesso nella frase dopo.",
+      "example": {
+        "it": "Il servizio è caro; tuttavia piace a tutti.",
+        "en": "The service is expensive; however, everyone likes it."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Il paese è piccolo; ___, Elena non si annoia mai.",
+        "answers": [
+          "tuttavia",
+          "però",
+          "eppure",
+          "ciononostante"
+        ]
+      }
+    },
+    {
+      "id": "celi-01-t5",
+      "rule": "Gestisci le 2 h 15 del fascicolo 1",
+      "tip": "Lettura e scrittura condividono 2 h 15: dai circa metà del tempo alla Parte A e il resto alle due prove scritte.",
+      "example": {
+        "it": "Prima le domande, poi il testo.",
+        "en": "Questions first, then the text."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Nel fascicolo 1 del CELI 3 ci sono…",
+        "options": [
+          "solo le prove di lettura",
+          "lettura e scrittura",
+          "lettura e ascolto",
+          "scrittura e grammatica"
+        ],
+        "answer": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,904 @@
+{
+  "id": "b1-09",
+  "level": "B1",
+  "title": "Secondo me…",
+  "objective": "By the end you can give and ask for opinions, express hopes, wishes and feelings, and say what is important or necessary, choosing between the congiuntivo, the indicative and the infinitive.",
+  "grammarFocus": "Congiuntivo presente (regular and key irregular forms) after verbs of opinion, wish, hope and emotion and after impersonal expressions; same subject → di + infinitive; certainty → indicative; secondo me + indicative.",
+  "remedialUnitIds": [
+    "a2r-05"
+  ],
+  "lessons": [
+    {
+      "id": "b1-09-l1",
+      "title": "Penso che sia… Il congiuntivo presente",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-09-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta (futuro di ipotesi).",
+          "prompt": "Non trovo Marco da nessuna parte: ___ già uscito.",
+          "options": [
+            "sarà",
+            "avrà",
+            "è stando",
+            "sarebbe stato"
+          ],
+          "answer": 0,
+          "explanation": "A guess about the past with uscire (essere): sarà uscito = he must have gone out."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l1-e02",
+          "instruction": "Riscaldamento: completa con il condizionale.",
+          "sentence": "Secondo me ___ (dovere) parlare con il medico.",
+          "answers": [
+            "dovresti"
+          ],
+          "hint": "dovere – tu",
+          "explanation": "Advice: dovresti. Notice that secondo me is followed by an ordinary verb, not a special form."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-09-l1-e03",
+          "title": "Il congiuntivo presente",
+          "body": "The **congiuntivo** is the mood of opinions, wishes, doubts and feelings. It usually appears after **che**, when the main verb expresses something subjective.\n\n**Regular forms**\n- parlare → parl**i**, parl**i**, parl**i**, parl**iamo**, parl**iate**, parl**ino**\n- prendere → prend**a**, prend**a**, prend**a**, prend**iamo**, prend**iate**, prend**ano**\n- dormire → dorm**a**… / finire → fin**isca**, fin**isca**, fin**isca**, fin**iamo**, fin**iate**, fin**iscano**\n\n**Key irregulars**: essere → **sia**, avere → **abbia**, fare → **faccia**, andare → **vada**, venire → **venga**, dire → **dica**, potere → **possa**, volere → **voglia**, dovere → **debba**, stare → **stia**, dare → **dia**, sapere → **sappia**, uscire → **esca**.\nTrick: many come from the *io* present: faccio → faccia, vengo → venga, esco → esca.\n\nThe three singular forms are identical, so add the subject when it isn't clear: *Penso che **tu** abbia ragione.*\n\n**Opinion verbs + che + congiuntivo**: penso che, credo che, mi sembra che, non sono sicuro che, dubito che.\nBut **secondo me / per me** take the normal indicative: *Secondo me **è** caro.*",
+          "examples": [
+            {
+              "it": "Penso che questo ristorante sia troppo caro.",
+              "en": "I think this restaurant is too expensive."
+            },
+            {
+              "it": "Credo che Luca lavori anche il sabato.",
+              "en": "I believe Luca works on Saturdays too."
+            },
+            {
+              "it": "Mi sembra che tu abbia ragione.",
+              "en": "It seems to me that you're right."
+            },
+            {
+              "it": "Secondo me il treno è più comodo della macchina.",
+              "en": "In my opinion the train is more convenient than the car."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-09-l1-e04",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "essere",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "sia"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "sia"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "sia"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "siamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "siate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "siano"
+            }
+          ],
+          "explanation": "Sia is everywhere: penso che sia vero, mi sembra che sia chiuso, spero che sia tutto a posto."
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-09-l1-e05",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "avere",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "abbia"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "abbia"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "abbia"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "abbiamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "abbiate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "abbiano"
+            }
+          ],
+          "explanation": "The noi form is the same as the present indicative: abbiamo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l1-e06",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Penso che questo ristorante ___ (essere) troppo caro.",
+          "answers": [
+            "sia"
+          ],
+          "hint": "essere – lui",
+          "explanation": "Penso che expresses an opinion: congiuntivo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l1-e07",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Credo che Luca ___ (lavorare) anche il sabato.",
+          "answers": [
+            "lavori"
+          ],
+          "hint": "lavorare – lui",
+          "explanation": "-are verbs take -i in the singular: lavori."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-09-l1-e08",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Secondo me questo appartamento ___ troppo piccolo per due persone.",
+          "options": [
+            "è",
+            "sia",
+            "siano",
+            "essere"
+          ],
+          "answer": 0,
+          "explanation": "Secondo me is not a verb, so there is no che and no congiuntivo: secondo me è…"
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-09-l1-e09",
+          "instruction": "Abbina l'infinito al congiuntivo presente (lui/lei).",
+          "pairs": [
+            {
+              "left": "fare",
+              "right": "faccia"
+            },
+            {
+              "left": "andare",
+              "right": "vada"
+            },
+            {
+              "left": "venire",
+              "right": "venga"
+            },
+            {
+              "left": "dire",
+              "right": "dica"
+            },
+            {
+              "left": "potere",
+              "right": "possa"
+            },
+            {
+              "left": "uscire",
+              "right": "esca"
+            }
+          ],
+          "explanation": "All of these come from the io form of the present: faccio, vado, vengo, dico, posso, esco."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-09-l1-e10",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Mi sembra che il treno sia in ritardo.",
+          "answers": [
+            "Mi sembra che il treno sia in ritardo."
+          ],
+          "slow": false,
+          "explanation": "Mi sembra che + congiuntivo: sia."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-09-l1-e11",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I think you're right.",
+          "tiles": [
+            "Penso",
+            "che",
+            "tu",
+            "abbia",
+            "ragione"
+          ],
+          "distractors": [
+            "sei",
+            "avere"
+          ],
+          "explanation": "Avere ragione = to be right. Tu clarifies the subject, because abbia is the same for io, tu and lui."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-09-l1-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Che cosa pensi dei trasporti pubblici nella città dove vivi? Usa penso che, credo che o mi sembra che.",
+          "keywords": [
+            "penso che",
+            "mi sembra che"
+          ],
+          "modelAnswer": "Penso che gli autobus siano abbastanza puntuali, ma mi sembra che la sera ce ne siano troppo pochi. Credo che la metropolitana sia il mezzo più comodo.",
+          "explanation": "Opinion verbs + che + congiuntivo: siano, sia."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-09-l1-e13",
+          "front": "mi sembra che… (+ congiuntivo)",
+          "back": "it seems to me that…, I think that…",
+          "example": "Mi sembra che il negozio sia chiuso."
+        }
+      ]
+    },
+    {
+      "id": "b1-09-l2",
+      "title": "Spero che vada tutto bene",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "conjugation",
+          "id": "b1-09-l2-e01",
+          "instruction": "Riscaldamento: scrivi le forme del congiuntivo presente.",
+          "verb": "fare",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "faccia"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "faccia"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "faccia"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "facciamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "facciate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "facciano"
+            }
+          ],
+          "explanation": "Built on the io present: faccio → faccia."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l2-e02",
+          "instruction": "Riscaldamento: completa con il congiuntivo presente.",
+          "sentence": "Non sono sicuro che il negozio ___ (aprire) la domenica.",
+          "answers": [
+            "apra"
+          ],
+          "hint": "aprire – lui",
+          "explanation": "Non sono sicuro che = doubt: congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-09-l2-e03",
+          "title": "Desideri ed emozioni",
+          "body": "The congiuntivo also follows verbs of **wish, hope, fear and feeling** when the second clause has a **different subject**:\n- **voglio che, preferisco che, spero che** – *Voglio che tu venga.*\n- **ho paura che, mi dispiace che, sono contento che, è un peccato che** – *Mi dispiace che tu non possa venire.*\n- in conversation: **Speriamo che…!** – *Speriamo che non piova!*\n\n**Same subject → infinitive**, not che:\n- spero **di** venire / ho paura **di** sbagliare / sono contento **di** essere qui\n- volere and preferire take the infinitive directly: *Voglio andare. Preferisco restare.*\n\nTypical English-speaker errors:\n- *Voglio che tu venga.* (not *Voglio te venire*)\n- *Spero di venire.* (not *Spero che vengo*)",
+          "examples": [
+            {
+              "it": "Mia madre vuole che io la chiami più spesso.",
+              "en": "My mother wants me to call her more often."
+            },
+            {
+              "it": "Speriamo che domani non piova!",
+              "en": "Let's hope it doesn't rain tomorrow!"
+            },
+            {
+              "it": "Mi dispiace che tu non possa venire alla festa.",
+              "en": "I'm sorry you can't come to the party."
+            },
+            {
+              "it": "Sono contento di essere qui con voi.",
+              "en": "I'm happy to be here with you."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-09-l2-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Sono contento ___ qui con voi stasera.",
+          "options": [
+            "di essere",
+            "che sia",
+            "che sono",
+            "essere"
+          ],
+          "answer": 0,
+          "explanation": "Same subject (I'm happy / I'm here): di + infinitive."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-09-l2-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Mia madre vuole che io la ___ più spesso.",
+          "options": [
+            "chiami",
+            "chiamo",
+            "chiamare",
+            "chiamerò"
+          ],
+          "answer": 0,
+          "explanation": "Different subjects (she wants / I call): che + congiuntivo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l2-e06",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Speriamo che domani non ___ (piovere)!",
+          "answers": [
+            "piova"
+          ],
+          "hint": "piovere",
+          "explanation": "Speriamo che + congiuntivo is one of the most common uses in everyday speech."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l2-e07",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Mi dispiace che tu non ___ (potere) venire alla festa.",
+          "answers": [
+            "possa"
+          ],
+          "hint": "potere – tu",
+          "explanation": "Potere → possa (from posso)."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-09-l2-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Voglio che tu vieni con me dal notaio.",
+          "answers": [
+            "Voglio che tu venga con me dal notaio.",
+            "Voglio che venga con me dal notaio."
+          ],
+          "explanation": "Volere che + congiuntivo: venga (from vengo)."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-09-l2-e09",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Ho paura che sbaglio strada.",
+          "answers": [
+            "Ho paura di sbagliare strada."
+          ],
+          "explanation": "The same person is afraid and might take the wrong road: di + infinitive."
+        },
+        {
+          "type": "translate",
+          "id": "b1-09-l2-e10",
+          "instruction": "Traduci in italiano (parli a un amico).",
+          "direction": "en_it",
+          "source": "I hope you feel better soon.",
+          "answers": [
+            "Spero che tu stia meglio presto.",
+            "Spero che tu ti senta meglio presto.",
+            "Spero che stia meglio presto.",
+            "Spero che ti senta meglio presto.",
+            "Spero che tu stia presto meglio.",
+            "Spero che tu ti senta presto meglio.",
+            "Spero che stia presto meglio.",
+            "Spero che ti senta presto meglio.",
+            "Spero che tu ti rimetta presto.",
+            "Spero che ti rimetta presto."
+          ],
+          "explanation": "Spero che + congiuntivo: stia (stare) or ti senta (sentirsi)."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-09-l2-e11",
+          "instruction": "Ascolta il messaggio vocale e rispondi.",
+          "audioText": "Ciao Anna! Ho saputo che domani hai il colloquio. Spero che vada tutto bene! Mi dispiace che non possiamo vederci prima, ma sono contenta che finalmente tu abbia questa occasione. Fammi sapere com'è andata!",
+          "question": "Perché l'amica manda il messaggio ad Anna?",
+          "options": [
+            "Per farle gli auguri per il colloquio.",
+            "Per invitarla a cena domani.",
+            "Per dirle che è malata.",
+            "Per chiederle un favore."
+          ],
+          "answer": 0,
+          "explanation": "Spero che vada, mi dispiace che non possiamo, sono contenta che tu abbia: three congiuntivi after feelings."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-09-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Spero che tu possa venire alla festa sabato.",
+          "translation": "I hope you can come to the party on Saturday."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-09-l2-e13",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Una tua amica si trasferisce in Italia il mese prossimo. Che cosa speri per lei? Di che cosa hai paura?",
+          "keywords": [
+            "spero che",
+            "ho paura che"
+          ],
+          "modelAnswer": "Spero che trovi presto una casa e che i vicini siano gentili. Ho paura che abbia qualche problema con la burocrazia, ma sono sicuro che ce la farà.",
+          "explanation": "Spero che / ho paura che + congiuntivo; sono sicuro che + indicativo (certainty)."
+        }
+      ]
+    },
+    {
+      "id": "b1-09-l3",
+      "title": "È importante che… Opinioni a confronto",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-09-l3-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Spero ___ presto, il raffreddore non passa più!",
+          "options": [
+            "di guarire",
+            "che guarisco",
+            "che guarisca io",
+            "guarire"
+          ],
+          "answer": 0,
+          "explanation": "Same subject: spero di + infinitive."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-09-l3-e02",
+          "front": "bisogna che… (+ congiuntivo)",
+          "back": "it's necessary that…, … needs to…",
+          "example": "Bisogna che tu prenda un appuntamento."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-09-l3-e03",
+          "title": "Espressioni impersonali – e quando NON si usa il congiuntivo",
+          "body": "**Impersonal expressions + che + congiuntivo**\n- è importante che, è meglio che, è necessario che, bisogna che\n- è possibile che, è probabile che, è normale che, è strano che\n\nWith no specific person, use the **infinitive**: *È importante prenotare.* / *È importante che tu prenoti.*\n\n**Certainty → indicativo**\n- so che, sono sicuro che, è vero che, è chiaro che, vedo che\n- *Sono sicuro che è aperto.* vs *Non sono sicuro che sia aperto.*\n\nIn relaxed speech you will hear *penso che è…*: it is common but marked as colloquial. In writing and in the exam, use the congiuntivo.",
+          "examples": [
+            {
+              "it": "È meglio che telefoniate prima di andare.",
+              "en": "You'd better phone before you go."
+            },
+            {
+              "it": "È importante che tutti sappiano le regole del condominio.",
+              "en": "It's important that everyone knows the building rules."
+            },
+            {
+              "it": "So che il museo è chiuso il lunedì.",
+              "en": "I know the museum is closed on Mondays."
+            },
+            {
+              "it": "Non è possibile che l'ufficio chiuda già alle undici!",
+              "en": "The office can't possibly close at eleven already!"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-09-l3-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "È meglio che ___ prima di andare.",
+          "options": [
+            "telefoniate",
+            "telefonate",
+            "telefonare voi",
+            "telefonerete"
+          ],
+          "answer": 0,
+          "explanation": "È meglio che + congiuntivo: telefoniate (voi)."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-09-l3-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "So che il museo ___ chiuso il lunedì.",
+          "options": [
+            "è",
+            "sia",
+            "siano",
+            "essere"
+          ],
+          "answer": 0,
+          "explanation": "Sapere expresses certainty: indicativo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l3-e06",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "È importante che tutti ___ (sapere) le regole del condominio.",
+          "answers": [
+            "sappiano"
+          ],
+          "hint": "sapere – loro",
+          "explanation": "Sapere → sappia, sappiano."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-09-l3-e07",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Non è possibile che l'ufficio ___ (chiudere) già alle undici!",
+          "answers": [
+            "chiuda"
+          ],
+          "hint": "chiudere – lui",
+          "explanation": "È possibile che / non è possibile che + congiuntivo."
+        },
+        {
+          "type": "translate",
+          "id": "b1-09-l3-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "It's better to book online.",
+          "answers": [
+            "È meglio prenotare online.",
+            "È meglio prenotare on line.",
+            "È meglio prenotare su internet.",
+            "È meglio prenotare in rete.",
+            "Conviene prenotare online.",
+            "Conviene prenotare on line.",
+            "Conviene prenotare su internet."
+          ],
+          "explanation": "No specific subject → infinitive, no che."
+        },
+        {
+          "type": "reading",
+          "id": "b1-09-l3-e09",
+          "instruction": "Leggi i messaggi del forum e rispondi alle domande.",
+          "title": "Meglio vivere in centro o in periferia?",
+          "passage": "Giulia: Secondo me il centro è più comodo: si fa tutto a piedi e non serve la macchina. Certo, gli affitti sono altissimi, ma penso che valga la pena.\n\nMarco: Io non sono d'accordo. Credo che in periferia si viva meglio: c'è più verde, i bambini possono giocare fuori e la sera c'è silenzio. È vero che bisogna prendere l'autobus, ma ormai le linee sono buone.\n\nSara: Dipende! È importante che ognuno scelga in base al proprio lavoro. Se lavori in centro, mi sembra assurdo che tu passi due ore al giorno nel traffico.",
+          "questions": [
+            {
+              "question": "Che cosa pensa Giulia?",
+              "options": [
+                "Il centro costa troppo e non conviene.",
+                "Il centro è caro ma conviene.",
+                "In periferia si vive meglio.",
+                "Bisogna avere la macchina."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché Marco preferisce la periferia?",
+              "options": [
+                "Perché gli affitti sono bassi.",
+                "Perché c'è più verde e silenzio.",
+                "Perché lavora lì.",
+                "Perché non ci sono autobus."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è la posizione di Sara?",
+              "options": [
+                "Il centro è sempre meglio.",
+                "La periferia è sempre meglio.",
+                "Dipende da dove si lavora.",
+                "Non bisogna mai prendere l'autobus."
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "Valere la pena = to be worth it. Notice: penso che valga, credo che si viva, è importante che scelga, mi sembra assurdo che tu passi – but è vero che bisogna (certainty)."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-09-l3-e10",
+          "instruction": "Discuti con la tua amica Marta. Rispondi ad alta voce.",
+          "scenario": "Your friend Marta tells you that the town council wants to close the historic centre to cars on Saturdays. Give and defend your opinion.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Hai sentito? Il Comune vuole chiudere il centro alle macchine il sabato."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, secondo me è un'ottima idea. Penso che la città sia troppo trafficata.",
+              "hint": "Secondo me + indicativo, penso che + congiuntivo.",
+              "keywords": [
+                "secondo me",
+                "penso che"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ma i negozi? Ho paura che perdano clienti."
+            },
+            {
+              "speaker": "you",
+              "text": "Capisco, ma credo che la gente venga lo stesso, a piedi o in bici.",
+              "hint": "Answer her worry with credo che…",
+              "keywords": [
+                "credo che"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mah, non sono sicura. E chi abita lontano?"
+            },
+            {
+              "speaker": "you",
+              "text": "È importante che ci siano più autobus e parcheggi fuori dal centro.",
+              "hint": "Suggest a solution: è importante che…",
+              "keywords": [
+                "è importante che"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Su questo hai ragione. Speriamo che il Comune ci pensi!"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, speriamo che ascoltino anche i cittadini.",
+              "hint": "End with speriamo che…",
+              "keywords": [
+                "speriamo che"
+              ]
+            }
+          ],
+          "explanation": "You expressed an opinion, reacted to a fear and proposed a solution, each with the right mood."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-09-l3-e11",
+          "instruction": "Scrivi un breve testo d'opinione.",
+          "prompt": "Scrivi un post per un forum (70–100 parole): «Lavorare da casa: è davvero meglio?». Dai la tua opinione, presenta un vantaggio e uno svantaggio e concludi con un augurio o un consiglio.",
+          "minWords": 70,
+          "checklist": [
+            "Ho usato almeno due verbi di opinione + congiuntivo (penso che, credo che, mi sembra che).",
+            "Ho usato un'espressione impersonale (è importante che, è meglio che, bisogna che).",
+            "Ho usato secondo me o so che con l'indicativo.",
+            "Ho usato di + infinito quando il soggetto è lo stesso.",
+            "Ho usato connettivi: da una parte… dall'altra, però, quindi, insomma."
+          ],
+          "modelAnswer": "Secondo me lavorare da casa ha molti vantaggi, ma non è perfetto per tutti. Da una parte penso che sia fantastico risparmiare il tempo del viaggio e organizzarsi la giornata con più libertà. Dall'altra, mi sembra che molte persone si sentano sole e che lavorino più ore di prima. So che alcuni colleghi preferiscono l'ufficio proprio per questo. Insomma, credo che la soluzione migliore sia un modello misto: è importante che ognuno possa scegliere. Io spero di lavorare da casa due giorni a settimana!"
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-09-l3-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Non sono sicuro che sia la soluzione migliore.",
+          "translation": "I'm not sure it's the best solution."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "secondo me",
+      "en": "in my opinion",
+      "example": "Secondo me è troppo caro."
+    },
+    {
+      "it": "mi sembra che",
+      "en": "it seems to me that",
+      "example": "Mi sembra che sia chiuso."
+    },
+    {
+      "it": "avere ragione / torto",
+      "en": "to be right / wrong",
+      "example": "Penso che tu abbia ragione."
+    },
+    {
+      "it": "essere d'accordo (con)",
+      "en": "to agree (with)",
+      "example": "Non sono d'accordo con te."
+    },
+    {
+      "it": "sperare (di / che)",
+      "en": "to hope",
+      "example": "Speriamo che non piova!"
+    },
+    {
+      "it": "avere paura (di / che)",
+      "en": "to be afraid",
+      "example": "Ho paura di sbagliare strada."
+    },
+    {
+      "it": "dubitare (che)",
+      "en": "to doubt",
+      "example": "Dubito che arrivi in tempo."
+    },
+    {
+      "it": "bisogna (che)",
+      "en": "it's necessary (that)",
+      "example": "Bisogna che tu prenda un appuntamento."
+    },
+    {
+      "it": "è meglio (che)",
+      "en": "it's better (that)",
+      "example": "È meglio che telefoniate prima."
+    },
+    {
+      "it": "valere la pena",
+      "en": "to be worth it",
+      "example": "È caro, ma ne vale la pena."
+    },
+    {
+      "it": "il parere",
+      "en": "opinion, view",
+      "example": "Vorrei un tuo parere."
+    },
+    {
+      "it": "il punto di vista",
+      "en": "point of view",
+      "example": "Dal mio punto di vista è un errore."
+    },
+    {
+      "it": "il vantaggio",
+      "en": "advantage",
+      "example": "Il vantaggio è che si risparmia tempo."
+    },
+    {
+      "it": "lo svantaggio",
+      "en": "disadvantage",
+      "example": "Lo svantaggio sono gli affitti alti."
+    },
+    {
+      "it": "la periferia",
+      "en": "outskirts, suburbs",
+      "example": "Abito in periferia, a venti minuti dal centro."
+    },
+    {
+      "it": "l'affitto (m.)",
+      "en": "rent",
+      "example": "Gli affitti in centro sono altissimi."
+    },
+    {
+      "it": "la soluzione",
+      "en": "solution",
+      "example": "Non è la soluzione migliore."
+    },
+    {
+      "it": "dipende (da)",
+      "en": "it depends (on)",
+      "example": "Dipende da dove lavori."
+    },
+    {
+      "it": "da una parte… dall'altra",
+      "en": "on the one hand… on the other",
+      "example": "Da una parte è comodo, dall'altra è caro."
+    },
+    {
+      "it": "il colloquio (di lavoro)",
+      "en": "(job) interview",
+      "example": "Domani ho un colloquio di lavoro."
+    },
+    {
+      "it": "fare gli auguri (a)",
+      "en": "to wish (someone) well",
+      "example": "Le ho fatto gli auguri per il colloquio."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-09-t1",
+      "rule": "Penso che + congiuntivo",
+      "tip": "After penso, credo, mi sembra, dubito + che, use the congiuntivo: Penso che sia caro.",
+      "example": {
+        "it": "Credo che Luca lavori anche il sabato.",
+        "en": "I believe Luca works on Saturdays too."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Mi sembra che il negozio ___ (essere) chiuso.",
+        "answers": [
+          "sia"
+        ],
+        "hint": "essere – lui"
+      }
+    },
+    {
+      "id": "b1-09-t2",
+      "rule": "Secondo me + indicativo",
+      "tip": "Secondo me and per me are not verbs: no che, no congiuntivo. Secondo me è caro.",
+      "example": {
+        "it": "Secondo me il treno è più comodo.",
+        "en": "In my opinion the train is more convenient."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Secondo me questa soluzione ___ la migliore.",
+        "options": [
+          "è",
+          "sia",
+          "siano",
+          "fosse"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "b1-09-t3",
+      "rule": "Stesso soggetto: di + infinito",
+      "tip": "Same subject in both parts? Use di + infinitive: Spero di venire, not Spero che vengo.",
+      "example": {
+        "it": "Ho paura di sbagliare.",
+        "en": "I'm afraid of making a mistake."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Spero che vengo anch'io alla festa.",
+        "answers": [
+          "Spero di venire anch'io alla festa.",
+          "Spero di venire alla festa anch'io.",
+          "Spero di venire anche io alla festa."
+        ]
+      }
+    },
+    {
+      "id": "b1-09-t4",
+      "rule": "Congiuntivi irregolari",
+      "tip": "Learn these: sia, abbia, faccia, vada, venga, dica, possa, debba, voglia, stia, sappia, esca.",
+      "example": {
+        "it": "Spero che tu stia meglio.",
+        "en": "I hope you're feeling better."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "andare",
+        "tense": "congiuntivo presente",
+        "items": [
+          {
+            "person": "(che) io",
+            "answer": "vada"
+          },
+          {
+            "person": "(che) noi",
+            "answer": "andiamo"
+          },
+          {
+            "person": "(che) loro",
+            "answer": "vadano"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-09-t5",
+      "rule": "Certezza: indicativo",
+      "tip": "So che, sono sicuro che, è vero che express certainty, so they take the indicative: So che è chiuso.",
+      "example": {
+        "it": "Sono sicuro che arriva domani.",
+        "en": "I'm sure he's arriving tomorrow."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Sono sicuro che il museo ___ aperto anche oggi.",
+        "options": [
+          "è",
+          "sia",
+          "essere",
+          "siano"
+        ],
+        "answer": 0
+      }
+    }
+  ]
+}

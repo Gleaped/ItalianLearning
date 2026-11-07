@@ -1,0 +1,983 @@
+{
+  "id": "b1-12",
+  "level": "B1",
+  "title": "Ripasso B1",
+  "objective": "By the end you can show that you can narrate past events, give and justify opinions, and handle services and problems in Italian, using all the B1 grammar in exam-style tasks.",
+  "grammarFocus": "End-of-B1 review: passato prossimo, imperfetto and trapassato; ci/ne and combined pronouns; si impersonale and imperative; condizionale; futuro semplice and anteriore; congiuntivo presente; relative pronouns.",
+  "remedialUnitIds": [
+    "a2r-01",
+    "a2r-02",
+    "a2r-04"
+  ],
+  "lessons": [
+    {
+      "id": "b1-12-l1",
+      "title": "Raccontare: tutti i passati",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-12-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Quando sono arrivato in Comune, gli impiegati ___ già chiuso gli sportelli.",
+          "options": [
+            "avevano",
+            "erano",
+            "hanno",
+            "sono"
+          ],
+          "answer": 0,
+          "explanation": "The closing happened before you arrived: trapassato. Chiudere qualcosa takes avere: avevano chiuso."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l1-e02",
+          "instruction": "Riscaldamento: completa con il passato prossimo.",
+          "sentence": "Ieri ___ (andare) in banca, ma c'era una fila lunghissima.",
+          "answers": [
+            "sono andato",
+            "sono andata"
+          ],
+          "hint": "andare – io",
+          "explanation": "Andare takes essere: sono andato/a."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-12-l1-e03",
+          "title": "Ripasso B1: la mappa",
+          "body": "Everything you have built in B1, in one place:\n\n- **Passato prossimo / imperfetto** – events vs scene: *Pioveva quando sono uscito.*\n- **Trapassato** – the past of the past: *Il treno era già partito.*\n- **Ci / ne** – place and quantity: *Ci vado domani. Ne prendo due.*\n- **Pronomi combinati** – *Me lo dà? Gliel'ho detto.*\n- **Si impersonale / imperativo** – *Si paga alla cassa. Mi dica. Dimmi.*\n- **Condizionale** – *Vorrei… Potrebbe…? Dovresti…*\n- **Futuro / futuro anteriore** – *Appena avrò finito, ti chiamerò. Sarà a casa.*\n- **Congiuntivo presente** – *Penso che sia… Spero che tu venga.*\n- **Relativi** – *la persona con cui lavoro, quello che mi serve, chi arriva tardi*\n\nThis checkpoint mixes them in realistic tasks and in exam-style formats: cloze texts, transformations, reading questions, writing and speaking.",
+          "examples": [
+            {
+              "it": "Mentre aspettavo, mi sono accorto che avevo dimenticato il documento.",
+              "en": "While I was waiting, I realised I had forgotten the document."
+            },
+            {
+              "it": "Il modulo? Gliel'ho già mandato.",
+              "en": "The form? I've already sent it to him/her."
+            },
+            {
+              "it": "Penso che sia meglio prenotare.",
+              "en": "I think it's better to book."
+            },
+            {
+              "it": "Quello che mi serve è un certificato.",
+              "en": "What I need is a certificate."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "b1-12-l1-e04",
+          "instruction": "Completa il racconto: scegli la parola giusta per ogni spazio.",
+          "title": "Il primo giorno in Italia",
+          "passage": "Quando (1) ______ a Bologna, (2) ______ una giornata di sole e faceva già caldo. Un amico mi (3) ______ consigliato un piccolo albergo vicino alla stazione, (4) ______ ho dormito le prime due notti. Il primo giorno sono andato in questura per il permesso di soggiorno, ma ormai l'ufficio (5) ______ chiuso. Allora ho fatto un giro in centro e ho comprato un po' di frutta al mercato: (6) ______ ho preso un chilo, perché era buonissima.",
+          "questions": [
+            {
+              "question": "(1)",
+              "options": [
+                "sono arrivato",
+                "arrivavo",
+                "ero arrivato",
+                "arriverò"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "(2)",
+              "options": [
+                "c'è stata",
+                "c'era",
+                "c'era stato",
+                "ci sarà"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "(3)",
+              "options": [
+                "era",
+                "aveva",
+                "avrà",
+                "sarà"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "(4)",
+              "options": [
+                "che",
+                "in cui",
+                "di cui",
+                "chi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "(5)",
+              "options": [
+                "aveva già",
+                "ha già",
+                "avrà già",
+                "abbia già"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "(6)",
+              "options": [
+                "La",
+                "Ci",
+                "Ne",
+                "Lo"
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "(1) event; (2) scene; (3) backstory (aveva consigliato); (4) place after a preposition; (5) ormai + trapassato; (6) quantity → ne: ne ho preso un chilo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l1-e05",
+          "instruction": "Completa con ne o ci.",
+          "sentence": "Quante mele vuole? – ___ prendo un chilo, grazie.",
+          "answers": [
+            "Ne"
+          ],
+          "hint": "quantità",
+          "explanation": "Quantity of something already mentioned: ne."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l1-e06",
+          "instruction": "Completa con il pronome combinato.",
+          "sentence": "Hai restituito il libro a Marco? – Sì, ___ restituito ieri.",
+          "answers": [
+            "gliel'ho",
+            "glielo ho"
+          ],
+          "hint": "a Marco + il libro",
+          "explanation": "Gli + lo = glielo, which elides before ho: gliel'ho."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-12-l1-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Quando ero arrivato a casa, ho visto che la porta era aperta.",
+          "answers": [
+            "Quando sono arrivato a casa, ho visto che la porta era aperta.",
+            "Quando sono arrivato a casa ho visto che la porta era aperta.",
+            "Quando sono arrivata a casa, ho visto che la porta era aperta.",
+            "Quando sono arrivata a casa ho visto che la porta era aperta."
+          ],
+          "explanation": "Arriving and seeing happen in sequence: both passato prossimo. The trapassato is only for what came before."
+        },
+        {
+          "type": "translate",
+          "id": "b1-12-l1-e08",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "The neighbour I told you about had already left.",
+          "answers": [
+            "Il vicino di cui ti ho parlato era già partito.",
+            "Il vicino di cui ti ho parlato era già partita.",
+            "Il vicino di cui ti ho parlato era già andato via.",
+            "Il vicino di cui ti ho parlato era già andata via.",
+            "La vicina di cui ti ho parlato era già partito.",
+            "La vicina di cui ti ho parlato era già partita.",
+            "La vicina di cui ti ho parlato era già andato via.",
+            "La vicina di cui ti ho parlato era già andata via.",
+            "Il vicino del quale ti ho parlato era già partito.",
+            "La vicina della quale ti ho parlato era già partita.",
+            "Il vicino di cui ti ho parlato se n'era già andato.",
+            "Il vicino di cui ti ho parlato se n'era già andata.",
+            "La vicina di cui ti ho parlato se n'era già andato.",
+            "La vicina di cui ti ho parlato se n'era già andata."
+          ],
+          "explanation": "Di cui (parlare di) + trapassato."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-12-l1-e09",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Mentre tornavo a casa, mi sono accorto che avevo dimenticato le chiavi in ufficio.",
+          "answers": [
+            "Mentre tornavo a casa, mi sono accorto che avevo dimenticato le chiavi in ufficio.",
+            "Mentre tornavo a casa mi sono accorto che avevo dimenticato le chiavi in ufficio."
+          ],
+          "slow": false,
+          "explanation": "Three tenses in one sentence: imperfetto, passato prossimo, trapassato."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-12-l1-e10",
+          "instruction": "Racconta il tuo fine settimana a un collega. Rispondi ad alta voce.",
+          "scenario": "Monday morning. Your colleague Stefano asks about your weekend trip, which didn't go to plan.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao! Allora, com'è andata la gita al lago?"
+            },
+            {
+              "speaker": "you",
+              "text": "Insomma... Quando siamo arrivati, pioveva a dirotto.",
+              "hint": "Event + scene.",
+              "keywords": [
+                "siamo arrivati",
+                "pioveva"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ma non avevate guardato le previsioni?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, le avevo guardate, ma dicevano sole!",
+              "hint": "Trapassato with le (agreement: guardate).",
+              "keywords": [
+                "avevo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che sfortuna! E che cosa avete fatto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Siamo entrati in un piccolo ristorante di cui ci aveva parlato un amico.",
+              "hint": "Relative + trapassato.",
+              "keywords": [
+                "di cui"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E com'era?"
+            },
+            {
+              "speaker": "you",
+              "text": "Buonissimo! Penso che sia il ristorante più buono della zona.",
+              "hint": "Opinion with congiuntivo.",
+              "keywords": [
+                "penso che"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Allora mi dai l'indirizzo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Certo, te lo mando dopo su WhatsApp.",
+              "hint": "Combined pronoun + promise.",
+              "keywords": [
+                "te lo"
+              ]
+            }
+          ],
+          "explanation": "Narration, backstory, a relative clause, an opinion and a combined pronoun – the whole B1 toolkit in one chat."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-12-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Quando sono arrivato al museo, avevano già chiuso la biglietteria.",
+          "translation": "When I got to the museum, they had already closed the ticket office."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-12-l1-e12",
+          "front": "insomma",
+          "back": "in short; well… (so-so)",
+          "example": "Com'è andata? – Insomma… poteva andare meglio."
+        }
+      ]
+    },
+    {
+      "id": "b1-12-l2",
+      "title": "Opinioni, consigli, progetti",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-12-l2-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Non sono sicuro che il medico ___ oggi pomeriggio.",
+          "options": [
+            "riceva",
+            "riceve",
+            "ricevere",
+            "riceverà"
+          ],
+          "answer": 0,
+          "explanation": "Doubt → congiuntivo: riceva."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l2-e02",
+          "instruction": "Riscaldamento: completa con il congiuntivo.",
+          "sentence": "Spero che tu ___ (stare) meglio.",
+          "answers": [
+            "stia"
+          ],
+          "hint": "stare – tu",
+          "explanation": "Stare → stia."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-12-l2-e03",
+          "instruction": "Abbina la funzione all'espressione.",
+          "pairs": [
+            {
+              "left": "chiedere gentilmente",
+              "right": "Potrebbe…?"
+            },
+            {
+              "left": "dare un consiglio",
+              "right": "Al tuo posto io…"
+            },
+            {
+              "left": "esprimere un'opinione",
+              "right": "Mi sembra che…"
+            },
+            {
+              "left": "fare un'ipotesi sul presente",
+              "right": "Sarà stanco."
+            },
+            {
+              "left": "esprimere un desiderio",
+              "right": "Mi piacerebbe…"
+            },
+            {
+              "left": "fare una promessa",
+              "right": "Te lo porterò domani."
+            }
+          ],
+          "explanation": "Each communicative function has its own mood or tense."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-12-l2-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Se domani ___ bel tempo, andremo al lago.",
+          "options": [
+            "farà",
+            "faccia",
+            "farebbe",
+            "faceva"
+          ],
+          "answer": 0,
+          "explanation": "A real future condition: se + futuro (or present)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l2-e05",
+          "instruction": "Completa con il condizionale.",
+          "sentence": "Al tuo posto ___ (chiedere) un secondo parere.",
+          "answers": [
+            "chiederei",
+            "io chiederei"
+          ],
+          "hint": "chiedere – io",
+          "explanation": "Al tuo posto + condizionale = If I were you, I'd…"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l2-e06",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "È importante che i bambini ___ (dormire) almeno nove ore.",
+          "answers": [
+            "dormano"
+          ],
+          "hint": "dormire – loro",
+          "explanation": "È importante che + congiuntivo: dormano."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-12-l2-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Penso che il nuovo sindaco ha ragione.",
+          "answers": [
+            "Penso che il nuovo sindaco abbia ragione."
+          ],
+          "explanation": "Penso che + congiuntivo: abbia. (Ha is heard in speech, but it's colloquial.)"
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-12-l2-e08",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I hope the doctor can see me tomorrow.",
+          "tiles": [
+            "Spero",
+            "che",
+            "il",
+            "medico",
+            "possa",
+            "visitarmi",
+            "domani"
+          ],
+          "distractors": [
+            "può",
+            "di"
+          ],
+          "explanation": "Spero che + congiuntivo (possa), different subjects."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-12-l2-e09",
+          "instruction": "Ascolta l'intervista e rispondi.",
+          "audioText": "Secondo me il problema del turismo nelle città d'arte è serio. Non penso che sia giusto chiudere le città, però bisognerebbe limitare gli affitti brevi, perché chi abita in centro non trova più casa. Spero che il Comune ascolti anche i residenti, non solo i commercianti.",
+          "question": "Che cosa propone la persona intervistata?",
+          "options": [
+            "Chiudere il centro ai turisti.",
+            "Limitare gli affitti brevi.",
+            "Aprire più negozi in centro.",
+            "Aumentare i prezzi dei musei."
+          ],
+          "answer": 1,
+          "explanation": "Non penso che sia giusto… però bisognerebbe…: a balanced opinion with a proposal."
+        },
+        {
+          "type": "reading",
+          "id": "b1-12-l2-e10",
+          "instruction": "Leggi l'articolo e rispondi alle domande.",
+          "title": "La settimana corta: un'idea che piace",
+          "passage": "In alcune aziende italiane si sta provando la settimana lavorativa di quattro giorni. I dipendenti lavorano lo stesso numero di ore, ma distribuite su meno giorni, oppure lavorano meno ore con lo stesso stipendio. Secondo i sindacati, i risultati sono positivi: le persone sono meno stressate e si ammalano di meno. Alcuni imprenditori, però, temono che la produttività diminuisca e pensano che il modello non sia adatto a tutti i settori, per esempio ai negozi e agli ospedali. Per ora, quindi, la settimana corta resta un esperimento.",
+          "questions": [
+            {
+              "question": "Che cosa si sta provando in alcune aziende?",
+              "options": [
+                "Il lavoro di notte.",
+                "La settimana di quattro giorni.",
+                "Il lavoro solo da casa.",
+                "Stipendi più alti."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa dicono i sindacati?",
+              "options": [
+                "Che i risultati sono buoni.",
+                "Che è un'idea pericolosa.",
+                "Che i dipendenti lavorano di più.",
+                "Che bisogna aspettare."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Di che cosa hanno paura alcuni imprenditori?",
+              "options": [
+                "Che i dipendenti si licenzino.",
+                "Che la produttività diminuisca.",
+                "Che aumentino le tasse.",
+                "Che gli ospedali chiudano."
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Temono che diminuisca, pensano che non sia: verbs of fear and opinion with the congiuntivo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-12-l2-e11",
+          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
+          "prompt": "Che cosa pensi della settimana lavorativa di quattro giorni? Dai la tua opinione, un dubbio e un consiglio.",
+          "keywords": [
+            "penso che",
+            "secondo me",
+            "dovrebbero"
+          ],
+          "modelAnswer": "Secondo me è un'ottima idea, perché le persone hanno più tempo per la famiglia. Però non sono sicuro che funzioni in tutti i settori, per esempio negli ospedali. Penso che le aziende dovrebbero provarla per un anno e poi decidere.",
+          "explanation": "Secondo me + indicativo, non sono sicuro che + congiuntivo, condizionale for advice."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-12-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Al tuo posto, prenoterei subito: chi arriva tardi non trova posto.",
+          "translation": "If I were you, I'd book straight away: anyone who arrives late won't get a place."
+        }
+      ]
+    },
+    {
+      "id": "b1-12-l3",
+      "title": "Prova finale B1",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l3-e01",
+          "instruction": "Riscaldamento: completa con l'imperativo (Lei).",
+          "sentence": "___ (accomodarsi), il dottore arriva subito.",
+          "answers": [
+            "Si accomodi"
+          ],
+          "hint": "accomodarsi – Lei",
+          "explanation": "Lei imperative of a reflexive verb: si accomodi."
+        },
+        {
+          "type": "reading",
+          "id": "b1-12-l3-e02",
+          "instruction": "Leggi l'avviso del condominio e rispondi alle domande.",
+          "title": "Avviso ai condomini",
+          "passage": "Si comunica che lunedì 12 l'acqua sarà sospesa dalle 8 alle 14 per lavori alle tubature. Si consiglia di riempire qualche bottiglia la sera prima. Chi ha bisogno di aiuto per motivi di salute può rivolgersi al portiere, che porterà l'acqua a domicilio. Appena i lavori saranno finiti, si raccomanda di far scorrere l'acqua per qualche minuto prima di berla. Per qualsiasi problema, contattate l'amministratore, il cui numero è in bacheca.",
+          "questions": [
+            {
+              "question": "Perché lunedì manca l'acqua?",
+              "options": [
+                "Per un guasto improvviso.",
+                "Per dei lavori alle tubature.",
+                "Perché non hanno pagato la bolletta.",
+                "Per una festa del quartiere."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa può fare chi ha problemi di salute?",
+              "options": [
+                "Chiamare un medico.",
+                "Andare in un albergo.",
+                "Chiedere aiuto al portiere.",
+                "Non pagare le spese."
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa bisogna fare dopo i lavori?",
+              "options": [
+                "Far scorrere l'acqua prima di berla.",
+                "Chiamare l'amministratore.",
+                "Comprare un filtro.",
+                "Pulire le bottiglie."
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Official notices: si comunica, si consiglia, si raccomanda; chi + singular verb; appena + futuro anteriore; il cui = whose."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l3-e03",
+          "instruction": "Trasforma con i pronomi combinati.",
+          "sentence": "Do il pacco alla signora. → ___ do.",
+          "answers": [
+            "Glielo"
+          ],
+          "hint": "alla signora + il pacco",
+          "explanation": "Le + lo = glielo (gli- for both him and her)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l3-e04",
+          "instruction": "Trasforma con il si impersonale.",
+          "sentence": "In Italia la gente cena tardi. → In Italia ___ tardi.",
+          "answers": [
+            "si cena"
+          ],
+          "hint": "si + cenare",
+          "explanation": "La gente cena = si cena."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-12-l3-e05",
+          "instruction": "Trasforma con il futuro anteriore.",
+          "sentence": "Prima finisco il lavoro, poi esco. → Appena ___ il lavoro, uscirò.",
+          "answers": [
+            "avrò finito"
+          ],
+          "hint": "finire – io",
+          "explanation": "Appena + futuro anteriore, then futuro semplice."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-12-l3-e06",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Chi vogliono il rimborso devono portare lo scontrino.",
+          "answers": [
+            "Chi vuole il rimborso deve portare lo scontrino."
+          ],
+          "explanation": "Chi takes a singular verb."
+        },
+        {
+          "type": "translate",
+          "id": "b1-12-l3-e07",
+          "instruction": "Traduci in italiano (Lei).",
+          "direction": "en_it",
+          "source": "Could you send it to me by email? (it = il certificato)",
+          "answers": [
+            "Potrebbe mandarmelo per email?",
+            "Potrebbe mandarmelo per e-mail?",
+            "Potrebbe mandarmelo per mail?",
+            "Potrebbe mandarmelo per posta elettronica?",
+            "Potrebbe inviarmelo per email?",
+            "Potrebbe inviarmelo per e-mail?",
+            "Potrebbe inviarmelo per mail?",
+            "Potrebbe inviarmelo per posta elettronica?",
+            "Potrebbe spedirmelo per email?",
+            "Potrebbe spedirmelo per e-mail?",
+            "Potrebbe spedirmelo per mail?",
+            "Potrebbe spedirmelo per posta elettronica?",
+            "Può mandarmelo per email?",
+            "Può mandarmelo per e-mail?",
+            "Può mandarmelo per mail?",
+            "Può mandarmelo per posta elettronica?",
+            "Può inviarmelo per email?",
+            "Può inviarmelo per e-mail?",
+            "Può inviarmelo per mail?",
+            "Può inviarmelo per posta elettronica?",
+            "Può spedirmelo per email?",
+            "Può spedirmelo per e-mail?",
+            "Può spedirmelo per mail?",
+            "Può spedirmelo per posta elettronica?",
+            "Me lo potrebbe mandare per email?",
+            "Me lo potrebbe mandare per e-mail?",
+            "Me lo potrebbe mandare per mail?",
+            "Me lo potrebbe mandare per posta elettronica?",
+            "Me lo potrebbe inviare per email?",
+            "Me lo potrebbe inviare per e-mail?",
+            "Me lo potrebbe inviare per mail?",
+            "Me lo potrebbe inviare per posta elettronica?",
+            "Me lo potrebbe spedire per email?",
+            "Me lo potrebbe spedire per e-mail?",
+            "Me lo potrebbe spedire per mail?",
+            "Me lo potrebbe spedire per posta elettronica?",
+            "Me lo può mandare per email?",
+            "Me lo può mandare per e-mail?",
+            "Me lo può mandare per mail?",
+            "Me lo può mandare per posta elettronica?",
+            "Me lo può inviare per email?",
+            "Me lo può inviare per e-mail?",
+            "Me lo può inviare per mail?",
+            "Me lo può inviare per posta elettronica?",
+            "Me lo può spedire per email?",
+            "Me lo può spedire per e-mail?",
+            "Me lo può spedire per mail?",
+            "Me lo può spedire per posta elettronica?"
+          ],
+          "explanation": "Condizionale for politeness; me lo attached to the infinitive or before the modal."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-12-l3-e08",
+          "instruction": "Ascolta la segreteria telefonica e rispondi.",
+          "audioText": "Buongiorno, la chiamo dal negozio di elettrodomestici: il pezzo di ricambio per la sua lavatrice è arrivato. Il tecnico potrebbe passare giovedì mattina. Se le va bene, ci richiami entro domani; altrimenti le proporremo un'altra data.",
+          "question": "Che cosa deve fare il cliente?",
+          "options": [
+            "Andare a prendere il pezzo in negozio.",
+            "Richiamare entro domani se giovedì va bene.",
+            "Comprare una lavatrice nuova.",
+            "Aspettare il tecnico oggi."
+          ],
+          "answer": 1,
+          "explanation": "Ci richiami = call us back (Lei imperative with ci)."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-12-l3-e09",
+          "instruction": "Telefoni all'agenzia: la lavatrice dell'appartamento in affitto è rotta. Rispondi ad alta voce.",
+          "scenario": "The washing machine in your rented flat has broken. You call the letting agency to report it and get it fixed quickly.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Agenzia Casa Più, buongiorno. Mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, sono l'inquilino di via Mazzini 8. La chiamo perché la lavatrice si è rotta.",
+              "hint": "Introduce yourself and the problem.",
+              "keywords": [
+                "lavatrice",
+                "rotta"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mi dispiace. Che cosa è successo esattamente?"
+            },
+            {
+              "speaker": "you",
+              "text": "Ieri, mentre lavava, si è fermata all'improvviso e c'era acqua dappertutto. Era già successo il mese scorso.",
+              "hint": "Imperfetto, passato prossimo, trapassato.",
+              "keywords": [
+                "mentre",
+                "era già successo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Capisco. Manderemo un tecnico la settimana prossima."
+            },
+            {
+              "speaker": "you",
+              "text": "Sarebbe possibile mandarlo prima? Senza lavatrice è un bel problema.",
+              "hint": "Polite request with the conditional.",
+              "keywords": [
+                "sarebbe possibile"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Vedo che cosa posso fare. Lei quando è a casa?"
+            },
+            {
+              "speaker": "you",
+              "text": "Domani pomeriggio ci sono. Spero che il tecnico possa venire.",
+              "hint": "Ci sono + spero che + congiuntivo.",
+              "keywords": [
+                "ci sono",
+                "spero che"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Va bene, la richiamo entro stasera per confermare."
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto, mi faccia sapere. Grazie mille!",
+              "hint": "Lei imperative to close.",
+              "keywords": [
+                "mi faccia sapere"
+              ]
+            }
+          ],
+          "explanation": "Your story used three past tenses; your request used the conditional, ci and the congiuntivo; you closed with a Lei imperative."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-12-l3-e10",
+          "instruction": "Scrivi un'email (stile esame).",
+          "prompt": "Scrivi un'email a un amico italiano (100–130 parole). Racconta un'esperienza recente con un ufficio o un servizio (com'è andata, che cosa era successo prima), dai la tua opinione sul servizio e racconta che cosa farai la prossima volta.",
+          "minWords": 100,
+          "checklist": [
+            "Ho usato imperfetto, passato prossimo e trapassato prossimo.",
+            "Ho dato un'opinione con penso che / mi sembra che + congiuntivo.",
+            "Ho usato almeno un pronome relativo (che, cui, quello che).",
+            "Ho usato il futuro per la prossima volta.",
+            "Ho usato saluti informali e almeno tre connettivi (però, quindi, insomma, alla fine)."
+          ],
+          "modelAnswer": "Caro Luca,\ncome stai? Ti racconto la mia avventura alle Poste. La settimana scorsa dovevo spedire un pacco a mia sorella. Avevo preparato tutto la sera prima, quindi ero tranquillo. Quando sono arrivato, però, c'era una fila lunghissima e mancava il modulo di cui avevo bisogno. Ho aspettato quasi un'ora! Alla fine un'impiegata molto gentile mi ha aiutato a compilarlo. Insomma, penso che il personale sia bravo, ma mi sembra che gli uffici abbiano troppo poco personale. La prossima volta prenoterò il turno con l'app e porterò il modulo già compilato, così non perderò tempo. E tu? Hai avuto esperienze simili? Fammi sapere!\nUn abbraccio,\nRichard"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-12-l3-e11",
+          "instruction": "Rispondi ad alta voce (presentazione, 4–5 frasi).",
+          "prompt": "Presentati: da quanto tempo studi l'italiano e perché, che cosa avevi già fatto prima di cominciare, che cosa pensi della lingua e che cosa farai per arrivare al livello B2.",
+          "keywords": [
+            "studio",
+            "avevo",
+            "penso che",
+            "farò"
+          ],
+          "modelAnswer": "Studio l'italiano da circa due anni, perché vivo in Italia e voglio integrarmi. Prima di cominciare avevo già imparato qualche parola in vacanza. Penso che l'italiano sia una lingua bellissima, anche se i verbi sono difficili! Quest'anno farò l'esame CELI 3, quindi studierò un po' ogni giorno e parlerò il più possibile con i vicini.",
+          "explanation": "A self-presentation that shows range: present + da, trapassato, congiuntivo and futuro."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-12-l3-e12",
+          "front": "il guasto",
+          "back": "breakdown, fault",
+          "example": "C'è un guasto alla lavatrice."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "insomma",
+      "en": "in short; so-so",
+      "example": "Insomma, è andata bene."
+    },
+    {
+      "it": "comunque",
+      "en": "anyway, however",
+      "example": "Comunque, alla fine ho risolto."
+    },
+    {
+      "it": "invece",
+      "en": "instead, on the other hand",
+      "example": "Io prendo il treno, lui invece va in macchina."
+    },
+    {
+      "it": "quindi",
+      "en": "so, therefore",
+      "example": "Era tardi, quindi sono tornato a casa."
+    },
+    {
+      "it": "però",
+      "en": "but, however",
+      "example": "È caro, però è comodo."
+    },
+    {
+      "it": "anzi",
+      "en": "actually, on the contrary",
+      "example": "Non è lontano, anzi, è vicinissimo."
+    },
+    {
+      "it": "il guasto",
+      "en": "breakdown, fault",
+      "example": "Abbiamo un guasto all'impianto elettrico."
+    },
+    {
+      "it": "la lavatrice",
+      "en": "washing machine",
+      "example": "La lavatrice si è rotta di nuovo."
+    },
+    {
+      "it": "l'inquilino (m.)",
+      "en": "tenant",
+      "example": "Sono l'inquilino del secondo piano."
+    },
+    {
+      "it": "il pezzo di ricambio",
+      "en": "spare part",
+      "example": "Il pezzo di ricambio è arrivato."
+    },
+    {
+      "it": "la bolletta",
+      "en": "utility bill",
+      "example": "Ho pagato la bolletta della luce."
+    },
+    {
+      "it": "la bacheca",
+      "en": "noticeboard",
+      "example": "L'avviso è in bacheca."
+    },
+    {
+      "it": "rivolgersi a",
+      "en": "to contact, to ask (an office, a person)",
+      "example": "Si rivolga allo sportello 3."
+    },
+    {
+      "it": "il permesso di soggiorno",
+      "en": "residence permit",
+      "example": "Ho rinnovato il permesso di soggiorno."
+    },
+    {
+      "it": "lo stipendio",
+      "en": "salary",
+      "example": "Lavorano meno ore con lo stesso stipendio."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-12-t1",
+      "rule": "Passato prossimo, non trapassato",
+      "tip": "Events in sequence are both passato prossimo: Quando sono arrivato, ho visto… Trapassato only for what came before.",
+      "example": {
+        "it": "Quando sono arrivato, il film era già cominciato.",
+        "en": "When I arrived, the film had already started."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Quando ero arrivato a casa, ho acceso la luce.",
+        "answers": [
+          "Quando sono arrivato a casa, ho acceso la luce.",
+          "Quando sono arrivato a casa ho acceso la luce.",
+          "Quando sono arrivata a casa, ho acceso la luce.",
+          "Quando sono arrivata a casa ho acceso la luce.",
+          "Ho acceso la luce quando sono arrivato a casa.",
+          "Ho acceso la luce quando sono arrivata a casa."
+        ]
+      }
+    },
+    {
+      "id": "b1-12-t2",
+      "rule": "Gliel'ho = gli/le + lo",
+      "tip": "Indirect + direct pronoun: glielo, gliela, glieli, gliele, for both him and her. Gliel'ho detto.",
+      "example": {
+        "it": "Il libro? Gliel'ho restituito ieri.",
+        "en": "The book? I gave it back to him yesterday."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Hai dato le chiavi a Sara? – Sì, ___ date stamattina.",
+        "answers": [
+          "gliele ho"
+        ],
+        "hint": "a Sara + le chiavi"
+      }
+    },
+    {
+      "id": "b1-12-t3",
+      "rule": "Ne per le quantità",
+      "tip": "Ne replaces 'of it/of them' with quantities: Ne prendo due. Quanti ne vuole?",
+      "example": {
+        "it": "Ne vorrei mezzo chilo.",
+        "en": "I'd like half a kilo (of it)."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Quanti biglietti vuole? – ___ prendo tre.",
+        "options": [
+          "Ne",
+          "Li",
+          "Ci",
+          "Gli"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "b1-12-t4",
+      "rule": "Opinione: congiuntivo; certezza: no",
+      "tip": "Penso che sia vs So che è: opinion and doubt take the congiuntivo, certainty the indicative.",
+      "example": {
+        "it": "Non sono sicuro che sia aperto.",
+        "en": "I'm not sure it's open."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Penso che il medico ___ (avere) ragione.",
+        "answers": [
+          "abbia"
+        ],
+        "hint": "avere – lui"
+      }
+    },
+    {
+      "id": "b1-12-t5",
+      "rule": "Preposizione + cui",
+      "tip": "After a preposition use cui, never che: l'ufficio a cui mi sono rivolto, il modulo di cui ho bisogno.",
+      "example": {
+        "it": "È la collega con cui lavoro.",
+        "en": "She's the colleague I work with."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Il modulo di che ho bisogno non c'è.",
+        "answers": [
+          "Il modulo di cui ho bisogno non c'è."
+        ]
+      }
+    },
+    {
+      "id": "b1-12-t6",
+      "rule": "Al tuo posto + condizionale",
+      "tip": "Give advice with al tuo posto (al suo posto with Lei) + condizionale: Al tuo posto, chiederei.",
+      "example": {
+        "it": "Al suo posto, prenoterei subito.",
+        "en": "If I were you, I'd book straight away."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "chiedere",
+        "tense": "condizionale presente",
+        "items": [
+          {
+            "person": "io",
+            "answer": "chiederei"
+          },
+          {
+            "person": "tu",
+            "answer": "chiederesti"
+          },
+          {
+            "person": "Lei",
+            "answer": "chiederebbe"
+          }
+        ]
+      }
+    }
+  ]
+}

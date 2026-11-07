@@ -1,0 +1,930 @@
+{
+  "id": "b2-10",
+  "level": "B2",
+  "title": "Detto fatto",
+  "objective": "By the end you can make your sentences shorter and more fluent by replacing full clauses with the gerundio, the participio passato and the infinito, while keeping the subject clear.",
+  "grammarFocus": "Frasi implicite: gerundio presente e passato (tempo, causa, modo, condizione) e posizione dei pronomi; pur + gerundio; participio passato assoluto (una volta + participio) e accordo; dopo + infinito passato, prima di / senza / per + infinito; implicita vs esplicita con lo stesso soggetto.",
+  "remedialUnitIds": [
+    "b1-11",
+    "b1-09",
+    "b2-07"
+  ],
+  "lessons": [
+    {
+      "id": "b2-10-l1",
+      "title": "Il gerundio: tornando a casa…",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-10-l1-e01",
+          "prompt": "Scusa, adesso non posso parlare: sto ___.",
+          "options": [
+            "guidato",
+            "guidare",
+            "guidando",
+            "guidavo"
+          ],
+          "answer": 2,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Riscaldamento: stare + gerundio = azione in corso."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l1-e02",
+          "sentence": "Mentre ___ (tornare) a casa, ho incontrato Luca.",
+          "answers": [
+            "tornavo"
+          ],
+          "hint": "tornare – io",
+          "instruction": "Riscaldamento: completa con l'imperfetto.",
+          "explanation": "Riscaldamento (B1-01): mentre + imperfetto per l'azione in corso."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-10-l1-e03",
+          "title": "Il gerundio nelle frasi implicite",
+          "body": "Il **gerundio presente** (*-ando / -endo*) può sostituire un'intera frase, se **il soggetto è lo stesso** della principale. Può indicare:\n- **tempo** (= mentre): *Tornando a casa, ho incontrato Luca.* = Mentre tornavo…\n- **causa** (= siccome): *Essendo stanco, sono andato a letto presto.* = Siccome ero stanco…\n- **modo / mezzo** (= come?): *Ho imparato l'italiano **guardando** film.*\n- **condizione** (= se): *Prenotando online, si risparmia il 10%.* = Se si prenota…\n\nIl **gerundio passato** (*avendo / essendo* + participio) indica un'azione **precedente**, spesso con valore causale: *Avendo perso il treno, sono arrivato tardi. Essendo arrivata presto, Anna ha trovato posto.*\n\n**Pronomi**: si attaccano alla fine: *vedendo**lo**, parlando**gli**, avendo**lo** saputo*.\n\n**Attenzione al soggetto!** ~~*Uscendo dal negozio, ha cominciato a piovere.*~~ (non è la pioggia che esce) → *Mentre uscivo dal negozio, ha cominciato a piovere.*",
+          "examples": [
+            {
+              "it": "Tornando a casa, ho visto un incidente.",
+              "en": "On my way home, I saw an accident."
+            },
+            {
+              "it": "Ho trovato casa leggendo gli annunci online.",
+              "en": "I found a flat by reading the ads online."
+            },
+            {
+              "it": "Avendo già cenato, abbiamo preso solo un caffè.",
+              "en": "Having already eaten, we just had a coffee."
+            },
+            {
+              "it": "Vedendolo così stanco, gli ho offerto un passaggio.",
+              "en": "Seeing him so tired, I offered him a lift."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-10-l1-e04",
+          "pairs": [
+            {
+              "left": "Tornando a casa, ho visto un incidente.",
+              "right": "mentre tornavo (tempo)"
+            },
+            {
+              "left": "Essendo stanco, sono andato a letto presto.",
+              "right": "siccome ero stanco (causa)"
+            },
+            {
+              "left": "Ho imparato l'italiano guardando film.",
+              "right": "per mezzo dei film (modo)"
+            },
+            {
+              "left": "Prenotando online, si risparmia.",
+              "right": "se si prenota (condizione)"
+            }
+          ],
+          "instruction": "Abbina ogni frase al valore del gerundio."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l1-e05",
+          "sentence": "Ho trovato casa ___ (leggere) gli annunci sul sito del comune.",
+          "answers": [
+            "leggendo"
+          ],
+          "hint": "gerundio presente",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Modo/mezzo: come ho trovato casa? Leggendo gli annunci."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l1-e06",
+          "sentence": "___ (finire) il lavoro, sono uscito con i colleghi.",
+          "answers": [
+            "Avendo finito"
+          ],
+          "hint": "gerundio passato",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Azione precedente alla principale → gerundio passato: avendo finito."
+        },
+        {
+          "type": "conjugation",
+          "id": "b2-10-l1-e07",
+          "verb": "fare, dire, bere, tradurre, porre",
+          "tense": "gerundio presente",
+          "items": [
+            {
+              "person": "fare",
+              "answer": "facendo"
+            },
+            {
+              "person": "dire",
+              "answer": "dicendo"
+            },
+            {
+              "person": "bere",
+              "answer": "bevendo"
+            },
+            {
+              "person": "tradurre",
+              "answer": "traducendo"
+            },
+            {
+              "person": "porre",
+              "answer": "ponendo"
+            }
+          ],
+          "instruction": "Scrivi il gerundio presente di questi verbi irregolari.",
+          "explanation": "Sono gli stessi radicali dell'imperfetto: facevo → facendo, dicevo → dicendo, bevevo → bevendo."
+        },
+        {
+          "type": "translate",
+          "id": "b2-10-l1-e08",
+          "direction": "en_it",
+          "source": "I learned Italian by watching films.",
+          "answers": [
+            "Ho imparato l'italiano guardando film.",
+            "Ho imparato l'italiano guardando i film.",
+            "Ho imparato l'italiano guardando dei film.",
+            "Ho imparato italiano guardando film.",
+            "Ho imparato italiano guardando i film.",
+            "Ho imparato italiano guardando dei film."
+          ],
+          "instruction": "Traduci in italiano.",
+          "explanation": "By + -ing (mezzo) = gerundio: guardando. Non serve nessuna preposizione."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-10-l1-e09",
+          "sentence": "Uscendo dalla farmacia, ha cominciato a piovere.",
+          "answers": [
+            "Mentre uscivo dalla farmacia, ha cominciato a piovere.",
+            "Mentre uscivo dalla farmacia ha cominciato a piovere.",
+            "Mentre uscivamo dalla farmacia, ha cominciato a piovere.",
+            "Mentre uscivamo dalla farmacia ha cominciato a piovere.",
+            "Mentre stavo uscendo dalla farmacia, ha cominciato a piovere.",
+            "Mentre stavo uscendo dalla farmacia ha cominciato a piovere.",
+            "Quando sono uscito dalla farmacia, ha cominciato a piovere.",
+            "Quando sono uscito dalla farmacia ha cominciato a piovere.",
+            "Uscendo dalla farmacia, ho visto che pioveva.",
+            "Uscendo dalla farmacia ho visto che pioveva.",
+            "Ha cominciato a piovere mentre uscivo dalla farmacia."
+          ],
+          "instruction": "C'è un errore: il soggetto non è lo stesso. Riscrivi la frase corretta.",
+          "explanation": "Il gerundio prende il soggetto della principale: qui sarebbe la pioggia a uscire! Usa una frase esplicita con mentre."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-10-l1-e10",
+          "translation": "Seeing him so tired, I offered him a coffee.",
+          "tiles": [
+            "Vedendolo",
+            "così",
+            "stanco",
+            "gli",
+            "ho",
+            "offerto",
+            "un",
+            "caffè"
+          ],
+          "distractors": [
+            "Vedendo",
+            "offrendo"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Il pronome si attacca al gerundio: vedendolo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-10-l1-e11",
+          "audioText": "Avendo perso l'ultimo autobus, sono tornato a casa a piedi.",
+          "answers": [
+            "Avendo perso l'ultimo autobus, sono tornato a casa a piedi.",
+            "Avendo perso l'ultimo autobus sono tornato a casa a piedi."
+          ],
+          "slow": false,
+          "instruction": "Ascolta e scrivi la frase.",
+          "explanation": "Gerundio passato con valore causale: siccome avevo perso l'autobus…"
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-10-l1-e12",
+          "text": "Prenotando online, si risparmia il dieci per cento.",
+          "translation": "By booking online, you save ten per cent.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-10-l1-e13",
+          "prompt": "Come hai imparato le cose che sai fare meglio? Rispondi usando il gerundio (ascoltando, provando, sbagliando…).",
+          "keywords": [
+            "ho imparato",
+            "guardando",
+            "parlando"
+          ],
+          "modelAnswer": "Ho imparato a cucinare guardando mia nonna e facendo tanti tentativi. L'italiano invece l'ho imparato ascoltando podcast e parlando con gli amici. Sbagliando s'impara!",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "explanation": "Gerundio di modo: guardando, facendo, ascoltando. Sbagliando s'impara = you learn from your mistakes."
+        }
+      ]
+    },
+    {
+      "id": "b2-10-l2",
+      "title": "Finita la riunione… participio e infinito",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "b2-10-l2-e01",
+          "direction": "it_en",
+          "source": "Essendo in ritardo, ho preso un taxi.",
+          "answers": [
+            "Being late, I took a taxi.",
+            "Being late I took a taxi.",
+            "As I was late, I took a taxi.",
+            "As I was late I took a taxi.",
+            "Since I was late, I took a taxi.",
+            "Since I was late I took a taxi.",
+            "Because I was late, I took a taxi.",
+            "Because I was late I took a taxi.",
+            "I took a taxi because I was late.",
+            "Being late, I took a cab.",
+            "Being late I took a cab.",
+            "As I was running late, I took a taxi.",
+            "As I was running late I took a taxi.",
+            "Since I was running late, I took a taxi.",
+            "Since I was running late I took a taxi."
+          ],
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "explanation": "Gerundio con valore causale."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l2-e02",
+          "sentence": "Ho trovato un appartamento ___ (cercare) su internet.",
+          "answers": [
+            "cercando"
+          ],
+          "hint": "gerundio presente",
+          "instruction": "Riscaldamento: completa con il gerundio.",
+          "explanation": "Gerundio di mezzo: cercando."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-10-l2-e03",
+          "title": "Participio passato assoluto e infinito",
+          "body": "Il **participio passato** da solo significa 'dopo che / una volta che…' (anteriorità). È frequente nelle notizie, nelle istruzioni e nella buona scrittura:\n- *Finita la riunione, siamo andati a pranzo.* = Dopo che la riunione era finita…\n- *Firmati i documenti, il notaio ci ha dato le chiavi.*\n- *Arrivato a casa, ho acceso il riscaldamento.*\n\n**Accordo**: con i verbi transitivi il participio concorda con l'**oggetto** (*firmati i documenti, presa la decisione*); con i verbi che vogliono essere concorda con il **soggetto** (*arrivata a Roma, Anna…*). **Una volta** + participio rende la frase più chiara: *Una volta pagata la tassa, riceverà la ricevuta.*\n\n**Infinito**:\n- **dopo + infinito passato**: *dopo aver(e) mangiato / dopo essere arrivato/a* (accordo con essere!)\n- **prima di + infinito**: *Prima di firmare, legga bene.*\n- **senza + infinito**: *È uscito senza salutare.*\n- **per + infinito** (scopo): *Sono venuto per parlarti.*\n\nCome per il gerundio, il soggetto è quello della principale: *Dopo aver mangiato, (io) sono uscito.*",
+          "examples": [
+            {
+              "it": "Finita la riunione, siamo andati a pranzo.",
+              "en": "Once the meeting was over, we went for lunch."
+            },
+            {
+              "it": "Una volta ricevuto il codice, prenoti l'appuntamento.",
+              "en": "Once you've received the code, book the appointment."
+            },
+            {
+              "it": "Dopo essere arrivata, mi ha chiamato.",
+              "en": "After arriving, she called me."
+            },
+            {
+              "it": "Prima di firmare, leggi bene il contratto.",
+              "en": "Before signing, read the contract carefully."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-10-l2-e04",
+          "prompt": "___ la tassa, riceverà la ricevuta via email.",
+          "options": [
+            "Una volta pagato",
+            "Pagando dopo",
+            "Una volta pagata",
+            "Dopo pagare"
+          ],
+          "answer": 2,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Participio assoluto di un verbo transitivo: concorda con l'oggetto (la tassa → pagata)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l2-e05",
+          "sentence": "___ (arrivare) a casa, Giulia ha chiamato sua madre.",
+          "answers": [
+            "Arrivata",
+            "Una volta arrivata"
+          ],
+          "hint": "participio passato",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Arrivare vuole essere: il participio concorda con il soggetto (Giulia → arrivata)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l2-e06",
+          "sentence": "Dopo ___ (finire) il corso, ho fatto l'esame.",
+          "answers": [
+            "aver finito",
+            "avere finito"
+          ],
+          "hint": "infinito passato",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Dopo + infinito passato: aver(e) + participio."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l2-e07",
+          "sentence": "Dopo ___ (tornare) dalle vacanze, Marta ha ripreso a lavorare.",
+          "answers": [
+            "essere tornata",
+            "esser tornata"
+          ],
+          "hint": "infinito passato con essere",
+          "instruction": "Completa con la forma giusta del verbo tra parentesi.",
+          "explanation": "Tornare vuole essere: essere tornata, accordo con Marta."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-10-l2-e08",
+          "prompt": "È andato via ___ salutare nessuno.",
+          "options": [
+            "dopo",
+            "prima di",
+            "per",
+            "senza"
+          ],
+          "answer": 3,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Senza + infinito = without doing."
+        },
+        {
+          "type": "translate",
+          "id": "b2-10-l2-e09",
+          "direction": "en_it",
+          "source": "Before signing, read the contract carefully.",
+          "answers": [
+            "Prima di firmare, leggi bene il contratto.",
+            "Prima di firmare leggi bene il contratto.",
+            "Prima di firmare, leggi attentamente il contratto.",
+            "Prima di firmare leggi attentamente il contratto.",
+            "Prima di firmare, leggi con attenzione il contratto.",
+            "Prima di firmare leggi con attenzione il contratto.",
+            "Prima di firmare, legga bene il contratto.",
+            "Prima di firmare legga bene il contratto.",
+            "Prima di firmare, legga attentamente il contratto.",
+            "Prima di firmare legga attentamente il contratto.",
+            "Prima di firmare, legga con attenzione il contratto.",
+            "Prima di firmare legga con attenzione il contratto.",
+            "Prima di firmare, leggete bene il contratto.",
+            "Prima di firmare leggete bene il contratto.",
+            "Prima di firmare, leggete attentamente il contratto.",
+            "Prima di firmare leggete attentamente il contratto.",
+            "Prima di firmare, leggete con attenzione il contratto.",
+            "Prima di firmare leggete con attenzione il contratto.",
+            "Leggi bene il contratto prima di firmare.",
+            "Leggi attentamente il contratto prima di firmare.",
+            "Leggi con attenzione il contratto prima di firmare.",
+            "Legga bene il contratto prima di firmare.",
+            "Legga attentamente il contratto prima di firmare.",
+            "Legga con attenzione il contratto prima di firmare.",
+            "Prima di firmarlo, leggi bene il contratto.",
+            "Prima di firmarlo leggi bene il contratto.",
+            "Prima di firmarlo, leggi attentamente il contratto.",
+            "Prima di firmarlo leggi attentamente il contratto.",
+            "Prima di firmarlo, legga bene il contratto.",
+            "Prima di firmarlo legga bene il contratto.",
+            "Prima di firmarlo, legga attentamente il contratto.",
+            "Prima di firmarlo legga attentamente il contratto."
+          ],
+          "instruction": "Traduci in italiano.",
+          "explanation": "Before + -ing = prima di + infinito."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-10-l2-e10",
+          "sentence": "Dopo aver arrivato in stazione, ho comprato il biglietto.",
+          "answers": [
+            "Dopo essere arrivato in stazione, ho comprato il biglietto.",
+            "Dopo essere arrivato in stazione ho comprato il biglietto.",
+            "Dopo esser arrivato in stazione, ho comprato il biglietto.",
+            "Dopo esser arrivato in stazione ho comprato il biglietto.",
+            "Arrivato in stazione, ho comprato il biglietto.",
+            "Arrivato in stazione ho comprato il biglietto.",
+            "Dopo essere arrivata in stazione, ho comprato il biglietto.",
+            "Dopo essere arrivata in stazione ho comprato il biglietto.",
+            "Una volta arrivato in stazione, ho comprato il biglietto.",
+            "Una volta arrivato in stazione ho comprato il biglietto."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Arrivare vuole essere anche all'infinito passato: dopo essere arrivato/a."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-10-l2-e11",
+          "audioText": "Per richiedere la nuova tessera, compilate il modulo online. Una volta inviato il modulo, riceverete un codice via email. Dopo aver ricevuto il codice, prenotate l'appuntamento allo sportello, ricordandovi di portare un documento d'identità.",
+          "question": "Che cosa succede subito dopo l'invio del modulo?",
+          "options": [
+            "Si riceve un codice via email.",
+            "Si porta un documento d'identità.",
+            "Si va allo sportello.",
+            "Si paga la tessera."
+          ],
+          "answer": 0,
+          "instruction": "Ascolta le istruzioni e rispondi.",
+          "explanation": "Una volta inviato il modulo = dopo averlo inviato."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b2-10-l2-e12",
+          "text": "Finita la riunione, siamo andati tutti a pranzo.",
+          "translation": "Once the meeting was over, we all went for lunch.",
+          "instruction": "Ascolta e ripeti ad alta voce."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-10-l2-e13",
+          "prompt": "Descrivi la tua serata di ieri usando dopo + infinito passato e prima di + infinito.",
+          "keywords": [
+            "dopo",
+            "prima di"
+          ],
+          "modelAnswer": "Dopo essere tornato a casa, ho fatto una doccia. Dopo aver cenato, ho guardato un film. Prima di andare a letto, ho ripassato un po' di italiano.",
+          "instruction": "Rispondi ad alta voce in 3 frasi.",
+          "explanation": "Dopo essere tornato (essere + accordo), dopo aver cenato (avere), prima di andare."
+        }
+      ]
+    },
+    {
+      "id": "b2-10-l3",
+      "title": "Frasi più brevi, testi più fluidi",
+      "minutes": 12,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-10-l3-e01",
+          "prompt": "___ i documenti, il notaio ci ha dato le chiavi.",
+          "options": [
+            "Firmati",
+            "Firmato",
+            "Firmate",
+            "Firmando"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Participio assoluto: concorda con l'oggetto (i documenti → firmati)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l3-e02",
+          "sentence": "Dopo ___ (svegliarsi), ho fatto colazione con calma.",
+          "answers": [
+            "essermi svegliato",
+            "essermi svegliata"
+          ],
+          "hint": "verbo riflessivo – io",
+          "instruction": "Riscaldamento: completa con l'infinito passato.",
+          "explanation": "Infinito passato riflessivo: essermi svegliato (il pronome si attacca a essere)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-10-l3-e03",
+          "title": "Esplicita o implicita?",
+          "body": "Molte frasi dipendenti hanno due versioni:\n- **esplicita**: congiunzione + verbo coniugato (*che, mentre, siccome, dopo che…*)\n- **implicita**: infinito, gerundio, participio – più breve, più fluida, spesso più formale\n\nCon **lo stesso soggetto**, l'italiano preferisce (o richiede) l'implicita:\n- ~~*Spero che io possa venire*~~ → *Spero **di poter** venire*\n- *Dopo che ho finito, esco* → *Dopo aver finito, esco / Finito il lavoro, esco*\n- *Siccome ero stanco…* → *Essendo stanco…*\n- *Benché fossi stanco…* → ***Pur** essendo stanco…* (pur + gerundio = although)\n\nCon **soggetti diversi** resta l'esplicita: *Spero che **tu** possa venire. Mentre **io** tornavo, ha cominciato a piovere.*\n\nNei testi scritti più lunghi, alternare frasi esplicite e implicite rende il testo meno ripetitivo e più naturale.",
+          "examples": [
+            {
+              "it": "Penso di avere ragione.",
+              "en": "I think I'm right."
+            },
+            {
+              "it": "Penso che tu abbia ragione.",
+              "en": "I think you're right."
+            },
+            {
+              "it": "Pur essendo stanco, è venuto alla festa.",
+              "en": "Although he was tired, he came to the party."
+            },
+            {
+              "it": "Non avendo l'ombrello, mi sono bagnato.",
+              "en": "Not having an umbrella, I got wet."
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l3-e04",
+          "sentence": "___ l'ombrello, mi sono bagnato.",
+          "answers": [
+            "Non avendo"
+          ],
+          "hint": "gerundio negativo",
+          "instruction": "Riscrivi in forma implicita: «Siccome non avevo l'ombrello, mi sono bagnato.»",
+          "explanation": "Siccome non avevo → non avendo (causa, stesso soggetto)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l3-e05",
+          "sentence": "___ il conto, siamo usciti.",
+          "answers": [
+            "Dopo aver pagato",
+            "Dopo avere pagato",
+            "Pagato"
+          ],
+          "hint": "dopo + infinito passato, o participio",
+          "instruction": "Riscrivi in forma implicita: «Dopo che avevamo pagato, siamo usciti.»",
+          "explanation": "Dopo aver pagato il conto, oppure participio assoluto: Pagato il conto, siamo usciti."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-10-l3-e06",
+          "sentence": "Credo ___ sbagliato.",
+          "answers": [
+            "di aver",
+            "di avere"
+          ],
+          "hint": "di + infinito passato",
+          "instruction": "Riscrivi in forma implicita: «Credo che io abbia sbagliato.»",
+          "explanation": "Stesso soggetto → di + infinito: credo di aver sbagliato."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-10-l3-e07",
+          "sentence": "Spero che io trovi presto un appartamento.",
+          "answers": [
+            "Spero di trovare presto un appartamento.",
+            "Spero di trovare un appartamento presto."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Stesso soggetto (io spero, io trovo) → di + infinito."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-10-l3-e08",
+          "prompt": "Scegli la frase in cui il gerundio ha lo stesso soggetto della principale.",
+          "options": [
+            "Leggendo il giornale, ho lasciato raffreddare il caffè.",
+            "Avendo letto il giornale, il caffè era freddo.",
+            "Leggendo il giornale, il caffè si è raffreddato."
+          ],
+          "answer": 0,
+          "instruction": "Quale frase è corretta?",
+          "explanation": "Solo nella prima chi legge (io) è anche il soggetto della principale. Nelle altre sembra che sia il caffè a leggere!"
+        },
+        {
+          "type": "reading",
+          "id": "b2-10-l3-e09",
+          "title": "Istruzioni per la consegna delle chiavi",
+          "passage": "Gentile inquilino,\nle scrivo per darle alcune indicazioni prima del suo trasferimento nel nuovo appartamento.\nUna volta firmato il contratto, dovrà versare il deposito cauzionale tramite bonifico. Ricevuto il pagamento, le invieremo la conferma via email. Prima di venire a ritirare le chiavi, la prego di fissare un appuntamento telefonando in agenzia, essendo l'ufficio aperto al pubblico solo la mattina.\nArrivato nell'appartamento, controlli lo stato dei mobili e degli elettrodomestici. Se trovasse qualche difetto, ce lo segnali entro una settimana, allegando delle foto. In questo modo eviteremo discussioni al momento della riconsegna.\nInfine, pur non essendo obbligatorio, le consigliamo di fare un'assicurazione per la casa.\nRestando a disposizione per qualsiasi chiarimento, le porgo cordiali saluti.\nLaura Benedetti – Agenzia immobiliare Il Portico",
+          "questions": [
+            {
+              "question": "Quando deve pagare il deposito l'inquilino?",
+              "options": [
+                "Entro una settimana dall'arrivo.",
+                "Prima di firmare il contratto.",
+                "Al momento della consegna delle chiavi.",
+                "Dopo aver firmato il contratto."
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Perché bisogna telefonare prima di ritirare le chiavi?",
+              "options": [
+                "Perché l'ufficio è aperto al pubblico solo la mattina.",
+                "Perché le chiavi sono in un altro ufficio.",
+                "Perché l'agenzia non usa l'email.",
+                "Perché bisogna pagare per telefono."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa deve fare se trova un difetto?",
+              "options": [
+                "Segnalarlo entro una settimana, con delle foto.",
+                "Aspettare la riconsegna.",
+                "Chiamare l'assicurazione.",
+                "Ripararlo subito a sue spese."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa significa «pur non essendo obbligatorio»?",
+              "options": [
+                "anche se non è obbligatorio",
+                "solo se è obbligatorio",
+                "dopo che è diventato obbligatorio",
+                "perché è obbligatorio"
+              ],
+              "answer": 0
+            }
+          ],
+          "instruction": "Leggi l'email dell'agenzia e rispondi.",
+          "explanation": "Conta le frasi implicite: una volta firmato, ricevuto il pagamento, telefonando, essendo l'ufficio aperto, arrivato, allegando, pur non essendo, restando."
+        },
+        {
+          "type": "translate",
+          "id": "b2-10-l3-e10",
+          "direction": "it_en",
+          "source": "Pur essendo stanco, è venuto alla festa.",
+          "answers": [
+            "Although he was tired, he came to the party.",
+            "Although he was tired he came to the party.",
+            "Even though he was tired, he came to the party.",
+            "Even though he was tired he came to the party.",
+            "Though he was tired, he came to the party.",
+            "Though he was tired he came to the party.",
+            "Despite being tired, he came to the party.",
+            "Despite being tired he came to the party.",
+            "In spite of being tired, he came to the party.",
+            "In spite of being tired he came to the party.",
+            "Although tired, he came to the party.",
+            "Although tired he came to the party.",
+            "He came to the party although he was tired.",
+            "He came to the party even though he was tired."
+          ],
+          "instruction": "Traduci in inglese.",
+          "explanation": "Pur + gerundio = although / despite + -ing."
+        },
+        {
+          "type": "roleplay",
+          "id": "b2-10-l3-e11",
+          "scenario": "You're at the estate agency to collect the keys of your new flat. The agent, Laura, checks a few things. Answer using implicit clauses (dopo aver…, gerundio, prima di…). Use Lei.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno! Ha già fatto il bonifico per il deposito?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, l'ho fatto ieri, dopo aver firmato il contratto.",
+              "hint": "Say you did it yesterday, after signing.",
+              "keywords": [
+                "dopo aver",
+                "firmato"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto. Ecco le chiavi. Una volta entrato, controlli bene l'appartamento."
+            },
+            {
+              "speaker": "you",
+              "text": "Certo. Se trovo qualche problema, posso segnalarlo mandando delle foto via email?",
+              "hint": "Ask if you can report problems by sending photos (gerundio).",
+              "keywords": [
+                "mandando",
+                "foto"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sì, entro una settimana. E si ricordi di leggere il verbale di consegna prima di firmarlo."
+            },
+            {
+              "speaker": "you",
+              "text": "D'accordo. Prima di andare, posso chiederle un'informazione sul riscaldamento?",
+              "hint": "Before leaving, ask one more question (prima di + infinito).",
+              "keywords": [
+                "prima di",
+                "chiederle"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo, mi dica pure."
+            }
+          ],
+          "instruction": "Sei in agenzia a ritirare le chiavi. Rispondi ad alta voce quando tocca a te.",
+          "explanation": "Dopo aver firmato, mandando, prima di andare: tre frasi implicite naturali in una conversazione formale."
+        },
+        {
+          "type": "free_write",
+          "id": "b2-10-l3-e12",
+          "prompt": "Scrivi un'email formale (120–160 parole) all'amministratore del tuo condominio: sei appena entrato in un nuovo appartamento e hai trovato alcuni problemi (riscaldamento, una perdita d'acqua, la cassetta della posta senza nome…). Racconta che cosa hai fatto e chiedi un intervento. Usa almeno quattro frasi implicite.",
+          "minWords": 120,
+          "checklist": [
+            "Ho usato una formula formale di apertura e di chiusura (Gentile…, Cordiali saluti).",
+            "Ho usato almeno un gerundio (presente o passato).",
+            "Ho usato almeno un participio passato assoluto con l'accordo corretto.",
+            "Ho usato dopo + infinito passato o prima di + infinito.",
+            "Ho controllato che il soggetto di ogni frase implicita sia lo stesso della principale.",
+            "Ho dato del Lei all'amministratore in tutto il testo."
+          ],
+          "modelAnswer": "Gentile amministratore,\nsono il nuovo inquilino dell'appartamento al terzo piano, interno 7. Le scrivo per segnalarle alcuni problemi che ho riscontrato nei primi giorni.\nEntrato in casa, ho notato subito che i termosifoni della camera da letto non si scaldano. Dopo aver controllato la caldaia, che sembra funzionare correttamente, ho pensato che il guasto riguardasse l'impianto centralizzato. Inoltre, pulendo il bagno, ho scoperto una piccola perdita d'acqua sotto il lavandino, che potrebbe danneggiare l'appartamento del piano di sotto.\nAvendo già informato il proprietario, le chiedo gentilmente di mandare un tecnico appena possibile. Una volta fissato l'appuntamento, mi organizzerò per essere presente.\nInfine, le sarei grato se potesse far aggiungere il mio nome sulla cassetta della posta.\nRingraziandola per la disponibilità, le porgo cordiali saluti.",
+          "instruction": "Scrivi un'email formale."
+        },
+        {
+          "type": "flashcard",
+          "id": "b2-10-l3-e13",
+          "front": "riscontrare",
+          "back": "to find, to notice (formal)",
+          "example": "Ho riscontrato alcuni problemi nell'appartamento."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il deposito cauzionale",
+      "en": "security deposit",
+      "example": "Il deposito cauzionale è di due mensilità."
+    },
+    {
+      "it": "il bonifico",
+      "en": "bank transfer",
+      "example": "Ho fatto il bonifico ieri."
+    },
+    {
+      "it": "l'inquilino / l'inquilina",
+      "en": "tenant",
+      "example": "L'inquilino del terzo piano è molto gentile."
+    },
+    {
+      "it": "il proprietario",
+      "en": "owner, landlord",
+      "example": "Ho già informato il proprietario."
+    },
+    {
+      "it": "l'amministratore di condominio",
+      "en": "building manager",
+      "example": "Ho scritto all'amministratore di condominio."
+    },
+    {
+      "it": "il verbale di consegna",
+      "en": "handover report",
+      "example": "Legga il verbale di consegna prima di firmarlo."
+    },
+    {
+      "it": "il guasto",
+      "en": "breakdown, fault",
+      "example": "C'è un guasto all'impianto elettrico."
+    },
+    {
+      "it": "la perdita d'acqua",
+      "en": "water leak",
+      "example": "C'è una perdita d'acqua sotto il lavandino."
+    },
+    {
+      "it": "il termosifone",
+      "en": "radiator",
+      "example": "Il termosifone della camera non si scalda."
+    },
+    {
+      "it": "la caldaia",
+      "en": "boiler",
+      "example": "Il tecnico ha controllato la caldaia."
+    },
+    {
+      "it": "l'elettrodomestico",
+      "en": "household appliance",
+      "example": "Gli elettrodomestici sono tutti nuovi."
+    },
+    {
+      "it": "riscontrare",
+      "en": "to find, to notice (formal)",
+      "example": "Abbiamo riscontrato un errore nella fattura."
+    },
+    {
+      "it": "segnalare",
+      "en": "to report, to point out",
+      "example": "Le segnalo un problema al riscaldamento."
+    },
+    {
+      "it": "allegare",
+      "en": "to attach",
+      "example": "Allego le foto del danno."
+    },
+    {
+      "it": "versare (un importo)",
+      "en": "to pay (an amount)",
+      "example": "Deve versare il deposito entro venerdì."
+    },
+    {
+      "it": "ritirare",
+      "en": "to collect, to pick up",
+      "example": "Posso ritirare le chiavi domani?"
+    },
+    {
+      "it": "una volta (+ participio)",
+      "en": "once (something is done)",
+      "example": "Una volta firmato il contratto, riceverà le chiavi."
+    },
+    {
+      "it": "pur (+ gerundio)",
+      "en": "although, while",
+      "example": "Pur essendo stanco, è venuto."
+    },
+    {
+      "it": "sbagliando s'impara",
+      "en": "you learn from your mistakes",
+      "example": "Non preoccuparti: sbagliando s'impara!"
+    },
+    {
+      "it": "restare a disposizione",
+      "en": "to remain available (formal)",
+      "example": "Resto a disposizione per qualsiasi chiarimento."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b2-10-t1",
+      "rule": "Gerundio: stesso soggetto",
+      "tip": "The gerundio takes the subject of the main verb: Tornando a casa, (io) ho visto Luca. Different subject? Use mentre.",
+      "example": {
+        "it": "Tornando a casa, ho incontrato Luca.",
+        "en": "On my way home, I met Luca."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Uscendo dal cinema, ha cominciato a piovere.",
+        "answers": [
+          "Mentre uscivo dal cinema, ha cominciato a piovere.",
+          "Mentre uscivo dal cinema ha cominciato a piovere.",
+          "Mentre uscivamo dal cinema, ha cominciato a piovere.",
+          "Mentre uscivamo dal cinema ha cominciato a piovere.",
+          "Uscendo dal cinema, ho visto che pioveva.",
+          "Uscendo dal cinema ho visto che pioveva.",
+          "Uscendo dal cinema, abbiamo visto che pioveva.",
+          "Uscendo dal cinema abbiamo visto che pioveva.",
+          "Quando sono uscito dal cinema, ha cominciato a piovere.",
+          "Quando sono uscito dal cinema ha cominciato a piovere."
+        ],
+        "instruction": "C'è un errore. Correggi."
+      }
+    },
+    {
+      "id": "b2-10-t2",
+      "rule": "Pronomi attaccati al gerundio",
+      "tip": "Pronouns attach to the end of the gerundio: vedendolo, parlandogli, avendolo saputo.",
+      "example": {
+        "it": "Avendolo saputo tardi, non sono venuto.",
+        "en": "Having found out late, I didn't come."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ (vedere + lo) così stanco, gli ho offerto un caffè.",
+        "answers": [
+          "Vedendolo"
+        ],
+        "instruction": "Completa la frase."
+      }
+    },
+    {
+      "id": "b2-10-t3",
+      "rule": "Participio assoluto: l'accordo",
+      "tip": "Firmati i documenti, presa la decisione: with transitive verbs the participle agrees with the object.",
+      "example": {
+        "it": "Presa la decisione, abbiamo chiamato l'agenzia.",
+        "en": "Once the decision was made, we called the agency."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Una volta ___ la domanda, riceverà una email.",
+        "options": [
+          "inviata",
+          "inviati",
+          "inviato",
+          "inviando"
+        ],
+        "answer": 0,
+        "instruction": "Scegli la forma giusta."
+      }
+    },
+    {
+      "id": "b2-10-t4",
+      "rule": "Dopo + infinito passato",
+      "tip": "After dopo use the past infinitive: dopo aver mangiato, dopo essere arrivato/a (agreeing with essere).",
+      "example": {
+        "it": "Dopo essere uscita, ha chiamato un taxi.",
+        "en": "After going out, she called a taxi."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Dopo ___ (uscire) dall'ufficio, Anna è andata in palestra.",
+        "answers": [
+          "essere uscita",
+          "esser uscita"
+        ],
+        "instruction": "Completa la frase."
+      }
+    },
+    {
+      "id": "b2-10-t5",
+      "rule": "Stesso soggetto: di + infinito",
+      "tip": "With the same subject use di + infinitive instead of che: penso di avere ragione, not penso che io abbia ragione.",
+      "example": {
+        "it": "Spero di poter venire.",
+        "en": "I hope I can come."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Spero che io possa venire.",
+        "answers": [
+          "Spero di poter venire.",
+          "Spero di potere venire."
+        ],
+        "instruction": "C'è un errore. Correggi."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1396 @@
+{
+  "id": "celi-06",
+  "level": "CELI3",
+  "title": "Simulazione d'esame",
+  "objective": "Alla fine dell'unità hai svolto una simulazione completa del CELI 3, con i tempi reali di ogni fascicolo (2 h 15 min, 45 min, 25 min) e dell'orale, e sai autovalutarti con i criteri ufficiali per decidere che cosa ripassare.",
+  "grammarFocus": "Simulazione cronometrata di tutte le prove: lettura (A.1–A.3), scrittura (B.1–B.2), competenza linguistica (C.1–C.3), ascolto (D.1–D.2), orale (presentazione, foto, testo, role-play). Autovalutazione con le scale ufficiali.",
+  "remedialUnitIds": [
+    "celi-01",
+    "celi-02",
+    "celi-03",
+    "celi-04",
+    "celi-05"
+  ],
+  "lessons": [
+    {
+      "id": "celi-06-l1",
+      "title": "Fascicolo 1 – Lettura e scrittura (2 h 15 min)",
+      "minutes": 135,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-06-l1-e01",
+          "instruction": "Prima di cominciare: organizza il tempo.",
+          "prompt": "Hai 2 ore e 15 minuti per le Parti A e B. Quale piano è più ragionevole?",
+          "options": [
+            "100 minuti di lettura, 35 di scrittura",
+            "Circa 65 minuti di lettura, 60 di scrittura, 10 per rileggere",
+            "30 minuti di lettura, 105 di scrittura",
+            "Scrivere prima tutto e leggere solo se avanza tempo"
+          ],
+          "answer": 1,
+          "explanation": "Una proposta equilibrata (consiglio, non regola ufficiale): circa un'ora per la Parte A, un'ora per le due prove scritte, qualche minuto per rileggere."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-06-l1-e02",
+          "title": "Istruzioni della simulazione",
+          "body": "Metti un timer di **2 ore e 15 minuti** e non usare dizionario né traduttore. Svolgi le prove nell'ordine che preferisci.\n\n- **A.1** – due testi, 9 domande a scelta multipla (3 punti l'una)\n- **A.2** – due testi a confronto, 10 affermazioni (1 punto l'una)\n- **A.3** – un testo, 4 domande aperte (fino a 3 punti l'una)\n- **B.1** – composizione di 120–180 parole (una traccia su due)\n- **B.2** – lettera o e-mail di 80–100 parole (una traccia su tre)\n\nAlla fine calcola i punti della Parte A: massimo **49 punti grezzi** (27 + 10 + 12). Nelle prove scritte autovalutati con la lista di controllo, che riprende i criteri ufficiali.",
+          "examples": [
+            {
+              "it": "Tempo: 2 h 15 min, senza dizionario.",
+              "en": "Time: 2 h 15 min, no dictionary."
+            },
+            {
+              "it": "Parte A: 49 punti grezzi.",
+              "en": "Part A: 49 raw marks."
+            }
+          ]
+        },
+        {
+          "type": "reading",
+          "id": "celi-06-l1-e03",
+          "instruction": "A.1 – Testo 1. Leggi l'articolo e scegli la risposta giusta (5 domande).",
+          "title": "Il cortile diventa un orto",
+          "passage": "Fino a due anni fa il cortile del condominio di via Mazzini era un rettangolo di cemento usato soprattutto come parcheggio per le biciclette. Oggi ospita dodici cassoni di legno pieni di pomodori, zucchine, basilico e fragole. L'idea è venuta a Teresa Lodi, insegnante in pensione, che durante un'assemblea condominiale ha proposto di trasformare lo spazio comune in un orto. «All'inizio molti erano scettici», racconta. «Temevano lo sporco, le zanzare, le discussioni su chi doveva innaffiare.»\n\nPer convincere i vicini, Teresa ha chiesto aiuto a un'associazione di quartiere che si occupa di verde urbano: gli esperti hanno spiegato come coltivare in poco spazio e hanno fornito gratuitamente la terra e i primi semi. Il costo dei cassoni, circa ottocento euro, è stato diviso tra le ventiquattro famiglie del palazzo.\n\nOggi a occuparsi dell'orto sono soprattutto i pensionati e i bambini, che il mercoledì pomeriggio partecipano a un piccolo laboratorio. Un calendario appeso nell'androne indica i turni per innaffiare, e il raccolto viene diviso in parti uguali. «Ma il vero frutto è un altro», dice Teresa. «Prima ci salutavamo appena in ascensore. Adesso d'estate ceniamo insieme in cortile.» L'esperienza ha attirato l'attenzione del Comune, che sta preparando un bando per finanziare progetti simili in altri condomini.",
+          "questions": [
+            {
+              "question": "Che cosa c'era nel cortile prima dell'orto?",
+              "options": [
+                "Un giardino abbandonato",
+                "Uno spazio di cemento usato per le biciclette",
+                "Un parcheggio per le auto dei condomini",
+                "Un campo da gioco per bambini"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché all'inizio alcuni vicini non erano d'accordo?",
+              "options": [
+                "Pensavano che l'orto costasse troppo",
+                "Avevano paura di problemi pratici e di litigi",
+                "Volevano usare il cortile per le feste",
+                "Non conoscevano Teresa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Come ha aiutato l'associazione di quartiere?",
+              "options": [
+                "Ha pagato i cassoni di legno",
+                "Ha offerto consigli tecnici e materiale per iniziare",
+                "Ha organizzato l'assemblea condominiale",
+                "Ha innaffiato l'orto ogni giorno"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Secondo Teresa, qual è il risultato più importante del progetto?",
+              "options": [
+                "Il risparmio sulla spesa",
+                "La qualità delle verdure",
+                "I rapporti migliori tra i vicini",
+                "Il laboratorio per i bambini"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa sta facendo il Comune?",
+              "options": [
+                "Ha vietato gli orti nei cortili",
+                "Prepara un finanziamento per iniziative simili",
+                "Ha comprato il raccolto del condominio",
+                "Ha premiato Teresa con un riconoscimento"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Parafrasi: zanzare e discussioni → problemi pratici e litigi; terra e semi gratis → materiale per iniziare; un bando per finanziare → un finanziamento."
+        },
+        {
+          "type": "reading",
+          "id": "celi-06-l1-e04",
+          "instruction": "A.1 – Testo 2. Leggi e scegli la risposta giusta (4 domande).",
+          "title": "Pendolari: il sondaggio",
+          "passage": "Quanto tempo passano gli italiani per andare al lavoro? Secondo un sondaggio condotto su duemila lavoratori da un istituto di ricerca, la media è di 52 minuti al giorno tra andata e ritorno, ma un pendolare su cinque supera le due ore. L'auto resta il mezzo più usato (61%), seguita dai mezzi pubblici (24%); la bicicletta, nonostante la crescita delle piste ciclabili, si ferma al 5%.\n\nIl dato più interessante riguarda però la soddisfazione: chi va al lavoro a piedi o in bicicletta si dichiara molto più soddisfatto del proprio tragitto rispetto a chi guida, anche quando il viaggio dura di più. Tra gli automobilisti, la principale fonte di stress non è la durata ma l'imprevedibilità del traffico. Quasi la metà degli intervistati, infine, accetterebbe uno stipendio leggermente più basso in cambio di due giorni di lavoro da casa alla settimana.",
+          "questions": [
+            {
+              "question": "Quanti pendolari impiegano più di due ore al giorno?",
+              "options": [
+                "Circa la metà",
+                "Uno su cinque",
+                "Il 5%",
+                "Il 24%"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa dice il sondaggio sulla bicicletta?",
+              "options": [
+                "È il mezzo più usato",
+                "È poco usata, anche se le piste ciclabili aumentano",
+                "È stata superata dal lavoro da casa",
+                "È usata soprattutto per tragitti lunghi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa stressa di più gli automobilisti?",
+              "options": [
+                "La durata del viaggio",
+                "Il costo della benzina",
+                "Il non sapere quanto traffico troveranno",
+                "La mancanza di parcheggi"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa farebbero molti intervistati?",
+              "options": [
+                "Cambierebbero lavoro per guadagnare di più",
+                "Rinuncerebbero a una parte dello stipendio per lavorare un po' da casa",
+                "Comprerebbero una bicicletta elettrica",
+                "Si trasferirebbero vicino all'ufficio"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Imprevedibilità del traffico → non sapere quanto traffico troveranno; stipendio leggermente più basso → rinunciare a una parte dello stipendio."
+        },
+        {
+          "type": "reading",
+          "id": "celi-06-l1-e05",
+          "instruction": "A.2 – Leggi i due testi. A quale testo si riferisce ogni affermazione? (10 affermazioni)",
+          "title": "Due modi di fare volontariato",
+          "passage": "TESTO 1 – Paola, 58 anni\nDa quattro anni, ogni martedì e giovedì sera, servo i pasti in una mensa per persone in difficoltà. Ho cominciato dopo la morte di mio marito: avevo bisogno di uscire di casa e di sentirmi utile. All'inizio mi sembrava di non fare abbastanza, perché un piatto di pasta non risolve i problemi di nessuno. Poi ho capito che per molti ospiti conta anche solo essere chiamati per nome e scambiare due parole. Non serve nessuna preparazione particolare, basta essere puntuali e rispettosi. Il turno dura tre ore e alla fine sono stanca, ma torno a casa più leggera.\n\nTESTO 2 – Giorgio, 27 anni\nSono volontario della Protezione civile da quando ho finito l'università. Prima di poter intervenire ho dovuto seguire un corso di sessanta ore, con esami teorici e pratici: si impara a montare tende, a usare le radio, a gestire le persone in situazioni di panico. Non ci sono turni fissi: quando c'è un'emergenza, un'alluvione o un terremoto, ricevo un messaggio e, se posso, parto anche per una settimana. Il mio datore di lavoro mi lascia andare, perché la legge prevede dei permessi. È un'esperienza intensa, a volte dura, ma mi ha insegnato a mantenere la calma.",
+          "questions": [
+            {
+              "question": "Ha dovuto superare una formazione prima di cominciare.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Fa volontariato con una regolarità settimanale.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Ha iniziato in un momento difficile della sua vita personale.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Può stare lontano da casa per diversi giorni.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dice che per il suo servizio non servono competenze specifiche.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Ha avuto dubbi sull'utilità di ciò che faceva.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Viene avvisato quando c'è bisogno di lui.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Il suo lavoro retribuito non è un ostacolo, grazie a una norma.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dà importanza al rapporto personale con le persone che aiuta.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Dice che l'esperienza lo ha cambiato nel carattere.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Corso di sessanta ore → formazione; ogni martedì e giovedì → regolarità settimanale; ricevo un messaggio → viene avvisato; la legge prevede dei permessi → una norma; mantenere la calma → cambiato nel carattere."
+        },
+        {
+          "type": "reading",
+          "id": "celi-06-l1-e06",
+          "instruction": "A.3 – Leggi il testo. (Rispondi poi alle 4 domande aperte nell'esercizio successivo.)",
+          "title": "La biblioteca degli attrezzi",
+          "passage": "Quante volte usiamo un trapano nella vita? Secondo alcune stime, un trapano domestico lavora in media tra i dodici e i quindici minuti in tutta la sua esistenza. Da questa constatazione è nata, in un quartiere periferico della città, la «biblioteca degli attrezzi»: un locale dove, con una tessera annuale di venti euro, si possono prendere in prestito per una settimana trapani, scale, tagliaerba, macchine da cucire e perfino attrezzature da campeggio.\n\nI fondatori sono tre amici, un falegname, un'ingegnera e uno studente, che hanno raccolto i primi duecento oggetti grazie alle donazioni dei vicini. «Molti avevano in cantina attrezzi che non usavano più e sono stati felici di regalarli», racconta l'ingegnera. Oggi gli iscritti sono più di quattrocento.\n\nL'obiettivo è duplice: far risparmiare le famiglie e ridurre la quantità di oggetti prodotti e poi buttati. Ma c'è anche un effetto inatteso: il sabato mattina il falegname tiene brevi lezioni gratuite su come usare gli attrezzi in sicurezza, e molte persone, soprattutto donne e anziani, hanno scoperto di saper fare piccoli lavori di casa da sole. Il problema principale, spiegano i fondatori, è che alcuni oggetti tornano rotti o in ritardo; per questo stanno pensando di introdurre una piccola cauzione.",
+          "questions": [
+            {
+              "question": "Quanto dura il prestito di un attrezzo?",
+              "options": [
+                "Un giorno",
+                "Una settimana",
+                "Un mese",
+                "Un anno"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Questa domanda è solo di controllo: la prova A.3 vera è nell'esercizio seguente."
+        },
+        {
+          "type": "free_write",
+          "id": "celi-06-l1-e07",
+          "instruction": "A.3 – Rispondi alle 4 domande sul testo «La biblioteca degli attrezzi» con frasi brevi e complete.",
+          "prompt": "1. Da quale osservazione è nata l'idea della biblioteca degli attrezzi?\n2. Come hanno trovato i fondatori i primi oggetti?\n3. Quali sono i due obiettivi del progetto?\n4. Quale problema hanno i fondatori e come pensano di risolverlo?",
+          "minWords": 45,
+          "checklist": [
+            "Ho risposto a tutte e 4 le domande (fino a 3 punti ciascuna).",
+            "Nella domanda 3 ho indicato entrambi gli obiettivi.",
+            "Nella domanda 4 ho indicato sia il problema sia la soluzione.",
+            "Ho scritto frasi complete, riformulando con parole mie quando possibile.",
+            "Ho controllato persone e tempi verbali (non ho copiato la prima persona del testo)."
+          ],
+          "modelAnswer": "1. Dall'osservazione che gli attrezzi come il trapano si usano pochissimo: in tutta la sua vita un trapano lavora solo pochi minuti.\n2. Li hanno ricevuti in regalo dai vicini, che avevano in cantina attrezzi che non usavano più.\n3. Vogliono far risparmiare le famiglie e ridurre la quantità di oggetti prodotti e buttati.\n4. Alcuni oggetti vengono restituiti rotti o in ritardo, quindi pensano di chiedere una piccola cauzione.",
+          "explanation": "Conta: 3 punti se la risposta è completa e corretta, 2 se è parzialmente corretta, 1 se è incompleta."
+        },
+        {
+          "type": "free_write",
+          "id": "celi-06-l1-e08",
+          "instruction": "B.1 – Scegli UNA delle due tracce e scrivi una composizione (120–180 parole).",
+          "prompt": "Traccia 1: Nel tuo paese o in Italia, hai mai partecipato a un'iniziativa di quartiere o di volontariato? Racconta l'esperienza e spiega che cosa ti ha dato.\n\nTraccia 2: «Oggi si comprano troppe cose che si usano poco.» Sei d'accordo? Esprimi la tua opinione con argomenti ed esempi.",
+          "minWords": 120,
+          "checklist": [
+            "Ho svolto tutti i punti della traccia scelta, con introduzione, sviluppo e conclusione (coerenza e coesione, 5).",
+            "Ho usato connettivi vari: innanzitutto, inoltre, per esempio, d'altra parte, in conclusione.",
+            "Ho usato strutture varie e corrette: congiuntivo, periodo ipotetico, relative, passato prossimo e imperfetto (competenza grammaticale, 5).",
+            "Il lessico è preciso e non ripetitivo; ho controllato l'ortografia (competenza lessicale, 5).",
+            "Il registro è adatto e coerente (competenza sociolinguistica, 5).",
+            "Ho scritto tra 120 e 180 parole."
+          ],
+          "modelAnswer": "(Traccia 2) Sono abbastanza d'accordo con questa affermazione. Oggi comprare è facilissimo: basta un clic e il giorno dopo il pacco arriva a casa. Per questo spesso compriamo cose di cui non abbiamo davvero bisogno.\n\nInnanzitutto, penso agli attrezzi e agli elettrodomestici. Quando mi sono trasferito, ho comprato un trapano che ho usato due volte in tre anni. Se avessi saputo che esistono le biblioteche degli attrezzi, l'avrei preso in prestito. Inoltre, lo stesso succede con i vestiti: molti finiscono nell'armadio con l'etichetta ancora attaccata.\n\nD'altra parte, è vero che alcuni oggetti sono necessari e che il consumo fa lavorare molte persone. Tuttavia credo che si possa comprare meno e meglio: condividere, riparare, comprare di seconda mano.\n\nIn conclusione, penso che ognuno di noi debba chiedersi, prima di ogni acquisto, se quell'oggetto gli serve davvero.",
+          "explanation": "Il modello ha circa 150 parole e include un periodo ipotetico dell'irrealtà, congiuntivi dopo credo/penso che e un'esperienza personale."
+        },
+        {
+          "type": "free_write",
+          "id": "celi-06-l1-e09",
+          "instruction": "B.2 – Scegli UNA delle tre tracce e scrivi una lettera o e-mail (80–100 parole).",
+          "prompt": "Traccia 1: Hai letto che nel tuo quartiere sta per aprire una biblioteca degli attrezzi. Scrivi agli organizzatori: presentati, offri il tuo aiuto come volontario, indica quando sei disponibile e chiedi come iscriverti.\n\nTraccia 2: Un amico italiano ti ha invitato al suo matrimonio, ma non puoi andare. Scrivigli: ringrazialo, spiega perché non puoi esserci e proponi di festeggiare insieme in un'altra occasione.\n\nTraccia 3: Hai comprato online un mobile che è arrivato danneggiato. Scrivi al servizio clienti: descrivi il problema, ricorda i dati dell'ordine e chiedi una soluzione.",
+          "minWords": 80,
+          "checklist": [
+            "Ho svolto tutti i punti della traccia scelta (coerenza e coesione, 5).",
+            "Ho scelto il registro giusto (tu o Lei) e l'ho mantenuto, con formule d'apertura e chiusura adatte (competenza sociolinguistica, 6).",
+            "Il lessico è adeguato alla situazione (competenza lessicale, 5).",
+            "Ho controllato verbi, accordi e preposizioni (competenza grammaticale, 4).",
+            "Ho scritto tra 80 e 100 parole."
+          ],
+          "modelAnswer": "(Traccia 1) Gentili organizzatori,\nmi chiamo Richard e abito in via Mazzini. Ho letto con piacere che nel quartiere sta per aprire una biblioteca degli attrezzi e vorrei offrire il mio aiuto come volontario. Non sono un esperto di bricolage, ma sono una persona precisa e potrei occuparmi dei prestiti e dell'archivio degli oggetti. Sono disponibile il sabato mattina e il mercoledì sera. Vorrei inoltre sapere come ci si iscrive e quanto costa la tessera.\nIn attesa di una vostra risposta, porgo cordiali saluti.\nRichard Smith",
+          "explanation": "Registro formale al voi (gli organizzatori sono più persone), quattro consegne svolte, condizionale per l'offerta (potrei) e la richiesta (vorrei)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-06-l1-e10",
+          "instruction": "Allenamento per l'orale (fuori tempo): riassumi a voce il testo A.3.",
+          "prompt": "Riassumi in 4–5 frasi il testo «La biblioteca degli attrezzi», come faresti all'orale.",
+          "keywords": [
+            "il testo parla",
+            "prestito",
+            "risparmiare"
+          ],
+          "modelAnswer": "Il testo parla di una biblioteca degli attrezzi aperta in un quartiere di periferia. Con una tessera annuale si possono prendere in prestito per una settimana attrezzi come trapani, scale e tagliaerba. L'hanno fondata tre amici, con oggetti regalati dai vicini. L'obiettivo è far risparmiare le famiglie e sprecare meno, ma il progetto ha anche insegnato a molte persone a fare piccoli lavori da sole. L'unico problema è che alcuni oggetti tornano rotti, quindi pensano di introdurre una cauzione.",
+          "explanation": "Riassumere un testo letto è proprio la seconda parte dell'orale: allenarti qui ti fa risparmiare preparazione."
+        }
+      ]
+    },
+    {
+      "id": "celi-06-l2",
+      "title": "Fascicolo 2 – Competenza linguistica (45 min)",
+      "minutes": 45,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-06-l2-e01",
+          "instruction": "Prima di cominciare.",
+          "prompt": "Nella Parte C quanti item ci sono in tutto?",
+          "options": [
+            "23",
+            "35 (23 + 7 + 5)",
+            "10",
+            "49"
+          ],
+          "answer": 1,
+          "explanation": "C.1: 23 item; C.2: 7 frasi (2 punti l'una); C.3: 5 parole. Massimo 42 punti grezzi."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-06-l2-e02",
+          "title": "Istruzioni della simulazione",
+          "body": "Metti un timer di **45 minuti**. Completa ogni spazio con **una parola** nella C.1, ricostruisci le frasi nella C.2 e forma le parole nella C.3.\n\nPunteggio grezzo: C.1 = 23, C.2 = 14 (2 per frase corretta, 1 se incompleta), C.3 = 5. **Totale 42.**",
+          "examples": [
+            {
+              "it": "Ricorda: leggi tutto il testo prima di completare.",
+              "en": "Remember: read the whole text before filling the gaps."
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e03",
+          "instruction": "C.1 – Testo 1 (1/12). Completa con una parola.",
+          "sentence": "Ciao Giulia! Ti scrivo da Perugia, ___ sono arrivato venerdì sera per un corso d'italiano.",
+          "answers": [
+            "dove"
+          ],
+          "explanation": "Chiave: dove (dove = in cui (luogo))."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e04",
+          "instruction": "C.1 – Testo 1 (2/12). Completa con una parola.",
+          "sentence": "La città è bellissima, anche ___ ci sono salite dappertutto!",
+          "answers": [
+            "se"
+          ],
+          "explanation": "Chiave: se (anche se + indicativo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e05",
+          "instruction": "C.1 – Testo 1 (3/12). Completa con una parola.",
+          "sentence": "Abito in un appartamento ___ centro con altri due studenti.",
+          "answers": [
+            "in",
+            "del"
+          ],
+          "explanation": "Chiave: in (in centro / l'appartamento del centro)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e06",
+          "instruction": "C.1 – Testo 1 (4/12). Completa con una parola.",
+          "sentence": "Uno è spagnolo e l'altro giapponese, quindi tra ___ parliamo solo italiano.",
+          "answers": [
+            "noi"
+          ],
+          "explanation": "Chiave: noi (tra noi)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e07",
+          "instruction": "C.1 – Testo 1 (5/12). Completa con una parola.",
+          "sentence": "Le lezioni cominciano ___ nove e finiscono all'una.",
+          "answers": [
+            "alle"
+          ],
+          "explanation": "Chiave: alle (a + le nove)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e08",
+          "instruction": "C.1 – Testo 1 (6/12). Completa con una parola.",
+          "sentence": "L'insegnante è molto brava: vuole che ___ sempre, anche quando sbagliamo.",
+          "answers": [
+            "parliamo"
+          ],
+          "explanation": "Chiave: parliamo (vuole che + congiuntivo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e09",
+          "instruction": "C.1 – Testo 1 (7/12). Completa con una parola.",
+          "sentence": "Sabato scorso la scuola ___ ha organizzato una gita ad Assisi.",
+          "answers": [
+            "ci"
+          ],
+          "explanation": "Chiave: ci (ci = a noi)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e10",
+          "instruction": "C.1 – Testo 1 (8/12). Completa con una parola.",
+          "sentence": "Mentre ___ la basilica, ha cominciato a piovere fortissimo.",
+          "answers": [
+            "visitavamo",
+            "guardavamo"
+          ],
+          "explanation": "Chiave: visitavamo (mentre + imperfetto)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e11",
+          "instruction": "C.1 – Testo 1 (9/12). Completa con una parola.",
+          "sentence": "Per fortuna una signora ci ha prestato degli ombrelli e ___ abbiamo restituiti al ritorno.",
+          "answers": [
+            "glieli"
+          ],
+          "explanation": "Chiave: glieli (a lei + li = glieli)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e12",
+          "instruction": "C.1 – Testo 1 (10/12). Completa con una parola.",
+          "sentence": "Se avessi più tempo, ___ qui un altro mese.",
+          "answers": [
+            "resterei",
+            "rimarrei",
+            "starei"
+          ],
+          "explanation": "Chiave: resterei (periodo ipotetico: condizionale)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e13",
+          "instruction": "C.1 – Testo 1 (11/12). Completa con una parola.",
+          "sentence": "Credo che il corso ___ proprio quello che mi serviva per l'esame.",
+          "answers": [
+            "sia"
+          ],
+          "explanation": "Chiave: sia (credo che + congiuntivo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e14",
+          "instruction": "C.1 – Testo 1 (12/12). Completa con una parola.",
+          "sentence": "Ti mando qualche foto. Un abbraccio e ___ presto!",
+          "answers": [
+            "a"
+          ],
+          "explanation": "Chiave: a (a presto)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e15",
+          "instruction": "C.1 – Testo 2 (1/11). Completa con una parola.",
+          "sentence": "A Napoli esiste da molto tempo una tradizione generosa: il caffè ___.",
+          "answers": [
+            "sospeso"
+          ],
+          "explanation": "Chiave: sospeso (titolo/tema del testo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e16",
+          "instruction": "C.1 – Testo 2 (2/11). Completa con una parola.",
+          "sentence": "Chi entra in un bar paga due caffè ma ne beve ___ uno.",
+          "answers": [
+            "solo",
+            "soltanto"
+          ],
+          "explanation": "Chiave: solo (solo/soltanto)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e17",
+          "instruction": "C.1 – Testo 2 (3/11). Completa con una parola.",
+          "sentence": "Il secondo rimane pagato per una persona ___ non può permetterselo.",
+          "answers": [
+            "che"
+          ],
+          "explanation": "Chiave: che (relativo soggetto)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e18",
+          "instruction": "C.1 – Testo 2 (4/11). Completa con una parola.",
+          "sentence": "Negli ultimi anni questa usanza si è diffusa ___ altre città italiane.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Chiave: in (diffondersi in)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e19",
+          "instruction": "C.1 – Testo 2 (5/11). Completa con una parola.",
+          "sentence": "e perfino all'estero, ___ è nata la giornata internazionale del caffè sospeso.",
+          "answers": [
+            "dove"
+          ],
+          "explanation": "Chiave: dove (dove = in cui)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e20",
+          "instruction": "C.1 – Testo 2 (6/11). Completa con una parola.",
+          "sentence": "Oggi alcuni negozi offrono anche il pane sospeso o la spesa sospesa, ___ funzionano allo stesso modo.",
+          "answers": [
+            "che"
+          ],
+          "explanation": "Chiave: che (relativo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e21",
+          "instruction": "C.1 – Testo 2 (7/11). Completa con una parola.",
+          "sentence": "Secondo alcuni, è un gesto bellissimo ___ aiuta senza umiliare.",
+          "answers": [
+            "perché",
+            "poiché",
+            "che"
+          ],
+          "explanation": "Chiave: perché (causa)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e22",
+          "instruction": "C.1 – Testo 2 (8/11). Completa con una parola.",
+          "sentence": "Altri, invece, temono che i baristi non ___ sempre onesti.",
+          "answers": [
+            "siano"
+          ],
+          "explanation": "Chiave: siano (temere che + congiuntivo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e23",
+          "instruction": "C.1 – Testo 2 (9/11). Completa con una parola.",
+          "sentence": "Per questo in alcuni bar si scrive su una lavagna quanti caffè sospesi ___ disponibili.",
+          "answers": [
+            "sono",
+            "siano"
+          ],
+          "explanation": "Chiave: sono (interrogativa indiretta, indicativo possibile)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e24",
+          "instruction": "C.1 – Testo 2 (10/11). Completa con una parola.",
+          "sentence": "In questo modo tutti possono controllare e l'iniziativa diventa ___ trasparente.",
+          "answers": [
+            "più"
+          ],
+          "explanation": "Chiave: più (comparativo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e25",
+          "instruction": "C.1 – Testo 2 (11/11). Completa con una parola.",
+          "sentence": "Insomma, un piccolo gesto che, ___ semplice, dice molto sulla solidarietà.",
+          "answers": [
+            "pur",
+            "seppur",
+            "seppure",
+            "sebbene",
+            "benché",
+            "anche se"
+          ],
+          "explanation": "Chiave: pur (pur + aggettivo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e26",
+          "instruction": "C.2 (1/7). Ricostruisci la frase (passato prossimo nella principale).",
+          "sentence": "benché / essere stanchissimo / Luca / andare alla festa → ___",
+          "answers": [
+            "Benché fosse stanchissimo, Luca è andato alla festa.",
+            "Benché fosse stanchissimo Luca è andato alla festa.",
+            "Luca è andato alla festa benché fosse stanchissimo.",
+            "Luca, benché fosse stanchissimo, è andato alla festa."
+          ],
+          "explanation": "Struttura: benché + congiuntivo imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e27",
+          "instruction": "C.2 (2/7). Ricostruisci la frase.",
+          "sentence": "ti / prestare la bici / purché / tu / riportarmela stasera → ___",
+          "answers": [
+            "Ti presto la bici purché tu me la riporti stasera.",
+            "Ti presto la bici, purché tu me la riporti stasera.",
+            "Ti presto la bici purché me la riporti stasera.",
+            "Ti presto la bici, purché me la riporti stasera."
+          ],
+          "explanation": "Struttura: purché + congiuntivo presente."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e28",
+          "instruction": "C.2 (3/7). Ricostruisci la frase con il gerundio.",
+          "sentence": "lavorare da casa / io / risparmiare due ore al giorno → ___",
+          "answers": [
+            "Lavorando da casa, risparmio due ore al giorno.",
+            "Lavorando da casa risparmio due ore al giorno.",
+            "Lavorando da casa, io risparmio due ore al giorno.",
+            "Risparmio due ore al giorno lavorando da casa."
+          ],
+          "explanation": "Struttura: gerundio con valore causale/modale."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e29",
+          "instruction": "C.2 (4/7). Ricostruisci la frase (passato prossimo nella principale).",
+          "sentence": "dopo / finire il corso / Anna / trovare lavoro in un albergo → ___",
+          "answers": [
+            "Dopo aver finito il corso, Anna ha trovato lavoro in un albergo.",
+            "Dopo aver finito il corso Anna ha trovato lavoro in un albergo.",
+            "Dopo avere finito il corso, Anna ha trovato lavoro in un albergo.",
+            "Anna ha trovato lavoro in un albergo dopo aver finito il corso."
+          ],
+          "explanation": "Struttura: dopo + infinito passato."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-06-l2-e30",
+          "instruction": "C.2 (5/7). Ricostruisci la frase.",
+          "translation": "I'm telling you now so that you can organise yourself.",
+          "tiles": [
+            "Te",
+            "lo",
+            "dico",
+            "adesso",
+            "affinché",
+            "tu",
+            "possa",
+            "organizzarti"
+          ],
+          "distractors": [
+            "puoi",
+            "per"
+          ],
+          "explanation": "Affinché + congiuntivo presente."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-06-l2-e31",
+          "instruction": "C.2 (6/7). Ricostruisci la frase.",
+          "translation": "If I had known, I would have come earlier.",
+          "tiles": [
+            "Se",
+            "l'avessi",
+            "saputo",
+            "sarei",
+            "venuto",
+            "prima"
+          ],
+          "distractors": [
+            "avrei",
+            "sapevo"
+          ],
+          "explanation": "Periodo ipotetico dell'irrealtà nel passato."
+        },
+        {
+          "type": "sentence_build",
+          "id": "celi-06-l2-e32",
+          "instruction": "C.2 (7/7). Ricostruisci la frase.",
+          "translation": "Since it was raining, we stayed at home.",
+          "tiles": [
+            "Siccome",
+            "pioveva",
+            "siamo",
+            "rimasti",
+            "a",
+            "casa"
+          ],
+          "distractors": [
+            "piovesse",
+            "abbiamo"
+          ],
+          "explanation": "Siccome + indicativo; rimanere vuole essere."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e33",
+          "instruction": "C.3 (1/5). Completa con una parola della stessa famiglia.",
+          "sentence": "La ___ del museo è prevista per il mese di maggio. (APRIRE)",
+          "answers": [
+            "apertura",
+            "riapertura"
+          ],
+          "explanation": "aprire → apertura."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e34",
+          "instruction": "C.3 (2/5).",
+          "sentence": "Il nuovo parcheggio ha risolto un problema molto ___ per i residenti. (FASTIDIO)",
+          "answers": [
+            "fastidioso"
+          ],
+          "explanation": "fastidio → fastidioso."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e35",
+          "instruction": "C.3 (3/5).",
+          "sentence": "Ho letto l'articolo di un ___ che vive a Bruxelles. (GIORNALE)",
+          "answers": [
+            "giornalista"
+          ],
+          "explanation": "giornale → giornalista."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e36",
+          "instruction": "C.3 (4/5).",
+          "sentence": "Purtroppo questa scrittura è ___: non capisco una parola. (LEGGERE)",
+          "answers": [
+            "illeggibile"
+          ],
+          "explanation": "leggere → leggibile → illeggibile (senso negativo)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "celi-06-l2-e37",
+          "instruction": "C.3 (5/5).",
+          "sentence": "Molti anziani soffrono di ___, soprattutto d'estate. (SOLO)",
+          "answers": [
+            "solitudine"
+          ],
+          "explanation": "solo → solitudine."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "celi-06-l2-e38",
+          "instruction": "Fine della prova. Rileggi ad alta voce una frase del testo per fissarla.",
+          "text": "Insomma, un piccolo gesto che, pur semplice, dice molto sulla solidarietà.",
+          "translation": "In short, a small gesture which, though simple, says a lot about solidarity."
+        }
+      ]
+    },
+    {
+      "id": "celi-06-l3",
+      "title": "Fascicolo 3 – Ascolto (25 min)",
+      "minutes": 25,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-06-l3-e01",
+          "instruction": "Prima di cominciare.",
+          "prompt": "Che cosa conviene fare prima di ogni ascolto della D.1?",
+          "options": [
+            "Chiudere gli occhi e rilassarsi",
+            "Leggere la domanda e tutte le opzioni",
+            "Scrivere le risposte a caso",
+            "Tradurre le opzioni in inglese"
+          ],
+          "answer": 1,
+          "explanation": "Le opzioni ti dicono che cosa ascoltare."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-06-l3-e02",
+          "title": "Istruzioni della simulazione",
+          "body": "Metti un timer di **25 minuti**. Ascolta ogni registrazione **una volta sola** se riesci, come allenamento più duro dell'esame *(how many plays the real exam allows is not stated in the official description)*.\n\n- **D.1** – due testi, 10 domande a scelta multipla (3 punti l'una)\n- **D.2** – 10 frasi: scrivi le parole esatte che senti (1 punto l'una)\n\nIn questa app ogni domanda ha il suo pezzo di registrazione.",
+          "examples": [
+            {
+              "it": "Ascolta, segna parole chiave, scegli.",
+              "en": "Listen, note key words, choose."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e03",
+          "instruction": "D.1 – Testo 1 (1/5). Ascolta e rispondi.",
+          "audioText": "Buongiorno e benvenuti a «Città che cambiano». Oggi siamo con Sara Conti, che ha fondato un servizio di consegne in bicicletta. Sara, come è nata l'idea? — Guardi, lavoravo in un'agenzia pubblicitaria e passavo un'ora al giorno in coda in macchina. Un giorno ho pensato: le merci in centro potrebbero viaggiare in bici molto più velocemente.",
+          "question": "Che lavoro faceva Sara prima?",
+          "options": [
+            "Faceva consegne a domicilio",
+            "Lavorava nella pubblicità",
+            "La vigile urbana",
+            "La commessa"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e04",
+          "instruction": "D.1 – Testo 1 (2/5). Ascolta e rispondi.",
+          "audioText": "— E all'inizio com'è andata? — Malissimo! I negozianti non si fidavano, pensavano che la bicicletta non fosse adatta ai pacchi pesanti. Così per tre mesi abbiamo fatto le consegne gratis, per dimostrare che funzionava.",
+          "question": "Perché all'inizio hanno lavorato gratis?",
+          "options": [
+            "Per farsi conoscere dai turisti",
+            "Per convincere i negozianti che il servizio funzionava",
+            "Perché non avevano ancora la licenza",
+            "Perché le biciclette erano in prova"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e05",
+          "instruction": "D.1 – Testo 1 (3/5). Ascolta e rispondi.",
+          "audioText": "— E oggi? — Oggi siamo dodici, abbiamo bici con un cassone che porta fino a cento chili e lavoriamo con farmacie, librerie e ristoranti. La cosa che mi rende più orgogliosa è che tutti hanno un contratto regolare.",
+          "question": "Di che cosa è più orgogliosa Sara?",
+          "options": [
+            "Del numero di clienti",
+            "Della velocità delle consegne",
+            "Del fatto che i collaboratori siano assunti regolarmente",
+            "Delle biciclette elettriche"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e06",
+          "instruction": "D.1 – Testo 1 (4/5). Ascolta e rispondi.",
+          "audioText": "— Ci sono difficoltà? — Il traffico, naturalmente, e le piste ciclabili che si interrompono all'improvviso. Ma soprattutto l'inverno: quando piove per giorni, i ragazzi arrivano bagnati fradici. Abbiamo comprato attrezzatura impermeabile, ma resta dura.",
+          "question": "Qual è, secondo Sara, la difficoltà principale?",
+          "options": [
+            "Il prezzo delle biciclette",
+            "Il maltempo nei mesi freddi",
+            "La concorrenza dei furgoni",
+            "La mancanza di clienti"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e07",
+          "instruction": "D.1 – Testo 1 (5/5). Ascolta e rispondi.",
+          "audioText": "— Progetti per il futuro? — Vorremmo aprire in altre due città il prossimo anno. E stiamo parlando con il Comune perché nella zona pedonale le consegne con i furgoni vengano vietate dopo le dieci di mattina.",
+          "question": "Che cosa chiede Sara al Comune?",
+          "options": [
+            "Contributi per comprare biciclette",
+            "Di vietare i furgoni nella zona pedonale dopo una certa ora",
+            "Di costruire nuove piste ciclabili",
+            "Di aprire un ufficio in un'altra città"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e08",
+          "instruction": "D.1 – Testo 2 (1/5). Ascolta e rispondi.",
+          "audioText": "Pronto, Radio Città? Sì, buongiorno, sono Franca, chiamo per il vostro sondaggio sulle vacanze. Io quest'anno non parto, e sa una cosa? Sono contentissima. Per una volta mi godo la città vuota.",
+          "question": "Come si sente Franca all'idea di non partire?",
+          "options": [
+            "Delusa",
+            "Soddisfatta",
+            "Arrabbiata",
+            "Preoccupata"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e09",
+          "instruction": "D.1 – Testo 2 (2/5). Ascolta e rispondi.",
+          "audioText": "Di solito andavamo al mare in agosto, sempre nello stesso posto, con le code in autostrada e le spiagge piene. Quest'anno mio figlio fa uno stage e mio marito ha le ferie a settembre, quindi abbiamo deciso di rimandare.",
+          "question": "Perché la famiglia non parte in agosto?",
+          "options": [
+            "Per motivi economici",
+            "Per impegni di lavoro e studio",
+            "Perché il mare è inquinato",
+            "Perché la casa al mare è in vendita"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e10",
+          "instruction": "D.1 – Testo 2 (3/5). Ascolta e rispondi.",
+          "audioText": "Intanto io scopro la mia città: musei aperti la sera, concerti gratis nei cortili, e posso andare in centro in bicicletta senza traffico. Ieri sono andata in un museo dove non ero mai entrata, nonostante abiti qui da trent'anni!",
+          "question": "Che cosa ha fatto Franca ieri?",
+          "options": [
+            "È andata al mare",
+            "Ha visitato un museo per la prima volta",
+            "Ha suonato in un concerto",
+            "Ha comprato una bicicletta"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e11",
+          "instruction": "D.1 – Testo 2 (4/5). Ascolta e rispondi.",
+          "audioText": "L'unica cosa è il caldo: l'appartamento è al quarto piano senza aria condizionata. Ma la mattina presto vado al parco a camminare e il pomeriggio mi chiudo in biblioteca, che è fresca.",
+          "question": "Come affronta Franca il caldo?",
+          "options": [
+            "Ha comprato un condizionatore",
+            "Esce presto la mattina e passa il pomeriggio in biblioteca",
+            "Va dalla sorella in montagna",
+            "Resta a casa con le finestre chiuse"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-06-l3-e12",
+          "instruction": "D.1 – Testo 2 (5/5). Ascolta e rispondi.",
+          "audioText": "E a settembre partiamo per una settimana, ma in un posto nuovo, in montagna. Insomma, consiglio a tutti di provare almeno una volta le vacanze in città. Grazie, buona giornata!",
+          "question": "Che cosa consiglia Franca agli ascoltatori?",
+          "options": [
+            "Di andare sempre in montagna",
+            "Di provare a passare le vacanze nella propria città",
+            "Di partire solo a settembre",
+            "Di evitare i musei d'estate"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e13",
+          "instruction": "D.2 (1/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "Il festival si terrà dal dodici al quindici giugno.",
+          "answers": [
+            "Il festival si terrà dal dodici al quindici giugno.",
+            "Il festival si terrà dal 12 al 15 giugno."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e14",
+          "instruction": "D.2 (2/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "Gli spettacoli si svolgeranno nel cortile del castello.",
+          "answers": [
+            "Gli spettacoli si svolgeranno nel cortile del castello."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e15",
+          "instruction": "D.2 (3/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "L'ingresso è gratuito per i minori di quattordici anni.",
+          "answers": [
+            "L'ingresso è gratuito per i minori di quattordici anni.",
+            "L'ingresso è gratuito per i minori di 14 anni."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e16",
+          "instruction": "D.2 (4/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "I biglietti si comprano online o alla biglietteria del teatro.",
+          "answers": [
+            "I biglietti si comprano online o alla biglietteria del teatro."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e17",
+          "instruction": "D.2 (5/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "In caso di pioggia gli spettacoli saranno spostati al palazzetto.",
+          "answers": [
+            "In caso di pioggia gli spettacoli saranno spostati al palazzetto."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e18",
+          "instruction": "D.2 (6/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "Il programma comprende concerti, letture e laboratori per bambini.",
+          "answers": [
+            "Il programma comprende concerti, letture e laboratori per bambini."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e19",
+          "instruction": "D.2 (7/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "Sabato sera è previsto un concerto dell'orchestra giovanile.",
+          "answers": [
+            "Sabato sera è previsto un concerto dell'orchestra giovanile."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e20",
+          "instruction": "D.2 (8/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "Per raggiungere il castello conviene lasciare l'auto al parcheggio della stazione.",
+          "answers": [
+            "Per raggiungere il castello conviene lasciare l'auto al parcheggio della stazione."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e21",
+          "instruction": "D.2 (9/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "È disponibile una navetta gratuita ogni venti minuti.",
+          "answers": [
+            "È disponibile una navetta gratuita ogni venti minuti.",
+            "È disponibile una navetta gratuita ogni 20 minuti."
+          ],
+          "slow": false
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "celi-06-l3-e22",
+          "instruction": "D.2 (10/10). Ascolta il pezzo del comunicato sul festival e scrivi esattamente le parole.",
+          "audioText": "Le persone con disabilità possono prenotare un posto riservato.",
+          "answers": [
+            "Le persone con disabilità possono prenotare un posto riservato."
+          ],
+          "slow": false
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-06-l3-e23",
+          "instruction": "Fine della prova. Riferisci a voce (fuori tempo).",
+          "prompt": "Un'amica ti chiede informazioni sul festival del comunicato: date, luogo, biglietti e come arrivare. Rispondi in 4–5 frasi.",
+          "keywords": [
+            "giugno",
+            "castello",
+            "navetta"
+          ],
+          "modelAnswer": "Il festival è dal dodici al quindici giugno, nel cortile del castello. Ci sono concerti, letture e laboratori per bambini, e sabato sera suona l'orchestra giovanile. I biglietti si comprano online o al teatro, e per i ragazzi sotto i quattordici anni è gratis. Ti conviene lasciare la macchina alla stazione e prendere la navetta, che è gratuita e passa ogni venti minuti.",
+          "explanation": "Riferire informazioni ascoltate ripassa il lessico e allena la fluidità per l'orale."
+        }
+      ]
+    },
+    {
+      "id": "celi-06-l4",
+      "title": "Prova orale (15 min + 15 min di preparazione)",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "celi-06-l4-e01",
+          "instruction": "Prima di cominciare.",
+          "prompt": "Quanti punti servono per superare l'orale?",
+          "options": [
+            "20 su 60",
+            "33 su 60",
+            "45 su 60",
+            "84 su 140"
+          ],
+          "answer": 1,
+          "explanation": "Orale: almeno 33/60. Scritto: almeno 84/140. Totale: almeno 117/200."
+        },
+        {
+          "type": "grammar_note",
+          "id": "celi-06-l4-e02",
+          "title": "Istruzioni della simulazione",
+          "body": "Leggi i tre materiali qui sotto (foto, testo, role-play) e prenditi **15 minuti di preparazione**: annota parole chiave, non frasi intere. Poi svolgi l'orale **senza fermarti**, in circa **15 minuti**. Se puoi, **registrati** con il telefono: riascoltarti ti aiuterà nell'autovalutazione finale.\n\n**Materiali:**\n- **Foto:** un treno regionale affollato la mattina presto: in primo piano una ragazza seduta lavora al computer, accanto a lei un uomo in piedi legge il giornale; sullo sfondo, dal finestrino, si vedono campi e colline nella nebbia.\n- **Testo:** «Molti comuni stanno trasformando le scuole chiuse per mancanza di alunni in spazi di coworking. Chi lavora da remoto può affittare una scrivania per pochi euro al giorno, con internet veloce e una sala riunioni. I sindaci sperano così di attirare giovani professionisti e famiglie, e di riportare vita nei paesi. Alcuni abitanti, però, avrebbero preferito che la scuola riaprisse.»\n- **Role-play:** Hai prenotato un corso di yoga di dieci lezioni e pagato in anticipo. Dopo due lezioni scopri che l'orario è cambiato e non puoi più frequentare. Parla con la responsabile della palestra e cerca una soluzione.",
+          "examples": [
+            {
+              "it": "Prendo appunti: solo parole chiave.",
+              "en": "I take notes: key words only."
+            },
+            {
+              "it": "Mi scusi, posso pensarci un attimo?",
+              "en": "Excuse me, may I think about it for a moment?"
+            }
+          ]
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-06-l4-e03",
+          "instruction": "1. Presentazione (1–2 minuti).",
+          "prompt": "«Buongiorno, si accomodi. Ci dica qualcosa di sé: dove vive, che cosa fa nel tempo libero, perché ha deciso di fare questo esame.»",
+          "keywords": [
+            "vivo",
+            "nel tempo libero",
+            "perché"
+          ],
+          "modelAnswer": "Buongiorno. Mi chiamo Richard, sono inglese e vivo in Italia da qualche anno. Nel tempo libero mi piace camminare in collina e provare ricette nuove. Ho deciso di fare il CELI 3 perché vorrei una certificazione ufficiale e perché, studiando per l'esame, sono diventato più sicuro quando parlo con i vicini o negli uffici.",
+          "explanation": "Breve, naturale, con un motivo: un buon inizio rilassa anche te."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-06-l4-e04",
+          "instruction": "2. Foto: descrivi e commenta (2–3 minuti).",
+          "prompt": "Descrivi la foto del treno regionale (vedi i materiali): scena, dettagli, ipotesi.",
+          "keywords": [
+            "in primo piano",
+            "sullo sfondo",
+            "sembra che"
+          ],
+          "modelAnswer": "Nella foto si vede l'interno di un treno regionale, probabilmente la mattina presto, perché fuori c'è la nebbia. È molto affollato. In primo piano c'è una ragazza seduta che lavora al computer: sembra che stia finendo qualcosa prima di arrivare in ufficio. Accanto a lei un uomo in piedi legge il giornale. Sullo sfondo, dal finestrino, si vedono campi e colline. Secondo me sono pendolari che vanno a lavorare in città.",
+          "explanation": "Hai seguito l'ordine scena → dettagli → ipotesi?"
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-06-l4-e05",
+          "instruction": "2b. L'esaminatore chiede (1–2 minuti).",
+          "prompt": "«Lei usa spesso il treno? Secondo Lei, che cosa si dovrebbe migliorare nei trasporti per i pendolari?»",
+          "keywords": [
+            "secondo me",
+            "dovrebbe",
+            "per esempio"
+          ],
+          "modelAnswer": "Uso il treno quando vado in città, ma non tutti i giorni. Secondo me bisognerebbe aumentare il numero dei treni nelle ore di punta, perché sono sempre troppo pieni. Per esempio, la mattina tra le sette e le nove ci dovrebbe essere un treno ogni quarto d'ora. Inoltre sarebbe utile avere internet su tutti i treni regionali.",
+          "explanation": "Condizionale per le proposte (bisognerebbe, dovrebbe, sarebbe utile)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-06-l4-e06",
+          "instruction": "3. Testo: riassumi (2 minuti).",
+          "prompt": "Riassumi con parole tue il testo sulle scuole trasformate in coworking (vedi i materiali).",
+          "keywords": [
+            "il testo parla",
+            "coworking",
+            "però"
+          ],
+          "modelAnswer": "Il testo parla di alcuni comuni che trasformano le scuole chiuse in spazi di coworking, perché non ci sono più abbastanza alunni. Chi lavora a distanza può affittare una scrivania a poco prezzo, con una buona connessione. I sindaci sperano di attirare giovani e famiglie e di ripopolare i paesi. Non tutti però sono d'accordo: alcuni abitanti avrebbero voluto che la scuola riaprisse.",
+          "explanation": "Formula d'apertura, terza persona, connettivo di contrasto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-06-l4-e07",
+          "instruction": "3b. Discussione sul testo (2 minuti).",
+          "prompt": "«Lei lavorerebbe in uno spazio di coworking in un piccolo paese? Pensa che queste iniziative possano funzionare?»",
+          "keywords": [
+            "se",
+            "credo che",
+            "però"
+          ],
+          "modelAnswer": "Se lavorassi da remoto, ci andrei volentieri, perché a casa è difficile separare il lavoro dalla vita privata. Credo che queste iniziative possano funzionare, purché ci siano anche altri servizi, come un medico e dei trasporti. Però capisco gli abitanti: una scuola chiusa è un segno che il paese si sta svuotando.",
+          "explanation": "Periodo ipotetico, credo che + congiuntivo, purché: varietà grammaticale."
+        },
+        {
+          "type": "roleplay",
+          "id": "celi-06-l4-e08",
+          "instruction": "4. Role-play: il corso di yoga (3–4 minuti).",
+          "scenario": "Role card: You paid in advance for a ten-lesson yoga course. After two lessons the timetable changed and you can no longer attend. Talk to the gym manager and find a solution.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, mi dica pure."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno. Mi sono iscritto al corso di yoga del martedì sera e ho pagato dieci lezioni in anticipo, ma l'orario è cambiato e purtroppo non posso più frequentare.",
+              "hint": "Explain the situation.",
+              "keywords": [
+                "iscritto",
+                "in anticipo",
+                "orario"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Eh, mi dispiace, l'insegnante ha dovuto cambiare giorno. Ma i soldi non li possiamo restituire."
+            },
+            {
+              "speaker": "you",
+              "text": "Capisco, però il cambio non dipende da me. Sarebbe possibile spostare le otto lezioni rimaste su un altro corso?",
+              "hint": "Object politely and propose an alternative.",
+              "keywords": [
+                "capisco",
+                "però",
+                "sarebbe possibile"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mah, abbiamo il pilates il giovedì alle diciannove, ma è un'altra cosa…"
+            },
+            {
+              "speaker": "you",
+              "text": "Il giovedì per me va bene. E se non mi piacesse, potrei avere un buono da usare più avanti?",
+              "hint": "Accept and ask for a guarantee (se + congiuntivo imperfetto).",
+              "keywords": [
+                "giovedì",
+                "potrei",
+                "buono"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "D'accordo, glielo scrivo sulla tessera. Va bene così?"
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto, mi sembra una soluzione ragionevole. La ringrazio per la disponibilità.",
+              "hint": "Accept and close.",
+              "keywords": [
+                "ragionevole",
+                "ringrazio"
+              ]
+            }
+          ],
+          "explanation": "Hai preso l'iniziativa, proposto alternative e chiuso con cortesia?"
+        },
+        {
+          "type": "free_write",
+          "id": "celi-06-l4-e09",
+          "instruction": "Autovalutazione dell'orale (riascolta la registrazione se l'hai fatta).",
+          "prompt": "Scrivi una breve autovalutazione (almeno 40 parole): dai a te stesso un punteggio da 1 a 5 per ciascuno dei quattro criteri e indica una cosa da migliorare per ognuno.",
+          "minWords": 40,
+          "checklist": [
+            "Competenza lessicale: ho usato parole precise e varie, senza ripetere sempre le stesse? (1–5)",
+            "Competenza grammaticale: ho usato strutture varie (congiuntivo, condizionale, periodo ipotetico) con pochi errori? (1–5)",
+            "Competenza sociolinguistica: ho usato il Lei, ho partecipato in modo attivo e fluido? (1–5)",
+            "Competenza fonetica: pronuncia chiara, doppie, intonazione naturale? (1–5)",
+            "Ho moltiplicato il totale per 3 e l'ho confrontato con il minimo di 33/60."
+          ],
+          "modelAnswer": "Lessico: 4. Ho usato parole precise, ma ho ripetuto spesso «molto» e «cosa».\nGrammatica: 3. Ho usato il periodo ipotetico, ma ho sbagliato due congiuntivi.\nSociolinguistica: 4. Ho usato sempre il Lei; nel role-play ho preso l'iniziativa.\nFonetica: 3. Devo curare le doppie (ho detto «tuto» invece di «tutto») e l'intonazione delle domande.\nTotale: 14 × 3 = 42/60, sopra il minimo di 33.",
+          "explanation": "Un'autovalutazione onesta ti dice dove ripassare: torna alle unità celi-01…celi-05 per le prove più deboli. Non è una valutazione ufficiale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la simulazione",
+      "en": "mock exam",
+      "example": "Domani faccio una simulazione completa."
+    },
+    {
+      "it": "il fascicolo",
+      "en": "exam booklet",
+      "example": "Il primo fascicolo dura 2 ore e 15 minuti."
+    },
+    {
+      "it": "la consegna",
+      "en": "instruction (of a task)",
+      "example": "Leggi bene la consegna."
+    },
+    {
+      "it": "il punteggio",
+      "en": "score",
+      "example": "Il punteggio minimo è 117 su 200."
+    },
+    {
+      "it": "superare un esame",
+      "en": "to pass an exam",
+      "example": "Spero di superare il CELI 3."
+    },
+    {
+      "it": "la cauzione",
+      "en": "(security) deposit",
+      "example": "Chiedono una piccola cauzione."
+    },
+    {
+      "it": "prendere in prestito",
+      "en": "to borrow",
+      "example": "Ho preso in prestito un trapano."
+    },
+    {
+      "it": "il pendolare",
+      "en": "commuter",
+      "example": "I pendolari prendono il treno delle sette."
+    },
+    {
+      "it": "l'ora di punta",
+      "en": "rush hour",
+      "example": "All'ora di punta il treno è pieno."
+    },
+    {
+      "it": "la navetta",
+      "en": "shuttle bus",
+      "example": "C'è una navetta gratuita ogni venti minuti."
+    },
+    {
+      "it": "il buono",
+      "en": "voucher",
+      "example": "Mi hanno dato un buono da usare entro un anno."
+    },
+    {
+      "it": "riportare vita in…",
+      "en": "to bring life back to…",
+      "example": "Il progetto vuole riportare vita nei paesi."
+    },
+    {
+      "it": "l'autovalutazione (f.)",
+      "en": "self-assessment",
+      "example": "Fai l'autovalutazione con i criteri ufficiali."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "celi-06-t1",
+      "rule": "Soglie: 84 scritto, 33 orale",
+      "tip": "Per superare il CELI 3 servono almeno 84/140 allo scritto, 33/60 all'orale e 117/200 in totale.",
+      "example": {
+        "it": "Se superi solo una parte, resta valida per un anno.",
+        "en": "If you pass only one part, it stays valid for a year."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Il punteggio minimo totale per superare il CELI 3 è…",
+        "options": [
+          "100/200",
+          "117/200",
+          "140/200",
+          "84/200"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-06-t2",
+      "rule": "Tempi: 135 + 45 + 25 minuti",
+      "tip": "Fascicolo 1 (lettura e scrittura) 2 h 15, fascicolo 2 (grammatica) 45 min, fascicolo 3 (ascolto) 25 min.",
+      "example": {
+        "it": "Lascia 10 minuti per rileggere le prove scritte.",
+        "en": "Leave 10 minutes to reread your writing."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Quanto dura il fascicolo della competenza linguistica?",
+        "options": [
+          "25 minuti",
+          "45 minuti",
+          "2 ore e 15 minuti",
+          "15 minuti"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-06-t3",
+      "rule": "Non lasciare risposte vuote",
+      "tip": "Una risposta sbagliata vale 0 come una vuota: nella scelta multipla rispondi sempre, eliminando le opzioni impossibili.",
+      "example": {
+        "it": "Elimino due opzioni, poi scelgo tra le altre due.",
+        "en": "I eliminate two options, then choose between the other two."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Nella A.1 una risposta sbagliata…",
+        "options": [
+          "toglie 1 punto",
+          "vale 0, come una vuota",
+          "toglie 3 punti",
+          "annulla la prova"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "celi-06-t4",
+      "rule": "Capitalizzazione: un anno",
+      "tip": "Se superi solo lo scritto o solo l'orale, il risultato resta valido per un anno (due sessioni).",
+      "example": {
+        "it": "Ho superato lo scritto: ripeto solo l'orale.",
+        "en": "I passed the written part: I'll retake only the oral."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Se ___ (superare) solo l'orale, potrei ripetere solo lo scritto.",
+        "answers": [
+          "superassi"
+        ]
+      }
+    }
+  ]
+}

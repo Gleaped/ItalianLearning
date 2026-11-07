@@ -1,0 +1,953 @@
+{
+  "id": "b1-07",
+  "level": "B1",
+  "title": "Progetti e previsioni",
+  "objective": "By the end you can talk about plans and predictions, say what will have happened by a certain time, and make guesses about the present and the past using the future tenses.",
+  "grammarFocus": "Futuro semplice (irregular stems; future after quando/se/appena); futuro anteriore (appena/dopo che + futuro anteriore, entro + deadline); the future of probability for guesses (Sarà a casa. Avrà perso il treno.).",
+  "remedialUnitIds": [
+    "a2r-06"
+  ],
+  "lessons": [
+    {
+      "id": "b1-07-l1",
+      "title": "Che cosa farai? Il futuro semplice",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-07-l1-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta (condizionale di cortesia).",
+          "prompt": "Scusi, mi ___ dire dov'è la fermata del 12?",
+          "options": [
+            "potrebbe",
+            "potrei",
+            "poterebbe",
+            "potresti fare"
+          ],
+          "answer": 0,
+          "explanation": "Polite request to a stranger (Lei): mi potrebbe dire…? Potere has the contracted stem potr-."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l1-e02",
+          "instruction": "Riscaldamento: completa con il futuro.",
+          "sentence": "L'estate prossima ___ (andare) in Sicilia con degli amici.",
+          "answers": [
+            "andrò"
+          ],
+          "hint": "andare – io",
+          "explanation": "Andare drops the -a- of the infinitive: andrò, andrai, andrà…"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-07-l1-e03",
+          "title": "Il futuro semplice: forme e usi",
+          "body": "**Endings** (the same for all verbs): -**rò**, -**rai**, -**rà**, -**remo**, -**rete**, -**ranno**\n- -are verbs change a to e: parl**erò**, aspett**erai**\n- spelling: cer**cherò**, pa**gherò** (keep the hard sound); comin**cerò**, man**gerò** (drop the i)\n- contracted stems: **andrò, avrò, dovrò, potrò, saprò, vedrò, vivrò**\n- double r: **berrò, rimarrò, terrò, verrò, vorrò**\n- **essere → sarò**; fare → farò, dare → darò, stare → starò\n\n**Use it for:**\n- plans, promises and decisions (*Ti chiamerò stasera.*)\n- predictions (*Domani pioverà.*)\n\nIn everyday speech the **present** often replaces the future for fixed, near plans: *Domani vado dal medico.*\n\nWatch out: after **quando, appena, se** talking about the future, careful Italian uses the future in both halves, where English uses the present: *Quando **arriverò**, ti chiamerò.* (When I **arrive**…). In casual speech you will also hear the present in both: *Quando arrivo, ti chiamo.*",
+          "examples": [
+            {
+              "it": "Quando sarò in pensione, vivrò al mare.",
+              "en": "When I'm retired, I'll live by the sea."
+            },
+            {
+              "it": "Domani mattina farà freddo: prendi la giacca.",
+              "en": "It'll be cold tomorrow morning: take your jacket."
+            },
+            {
+              "it": "Se avrò tempo, passerò in farmacia.",
+              "en": "If I have time, I'll drop by the pharmacy."
+            },
+            {
+              "it": "Te lo prometto: non lo dirò a nessuno.",
+              "en": "I promise you: I won't tell anyone."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-07-l1-e04",
+          "instruction": "Scrivi le forme del futuro semplice.",
+          "verb": "venire",
+          "tense": "futuro semplice",
+          "items": [
+            {
+              "person": "io",
+              "answer": "verrò"
+            },
+            {
+              "person": "tu",
+              "answer": "verrai"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "verrà"
+            },
+            {
+              "person": "noi",
+              "answer": "verremo"
+            },
+            {
+              "person": "voi",
+              "answer": "verrete"
+            },
+            {
+              "person": "loro",
+              "answer": "verranno"
+            }
+          ],
+          "explanation": "Venire doubles the r: verrò. Volere (vorrò), tenere (terrò) and rimanere (rimarrò) work the same way."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l1-e05",
+          "instruction": "Completa con il futuro semplice.",
+          "sentence": "Quando ___ (arrivare) a Roma, ti manderò un messaggio.",
+          "answers": [
+            "arriverò",
+            "arrivo"
+          ],
+          "hint": "arrivare – io",
+          "explanation": "Future in both halves: quando arriverò… ti manderò. The present (arrivo) is common in speech, but the future is what exams expect."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l1-e06",
+          "instruction": "Completa con il futuro semplice.",
+          "sentence": "Se domani ___ (fare) bel tempo, pranzeremo in terrazza.",
+          "answers": [
+            "farà",
+            "fa"
+          ],
+          "hint": "fare – 3ª persona",
+          "explanation": "Se + future for a real condition about the future: se farà bel tempo, pranzeremo…"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-07-l1-e07",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Pronto? Sono in treno, ___ verso le sette.",
+          "options": [
+            "arriverò",
+            "arriverei",
+            "arrivavo",
+            "arrivato"
+          ],
+          "answer": 0,
+          "explanation": "A simple prediction about your own arrival: futuro semplice. Arriverei is conditional (I would arrive)."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-07-l1-e08",
+          "instruction": "Abbina l'infinito alla forma del futuro (io).",
+          "pairs": [
+            {
+              "left": "andare",
+              "right": "andrò"
+            },
+            {
+              "left": "bere",
+              "right": "berrò"
+            },
+            {
+              "left": "rimanere",
+              "right": "rimarrò"
+            },
+            {
+              "left": "essere",
+              "right": "sarò"
+            },
+            {
+              "left": "sapere",
+              "right": "saprò"
+            }
+          ],
+          "explanation": "These are the irregular stems you will meet most often in conversation."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-07-l1-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "When I finish work, I'll go to the supermarket.",
+          "tiles": [
+            "Quando",
+            "finirò",
+            "di",
+            "lavorare",
+            "andrò",
+            "al",
+            "supermercato"
+          ],
+          "distractors": [
+            "finisco",
+            "andavo"
+          ],
+          "explanation": "Quando + future, future: quando finirò…, andrò…"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-07-l1-e10",
+          "instruction": "Ascolta le previsioni del tempo e scrivi la frase.",
+          "audioText": "Domani pioverà al Nord, mentre al Sud ci sarà il sole.",
+          "answers": [
+            "Domani pioverà al Nord, mentre al Sud ci sarà il sole.",
+            "Domani pioverà al Nord mentre al Sud ci sarà il sole.",
+            "Domani pioverà al nord, mentre al sud ci sarà il sole.",
+            "Domani pioverà al nord mentre al sud ci sarà il sole."
+          ],
+          "slow": false,
+          "explanation": "Weather forecasts are full of futures: pioverà, ci sarà, soffierà, saranno…"
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-07-l1-e11",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Il mese prossimo cercherò una casa più vicina al centro.",
+          "translation": "Next month I'll look for a house closer to the centre."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-07-l1-e12",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Quali sono i tuoi progetti per il prossimo fine settimana?",
+          "keywords": [
+            "sabato",
+            "domenica",
+            "farò"
+          ],
+          "modelAnswer": "Sabato mattina farò la spesa al mercato e poi pulirò casa. Domenica, se farà bel tempo, andrò in bici al lago con degli amici.",
+          "explanation": "Plans in the future tense, plus a condition with se + future."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-07-l1-e13",
+          "front": "entro (venerdì)",
+          "back": "by (Friday), within",
+          "example": "Le farò sapere entro venerdì."
+        }
+      ]
+    },
+    {
+      "id": "b1-07-l2",
+      "title": "Appena avrò finito… Il futuro anteriore",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l2-e01",
+          "instruction": "Riscaldamento: completa con il futuro semplice.",
+          "sentence": "Stasera ___ (rimanere) a casa: sono stanco morto.",
+          "answers": [
+            "rimarrò",
+            "resterò"
+          ],
+          "hint": "rimanere – io",
+          "explanation": "Rimanere → rimarrò (double r). Restare → resterò means the same."
+        },
+        {
+          "type": "translate",
+          "id": "b1-07-l2-e02",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Quando avrò tempo, ti chiamerò.",
+          "answers": [
+            "When I have time, I'll call you.",
+            "When I have time I'll call you.",
+            "When I have time, I will call you.",
+            "When I have time I will call you.",
+            "When I've got time, I'll call you.",
+            "When I've got time I'll call you.",
+            "When I get time, I'll call you.",
+            "When I get time I'll call you.",
+            "I'll call you when I have time.",
+            "I will call you when I have time."
+          ],
+          "explanation": "Italian: future after quando. English: present after when."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-07-l2-e03",
+          "title": "Il futuro anteriore",
+          "body": "The **futuro anteriore** says that something *will have happened* before another future moment.\n\n**Form**: future of **avere** or **essere** + past participle (same auxiliary and agreement as the passato prossimo)\n- avrò finito, avrai mangiato, avrà letto…\n- sarò arrivato/a, sarà uscita, saremo partiti…\n\n**Main uses:**\n- with **appena, dopo che, quando** for the action that comes *first*; the main clause is in the futuro semplice: *Appena **avrò finito**, ti **chiamerò**.* (= As soon as I've finished, I'll call you.)\n- with a deadline (**entro**, **per**, **a**): *Entro giugno **avrò finito** il corso.*\n\nEnglish uses the present perfect (*as soon as I've finished*) or the present, which is why English speakers often forget it.\n\nIn relaxed conversation many Italians simplify (*Appena finisco, ti chiamo*); in writing and in exams use the futuro anteriore.",
+          "examples": [
+            {
+              "it": "Appena sarò arrivato in albergo, ti manderò le foto.",
+              "en": "As soon as I've arrived at the hotel, I'll send you the photos."
+            },
+            {
+              "it": "Dopo che avremo cenato, guarderemo il film.",
+              "en": "After we've had dinner, we'll watch the film."
+            },
+            {
+              "it": "Entro venerdì il tecnico avrà riparato la caldaia.",
+              "en": "By Friday the technician will have repaired the boiler."
+            },
+            {
+              "it": "Per le otto saremo già partiti.",
+              "en": "By eight we'll already have left."
+            }
+          ]
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-07-l2-e04",
+          "instruction": "Futuro anteriore di arrivare (con essere!). Attenzione al genere e al numero.",
+          "verb": "arrivare",
+          "tense": "futuro anteriore",
+          "items": [
+            {
+              "person": "io (m.)",
+              "answer": "sarò arrivato"
+            },
+            {
+              "person": "tu (f.)",
+              "answer": "sarai arrivata"
+            },
+            {
+              "person": "lui",
+              "answer": "sarà arrivato"
+            },
+            {
+              "person": "noi (m.)",
+              "answer": "saremo arrivati"
+            },
+            {
+              "person": "voi (f.)",
+              "answer": "sarete arrivate"
+            },
+            {
+              "person": "loro (m.)",
+              "answer": "saranno arrivati"
+            }
+          ],
+          "explanation": "Arrivare takes essere, so the participle agrees with the subject – exactly as in the passato prossimo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l2-e05",
+          "instruction": "Completa con il futuro anteriore.",
+          "sentence": "Appena ___ (finire) la riunione, ti richiamerò.",
+          "answers": [
+            "avrò finito"
+          ],
+          "hint": "finire – io",
+          "explanation": "Finishing the meeting comes first: avrò finito. Then the future action: ti richiamerò."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l2-e06",
+          "instruction": "Completa con il futuro anteriore.",
+          "sentence": "Ti presterò il libro dopo che lo ___ (leggere).",
+          "answers": [
+            "avrò letto"
+          ],
+          "hint": "leggere – io",
+          "explanation": "Leggere has an irregular participle: letto. The reading comes before the lending."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-07-l2-e07",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Entro venerdì il tecnico ___ la caldaia.",
+          "options": [
+            "avrà riparato",
+            "sarà riparato",
+            "riparerebbe",
+            "avrebbe riparato"
+          ],
+          "answer": 0,
+          "explanation": "A deadline (entro venerdì) + an action completed by then: futuro anteriore. Riparare is transitive, so it takes avere."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-07-l2-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Quando sarò finito il corso, cercherò lavoro.",
+          "answers": [
+            "Quando avrò finito il corso, cercherò lavoro.",
+            "Quando avrò finito il corso cercherò lavoro.",
+            "Cercherò lavoro quando avrò finito il corso."
+          ],
+          "explanation": "Finire with a direct object (il corso) takes avere: avrò finito."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b1-07-l2-e09",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "As soon as I've arrived, I'll send you a message.",
+          "tiles": [
+            "Appena",
+            "sarò",
+            "arrivato",
+            "ti",
+            "manderò",
+            "un",
+            "messaggio"
+          ],
+          "distractors": [
+            "avrò",
+            "mandavo"
+          ],
+          "explanation": "Arrivare takes essere: sarò arrivato. The second action is in the futuro semplice."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b1-07-l2-e10",
+          "instruction": "Ascolta il messaggio in segreteria e rispondi.",
+          "audioText": "Ciao Marco, sono Luca. Oggi esco tardi dall'ufficio: appena avrò finito, passerò da te a prendere le chiavi. Dovrei arrivare verso le otto. Se non ci sei, lasciale alla portinaia. Grazie!",
+          "question": "Che cosa farà Luca dopo il lavoro?",
+          "options": [
+            "Passerà a prendere le chiavi.",
+            "Andrà a cena dalla portinaia.",
+            "Chiamerà Marco alle otto.",
+            "Resterà in ufficio fino a tardi."
+          ],
+          "answer": 0,
+          "explanation": "Appena avrò finito (first) → passerò da te (then)."
+        },
+        {
+          "type": "translate",
+          "id": "b1-07-l2-e11",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "By eight we will already have left.",
+          "answers": [
+            "Per le otto noi saremo già partiti.",
+            "Per le otto noi saremo già partite.",
+            "Per le otto saremo già partiti.",
+            "Per le otto saremo già partite.",
+            "Entro le otto noi saremo già partiti.",
+            "Entro le otto noi saremo già partite.",
+            "Entro le otto saremo già partiti.",
+            "Entro le otto saremo già partite.",
+            "Alle le otto noi saremo già partiti.",
+            "Alle le otto noi saremo già partite.",
+            "Alle le otto saremo già partiti.",
+            "Alle le otto saremo già partite.",
+            "Noi saremo già partiti per le otto.",
+            "Noi saremo già partiti entro le otto.",
+            "Noi saremo già partite per le otto.",
+            "Noi saremo già partite entro le otto.",
+            "saremo già partiti per le otto.",
+            "saremo già partiti entro le otto.",
+            "saremo già partite per le otto.",
+            "saremo già partite entro le otto."
+          ],
+          "explanation": "Partire takes essere: saremo partiti. Per / entro + time = by."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "b1-07-l2-e12",
+          "instruction": "Ascolta e ripeti ad alta voce.",
+          "text": "Appena avrò finito di lavorare, ti chiamerò.",
+          "translation": "As soon as I've finished work, I'll call you."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-07-l2-e13",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Che cosa avrai fatto entro la fine dell'anno? Parla di due o tre cose.",
+          "keywords": [
+            "entro",
+            "avrò"
+          ],
+          "modelAnswer": "Entro la fine dell'anno avrò finito questo corso e avrò letto almeno tre libri in italiano. Forse sarò anche andato in Sicilia.",
+          "explanation": "Entro + futuro anteriore for what will be completed by a deadline."
+        }
+      ]
+    },
+    {
+      "id": "b1-07-l3",
+      "title": "Dove sarà? Previsioni e ipotesi",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-07-l3-e01",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Appena ___ i documenti, li porterò in Comune.",
+          "options": [
+            "avrò ricevuto",
+            "sarò ricevuto",
+            "ricevevo",
+            "ricevuto avrò"
+          ],
+          "answer": 0,
+          "explanation": "Receiving comes first: futuro anteriore with avere (ricevere is transitive)."
+        },
+        {
+          "type": "flashcard",
+          "id": "b1-07-l3-e02",
+          "front": "chissà",
+          "back": "who knows / I wonder",
+          "example": "Chissà dove ho messo le chiavi!"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-07-l3-e03",
+          "title": "Il futuro per fare ipotesi",
+          "body": "Italian often uses the future to make a **guess**, not to talk about the future.\n\n- **futuro semplice** = a guess about **now**: *Che ore sono? – **Saranno** le tre.* (It's probably about three.)\n- **futuro anteriore** = a guess about **the past**: *Marco è in ritardo: **avrà perso** l'autobus.* (He must have missed the bus.)\n\nIt means the same as *probabilmente / forse* + present or passato prossimo, but sounds more natural in conversation:\n- *Sarà stanca.* = Probabilmente è stanca.\n- *Avranno chiuso.* = Probabilmente hanno chiuso.\n\nAlso common:\n- questions you ask yourself: *Chi **sarà** a quest'ora?* (Who could that be at this hour?)\n- **Sarà, ma…** = That may be, but… (polite doubt): *Sarà, ma io non ci credo.*",
+          "examples": [
+            {
+              "it": "Non risponde al telefono: sarà in riunione.",
+              "en": "She isn't answering: she must be in a meeting."
+            },
+            {
+              "it": "Che ore sono? – Saranno le nove e mezza.",
+              "en": "What time is it? – It must be about half past nine."
+            },
+            {
+              "it": "Il pacco non è arrivato: il corriere avrà sbagliato indirizzo.",
+              "en": "The parcel hasn't arrived: the courier must have got the address wrong."
+            },
+            {
+              "it": "Quanti anni avrà il nuovo vicino? – Avrà una quarantina d'anni.",
+              "en": "How old do you think the new neighbour is? – He must be about forty."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-07-l3-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Suonano alla porta alle dieci di sera. Chi ___ a quest'ora?",
+          "options": [
+            "sarà",
+            "è stato",
+            "avrà",
+            "sarebbe stato"
+          ],
+          "answer": 0,
+          "explanation": "A guess about the present, as a question to yourself: chi sarà?"
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-07-l3-e05",
+          "instruction": "Abbina la frase al significato.",
+          "pairs": [
+            {
+              "left": "Saranno le otto.",
+              "right": "It's probably about eight."
+            },
+            {
+              "left": "Avrà perso il treno.",
+              "right": "He must have missed the train."
+            },
+            {
+              "left": "Sarà stanca.",
+              "right": "She must be tired."
+            },
+            {
+              "left": "Avranno chiuso.",
+              "right": "They must have closed."
+            },
+            {
+              "left": "Sarà, ma…",
+              "right": "That may be, but…"
+            }
+          ],
+          "explanation": "Futuro semplice = guess about now; futuro anteriore = guess about the past."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l3-e06",
+          "instruction": "Completa con il futuro (ipotesi sul presente).",
+          "sentence": "Giulia non risponde al telefono: ___ (essere) in riunione.",
+          "answers": [
+            "sarà"
+          ],
+          "hint": "essere – lei",
+          "explanation": "A guess about where she is now: sarà = probabilmente è."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-07-l3-e07",
+          "instruction": "Completa con il futuro anteriore (ipotesi sul passato).",
+          "sentence": "Il pacco non è ancora arrivato: il corriere ___ (sbagliare) indirizzo.",
+          "answers": [
+            "avrà sbagliato"
+          ],
+          "hint": "sbagliare – lui",
+          "explanation": "A guess about something that already happened: avrà sbagliato = probabilmente ha sbagliato."
+        },
+        {
+          "type": "translate",
+          "id": "b1-07-l3-e08",
+          "instruction": "Traduci in italiano con un futuro.",
+          "direction": "en_it",
+          "source": "He's probably at home.",
+          "answers": [
+            "Lui sarà a casa.",
+            "sarà a casa.",
+            "Lui sarà a casa sua.",
+            "sarà a casa sua.",
+            "Probabilmente lui è a casa.",
+            "Probabilmente è a casa.",
+            "Lui è probabilmente a casa.",
+            "è probabilmente a casa."
+          ],
+          "explanation": "Sarà a casa is the most natural way to say it in conversation."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-07-l3-e09",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Che strano, l'ufficio è chiuso: avranno cambiato orario.",
+          "answers": [
+            "Che strano, l'ufficio è chiuso: avranno cambiato orario.",
+            "Che strano l'ufficio è chiuso: avranno cambiato orario.",
+            "Che strano, l'ufficio è chiuso, avranno cambiato orario.",
+            "Che strano l'ufficio è chiuso avranno cambiato orario.",
+            "Che strano l'ufficio è chiuso, avranno cambiato orario."
+          ],
+          "slow": false,
+          "explanation": "Avranno cambiato orario = they must have changed their opening hours."
+        },
+        {
+          "type": "reading",
+          "id": "b1-07-l3-e10",
+          "instruction": "Leggi le previsioni del tempo e rispondi alle domande.",
+          "title": "Meteo del fine settimana",
+          "passage": "Sabato mattina il cielo sarà nuvoloso su tutto il Nord e nel pomeriggio arriveranno i primi temporali, soprattutto in Liguria e in Piemonte. Al Centro il tempo sarà più stabile, con temperature intorno ai 22 gradi. Domenica il sole tornerà quasi ovunque, ma sulle coste soffierà un vento forte e il mare sarà molto mosso. Chi ha organizzato una gita in barca farà bene a rimandarla a lunedì, quando il vento sarà calato.",
+          "questions": [
+            {
+              "question": "Che tempo farà sabato pomeriggio al Nord?",
+              "options": [
+                "Ci saranno temporali.",
+                "Ci sarà il sole.",
+                "Nevicherà.",
+                "Farà molto caldo."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa succederà domenica sulle coste?",
+              "options": [
+                "Pioverà tutto il giorno.",
+                "Ci sarà vento forte.",
+                "Il mare sarà calmo.",
+                "Farà freddo."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa consiglia il testo?",
+              "options": [
+                "Andare al mare domenica.",
+                "Restare a casa tutto il weekend.",
+                "Rimandare la gita in barca a lunedì.",
+                "Partire sabato mattina presto."
+              ],
+              "answer": 2
+            }
+          ],
+          "explanation": "Sarà calato is a futuro anteriore: by Monday the wind will have dropped."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-07-l3-e11",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Marco è in ritardo: avrà perdito il treno.",
+          "answers": [
+            "Marco è in ritardo: avrà perso il treno.",
+            "Marco è in ritardo, avrà perso il treno.",
+            "Marco è in ritardo avrà perso il treno."
+          ],
+          "explanation": "Perdere has an irregular participle: perso."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-07-l3-e12",
+          "instruction": "Sei al ristorante con Chiara. Aspettate Davide, che è in ritardo. Rispondi ad alta voce.",
+          "scenario": "You're at a restaurant with your friend Chiara, waiting for Davide, who is late. Make guesses about where he is and decide what to do.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ma dov'è Davide? Sono già le otto e mezza!"
+            },
+            {
+              "speaker": "you",
+              "text": "Non lo so, avrà trovato traffico.",
+              "hint": "Guess about the past: futuro anteriore.",
+              "keywords": [
+                "avrà"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ho provato a chiamarlo, ma non risponde."
+            },
+            {
+              "speaker": "you",
+              "text": "Sarà in macchina e non potrà rispondere.",
+              "hint": "Guess about now: futuro semplice.",
+              "keywords": [
+                "sarà"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che facciamo? Ordiniamo qualcosa?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, ordiniamo da bere. Appena sarà arrivato, ordineremo da mangiare.",
+              "hint": "Appena + futuro anteriore, then futuro.",
+              "keywords": [
+                "appena",
+                "ordineremo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Guarda, eccolo! Sta entrando adesso."
+            },
+            {
+              "speaker": "you",
+              "text": "Finalmente! Avrà fame, poverino.",
+              "hint": "One more guess about how he feels now.",
+              "keywords": [
+                "avrà"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Scusate, scusate! C'era un incidente sulla tangenziale!"
+            }
+          ],
+          "explanation": "You made guesses about the present (sarà, avrà fame) and the past (avrà trovato traffico)."
+        },
+        {
+          "type": "free_write",
+          "id": "b1-07-l3-e13",
+          "instruction": "Scrivi un messaggio.",
+          "prompt": "Scrivi un messaggio a un amico o a un'amica (60–90 parole) sui tuoi progetti per il mese prossimo. Racconta che cosa farai, che cosa avrai già fatto entro la fine del mese e fai un'ipotesi su qualcosa che non sai ancora (il tempo, un amico, un ufficio…).",
+          "minWords": 60,
+          "checklist": [
+            "Ho usato il futuro semplice per almeno tre progetti.",
+            "Ho usato il futuro anteriore con entro, appena o dopo che.",
+            "Ho fatto un'ipotesi con il futuro (sarà…, avrà…).",
+            "Ho usato quando o se + futuro.",
+            "Ho controllato le radici irregolari (andrò, verrò, sarò…)."
+          ],
+          "modelAnswer": "Ciao Elena! Il mese prossimo sarà pieno di cose. All'inizio del mese comincerò un corso di cucina il martedì sera, e il fine settimana andrò a trovare degli amici a Bologna. Entro il 20 avrò finito di dipingere la camera, così finalmente potrò invitarti a cena. Appena avrò ricevuto il nuovo permesso di parcheggio, verrò a trovarti in macchina. E tu? Sarai ancora impegnata con il trasloco, immagino! Fammi sapere quando sarai libera. Un abbraccio!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il progetto",
+      "en": "plan, project",
+      "example": "Che progetti hai per l'estate?"
+    },
+    {
+      "it": "la previsione",
+      "en": "forecast, prediction",
+      "example": "Hai visto le previsioni del tempo?"
+    },
+    {
+      "it": "prevedere",
+      "en": "to forecast, to expect",
+      "example": "Per domani prevedono pioggia."
+    },
+    {
+      "it": "entro",
+      "en": "by, within (a deadline)",
+      "example": "Devo pagare entro il 30 giugno."
+    },
+    {
+      "it": "appena",
+      "en": "as soon as",
+      "example": "Appena avrò finito, ti chiamerò."
+    },
+    {
+      "it": "dopo che",
+      "en": "after (+ verb)",
+      "example": "Dopo che avremo cenato, usciremo."
+    },
+    {
+      "it": "chissà",
+      "en": "who knows / I wonder",
+      "example": "Chissà se domani farà bel tempo."
+    },
+    {
+      "it": "probabilmente",
+      "en": "probably",
+      "example": "Probabilmente arriverò verso le sette."
+    },
+    {
+      "it": "rimandare",
+      "en": "to postpone, to put off",
+      "example": "Abbiamo rimandato la gita a lunedì."
+    },
+    {
+      "it": "il temporale",
+      "en": "thunderstorm",
+      "example": "Nel pomeriggio ci sarà un temporale."
+    },
+    {
+      "it": "nuvoloso",
+      "en": "cloudy",
+      "example": "Domani il cielo sarà nuvoloso."
+    },
+    {
+      "it": "il mare mosso",
+      "en": "rough sea",
+      "example": "Con il mare mosso non si esce in barca."
+    },
+    {
+      "it": "il traffico",
+      "en": "traffic",
+      "example": "Avrà trovato traffico in tangenziale."
+    },
+    {
+      "it": "essere in ritardo",
+      "en": "to be late",
+      "example": "Scusa, sono in ritardo di dieci minuti."
+    },
+    {
+      "it": "il corriere",
+      "en": "courier, delivery driver",
+      "example": "Il corriere passerà domani mattina."
+    },
+    {
+      "it": "il pacco",
+      "en": "parcel",
+      "example": "Il pacco non è ancora arrivato."
+    },
+    {
+      "it": "la caldaia",
+      "en": "boiler",
+      "example": "Il tecnico riparerà la caldaia entro venerdì."
+    },
+    {
+      "it": "il tecnico",
+      "en": "technician, repairman",
+      "example": "Ho chiamato il tecnico per la lavatrice."
+    },
+    {
+      "it": "la gita",
+      "en": "trip, outing",
+      "example": "Domenica facciamo una gita al lago."
+    },
+    {
+      "it": "fare bene a (+ inf.)",
+      "en": "to be right to, to do well to",
+      "example": "Hai fatto bene a portare l'ombrello."
+    },
+    {
+      "it": "la riunione",
+      "en": "meeting",
+      "example": "Sarà in riunione fino alle tre."
+    },
+    {
+      "it": "andare in pensione",
+      "en": "to retire",
+      "example": "Mio padre andrà in pensione l'anno prossimo."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "b1-07-t1",
+      "rule": "Futuro dopo quando, se, appena",
+      "tip": "Talking about the future, Italian uses the future after quando/se/appena too: Quando arriverò, ti chiamerò.",
+      "example": {
+        "it": "Quando sarò in Italia, parlerò solo italiano.",
+        "en": "When I'm in Italy, I'll only speak Italian."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Quando ___ (essere) in pensione, vivrò al mare.",
+        "answers": [
+          "sarò"
+        ],
+        "hint": "essere – io"
+      }
+    },
+    {
+      "id": "b1-07-t2",
+      "rule": "Radici irregolari del futuro",
+      "tip": "Many futures shorten or double the stem: andrò, avrò, potrò, vedrò; verrò, vorrò, rimarrò, berrò.",
+      "example": {
+        "it": "Domani non potrò venire.",
+        "en": "I won't be able to come tomorrow."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "volere",
+        "tense": "futuro semplice",
+        "items": [
+          {
+            "person": "io",
+            "answer": "vorrò"
+          },
+          {
+            "person": "tu",
+            "answer": "vorrai"
+          },
+          {
+            "person": "noi",
+            "answer": "vorremo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-07-t3",
+      "rule": "Futuro anteriore: prima di…",
+      "tip": "Avrò/sarò + participle = what will be done before another future action: Appena avrò finito, uscirò.",
+      "example": {
+        "it": "Dopo che avremo cenato, guarderemo il film.",
+        "en": "After we've had dinner, we'll watch the film."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ti presterò il libro dopo che lo ___.",
+        "options": [
+          "avrò letto",
+          "leggerei",
+          "sarò letto",
+          "leggevo"
+        ],
+        "answer": 0,
+        "explanation": "Reading comes first: futuro anteriore with avere."
+      }
+    },
+    {
+      "id": "b1-07-t4",
+      "rule": "Futuro per indovinare",
+      "tip": "The future can be a guess about now: Sarà a casa = He's probably at home. Saranno le tre = It's about three.",
+      "example": {
+        "it": "Non risponde: sarà in riunione.",
+        "en": "She isn't answering: she must be in a meeting."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "It's probably about ten o'clock.",
+        "answers": [
+          "Saranno le dieci.",
+          "Saranno circa le dieci.",
+          "Saranno più o meno le dieci.",
+          "Probabilmente sono le dieci."
+        ]
+      }
+    },
+    {
+      "id": "b1-07-t5",
+      "rule": "Ipotesi sul passato",
+      "tip": "Guess about the past with the futuro anteriore: Avrà perso il treno = He must have missed the train.",
+      "example": {
+        "it": "Il corriere avrà sbagliato indirizzo.",
+        "en": "The courier must have got the address wrong."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Non è venuto: ___ (dimenticare) l'appuntamento.",
+        "answers": [
+          "avrà dimenticato"
+        ],
+        "hint": "dimenticare – lui"
+      }
+    }
+  ]
+}

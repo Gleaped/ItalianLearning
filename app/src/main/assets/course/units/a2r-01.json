@@ -494,5 +494,83 @@
       "en": "unfortunately",
       "example": "Purtroppo ho perso l'autobus."
     }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2r-01-t1",
+      "rule": "Avere o essere?",
+      "tip": "Most verbs take avere; verbs of movement or change of state (andare, uscire, restare, nascere) take essere.",
+      "example": {
+        "it": "Ho lavorato tutto il giorno e poi sono uscito.",
+        "en": "I worked all day and then went out."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ieri sera noi ___ tardi.",
+        "options": [
+          "siamo tornati",
+          "abbiamo tornato",
+          "siamo tornato",
+          "abbiamo tornati"
+        ],
+        "answer": 0,
+        "explanation": "Tornare → essere; noi → tornati."
+      }
+    },
+    {
+      "id": "a2r-01-t2",
+      "rule": "Con essere il participio concorda",
+      "tip": "With essere the participle agrees with the subject like an adjective: Anna è uscita, i ragazzi sono partiti.",
+      "example": {
+        "it": "Le mie sorelle sono partite ieri.",
+        "en": "My sisters left yesterday."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Le mie amiche ___ (arrivare) ieri sera.",
+        "answers": [
+          "sono arrivate"
+        ],
+        "hint": "arrivare – loro (f.)"
+      }
+    },
+    {
+      "id": "a2r-01-t3",
+      "rule": "Participi irregolari",
+      "tip": "Learn the frequent irregular participles: fatto, detto, preso, messo, visto, scritto, letto, aperto, chiuso.",
+      "example": {
+        "it": "Hai letto il messaggio che ti ho scritto?",
+        "en": "Did you read the message I wrote you?"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Dove hai ___ (mettere) il passaporto?",
+        "answers": [
+          "messo"
+        ],
+        "hint": "mettere → ?"
+      }
+    },
+    {
+      "id": "a2r-01-t4",
+      "rule": "Finire, cominciare: due ausiliari",
+      "tip": "Some verbs take avere with an object and essere without: ho finito il lavoro, il film è finito.",
+      "example": {
+        "it": "Ho cominciato il corso; la lezione è cominciata alle sei.",
+        "en": "I started the course; the lesson started at six."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "La lezione ___ alle sei.",
+        "options": [
+          "è cominciata",
+          "ha cominciato",
+          "è cominciato",
+          "ha cominciata"
+        ],
+        "answer": 0,
+        "explanation": "No object → essere; la lezione → cominciata."
+      }
+    }
   ]
 }
