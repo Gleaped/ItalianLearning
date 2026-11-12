@@ -29,7 +29,7 @@ sys.path.insert(0, HERE)
 import italian_morph as M  # noqa: E402
 from italian_morph import norm  # noqa: E402
 
-DB_VERSION = "1"
+DB_VERSION = "2"
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 DEFAULT_OUT = os.path.join(REPO, "app", "src", "main", "assets", "dictionary", "dictionary.db")
 
@@ -594,7 +594,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--wiktionary", required=True)
     ap.add_argument("--out", default=DEFAULT_OUT)
-    ap.add_argument("--lemmas", type=int, default=11000, help="maximum number of lemmas")
+    ap.add_argument("--lemmas", type=int, default=60000, help="maximum number of lemmas (default: every usable headword)")
     ap.add_argument("--enclitic-top", type=int, default=800,
                     help="verbs (by rank) that also get infinitive/gerund/imperative + clitic lookup forms")
     ap.add_argument("--report", default=None, help="write a TSV of selected lemmas and verb coverage here")

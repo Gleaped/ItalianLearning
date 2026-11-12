@@ -5,10 +5,10 @@ described in `docs/reference-and-dictionary-format.md` (Dictionary section). `ve
 
 ## What is in it
 
-- About 11,000 lemmas, picked by corpus frequency. Each one has a POS, a gender for nouns, 1–4 English
+- About 43,000 lemmas: every usable Italian headword in the Wiktionary source (version 2; version 1 had the 11,000 most frequent), ranked by corpus frequency. Each one has a POS, a gender for nouns, 1–4 English
   senses (secondary parts of speech appear as `(n.) …`, `(adj.) …`), notes (auxiliary, irregular,
   irregular plural…) and `forms_json` charts.
-- About 148,000 lookup forms, with readable tags: every conjugated form, plural, feminine and
+- About 360,000 lookup forms, with readable tags: every conjugated form, plural, feminine and
   superlative, plus articulated prepositions, elided forms (`dell'`, `l'`, `quell'`, `bel`, `aver`)
   and combined pronouns (`glielo`, `me ne`). The 800 most frequent verbs also get
   infinitive/gerund/imperative + clitic forms (`dimmi`, `prenderlo`, `vattene`). Multi-word forms of
@@ -57,8 +57,9 @@ python3 tools/dictionary/verify.py
 ```
 
 Options:
-- `--lemmas N` (default 11000) sets the number of lemmas. The database is about 24.6 MB at 11,000
-  lemmas, 26.8 MB at 12,000 and about 35 MB at 16,000. Verb charts take most of the space.
+- `--lemmas N` (default 60000, i.e. every candidate) caps the number of lemmas. The database is about
+  63 MB at the full 43,000 lemmas (about 14 MB compressed inside the APK) and 24.6 MB at 11,000.
+  Verb charts take most of the space.
 - `--enclitic-top N` (default 800) sets how many verbs get the clitic-attached lookup forms.
 - `--out PATH` writes the database somewhere else. `--report FILE` writes a TSV with each lemma's
   rank, POS, gender, how well its verb forms match Wiktionary, and its notes.
