@@ -360,7 +360,7 @@
             },
             {
               "speaker": "you",
-              "text": "Buongiorno, mi chiamo Richard e chiamo da casa.",
+              "text": "Buongiorno, mi chiamo {name} e chiamo da casa.",
               "hint": "Introduce yourself.",
               "keywords": [
                 "mi chiamo"
@@ -368,7 +368,7 @@
             },
             {
               "speaker": "npc",
-              "text": "Allora, Richard, lei che ne pensa della settimana di quattro giorni?"
+              "text": "Allora, {name}, lei che ne pensa della settimana di quattro giorni?"
             },
             {
               "speaker": "you",
@@ -394,7 +394,7 @@
             },
             {
               "speaker": "npc",
-              "text": "Grazie, Richard, è stato chiarissimo!"
+              "text": "Grazie, {name}, è stato chiarissimo!"
             },
             {
               "speaker": "you",

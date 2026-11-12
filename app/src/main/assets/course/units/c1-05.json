@@ -5,7 +5,7 @@
   "objective": "Alla fine dell'unità capisci e usi in modo appropriato i modi di dire, i proverbi e le collocazioni più frequenti, scegliendo quando sono adatti al registro e quando evitarli.",
   "grammarFocus": "Modi di dire frequenti e loro forma fissa; non vedere l'ora di + infinito / che + congiuntivo; collocazioni forti (fare una domanda, prendere una decisione, sostenere/superare un esame, correre un rischio, trarre una conclusione, fare fronte a); proverbi; registro degli idiomi.",
   "remedialUnitIds": [
-    "b1-09",
+    "cg-03",
     "c1-01"
   ],
   "lessons": [
@@ -620,7 +620,7 @@
           "id": "c1-05-l3-e09",
           "instruction": "Leggi l'email di Luca e rispondi alle domande.",
           "title": "Giorni da pazzi",
-          "passage": "Ciao Richard!\n\nTi scrivo due righe al volo perché sono giorni da pazzi. Al lavoro il nuovo capo ha sempre un diavolo per capello e io, come al solito, ho la testa fra le nuvole: ieri ho dimenticato una riunione importante. Che figuraccia! In più la macchina si è rotta di nuovo e la riparazione costa un occhio della testa, quindi fino a fine mese sono al verde. Piove sul bagnato, come si dice!\n\nPerò c'è anche una bella notizia: sabato prossimo Chiara e io facciamo una festa per la casa nuova. A occhio e croce saremo una trentina. Vieni? Così ti presento un po' di gente, e non preoccuparti per il ghiaccio: lo rompe Chiara, lei parla con tutti!\n\nNon vedo l'ora di vederti. Un abbraccio,\nLuca",
+          "passage": "Ciao {name}!\n\nTi scrivo due righe al volo perché sono giorni da pazzi. Al lavoro il nuovo capo ha sempre un diavolo per capello e io, come al solito, ho la testa fra le nuvole: ieri ho dimenticato una riunione importante. Che figuraccia! In più la macchina si è rotta di nuovo e la riparazione costa un occhio della testa, quindi fino a fine mese sono al verde. Piove sul bagnato, come si dice!\n\nPerò c'è anche una bella notizia: sabato prossimo Chiara e io facciamo una festa per la casa nuova. A occhio e croce saremo una trentina. Vieni? Così ti presento un po' di gente, e non preoccuparti per il ghiaccio: lo rompe Chiara, lei parla con tutti!\n\nNon vedo l'ora di vederti. Un abbraccio,\nLuca",
           "questions": [
             {
               "question": "Com'è il nuovo capo di Luca in questo periodo?",
@@ -677,7 +677,7 @@
             },
             {
               "speaker": "you",
-              "text": "Sì, bellissima! Rompo il ghiaccio: io sono Richard, un amico di Luca. E tu?",
+              "text": "Sì, bellissima! Rompo il ghiaccio: io sono {name}, un amico di Luca. E tu?",
               "hint": "Introduce yourself – use rompere il ghiaccio.",
               "keywords": [
                 "rompo il ghiaccio",

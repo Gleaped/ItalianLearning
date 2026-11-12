@@ -53,8 +53,8 @@
           "body": "L'orale dura **circa 15 minuti**. Ricevi i materiali **circa 15 minuti prima** per prepararti. Ci sono **due esaminatori**: uno parla con te, l'altro ascolta e valuta. Gli esaminatori ti danno del **Lei**.\n\n**Le fasi:**\n1. una breve **presentazione** di te stesso\n2. la **descrizione di una foto**, che diventa lo spunto per una conversazione\n3. il **riassunto di un breve testo**, da cui parte una discussione\n4. un **compito comunicativo** (role-play) in una situazione definita\n\nDopo la presentazione, di solito puoi scegliere l'ordine delle altre parti.\n\n**Criteri (da 1 a 5 ciascuno, totale ×3 = 60 punti; per superare l'orale servono almeno 33):**\n- **competenza lessicale** – lessico adeguato, non ripetitivo\n- **competenza grammaticale** – varietà di strutture, pochi errori\n- **competenza sociolinguistica** – registro adatto, partecipazione attiva e fluida\n- **competenza fonetica** – pronuncia chiara, intonazione naturale\n\nUn errore ripetuto più volte conta una sola volta, e le tue opinioni non influiscono sul voto: conta come parli, non che cosa pensi.",
           "examples": [
             {
-              "it": "Mi chiamo Richard, sono inglese e vivo in Italia da due anni.",
-              "en": "My name is Richard, I'm English and I've lived in Italy for two years."
+              "it": "Mi chiamo {name}, sono inglese e vivo in Italia da due anni.",
+              "en": "My name is {name}, I'm English and I've lived in Italy for two years."
             },
             {
               "it": "Studio italiano perché vorrei sentirmi a casa qui.",
@@ -76,7 +76,7 @@
             "vivo",
             "perché"
           ],
-          "modelAnswer": "Buongiorno. Mi chiamo Richard e vivo in Italia da qualche anno. Nel tempo libero mi piace camminare e cucinare. Studio l'italiano perché voglio integrarmi meglio e parlare senza difficoltà con i vicini, in ufficio e dal medico. Ho deciso di fare il CELI 3 perché vorrei avere una certificazione ufficiale del mio livello.",
+          "modelAnswer": "Buongiorno. Mi chiamo {name} e vivo in Italia da qualche anno. Nel tempo libero mi piace camminare e cucinare. Studio l'italiano perché voglio integrarmi meglio e parlare senza difficoltà con i vicini, in ufficio e dal medico. Ho deciso di fare il CELI 3 perché vorrei avere una certificazione ufficiale del mio livello.",
           "explanation": "Prepara la presentazione prima dell'esame: 4–5 frasi naturali, con un motivo e un progetto. Non impararla a memoria parola per parola: deve suonare spontanea."
         },
         {
@@ -595,7 +595,7 @@
             },
             {
               "speaker": "you",
-              "text": "Buongiorno signora Galli, sono Richard, l'inquilino di via Roma. La chiamo perché la caldaia si è rotta e da tre giorni non ho l'acqua calda.",
+              "text": "Buongiorno signora Galli, sono {name}, l'inquilino di via Roma. La chiamo perché la caldaia si è rotta e da tre giorni non ho l'acqua calda.",
               "hint": "Introduce yourself and explain the problem.",
               "keywords": [
                 "caldaia",

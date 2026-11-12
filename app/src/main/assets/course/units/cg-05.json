@@ -1,0 +1,1023 @@
+{
+  "id": "cg-05",
+  "level": "B2",
+  "title": "Benché, purché, prima che",
+  "format": 2,
+  "module": "b2-m1",
+  "track": "congiuntivo",
+  "objective": "By the end you can use connectors that always take the congiuntivo to concede, set conditions, state purposes and place events in time.",
+  "grammarFocus": "Congiunzioni con il congiuntivo: benché / sebbene / nonostante, purché / a patto che / a condizione che / a meno che (non) / qualora, affinché / perché (scopo), prima che / senza che; contrasti con anche se, perché (causa), prima di / senza + infinito.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "cg-05-l1",
+      "title": "Benché, sebbene, nonostante",
+      "minutes": 7,
+      "goal": "You can say 'although' with benché, sebbene and nonostante, and keep anche se for facts.",
+      "takeaway": "Benché, sebbene and nonostante always take the congiuntivo; anche se takes the indicativo.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "sentence": "Credo che Marta ___ in ufficio.",
+          "verb": "essere",
+          "answer": 1,
+          "forms": [
+            "sia"
+          ],
+          "instruction": "Riscaldamento: scegli il modo e scrivi il verbo.",
+          "explanation": "Credo che opens the filtered world, so it takes the congiuntivo.",
+          "id": "cg-05-l1-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Benché, sebbene, nonostante",
+          "body": "These words admit a fact but say it does not change the result: *although*. They **always** take the ==congiuntivo==.\n\n| connettore | esempio |\n|---|---|\n| ==benché== | Benché **sia** tardi, resto. |\n| ==sebbene== | Sebbene **piova**, usciamo. |\n| ==nonostante== | Nonostante **faccia** freddo, corro. |\n\n> Don't copy the English: ✗ Benché è tardi.",
+          "examples": [
+            {
+              "it": "Benché sia tardi, restiamo ancora un po'.",
+              "en": "Although it's late, we'll stay a bit longer."
+            },
+            {
+              "it": "Sebbene piova, usciamo lo stesso.",
+              "en": "Although it's raining, we're going out anyway."
+            }
+          ],
+          "id": "cg-05-l1-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Anche se: un fatto",
+          "body": "==Anche se== states a real fact, so it takes the ==indicativo==. It is the everyday spoken choice. ==Benché== sounds a little more formal and \"filtered\".\n\n| connettore | modo | esempio |\n|---|---|---|\n| ==anche se== | indicativo | Anche se **piove**, esco. |\n| ==benché== | congiuntivo | Benché **piova**, esco. |\n\n> Nonostante + noun needs no verb: Nonostante la pioggia, esco.",
+          "examples": [
+            {
+              "it": "Anche se è caro, lo compro.",
+              "en": "Even though it's expensive, I'm buying it."
+            },
+            {
+              "it": "Nonostante il freddo, siamo andati al mare.",
+              "en": "Despite the cold, we went to the seaside."
+            }
+          ],
+          "id": "cg-05-l1-e03",
+          "stage": "learn"
+        },
+        {
+          "type": "find_trigger",
+          "sentence": "Benché piova, usciamo lo stesso.",
+          "trigger": "Benché",
+          "instruction": "Tocca la parola che apre il congiuntivo.",
+          "explanation": "Benché is a concession connector and always opens the congiuntivo.",
+          "id": "cg-05-l1-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "minimal_pair",
+          "sentences": [
+            "Benché sia tardi, resto.",
+            "Benché è tardi, resto."
+          ],
+          "question": "Quale frase è giusta?",
+          "answer": 0,
+          "translations": [
+            "Although it's late, I'm staying.",
+            "(wrong) Although it's late, I'm staying."
+          ],
+          "instruction": "Scegli la frase corretta.",
+          "explanation": "Benché is always followed by the congiuntivo: sia, not è.",
+          "id": "cg-05-l1-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "choose_mood",
+          "sentence": "Sebbene i vicini ___ stanchi, vengono alla riunione.",
+          "verb": "essere",
+          "answer": 1,
+          "forms": [
+            "siano"
+          ],
+          "instruction": "Scegli il modo e scrivi il verbo.",
+          "explanation": "Sebbene is a concession connector and takes the congiuntivo.",
+          "id": "cg-05-l1-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Nonostante ___ (fare) freddo, andiamo al parco.",
+          "answers": [
+            "faccia"
+          ],
+          "hint": "fare – 3a persona, presente",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Nonostante + verb takes the congiuntivo presente when the main verb is in the present.",
+          "id": "cg-05-l1-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Esco, ma piove.",
+          "cue": "Benché…",
+          "answers": [
+            "Benché piova, esco.",
+            "Benché piova esco.",
+            "Esco benché piova.",
+            "Esco, benché piova.",
+            "Sebbene piova, esco.",
+            "Sebbene piova esco.",
+            "Esco sebbene piova.",
+            "Esco, sebbene piova.",
+            "Nonostante piova, esco.",
+            "Nonostante piova esco.",
+            "Esco nonostante piova.",
+            "Esco, nonostante piova."
+          ],
+          "hint": "piovere → piova",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Benché replaces 'ma' and moves the fact into the filtered world, so piove becomes piova.",
+          "id": "cg-05-l1-e08",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "prompt": "Un amico dice: \"Non vai mai in palestra!\" Rispondi con benché o sebbene + congiuntivo.",
+          "keywords": [
+            "benché",
+            "sebbene",
+            "nonostante",
+            "palestra"
+          ],
+          "modelAnswer": "Non è vero! Benché abbia poco tempo, ci vado due volte a settimana.",
+          "instruction": "Rispondi a voce.",
+          "id": "cg-05-l1-e09",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-05-l2",
+      "title": "Purché, a meno che, a condizione che",
+      "minutes": 8,
+      "goal": "You can set a condition or an exception with purché, a patto che, a condizione che and a meno che.",
+      "takeaway": "Purché, a patto che, a condizione che, a meno che (non) and qualora always take the congiuntivo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Voglio che tu mi ___ la verità.",
+          "options": [
+            "dici",
+            "dica",
+            "dirai",
+            "dire"
+          ],
+          "answer": 1,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Volere che opens the filtered world, so it takes the congiuntivo.",
+          "id": "cg-05-l2-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Condizione ed eccezione",
+          "body": "Conditions and exceptions open the ==congiuntivo==.\n\n| connettore | significato |\n|---|---|\n| ==purché== | provided that |\n| ==a patto che==, ==a condizione che== | on condition that |\n| ==a meno che== (non) | unless |\n| ==qualora== | if (formal) |\n\n> **a meno che non** has no negative meaning: Vengo, a meno che non piova = I'll come unless it rains.",
+          "examples": [
+            {
+              "it": "Ti presto l'auto purché tu la riporti domani.",
+              "en": "I'll lend you the car as long as you bring it back tomorrow."
+            },
+            {
+              "it": "Vengo alla cena, a meno che non debba lavorare.",
+              "en": "I'll come to dinner, unless I have to work."
+            }
+          ],
+          "id": "cg-05-l2-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "buckets": [
+            "Condizione (purché…)",
+            "Eccezione (a meno che…)"
+          ],
+          "items": [
+            {
+              "text": "purché",
+              "bucket": 0
+            },
+            {
+              "text": "a condizione che",
+              "bucket": 0
+            },
+            {
+              "text": "a meno che",
+              "bucket": 1
+            },
+            {
+              "text": "a patto che",
+              "bucket": 0
+            },
+            {
+              "text": "a meno che non",
+              "bucket": 1
+            },
+            {
+              "text": "salvo che",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Metti ogni connettore nel gruppo giusto.",
+          "explanation": "Purché, a condizione che and a patto che set a condition; a meno che (non) and salvo che name an exception.",
+          "id": "cg-05-l2-e03",
+          "stage": "practise"
+        },
+        {
+          "type": "find_trigger",
+          "sentence": "Ti presto l'auto purché tu la riporti domani.",
+          "trigger": "purché",
+          "instruction": "Tocca la parola che apre il congiuntivo.",
+          "explanation": "Purché means 'provided that' and always opens the congiuntivo.",
+          "id": "cg-05-l2-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Vengo alla cena, a meno che non ___ lavorare.",
+          "options": [
+            "devo",
+            "debba",
+            "dovrò",
+            "dovere"
+          ],
+          "answer": 1,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "A meno che (non) is followed by the congiuntivo.",
+          "id": "cg-05-l2-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Firmo il contratto a condizione che il prezzo ___ (restare) uguale.",
+          "answers": [
+            "resti"
+          ],
+          "hint": "restare – 3a persona",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "A condizione che takes the congiuntivo presente when the main verb is in the present.",
+          "id": "cg-05-l2-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Ti aiuto se me lo chiedi con gentilezza.",
+          "cue": "Purché…",
+          "answers": [
+            "Ti aiuto purché tu me lo chieda con gentilezza.",
+            "Ti aiuto, purché tu me lo chieda con gentilezza.",
+            "Ti aiuto purché me lo chieda con gentilezza.",
+            "Ti aiuto, purché me lo chieda con gentilezza.",
+            "Ti aiuto a patto che tu me lo chieda con gentilezza.",
+            "Ti aiuto, a patto che tu me lo chieda con gentilezza.",
+            "Ti aiuto a patto che me lo chieda con gentilezza.",
+            "Ti aiuto, a patto che me lo chieda con gentilezza.",
+            "Ti aiuto a condizione che tu me lo chieda con gentilezza.",
+            "Ti aiuto, a condizione che tu me lo chieda con gentilezza.",
+            "Ti aiuto a condizione che me lo chieda con gentilezza.",
+            "Ti aiuto, a condizione che me lo chieda con gentilezza."
+          ],
+          "hint": "chiedere → chieda",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Purché replaces 'se' and needs the congiuntivo: chieda.",
+          "id": "cg-05-l2-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "sentence": "Vengo volentieri, purché non è troppo tardi.",
+          "answers": [
+            "Vengo volentieri, purché non sia troppo tardi.",
+            "Vengo volentieri purché non sia troppo tardi.",
+            "Vengo volentieri, a patto che non sia troppo tardi.",
+            "Vengo volentieri a patto che non sia troppo tardi.",
+            "Vengo volentieri, a condizione che non sia troppo tardi.",
+            "Vengo volentieri a condizione che non sia troppo tardi."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "explanation": "Purché is followed by the congiuntivo: sia, not è.",
+          "id": "cg-05-l2-e08",
+          "stage": "practise"
+        },
+        {
+          "type": "roleplay",
+          "scenario": "Al lavoro: un collega non può fare il turno di sabato e chiede aiuto a {name}. Metti una condizione con purché, a meno che, a condizione che.",
+          "instruction": "Parla con il collega.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Sabato non posso lavorare. Puoi fare tu il mio turno?"
+            },
+            {
+              "speaker": "you",
+              "text": "Va bene, purché tu faccia il mio turno domenica.",
+              "hint": "Condizione: purché + congiuntivo",
+              "keywords": [
+                "purché",
+                "faccia"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Domenica ho un impegno, ma lunedì posso. Ti va bene?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, a meno che lunedì non ci sia la riunione.",
+              "hint": "Eccezione: a meno che (non) + congiuntivo",
+              "keywords": [
+                "a meno che",
+                "sia"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "No, lunedì nessuna riunione. Allora siamo d'accordo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Perfetto, a condizione che tu mi mandi un messaggio per confermare.",
+              "hint": "a condizione che + congiuntivo",
+              "keywords": [
+                "a condizione che",
+                "mandi"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo, ti scrivo stasera. Grazie mille!"
+            }
+          ],
+          "id": "cg-05-l2-e09",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-05-l3",
+      "title": "Affinché e perché: scopo o causa?",
+      "minutes": 8,
+      "goal": "You can say 'so that' with affinché and perché + congiuntivo, and tell it apart from perché = because.",
+      "takeaway": "Perché + indicativo gives a cause; affinché / perché + congiuntivo gives a purpose.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "sentence": "Penso che Luca ___ (avere) ragione.",
+          "answers": [
+            "abbia"
+          ],
+          "hint": "avere – 3a persona",
+          "instruction": "Riscaldamento: completa.",
+          "explanation": "Penso che takes the congiuntivo presente.",
+          "id": "cg-05-l3-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Lo scopo: affinché",
+          "body": "To say what you do **so that** someone else can act, use ==affinché==, ==perché== or ==in modo che== + ==congiuntivo==.\n\n| soggetti | forma | esempio |\n|---|---|---|\n| diversi | ==affinché== + congiuntivo | Ripeto **affinché** tu capisca. |\n| uguale | **per** + infinito | Ripeto **per** capire meglio. |\n\n> Same subject sounds heavy: ✗ Studio affinché io passi.",
+          "examples": [
+            {
+              "it": "Scrivo alla scuola affinché i bambini abbiano più tempo per giocare.",
+              "en": "I'm writing to the school so that the children have more time to play."
+            },
+            {
+              "it": "Studio per passare l'esame.",
+              "en": "I study to pass the exam."
+            }
+          ],
+          "id": "cg-05-l3-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Perché: causa o scopo?",
+          "body": "==Perché== has two meanings. The mood tells you which.\n\n| senso | modo | esempio |\n|---|---|---|\n| because (fact) | ==indicativo== | Ripeto perché **non capisci**. |\n| so that (purpose) | ==congiuntivo== | Ripeto perché tu **capisca**. |\n\n> Ask yourself: why (cause), or so that (purpose)?",
+          "examples": [
+            {
+              "it": "Sono in ritardo perché il treno è fermo.",
+              "en": "I'm late because the train is stopped."
+            },
+            {
+              "it": "Ti mando la mail perché tu sappia l'orario.",
+              "en": "I'm emailing you so that you know the time."
+            }
+          ],
+          "id": "cg-05-l3-e03",
+          "stage": "learn"
+        },
+        {
+          "type": "minimal_pair",
+          "sentences": [
+            "Ripeto perché non capisci.",
+            "Ripeto perché tu capisca."
+          ],
+          "question": "Quale frase esprime lo scopo (so that)?",
+          "answer": 1,
+          "translations": [
+            "I repeat because you don't understand.",
+            "I repeat so that you understand."
+          ],
+          "instruction": "Scegli la frase giusta.",
+          "explanation": "Perché + congiuntivo expresses purpose; perché + indicativo expresses cause.",
+          "id": "cg-05-l3-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "choose_mood",
+          "sentence": "Ti mando la mail perché tu ___ l'orario.",
+          "verb": "sapere",
+          "answer": 1,
+          "forms": [
+            "sappia"
+          ],
+          "instruction": "Scopo o causa? Scegli il modo e scrivi il verbo.",
+          "explanation": "Here perché means 'so that', so it takes the congiuntivo.",
+          "id": "cg-05-l3-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "choose_mood",
+          "sentence": "Sono in ritardo perché il treno ___ fermo.",
+          "verb": "essere",
+          "answer": 0,
+          "forms": [
+            "è"
+          ],
+          "instruction": "Scopo o causa? Scegli il modo e scrivi il verbo.",
+          "explanation": "Here perché means 'because': a fact, so the indicativo.",
+          "id": "cg-05-l3-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "find_trigger",
+          "sentence": "Il comitato scrive una lettera affinché il Comune ripari la strada.",
+          "trigger": "affinché",
+          "instruction": "Tocca la parola che apre il congiuntivo.",
+          "explanation": "Affinché expresses purpose and always opens the congiuntivo.",
+          "id": "cg-05-l3-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Ti do il mio numero: così puoi chiamarmi.",
+          "cue": "Affinché…",
+          "answers": [
+            "Ti do il mio numero affinché tu possa chiamarmi.",
+            "Ti do il mio numero affinché tu mi possa chiamare.",
+            "Ti do il mio numero affinché tu mi chiami.",
+            "Ti do il mio numero affinché possa chiamarmi.",
+            "Ti do il mio numero affinché mi possa chiamare.",
+            "Ti do il mio numero perché tu possa chiamarmi.",
+            "Ti do il mio numero perché tu mi possa chiamare.",
+            "Ti do il mio numero perché tu mi chiami.",
+            "Ti do il mio numero perché possa chiamarmi.",
+            "Ti do il mio numero perché mi possa chiamare.",
+            "Ti do il mio numero in modo che tu possa chiamarmi.",
+            "Ti do il mio numero in modo che tu mi possa chiamare.",
+            "Ti do il mio numero in modo che tu mi chiami.",
+            "Ti do il mio numero in modo che possa chiamarmi.",
+            "Ti do il mio numero in modo che mi possa chiamare."
+          ],
+          "hint": "potere → possa",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Affinché + congiuntivo expresses purpose: tu possa chiamarmi.",
+          "id": "cg-05-l3-e08",
+          "stage": "practise"
+        },
+        {
+          "type": "reading",
+          "title": "Una lettera alla preside",
+          "passage": "Gentile Preside,\nle scriviamo a nome dei genitori della classe 3ª B. Benché la scuola abbia fatto molto per la sicurezza, l'uscita di via Roma resta pericolosa. Chiediamo un incontro affinché si trovi una soluzione prima che arrivi l'inverno. Siamo disponibili a collaborare, purché il Comune sia coinvolto. Non vogliamo scrivere ai giornali, a meno che non sia necessario.\nCordiali saluti,\n{name}, rappresentante dei genitori",
+          "instruction": "Leggi la lettera e rispondi.",
+          "questions": [
+            {
+              "question": "Perché i genitori chiedono un incontro?",
+              "options": [
+                "Per trovare una soluzione all'uscita pericolosa",
+                "Per protestare contro la mensa",
+                "Per cambiare la preside"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa serve per collaborare?",
+              "options": [
+                "Che il Comune sia coinvolto",
+                "Che la scuola chiuda",
+                "Che i giornali scrivano un articolo"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quando scriveranno ai giornali?",
+              "options": [
+                "Sempre",
+                "Solo se sarà necessario",
+                "Mai"
+              ],
+              "answer": 1
+            }
+          ],
+          "id": "cg-05-l3-e09",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-05-l4",
+      "title": "Prima che, senza che",
+      "minutes": 7,
+      "goal": "You can say 'before' and 'without' with prima che / senza che, and switch to prima di / senza when the subject is the same.",
+      "takeaway": "Prima che and senza che take the congiuntivo with different subjects; with the same subject use prima di / senza + infinito.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Credo che Anna ___ già partita.",
+          "options": [
+            "è",
+            "sia",
+            "fosse",
+            "era"
+          ],
+          "answer": 1,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Credo che + congiuntivo passato for an earlier action.",
+          "id": "cg-05-l4-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Prima che, senza che",
+          "body": "==Prima che== (before) and ==senza che== (without) take the ==congiuntivo== when the two verbs have **different subjects**.\n\n| connettore | esempio |\n|---|---|\n| ==prima che== | Esco prima che **piova**. |\n| ==senza che== | Entra senza che lo **sentiamo**. |\n\n> **dopo che** is different: indicativo. Dopo che sei arrivato, abbiamo mangiato.",
+          "examples": [
+            {
+              "it": "Chiudi la finestra prima che inizi a piovere.",
+              "en": "Close the window before it starts to rain."
+            },
+            {
+              "it": "Il gatto esce senza che io lo veda.",
+              "en": "The cat goes out without me seeing it."
+            }
+          ],
+          "id": "cg-05-l4-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Stesso soggetto: infinito",
+          "body": "When the subject is the **same**, skip *che* and use an infinitive.\n\n| soggetti | forma | esempio |\n|---|---|---|\n| diversi | prima che + congiuntivo | Lavo i piatti prima che **arrivino** gli ospiti. |\n| uguale | ==prima di== + infinito | Lavo i piatti prima di **uscire**. |\n| uguale | ==senza== + infinito | Esco senza **salutare**. |\n\n> ✗ Esco prima che esco.",
+          "examples": [
+            {
+              "it": "Telefono al medico prima di uscire.",
+              "en": "I phone the doctor before going out."
+            },
+            {
+              "it": "Esco senza salutare nessuno.",
+              "en": "I leave without saying goodbye to anyone."
+            }
+          ],
+          "id": "cg-05-l4-e03",
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "buckets": [
+            "Congiuntivo",
+            "Indicativo"
+          ],
+          "items": [
+            {
+              "text": "prima che",
+              "bucket": 0
+            },
+            {
+              "text": "senza che",
+              "bucket": 0
+            },
+            {
+              "text": "dopo che",
+              "bucket": 1
+            },
+            {
+              "text": "mentre",
+              "bucket": 1
+            },
+            {
+              "text": "benché",
+              "bucket": 0
+            },
+            {
+              "text": "quando",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Metti ogni connettore nel gruppo giusto.",
+          "explanation": "Prima che, senza che and benché take the congiuntivo; dopo che, mentre and quando take the indicativo.",
+          "id": "cg-05-l4-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "find_trigger",
+          "sentence": "Chiudi la finestra prima che inizi a piovere.",
+          "trigger": "prima che",
+          "instruction": "Tocca la parola che apre il congiuntivo.",
+          "explanation": "Prima che opens the congiuntivo when the subjects differ.",
+          "id": "cg-05-l4-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il gatto esce di casa senza che io lo ___ (vedere).",
+          "answers": [
+            "veda"
+          ],
+          "hint": "vedere – io",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Senza che + congiuntivo when the subjects differ: il gatto / io.",
+          "id": "cg-05-l4-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Ti chiamo, poi parti.",
+          "cue": "Prima che…",
+          "answers": [
+            "Ti chiamo prima che tu parta.",
+            "Prima che tu parta, ti chiamo.",
+            "Prima che tu parta ti chiamo.",
+            "Ti chiamo prima che parta."
+          ],
+          "hint": "partire → parta",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Prima che + congiuntivo; the subjects differ (io / tu).",
+          "id": "cg-05-l4-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "sentence": "Parlo con il direttore prima che vado via.",
+          "answers": [
+            "Parlo con il direttore prima di andare via.",
+            "Parlo con il direttore prima che vada via.",
+            "Parlo con il direttore prima di andarmene."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "explanation": "After prima che you need the congiuntivo; with the same subject, prima di + infinito is better.",
+          "id": "cg-05-l4-e08",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "prompt": "Un amico arriva tra poco. Di' tre cose che fai prima che arrivi, o prima di uscire.",
+          "keywords": [
+            "prima che",
+            "prima di",
+            "arrivi",
+            "uscire"
+          ],
+          "modelAnswer": "Prima che arrivi, preparo il caffè. Prima di uscire, apro la finestra. Metto in ordine prima che suoni il campanello.",
+          "instruction": "Rispondi a voce.",
+          "id": "cg-05-l4-e09",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-05-l5",
+      "title": "Alla riunione di condominio",
+      "minutes": 9,
+      "goal": "You can choose the right connector and mood in a residents' meeting and write a formal complaint.",
+      "takeaway": "Concession, condition, purpose and prima che / senza che open the filtered world: congiuntivo.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "sentence": "Anche se ___ freddo, usciamo.",
+          "verb": "fare",
+          "answer": 0,
+          "forms": [
+            "fa"
+          ],
+          "instruction": "Riscaldamento: scegli il modo e scrivi il verbo.",
+          "explanation": "Anche se states a fact, so it takes the indicativo.",
+          "id": "cg-05-l5-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Una sola immagine",
+          "body": "Some connectors always open the filtered world: ==congiuntivo==.\n\n| tipo | connettori |\n|---|---|\n| concessione | ==benché==, ==sebbene==, ==nonostante== |\n| condizione | ==purché==, ==a patto che==, ==a meno che== |\n| scopo | ==affinché==, ==perché== (so that) |\n| tempo / modo | ==prima che==, ==senza che== |\n\n> Facts stay indicativo: anche se, dopo che, perché (because), siccome.",
+          "examples": [
+            {
+              "it": "Benché i lavori costino molto, li approviamo.",
+              "en": "Although the work costs a lot, we approve it."
+            },
+            {
+              "it": "Il comitato approva purché il costo sia diviso.",
+              "en": "The committee approves provided the cost is shared."
+            }
+          ],
+          "id": "cg-05-l5-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "buckets": [
+            "Congiuntivo",
+            "Indicativo"
+          ],
+          "items": [
+            {
+              "text": "affinché",
+              "bucket": 0
+            },
+            {
+              "text": "anche se",
+              "bucket": 1
+            },
+            {
+              "text": "perché (= because)",
+              "bucket": 1
+            },
+            {
+              "text": "perché (= so that)",
+              "bucket": 0
+            },
+            {
+              "text": "a meno che",
+              "bucket": 0
+            },
+            {
+              "text": "dopo che",
+              "bucket": 1
+            },
+            {
+              "text": "siccome",
+              "bucket": 1
+            },
+            {
+              "text": "sebbene",
+              "bucket": 0
+            }
+          ],
+          "instruction": "Metti ogni connettore nel gruppo giusto.",
+          "explanation": "Concession, condition, purpose and prima che / senza che take the congiuntivo; anche se, dopo che, siccome and cause-perché take the indicativo.",
+          "id": "cg-05-l5-e03",
+          "stage": "practise"
+        },
+        {
+          "type": "choose_mood",
+          "sentence": "Il comitato approva i lavori purché il costo ___ diviso tra tutti.",
+          "verb": "essere",
+          "answer": 1,
+          "forms": [
+            "sia"
+          ],
+          "instruction": "Scegli il modo e scrivi il verbo.",
+          "explanation": "Purché sets a condition and takes the congiuntivo.",
+          "id": "cg-05-l5-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "L'assemblea approva il budget ___ ogni famiglia riceva il rendiconto.",
+          "options": [
+            "benché",
+            "purché",
+            "anche se",
+            "dopo che"
+          ],
+          "answer": 1,
+          "instruction": "Scegli il connettore giusto.",
+          "explanation": "Purché sets a condition and takes the congiuntivo (riceva).",
+          "id": "cg-05-l5-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Chiediamo all'amministratore di mandare l'avviso affinché tutti ___ (potere) venire.",
+          "answers": [
+            "possano"
+          ],
+          "hint": "potere – loro",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Affinché takes the congiuntivo: possano.",
+          "id": "cg-05-l5-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "sentence": "Benché i lavori sono costosi, li approviamo.",
+          "answers": [
+            "Benché i lavori siano costosi, li approviamo.",
+            "Benché i lavori siano costosi li approviamo.",
+            "Sebbene i lavori siano costosi, li approviamo.",
+            "Nonostante i lavori siano costosi, li approviamo.",
+            "Anche se i lavori sono costosi, li approviamo."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "explanation": "Benché takes the congiuntivo (siano); alternatively use anche se + indicativo.",
+          "id": "cg-05-l5-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "free_write",
+          "prompt": "Abiti in un condominio e l'ascensore è rotto da tre settimane. Scrivi una lettera formale all'amministratore (50–70 parole). Usa almeno tre di questi: benché, purché, affinché, prima che, a meno che.",
+          "minWords": 45,
+          "checklist": [
+            "Registro formale (Lei, Gentile amministratore)",
+            "Almeno tre connettori con il congiuntivo",
+            "Perché = causa con l'indicativo (se lo usi)",
+            "Una richiesta precisa e una scadenza"
+          ],
+          "modelAnswer": "Gentile amministratore,\nle scrivo perché l'ascensore è guasto da tre settimane. Benché abbia già telefonato due volte alla ditta, nessuno è venuto. Le chiedo di intervenire al più presto affinché gli anziani possano uscire di casa. Siamo disposti ad aspettare ancora qualche giorno, purché ci comunichi una data precisa. Vorremmo una risposta prima che inizi il fine settimana, a meno che la riparazione non sia già in corso.\nCordiali saluti,\n{name}",
+          "instruction": "Scrivi la lettera.",
+          "id": "cg-05-l5-e08",
+          "stage": "use"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "benché",
+      "en": "although",
+      "example": "Benché sia tardi, restiamo."
+    },
+    {
+      "it": "sebbene",
+      "en": "although (a bit more formal)",
+      "example": "Sebbene piova, usciamo."
+    },
+    {
+      "it": "nonostante",
+      "en": "despite / although",
+      "example": "Nonostante il traffico, siamo arrivati in tempo."
+    },
+    {
+      "it": "purché",
+      "en": "provided that",
+      "example": "Vengo, purché finisca presto."
+    },
+    {
+      "it": "a patto che",
+      "en": "on condition that",
+      "example": "Ti presto l'auto a patto che tu faccia benzina."
+    },
+    {
+      "it": "a condizione che",
+      "en": "on the condition that",
+      "example": "Firmo a condizione che il prezzo non cambi."
+    },
+    {
+      "it": "a meno che (non)",
+      "en": "unless",
+      "example": "Parto domani, a meno che non nevichi."
+    },
+    {
+      "it": "qualora",
+      "en": "if, should (formal)",
+      "example": "Qualora ci siano problemi, ci avvisi."
+    },
+    {
+      "it": "affinché",
+      "en": "so that",
+      "example": "Scrivo affinché tutti sappiano l'orario."
+    },
+    {
+      "it": "in modo che",
+      "en": "so that, in such a way that",
+      "example": "Parla piano in modo che tutti capiscano."
+    },
+    {
+      "it": "prima che",
+      "en": "before (different subject)",
+      "example": "Esco prima che piova."
+    },
+    {
+      "it": "senza che",
+      "en": "without (different subject)",
+      "example": "Entra senza che lo sentiamo."
+    },
+    {
+      "it": "l'amministratore di condominio",
+      "en": "building manager",
+      "example": "L'amministratore ha convocato la riunione."
+    },
+    {
+      "it": "il preventivo",
+      "en": "quote, estimate",
+      "example": "Chiedo un preventivo per i lavori."
+    },
+    {
+      "it": "il verbale",
+      "en": "minutes (of a meeting)",
+      "example": "Il verbale è stato approvato all'unanimità."
+    },
+    {
+      "it": "la delibera",
+      "en": "resolution, decision",
+      "example": "L'assemblea ha approvato la delibera."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-05-t1",
+      "rule": "Benché + congiuntivo",
+      "tip": "Benché, sebbene and nonostante always take the congiuntivo, never the indicativo.",
+      "example": {
+        "it": "Benché sia tardi, resto.",
+        "en": "Although it's late, I'm staying."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Benché il bus ___ (essere) in ritardo, arrivo in tempo.",
+        "answers": [
+          "sia"
+        ],
+        "hint": "essere – 3a persona"
+      }
+    },
+    {
+      "id": "cg-05-t2",
+      "rule": "Anche se + indicativo",
+      "tip": "Anche se states a real fact, so it takes the indicativo, not the congiuntivo.",
+      "example": {
+        "it": "Anche se piove, esco.",
+        "en": "Even though it's raining, I'm going out."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Anche se ___ stanco, vengo.",
+        "options": [
+          "sono",
+          "sia",
+          "fossi",
+          "essere"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "cg-05-t3",
+      "rule": "Perché: causa o scopo",
+      "tip": "Perché + indicativo = because; perché + congiuntivo = so that.",
+      "example": {
+        "it": "Ripeto perché tu capisca.",
+        "en": "I repeat so that you understand."
+      },
+      "challenge": {
+        "type": "choose_mood",
+        "sentence": "Ti scrivo perché tu ___ l'orario.",
+        "verb": "sapere",
+        "answer": 1,
+        "forms": [
+          "sappia"
+        ]
+      }
+    },
+    {
+      "id": "cg-05-t4",
+      "rule": "Prima che / prima di",
+      "tip": "Different subjects: prima che + congiuntivo. Same subject: prima di + infinito.",
+      "example": {
+        "it": "Esco prima che piova.",
+        "en": "I'm going out before it rains."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Lavo i piatti prima ___ uscire.",
+        "options": [
+          "di",
+          "che",
+          "da",
+          "a"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "cg-05-t5",
+      "rule": "A meno che non",
+      "tip": "A meno che (non) means 'unless' and takes the congiuntivo; the non is not a negation.",
+      "example": {
+        "it": "Vengo, a meno che non piova.",
+        "en": "I'll come, unless it rains."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Vengo purché non è tardi.",
+        "answers": [
+          "Vengo purché non sia tardi."
+        ]
+      }
+    }
+  ]
+}

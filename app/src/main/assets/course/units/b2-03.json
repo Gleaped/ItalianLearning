@@ -801,7 +801,7 @@
             "Ho proposto un rimedio concreto (se vuoi…, ti va se…).",
             "Registro informale coerente, almeno 120 parole."
           ],
-          "modelAnswer": "Caro Stefano,\nti scrivo per chiederti scusa per sabato. Ti avevo promesso che sarei venuto ad aiutarti con il trasloco già alle otto, e invece non mi sono fatto vedere. Venerdì sera mi è venuta la febbre a trentanove e la mattina non riuscivo nemmeno ad alzarmi dal letto. Avrei dovuto avvisarti subito, lo so, ma ho dormito fino a mezzogiorno e quando ho visto i tuoi messaggi era troppo tardi.\nMi dispiace davvero: sarei venuto volentieri e avrei voluto vedere la casa nuova. Immagino che abbiate dovuto portare tutto da soli. Per farmi perdonare, se vuoi, il prossimo fine settimana ti aiuto a montare i mobili e a sistemare la cantina. Poi, ovviamente, la pizza la offro io!\nFammi sapere quando ti va bene.\nUn abbraccio,\nRichard"
+          "modelAnswer": "Caro Stefano,\nti scrivo per chiederti scusa per sabato. Ti avevo promesso che sarei venuto ad aiutarti con il trasloco già alle otto, e invece non mi sono fatto vedere. Venerdì sera mi è venuta la febbre a trentanove e la mattina non riuscivo nemmeno ad alzarmi dal letto. Avrei dovuto avvisarti subito, lo so, ma ho dormito fino a mezzogiorno e quando ho visto i tuoi messaggi era troppo tardi.\nMi dispiace davvero: sarei venuto volentieri e avrei voluto vedere la casa nuova. Immagino che abbiate dovuto portare tutto da soli. Per farmi perdonare, se vuoi, il prossimo fine settimana ti aiuto a montare i mobili e a sistemare la cantina. Poi, ovviamente, la pizza la offro io!\nFammi sapere quando ti va bene.\nUn abbraccio,\n{name}"
         },
         {
           "type": "speak_respond",

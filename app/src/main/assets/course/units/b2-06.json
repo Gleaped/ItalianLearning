@@ -522,7 +522,7 @@
           "id": "b2-06-l3-e06",
           "instruction": "Lettura (stile CELI): leggi il messaggio e rispondi.",
           "title": "Il messaggio di Marta",
-          "passage": "Ciao Richard! Sono passata in Comune per la tua pratica di residenza, come mi avevi chiesto. L'impiegata mi ha detto che la domanda era arrivata, ma che mancava una copia del contratto d'affitto. Mi ha spiegato che senza il contratto non potevano andare avanti e che, se non lo mandavi entro dieci giorni, la pratica sarebbe stata archiviata.\nLe ho chiesto se si poteva mandare per email e mi ha risposto di sì, ma che doveva essere firmato sia da te sia dal proprietario. Mi ha anche detto di ricordarti che nelle settimane successive un vigile sarebbe passato a casa per il controllo e che qualcuno doveva essere presente.\nInfine mi ha chiesto se avevi un numero di telefono italiano, perché dovevano poterti contattare. Gliel'ho lasciato io. Un bacio, Marta",
+          "passage": "Ciao {name}! Sono passata in Comune per la tua pratica di residenza, come mi avevi chiesto. L'impiegata mi ha detto che la domanda era arrivata, ma che mancava una copia del contratto d'affitto. Mi ha spiegato che senza il contratto non potevano andare avanti e che, se non lo mandavi entro dieci giorni, la pratica sarebbe stata archiviata.\nLe ho chiesto se si poteva mandare per email e mi ha risposto di sì, ma che doveva essere firmato sia da te sia dal proprietario. Mi ha anche detto di ricordarti che nelle settimane successive un vigile sarebbe passato a casa per il controllo e che qualcuno doveva essere presente.\nInfine mi ha chiesto se avevi un numero di telefono italiano, perché dovevano poterti contattare. Gliel'ho lasciato io. Un bacio, Marta",
           "questions": [
             {
               "question": "Che cosa mancava nella pratica?",
@@ -550,7 +550,7 @@
                 "Solo per posta.",
                 "Per email, ma firmato solo dal proprietario.",
                 "Di persona allo sportello.",
-                "Per email, firmato da Richard e dal proprietario."
+                "Per email, firmato da {name} e dal proprietario."
               ],
               "answer": 3
             },
@@ -558,7 +558,7 @@
               "question": "Che cosa succederà nelle settimane successive?",
               "options": [
                 "L'impiegata telefonerà a Marta.",
-                "Richard riceverà la carta d'identità.",
+                "{name} riceverà la carta d'identità.",
                 "Un vigile passerà a casa per un controllo.",
                 "Il proprietario andrà in Comune."
               ],
@@ -777,7 +777,7 @@
             "Ho adattato le espressioni di tempo (il giorno dopo, la settimana successiva…).",
             "Registro informale coerente, almeno 120 parole."
           ],
-          "modelAnswer": "Ciao Paolo,\nti racconto com'è andata l'assemblea di ieri sera, visto che non sei potuto venire. All'inizio l'amministratore ha spiegato che il preventivo per il rifacimento del tetto era arrivato e che la ditta aveva chiesto trentamila euro. Ha detto che i lavori sarebbero cominciati a marzo e che sarebbero durati circa due mesi.\nLa signora del terzo piano ha chiesto perché non avevamo chiesto altri preventivi, e l'amministratore ha risposto che ne aveva chiesti tre, ma che questo era il più economico. Alla fine abbiamo votato e la proposta è stata approvata quasi all'unanimità.\nL'amministratore ci ha chiesto di pagare la prima rata entro la fine del mese successivo e ha raccomandato a tutti di non lasciare le biciclette in cortile durante i lavori. Mi ha detto anche di salutarti!\nA presto,\nRichard"
+          "modelAnswer": "Ciao Paolo,\nti racconto com'è andata l'assemblea di ieri sera, visto che non sei potuto venire. All'inizio l'amministratore ha spiegato che il preventivo per il rifacimento del tetto era arrivato e che la ditta aveva chiesto trentamila euro. Ha detto che i lavori sarebbero cominciati a marzo e che sarebbero durati circa due mesi.\nLa signora del terzo piano ha chiesto perché non avevamo chiesto altri preventivi, e l'amministratore ha risposto che ne aveva chiesti tre, ma che questo era il più economico. Alla fine abbiamo votato e la proposta è stata approvata quasi all'unanimità.\nL'amministratore ci ha chiesto di pagare la prima rata entro la fine del mese successivo e ha raccomandato a tutti di non lasciare le biciclette in cortile durante i lavori. Mi ha detto anche di salutarti!\nA presto,\n{name}"
         },
         {
           "type": "speak_respond",

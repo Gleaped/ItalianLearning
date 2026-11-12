@@ -1,0 +1,1001 @@
+{
+  "id": "cg-06",
+  "level": "B2",
+  "title": "Pensavo che fosse",
+  "format": 2,
+  "module": "b2-m1",
+  "track": "congiuntivo",
+  "objective": "By the end you can use the congiuntivo imperfetto and trapassato after past verbs and match the tense of the congiuntivo to the main verb.",
+  "grammarFocus": "Congiuntivo imperfetto (regolare; essere, fare, dire, dare, stare, bere) e trapassato (avessi / fossi + participio); concordanza dei tempi: penso che sia venuto / venga / verrà, pensavo che fosse venuto / venisse / sarebbe venuto; vorrei che + imperfetto.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "cg-06-l1",
+      "title": "Congiuntivo imperfetto: -assi, -essi, -issi",
+      "minutes": 7,
+      "goal": "You can build the regular congiuntivo imperfetto and use it after a past verb: pensavo che parlasse.",
+      "takeaway": "After a past main verb, use the imperfetto: -ssi, -ssi, -sse, -ssimo, -ste, -ssero.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "sentence": "Ti aiuto purché tu me lo ___ con calma.",
+          "verb": "chiedere",
+          "answer": 1,
+          "forms": [
+            "chieda"
+          ],
+          "instruction": "Riscaldamento: scegli il modo e scrivi il verbo.",
+          "explanation": "Purché always opens the congiuntivo.",
+          "id": "cg-06-l1-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Le desinenze dell'imperfetto",
+          "body": "Use it after a past verb: *pensavo che*, *speravo che*, *volevo che*. Endings are the same for all verbs; only the vowel changes.\n\n| persona | parlare | prendere | dormire |\n|---|---|---|---|\n| io / tu | parl==assi== | prend==essi== | dorm==issi== |\n| lui / lei | parl==asse== | prend==esse== | dorm==isse== |\n| noi | parl==assimo== | prend==essimo== | dorm==issimo== |\n| voi | parl==aste== | prend==este== | dorm==iste== |\n| loro | parl==assero== | prend==essero== | dorm==issero== |\n\n> io and tu are identical: add the pronoun if unclear.",
+          "examples": [
+            {
+              "it": "Pensavo che i bambini dormissero.",
+              "en": "I thought the children were asleep."
+            },
+            {
+              "it": "Speravo che il treno partisse in orario.",
+              "en": "I hoped the train would leave on time."
+            }
+          ],
+          "id": "cg-06-l1-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "buckets": [
+            "Congiuntivo presente",
+            "Congiuntivo imperfetto"
+          ],
+          "items": [
+            {
+              "text": "capisca",
+              "bucket": 0
+            },
+            {
+              "text": "capissi",
+              "bucket": 1
+            },
+            {
+              "text": "venga",
+              "bucket": 0
+            },
+            {
+              "text": "venisse",
+              "bucket": 1
+            },
+            {
+              "text": "finiscano",
+              "bucket": 0
+            },
+            {
+              "text": "finissero",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Metti ogni forma nel gruppo giusto.",
+          "explanation": "The imperfetto has -ss- in every form; the presente does not.",
+          "id": "cg-06-l1-e03",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pensavo che il treno ___ alle otto.",
+          "options": [
+            "partisse",
+            "parte",
+            "parta",
+            "partiva"
+          ],
+          "answer": 0,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Pensavo che (past) takes the congiuntivo imperfetto: partisse.",
+          "id": "cg-06-l1-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "conjugation",
+          "verb": "parlare",
+          "tense": "congiuntivo imperfetto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "parlassi"
+            },
+            {
+              "person": "noi",
+              "answer": "parlassimo"
+            },
+            {
+              "person": "loro",
+              "answer": "parlassero"
+            }
+          ],
+          "instruction": "Scrivi le forme.",
+          "explanation": "Regular -are verbs: parl- + -assi, -assimo, -assero.",
+          "id": "cg-06-l1-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Credevo che i bambini ___ (dormire) già.",
+          "answers": [
+            "dormissero"
+          ],
+          "hint": "dormire – loro",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Credevo che (past) takes the congiuntivo imperfetto: dormissero.",
+          "id": "cg-06-l1-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Penso che il film finisca tardi.",
+          "cue": "→ Pensavo che…",
+          "answers": [
+            "Pensavo che il film finisse tardi.",
+            "Credevo che il film finisse tardi."
+          ],
+          "hint": "finire → finisse",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "A past main verb pulls the clause into the imperfetto: finisca → finisse.",
+          "id": "cg-06-l1-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "prompt": "Prima di arrivare in Italia, che idee avevi? Di' due cose con pensavo che / credevo che / immaginavo che.",
+          "keywords": [
+            "pensavo che",
+            "credevo che",
+            "immaginavo che"
+          ],
+          "modelAnswer": "Pensavo che gli italiani mangiassero sempre la pasta. Immaginavo che i negozi chiudessero molto tardi.",
+          "instruction": "Rispondi a voce.",
+          "id": "cg-06-l1-e08",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-06-l2",
+      "title": "Fossi, facessi, dicessi",
+      "minutes": 8,
+      "goal": "You can use the irregular imperfetto of essere, dare, stare, fare, dire and bere.",
+      "takeaway": "Essere, dare, stare are special (fossi, dessi, stessi); fare, dire, bere use their imperfetto stem (facessi, dicessi, bevessi).",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "sentence": "Credo che voi ___ (essere) stanchi.",
+          "answers": [
+            "siate"
+          ],
+          "hint": "essere – voi, presente",
+          "instruction": "Riscaldamento: completa.",
+          "explanation": "Credo che + congiuntivo presente: siate.",
+          "id": "cg-06-l2-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Tre verbi corti",
+          "body": "Three short verbs have their own shape. Learn them as blocks.\n\n| verbo | io / tu | lui / lei | loro |\n|---|---|---|---|\n| essere | ==fossi== | ==fosse== | ==fossero== |\n| dare | ==dessi== | ==desse== | ==dessero== |\n| stare | ==stessi== | ==stesse== | ==stessero== |\n\n> Watch the double s: dessi, stessi, fossi.",
+          "examples": [
+            {
+              "it": "Pensavo che fosse più facile.",
+              "en": "I thought it would be easier."
+            },
+            {
+              "it": "Non sapevo che lui stesse male.",
+              "en": "I didn't know he was ill."
+            }
+          ],
+          "id": "cg-06-l2-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Fare, dire, bere: il trucco",
+          "body": "Take the imperfetto stem and add -ssi.\n\n| infinito | imperfetto | congiuntivo |\n|---|---|---|\n| fare | facevo | face==ssi== |\n| dire | dicevo | dice==ssi== |\n| bere | bevevo | beve==ssi== |\n| tradurre | traducevo | traduce==ssi== |\n\n> dicessi, not dissi: dissi is the passato remoto.",
+          "examples": [
+            {
+              "it": "Volevo che mi dicesse la verità.",
+              "en": "I wanted him to tell me the truth."
+            },
+            {
+              "it": "Speravo che facessero meno rumore.",
+              "en": "I hoped they'd make less noise."
+            }
+          ],
+          "id": "cg-06-l2-e03",
+          "stage": "learn"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Volevo che tu mi ___ la verità.",
+          "options": [
+            "dica",
+            "dicessi",
+            "dici",
+            "diresti"
+          ],
+          "answer": 1,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Volevo che (past) takes the congiuntivo imperfetto: dicessi.",
+          "id": "cg-06-l2-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "sort_buckets",
+          "buckets": [
+            "essere",
+            "fare",
+            "dire"
+          ],
+          "items": [
+            {
+              "text": "fossero",
+              "bucket": 0
+            },
+            {
+              "text": "facessimo",
+              "bucket": 1
+            },
+            {
+              "text": "dicesse",
+              "bucket": 2
+            },
+            {
+              "text": "foste",
+              "bucket": 0
+            },
+            {
+              "text": "facesse",
+              "bucket": 1
+            },
+            {
+              "text": "dicessi",
+              "bucket": 2
+            }
+          ],
+          "instruction": "Metti ogni forma sotto il suo verbo.",
+          "explanation": "Fossi/foste belong to essere, face- to fare, dice- to dire.",
+          "id": "cg-06-l2-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "conjugation",
+          "verb": "essere",
+          "tense": "congiuntivo imperfetto",
+          "items": [
+            {
+              "person": "io",
+              "answer": "fossi"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "fosse"
+            },
+            {
+              "person": "voi",
+              "answer": "foste"
+            }
+          ],
+          "instruction": "Scrivi le forme.",
+          "explanation": "Essere is irregular: fossi, fosse, foste.",
+          "id": "cg-06-l2-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Non sapevo che lui ___ (stare) male.",
+          "answers": [
+            "stesse"
+          ],
+          "hint": "stare – lui",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Stare has the special imperfetto stessi, stesse, stessero.",
+          "id": "cg-06-l2-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "choose_mood",
+          "sentence": "Sapevo che Marco ___ sempre la verità.",
+          "verb": "dire",
+          "answer": 0,
+          "forms": [
+            "diceva"
+          ],
+          "instruction": "Sapere (certezza) o credere? Scegli il modo e scrivi il verbo.",
+          "explanation": "Sapevo che states a certainty, so the indicativo imperfetto (diceva), not the congiuntivo.",
+          "id": "cg-06-l2-e08",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "prompt": "Pensa alla tua infanzia. Cosa volevi che i tuoi genitori facessero o dicessero? Di' due frasi con volevo che.",
+          "keywords": [
+            "volevo che",
+            "facessero",
+            "dicessero",
+            "lasciassero"
+          ],
+          "modelAnswer": "Volevo che i miei genitori mi lasciassero giocare di più. Volevo che dicessero sì più spesso!",
+          "instruction": "Rispondi a voce.",
+          "id": "cg-06-l2-e09",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-06-l3",
+      "title": "Trapassato: avessi / fossi + participio",
+      "minutes": 8,
+      "goal": "You can say what you thought had already happened: pensavo che avesse mangiato, credevo che fosse partito.",
+      "takeaway": "For an action before a past main verb use the trapassato: avessi / fossi + participio.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "sentence": "Credo che Luca ___ (partire) ieri.",
+          "answers": [
+            "sia partito"
+          ],
+          "hint": "congiuntivo passato",
+          "instruction": "Riscaldamento: completa.",
+          "explanation": "Credo che + earlier action = congiuntivo passato: sia partito.",
+          "id": "cg-06-l3-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Avessi, fossi + participio",
+          "body": "Form it with the imperfetto of avere or essere + participio. Pick the auxiliary as in the passato prossimo; with essere the participle agrees.\n\n| persona | con avere | con essere |\n|---|---|---|\n| io / tu | ==avessi== mangiato | ==fossi== partito/a |\n| lui / lei | ==avesse== mangiato | ==fosse== partito/a |\n| loro | ==avessero== mangiato | ==fossero== partiti/e |\n\n> ✗ avesse partito: partire takes essere.",
+          "examples": [
+            {
+              "it": "Pensavo che avesse già mangiato.",
+              "en": "I thought he had already eaten."
+            },
+            {
+              "it": "Credevo che fossero partiti.",
+              "en": "I thought they had left."
+            }
+          ],
+          "id": "cg-06-l3-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Insieme o prima?",
+          "body": "Same time as the main verb → imperfetto. Before it → trapassato.\n\n| momento | esempio |\n|---|---|\n| insieme | Pensavo che Luca ==dormisse==. |\n| prima | Pensavo che Luca ==avesse dormito==. |",
+          "examples": [
+            {
+              "it": "Pensavo che Luca dormisse: sentivo il silenzio.",
+              "en": "I thought Luca was sleeping: I could hear the silence."
+            },
+            {
+              "it": "Pensavo che Luca avesse dormito poco.",
+              "en": "I thought Luca had slept little."
+            }
+          ],
+          "id": "cg-06-l3-e03",
+          "stage": "learn"
+        },
+        {
+          "type": "minimal_pair",
+          "sentences": [
+            "Pensavo che Luca dormisse.",
+            "Pensavo che Luca avesse dormito."
+          ],
+          "question": "Quale frase dice che Luca ha dormito PRIMA?",
+          "answer": 1,
+          "translations": [
+            "I thought Luca was sleeping.",
+            "I thought Luca had slept."
+          ],
+          "instruction": "Scegli la frase giusta.",
+          "explanation": "Avesse + participio shows an action before the past main verb.",
+          "id": "cg-06-l3-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "conjugation",
+          "verb": "finire",
+          "tense": "congiuntivo trapassato",
+          "items": [
+            {
+              "person": "io",
+              "answer": "avessi finito"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "avesse finito"
+            },
+            {
+              "person": "loro",
+              "answer": "avessero finito"
+            }
+          ],
+          "instruction": "Scrivi le forme.",
+          "explanation": "Trapassato = imperfetto of avere + participio.",
+          "id": "cg-06-l3-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Pensavo che i vicini ___ (partire) già.",
+          "answers": [
+            "fossero partiti",
+            "fossero partite"
+          ],
+          "hint": "partire – loro, già",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Partire takes essere, so fossero partiti (agreeing with the subject).",
+          "id": "cg-06-l3-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Penso che abbia già pagato.",
+          "cue": "→ Pensavo che…",
+          "answers": [
+            "Pensavo che avesse già pagato.",
+            "Credevo che avesse già pagato."
+          ],
+          "hint": "abbia pagato → avesse pagato",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Congiuntivo passato becomes trapassato when the main verb moves to the past.",
+          "id": "cg-06-l3-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "sentence": "Credevo che Marco avesse uscito.",
+          "answers": [
+            "Credevo che Marco fosse uscito."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "explanation": "Uscire takes essere: fosse uscito.",
+          "id": "cg-06-l3-e08",
+          "stage": "practise"
+        },
+        {
+          "type": "free_write",
+          "prompt": "Un amico non è venuto all'appuntamento. Scrivi un messaggio (30–40 parole): spiega cosa pensavi. Usa pensavo che / credevo che + trapassato almeno due volte.",
+          "minWords": 25,
+          "checklist": [
+            "Pensavo che / credevo che + avessi o fossi + participio",
+            "Auxiliary right (avere o essere)",
+            "Tono amichevole (tu)",
+            "Una domanda finale"
+          ],
+          "modelAnswer": "Ciao Marco, che fine hai fatto? Ti ho aspettato mezz'ora. Pensavo che fossi rimasto bloccato nel traffico, poi credevo che avessi dimenticato l'appuntamento. Tutto bene? Scrivimi appena puoi.",
+          "instruction": "Scrivi il messaggio.",
+          "id": "cg-06-l3-e09",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-06-l4",
+      "title": "Penso che / Pensavo che",
+      "minutes": 8,
+      "goal": "You can match the tense of the congiuntivo to the main verb: one picture for earlier, same time and later.",
+      "takeaway": "Present main verb → presente / passato; past main verb → imperfetto / trapassato; vorrei che asks for the imperfetto.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "sentence": "So che Luca ___ a casa.",
+          "verb": "essere",
+          "answer": 0,
+          "forms": [
+            "è"
+          ],
+          "instruction": "Riscaldamento: scegli il modo e scrivi il verbo.",
+          "explanation": "So che states a certainty, so the indicativo.",
+          "id": "cg-06-l4-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Una sola immagine",
+          "body": "The main verb's tense decides the whole row. Read down.\n\n| | prima | insieme | dopo |\n|---|---|---|---|\n| ==Penso che== | sia venuto | venga | verrà |\n| ==Pensavo che== | fosse venuto | venisse | sarebbe venuto |\n\n> For 'later' Italian often uses the future or condizionale passato. Penso che venga domani works too.",
+          "examples": [
+            {
+              "it": "Penso che sia già arrivato.",
+              "en": "I think he has already arrived."
+            },
+            {
+              "it": "Pensavo che fosse già arrivato.",
+              "en": "I thought he had already arrived."
+            }
+          ],
+          "id": "cg-06-l4-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Vorrei che + imperfetto",
+          "body": "A polite wish with ==vorrei che== asks for the ==imperfetto==, like a past verb. It is softer than *voglio che*.\n\n| desiderio | esempio |\n|---|---|\n| voglio che | Voglio che tu **venga**. |\n| ==vorrei che== | Vorrei che tu ==venissi==. |\n\n> ✗ Vorrei che tu venga.",
+          "examples": [
+            {
+              "it": "Vorrei che mi aiutassi con i moduli.",
+              "en": "I'd like you to help me with the forms."
+            },
+            {
+              "it": "Vorrei che fosse più semplice.",
+              "en": "I wish it were simpler."
+            }
+          ],
+          "id": "cg-06-l4-e03",
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "buckets": [
+            "Prima",
+            "Insieme",
+            "Dopo"
+          ],
+          "items": [
+            {
+              "text": "Penso che sia già uscito",
+              "bucket": 0
+            },
+            {
+              "text": "Pensavo che avesse già mangiato",
+              "bucket": 0
+            },
+            {
+              "text": "Penso che dorma",
+              "bucket": 1
+            },
+            {
+              "text": "Pensavo che dormisse",
+              "bucket": 1
+            },
+            {
+              "text": "Penso che arriverà domani",
+              "bucket": 2
+            },
+            {
+              "text": "Pensavo che sarebbe arrivato domani",
+              "bucket": 2
+            }
+          ],
+          "instruction": "Quando succede l'azione rispetto al verbo principale?",
+          "explanation": "Compare the clause with the main verb: earlier (prima), at the same time (insieme) or later (dopo).",
+          "id": "cg-06-l4-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Ieri pensavo che Luca ___ già tornato a casa.",
+          "options": [
+            "sia",
+            "fosse",
+            "era",
+            "sarebbe"
+          ],
+          "answer": 1,
+          "instruction": "Scegli la forma giusta.",
+          "explanation": "Past main verb + earlier action = congiuntivo trapassato: fosse tornato.",
+          "id": "cg-06-l4-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Penso che Marco sia venuto.",
+          "cue": "→ Pensavo che…",
+          "answers": [
+            "Pensavo che Marco fosse venuto.",
+            "Credevo che Marco fosse venuto."
+          ],
+          "hint": "sia venuto → fosse venuto",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Shift the whole row: congiuntivo passato becomes trapassato.",
+          "id": "cg-06-l4-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Vorrei che tu mi ___ (aiutare) con i moduli.",
+          "answers": [
+            "aiutassi"
+          ],
+          "hint": "aiutare – tu",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Vorrei che asks for the congiuntivo imperfetto.",
+          "id": "cg-06-l4-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "sentence": "Vorrei che tu vieni con noi.",
+          "answers": [
+            "Vorrei che tu venissi con noi."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "explanation": "Vorrei che + imperfetto: venissi.",
+          "id": "cg-06-l4-e08",
+          "stage": "practise"
+        },
+        {
+          "type": "roleplay",
+          "scenario": "Al lavoro: {name} non è venuto alla riunione perché ha frainteso la data. Spiega il malinteso a una collega.",
+          "instruction": "Parla con la collega.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Ma dov'eri ieri? La riunione era alle tre."
+            },
+            {
+              "speaker": "you",
+              "text": "Scusa, pensavo che la riunione fosse domani.",
+              "hint": "Pensavo che + imperfetto di essere",
+              "keywords": [
+                "pensavo che",
+                "fosse"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Non hai letto la mail?"
+            },
+            {
+              "speaker": "you",
+              "text": "No, pensavo che aveste cambiato la data.",
+              "hint": "Pensavo che + trapassato (voi)",
+              "keywords": [
+                "pensavo che",
+                "aveste"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Capisco. Domani c'è una riunione di recupero. Vuoi venire?"
+            },
+            {
+              "speaker": "you",
+              "text": "Volentieri. Vorrei che mi mandaste l'ordine del giorno.",
+              "hint": "Vorrei che + imperfetto (voi)",
+              "keywords": [
+                "vorrei che",
+                "mandaste"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Va bene, te lo mando subito."
+            }
+          ],
+          "id": "cg-06-l4-e09",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "cg-06-l5",
+      "title": "Checkpoint: congiuntivo e indicativo",
+      "minutes": 10,
+      "goal": "You can choose between indicativo, congiuntivo and infinitive across the whole track and write a clear email.",
+      "takeaway": "Fact or filtered through someone's mind? Then match the tense to the main verb.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "sentence": "Anche se ___ tardi, aspetto ancora.",
+          "verb": "essere",
+          "answer": 0,
+          "forms": [
+            "è"
+          ],
+          "instruction": "Riscaldamento: scegli il modo e scrivi il verbo.",
+          "explanation": "Anche se states a fact, so the indicativo.",
+          "id": "cg-06-l5-e01",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "title": "La mappa del congiuntivo",
+          "body": "Ask: fact, or filtered through someone's mind? Then match the tense.\n\n| situazione | forma |\n|---|---|\n| certezza, fatto (so che, è chiaro che) | ==indicativo== |\n| opinione, dubbio, desiderio, emozione | ==congiuntivo== |\n| benché, purché, affinché, prima che | ==congiuntivo== |\n| stesso soggetto | ==infinito== (prima di, senza, di) |\n\nPresent main verb: presente or passato. Past main verb: imperfetto or trapassato.\n\n> Same subject: Penso di avere ragione.",
+          "examples": [
+            {
+              "it": "Credo che sia tardi.",
+              "en": "I think it's late."
+            },
+            {
+              "it": "Pensavo che fosse già partito.",
+              "en": "I thought he had already left."
+            }
+          ],
+          "id": "cg-06-l5-e02",
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "buckets": [
+            "Indicativo",
+            "Congiuntivo",
+            "Infinito"
+          ],
+          "items": [
+            {
+              "text": "Sappiamo che…",
+              "bucket": 0
+            },
+            {
+              "text": "Dubito che…",
+              "bucket": 1
+            },
+            {
+              "text": "Anche se…",
+              "bucket": 0
+            },
+            {
+              "text": "Prima che…",
+              "bucket": 1
+            },
+            {
+              "text": "Prima di…",
+              "bucket": 2
+            },
+            {
+              "text": "Siamo contenti di…",
+              "bucket": 2
+            }
+          ],
+          "instruction": "Cosa segue? Metti ogni inizio nel gruppo giusto.",
+          "explanation": "Facts take the indicativo, filtered ideas and always-congiuntivo connectors take the congiuntivo, same subject takes the infinitive.",
+          "id": "cg-06-l5-e03",
+          "stage": "practise"
+        },
+        {
+          "type": "choose_mood",
+          "sentence": "Sapevo che Marco ___ in ritardo.",
+          "verb": "essere",
+          "answer": 0,
+          "forms": [
+            "era"
+          ],
+          "instruction": "Scegli il modo e scrivi il verbo.",
+          "explanation": "Sapevo che states a certainty, so the indicativo imperfetto: era.",
+          "id": "cg-06-l5-e04",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Benché ___ (stare) male, Luca è venuto al lavoro.",
+          "answers": [
+            "stesse"
+          ],
+          "hint": "stare – lui, passato",
+          "instruction": "Completa con il verbo tra parentesi.",
+          "explanation": "Benché + congiuntivo; with a past main verb the same-time form is the imperfetto: stesse.",
+          "id": "cg-06-l5-e05",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "source": "Penso che Anna sia in ritardo.",
+          "cue": "→ Pensavo che…",
+          "answers": [
+            "Pensavo che Anna fosse in ritardo.",
+            "Credevo che Anna fosse in ritardo."
+          ],
+          "hint": "sia → fosse",
+          "instruction": "Riscrivi la frase.",
+          "explanation": "A past main verb pulls the clause into the imperfetto: sia → fosse.",
+          "id": "cg-06-l5-e06",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "sentence": "Ti presto il libro purché me lo restituisci.",
+          "answers": [
+            "Ti presto il libro purché me lo restituisca.",
+            "Ti presto il libro purché tu me lo restituisca.",
+            "Ti presto il libro a patto che tu me lo restituisca.",
+            "Ti presto il libro a condizione che tu me lo restituisca."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "explanation": "Purché always takes the congiuntivo: restituisca.",
+          "id": "cg-06-l5-e07",
+          "stage": "practise"
+        },
+        {
+          "type": "free_write",
+          "prompt": "Un collega ha cambiato la data di una consegna senza avvisarti. Scrivi un'email (50–70 parole): spiega il malinteso (pensavo che…), chiedi qualcosa (vorrei che…) e usa un connettore come benché, affinché o prima che.",
+          "minWords": 45,
+          "checklist": [
+            "Pensavo che + imperfetto / trapassato",
+            "Vorrei che + imperfetto",
+            "Un connettore con il congiuntivo",
+            "Tono cortese e chiaro"
+          ],
+          "modelAnswer": "Ciao Paolo,\nti scrivo per chiarire un malinteso. Pensavo che la consegna fosse venerdì, ma ho scoperto che l'avevate anticipata a mercoledì. Benché io capisca le vostre ragioni, vorrei che in futuro mi avvisaste prima di cambiare le date, affinché io possa organizzarmi. Grazie per la comprensione.\nA presto,\n{name}",
+          "instruction": "Scrivi l'email.",
+          "id": "cg-06-l5-e08",
+          "stage": "use"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "immaginare",
+      "en": "to imagine",
+      "example": "Immaginavo che fosse più facile."
+    },
+    {
+      "it": "supporre",
+      "en": "to suppose",
+      "example": "Suppongo che sia già partito."
+    },
+    {
+      "it": "ritenere",
+      "en": "to consider, to believe (formal)",
+      "example": "Riteniamo che la soluzione sia giusta."
+    },
+    {
+      "it": "aspettarsi",
+      "en": "to expect",
+      "example": "Mi aspettavo che chiamasse."
+    },
+    {
+      "it": "sembrare che",
+      "en": "to seem that",
+      "example": "Sembrava che nessuno sapesse niente."
+    },
+    {
+      "it": "il malinteso",
+      "en": "misunderstanding",
+      "example": "C'è stato un malinteso sulla data."
+    },
+    {
+      "it": "fraintendere",
+      "en": "to misunderstand",
+      "example": "Ho frainteso le sue parole."
+    },
+    {
+      "it": "accorgersi di",
+      "en": "to notice, to realise",
+      "example": "Si è accorto dell'errore troppo tardi."
+    },
+    {
+      "it": "rendersi conto",
+      "en": "to realise",
+      "example": "Ci siamo resi conto dell'errore."
+    },
+    {
+      "it": "rimandare",
+      "en": "to postpone",
+      "example": "Hanno rimandato la riunione a lunedì."
+    },
+    {
+      "it": "il dubbio",
+      "en": "doubt",
+      "example": "Avevo qualche dubbio."
+    },
+    {
+      "it": "la delusione",
+      "en": "disappointment",
+      "example": "Che delusione quella partita!"
+    },
+    {
+      "it": "peccato che",
+      "en": "it's a pity that",
+      "example": "Peccato che non sia venuto."
+    },
+    {
+      "it": "meno male che",
+      "en": "thank goodness",
+      "example": "Meno male che sei arrivato."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-06-t1",
+      "rule": "Imperfetto: -assi, -essi, -issi",
+      "tip": "After a past verb, use the imperfect subjunctive: -ssi, -ssi, -sse, -ssimo, -ste, -ssero.",
+      "example": {
+        "it": "Pensavo che partisse presto.",
+        "en": "I thought he was leaving early."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Pensavo che Anna ___ (partire) presto.",
+        "answers": [
+          "partisse"
+        ],
+        "hint": "partire – lei"
+      }
+    },
+    {
+      "id": "cg-06-t2",
+      "rule": "Fossi, dessi, stessi, facessi",
+      "tip": "Essere, dare, stare are special; fare, dire, bere use their imperfetto stem + -ssi.",
+      "example": {
+        "it": "Volevo che fosse vero.",
+        "en": "I wanted it to be true."
+      },
+      "challenge": {
+        "type": "conjugation",
+        "verb": "essere",
+        "tense": "congiuntivo imperfetto",
+        "items": [
+          {
+            "person": "io",
+            "answer": "fossi"
+          },
+          {
+            "person": "lui/lei",
+            "answer": "fosse"
+          },
+          {
+            "person": "loro",
+            "answer": "fossero"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cg-06-t3",
+      "rule": "Trapassato: avesse / fosse + part.",
+      "tip": "For an action before a past main verb: avessi / fossi + participio.",
+      "example": {
+        "it": "Pensavo che fosse partito.",
+        "en": "I thought he had left."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Pensavo che i bambini ___ già mangiato.",
+        "options": [
+          "abbiano",
+          "avessero",
+          "hanno",
+          "avrebbero"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "cg-06-t4",
+      "rule": "Penso che → Pensavo che",
+      "tip": "A past main verb moves the clause back: sia venuto → fosse venuto, venga → venisse.",
+      "example": {
+        "it": "Pensavo che venisse.",
+        "en": "I thought he was coming."
+      },
+      "challenge": {
+        "type": "transform",
+        "source": "Penso che sia venuto.",
+        "cue": "→ Pensavo che…",
+        "answers": [
+          "Pensavo che fosse venuto."
+        ],
+        "hint": "sia venuto → fosse venuto"
+      }
+    },
+    {
+      "id": "cg-06-t5",
+      "rule": "Vorrei che + imperfetto",
+      "tip": "A polite wish with vorrei che takes the imperfetto: vorrei che tu venissi.",
+      "example": {
+        "it": "Vorrei che tu venissi.",
+        "en": "I'd like you to come."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Vorrei che tu ___ (venire) con noi.",
+        "answers": [
+          "venissi"
+        ],
+        "hint": "venire – tu"
+      }
+    }
+  ]
+}

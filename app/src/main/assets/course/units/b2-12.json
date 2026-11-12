@@ -7,9 +7,9 @@
   "remedialUnitIds": [
     "b2-04",
     "b2-08",
-    "b2-09",
+    "cg-07",
     "b2-10",
-    "b2-11"
+    "cg-05"
   ],
   "lessons": [
     {
@@ -663,7 +663,7 @@
             "Ho usato pensavo che + congiuntivo imperfetto.",
             "Il testo ha tra 120 e 180 parole."
           ],
-          "modelAnswer": "Caro Tommaso,\nche bella notizia! Sono contentissimo che tu abbia deciso di venire a studiare qui per sei mesi.\nTi do qualche consiglio, visto che anch'io sono passato per le stesse difficoltà. Prima di tutto, se fossi in te, comincerei a cercare casa subito: le stanze per studenti sono poche e spariscono in fretta. Quando sono arrivato io, pensavo che fosse facile trovare una stanza a settembre e invece ho dormito due settimane in un ostello. Se avessi cercato prima, avrei risparmiato un sacco di soldi e di stress!\nPoi ti consiglio di iscriverti a un corso di lingua, a meno che tu non preferisca imparare parlando con la gente. Io ho fatto tutte e due le cose e, pur avendo poco tempo, ho fatto progressi enormi.\nInsomma, ti aspetto! Ti posso ospitare io per i primi giorni, purché tu non abbia paura del mio divano scomodo.\nUn abbraccio,\nRichard",
+          "modelAnswer": "Caro Tommaso,\nche bella notizia! Sono contentissimo che tu abbia deciso di venire a studiare qui per sei mesi.\nTi do qualche consiglio, visto che anch'io sono passato per le stesse difficoltà. Prima di tutto, se fossi in te, comincerei a cercare casa subito: le stanze per studenti sono poche e spariscono in fretta. Quando sono arrivato io, pensavo che fosse facile trovare una stanza a settembre e invece ho dormito due settimane in un ostello. Se avessi cercato prima, avrei risparmiato un sacco di soldi e di stress!\nPoi ti consiglio di iscriverti a un corso di lingua, a meno che tu non preferisca imparare parlando con la gente. Io ho fatto tutte e due le cose e, pur avendo poco tempo, ho fatto progressi enormi.\nInsomma, ti aspetto! Ti posso ospitare io per i primi giorni, purché tu non abbia paura del mio divano scomodo.\nUn abbraccio,\n{name}",
           "instruction": "Scrivi un'email informale (compito in stile CELI)."
         },
         {

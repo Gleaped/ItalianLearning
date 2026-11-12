@@ -687,7 +687,7 @@
             "Ho usato almeno un imperativo con Lei (mi faccia sapere, mi chiami…).",
             "Ho dato del Lei in tutta l'email."
           ],
-          "modelAnswer": "Gentile amministratore,\nla ringrazio per l'email e per l'organizzazione dell'intervento. Purtroppo martedì mattina sarò al lavoro fuori città e non potrò essere a casa. Sarebbe possibile spostare l'intervento a mercoledì pomeriggio o a giovedì dopo le 17? Se per il tecnico queste date non vanno bene, potrei lasciare le chiavi alla portinaia: in questo caso il tecnico dovrebbe solo passare a prenderle e riportargliele alla fine del lavoro. Il balcone sarà libero. Mi faccia sapere quale soluzione preferisce, così mi organizzerò.\nCordiali saluti,\nRichard"
+          "modelAnswer": "Gentile amministratore,\nla ringrazio per l'email e per l'organizzazione dell'intervento. Purtroppo martedì mattina sarò al lavoro fuori città e non potrò essere a casa. Sarebbe possibile spostare l'intervento a mercoledì pomeriggio o a giovedì dopo le 17? Se per il tecnico queste date non vanno bene, potrei lasciare le chiavi alla portinaia: in questo caso il tecnico dovrebbe solo passare a prenderle e riportargliele alla fine del lavoro. Il balcone sarà libero. Mi faccia sapere quale soluzione preferisce, così mi organizzerò.\nCordiali saluti,\n{name}"
         },
         {
           "type": "speak_respond",

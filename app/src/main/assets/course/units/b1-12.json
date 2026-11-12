@@ -756,7 +756,7 @@
             "Ho usato il futuro per la prossima volta.",
             "Ho usato saluti informali e almeno tre connettivi (però, quindi, insomma, alla fine)."
           ],
-          "modelAnswer": "Caro Luca,\ncome stai? Ti racconto la mia avventura alle Poste. La settimana scorsa dovevo spedire un pacco a mia sorella. Avevo preparato tutto la sera prima, quindi ero tranquillo. Quando sono arrivato, però, c'era una fila lunghissima e mancava il modulo di cui avevo bisogno. Ho aspettato quasi un'ora! Alla fine un'impiegata molto gentile mi ha aiutato a compilarlo. Insomma, penso che il personale sia bravo, ma mi sembra che gli uffici abbiano troppo poco personale. La prossima volta prenoterò il turno con l'app e porterò il modulo già compilato, così non perderò tempo. E tu? Hai avuto esperienze simili? Fammi sapere!\nUn abbraccio,\nRichard"
+          "modelAnswer": "Caro Luca,\ncome stai? Ti racconto la mia avventura alle Poste. La settimana scorsa dovevo spedire un pacco a mia sorella. Avevo preparato tutto la sera prima, quindi ero tranquillo. Quando sono arrivato, però, c'era una fila lunghissima e mancava il modulo di cui avevo bisogno. Ho aspettato quasi un'ora! Alla fine un'impiegata molto gentile mi ha aiutato a compilarlo. Insomma, penso che il personale sia bravo, ma mi sembra che gli uffici abbiano troppo poco personale. La prossima volta prenoterò il turno con l'app e porterò il modulo già compilato, così non perderò tempo. E tu? Hai avuto esperienze simili? Fammi sapere!\nUn abbraccio,\n{name}"
         },
         {
           "type": "speak_respond",

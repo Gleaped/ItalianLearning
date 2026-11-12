@@ -1,0 +1,874 @@
+{
+  "id": "cg-07",
+  "level": "B2",
+  "title": "Se l'avessi saputo…",
+  "format": 2,
+  "module": "b2-m4",
+  "track": "congiuntivo",
+  "objective": "By the end you can talk about real and imagined conditions, what would have happened, mixed past-and-present hypotheses, wishes and regrets with magari, and comparisons with come se.",
+  "grammarFocus": "Se + indicativo (reale) vs se + congiuntivo imperfetto (irreale); se + congiuntivo trapassato → condizionale passato; periodo misto; errori classici (se sarei); magari e se solo + imperfetto/trapassato; come se; se lo sapevo, venivo (parlato).",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "cg-07-l1",
+      "title": "Reale o immaginario?",
+      "minutes": 6,
+      "goal": "You can tell a real condition from an imagined one and pick the right verbs.",
+      "takeaway": "Real: se + indicativo. Imagined: se + congiuntivo imperfetto, then the condizionale.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "id": "cg-07-l1-e01",
+          "stage": "warmup",
+          "sentence": "Credo che Marta ___ già a casa.",
+          "verb": "essere",
+          "answer": 1,
+          "forms": [
+            "sia"
+          ],
+          "instruction": "Riscaldamento: quale modo? Poi scrivi la forma.",
+          "explanation": "Credere (an opinion) asks for the congiuntivo presente."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l1-e02",
+          "stage": "learn",
+          "title": "Real or imagined?",
+          "body": "Ask: is the condition real or likely, or only imagined?\n\n| | se… | result |\n|---|---|---|\n| real | se ho tempo | vengo |\n| imagined | se ==avessi== tempo | verrei |\n\n> After imagined **se**, never the condizionale: ✗ se avrei tempo.",
+          "examples": [
+            {
+              "it": "Se ho tempo, passo da te.",
+              "en": "If I have time, I'll drop by (I probably will)."
+            },
+            {
+              "it": "Se avessi tempo, passerei da te.",
+              "en": "If I had time, I'd drop by (but I don't)."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l1-e03",
+          "stage": "learn",
+          "title": "Congiuntivo imperfetto: endings",
+          "body": "Take the imperfetto stem and add ==-ssi, -ssi, -sse, -ssimo, -ste, -ssero==. **io** and **tu** look the same, so add the pronoun if it is unclear.\n\n| verbo | io / tu | lui / lei | noi | voi | loro |\n|---|---|---|---|---|---|\n| parlare | parla==ssi== | parla==sse== | parla==ssimo== | parla==ste== | parla==ssero== |\n| essere | ==fossi== | ==fosse== | ==fossimo== | ==foste== | ==fossero== |\n| avere | ==avessi== | ==avesse== | ==avessimo== | ==aveste== | ==avessero== |\n\n> Irregular stems: fare → ==facessi==, dire → ==dicessi==, stare → ==stessi==, dare → ==dessi==.",
+          "examples": [
+            {
+              "it": "Se fossi te, direi di sì.",
+              "en": "If I were you, I'd say yes."
+            },
+            {
+              "it": "Se avessimo più tempo, faremmo una gita.",
+              "en": "If we had more time, we'd go on a trip."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-07-l1-e04",
+          "stage": "practise",
+          "buckets": [
+            "reale (indicativo)",
+            "immaginata (congiuntivo)"
+          ],
+          "items": [
+            {
+              "text": "Se ho tempo, vengo.",
+              "bucket": 0
+            },
+            {
+              "text": "Se avessi tempo, verrei.",
+              "bucket": 1
+            },
+            {
+              "text": "Se piove, restiamo a casa.",
+              "bucket": 0
+            },
+            {
+              "text": "Se vincessi alla lotteria, comprerei una barca.",
+              "bucket": 1
+            },
+            {
+              "text": "Se arrivi presto, aspettami.",
+              "bucket": 0
+            },
+            {
+              "text": "Se fossi in te, direi di sì.",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Questa condizione è reale o immaginata? Dividi le frasi.",
+          "explanation": "A real or likely condition takes the indicativo; an imagined one takes the congiuntivo imperfetto."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-07-l1-e05",
+          "stage": "practise",
+          "sentences": [
+            "Se ho tempo, vengo alla festa.",
+            "Se avessi tempo, verrei alla festa."
+          ],
+          "question": "In quale frase la persona pensa di non avere tempo?",
+          "answer": 1,
+          "translations": [
+            "If I have time, I'll come to the party.",
+            "If I had time, I'd come to the party."
+          ],
+          "instruction": "Leggi le frasi e scegli.",
+          "explanation": "Se + congiuntivo imperfetto presents the condition as imagined or unlikely."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-07-l1-e06",
+          "stage": "practise",
+          "sentence": "Se ___ più soldi, viaggerei di più.",
+          "verb": "avere",
+          "answer": 1,
+          "forms": [
+            "avessi"
+          ],
+          "instruction": "Quale modo? Poi scrivi la forma.",
+          "explanation": "An imagined present condition takes se + congiuntivo imperfetto.",
+          "options": [
+            "indicativo presente",
+            "congiuntivo imperfetto",
+            "condizionale"
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-07-l1-e07",
+          "stage": "practise",
+          "sentence": "Se Anna ___ (stare) meglio, verrebbe con noi.",
+          "answers": [
+            "stesse"
+          ],
+          "hint": "stare – lei",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "Stare has the irregular congiuntivo imperfetto stesse."
+        },
+        {
+          "type": "transform",
+          "id": "cg-07-l1-e08",
+          "stage": "practise",
+          "source": "Se ho tempo, faccio un corso di cucina.",
+          "cue": "Se… (ipotesi irreale)",
+          "answers": [
+            "Se avessi tempo, farei un corso di cucina.",
+            "Se avessi tempo farei un corso di cucina.",
+            "Farei un corso di cucina se avessi tempo."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Turning a real condition into an imagined one changes se + indicativo to se + congiuntivo imperfetto and the result to the condizionale.",
+          "hint": "avere → avessi; fare → farei"
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-07-l1-e09",
+          "stage": "use",
+          "prompt": "Se avessi un mese libero, che cosa faresti? Dimmi tre cose.",
+          "keywords": [
+            "se avessi",
+            "farei",
+            "andrei"
+          ],
+          "modelAnswer": "Se avessi un mese libero, farei un lungo viaggio in Sicilia. Se avessi abbastanza soldi, andrei anche in Grecia. Poi dormirei fino a tardi ogni mattina!",
+          "instruction": "Rispondi ad alta voce in 3 o 4 frasi."
+        }
+      ]
+    },
+    {
+      "id": "cg-07-l2",
+      "title": "Se l'avessi saputo…",
+      "minutes": 7,
+      "goal": "You can say what would have happened if the past had gone differently.",
+      "takeaway": "Unreal past: se + congiuntivo trapassato, then the condizionale passato.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-07-l2-e01",
+          "stage": "warmup",
+          "prompt": "Se avessi tempo, ___ di più.",
+          "options": [
+            "viaggerò",
+            "viaggerei",
+            "viaggio",
+            "viaggiassi"
+          ],
+          "answer": 1,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Warm-up: se + congiuntivo imperfetto is followed by the condizionale presente."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l2-e02",
+          "stage": "learn",
+          "title": "Unreal past",
+          "body": "Same pattern, one step back in time. The condition is the ==congiuntivo trapassato== (avessi / fossi + participle). The result is the ==condizionale passato== (avrei / sarei + participle).\n\n| | se… | result |\n|---|---|---|\n| now | se avessi tempo | verrei |\n| past | se ==avessi avuto== tempo | ==sarei venuto== |\n\n> Not ✗ se avevo saputo, not ✗ se avrei saputo: say ==se avessi saputo==.",
+          "examples": [
+            {
+              "it": "Se l'avessi saputo, ti avrei avvisato.",
+              "en": "If I had known, I would have told you."
+            },
+            {
+              "it": "Se fossimo partiti prima, non avremmo trovato traffico.",
+              "en": "If we had left earlier, we wouldn't have hit traffic."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l2-e03",
+          "stage": "learn",
+          "title": "Essere or avere?",
+          "body": "Use the same auxiliary you use in the passato prossimo. With ==essere== the participle agrees with the subject.\n\n| verbo | se… | result |\n|---|---|---|\n| arrivare | se Anna ==fosse arrivata== | ==sarebbe entrata== |\n| sapere | se ==avessimo saputo== | ==avremmo chiamato== |\n\n> Reflexive verbs take essere: se mi ==fossi svegliato==, non avrei perso il treno.",
+          "examples": [
+            {
+              "it": "Se Anna fosse arrivata prima, sarebbe entrata con noi.",
+              "en": "If Anna had arrived earlier, she would have come in with us."
+            },
+            {
+              "it": "Se mi fossi svegliata prima, non avrei perso il treno.",
+              "en": "If I had woken up earlier, I wouldn't have missed the train."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-07-l2-e04",
+          "stage": "practise",
+          "sentences": [
+            "Se studiassi di più, passeresti l'esame.",
+            "Se avessi studiato di più, avresti passato l'esame."
+          ],
+          "question": "Quale frase parla di un esame già andato male?",
+          "answer": 1,
+          "translations": [
+            "If you studied more, you would pass the exam.",
+            "If you had studied more, you would have passed the exam."
+          ],
+          "instruction": "Leggi le frasi e scegli.",
+          "explanation": "Se + congiuntivo trapassato looks back at a past that cannot change."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-07-l2-e05",
+          "stage": "practise",
+          "sentence": "Se mi ___ prima, non avrei fatto tardi.",
+          "verb": "svegliare",
+          "answer": 1,
+          "forms": [
+            "fossi svegliato",
+            "fossi svegliata"
+          ],
+          "instruction": "Quale tempo? Poi scrivi la forma.",
+          "explanation": "A past condition that did not happen takes the congiuntivo trapassato; svegliarsi uses essere.",
+          "options": [
+            "congiuntivo imperfetto",
+            "congiuntivo trapassato",
+            "condizionale passato"
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-07-l2-e06",
+          "stage": "practise",
+          "sentence": "Se ___ (prenotare – noi), avremmo trovato posto.",
+          "answers": [
+            "avessimo prenotato"
+          ],
+          "hint": "prenotare – noi",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "A past condition that did not happen takes the congiuntivo trapassato."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-07-l2-e07",
+          "stage": "practise",
+          "audioText": "Se l'avessi saputo, sarei venuto prima.",
+          "answers": [
+            "Se l'avessi saputo, sarei venuto prima.",
+            "Se l'avessi saputo sarei venuto prima.",
+            "Se lo avessi saputo, sarei venuto prima.",
+            "Se lo avessi saputo sarei venuto prima.",
+            "Se l'avessi saputo, sarei venuta prima.",
+            "Se l'avessi saputo sarei venuta prima.",
+            "Se lo avessi saputo, sarei venuta prima.",
+            "Se lo avessi saputo sarei venuta prima."
+          ],
+          "slow": false,
+          "instruction": "Ascolta e scrivi la frase.",
+          "explanation": "Unreal past: se + congiuntivo trapassato, then the condizionale passato."
+        },
+        {
+          "type": "transform",
+          "id": "cg-07-l2-e08",
+          "stage": "practise",
+          "source": "Non lo sapevo, quindi non sono venuto.",
+          "cue": "Se l'avessi saputo…",
+          "answers": [
+            "Se l'avessi saputo, sarei venuto.",
+            "Se l'avessi saputo sarei venuto.",
+            "Se lo avessi saputo, sarei venuto.",
+            "Se lo avessi saputo sarei venuto.",
+            "Se l'avessi saputo, sarei venuta.",
+            "Se lo avessi saputo, sarei venuta."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "To undo a past fact, use se + congiuntivo trapassato and the condizionale passato.",
+          "hint": "venire → sarei venuto"
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-07-l2-e09",
+          "stage": "use",
+          "scenario": "Ieri sera {name} ha saltato la cena di Anna senza avvisare. Anna chiama il giorno dopo. Spiega e scusati con ipotesi del passato.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Ieri sera ti abbiamo aspettato a cena. Che è successo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Scusami, avevo la febbre e non ho avvisato. Se vi avessi avvisato, non avreste aspettato tutta la sera.",
+              "hint": "Se + avvisare, poi non aspettare.",
+              "keywords": [
+                "se",
+                "avessi",
+                "avreste"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Pazienza! Se almeno ci avessi scritto un messaggio, avremmo ordinato senza aspettare."
+            },
+            {
+              "speaker": "you",
+              "text": "Hai ragione. Se avessi avuto il telefono carico, vi avrei scritto subito.",
+              "hint": "Se + avere il telefono carico…",
+              "keywords": [
+                "se",
+                "avessi",
+                "avrei"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Dai, non fa niente. Ci vediamo sabato?"
+            },
+            {
+              "speaker": "you",
+              "text": "Volentieri! Sabato porto io il dolce."
+            }
+          ],
+          "instruction": "Recita la conversazione."
+        }
+      ]
+    },
+    {
+      "id": "cg-07-l3",
+      "title": "Se avessi studiato, ora parlerei",
+      "minutes": 8,
+      "goal": "You can mix past and present in one hypothesis and avoid the classic errors.",
+      "takeaway": "Each half follows its own time: past cause = trapassato, present result = condizionale presente.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-07-l3-e01",
+          "stage": "warmup",
+          "sentence": "Se ___ (sapere – io), ti avrei chiamato.",
+          "answers": [
+            "avessi saputo"
+          ],
+          "hint": "sapere – io",
+          "instruction": "Riscaldamento: completa la frase.",
+          "explanation": "Warm-up: unreal past needs the congiuntivo trapassato after se."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l3-e02",
+          "stage": "learn",
+          "title": "Mixed hypotheticals",
+          "body": "Each half has its own time. A past cause with a present result mixes the two patterns.\n\n| cause (past) | result (now) |\n|---|---|\n| se ==avessi studiato== | ==parlerei== meglio |\n| se ==fossi stato== più paziente | ==avrei== ancora amici |\n\n> Ask: when is each half? Past → trapassato. Now → condizionale presente.",
+          "examples": [
+            {
+              "it": "Se avessi studiato di più, ora parlerei meglio.",
+              "en": "If I had studied more, I would speak better now."
+            },
+            {
+              "it": "Se fossi più paziente, non avrei litigato con lui.",
+              "en": "If I were more patient, I wouldn't have argued with him."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l3-e03",
+          "stage": "learn",
+          "title": "The classic errors",
+          "body": "English speakers often copy 'would' after if. Italian never does.\n\n| ✗ | ✓ |\n|---|---|\n| se ==sarei== venuto | se ==fossi== venuto |\n| se ==avrei== tempo | se ==avessi== tempo |\n| se ==avevo== saputo | se ==avessi== saputo |\n\n> Spoken Italian does say *se lo sapevo, venivo*. It exists, but use the standard form in the exam and in writing.",
+          "examples": [
+            {
+              "it": "Se lo sapevo, venivo. (parlato)",
+              "en": "If I'd known, I'd have come. (colloquial)"
+            },
+            {
+              "it": "Se l'avessi saputo, sarei venuto. (standard)",
+              "en": "If I had known, I would have come. (standard)"
+            }
+          ]
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-07-l3-e04",
+          "stage": "practise",
+          "sentence": "Se ___ di più, ora parlerei meglio.",
+          "verb": "studiare",
+          "answer": 1,
+          "forms": [
+            "avessi studiato"
+          ],
+          "instruction": "Quale tempo? Poi scrivi la forma.",
+          "explanation": "The cause is in the past, so se takes the congiuntivo trapassato; the result is the condizionale presente.",
+          "options": [
+            "congiuntivo imperfetto",
+            "congiuntivo trapassato",
+            "condizionale"
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-07-l3-e05",
+          "stage": "practise",
+          "buckets": [
+            "tipo 3 (passato)",
+            "misto",
+            "tipo 2 (presente)"
+          ],
+          "items": [
+            {
+              "text": "Se avessi studiato, avrei passato l'esame.",
+              "bucket": 0
+            },
+            {
+              "text": "Se avessi studiato, ora parlerei meglio.",
+              "bucket": 1
+            },
+            {
+              "text": "Se studiassi, parleresti meglio.",
+              "bucket": 2
+            },
+            {
+              "text": "Se avessi preso il treno, sarei già a casa.",
+              "bucket": 1
+            },
+            {
+              "text": "Se non fosse stato per il traffico, saremmo arrivati in tempo.",
+              "bucket": 0
+            },
+            {
+              "text": "Se potessi, partirei oggi.",
+              "bucket": 2
+            }
+          ],
+          "instruction": "Quando succedono le due metà? Dividi le frasi.",
+          "explanation": "Check the time of each half: both past = type 3, one past and one now = mixed, both now = type 2."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-07-l3-e06",
+          "stage": "practise",
+          "sentence": "Se avessi accettato quel lavoro, ora ___ (vivere) a Milano.",
+          "answers": [
+            "vivrei"
+          ],
+          "hint": "vivere – io",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "A past cause with a present result takes the condizionale presente."
+        },
+        {
+          "type": "error_correction",
+          "id": "cg-07-l3-e07",
+          "stage": "practise",
+          "sentence": "Se sarei partito prima, ora sarei già a casa.",
+          "answers": [
+            "Se fossi partito prima, ora sarei già a casa.",
+            "Se fossi partita prima, ora sarei già a casa.",
+            "Se fossi partito prima ora sarei già a casa.",
+            "Se fossi partita prima ora sarei già a casa."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "After se, never the condizionale: use the congiuntivo trapassato (fossi partito)."
+        },
+        {
+          "type": "transform",
+          "id": "cg-07-l3-e08",
+          "stage": "practise",
+          "source": "Non ho studiato abbastanza, quindi ora non parlo bene.",
+          "cue": "Se avessi studiato…",
+          "answers": [
+            "Se avessi studiato abbastanza, ora parlerei bene.",
+            "Se avessi studiato di più, ora parlerei meglio.",
+            "Se avessi studiato abbastanza, ora parlerei meglio.",
+            "Se avessi studiato abbastanza ora parlerei bene.",
+            "Se avessi studiato di più ora parlerei meglio."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Past cause (trapassato) plus present result (condizionale presente) gives a mixed hypothetical.",
+          "hint": "parlare → parlerei"
+        },
+        {
+          "type": "free_write",
+          "id": "cg-07-l3-e09",
+          "stage": "use",
+          "prompt": "Pensa a una decisione del passato (un lavoro, un trasferimento, uno studio). Scrivi 4 o 5 frasi: che cosa sarebbe successo, e come sarebbe la tua vita oggi?",
+          "minWords": 40,
+          "checklist": [
+            "Almeno due frasi con se + congiuntivo trapassato",
+            "Almeno una frase mista con il condizionale presente",
+            "Nessun condizionale dopo se",
+            "Accordo del participio con essere"
+          ],
+          "modelAnswer": "Se avessi accettato quel lavoro a Torino, ora vivrei in un'altra città. Avrei conosciuto altre persone e forse non avrei mai iniziato a studiare italiano. Se avessi rifiutato prima, non avrei perso tre mesi a decidere. Con il senno di poi, non cambierei niente.",
+          "instruction": "Scrivi il testo."
+        }
+      ]
+    },
+    {
+      "id": "cg-07-l4",
+      "title": "Magari! e come se",
+      "minutes": 7,
+      "goal": "You can voice wishes and regrets with magari and compare with come se.",
+      "takeaway": "Magari / come se + congiuntivo: imperfetto for the same time, trapassato for before.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-07-l4-e01",
+          "stage": "warmup",
+          "prompt": "Se ___ il mio numero, mi avresti chiamato.",
+          "options": [
+            "avessi avuto",
+            "avevi avuto",
+            "avresti avuto",
+            "hai avuto"
+          ],
+          "answer": 0,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Warm-up: unreal past takes the congiuntivo trapassato after se."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l4-e02",
+          "stage": "learn",
+          "title": "Magari: wishes and regrets",
+          "body": "**Magari** + ==congiuntivo imperfetto== is a wish about now. **Magari** + ==congiuntivo trapassato== is a regret about the past. **Se solo** works the same way.\n\n| time | example | meaning |\n|---|---|---|\n| now | Magari ==fosse== qui! | if only he were here |\n| past | Magari ==avessi studiato==! | if only I had studied |\n\n> *Magari vengo* (indicativo) just means 'maybe I'll come': no wish.",
+          "examples": [
+            {
+              "it": "Magari avessi più tempo libero!",
+              "en": "If only I had more free time!"
+            },
+            {
+              "it": "Se solo fossimo partiti prima!",
+              "en": "If only we had left earlier!"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-07-l4-e03",
+          "stage": "learn",
+          "title": "Come se",
+          "body": "**Come se** (as if) always takes the congiuntivo, even after a past main verb. Imperfetto = same time; trapassato = before.\n\n| time | example | meaning |\n|---|---|---|\n| same | Parla come se ==sapesse== tutto. | as if he knew it all |\n| before | Mi guarda come se non mi ==avesse visto== mai. | as if he had never seen me |\n\n> ✗ come se è, ✗ come se sarebbe.",
+          "examples": [
+            {
+              "it": "Fai come se fossi a casa tua.",
+              "en": "Make yourself at home."
+            },
+            {
+              "it": "Mi ha salutato come se niente fosse.",
+              "en": "He greeted me as if nothing had happened."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-07-l4-e04",
+          "stage": "practise",
+          "sentences": [
+            "Magari vengo con voi, non lo so ancora.",
+            "Magari venisse con noi!"
+          ],
+          "question": "Quale frase esprime un desiderio?",
+          "answer": 1,
+          "translations": [
+            "Maybe I'll come with you, I don't know yet.",
+            "If only he/she would come with us!"
+          ],
+          "instruction": "Leggi le frasi e scegli.",
+          "explanation": "Magari + congiuntivo imperfetto is a wish; magari + indicativo just means maybe."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-07-l4-e05",
+          "stage": "practise",
+          "sentence": "Magari ___ più attenzione a scuola!",
+          "verb": "fare",
+          "answer": 1,
+          "forms": [
+            "avessi fatto"
+          ],
+          "instruction": "Quale modo o tempo? Poi scrivi la forma.",
+          "explanation": "A regret about the past takes magari + congiuntivo trapassato.",
+          "options": [
+            "congiuntivo imperfetto",
+            "congiuntivo trapassato",
+            "indicativo"
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-07-l4-e06",
+          "stage": "practise",
+          "buckets": [
+            "congiuntivo imperfetto",
+            "congiuntivo trapassato"
+          ],
+          "items": [
+            {
+              "text": "Magari fosse qui!",
+              "bucket": 0
+            },
+            {
+              "text": "Magari fosse stato qui!",
+              "bucket": 1
+            },
+            {
+              "text": "Parla come se sapesse tutto.",
+              "bucket": 0
+            },
+            {
+              "text": "Mi saluta come se non fosse successo niente.",
+              "bucket": 1
+            },
+            {
+              "text": "Magari avessi più tempo!",
+              "bucket": 0
+            },
+            {
+              "text": "Magari avessi studiato!",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Stesso momento o prima? Dividi le frasi.",
+          "explanation": "Imperfetto covers the same time or a wish for now; trapassato covers what happened before."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-07-l4-e07",
+          "stage": "practise",
+          "sentence": "Che bel viaggio! Magari ___ (potere – noi) restare un altro mese!",
+          "answers": [
+            "potessimo"
+          ],
+          "hint": "potere – noi",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "A wish about now takes magari + congiuntivo imperfetto."
+        },
+        {
+          "type": "transform",
+          "id": "cg-07-l4-e08",
+          "stage": "practise",
+          "source": "Marco non è il capo, ma dà ordini a tutti.",
+          "cue": "…come se…",
+          "answers": [
+            "Marco dà ordini a tutti come se fosse il capo.",
+            "Marco dà ordini a tutti come se fosse lui il capo.",
+            "Marco dà ordini come se fosse il capo."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Come se always takes the congiuntivo, here the imperfetto fosse.",
+          "hint": "essere → fosse"
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-07-l4-e09",
+          "stage": "use",
+          "prompt": "Pensa a una cosa che desideri adesso e a una che rimpiangi. Usa «Magari…!» due volte.",
+          "keywords": [
+            "magari",
+            "avessi"
+          ],
+          "modelAnswer": "Magari avessi più tempo libero! Lavoro troppo e non riesco a studiare. E magari avessi iniziato a studiare italiano dieci anni fa: adesso parlerei molto meglio.",
+          "instruction": "Rispondi ad alta voce in 3 o 4 frasi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il rimpianto",
+      "en": "regret",
+      "example": "Ho un solo rimpianto: non aver studiato musica."
+    },
+    {
+      "it": "rimpiangere",
+      "en": "to regret, to miss",
+      "example": "Rimpiango di non aver viaggiato di più."
+    },
+    {
+      "it": "magari",
+      "en": "if only; maybe",
+      "example": "Magari fosse vero!"
+    },
+    {
+      "it": "pazienza",
+      "en": "never mind",
+      "example": "Pazienza, sarà per la prossima volta."
+    },
+    {
+      "it": "con il senno di poi",
+      "en": "with hindsight",
+      "example": "Con il senno di poi, avrei accettato."
+    },
+    {
+      "it": "se non fosse stato per",
+      "en": "if it hadn't been for",
+      "example": "Se non fosse stato per te, non avrei finito."
+    },
+    {
+      "it": "meno male",
+      "en": "thank goodness",
+      "example": "Meno male che hai chiamato."
+    },
+    {
+      "it": "perdere l'occasione",
+      "en": "to miss the chance",
+      "example": "Ho perso l'occasione di conoscerlo."
+    },
+    {
+      "it": "sprecare",
+      "en": "to waste",
+      "example": "Abbiamo sprecato una bella giornata."
+    },
+    {
+      "it": "cambiare idea",
+      "en": "to change one's mind",
+      "example": "Se cambiassi idea, fammi sapere."
+    },
+    {
+      "it": "rischiare",
+      "en": "to risk",
+      "example": "Se rischiassi di più, forse otterresti di più."
+    },
+    {
+      "it": "fare finta di",
+      "en": "to pretend to",
+      "example": "Fa finta di non capire."
+    },
+    {
+      "it": "come se niente fosse",
+      "en": "as if nothing had happened",
+      "example": "Ha ripreso a lavorare come se niente fosse."
+    },
+    {
+      "it": "a quest'ora",
+      "en": "by now",
+      "example": "A quest'ora saremmo già arrivati."
+    },
+    {
+      "it": "andare diversamente",
+      "en": "to go differently",
+      "example": "Se avessi chiamato, sarebbe andata diversamente."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-07-t1",
+      "rule": "Se reale o irreale?",
+      "tip": "Real: se + indicativo. Imagined: se + congiuntivo imperfetto, then the condizionale.",
+      "example": {
+        "it": "Se avessi tempo, verrei volentieri.",
+        "en": "If I had time, I'd gladly come."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Se ___ tempo, verrei volentieri.",
+        "options": [
+          "ho",
+          "avrei",
+          "avessi",
+          "avrò"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "cg-07-t2",
+      "rule": "Passato irreale",
+      "tip": "Unreal past: se avessi saputo, sarei venuto. Never se avrei saputo or se avevo saputo.",
+      "example": {
+        "it": "Se avessi saputo, ti avrei chiamato.",
+        "en": "If I had known, I'd have called you."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Se ___ (sapere), ti avrei chiamato.",
+        "answers": [
+          "avessi saputo"
+        ]
+      }
+    },
+    {
+      "id": "cg-07-t3",
+      "rule": "Periodo misto",
+      "tip": "Past cause, present result: se avessi studiato, ora parlerei meglio.",
+      "example": {
+        "it": "Se avessi studiato, ora parlerei meglio.",
+        "en": "If I had studied, I'd speak better now."
+      },
+      "challenge": {
+        "type": "transform",
+        "source": "Non ho studiato, quindi ora non parlo bene.",
+        "cue": "Se avessi studiato…",
+        "answers": [
+          "Se avessi studiato, ora parlerei bene.",
+          "Se avessi studiato, ora parlerei meglio.",
+          "Se avessi studiato ora parlerei bene.",
+          "Se avessi studiato ora parlerei meglio."
+        ]
+      }
+    },
+    {
+      "id": "cg-07-t4",
+      "rule": "Magari + congiuntivo",
+      "tip": "Magari + imperfetto is a wish now; magari + trapassato is a regret about the past.",
+      "example": {
+        "it": "Magari fosse più semplice!",
+        "en": "If only it were simpler!"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Magari ___ (avere – io) più tempo libero!",
+        "answers": [
+          "avessi"
+        ]
+      }
+    },
+    {
+      "id": "cg-07-t5",
+      "rule": "Come se",
+      "tip": "Come se always takes the congiuntivo: imperfetto for the same time, trapassato for before.",
+      "example": {
+        "it": "Parla come se fosse il capo.",
+        "en": "He talks as if he were the boss."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Mi parla come se sono un bambino.",
+        "answers": [
+          "Mi parla come se fossi un bambino."
+        ]
+      }
+    }
+  ]
+}

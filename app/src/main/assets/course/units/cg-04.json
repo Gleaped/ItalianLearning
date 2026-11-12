@@ -1,0 +1,849 @@
+{
+  "id": "cg-04",
+  "level": "B1",
+  "title": "Penso che sia già partito",
+  "format": 2,
+  "module": "b1-m3",
+  "track": "congiuntivo",
+  "objective": "By the end you can use the congiuntivo passato (abbia/sia + participio) for earlier actions, choose between presente and passato, and mix all CG1–CG4 in a checkpoint.",
+  "grammarFocus": "Congiuntivo passato with avere and essere (agreement); presente vs passato; di aver + participio; mixed checkpoint with the indicativo.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "cg-04-l1",
+      "title": "Spero che tu abbia dormito",
+      "minutes": 7,
+      "goal": "You can say what you think, hope or regret about something that already happened (avere verbs).",
+      "takeaway": "Earlier action after a trigger: abbia + participio (Spero che tu abbia dormito bene).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-04-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: passato prossimo.",
+          "prompt": "Ieri Anna ___ la pasta.",
+          "options": [
+            "ha mangiato",
+            "è mangiato",
+            "mangia",
+            "ha mangiata"
+          ],
+          "answer": 0,
+          "explanation": "Mangiare takes avere in the passato prossimo: ha mangiato."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-04-l1-e02",
+          "stage": "learn",
+          "title": "Abbia + participio",
+          "body": "To talk about something **earlier than now**, use ==abbia== + participio, after the same triggers.\n\n| che io / tu / lui | ==abbia== dormito |\n|---|---|\n| che noi | ==abbiamo== dormito |\n| che voi | ==abbiate== dormito |\n| che loro | ==abbiano== dormito |\n\n> Penso che Luca **dorma** = now. Penso che Luca **abbia dormito** = before now.",
+          "examples": [
+            {
+              "it": "Spero che tu abbia dormito bene.",
+              "en": "I hope you slept well."
+            },
+            {
+              "it": "Credo che Sara abbia finito il lavoro.",
+              "en": "I think Sara has finished the work."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-04-l1-e03",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "Penso che Anna lavori troppo.",
+            "Penso che Anna abbia lavorato troppo."
+          ],
+          "question": "Which sentence is about something that already happened?",
+          "answer": 1,
+          "translations": [
+            "I think Anna works too much.",
+            "I think Anna has worked too much."
+          ],
+          "explanation": "Abbia + participio looks back at an action that is already over."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "cg-04-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Mi dispiace che Marco ___ dimenticato le chiavi.",
+          "options": [
+            "abbia",
+            "ha",
+            "sia",
+            "avere"
+          ],
+          "answer": 0,
+          "explanation": "Mi dispiace che needs the congiuntivo, and dimenticare takes avere: abbia dimenticato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-04-l1-e05",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo passato.",
+          "sentence": "Penso che Sara ___ (finire) il lavoro.",
+          "answers": [
+            "abbia finito"
+          ],
+          "hint": "abbia + participio",
+          "explanation": "Penso che + congiuntivo passato for a finished action: abbia finito."
+        },
+        {
+          "type": "transform",
+          "id": "cg-04-l1-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Luca ha dormito poco.",
+          "cue": "Penso che…",
+          "answers": [
+            "Penso che Luca abbia dormito poco."
+          ],
+          "hint": "ha → abbia",
+          "explanation": "After penso che the auxiliary ha becomes abbia."
+        },
+        {
+          "type": "error_correction",
+          "id": "cg-04-l1-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Penso che Anna ha già mangiato.",
+          "answers": [
+            "Penso che Anna abbia già mangiato."
+          ],
+          "explanation": "After penso che the auxiliary is in the congiuntivo: abbia, not ha."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-04-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Un'amica torna da un viaggio. Di' due cose che speri che abbia fatto. Usa «Spero che tu abbia…».",
+          "keywords": [
+            "spero che",
+            "abbia"
+          ],
+          "modelAnswer": "Spero che tu abbia visitato tanti posti e che tu abbia mangiato bene!",
+          "explanation": "Spero che + abbia + participio looks back at what the other person did."
+        }
+      ]
+    },
+    {
+      "id": "cg-04-l2",
+      "title": "Penso che sia partita",
+      "minutes": 7,
+      "goal": "You can say what you think or hope has already happened with movement and reflexive-type verbs (essere verbs).",
+      "takeaway": "Movement verbs: sia / siano + participio, and the participle agrees (sia partita, siano partiti).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-04-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: passato prossimo.",
+          "prompt": "Anna ___ arrivata alle otto.",
+          "options": [
+            "è",
+            "ha",
+            "sono",
+            "hanno"
+          ],
+          "answer": 0,
+          "explanation": "Arrivare takes essere, and the participle agrees with Anna: è arrivata."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-04-l2-e02",
+          "stage": "learn",
+          "title": "Sia + participio",
+          "body": "Verbs that take **essere** use ==sia== / ==siano== + participio. The participle **agrees** with the subject.\n\n| | maschile | femminile |\n|---|---|---|\n| che lui/lei | ==sia== partito | ==sia== partit==a== |\n| che loro | ==siano== partit==i== | ==siano== partit==e== |\n\n> Penso che Anna sia partit**a**. Penso che Luca e Anna siano partit**i**.",
+          "examples": [
+            {
+              "it": "Credo che Marco sia già arrivato.",
+              "en": "I think Marco has already arrived."
+            },
+            {
+              "it": "Non penso che i bambini siano usciti.",
+              "en": "I don't think the children have gone out."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-04-l2-e03",
+          "stage": "practise",
+          "instruction": "Quale ausiliare: abbia o sia?",
+          "buckets": [
+            "abbia + participio",
+            "sia + participio"
+          ],
+          "items": [
+            {
+              "text": "mangiare",
+              "bucket": 0
+            },
+            {
+              "text": "partire",
+              "bucket": 1
+            },
+            {
+              "text": "finire",
+              "bucket": 0
+            },
+            {
+              "text": "arrivare",
+              "bucket": 1
+            },
+            {
+              "text": "vedere",
+              "bucket": 0
+            },
+            {
+              "text": "uscire",
+              "bucket": 1
+            },
+            {
+              "text": "andare",
+              "bucket": 1
+            },
+            {
+              "text": "prendere",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Movement verbs (partire, arrivare, uscire, andare) take essere; most others take avere."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-04-l2-e04",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "Penso che Marta sia partita.",
+            "Penso che Marta sia partito."
+          ],
+          "question": "Which sentence agrees correctly with Marta?",
+          "answer": 0,
+          "translations": [
+            "I think Marta has left.",
+            "I think Marta has left. (wrong ending: partito is masculine)"
+          ],
+          "explanation": "With essere the participle agrees with the subject: Marta is feminine, so partita."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-04-l2-e05",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo passato.",
+          "sentence": "Non penso che Giulia ___ (arrivare) ancora.",
+          "answers": [
+            "sia arrivata"
+          ],
+          "hint": "essere + participio, Giulia = lei",
+          "explanation": "Arrivare takes essere, and the participle agrees with Giulia: sia arrivata."
+        },
+        {
+          "type": "transform",
+          "id": "cg-04-l2-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Marco è tornato a casa.",
+          "cue": "Credo che…",
+          "answers": [
+            "Credo che Marco sia tornato a casa."
+          ],
+          "hint": "è → sia",
+          "explanation": "After credo che the auxiliary è becomes sia."
+        },
+        {
+          "type": "error_correction",
+          "id": "cg-04-l2-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Penso che Elena abbia andata al mercato.",
+          "answers": [
+            "Penso che Elena sia andata al mercato."
+          ],
+          "explanation": "Andare takes essere, so the congiuntivo passato is sia andata."
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-04-l2-e08",
+          "stage": "use",
+          "instruction": "Chiama il coinquilino di un'amica.",
+          "scenario": "Giulia non risponde al telefono. Chiami Marco, il suo coinquilino, e usi «credo che…» e «spero che…».",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Pronto? Ciao {name}, sono Marco. Dimmi!"
+            },
+            {
+              "speaker": "you",
+              "text": "Ciao Marco, sai dov'è Giulia? Non risponde.",
+              "hint": "Chiedi dov'è Giulia.",
+              "keywords": [
+                "Giulia",
+                "dov'è"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Non lo so. Credo che sia uscita presto stamattina."
+            },
+            {
+              "speaker": "you",
+              "text": "Pensi che sia già arrivata in ufficio?",
+              "hint": "Pensi che + sia + arrivata.",
+              "keywords": [
+                "sia",
+                "arrivata"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Forse. Non sono sicuro che abbia preso il treno delle otto."
+            },
+            {
+              "speaker": "you",
+              "text": "Va bene, grazie. Spero che sia arrivata senza problemi.",
+              "hint": "Spero che + sia arrivata.",
+              "keywords": [
+                "spero che",
+                "sia arrivata"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Sono sicuro che tutto è a posto. Ti faccio sapere io!"
+            }
+          ],
+          "explanation": "Essere verbs: sia + participle that agrees with the subject."
+        }
+      ]
+    },
+    {
+      "id": "cg-04-l3",
+      "title": "Sia o sia stato? Adesso o prima",
+      "minutes": 8,
+      "goal": "You can choose between the presente and the passato, and say Credo di aver capito for yourself.",
+      "takeaway": "Now → congiuntivo presente; before now → passato; same person → di aver + participio.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "id": "cg-04-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il modo, poi scrivi il verbo.",
+          "sentence": "Dubito che Anna ___ ragione.",
+          "verb": "avere",
+          "answer": 1,
+          "forms": [
+            "abbia"
+          ],
+          "trigger": "Dubito che",
+          "explanation": "Dubito che expresses doubt, so it takes the congiuntivo: abbia."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-04-l3-e02",
+          "stage": "learn",
+          "title": "Adesso o prima?",
+          "body": "Ask one question: is it **now**, or did it happen **before**?\n\n| tempo | forma | esempio |\n|---|---|---|\n| adesso | ==sia== | Credo che sia un errore. |\n| prima | ==sia stato== | Credo che sia stato un errore. |\n| adesso | ==lavori== | Penso che lavori troppo. |\n| prima | ==abbia lavorato== | Penso che abbia lavorato troppo. |\n\n> Same trigger, different time: only the verb changes.",
+          "examples": [
+            {
+              "it": "Credo che sia stato un errore.",
+              "en": "I think it was a mistake."
+            },
+            {
+              "it": "Penso che Luca abbia lavorato troppo.",
+              "en": "I think Luca has worked too much."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-04-l3-e03",
+          "stage": "learn",
+          "title": "Una sola persona",
+          "body": "One person thinking about **their own** past action: **di aver** + participio.\n\n| due persone | una persona |\n|---|---|\n| Credo che ==tu abbia capito== | Credo ==di aver capito== |\n| Penso che ==lei abbia dimenticato== | Penso ==di aver dimenticato== |\n\n> No che: *Penso di aver dimenticato le chiavi.*",
+          "examples": [
+            {
+              "it": "Credo di aver capito.",
+              "en": "I think I've understood."
+            },
+            {
+              "it": "Penso di aver dimenticato le chiavi.",
+              "en": "I think I've forgotten my keys."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-04-l3-e04",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "Credo che sia un errore.",
+            "Credo che sia stato un errore."
+          ],
+          "question": "Which sentence says it already happened?",
+          "answer": 1,
+          "translations": [
+            "I think it is a mistake.",
+            "I think it was a mistake."
+          ],
+          "explanation": "Sia stato looks back at a past action; sia describes it now."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "cg-04-l3-e05",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Penso che ieri Anna ___ molto stanca.",
+          "options": [
+            "sia stata",
+            "sia",
+            "è stata",
+            "stia"
+          ],
+          "answer": 0,
+          "explanation": "Ieri points to the past: penso che + sia stata (congiuntivo passato of essere)."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-04-l3-e06",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Credo che Luca ieri ___ molto.",
+          "verb": "lavorare",
+          "answer": 1,
+          "forms": [
+            "abbia lavorato"
+          ],
+          "trigger": "Credo che",
+          "explanation": "Credo che takes the congiuntivo, and ieri needs the passato: abbia lavorato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-04-l3-e07",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo passato.",
+          "sentence": "Dubito che Giulia ___ (arrivare) già.",
+          "answers": [
+            "sia arrivata"
+          ],
+          "hint": "essere + participio",
+          "explanation": "Dubito che + sia arrivata: an action that should already have happened."
+        },
+        {
+          "type": "transform",
+          "id": "cg-04-l3-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Ho capito tutto.",
+          "cue": "Credo di…",
+          "answers": [
+            "Credo di aver capito tutto."
+          ],
+          "hint": "di aver + participio",
+          "explanation": "With the same subject, use di aver + participio instead of che."
+        },
+        {
+          "type": "free_write",
+          "id": "cg-04-l3-e09",
+          "stage": "use",
+          "instruction": "Scrivi un messaggio (almeno 25 parole).",
+          "prompt": "Un'amica ha fatto un colloquio di lavoro ieri. Scrivile un messaggio con «Spero che…» e «Credo che…», almeno una volta al passato.",
+          "minWords": 25,
+          "checklist": [
+            "Spero che / Credo che + congiuntivo",
+            "Almeno una volta abbia / sia + participio",
+            "Il participio concorda con sia (se serve)"
+          ],
+          "modelAnswer": "Ciao Anna! Come è andato il colloquio? Spero che sia andato bene e che tu abbia risposto con calma. Credo che tu sia stata bravissima! Ora riposati: penso che sia importante festeggiare.",
+          "explanation": "Present for now, passato for what already happened."
+        }
+      ]
+    },
+    {
+      "id": "cg-04-l4",
+      "title": "Checkpoint CG1–CG4",
+      "minutes": 10,
+      "goal": "You can spot, choose and form the right mood (and tense) in mixed sentences.",
+      "takeaway": "Fact → indicativo; opinion, wish, feeling, doubt → congiuntivo (presente or passato); same person → infinito.",
+      "exercises": [
+        {
+          "type": "conjugation",
+          "id": "cg-04-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scrivi il congiuntivo presente.",
+          "verb": "uscire",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "esca"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "esca"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "escano"
+            }
+          ],
+          "explanation": "Uscire is irregular: the stem comes from the io form esco."
+        },
+        {
+          "type": "find_trigger",
+          "id": "cg-04-l4-e02",
+          "stage": "practise",
+          "instruction": "Tocca la parola che chiede il congiuntivo.",
+          "sentence": "Mi dispiace che Luca non possa venire.",
+          "trigger": "Mi dispiace che",
+          "explanation": "Mi dispiace che expresses a feeling, so it takes the congiuntivo."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-04-l4-e03",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "indicativo",
+            "congiuntivo",
+            "di + infinito"
+          ],
+          "items": [
+            {
+              "text": "So che Anna è a casa.",
+              "bucket": 0
+            },
+            {
+              "text": "Credo che Anna sia a casa.",
+              "bucket": 1
+            },
+            {
+              "text": "Spero di vedere Anna.",
+              "bucket": 2
+            },
+            {
+              "text": "Secondo me Anna ha ragione.",
+              "bucket": 0
+            },
+            {
+              "text": "Dubito che Anna abbia ragione.",
+              "bucket": 1
+            },
+            {
+              "text": "È chiaro che Anna ha ragione.",
+              "bucket": 0
+            },
+            {
+              "text": "Ho paura di arrivare tardi.",
+              "bucket": 2
+            },
+            {
+              "text": "È meglio che Anna esca.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Facts take the indicativo, subjective triggers the congiuntivo, and one person's own wish or fear di + infinito."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-04-l4-e04",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "È vero che Luca ___ molto.",
+          "verb": "lavorare",
+          "answer": 0,
+          "forms": [
+            "lavora"
+          ],
+          "trigger": "È vero che",
+          "explanation": "È vero che states a fact, so it takes the indicativo: lavora."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-04-l4-e05",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Voglio che tu ___ presto.",
+          "verb": "venire",
+          "answer": 1,
+          "forms": [
+            "venga"
+          ],
+          "trigger": "Voglio che",
+          "explanation": "Voglio che expresses a wish about someone else, so it takes the congiuntivo: venga."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-04-l4-e06",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "Spero che Anna stia bene.",
+            "Spero che Anna sia stata bene."
+          ],
+          "question": "Which sentence hopes for how Anna is right now?",
+          "answer": 0,
+          "translations": [
+            "I hope Anna is well.",
+            "I hope Anna was well."
+          ],
+          "explanation": "Stia is the presente (now); sia stata looks back at a past time."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-04-l4-e07",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo passato.",
+          "sentence": "Non penso che Paola ___ (partire) già.",
+          "answers": [
+            "sia partita"
+          ],
+          "hint": "essere + participio",
+          "explanation": "Non penso che + sia partita: partire takes essere and agrees with Paola."
+        },
+        {
+          "type": "error_correction",
+          "id": "cg-04-l4-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore (attenzione: forse il congiuntivo non serve!).",
+          "sentence": "È chiaro che Anna abbia ragione.",
+          "answers": [
+            "È chiaro che Anna ha ragione."
+          ],
+          "explanation": "È chiaro che states a fact, so it takes the indicativo: ha."
+        },
+        {
+          "type": "transform",
+          "id": "cg-04-l4-e09",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Anna ha trovato lavoro.",
+          "cue": "Sono felice che…",
+          "answers": [
+            "Sono felice che Anna abbia trovato lavoro."
+          ],
+          "hint": "ha → abbia",
+          "explanation": "A feeling trigger plus an earlier action: abbia trovato."
+        },
+        {
+          "type": "reading",
+          "id": "cg-04-l4-e10",
+          "stage": "use",
+          "instruction": "Leggi il messaggio e rispondi alle domande.",
+          "title": "Un pacco per te",
+          "passage": "Ciao {name}, sono Chiara, la vicina del terzo piano. Spero che tu stia bene! Ti scrivo perché credo che il tuo pacco sia arrivato stamattina: il portiere dice che l'ha ricevuto lui. Non penso che sia molto grande, ma è pesante. Purtroppo domani non sono a casa, quindi è meglio che tu passi oggi. Dubito che il portiere lasci il pacco fuori dopo le sei: è chiaro che la portineria chiude presto. Se hai paura di non fare in tempo, posso andare io. A dopo, Chiara",
+          "questions": [
+            {
+              "question": "Why does Chiara write?",
+              "options": [
+                "A parcel for {name} seems to have arrived.",
+                "She wants to borrow something.",
+                "She is moving flat.",
+                "She is complaining about noise."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "What does Chiara suggest?",
+              "options": [
+                "Pick up the parcel today.",
+                "Wait until next week.",
+                "Ask the courier to come back.",
+                "Leave it with the porter."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Which phrase states a fact she is sure of?",
+              "options": [
+                "è chiaro che la portineria chiude presto",
+                "Dubito che il portiere lasci il pacco",
+                "Spero che tu stia bene",
+                "è meglio che tu passi"
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Fact (è chiaro che) takes the indicativo; hopes, doubts and advice take the congiuntivo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "già",
+      "en": "already",
+      "example": "Penso che sia già partito."
+    },
+    {
+      "it": "ancora",
+      "en": "yet, still",
+      "example": "Non penso che sia ancora arrivata."
+    },
+    {
+      "it": "partire",
+      "en": "to leave",
+      "example": "Credo che Anna sia partita."
+    },
+    {
+      "it": "arrivare",
+      "en": "to arrive",
+      "example": "Spero che sia arrivato bene."
+    },
+    {
+      "it": "dimenticare",
+      "en": "to forget",
+      "example": "Penso di aver dimenticato le chiavi."
+    },
+    {
+      "it": "finire",
+      "en": "to finish",
+      "example": "Credo che abbia finito il lavoro."
+    },
+    {
+      "it": "trovare lavoro",
+      "en": "to find a job",
+      "example": "Sono felice che Anna abbia trovato lavoro."
+    },
+    {
+      "it": "il colloquio",
+      "en": "job interview",
+      "example": "Spero che il colloquio sia andato bene."
+    },
+    {
+      "it": "il pacco",
+      "en": "parcel",
+      "example": "Credo che il pacco sia arrivato."
+    },
+    {
+      "it": "il portiere",
+      "en": "concierge, porter",
+      "example": "Il portiere ha ricevuto il pacco."
+    },
+    {
+      "it": "la portineria",
+      "en": "concierge's desk",
+      "example": "La portineria chiude alle sei."
+    },
+    {
+      "it": "il coinquilino",
+      "en": "flatmate",
+      "example": "Marco è il mio coinquilino."
+    },
+    {
+      "it": "stamattina",
+      "en": "this morning",
+      "example": "Credo che sia uscita stamattina."
+    },
+    {
+      "it": "ieri",
+      "en": "yesterday",
+      "example": "Penso che ieri sia stata una brutta giornata."
+    },
+    {
+      "it": "perdere il treno",
+      "en": "to miss the train",
+      "example": "Mi dispiace che tu abbia perso il treno."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-04-t1",
+      "rule": "Abbia + participio",
+      "tip": "Earlier action after a trigger: abbia + participle. Spero che tu abbia dormito bene.",
+      "example": {
+        "it": "Penso che Sara abbia finito il lavoro.",
+        "en": "I think Sara has finished the work."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Penso che Luca ___ (finire) il lavoro.",
+        "answers": [
+          "abbia finito"
+        ],
+        "hint": "abbia + participio"
+      }
+    },
+    {
+      "id": "cg-04-t2",
+      "rule": "Sia partito/a: l'accordo",
+      "tip": "With essere verbs the participle agrees: Anna sia partita, i bambini siano usciti.",
+      "example": {
+        "it": "Credo che Anna sia partita.",
+        "en": "I think Anna has left."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Penso che Elena abbia andata al mercato.",
+        "answers": [
+          "Penso che Elena sia andata al mercato."
+        ]
+      }
+    },
+    {
+      "id": "cg-04-t3",
+      "rule": "Sia o sia stato?",
+      "tip": "Now: sia. Before now: sia stato. Credo che sia un errore / sia stato un errore.",
+      "example": {
+        "it": "Credo che sia stato un errore.",
+        "en": "I think it was a mistake."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Penso che ieri ___ una giornata difficile.",
+        "options": [
+          "sia",
+          "sia stata",
+          "è",
+          "stia"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "cg-04-t4",
+      "rule": "Penso di aver capito",
+      "tip": "Same person: di aver + participle, no che. Credo di aver capito.",
+      "example": {
+        "it": "Penso di aver dimenticato le chiavi.",
+        "en": "I think I've forgotten my keys."
+      },
+      "challenge": {
+        "type": "transform",
+        "source": "Ho capito tutto.",
+        "cue": "Credo di…",
+        "answers": [
+          "Credo di aver capito tutto."
+        ]
+      }
+    },
+    {
+      "id": "cg-04-t5",
+      "rule": "Fatto certo: indicativo",
+      "tip": "Even in a congiuntivo unit, certain facts stay indicativo: è chiaro che ha ragione.",
+      "example": {
+        "it": "È chiaro che Anna ha ragione.",
+        "en": "It's clear that Anna is right."
+      },
+      "challenge": {
+        "type": "choose_mood",
+        "sentence": "È chiaro che Anna ___ ragione.",
+        "verb": "avere",
+        "answer": 0,
+        "forms": [
+          "ha"
+        ],
+        "explanation": "È chiaro che states a fact: indicativo."
+      }
+    }
+  ]
+}

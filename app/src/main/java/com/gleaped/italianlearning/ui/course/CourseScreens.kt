@@ -25,6 +25,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedCard
@@ -59,46 +60,52 @@ private fun rememberOverview(): Overview? {
     return overview
 }
 
+/** Course tab: one card per level (#7); a level opens its modules and units. */
 @Composable
-fun CourseMapScreen(onOpenUnit: (String) -> Unit) {
+fun CourseMapScreen(onOpenLevel: (String) -> Unit, onOpenUnit: (String) -> Unit) {
     val o = rememberOverview()
     if (o == null) {
         Box(Modifier.fillMaxSize()) { CircularProgressIndicator(Modifier.align(Alignment.Center)) }
         return
     }
     val course = o.content.course
-    // Main path first (B1, B2, C1), refreshers last but always open.
-    val levels = course.levels.sortedBy { if (it.remedial) 1 else 0 }
+    // Main path first (A1 → C1), then exam prep, then refreshers.
+    val levels = course.levels.sortedBy { when { it.remedial -> 2; it.isExam -> 1; else -> 0 } }
+    val progress = o.progress.levelProgress().associateBy { it.levelId }
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        levels.forEach { level ->
-            item(key = "level-${level.id}") {
-                Column(Modifier.padding(top = 16.dp)) {
-                    Text(level.title, style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
+        items(levels, key = { it.id }) { level ->
+            val p = progress[level.id]
+            val refs = course.units.filter { it.level == level.id }
+            val unitsDone = refs.count { o.progress.isUnitComplete(it.id) }
+            Card(
+                onClick = { onOpenLevel(level.id) },
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(
+                    containerColor = if (level.remedial || level.isExam) MaterialTheme.colorScheme.surfaceVariant else MaterialTheme.colorScheme.primaryContainer,
+                ),
+            ) {
+                Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(level.title, style = MaterialTheme.typography.titleLarge)
                     if (level.description.isNotBlank()) {
-                        Text(level.description, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(level.description, style = MaterialTheme.typography.bodyMedium)
                     }
-                    if (level.remedial) {
-                        Text(
-                            "Refreshers are always open — dip in whenever something feels shaky.",
-                            style = MaterialTheme.typography.bodySmall,
-                        )
+                    if (p != null && p.total > 0) {
+                        LinearProgressIndicator(progress = { p.fraction }, modifier = Modifier.fillMaxWidth())
                     }
-                    if (level.isExam) {
-                        Text(
-                            "Exam prep · always open. Practise any section of the exam whenever you like.",
-                            style = MaterialTheme.typography.labelLarge,
-                            color = MaterialTheme.colorScheme.secondary,
-                        )
-                    }
+                    Text(
+                        when {
+                            level.remedial -> "Always open · ${refs.size} refreshers"
+                            level.isExam -> "Always open · ${refs.size} units"
+                            else -> "$unitsDone of ${refs.size} units done"
+                        },
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.secondary,
+                    )
                 }
-            }
-            val units = course.units.filter { it.level == level.id }.sortedBy { it.order }
-            items(units, key = { it.id }) { ref ->
-                UnitRow(ref, o, onOpenUnit)
             }
         }
         // Units whose level course.json does not declare: still reachable, never lost.
@@ -113,8 +120,66 @@ fun CourseMapScreen(onOpenUnit: (String) -> Unit) {
                     modifier = Modifier.padding(top = 16.dp),
                 )
             }
-            items(orphans, key = { it.id }) { ref ->
-                UnitRow(ref, o, onOpenUnit)
+        }
+        items(orphans, key = { it.id }) { ref -> UnitRow(ref, o, onOpenUnit) }
+    }
+}
+
+/** One level: its modules as headings, each with its units in study order. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun LevelScreen(levelId: String, onBack: () -> Unit, onOpenUnit: (String) -> Unit) {
+    val o = rememberOverview()
+    val level = o?.content?.course?.levels?.firstOrNull { it.id == levelId }
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(level?.title ?: "") },
+                navigationIcon = {
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
+                },
+            )
+        },
+    ) { padding ->
+        if (o == null || level == null) {
+            Box(Modifier.fillMaxSize().padding(padding)) { CircularProgressIndicator(Modifier.align(Alignment.Center)) }
+            return@Scaffold
+        }
+        val course = o.content.course
+        val units = course.units.filter { it.level == levelId }.sortedBy { it.order }
+        val modules = course.modulesOf(levelId)
+        val grouped: List<Pair<String?, List<UnitRef>>> = buildList {
+            modules.forEach { m -> add(m.id to units.filter { it.module == m.id }) }
+            val loose = units.filter { u -> modules.none { it.id == u.module } }
+            if (loose.isNotEmpty()) add(null to loose)
+        }.filter { it.second.isNotEmpty() }
+        LazyColumn(
+            modifier = Modifier.fillMaxSize().padding(padding),
+            contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            if (level.description.isNotBlank()) {
+                item(key = "desc") {
+                    Text(level.description, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+            }
+            grouped.forEachIndexed { i, (moduleId, refs) ->
+                val module = modules.firstOrNull { it.id == moduleId }
+                item(key = "module-${moduleId ?: "other"}") {
+                    val done = refs.count { o.progress.isUnitComplete(it.id) }
+                    Column(Modifier.padding(top = if (i == 0) 4.dp else 20.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                        Text(
+                            module?.title ?: "Altre unità",
+                            style = MaterialTheme.typography.titleLarge,
+                            color = MaterialTheme.colorScheme.primary,
+                        )
+                        module?.description?.takeIf { it.isNotBlank() }?.let {
+                            Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        }
+                        Text("$done of ${refs.size} done", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.secondary)
+                    }
+                }
+                items(refs, key = { it.id }) { ref -> UnitRow(ref, o, onOpenUnit) }
             }
         }
     }
@@ -137,9 +202,11 @@ private fun UnitRow(ref: UnitRef, o: Overview, onOpenUnit: (String) -> Unit) {
     ) {
         Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
-                Text("${ref.level} · ${ref.order}", style = MaterialTheme.typography.labelSmall)
+                if (ref.track == "congiuntivo") {
+                    Text("Percorso congiuntivo", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.primary)
+                }
                 Text(ref.title, style = MaterialTheme.typography.titleMedium)
-                if (ref.summary.isNotBlank()) Text(ref.summary, style = MaterialTheme.typography.bodySmall)
+                if (ref.summary.isNotBlank()) Text(ref.summary, style = MaterialTheme.typography.bodyMedium)
                 Text(
                     when (status) {
                         UnitStatus.COMING_SOON -> "Coming soon"

@@ -1,0 +1,1052 @@
+{
+  "id": "cg-08",
+  "level": "C1",
+  "title": "Chiunque sia",
+  "format": 2,
+  "module": "c1-m3",
+  "track": "congiuntivo",
+  "objective": "By the end you can use the congiuntivo for nuance: wanted antecedents, superlatives and l'unico/il primo, chiunque and qualunque, per quanto, independent uses and register, and you can mix all moods with confidence.",
+  "grammarFocus": "Relative clauses with a wanted or hypothetical antecedent (cerco una casa che abbia); superlatives and l'unico/il primo/l'ultimo che; chiunque, qualunque, dovunque, comunque; per quanto / per + aggettivo + che; usi indipendenti (Che entri pure!, Che io sappia, Sia chiaro); registro parlato e scritto. Final checkpoint of the track.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "cg-08-l1",
+      "title": "Cerco qualcuno che…",
+      "minutes": 7,
+      "goal": "You can say what you are looking for, when it may not exist, with che + congiuntivo.",
+      "takeaway": "Wanted, imagined or possibly non-existent antecedent: che + congiuntivo. Known and real: che + indicativo.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "id": "cg-08-l1-e01",
+          "stage": "warmup",
+          "sentence": "Penso che Luca ___ ragione.",
+          "verb": "avere",
+          "answer": 1,
+          "forms": [
+            "abbia"
+          ],
+          "instruction": "Riscaldamento: quale modo? Poi scrivi la forma.",
+          "explanation": "Warm-up: pensare + che (an opinion) takes the congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l1-e02",
+          "stage": "learn",
+          "title": "Wanted or known?",
+          "body": "In a relative clause (**che…**), use the ==congiuntivo== when the person or thing is wanted, imagined, or may not exist. If it exists and you know it, use the indicativo.\n\n| | |\n|---|---|\n| Cerco un collega che ==parli== cinese. | any such person |\n| Ho un collega che ==parla== cinese. | he exists |\n\n> Test: can you point at it? Yes → indicativo. No → congiuntivo.",
+          "examples": [
+            {
+              "it": "Cerco una casa che abbia un giardino.",
+              "en": "I'm looking for a house with a garden (any)."
+            },
+            {
+              "it": "Abito in una casa che ha un giardino.",
+              "en": "I live in a house that has a garden."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l1-e03",
+          "stage": "learn",
+          "title": "Negatives and doubts",
+          "body": "The same logic works when the thing may not exist: after a negative, or in a question about whether it exists.\n\n| trigger | example |\n|---|---|\n| ==non c'è nessuno che== | Non c'è nessun negozio che ==sia== aperto la domenica. |\n| ==c'è qualcuno che…?== | C'è qualcuno che ==sappia== aiutarmi? |\n| ==mi serve un… che== | Mi serve un posto che ==sia== tranquillo. |\n\n> In speech you may hear *cerco una casa che ha…*. In writing, use the congiuntivo.",
+          "examples": [
+            {
+              "it": "Non conosco nessuno che sappia riparare questa lavatrice.",
+              "en": "I don't know anyone who can fix this washing machine."
+            },
+            {
+              "it": "Esiste un'app che traduca anche il dialetto?",
+              "en": "Is there an app that translates dialect too?"
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-08-l1-e04",
+          "stage": "practise",
+          "sentences": [
+            "Cerco un collega che parla cinese.",
+            "Cerco un collega che parli cinese."
+          ],
+          "question": "In quale frase non hai ancora in mente nessuna persona precisa?",
+          "answer": 1,
+          "translations": [
+            "I'm looking for the colleague who speaks Chinese.",
+            "I'm looking for a colleague who speaks Chinese (any)."
+          ],
+          "instruction": "Leggi le frasi e scegli.",
+          "explanation": "A wanted, unidentified person takes che + congiuntivo; the indicativo points to a known person (and is common in speech)."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-08-l1-e05",
+          "stage": "practise",
+          "buckets": [
+            "indicativo (esiste)",
+            "congiuntivo (cercato)"
+          ],
+          "items": [
+            {
+              "text": "Ho una vicina che parla tre lingue.",
+              "bucket": 0
+            },
+            {
+              "text": "Cerco una vicina che parli tre lingue.",
+              "bucket": 1
+            },
+            {
+              "text": "Non c'è nessun bar che apra prima delle sei.",
+              "bucket": 1
+            },
+            {
+              "text": "Conosco un meccanico che lavora il sabato.",
+              "bucket": 0
+            },
+            {
+              "text": "Mi serve un posto che sia vicino alla stazione.",
+              "bucket": 1
+            },
+            {
+              "text": "Abito in un palazzo che ha l'ascensore.",
+              "bucket": 0
+            }
+          ],
+          "instruction": "Esiste già o lo cerchi? Dividi le frasi.",
+          "explanation": "A real, known thing takes the indicativo; a wanted, imagined or absent thing takes the congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-08-l1-e06",
+          "stage": "practise",
+          "sentence": "Vorrei un lavoro che mi ___ più tempo libero.",
+          "verb": "dare",
+          "answer": 1,
+          "forms": [
+            "dia"
+          ],
+          "instruction": "Quale modo? Poi scrivi la forma.",
+          "explanation": "Vorrei un lavoro che… describes a wished-for job, so the relative takes the congiuntivo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-08-l1-e07",
+          "stage": "practise",
+          "sentence": "Stiamo cercando una babysitter che ___ (sapere) guidare.",
+          "answers": [
+            "sappia"
+          ],
+          "hint": "sapere – lei",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "A wanted, unidentified person takes che + congiuntivo."
+        },
+        {
+          "type": "transform",
+          "id": "cg-08-l1-e08",
+          "stage": "practise",
+          "source": "Ho una casa che ha il giardino.",
+          "cue": "Cerco…",
+          "answers": [
+            "Cerco una casa che abbia il giardino.",
+            "Cerco una casa che abbia un giardino."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "When you are looking for the thing, the relative clause takes the congiuntivo.",
+          "hint": "avere → abbia"
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-08-l1-e09",
+          "stage": "use",
+          "scenario": "{name} cerca casa e parla con un agente immobiliare. Descrivi che cosa cerchi con che + congiuntivo.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno {name}, si accomodi. Che tipo di appartamento cerca?"
+            },
+            {
+              "speaker": "you",
+              "text": "Cerco un appartamento che abbia due camere e che sia vicino alla metropolitana.",
+              "hint": "Cerco un appartamento che…",
+              "keywords": [
+                "cerco",
+                "abbia",
+                "sia"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Capito. Ha altre richieste? Il balcone, il posto auto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mi serve una casa che abbia il balcone e che non costi più di mille euro al mese.",
+              "hint": "Mi serve una casa che…",
+              "keywords": [
+                "che abbia",
+                "non costi"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ne ho uno in via Verdi: ha due camere, il balcone e costa 950 euro. Lo vuole vedere?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, volentieri! È libero da subito?"
+            }
+          ],
+          "instruction": "Recita la conversazione."
+        }
+      ]
+    },
+    {
+      "id": "cg-08-l2",
+      "title": "Il primo, l'unico, il più…",
+      "minutes": 7,
+      "goal": "You can use che + congiuntivo after superlatives and il primo / l'unico / l'ultimo.",
+      "takeaway": "After a superlative or il primo / l'unico / l'ultimo che, the congiuntivo shows your judgement.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-08-l2-e01",
+          "stage": "warmup",
+          "sentence": "Cerco una casa che ___ (avere) un giardino.",
+          "answers": [
+            "abbia"
+          ],
+          "hint": "avere – lei",
+          "instruction": "Riscaldamento: completa la frase.",
+          "explanation": "Warm-up: a wanted, unidentified thing takes che + congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l2-e02",
+          "stage": "learn",
+          "title": "Superlatives and 'the only one'",
+          "body": "After a superlative or ==il primo / l'unico / l'ultimo / il solo== + **che**, Italian prefers the ==congiuntivo==: it is your judgement or experience. Often with **mai**.\n\n| È il film più bello che io ==abbia== mai visto. |\n|---|\n| Sei l'unico che mi ==capisca==. |\n| È il primo che ==abbia== finito. |\n\n> A plain fact (a date, a record) often takes the indicativo, and speech uses it a lot. For opinions in writing, use the congiuntivo.",
+          "examples": [
+            {
+              "it": "È la città più bella che io abbia mai visitato.",
+              "en": "It's the most beautiful city I've ever visited."
+            },
+            {
+              "it": "Sei l'unica persona che mi capisca davvero.",
+              "en": "You're the only person who really understands me."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l2-e03",
+          "stage": "learn",
+          "title": "Which tense?",
+          "body": "The main verb sets the tense. With a past experience, use ==abbia + participio==; if the main verb is already in the past, shift to ==avessi + participio==.\n\n| main verb | example |\n|---|---|\n| presente | È il libro più bello che ==abbia letto==. |\n| passato | Era il libro più bello che ==avessi letto==. |\n\n> Same logic as in CG6: past main verb, past-tense congiuntivo.",
+          "examples": [
+            {
+              "it": "Sono il solo che abbia capito.",
+              "en": "I'm the only one who has understood."
+            },
+            {
+              "it": "Era l'unico che avesse capito.",
+              "en": "He was the only one who had understood."
+            }
+          ]
+        },
+        {
+          "type": "find_trigger",
+          "id": "cg-08-l2-e04",
+          "stage": "practise",
+          "sentence": "È il primo studente che abbia finito il test.",
+          "trigger": "il primo",
+          "instruction": "Tocca le parole che portano al congiuntivo.",
+          "explanation": "After il primo / l'unico / l'ultimo, the relative takes the congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-08-l2-e05",
+          "stage": "practise",
+          "sentence": "È il film più bello che io ___ mai visto.",
+          "verb": "avere",
+          "answer": 1,
+          "forms": [
+            "abbia"
+          ],
+          "instruction": "Quale modo? Poi scrivi la forma.",
+          "explanation": "After a superlative, the relative clause takes the congiuntivo (abbia visto)."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-08-l2-e06",
+          "stage": "practise",
+          "buckets": [
+            "verbo principale al presente",
+            "verbo principale al passato"
+          ],
+          "items": [
+            {
+              "text": "È il posto più bello che abbia mai visto.",
+              "bucket": 0
+            },
+            {
+              "text": "Era il posto più bello che avessi mai visto.",
+              "bucket": 1
+            },
+            {
+              "text": "Sei il primo che mi abbia risposto.",
+              "bucket": 0
+            },
+            {
+              "text": "Era l'unico che avesse capito.",
+              "bucket": 1
+            },
+            {
+              "text": "Sono il solo che abbia capito.",
+              "bucket": 0
+            },
+            {
+              "text": "Era la prima che avesse avuto il coraggio di parlare.",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Il verbo principale è al presente o al passato? Dividi le frasi.",
+          "explanation": "A present main verb takes abbia + participio; a past main verb takes avessi + participio."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-08-l2-e07",
+          "stage": "practise",
+          "sentence": "Sei il primo che mi ___ la verità.",
+          "answers": [
+            "abbia detto"
+          ],
+          "hint": "dire – passato",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "After il primo che, the congiuntivo passato abbia detto expresses past experience."
+        },
+        {
+          "type": "transform",
+          "id": "cg-08-l2-e08",
+          "stage": "practise",
+          "source": "Non ho mai visto un film così bello.",
+          "cue": "È il film più bello che…",
+          "answers": [
+            "È il film più bello che abbia mai visto.",
+            "È il film più bello che io abbia mai visto."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "After a superlative, che takes the congiuntivo passato.",
+          "hint": "abbia + mai + participio"
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-08-l2-e09",
+          "stage": "use",
+          "prompt": "Racconta: qual è il posto più bello che tu abbia mai visitato? E qual è l'unica cosa che ti manca di quel viaggio?",
+          "keywords": [
+            "più",
+            "che",
+            "abbia"
+          ],
+          "modelAnswer": "Il posto più bello che io abbia mai visitato è la costa di Amalfi. È l'unico luogo dove il tempo sembra fermarsi. L'unica cosa che mi manchi è il profumo dei limoni la sera.",
+          "instruction": "Rispondi ad alta voce in 3 o 4 frasi."
+        }
+      ]
+    },
+    {
+      "id": "cg-08-l3",
+      "title": "Chiunque, qualunque, per quanto",
+      "minutes": 8,
+      "goal": "You can say 'whoever, whatever, wherever, however much' with the congiuntivo.",
+      "takeaway": "Chiunque, qualunque, dovunque, comunque and per quanto + congiuntivo: true no matter who, what, where or how much.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-08-l3-e01",
+          "stage": "warmup",
+          "prompt": "Cerco un lavoro che mi ___ più libertà.",
+          "options": [
+            "dà",
+            "darà",
+            "dia",
+            "darebbe"
+          ],
+          "answer": 2,
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "explanation": "Warm-up: a wanted job takes che + congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l3-e02",
+          "stage": "learn",
+          "title": "Chiunque and friends",
+          "body": "These words mean 'no matter who / what / where / how'. They take the ==congiuntivo==. **Chiunque** stands alone; **qualunque** and **qualsiasi** go before a noun and don't change.\n\n| parola | esempio |\n|---|---|\n| ==chiunque== | Chiunque ==sia==, non aprire. |\n| ==qualunque== cosa | Qualunque cosa ==succeda==, ti aiuto. |\n| ==dovunque== | Dovunque ==tu vada==, scrivimi. |\n| ==comunque== | Comunque ==vada==, ti chiamo. |\n\n> *Comunque,* alone is 'anyway' and takes no mood: Comunque, grazie.",
+          "examples": [
+            {
+              "it": "Chiunque chiami, digli che non ci sono.",
+              "en": "Whoever calls, tell them I'm out."
+            },
+            {
+              "it": "Qualunque cosa succeda, io ti sostengo.",
+              "en": "Whatever happens, I'll support you."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l3-e03",
+          "stage": "learn",
+          "title": "Per quanto…",
+          "body": "To concede a point ('however much'), use ==per quanto== + congiuntivo, or ==per== + adjective + ==che== + congiuntivo.\n\n| forma | esempio |\n|---|---|\n| ==per quanto== | Per quanto ==sia== stanco, lavora. |\n| ==per== + agg. ==che== | Per stanco che ==sia==, lavora. |\n\n> *Anche se è stanco* (indicativo) states a plain fact; *per quanto sia stanco* sounds more formal.",
+          "examples": [
+            {
+              "it": "Per quanto si impegni, non riesce a finire in tempo.",
+              "en": "However hard he tries, he can't finish on time."
+            },
+            {
+              "it": "Per bravo che sia, non può fare tutto da solo.",
+              "en": "However good he is, he can't do everything alone."
+            }
+          ]
+        },
+        {
+          "type": "find_trigger",
+          "id": "cg-08-l3-e04",
+          "stage": "practise",
+          "sentence": "Per quanto si impegni, non riesce a finire in tempo.",
+          "trigger": "Per quanto",
+          "instruction": "Tocca le parole che chiedono il congiuntivo.",
+          "explanation": "Per quanto asks for the congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-08-l3-e05",
+          "stage": "practise",
+          "sentence": "Qualunque cosa ___, io ti sostengo.",
+          "verb": "succedere",
+          "answer": 1,
+          "forms": [
+            "succeda",
+            "accada"
+          ],
+          "instruction": "Quale modo? Poi scrivi la forma.",
+          "explanation": "Qualunque cosa + congiuntivo means 'whatever happens'."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-08-l3-e06",
+          "stage": "practise",
+          "buckets": [
+            "congiuntivo",
+            "indicativo"
+          ],
+          "items": [
+            {
+              "text": "Chiunque sia",
+              "bucket": 0
+            },
+            {
+              "text": "Comunque vada",
+              "bucket": 0
+            },
+            {
+              "text": "Comunque, grazie per l'aiuto",
+              "bucket": 1
+            },
+            {
+              "text": "Dovunque tu vada",
+              "bucket": 0
+            },
+            {
+              "text": "Per quanto sia tardi",
+              "bucket": 0
+            },
+            {
+              "text": "Anche se è tardi",
+              "bucket": 1
+            },
+            {
+              "text": "Qualunque cosa succeda",
+              "bucket": 0
+            },
+            {
+              "text": "Siccome è tardi",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Quale modo segue? Dividi le espressioni.",
+          "explanation": "Chiunque, comunque (however), dovunque, per quanto and qualunque take the congiuntivo; comunque as 'anyway', anche se and siccome take the indicativo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-08-l3-e07",
+          "stage": "practise",
+          "sentence": "Dovunque ___ (andare – tu), porta con te il passaporto.",
+          "answers": [
+            "vada"
+          ],
+          "hint": "andare – tu",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "Dovunque means wherever and takes the congiuntivo."
+        },
+        {
+          "type": "transform",
+          "id": "cg-08-l3-e08",
+          "stage": "practise",
+          "source": "Anche se è stanco, non si ferma mai.",
+          "cue": "Per quanto…",
+          "answers": [
+            "Per quanto sia stanco, non si ferma mai.",
+            "Per quanto sia stanco non si ferma mai."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Per quanto is a more formal concessive and takes the congiuntivo.",
+          "hint": "essere → sia"
+        },
+        {
+          "type": "free_write",
+          "id": "cg-08-l3-e09",
+          "stage": "use",
+          "prompt": "Un amico ha un colloquio di lavoro domani ed è nervoso. Scrivigli un messaggio di incoraggiamento. Usa chiunque, qualunque cosa, comunque vada e per quanto.",
+          "minWords": 35,
+          "checklist": [
+            "Almeno tre espressioni con il congiuntivo (chiunque, qualunque, comunque vada, per quanto)",
+            "Tono amichevole (tu)",
+            "Nessun indicativo dopo chiunque o qualunque"
+          ],
+          "modelAnswer": "Ciao! Domani sarai bravissimo. Per quanto tu sia nervoso, ricorda che ti hanno scelto per un motivo. Chiunque ci sia davanti a te, sii semplice e sincero. Qualunque domanda ti facciano, rispondi con calma. E comunque vada, stasera ti offro una cena. In bocca al lupo!",
+          "instruction": "Scrivi il testo."
+        }
+      ]
+    },
+    {
+      "id": "cg-08-l4",
+      "title": "Che entri pure! Sia chiaro",
+      "minutes": 8,
+      "goal": "You can use the congiuntivo on its own and choose the right register for speech and writing.",
+      "takeaway": "Alone, the congiuntivo commands, allows or hedges; speech may replace it with the indicativo, formal writing does not.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-08-l4-e01",
+          "stage": "warmup",
+          "sentence": "Qualunque cosa ___ (succedere), ti aiuterò.",
+          "answers": [
+            "succeda",
+            "accada"
+          ],
+          "hint": "succedere – lei",
+          "instruction": "Riscaldamento: completa la frase.",
+          "explanation": "Warm-up: qualunque cosa takes the congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l4-e02",
+          "stage": "learn",
+          "title": "The congiuntivo on its own",
+          "body": "Without a main verb, the congiuntivo can order, allow or hedge. **Che** + congiuntivo gives a 'third-person order'. The **Lei** imperative is also congiuntivo.\n\n| uso | esempio |\n|---|---|\n| permission | ==Che== ==entri== pure! |\n| formal order | Si ==accomodi==. |\n| hedging | ==Che io sappia==, è chiuso. |\n| emphasis | ==Sia== chiaro: non pago io. |\n\n> Fixed phrases like *che io sappia* and *sia come sia* stay fixed: don't turn them into the indicativo.",
+          "examples": [
+            {
+              "it": "Che entri pure, il direttore la aspetta.",
+              "en": "Let him come in, the director is expecting him."
+            },
+            {
+              "it": "Che io sappia, il museo è chiuso il lunedì.",
+              "en": "As far as I know, the museum is closed on Mondays."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l4-e03",
+          "stage": "learn",
+          "title": "Speech or writing?",
+          "body": "Speech often swaps the congiuntivo for the indicativo. In formal writing and the exam, keep it.\n\n| | parlato | scritto |\n|---|---|---|\n| opinion | Penso che ==hai== ragione. | Penso che tu ==abbia== ragione. |\n| hypothesis | Se lo ==sapevo==, ==venivo==. | Se l'==avessi saputo==, ==sarei venuto==. |\n| concession | – | Benché ==sia== tardi, resto. |\n\n> After benché, affinché, prima che and purché the indicativo sounds wrong even in speech.",
+          "examples": [
+            {
+              "it": "Mi sa che Luca non viene. (parlato)",
+              "en": "I reckon Luca isn't coming. (spoken)"
+            },
+            {
+              "it": "Mi sembra che Luca non venga. (scritto)",
+              "en": "It seems to me that Luca isn't coming. (written)"
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-08-l4-e04",
+          "stage": "practise",
+          "sentences": [
+            "Penso che hai ragione.",
+            "Penso che tu abbia ragione."
+          ],
+          "question": "Quale frase va bene in una mail formale?",
+          "answer": 1,
+          "translations": [
+            "I think you're right. (spoken)",
+            "I think you're right. (formal)"
+          ],
+          "instruction": "Leggi le frasi e scegli.",
+          "explanation": "Formal writing keeps the congiuntivo after pensare che; the indicativo is a spoken shortcut."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-08-l4-e05",
+          "stage": "practise",
+          "buckets": [
+            "si sente nel parlato",
+            "scritto / esame"
+          ],
+          "items": [
+            {
+              "text": "Penso che hai ragione.",
+              "bucket": 0
+            },
+            {
+              "text": "Penso che tu abbia ragione.",
+              "bucket": 1
+            },
+            {
+              "text": "Se lo sapevo, venivo.",
+              "bucket": 0
+            },
+            {
+              "text": "Se l'avessi saputo, sarei venuto.",
+              "bucket": 1
+            },
+            {
+              "text": "Mi sa che Luca non viene.",
+              "bucket": 0
+            },
+            {
+              "text": "Mi sembra che Luca non venga.",
+              "bucket": 1
+            }
+          ],
+          "instruction": "Dove si usa? Dividi le frasi.",
+          "explanation": "Speech often uses the indicativo or the imperfetto; writing and exams need the congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-08-l4-e06",
+          "stage": "practise",
+          "sentence": "Che io ___, il museo è chiuso il lunedì.",
+          "verb": "sapere",
+          "answer": 1,
+          "forms": [
+            "sappia"
+          ],
+          "instruction": "Quale modo? Poi scrivi la forma.",
+          "explanation": "Che io sappia is a fixed hedging phrase with the congiuntivo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-08-l4-e07",
+          "stage": "practise",
+          "sentence": "Il signor Rossi è qui? Che ___ (entrare) pure.",
+          "answers": [
+            "entri"
+          ],
+          "hint": "entrare – lui",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "Che + congiuntivo gives a third-person order or permission."
+        },
+        {
+          "type": "error_correction",
+          "id": "cg-08-l4-e08",
+          "stage": "practise",
+          "sentence": "Benché è tardi, resto ancora un po'.",
+          "answers": [
+            "Benché sia tardi, resto ancora un po'.",
+            "Benché sia tardi resto ancora un po'."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Benché always takes the congiuntivo, even in speech."
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-08-l4-e09",
+          "stage": "use",
+          "scenario": "{name} partecipa a una riunione di condominio e parla con l'amministratore. Usa il congiuntivo in modo formale.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buonasera {name}, si accomodi. Che io sappia, lei ha scritto per un problema con l'ascensore."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì. Benché lo abbiano riparato due volte, si blocca ancora.",
+              "hint": "Benché + congiuntivo.",
+              "keywords": [
+                "benché",
+                "abbiano"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Capisco. Per quanto ne sappia, il tecnico è venuto ieri. Che cosa è successo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Chiunque sia il responsabile, serve una soluzione definitiva.",
+              "hint": "Chiunque + essere.",
+              "keywords": [
+                "chiunque",
+                "sia"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ha ragione. Sia chiaro che faremo il possibile: chiamo subito un altro tecnico."
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie. Spero che possa venire domani.",
+              "hint": "Spero che + potere.",
+              "keywords": [
+                "spero che",
+                "possa"
+              ]
+            }
+          ],
+          "instruction": "Recita la conversazione."
+        }
+      ]
+    },
+    {
+      "id": "cg-08-l5",
+      "title": "Verifica finale: tutti i modi",
+      "minutes": 10,
+      "goal": "You can choose indicativo, congiuntivo, condizionale or infinito with confidence.",
+      "takeaway": "Fact → indicativo; filtered through someone's mind → congiuntivo; same subject → infinito.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-08-l5-e01",
+          "stage": "warmup",
+          "prompt": "Quale frase è corretta?",
+          "options": [
+            "Penso che Anna è già partita.",
+            "Penso che Anna sia già partita.",
+            "Penso che Anna sarebbe già partita.",
+            "Penso che Anna era già partita."
+          ],
+          "answer": 1,
+          "instruction": "Riscaldamento: scegli la frase corretta.",
+          "explanation": "Warm-up: pensare che (an opinion) takes the congiuntivo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l5-e02",
+          "stage": "learn",
+          "title": "Fact or filtered?",
+          "body": "Indicativo: you present it as a **fact**. Congiuntivo: it passes through someone's mind (opinion, wish, doubt, hypothesis). Infinito: same subject, no **che**.\n\n| mind | esempio |\n|---|---|\n| fact | So che ==hai== ragione. |\n| opinion | Penso che tu ==abbia== ragione. |\n| wish | Voglio che tu ==venga==. |\n| hypothesis | Se ==fossi== in te… |\n| same subject | Penso ==di avere== ragione. |\n\n> Ask first: fact, or filtered through someone's mind?",
+          "examples": [
+            {
+              "it": "So che sei in ritardo.",
+              "en": "I know you're late."
+            },
+            {
+              "it": "Spero che tu non sia in ritardo.",
+              "en": "I hope you're not late."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-08-l5-e03",
+          "stage": "learn",
+          "title": "Which tense?",
+          "body": "The main verb sets the time. Match the congiuntivo to it.\n\n| main verb | same time | before |\n|---|---|---|\n| presente / futuro | che ==sia== | che ==sia stato== |\n| passato | che ==fosse== | che ==fosse stato== |\n\n> Imagined **se**: congiuntivo imperfetto (now) or trapassato (past), then the condizionale.",
+          "examples": [
+            {
+              "it": "Credo che sia partito.",
+              "en": "I think he has left."
+            },
+            {
+              "it": "Pensavo che fosse già partito.",
+              "en": "I thought he had already left."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-08-l5-e04",
+          "stage": "practise",
+          "buckets": [
+            "indicativo",
+            "congiuntivo",
+            "infinito"
+          ],
+          "items": [
+            {
+              "text": "So che hai ragione.",
+              "bucket": 0
+            },
+            {
+              "text": "Penso che tu abbia ragione.",
+              "bucket": 1
+            },
+            {
+              "text": "Penso di avere ragione.",
+              "bucket": 2
+            },
+            {
+              "text": "Prima che tu parta, chiamami.",
+              "bucket": 1
+            },
+            {
+              "text": "Prima di partire, chiamami.",
+              "bucket": 2
+            },
+            {
+              "text": "Dopo che è partito, ho chiamato.",
+              "bucket": 0
+            },
+            {
+              "text": "Voglio che tu venga.",
+              "bucket": 1
+            },
+            {
+              "text": "Voglio venire.",
+              "bucket": 2
+            }
+          ],
+          "instruction": "Indicativo, congiuntivo o infinito? Dividi le frasi.",
+          "explanation": "Fact → indicativo; someone's mind or a trigger like prima che → congiuntivo; same subject → infinito."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-08-l5-e05",
+          "stage": "practise",
+          "sentence": "Se l'avessi saputo, ___ venuto.",
+          "verb": "essere",
+          "answer": 2,
+          "forms": [
+            "sarei"
+          ],
+          "instruction": "Quale tempo? Poi scrivi la forma.",
+          "explanation": "An unreal past hypothesis takes the condizionale passato in the result.",
+          "options": [
+            "congiuntivo imperfetto",
+            "congiuntivo trapassato",
+            "condizionale passato"
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-08-l5-e06",
+          "stage": "practise",
+          "sentence": "Pensavo che Anna ___ (essere) già a casa.",
+          "answers": [
+            "fosse"
+          ],
+          "hint": "essere – lei",
+          "instruction": "Completa con la forma giusta.",
+          "explanation": "A past main verb (pensavo) asks for the congiuntivo imperfetto."
+        },
+        {
+          "type": "error_correction",
+          "id": "cg-08-l5-e07",
+          "stage": "practise",
+          "sentence": "Benché ha studiato molto, non ha passato l'esame.",
+          "answers": [
+            "Benché abbia studiato molto, non ha passato l'esame.",
+            "Benché abbia studiato molto non ha passato l'esame."
+          ],
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "explanation": "Benché always takes the congiuntivo."
+        },
+        {
+          "type": "transform",
+          "id": "cg-08-l5-e08",
+          "stage": "practise",
+          "source": "Marco è partito senza salutare.",
+          "cue": "Mi dispiace che…",
+          "answers": [
+            "Mi dispiace che Marco sia partito senza salutare."
+          ],
+          "instruction": "Riscrivi la frase.",
+          "explanation": "Feelings like mi dispiace che take the congiuntivo, here the passato.",
+          "hint": "essere → sia + partito"
+        },
+        {
+          "type": "free_write",
+          "id": "cg-08-l5-e09",
+          "stage": "use",
+          "prompt": "CELI 3 / C1: il tuo comune vuole chiudere il centro storico alle auto. Scrivi una lettera al giornale locale (70–100 parole) con la tua opinione.",
+          "minWords": 70,
+          "checklist": [
+            "Un'opinione con il congiuntivo (penso che, credo che, mi sembra che)",
+            "Un'ipotesi (se fosse… / se avessero…)",
+            "Un indefinito (chiunque, qualunque) o per quanto",
+            "Una relativa con il congiuntivo (cerco una soluzione che…)",
+            "Registro formale, nessun indicativo parlato"
+          ],
+          "modelAnswer": "Gentile direttore, penso che chiudere il centro alle auto sia una buona idea, ma servono alternative. Se i bus passassero più spesso, molti lascerebbero l'auto a casa. Per quanto sia difficile cambiare abitudini, credo che i cittadini accetteranno la misura. Chiunque lavori in centro dovrebbe avere un parcheggio vicino. Cerchiamo una soluzione che sia giusta per tutti. Cordiali saluti.",
+          "instruction": "Scrivi il testo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il requisito",
+      "en": "requirement",
+      "example": "Cerco un candidato che abbia i requisiti richiesti."
+    },
+    {
+      "it": "introvabile",
+      "en": "impossible to find",
+      "example": "Un parcheggio gratis in centro è introvabile."
+    },
+    {
+      "it": "a prescindere da",
+      "en": "regardless of",
+      "example": "A prescindere dal prezzo, la qualità conta."
+    },
+    {
+      "it": "per giunta",
+      "en": "on top of that",
+      "example": "Ha perso il treno e per giunta il portafoglio."
+    },
+    {
+      "it": "quantomeno",
+      "en": "at least",
+      "example": "Chiamami quantomeno per dirmi se arrivi."
+    },
+    {
+      "it": "nonostante",
+      "en": "despite",
+      "example": "Nonostante la pioggia, siamo usciti."
+    },
+    {
+      "it": "benché",
+      "en": "although",
+      "example": "Benché sia tardi, resto."
+    },
+    {
+      "it": "a ogni costo",
+      "en": "at all costs",
+      "example": "Voglio finire il corso a ogni costo."
+    },
+    {
+      "it": "sia come sia",
+      "en": "be that as it may",
+      "example": "Sia come sia, io non cambio idea."
+    },
+    {
+      "it": "che io sappia",
+      "en": "as far as I know",
+      "example": "Che io sappia, l'ufficio chiude alle cinque."
+    },
+    {
+      "it": "dovunque",
+      "en": "wherever",
+      "example": "Dovunque tu vada, porta il passaporto."
+    },
+    {
+      "it": "a quanto pare",
+      "en": "apparently",
+      "example": "A quanto pare lo sciopero è stato revocato."
+    },
+    {
+      "it": "il giudizio",
+      "en": "judgement",
+      "example": "Questo è solo un giudizio personale."
+    },
+    {
+      "it": "la sfumatura",
+      "en": "nuance",
+      "example": "Il congiuntivo aggiunge una sfumatura di dubbio."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-08-t1",
+      "rule": "Cerco… che + congiuntivo",
+      "tip": "A wanted, unidentified thing takes che + congiuntivo; a real one takes the indicativo.",
+      "example": {
+        "it": "Cerco un hotel che sia vicino al mare.",
+        "en": "I'm looking for a hotel near the sea."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Cerco un hotel che ___ (essere) vicino al mare.",
+        "answers": [
+          "sia"
+        ]
+      }
+    },
+    {
+      "id": "cg-08-t2",
+      "rule": "Il primo, l'unico, il più…",
+      "tip": "After a superlative or il primo / l'unico / l'ultimo che, use the congiuntivo.",
+      "example": {
+        "it": "È il film più bello che io abbia mai visto.",
+        "en": "It's the best film I've ever seen."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "È il film più bello che io ___ mai visto.",
+        "answers": [
+          "abbia"
+        ]
+      }
+    },
+    {
+      "id": "cg-08-t3",
+      "rule": "Chiunque, qualunque, dovunque",
+      "tip": "Chiunque, qualunque cosa and dovunque take the congiuntivo: 'no matter who, what, where'.",
+      "example": {
+        "it": "Chiunque chiami, digli che non ci sono.",
+        "en": "Whoever calls, tell them I'm out."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Chiunque ___ (chiamare), digli che non ci sono.",
+        "answers": [
+          "chiami"
+        ]
+      }
+    },
+    {
+      "id": "cg-08-t4",
+      "rule": "Per quanto + congiuntivo",
+      "tip": "Per quanto (however much) takes the congiuntivo and sounds more formal than anche se.",
+      "example": {
+        "it": "Per quanto sia stanco, non si ferma.",
+        "en": "However tired he is, he doesn't stop."
+      },
+      "challenge": {
+        "type": "transform",
+        "source": "Anche se è stanco, non si ferma mai.",
+        "cue": "Per quanto…",
+        "answers": [
+          "Per quanto sia stanco, non si ferma mai.",
+          "Per quanto sia stanco non si ferma mai."
+        ]
+      }
+    },
+    {
+      "id": "cg-08-t5",
+      "rule": "Parlato e scritto",
+      "tip": "Speech may say penso che hai ragione. In writing and in the exam, use the congiuntivo.",
+      "example": {
+        "it": "Penso che tu abbia ragione.",
+        "en": "I think you're right."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Penso che hai ragione.",
+        "answers": [
+          "Penso che tu abbia ragione.",
+          "Credo che tu abbia ragione."
+        ]
+      }
+    }
+  ]
+}

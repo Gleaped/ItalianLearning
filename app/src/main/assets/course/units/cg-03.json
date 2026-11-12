@@ -1,0 +1,996 @@
+{
+  "id": "cg-03",
+  "level": "B1",
+  "title": "Penso, spero, ho paura",
+  "format": 2,
+  "module": "b1-m3",
+  "track": "congiuntivo",
+  "objective": "By the end you can use the congiuntivo after the five trigger families (opinion, will, emotion, doubt, impersonal), and know when to choose the indicativo or an infinitive instead.",
+  "grammarFocus": "Five trigger families + congiuntivo presente; same subject → di + infinito; certainty and secondo me → indicativo.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "cg-03-l1",
+      "title": "Penso che… (opinioni)",
+      "minutes": 7,
+      "goal": "You can give an opinion with penso / credo / mi sembra che, and say secondo me.",
+      "takeaway": "Penso / credo / mi sembra che + congiuntivo; secondo me / per me + indicativo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-03-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta del congiuntivo.",
+          "prompt": "(che) lui ___ (fare)",
+          "options": [
+            "faccia",
+            "fa",
+            "fare",
+            "facci"
+          ],
+          "answer": 0,
+          "explanation": "Fare is irregular: faccia comes from the io form faccio."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l1-e02",
+          "stage": "learn",
+          "title": "Le opinioni",
+          "body": "An opinion is **filtered through your mind**, not a plain fact. After **che**, the verb goes in the congiuntivo.\n\n| trigger | + che + congiuntivo |\n|---|---|\n| ==penso== che | Luca sia stanco |\n| ==credo== che | Anna abbia ragione |\n| ==mi sembra== che | il bar sia chiuso |\n\n> **Secondo me** and **per me** are not verbs and have no che: use the indicativo. *Secondo me è caro.*",
+          "examples": [
+            {
+              "it": "Credo che Anna abbia ragione.",
+              "en": "I think Anna is right."
+            },
+            {
+              "it": "Secondo me il bar è chiuso.",
+              "en": "In my opinion the café is closed."
+            }
+          ]
+        },
+        {
+          "type": "find_trigger",
+          "id": "cg-03-l1-e03",
+          "stage": "practise",
+          "instruction": "Tocca la parola che chiede il congiuntivo.",
+          "sentence": "Mi sembra che il museo sia chiuso oggi.",
+          "trigger": "Mi sembra che",
+          "explanation": "Mi sembra che expresses an impression, so the verb after it is in the congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Penso che Luca ___ stanco.",
+          "verb": "essere",
+          "answer": 1,
+          "forms": [
+            "sia"
+          ],
+          "trigger": "Penso che",
+          "explanation": "Penso che introduces an opinion, so it takes the congiuntivo: sia."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l1-e05",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Secondo me il film ___ troppo lungo.",
+          "verb": "essere",
+          "answer": 0,
+          "forms": [
+            "è"
+          ],
+          "trigger": "Secondo me",
+          "explanation": "Secondo me is not a verb with che, so the verb stays in the indicativo: è."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-03-l1-e06",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "So che Anna è in ritardo.",
+            "Penso che Anna sia in ritardo."
+          ],
+          "question": "In which sentence does the speaker only think it is true, without knowing?",
+          "answer": 1,
+          "translations": [
+            "I know Anna is late.",
+            "I think Anna is late."
+          ],
+          "explanation": "Penso che marks an opinion (congiuntivo); so che states something known (indicativo)."
+        },
+        {
+          "type": "transform",
+          "id": "cg-03-l1-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Il treno è in ritardo.",
+          "cue": "Penso che…",
+          "answers": [
+            "Penso che il treno sia in ritardo.",
+            "Penso che il treno sia in ritardo",
+            "Credo che il treno sia in ritardo."
+          ],
+          "hint": "essere → sia",
+          "explanation": "After penso che the verb moves to the congiuntivo: è becomes sia."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-03-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Che cosa pensi della cucina italiana? Usa «Penso che…» e «Secondo me…».",
+          "keywords": [
+            "penso che",
+            "secondo me",
+            "credo che"
+          ],
+          "modelAnswer": "Penso che la cucina italiana sia molto varia. Secondo me la pasta è ottima, ma credo che la cucina del sud sia più piccante.",
+          "explanation": "Penso / credo che take the congiuntivo; secondo me takes the indicativo."
+        }
+      ]
+    },
+    {
+      "id": "cg-03-l2",
+      "title": "Voglio che… (volontà)",
+      "minutes": 7,
+      "goal": "You can say what you want, prefer or allow, for yourself and for other people.",
+      "takeaway": "Voglio / preferisco / lascio che + congiuntivo for someone else; same subject → voglio + infinito.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-03-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Secondo me Luca ___ ragione.",
+          "options": [
+            "ha",
+            "abbia",
+            "avere",
+            "abbiamo"
+          ],
+          "answer": 0,
+          "explanation": "Secondo me is followed by the indicativo: ha."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l2-e02",
+          "stage": "learn",
+          "title": "Voglio che tu…",
+          "body": "When you want **someone else** to act, the wish stays in your head, not yet a fact: che + congiuntivo.\n\n| trigger | example |\n|---|---|\n| ==voglio== che | Voglio che tu venga. |\n| ==preferisco== che | Preferisco che Marco guidi. |\n| ==desidero== che | Desidero che lei sia felice. |\n| ==lascio== che | Lascio che i bambini giochino. |\n\n> English says *I want you to come*; Italian says *voglio che tu venga*.",
+          "examples": [
+            {
+              "it": "Voglio che tu venga con noi.",
+              "en": "I want you to come with us."
+            },
+            {
+              "it": "Non lascio che i bambini guardino la TV dopo cena.",
+              "en": "I don't let the children watch TV after dinner."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l2-e03",
+          "stage": "learn",
+          "title": "Una sola persona",
+          "body": "Same person wanting and doing? Drop **che** and use the **infinito**.\n\n| two people | one person |\n|---|---|\n| Voglio che ==tu venga== | Voglio ==venire== |\n| Preferisco che ==lui paghi== | Preferisco ==pagare== |\n\n> Never *voglio che io vada*. Say *voglio andare*.",
+          "examples": [
+            {
+              "it": "Voglio andare al mare.",
+              "en": "I want to go to the sea."
+            },
+            {
+              "it": "Preferisco prendere il treno.",
+              "en": "I prefer to take the train."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-03-l2-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "una persona → infinito",
+            "due persone → che + congiuntivo"
+          ],
+          "items": [
+            {
+              "text": "Voglio andare al mare.",
+              "bucket": 0
+            },
+            {
+              "text": "Voglio che tu venga al mare.",
+              "bucket": 1
+            },
+            {
+              "text": "Preferisco che Marco guidi.",
+              "bucket": 1
+            },
+            {
+              "text": "Preferisco prendere il treno.",
+              "bucket": 0
+            },
+            {
+              "text": "Desidero che lei sia felice.",
+              "bucket": 1
+            },
+            {
+              "text": "Lascio che i bambini guardino un film.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "One subject uses the infinito; a second subject needs che + congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l2-e05",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Voglio che tu ___ con me.",
+          "verb": "venire",
+          "answer": 1,
+          "forms": [
+            "venga"
+          ],
+          "trigger": "Voglio che",
+          "explanation": "Voglio che expresses a wish about another person, so the verb is in the congiuntivo: venga."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-03-l2-e06",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "Voglio andare al cinema.",
+            "Voglio che tu vada al cinema."
+          ],
+          "question": "In which sentence does the speaker want someone else to do something?",
+          "answer": 1,
+          "translations": [
+            "I want to go to the cinema.",
+            "I want you to go to the cinema."
+          ],
+          "explanation": "A second subject (tu) needs che + congiuntivo; one subject uses the infinito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-03-l2-e07",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Preferisco che Sara ___ (guidare) lei: ho sonno.",
+          "answers": [
+            "guidi"
+          ],
+          "hint": "guidare – lei",
+          "explanation": "Preferisco che + congiuntivo; -are verbs take -i in the singular: guidi."
+        },
+        {
+          "type": "transform",
+          "id": "cg-03-l2-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Marco fa i compiti.",
+          "cue": "Voglio che…",
+          "answers": [
+            "Voglio che Marco faccia i compiti."
+          ],
+          "hint": "fare → faccia",
+          "explanation": "After voglio che the verb is in the congiuntivo: fa becomes faccia."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-03-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Hai un nuovo coinquilino. Di' due cose che vuoi che faccia. Usa «Voglio che…» o «Preferisco che…».",
+          "keywords": [
+            "voglio che",
+            "preferisco che"
+          ],
+          "modelAnswer": "Voglio che tu pulisca la cucina dopo cena. Preferisco che la musica non sia troppo alta dopo le dieci.",
+          "explanation": "Wishes about another person take che + congiuntivo."
+        }
+      ]
+    },
+    {
+      "id": "cg-03-l3",
+      "title": "Ho paura che… (emozioni)",
+      "minutes": 7,
+      "goal": "You can say how you feel about what someone does, and talk about your own hopes and fears.",
+      "takeaway": "Feelings and hopes + che + congiuntivo; same subject → di + infinito (Spero di venire).",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-03-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con il congiuntivo.",
+          "sentence": "Preferisco che tu ___ (venire) con noi.",
+          "answers": [
+            "venga"
+          ],
+          "hint": "venire – tu",
+          "explanation": "Preferisco che + congiuntivo; venire gives venga."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l3-e02",
+          "stage": "learn",
+          "title": "Come ti senti?",
+          "body": "Feelings and hopes about what happens are subjective: che + congiuntivo.\n\n| trigger | example |\n|---|---|\n| ==sono felice== che | Sono felice che tu stia meglio. |\n| ==mi fa piacere== che | Mi fa piacere che Luca venga. |\n| ==mi dispiace== che | Mi dispiace che Anna parta. |\n| ==ho paura== che | Ho paura che faccia freddo. |\n| ==spero== che | Spero che vada tutto bene. |\n\n> *Spero che* takes the congiuntivo too.",
+          "examples": [
+            {
+              "it": "Mi dispiace che Anna parta domani.",
+              "en": "I'm sorry Anna is leaving tomorrow."
+            },
+            {
+              "it": "Spero che vada tutto bene.",
+              "en": "I hope everything goes well."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l3-e03",
+          "stage": "learn",
+          "title": "Una sola persona",
+          "body": "Feeling about **your own** action: use **di + infinito**.\n\n| two people | one person |\n|---|---|\n| Spero che ==tu venga== | Spero ==di venire== |\n| Sono felice che ==tu sia== qui | Sono felice ==di essere== qui |\n| Ho paura che ==lui sbagli== | Ho paura ==di sbagliare== |\n\n> *Voglio* has no di; *spero, ho paura, sono felice* need **di**.",
+          "examples": [
+            {
+              "it": "Spero di vedere presto i miei amici.",
+              "en": "I hope to see my friends soon."
+            },
+            {
+              "it": "Ho paura di arrivare tardi.",
+              "en": "I'm afraid of arriving late."
+            }
+          ]
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l3-e04",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Mi dispiace che Luca non ___ venire.",
+          "verb": "potere",
+          "answer": 1,
+          "forms": [
+            "possa"
+          ],
+          "trigger": "Mi dispiace che",
+          "explanation": "Mi dispiace che expresses a feeling, so it takes the congiuntivo: possa."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-03-l3-e05",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "+ indicativo",
+            "+ congiuntivo",
+            "+ di + infinito"
+          ],
+          "items": [
+            {
+              "text": "So che Anna è felice.",
+              "bucket": 0
+            },
+            {
+              "text": "Spero che vada bene.",
+              "bucket": 1
+            },
+            {
+              "text": "Spero di vincere.",
+              "bucket": 2
+            },
+            {
+              "text": "Sono felice che tu sia qui.",
+              "bucket": 1
+            },
+            {
+              "text": "Ho paura di sbagliare.",
+              "bucket": 2
+            },
+            {
+              "text": "Mi fa piacere che tu venga.",
+              "bucket": 1
+            },
+            {
+              "text": "Secondo me costa troppo.",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Facts take the indicativo, feelings about others the congiuntivo, and your own action di + infinito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-03-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Spero che tu ___ (stare) meglio.",
+          "answers": [
+            "stia"
+          ],
+          "hint": "stare – tu",
+          "explanation": "Spero che + congiuntivo; stare is irregular: stia."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-03-l3-e07",
+          "stage": "practise",
+          "instruction": "Completa: una sola persona.",
+          "sentence": "Spero ___ vedere presto i miei amici.",
+          "answers": [
+            "di"
+          ],
+          "hint": "una sola persona",
+          "explanation": "With the same subject, spero is followed by di + infinito."
+        },
+        {
+          "type": "transform",
+          "id": "cg-03-l3-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Anna parte domani.",
+          "cue": "Mi dispiace che…",
+          "answers": [
+            "Mi dispiace che Anna parta domani."
+          ],
+          "hint": "partire → parta",
+          "explanation": "Mi dispiace che is a feeling trigger: parte becomes parta."
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-03-l3-e09",
+          "stage": "use",
+          "instruction": "Parla con un'amica prima di un esame.",
+          "scenario": "Un'amica, Giulia, ha l'esame di guida domani ed è nervosa. Rassicurala con «spero che…».",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Domani ho l'esame di guida e ho una paura!"
+            },
+            {
+              "speaker": "you",
+              "text": "Capisco! Spero che vada tutto bene.",
+              "hint": "Spero che + andare (va → vada).",
+              "keywords": [
+                "spero che",
+                "vada"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie. Ho paura di dimenticare tutto."
+            },
+            {
+              "speaker": "you",
+              "text": "Non ti preoccupare, ce la farai! Spero che tu dorma bene stanotte.",
+              "hint": "Spero che tu + dormire.",
+              "keywords": [
+                "spero che",
+                "dorma"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie, {name}! Ti scrivo domani."
+            }
+          ],
+          "explanation": "Hopes about another person: spero che + congiuntivo."
+        }
+      ]
+    },
+    {
+      "id": "cg-03-l4",
+      "title": "Dubito che… (dubbio e certezza)",
+      "minutes": 7,
+      "goal": "You can show doubt, and keep what you know apart from what you doubt.",
+      "takeaway": "Dubito / non penso / non è sicuro che + congiuntivo; so che / è vero che / è chiaro che + indicativo.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il modo, poi scrivi il verbo.",
+          "sentence": "Spero che Marco ___ meglio.",
+          "verb": "stare",
+          "answer": 1,
+          "forms": [
+            "stia"
+          ],
+          "trigger": "Spero che",
+          "explanation": "Spero che is a hope, so it takes the congiuntivo: stia."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l4-e02",
+          "stage": "learn",
+          "title": "Il dubbio",
+          "body": "Doubt means the fact is **not settled**: che + congiuntivo.\n\n| trigger | example |\n|---|---|\n| ==dubito== che | Dubito che Anna venga. |\n| non ==penso== che | Non penso che sia vero. |\n| non ==è sicuro== che | Non è sicuro che il bar sia aperto. |\n| non ==sono sicuro/a== che | Non sono sicuro/a che costi poco. |\n\n> *Penso che* + congiuntivo; *non penso che* too.",
+          "examples": [
+            {
+              "it": "Dubito che Anna venga stasera.",
+              "en": "I doubt Anna is coming tonight."
+            },
+            {
+              "it": "Non penso che sia vero.",
+              "en": "I don't think it's true."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l4-e03",
+          "stage": "learn",
+          "title": "So che… / Dubito che…",
+          "body": "What is **certain** goes in the indicativo; what is doubtful in the congiuntivo.\n\n| certo → indicativo | dubbio → congiuntivo |\n|---|---|\n| So che è ==vero== | Dubito che sia vero |\n| È chiaro che ==viene== | Non è chiaro che venga |\n| È vero che ==ha== ragione | Non penso che abbia ragione |\n\n> *Non so se* is everyday indicativo: *Non so se viene.* The congiuntivo is possible but more careful.",
+          "examples": [
+            {
+              "it": "So che Marco viene alla festa.",
+              "en": "I know Marco is coming to the party."
+            },
+            {
+              "it": "Non so se Anna è a casa.",
+              "en": "I don't know if Anna is at home."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-03-l4-e04",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "So che Marco viene alla festa.",
+            "Dubito che Marco venga alla festa."
+          ],
+          "question": "In which sentence is the speaker sure?",
+          "answer": 0,
+          "translations": [
+            "I know Marco is coming to the party.",
+            "I doubt Marco is coming to the party."
+          ],
+          "explanation": "So che states a fact (indicativo); dubito che expresses doubt (congiuntivo)."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l4-e05",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "È chiaro che Luca ___ ragione.",
+          "verb": "avere",
+          "answer": 0,
+          "forms": [
+            "ha"
+          ],
+          "trigger": "È chiaro che",
+          "explanation": "È chiaro che states something certain, so it takes the indicativo: ha."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l4-e06",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Non penso che Paolo ___ in ufficio oggi.",
+          "verb": "essere",
+          "answer": 1,
+          "forms": [
+            "sia"
+          ],
+          "trigger": "Non penso che",
+          "explanation": "Non penso che expresses doubt, so it takes the congiuntivo: sia."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-03-l4-e07",
+          "stage": "practise",
+          "instruction": "Completa la frase. Sono possibili due forme.",
+          "sentence": "Non so se Anna ___ (venire) stasera.",
+          "answers": [
+            "viene",
+            "venga"
+          ],
+          "hint": "Nel parlato di tutti i giorni: indicativo.",
+          "explanation": "After non so se both moods are possible; the indicativo (viene) is the everyday choice, venga is more careful."
+        },
+        {
+          "type": "transform",
+          "id": "cg-03-l4-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "So che è vero.",
+          "cue": "Dubito che…",
+          "answers": [
+            "Dubito che sia vero."
+          ],
+          "hint": "essere → sia",
+          "explanation": "Doubt triggers the congiuntivo: è becomes sia."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-03-l4-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Un'amica dice: «Domani andiamo al lago, fa sicuramente bel tempo!» Esprimi un dubbio con «Dubito che…» o «Non penso che…».",
+          "keywords": [
+            "dubito che",
+            "non penso che",
+            "non sono sicuro"
+          ],
+          "modelAnswer": "Dubito che domani faccia bel tempo. Non penso che sia una buona idea, ma so che il lago è bellissimo!",
+          "explanation": "Doubt takes the congiuntivo; so che states a fact with the indicativo."
+        }
+      ]
+    },
+    {
+      "id": "cg-03-l5",
+      "title": "È meglio che… (espressioni impersonali)",
+      "minutes": 7,
+      "goal": "You can say what is important, better or possible, for one person or in general.",
+      "takeaway": "È importante / è meglio / bisogna / è possibile che + congiuntivo; in general: infinito; è vero / è chiaro che + indicativo.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-03-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con il congiuntivo.",
+          "sentence": "Dubito che Anna ___ (avere) ragione.",
+          "answers": [
+            "abbia"
+          ],
+          "hint": "avere – lei",
+          "explanation": "Dubito che + congiuntivo; avere gives abbia."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l5-e02",
+          "stage": "learn",
+          "title": "Importante, meglio, possibile",
+          "body": "Impersonal phrases judge a situation: not a plain fact, so che + congiuntivo.\n\n| trigger | example |\n|---|---|\n| ==è importante== che | È importante che tu dorma. |\n| ==è meglio== che | È meglio che tu vada. |\n| ==bisogna== che | Bisogna che io parli con lui. |\n| ==è possibile== che | È possibile che piova. |\n\n> **È vero / è chiaro / è certo che** state facts: indicativo.",
+          "examples": [
+            {
+              "it": "È meglio che tu vada dal medico.",
+              "en": "It's better that you go to the doctor."
+            },
+            {
+              "it": "È possibile che piova domani.",
+              "en": "It may rain tomorrow."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-03-l5-e03",
+          "stage": "learn",
+          "title": "In generale: infinito",
+          "body": "Speaking **in general**, with no particular person: skip che, use the **infinito**.\n\n| una persona | in generale |\n|---|---|\n| È importante che ==tu dorma== | È importante ==dormire== |\n| Bisogna che ==tu parta== | Bisogna ==partire== |\n\n> *È meglio andare* = better to go (for anyone).",
+          "examples": [
+            {
+              "it": "È importante dormire bene.",
+              "en": "It's important to sleep well."
+            },
+            {
+              "it": "Bisogna partire presto.",
+              "en": "You need to leave early."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-03-l5-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "+ indicativo",
+            "+ congiuntivo",
+            "+ infinito"
+          ],
+          "items": [
+            {
+              "text": "È chiaro che hai ragione.",
+              "bucket": 0
+            },
+            {
+              "text": "È meglio che tu esca presto.",
+              "bucket": 1
+            },
+            {
+              "text": "È importante dormire bene.",
+              "bucket": 2
+            },
+            {
+              "text": "È vero che il treno è in ritardo.",
+              "bucket": 0
+            },
+            {
+              "text": "È possibile che piova domani.",
+              "bucket": 1
+            },
+            {
+              "text": "Bisogna partire presto.",
+              "bucket": 2
+            },
+            {
+              "text": "Bisogna che tu parta presto.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Facts take the indicativo, a judgement on one person che + congiuntivo, and a general rule the infinito."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l5-e05",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "È meglio che tu ___ dal medico.",
+          "verb": "andare",
+          "answer": 1,
+          "forms": [
+            "vada"
+          ],
+          "trigger": "È meglio che",
+          "explanation": "È meglio che is an impersonal judgement, so it takes the congiuntivo: vada."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-03-l5-e06",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "È chiaro che il bar ___ chiuso.",
+          "verb": "essere",
+          "answer": 0,
+          "forms": [
+            "è"
+          ],
+          "trigger": "È chiaro che",
+          "explanation": "È chiaro che states a fact, so it takes the indicativo: è."
+        },
+        {
+          "type": "error_correction",
+          "id": "cg-03-l5-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "È importante che Luca dorme bene.",
+          "answers": [
+            "È importante che Luca dorma bene."
+          ],
+          "explanation": "È importante che needs the congiuntivo: dorma, not dorme."
+        },
+        {
+          "type": "transform",
+          "id": "cg-03-l5-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Marco parla con il medico.",
+          "cue": "Bisogna che…",
+          "answers": [
+            "Bisogna che Marco parli con il medico."
+          ],
+          "hint": "parlare → parli",
+          "explanation": "Bisogna che + congiuntivo: parla becomes parli."
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-03-l5-e09",
+          "stage": "use",
+          "instruction": "Dai consigli a un'amica.",
+          "scenario": "Un'amica si trasferisce domenica e ti chiede consigli. Usa «È importante che…», «Bisogna che…», «È meglio che…».",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Domenica mi trasferisco. Che cosa mi consigli?"
+            },
+            {
+              "speaker": "you",
+              "text": "È importante che tu prenoti il furgone presto.",
+              "hint": "È importante che tu + prenotare.",
+              "keywords": [
+                "è importante che",
+                "prenoti"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Hai ragione. E poi?"
+            },
+            {
+              "speaker": "you",
+              "text": "Bisogna che tu avvisi il padrone di casa ed è meglio che tu chieda aiuto a un amico.",
+              "hint": "Bisogna che / è meglio che + congiuntivo.",
+              "keywords": [
+                "bisogna che",
+                "è meglio che"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto, grazie mille {name}! Mi sei di grande aiuto."
+            }
+          ],
+          "explanation": "Impersonal expressions of necessity take che + congiuntivo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "dubitare",
+      "en": "to doubt",
+      "example": "Dubito che sia vero."
+    },
+    {
+      "it": "sperare",
+      "en": "to hope",
+      "example": "Spero che vada tutto bene."
+    },
+    {
+      "it": "preferire",
+      "en": "to prefer",
+      "example": "Preferisco che guidi tu."
+    },
+    {
+      "it": "lasciare che",
+      "en": "to let, to allow",
+      "example": "Lascio che i bambini giochino un po'."
+    },
+    {
+      "it": "avere paura",
+      "en": "to be afraid",
+      "example": "Ho paura che faccia freddo."
+    },
+    {
+      "it": "Mi dispiace che…",
+      "en": "I'm sorry that…",
+      "example": "Mi dispiace che tu non possa venire."
+    },
+    {
+      "it": "Mi fa piacere che…",
+      "en": "I'm glad that…",
+      "example": "Mi fa piacere che tu stia meglio."
+    },
+    {
+      "it": "secondo me",
+      "en": "in my opinion",
+      "example": "Secondo me è una buona idea."
+    },
+    {
+      "it": "per me",
+      "en": "as far as I'm concerned",
+      "example": "Per me va benissimo."
+    },
+    {
+      "it": "Mi sembra che…",
+      "en": "It seems to me that…",
+      "example": "Mi sembra che sia chiuso."
+    },
+    {
+      "it": "È meglio che…",
+      "en": "It's better that…",
+      "example": "È meglio che tu vada a casa."
+    },
+    {
+      "it": "bisogna",
+      "en": "one must, it's necessary",
+      "example": "Bisogna partire presto."
+    },
+    {
+      "it": "È possibile che…",
+      "en": "It's possible that…",
+      "example": "È possibile che piova domani."
+    },
+    {
+      "it": "È chiaro che…",
+      "en": "It's clear that…",
+      "example": "È chiaro che ha ragione."
+    },
+    {
+      "it": "Non so se…",
+      "en": "I don't know if…",
+      "example": "Non so se viene stasera."
+    },
+    {
+      "it": "trasferirsi",
+      "en": "to move (house)",
+      "example": "Domenica mi trasferisco a Torino."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-03-t1",
+      "rule": "Penso che + congiuntivo",
+      "tip": "Opinion verbs (penso, credo, mi sembra) take che + congiuntivo; secondo me takes the indicativo.",
+      "example": {
+        "it": "Credo che Anna abbia ragione.",
+        "en": "I think Anna is right."
+      },
+      "challenge": {
+        "type": "choose_mood",
+        "sentence": "Penso che Luca ___ stanco.",
+        "verb": "essere",
+        "answer": 1,
+        "forms": [
+          "sia"
+        ],
+        "explanation": "Penso che takes the congiuntivo."
+      }
+    },
+    {
+      "id": "cg-03-t2",
+      "rule": "Stessa persona: infinito",
+      "tip": "One subject, no che: voglio andare, spero di venire, ho paura di sbagliare.",
+      "example": {
+        "it": "Spero di vedere presto i miei amici.",
+        "en": "I hope to see my friends soon."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Ho paura ___ arrivare tardi.",
+        "answers": [
+          "di"
+        ],
+        "hint": "una sola persona"
+      }
+    },
+    {
+      "id": "cg-03-t3",
+      "rule": "Dubito che + congiuntivo",
+      "tip": "Doubt (dubito, non penso, non è sicuro che) takes the congiuntivo.",
+      "example": {
+        "it": "Dubito che Anna venga.",
+        "en": "I doubt Anna is coming."
+      },
+      "challenge": {
+        "type": "transform",
+        "source": "So che è vero.",
+        "cue": "Dubito che…",
+        "answers": [
+          "Dubito che sia vero."
+        ]
+      }
+    },
+    {
+      "id": "cg-03-t4",
+      "rule": "È meglio che tu vada",
+      "tip": "Impersonal phrases (è importante, è meglio, bisogna, è possibile che) take the congiuntivo.",
+      "example": {
+        "it": "È meglio che tu vada dal medico.",
+        "en": "It's better that you go to the doctor."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "È importante che tu ___ bene.",
+        "options": [
+          "dormi",
+          "dorma",
+          "dormire",
+          "dormito"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "cg-03-t5",
+      "rule": "Fatto certo: indicativo",
+      "tip": "So che, è vero che, è chiaro che state facts: indicativo, no congiuntivo.",
+      "example": {
+        "it": "È chiaro che il bar è chiuso.",
+        "en": "It's clear that the café is closed."
+      },
+      "challenge": {
+        "type": "choose_mood",
+        "sentence": "È vero che Luca ___ molto.",
+        "verb": "lavorare",
+        "answer": 0,
+        "forms": [
+          "lavora"
+        ],
+        "explanation": "È vero che states a fact: indicativo."
+      }
+    }
+  ]
+}

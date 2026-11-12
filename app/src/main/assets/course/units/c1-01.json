@@ -7,7 +7,7 @@
   "remedialUnitIds": [
     "b1-06",
     "b2-02",
-    "b2-11"
+    "cg-05"
   ],
   "lessons": [
     {
@@ -248,7 +248,7 @@
             "richiamarmi",
             "ringrazio"
           ],
-          "modelAnswer": "Buongiorno, sono Richard Moore. La chiamo in merito a un avviso di pagamento che ho ricevuto la settimana scorsa. Avrei bisogno di alcuni chiarimenti. Le sarei grato se potesse richiamarmi a questo numero. La ringrazio, buona giornata.",
+          "modelAnswer": "Buongiorno, sono {name}. La chiamo in merito a un avviso di pagamento che ho ricevuto la settimana scorsa. Avrei bisogno di alcuni chiarimenti. Le sarei grato se potesse richiamarmi a questo numero. La ringrazio, buona giornata.",
           "explanation": "Struttura: chi sei → perché chiami (in merito a…) → richiesta cortese → ringraziamento."
         },
         {
@@ -615,7 +615,7 @@
           "id": "c1-01-l3-e07",
           "instruction": "Leggi il reclamo e rispondi alle domande.",
           "title": "Un reclamo al servizio clienti",
-          "passage": "Oggetto: reclamo per mancata attivazione della linea internet – contratto n. 88213\n\nSpett.le Servizio Clienti,\n\nin data 2 settembre ho sottoscritto un contratto per una linea internet presso la mia nuova abitazione. Al momento della firma mi era stata garantita l'attivazione entro dieci giorni lavorativi. Ad oggi, a distanza di oltre un mese, la linea non è ancora attiva, nonostante tre segnalazioni telefoniche al Vostro numero verde.\n\nPoiché lavoro da casa, la mancata attivazione mi sta causando notevoli disagi. Chiedo pertanto l'attivazione immediata della linea e lo storno dei canoni addebitati per il periodo in cui il servizio non è stato erogato.\n\nQualora non riceva risposta entro quindici giorni dalla presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\nRichard Moore",
+          "passage": "Oggetto: reclamo per mancata attivazione della linea internet – contratto n. 88213\n\nSpett.le Servizio Clienti,\n\nin data 2 settembre ho sottoscritto un contratto per una linea internet presso la mia nuova abitazione. Al momento della firma mi era stata garantita l'attivazione entro dieci giorni lavorativi. Ad oggi, a distanza di oltre un mese, la linea non è ancora attiva, nonostante tre segnalazioni telefoniche al Vostro numero verde.\n\nPoiché lavoro da casa, la mancata attivazione mi sta causando notevoli disagi. Chiedo pertanto l'attivazione immediata della linea e lo storno dei canoni addebitati per il periodo in cui il servizio non è stato erogato.\n\nQualora non riceva risposta entro quindici giorni dalla presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n{name}",
           "questions": [
             {
               "question": "Qual è il problema principale?",
@@ -628,7 +628,7 @@
               "answer": 1
             },
             {
-              "question": "Che cosa chiede Richard?",
+              "question": "Che cosa chiede {name}?",
               "options": [
                 "Di annullare il contratto e cambiare operatore",
                 "Un tecnico entro dieci giorni",
@@ -772,7 +772,7 @@
             "Ho usato almeno un connettivo formale: pertanto, a seguito di, in merito a, qualora + congiuntivo.",
             "Ho chiesto qualcosa di preciso, in modo fermo ma cortese."
           ],
-          "modelAnswer": "Oggetto: reclamo per ritardo nella consegna e prodotto danneggiato – ordine n. 30577\n\nSpett.le Servizio Clienti,\n\nin data 4 ottobre ho acquistato sul Vostro sito una lavatrice, con consegna prevista entro cinque giorni lavorativi. Il prodotto mi è stato consegnato soltanto il 28 ottobre, con oltre tre settimane di ritardo. Inoltre, al momento dell'apertura dell'imballo, ho constatato che lo sportello era rotto, come risulta dalle fotografie che Vi invio in allegato.\n\nChiedo pertanto la sostituzione del prodotto o, in alternativa, il rimborso integrale dell'importo pagato. Qualora non riceva una risposta entro quindici giorni dal ricevimento della presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\nRichard Moore"
+          "modelAnswer": "Oggetto: reclamo per ritardo nella consegna e prodotto danneggiato – ordine n. 30577\n\nSpett.le Servizio Clienti,\n\nin data 4 ottobre ho acquistato sul Vostro sito una lavatrice, con consegna prevista entro cinque giorni lavorativi. Il prodotto mi è stato consegnato soltanto il 28 ottobre, con oltre tre settimane di ritardo. Inoltre, al momento dell'apertura dell'imballo, ho constatato che lo sportello era rotto, come risulta dalle fotografie che Vi invio in allegato.\n\nChiedo pertanto la sostituzione del prodotto o, in alternativa, il rimborso integrale dell'importo pagato. Qualora non riceva una risposta entro quindici giorni dal ricevimento della presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n{name}"
         },
         {
           "type": "flashcard",

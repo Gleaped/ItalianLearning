@@ -41,7 +41,7 @@ import com.gleaped.italianlearning.domain.srs.Rating
 import com.gleaped.italianlearning.domain.srs.Sm2
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import com.gleaped.italianlearning.ui.components.SpeakerButton
-import com.gleaped.italianlearning.ui.lesson.RatingButton
+import com.gleaped.italianlearning.ui.components.RatingChoices
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -168,13 +168,12 @@ fun ReviewScreen(onDone: () -> Unit) {
         if (state.revealed) {
             val today = LocalDate.now().toEpochDay()
             val cardState = card.toState()
-            fun preview(r: Rating): String = Sm2.formatInterval(Sm2.review(cardState, r, today).intervalDays)
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                RatingButton("Again", Modifier.weight(1f), sub = "again") { vm.rate(Rating.AGAIN) }
-                RatingButton("Hard", Modifier.weight(1f), sub = preview(Rating.HARD)) { vm.rate(Rating.HARD) }
-                RatingButton("Good", Modifier.weight(1f), sub = preview(Rating.GOOD)) { vm.rate(Rating.GOOD) }
-                RatingButton("Easy", Modifier.weight(1f), sub = preview(Rating.EASY)) { vm.rate(Rating.EASY) }
-            }
+            RatingChoices(
+                onRate = vm::rate,
+                whenBack = { r ->
+                    if (r == Rating.AGAIN) "in this session" else Sm2.describeInterval(Sm2.review(cardState, r, today).intervalDays)
+                },
+            )
         } else {
             Button(onClick = vm::reveal, modifier = Modifier.fillMaxWidth()) { Text("Show answer") }
         }

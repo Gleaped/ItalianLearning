@@ -1401,7 +1401,7 @@
      "relatedUnitIds": [
       "b2-03",
       "b2-06",
-      "b2-09"
+      "cg-07"
      ]
     },
     {
@@ -1576,8 +1576,8 @@
       "cercare → cerchi, pagare → paghi (keep the hard sound)."
      ],
      "relatedUnitIds": [
-      "b1-09",
-      "b2-11"
+      "cg-03",
+      "cg-05"
      ]
     },
     {
@@ -1646,8 +1646,8 @@
       "Main verb in the past (pensavo, ho pensato) needs the trapassato instead: Pensavo che fosse partito."
      ],
      "relatedUnitIds": [
-      "b2-01",
-      "b2-07"
+      "cg-06",
+      "cg-06"
      ]
     },
     {
@@ -1779,10 +1779,10 @@
       "voi has no double s: foste, parlaste (same as the passato remoto)."
      ],
      "relatedUnitIds": [
-      "b2-01",
+      "cg-06",
       "b2-02",
-      "b2-07",
-      "c1-08"
+      "cg-06",
+      "cg-08"
      ]
     },
     {
@@ -1851,9 +1851,9 @@
       "Se avrei saputo… is a classic error: the se-clause takes the congiuntivo (Se avessi saputo…), the condizionale goes in the other clause."
      ],
      "relatedUnitIds": [
-      "b2-07",
-      "b2-09",
-      "c1-08"
+      "cg-06",
+      "cg-07",
+      "cg-08"
      ]
     },
     {
@@ -2787,8 +2787,8 @@
      ],
      "relatedUnitIds": [
       "a2r-01",
-      "b1-09",
-      "b2-01"
+      "cg-03",
+      "cg-06"
      ]
     },
     {
@@ -2968,8 +2968,8 @@
      ],
      "relatedUnitIds": [
       "a2r-01",
-      "b1-09",
-      "b2-01"
+      "cg-03",
+      "cg-06"
      ]
     },
     {
@@ -3165,7 +3165,7 @@
      "relatedUnitIds": [
       "a2r-01",
       "a2r-03",
-      "b1-09"
+      "cg-03"
      ]
     },
     {
@@ -3417,7 +3417,7 @@
      "relatedUnitIds": [
       "a2r-01",
       "b1-05",
-      "b1-09"
+      "cg-03"
      ]
     },
     {
@@ -3669,7 +3669,7 @@
      "relatedUnitIds": [
       "a2r-01",
       "b1-06",
-      "b1-09"
+      "cg-03"
      ]
     },
     {
@@ -3865,7 +3865,7 @@
      ],
      "relatedUnitIds": [
       "a2r-01",
-      "b1-09",
+      "cg-03",
       "c1-02"
      ]
     }
@@ -4071,8 +4071,8 @@
       "After a passato prossimo with present relevance (Mi hanno detto che…) everyday speech sometimes keeps the present; the shifted version is always correct and expected in exams."
      ],
      "relatedUnitIds": [
-      "b2-01",
-      "b2-07",
+      "cg-06",
+      "cg-06",
       "b2-12",
       "c1-10"
      ]
@@ -4187,7 +4187,7 @@
      ],
      "relatedUnitIds": [
       "b2-02",
-      "b2-09",
+      "cg-07",
       "b2-12"
      ]
     },
@@ -4419,10 +4419,10 @@
       "prima che with a different subject, prima di + infinitive with the same subject: Prima di partire / Prima che tu parta."
      ],
      "relatedUnitIds": [
-      "b1-09",
-      "b2-01",
-      "b2-11",
-      "c1-08"
+      "cg-03",
+      "cg-06",
+      "cg-05",
+      "cg-08"
      ]
     }
    ]
@@ -6025,7 +6025,7 @@
       "invece di + infinitive = instead of: Invece di lamentarti, aiutami."
      ],
      "relatedUnitIds": [
-      "b2-07",
+      "cg-06",
       "b2-12",
       "c1-09",
       "celi-04"

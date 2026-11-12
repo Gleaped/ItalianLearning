@@ -35,6 +35,8 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Button
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Slider
@@ -60,7 +62,9 @@ import androidx.lifecycle.viewmodel.viewModelFactory
 import com.gleaped.italianlearning.AppContainer
 import com.gleaped.italianlearning.data.db.ReminderEntity
 import com.gleaped.italianlearning.data.settings.Settings
+import com.gleaped.italianlearning.data.settings.TextSize
 import com.gleaped.italianlearning.data.settings.ThemeMode
+import com.gleaped.italianlearning.domain.profile.LearnerName
 import com.gleaped.italianlearning.reminders.Notifications
 import com.gleaped.italianlearning.reminders.toMask
 import com.gleaped.italianlearning.reminders.toSpec
@@ -102,6 +106,8 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
     fun setDailyNewCards(v: Int) = update { repo.setDailyNewCards(v) }
     fun setUnlockAll(v: Boolean) = update { repo.setUnlockAll(v) }
     fun setTheme(v: ThemeMode) = update { repo.setThemeMode(v) }
+    fun setTextSize(v: TextSize) = update { repo.setTextSize(v) }
+    fun setUserName(v: String) = update { repo.setUserName(v) }
     fun setPaused(v: Boolean) = updateReminders { repo.setRemindersPaused(v) }
     fun setReminderGrammar(v: Boolean) = update { repo.setReminderGrammar(v) }
     fun setReminderReview(v: Boolean) = update { repo.setReminderReview(v) }
@@ -213,6 +219,29 @@ fun SettingsScreen() {
             .padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
+        // ---------------- You
+        SectionTitle("Your name")
+        var nameDraft by remember(settings.userName) { mutableStateOf(settings.userName) }
+        Text(
+            "Used when people in the lessons talk to you.",
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            OutlinedTextField(
+                value = nameDraft,
+                onValueChange = { nameDraft = it.take(LearnerName.MAX_LENGTH) },
+                singleLine = true,
+                label = { Text("Name") },
+                modifier = Modifier.weight(1f),
+            )
+            Button(
+                onClick = { vm.setUserName(nameDraft) },
+                enabled = LearnerName.clean(nameDraft) != settings.userName,
+            ) { Text("Save") }
+        }
+        HorizontalDivider()
+
         // ---------------- Reminders
         SectionTitle("Reminders")
         SwitchRow(
@@ -368,6 +397,22 @@ fun SettingsScreen() {
                 )
             }
         }
+
+        Text("Text size", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 4.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            TextSize.entries.forEach { size ->
+                FilterChip(
+                    selected = settings.textSize == size,
+                    onClick = { vm.setTextSize(size) },
+                    label = { Text(size.label) },
+                )
+            }
+        }
+        Text(
+            "Esempio: Penso che sia una buona idea.",
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
 
         HorizontalDivider()
 

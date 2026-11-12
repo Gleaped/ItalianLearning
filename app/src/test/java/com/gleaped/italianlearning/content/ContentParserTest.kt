@@ -5,6 +5,7 @@ import kotlinx.serialization.json.jsonObject
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
+import com.gleaped.italianlearning.domain.grading.Grader
 import org.junit.Test
 import java.io.File
 
@@ -44,6 +45,7 @@ class ContentParserTest {
                 "GrammarNote", "Flashcard", "MultipleChoice", "GapFill", "Conjugation", "SentenceBuild",
                 "Translate", "MatchPairs", "ErrorCorrection", "ListenTranscribe", "ListenChoose", "Reading",
                 "SpeakRepeat", "SpeakRespond", "Roleplay", "FreeWrite",
+                "ChooseMood", "FindTrigger", "Transform", "SortBuckets", "MinimalPair",
             ),
             typeNames,
         )
@@ -119,14 +121,14 @@ class ContentParserTest {
 
     @Test
     fun unknownTypeBecomesUnsupported() {
-        val ex = exercises[17]
+        val ex = exercises[22]
         assertTrue(ex is Unsupported)
         assertEquals("hologram_quiz", (ex as Unsupported).type)
     }
 
     @Test
     fun brokenExerciseBecomesInvalidWithoutBreakingUnit() {
-        val ex = exercises[18]
+        val ex = exercises[23]
         assertTrue("was $ex", ex is Invalid)
         assertEquals("multiple_choice", (ex as Invalid).type)
     }
@@ -231,5 +233,27 @@ class ContentParserTest {
         if (ex is Translate) assertTrue("$where translate needs answers", ex.answers.isNotEmpty())
         if (ex is ErrorCorrection) assertTrue("$where error_correction needs answers", ex.answers.isNotEmpty())
         if (ex is Conjugation) assertTrue("$where conjugation needs items", ex.items.isNotEmpty())
+        if (ex is ChooseMood) assertTrue("$where choose_mood answer index", ex.answer in ex.options.indices)
+        if (ex is FindTrigger) assertTrue("$where trigger not in sentence", Grader.triggerSpan(ex.sentence, ex.trigger) != null)
+        if (ex is Transform) assertTrue("$where transform needs answers", ex.answers.isNotEmpty())
+        if (ex is SortBuckets) ex.items.forEach { assertTrue("$where bucket index", it.bucket in ex.buckets.indices) }
+        if (ex is MinimalPair) assertTrue("$where minimal_pair answer index", ex.answer in ex.sentences.indices)
+    }
+
+    @Test
+    fun formatTwoFieldsDecode() {
+        assertEquals(2, unit.format)
+        assertEquals("b1-m1", unit.module)
+        val lesson = unit.lessons.single()
+        assertEquals("You can order a coffee.", lesson.goal)
+        assertEquals("Vorrei = I would like.", lesson.takeaway)
+        val mood = exercises.filterIsInstance<ChooseMood>().single()
+        assertEquals("practise", mood.stage)
+        assertEquals(listOf("indicativo", "congiuntivo"), mood.options)
+        assertEquals(listOf("abbia"), mood.forms)
+        val sort = exercises.filterIsInstance<SortBuckets>().single()
+        assertEquals(1, sort.items[1].bucket)
+        val pair = exercises.filterIsInstance<MinimalPair>().single()
+        assertEquals(2, pair.translations.size)
     }
 }

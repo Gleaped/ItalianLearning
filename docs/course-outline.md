@@ -1,6 +1,6 @@
 # Course outline: from B1 to C1
 
-This outline is for Richard to review. The app reads the same structure from `app/src/main/assets/course/course.json`.
+The app reads the same structure from `app/src/main/assets/course/course.json`.
 
 ## How the course works
 

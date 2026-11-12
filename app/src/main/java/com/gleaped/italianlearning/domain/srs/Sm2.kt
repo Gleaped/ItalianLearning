@@ -71,4 +71,15 @@ object Sm2 {
         days < 365 -> "${(days / 30.0).roundToInt()}mo"
         else -> "${(days / 365.0).roundToInt()}y"
     }
+
+    /** Plain words for when a card comes back, shown under the rating buttons. */
+    fun describeInterval(days: Int): String = when {
+        days < 1 -> "later today"
+        days == 1 -> "tomorrow"
+        days < 14 -> "in $days days"
+        days < 60 -> "in ${(days / 7.0).roundToInt()} weeks"
+        days < 365 -> "in ${(days / 30.0).roundToInt()} months"
+        days < 548 -> "in a year"
+        else -> "in ${(days / 365.0).roundToInt()} years"
+    }
 }

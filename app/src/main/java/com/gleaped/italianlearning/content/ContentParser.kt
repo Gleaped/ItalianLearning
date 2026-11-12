@@ -25,6 +25,8 @@ object ContentParser {
         val title: String = "",
         val minutes: Int = 10,
         val exercises: List<JsonObject> = emptyList(),
+        val goal: String = "",
+        val takeaway: String = "",
     )
 
     @Serializable
@@ -38,6 +40,9 @@ object ContentParser {
         val lessons: List<LessonDto> = emptyList(),
         val vocabulary: List<VocabItem> = emptyList(),
         val grammarTips: List<JsonObject> = emptyList(),
+        val format: Int = 1,
+        val module: String? = null,
+        val track: String? = null,
     )
 
     @Serializable
@@ -66,10 +71,15 @@ object ContentParser {
                     title = l.title,
                     minutes = l.minutes,
                     exercises = l.exercises.map(::parseExercise),
+                    goal = l.goal.trim(),
+                    takeaway = l.takeaway.trim(),
                 )
             },
             vocabulary = dto.vocabulary,
             grammarTips = dto.grammarTips.mapIndexedNotNull { i, obj -> parseGrammarTip(dto.id, i, obj) },
+            format = dto.format,
+            module = dto.module,
+            track = dto.track,
         )
     }
 

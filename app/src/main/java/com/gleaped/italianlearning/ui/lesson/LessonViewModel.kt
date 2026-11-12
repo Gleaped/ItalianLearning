@@ -43,6 +43,8 @@ data class LessonSummary(
 
 sealed interface LessonUiState {
     data object Loading : LessonUiState
+    /** Before the first exercise: what the lesson is about and how long it takes. */
+    data class Intro(val unit: CourseUnit, val lesson: Lesson) : LessonUiState
     data class Error(val message: String) : LessonUiState
     data class Running(
         val unit: CourseUnit,
@@ -68,6 +70,8 @@ class LessonViewModel(
     val state: StateFlow<LessonUiState> = _state.asStateFlow()
 
     private val outcomes = mutableListOf<ExerciseOutcome>()
+    private var autoPlay = true
+    private var speechEnabled = true
 
     init {
         viewModelScope.launch {
@@ -83,15 +87,23 @@ class LessonViewModel(
                 return@launch
             }
             val settings = container.settings.current()
-            _state.value = LessonUiState.Running(
-                unit = unit,
-                lesson = lesson,
-                index = 0,
-                feedback = null,
-                autoPlay = settings.autoPlayAudio,
-                speechEnabled = settings.speechPracticeEnabled,
-            )
+            autoPlay = settings.autoPlayAudio
+            speechEnabled = settings.speechPracticeEnabled
+            _state.value = LessonUiState.Intro(unit, lesson)
         }
+    }
+
+    /** Leaves the intro screen and shows the first exercise. */
+    fun start() {
+        val intro = _state.value as? LessonUiState.Intro ?: return
+        _state.value = LessonUiState.Running(
+            unit = intro.unit,
+            lesson = intro.lesson,
+            index = 0,
+            feedback = null,
+            autoPlay = autoPlay,
+            speechEnabled = speechEnabled,
+        )
     }
 
     private fun record(running: LessonUiState.Running, verdict: Verdict?) {

@@ -659,7 +659,7 @@
             "Ho controllato l'accordo del participio con lo / la / li / le e ne.",
             "L'email ha un saluto iniziale, un saluto finale e una domanda all'amico."
           ],
-          "modelAnswer": "Ciao Matteo,\nieri è stata una giornata di commissioni! La mattina dovevo ritirare un pacco in posta. Quando ci sono arrivato c'erano già venti persone in fila, quindi ci ho messo quasi un'ora. Il pacco era un regalo di un amico: me l'ha mandato da Londra. Poi sono passato in farmacia, perché avevo bisogno di un antibiotico, ma non ce l'avevano. Il farmacista me l'ha ordinato e domani ci torno. Alla fine ho comprato due etti di prosciutto e ne ho mangiato metà in macchina! E tu, come va?\nUn abbraccio,\nRichard"
+          "modelAnswer": "Ciao Matteo,\nieri è stata una giornata di commissioni! La mattina dovevo ritirare un pacco in posta. Quando ci sono arrivato c'erano già venti persone in fila, quindi ci ho messo quasi un'ora. Il pacco era un regalo di un amico: me l'ha mandato da Londra. Poi sono passato in farmacia, perché avevo bisogno di un antibiotico, ma non ce l'avevano. Il farmacista me l'ha ordinato e domani ci torno. Alla fine ho comprato due etti di prosciutto e ne ho mangiato metà in macchina! E tu, come va?\nUn abbraccio,\n{name}"
         },
         {
           "type": "speak_respond",

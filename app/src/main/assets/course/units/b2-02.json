@@ -5,7 +5,7 @@
   "objective": "By the end you can discuss real and hypothetical options and their consequences, give advice and make polite requests, using the periodo ipotetico of types 1 and 2.",
   "grammarFocus": "Periodo ipotetico della realtà (se + presente/futuro → presente/futuro/imperativo) e della possibilità (se + congiuntivo imperfetto → condizionale presente); se fossi in te, sarebbe meglio se, altrimenti.",
   "remedialUnitIds": [
-    "b2-01",
+    "cg-06",
     "b1-06"
   ],
   "lessons": [
@@ -721,7 +721,7 @@
             "Ho usato connettivi per organizzare il testo: da un lato, dall'altro, però, alla fine.",
             "Registro informale coerente, almeno 120 parole."
           ],
-          "modelAnswer": "Ciao Andrea,\nche bella notizia! Capisco però che tu abbia qualche dubbio. Da un lato, se accettassi, faresti un'esperienza importante in una grande azienda e conosceresti un sacco di gente nuova. Dall'altro, se lo stipendio è solo un po' più alto, a Milano rischi di spendere quasi tutto per l'affitto. Se trovassi una stanza in un appartamento condiviso, forse ce la faresti, ma non so se ne avresti voglia.\nSe fossi in te, prima di decidere chiederei all'azienda se è possibile lavorare da remoto almeno due giorni alla settimana: in quel caso potresti vivere fuori città e pagare molto meno. Se ti dicono di no, proverei a trattare sullo stipendio. Altrimenti, sinceramente, resterei dove sei.\nFammi sapere cosa decidi!\nUn abbraccio,\nRichard"
+          "modelAnswer": "Ciao Andrea,\nche bella notizia! Capisco però che tu abbia qualche dubbio. Da un lato, se accettassi, faresti un'esperienza importante in una grande azienda e conosceresti un sacco di gente nuova. Dall'altro, se lo stipendio è solo un po' più alto, a Milano rischi di spendere quasi tutto per l'affitto. Se trovassi una stanza in un appartamento condiviso, forse ce la faresti, ma non so se ne avresti voglia.\nSe fossi in te, prima di decidere chiederei all'azienda se è possibile lavorare da remoto almeno due giorni alla settimana: in quel caso potresti vivere fuori città e pagare molto meno. Se ti dicono di no, proverei a trattare sullo stipendio. Altrimenti, sinceramente, resterei dove sei.\nFammi sapere cosa decidi!\nUn abbraccio,\n{name}"
         },
         {
           "type": "speak_respond",

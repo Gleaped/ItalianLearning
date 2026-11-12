@@ -12,6 +12,7 @@ import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import com.gleaped.italianlearning.domain.dictionary.RecentLookups
+import com.gleaped.italianlearning.domain.profile.LearnerName
 import com.gleaped.italianlearning.domain.reminders.ReminderKind
 import com.gleaped.italianlearning.domain.reminders.TipSelector
 import kotlinx.coroutines.flow.Flow
@@ -20,6 +21,17 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 
 enum class ThemeMode { SYSTEM, LIGHT, DARK }
+
+/** Text-size setting; [scale] multiplies the whole type scale. */
+enum class TextSize(val scale: Float, val label: String) {
+    SMALL(0.9f, "S"),
+    MEDIUM(1.0f, "M"),
+    LARGE(1.15f, "L"),
+    EXTRA_LARGE(1.3f, "XL"),
+}
+
+/** Fallback when the learner skipped the name prompt; used in dialogues that address them. */
+const val DEFAULT_LEARNER_NAME = "Alex"
 
 data class Settings(
     val speechRate: Float = 0.9f,
@@ -37,7 +49,15 @@ data class Settings(
     val reminderGrammar: Boolean = true,
     val reminderReview: Boolean = true,
     val reminderNextLesson: Boolean = true,
+    val textSize: TextSize = TextSize.MEDIUM,
+    /** The learner's name as typed; blank until set. */
+    val userName: String = "",
+    /** True once the first-run welcome (name prompt) has been answered or skipped. */
+    val onboarded: Boolean = false,
 ) {
+    /** Name used in lesson dialogues. */
+    val displayName: String get() = userName.trim().ifEmpty { DEFAULT_LEARNER_NAME }
+
     val allowedReminderKinds: Set<ReminderKind>
         get() = buildSet {
             if (reminderGrammar) add(ReminderKind.GRAMMAR)
@@ -78,6 +98,9 @@ class SettingsRepository(context: Context) {
         val tipHistory = stringPreferencesKey("tip_history")
         val openedUnits = stringSetPreferencesKey("opened_units")
         val recentLookups = stringPreferencesKey("recent_lookups")
+        val textSize = stringPreferencesKey("text_size")
+        val userName = stringPreferencesKey("user_name")
+        val onboarded = booleanPreferencesKey("onboarded")
     }
 
     val settings: Flow<Settings> = store.data.map { p ->
@@ -95,6 +118,9 @@ class SettingsRepository(context: Context) {
             reminderGrammar = p[Keys.reminderGrammar] ?: defaults.reminderGrammar,
             reminderReview = p[Keys.reminderReview] ?: defaults.reminderReview,
             reminderNextLesson = p[Keys.reminderNextLesson] ?: defaults.reminderNextLesson,
+            textSize = p[Keys.textSize]?.let { name -> TextSize.entries.firstOrNull { it.name == name } } ?: defaults.textSize,
+            userName = p[Keys.userName] ?: "",
+            onboarded = p[Keys.onboarded] ?: false,
         )
     }.distinctUntilChanged()
 
@@ -130,6 +156,15 @@ class SettingsRepository(context: Context) {
     suspend fun setReminderGrammar(value: Boolean) = store.edit { it[Keys.reminderGrammar] = value }
     suspend fun setReminderReview(value: Boolean) = store.edit { it[Keys.reminderReview] = value }
     suspend fun setReminderNextLesson(value: Boolean) = store.edit { it[Keys.reminderNextLesson] = value }
+    suspend fun setTextSize(value: TextSize) = store.edit { it[Keys.textSize] = value.name }
+
+    /** Saves the learner's name (trimmed, at most 30 characters) and ends the first-run prompt. */
+    suspend fun setUserName(value: String) = store.edit {
+        it[Keys.userName] = LearnerName.clean(value)
+        it[Keys.onboarded] = true
+    }
+
+    suspend fun skipOnboarding() = store.edit { it[Keys.onboarded] = true }
 
     /** Records a posted reminder: advances the rotation and, for a grammar tip, its history. */
     suspend fun recordReminder(nowMillis: Long, tipId: String?) = store.edit { p ->

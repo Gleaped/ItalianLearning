@@ -7,7 +7,7 @@
   "remedialUnitIds": [
     "b2-05",
     "b2-06",
-    "b2-07"
+    "cg-06"
   ],
   "lessons": [
     {
@@ -605,7 +605,7 @@
             "Ho usato un registro informale coerente (Ciao…, Un abbraccio).",
             "Ho organizzato il testo: saluto, fatti, reazioni, mia opinione, chiusura con una domanda."
           ],
-          "modelAnswer": "Ciao Matteo,\ngrazie per il messaggio! Sì, nel mio quartiere c'è stata una piccola rivoluzione. Il mese scorso il comune ha deciso di chiudere al traffico la piazza principale e, da lunedì, le macchine non possono più passare. All'inizio molti negozianti erano arrabbiati: il fornaio mi ha detto che temeva di perdere metà dei clienti e che avrebbe firmato la petizione contro il progetto. In pochi giorni si sono raccolte quasi cinquecento firme! Il sindaco però ha spiegato che la piazza sarebbe stata trasformata in uno spazio pedonale con panchine e alberi, e che i lavori sarebbero stati finanziati dalla Regione. Io sinceramente pensavo che fosse un'idea un po' esagerata, invece adesso la piazza è piena di gente e anche il fornaio sembra contento. Insomma, a volte i cambiamenti fanno paura, ma poi funzionano.\nE tu come stai? Quando vieni a trovarmi?\nUn abbraccio,\nRichard",
+          "modelAnswer": "Ciao Matteo,\ngrazie per il messaggio! Sì, nel mio quartiere c'è stata una piccola rivoluzione. Il mese scorso il comune ha deciso di chiudere al traffico la piazza principale e, da lunedì, le macchine non possono più passare. All'inizio molti negozianti erano arrabbiati: il fornaio mi ha detto che temeva di perdere metà dei clienti e che avrebbe firmato la petizione contro il progetto. In pochi giorni si sono raccolte quasi cinquecento firme! Il sindaco però ha spiegato che la piazza sarebbe stata trasformata in uno spazio pedonale con panchine e alberi, e che i lavori sarebbero stati finanziati dalla Regione. Io sinceramente pensavo che fosse un'idea un po' esagerata, invece adesso la piazza è piena di gente e anche il fornaio sembra contento. Insomma, a volte i cambiamenti fanno paura, ma poi funzionano.\nE tu come stai? Quando vieni a trovarmi?\nUn abbraccio,\n{name}",
           "instruction": "Scrivi un'email informale (compito in stile CELI)."
         },
         {

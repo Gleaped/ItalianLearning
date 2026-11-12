@@ -1,0 +1,1035 @@
+{
+  "id": "cg-01",
+  "level": "B1",
+  "title": "Che cos'è il congiuntivo?",
+  "format": 2,
+  "module": "b1-m3",
+  "track": "congiuntivo",
+  "objective": "By the end you can tell a fact from an opinion, wish or hope, and build the regular congiuntivo presente of -are, -ere/-ire and -isc- verbs.",
+  "grammarFocus": "Fact (indicativo) vs filtered by the mind (congiuntivo); regular congiuntivo presente in three chunks; simple triggers: penso che, credo che, spero che, voglio che, è importante che.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "cg-01-l1",
+      "title": "Fatto o pensiero?",
+      "minutes": 6,
+      "goal": "You can tell a fact (indicativo) from an opinion, wish or hope (congiuntivo) by the words before che.",
+      "takeaway": "Facts (so che…) take the indicativo; opinions, wishes and hopes (penso che…, spero che…) take the congiuntivo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-01-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il presente giusto.",
+          "prompt": "Marta ___ in ufficio alle otto.",
+          "options": [
+            "lavora",
+            "lavorare",
+            "lavorando",
+            "lavorò"
+          ],
+          "answer": 0,
+          "explanation": "A plain fact uses the present indicative: lei lavora."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-01-l1-e02",
+          "stage": "learn",
+          "title": "Two worlds",
+          "body": "Italian has two moods.\n\nThe **indicativo** states facts. The **congiuntivo** is for what passes through someone's mind: an opinion, a wish, a hope or a doubt.\n\n| fact: indicativo | mind: congiuntivo |\n|---|---|\n| So che Luca lavor==a== | Penso che Luca lavor==i== |\n| Vedo che Anna parl==a== | Spero che Anna parl==i== |\n\n> Both sides use che. The words *before* che tell you the mood.",
+          "examples": [
+            {
+              "it": "So che Luca lavora oggi.",
+              "en": "I know Luca is working today."
+            },
+            {
+              "it": "Penso che Luca lavori oggi.",
+              "en": "I think Luca is working today."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-01-l1-e03",
+          "stage": "learn",
+          "title": "Five small triggers",
+          "body": "For now, learn these.\n\n| mind: congiuntivo | fact: indicativo |\n|---|---|\n| ==penso che== | ==so che== |\n| ==credo che== | ==vedo che== |\n| ==spero che== | ==è vero che== |\n| ==voglio che== | ==ho letto che== |\n| ==è importante che== | |\n\n> English says \"I think he works\" with no change. Italian does change the verb.",
+          "examples": [
+            {
+              "it": "Credo che il corso finisca a giugno.",
+              "en": "I believe the course ends in June."
+            },
+            {
+              "it": "Ho letto che il corso finisce a giugno.",
+              "en": "I read that the course ends in June."
+            }
+          ]
+        },
+        {
+          "type": "find_trigger",
+          "id": "cg-01-l1-e04",
+          "stage": "practise",
+          "instruction": "Tocca le parole che chiedono il congiuntivo.",
+          "sentence": "Spero che Giulia arrivi presto.",
+          "trigger": "Spero che",
+          "explanation": "Spero che expresses a hope, so what follows is in the congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l1-e05",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Voglio che tu ___ il messaggio.",
+          "verb": "ascoltare",
+          "answer": 1,
+          "explanation": "Voglio che expresses a wish, so the verb goes in the congiuntivo.",
+          "trigger": "voglio che"
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l1-e06",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "So che il corso ___ alle sei.",
+          "verb": "finire",
+          "answer": 0,
+          "explanation": "So che states a fact you know, so the verb stays in the indicativo.",
+          "trigger": "so che"
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-01-l1-e07",
+          "stage": "practise",
+          "instruction": "Dove vanno questi inizi di frase?",
+          "buckets": [
+            "Fatto: indicativo",
+            "Pensiero: congiuntivo"
+          ],
+          "items": [
+            {
+              "text": "So che…",
+              "bucket": 0
+            },
+            {
+              "text": "Penso che…",
+              "bucket": 1
+            },
+            {
+              "text": "Vedo che…",
+              "bucket": 0
+            },
+            {
+              "text": "Spero che…",
+              "bucket": 1
+            },
+            {
+              "text": "Voglio che…",
+              "bucket": 1
+            },
+            {
+              "text": "È importante che…",
+              "bucket": 1
+            },
+            {
+              "text": "Ho letto che…",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Verbs of knowing, seeing and reading give facts (indicativo); thinking, hoping and wanting give the filtered world (congiuntivo)."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-01-l1-e08",
+          "stage": "practise",
+          "instruction": "Leggi le frasi.",
+          "sentences": [
+            "So che Anna parla con il medico.",
+            "Spero che Anna parli con il medico.",
+            "Vedo che Anna parla con il medico."
+          ],
+          "question": "In quale frase la persona spera soltanto?",
+          "answer": 1,
+          "translations": [
+            "I know Anna is talking to the doctor.",
+            "I hope Anna talks to the doctor.",
+            "I see Anna is talking to the doctor."
+          ],
+          "explanation": "Spero che signals a hope, so parli is the congiuntivo; so che and vedo che report facts."
+        },
+        {
+          "type": "reading",
+          "id": "cg-01-l1-e09",
+          "stage": "use",
+          "instruction": "Leggi il messaggio e rispondi.",
+          "title": "Un messaggio dal vicino",
+          "passage": "Ciao {name}, sono Franco, il vicino del terzo piano. So che i lavori nel palazzo finiscono venerdì. Credo che il rumore disturbi molto, e spero che l'impresa finisca prima. Vedo che l'ascensore funziona di nuovo.",
+          "questions": [
+            {
+              "question": "Quale frase è un fatto?",
+              "options": [
+                "I lavori finiscono venerdì.",
+                "Il rumore disturba molto.",
+                "L'impresa finisce prima.",
+                "Il vicino è arrabbiato."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quale espressione dice una speranza?",
+              "options": [
+                "So che",
+                "Vedo che",
+                "Spero che",
+                "Ciao"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché Franco scrive «Credo che il rumore disturbi»?",
+              "options": [
+                "Perché è un'opinione, non un fatto.",
+                "Perché il rumore è al plurale.",
+                "Perché parla del passato.",
+                "Perché è un ordine."
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cg-01-l2",
+      "title": "Verbi in -are: parli",
+      "minutes": 8,
+      "goal": "You can build the congiuntivo of -are verbs: Penso che tu parli, Spero che lavori.",
+      "takeaway": "-are verbs take -i in the singular and -ino for loro; noi and voi are -iamo and -iate.",
+      "exercises": [
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l2-e01",
+          "stage": "warmup",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Vedo che Luca ___ il pacco.",
+          "verb": "spedire",
+          "answer": 0,
+          "explanation": "Vedo che reports a fact, so the verb is in the indicativo.",
+          "trigger": "vedo che"
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-01-l2-e02",
+          "stage": "learn",
+          "title": "-are verbs: the -i endings",
+          "body": "Drop **-are** and add the endings. In the singular, -are verbs end in **-i**.\n\n| persona | parlare | lavorare |\n|---|---|---|\n| io | parl==i== | lavor==i== |\n| tu | parl==i== | lavor==i== |\n| lui/lei | parl==i== | lavor==i== |\n| noi | parl==iamo== | lavor==iamo== |\n| voi | parl==iate== | lavor==iate== |\n| loro | parl==ino== | lavor==ino== |\n\n> Io, tu and lui/lei look identical. Add the subject when unclear: Penso che **tu** parli.",
+          "examples": [
+            {
+              "it": "Credo che Marco lavori molto.",
+              "en": "I think Marco works a lot."
+            },
+            {
+              "it": "Spero che tu parli con il capo.",
+              "en": "I hope you talk to the boss."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-01-l2-e03",
+          "stage": "learn",
+          "title": "-care and -gare keep their hard sound",
+          "body": "Verbs in **-care** and **-gare** add **h** before i, to keep the hard sound. Verbs in **-iare** keep only one i.\n\n| | cercare | pagare | mangiare |\n|---|---|---|---|\n| lui/lei | cerc==hi== | pag==hi== | mang==i== |\n| noi | cerc==hiamo== | pag==hiamo== | mang==iamo== |\n| loro | cerc==hino== | pag==hino== | mang==ino== |",
+          "examples": [
+            {
+              "it": "Spero che tu paghi la bolletta oggi.",
+              "en": "I hope you pay the bill today."
+            },
+            {
+              "it": "Credo che Anna cerchi un nuovo lavoro.",
+              "en": "I think Anna is looking for a new job."
+            }
+          ]
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l2-e04",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Penso che Marco ___ a Roma.",
+          "verb": "lavorare",
+          "answer": 1,
+          "explanation": "Penso che gives an opinion, so lavorare becomes lavori in the congiuntivo.",
+          "forms": [
+            "lavori"
+          ],
+          "trigger": "penso che"
+        },
+        {
+          "type": "conjugation",
+          "id": "cg-01-l2-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "parlare",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "parli"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "parli"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "parli"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "parliamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "parliate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "parlino"
+            }
+          ],
+          "explanation": "-are verbs end in -i in the singular, -iamo and -iate for noi and voi, and -ino for loro."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-01-l2-e06",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Spero che tu ___ la bolletta oggi.",
+          "answers": [
+            "paghi"
+          ],
+          "hint": "pagare – tu",
+          "explanation": "Pagare is a -gare verb: add h to keep the hard g, so paghi."
+        },
+        {
+          "type": "transform",
+          "id": "cg-01-l2-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Anna cerca un nuovo lavoro.",
+          "cue": "Credo che…",
+          "answers": [
+            "Credo che Anna cerchi un nuovo lavoro."
+          ],
+          "hint": "cercare – lei",
+          "explanation": "Credo che triggers the congiuntivo, and cercare is a -care verb, so cerchi with an h."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-01-l2-e08",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Voglio che tu aspetti qui.",
+          "answers": [
+            "Voglio che tu aspetti qui."
+          ],
+          "slow": false,
+          "explanation": "Voglio che + congiuntivo: aspettare becomes aspetti."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-01-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in una frase.",
+          "prompt": "Un collega ti chiede: «Giulia lavora anche domani?» Rispondi con «Credo che…» e il verbo lavorare.",
+          "keywords": [
+            "credo che",
+            "lavori"
+          ],
+          "modelAnswer": "Credo che Giulia lavori anche domani."
+        }
+      ]
+    },
+    {
+      "id": "cg-01-l3",
+      "title": "Verbi in -ere e -ire: prenda",
+      "minutes": 8,
+      "goal": "You can build the congiuntivo of -ere and -ire verbs: Spero che prenda, Penso che dorma.",
+      "takeaway": "-ere and -ire verbs take -a in the singular and -ano for loro; noi and voi stay -iamo and -iate.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-01-l3-e01",
+          "stage": "warmup",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Spero che tu ___ con noi.",
+          "answers": [
+            "mangi"
+          ],
+          "hint": "mangiare – tu",
+          "explanation": "-iare verbs keep a single i: mangi."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-01-l3-e02",
+          "stage": "learn",
+          "title": "-ere and -ire: the -a endings",
+          "body": "For **-ere** and **-ire** verbs, the singular ends in **-a** and loro in **-ano**. Noi and voi are as before.\n\n| persona | prendere | dormire |\n|---|---|---|\n| io / tu / lui | prend==a== | dorm==a== |\n| noi | prend==iamo== | dorm==iamo== |\n| voi | prend==iate== | dorm==iate== |\n| loro | prend==ano== | dorm==ano== |\n\n> Trick: -are → -i, but -ere/-ire → -a. The vowel swaps.",
+          "examples": [
+            {
+              "it": "Penso che Marco prenda il treno delle otto.",
+              "en": "I think Marco takes the eight o'clock train."
+            },
+            {
+              "it": "Spero che i bambini dormano bene.",
+              "en": "I hope the children sleep well."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-01-l3-e03",
+          "stage": "practise",
+          "instruction": "Che desinenza ha lui/lei nel congiuntivo?",
+          "buckets": [
+            "-i (verbi in -are)",
+            "-a (verbi in -ere/-ire)"
+          ],
+          "items": [
+            {
+              "text": "ascoltare",
+              "bucket": 0
+            },
+            {
+              "text": "scrivere",
+              "bucket": 1
+            },
+            {
+              "text": "partire",
+              "bucket": 1
+            },
+            {
+              "text": "cercare",
+              "bucket": 0
+            },
+            {
+              "text": "vendere",
+              "bucket": 1
+            },
+            {
+              "text": "aprire",
+              "bucket": 1
+            },
+            {
+              "text": "pagare",
+              "bucket": 0
+            }
+          ],
+          "explanation": "The vowel swaps: -are verbs end in -i, and -ere or -ire verbs end in -a."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l3-e04",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Credo che Sara ___ una mail al capo.",
+          "verb": "scrivere",
+          "answer": 1,
+          "explanation": "Credo che gives an opinion, so scrivere becomes scriva.",
+          "forms": [
+            "scriva"
+          ],
+          "trigger": "credo che"
+        },
+        {
+          "type": "conjugation",
+          "id": "cg-01-l3-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "partire",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "parta"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "parta"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "parta"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "partiamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "partiate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "partano"
+            }
+          ],
+          "explanation": "-ire verbs end in -a in the singular and -ano for loro; noi and voi are -iamo and -iate."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-01-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Voglio che tu ___ la finestra.",
+          "answers": [
+            "apra"
+          ],
+          "hint": "aprire – tu",
+          "explanation": "Voglio che is a wish, and aprire is an -ire verb, so apra."
+        },
+        {
+          "type": "transform",
+          "id": "cg-01-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Il treno parte alle nove.",
+          "cue": "Penso che…",
+          "answers": [
+            "Penso che il treno parta alle nove."
+          ],
+          "hint": "partire – lui",
+          "explanation": "Penso che triggers the congiuntivo, and partire gives parta."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-01-l3-e08",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Spero che i bambini dormano bene.",
+          "answers": [
+            "Spero che i bambini dormano bene."
+          ],
+          "slow": false,
+          "explanation": "Loro in -ire verbs ends in -ano: dormano."
+        },
+        {
+          "type": "free_write",
+          "id": "cg-01-l3-e09",
+          "stage": "use",
+          "instruction": "Scrivi tre frasi su una persona che conosci.",
+          "prompt": "Scrivi tre frasi su una persona che conosci. Usa penso che, credo che e spero che, con un verbo in -are, uno in -ere e uno in -ire.",
+          "minWords": 20,
+          "checklist": [
+            "Each sentence has che followed by a congiuntivo form",
+            "The -are verb ends in -i",
+            "The -ere and -ire verbs end in -a",
+            "You added tu/lui if the subject was unclear"
+          ],
+          "modelAnswer": "Penso che mia sorella lavori troppo. Credo che prenda il treno delle sette ogni mattina. Spero che dorma di più nel fine settimana."
+        }
+      ]
+    },
+    {
+      "id": "cg-01-l4",
+      "title": "Verbi in -isc-: finisca",
+      "minutes": 8,
+      "goal": "You can build the congiuntivo of -isc- verbs: Credo che finisca, Spero che capisca.",
+      "takeaway": "-isc- verbs keep -isc- in the singular and in loro: finisca, finiscano; noi and voi do not: finiamo, finiate.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-01-l4-e01",
+          "stage": "warmup",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Credo che Marco ___ il treno.",
+          "answers": [
+            "prenda"
+          ],
+          "hint": "prendere – lui",
+          "explanation": "-ere verbs take -a in the singular: prenda."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-01-l4-e02",
+          "stage": "learn",
+          "title": "-isc- verbs",
+          "body": "Verbs like **finire** have **-isc-** in the present (finisco). The congiuntivo keeps it, except for noi and voi.\n\n| persona | finire | capire |\n|---|---|---|\n| io / tu / lui | fin==isca== | cap==isca== |\n| noi | fin==iamo== | cap==iamo== |\n| voi | fin==iate== | cap==iate== |\n| loro | fin==iscano== | cap==iscano== |\n\n> Check the io present: finisco → finisca, but dormo → dorma.",
+          "examples": [
+            {
+              "it": "Credo che il film finisca alle dieci.",
+              "en": "I think the film ends at ten."
+            },
+            {
+              "it": "Penso che Luca capisca il problema.",
+              "en": "I think Luca understands the problem."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-01-l4-e03",
+          "stage": "practise",
+          "instruction": "Questo verbo ha -isc-?",
+          "buckets": [
+            "con -isc-",
+            "senza -isc-"
+          ],
+          "items": [
+            {
+              "text": "finire",
+              "bucket": 0
+            },
+            {
+              "text": "capire",
+              "bucket": 0
+            },
+            {
+              "text": "dormire",
+              "bucket": 1
+            },
+            {
+              "text": "preferire",
+              "bucket": 0
+            },
+            {
+              "text": "partire",
+              "bucket": 1
+            },
+            {
+              "text": "spedire",
+              "bucket": 0
+            },
+            {
+              "text": "aprire",
+              "bucket": 1
+            },
+            {
+              "text": "pulire",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Finire, capire, preferire, spedire and pulire have -isco in the present; dormire, partire and aprire do not."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "cg-01-l4-e04",
+          "stage": "practise",
+          "instruction": "Leggi le frasi.",
+          "sentences": [
+            "Credo che il film finisca alle dieci.",
+            "So che il film finisce alle dieci."
+          ],
+          "question": "In quale frase c'è il congiuntivo?",
+          "answer": 0,
+          "translations": [
+            "I think the film ends at ten.",
+            "I know the film ends at ten."
+          ],
+          "explanation": "Finisca (with -a) after credo che is the congiuntivo; finisce after so che is the indicativo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l4-e05",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Credo che il corso ___ a giugno.",
+          "verb": "finire",
+          "answer": 1,
+          "explanation": "Credo che gives an opinion; finire is an -isc- verb, so finisca.",
+          "forms": [
+            "finisca"
+          ],
+          "trigger": "credo che"
+        },
+        {
+          "type": "conjugation",
+          "id": "cg-01-l4-e06",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "capire",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "capisca"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "capisca"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "capisca"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "capiamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "capiate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "capiscano"
+            }
+          ],
+          "explanation": "-isc- verbs keep -isc- in the singular and loro; noi and voi lose it."
+        },
+        {
+          "type": "transform",
+          "id": "cg-01-l4-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Mia figlia pulisce la stanza.",
+          "cue": "Voglio che…",
+          "answers": [
+            "Voglio che mia figlia pulisca la stanza."
+          ],
+          "hint": "pulire – lei",
+          "explanation": "Voglio che triggers the congiuntivo, and pulire is an -isc- verb, so pulisca."
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-01-l4-e08",
+          "stage": "use",
+          "instruction": "Rispondi al collega ad alta voce.",
+          "scenario": "Sei in ufficio. Un collega parla della riunione di domani con i clienti.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Domani c'è la riunione con i clienti. A che ora finisce, secondo te?"
+            },
+            {
+              "speaker": "you",
+              "text": "Credo che finisca alle cinque.",
+              "hint": "Credo che… + finire",
+              "keywords": [
+                "credo che",
+                "finisca"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E il capo? Pensi che capisca il problema?"
+            },
+            {
+              "speaker": "you",
+              "text": "Spero che capisca la situazione.",
+              "hint": "Spero che… + capire",
+              "keywords": [
+                "spero che",
+                "capisca"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Speriamo! Vuoi che prepari io le slide?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, grazie! Voglio che tu prepari le slide, io finisco il report.",
+              "hint": "Voglio che tu… + preparare",
+              "keywords": [
+                "voglio che",
+                "prepari"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cg-01-l5",
+      "title": "Ripasso: tre gruppi",
+      "minutes": 7,
+      "goal": "You can recognise the congiuntivo and build it for -are, -ere/-ire and -isc- verbs.",
+      "takeaway": "Mind-filter words (penso che, spero che…) call for the congiuntivo; the verb group decides the ending.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "cg-01-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: quale inizio chiede il congiuntivo?",
+          "prompt": "___ che Marta arrivi presto.",
+          "options": [
+            "So",
+            "Vedo",
+            "Spero",
+            "È vero"
+          ],
+          "answer": 2,
+          "explanation": "Spero che is a hope, so it takes the congiuntivo; the others report facts."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-01-l5-e02",
+          "stage": "learn",
+          "title": "The three groups",
+          "body": "Which ending? Look at the verb group.\n\n| gruppo | lui/lei | loro |\n|---|---|---|\n| -are | parl==i== | parl==ino== |\n| -ere / -ire | prend==a== | prend==ano== |\n| -isc- | fin==isca== | fin==iscano== |\n\n> Noi is -iamo and voi is -iate in every group.",
+          "examples": [
+            {
+              "it": "Spero che tu parli con il medico.",
+              "en": "I hope you talk to the doctor."
+            },
+            {
+              "it": "Penso che i vicini dormano poco.",
+              "en": "I think the neighbours sleep little."
+            }
+          ]
+        },
+        {
+          "type": "find_trigger",
+          "id": "cg-01-l5-e03",
+          "stage": "practise",
+          "instruction": "Tocca le parole che chiedono il congiuntivo.",
+          "sentence": "Il dottore dice che l'esame finisce presto, ma io spero che il risultato arrivi domani.",
+          "trigger": "spero che",
+          "explanation": "Spero che is a hope and takes the congiuntivo; dice che reports what someone says, so it takes the indicativo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l5-e04",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "So che il medico ___ di mattina.",
+          "verb": "ricevere",
+          "answer": 0,
+          "explanation": "So che reports a fact, so the verb stays in the indicativo.",
+          "forms": [
+            "riceve"
+          ],
+          "trigger": "so che"
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-01-l5-e05",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Spero che il medico ___ di mattina.",
+          "verb": "ricevere",
+          "answer": 1,
+          "explanation": "Spero che expresses a hope; ricevere is an -ere verb, so riceva.",
+          "forms": [
+            "riceva"
+          ],
+          "trigger": "spero che"
+        },
+        {
+          "type": "match_pairs",
+          "id": "cg-01-l5-e06",
+          "stage": "practise",
+          "instruction": "Abbina l'infinito al congiuntivo (lui/lei).",
+          "pairs": [
+            {
+              "left": "parlare",
+              "right": "parli"
+            },
+            {
+              "left": "prendere",
+              "right": "prenda"
+            },
+            {
+              "left": "finire",
+              "right": "finisca"
+            },
+            {
+              "left": "dormire",
+              "right": "dorma"
+            },
+            {
+              "left": "cercare",
+              "right": "cerchi"
+            },
+            {
+              "left": "pagare",
+              "right": "paghi"
+            }
+          ],
+          "explanation": "Look at the group first: -are gives -i, -ere/-ire give -a, and -isc- verbs give -isca."
+        },
+        {
+          "type": "transform",
+          "id": "cg-01-l5-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Marta capisce il problema.",
+          "cue": "Credo che…",
+          "answers": [
+            "Credo che Marta capisca il problema."
+          ],
+          "hint": "capire – lei",
+          "explanation": "Credo che triggers the congiuntivo; capire is an -isc- verb, so capisca."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-01-l5-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in due frasi.",
+          "prompt": "Parla di un collega o di un amico. Dì che cosa pensi e che cosa speri, con penso che e spero che.",
+          "keywords": [
+            "penso che",
+            "spero che"
+          ],
+          "modelAnswer": "Penso che il mio collega lavori troppo. Spero che prenda qualche giorno di ferie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "pensare",
+      "en": "to think",
+      "example": "Penso che tu abbia ragione."
+    },
+    {
+      "it": "credere",
+      "en": "to believe, to think",
+      "example": "Credo che il corso finisca a giugno."
+    },
+    {
+      "it": "sperare",
+      "en": "to hope",
+      "example": "Spero che arrivi presto."
+    },
+    {
+      "it": "aspettare",
+      "en": "to wait for",
+      "example": "Voglio che tu aspetti qui."
+    },
+    {
+      "it": "ascoltare",
+      "en": "to listen to",
+      "example": "Ascolto il messaggio del vicino."
+    },
+    {
+      "it": "cercare",
+      "en": "to look for",
+      "example": "Credo che Anna cerchi un nuovo lavoro."
+    },
+    {
+      "it": "pagare",
+      "en": "to pay",
+      "example": "Spero che tu paghi la bolletta oggi."
+    },
+    {
+      "it": "la bolletta",
+      "en": "utility bill",
+      "example": "La bolletta della luce arriva ogni due mesi."
+    },
+    {
+      "it": "capire",
+      "en": "to understand",
+      "example": "Penso che Luca capisca il problema."
+    },
+    {
+      "it": "preferire",
+      "en": "to prefer",
+      "example": "Preferisco il tavolo vicino alla finestra."
+    },
+    {
+      "it": "finire",
+      "en": "to finish, to end",
+      "example": "Il film finisce alle dieci."
+    },
+    {
+      "it": "spedire",
+      "en": "to send, to post",
+      "example": "Vedo che Luca spedisce il pacco."
+    },
+    {
+      "it": "pulire",
+      "en": "to clean",
+      "example": "Voglio che mia figlia pulisca la stanza."
+    },
+    {
+      "it": "il pacco",
+      "en": "parcel",
+      "example": "Il pacco arriva domani."
+    },
+    {
+      "it": "disturbare",
+      "en": "to disturb",
+      "example": "Il rumore disturba i vicini."
+    },
+    {
+      "it": "l'impresa",
+      "en": "building firm, company",
+      "example": "L'impresa finisce i lavori venerdì."
+    },
+    {
+      "it": "l'ascensore",
+      "en": "lift",
+      "example": "L'ascensore funziona di nuovo."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-01-t1",
+      "rule": "Fatto o pensiero?",
+      "tip": "Facts (so che) take the indicativo; opinions, wishes and hopes (penso che, spero che) take the congiuntivo.",
+      "example": {
+        "it": "So che parla. / Penso che parli.",
+        "en": "I know he speaks. / I think he speaks."
+      },
+      "challenge": {
+        "type": "choose_mood",
+        "sentence": "Penso che Anna ___ inglese.",
+        "verb": "parlare",
+        "answer": 1,
+        "forms": [
+          "parli"
+        ]
+      }
+    },
+    {
+      "id": "cg-01-t2",
+      "rule": "-are: Penso che parli",
+      "tip": "In the congiuntivo, -are verbs end in -i in the singular. Add tu or lui if it isn't clear.",
+      "example": {
+        "it": "Credo che Marco lavori molto.",
+        "en": "I think Marco works a lot."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Credo che Marco ___ (lavorare) molto.",
+        "answers": [
+          "lavori"
+        ]
+      }
+    },
+    {
+      "id": "cg-01-t3",
+      "rule": "-ere/-ire: prenda, dorma",
+      "tip": "-ere and -ire verbs take -a in the singular and -ano for loro: prenda, dorma, prendano.",
+      "example": {
+        "it": "Spero che il treno parta in orario.",
+        "en": "I hope the train leaves on time."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Spero che il treno ___ (partire) in orario.",
+        "answers": [
+          "parta"
+        ]
+      }
+    },
+    {
+      "id": "cg-01-t4",
+      "rule": "-isc-: finisca, capisca",
+      "tip": "If the io present has -isco, the congiuntivo keeps -isc- (finisca, finiscano), but not for noi and voi.",
+      "example": {
+        "it": "Penso che Luca capisca il problema.",
+        "en": "I think Luca understands the problem."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Penso che Luca ___ (capire) il problema.",
+        "answers": [
+          "capisca"
+        ]
+      }
+    }
+  ]
+}

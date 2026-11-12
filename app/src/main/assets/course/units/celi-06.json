@@ -313,7 +313,7 @@
             "Ho controllato verbi, accordi e preposizioni (competenza grammaticale, 4).",
             "Ho scritto tra 80 e 100 parole."
           ],
-          "modelAnswer": "(Traccia 1) Gentili organizzatori,\nmi chiamo Richard e abito in via Mazzini. Ho letto con piacere che nel quartiere sta per aprire una biblioteca degli attrezzi e vorrei offrire il mio aiuto come volontario. Non sono un esperto di bricolage, ma sono una persona precisa e potrei occuparmi dei prestiti e dell'archivio degli oggetti. Sono disponibile il sabato mattina e il mercoledì sera. Vorrei inoltre sapere come ci si iscrive e quanto costa la tessera.\nIn attesa di una vostra risposta, porgo cordiali saluti.\nRichard Smith",
+          "modelAnswer": "(Traccia 1) Gentili organizzatori,\nmi chiamo {name} e abito in via Mazzini. Ho letto con piacere che nel quartiere sta per aprire una biblioteca degli attrezzi e vorrei offrire il mio aiuto come volontario. Non sono un esperto di bricolage, ma sono una persona precisa e potrei occuparmi dei prestiti e dell'archivio degli oggetti. Sono disponibile il sabato mattina e il mercoledì sera. Vorrei inoltre sapere come ci si iscrive e quanto costa la tessera.\nIn attesa di una vostra risposta, porgo cordiali saluti.\n{name} Smith",
           "explanation": "Registro formale al voi (gli organizzatori sono più persone), quattro consegne svolte, condizionale per l'offerta (potrei) e la richiesta (vorrei)."
         },
         {
@@ -1110,7 +1110,7 @@
             "nel tempo libero",
             "perché"
           ],
-          "modelAnswer": "Buongiorno. Mi chiamo Richard, sono inglese e vivo in Italia da qualche anno. Nel tempo libero mi piace camminare in collina e provare ricette nuove. Ho deciso di fare il CELI 3 perché vorrei una certificazione ufficiale e perché, studiando per l'esame, sono diventato più sicuro quando parlo con i vicini o negli uffici.",
+          "modelAnswer": "Buongiorno. Mi chiamo {name}, sono inglese e vivo in Italia da qualche anno. Nel tempo libero mi piace camminare in collina e provare ricette nuove. Ho deciso di fare il CELI 3 perché vorrei una certificazione ufficiale e perché, studiando per l'esame, sono diventato più sicuro quando parlo con i vicini o negli uffici.",
           "explanation": "Breve, naturale, con un motivo: un buon inizio rilassa anche te."
         },
         {

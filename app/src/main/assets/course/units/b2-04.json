@@ -5,7 +5,7 @@
   "objective": "By the end you can complain about a service that didn't match expectations, both in a formal email and on the phone, and negotiate a fair compromise, using the subjunctive, conditional and hypotheticals of units B2-01 to B2-03.",
   "grammarFocus": "Ripasso: congiuntivo passato e imperfetto, periodo ipotetico tipo 1 e 2, condizionale passato (rimpianti e futuro nel passato); formule della lettera di reclamo e della trattativa.",
   "remedialUnitIds": [
-    "b2-01",
+    "cg-06",
     "b2-02",
     "b2-03"
   ],
@@ -414,7 +414,7 @@
             "Ho fatto una richiesta precisa e cortese (Vi sarei grato se + cong. imperfetto, ritengo giusto che…).",
             "Ho scritto tra 120 e 180 parole."
           ],
-          "modelAnswer": "Oggetto: Reclamo per il soggiorno dal 3 al 10 agosto – prenotazione n. 4521\n\nGentili Signori,\nVi scrivo in merito al soggiorno presso l'appartamento «Bilocale vista mare», prenotato tramite la Vostra agenzia per la settimana dal 3 al 10 agosto.\nPurtroppo l'appartamento non corrispondeva alla descrizione dell'annuncio. La spiaggia, che secondo l'annuncio era «a due passi», si trovava a quasi un chilometro. Inoltre il condizionatore del soggiorno non funzionava e il wifi era quasi sempre assente. Quando abbiamo segnalato il problema, la proprietaria ci ha assicurato che un tecnico sarebbe passato il giorno dopo, ma è arrivato soltanto dopo tre giorni.\nVisto il prezzo pagato, mi aspettavo che le informazioni fossero corrette e che la proprietaria risolvesse i problemi in tempi brevi. Ritengo quindi giusto che mi rimborsiate almeno il 40% della somma versata.\nVi sarei grato se poteste darmi una risposta entro quindici giorni.\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\nRichard"
+          "modelAnswer": "Oggetto: Reclamo per il soggiorno dal 3 al 10 agosto – prenotazione n. 4521\n\nGentili Signori,\nVi scrivo in merito al soggiorno presso l'appartamento «Bilocale vista mare», prenotato tramite la Vostra agenzia per la settimana dal 3 al 10 agosto.\nPurtroppo l'appartamento non corrispondeva alla descrizione dell'annuncio. La spiaggia, che secondo l'annuncio era «a due passi», si trovava a quasi un chilometro. Inoltre il condizionatore del soggiorno non funzionava e il wifi era quasi sempre assente. Quando abbiamo segnalato il problema, la proprietaria ci ha assicurato che un tecnico sarebbe passato il giorno dopo, ma è arrivato soltanto dopo tre giorni.\nVisto il prezzo pagato, mi aspettavo che le informazioni fossero corrette e che la proprietaria risolvesse i problemi in tempi brevi. Ritengo quindi giusto che mi rimborsiate almeno il 40% della somma versata.\nVi sarei grato se poteste darmi una risposta entro quindici giorni.\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n{name}"
         }
       ]
     },
@@ -687,7 +687,7 @@
             "Ho espresso un'emozione con mi dispiace / sono contento che + congiuntivo.",
             "Ho scritto tra 120 e 180 parole."
           ],
-          "modelAnswer": "Ciao Laura,\nti racconto com'è finita la storia della casa al mare! Ti ricordi le foto? Pensavamo che fosse a due passi dalla spiaggia e che la zona fosse tranquillissima. Invece il mare era a un chilometro e sotto le finestre c'era un bar aperto fino alle due. In più il condizionatore funzionava solo in camera e il tecnico, che doveva venire il giorno dopo, è arrivato dopo tre giorni!\nAl ritorno ho scritto un reclamo all'agenzia. All'inizio mi hanno offerto solo il venti per cento, così li ho chiamati e ho detto che con il quaranta avrei chiuso la questione. Alla fine ci siamo accordati sul trenta per cento: non è il massimo, ma sono contento che abbiano riconosciuto i problemi.\nComunque la prossima volta, se prenoto qualcosa online, chiedo prima foto recenti! E tu, com'è andata la vacanza in montagna?\nUn bacio,\nRichard"
+          "modelAnswer": "Ciao Laura,\nti racconto com'è finita la storia della casa al mare! Ti ricordi le foto? Pensavamo che fosse a due passi dalla spiaggia e che la zona fosse tranquillissima. Invece il mare era a un chilometro e sotto le finestre c'era un bar aperto fino alle due. In più il condizionatore funzionava solo in camera e il tecnico, che doveva venire il giorno dopo, è arrivato dopo tre giorni!\nAl ritorno ho scritto un reclamo all'agenzia. All'inizio mi hanno offerto solo il venti per cento, così li ho chiamati e ho detto che con il quaranta avrei chiuso la questione. Alla fine ci siamo accordati sul trenta per cento: non è il massimo, ma sono contento che abbiano riconosciuto i problemi.\nComunque la prossima volta, se prenoto qualcosa online, chiedo prima foto recenti! E tu, com'è andata la vacanza in montagna?\nUn bacio,\n{name}"
         },
         {
           "type": "speak_respond",

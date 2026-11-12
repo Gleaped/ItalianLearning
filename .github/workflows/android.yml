@@ -36,6 +36,9 @@ jobs:
         # any missing platform/build-tools itself.
         run: echo "ANDROID_HOME=$ANDROID_HOME" && ls "$ANDROID_HOME"
 
+      - name: Validate course content
+        run: python3 tools/validate_content.py
+
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 

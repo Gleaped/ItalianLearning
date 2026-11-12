@@ -17,6 +17,7 @@ import com.gleaped.italianlearning.reminders.DeepLinks
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import com.gleaped.italianlearning.ui.navigation.AppNavigation
 import com.gleaped.italianlearning.ui.navigation.PendingDeepLink
+import com.gleaped.italianlearning.ui.onboarding.WelcomeScreen
 import com.gleaped.italianlearning.ui.theme.ItalianoTheme
 import kotlinx.coroutines.launch
 
@@ -35,14 +36,22 @@ class MainActivity : ComponentActivity() {
         // Warm the content cache in the background so the course map opens instantly.
         lifecycleScope.launch { container.content.load() }
         setContent {
-            val settings by container.settings.settings.collectAsStateWithLifecycle(initialValue = Settings())
+            val loaded by container.settings.settings.collectAsStateWithLifecycle<Settings?>(initialValue = null)
+            val settings = loaded ?: Settings(onboarded = true)
             LaunchedEffect(settings.speechRate) { container.tts.setRate(settings.speechRate) }
             CompositionLocalProvider(LocalAppContainer provides container) {
-                ItalianoTheme(themeMode = settings.themeMode) {
-                    AppNavigation(
-                        deepLink = pendingDeepLink,
-                        onDeepLinkHandled = { handled -> if (pendingDeepLink == handled) pendingDeepLink = null },
-                    )
+                ItalianoTheme(themeMode = settings.themeMode, textSize = settings.textSize) {
+                    if (loaded != null && !settings.onboarded) {
+                        WelcomeScreen(
+                            onSave = { name -> lifecycleScope.launch { container.settings.setUserName(name) } },
+                            onSkip = { lifecycleScope.launch { container.settings.skipOnboarding() } },
+                        )
+                    } else {
+                        AppNavigation(
+                            deepLink = pendingDeepLink,
+                            onDeepLinkHandled = { handled -> if (pendingDeepLink == handled) pendingDeepLink = null },
+                        )
+                    }
                 }
             }
         }

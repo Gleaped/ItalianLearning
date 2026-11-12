@@ -98,7 +98,7 @@ private fun TableRow(cells: List<String>, header: Boolean, background: Color, fi
         cells.forEachIndexed { i, cell ->
             val label = firstIsLabel && i == 0
             Text(
-                text = cell,
+                text = inlineMarkup(cell, highlightColor()),
                 style = if (header) MaterialTheme.typography.labelLarge else MaterialTheme.typography.bodyMedium,
                 fontWeight = if (header) FontWeight.SemiBold else null,
                 color = if (label) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface,

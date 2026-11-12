@@ -498,7 +498,7 @@
               "answer": 1
             },
             {
-              "question": "Che cosa deve inviare Richard per ottenere il risarcimento?",
+              "question": "Che cosa deve inviare {name} per ottenere il risarcimento?",
               "options": [
                 "Solo una lettera di reclamo",
                 "Foto del danno e fattura d'acquisto o preventivo",
@@ -619,7 +619,7 @@
             },
             {
               "speaker": "you",
-              "text": "Buongiorno, sono Richard Moore. La chiamo in merito al mio reclamo, pratica numero 7741.",
+              "text": "Buongiorno, sono {name}. La chiamo in merito al mio reclamo, pratica numero 7741.",
               "hint": "Introduce yourself and give the file number.",
               "keywords": [
                 "in merito",
@@ -685,7 +685,7 @@
             "Ho usato pertanto, in merito a / a seguito di e qualora + congiuntivo.",
             "Non ho usato espressioni colloquiali o dislocazioni tipiche del parlato."
           ],
-          "modelAnswer": "Oggetto: reclamo per ritardo e danni durante il trasloco del 10 novembre\n\nSpett.le Traslochi Rapidi S.r.l.,\n\nVi scrivo in merito al trasloco effettuato dalla Vostra ditta il 10 novembre dalla mia precedente abitazione di via Garibaldi 12 alla nuova di via Verdi 3. Gli operai, attesi per le ore 8, sono arrivati con oltre tre ore di ritardo, senza alcun preavviso. Inoltre, durante il trasporto, uno specchio del bagno è stato gravemente danneggiato, come risulta dalle fotografie che Vi invio in allegato. Al momento della consegna ho immediatamente segnalato il danno al responsabile della squadra.\n\nChiedo pertanto il risarcimento del danno, quantificato in 180 euro sulla base del preventivo allegato. Qualora non riceva un riscontro entro quindici giorni dalla presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di una Vostra cortese risposta, porgo distinti saluti.\n\nRichard Moore"
+          "modelAnswer": "Oggetto: reclamo per ritardo e danni durante il trasloco del 10 novembre\n\nSpett.le Traslochi Rapidi S.r.l.,\n\nVi scrivo in merito al trasloco effettuato dalla Vostra ditta il 10 novembre dalla mia precedente abitazione di via Garibaldi 12 alla nuova di via Verdi 3. Gli operai, attesi per le ore 8, sono arrivati con oltre tre ore di ritardo, senza alcun preavviso. Inoltre, durante il trasporto, uno specchio del bagno è stato gravemente danneggiato, come risulta dalle fotografie che Vi invio in allegato. Al momento della consegna ho immediatamente segnalato il danno al responsabile della squadra.\n\nChiedo pertanto il risarcimento del danno, quantificato in 180 euro sulla base del preventivo allegato. Qualora non riceva un riscontro entro quindici giorni dalla presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di una Vostra cortese risposta, porgo distinti saluti.\n\n{name}"
         }
       ]
     }

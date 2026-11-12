@@ -728,7 +728,7 @@
             "Ho usato il Lei in tutta l'email.",
             "Ho controllato le forme irregolari (vorrei, potrei, sarebbe…)."
           ],
-          "modelAnswer": "Gentile segreteria,\nho visto sul vostro sito l'annuncio dei corsi di cucina italiana e vorrei avere qualche informazione. Vorrei sapere in quali giorni e a che ora si svolgono le lezioni e quanto costa il corso completo. Mi potrebbe dire anche quante persone ci sono in ogni gruppo? Infine, sarebbe possibile partecipare a una lezione di prova prima di iscriversi? Mi piacerebbe molto imparare a fare la pasta fresca.\nLa ringrazio in anticipo per la risposta.\nCordiali saluti,\nRichard"
+          "modelAnswer": "Gentile segreteria,\nho visto sul vostro sito l'annuncio dei corsi di cucina italiana e vorrei avere qualche informazione. Vorrei sapere in quali giorni e a che ora si svolgono le lezioni e quanto costa il corso completo. Mi potrebbe dire anche quante persone ci sono in ogni gruppo? Infine, sarebbe possibile partecipare a una lezione di prova prima di iscriversi? Mi piacerebbe molto imparare a fare la pasta fresca.\nLa ringrazio in anticipo per la risposta.\nCordiali saluti,\n{name}"
         },
         {
           "type": "speak_respond",
