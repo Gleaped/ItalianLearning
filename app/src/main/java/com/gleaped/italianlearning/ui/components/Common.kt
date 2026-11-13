@@ -59,10 +59,12 @@ fun ItalianText(
     text: String,
     modifier: Modifier = Modifier,
     style: TextStyle = MaterialTheme.typography.bodyLarge,
+    /** What the speaker button reads, when it differs from what is shown. */
+    speak: String = text,
 ) {
     Row(modifier = modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
         LookupText(text = text, style = style, modifier = Modifier.weight(1f))
-        SpeakerButton(text)
+        SpeakerButton(speak)
     }
 }
 

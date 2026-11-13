@@ -48,11 +48,18 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
+import androidx.compose.ui.text.TextRange
+import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.height
 import androidx.compose.ui.unit.dp
 import com.gleaped.italianlearning.domain.grading.Verdict
 import kotlinx.coroutines.delay
@@ -100,6 +107,8 @@ fun AnswerField(
     singleLine: Boolean = true,
     minLines: Int = 1,
     imeAction: ImeAction = if (singleLine) ImeAction.Done else ImeAction.Default,
+    /** Shows one-tap accented vowels under the field while it is focused; off for English answers. */
+    accentKeys: Boolean = true,
 ) {
     val keyboard = LocalSoftwareKeyboardController.current
     val focusManager = LocalFocusManager.current
@@ -108,6 +117,11 @@ fun AnswerField(
     val ime = WindowInsets.ime
     var focused by remember { mutableStateOf(false) }
     var size by remember { mutableStateOf(IntSize.Zero) }
+    // The field keeps its own cursor position so an accent key can insert where the learner is typing.
+    var fieldValue by remember { mutableStateOf(TextFieldValue(value, TextRange(value.length))) }
+    if (fieldValue.text != value) {
+        fieldValue = TextFieldValue(value, TextRange(value.length))
+    }
 
     LaunchedEffect(focused) {
         if (!focused) return@LaunchedEffect
@@ -124,35 +138,77 @@ fun AnswerField(
             }
     }
 
-    OutlinedTextField(
-        value = value,
-        onValueChange = onValueChange,
-        enabled = enabled,
-        label = if (label.isNotEmpty()) { { Text(label) } } else null,
-        singleLine = singleLine,
-        minLines = minLines,
-        keyboardOptions = KeyboardOptions(
-            capitalization = KeyboardCapitalization.None,
-            autoCorrectEnabled = false,
-            keyboardType = KeyboardType.Text,
-            imeAction = imeAction,
-        ),
-        keyboardActions = KeyboardActions(
-            onDone = {
-                if (value.isNotBlank()) {
-                    keyboard?.hide()
-                    focusManager.clearFocus()
-                    onDone()
-                }
-            },
-            onNext = { focusManager.moveFocus(FocusDirection.Next) },
-        ),
+    Column(
         modifier = modifier
             .fillMaxWidth()
             .bringIntoViewRequester(requester)
             .onSizeChanged { size = it }
             .onFocusChanged { focused = it.isFocused || it.hasFocus },
-    )
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        OutlinedTextField(
+            value = fieldValue,
+            onValueChange = {
+                fieldValue = it
+                if (it.text != value) onValueChange(it.text)
+            },
+            enabled = enabled,
+            label = if (label.isNotEmpty()) { { Text(label) } } else null,
+            singleLine = singleLine,
+            minLines = minLines,
+            keyboardOptions = KeyboardOptions(
+                capitalization = KeyboardCapitalization.None,
+                autoCorrectEnabled = false,
+                keyboardType = KeyboardType.Text,
+                imeAction = imeAction,
+            ),
+            keyboardActions = KeyboardActions(
+                onDone = {
+                    if (value.isNotBlank()) {
+                        keyboard?.hide()
+                        focusManager.clearFocus()
+                        onDone()
+                    }
+                },
+                onNext = { focusManager.moveFocus(FocusDirection.Next) },
+            ),
+            modifier = Modifier.fillMaxWidth(),
+        )
+        if (accentKeys && enabled && focused) {
+            AccentKeys(onKey = { accent ->
+                val next = insertAtCursor(fieldValue, accent)
+                fieldValue = next
+                onValueChange(next.text)
+            })
+        }
+    }
+}
+
+/** Accented vowels Italian uses; a phone keyboard hides them behind a long press. */
+private val ACCENTS = listOf("à", "è", "é", "ì", "ò", "ù")
+
+/** Replaces the selection (or inserts at the cursor) and leaves the cursor after the new text. */
+internal fun insertAtCursor(current: TextFieldValue, insert: String): TextFieldValue {
+    val start = current.selection.min.coerceIn(0, current.text.length)
+    val end = current.selection.max.coerceIn(start, current.text.length)
+    val text = current.text.replaceRange(start, end, insert)
+    return TextFieldValue(text, TextRange(start + insert.length))
+}
+
+/** One-tap accent keys; tapping one does not move focus, so the keyboard stays open. */
+@Composable
+private fun AccentKeys(onKey: (String) -> Unit) {
+    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        ACCENTS.forEach { accent ->
+            OutlinedButton(
+                onClick = { onKey(accent) },
+                modifier = Modifier.weight(1f).height(44.dp),
+                contentPadding = PaddingValues(0.dp),
+            ) {
+                Text(accent, style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Normal))
+            }
+        }
+    }
 }
 
 /**
@@ -256,10 +312,19 @@ fun OptionButton(
         selected -> MaterialTheme.colorScheme.primaryContainer
         else -> Color.Transparent
     }
+    // A mark as well as the colour, so the result does not depend on telling green from red.
+    val mark = when {
+        answered && isCorrect -> "✓"
+        answered && selected -> "✗"
+        else -> null
+    }
     OutlinedButton(
         onClick = onClick,
         enabled = !answered,
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().semantics {
+            if (mark == "✓") stateDescription = "Correct"
+            if (mark == "✗") stateDescription = "Not correct"
+        },
         colors = ButtonDefaults.outlinedButtonColors(
             containerColor = container,
             contentColor = MaterialTheme.colorScheme.onSurface,
@@ -271,7 +336,10 @@ fun OptionButton(
             if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline,
         ),
     ) {
-        Text(text, textAlign = TextAlign.Start, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp))
+        Text(text, textAlign = TextAlign.Start, modifier = Modifier.weight(1f).padding(vertical = 4.dp))
+        if (mark != null) {
+            Text(mark, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(start = 8.dp))
+        }
     }
 }
 

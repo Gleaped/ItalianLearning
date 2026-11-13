@@ -37,6 +37,12 @@ class LearningRepository(private val db: AppDatabase) {
 
     fun dueReviewCount(): Flow<Int> = srs.observeDueReviewCount(today())
     fun newCardCount(): Flow<Int> = srs.observeNewCount()
+
+    /** New cards first reviewed today; they use up the daily new-card allowance. */
+    fun newIntroducedTodayCount(): Flow<Int> = srs.observeNewIntroducedOn(today())
+
+    /** New cards still waiting in the deck, whether or not today's allowance has room for them. */
+    suspend fun waitingNewCardCount(): Int = srs.newCount()
     fun totalCardCount(): Flow<Int> = srs.observeTotal()
 
     suspend fun completeLesson(unit: CourseUnit, lessonId: String, outcomes: List<ExerciseOutcome>) {
@@ -125,6 +131,15 @@ class LearningRepository(private val db: AppDatabase) {
         return updated
     }
 
+    /**
+     * Takes back a rating: puts [original] (the card as it was before [review]) back and
+     * removes the review from today's activity count.
+     */
+    suspend fun undoReview(original: SrsCardEntity) {
+        srs.update(original)
+        recordActivity(lessons = 0, cards = -1)
+    }
+
     private suspend fun recordActivity(lessons: Int, cards: Int) {
         val day = today()
         val existing = progress.activity(day)
@@ -132,7 +147,7 @@ class LearningRepository(private val db: AppDatabase) {
             ActivityDayEntity(
                 epochDay = day,
                 lessonsCompleted = (existing?.lessonsCompleted ?: 0) + lessons,
-                cardsReviewed = (existing?.cardsReviewed ?: 0) + cards,
+                cardsReviewed = ((existing?.cardsReviewed ?: 0) + cards).coerceAtLeast(0),
             ),
         )
     }

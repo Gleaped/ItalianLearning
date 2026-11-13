@@ -62,6 +62,9 @@ interface SrsDao {
     @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay = :today")
     suspend fun newIntroducedOn(today: Long): Int
 
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay = :today")
+    fun observeNewIntroducedOn(today: Long): Flow<Int>
+
     @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay IS NOT NULL AND dueEpochDay <= :today")
     fun observeDueReviewCount(today: Long): Flow<Int>
 

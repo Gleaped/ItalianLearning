@@ -112,7 +112,15 @@ fun FindTriggerView(e: FindTrigger, answered: Boolean, actions: ExerciseActions)
                         disabledContentColor = MaterialTheme.colorScheme.onSurface,
                     ),
                     border = BorderStroke(1.dp, if (picked == i) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outlineVariant),
-                ) { Text(token, style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Normal)) }
+                ) {
+                    // A mark as well as the colour, so the result does not depend on telling green from red.
+                    val mark = when {
+                        answered && inTrigger -> " ✓"
+                        answered && picked == i -> " ✗"
+                        else -> ""
+                    }
+                    Text(token + mark, style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Normal))
+                }
             }
         }
         CheckButton(enabled = !answered && picked >= 0, onClick = {
@@ -197,9 +205,11 @@ fun SortBucketsView(e: SortBuckets, answered: Boolean, actions: ExerciseActions)
 @Composable
 fun MinimalPairView(e: MinimalPair, answered: Boolean, actions: ExerciseActions) {
     var picked by remember(e) { mutableIntStateOf(-1) }
+    val order = remember(e) { shuffledOrder(e.sentences.size) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         LookupText(e.question, style = MaterialTheme.typography.titleLarge)
-        e.sentences.forEachIndexed { i, sentence ->
+        order.forEach { i ->
+            val sentence = e.sentences[i]
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) {
                     OptionButton(

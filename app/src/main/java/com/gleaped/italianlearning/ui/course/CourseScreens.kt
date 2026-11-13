@@ -46,6 +46,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.gleaped.italianlearning.content.GrammarTip
 import com.gleaped.italianlearning.content.UnitRef
+import com.gleaped.italianlearning.domain.speech.SpeakableText
 import com.gleaped.italianlearning.domain.progress.UnitStatus
 import com.gleaped.italianlearning.ui.components.ItalianText
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
@@ -338,7 +339,7 @@ fun UnitScreen(
                 }
                 items(unit.vocabulary) { v ->
                     Column {
-                        ItalianText(v.it, style = MaterialTheme.typography.bodyLarge)
+                        ItalianText(v.it, style = MaterialTheme.typography.bodyLarge, speak = SpeakableText.forCard(v.it))
                         Text(v.en, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         HorizontalDivider(Modifier.padding(top = 6.dp))
                     }

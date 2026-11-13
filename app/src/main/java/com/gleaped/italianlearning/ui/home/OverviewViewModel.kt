@@ -34,8 +34,13 @@ class OverviewViewModel(container: AppContainer) : ViewModel() {
     private val reviewCounts = combine(
         container.learning.dueReviewCount(),
         container.learning.newCardCount(),
+        container.learning.newIntroducedTodayCount(),
         container.settings.settings,
-    ) { due, fresh, settings -> due to minOf(fresh, settings.dailyNewCards) }
+    ) { due, fresh, introducedToday, settings ->
+        // Same rule as the review queue: new cards already met today use up the daily allowance.
+        val allowance = (settings.dailyNewCards - introducedToday).coerceAtLeast(0)
+        due to minOf(fresh, allowance)
+    }
 
     val overview: StateFlow<Overview?> = combine(
         contentFlow,

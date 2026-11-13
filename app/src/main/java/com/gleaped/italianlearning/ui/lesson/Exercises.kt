@@ -69,6 +69,7 @@ import com.gleaped.italianlearning.content.Unsupported
 import com.gleaped.italianlearning.domain.grading.AnswerNormalizer
 import com.gleaped.italianlearning.domain.grading.Grader
 import com.gleaped.italianlearning.domain.grading.Verdict
+import com.gleaped.italianlearning.domain.speech.SpeakableText
 import com.gleaped.italianlearning.domain.srs.Rating
 import com.gleaped.italianlearning.speech.SpeechCapture
 import com.gleaped.italianlearning.speech.TtsStatus
@@ -185,7 +186,7 @@ private fun FlashcardView(e: Flashcard, actions: ExerciseActions) {
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     LookupText(e.front, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
-                    SpeakerButton(e.front)
+                    SpeakerButton(SpeakableText.forCard(e.front))
                 }
                 if (flipped) {
                     HorizontalDivider()
@@ -233,6 +234,8 @@ private fun ChoiceView(
     autoPlay: Boolean = false,
 ) {
     var selected by remember { mutableIntStateOf(-1) }
+    // Shown in a fresh random order each time, so the position of the right answer says nothing.
+    val order = remember(options) { shuffledOrder(options.size) }
     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
         if (listen != null) {
             ListenControls(listen.audioText, autoPlay = autoPlay, revealAfterAnswer = answered)
@@ -240,9 +243,9 @@ private fun ChoiceView(
         if (prompt.isNotBlank()) {
             LookupText(prompt, style = MaterialTheme.typography.titleLarge)
         }
-        options.forEachIndexed { i, option ->
+        order.forEach { i ->
             OptionButton(
-                text = option,
+                text = options[i],
                 selected = selected == i,
                 answered = answered,
                 isCorrect = i == answer,
@@ -255,6 +258,9 @@ private fun ChoiceView(
         }
     }
 }
+
+/** Display order for [size] answer options: indexes into the original list, shuffled. */
+internal fun shuffledOrder(size: Int): List<Int> = (0 until size).shuffled()
 
 // ---------------------------------------------------------------- listening helpers
 
@@ -424,7 +430,7 @@ private fun TranslateView(e: Translate, answered: Boolean, actions: ExerciseActi
         } else {
             Text(e.source, style = MaterialTheme.typography.titleLarge)
         }
-        AnswerField(input, { input = it }, enabled = !answered, onDone = check, singleLine = false, minLines = 2)
+        AnswerField(input, { input = it }, enabled = !answered, onDone = check, singleLine = false, minLines = 2, accentKeys = !e.fromItalian)
         CheckButton(enabled = !answered && input.isNotBlank(), onClick = check)
     }
 }
@@ -525,6 +531,7 @@ private fun ListenTranscribeView(e: ListenTranscribe, answered: Boolean, autoPla
 @Composable
 private fun ReadingView(e: Reading, answered: Boolean, actions: ExerciseActions) {
     val picks = remember(e) { mutableStateListOf(*Array(e.questions.size) { -1 }) }
+    val orders = remember(e) { e.questions.map { shuffledOrder(it.options.size) } }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         if (e.title.isNotBlank()) Text(e.title, style = MaterialTheme.typography.headlineSmall)
         OutlinedCard(Modifier.fillMaxWidth()) {
@@ -535,9 +542,9 @@ private fun ReadingView(e: Reading, answered: Boolean, actions: ExerciseActions)
         }
         e.questions.forEachIndexed { qi, q ->
             LookupText(q.question, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp))
-            q.options.forEachIndexed { oi, option ->
+            orders[qi].forEach { oi ->
                 OptionButton(
-                    text = option,
+                    text = q.options[oi],
                     selected = picks[qi] == oi,
                     answered = answered,
                     isCorrect = oi == q.answer,
