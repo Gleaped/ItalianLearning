@@ -1,19 +1,24 @@
 {
   "id": "a2r-03",
-  "level": "A2R",
+  "level": "A2",
   "title": "Preposizioni articolate",
+  "format": 2,
+  "module": "a2-m2",
   "objective": "By the end you can say where things are and ask for or give simple directions, choosing the right article and articulated preposition.",
-  "grammarFocus": "Definite articles (il, lo, l', la, i, gli, le); a, da, di, in, su + article; in/a with and without the article for places; da + person; location phrases (vicino a, di fronte a, accanto a, fino a).",
+  "grammarFocus": "Articles; in, su, a, di, da + article; in/a/da for places; location phrases (vicino a, di fronte a, accanto a, fino a).",
   "remedialUnitIds": [],
   "lessons": [
     {
       "id": "a2r-03-l1",
-      "title": "Dove sono le chiavi?",
-      "minutes": 10,
+      "title": "Sul tavolo, nello zaino",
+      "minutes": 7,
+      "goal": "You can say where things are with nel, sul, al and their other forms.",
+      "takeaway": "In, su and a merge with the article: in + il = nel, su + la = sulla, a + i = ai.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "a2r-03-l1-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: scegli l'articolo giusto.",
           "prompt": "Ho dimenticato ___ zaino sul treno.",
           "options": [
@@ -23,13 +28,31 @@
             "l'"
           ],
           "answer": 1,
-          "explanation": "Zaino starts with z, so it takes lo (plural gli zaini). The same applies to s + consonant: lo studio, lo sportello."
+          "explanation": "Zaino starts with z, so it takes lo."
         },
         {
           "type": "grammar_note",
           "id": "a2r-03-l1-e02",
-          "title": "Articoli e preposizioni articolate",
-          "body": "**Definite articles**\n- masculine: **il** (il treno) · **lo** before s + consonant, z, gn, ps, y (lo sportello, lo zaino) · **l'** before a vowel (l'ufficio)\n- masculine plural: **i** (i treni) · **gli** (gli sportelli, gli zaini, gli uffici)\n- feminine: **la** (la stazione) · **l'** before a vowel (l'edicola) · plural **le** (le stazioni, le edicole)\n\n**A, da, di, in, su + article = one word.** The ending copies the article:\n- a → **al**, allo, all', alla, ai, agli, alle\n- da → **dal**, dallo, dall', dalla, dai, dagli, dalle\n- di → **del**, dello, dell', della, dei, degli, delle\n- in → **nel**, nello, nell', nella, nei, negli, nelle\n- su → **sul**, sullo, sull', sulla, sui, sugli, sulle\n\n**Con** and **per** normally stay separate: *con il treno, per la stazione* (you may hear *col* in speech).",
+          "stage": "learn",
+          "title": "Gli articoli",
+          "body": "The article shows gender and number. The next card copies it.\n\n| | singolare | plurale |\n|---|---|---|\n| m. | ==il== treno, ==lo== zaino, ==l'== ufficio | ==i== treni, ==gli== zaini, ==gli== uffici |\n| f. | ==la== stazione, ==l'== edicola | ==le== stazioni |\n\n> **Lo / gli** go before s + consonant, z, gn, ps: *lo sportello, gli zaini*.",
+          "examples": [
+            {
+              "it": "Il treno è in ritardo.",
+              "en": "The train is late."
+            },
+            {
+              "it": "Gli sportelli sono chiusi.",
+              "en": "The counters are closed."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-03-l1-e03",
+          "stage": "learn",
+          "title": "In, su, a + articolo",
+          "body": "**In**, **su** and **a** merge with the article into one word. The ending copies the article.\n\n| | il | lo | l' | la | i | gli | le |\n|---|---|---|---|---|---|---|---|\n| in | ==nel== | nello | nell' | nella | nei | negli | nelle |\n| su | ==sul== | sullo | sull' | sulla | sui | sugli | sulle |\n| a | ==al== | allo | all' | alla | ai | agli | alle |\n\n> Never *in il*: always ==nel==.",
           "examples": [
             {
               "it": "Le chiavi sono sul tavolo.",
@@ -38,20 +61,13 @@
             {
               "it": "Il passaporto è nello zaino.",
               "en": "The passport is in the rucksack."
-            },
-            {
-              "it": "Esco dall'ufficio alle sei.",
-              "en": "I leave the office at six."
-            },
-            {
-              "it": "Il numero della farmacia è sulla porta.",
-              "en": "The pharmacy's number is on the door."
             }
           ]
         },
         {
           "type": "match_pairs",
-          "id": "a2r-03-l1-e03",
+          "id": "a2r-03-l1-e04",
+          "stage": "practise",
           "instruction": "Abbina preposizione + articolo alla forma unita.",
           "pairs": [
             {
@@ -63,100 +79,78 @@
               "right": "nella"
             },
             {
-              "left": "di + gli",
-              "right": "degli"
-            },
-            {
-              "left": "da + lo",
-              "right": "dallo"
-            },
-            {
               "left": "su + le",
               "right": "sulle"
             },
             {
+              "left": "in + lo",
+              "right": "nello"
+            },
+            {
               "left": "a + l'",
               "right": "all'"
+            },
+            {
+              "left": "su + i",
+              "right": "sui"
             }
-          ]
-        },
-        {
-          "type": "gap_fill",
-          "id": "a2r-03-l1-e04",
-          "instruction": "Completa con la preposizione articolata.",
-          "sentence": "Le chiavi sono ___ tavolo, vicino al telefono.",
-          "answers": [
-            "sul"
           ],
-          "hint": "su + il",
-          "explanation": "Su + il = sul."
+          "explanation": "The ending copies the article: il → nel/sul/al, la → nella/sulla/alla."
         },
         {
-          "type": "gap_fill",
+          "type": "multiple_choice",
           "id": "a2r-03-l1-e05",
-          "instruction": "Completa con la preposizione articolata.",
-          "sentence": "Il passaporto è ___ zaino.",
-          "answers": [
-            "nello"
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Il passaporto è ___ zaino.",
+          "options": [
+            "nel",
+            "nello",
+            "nella",
+            "sullo"
           ],
-          "hint": "in + lo",
+          "answer": 1,
           "explanation": "Zaino takes lo, so in + lo = nello."
         },
         {
           "type": "gap_fill",
           "id": "a2r-03-l1-e06",
-          "instruction": "Completa con la preposizione articolata.",
-          "sentence": "Di solito esco ___ ufficio alle sei.",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Le chiavi sono ___ tavolo, vicino al telefono.",
           "answers": [
-            "dall'",
-            "dall’"
+            "sul"
           ],
-          "hint": "da + l'",
-          "explanation": "Ufficio starts with a vowel: da + l' = dall'. Da = from (leaving a place)."
+          "explanation": "Su + il = sul.",
+          "hint": "su + il"
         },
         {
-          "type": "multiple_choice",
+          "type": "gap_fill",
           "id": "a2r-03-l1-e07",
-          "instruction": "Scegli la forma giusta.",
-          "prompt": "Il numero di telefono ___ farmacia è scritto sulla porta.",
-          "options": [
-            "della",
-            "dalla",
-            "nella",
-            "alla"
-          ],
-          "answer": 0,
-          "explanation": "Of the pharmacy = di + la = della."
-        },
-        {
-          "type": "flashcard",
-          "id": "a2r-03-l1-e08",
-          "front": "in the drawer / on the shelves",
-          "back": "nel cassetto / sugli scaffali",
-          "example": "Le forbici sono nel cassetto, i libri sugli scaffali."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "a2r-03-l1-e09",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Il telefono è sul divano, vicino alle chiavi.",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "I libri sono ___ scaffali.",
           "answers": [
-            "Il telefono è sul divano, vicino alle chiavi.",
-            "Il telefono è sul divano vicino alle chiavi."
+            "sugli"
           ],
-          "slow": true,
-          "explanation": "Sul = su + il; alle = a + le."
+          "explanation": "Scaffali is masculine plural with gli, so su + gli = sugli.",
+          "hint": "su + gli"
         },
         {
-          "type": "speak_repeat",
-          "id": "a2r-03-l1-e10",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Il portafoglio è nella borsa, sotto gli occhiali.",
-          "translation": "The wallet is in the bag, under the glasses."
+          "type": "error_correction",
+          "id": "a2r-03-l1-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Il portafoglio è in la borsa.",
+          "answers": [
+            "Il portafoglio è nella borsa."
+          ],
+          "explanation": "In + la always merges into nella."
         },
         {
           "type": "speak_respond",
-          "id": "a2r-03-l1-e11",
+          "id": "a2r-03-l1-e09",
+          "stage": "use",
           "instruction": "Rispondi ad alta voce in 2–3 frasi.",
           "prompt": "Dove sono adesso le tue chiavi, il tuo telefono e il tuo portafoglio?",
           "keywords": [
@@ -164,54 +158,250 @@
             "telefono",
             "portafoglio"
           ],
-          "modelAnswer": "Le chiavi sono sul tavolo della cucina, il telefono è nella mia mano e il portafoglio è nella giacca.",
-          "explanation": "Use su/in + article: sul tavolo, nella borsa, nello zaino, sulla scrivania."
+          "modelAnswer": "Le chiavi sono sul tavolo della cucina, il telefono è nella mia mano e il portafoglio è nella giacca."
         }
       ]
     },
     {
       "id": "a2r-03-l2",
-      "title": "Come arrivo alla stazione?",
-      "minutes": 10,
+      "title": "Del numero, dall'ufficio",
+      "minutes": 7,
+      "goal": "You can say what belongs to what and where you come from with di and da.",
+      "takeaway": "Di = of, da = from; both merge with the article: della farmacia, dall'ufficio.",
       "exercises": [
         {
           "type": "gap_fill",
           "id": "a2r-03-l2-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: completa con la preposizione articolata.",
           "sentence": "La borsa è ___ sedia, in cucina.",
           "answers": [
             "sulla"
           ],
-          "hint": "su + la",
-          "explanation": "Su + la = sulla."
+          "explanation": "Su + la = sulla.",
+          "hint": "su + la"
         },
         {
           "type": "grammar_note",
           "id": "a2r-03-l2-e02",
-          "title": "Andare a, in, da – e chiedere la strada",
-          "body": "**Where are you going?** Italian chooses the preposition by the type of place:\n- **in** without an article for many shops and fixed places: *in farmacia, in banca, in posta, in ufficio, in centro, in piazza* – and for countries and regions: *in Italia, in Toscana*\n- **a** without an article for cities and a few fixed words: *a Milano, a casa, a scuola, a letto*\n- **a + article** for most other places: *al supermercato, al bar, alla stazione, all'ufficio postale*\n- **da + person** = to/at someone's place or business: *dal medico, dal dentista, da Marco, dai miei amici*\n\n**Location and directions** – these phrases end in **a** or **di** + article:\n- *vicino alla stazione, accanto al bar, di fronte alla banca, in fondo alla strada, fino al semaforo*\n- *vada dritto, giri a destra / a sinistra, attraversi la piazza* (Lei imperative for strangers)",
+          "stage": "learn",
+          "title": "Di e da + articolo",
+          "body": "**Di** = of, belonging to. **Da** = from, out of.\n\n| | il | lo | l' | la | i | gli | le |\n|---|---|---|---|---|---|---|---|\n| di | ==del== | dello | dell' | della | dei | degli | delle |\n| da | ==dal== | dallo | dall' | dalla | dai | dagli | dalle |\n\n> **Con** and **per** stay separate: *con il treno, per la stazione*.",
+          "examples": [
+            {
+              "it": "Il numero della farmacia è sulla porta.",
+              "en": "The pharmacy's number is on the door."
+            },
+            {
+              "it": "Esco dall'ufficio alle sei.",
+              "en": "I leave the office at six."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2r-03-l2-e03",
+          "stage": "practise",
+          "instruction": "Metti ogni elemento nel gruppo giusto.",
+          "buckets": [
+            "di (of)",
+            "da (from)"
+          ],
+          "items": [
+            {
+              "text": "il numero della farmacia",
+              "bucket": 0
+            },
+            {
+              "text": "esco dall'ufficio",
+              "bucket": 1
+            },
+            {
+              "text": "la porta dello studio",
+              "bucket": 0
+            },
+            {
+              "text": "arrivo dalla stazione",
+              "bucket": 1
+            },
+            {
+              "text": "i biglietti dei ragazzi",
+              "bucket": 0
+            },
+            {
+              "text": "torno dagli Stati Uniti",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Di links a thing to its owner or type; da gives the starting point."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-03-l2-e04",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Il treno parte ___ binario tre.",
+          "answers": [
+            "dal"
+          ],
+          "explanation": "Parte from the platform: da + il = dal.",
+          "hint": "da + il"
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-03-l2-e05",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Di solito esco ___ ufficio alle sei.",
+          "answers": [
+            "dall'",
+            "dall’"
+          ],
+          "explanation": "Ufficio starts with a vowel: da + l' = dall'.",
+          "hint": "da + l'"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-03-l2-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Il treno parte da il binario due.",
+          "answers": [
+            "Il treno parte dal binario due."
+          ],
+          "explanation": "Da + il always merges into dal."
+        },
+        {
+          "type": "translate",
+          "id": "a2r-03-l2-e07",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "The car keys are in the drawer.",
+          "answers": [
+            "Le chiavi della macchina sono nel cassetto.",
+            "Le chiavi dell'auto sono nel cassetto.",
+            "Le chiavi dell’auto sono nel cassetto."
+          ],
+          "explanation": "Of the car = di + la = della (or dell' for auto); in the drawer = nel cassetto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-03-l2-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "A che ora esci dal lavoro, o da casa la mattina? Che cosa c'è nella tua borsa?",
+          "keywords": [
+            "esco dal",
+            "nella"
+          ],
+          "modelAnswer": "Di solito esco da casa alle otto. Nella borsa ho le chiavi, il telefono e il portafoglio."
+        }
+      ]
+    },
+    {
+      "id": "a2r-03-l3",
+      "title": "In farmacia, a casa, dal medico",
+      "minutes": 7,
+      "goal": "You can choose in, a or da to say where you are going.",
+      "takeaway": "Fixed places take in or a with no article; other places a + article; people take da.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2r-03-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con la preposizione articolata.",
+          "sentence": "Il portafoglio è ___ borsa.",
+          "answers": [
+            "nella"
+          ],
+          "explanation": "In + la = nella.",
+          "hint": "in + la"
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-03-l3-e02",
+          "stage": "learn",
+          "title": "In, a o al?",
+          "body": "Choose by the type of place.\n\n| place | use | example |\n|---|---|---|\n| countries, regions | ==in== | in Italia |\n| fixed places | ==in== | in farmacia, in banca, in centro |\n| cities, home, school | ==a== | a Roma, a casa, a scuola |\n| most other places | ==a + articolo== | al supermercato, alla stazione |\n\n> Say ==a casa==, never *alla casa*.",
+          "examples": [
+            {
+              "it": "Passo in farmacia e poi al supermercato.",
+              "en": "I'll stop at the pharmacy and then the supermarket."
+            },
+            {
+              "it": "Stasera resto a casa.",
+              "en": "Tonight I'm staying home."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-03-l3-e03",
+          "stage": "learn",
+          "title": "Da + persona",
+          "body": "To go to a person's home or workplace, use **da** + article.\n\n| | |\n|---|---|\n| vado ==dal== medico | I'm going to the doctor's |\n| vado ==dalla== dentista | I'm going to the dentist's |\n| ceniamo ==dai== nonni | we're eating at my grandparents' |\n| sono ==da== Marco | I'm at Marco's |\n\n> A name takes no article: *da Marco*. Not *al dentista*.",
           "examples": [
             {
               "it": "Domani vado dal dentista.",
               "en": "Tomorrow I'm going to the dentist's."
             },
             {
-              "it": "Passo in farmacia e poi al supermercato.",
-              "en": "I'll stop at the pharmacy and then the supermarket."
-            },
-            {
-              "it": "Vada dritto fino al semaforo e poi giri a sinistra.",
-              "en": "Go straight on to the traffic lights and then turn left."
-            },
-            {
-              "it": "La fermata è di fronte alla chiesa.",
-              "en": "The stop is opposite the church."
+              "it": "Stasera ceno da Giulia.",
+              "en": "Tonight I'm having dinner at Giulia's."
             }
           ]
         },
         {
+          "type": "sort_buckets",
+          "id": "a2r-03-l3-e04",
+          "stage": "practise",
+          "instruction": "Vado… Quale preposizione serve? Metti ogni luogo nel gruppo giusto.",
+          "buckets": [
+            "in (senza articolo)",
+            "a / al / alla",
+            "da"
+          ],
+          "items": [
+            {
+              "text": "farmacia",
+              "bucket": 0
+            },
+            {
+              "text": "banca",
+              "bucket": 0
+            },
+            {
+              "text": "supermercato",
+              "bucket": 1
+            },
+            {
+              "text": "stazione",
+              "bucket": 1
+            },
+            {
+              "text": "il dentista",
+              "bucket": 2
+            },
+            {
+              "text": "i nonni",
+              "bucket": 2
+            },
+            {
+              "text": "casa",
+              "bucket": 1
+            },
+            {
+              "text": "Italia",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Fixed places and countries take in, most other places a + article, people da."
+        },
+        {
           "type": "multiple_choice",
-          "id": "a2r-03-l2-e03",
+          "id": "a2r-03-l3-e05",
+          "stage": "practise",
           "instruction": "Scegli la preposizione giusta.",
           "prompt": "Domani devo andare ___ dentista.",
           "options": [
@@ -221,48 +411,159 @@
             "in"
           ],
           "answer": 0,
-          "explanation": "A person (or their practice) takes da: dal dentista, dal medico, dal parrucchiere."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "a2r-03-l2-e04",
-          "instruction": "Scegli la preposizione giusta.",
-          "prompt": "Stasera non esco, resto ___ casa.",
-          "options": [
-            "a",
-            "alla",
-            "nella",
-            "dalla"
-          ],
-          "answer": 0,
-          "explanation": "A casa, without an article, means at/to (my) home. You'll also hear in casa, but never alla casa in this sense."
+          "explanation": "A person (or their practice) takes da: dal dentista, dal medico."
         },
         {
           "type": "gap_fill",
-          "id": "a2r-03-l2-e05",
-          "instruction": "Completa con la preposizione giusta.",
-          "sentence": "Scusi, devo andare ___ stazione. È lontano?",
-          "answers": [
-            "alla"
-          ],
-          "hint": "a + la",
-          "explanation": "Stazione is not in the fixed in-list, so it's a + article: alla stazione."
-        },
-        {
-          "type": "gap_fill",
-          "id": "a2r-03-l2-e06",
-          "instruction": "Completa con la preposizione giusta.",
+          "id": "a2r-03-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
           "sentence": "Vado ___ farmacia a comprare l'aspirina.",
           "answers": [
             "in"
           ],
-          "hint": "no article",
-          "explanation": "Shops ending in -ia (farmacia, macelleria, libreria) usually take in without an article."
+          "explanation": "Pharmacy is a fixed place: in farmacia, with no article.",
+          "hint": "senza articolo"
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-03-l3-e07",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Scusi, devo andare ___ stazione. È lontano?",
+          "answers": [
+            "alla"
+          ],
+          "explanation": "Stazione is not a fixed in-place, so a + la = alla.",
+          "hint": "a + la"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-03-l3-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Domani vado al medico.",
+          "answers": [
+            "Domani vado dal medico.",
+            "Domani vado dalla medica."
+          ],
+          "explanation": "To go to a person's practice use da: dal medico."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-03-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 3 frasi.",
+          "prompt": "Che programmi hai per domani? Di' dove vai (almeno tre posti).",
+          "keywords": [
+            "vado",
+            "in",
+            "al"
+          ],
+          "modelAnswer": "Domani mattina passo in banca, poi vado al supermercato. Nel pomeriggio vado dal dentista e la sera resto a casa."
+        }
+      ]
+    },
+    {
+      "id": "a2r-03-l4",
+      "title": "Come arrivo alla stazione?",
+      "minutes": 8,
+      "goal": "You can ask for directions and understand the answer.",
+      "takeaway": "Place phrases end in a + article: vicino alla stazione, di fronte al bar, fino al semaforo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2r-03-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Stasera ceno ___ miei amici.",
+          "options": [
+            "dai",
+            "ai",
+            "nei",
+            "dagli"
+          ],
+          "answer": 0,
+          "explanation": "At people's homes takes da: da + i = dai."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-03-l4-e02",
+          "stage": "learn",
+          "title": "Dov'è? Le espressioni di luogo",
+          "body": "These phrases end in **a**, so the article merges.\n\n| frase | significato | esempio |\n|---|---|---|\n| vicino ==a== | near | vicino ==alla== stazione |\n| accanto ==a== | next to | accanto ==al== bar |\n| di fronte ==a== | opposite | di fronte ==alla== banca |\n| in fondo ==a== | at the end of | in fondo ==alla== strada |\n| fino ==a== | as far as | fino ==al== semaforo |\n\n> Not *vicino la stazione*: keep the merge.",
+          "examples": [
+            {
+              "it": "La fermata è di fronte alla chiesa.",
+              "en": "The stop is opposite the church."
+            },
+            {
+              "it": "Abito accanto al supermercato.",
+              "en": "I live next to the supermarket."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-03-l4-e03",
+          "stage": "learn",
+          "title": "Indicazioni con Lei",
+          "body": "To a stranger, give directions in the polite **Lei** form.\n\n| | |\n|---|---|\n| ==Vada== dritto. | Go straight on. |\n| ==Giri== a destra / a sinistra. | Turn right / left. |\n| ==Attraversi== la piazza. | Cross the square. |",
+          "examples": [
+            {
+              "it": "Vada dritto fino al semaforo e poi giri a sinistra.",
+              "en": "Go straight on to the traffic lights and then turn left."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a2r-03-l4-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Allora, esca dalla stazione e vada dritto fino al semaforo. Poi giri a sinistra: l'ufficio postale è accanto alla farmacia, di fronte al bar.",
+          "question": "Dov'è l'ufficio postale?",
+          "options": [
+            "Accanto alla farmacia",
+            "Di fronte alla stazione",
+            "Dietro al bar",
+            "Vicino al semaforo"
+          ],
+          "answer": 0,
+          "explanation": "Accanto a + la = accanto alla farmacia."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-03-l4-e05",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "La fermata è di fronte ___ chiesa.",
+          "options": [
+            "alla",
+            "la",
+            "della",
+            "nella"
+          ],
+          "answer": 0,
+          "explanation": "Di fronte a + la = di fronte alla."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-03-l4-e06",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Vada dritto fino ___ semaforo.",
+          "answers": [
+            "al"
+          ],
+          "explanation": "Fino a + il = fino al.",
+          "hint": "a + il"
         },
         {
           "type": "sentence_build",
-          "id": "a2r-03-l2-e07",
-          "instruction": "Metti le parole in ordine (dai indicazioni a uno sconosciuto).",
+          "id": "a2r-03-l4-e07",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
           "translation": "Go straight on as far as the traffic lights and turn right.",
           "tiles": [
             "Vada",
@@ -279,22 +580,12 @@
             "nel",
             "alla"
           ],
-          "explanation": "Fino al = as far as the; a destra = (to the) right. Vada / giri are polite Lei forms."
-        },
-        {
-          "type": "error_correction",
-          "id": "a2r-03-l2-e08",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Vado in il supermercato a fare la spesa.",
-          "answers": [
-            "Vado al supermercato a fare la spesa.",
-            "Vado a fare la spesa al supermercato."
-          ],
-          "explanation": "In + il always merges (nel), but with supermercato Italians say al supermercato."
+          "explanation": "Fino al = as far as the; vada and giri are polite Lei forms."
         },
         {
           "type": "translate",
-          "id": "a2r-03-l2-e09",
+          "id": "a2r-03-l4-e08",
+          "stage": "practise",
           "instruction": "Traduci in italiano.",
           "direction": "en_it",
           "source": "The pharmacy is opposite the bank.",
@@ -303,26 +594,12 @@
             "La farmacia è davanti alla banca.",
             "La farmacia sta di fronte alla banca."
           ],
-          "explanation": "Di fronte a + la = di fronte alla. Davanti a is also common."
-        },
-        {
-          "type": "listen_choose",
-          "id": "a2r-03-l2-e10",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Allora, esca dalla stazione e vada dritto fino al semaforo. Poi giri a sinistra: l'ufficio postale è accanto alla farmacia, di fronte al bar.",
-          "question": "Dov'è l'ufficio postale?",
-          "options": [
-            "Accanto alla farmacia",
-            "Di fronte alla stazione",
-            "Dietro al bar",
-            "Vicino al semaforo"
-          ],
-          "answer": 0,
-          "explanation": "Accanto alla farmacia, di fronte al bar. Note dalla, al, alla: all articulated prepositions."
+          "explanation": "Di fronte a + la = di fronte alla; davanti a also works."
         },
         {
           "type": "roleplay",
-          "id": "a2r-03-l2-e11",
+          "id": "a2r-03-l4-e09",
+          "stage": "use",
           "instruction": "Chiedi la strada a un passante. Rispondi ad alta voce quando tocca a te.",
           "scenario": "You've just arrived in a new town and need to find the railway station.",
           "turns": [
@@ -375,22 +652,7 @@
                 "grazie"
               ]
             }
-          ],
-          "explanation": "Repeating the key directions back (fino alla piazza, a destra) is a natural way to check you've understood."
-        },
-        {
-          "type": "free_write",
-          "id": "a2r-03-l2-e12",
-          "instruction": "Scrivi un messaggio.",
-          "prompt": "Un amico viene a trovarti in treno. Scrivigli come arrivare a casa tua dalla stazione (almeno 35 parole).",
-          "minWords": 35,
-          "checklist": [
-            "Ho usato almeno tre preposizioni articolate (al, dalla, nel…).",
-            "Ho dato almeno due indicazioni (dritto, a destra, a sinistra…).",
-            "Ho indicato un punto di riferimento (di fronte a, accanto a, vicino a).",
-            "Ho usato in o a senza articolo dove serve (in piazza, a casa)."
-          ],
-          "modelAnswer": "Ciao Luca! Quando esci dalla stazione, vai dritto fino al semaforo e poi giri a sinistra. Cammina fino alla piazza: casa mia è il palazzo giallo accanto al bar, di fronte alla farmacia. Suona al terzo piano. Ci vogliono dieci minuti a piedi. A dopo!"
+          ]
         }
       ]
     }
@@ -470,6 +732,16 @@
       "it": "a piedi",
       "en": "on foot",
       "example": "Sono cinque minuti a piedi."
+    },
+    {
+      "it": "il binario",
+      "en": "platform",
+      "example": "Il treno parte dal binario tre."
+    },
+    {
+      "it": "l'edicola",
+      "en": "newsstand",
+      "example": "Compro il giornale all'edicola."
     }
   ],
   "grammarTips": [

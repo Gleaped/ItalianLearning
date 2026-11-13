@@ -1,0 +1,706 @@
+{
+  "id": "a2-04",
+  "level": "A2",
+  "title": "Ripasso A2",
+  "format": 2,
+  "module": "a2-m3",
+  "objective": "By the end you can show you handle A2: talk about the past, plans, comparisons, likes and friendly instructions in everyday situations.",
+  "grammarFocus": "A2 checkpoint: passato prossimo, imperfetto, stare + gerundio, articulated prepositions, pronouns, reflexives, futuro, comparisons, piacere, imperativo.",
+  "remedialUnitIds": [
+    "a2r-01",
+    "a2r-02",
+    "a2-01",
+    "a2r-03",
+    "a2r-04",
+    "a2r-05",
+    "a2r-06",
+    "a2-02",
+    "a2-03"
+  ],
+  "lessons": [
+    {
+      "id": "a2-04-l1",
+      "title": "Il passato",
+      "minutes": 9,
+      "goal": "You can tell what happened, what things were like, and what you are doing now.",
+      "takeaway": "Passato prossimo for events, imperfetto for background and habits, stare + gerundio for right now.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-04-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Ieri Luca ___ al cinema.",
+          "options": [
+            "è andato",
+            "ha andato",
+            "andava",
+            "è andata"
+          ],
+          "answer": 0,
+          "explanation": "Andare takes essere in the passato prossimo and agrees with Luca: è andato."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-04-l1-e02",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Mentre aspettavo il bus, ___ Marco.",
+          "options": [
+            "ho incontrato",
+            "incontravo",
+            "sono incontrato",
+            "ho incontrata"
+          ],
+          "answer": 0,
+          "explanation": "A single event interrupting the background: passato prossimo with avere."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-04-l1-e03",
+          "stage": "practise",
+          "instruction": "Passato prossimo o imperfetto?",
+          "buckets": [
+            "passato prossimo (evento)",
+            "imperfetto (sfondo, abitudine)"
+          ],
+          "items": [
+            {
+              "text": "Ieri ho comprato un libro.",
+              "bucket": 0
+            },
+            {
+              "text": "Da piccoli giocavamo in strada.",
+              "bucket": 1
+            },
+            {
+              "text": "Alle otto Anna è uscita.",
+              "bucket": 0
+            },
+            {
+              "text": "Faceva freddo e pioveva.",
+              "bucket": 1
+            },
+            {
+              "text": "Ogni domenica andavamo dalla nonna.",
+              "bucket": 1
+            },
+            {
+              "text": "Sabato scorso abbiamo visto un film.",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Events take the passato prossimo; weather, descriptions and habits take the imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-04-l1-e04",
+          "stage": "practise",
+          "instruction": "Completa con stare + gerundio.",
+          "sentence": "Non posso parlare ora: sto ___ (cucinare).",
+          "answers": [
+            "cucinando"
+          ],
+          "explanation": "Stare + gerundio (-ando for -are verbs) says what is happening now.",
+          "hint": "cucinare"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-04-l1-e05",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Ieri Anna ha andato al mercato.",
+          "answers": [
+            "Ieri Anna è andata al mercato."
+          ],
+          "explanation": "Andare takes essere, and the participle agrees with Anna: è andata."
+        },
+        {
+          "type": "transform",
+          "id": "a2-04-l1-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Oggi faccio la spesa.",
+          "cue": "→ ieri",
+          "answers": [
+            "Ieri ho fatto la spesa.",
+            "Ieri la spesa l'ho fatta."
+          ],
+          "explanation": "Fare has the irregular participle fatto, with avere."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-04-l1-e07",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Racconta il tuo ultimo fine settimana: che cosa hai fatto e che tempo faceva?",
+          "keywords": [
+            "ho",
+            "faceva",
+            "ero"
+          ],
+          "modelAnswer": "Sabato ho fatto la spesa e poi ho cucinato per degli amici. Faceva freddo, così siamo rimasti a casa tutta la sera."
+        }
+      ]
+    },
+    {
+      "id": "a2-04-l2",
+      "title": "Persone e cose",
+      "minutes": 9,
+      "goal": "You can say where things are, use object pronouns and describe your routine.",
+      "takeaway": "Articulated prepositions (sul, alla), object pronouns (lo, le, gli) and reflexives (si è svegliata).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-04-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Vado ___ banca.",
+          "options": [
+            "alla",
+            "la",
+            "nella",
+            "della"
+          ],
+          "answer": 0,
+          "explanation": "A + la becomes alla."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-04-l2-e02",
+          "stage": "practise",
+          "instruction": "Scegli il pronome.",
+          "prompt": "Hai visto Anna? — Sì, ___ho vista in centro.",
+          "options": [
+            "l'",
+            "le",
+            "gli",
+            "la"
+          ],
+          "answer": 0,
+          "explanation": "The direct pronoun la becomes l' before ho: l'ho vista."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-04-l2-e03",
+          "stage": "practise",
+          "instruction": "Il pronome è diretto o indiretto?",
+          "buckets": [
+            "diretto (chi? che cosa?)",
+            "indiretto (a chi?)"
+          ],
+          "items": [
+            {
+              "text": "Lo vedo ogni giorno.",
+              "bucket": 0
+            },
+            {
+              "text": "Le ho telefonato ieri.",
+              "bucket": 1
+            },
+            {
+              "text": "La prendo io.",
+              "bucket": 0
+            },
+            {
+              "text": "Gli ho scritto una mail.",
+              "bucket": 1
+            },
+            {
+              "text": "Li compro al mercato.",
+              "bucket": 0
+            },
+            {
+              "text": "Ti dico una cosa.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Direct pronouns answer chi? / che cosa?; indirect pronouns answer a chi?."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-04-l2-e04",
+          "stage": "practise",
+          "instruction": "Completa con la preposizione articolata.",
+          "sentence": "Le chiavi sono ___ tavolo.",
+          "answers": [
+            "sul"
+          ],
+          "explanation": "Su + il becomes sul.",
+          "hint": "su + il"
+        },
+        {
+          "type": "transform",
+          "id": "a2-04-l2-e05",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Ho comprato il pane.",
+          "cue": "→ con il pronome lo",
+          "answers": [
+            "L'ho comprato."
+          ],
+          "explanation": "Lo becomes l' before ho, and the participle stays comprato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-04-l2-e06",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Ieri Marta ___ (svegliarsi) alle sei.",
+          "answers": [
+            "si è svegliata"
+          ],
+          "explanation": "Reflexive verbs take essere, and the participle agrees with Marta: si è svegliata.",
+          "hint": "passato prossimo"
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-04-l2-e07",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Descrivi la tua giornata di ieri, dalla mattina alla sera. Usa verbi riflessivi e almeno una preposizione articolata.",
+          "keywords": [
+            "mi sono",
+            "al",
+            "nel",
+            "dal",
+            "alla"
+          ],
+          "modelAnswer": "Ieri mi sono svegliato presto e sono andato al lavoro in treno. Nel pomeriggio ho incontrato un collega, poi la sera mi sono riposato sul divano."
+        }
+      ]
+    },
+    {
+      "id": "a2-04-l3",
+      "title": "Progetti e confronti",
+      "minutes": 9,
+      "goal": "You can talk about plans and compare options.",
+      "takeaway": "Futuro for plans; di before nouns and che between adjectives, verbs or places; meglio with verbs.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-04-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Il mese prossimo io ___ un corso.",
+          "options": [
+            "farò",
+            "farrò",
+            "faro",
+            "farerò"
+          ],
+          "answer": 0,
+          "explanation": "Fare is irregular in the futuro: farò."
+        },
+        {
+          "type": "conjugation",
+          "id": "a2-04-l3-e02",
+          "stage": "practise",
+          "instruction": "Scrivi le forme.",
+          "verb": "venire",
+          "tense": "futuro semplice",
+          "items": [
+            {
+              "person": "io",
+              "answer": "verrò"
+            },
+            {
+              "person": "tu",
+              "answer": "verrai"
+            },
+            {
+              "person": "noi",
+              "answer": "verremo"
+            },
+            {
+              "person": "loro",
+              "answer": "verranno"
+            }
+          ],
+          "explanation": "Venire has a double r in the futuro: verr- plus the regular endings."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-04-l3-e03",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Questo albergo è più caro ___ quello.",
+          "options": [
+            "di",
+            "che",
+            "come",
+            "quanto"
+          ],
+          "answer": 0,
+          "explanation": "Comparing two nouns: più + adjective + di."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-04-l3-e04",
+          "stage": "practise",
+          "instruction": "Completa con di o che.",
+          "sentence": "Per me è più facile leggere ___ parlare.",
+          "answers": [
+            "che"
+          ],
+          "explanation": "Two verbs: use che."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-04-l3-e05",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Oggi mi sento più bene di ieri.",
+          "answers": [
+            "Oggi mi sento meglio di ieri."
+          ],
+          "explanation": "After a verb the comparative of bene is meglio."
+        },
+        {
+          "type": "transform",
+          "id": "a2-04-l3-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Questo vino è molto buono.",
+          "cue": "→ -issimo",
+          "answers": [
+            "Questo vino è buonissimo."
+          ],
+          "explanation": "Molto + adjective can become the absolute superlative: buonissimo."
+        },
+        {
+          "type": "free_write",
+          "id": "a2-04-l3-e07",
+          "stage": "use",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Scegli tra due posti per le vacanze. Confrontali e di' che cosa farai (almeno 40 parole).",
+          "minWords": 40,
+          "checklist": [
+            "Ho usato almeno due comparativi.",
+            "Ho usato il futuro per i progetti.",
+            "Ho usato migliore o meglio correttamente."
+          ],
+          "modelAnswer": "Quest'estate posso andare al mare in Sardegna o in montagna in Trentino. Il mare è più bello, ma la Sardegna è più cara e più lontana. In montagna fa meno caldo e gli alberghi costano pochissimo. Per me è meglio la montagna: prenoterò una settimana a luglio e farò lunghe passeggiate."
+        }
+      ]
+    },
+    {
+      "id": "a2-04-l4",
+      "title": "Gusti e istruzioni",
+      "minutes": 10,
+      "goal": "You can say what you like or would like, and give friendly instructions.",
+      "takeaway": "Piacere (piace, piaceva, è piaciuto, piacerebbe), vorrei, and the informal imperative.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-04-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "La cena di ieri mi ___ molto.",
+          "options": [
+            "è piaciuta",
+            "è piaciuto",
+            "piaceva",
+            "ha piaciuto"
+          ],
+          "answer": 0,
+          "explanation": "One event yesterday, feminine singular: è piaciuta."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a2-04-l4-e02",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Da piccoli ci piaceva il mare.",
+            "Ieri il mare ci è piaciuto."
+          ],
+          "question": "Which sentence is about a taste you had over a period in the past?",
+          "answer": 0,
+          "translations": [
+            "As children we liked the sea.",
+            "Yesterday we liked the sea."
+          ],
+          "explanation": "Imperfetto (piaceva) describes a taste over time; è piaciuto describes one reaction."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-04-l4-e03",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Mi ___ (piacere) visitare la Sicilia.",
+          "answers": [
+            "piacerebbe"
+          ],
+          "explanation": "A wish: mi piacerebbe + infinitive.",
+          "hint": "condizionale"
+        },
+        {
+          "type": "transform",
+          "id": "a2-04-l4-e04",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Marco, devi mangiare la verdura.",
+          "cue": "→ imperativo",
+          "answers": [
+            "Marco, mangia la verdura!",
+            "Mangia la verdura, Marco!",
+            "Marco, mangia la verdura.",
+            "Mangia la verdura, Marco."
+          ],
+          "explanation": "Tu imperative of an -are verb ends in -a: mangia."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-04-l4-e05",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Non parla così forte, Luca!",
+          "answers": [
+            "Non parlare così forte, Luca!"
+          ],
+          "explanation": "The negative tu imperative is non + infinitive."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-04-l4-e06",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Ho sete: ___ (dare + mi) un bicchiere d'acqua.",
+          "answers": [
+            "dammi",
+            "Dammi"
+          ],
+          "explanation": "Da' + mi gives dammi, with a double m.",
+          "hint": "da' + mi"
+        },
+        {
+          "type": "roleplay",
+          "id": "a2-04-l4-e07",
+          "stage": "use",
+          "instruction": "Programmi il sabato con un amico. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You and a friend are planning Saturday.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Che cosa ti piacerebbe fare sabato?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mi piacerebbe andare al mare, se fa bel tempo.",
+              "hint": "Mi piacerebbe + infinito.",
+              "keywords": [
+                "mi piacerebbe",
+                "mare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Buona idea! Come ci andiamo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Prendiamo il treno: è più comodo della macchina.",
+              "hint": "Noi imperativo + comparativo.",
+              "keywords": [
+                "prendiamo",
+                "più comodo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "D'accordo. A che ora ci vediamo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Alle otto in stazione. Non fare tardi!",
+              "hint": "Non + infinito.",
+              "keywords": [
+                "non",
+                "tardi"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Promesso! A sabato!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "ieri sera",
+      "en": "last night",
+      "example": "Ieri sera sono rimasto a casa."
+    },
+    {
+      "it": "mentre",
+      "en": "while",
+      "example": "Mentre cucinavo, è arrivato Marco."
+    },
+    {
+      "it": "ogni domenica",
+      "en": "every Sunday",
+      "example": "Ogni domenica andavamo dalla nonna."
+    },
+    {
+      "it": "sul / sulla",
+      "en": "on the",
+      "example": "Le chiavi sono sul tavolo."
+    },
+    {
+      "it": "svegliarsi",
+      "en": "to wake up",
+      "example": "Mi sveglio alle sette."
+    },
+    {
+      "it": "sbrigarsi",
+      "en": "to hurry up",
+      "example": "Sbrigati, è tardi!"
+    },
+    {
+      "it": "la settimana prossima",
+      "en": "next week",
+      "example": "La settimana prossima sarò a Roma."
+    },
+    {
+      "it": "più … di",
+      "en": "more … than (nouns)",
+      "example": "Il treno è più veloce dell'autobus."
+    },
+    {
+      "it": "più … che",
+      "en": "more … than (adjectives, verbs, places)",
+      "example": "È più facile parlare che scrivere."
+    },
+    {
+      "it": "meglio",
+      "en": "better (adverb)",
+      "example": "Oggi sto meglio."
+    },
+    {
+      "it": "mi è piaciuto",
+      "en": "I liked it (one event)",
+      "example": "Il concerto mi è piaciuto molto."
+    },
+    {
+      "it": "mi piaceva",
+      "en": "I used to like it",
+      "example": "Da piccoli ci piaceva il mare."
+    },
+    {
+      "it": "mi piacerebbe",
+      "en": "I would like to",
+      "example": "Mi piacerebbe visitare la Sicilia."
+    },
+    {
+      "it": "vorrei",
+      "en": "I would like",
+      "example": "Vorrei un tavolo per due."
+    },
+    {
+      "it": "dammi una mano",
+      "en": "give me a hand",
+      "example": "Dammi una mano con la valigia."
+    },
+    {
+      "it": "non preoccuparti",
+      "en": "don't worry",
+      "example": "Non preoccuparti, ci penso io."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2-04-t1",
+      "rule": "Passato prossimo o imperfetto?",
+      "tip": "Passato prossimo for events, imperfetto for background, weather and habits.",
+      "example": {
+        "it": "Pioveva quando sono uscito.",
+        "en": "It was raining when I went out."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Mentre ___ (cucinare), è suonato il telefono.",
+        "answers": [
+          "cucinavo"
+        ],
+        "hint": "imperfetto"
+      }
+    },
+    {
+      "id": "a2-04-t2",
+      "rule": "Pronomi: l'ho visto",
+      "tip": "Direct pronouns lo, la become l' before ho: l'ho comprato, l'ho vista.",
+      "example": {
+        "it": "L'ho comprato ieri.",
+        "en": "I bought it yesterday."
+      },
+      "challenge": {
+        "type": "transform",
+        "source": "Ho comprato il pane.",
+        "cue": "→ con lo",
+        "answers": [
+          "L'ho comprato."
+        ],
+        "explanation": "Lo becomes l' before ho."
+      }
+    },
+    {
+      "id": "a2-04-t3",
+      "rule": "Futuro: andrò, verrò",
+      "tip": "Irregular futures drop a vowel or double the r: andrò, potrò, verrò, vorrò.",
+      "example": {
+        "it": "Domani verrò alla festa.",
+        "en": "Tomorrow I'll come to the party."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Domani ___ (venire, io) alla festa.",
+        "answers": [
+          "verrò"
+        ],
+        "hint": "venire – io"
+      }
+    },
+    {
+      "id": "a2-04-t4",
+      "rule": "Piacere: quattro forme",
+      "tip": "Mi piace (now), mi piaceva (then), mi è piaciuto (once), mi piacerebbe (a wish).",
+      "example": {
+        "it": "Mi piacerebbe visitare la Sicilia.",
+        "en": "I'd like to visit Sicily."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ieri il concerto mi ___ molto.",
+        "options": [
+          "è piaciuto",
+          "piace",
+          "piacerebbe",
+          "piaceva"
+        ],
+        "answer": 0,
+        "explanation": "One event yesterday: è piaciuto."
+      }
+    },
+    {
+      "id": "a2-04-t5",
+      "rule": "Imperativo: parla!",
+      "tip": "Tu imperative: -a for -are verbs, -i for -ere / -ire; negative with tu is non + infinitive.",
+      "example": {
+        "it": "Non parlare così forte!",
+        "en": "Don't talk so loudly!"
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Non parla così forte!",
+        "answers": [
+          "Non parlare così forte!"
+        ],
+        "explanation": "Negative tu: non + infinitive."
+      }
+    }
+  ]
+}

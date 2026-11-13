@@ -1,0 +1,966 @@
+{
+  "id": "cg-02",
+  "level": "B1",
+  "title": "Irregolari senza paura",
+  "format": 2,
+  "module": "b1-m3",
+  "track": "congiuntivo",
+  "objective": "By the end you can build sixteen key irregular congiuntivo presente forms, in four families, mostly from the io form of the present.",
+  "grammarFocus": "Irregular congiuntivo presente in four families: io + a (faccia, dica, vada, esca); with g (venga, tenga, salga, rimanga); modals and sapere (possa, voglia, debba, sappia); learn by heart (sia, abbia, stia, dia).",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "cg-02-l1",
+      "title": "Dall'io: faccia, dica, vada, esca",
+      "minutes": 8,
+      "goal": "You can build four common irregulars from the io present: faccia, dica, vada, esca.",
+      "takeaway": "Take the io present, drop -o and add the congiuntivo ending: faccio → faccia, dico → dica, vado → vada, esco → esca.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l1-e01",
+          "stage": "warmup",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Penso che Marco ___ troppo.",
+          "answers": [
+            "lavori"
+          ],
+          "hint": "lavorare – lui",
+          "explanation": "-are verbs end in -i in the singular: lavori."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-02-l1-e02",
+          "stage": "learn",
+          "title": "The io trick",
+          "body": "Irregular verbs often keep the stem of the **io** present. Use it for io, tu, lui/lei and loro. Noi and voi are regular.\n\n| | fare | dire | andare | uscire |\n|---|---|---|---|---|\n| io present | faccio | dico | vado | esco |\n| lui/lei | facc==ia== | dic==a== | vad==a== | esc==a== |\n| loro | facc==iano== | dic==ano== | vad==ano== | esc==ano== |\n| noi | facciamo | diciamo | andiamo | usciamo |\n\n> Noi and voi do not use the io stem: andiamo, usciamo.",
+          "examples": [
+            {
+              "it": "Voglio che tu faccia colazione.",
+              "en": "I want you to have breakfast."
+            },
+            {
+              "it": "Credo che Luca esca presto.",
+              "en": "I think Luca is leaving early."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "cg-02-l1-e03",
+          "stage": "practise",
+          "instruction": "Abbina l'io del presente al congiuntivo (lui/lei).",
+          "pairs": [
+            {
+              "left": "faccio",
+              "right": "faccia"
+            },
+            {
+              "left": "dico",
+              "right": "dica"
+            },
+            {
+              "left": "vado",
+              "right": "vada"
+            },
+            {
+              "left": "esco",
+              "right": "esca"
+            }
+          ],
+          "explanation": "The congiuntivo keeps the io stem: faccio → faccia, dico → dica, vado → vada, esco → esca."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-02-l1-e04",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Voglio che Anna ___ dal dottore.",
+          "verb": "andare",
+          "answer": 1,
+          "explanation": "Voglio che is a wish, and andare gives vada from vado.",
+          "forms": [
+            "vada"
+          ],
+          "trigger": "voglio che"
+        },
+        {
+          "type": "conjugation",
+          "id": "cg-02-l1-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "fare",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "faccia"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "faccia"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "faccia"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "facciamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "facciate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "facciano"
+            }
+          ],
+          "explanation": "Fare uses the io stem facci- (from faccio) for io, tu, lui/lei and loro."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l1-e06",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Spero che tu ___ la verità.",
+          "answers": [
+            "dica"
+          ],
+          "hint": "dire – tu",
+          "explanation": "Spero che is a hope, and dire gives dica from dico."
+        },
+        {
+          "type": "transform",
+          "id": "cg-02-l1-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Luca esce presto.",
+          "cue": "Credo che…",
+          "answers": [
+            "Credo che Luca esca presto."
+          ],
+          "hint": "uscire – lui",
+          "explanation": "Credo che triggers the congiuntivo, and uscire gives esca from esco."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-02-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in una frase.",
+          "prompt": "Un collega ti chiede se Giulia esce presto venerdì. Rispondi con «Spero che…» e il verbo uscire.",
+          "keywords": [
+            "spero che",
+            "esca"
+          ],
+          "modelAnswer": "Spero che Giulia esca presto venerdì."
+        }
+      ]
+    },
+    {
+      "id": "cg-02-l2",
+      "title": "Con la g: venga, tenga, salga, rimanga",
+      "minutes": 8,
+      "goal": "You can build venga, tenga, salga and rimanga, and use them in everyday requests.",
+      "takeaway": "Verbs with -go in the io present keep the g: vengo → venga, tengo → tenga, salgo → salga, rimango → rimanga.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l2-e01",
+          "stage": "warmup",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Voglio che Luca ___ con te.",
+          "answers": [
+            "vada"
+          ],
+          "hint": "andare – lui",
+          "explanation": "Andare gives vada from vado."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-02-l2-e02",
+          "stage": "learn",
+          "title": "The g family",
+          "body": "These four have **-go** in the io present, and the **g** stays in io, tu, lui/lei and loro.\n\n| | venire | tenere | salire | rimanere |\n|---|---|---|---|---|\n| io present | vengo | tengo | salgo | rimango |\n| lui/lei | ven==ga== | ten==ga== | sal==ga== | riman==ga== |\n| loro | ven==gano== | ten==gano== | sal==gano== | riman==gano== |\n| noi | veniamo | teniamo | saliamo | rimaniamo |\n\n> Noi and voi lose the g: veniamo, veniate.",
+          "examples": [
+            {
+              "it": "Spero che tu venga alla cena.",
+              "en": "I hope you come to the dinner."
+            },
+            {
+              "it": "Voglio che tu tenga il telefono acceso.",
+              "en": "I want you to keep your phone on."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "cg-02-l2-e03",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Spero che i vicini ___ alla festa.",
+          "options": [
+            "vengano",
+            "vengono",
+            "venire",
+            "vengo"
+          ],
+          "answer": 0,
+          "explanation": "Spero che takes the congiuntivo, and loro of venire is vengano."
+        },
+        {
+          "type": "match_pairs",
+          "id": "cg-02-l2-e04",
+          "stage": "practise",
+          "instruction": "Abbina l'io del presente al congiuntivo (lui/lei).",
+          "pairs": [
+            {
+              "left": "vengo",
+              "right": "venga"
+            },
+            {
+              "left": "tengo",
+              "right": "tenga"
+            },
+            {
+              "left": "salgo",
+              "right": "salga"
+            },
+            {
+              "left": "rimango",
+              "right": "rimanga"
+            }
+          ],
+          "explanation": "The g of the io form stays in the congiuntivo: vengo → venga."
+        },
+        {
+          "type": "conjugation",
+          "id": "cg-02-l2-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "venire",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "venga"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "venga"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "venga"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "veniamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "veniate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "vengano"
+            }
+          ],
+          "explanation": "Venire keeps the g in io, tu, lui/lei and loro, but not in noi and voi."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l2-e06",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Voglio che tu ___ il telefono acceso.",
+          "answers": [
+            "tenga"
+          ],
+          "hint": "tenere – tu",
+          "explanation": "Voglio che is a wish, and tenere gives tenga from tengo."
+        },
+        {
+          "type": "transform",
+          "id": "cg-02-l2-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Marco sale al terzo piano.",
+          "cue": "Credo che…",
+          "answers": [
+            "Credo che Marco salga al terzo piano."
+          ],
+          "hint": "salire – lui",
+          "explanation": "Credo che triggers the congiuntivo, and salire gives salga from salgo."
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-02-l2-e08",
+          "stage": "use",
+          "instruction": "Rispondi al vicino ad alta voce.",
+          "scenario": "Il vicino ti parla della riunione di condominio di giovedì sera.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buonasera {name}! Giovedì c'è la riunione di condominio. Pensi che venga molta gente?"
+            },
+            {
+              "speaker": "you",
+              "text": "Credo che venga molta gente, perché c'è il problema del tetto.",
+              "hint": "Credo che… + venire",
+              "keywords": [
+                "credo che",
+                "venga"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Speriamo. Io voglio che l'amministratore rimanga fino alla fine."
+            },
+            {
+              "speaker": "you",
+              "text": "Anch'io voglio che rimanga fino alla fine.",
+              "hint": "Voglio che… + rimanere",
+              "keywords": [
+                "voglio che",
+                "rimanga"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto. A giovedì!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cg-02-l3",
+      "title": "Da potere a sapere: possa, voglia, debba, sappia",
+      "minutes": 8,
+      "goal": "You can use possa, voglia, debba and sappia after penso che, credo che and spero che.",
+      "takeaway": "Modal verbs have their own stems: possa, voglia, debba (or deva), sappia; noi and voi are regular.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l3-e01",
+          "stage": "warmup",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Credo che Anna ___ alla cena.",
+          "answers": [
+            "venga"
+          ],
+          "hint": "venire – lei",
+          "explanation": "Venire keeps the g: venga."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-02-l3-e02",
+          "stage": "learn",
+          "title": "Modals and sapere",
+          "body": "These four have their own stems.\n\n| | potere | volere | dovere | sapere |\n|---|---|---|---|---|\n| lui/lei | poss==a== | vogl==ia== | debb==a== | sapp==ia== |\n| loro | poss==ano== | vogl==iano== | debb==ano== | sapp==iano== |\n| noi | possiamo | vogliamo | dobbiamo | sappiamo |\n| voi | possiate | vogliate | dobbiate | sappiate |\n\n> Dovere also has deva, devano. Both are correct; learn debba first.",
+          "examples": [
+            {
+              "it": "Spero che tu possa venire.",
+              "en": "I hope you can come."
+            },
+            {
+              "it": "Penso che Luca sappia la strada.",
+              "en": "I think Luca knows the way."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "cg-02-l3-e03",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Spero che voi ___ venire domani.",
+          "options": [
+            "possiate",
+            "potete",
+            "possano",
+            "potere"
+          ],
+          "answer": 0,
+          "explanation": "Spero che takes the congiuntivo, and voi of potere is possiate."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-02-l3-e04",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Penso che Luca ___ la strada.",
+          "verb": "sapere",
+          "answer": 1,
+          "explanation": "Penso che gives an opinion, and sapere gives sappia.",
+          "forms": [
+            "sappia"
+          ],
+          "trigger": "penso che"
+        },
+        {
+          "type": "conjugation",
+          "id": "cg-02-l3-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "potere",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "possa"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "possa"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "possa"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "possiamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "possiate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "possano"
+            }
+          ],
+          "explanation": "Potere uses the stem poss- in the singular and loro; noi and voi are regular."
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Spero che i bambini ___ giocare fuori.",
+          "answers": [
+            "possano"
+          ],
+          "hint": "potere – loro",
+          "explanation": "Spero che is a hope, and loro of potere is possano."
+        },
+        {
+          "type": "transform",
+          "id": "cg-02-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Marta deve lavorare di più.",
+          "cue": "Penso che…",
+          "answers": [
+            "Penso che Marta debba lavorare di più.",
+            "Penso che Marta deva lavorare di più."
+          ],
+          "hint": "dovere – lei",
+          "explanation": "Penso che triggers the congiuntivo; dovere gives debba (also deva)."
+        },
+        {
+          "type": "free_write",
+          "id": "cg-02-l3-e08",
+          "stage": "use",
+          "instruction": "Scrivi tre frasi su un amico.",
+          "prompt": "Scrivi tre frasi su un amico. Usa penso che, credo che e spero che, con almeno due tra possa, voglia, debba e sappia.",
+          "minWords": 20,
+          "checklist": [
+            "Each sentence has che followed by a congiuntivo",
+            "You used at least two of possa, voglia, debba, sappia",
+            "You added a subject where it was unclear"
+          ],
+          "modelAnswer": "Spero che Luca possa venire alla festa. Credo che voglia cambiare lavoro. Penso che sappia già cosa fare, ma che debba parlare con il capo."
+        }
+      ]
+    },
+    {
+      "id": "cg-02-l4",
+      "title": "Da imparare: sia, abbia, stia, dia",
+      "minutes": 8,
+      "goal": "You can use sia, abbia, stia and dia, the four forms with no shortcut.",
+      "takeaway": "Essere, avere, stare and dare have no trick: learn sia, abbia, stia, dia (and siano, abbiano, stiano, diano).",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l4-e01",
+          "stage": "warmup",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Spero che tu ___ venire alla festa.",
+          "answers": [
+            "possa"
+          ],
+          "hint": "potere – tu",
+          "explanation": "Potere has the stem poss-: possa."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-02-l4-e02",
+          "stage": "learn",
+          "title": "Learn by heart",
+          "body": "These four have no shortcut.\n\n| | essere | avere | stare | dare |\n|---|---|---|---|---|\n| io / tu / lui | ==sia== | ==abbia== | ==stia== | ==dia== |\n| noi | siamo | abbiamo | stiamo | diamo |\n| voi | ==siate== | ==abbiate== | ==stiate== | ==diate== |\n| loro | ==siano== | ==abbiano== | ==stiano== | ==diano== |\n\n> Sia, abbia, stia and dia look the same for io, tu and lui/lei. Add the subject if needed.",
+          "examples": [
+            {
+              "it": "Penso che tu abbia ragione.",
+              "en": "I think you're right."
+            },
+            {
+              "it": "Spero che i bambini stiano bene.",
+              "en": "I hope the children are well."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "cg-02-l4-e03",
+          "stage": "practise",
+          "instruction": "Abbina l'infinito al congiuntivo (lui/lei).",
+          "pairs": [
+            {
+              "left": "essere",
+              "right": "sia"
+            },
+            {
+              "left": "avere",
+              "right": "abbia"
+            },
+            {
+              "left": "stare",
+              "right": "stia"
+            },
+            {
+              "left": "dare",
+              "right": "dia"
+            }
+          ],
+          "explanation": "These four have fixed forms to learn by heart: sia, abbia, stia, dia."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-02-l4-e04",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Spero che tu ___ bene.",
+          "verb": "stare",
+          "answer": 1,
+          "explanation": "Spero che expresses a hope, and stare gives stia.",
+          "forms": [
+            "stia"
+          ],
+          "trigger": "spero che"
+        },
+        {
+          "type": "conjugation",
+          "id": "cg-02-l4-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del congiuntivo presente.",
+          "verb": "essere",
+          "tense": "congiuntivo presente",
+          "items": [
+            {
+              "person": "(che) io",
+              "answer": "sia"
+            },
+            {
+              "person": "(che) tu",
+              "answer": "sia"
+            },
+            {
+              "person": "(che) lui/lei",
+              "answer": "sia"
+            },
+            {
+              "person": "(che) noi",
+              "answer": "siamo"
+            },
+            {
+              "person": "(che) voi",
+              "answer": "siate"
+            },
+            {
+              "person": "(che) loro",
+              "answer": "siano"
+            }
+          ],
+          "explanation": "Essere is irregular: sia for io, tu and lui/lei, siamo, siate, siano."
+        },
+        {
+          "type": "transform",
+          "id": "cg-02-l4-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Marta ha ragione.",
+          "cue": "Penso che…",
+          "answers": [
+            "Penso che Marta abbia ragione."
+          ],
+          "hint": "avere – lei",
+          "explanation": "Penso che triggers the congiuntivo, and avere gives abbia."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-02-l4-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Spero che tu stia bene.",
+          "answers": [
+            "Spero che tu stia bene."
+          ],
+          "slow": false,
+          "explanation": "Spero che + congiuntivo: stare becomes stia."
+        },
+        {
+          "type": "roleplay",
+          "id": "cg-02-l4-e08",
+          "stage": "use",
+          "instruction": "Rispondi all'amico ad alta voce.",
+          "scenario": "Un amico ti parla dell'esame di guida di sua figlia.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Domani mia figlia ha l'esame di guida. Sono un po' nervoso."
+            },
+            {
+              "speaker": "you",
+              "text": "Capisco! Spero che stia tranquilla e che abbia fortuna.",
+              "hint": "Spero che… stare / avere",
+              "keywords": [
+                "spero che",
+                "stia",
+                "abbia"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie! Secondo me è brava, ma voglio che sia sicura di sé."
+            },
+            {
+              "speaker": "you",
+              "text": "Penso che sia pronta: se studia, va tutto bene.",
+              "hint": "Penso che… + essere",
+              "keywords": [
+                "penso che",
+                "sia"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Grazie {name}, ti scrivo domani!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cg-02-l5",
+      "title": "Ripasso: sedici irregolari",
+      "minutes": 7,
+      "goal": "You can pick the right irregular congiuntivo from the four families.",
+      "takeaway": "Check the io present first: faccia, venga, possa; if there is no pattern, learn sia, abbia, stia, dia.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l5-e01",
+          "stage": "warmup",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Spero che il corso ___ a giugno.",
+          "answers": [
+            "finisca"
+          ],
+          "hint": "finire – lui",
+          "explanation": "Finire is an -isc- verb: finisca."
+        },
+        {
+          "type": "grammar_note",
+          "id": "cg-02-l5-e02",
+          "stage": "learn",
+          "title": "Four families",
+          "body": "Sixteen verbs, four families.\n\n| famiglia | lui/lei |\n|---|---|\n| io + a | facc==ia==, dic==a==, vad==a==, esc==a== |\n| con la g | ven==ga==, ten==ga==, sal==ga==, riman==ga== |\n| modali | poss==a==, vogl==ia==, debb==a==, sapp==ia== |\n| da imparare | ==sia==, ==abbia==, ==stia==, ==dia== |\n\n> Noi is -iamo and voi is -iate in all families (siamo, siate).",
+          "examples": [
+            {
+              "it": "Penso che i vicini siano gentili.",
+              "en": "I think the neighbours are kind."
+            },
+            {
+              "it": "Voglio che tu mi dia il tuo numero.",
+              "en": "I want you to give me your number."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "cg-02-l5-e03",
+          "stage": "practise",
+          "instruction": "In quale famiglia sta il verbo?",
+          "buckets": [
+            "io + a (faccia)",
+            "con la g (venga)",
+            "da imparare (sia)"
+          ],
+          "items": [
+            {
+              "text": "andare",
+              "bucket": 0
+            },
+            {
+              "text": "dire",
+              "bucket": 0
+            },
+            {
+              "text": "uscire",
+              "bucket": 0
+            },
+            {
+              "text": "venire",
+              "bucket": 1
+            },
+            {
+              "text": "rimanere",
+              "bucket": 1
+            },
+            {
+              "text": "salire",
+              "bucket": 1
+            },
+            {
+              "text": "avere",
+              "bucket": 2
+            },
+            {
+              "text": "stare",
+              "bucket": 2
+            },
+            {
+              "text": "dare",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Verbs whose io present ends in -o take that stem (faccio, dico, vado, esco); the -go verbs keep the g; essere, avere, stare, dare are learned by heart."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "cg-02-l5-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Credo che i miei colleghi ___ già a casa.",
+          "options": [
+            "siano",
+            "sono",
+            "sia",
+            "essere"
+          ],
+          "answer": 0,
+          "explanation": "Credo che takes the congiuntivo, and loro of essere is siano."
+        },
+        {
+          "type": "choose_mood",
+          "id": "cg-02-l5-e05",
+          "stage": "practise",
+          "instruction": "Indicativo o congiuntivo?",
+          "sentence": "Voglio che tu mi ___ il tuo numero.",
+          "verb": "dare",
+          "answer": 1,
+          "explanation": "Voglio che expresses a wish, and dare gives dia.",
+          "forms": [
+            "dia"
+          ],
+          "trigger": "voglio che"
+        },
+        {
+          "type": "gap_fill",
+          "id": "cg-02-l5-e06",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo presente.",
+          "sentence": "Penso che tu ___ parlare con il tecnico.",
+          "answers": [
+            "debba",
+            "deva"
+          ],
+          "hint": "dovere – tu",
+          "explanation": "Penso che triggers the congiuntivo; dovere gives debba (also deva)."
+        },
+        {
+          "type": "transform",
+          "id": "cg-02-l5-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Anna vuole un caffè.",
+          "cue": "Credo che…",
+          "answers": [
+            "Credo che Anna voglia un caffè."
+          ],
+          "hint": "volere – lei",
+          "explanation": "Credo che triggers the congiuntivo, and volere gives voglia."
+        },
+        {
+          "type": "speak_respond",
+          "id": "cg-02-l5-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in tre frasi.",
+          "prompt": "Un amico ti chiede: «Come vanno le cose con i vicini?» Rispondi con penso che, credo che e spero che.",
+          "keywords": [
+            "penso che",
+            "spero che"
+          ],
+          "modelAnswer": "Penso che i vicini siano gentili. Credo che vadano spesso al mare. Spero che non facciano rumore la notte."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "rimanere",
+      "en": "to stay, to remain",
+      "example": "Spero che tu rimanga a cena."
+    },
+    {
+      "it": "tenere",
+      "en": "to keep, to hold",
+      "example": "Voglio che tu tenga il telefono acceso."
+    },
+    {
+      "it": "salire",
+      "en": "to go up",
+      "example": "Credo che Marco salga con l'ascensore."
+    },
+    {
+      "it": "uscire",
+      "en": "to go out, to leave",
+      "example": "Spero che Giulia esca presto venerdì."
+    },
+    {
+      "it": "avere ragione",
+      "en": "to be right",
+      "example": "Penso che tu abbia ragione."
+    },
+    {
+      "it": "stare bene",
+      "en": "to be well",
+      "example": "Spero che tu stia bene."
+    },
+    {
+      "it": "dare una mano",
+      "en": "to give a hand",
+      "example": "Voglio che tu mi dia una mano."
+    },
+    {
+      "it": "sapere",
+      "en": "to know (a fact, how to)",
+      "example": "Penso che Luca sappia la strada."
+    },
+    {
+      "it": "il condominio",
+      "en": "block of flats; residents' association",
+      "example": "Giovedì c'è la riunione di condominio."
+    },
+    {
+      "it": "l'amministratore",
+      "en": "property manager",
+      "example": "Voglio che l'amministratore rimanga fino alla fine."
+    },
+    {
+      "it": "la riunione",
+      "en": "meeting",
+      "example": "Domani c'è la riunione con i clienti."
+    },
+    {
+      "it": "il rumore",
+      "en": "noise",
+      "example": "Spero che non facciano rumore la notte."
+    },
+    {
+      "it": "il vicino",
+      "en": "neighbour",
+      "example": "Penso che il vicino sia gentile."
+    },
+    {
+      "it": "il tetto",
+      "en": "roof",
+      "example": "C'è un problema con il tetto."
+    },
+    {
+      "it": "l'esame di guida",
+      "en": "driving test",
+      "example": "Domani mia figlia ha l'esame di guida."
+    },
+    {
+      "it": "la fortuna",
+      "en": "luck",
+      "example": "Spero che tu abbia fortuna."
+    },
+    {
+      "it": "in orario",
+      "en": "on time",
+      "example": "Spero che il treno parta in orario."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "cg-02-t1",
+      "rule": "Dall'io: faccio → faccia",
+      "tip": "Many irregulars keep the io stem: faccio → faccia, dico → dica, vado → vada, esco → esca.",
+      "example": {
+        "it": "Voglio che tu faccia colazione.",
+        "en": "I want you to have breakfast."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Spero che tu ___ (dire) la verità.",
+        "answers": [
+          "dica"
+        ]
+      }
+    },
+    {
+      "id": "cg-02-t2",
+      "rule": "Con la g: vengo → venga",
+      "tip": "If the io present ends in -go, the g stays: vengo → venga, tengo → tenga, salgo → salga, rimango → rimanga.",
+      "example": {
+        "it": "Spero che tu venga alla cena.",
+        "en": "I hope you come to the dinner."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Voglio che Marco ___ (venire) alla cena.",
+        "answers": [
+          "venga"
+        ]
+      }
+    },
+    {
+      "id": "cg-02-t3",
+      "rule": "possa, voglia, debba, sappia",
+      "tip": "Potere, volere, dovere and sapere have their own stems: possa, voglia, debba (or deva), sappia.",
+      "example": {
+        "it": "Spero che tu possa venire.",
+        "en": "I hope you can come."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Spero che voi ___ (potere) venire.",
+        "answers": [
+          "possiate"
+        ]
+      }
+    },
+    {
+      "id": "cg-02-t4",
+      "rule": "Da imparare: sia, abbia, stia, dia",
+      "tip": "Essere, avere, stare and dare have no trick: sia, abbia, stia, dia. Loro: siano, abbiano, stiano, diano.",
+      "example": {
+        "it": "Penso che tu abbia ragione.",
+        "en": "I think you're right."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Penso che Marta ___ (avere) ragione.",
+        "answers": [
+          "abbia"
+        ]
+      }
+    }
+  ]
+}

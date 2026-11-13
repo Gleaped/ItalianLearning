@@ -33,7 +33,7 @@ object TipSelector {
         unitsWithTips: Set<String>,
     ): List<String> {
         val levelIndex = course.levels.mapIndexed { i, l -> l.id to i }.toMap()
-        val remedial = course.levels.filter { it.remedial }.map { it.id }.toSet()
+        val remedial = course.levels.filter { it.alwaysOpen }.map { it.id }.toSet()
         val ordered = course.units
             .filter { it.available }
             .sortedWith(compareBy({ levelIndex[it.level] ?: Int.MAX_VALUE }, { it.order }))

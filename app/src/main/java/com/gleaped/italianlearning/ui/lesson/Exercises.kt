@@ -42,7 +42,12 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.gleaped.italianlearning.R
+import com.gleaped.italianlearning.content.ChooseMood
 import com.gleaped.italianlearning.content.Conjugation
+import com.gleaped.italianlearning.content.FindTrigger
+import com.gleaped.italianlearning.content.MinimalPair
+import com.gleaped.italianlearning.content.SortBuckets
+import com.gleaped.italianlearning.content.Transform
 import com.gleaped.italianlearning.content.ErrorCorrection
 import com.gleaped.italianlearning.content.Exercise
 import com.gleaped.italianlearning.content.Flashcard
@@ -70,6 +75,7 @@ import com.gleaped.italianlearning.speech.TtsStatus
 import com.gleaped.italianlearning.ui.components.ItalianText
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import com.gleaped.italianlearning.ui.components.LookupText
+import com.gleaped.italianlearning.ui.components.RatingChoices
 import com.gleaped.italianlearning.ui.components.RichText
 import com.gleaped.italianlearning.ui.components.SpeakerButton
 import kotlin.math.roundToInt
@@ -111,6 +117,11 @@ fun ExerciseView(
         is SpeakRespond -> SpeakRespondView(exercise, answered, speechEnabled, actions)
         is Roleplay -> RoleplayView(exercise, answered, autoPlay, speechEnabled, actions)
         is FreeWrite -> FreeWriteView(exercise, answered, actions)
+        is ChooseMood -> ChooseMoodView(exercise, answered, actions)
+        is FindTrigger -> FindTriggerView(exercise, answered, actions)
+        is Transform -> TransformView(exercise, answered, actions)
+        is SortBuckets -> SortBucketsView(exercise, answered, actions)
+        is MinimalPair -> MinimalPairView(exercise, answered, actions)
         is Unsupported -> UnavailableView("This exercise type (\"${exercise.type}\") needs a newer version of the app.") { actions.continueWith(null) }
         is Invalid -> UnavailableView("This exercise could not be loaded.") { actions.continueWith(null) }
     }
@@ -120,7 +131,7 @@ fun ExerciseView(
 private fun UnavailableView(message: String, onSkip: () -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(message, style = MaterialTheme.typography.bodyLarge)
-        Button(onClick = onSkip, modifier = Modifier.fillMaxWidth()) { Text("Skip") }
+        CheckButton(enabled = true, onClick = onSkip, label = "Skip")
     }
 }
 
@@ -151,7 +162,7 @@ private fun GrammarNoteView(e: GrammarNote, rule: RuleLink?, onContinue: () -> U
         } else {
             Spacer(Modifier.height(8.dp))
         }
-        Button(onClick = onContinue, modifier = Modifier.fillMaxWidth()) { Text("Continue") }
+        CheckButton(enabled = true, onClick = onContinue, label = "Continue")
     }
 }
 
@@ -191,20 +202,14 @@ private fun FlashcardView(e: Flashcard, actions: ExerciseActions) {
             }
         }
         if (flipped) {
-            Text("How well did you know it?", style = MaterialTheme.typography.titleSmall)
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                RatingButton("Again", Modifier.weight(1f)) { actions.continueWith(ratingVerdict(Rating.AGAIN)) }
-                RatingButton("Hard", Modifier.weight(1f)) { actions.continueWith(ratingVerdict(Rating.HARD)) }
-                RatingButton("Good", Modifier.weight(1f)) { actions.continueWith(ratingVerdict(Rating.GOOD)) }
-                RatingButton("Easy", Modifier.weight(1f)) { actions.continueWith(ratingVerdict(Rating.EASY)) }
-            }
+            RatingChoices(onRate = { actions.continueWith(ratingVerdict(it)) })
             Text(
                 "This card is now in your review deck.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         } else {
-            Button(onClick = { flipped = true }, modifier = Modifier.fillMaxWidth()) { Text("Show answer") }
+            CheckButton(enabled = true, onClick = { flipped = true }, label = "Show answer")
         }
     }
 }
@@ -213,16 +218,6 @@ private fun ratingVerdict(r: Rating): Verdict = when (r) {
     Rating.AGAIN -> Verdict.WRONG
     Rating.HARD -> Verdict.ALMOST
     Rating.GOOD, Rating.EASY -> Verdict.CORRECT
-}
-
-@Composable
-fun RatingButton(label: String, modifier: Modifier = Modifier, sub: String? = null, onClick: () -> Unit) {
-    FilledTonalButton(onClick = onClick, modifier = modifier) {
-        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            Text(label, maxLines = 1)
-            if (sub != null) Text(sub, style = MaterialTheme.typography.labelSmall)
-        }
-    }
 }
 
 // ---------------------------------------------------------------- multiple_choice / listen_choose
@@ -551,7 +546,7 @@ private fun ReadingView(e: Reading, answered: Boolean, actions: ExerciseActions)
             }
         }
         if (e.questions.isEmpty()) {
-            Button(onClick = { actions.continueWith(null) }, modifier = Modifier.fillMaxWidth()) { Text("Continue") }
+            CheckButton(enabled = true, onClick = { actions.continueWith(null) }, label = "Continue")
         } else {
             CheckButton(enabled = !answered && picks.none { it < 0 }, onClick = {
                 val verdicts = e.questions.mapIndexed { i, q -> if (picks[i] == q.answer) Verdict.CORRECT else Verdict.WRONG }
@@ -703,7 +698,7 @@ private fun RoleplayView(e: Roleplay, answered: Boolean, autoPlay: Boolean, spee
         if (!answered && current != null) {
             if (current.isNpc) {
                 if (awaitingNext) {
-                    Button(onClick = { advance() }, modifier = Modifier.fillMaxWidth()) { Text("Continue") }
+                    CheckButton(enabled = true, onClick = { advance() }, label = "Continue")
                 }
             } else if (!awaitingNext) {
                 Text("Your turn", style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary)
@@ -727,7 +722,7 @@ private fun RoleplayView(e: Roleplay, answered: Boolean, autoPlay: Boolean, spee
                     },
                 )
             } else {
-                Button(onClick = { advance() }, modifier = Modifier.fillMaxWidth()) { Text("Continue") }
+                CheckButton(enabled = true, onClick = { advance() }, label = "Continue")
             }
         }
     }

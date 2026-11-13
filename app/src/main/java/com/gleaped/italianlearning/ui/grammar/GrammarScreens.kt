@@ -32,6 +32,9 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import com.gleaped.italianlearning.content.UnitRef
+import androidx.compose.material3.ListItemDefaults
+import androidx.compose.material3.ListItem
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -91,8 +94,12 @@ fun LevelChip(level: String, modifier: Modifier = Modifier) {
 
 /** Grammatica: every rule, grouped by section, with a filter field. */
 @Composable
-fun GrammarScreen(onOpenTopic: (String) -> Unit) {
+fun GrammarScreen(onOpenTopic: (String) -> Unit, onOpenUnit: (String) -> Unit = {}) {
     val load = rememberReference()
+    val container = LocalAppContainer.current
+    val track by produceState<List<UnitRef>>(emptyList(), container) {
+        value = container.content.course().units.filter { it.track == "congiuntivo" && it.available }
+    }
     var query by rememberSaveable { mutableStateOf("") }
     val focus = LocalFocusManager.current
 
@@ -127,6 +134,9 @@ fun GrammarScreen(onOpenTopic: (String) -> Unit) {
                     modifier = Modifier.fillMaxSize(),
                     contentPadding = PaddingValues(bottom = 24.dp),
                 ) {
+                    if (query.isBlank() && track.isNotEmpty()) {
+                        item(key = "hub-congiuntivo") { CongiuntivoHub(track, onOpenUnit) }
+                    }
                     if (sections.isEmpty()) {
                         item {
                             Text(
@@ -151,6 +161,37 @@ fun GrammarScreen(onOpenTopic: (String) -> Unit) {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+/** The congiuntivo track, pinned above the reference: one row per CG unit. */
+@Composable
+private fun CongiuntivoHub(units: List<UnitRef>, onOpenUnit: (String) -> Unit) {
+    Surface(
+        color = MaterialTheme.colorScheme.primaryContainer,
+        shape = MaterialTheme.shapes.large,
+        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
+    ) {
+        Column(Modifier.padding(vertical = 12.dp)) {
+            Text(
+                "Percorso congiuntivo",
+                style = MaterialTheme.typography.titleLarge,
+                modifier = Modifier.padding(horizontal = 16.dp),
+            )
+            Text(
+                "Fact, or filtered through someone's mind? Eight short steps from B1 to C1.",
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
+            )
+            units.forEachIndexed { i, u ->
+                ListItem(
+                    headlineContent = { Text("${i + 1}. ${u.title}") },
+                    supportingContent = { Text(u.level, style = MaterialTheme.typography.labelMedium) },
+                    colors = ListItemDefaults.colors(containerColor = MaterialTheme.colorScheme.primaryContainer),
+                    modifier = Modifier.clickable { onOpenUnit(u.id) },
+                )
             }
         }
     }

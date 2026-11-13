@@ -7,6 +7,9 @@ import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.relocation.BringIntoViewRequester
 import androidx.compose.foundation.relocation.bringIntoViewRequester
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -18,9 +21,17 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.Surface
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.compositionLocalOf
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -61,21 +72,21 @@ fun verdictColor(verdict: Verdict): Color {
 }
 
 fun verdictTitle(verdict: Verdict): String = when (verdict) {
-    Verdict.CORRECT -> "Esatto! ✓"
+    Verdict.CORRECT -> "Giusto!"
     Verdict.ALMOST -> "Quasi!"
     Verdict.WRONG -> "Non proprio"
 }
 
-/** Extra space kept visible below a focused answer field, so the Check button stays above the keyboard. */
-private val BelowFieldClearance = 96.dp
+/** Extra space kept visible below a focused answer field. */
+private val BelowFieldClearance = 32.dp
 
 /**
  * Text input for typed answers: no autocorrect, so accents are the learner's own.
  *
- * Keyboard handling: the screens put `imePadding()` on their Scaffold, so the scrollable
- * content ends at the top of the keyboard. When this field is focused and the keyboard
- * finishes opening (or changes height), the field plus [BelowFieldClearance] below it
- * is scrolled into view, which keeps both the field and the Check button visible.
+ * Keyboard handling (#5): the app pads its root for the keyboard (AppNavigation), so every screen
+ * ends at the top of the keyboard, and lesson screens pin their Check button in a bar there
+ * (see [PrimaryActionHost]). When this field is focused and the keyboard opens, changes height
+ * or the field grows, the field plus [BelowFieldClearance] is scrolled into view.
  */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -100,9 +111,11 @@ fun AnswerField(
 
     LaunchedEffect(focused) {
         if (!focused) return@LaunchedEffect
-        snapshotFlow { ime.getBottom(density) }
+        // Re-run when the keyboard opens or changes height, and when the field grows while typing
+        // (multi-line answers), so the line being typed never slips under the keyboard (#5).
+        snapshotFlow { ime.getBottom(density) to size.height }
             .distinctUntilChanged()
-            .collectLatest { imeBottom ->
+            .collectLatest { (imeBottom, _) ->
                 if (imeBottom <= 0) return@collectLatest
                 // collectLatest restarts on every animation frame; this runs once the keyboard settles.
                 delay(120)
@@ -142,21 +155,89 @@ fun AnswerField(
     )
 }
 
-/** Hides the keyboard before running [onClick], so feedback and buttons are not covered. */
+/**
+ * The screen's main button (Check, Continue, Show answer…). Inside a [PrimaryActionHost] it is
+ * not drawn in place: the host pins it in a bar at the bottom of the screen, directly above the
+ * keyboard, so it can never be covered (#5). Elsewhere it is an ordinary full-width button.
+ * Hides the keyboard before running [onClick], so feedback is not covered either.
+ */
 @Composable
 fun CheckButton(enabled: Boolean, onClick: () -> Unit, label: String = "Check") {
     val keyboard = LocalSoftwareKeyboardController.current
     val focusManager = LocalFocusManager.current
-    Button(
-        onClick = {
-            keyboard?.hide()
-            focusManager.clearFocus()
-            onClick()
-        },
-        enabled = enabled,
-        modifier = Modifier.fillMaxWidth(),
-    ) {
+    val run = {
+        keyboard?.hide()
+        focusManager.clearFocus()
+        onClick()
+    }
+    val host = LocalPrimaryAction.current
+    if (host != null) {
+        val token = remember { Any() }
+        val latest by rememberUpdatedState(run)
+        SideEffect { host.set(token, label, enabled) { latest() } }
+        DisposableEffect(host, token) { onDispose { host.clear(token) } }
+        return
+    }
+    Button(onClick = run, enabled = enabled, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
         Text(label)
+    }
+}
+
+/** The pinned main action of a screen; see [CheckButton]. */
+@Stable
+class PrimaryActionState {
+    var label by mutableStateOf<String?>(null)
+        private set
+    var enabled by mutableStateOf(false)
+        private set
+    private var owner: Any? = null
+    private var action: () -> Unit = {}
+
+    fun set(token: Any, label: String, enabled: Boolean, onClick: () -> Unit) {
+        owner = token
+        this.label = label
+        this.enabled = enabled
+        action = onClick
+    }
+
+    fun clear(token: Any) {
+        if (owner !== token) return
+        owner = null
+        label = null
+        enabled = false
+        action = {}
+    }
+
+    fun click() {
+        if (enabled) action()
+    }
+}
+
+val LocalPrimaryAction = compositionLocalOf<PrimaryActionState?> { null }
+
+/** Provides a [PrimaryActionState] to [content]; draw it with [PrimaryActionBar]. */
+@Composable
+fun PrimaryActionHost(state: PrimaryActionState, content: @Composable () -> Unit) {
+    CompositionLocalProvider(LocalPrimaryAction provides state, content = content)
+}
+
+/** The bar holding the pinned main button; nothing when no button is registered. */
+@Composable
+fun PrimaryActionBar(state: PrimaryActionState) {
+    val label = state.label ?: return
+    Surface(tonalElevation = 3.dp) {
+        Box(
+            Modifier
+                .fillMaxWidth()
+                .navigationBarsPadding()
+                .padding(horizontal = 20.dp, vertical = 12.dp),
+        ) {
+            Button(
+                onClick = state::click,
+                enabled = state.enabled,
+                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
+            ) { Text(label, style = MaterialTheme.typography.titleMedium) }
+        }
     }
 }
 

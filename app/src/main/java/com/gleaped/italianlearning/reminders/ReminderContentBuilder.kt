@@ -53,7 +53,7 @@ class ReminderContentBuilder(
             // Nobody started yet (or started units have no tips): look for the first unit with tips,
             // parsing units one by one in course order until one has some.
             val levelIndex = course.levels.mapIndexed { i, l -> l.id to i }.toMap()
-            val remedial = course.levels.filter { it.remedial }.map { it.id }.toSet()
+            val remedial = course.levels.filter { it.alwaysOpen }.map { it.id }.toSet()
             val ordered = course.units.filter { it.available }
                 .sortedWith(compareBy({ if (it.level in remedial) 1 else 0 }, { levelIndex[it.level] ?: Int.MAX_VALUE }, { it.order }))
             for (ref in ordered) {

@@ -1,0 +1,859 @@
+{
+  "id": "a1-03",
+  "level": "A1",
+  "title": "Che cosa fai?",
+  "format": 2,
+  "module": "a1-m1",
+  "objective": "By the end you can talk about work, study and everyday actions with regular -are verbs, say what you don't do and ask simple questions.",
+  "grammarFocus": "Present tense of regular -are verbs; non + verb; question words dove and che cosa.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-03-l1",
+      "title": "Io lavoro, tu lavori",
+      "minutes": 8,
+      "goal": "You can say what you do (io), ask a friend (tu) and talk about someone (lui / lei).",
+      "takeaway": "-are verbs: take off -are and add -o, -i, -a.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-03-l1-e01",
+          "stage": "warmup",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Io ___ americano.",
+          "answers": [
+            "sono"
+          ],
+          "explanation": "Io goes with sono."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l1-e02",
+          "stage": "learn",
+          "title": "Il presente in -are",
+          "body": "Take off **-are**. Add the ending.\n\n| persona | lavorare |\n|---|---|\n| io | lavor==o== |\n| tu | lavor==i== |\n| lui / lei | lavor==a== |\n\n> Italian usually drops io and tu. The ending shows who: **Lavoro** a Milano.",
+          "examples": [
+            {
+              "it": "Lavoro a Milano.",
+              "en": "I work in Milan."
+            },
+            {
+              "it": "Che cosa studi?",
+              "en": "What do you study?"
+            },
+            {
+              "it": "Marco abita a Roma.",
+              "en": "Marco lives in Rome."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l1-e03",
+          "stage": "learn",
+          "title": "Quattro verbi",
+          "body": "Four useful verbs:\n\n| verbo | significato | esempio |\n|---|---|---|\n| ==lavorare== | to work | Lavoro in ufficio. |\n| ==studiare== | to study | Studio italiano. |\n| ==abitare== | to live | Abito a Londra. |\n| ==parlare== | to speak | Parlo inglese. |\n\nAsk a friend: **Che cosa fai?** (What do you do?)",
+          "examples": [
+            {
+              "it": "Che cosa fai? Lavoro e studio.",
+              "en": "What do you do? I work and I study."
+            },
+            {
+              "it": "Parlo inglese e un po' di italiano.",
+              "en": "I speak English and a little Italian."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-03-l1-e04",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Lavoro a Roma.",
+            "Lavori a Roma.",
+            "Lavora a Roma."
+          ],
+          "question": "Quale frase parla di te (tu)?",
+          "answer": 1,
+          "translations": [
+            "I work in Rome.",
+            "You work in Rome.",
+            "He / she works in Rome."
+          ],
+          "explanation": "The ending -i goes with tu."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-03-l1-e05",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Io ___ a Roma. (lavorare)",
+          "options": [
+            "lavoro",
+            "lavori",
+            "lavora"
+          ],
+          "answer": 0,
+          "explanation": "Io goes with the ending -o: lavoro."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-03-l1-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Lavoro a Milano.",
+          "question": "Where does the speaker work?",
+          "options": [
+            "Milan",
+            "Rome",
+            "Naples"
+          ],
+          "answer": 0,
+          "explanation": "Lavoro a Milano means I work in Milan."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-03-l1-e07",
+          "stage": "practise",
+          "instruction": "Scrivi ogni forma.",
+          "verb": "lavorare",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "lavoro"
+            },
+            {
+              "person": "tu",
+              "answer": "lavori"
+            },
+            {
+              "person": "lui / lei",
+              "answer": "lavora"
+            }
+          ],
+          "explanation": "The -are endings are -o, -i, -a."
+        },
+        {
+          "type": "translate",
+          "id": "a1-03-l1-e08",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "I study Italian.",
+          "answers": [
+            "Studio italiano.",
+            "Io studio italiano."
+          ],
+          "explanation": "Io goes with studio; the subject is usually dropped."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-03-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Che cosa fai? Say where you work or what you study.",
+          "keywords": [
+            "lavoro",
+            "studio"
+          ],
+          "modelAnswer": "Lavoro a Londra. Studio italiano."
+        }
+      ]
+    },
+    {
+      "id": "a1-03-l2",
+      "title": "Noi, voi, loro",
+      "minutes": 8,
+      "goal": "You can talk about we, you (all) and they, and use all six forms.",
+      "takeaway": "-are verbs: -o, -i, -a, -iamo, -ate, -ano.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-03-l2-e01",
+          "stage": "warmup",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Lui ___ a Roma. (lavorare)",
+          "answers": [
+            "lavora"
+          ],
+          "explanation": "Lui goes with -a."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l2-e02",
+          "stage": "learn",
+          "title": "Noi, voi, loro",
+          "body": "Three more endings:\n\n| persona | lavorare |\n|---|---|\n| noi | lavor==iamo== |\n| voi | lavor==ate== |\n| loro | lavor==ano== |\n\n> Studiare keeps one i: **studiamo**, not studiiamo.",
+          "examples": [
+            {
+              "it": "Lavoriamo a Roma.",
+              "en": "We work in Rome."
+            },
+            {
+              "it": "Voi parlate italiano?",
+              "en": "Do you (all) speak Italian?"
+            },
+            {
+              "it": "Loro abitano a Torino.",
+              "en": "They live in Turin."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l2-e03",
+          "stage": "learn",
+          "title": "Tutte le forme",
+          "body": "Parlare: all six forms.\n\n| persona | parlare |\n|---|---|\n| io | parl==o== |\n| tu | parl==i== |\n| lui / lei | parl==a== |\n| noi | parl==iamo== |\n| voi | parl==ate== |\n| loro | parl==ano== |\n\n> Lei (polite you) uses the lui / lei form: Lei parla bene.",
+          "examples": [
+            {
+              "it": "Lei parla molto bene.",
+              "en": "You speak very well. (polite)"
+            },
+            {
+              "it": "Noi parliamo italiano.",
+              "en": "We speak Italian."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-03-l2-e04",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Lavoriamo a Roma.",
+            "Lavorate a Roma.",
+            "Lavorano a Roma."
+          ],
+          "question": "Quale frase dice «noi»?",
+          "answer": 0,
+          "translations": [
+            "We work in Rome.",
+            "You (all) work in Rome.",
+            "They work in Rome."
+          ],
+          "explanation": "The ending -iamo goes with noi."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-03-l2-e05",
+          "stage": "practise",
+          "instruction": "Metti ogni parola nel gruppo giusto.",
+          "buckets": [
+            "noi",
+            "voi",
+            "loro"
+          ],
+          "items": [
+            {
+              "text": "lavoriamo",
+              "bucket": 0
+            },
+            {
+              "text": "parlate",
+              "bucket": 1
+            },
+            {
+              "text": "studiano",
+              "bucket": 2
+            },
+            {
+              "text": "abitiamo",
+              "bucket": 0
+            },
+            {
+              "text": "abitate",
+              "bucket": 1
+            },
+            {
+              "text": "parlano",
+              "bucket": 2
+            }
+          ],
+          "explanation": "-iamo = noi, -ate = voi, -ano = loro."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-03-l2-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Abitiamo a Torino.",
+          "question": "Chi abita a Torino?",
+          "options": [
+            "We",
+            "They",
+            "You (all)"
+          ],
+          "answer": 0,
+          "explanation": "Abitiamo ends in -iamo: noi."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-03-l2-e07",
+          "stage": "practise",
+          "instruction": "Scrivi ogni forma.",
+          "verb": "parlare",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "parlo"
+            },
+            {
+              "person": "tu",
+              "answer": "parli"
+            },
+            {
+              "person": "lui / lei",
+              "answer": "parla"
+            },
+            {
+              "person": "noi",
+              "answer": "parliamo"
+            },
+            {
+              "person": "voi",
+              "answer": "parlate"
+            },
+            {
+              "person": "loro",
+              "answer": "parlano"
+            }
+          ],
+          "explanation": "The six -are endings: -o, -i, -a, -iamo, -ate, -ano."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-03-l2-e08",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Noi ___ a Londra. (abitare)",
+          "answers": [
+            "abitiamo"
+          ],
+          "explanation": "Noi goes with -iamo."
+        },
+        {
+          "type": "translate",
+          "id": "a1-03-l2-e09",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "They speak Italian.",
+          "answers": [
+            "Parlano italiano.",
+            "Loro parlano italiano."
+          ],
+          "explanation": "Loro goes with -ano."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-03-l2-e10",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Dove abiti? Say where you live (Abito a…) or where you and others live (Abitiamo a…).",
+          "keywords": [
+            "abito",
+            "abitiamo"
+          ],
+          "modelAnswer": "Abito a Londra."
+        }
+      ]
+    },
+    {
+      "id": "a1-03-l3",
+      "title": "Non lavoro. Dove abiti?",
+      "minutes": 8,
+      "goal": "You can say what you don't do and ask simple questions.",
+      "takeaway": "Put non before the verb. Ask with dove, che cosa… and the verb.",
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "a1-03-l3-e01",
+          "stage": "warmup",
+          "instruction": "Traduci.",
+          "direction": "it_en",
+          "source": "Abito a Roma.",
+          "answers": [
+            "I live in Rome.",
+            "I live in Rome"
+          ],
+          "explanation": "Abito is the io form of abitare."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l3-e02",
+          "stage": "learn",
+          "title": "Non",
+          "body": "Put **non** before the verb to make a negative.\n\n| sì | no |\n|---|---|\n| Parlo francese. | ==Non== parlo francese. |\n| Abito a Roma. | ==Non== abito a Roma. |\n| Studiamo. | ==Non== studiamo. |\n\n> Italian does not need a helper like English *do*: **Non parlo** = I do not speak.",
+          "examples": [
+            {
+              "it": "Non parlo francese.",
+              "en": "I don't speak French."
+            },
+            {
+              "it": "Marco non lavora oggi.",
+              "en": "Marco isn't working today."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l3-e03",
+          "stage": "learn",
+          "title": "Dove? Che cosa?",
+          "body": "A question has the same words as a statement, with a question word in front.\n\n| domanda | risposta |\n|---|---|\n| ==Dove== abiti? | Abito a Torino. |\n| ==Dove== lavori? | Lavoro a Milano. |\n| ==Che cosa== studi? | Studio inglese. |\n\n> A yes / no question: just raise your voice. *Parli italiano?*",
+          "examples": [
+            {
+              "it": "Dove lavori? Lavoro a Milano.",
+              "en": "Where do you work? I work in Milan."
+            },
+            {
+              "it": "Parli italiano?",
+              "en": "Do you speak Italian?"
+            }
+          ]
+        },
+        {
+          "type": "find_trigger",
+          "id": "a1-03-l3-e04",
+          "stage": "practise",
+          "instruction": "Tocca la parola giusta.",
+          "sentence": "Marco non abita a Milano.",
+          "trigger": "non",
+          "explanation": "Non goes right before the verb to make it negative."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-03-l3-e05",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "How do you say: I don't speak French?",
+          "options": [
+            "Non parlo francese.",
+            "Parlo non francese.",
+            "Non parla francese."
+          ],
+          "answer": 0,
+          "explanation": "Non goes before the verb, and io takes -o."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-03-l3-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Non lavoro a Roma.",
+          "question": "Does the speaker work in Rome?",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "answer": 0,
+          "explanation": "Non lavoro means I don't work."
+        },
+        {
+          "type": "transform",
+          "id": "a1-03-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Parlo inglese.",
+          "cue": "→ negativo",
+          "answers": [
+            "Non parlo inglese."
+          ],
+          "explanation": "Add non before the verb."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-03-l3-e08",
+          "stage": "practise",
+          "instruction": "Correggi la frase.",
+          "sentence": "Parlo non italiano.",
+          "answers": [
+            "Non parlo italiano.",
+            "Non parlo italiano"
+          ],
+          "explanation": "Non must come before the verb."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-03-l3-e09",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "___ studio francese.",
+          "answers": [
+            "Non",
+            "non"
+          ],
+          "explanation": "Non goes before the verb to say I don't study."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-03-l3-e10",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Say one thing you do and one thing you don't do. Use Studio… / Non parlo…",
+          "keywords": [
+            "non"
+          ],
+          "modelAnswer": "Studio italiano. Non parlo spagnolo."
+        }
+      ]
+    },
+    {
+      "id": "a1-03-l4",
+      "title": "Ogni giorno",
+      "minutes": 8,
+      "goal": "You can say what you do every day and ask a friend the same.",
+      "takeaway": "Verbs in -are: ascoltare, guardare, cucinare, comprare, mangiare. With -iare, only one i: studi, mangi.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-03-l4-e01",
+          "stage": "warmup",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Noi ___ a Roma. (abitare)",
+          "answers": [
+            "abitiamo"
+          ],
+          "explanation": "Noi goes with -iamo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l4-e02",
+          "stage": "learn",
+          "title": "Cinque verbi in più",
+          "body": "More regular -are verbs:\n\n| verbo | significato | esempio |\n|---|---|---|\n| ==ascoltare== | to listen to | Ascolto la musica. |\n| ==guardare== | to watch | Guardo un film. |\n| ==cucinare== | to cook | Cucino la cena. |\n| ==comprare== | to buy | Compro il pane. |\n| ==mangiare== | to eat | Mangio una mela. |",
+          "examples": [
+            {
+              "it": "Ascolto la musica e cucino.",
+              "en": "I listen to music and I cook."
+            },
+            {
+              "it": "Che cosa guardi?",
+              "en": "What are you watching?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-03-l4-e03",
+          "stage": "learn",
+          "title": "Un solo i",
+          "body": "Verbs in **-iare** keep only one i.\n\n| persona | studiare | mangiare |\n|---|---|---|\n| tu | stud==i== | mang==i== |\n| noi | stud==iamo== | mang==iamo== |\n\n> Not *studii* or *mangii*. The i of the stem and the ending become one.",
+          "examples": [
+            {
+              "it": "Tu mangi una mela.",
+              "en": "You eat an apple."
+            },
+            {
+              "it": "Noi mangiamo il pane.",
+              "en": "We eat bread."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-03-l4-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Tu ___ la musica? (ascoltare)",
+          "options": [
+            "ascolti",
+            "ascolto",
+            "ascolta"
+          ],
+          "answer": 0,
+          "explanation": "Tu goes with -i: ascolti."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-03-l4-e05",
+          "stage": "practise",
+          "instruction": "Collega le coppie.",
+          "pairs": [
+            {
+              "left": "ascoltare",
+              "right": "to listen to"
+            },
+            {
+              "left": "guardare",
+              "right": "to watch"
+            },
+            {
+              "left": "cucinare",
+              "right": "to cook"
+            },
+            {
+              "left": "comprare",
+              "right": "to buy"
+            },
+            {
+              "left": "mangiare",
+              "right": "to eat"
+            }
+          ],
+          "explanation": "These are regular -are verbs."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-03-l4-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Io ___ il pane. (comprare)",
+          "answers": [
+            "compro"
+          ],
+          "explanation": "Io goes with -o: compro."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-03-l4-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Guardo un film.",
+          "answers": [
+            "Guardo un film.",
+            "Guardo un film"
+          ],
+          "explanation": "Guardo is the io form of guardare."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-03-l4-e08",
+          "stage": "practise",
+          "instruction": "Correggi la frase.",
+          "sentence": "Tu mangii una mela.",
+          "answers": [
+            "Tu mangi una mela.",
+            "Mangi una mela.",
+            "Tu mangi una mela",
+            "Mangi una mela"
+          ],
+          "explanation": "With -iare verbs the tu form has only one i: mangi."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-03-l4-e09",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "We cook dinner.",
+          "tiles": [
+            "Cuciniamo",
+            "la",
+            "cena"
+          ],
+          "distractors": [
+            "Cucinate",
+            "Cucino"
+          ],
+          "explanation": "Noi goes with -iamo: cuciniamo."
+        },
+        {
+          "type": "free_write",
+          "id": "a1-03-l4-e10",
+          "stage": "use",
+          "instruction": "Scrivi in italiano.",
+          "prompt": "Scrivi 3 frasi su che cosa fai ogni giorno. Usa: ascolto, guardo, cucino, compro, mangio.",
+          "minWords": 8,
+          "checklist": [
+            "il verbo ha la forma giusta (io = -o)",
+            "3 frasi",
+            "scritto in italiano"
+          ],
+          "modelAnswer": "Ascolto la musica. Guardo un film. Cucino la cena."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "lavorare",
+      "en": "to work",
+      "example": "Lavoro a Milano."
+    },
+    {
+      "it": "studiare",
+      "en": "to study",
+      "example": "Studio italiano."
+    },
+    {
+      "it": "abitare",
+      "en": "to live",
+      "example": "Abito a Londra."
+    },
+    {
+      "it": "parlare",
+      "en": "to speak",
+      "example": "Parlo inglese."
+    },
+    {
+      "it": "ascoltare",
+      "en": "to listen to",
+      "example": "Ascolto la musica."
+    },
+    {
+      "it": "guardare",
+      "en": "to watch, look at",
+      "example": "Guardo un film."
+    },
+    {
+      "it": "cucinare",
+      "en": "to cook",
+      "example": "Cucino la cena."
+    },
+    {
+      "it": "comprare",
+      "en": "to buy",
+      "example": "Compro il pane."
+    },
+    {
+      "it": "mangiare",
+      "en": "to eat",
+      "example": "Mangio una mela."
+    },
+    {
+      "it": "Che cosa fai?",
+      "en": "What do you do?",
+      "example": "Che cosa fai? Lavoro in ufficio."
+    },
+    {
+      "it": "Dove abiti?",
+      "en": "Where do you live?",
+      "example": "Dove abiti? Abito a Torino."
+    },
+    {
+      "it": "non",
+      "en": "not",
+      "example": "Non parlo francese."
+    },
+    {
+      "it": "il pane",
+      "en": "bread",
+      "example": "Compro il pane."
+    },
+    {
+      "it": "la musica",
+      "en": "music",
+      "example": "Ascolto la musica."
+    },
+    {
+      "it": "il film",
+      "en": "film",
+      "example": "Guardo un film."
+    },
+    {
+      "it": "la cena",
+      "en": "dinner",
+      "example": "Cucino la cena."
+    },
+    {
+      "it": "l'ufficio",
+      "en": "office",
+      "example": "Lavoro in ufficio."
+    },
+    {
+      "it": "un po' di",
+      "en": "a little",
+      "example": "Parlo un po' di italiano."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-03-t1",
+      "rule": "-are: -o, -i, -a",
+      "tip": "Regular -are verbs: io -o, tu -i, lui / lei -a, noi -iamo, voi -ate, loro -ano.",
+      "example": {
+        "it": "Lavoro, lavori, lavora.",
+        "en": "I work, you work, he / she works."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Tu ___ a Roma. (abitare)",
+        "answers": [
+          "abiti"
+        ],
+        "explanation": "Tu goes with -i."
+      }
+    },
+    {
+      "id": "a1-03-t2",
+      "rule": "Noi -iamo, voi -ate, loro -ano",
+      "tip": "Plural -are endings: noi -iamo, voi -ate, loro -ano.",
+      "example": {
+        "it": "Parliamo italiano.",
+        "en": "We speak Italian."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Loro ___ (studiare)",
+        "options": [
+          "studiano",
+          "studiamo",
+          "studiate"
+        ],
+        "answer": 0,
+        "explanation": "Loro goes with -ano."
+      }
+    },
+    {
+      "id": "a1-03-t3",
+      "rule": "Non prima del verbo",
+      "tip": "To say no, put non before the verb: Non parlo francese.",
+      "example": {
+        "it": "Non lavoro oggi.",
+        "en": "I'm not working today."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Parlo non francese.",
+        "answers": [
+          "Non parlo francese.",
+          "Non parlo francese"
+        ],
+        "explanation": "Non goes before the verb."
+      }
+    },
+    {
+      "id": "a1-03-t4",
+      "rule": "Dove? Che cosa?",
+      "tip": "Use dove (where) and che cosa (what) at the start: Dove abiti? Che cosa studi?",
+      "example": {
+        "it": "Dove lavori?",
+        "en": "Where do you work?"
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "Where do you live?",
+        "answers": [
+          "Dove abiti?"
+        ],
+        "explanation": "Dove + the tu form: abiti."
+      }
+    },
+    {
+      "id": "a1-03-t5",
+      "rule": "-iare: un solo i",
+      "tip": "Verbs in -iare keep one i: tu studi, tu mangi, noi studiamo.",
+      "example": {
+        "it": "Tu mangi la pizza.",
+        "en": "You eat pizza."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Tu studii italiano.",
+        "answers": [
+          "Tu studi italiano.",
+          "Studi italiano.",
+          "Tu studi italiano",
+          "Studi italiano"
+        ],
+        "explanation": "With -iare verbs the tu form has one i."
+      }
+    }
+  ]
+}

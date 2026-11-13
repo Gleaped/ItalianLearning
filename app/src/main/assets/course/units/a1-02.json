@@ -1,0 +1,1033 @@
+{
+  "id": "a1-02",
+  "level": "A1",
+  "title": "Un caffè e due cornetti",
+  "format": 2,
+  "module": "a1-m1",
+  "objective": "By the end you can tell masculine from feminine, use un / una / il / la / i / le, make plurals and order a simple breakfast.",
+  "grammarFocus": "Noun gender (-o / -a / -e), indefinite and definite articles, plural nouns and plural articles.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-02-l1",
+      "title": "Maschile o femminile?",
+      "minutes": 7,
+      "goal": "You can tell whether most nouns are masculine or feminine.",
+      "takeaway": "-o is usually masculine, -a usually feminine, -e can be either: learn the article with the word.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-02-l1-e01",
+          "stage": "warmup",
+          "instruction": "Type the missing word.",
+          "sentence": "Voi ___ di Milano.",
+          "answers": [
+            "siete"
+          ],
+          "explanation": "Voi goes with siete."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l1-e02",
+          "stage": "learn",
+          "title": "-o, -a, -e",
+          "body": "Every Italian noun is **masculine** or **feminine**. The ending usually tells you.\n\n| genere | finale | esempio |\n|---|---|---|\n| masculine | ==-o== | il cornetto, il gelato |\n| feminine | ==-a== | la pizza, la birra |\n| either | ==-e== | il latte, la notte |\n\n**il** = the (masculine). **la** = the (feminine).\n\n> With -e nouns, learn the article too: il latte, la notte.",
+          "examples": [
+            {
+              "it": "Il gelato e la pizza.",
+              "en": "The ice cream and the pizza."
+            },
+            {
+              "it": "Il caffè e il latte.",
+              "en": "The coffee and the milk."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l1-e03",
+          "stage": "learn",
+          "title": "Eccezioni",
+          "body": "A few common words break the pattern. Learn them with their article.\n\n| parola | genere | significato |\n|---|---|---|\n| ==la== mano | feminine (ends in -o) | hand |\n| ==il== problema | masculine (ends in -a) | problem |\n| ==la== città | feminine (accent) | city |\n| ==il== caffè | masculine (accent) | coffee |",
+          "examples": [
+            {
+              "it": "Il problema è il caffè.",
+              "en": "The problem is the coffee."
+            },
+            {
+              "it": "La città e il bar.",
+              "en": "The city and the café."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-02-l1-e04",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "masculine (il)",
+            "feminine (la)"
+          ],
+          "items": [
+            {
+              "text": "cornetto",
+              "bucket": 0
+            },
+            {
+              "text": "pizza",
+              "bucket": 1
+            },
+            {
+              "text": "gelato",
+              "bucket": 0
+            },
+            {
+              "text": "birra",
+              "bucket": 1
+            },
+            {
+              "text": "latte",
+              "bucket": 0
+            },
+            {
+              "text": "notte",
+              "bucket": 1
+            },
+            {
+              "text": "mela",
+              "bucket": 1
+            },
+            {
+              "text": "caffè",
+              "bucket": 0
+            }
+          ],
+          "explanation": "-o is usually masculine, -a usually feminine; learn -e words one by one."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-02-l1-e05",
+          "stage": "practise",
+          "instruction": "Listen and type what you hear.",
+          "audioText": "il cornetto e il caffè",
+          "answers": [
+            "il cornetto e il caffè"
+          ],
+          "explanation": "Cornetto and caffè are both masculine, so both take il."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-02-l1-e06",
+          "stage": "practise",
+          "instruction": "Choose the right answer.",
+          "prompt": "Which noun is feminine?",
+          "options": [
+            "il gelato",
+            "la mela",
+            "il caffè"
+          ],
+          "answer": 1,
+          "explanation": "Mela ends in -a, so it is feminine: la mela."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-02-l1-e07",
+          "stage": "practise",
+          "instruction": "Rewrite the sentence correctly.",
+          "sentence": "Il pizza e il caffè.",
+          "answers": [
+            "La pizza e il caffè.",
+            "La pizza e il caffè"
+          ],
+          "explanation": "Pizza ends in -a, so it takes la."
+        },
+        {
+          "type": "free_write",
+          "id": "a1-02-l1-e08",
+          "stage": "use",
+          "instruction": "Write in Italian.",
+          "prompt": "Write four foods or drinks with il or la.",
+          "minWords": 8,
+          "checklist": [
+            "each noun has il or la",
+            "the article matches the noun"
+          ],
+          "modelAnswer": "Il caffè, la pizza, il gelato, la birra."
+        }
+      ]
+    },
+    {
+      "id": "a1-02-l2",
+      "title": "Un caffè, una pizza",
+      "minutes": 7,
+      "goal": "You can say a coffee, a pizza, a student.",
+      "takeaway": "un / una = a; uno before s + consonant and z; un' before a vowel (feminine).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-02-l2-e01",
+          "stage": "warmup",
+          "instruction": "Choose the right answer.",
+          "prompt": "What gender is pizza?",
+          "options": [
+            "masculine",
+            "feminine"
+          ],
+          "answer": 1,
+          "explanation": "Pizza ends in -a: feminine."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l2-e02",
+          "stage": "learn",
+          "title": "Un e una",
+          "body": "**A / an** is **un** (masculine) or **una** (feminine).\n\n| | maschile | femminile |\n|---|---|---|\n| before a consonant | ==un== cornetto | ==una== pizza |\n| before a vowel | ==un== amico | ==un'==amica |\n\n> Feminine words keep the a before a vowel: **un'**amica, not *un amica*.",
+          "examples": [
+            {
+              "it": "Un caffè e una pizza.",
+              "en": "A coffee and a pizza."
+            },
+            {
+              "it": "Un amico e un'amica.",
+              "en": "A (male) friend and a (female) friend."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l2-e03",
+          "stage": "learn",
+          "title": "Uno",
+          "body": "Masculine words that start with **s + consonant**, **z** or **gn** take **uno**.\n\n| un | uno |\n|---|---|\n| ==un== gelato | ==uno== studente |\n| ==un== libro | ==uno== zaino |\n| ==un== caffè | ==uno== spritz |\n\n> **Uno** is only for masculine words. Feminine words always take **una**: una pizza.",
+          "examples": [
+            {
+              "it": "Uno studente e uno zaino.",
+              "en": "A student and a backpack."
+            },
+            {
+              "it": "Uno spritz e un caffè.",
+              "en": "A spritz and a coffee."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-02-l2-e04",
+          "stage": "practise",
+          "instruction": "Choose the right answer.",
+          "prompt": "___ studente",
+          "options": [
+            "un",
+            "uno",
+            "una"
+          ],
+          "answer": 1,
+          "explanation": "Studente starts with s + consonant, so it takes uno."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-02-l2-e05",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "un",
+            "uno",
+            "una / un'"
+          ],
+          "items": [
+            {
+              "text": "cornetto",
+              "bucket": 0
+            },
+            {
+              "text": "studente",
+              "bucket": 1
+            },
+            {
+              "text": "pizza",
+              "bucket": 2
+            },
+            {
+              "text": "zaino",
+              "bucket": 1
+            },
+            {
+              "text": "amico",
+              "bucket": 0
+            },
+            {
+              "text": "amica",
+              "bucket": 2
+            },
+            {
+              "text": "spritz",
+              "bucket": 1
+            },
+            {
+              "text": "arancia",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Use uno before s + consonant or z, una (un') for feminine, un for the rest."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-02-l2-e06",
+          "stage": "practise",
+          "instruction": "Listen and choose.",
+          "audioText": "un'amica",
+          "question": "Which friend do you hear?",
+          "options": [
+            "a male friend",
+            "a female friend"
+          ],
+          "answer": 1,
+          "explanation": "Un'amica is feminine; un amico is masculine."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-02-l2-e07",
+          "stage": "practise",
+          "instruction": "Type the missing word.",
+          "sentence": "___ arancia",
+          "answers": [
+            "un'",
+            "un’",
+            "Un'"
+          ],
+          "explanation": "Arancia is feminine and starts with a vowel: un'arancia.",
+          "hint": "feminine, vowel"
+        },
+        {
+          "type": "translate",
+          "id": "a1-02-l2-e08",
+          "stage": "practise",
+          "instruction": "Translate.",
+          "direction": "en_it",
+          "source": "a coffee and a pizza",
+          "answers": [
+            "un caffè e una pizza"
+          ],
+          "explanation": "Caffè is masculine (un), pizza is feminine (una)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-02-l2-e09",
+          "stage": "use",
+          "instruction": "Answer out loud.",
+          "prompt": "You see a coffee, a croissant and an orange. Say each with a, like in a shop.",
+          "keywords": [
+            "un caffè",
+            "un cornetto",
+            "un'arancia"
+          ],
+          "modelAnswer": "Un caffè, un cornetto e un'arancia."
+        }
+      ]
+    },
+    {
+      "id": "a1-02-l3",
+      "title": "Il, lo, la, l'",
+      "minutes": 7,
+      "goal": "You can say the coffee, the pizza, the student, the friend.",
+      "takeaway": "il / la; lo before s + consonant or z; l' before a vowel (masculine or feminine).",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-02-l3-e01",
+          "stage": "warmup",
+          "instruction": "Type the missing word.",
+          "sentence": "___ studente",
+          "answers": [
+            "uno"
+          ],
+          "explanation": "Studente starts with s + consonant: uno."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l3-e02",
+          "stage": "learn",
+          "title": "Il, lo, la, l'",
+          "body": "**The** has four singular forms.\n\n| | maschile | femminile |\n|---|---|---|\n| most consonants | ==il== cornetto | ==la== pizza |\n| s + consonant, z | ==lo== studente, ==lo== zaino | |\n| vowel | ==l'==amico | ==l'==amica |\n\n> **l'** works for both genders: l'amico, l'amica.",
+          "examples": [
+            {
+              "it": "Il cornetto e la pizza.",
+              "en": "The croissant and the pizza."
+            },
+            {
+              "it": "Lo studente e l'amica.",
+              "en": "The student and the (female) friend."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-02-l3-e03",
+          "stage": "practise",
+          "instruction": "Choose the right answer.",
+          "prompt": "___ amica",
+          "options": [
+            "la",
+            "l'",
+            "lo"
+          ],
+          "answer": 1,
+          "explanation": "Before a vowel the article becomes l': l'amica."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-02-l3-e04",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "il",
+            "lo",
+            "l'"
+          ],
+          "items": [
+            {
+              "text": "cornetto",
+              "bucket": 0
+            },
+            {
+              "text": "studente",
+              "bucket": 1
+            },
+            {
+              "text": "zaino",
+              "bucket": 1
+            },
+            {
+              "text": "amico",
+              "bucket": 2
+            },
+            {
+              "text": "arancia",
+              "bucket": 2
+            },
+            {
+              "text": "gelato",
+              "bucket": 0
+            },
+            {
+              "text": "spritz",
+              "bucket": 1
+            },
+            {
+              "text": "albergo",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Use il before most consonants, lo before s + consonant or z, l' before a vowel."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-02-l3-e05",
+          "stage": "practise",
+          "instruction": "Listen and choose.",
+          "audioText": "l'amica",
+          "question": "Which friend do you hear?",
+          "options": [
+            "the male friend",
+            "the female friend"
+          ],
+          "answer": 1,
+          "explanation": "L'amica is feminine; l'amico is masculine."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-02-l3-e06",
+          "stage": "practise",
+          "instruction": "Read the sentences and choose.",
+          "sentences": [
+            "Lo studente è italiano.",
+            "Il studente è italiano."
+          ],
+          "question": "Which sentence is correct?",
+          "answer": 0,
+          "translations": [
+            "The student is Italian.",
+            "(wrong article)"
+          ],
+          "explanation": "Studente starts with s + consonant, so it takes lo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-02-l3-e07",
+          "stage": "practise",
+          "instruction": "Type the missing word.",
+          "sentence": "___ gelato",
+          "answers": [
+            "il",
+            "Il"
+          ],
+          "explanation": "Gelato is masculine and starts with a consonant: il."
+        },
+        {
+          "type": "transform",
+          "id": "a1-02-l3-e08",
+          "stage": "practise",
+          "instruction": "Rewrite the sentence.",
+          "source": "un'amica",
+          "cue": "→ the (l'…)",
+          "answers": [
+            "l'amica",
+            "l’amica"
+          ],
+          "explanation": "Un'amica becomes l'amica: the article l' is the same for the definite form."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-02-l3-e09",
+          "stage": "use",
+          "instruction": "Answer out loud.",
+          "prompt": "You see a pizza, a backpack and an orange. Say each one with the.",
+          "keywords": [
+            "la pizza",
+            "lo zaino",
+            "l'arancia"
+          ],
+          "modelAnswer": "La pizza, lo zaino, l'arancia."
+        }
+      ]
+    },
+    {
+      "id": "a1-02-l4",
+      "title": "Due cornetti",
+      "minutes": 8,
+      "goal": "You can make plurals and count to five.",
+      "takeaway": "Plurals: -o → -i, -a → -e, -e → -i. Words with an accent on the last letter do not change.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-02-l4-e01",
+          "stage": "warmup",
+          "instruction": "Type the missing word.",
+          "sentence": "___ amica",
+          "answers": [
+            "l'",
+            "l’",
+            "L'"
+          ],
+          "explanation": "Amica starts with a vowel, so the article is l'."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l4-e02",
+          "stage": "learn",
+          "title": "Il plurale",
+          "body": "Change the last letter:\n\n| singolare | plurale |\n|---|---|\n| cornett==o== | cornett==i== |\n| pizz==a== | pizz==e== |\n| latt==e== | latt==i== |\n\n> Words with an accent do not change: un caffè, due caffè.",
+          "examples": [
+            {
+              "it": "Un caffè e due cornetti.",
+              "en": "A coffee and two croissants."
+            },
+            {
+              "it": "Due pizze e tre gelati.",
+              "en": "Two pizzas and three ice creams."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l4-e03",
+          "stage": "learn",
+          "title": "Uno, due, tre…",
+          "body": "Numbers come before the noun.\n\n| 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|\n| ==un== / ==una== | ==due== | ==tre== | ==quattro== | ==cinque== |\n\n> After 1 you always use the plural noun.",
+          "examples": [
+            {
+              "it": "Tre cornetti, per favore.",
+              "en": "Three croissants, please."
+            },
+            {
+              "it": "Cinque caffè.",
+              "en": "Five coffees."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-02-l4-e04",
+          "stage": "practise",
+          "instruction": "Choose the right answer.",
+          "prompt": "due ___",
+          "options": [
+            "cornetti",
+            "cornetto",
+            "cornette"
+          ],
+          "answer": 0,
+          "explanation": "After two the noun is plural: -o becomes -i."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-02-l4-e05",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "-i",
+            "-e"
+          ],
+          "items": [
+            {
+              "text": "cornetto",
+              "bucket": 0
+            },
+            {
+              "text": "pizza",
+              "bucket": 1
+            },
+            {
+              "text": "gelato",
+              "bucket": 0
+            },
+            {
+              "text": "mela",
+              "bucket": 1
+            },
+            {
+              "text": "birra",
+              "bucket": 1
+            },
+            {
+              "text": "libro",
+              "bucket": 0
+            },
+            {
+              "text": "amica",
+              "bucket": 1
+            },
+            {
+              "text": "notte",
+              "bucket": 0
+            }
+          ],
+          "explanation": "The plural of -o and -e (m.) is -i; the plural of -a is -e."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-02-l4-e06",
+          "stage": "practise",
+          "instruction": "Listen and choose.",
+          "audioText": "Due caffè e tre cornetti.",
+          "question": "How many croissants?",
+          "options": [
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1,
+          "explanation": "Tre cornetti means three croissants."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-02-l4-e07",
+          "stage": "practise",
+          "instruction": "Type the missing word.",
+          "sentence": "una pizza, due ___",
+          "answers": [
+            "pizze"
+          ],
+          "explanation": "Pizza ends in -a, so the plural is pizze."
+        },
+        {
+          "type": "transform",
+          "id": "a1-02-l4-e08",
+          "stage": "practise",
+          "instruction": "Rewrite the sentence.",
+          "source": "un gelato e una birra",
+          "cue": "→ due…",
+          "answers": [
+            "due gelati e due birre"
+          ],
+          "explanation": "Gelato → gelati (-o to -i), birra → birre (-a to -e)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-02-l4-e09",
+          "stage": "use",
+          "instruction": "Answer out loud.",
+          "prompt": "You are at a café. Order one coffee and three croissants.",
+          "keywords": [
+            "un caffè",
+            "tre cornetti"
+          ],
+          "modelAnswer": "Un caffè e tre cornetti, per favore."
+        }
+      ]
+    },
+    {
+      "id": "a1-02-l5",
+      "title": "I, gli, le",
+      "minutes": 8,
+      "goal": "You can say the croissants, the friends, the pizzas, and order at a bar.",
+      "takeaway": "il → i; lo / l' (masculine) → gli; la / l' (feminine) → le.",
+      "exercises": [
+        {
+          "type": "transform",
+          "id": "a1-02-l5-e01",
+          "stage": "warmup",
+          "instruction": "Rewrite the sentence.",
+          "source": "un gelato",
+          "cue": "→ due…",
+          "answers": [
+            "due gelati"
+          ],
+          "explanation": "Gelato is masculine in -o, so the plural is -i."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-02-l5-e02",
+          "stage": "learn",
+          "title": "I, gli, le",
+          "body": "**The** also has plural forms.\n\n| singolare | plurale |\n|---|---|\n| ==il== cornetto | ==i== cornetti |\n| ==lo== zaino, ==l'==amico | ==gli== zaini, ==gli== amici |\n| ==la== pizza | ==le== pizze |\n| ==l'==amica | ==le== amiche |\n\n> Feminine always takes **le**: le pizze, le amiche.",
+          "examples": [
+            {
+              "it": "I cornetti e le pizze.",
+              "en": "The croissants and the pizzas."
+            },
+            {
+              "it": "Gli studenti e le amiche.",
+              "en": "The students and the (female) friends."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-02-l5-e03",
+          "stage": "practise",
+          "instruction": "Choose the right answer.",
+          "prompt": "___ cornetti",
+          "options": [
+            "i",
+            "gli",
+            "le"
+          ],
+          "answer": 0,
+          "explanation": "Il cornetto becomes i cornetti."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-02-l5-e04",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "i",
+            "gli",
+            "le"
+          ],
+          "items": [
+            {
+              "text": "cornetti",
+              "bucket": 0
+            },
+            {
+              "text": "zaini",
+              "bucket": 1
+            },
+            {
+              "text": "amici",
+              "bucket": 1
+            },
+            {
+              "text": "pizze",
+              "bucket": 2
+            },
+            {
+              "text": "amiche",
+              "bucket": 2
+            },
+            {
+              "text": "libri",
+              "bucket": 0
+            },
+            {
+              "text": "studenti",
+              "bucket": 1
+            },
+            {
+              "text": "birre",
+              "bucket": 2
+            }
+          ],
+          "explanation": "i for il words, gli for lo and masculine l' words, le for all feminine words."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-02-l5-e05",
+          "stage": "practise",
+          "instruction": "Listen and choose.",
+          "audioText": "gli amici",
+          "question": "Masculine or feminine?",
+          "options": [
+            "masculine",
+            "feminine"
+          ],
+          "answer": 0,
+          "explanation": "Gli goes with masculine plural words (gli amici)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-02-l5-e06",
+          "stage": "practise",
+          "instruction": "Type the missing word.",
+          "sentence": "___ pizze",
+          "answers": [
+            "le",
+            "Le"
+          ],
+          "explanation": "Pizze is feminine plural: le pizze."
+        },
+        {
+          "type": "transform",
+          "id": "a1-02-l5-e07",
+          "stage": "practise",
+          "instruction": "Rewrite the sentence.",
+          "source": "l'amica",
+          "cue": "→ plural (le…)",
+          "answers": [
+            "le amiche"
+          ],
+          "explanation": "Amica → amiche, and the article becomes le."
+        },
+        {
+          "type": "translate",
+          "id": "a1-02-l5-e08",
+          "stage": "practise",
+          "instruction": "Translate.",
+          "direction": "en_it",
+          "source": "the croissants and the pizzas",
+          "answers": [
+            "i cornetti e le pizze"
+          ],
+          "explanation": "Cornetti is masculine (i), pizze is feminine (le)."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-02-l5-e09",
+          "stage": "use",
+          "instruction": "Play the scene out loud.",
+          "scenario": "At a bar you order breakfast.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno! Dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno! Un caffè e due cornetti, per favore.",
+              "hint": "Order a coffee and two croissants. Per favore = please.",
+              "keywords": [
+                "un caffè",
+                "due cornetti"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ecco a Lei. Altro?"
+            },
+            {
+              "speaker": "you",
+              "text": "No, grazie. Arrivederci!",
+              "hint": "Say no thanks and goodbye.",
+              "keywords": [
+                "grazie",
+                "arrivederci"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il caffè",
+      "en": "coffee",
+      "example": "Un caffè, per favore."
+    },
+    {
+      "it": "il cornetto",
+      "en": "croissant",
+      "example": "Due cornetti e un caffè."
+    },
+    {
+      "it": "la pizza",
+      "en": "pizza",
+      "example": "Una pizza e una birra."
+    },
+    {
+      "it": "il gelato",
+      "en": "ice cream",
+      "example": "Un gelato, per favore."
+    },
+    {
+      "it": "la birra",
+      "en": "beer",
+      "example": "Una birra, grazie."
+    },
+    {
+      "it": "il latte",
+      "en": "milk",
+      "example": "Il caffè con il latte."
+    },
+    {
+      "it": "la mela",
+      "en": "apple",
+      "example": "Una mela e un'arancia."
+    },
+    {
+      "it": "l'arancia",
+      "en": "orange",
+      "example": "Un'arancia, per favore."
+    },
+    {
+      "it": "l'amico / l'amica",
+      "en": "friend",
+      "example": "Un amico e un'amica."
+    },
+    {
+      "it": "lo studente",
+      "en": "student",
+      "example": "Lo studente è italiano."
+    },
+    {
+      "it": "lo zaino",
+      "en": "backpack",
+      "example": "Lo zaino è qui."
+    },
+    {
+      "it": "il libro",
+      "en": "book",
+      "example": "Un libro e uno zaino."
+    },
+    {
+      "it": "la notte",
+      "en": "night",
+      "example": "Buonanotte!"
+    },
+    {
+      "it": "la città",
+      "en": "city",
+      "example": "La città di Roma."
+    },
+    {
+      "it": "il bar",
+      "en": "café, bar",
+      "example": "Il bar è aperto."
+    },
+    {
+      "it": "per favore",
+      "en": "please",
+      "example": "Un caffè, per favore."
+    },
+    {
+      "it": "due, tre, cinque",
+      "en": "two, three, five",
+      "example": "Due caffè e tre cornetti."
+    },
+    {
+      "it": "Dica.",
+      "en": "Go ahead. (shop assistant)",
+      "example": "Buongiorno! Dica."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-02-t1",
+      "rule": "-o maschile, -a femminile",
+      "tip": "Most nouns in -o are masculine, in -a feminine. For -e nouns, learn the article too.",
+      "example": {
+        "it": "Il gelato e la pizza.",
+        "en": "The ice cream and the pizza."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Which is feminine?",
+        "options": [
+          "il cornetto",
+          "la birra",
+          "il gelato"
+        ],
+        "answer": 1,
+        "explanation": "Birra ends in -a, so it is feminine."
+      }
+    },
+    {
+      "id": "a1-02-t2",
+      "rule": "Un, uno, una, un'",
+      "tip": "un before most masculine words, uno before s + consonant or z, una / un' for feminine.",
+      "example": {
+        "it": "Uno studente e un'amica.",
+        "en": "A student and a (female) friend."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ zaino",
+        "answers": [
+          "uno",
+          "Uno"
+        ],
+        "explanation": "Zaino starts with z, so it takes uno."
+      }
+    },
+    {
+      "id": "a1-02-t3",
+      "rule": "Il, lo, la, l'",
+      "tip": "The: il / lo / la; l' before a vowel (both genders). Lo goes before s + consonant or z.",
+      "example": {
+        "it": "Lo studente e l'amica.",
+        "en": "The student and the friend."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "___ amico",
+        "options": [
+          "il",
+          "lo",
+          "l'"
+        ],
+        "answer": 2,
+        "explanation": "Before a vowel the article is l'."
+      }
+    },
+    {
+      "id": "a1-02-t4",
+      "rule": "Plurali: -o→-i, -a→-e",
+      "tip": "Nouns: -o → -i, -a → -e, -e → -i. Words with a final accent do not change.",
+      "example": {
+        "it": "Due cornetti e tre pizze.",
+        "en": "Two croissants and three pizzas."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "tre ___ (pizza)",
+        "answers": [
+          "pizze"
+        ],
+        "explanation": "Pizza ends in -a: the plural is -e."
+      }
+    },
+    {
+      "id": "a1-02-t5",
+      "rule": "I, gli, le",
+      "tip": "Plural the: il → i, lo and l' (masc.) → gli, la and l' (fem.) → le.",
+      "example": {
+        "it": "Gli amici e le amiche.",
+        "en": "The friends."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "___ pizze",
+        "options": [
+          "i",
+          "gli",
+          "le"
+        ],
+        "answer": 2,
+        "explanation": "Feminine plural words take le."
+      }
+    }
+  ]
+}

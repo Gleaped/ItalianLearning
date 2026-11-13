@@ -1,89 +1,281 @@
 {
   "id": "a2r-01",
-  "level": "A2R",
+  "level": "A2",
   "title": "Il passato prossimo",
+  "format": 2,
+  "module": "a2-m1",
   "objective": "By the end you can say what you did yesterday or last weekend, choosing avere or essere correctly and using common irregular participles.",
   "grammarFocus": "Passato prossimo: avere vs essere, participle agreement with essere, common irregular participles, reflexive verbs in the past.",
   "remedialUnitIds": [],
   "lessons": [
     {
       "id": "a2r-01-l1",
-      "title": "Avere o essere?",
-      "minutes": 10,
+      "title": "Ho mangiato: avere + participio",
+      "minutes": 7,
+      "goal": "You can say what you did yesterday with avere + participio.",
+      "takeaway": "Ho / hai / ha… + participio: -are → -ato, -ere → -uto, -ire → -ito.",
       "exercises": [
         {
-          "type": "match_pairs",
+          "type": "multiple_choice",
           "id": "a2r-01-l1-e01",
-          "instruction": "Riscaldamento: abbina l'infinito al participio passato.",
-          "pairs": [
-            {
-              "left": "fare",
-              "right": "fatto"
-            },
-            {
-              "left": "prendere",
-              "right": "preso"
-            },
-            {
-              "left": "vedere",
-              "right": "visto"
-            },
-            {
-              "left": "dire",
-              "right": "detto"
-            },
-            {
-              "left": "scrivere",
-              "right": "scritto"
-            },
-            {
-              "left": "aprire",
-              "right": "aperto"
-            }
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta di avere.",
+          "prompt": "Noi ___ una riunione alle tre.",
+          "options": [
+            "abbiamo",
+            "avete",
+            "hanno",
+            "ho"
           ],
-          "explanation": "These irregular participles are among the most frequent in everyday Italian."
+          "answer": 0,
+          "explanation": "Avere in the present: noi abbiamo."
         },
         {
           "type": "grammar_note",
           "id": "a2r-01-l1-e02",
-          "title": "Il passato prossimo: avere o essere?",
-          "body": "**Form:** present of *avere* or *essere* + past participle.\n- -are → **-ato** (parlato), -ere → **-uto** (venduto), -ire → **-ito** (dormito)\n\n**Avere** with most verbs, especially those with a direct object: *Ho comprato il pane.* The participle does **not** agree with the subject: *Maria ha mangiato.*\n\n**Essere** with:\n- most verbs of movement and staying: andare, venire, arrivare, partire, entrare, uscire, tornare, restare, rimanere, stare\n- change of state: nascere, morire, diventare, crescere\n- succedere, piacere, costare\n- **all reflexive verbs**: *mi sono svegliato*\n\nWith essere the participle **agrees** with the subject like an adjective: *Luca è uscito, Anna è uscita, i ragazzi sono usciti, le ragazze sono uscite.*\n\nSome verbs use both: *Ho finito il lavoro* (with an object) but *Il film è finito* (no object). Same with cominciare, passare.",
+          "stage": "learn",
+          "title": "Ho + participio",
+          "body": "To say what you **did**, use **avere** (ho, hai, ha, abbiamo, avete, hanno) + the **participio**.\n\n| infinito | participio |\n|---|---|\n| parl==are== | parl==ato== |\n| vend==ere== | vend==uto== |\n| dorm==ire== | dorm==ito== |\n\n> With avere the participle never changes: *Anna ha mangiato*, *i ragazzi hanno mangiato*.",
           "examples": [
             {
               "it": "Ieri ho lavorato fino alle sei.",
               "en": "Yesterday I worked until six."
             },
             {
-              "it": "Mia sorella è partita per Roma.",
-              "en": "My sister left for Rome."
+              "it": "Abbiamo dormito otto ore.",
+              "en": "We slept eight hours."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-01-l1-e03",
+          "stage": "learn",
+          "title": "Non, già, ancora",
+          "body": "Put **non** before ho. **Già** and **ancora** sit between ho and the participle.\n\n| frase | significato |\n|---|---|\n| ==Non== ho mangiato. | I didn't eat. |\n| Ho ==già== mangiato. | I have already eaten. |\n| Non ho ==ancora== mangiato. | I haven't eaten yet. |\n\n> *Già* = already (positive). *Ancora* = yet (negative).",
+          "examples": [
+            {
+              "it": "Non ho ancora finito.",
+              "en": "I haven't finished yet."
             },
             {
-              "it": "Siamo rimasti a casa tutto il giorno.",
-              "en": "We stayed at home all day."
+              "it": "Abbiamo già pagato il conto.",
+              "en": "We have already paid the bill."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2r-01-l1-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni verbo nel gruppo del suo participio.",
+          "buckets": [
+            "-ato",
+            "-uto",
+            "-ito"
+          ],
+          "items": [
+            {
+              "text": "lavorare",
+              "bucket": 0
             },
             {
-              "it": "Che cosa è successo?",
-              "en": "What happened?"
+              "text": "ricevere",
+              "bucket": 1
+            },
+            {
+              "text": "capire",
+              "bucket": 2
+            },
+            {
+              "text": "aspettare",
+              "bucket": 0
+            },
+            {
+              "text": "credere",
+              "bucket": 1
+            },
+            {
+              "text": "dormire",
+              "bucket": 2
+            }
+          ],
+          "explanation": "The participle ending follows the infinitive: -are → -ato, -ere → -uto, -ire → -ito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-01-l1-e05",
+          "stage": "practise",
+          "instruction": "Completa con il passato prossimo.",
+          "sentence": "Ieri Marco ___ (lavorare) fino alle otto.",
+          "answers": [
+            "ha lavorato"
+          ],
+          "explanation": "Avere (ha) + participle in -ato.",
+          "hint": "lavorare – lui"
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-01-l1-e06",
+          "stage": "practise",
+          "instruction": "Completa con la parola giusta.",
+          "sentence": "Non ho ___ mangiato: ho fame!",
+          "answers": [
+            "ancora"
+          ],
+          "explanation": "In a negative sentence, ancora means yet and goes before the participle.",
+          "hint": "yet"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-01-l1-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase giusta.",
+          "sentence": "Ieri io ha aspettato l'autobus per mezz'ora.",
+          "answers": [
+            "Ieri io ho aspettato l'autobus per mezz'ora.",
+            "Ieri ho aspettato l'autobus per mezz'ora."
+          ],
+          "explanation": "Io goes with ho, not ha: the auxiliary must match the subject."
+        },
+        {
+          "type": "transform",
+          "id": "a2r-01-l1-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Mangio una pizza.",
+          "cue": "Ieri sera…",
+          "answers": [
+            "Ieri sera ho mangiato una pizza.",
+            "Ieri sera io ho mangiato una pizza."
+          ],
+          "explanation": "Present becomes avere + participle: ho mangiato.",
+          "hint": "mangiare → mangiato"
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-01-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Che cosa hai mangiato ieri a pranzo? E che cosa hai bevuto?",
+          "keywords": [
+            "ho mangiato",
+            "ho bevuto",
+            "ieri"
+          ],
+          "modelAnswer": "Ieri a pranzo ho mangiato un panino e ho bevuto un'acqua frizzante."
+        }
+      ]
+    },
+    {
+      "id": "a2r-01-l2",
+      "title": "Sono andato/a: essere + participio",
+      "minutes": 7,
+      "goal": "You can say where you went and make the participle agree.",
+      "takeaway": "Movement and change verbs take essere; the participle agrees: -o, -a, -i, -e.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2r-01-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con il passato prossimo.",
+          "sentence": "Ieri io ___ (comprare) il pane.",
+          "answers": [
+            "ho comprato"
+          ],
+          "explanation": "Most verbs take avere: ho comprato.",
+          "hint": "comprare – io"
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-01-l2-e02",
+          "stage": "learn",
+          "title": "Verbi con essere",
+          "body": "Verbs of **movement** and **change** take **essere**, not avere.\n\n| gruppo | verbi |\n|---|---|\n| movimento | ==andare, venire, arrivare, partire, uscire, tornare== |\n| restare | ==stare, restare, rimanere== |\n| cambiamento | ==nascere, diventare== |\n\n> Not *ho andato*: say *sono andato*.",
+          "examples": [
+            {
+              "it": "Siamo arrivati alle otto.",
+              "en": "We arrived at eight."
+            },
+            {
+              "it": "Sono stato a casa tutto il giorno.",
+              "en": "I stayed at home all day."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-01-l2-e03",
+          "stage": "learn",
+          "title": "L'accordo",
+          "body": "With essere the participle **agrees** with the subject, like an adjective.\n\n| soggetto | participio |\n|---|---|\n| Luca | è andat==o== |\n| Anna | è andat==a== |\n| Luca e Piero | sono andat==i== |\n| Anna e Sara | sono andat==e== |\n\n> A mixed group is always masculine plural: *Luca e Anna sono andati*.",
+          "examples": [
+            {
+              "it": "Mia sorella è partita ieri.",
+              "en": "My sister left yesterday."
+            },
+            {
+              "it": "I miei amici sono tornati tardi.",
+              "en": "My friends came back late."
             }
           ]
         },
         {
           "type": "multiple_choice",
-          "id": "a2r-01-l1-e03",
+          "id": "a2r-01-l2-e04",
+          "stage": "practise",
           "instruction": "Scegli la forma giusta.",
           "prompt": "Ieri Anna ___ in centro con le amiche.",
           "options": [
-            "ha andato",
             "è andata",
+            "ha andato",
             "è andato",
             "ha andata"
           ],
-          "answer": 1,
-          "explanation": "Andare takes essere; the participle agrees with Anna: è andata."
+          "answer": 0,
+          "explanation": "Andare takes essere and the participle agrees with Anna: è andata."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2r-01-l2-e05",
+          "stage": "practise",
+          "instruction": "Metti ogni verbo nel gruppo giusto: avere o essere?",
+          "buckets": [
+            "avere",
+            "essere"
+          ],
+          "items": [
+            {
+              "text": "mangiare",
+              "bucket": 0
+            },
+            {
+              "text": "uscire",
+              "bucket": 1
+            },
+            {
+              "text": "comprare",
+              "bucket": 0
+            },
+            {
+              "text": "arrivare",
+              "bucket": 1
+            },
+            {
+              "text": "lavorare",
+              "bucket": 0
+            },
+            {
+              "text": "tornare",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Movement verbs (uscire, arrivare, tornare) take essere; most other verbs take avere."
         },
         {
           "type": "conjugation",
-          "id": "a2r-01-l1-e04",
+          "id": "a2r-01-l2-e06",
+          "stage": "practise",
           "instruction": "Passato prossimo di andare. Attenzione al genere.",
           "verb": "andare",
           "tense": "passato prossimo",
@@ -117,29 +309,20 @@
         },
         {
           "type": "gap_fill",
-          "id": "a2r-01-l1-e05",
-          "instruction": "Completa con il passato prossimo.",
-          "sentence": "Stamattina Luca ___ (prendere) l'autobus delle sette.",
-          "answers": [
-            "ha preso"
-          ],
-          "hint": "prendere – lui (participio irregolare)",
-          "explanation": "Prendere takes avere and has the irregular participle preso."
-        },
-        {
-          "type": "gap_fill",
-          "id": "a2r-01-l1-e06",
+          "id": "a2r-01-l2-e07",
+          "stage": "practise",
           "instruction": "Completa con il passato prossimo.",
           "sentence": "Sabato le ragazze ___ (uscire) alle dieci di sera.",
           "answers": [
             "sono uscite"
           ],
-          "hint": "uscire – loro (f.)",
-          "explanation": "Uscire takes essere; feminine plural subject → uscite."
+          "explanation": "Uscire takes essere; feminine plural subject → uscite.",
+          "hint": "uscire – loro (f.)"
         },
         {
           "type": "sentence_build",
-          "id": "a2r-01-l1-e07",
+          "id": "a2r-01-l2-e08",
+          "stage": "practise",
           "instruction": "Metti le parole in ordine.",
           "translation": "Yesterday we went to the doctor's.",
           "tiles": [
@@ -153,74 +336,210 @@
             "abbiamo",
             "andato"
           ],
-          "explanation": "Andare → essere; 'we' (mixed or masculine) → andati. Dal medico = to the doctor's."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "a2r-01-l1-e08",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Ho comprato il pane e sono tornato a casa.",
-          "answers": [
-            "Ho comprato il pane e sono tornato a casa."
-          ],
-          "slow": true,
-          "explanation": "One verb with avere (ho comprato), one with essere (sono tornato)."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "a2r-01-l1-e09",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Sabato sono andato al mercato e ho comprato la frutta.",
-          "translation": "On Saturday I went to the market and bought some fruit."
+          "explanation": "Andare takes essere; for 'we' the participle is andati. Dal medico = to the doctor's."
         },
         {
           "type": "speak_respond",
-          "id": "a2r-01-l1-e10",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Che cosa hai fatto ieri sera?",
+          "id": "a2r-01-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Dove sei andato o andata sabato scorso? Con chi?",
           "keywords": [
-            "ho",
+            "sono andato",
+            "sono andata",
             "sono",
-            "ieri sera"
+            "siamo"
           ],
-          "modelAnswer": "Ieri sera sono rimasto a casa. Ho cucinato la pasta, ho guardato un film e sono andato a letto presto.",
-          "explanation": "Mix avere verbs (ho cucinato, ho guardato) and essere verbs (sono rimasto, sono andato)."
+          "modelAnswer": "Sabato scorso sono andato/a al mare con degli amici. Siamo tornati la sera tardi."
         }
       ]
     },
     {
-      "id": "a2r-01-l2",
-      "title": "Participi irregolari e riflessivi",
-      "minutes": 10,
+      "id": "a2r-01-l3",
+      "title": "Fatto, detto, preso: participi irregolari",
+      "minutes": 7,
+      "goal": "You can use the 11 most common irregular participles.",
+      "takeaway": "Learn them as a set: fatto, detto, letto, scritto, preso, messo, chiuso, visto, aperto, perso, risposto.",
       "exercises": [
         {
-          "type": "gap_fill",
-          "id": "a2r-01-l2-e01",
-          "instruction": "Riscaldamento: completa con il passato prossimo.",
-          "sentence": "Ieri il treno ___ (arrivare) con mezz'ora di ritardo.",
-          "answers": [
-            "è arrivato"
+          "type": "multiple_choice",
+          "id": "a2r-01-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Anna ___ a casa alle sei.",
+          "options": [
+            "è tornata",
+            "ha tornato",
+            "è tornato",
+            "ha tornata"
           ],
-          "hint": "arrivare – lui",
-          "explanation": "Arrivare takes essere; il treno is masculine singular."
+          "answer": 0,
+          "explanation": "Tornare takes essere; Anna → tornata."
         },
         {
           "type": "grammar_note",
-          "id": "a2r-01-l2-e02",
-          "title": "Participi irregolari e verbi riflessivi",
-          "body": "**Common irregular participles** – learn them as a set:\n- fare → **fatto**, dire → **detto**, leggere → **letto**, scrivere → **scritto**\n- prendere → **preso**, mettere → **messo**, chiudere → **chiuso**, decidere → **deciso**\n- vedere → **visto**, aprire → **aperto**, perdere → **perso**, rispondere → **risposto**\n- essere → **stato** (with essere: *sono stato/a*), venire → **venuto**, rimanere → **rimasto**, nascere → **nato**\n\n**Reflexive verbs** always take essere, and the participle agrees with the subject. The pronoun goes before the auxiliary:\n- *mi sono svegliato/a, ti sei alzato/a, si è vestito/a, ci siamo divertiti/e, vi siete riposati/e, si sono sposati/e*",
+          "id": "a2r-01-l3-e02",
+          "stage": "learn",
+          "title": "Fatto, detto, letto…",
+          "body": "Some participles are **irregular**. Learn these seven (all with avere).\n\n| infinito | participio | esempio |\n|---|---|---|\n| fare | ==fatto== | ho fatto |\n| dire | ==detto== | ho detto |\n| leggere | ==letto== | ho letto |\n| scrivere | ==scritto== | ho scritto |\n| prendere | ==preso== | ho preso |\n| mettere | ==messo== | ho messo |\n| chiudere | ==chiuso== | ho chiuso |\n\n> Not *ho prenduto*: irregular means you must memorise it.",
           "examples": [
             {
-              "it": "Ho perso le chiavi di casa.",
-              "en": "I've lost my house keys."
+              "it": "Ho letto il tuo messaggio.",
+              "en": "I read your message."
             },
             {
-              "it": "Il medico mi ha detto di riposare.",
-              "en": "The doctor told me to rest."
+              "it": "Dove hai messo le chiavi?",
+              "en": "Where did you put the keys?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-01-l3-e03",
+          "stage": "learn",
+          "title": "Visto, aperto, stato…",
+          "body": "More irregular participles.\n\n| infinito | participio |\n|---|---|\n| vedere | ==visto== |\n| aprire | ==aperto== |\n| perdere | ==perso== |\n| rispondere | ==risposto== |\n| essere | ==stato== |\n| venire | ==venuto== |\n| rimanere | ==rimasto== |\n| nascere | ==nato== |\n\n> The last four take essere: *sono stato/a, venuto/a, rimasto/a, nato/a*.",
+          "examples": [
+            {
+              "it": "Abbiamo visto un bel film.",
+              "en": "We saw a nice film."
             },
             {
-              "it": "Stamattina mi sono svegliata alle sei.",
-              "en": "This morning I woke up at six."
+              "it": "Mia madre è nata a Napoli.",
+              "en": "My mother was born in Naples."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2r-01-l3-e04",
+          "stage": "practise",
+          "instruction": "Abbina l'infinito al participio passato.",
+          "pairs": [
+            {
+              "left": "fare",
+              "right": "fatto"
+            },
+            {
+              "left": "vedere",
+              "right": "visto"
+            },
+            {
+              "left": "scrivere",
+              "right": "scritto"
+            },
+            {
+              "left": "perdere",
+              "right": "perso"
+            },
+            {
+              "left": "aprire",
+              "right": "aperto"
+            },
+            {
+              "left": "rispondere",
+              "right": "risposto"
+            }
+          ],
+          "explanation": "These irregular participles are very frequent in everyday Italian."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-01-l3-e05",
+          "stage": "practise",
+          "instruction": "Scegli il participio giusto.",
+          "prompt": "Che cosa ti ha ___ il medico?",
+          "options": [
+            "detto",
+            "diciuto",
+            "dito",
+            "dicto"
+          ],
+          "answer": 0,
+          "explanation": "Dire → detto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-01-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa con il participio.",
+          "sentence": "Dove hai ___ (mettere) il passaporto?",
+          "answers": [
+            "messo"
+          ],
+          "explanation": "Mettere → messo.",
+          "hint": "mettere → ?"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2r-01-l3-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase giusta.",
+          "sentence": "Mia madre ha nata a Napoli nel 1960.",
+          "answers": [
+            "Mia madre è nata a Napoli nel 1960."
+          ],
+          "explanation": "Nascere takes essere, and the participle agrees with the subject: nata."
+        },
+        {
+          "type": "translate",
+          "id": "a2r-01-l3-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I read your message and answered at once.",
+          "answers": [
+            "Ho letto il tuo messaggio e ho risposto subito.",
+            "Ho letto il tuo messaggio e ti ho risposto subito.",
+            "Ho letto il tuo messaggio e ho risposto immediatamente.",
+            "Ho letto il tuo messaggio e ho risposto."
+          ],
+          "explanation": "Leggere → letto and rispondere → risposto, both with avere."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2r-01-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Che cosa hai letto, visto o scritto questa settimana?",
+          "keywords": [
+            "ho letto",
+            "ho visto",
+            "ho scritto"
+          ],
+          "modelAnswer": "Questa settimana ho letto un libro, ho visto un film e ho scritto una mail al mio capo."
+        }
+      ]
+    },
+    {
+      "id": "a2r-01-l4",
+      "title": "Mi sono svegliato/a: i riflessivi",
+      "minutes": 7,
+      "goal": "You can describe your morning with reflexive verbs in the past.",
+      "takeaway": "Reflexive verbs always take essere: mi sono svegliato/a, ti sei alzato/a…",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2r-01-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con il passato prossimo.",
+          "sentence": "Anna e Sara ___ (partire) ieri.",
+          "answers": [
+            "sono partite"
+          ],
+          "explanation": "Partire takes essere; feminine plural → partite.",
+          "hint": "partire – loro (f.)"
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-01-l4-e02",
+          "stage": "learn",
+          "title": "Mi sono svegliato/a",
+          "body": "**Reflexive** verbs always take **essere**. The pronoun comes first, and the participle agrees.\n\n| persona | passato prossimo |\n|---|---|\n| io | ==mi sono== svegliat==o/a== |\n| tu | ==ti sei== svegliat==o/a== |\n| lui/lei | ==si è== svegliat==o/a== |\n| noi | ==ci siamo== svegliat==i/e== |\n| voi | ==vi siete== svegliat==i/e== |\n| loro | ==si sono== svegliat==i/e== |\n\n> *Ho svegliato Luca* = I woke Luca up. *Mi sono svegliato* = I woke up.",
+          "examples": [
+            {
+              "it": "Stamattina mi sono alzato alle sette.",
+              "en": "This morning I got up at seven."
             },
             {
               "it": "Ci siamo divertiti molto alla festa.",
@@ -229,22 +548,42 @@
           ]
         },
         {
-          "type": "flashcard",
-          "id": "a2r-01-l2-e03",
-          "front": "mettere → ?",
-          "back": "messo",
-          "example": "Dove hai messo le chiavi?"
+          "type": "minimal_pair",
+          "id": "a2r-01-l4-e03",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Ho svegliato i bambini alle sette.",
+            "Mi sono svegliato alle sette."
+          ],
+          "question": "In which sentence did the speaker wake up (and not wake someone else)?",
+          "answer": 1,
+          "translations": [
+            "I woke the children up at seven.",
+            "I woke up at seven."
+          ],
+          "explanation": "A reflexive verb with essere means the action falls on the subject: mi sono svegliato."
         },
         {
-          "type": "flashcard",
-          "id": "a2r-01-l2-e04",
-          "front": "rispondere → ?",
-          "back": "risposto",
-          "example": "Nessuno ha risposto al telefono."
+          "type": "listen_choose",
+          "id": "a2r-01-l4-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Stamattina mi sono svegliata alle sei, ho fatto colazione e sono uscita di casa alle sette. Purtroppo ho perso l'autobus e sono arrivata in ufficio in ritardo.",
+          "question": "Perché è arrivata in ritardo?",
+          "options": [
+            "Si è svegliata tardi.",
+            "Ha perso l'autobus.",
+            "Ha fatto colazione al bar.",
+            "È uscita alle otto."
+          ],
+          "answer": 1,
+          "explanation": "Ho perso l'autobus: she missed the bus."
         },
         {
           "type": "conjugation",
-          "id": "a2r-01-l2-e05",
+          "id": "a2r-01-l4-e05",
+          "stage": "practise",
           "instruction": "Passato prossimo di svegliarsi. Ricorda il pronome!",
           "verb": "svegliarsi",
           "tense": "passato prossimo",
@@ -277,48 +616,195 @@
           "explanation": "Reflexive pronoun + essere + participle that agrees with the subject."
         },
         {
+          "type": "gap_fill",
+          "id": "a2r-01-l4-e06",
+          "stage": "practise",
+          "instruction": "Completa con il passato prossimo.",
+          "sentence": "Ieri sera io e Marta ___ (divertirsi) molto alla festa.",
+          "answers": [
+            "ci siamo divertiti",
+            "ci siamo divertite"
+          ],
+          "explanation": "Reflexive verbs take essere: ci siamo divertiti/e.",
+          "hint": "divertirsi – noi"
+        },
+        {
+          "type": "transform",
+          "id": "a2r-01-l4-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Mi alzo alle sette.",
+          "cue": "Ieri…",
+          "answers": [
+            "Ieri mi sono alzato alle sette.",
+            "Ieri mi sono alzata alle sette.",
+            "Ieri io mi sono alzato alle sette.",
+            "Ieri io mi sono alzata alle sette."
+          ],
+          "explanation": "The present reflexive becomes mi sono + participle.",
+          "hint": "alzarsi"
+        },
+        {
+          "type": "free_write",
+          "id": "a2r-01-l4-e08",
+          "stage": "use",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Racconta la tua mattina di oggi (almeno 30 parole): a che ora ti sei svegliato/a, che cosa hai fatto, quando sei uscito/a.",
+          "minWords": 30,
+          "checklist": [
+            "Ho usato almeno due verbi riflessivi con essere.",
+            "Il participio concorda con me (-o o -a).",
+            "Ho usato anche un verbo con avere (ho fatto, ho preso…)."
+          ],
+          "modelAnswer": "Stamattina mi sono svegliato/a alle sei e mezza. Mi sono lavato/a e mi sono vestito/a, poi ho fatto colazione con un caffè e due biscotti. Sono uscito/a di casa alle sette e ho preso l'autobus per andare al lavoro."
+        }
+      ]
+    },
+    {
+      "id": "a2r-01-l5",
+      "title": "Ieri, scorso, fa: raccontare il weekend",
+      "minutes": 8,
+      "goal": "You can tell a friend what you did at the weekend.",
+      "takeaway": "Use time words (ieri, scorso, fa) and check the auxiliary: finire and cominciare take avere or essere.",
+      "exercises": [
+        {
           "type": "multiple_choice",
-          "id": "a2r-01-l2-e06",
-          "instruction": "Scegli il participio giusto.",
-          "prompt": "Che cosa ti ha ___ il medico?",
+          "id": "a2r-01-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Ieri Luca ___ tardi.",
           "options": [
-            "diciuto",
-            "dito",
-            "detto",
-            "dicto"
+            "si è svegliato",
+            "ha svegliato",
+            "si ha svegliato",
+            "è svegliato"
           ],
-          "answer": 2,
-          "explanation": "Dire → detto."
+          "answer": 0,
+          "explanation": "Reflexive verbs take essere: si è svegliato."
         },
         {
-          "type": "error_correction",
-          "id": "a2r-01-l2-e07",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Mia madre ha nata a Napoli nel 1960.",
-          "answers": [
-            "Mia madre è nata a Napoli nel 1960."
+          "type": "grammar_note",
+          "id": "a2r-01-l5-e02",
+          "stage": "learn",
+          "title": "Quando?",
+          "body": "Time words say **when**. **Fa** (ago) goes after the time.\n\n| espressione | significato |\n|---|---|\n| ==ieri== sera | last night |\n| sabato ==scorso== | last Saturday |\n| la settimana ==scorsa== | last week |\n| due giorni ==fa== | two days ago |\n| ==stamattina== | this morning |\n\n> Not *fa due giorni*: say *due giorni fa*.",
+          "examples": [
+            {
+              "it": "Due giorni fa sono andato dal medico.",
+              "en": "Two days ago I went to the doctor."
+            },
+            {
+              "it": "La settimana scorsa abbiamo cambiato casa.",
+              "en": "Last week we moved house."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2r-01-l5-e03",
+          "stage": "learn",
+          "title": "Finire, cominciare, passare",
+          "body": "These verbs take **avere** with an object and **essere** without one.\n\n| con oggetto: avere | senza oggetto: essere |\n|---|---|\n| Ho ==finito== il lavoro. | Il film è ==finito==. |\n| Ho ==cominciato== il corso. | La lezione è ==cominciata==. |\n| Ho ==passato== le vacanze al mare. | Il tempo è ==passato== in fretta. |",
+          "examples": [
+            {
+              "it": "Ho finito il lavoro alle sei.",
+              "en": "I finished work at six."
+            },
+            {
+              "it": "Il concerto è finito tardi.",
+              "en": "The concert ended late."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2r-01-l5-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "con oggetto → avere",
+            "senza oggetto → essere"
           ],
-          "explanation": "Nascere is a change-of-state verb: it takes essere, and the participle agrees (nata)."
+          "items": [
+            {
+              "text": "Ho finito il lavoro.",
+              "bucket": 0
+            },
+            {
+              "text": "Il film è finito.",
+              "bucket": 1
+            },
+            {
+              "text": "La lezione è cominciata.",
+              "bucket": 1
+            },
+            {
+              "text": "Ho cominciato un corso.",
+              "bucket": 0
+            },
+            {
+              "text": "Ho passato le vacanze in Sicilia.",
+              "bucket": 0
+            },
+            {
+              "text": "Il tempo è passato in fretta.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "With a direct object these verbs take avere; with no object they take essere."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2r-01-l5-e05",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "La lezione ___ alle sei.",
+          "options": [
+            "è cominciata",
+            "ha cominciato",
+            "è cominciato",
+            "ha cominciata"
+          ],
+          "answer": 0,
+          "explanation": "No object → essere, and la lezione is feminine: è cominciata."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2r-01-l5-e06",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Ho visto Marco due giorni ___.",
+          "answers": [
+            "fa"
+          ],
+          "explanation": "Fa (ago) goes after the time expression.",
+          "hint": "ago"
+        },
+        {
+          "type": "sentence_build",
+          "id": "a2r-01-l5-e07",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "Last week we stayed at home.",
+          "tiles": [
+            "La",
+            "settimana",
+            "scorsa",
+            "siamo",
+            "rimasti",
+            "a",
+            "casa"
+          ],
+          "distractors": [
+            "abbiamo",
+            "rimasto"
+          ],
+          "explanation": "Rimanere takes essere; for 'we' the participle is rimasti."
         },
         {
           "type": "translate",
-          "id": "a2r-01-l2-e08",
-          "instruction": "Traduci in italiano.",
-          "direction": "en_it",
-          "source": "I woke up late and missed the train.",
-          "answers": [
-            "Mi sono svegliato tardi e ho perso il treno.",
-            "Mi sono svegliata tardi e ho perso il treno.",
-            "Io mi sono svegliato tardi e ho perso il treno.",
-            "Io mi sono svegliata tardi e ho perso il treno.",
-            "Mi sono svegliato in ritardo e ho perso il treno.",
-            "Mi sono svegliata in ritardo e ho perso il treno."
-          ],
-          "explanation": "To miss a train/bus = perdere il treno/l'autobus (participle perso)."
-        },
-        {
-          "type": "translate",
-          "id": "a2r-01-l2-e09",
+          "id": "a2r-01-l5-e08",
+          "stage": "practise",
           "instruction": "Traduci in inglese.",
           "direction": "it_en",
           "source": "Abbiamo visto un film e poi siamo usciti.",
@@ -335,34 +821,20 @@
           "explanation": "Vedere → visto (avere); uscire → usciti (essere, agreeing with 'we')."
         },
         {
-          "type": "listen_choose",
-          "id": "a2r-01-l2-e10",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Stamattina mi sono svegliata alle sei, ho fatto colazione e sono uscita di casa alle sette. Purtroppo ho perso l'autobus e sono arrivata in ufficio in ritardo.",
-          "question": "Perché è arrivata in ritardo?",
-          "options": [
-            "Si è svegliata tardi.",
-            "Ha perso l'autobus.",
-            "Ha fatto colazione al bar.",
-            "È uscita alle otto."
-          ],
-          "answer": 1,
-          "explanation": "Ho perso l'autobus – she missed the bus."
-        },
-        {
           "type": "roleplay",
-          "id": "a2r-01-l2-e11",
-          "instruction": "Parla con il tuo amico Marco. Rispondi ad alta voce quando tocca a te.",
+          "id": "a2r-01-l5-e09",
+          "stage": "use",
+          "instruction": "Parla ad alta voce quando tocca a te.",
           "scenario": "It's Monday. Your friend Marco asks what you did at the weekend.",
           "turns": [
             {
               "speaker": "npc",
-              "text": "Ciao! Che cosa hai fatto nel fine settimana?"
+              "text": "Ciao {name}! Che cosa hai fatto nel fine settimana?"
             },
             {
               "speaker": "you",
               "text": "Sabato mattina ho fatto la spesa e poi ho pulito casa.",
-              "hint": "Two things you did on Saturday morning.",
+              "hint": "Two things you did on Saturday morning (avere).",
               "keywords": [
                 "sabato",
                 "ho"
@@ -370,14 +842,14 @@
             },
             {
               "speaker": "npc",
-              "text": "E la sera sei uscito?"
+              "text": "E la sera siete usciti?"
             },
             {
               "speaker": "you",
-              "text": "Sì, sono uscito con dei colleghi e abbiamo mangiato una pizza.",
+              "text": "Sì, siamo usciti con dei colleghi e abbiamo mangiato una pizza.",
               "hint": "Uscire takes essere.",
               "keywords": [
-                "sono",
+                "siamo",
                 "abbiamo"
               ]
             },
@@ -387,33 +859,18 @@
             },
             {
               "speaker": "you",
-              "text": "Domenica mi sono riposato e ho letto un libro.",
-              "hint": "Riposarsi is reflexive → essere.",
+              "text": "Domenica ho dormito fino a tardi e ho letto un libro.",
+              "hint": "Two verbs with avere.",
               "keywords": [
                 "domenica",
-                "mi sono"
+                "ho"
               ]
             },
             {
               "speaker": "npc",
               "text": "Beato te! Io invece ho lavorato tutto il giorno."
             }
-          ],
-          "explanation": "Check: essere with uscire and riposarsi, avere with fare, pulire, mangiare, leggere."
-        },
-        {
-          "type": "free_write",
-          "id": "a2r-01-l2-e12",
-          "instruction": "Scrivi un breve testo.",
-          "prompt": "Scrivi che cosa hai fatto ieri, dalla mattina alla sera (almeno 40 parole). Usa almeno tre verbi con essere e tre con avere.",
-          "minWords": 40,
-          "checklist": [
-            "Ho usato almeno tre verbi con avere.",
-            "Ho usato almeno tre verbi con essere (anche un riflessivo).",
-            "Con essere, il participio concorda con il soggetto.",
-            "Ho usato almeno due participi irregolari (fatto, preso, visto…)."
-          ],
-          "modelAnswer": "Ieri mi sono svegliato alle sette e ho fatto colazione a casa. Poi ho preso l'autobus e sono andato al lavoro. A pranzo ho mangiato un panino con un collega. Sono tornato a casa alle sei, ho cucinato e ho visto un film. Sono andato a letto verso le undici."
+          ]
         }
       ]
     }
@@ -570,6 +1027,24 @@
         ],
         "answer": 0,
         "explanation": "No object → essere; la lezione → cominciata."
+      }
+    },
+    {
+      "id": "a2r-01-t5",
+      "rule": "Riflessivi: sempre essere",
+      "tip": "Reflexive verbs always take essere: mi sono alzato/a, ci siamo divertiti/e.",
+      "example": {
+        "it": "Ieri sera ci siamo divertiti molto.",
+        "en": "Last night we had a great time."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Stamattina io ___ (alzarsi) alle sei.",
+        "answers": [
+          "mi sono alzato",
+          "mi sono alzata"
+        ],
+        "hint": "alzarsi – io"
       }
     }
   ]

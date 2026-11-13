@@ -7,7 +7,7 @@
   "remedialUnitIds": [
     "c1-01",
     "b2-02",
-    "b1-09"
+    "cg-03"
   ],
   "lessons": [
     {
@@ -154,7 +154,7 @@
           "id": "celi-04-l1-e09",
           "instruction": "Leggi la traccia e l'e-mail di un candidato. Poi rispondi.",
           "title": "Una traccia B.2 e una risposta",
-          "passage": "TRACCIA: Hai visto su un sito l'annuncio di un corso serale di fotografia. Scrivi un'e-mail alla scuola (80–100 parole): presentati, chiedi quanto costa il corso e in quali giorni si svolge, e domanda se serve una macchina fotografica professionale.\n\nE-MAIL DEL CANDIDATO:\nGentile segreteria,\nmi chiamo Richard e Le scrivo perché ho visto sul vostro sito l'annuncio del corso serale di fotografia. Sono un appassionato di fotografia da molti anni, ma non ho mai seguito un corso. Vorrei sapere in quali giorni si svolgono le lezioni e se è necessario avere una macchina fotografica professionale, perché per ora uso solo il telefono. Le sarei grato se potesse rispondermi al più presto, perché vorrei iscrivermi prima dell'inizio delle lezioni.\nIn attesa di una Sua risposta, porgo cordiali saluti.\nRichard",
+          "passage": "TRACCIA: Hai visto su un sito l'annuncio di un corso serale di fotografia. Scrivi un'e-mail alla scuola (80–100 parole): presentati, chiedi quanto costa il corso e in quali giorni si svolge, e domanda se serve una macchina fotografica professionale.\n\nE-MAIL DEL CANDIDATO:\nGentile segreteria,\nmi chiamo {name} e Le scrivo perché ho visto sul vostro sito l'annuncio del corso serale di fotografia. Sono un appassionato di fotografia da molti anni, ma non ho mai seguito un corso. Vorrei sapere in quali giorni si svolgono le lezioni e se è necessario avere una macchina fotografica professionale, perché per ora uso solo il telefono. Le sarei grato se potesse rispondermi al più presto, perché vorrei iscrivermi prima dell'inizio delle lezioni.\nIn attesa di una Sua risposta, porgo cordiali saluti.\n{name}",
           "questions": [
             {
               "question": "Quale punto della traccia manca nell'e-mail?",
@@ -202,7 +202,7 @@
             "Ho controllato verbi, accordi e preposizioni (competenza grammaticale).",
             "Ho scritto tra 80 e 100 parole."
           ],
-          "modelAnswer": "Gentile signor Ferri,\nLe scrivo per segnalare che da due settimane l'ascensore del nostro palazzo, in via Verdi 12, è guasto. Nonostante le nostre telefonate, finora nessun tecnico è venuto a ripararlo. La situazione causa molti disagi: io abito al quinto piano e ogni giorno devo portare la spesa a piedi, ma il problema è ancora più grave per i condomini anziani, che ormai escono pochissimo. Le sarei grato se potesse far intervenire un tecnico entro venerdì prossimo.\nIn attesa di un Suo cortese riscontro, porgo cordiali saluti.\nRichard Smith",
+          "modelAnswer": "Gentile signor Ferri,\nLe scrivo per segnalare che da due settimane l'ascensore del nostro palazzo, in via Verdi 12, è guasto. Nonostante le nostre telefonate, finora nessun tecnico è venuto a ripararlo. La situazione causa molti disagi: io abito al quinto piano e ogni giorno devo portare la spesa a piedi, ma il problema è ancora più grave per i condomini anziani, che ormai escono pochissimo. Le sarei grato se potesse far intervenire un tecnico entro venerdì prossimo.\nIn attesa di un Suo cortese riscontro, porgo cordiali saluti.\n{name} Smith",
           "explanation": "Nel modello: tre punti della traccia tutti svolti, registro formale costante, nonostante + nome (nonostante le nostre telefonate), richiesta cortese con condizionale + congiuntivo imperfetto."
         },
         {
@@ -602,7 +602,7 @@
             "Ho controllato verbi, accordi e preposizioni (competenza grammaticale).",
             "Ho scritto tra 80 e 100 parole."
           ],
-          "modelAnswer": "Cara Sophie,\nche bella notizia! Sono davvero contento per te. Per la casa, ti consiglio di cercare prima una stanza in affitto per qualche mese: così conosci i quartieri e poi scegli con calma. Fai attenzione agli annunci troppo convenienti e non mandare mai soldi prima di aver visto l'appartamento. Per la lingua, iscriviti a un corso, ma soprattutto parla con tutti: al bar, al mercato, con i vicini. Io ho imparato così! Quando arrivi, ti vengo a trovare e ti porto a mangiare in un posto che conosco io.\nUn abbraccio,\nRichard",
+          "modelAnswer": "Cara Sophie,\nche bella notizia! Sono davvero contento per te. Per la casa, ti consiglio di cercare prima una stanza in affitto per qualche mese: così conosci i quartieri e poi scegli con calma. Fai attenzione agli annunci troppo convenienti e non mandare mai soldi prima di aver visto l'appartamento. Per la lingua, iscriviti a un corso, ma soprattutto parla con tutti: al bar, al mercato, con i vicini. Io ho imparato così! Quando arrivi, ti vengo a trovare e ti porto a mangiare in un posto che conosco io.\nUn abbraccio,\n{name}",
           "explanation": "Registro informale costante (tu, Cara, Un abbraccio), tre consegne svolte, imperativi informali per i consigli (iscriviti, parla, fai attenzione)."
         },
         {

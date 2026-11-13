@@ -2,8 +2,10 @@
   "id": "c1-04",
   "level": "C1",
   "title": "Ripasso 5",
-  "objective": "Alla fine del ripasso sai raccontare lo stesso fatto in tre registri: un racconto scritto al passato remoto, un racconto informale con ordine marcato delle parole e un reclamo formale con nominalizzazioni.",
-  "grammarFocus": "Ripasso: registro formale e nominalizzazione (c1-01), passato remoto e imperfetto (c1-02), dislocazioni, frasi scisse e pseudoscisse (c1-03); prove in stile CELI: lettura con domande, cloze, trasformazioni, testo scritto.",
+  "format": 2,
+  "module": "c1-m1",
+  "objective": "By the end of this review you can tell the same event three ways: a written story in the passato remoto, an informal account with marked word order, and a formal complaint with nominalisations.",
+  "grammarFocus": "Review: formal register and nominalisation (c1-01), passato remoto and imperfetto (c1-02), dislocations and cleft sentences (c1-03); CELI-style reading, transformation and writing tasks.",
   "remedialUnitIds": [
     "c1-01",
     "c1-02",
@@ -12,13 +14,16 @@
   "lessons": [
     {
       "id": "c1-04-l1",
-      "title": "Leggere e completare",
-      "minutes": 10,
+      "title": "Leggere una leggenda",
+      "minutes": 9,
+      "goal": "You can read and retell a story told in the passato remoto.",
+      "takeaway": "Remoto for the events, imperfetto for the scene; irregular forms: venne, vide, decise, fu.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "c1-04-l1-e01",
-          "instruction": "Riscaldamento: scegli la forma del passato remoto.",
+          "stage": "warmup",
+          "instruction": "Scegli la forma giusta.",
           "prompt": "Il forestiero ___ in paese una sera d'autunno.",
           "options": [
             "venne",
@@ -27,36 +32,13 @@
             "veniva stato"
           ],
           "answer": 0,
-          "explanation": "Venire: venni, venne, vennero (schema 1-3-3)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-04-l1-e02",
-          "instruction": "Riscaldamento: completa con il participio passato.",
-          "sentence": "Il contratto l'ho già ___ (firmare).",
-          "answers": [
-            "firmato"
-          ],
-          "explanation": "Il contratto … l'ho firmato: participio maschile singolare, concordato con lo."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "c1-04-l1-e03",
-          "instruction": "Riscaldamento: scegli l'apertura adatta a un'email a un'azienda.",
-          "prompt": "Scrivi a una ditta di traslochi.",
-          "options": [
-            "Cara ditta,",
-            "Spett.le Ditta Rossi Traslochi,",
-            "Ciao ragazzi,",
-            "Gentilissimo amico,"
-          ],
-          "answer": 1,
-          "explanation": "Spett.le (spettabile) si usa per aziende ed enti."
+          "explanation": "Venire is irregular in the passato remoto: venne."
         },
         {
           "type": "reading",
-          "id": "c1-04-l1-e04",
-          "instruction": "Prova di lettura (stile CELI): leggi il testo e rispondi alle domande.",
+          "id": "c1-04-l1-e02",
+          "stage": "practise",
+          "instruction": "Leggi la leggenda e rispondi.",
           "title": "La leggenda del ponte",
           "passage": "Secondo una leggenda molto amata dagli abitanti di Valdoro, un piccolo paese immaginario tra le colline, il vecchio ponte sul fiume fu costruito in una sola notte. Gli abitanti cercavano da anni di unire le due rive, ma ogni volta che finivano i lavori arrivava una piena e portava via tutto. Una sera d'autunno un forestiero si presentò al sindaco e gli promise un ponte indistruttibile entro l'alba. In cambio chiese soltanto di essere il primo ad attraversarlo. Il sindaco, che era un uomo prudente, accettò ma non disse nulla a nessuno. La mattina dopo il ponte c'era davvero. Fu proprio il sindaco a mandare per primo sul ponte il suo vecchio cane: il forestiero, furioso, sparì in una nuvola di fumo. Da allora il ponte resiste a ogni piena, e ancora oggi gli anziani raccontano che di notte, quando c'è la nebbia, si sente una risata lontana.",
           "questions": [
@@ -100,254 +82,86 @@
               ],
               "answer": 0
             }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "c1-04-l1-e03",
+          "stage": "practise",
+          "instruction": "Evento o sfondo? Metti ogni verbo nel gruppo giusto.",
+          "buckets": [
+            "Evento (remoto)",
+            "Sfondo (imperfetto)"
           ],
-          "explanation": "Nota l'alternanza: passato remoto per gli eventi (fu costruito, si presentò, promise, accettò, sparì), imperfetto per lo sfondo (cercavano, arrivava). E una frase scissa: fu proprio il sindaco a mandare…"
+          "items": [
+            {
+              "text": "un forestiero si presentò",
+              "bucket": 0
+            },
+            {
+              "text": "cercavano da anni di unire le rive",
+              "bucket": 1
+            },
+            {
+              "text": "il sindaco accettò",
+              "bucket": 0
+            },
+            {
+              "text": "era un uomo prudente",
+              "bucket": 1
+            },
+            {
+              "text": "il forestiero sparì",
+              "bucket": 0
+            },
+            {
+              "text": "di notte c'era la nebbia",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Events that move the story on are passato remoto; ongoing situations and descriptions are imperfetto."
         },
         {
           "type": "gap_fill",
-          "id": "c1-04-l1-e05",
-          "instruction": "Completa il testo (cloze): passato remoto o imperfetto?",
+          "id": "c1-04-l1-e04",
+          "stage": "practise",
+          "instruction": "Completa con il passato remoto.",
           "sentence": "Dopo l'ennesima piena, gli abitanti ___ (decidere) di chiedere aiuto al sindaco.",
           "answers": [
             "decisero"
           ],
-          "explanation": "Evento puntuale nella sequenza della storia: passato remoto (decisero)."
+          "hint": "decidere – loro",
+          "explanation": "Decidere is irregular: decisi, decise, decisero."
         },
         {
           "type": "gap_fill",
-          "id": "c1-04-l1-e06",
-          "instruction": "Completa il testo (cloze): passato remoto o imperfetto?",
+          "id": "c1-04-l1-e05",
+          "stage": "practise",
+          "instruction": "Completa con il tempo giusto.",
           "sentence": "Quella notte il fiume ___ (essere) calmo e la luna illuminava la valle.",
           "answers": [
             "era"
           ],
-          "explanation": "Descrizione dello sfondo: imperfetto (era)."
+          "hint": "essere – imperfetto",
+          "explanation": "A description of the scene takes the imperfetto: era."
         },
         {
           "type": "gap_fill",
-          "id": "c1-04-l1-e07",
-          "instruction": "Completa il testo (cloze): passato remoto o imperfetto?",
+          "id": "c1-04-l1-e06",
+          "stage": "practise",
+          "instruction": "Completa con il passato remoto.",
           "sentence": "Quando il sindaco ___ (vedere) il ponte finito, rimase senza parole.",
           "answers": [
             "vide"
           ],
-          "explanation": "Vedere → vide (evento, 3ª singolare)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-04-l1-e08",
-          "instruction": "Completa il testo (cloze) con la parola mancante.",
-          "sentence": "Fu proprio il vecchio cane ___ attraversare il ponte per primo.",
-          "answers": [
-            "ad",
-            "a"
-          ],
-          "explanation": "Frase scissa con il soggetto in evidenza: fu + soggetto + a + infinito."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "c1-04-l1-e09",
-          "instruction": "Trasformazione: scegli la frase con lo stesso significato in stile nominale.",
-          "prompt": "«Dopo che i lavori saranno terminati, la strada riaprirà.»",
-          "options": [
-            "Al termine dei lavori, la strada riaprirà.",
-            "Terminando i lavori, la strada riaprirebbe.",
-            "Al terminare dei lavori la strada sarà aperta.",
-            "Prima della fine dei lavori, la strada riaprirà."
-          ],
-          "answer": 0,
-          "explanation": "Dopo che i lavori saranno terminati → al termine dei lavori: il verbo diventa nome."
-        },
-        {
-          "type": "translate",
-          "id": "c1-04-l1-e10",
-          "instruction": "Traduci in inglese.",
-          "direction": "it_en",
-          "source": "Fu proprio in quell'anno che i miei nonni si trasferirono a Torino.",
-          "answers": [
-            "It was in that very year that my grandparents moved to Turin.",
-            "It was that very year that my grandparents moved to Turin.",
-            "It was precisely in that year that my grandparents moved to Turin.",
-            "It was in that year that my grandparents moved to Turin.",
-            "It was exactly in that year that my grandparents moved to Turin."
-          ],
-          "explanation": "Fu proprio in quell'anno che…: frase scissa con un complemento di tempo + passato remoto."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "c1-04-l1-e11",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Fu il sindaco a decidere di ricostruire il ponte.",
-          "answers": [
-            "Fu il sindaco a decidere di ricostruire il ponte."
-          ],
-          "slow": false,
-          "explanation": "Fu il sindaco a decidere: frase scissa al passato remoto."
-        },
-        {
-          "type": "speak_respond",
-          "id": "c1-04-l1-e12",
-          "instruction": "Riassumi la leggenda ad alta voce in 3–4 frasi, usando il passato remoto.",
-          "prompt": "Racconta in breve la leggenda del ponte di Valdoro.",
-          "keywords": [
-            "fu",
-            "promise",
-            "accettò",
-            "sparì"
-          ],
-          "modelAnswer": "Gli abitanti di Valdoro non riuscivano a costruire un ponte per colpa delle piene. Un giorno un forestiero promise al sindaco un ponte in una notte, ma chiese di essere il primo ad attraversarlo. Il sindaco accettò, ma mandò sul ponte il suo cane. Il forestiero, furioso, sparì nel fumo.",
-          "explanation": "Un buon riassunto: situazione iniziale (imperfetto), eventi principali (passato remoto), conclusione."
-        }
-      ]
-    },
-    {
-      "id": "c1-04-l2",
-      "title": "Raccontalo a un amico",
-      "minutes": 10,
-      "exercises": [
-        {
-          "type": "gap_fill",
-          "id": "c1-04-l2-e01",
-          "instruction": "Riscaldamento: completa con il pronome di ripresa.",
-          "sentence": "Di scatole ___ abbiamo ancora venti da aprire.",
-          "answers": [
-            "ne"
-          ],
-          "explanation": "Di scatole → ne (quantità)."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "c1-04-l2-e02",
-          "instruction": "Riscaldamento: scegli il pronome di ripresa.",
-          "prompt": "Il divano ___ hanno consegnato con una gamba rotta.",
-          "options": [
-            "l'",
-            "gli",
-            "ne",
-            "la"
-          ],
-          "answer": 0,
-          "explanation": "Il divano (maschile singolare) → lo → l' davanti ad hanno."
-        },
-        {
-          "type": "grammar_note",
-          "id": "c1-04-l2-e03",
-          "title": "Ripasso: parlato, scritto formale, racconto",
-          "body": "Lo stesso fatto si può raccontare in tre modi diversi. Scegliere il registro giusto è una competenza chiave del livello C1.\n\n**Parlato informale** (dislocazioni, frasi scisse, non è che)\n- *Il divano l'hanno portato rotto.*\n- *Sono stati loro a romperlo, mica io!*\n- *Quello che voglio è che me lo cambino.*\n\n**Scritto formale** (nominalizzazione, passivo, lessico preciso)\n- *Il divano è stato consegnato danneggiato.*\n- *Il danno è stato causato durante il trasporto.*\n- *Chiedo pertanto la sostituzione del prodotto.*\n\n**Racconto scritto** (passato remoto + imperfetto)\n- *Gli operai arrivarono alle otto; pioveva e le scale erano strette.*\n\nRicorda: con lo/la/li/le prima del verbo il participio concorda (*le scatole le hanno lasciate*); con l'oggetto all'inizio il pronome di ripresa è obbligatorio.",
-          "examples": [
-            {
-              "it": "Lo specchio l'hanno rotto loro, ne sono sicuro.",
-              "en": "They broke the mirror, I'm sure of it."
-            },
-            {
-              "it": "Lo specchio è stato danneggiato durante il trasloco.",
-              "en": "The mirror was damaged during the move."
-            },
-            {
-              "it": "Gli operai caricarono il camion in meno di un'ora.",
-              "en": "The workers loaded the lorry in under an hour."
-            }
-          ]
-        },
-        {
-          "type": "match_pairs",
-          "id": "c1-04-l2-e04",
-          "instruction": "Abbina la frase informale al suo equivalente formale.",
-          "pairs": [
-            {
-              "left": "Me l'hanno portato rotto.",
-              "right": "Il prodotto è stato consegnato danneggiato."
-            },
-            {
-              "left": "Rivoglio i soldi.",
-              "right": "Chiedo il rimborso dell'importo."
-            },
-            {
-              "left": "Sono arrivati con tre ore di ritardo.",
-              "right": "Il ritardo è stato di tre ore."
-            },
-            {
-              "left": "Fatemi sapere qualcosa.",
-              "right": "Resto in attesa di un Vostro riscontro."
-            },
-            {
-              "left": "Se non mi rispondete, vado da un avvocato.",
-              "right": "Qualora non riceva risposta, mi rivolgerò a un legale."
-            }
-          ],
-          "explanation": "Nel formale il soggetto spesso sparisce (passivo) e i verbi diventano nomi."
-        },
-        {
-          "type": "error_correction",
-          "id": "c1-04-l2-e05",
-          "instruction": "C'è un errore di accordo. Riscrivi la frase corretta.",
-          "sentence": "Le scatole le hanno lasciato in cortile, sotto la pioggia.",
-          "answers": [
-            "Le scatole le hanno lasciate in cortile, sotto la pioggia.",
-            "Le scatole le hanno lasciate in cortile sotto la pioggia."
-          ],
-          "explanation": "Le scatole … le hanno lasciate: il participio concorda con le."
-        },
-        {
-          "type": "translate",
-          "id": "c1-04-l2-e06",
-          "instruction": "Traduci in italiano con una frase scissa.",
-          "direction": "en_it",
-          "source": "It was the movers (gli operai) who broke the mirror.",
-          "answers": [
-            "Sono stati gli operai a rompere lo specchio.",
-            "Sono stati gli operai che hanno rotto lo specchio.",
-            "Sono stati proprio gli operai a rompere lo specchio."
-          ],
-          "explanation": "Essere al plurale (sono stati) + soggetto + a + infinito."
-        },
-        {
-          "type": "sentence_build",
-          "id": "c1-04-l2-e07",
-          "instruction": "Metti le parole in ordine (dislocazione a destra).",
-          "translation": "Have you got the receipt?",
-          "tiles": [
-            "Ce",
-            "l'hai",
-            "tu",
-            "la",
-            "ricevuta"
-          ],
-          "distractors": [
-            "le",
-            "Ci"
-          ],
-          "explanation": "La ricevuta → l'; avere nel parlato: ce l'hai."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-04-l2-e08",
-          "instruction": "Completa con il pronome giusto (dislocazione a destra).",
-          "sentence": "Non ___ trovo più, la ricevuta del trasloco.",
-          "answers": [
-            "la"
-          ],
-          "explanation": "Il pronome la anticipa la ricevuta."
-        },
-        {
-          "type": "listen_choose",
-          "id": "c1-04-l2-e09",
-          "instruction": "Ascolta il messaggio vocale di un amico e rispondi.",
-          "audioText": "Ciao! Allora, il trasloco l'abbiamo finito ieri sera. Gli scatoloni li hanno portati tutti, ma la lavatrice non l'hanno ancora consegnata. È questo che mi fa arrabbiare: l'avevo pagata in anticipo!",
-          "question": "Che cosa fa arrabbiare l'amico?",
-          "options": [
-            "Gli scatoloni sono arrivati rotti.",
-            "La lavatrice non è ancora arrivata, anche se l'ha pagata.",
-            "Il trasloco è durato due giorni.",
-            "Ha dovuto pagare in anticipo gli scatoloni."
-          ],
-          "answer": 1,
-          "explanation": "Gli scatoloni li hanno portati, la lavatrice no: è quella che manca."
+          "hint": "vedere – lui",
+          "explanation": "Vedere: vidi, vide, videro."
         },
         {
           "type": "conjugation",
-          "id": "c1-04-l2-e10",
-          "instruction": "Ripasso del passato remoto: scrivi la forma giusta.",
+          "id": "c1-04-l1-e07",
+          "stage": "practise",
+          "instruction": "Passato remoto: scrivi le forme.",
           "verb": "verbi irregolari",
           "tense": "passato remoto",
           "items": [
@@ -368,12 +182,140 @@
               "answer": "chiesi"
             }
           ],
-          "explanation": "Venire → vennero, rompere → ruppe, mettere → misero: tutti schema 1-3-3."
+          "explanation": "Irregular remoto forms break in io, lui/lei and loro (1-3-3)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-04-l1-e08",
+          "stage": "use",
+          "instruction": "Racconta ad alta voce in 3–4 frasi.",
+          "prompt": "Racconta in breve la leggenda del ponte di Valdoro.",
+          "keywords": [
+            "fu",
+            "promise",
+            "accettò",
+            "sparì"
+          ],
+          "modelAnswer": "Gli abitanti di Valdoro non riuscivano a costruire un ponte per colpa delle piene. Un giorno un forestiero promise al sindaco un ponte in una notte, ma chiese di essere il primo ad attraversarlo. Il sindaco accettò, ma mandò sul ponte il suo cane. Il forestiero, furioso, sparì nel fumo."
+        }
+      ]
+    },
+    {
+      "id": "c1-04-l2",
+      "title": "Raccontalo a un amico",
+      "minutes": 9,
+      "goal": "You can tell an informal story with dislocations and cleft sentences.",
+      "takeaway": "Spoken Italian: topic first + pronoun (Lo specchio l'hanno rotto), è stato… a…, non è che… + congiuntivo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-04-l2-e01",
+          "stage": "warmup",
+          "instruction": "Scegli il pronome.",
+          "prompt": "Il divano ___ hanno consegnato con una gamba rotta.",
+          "options": [
+            "l'",
+            "gli",
+            "ne",
+            "la"
+          ],
+          "answer": 0,
+          "explanation": "Il divano is a masculine direct object moved first: lo, shortened to l'."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-04-l2-e02",
+          "stage": "practise",
+          "instruction": "Completa con il pronome.",
+          "sentence": "Di scatole ___ abbiamo ancora venti da aprire.",
+          "answers": [
+            "ne"
+          ],
+          "explanation": "A quantity with di needs ne."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-04-l2-e03",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "sentence": "Le scatole le hanno lasciato in cortile, sotto la pioggia.",
+          "answers": [
+            "Le scatole le hanno lasciate in cortile, sotto la pioggia.",
+            "Le scatole le hanno lasciate in cortile sotto la pioggia."
+          ],
+          "explanation": "The participle agrees with le (le scatole): lasciate."
+        },
+        {
+          "type": "transform",
+          "id": "c1-04-l2-e04",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Gli operai hanno rotto lo specchio.",
+          "cue": "Sono stati…",
+          "answers": [
+            "Sono stati gli operai a rompere lo specchio.",
+            "Sono stati gli operai a rompere lo specchio",
+            "Sono stati proprio gli operai a rompere lo specchio."
+          ],
+          "hint": "sono stati … a + infinito",
+          "explanation": "Plural subject in the spotlight: sono stati + subject + a + infinitive."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-04-l2-e05",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "Have you got the receipt?",
+          "tiles": [
+            "Ce",
+            "l'hai",
+            "tu",
+            "la",
+            "ricevuta"
+          ],
+          "distractors": [
+            "le",
+            "Ci"
+          ],
+          "explanation": "Avere in speech takes ce: ce l'hai, with la ricevuta as the topic."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-04-l2-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Ciao! Allora, il trasloco l'abbiamo finito ieri sera. Gli scatoloni li hanno portati tutti, ma la lavatrice non l'hanno ancora consegnata. È questo che mi fa arrabbiare: l'avevo pagata in anticipo!",
+          "question": "Che cosa fa arrabbiare l'amico?",
+          "options": [
+            "Gli scatoloni sono arrivati rotti.",
+            "La lavatrice non è ancora arrivata, anche se l'ha pagata.",
+            "Il trasloco è durato due giorni.",
+            "Ha dovuto pagare in anticipo gli scatoloni."
+          ],
+          "answer": 1,
+          "explanation": "È questo che… names the real problem: the washing machine was paid for but not delivered."
+        },
+        {
+          "type": "translate",
+          "id": "c1-04-l2-e07",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "It was the movers who broke the mirror.",
+          "answers": [
+            "Sono stati gli operai a rompere lo specchio.",
+            "Sono stati gli operai che hanno rotto lo specchio.",
+            "Sono stati i traslocatori a rompere lo specchio.",
+            "Sono stati proprio gli operai a rompere lo specchio.",
+            "Sono stati i facchini a rompere lo specchio."
+          ],
+          "explanation": "A cleft sentence with a plural subject: sono stati + subject + a + infinitive."
         },
         {
           "type": "roleplay",
-          "id": "c1-04-l2-e11",
-          "instruction": "Racconti il trasloco a un amico. Rispondi ad alta voce in modo informale.",
+          "id": "c1-04-l2-e08",
+          "stage": "use",
+          "instruction": "Parla con Davide. Rispondi ad alta voce quando tocca a te.",
           "scenario": "Your friend Davide asks how your house move went. It was a bit of a disaster: the movers were late and broke a mirror. Tell him informally.",
           "turns": [
             {
@@ -432,22 +374,7 @@
               "speaker": "npc",
               "text": "Fai bene. Fammi sapere com'è finita!"
             }
-          ],
-          "explanation": "Nel parlato hai usato dislocazioni (lo specchio l'hanno rotto), frasi scisse (sono stati loro a…) e non è che."
-        },
-        {
-          "type": "free_write",
-          "id": "c1-04-l2-e12",
-          "instruction": "Scrivi un messaggio informale.",
-          "prompt": "Scrivi un messaggio a un amico o a un'amica (60–90 parole) per raccontare un piccolo disastro recente (un trasloco, una consegna, un viaggio). Usa un tono colloquiale.",
-          "minWords": 60,
-          "checklist": [
-            "Ho usato almeno due dislocazioni (es. il divano l'hanno…, di problemi ne…).",
-            "Ho usato almeno una frase scissa (è stato… a…, è questo che…).",
-            "Ho accordato il participio con lo/la/li/le.",
-            "Il tono è informale: tu, esclamazioni, espressioni colloquiali (non me ne parlare, mica)."
-          ],
-          "modelAnswer": "Ciao Sara! Il trasloco? Non me ne parlare! Gli operai sono arrivati con tre ore di ritardo e lo specchio del bagno l'hanno rotto sulle scale. Sono stati proprio loro a farlo cadere, li ho visti io! E di scatole ne ho ancora una montagna da aprire. Quello che mi fa più arrabbiare è che li avevo pagati in anticipo. Il reclamo lo scrivo stasera, ma non è che abbia molte speranze. Tu come stai? Vieni a vedere la casa nuova sabato?"
+          ]
         }
       ]
     },
@@ -455,37 +382,58 @@
       "id": "c1-04-l3",
       "title": "Scrivi all'ufficio reclami",
       "minutes": 10,
+      "goal": "You can read and write a formal complaint and ask for compensation.",
+      "takeaway": "Formal: nouns (il risarcimento), passive (è stato danneggiato), pertanto, qualora + congiuntivo, distinti saluti.",
       "exercises": [
         {
           "type": "gap_fill",
           "id": "c1-04-l3-e01",
-          "instruction": "Riscaldamento: trasforma il verbo in nome.",
+          "stage": "warmup",
+          "instruction": "Trasforma il verbo in nome.",
           "sentence": "Chiedo il ___ (rimborsare) delle spese di riparazione.",
           "answers": [
             "rimborso"
           ],
-          "explanation": "Rimborsare → il rimborso."
+          "explanation": "Rimborsare becomes il rimborso."
         },
         {
-          "type": "multiple_choice",
+          "type": "choose_mood",
           "id": "c1-04-l3-e02",
-          "instruction": "Riscaldamento: completa con il modo giusto.",
-          "prompt": "Qualora la documentazione non ___ completa, la pratica sarà sospesa.",
-          "options": [
-            "è",
-            "sia",
-            "sarà",
-            "sarebbe"
-          ],
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Qualora la documentazione non ___ completa, la pratica sarà sospesa.",
+          "verb": "essere",
           "answer": 1,
-          "explanation": "Qualora vuole il congiuntivo."
+          "forms": [
+            "sia"
+          ],
+          "trigger": "Qualora",
+          "explanation": "Qualora takes the congiuntivo: sia."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "c1-04-l3-e03",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Chiedo il rimborso del biglietto non utilizzato.",
+            "Chiedo il risarcimento del danno subito durante il trasloco."
+          ],
+          "question": "Which sentence asks for compensation for damage?",
+          "answer": 1,
+          "translations": [
+            "I ask for a refund of the unused ticket.",
+            "I ask for compensation for the damage suffered during the move."
+          ],
+          "explanation": "Rimborso gives back what you paid; risarcimento compensates for damage."
         },
         {
           "type": "reading",
-          "id": "c1-04-l3-e03",
-          "instruction": "Leggi la risposta della ditta e rispondi alle domande.",
+          "id": "c1-04-l3-e04",
+          "stage": "practise",
+          "instruction": "Leggi la risposta e rispondi.",
           "title": "La risposta dell'ufficio reclami",
-          "passage": "Oggetto: Vostro reclamo del 12 novembre – pratica n. 7741\n\nGentile Signor Moore,\n\ncon la presente La informiamo di aver ricevuto il Suo reclamo relativo al trasloco del 10 novembre. Ci scusiamo innanzitutto per il ritardo di tre ore, dovuto a un guasto del nostro automezzo. Per quanto riguarda lo specchio danneggiato, la nostra assicurazione prevede il risarcimento dei danni causati durante il trasporto, previa presentazione di una documentazione fotografica e della fattura d'acquisto o, in mancanza di questa, di un preventivo per la sostituzione. La invitiamo pertanto a inviarci tale documentazione entro trenta giorni dalla data della presente.\n\nRestando a disposizione per ogni chiarimento, porgiamo distinti saluti.\n\nUfficio Reclami – Traslochi Rapidi S.r.l.",
+          "passage": "Oggetto: Vostro reclamo del 12 novembre – pratica n. 7741\n\nGentile {name},\n\ncon la presente La informiamo di aver ricevuto il Suo reclamo relativo al trasloco del 10 novembre. Ci scusiamo innanzitutto per il ritardo di tre ore, dovuto a un guasto del nostro automezzo. Per quanto riguarda lo specchio danneggiato, la nostra assicurazione prevede il risarcimento dei danni causati durante il trasporto, previa presentazione di una documentazione fotografica e della fattura d'acquisto o, in mancanza di questa, di un preventivo per la sostituzione. La invitiamo pertanto a inviarci tale documentazione entro trenta giorni dalla data della presente.\n\nRestando a disposizione per ogni chiarimento, porgiamo distinti saluti.\n\nUfficio Reclami – Traslochi Rapidi S.r.l.",
           "questions": [
             {
               "question": "Perché gli operai sono arrivati in ritardo?",
@@ -498,7 +446,7 @@
               "answer": 1
             },
             {
-              "question": "Che cosa deve inviare Richard per ottenere il risarcimento?",
+              "question": "Che cosa deve inviare {name} per ottenere il risarcimento?",
               "options": [
                 "Solo una lettera di reclamo",
                 "Foto del danno e fattura d'acquisto o preventivo",
@@ -517,53 +465,42 @@
               ],
               "answer": 1
             }
-          ],
-          "explanation": "Nota il registro: con la presente, per quanto riguarda, previa presentazione, pertanto, restando a disposizione."
+          ]
         },
         {
-          "type": "multiple_choice",
-          "id": "c1-04-l3-e04",
-          "instruction": "Che cosa significa «la presente» in una lettera formale?",
-          "prompt": "«…entro trenta giorni dalla data della presente.»",
-          "options": [
-            "questa lettera",
-            "la persona presente",
-            "il momento attuale",
-            "la ditta"
-          ],
-          "answer": 0,
-          "explanation": "La presente (lettera) = questa lettera."
-        },
-        {
-          "type": "gap_fill",
+          "type": "match_pairs",
           "id": "c1-04-l3-e05",
-          "instruction": "Completa con la preposizione giusta.",
-          "sentence": "Le scrivo ___ merito al danno subito durante il trasloco.",
-          "answers": [
-            "in"
+          "stage": "practise",
+          "instruction": "Abbina il parlato al formale.",
+          "pairs": [
+            {
+              "left": "Me l'hanno portato rotto.",
+              "right": "Il prodotto è stato consegnato danneggiato."
+            },
+            {
+              "left": "Rivoglio i soldi.",
+              "right": "Chiedo il rimborso dell'importo."
+            },
+            {
+              "left": "Sono arrivati con tre ore di ritardo.",
+              "right": "Il ritardo è stato di tre ore."
+            },
+            {
+              "left": "Fatemi sapere qualcosa.",
+              "right": "Resto in attesa di un Vostro riscontro."
+            },
+            {
+              "left": "Se non mi rispondete, vado da un avvocato.",
+              "right": "Qualora non riceva risposta, mi rivolgerò a un legale."
+            }
           ],
-          "explanation": "In merito a = riguardo a (formale)."
-        },
-        {
-          "type": "translate",
-          "id": "c1-04-l3-e06",
-          "instruction": "Traduci in italiano in registro formale.",
-          "direction": "en_it",
-          "source": "I therefore request compensation for the damage.",
-          "answers": [
-            "Chiedo pertanto il risarcimento del danno.",
-            "Richiedo pertanto il risarcimento del danno.",
-            "Pertanto chiedo il risarcimento del danno.",
-            "Pertanto richiedo il risarcimento del danno.",
-            "Chiedo pertanto il risarcimento dei danni.",
-            "Richiedo pertanto il risarcimento dei danni."
-          ],
-          "explanation": "Risarcimento = compenso per un danno; rimborso = restituzione di quanto pagato."
+          "explanation": "Formal Italian uses passive, nouns and qualora instead of colloquial phrases."
         },
         {
           "type": "error_correction",
-          "id": "c1-04-l3-e07",
-          "instruction": "C'è un errore di registro. Riscrivi la frase corretta.",
+          "id": "c1-04-l3-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
           "sentence": "In attesa di un Vostro cortese riscontro, porgo cari saluti.",
           "answers": [
             "In attesa di un Vostro cortese riscontro, porgo distinti saluti.",
@@ -571,47 +508,49 @@
             "In attesa di un Vostro cortese riscontro, porgo cordiali saluti.",
             "In attesa di un Vostro cortese riscontro porgo cordiali saluti."
           ],
-          "explanation": "«Cari saluti» è amichevole; in una lettera formale si porgono distinti (o cordiali) saluti."
+          "explanation": "A formal closing needs distinti or cordiali saluti, not cari saluti."
         },
         {
-          "type": "sentence_build",
+          "type": "transform",
+          "id": "c1-04-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi in modo formale.",
+          "source": "Me l'hanno portato rotto.",
+          "cue": "→ Il prodotto…",
+          "answers": [
+            "Il prodotto è stato consegnato danneggiato.",
+            "Il prodotto è stato consegnato rotto.",
+            "Il prodotto mi è stato consegnato danneggiato.",
+            "Il prodotto mi è stato consegnato rotto."
+          ],
+          "hint": "passivo",
+          "explanation": "Formal register prefers the passive and precise words: è stato consegnato danneggiato."
+        },
+        {
+          "type": "translate",
           "id": "c1-04-l3-e08",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "The damage was caused during transport.",
-          "tiles": [
-            "Il",
-            "danno",
-            "è",
-            "stato",
-            "causato",
-            "durante",
-            "il",
-            "trasporto"
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I therefore request compensation for the damage.",
+          "answers": [
+            "Chiedo pertanto il risarcimento del danno.",
+            "Chiedo pertanto il risarcimento dei danni.",
+            "Richiedo pertanto il risarcimento del danno.",
+            "Richiedo pertanto il risarcimento dei danni.",
+            "Pertanto chiedo il risarcimento del danno.",
+            "Pertanto chiedo il risarcimento dei danni.",
+            "Pertanto richiedo il risarcimento del danno.",
+            "Pertanto richiedo il risarcimento dei danni."
           ],
-          "distractors": [
-            "ha",
-            "causata"
-          ],
-          "explanation": "Passivo formale: è stato causato (concorda con il danno)."
-        },
-        {
-          "type": "speak_respond",
-          "id": "c1-04-l3-e09",
-          "instruction": "Rispondi ad alta voce in registro formale (3–4 frasi).",
-          "prompt": "Telefoni all'ufficio reclami della ditta di traslochi: spiega il problema e chiedi il risarcimento.",
-          "keywords": [
-            "in merito",
-            "danneggiato",
-            "risarcimento"
-          ],
-          "modelAnswer": "Buongiorno, La chiamo in merito al trasloco del 10 novembre. Durante il trasporto lo specchio del bagno è stato danneggiato. Vorrei pertanto sapere come posso ottenere il risarcimento del danno. La ringrazio.",
-          "explanation": "Struttura: motivo della chiamata (in merito a), fatti, richiesta (pertanto / vorrei), cortesia finale."
+          "explanation": "Pertanto means therefore; risarcimento del danno is compensation for damage."
         },
         {
           "type": "roleplay",
-          "id": "c1-04-l3-e10",
-          "instruction": "Telefoni all'ufficio reclami. Rispondi ad alta voce quando tocca a te (registro formale).",
-          "scenario": "You call the removal company's complaints office. The clerk thinks you're complaining about the delay; you mainly want compensation for the broken mirror.",
+          "id": "c1-04-l3-e09",
+          "stage": "use",
+          "instruction": "Telefona all'ufficio reclami. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You call the removal company's complaints office. The clerk thinks you are complaining about the delay; you mainly want compensation for the broken mirror.",
           "turns": [
             {
               "speaker": "npc",
@@ -619,7 +558,7 @@
             },
             {
               "speaker": "you",
-              "text": "Buongiorno, sono Richard Moore. La chiamo in merito al mio reclamo, pratica numero 7741.",
+              "text": "Buongiorno, sono {name}. La chiamo in merito al mio reclamo, pratica numero 7741.",
               "hint": "Introduce yourself and give the file number.",
               "keywords": [
                 "in merito",
@@ -658,34 +597,156 @@
             },
             {
               "speaker": "you",
-              "text": "Perfetto, glieli mando entro venerdì. Le sarei grato se potesse confermarmi la ricezione.",
-              "hint": "Promise to send them; ask politely for confirmation.",
+              "text": "Perfetto, glieli mando entro venerdì. Le sarei grato/a se potesse confermarmi la ricezione.",
+              "hint": "Promise to send them; ask politely (Le sarei grato/a se…).",
               "keywords": [
                 "glieli",
-                "grato"
+                "potesse"
               ]
             },
             {
               "speaker": "npc",
               "text": "Certamente. Buona giornata."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-04-l4",
+      "title": "Tre registri, un fatto",
+      "minutes": 10,
+      "goal": "You can tell the same event as a story, in speech and in a formal letter.",
+      "takeaway": "Story: remoto + imperfetto. Speech: dislocations and è stato… a. Formal: passive, nouns, pertanto, qualora.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-04-l4-e01",
+          "stage": "warmup",
+          "instruction": "Scegli l'apertura giusta.",
+          "prompt": "Scrivi a una ditta di traslochi.",
+          "options": [
+            "Cara ditta,",
+            "Spett.le Ditta Rossi Traslochi,",
+            "Ciao ragazzi,",
+            "Gentilissimo amico,"
           ],
-          "explanation": "Anche in registro formale la frase scissa è utile per chiarire: non è il ritardo che contesto, è il danno."
+          "answer": 1,
+          "explanation": "A company gets Spettabile; Cara, Ciao and amico are too informal."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "c1-04-l4-e02",
+          "stage": "practise",
+          "instruction": "Quale registro? Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Racconto scritto",
+            "Parlato",
+            "Formale"
+          ],
+          "items": [
+            {
+              "text": "Gli operai arrivarono alle otto e caricarono il camion.",
+              "bucket": 0
+            },
+            {
+              "text": "Pioveva e le scale erano strette.",
+              "bucket": 0
+            },
+            {
+              "text": "Lo specchio l'hanno rotto loro, ne sono sicuro.",
+              "bucket": 1
+            },
+            {
+              "text": "Sono stati loro a farlo cadere.",
+              "bucket": 1
+            },
+            {
+              "text": "Lo specchio è stato danneggiato durante il trasporto.",
+              "bucket": 2
+            },
+            {
+              "text": "Chiedo pertanto il risarcimento del danno.",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Remoto and imperfetto mark a written story; dislocations mark speech; the passive and pertanto mark formal writing."
+        },
+        {
+          "type": "transform",
+          "id": "c1-04-l4-e03",
+          "stage": "practise",
+          "instruction": "Riscrivi in modo formale.",
+          "source": "Lo specchio l'hanno rotto gli operai.",
+          "cue": "→ Lo specchio è stato…",
+          "answers": [
+            "Lo specchio è stato rotto dagli operai.",
+            "Lo specchio è stato danneggiato dagli operai.",
+            "Lo specchio è stato rotto dagli operai",
+            "Lo specchio è stato danneggiato dagli operai"
+          ],
+          "hint": "passivo con dagli operai",
+          "explanation": "Passive: essere + participle + da + agent, with the participle agreeing with lo specchio."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-04-l4-e04",
+          "stage": "practise",
+          "instruction": "Scegli la riformulazione.",
+          "prompt": "«Dopo che i lavori saranno terminati, la strada riaprirà.»",
+          "options": [
+            "Al termine dei lavori, la strada riaprirà.",
+            "Terminando i lavori, la strada riaprirebbe.",
+            "Al terminare dei lavori la strada sarà aperta.",
+            "Prima della fine dei lavori, la strada riaprirà."
+          ],
+          "answer": 0,
+          "explanation": "Nominalisation: dopo che i lavori saranno terminati becomes al termine dei lavori."
+        },
+        {
+          "type": "translate",
+          "id": "c1-04-l4-e05",
+          "stage": "practise",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Fu proprio in quell'anno che i miei nonni si trasferirono a Torino.",
+          "answers": [
+            "It was in that very year that my grandparents moved to Turin.",
+            "It was that very year that my grandparents moved to Turin.",
+            "It was precisely in that year that my grandparents moved to Turin.",
+            "It was exactly in that year that my grandparents moved to Turin.",
+            "It was in that same year that my grandparents moved to Turin.",
+            "It was just that year that my grandparents moved to Turin."
+          ],
+          "explanation": "A cleft sentence (fu … che) with the passato remoto trasferirono."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-04-l4-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Fu il sindaco a decidere di ricostruire il ponte.",
+          "answers": [
+            "Fu il sindaco a decidere di ricostruire il ponte."
+          ],
+          "slow": false,
+          "explanation": "Passato remoto fu plus the cleft structure a + infinitive."
         },
         {
           "type": "free_write",
-          "id": "c1-04-l3-e11",
-          "instruction": "Scrivi un reclamo formale.",
-          "prompt": "Scrivi alla ditta di traslochi (120–160 parole). Racconta i fatti (data, ritardo, specchio rotto durante il trasporto), chiedi il risarcimento e indica una scadenza per la risposta. Usa un registro formale.",
-          "minWords": 120,
+          "id": "c1-04-l4-e07",
+          "stage": "use",
+          "instruction": "Scrivi una lettera formale.",
+          "prompt": "Scrivi alla ditta di traslochi (100–140 parole). Racconta i fatti (data, ritardo, specchio rotto durante il trasporto), chiedi il risarcimento e indica una scadenza. Usa un registro formale.",
+          "minWords": 100,
           "checklist": [
             "Ho scritto un oggetto nominale e usato formule di apertura e chiusura formali.",
-            "Ho esposto i fatti in ordine, con date, usando il passivo dove serve (è stato danneggiato).",
-            "Ho usato almeno tre nominalizzazioni (il ritardo, la consegna, il risarcimento…).",
-            "Ho usato pertanto, in merito a / a seguito di e qualora + congiuntivo.",
-            "Non ho usato espressioni colloquiali o dislocazioni tipiche del parlato."
+            "Ho esposto i fatti in ordine, con date e passivo dove serve (è stato danneggiato).",
+            "Ho usato almeno tre nomi al posto di verbi (il ritardo, la consegna, il risarcimento).",
+            "Ho usato pertanto, in merito a o a seguito di e qualora + congiuntivo.",
+            "Non ho usato espressioni colloquiali né dislocazioni tipiche del parlato."
           ],
-          "modelAnswer": "Oggetto: reclamo per ritardo e danni durante il trasloco del 10 novembre\n\nSpett.le Traslochi Rapidi S.r.l.,\n\nVi scrivo in merito al trasloco effettuato dalla Vostra ditta il 10 novembre dalla mia precedente abitazione di via Garibaldi 12 alla nuova di via Verdi 3. Gli operai, attesi per le ore 8, sono arrivati con oltre tre ore di ritardo, senza alcun preavviso. Inoltre, durante il trasporto, uno specchio del bagno è stato gravemente danneggiato, come risulta dalle fotografie che Vi invio in allegato. Al momento della consegna ho immediatamente segnalato il danno al responsabile della squadra.\n\nChiedo pertanto il risarcimento del danno, quantificato in 180 euro sulla base del preventivo allegato. Qualora non riceva un riscontro entro quindici giorni dalla presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di una Vostra cortese risposta, porgo distinti saluti.\n\nRichard Moore"
+          "modelAnswer": "Oggetto: reclamo per ritardo e danni durante il trasloco del 10 novembre\n\nSpett.le Traslochi Rapidi S.r.l.,\n\nVi scrivo in merito al trasloco effettuato dalla Vostra ditta il 10 novembre dalla mia precedente abitazione di via Garibaldi 12 alla nuova di via Verdi 3. Gli operai, attesi per le ore 8, sono arrivati con oltre tre ore di ritardo, senza alcun preavviso. Inoltre, durante il trasporto, uno specchio del bagno è stato gravemente danneggiato, come risulta dalle fotografie allegate.\n\nChiedo pertanto il risarcimento del danno, quantificato in 180 euro sulla base del preventivo allegato. Qualora non riceva un riscontro entro quindici giorni dalla presente, mi rivolgerò a un'associazione di consumatori.\n\nIn attesa di una Vostra cortese risposta, porgo distinti saluti.\n\n{name}"
         }
       ]
     }
@@ -761,77 +822,77 @@
     {
       "id": "c1-04-t1",
       "rule": "Rimborso o risarcimento?",
-      "tip": "Rimborso: ti restituiscono quanto hai pagato. Risarcimento: ti compensano per un danno subito.",
+      "tip": "Rimborso: they give back what you paid. Risarcimento: they compensate you for damage.",
       "example": {
-        "it": "Ho chiesto il risarcimento per lo specchio rotto.",
-        "en": "I asked for compensation for the broken mirror."
+        "it": "Chiedo il risarcimento del danno.",
+        "en": "I am asking for compensation for the damage."
       },
       "challenge": {
         "type": "multiple_choice",
-        "instruction": "Scegli la parola giusta.",
-        "prompt": "Il treno è stato cancellato: chiedo il ___ del biglietto.",
+        "instruction": "Scegli.",
+        "prompt": "Lo specchio si è rotto durante il trasporto: chiedo il ___.",
         "options": [
-          "rimborso",
           "risarcimento",
           "rinnovo",
-          "riscontro"
+          "riscontro",
+          "reclamo"
         ],
-        "answer": 0
+        "answer": 0,
+        "explanation": "Damage caused to you calls for a risarcimento."
       }
     },
     {
       "id": "c1-04-t2",
       "rule": "Remoto nel racconto scritto",
-      "tip": "In un racconto scritto: passato remoto per gli eventi (vide, decise), imperfetto per lo sfondo (era, pioveva).",
+      "tip": "In a written story: passato remoto for events (vide, decise), imperfetto for the scene.",
       "example": {
-        "it": "Quando vide il ponte, rimase senza parole.",
-        "en": "When he saw the bridge, he was speechless."
+        "it": "Era tardi e pioveva quando arrivò.",
+        "en": "It was late and raining when he arrived."
       },
       "challenge": {
         "type": "gap_fill",
-        "instruction": "Completa con il passato remoto.",
-        "sentence": "Quando il sindaco ___ (vedere) il ponte, decise di attraversarlo.",
+        "instruction": "Completa.",
+        "sentence": "Pioveva quando il sindaco ___ (uscire).",
         "answers": [
-          "vide"
-        ]
+          "uscì"
+        ],
+        "hint": "uscire – lui"
       }
     },
     {
       "id": "c1-04-t3",
       "rule": "Pronome ripreso: accordo",
-      "tip": "L'oggetto all'inizio si riprende con lo/la/li/le e il participio concorda: «La ricevuta l'ho persa».",
+      "tip": "Topic first, then lo/la/li/le, and the participle agrees: «La ricevuta l'ho persa».",
       "example": {
-        "it": "Le scatole le hanno lasciate in cortile.",
-        "en": "They left the boxes in the courtyard."
+        "it": "La ricevuta l'ho persa.",
+        "en": "I've lost the receipt."
       },
       "challenge": {
-        "type": "error_correction",
-        "instruction": "Correggi l'errore.",
-        "sentence": "La ricevuta l'ho perso.",
+        "type": "gap_fill",
+        "instruction": "Completa.",
+        "sentence": "Le foto le ho già ___ (inviare).",
         "answers": [
-          "La ricevuta l'ho persa."
+          "inviate"
         ]
       }
     },
     {
       "id": "c1-04-t4",
       "rule": "Dal parlato al formale",
-      "tip": "«Me l'hanno portato rotto» → «Il prodotto è stato consegnato danneggiato»: passivo e lessico preciso.",
+      "tip": "«Me l'hanno portato rotto» → «Il prodotto è stato consegnato danneggiato»: passive, precise words.",
       "example": {
-        "it": "Il prodotto è stato consegnato danneggiato.",
-        "en": "The product was delivered damaged."
+        "it": "Il danno è stato causato durante il trasporto.",
+        "en": "The damage was caused during transport."
       },
       "challenge": {
-        "type": "multiple_choice",
-        "instruction": "Quale frase è adatta a un reclamo formale?",
-        "prompt": "Scegli.",
-        "options": [
-          "Il divano, me l'avete rotto voi!",
-          "Il divano è stato danneggiato durante il trasporto.",
-          "Sono stati i vostri a rompermelo, il divano.",
-          "Il divano? Non me ne parlare!"
-        ],
-        "answer": 1
+        "type": "transform",
+        "instruction": "Riscrivi.",
+        "source": "Lo specchio l'hanno rotto gli operai.",
+        "cue": "→ Lo specchio è stato…",
+        "answers": [
+          "Lo specchio è stato rotto dagli operai.",
+          "Lo specchio è stato danneggiato dagli operai."
+        ]
       }
     }
   ]

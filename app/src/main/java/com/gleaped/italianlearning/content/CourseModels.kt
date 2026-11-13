@@ -11,6 +11,18 @@ data class Course(
     val version: Int = 1,
     val levels: List<Level> = emptyList(),
     val units: List<UnitRef> = emptyList(),
+    /** Groups of units inside a level, shown as headings in the course map. */
+    val modules: List<Module> = emptyList(),
+) {
+    fun modulesOf(levelId: String): List<Module> = modules.filter { it.level == levelId }
+}
+
+@Serializable
+data class Module(
+    val id: String,
+    val level: String,
+    val title: String,
+    val description: String = "",
 )
 
 @Serializable
@@ -19,11 +31,16 @@ data class Level(
     val title: String,
     val description: String = "",
     val remedial: Boolean = false,
+    /** Foundation level (A1, A2): always open and outside the B1 → C1 unlock chain, like refreshers. */
+    val foundation: Boolean = false,
     /** Exam-preparation track (e.g. CELI3): always open, outside the B1 → C1 unlock chain. */
     val exam: Boolean = false,
 ) {
     /** `exam: true`, or a CELI level id (course.json marks CELI3 by id only). */
     val isExam: Boolean get() = exam || id.uppercase().startsWith("CELI")
+
+    /** Always open, never part of the unlock chain. */
+    val alwaysOpen: Boolean get() = remedial || foundation
 }
 
 @Serializable
@@ -34,6 +51,10 @@ data class UnitRef(
     val title: String,
     val summary: String = "",
     val available: Boolean = true,
+    /** Module id within the level, when course.json groups units. */
+    val module: String? = null,
+    /** Track id (e.g. "congiuntivo"); track units are also listed in the grammar hub. */
+    val track: String? = null,
 )
 
 @Serializable
@@ -54,6 +75,10 @@ data class CourseUnit(
     val lessons: List<Lesson>,
     val vocabulary: List<VocabItem>,
     val grammarTips: List<GrammarTip> = emptyList(),
+    /** 2 for units written to the short-lesson anatomy. */
+    val format: Int = 1,
+    val module: String? = null,
+    val track: String? = null,
 )
 
 /**
@@ -80,6 +105,9 @@ data class GrammarTip(
             ExerciseTypes.TRANSLATE,
             ExerciseTypes.ERROR_CORRECTION,
             ExerciseTypes.CONJUGATION,
+            ExerciseTypes.CHOOSE_MOOD,
+            ExerciseTypes.TRANSFORM,
+            ExerciseTypes.FIND_TRIGGER,
         )
     }
 }
@@ -89,4 +117,8 @@ data class Lesson(
     val title: String,
     val minutes: Int,
     val exercises: List<Exercise>,
+    /** What the learner will be able to do; shown on the intro screen. */
+    val goal: String = "",
+    /** The lesson's rule in one line; shown on the wrap-up screen. */
+    val takeaway: String = "",
 )

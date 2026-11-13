@@ -24,7 +24,7 @@ enum class UnitStatus { UNLOCKED, LOCKED, COMING_SOON }
 
 /**
  * Course navigation rules:
- *  - remedial (A2R) units are always open when available
+ *  - remedial and foundation (A1, A2) units are always open when available
  *  - exam-preparation units (CELI3) are always open when available; they are not part
  *    of the main path
  *  - units whose level is not declared in course.json are treated like exam units
@@ -39,8 +39,8 @@ class CourseProgress(
     private val completedLessons: Set<String>,
     private val unlockAll: Boolean = false,
 ) {
-    private val remedialLevels: Set<String> = course.levels.filter { it.remedial }.map { it.id }.toSet()
-    private val pathLevels: Set<String> = course.levels.filter { !it.remedial && !it.isExam }.map { it.id }.toSet()
+    private val remedialLevels: Set<String> = course.levels.filter { it.alwaysOpen }.map { it.id }.toSet()
+    private val pathLevels: Set<String> = course.levels.filter { !it.alwaysOpen && !it.isExam }.map { it.id }.toSet()
     private val levelOrder: Map<String, Int> = course.levels.mapIndexed { i, l -> l.id to i }.toMap()
 
     /** Main path in study order (B1 → B2 → C1: by level order then unit order). */

@@ -49,6 +49,15 @@ import com.gleaped.italianlearning.content.reference.ReferenceParser
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import com.gleaped.italianlearning.ui.components.LookupText
 import com.gleaped.italianlearning.ui.components.SpeakerButton
+import com.gleaped.italianlearning.ui.components.ItalianText
+import com.gleaped.italianlearning.ui.components.RichText
+import com.gleaped.italianlearning.ui.components.highlightColor
+import com.gleaped.italianlearning.ui.components.inlineMarkup
+import com.gleaped.italianlearning.content.GrammarNote
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.ui.platform.LocalConfiguration
 import com.gleaped.italianlearning.ui.lookup.WordLookupHost
 import androidx.compose.runtime.produceState
 
@@ -94,8 +103,11 @@ fun LessonScreen(
         )
     }
 
+    val primaryAction = remember { PrimaryActionState() }
+
     // Long-press an Italian word anywhere in the lesson to look it up.
     WordLookupHost(onOpenEntry = onOpenWord) {
+      PrimaryActionHost(primaryAction) {
         Scaffold(
             // Edge-to-edge: the window is not resized for the keyboard, so pad for it here. The
             // exercise column and the feedback bar then always end at the top of the keyboard.
@@ -114,6 +126,7 @@ fun LessonScreen(
                                 modifier = Modifier.fillMaxWidth().padding(end = 16.dp),
                             )
                             is LessonUiState.Finished -> Text(s.lesson.title)
+                            is LessonUiState.Intro -> Text(s.unit.title, style = MaterialTheme.typography.titleMedium)
                             else -> Text("")
                         }
                     },
@@ -121,8 +134,11 @@ fun LessonScreen(
             },
             bottomBar = {
                 val s = state
-                if (s is LessonUiState.Running && s.feedback != null) {
-                    FeedbackPanel(s.feedback, onContinue = vm::next)
+                when {
+                    s is LessonUiState.Running && s.feedback != null -> FeedbackPanel(s.feedback, onContinue = vm::next)
+                    s is LessonUiState.Running -> PrimaryActionBar(primaryAction)
+                    s is LessonUiState.Intro -> StartBar(onStart = vm::start)
+                    else -> Unit
                 }
             },
         ) { padding ->
@@ -137,6 +153,7 @@ fun LessonScreen(
                         Spacer(Modifier.height(12.dp))
                         Button(onClick = onClose) { Text("Back") }
                     }
+                    is LessonUiState.Intro -> IntroView(s)
                     is LessonUiState.Running -> RunningLesson(s, vm, ruleFor)
                     is LessonUiState.Finished -> SummaryView(
                         s,
@@ -147,6 +164,7 @@ fun LessonScreen(
                 }
             }
         }
+      }
     }
 }
 
@@ -169,14 +187,26 @@ private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor
             modifier = Modifier
                 .fillMaxSize()
                 .verticalScroll(scroll)
-                .padding(horizontal = 20.dp, vertical = 12.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
+                .padding(horizontal = 20.dp, vertical = 12.dp)
+                .widthIn(max = ReadableWidth),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            Text(
-                "${s.index + 1} / ${s.lesson.exercises.size}",
-                style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+            val earlierRules = remember(s.lesson, s.index) {
+                s.lesson.exercises.take(s.index).filterIsInstance<GrammarNote>()
+            }
+            Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+                Text(
+                    listOfNotNull(stageLabel(s.exercise.stage), "${s.index + 1} of ${s.lesson.exercises.size}").joinToString("  ·  "),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.weight(1f),
+                )
+                if (earlierRules.isNotEmpty() && s.exercise !is GrammarNote) {
+                    var showRules by remember { mutableStateOf(false) }
+                    TextButton(onClick = { showRules = true }) { Text("Rivedi la regola") }
+                    if (showRules) RuleRecallSheet(earlierRules, onDismiss = { showRules = false })
+                }
+            }
             s.exercise.instruction?.takeIf { it.isNotBlank() }?.let {
                 Text(it, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.secondary)
             }
@@ -192,19 +222,101 @@ private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor
     }
 }
 
+/** Verdict, answer and why; at most about 40% of the screen (it scrolls inside beyond that). */
 @Composable
 private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit) {
+    val maxHeight = (LocalConfiguration.current.screenHeightDp * 0.4f).dp
     Surface(color = verdictColor(feedback.verdict), tonalElevation = 2.dp) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .navigationBarsPadding()
                 .padding(horizontal = 20.dp, vertical = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(6.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            FeedbackBody(feedback)
-            Spacer(Modifier.height(4.dp))
-            Button(onClick = onContinue, modifier = Modifier.fillMaxWidth()) { Text("Continue") }
+            Box(Modifier.heightIn(max = maxHeight).verticalScroll(rememberScrollState())) { FeedbackBody(feedback) }
+            Button(onClick = onContinue, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+                Text("Continue", style = MaterialTheme.typography.titleMedium)
+            }
+        }
+    }
+}
+
+/** Widest text column in lessons: about 60 characters per line on tablets and in landscape. */
+val ReadableWidth = 640.dp
+
+fun stageLabel(stage: String?): String? = when (stage?.lowercase()) {
+    "warmup" -> "Riscaldamento"
+    "learn" -> "La regola"
+    "practise", "practice" -> "Pratica"
+    "use" -> "Usalo"
+    else -> null
+}
+
+@Composable
+private fun StartBar(onStart: () -> Unit) {
+    Surface(tonalElevation = 3.dp) {
+        Box(Modifier.fillMaxWidth().navigationBarsPadding().padding(horizontal = 20.dp, vertical = 12.dp)) {
+            Button(onClick = onStart, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+                Text("Cominciamo", style = MaterialTheme.typography.titleMedium)
+            }
+        }
+    }
+}
+
+/** Intro screen: lesson title, the goal in one line, how long it takes. */
+@Composable
+private fun IntroView(s: LessonUiState.Intro) {
+    val lesson = s.lesson
+    val steps = lesson.exercises.size
+    Column(
+        Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(horizontal = 24.dp, vertical = 32.dp)
+            .widthIn(max = ReadableWidth),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Text(lesson.title, style = MaterialTheme.typography.headlineMedium)
+        val goal = lesson.goal.ifBlank { s.unit.objective }
+        if (goal.isNotBlank()) {
+            Text(goal, style = MaterialTheme.typography.bodyLarge)
+        }
+        Text(
+            "About ${lesson.minutes} minutes · $steps steps",
+            style = MaterialTheme.typography.labelLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        val stages = lesson.exercises.mapNotNull { stageLabel(it.stage) }.distinct()
+        if (stages.size > 1) {
+            Text(stages.joinToString("  →  "), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
+        }
+    }
+}
+
+/** The lesson's rule cards so far, in a sheet over the current exercise. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun RuleRecallSheet(notes: List<GrammarNote>, onDismiss: () -> Unit) {
+    ModalBottomSheet(onDismissRequest = onDismiss) {
+        Column(
+            Modifier
+                .fillMaxWidth()
+                .verticalScroll(rememberScrollState())
+                .padding(horizontal = 20.dp)
+                .padding(bottom = 32.dp),
+            verticalArrangement = Arrangement.spacedBy(20.dp),
+        ) {
+            notes.forEach { note ->
+                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    if (note.title.isNotBlank()) Text(note.title, style = MaterialTheme.typography.titleLarge)
+                    RichText(note.body)
+                    note.examples.forEach { ex ->
+                        ItalianText(ex.it, style = MaterialTheme.typography.bodyLarge)
+                        if (ex.en.isNotBlank()) Text(ex.en, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
+            }
         }
     }
 }
@@ -251,6 +363,18 @@ private fun SummaryView(
     ) {
         Text("Lezione completata!", style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
         Text(s.lesson.title, style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
+        if (s.lesson.takeaway.isNotBlank()) {
+            Surface(
+                color = MaterialTheme.colorScheme.secondaryContainer,
+                shape = MaterialTheme.shapes.large,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text("Da ricordare", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                    LookupText(inlineMarkup(s.lesson.takeaway, highlightColor()), style = MaterialTheme.typography.bodyLarge)
+                }
+            }
+        }
         Spacer(Modifier.height(8.dp))
         if (total > 0) {
             Text("${sum.correct} correct · ${sum.almost} almost · ${sum.wrong} to revisit", style = MaterialTheme.typography.bodyLarge)

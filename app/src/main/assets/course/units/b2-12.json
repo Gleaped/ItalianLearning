@@ -2,95 +2,68 @@
   "id": "b2-12",
   "level": "B2",
   "title": "Ripasso B2",
-  "objective": "By the end you can handle CELI 3-style tasks across the whole of B2: read and complete longer texts, understand and report what you heard, and argue and hypothesise in extended speech and in formal and informal writing.",
-  "grammarFocus": "Ripasso di tutto il B2: congiuntivo e concordanza dei tempi, periodo ipotetico (tipi 1–3 e misti), condizionale passato, passivo, discorso indiretto, frasi implicite, congiunzioni con il congiuntivo. Compiti in stile CELI 3: comprensione, cloze, trasformazioni, monologo, lettera formale e email informale (120–180 parole).",
+  "format": 2,
+  "module": "b2-m4",
+  "objective": "By the end you can handle CELI 3-style tasks across the whole of B2: read and complete texts, understand and report what you heard, and argue and hypothesise in speech and writing.",
+  "grammarFocus": "Ripasso di tutto il B2: congiuntivo e concordanza dei tempi, congiunzioni (benché, purché, affinché), periodo ipotetico (tipi 1-3 e misti), condizionale passato, passivo, discorso indiretto, frasi implicite. Compiti: comprensione, cloze, trasformazione, monologo, lettera formale e email informale.",
   "remedialUnitIds": [
     "b2-04",
     "b2-08",
-    "b2-09",
-    "b2-10",
-    "b2-11"
+    "cg-05",
+    "cg-06",
+    "cg-07",
+    "b2-10"
   ],
   "lessons": [
     {
       "id": "b2-12-l1",
       "title": "Leggere e completare",
-      "minutes": 15,
+      "minutes": 10,
+      "goal": "You can read a longer text and fill the gaps with the right mood, tense and connector.",
+      "takeaway": "Check the trigger first: connector or main verb decides congiuntivo or indicativo; then check the tense of the main verb.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "b2-12-l1-e01",
-          "prompt": "Se l'avessi saputo, ti ___.",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta (cg-06).",
+          "prompt": "Pensavo che il medico ___ più tempo.",
           "options": [
-            "avrei avvisato",
-            "avvisassi",
-            "avrei avvisare",
-            "avvisavo"
+            "avesse",
+            "ha",
+            "abbia",
+            "avrebbe"
           ],
           "answer": 0,
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "explanation": "Tipo 3: se + congiuntivo trapassato → condizionale passato (avvisavo è solo parlato informale)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-12-l1-e02",
-          "sentence": "Vorrei che il medico mi ___ (spiegare) meglio la terapia.",
-          "answers": [
-            "spiegasse"
-          ],
-          "hint": "spiegare – lui",
-          "instruction": "Riscaldamento: completa.",
-          "explanation": "Vorrei che + congiuntivo imperfetto."
-        },
-        {
-          "type": "grammar_note",
-          "id": "b2-12-l1-e03",
-          "title": "Il B2 in una pagina",
-          "body": "Prima di affrontare compiti in stile CELI 3, ripassa i punti chiave del livello:\n- **Concordanza**: *Penso che **sia** / Pensavo che **fosse** / Pensavo che **sarebbe stato***\n- **Periodo ipotetico**: *Se piove, resto. / Se piovesse, resterei. / Se fosse piovuto, sarei rimasto. / Se avessi studiato, oggi saprei.*\n- **Condizionale passato**: rimpianti (*avrei dovuto*), futuro nel passato (*ha detto che sarebbe venuto*), notizie non confermate\n- **Passivo**: *è stato approvato / viene approvato / si approvano*\n- **Discorso indiretto**: *ha detto che era / aveva fatto / sarebbe venuto; mi ha detto di…; mi ha chiesto se…*\n- **Frasi implicite**: *tornando, finito il lavoro, dopo aver mangiato, pur essendo*\n- **Congiunzioni + congiuntivo**: *benché, purché, affinché, a meno che non, prima che, senza che*\n\nNei compiti di **trasformazione** mantieni il significato: cambia la struttura, non il contenuto.",
-          "examples": [
-            {
-              "it": "Pensavo che il negozio fosse aperto.",
-              "en": "I thought the shop was open."
-            },
-            {
-              "it": "Se fossi partito prima, non avrei perso il treno.",
-              "en": "If I had left earlier, I wouldn't have missed the train."
-            },
-            {
-              "it": "La decisione è stata presa ieri.",
-              "en": "The decision was taken yesterday."
-            },
-            {
-              "it": "Pur essendo stanco, è venuto.",
-              "en": "Although he was tired, he came."
-            }
-          ]
+          "explanation": "Pensavo (past) needs the congiuntivo imperfetto: avesse."
         },
         {
           "type": "reading",
-          "id": "b2-12-l1-e04",
+          "id": "b2-12-l1-e02",
+          "stage": "use",
+          "instruction": "Leggi l'articolo e rispondi.",
           "title": "Lavorare da casa: un bilancio",
-          "passage": "Quando, nel 2020, milioni di italiani sono stati costretti a lavorare da casa, molti esperti pensavano che si trattasse di una soluzione temporanea. Pochi immaginavano che lo smart working sarebbe diventato, per tante aziende, una presenza stabile.\nIn un'indagine condotta da un'agenzia per il lavoro, la maggioranza degli intervistati ha dichiarato che vorrebbe continuare a lavorare da casa almeno due giorni a settimana. I vantaggi citati più spesso sono il risparmio di tempo e di denaro: chi abita lontano dall'ufficio, per esempio, evita fino a due ore di viaggio al giorno.\nTuttavia, non mancano i lati negativi. Molti lavoratori raccontano di sentirsi isolati e ammettono che, pur avendo più tempo libero, faticano a separare la vita privata da quella professionale. «Se avessi saputo quanto sarebbe stato difficile staccare la sera, avrei organizzato meglio i miei spazi», racconta Giulia, impiegata in un'agenzia di viaggi.\nAnche le città sono cambiate: in alcuni quartieri del centro, un tempo pieni di uffici, diversi bar e ristoranti sono stati chiusi, mentre nelle zone residenziali sono nati nuovi spazi di coworking.\nGli esperti concordano su un punto: il lavoro da casa funziona, purché sia scelto e non imposto, e a condizione che le aziende forniscano strumenti adeguati. Senza regole chiare, avvertono, il rischio è che la flessibilità si trasformi in una disponibilità senza limiti.",
+          "passage": "Quando, nel 2020, milioni di italiani sono stati costretti a lavorare da casa, molti esperti pensavano che si trattasse di una soluzione temporanea. Pochi immaginavano che lo smart working sarebbe diventato, per tante aziende, una presenza stabile.\nIn un'indagine, la maggioranza degli intervistati ha dichiarato che vorrebbe continuare a lavorare da casa almeno due giorni a settimana. I vantaggi citati più spesso sono il risparmio di tempo e di denaro.\nTuttavia molti lavoratori si sentono isolati e, pur avendo più tempo libero, faticano a staccare la sera. «Se avessi saputo quanto sarebbe stato difficile, avrei organizzato meglio i miei spazi», racconta Giulia.\nGli esperti concordano: il lavoro da casa funziona, purché sia scelto e non imposto.",
           "questions": [
             {
               "question": "Che cosa pensavano molti esperti nel 2020?",
               "options": [
-                "Che il lavoro da casa sarebbe stato temporaneo.",
-                "Che il lavoro da casa sarebbe diventato stabile.",
-                "Che i lavoratori avrebbero risparmiato poco.",
-                "Che le aziende avrebbero chiuso gli uffici."
+                "Che sarebbe stato temporaneo.",
+                "Che sarebbe diventato stabile.",
+                "Che avrebbe fatto risparmiare poco.",
+                "Che le aziende avrebbero chiuso."
               ],
               "answer": 0
             },
             {
-              "question": "Qual è uno dei vantaggi citati più spesso?",
+              "question": "Quale vantaggio viene citato?",
               "options": [
                 "Si conoscono più colleghi.",
-                "Si guadagna di più.",
                 "Si risparmiano tempo e denaro.",
-                "Si lavora meno ore."
+                "Si lavora meno ore.",
+                "Si guadagna di più."
               ],
-              "answer": 2
+              "answer": 1
             },
             {
               "question": "Che cosa rimpiange Giulia?",
@@ -103,162 +76,121 @@
               "answer": 1
             },
             {
-              "question": "Che cosa significa «staccare» nella frase di Giulia?",
+              "question": "Il lavoro da casa funziona, secondo gli esperti, purché…",
               "options": [
-                "spegnere il computer per sempre",
-                "prendere le ferie",
-                "smettere di pensare al lavoro",
-                "cambiare casa"
+                "si lavori due giorni.",
+                "sia scelto e non imposto.",
+                "si abiti lontano.",
+                "ci siano più uffici."
               ],
-              "answer": 2
-            },
-            {
-              "question": "Secondo gli esperti, il lavoro da casa funziona a condizione che…",
-              "options": [
-                "si lavori solo due giorni a settimana.",
-                "si abiti lontano dall'ufficio.",
-                "sia una scelta e le aziende diano strumenti adeguati.",
-                "si usino gli spazi di coworking."
-              ],
-              "answer": 2
+              "answer": 1
             }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-12-l1-e03",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo.",
+          "sentence": "Molti esperti pensavano che si ___ di una soluzione temporanea. (trattare)",
+          "answers": [
+            "trattasse"
           ],
-          "instruction": "Leggi l'articolo e rispondi (comprensione in stile CELI; testo didattico).",
-          "explanation": "Nel testo ritrovi quasi tutto il B2: concordanza (pensavano che si trattasse, sarebbe diventato), passivo (sono stati costretti, sono stati chiusi), tipo 3 (se avessi saputo… avrei organizzato), pur + gerundio, purché e a condizione che."
+          "explanation": "Pensavano is past, so congiuntivo imperfetto.",
+          "hint": "trattare"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-12-l1-e04",
+          "stage": "practise",
+          "instruction": "Completa con il connettivo.",
+          "sentence": "Il lavoro da casa funziona, ___ sia scelto e non imposto.",
+          "answers": [
+            "purché",
+            "a condizione che"
+          ],
+          "explanation": "Purché takes the congiuntivo and means provided that."
         },
         {
           "type": "gap_fill",
           "id": "b2-12-l1-e05",
-          "sentence": "Il 3 maggio ho acquistato una lavatrice nel vostro negozio, che mi ___ (consegnare) due giorni dopo.",
+          "stage": "practise",
+          "instruction": "Completa con il connettivo.",
+          "sentence": "Te lo spiego ___ tu possa decidere con calma.",
           "answers": [
-            "è stata consegnata"
+            "affinché",
+            "perché"
           ],
-          "hint": "passivo",
-          "instruction": "Cloze: completa la lettera di reclamo con una forma o una parola per ogni spazio.",
-          "explanation": "La lavatrice subisce l'azione → passivo al passato prossimo, accordo al femminile."
+          "explanation": "Affinché + congiuntivo expresses purpose."
         },
         {
-          "type": "gap_fill",
+          "type": "multiple_choice",
           "id": "b2-12-l1-e06",
-          "sentence": "Già al primo lavaggio mi sono accorto che la macchina perdeva acqua, ___ fosse stata installata correttamente.",
-          "answers": [
-            "benché",
-            "sebbene",
-            "nonostante",
-            "malgrado"
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Quale forma completa la frase? ___ il servizio sia migliorato, ci sono ancora molti problemi.",
+          "options": [
+            "Benché",
+            "Siccome",
+            "Purché",
+            "Dopo che"
           ],
-          "hint": "connettivo + congiuntivo",
-          "instruction": "Cloze: completa la lettera di reclamo con una forma o una parola per ogni spazio.",
-          "explanation": "Concessiva con il congiuntivo (fosse stata installata)."
+          "answer": 0,
+          "explanation": "Benché + congiuntivo means although."
         },
         {
-          "type": "gap_fill",
+          "type": "transform",
           "id": "b2-12-l1-e07",
-          "sentence": "Il vostro tecnico mi ha assicurato che ___ (tornare) entro una settimana.",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con il gerundio.",
+          "source": "Benché fosse stanco, è venuto alla festa.",
+          "cue": "Pur…",
           "answers": [
-            "sarebbe tornato"
+            "Pur essendo stanco, è venuto alla festa.",
+            "Pur essendo stanco è venuto alla festa."
           ],
-          "hint": "futuro nel passato",
-          "instruction": "Cloze: completa la lettera di reclamo con una forma o una parola per ogni spazio.",
-          "explanation": "Ha assicurato (passato) + azione successiva → condizionale passato."
+          "explanation": "Pur + gerundio means although and needs the same subject."
         },
         {
-          "type": "gap_fill",
+          "type": "error_correction",
           "id": "b2-12-l1-e08",
-          "sentence": "Se mi aveste avvisato del ritardo, ___ (potere) organizzarmi diversamente.",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Le scrivo affinché lei prende provvedimenti.",
           "answers": [
-            "avrei potuto"
+            "Le scrivo affinché lei prenda provvedimenti.",
+            "Le scrivo affinché prenda provvedimenti.",
+            "Le scrivo affinché Lei prenda provvedimenti."
           ],
-          "hint": "tipo 3",
-          "instruction": "Cloze: completa la lettera di reclamo con una forma o una parola per ogni spazio.",
-          "explanation": "Se + congiuntivo trapassato → condizionale passato."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-12-l1-e09",
-          "sentence": "Qualora la sostituzione non ___ (avvenire) entro dieci giorni, sarò costretto a rivolgermi a un'associazione di consumatori.",
-          "answers": [
-            "avvenisse",
-            "avvenga"
-          ],
-          "hint": "qualora + congiuntivo",
-          "instruction": "Cloze: completa la lettera di reclamo con una forma o una parola per ogni spazio.",
-          "explanation": "Qualora + congiuntivo (imperfetto o presente)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-12-l1-e10",
-          "sentence": "Se qualcuno mi ___, sarei venuto.",
-          "answers": [
-            "avesse avvisato"
-          ],
-          "hint": "tipo 3",
-          "instruction": "Trasformazione: riscrivi mantenendo lo stesso significato. «Non sono venuto perché nessuno mi aveva avvisato.»",
-          "explanation": "Causa reale nel passato → ipotesi irreale: se + congiuntivo trapassato."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-12-l1-e11",
-          "sentence": "Pur ___ stanco, è venuto alla festa.",
-          "answers": [
-            "essendo"
-          ],
-          "hint": "pur + gerundio",
-          "instruction": "Trasformazione: riscrivi mantenendo lo stesso significato. «Anche se era stanco, è venuto alla festa.»",
-          "explanation": "Anche se + indicativo = pur + gerundio (stesso soggetto)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-12-l1-e12",
-          "sentence": "La segretaria mi ha detto ___ il giorno dopo.",
-          "answers": [
-            "di tornare"
-          ],
-          "hint": "discorso indiretto",
-          "instruction": "Trasformazione: riscrivi mantenendo lo stesso significato. La segretaria: «Torni domani.»",
-          "explanation": "Imperativo → di + infinito; domani → il giorno dopo."
+          "explanation": "Affinché always takes the congiuntivo: prenda."
         },
         {
           "type": "speak_respond",
-          "id": "b2-12-l1-e13",
-          "prompt": "Riassumi l'articolo sul lavoro da casa: un vantaggio, uno svantaggio e la tua opinione.",
+          "id": "b2-12-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 3 frasi.",
+          "prompt": "Riassumi l'articolo: un vantaggio, uno svantaggio e la tua opinione.",
           "keywords": [
             "vantaggio",
             "tuttavia",
             "secondo me"
           ],
-          "modelAnswer": "Secondo l'articolo, il lavoro da casa è diventato stabile per molte aziende. Il vantaggio principale è che si risparmiano tempo e denaro. Tuttavia molte persone si sentono isolate e fanno fatica a staccare. Secondo me funziona bene, purché si possa scegliere e si alterni con qualche giorno in ufficio.",
-          "instruction": "Rispondi ad alta voce in 4 frasi.",
-          "explanation": "Un buon riassunto orale: fatti (passato, passivo), contrasto (tuttavia), opinione con condizione (purché)."
+          "modelAnswer": "Secondo l'articolo, il lavoro da casa è diventato stabile. Il vantaggio principale è il risparmio di tempo e denaro. Tuttavia molte persone si sentono isolate. Secondo me funziona purché sia una scelta."
         }
       ]
     },
     {
       "id": "b2-12-l2",
       "title": "Ascoltare e riferire",
-      "minutes": 12,
+      "minutes": 10,
+      "goal": "You can understand a news item and pass it on with the passive and reported speech.",
+      "takeaway": "Passive for the facts; past reporting verb → imperfetto, trapassato, condizionale passato; se for questions, di + infinito for orders.",
       "exercises": [
         {
-          "type": "translate",
-          "id": "b2-12-l2-e01",
-          "direction": "it_en",
-          "source": "Mi hanno detto che il pacco sarebbe arrivato lunedì.",
-          "answers": [
-            "They told me the parcel would arrive on Monday.",
-            "They told me the parcel would arrive Monday.",
-            "They told me that the parcel would arrive on Monday.",
-            "They told me that the parcel would arrive Monday.",
-            "They told me the package would arrive on Monday.",
-            "They told me the package would arrive Monday.",
-            "They told me that the package would arrive on Monday.",
-            "They told me that the package would arrive Monday."
-          ],
-          "instruction": "Riscaldamento: traduci in inglese.",
-          "explanation": "Futuro nel passato: sarebbe arrivato = would arrive."
-        },
-        {
           "type": "multiple_choice",
-          "id": "b2-12-l2-e02",
+          "id": "b2-12-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta (b2-05).",
           "prompt": "Il treno delle 8:15 ___ soppresso a causa dello sciopero.",
           "options": [
             "ha",
@@ -267,53 +199,40 @@
             "è venuto"
           ],
           "answer": 1,
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "explanation": "Passivo al passato prossimo: essere + stato + participio."
+          "explanation": "Passive in the passato prossimo: è stato soppresso."
         },
         {
           "type": "listen_choose",
-          "id": "b2-12-l2-e03",
-          "audioText": "Notizie dalla città. Da lunedì prossimo il centro storico sarà chiuso al traffico privato dalle otto alle venti. La decisione è stata presa ieri sera dal consiglio comunale, nonostante le proteste di alcuni commercianti, che temono un calo delle vendite. Il sindaco ha dichiarato che il provvedimento sarà valutato dopo sei mesi e che, qualora i risultati non fossero positivi, si potrebbe tornare indietro. Ai residenti verranno rilasciati permessi gratuiti.",
+          "id": "b2-12-l2-e02",
+          "stage": "practise",
+          "instruction": "Ascolta il notiziario e rispondi.",
+          "audioText": "Notizie dalla città. Da lunedì prossimo il centro storico sarà chiuso al traffico privato dalle otto alle venti. La decisione è stata presa ieri sera dal consiglio comunale, nonostante le proteste di alcuni commercianti, che temono un calo delle vendite. Il sindaco ha dichiarato che il provvedimento sarà valutato dopo sei mesi.",
           "question": "Perché alcuni commercianti protestano?",
           "options": [
             "Non hanno ricevuto i permessi.",
             "Temono di vendere di meno.",
             "Il consiglio non li ha invitati.",
-            "Vogliono chiudere il centro tutto il giorno."
+            "Vogliono chiudere tutto il giorno."
           ],
           "answer": 1,
-          "instruction": "Ascolta il notiziario e rispondi.",
-          "explanation": "Temono un calo delle vendite = hanno paura di vendere di meno."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b2-12-l2-e04",
-          "audioText": "Notizie dalla città. Da lunedì prossimo il centro storico sarà chiuso al traffico privato dalle otto alle venti. La decisione è stata presa ieri sera dal consiglio comunale, nonostante le proteste di alcuni commercianti, che temono un calo delle vendite. Il sindaco ha dichiarato che il provvedimento sarà valutato dopo sei mesi e che, qualora i risultati non fossero positivi, si potrebbe tornare indietro. Ai residenti verranno rilasciati permessi gratuiti.",
-          "question": "Che cosa potrebbe succedere se i risultati non saranno positivi?",
-          "options": [
-            "Il provvedimento potrebbe essere annullato.",
-            "Il sindaco si dimetterebbe.",
-            "I permessi diventerebbero a pagamento.",
-            "La chiusura verrebbe estesa alla notte."
-          ],
-          "answer": 0,
-          "instruction": "Ascolta di nuovo il notiziario e rispondi.",
-          "explanation": "Qualora i risultati non fossero positivi, si potrebbe tornare indietro = annullare la decisione."
+          "explanation": "Temono un calo delle vendite means they fear selling less."
         },
         {
           "type": "listen_transcribe",
-          "id": "b2-12-l2-e05",
+          "id": "b2-12-l2-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
           "audioText": "Il provvedimento sarà valutato dopo sei mesi.",
           "answers": [
             "Il provvedimento sarà valutato dopo sei mesi."
           ],
-          "slow": false,
-          "instruction": "Ascolta e scrivi la frase.",
-          "explanation": "Passivo al futuro con essere."
+          "explanation": "Passive future: sarà valutato."
         },
         {
           "type": "multiple_choice",
-          "id": "b2-12-l2-e06",
+          "id": "b2-12-l2-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
           "prompt": "Il sindaco ha dichiarato che ___ il provvedimento sei mesi dopo.",
           "options": [
             "valutassero",
@@ -322,22 +241,13 @@
             "avrebbero valutato"
           ],
           "answer": 3,
-          "instruction": "Riferisci. Il sindaco: «Valuteremo il provvedimento tra sei mesi.»",
-          "explanation": "Futuro → condizionale passato nel discorso indiretto."
-        },
-        {
-          "type": "error_correction",
-          "id": "b2-12-l2-e07",
-          "sentence": "L'impiegata mi ha detto che porti due fototessere.",
-          "answers": [
-            "L'impiegata mi ha detto di portare due fototessere."
-          ],
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "explanation": "Un ordine riferito si esprime con di + infinito."
+          "explanation": "A reported future becomes the condizionale passato."
         },
         {
           "type": "gap_fill",
-          "id": "b2-12-l2-e08",
+          "id": "b2-12-l2-e05",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
           "sentence": "L'infermiera mi ha chiesto se ___ le analisi del sangue.",
           "answers": [
             "avevo già fatto",
@@ -345,90 +255,25 @@
             "avevo fatto",
             "avessi fatto"
           ],
-          "hint": "passato prossimo → ?",
-          "instruction": "Riferisci. L'infermiera: «Ha già fatto le analisi del sangue?»",
-          "explanation": "Domanda sì/no → se + trapassato (indicativo o congiuntivo, più formale)."
+          "explanation": "A reported passato prossimo becomes trapassato.",
+          "hint": "fare – io"
         },
         {
-          "type": "roleplay",
-          "id": "b2-12-l2-e09",
-          "scenario": "You applied for residence (domanda di residenza) a month ago and nothing has happened. Call the registry office, explain, report what you had been told and make a polite request. Use Lei.",
-          "turns": [
-            {
-              "speaker": "npc",
-              "text": "Ufficio anagrafe, buongiorno. Mi dica."
-            },
-            {
-              "speaker": "you",
-              "text": "Buongiorno. Ho presentato la domanda di residenza un mese fa, ma non ho ancora ricevuto nessuna risposta.",
-              "hint": "Explain you applied a month ago and heard nothing.",
-              "keywords": [
-                "domanda di residenza",
-                "un mese fa"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Capisco. È già passata la polizia municipale per il controllo?"
-            },
-            {
-              "speaker": "you",
-              "text": "No, non è venuto nessuno. Mi avevano detto che sarebbero passati entro due settimane.",
-              "hint": "Say nobody came; report what they had told you.",
-              "keywords": [
-                "mi avevano detto",
-                "sarebbero passati"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Purtroppo siamo in ritardo. Se non la trovano in casa, lasciano un avviso."
-            },
-            {
-              "speaker": "you",
-              "text": "Va bene. Potrebbe chiedere ai vigili di chiamarmi prima di passare, in modo che io mi faccia trovare a casa?",
-              "hint": "Polite request + purpose (in modo che + congiuntivo).",
-              "keywords": [
-                "potrebbe",
-                "in modo che"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Certo, lo segnalo nella pratica. Le serve altro?"
-            },
-            {
-              "speaker": "you",
-              "text": "No, grazie. Se avessi saputo del ritardo, avrei chiamato prima! Buona giornata.",
-              "hint": "Close with a type-3 hypothetical.",
-              "keywords": [
-                "se avessi saputo",
-                "avrei"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Buona giornata a lei."
-            }
+          "type": "error_correction",
+          "id": "b2-12-l2-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "L'impiegata mi ha detto che porti due fototessere.",
+          "answers": [
+            "L'impiegata mi ha detto di portare due fototessere."
           ],
-          "instruction": "Telefona all'ufficio anagrafe. Rispondi ad alta voce quando tocca a te.",
-          "explanation": "Discorso indiretto (mi avevano detto che sarebbero passati), richiesta cortese con scopo (in modo che mi faccia trovare) e tipo 3."
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-12-l2-e10",
-          "prompt": "Riferisci a un amico la telefonata con l'anagrafe: che cosa ti hanno detto e che cosa hai chiesto?",
-          "keywords": [
-            "mi hanno detto",
-            "ho chiesto"
-          ],
-          "modelAnswer": "Ho chiamato l'anagrafe e mi hanno detto che erano in ritardo con i controlli. Mi hanno spiegato che, se i vigili non mi avessero trovato in casa, avrebbero lasciato un avviso. Allora ho chiesto di chiamarmi prima di passare.",
-          "instruction": "Rispondi ad alta voce in 3 frasi.",
-          "explanation": "Se non la trovano, lasciano → riferito al passato: se non mi avessero trovato, avrebbero lasciato."
+          "explanation": "A reported order uses di + infinito."
         },
         {
           "type": "match_pairs",
-          "id": "b2-12-l2-e11",
+          "id": "b2-12-l2-e07",
+          "stage": "practise",
+          "instruction": "Collega la frase diretta con quella indiretta.",
           "pairs": [
             {
               "left": "«Vengo domani.»",
@@ -443,79 +288,215 @@
               "right": "Ha detto che aveva perso le chiavi."
             },
             {
-              "left": "«Chiudi la porta!»",
-              "right": "Mi ha detto di chiudere la porta."
-            },
-            {
               "left": "«Sei libero?»",
               "right": "Mi ha chiesto se ero libero."
             }
           ],
-          "instruction": "Abbina la frase diretta a quella indiretta."
+          "explanation": "The tenses go back one step after a past reporting verb."
         },
         {
-          "type": "speak_repeat",
-          "id": "b2-12-l2-e12",
-          "text": "Il sindaco ha dichiarato che il provvedimento sarebbe stato valutato dopo sei mesi.",
-          "translation": "The mayor stated that the measure would be assessed after six months.",
-          "instruction": "Ascolta e ripeti ad alta voce."
+          "type": "roleplay",
+          "id": "b2-12-l2-e08",
+          "stage": "use",
+          "instruction": "Parla con l'ufficio. Usa il Lei e rispondi ad alta voce.",
+          "scenario": "Hai presentato la domanda di residenza un mese fa e non è successo niente. Chiama l'anagrafe, spiega e fai una richiesta cortese.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ufficio anagrafe, buongiorno. Mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno. Ho presentato la domanda di residenza un mese fa, ma non ho ancora ricevuto risposta.",
+              "hint": "Explain the problem.",
+              "keywords": [
+                "domanda",
+                "residenza"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mi dà il suo nome? Controllo la pratica."
+            },
+            {
+              "speaker": "you",
+              "text": "Certo. Mi avevano detto che sarebbe bastata una settimana. Potreste controllare, per favore?",
+              "hint": "Report what you had been told, then ask politely.",
+              "keywords": [
+                "avevano detto",
+                "sarebbe"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "La pratica è in lavorazione. La richiameremo noi."
+            }
+          ]
         }
       ]
     },
     {
       "id": "b2-12-l3",
-      "title": "Argomentare e scrivere",
-      "minutes": 15,
+      "title": "Se… (ipotesi e rimpianti)",
+      "minutes": 9,
+      "goal": "You can talk about real, imaginary and impossible situations, and regrets.",
+      "takeaway": "Se + presente → presente; se + imperfetto → condizionale; se + trapassato → condizionale passato; mixed: se avessi… oggi sarei…",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "b2-12-l3-e01",
-          "prompt": "Te lo spiego ___ tu possa decidere con calma.",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta (cg-07).",
+          "prompt": "Se l'avessi saputo, ti ___.",
           "options": [
-            "a meno che",
-            "benché",
-            "purché",
-            "affinché"
+            "avrei avvisato",
+            "avvisassi",
+            "avrei avvisare",
+            "avvisavo"
           ],
-          "answer": 3,
-          "instruction": "Riscaldamento: scegli il connettivo giusto.",
-          "explanation": "Scopo con soggetti diversi → affinché + congiuntivo."
+          "answer": 0,
+          "explanation": "Type 3: se + trapassato congiuntivo → condizionale passato."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b2-12-l3-e02",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "reale (presente)",
+            "immaginario (presente)",
+            "impossibile (passato)"
+          ],
+          "items": [
+            {
+              "text": "Se piove, resto a casa.",
+              "bucket": 0
+            },
+            {
+              "text": "Se avessi tempo, verrei.",
+              "bucket": 1
+            },
+            {
+              "text": "Se fossi in te, accetterei.",
+              "bucket": 1
+            },
+            {
+              "text": "Se avessi studiato, avrei passato l'esame.",
+              "bucket": 2
+            },
+            {
+              "text": "Se ho tempo, vengo.",
+              "bucket": 0
+            },
+            {
+              "text": "Se l'avessi saputo, sarei venuto.",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Real: indicativo; imaginary: imperfetto + condizionale; impossible: trapassato + condizionale passato."
         },
         {
           "type": "gap_fill",
-          "id": "b2-12-l3-e02",
-          "sentence": "Se avessi accettato quel lavoro, oggi ___ (vivere) a Milano.",
+          "id": "b2-12-l3-e03",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Se avessi accettato quel lavoro, oggi ___ a Milano. (vivere)",
           "answers": [
             "vivrei",
             "abiterei"
           ],
-          "hint": "periodo misto",
-          "instruction": "Riscaldamento: completa.",
-          "explanation": "Condizione passata, conseguenza presente → condizionale presente."
+          "explanation": "Mixed conditional: past condition, present result → condizionale presente.",
+          "hint": "vivere"
         },
         {
-          "type": "grammar_note",
-          "id": "b2-12-l3-e03",
-          "title": "Scrivere 120–180 parole: lettera formale e informale",
-          "body": "**Struttura**\n- **Apertura** adatta al registro: *Gentile direttore / Egregio signore* (formale) – *Caro Luca / Ciao Sara* (informale)\n- **Introduzione**: perché scrivi – *Le scrivo in merito a… / Ti scrivo perché…*\n- **Sviluppo** in due paragrafi: i fatti (passato, passivo, discorso indiretto) e la tua opinione con argomenti (congiuntivo, connettivi)\n- **Proposta o ipotesi**: *Sarebbe utile che… / Se si facesse…, … / Qualora…*\n- **Chiusura**: *In attesa di un suo riscontro, porgo distinti saluti.* – *Fammi sapere! Un abbraccio*\n\nMantieni **lo stesso registro** dall'inizio alla fine (Lei o tu), varia i connettivi e rileggi controllando accordi, concordanza dei tempi e congiuntivi. Rispetta il numero di parole richiesto: un testo troppo corto spesso non svolge tutti i punti della consegna.",
-          "examples": [
-            {
-              "it": "Le scrivo in merito alla chiusura della biblioteca di quartiere.",
-              "en": "I am writing to you regarding the closure of the local library."
-            },
-            {
-              "it": "Le sarei grato se potesse rispondermi al più presto.",
-              "en": "I would be grateful if you could reply as soon as possible."
-            },
-            {
-              "it": "Ti scrivo perché ho una bella notizia!",
-              "en": "I'm writing because I have some great news!"
-            }
-          ]
+          "type": "gap_fill",
+          "id": "b2-12-l3-e04",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Se qualcuno mi ___, sarei venuto. (avvisare)",
+          "answers": [
+            "avesse avvisato"
+          ],
+          "explanation": "Type 3: se + congiuntivo trapassato."
         },
         {
           "type": "multiple_choice",
-          "id": "b2-12-l3-e04",
+          "id": "b2-12-l3-e05",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Magari ___ più tempo libero!",
+          "options": [
+            "avessi",
+            "ho",
+            "avrei",
+            "avuto"
+          ],
+          "answer": 0,
+          "explanation": "Magari + imperfetto congiuntivo expresses a wish."
+        },
+        {
+          "type": "transform",
+          "id": "b2-12-l3-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Non ho studiato, quindi non ho passato l'esame.",
+          "cue": "Se…",
+          "answers": [
+            "Se avessi studiato, avrei passato l'esame.",
+            "Se avessi studiato avrei passato l'esame."
+          ],
+          "explanation": "Impossible past condition: se + trapassato congiuntivo, condizionale passato."
+        },
+        {
+          "type": "sentence_build",
+          "id": "b2-12-l3-e07",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I would be grateful if you could reply as soon as possible.",
+          "tiles": [
+            "Le",
+            "sarei",
+            "grato",
+            "se",
+            "potesse",
+            "rispondermi",
+            "al",
+            "più",
+            "presto"
+          ],
+          "distractors": [
+            "potrebbe",
+            "può"
+          ],
+          "explanation": "Se + congiuntivo imperfetto + condizionale for a polite request."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-12-l3-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 3 frasi.",
+          "prompt": "Che cosa faresti se vincessi un viaggio? E che cosa avresti fatto diversamente nella tua vita?",
+          "keywords": [
+            "se",
+            "vorrei",
+            "avrei"
+          ],
+          "modelAnswer": "Se vincessi un viaggio, andrei in Giappone. Se avessi studiato di più a scuola, oggi parlerei meglio le lingue."
+        }
+      ]
+    },
+    {
+      "id": "b2-12-l4",
+      "title": "Argomentare e scrivere",
+      "minutes": 10,
+      "goal": "You can argue a point in speech and write a formal or informal text of 120–180 words.",
+      "takeaway": "Register first (Gentile… / Caro…), then facts, opinion, concession (benché), proposal (se…).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-12-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la risposta giusta.",
           "prompt": "Quale chiusura è adatta a una lettera formale?",
           "options": [
             "In attesa di un suo cortese riscontro, porgo distinti saluti.",
@@ -524,11 +505,13 @@
             "Ci sentiamo, eh?"
           ],
           "answer": 0,
-          "instruction": "Scegli la risposta giusta."
+          "explanation": "A formal letter ends with a formula and distinti saluti."
         },
         {
           "type": "match_pairs",
-          "id": "b2-12-l3-e05",
+          "id": "b2-12-l4-e02",
+          "stage": "practise",
+          "instruction": "Collega il connettivo con la sua funzione.",
           "pairs": [
             {
               "left": "inoltre",
@@ -551,127 +534,77 @@
               "right": "concludere"
             }
           ],
-          "instruction": "Abbina il connettivo alla sua funzione nel testo."
+          "explanation": "Connectors organise an argument."
         },
         {
-          "type": "error_correction",
-          "id": "b2-12-l3-e06",
-          "sentence": "Le scrivo affinché lei prende provvedimenti.",
-          "answers": [
-            "Le scrivo affinché lei prenda provvedimenti.",
-            "Le scrivo affinché prenda provvedimenti.",
-            "Le scrivo affinché Lei prenda provvedimenti."
+          "type": "multiple_choice",
+          "id": "b2-12-l4-e03",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Quale frase è adatta a una email informale?",
+          "options": [
+            "Ti scrivo perché ho una notizia!",
+            "Le scrivo in merito alla sua richiesta.",
+            "Egregio signore,",
+            "In attesa di riscontro,"
           ],
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "explanation": "Affinché + congiuntivo: prenda."
-        },
-        {
-          "type": "sentence_build",
-          "id": "b2-12-l3-e07",
-          "translation": "I would be grateful if you could reply as soon as possible.",
-          "tiles": [
-            "Le",
-            "sarei",
-            "grato",
-            "se",
-            "potesse",
-            "rispondermi",
-            "al",
-            "più",
-            "presto"
-          ],
-          "distractors": [
-            "potrebbe",
-            "può"
-          ],
-          "instruction": "Metti le parole in ordine.",
-          "explanation": "Formula formale: le sarei grato se + congiuntivo imperfetto (tipo 2, mai il condizionale dopo se)."
+          "answer": 0,
+          "explanation": "Informal register uses tu and a friendly opening."
         },
         {
           "type": "translate",
-          "id": "b2-12-l3-e08",
+          "id": "b2-12-l4-e04",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
           "direction": "en_it",
           "source": "Although the service has improved, there are still many problems.",
           "answers": [
             "Benché il servizio sia migliorato, ci sono ancora molti problemi.",
             "Benché il servizio sia migliorato ci sono ancora molti problemi.",
-            "Benché il servizio sia migliorato, restano ancora molti problemi.",
-            "Benché il servizio sia migliorato restano ancora molti problemi.",
-            "Benché il servizio sia migliorato, rimangono ancora molti problemi.",
-            "Benché il servizio sia migliorato rimangono ancora molti problemi.",
             "Sebbene il servizio sia migliorato, ci sono ancora molti problemi.",
-            "Sebbene il servizio sia migliorato ci sono ancora molti problemi.",
-            "Sebbene il servizio sia migliorato, restano ancora molti problemi.",
-            "Sebbene il servizio sia migliorato restano ancora molti problemi.",
-            "Sebbene il servizio sia migliorato, rimangono ancora molti problemi.",
-            "Sebbene il servizio sia migliorato rimangono ancora molti problemi.",
-            "Nonostante il servizio sia migliorato, ci sono ancora molti problemi.",
-            "Nonostante il servizio sia migliorato ci sono ancora molti problemi.",
-            "Nonostante il servizio sia migliorato, restano ancora molti problemi.",
-            "Nonostante il servizio sia migliorato restano ancora molti problemi.",
-            "Nonostante il servizio sia migliorato, rimangono ancora molti problemi.",
-            "Nonostante il servizio sia migliorato rimangono ancora molti problemi.",
-            "Anche se il servizio è migliorato, ci sono ancora molti problemi.",
-            "Anche se il servizio è migliorato ci sono ancora molti problemi.",
-            "Anche se il servizio è migliorato, restano ancora molti problemi.",
-            "Anche se il servizio è migliorato restano ancora molti problemi.",
-            "Anche se il servizio è migliorato, rimangono ancora molti problemi.",
-            "Anche se il servizio è migliorato rimangono ancora molti problemi."
+            "Benché il servizio sia migliorato, restano ancora molti problemi."
           ],
-          "instruction": "Traduci in italiano.",
-          "explanation": "Benché / sebbene + congiuntivo passato (anteriorità), oppure anche se + indicativo."
+          "explanation": "Benché + congiuntivo passato for an earlier event."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-12-l4-e05",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Le sarei grato ___ potesse rispondermi presto.",
+          "answers": [
+            "se"
+          ],
+          "explanation": "A polite request: se + congiuntivo imperfetto, then the condizionale."
         },
         {
           "type": "speak_respond",
-          "id": "b2-12-l3-e09",
-          "prompt": "«È meglio vivere in una grande città o in un piccolo paese?» Esprimi la tua opinione con almeno due argomenti, una concessione e un'ipotesi.",
+          "id": "b2-12-l4-e06",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 4 frasi.",
+          "prompt": "«È meglio vivere in una grande città o in un piccolo paese?» Dai due argomenti, una concessione e un'ipotesi.",
           "keywords": [
             "secondo me",
             "benché",
             "se"
           ],
-          "modelAnswer": "Secondo me è meglio vivere in una città di medie dimensioni. Benché le grandi città offrano più lavoro e più servizi, la vita è cara e stressante. Inoltre, nei piccoli paesi i rapporti sono più umani, anche se spesso mancano i trasporti. Se potessi scegliere liberamente, vivrei vicino a una città, purché ci fosse un buon collegamento in treno. Insomma, cercherei un equilibrio.",
-          "instruction": "Parla per circa un minuto (monologo).",
-          "explanation": "Struttura: opinione, argomenti con connettivi (benché, inoltre, anche se), ipotesi (se potessi… vivrei), conclusione (insomma)."
+          "modelAnswer": "Secondo me è meglio una città di medie dimensioni. Benché le grandi città offrano più lavoro, la vita è cara. Inoltre i piccoli paesi sono più tranquilli. Se potessi, vivrei vicino al mare."
         },
         {
           "type": "free_write",
-          "id": "b2-12-l3-e10",
-          "prompt": "Scrivi una lettera formale (120–180 parole) al direttore di un giornale locale. Il comune ha deciso di chiudere una biblioteca di quartiere: racconta i fatti, riferisci che cosa ha dichiarato il comune, esprimi la tua opinione e fai una proposta.",
+          "id": "b2-12-l4-e07",
+          "stage": "use",
+          "instruction": "Scrivi una lettera formale di 120-150 parole.",
+          "prompt": "Scrivi al direttore di un giornale locale. Il comune ha deciso di chiudere una biblioteca di quartiere: racconta i fatti, riferisci che cosa ha dichiarato il comune, esprimi la tua opinione e fai una proposta.",
           "minWords": 120,
           "checklist": [
             "Ho usato apertura e chiusura formali e il Lei.",
-            "Ho riferito i fatti con almeno un passivo.",
-            "Ho riferito una dichiarazione con il discorso indiretto.",
-            "Ho espresso la mia opinione con una concessiva e almeno un congiuntivo.",
-            "Ho fatto una proposta con un'ipotesi o una finale (se…, affinché…).",
-            "Il testo ha tra 120 e 180 parole ed è diviso in paragrafi."
+            "Ho usato almeno un passivo.",
+            "Ho riferito che cosa ha dichiarato il comune.",
+            "Ho usato un connettivo con il congiuntivo (benché, purché…).",
+            "Ho fatto una proposta con se + imperfetto."
           ],
-          "modelAnswer": "Egregio Direttore,\nle scrivo in merito alla notizia, pubblicata sul suo giornale la settimana scorsa, della chiusura della biblioteca di via Mazzini.\nSecondo il comunicato del Comune, la decisione è stata presa per ridurre le spese e i libri verranno trasferiti nella biblioteca centrale. L'assessore alla cultura ha dichiarato che il servizio non sarebbe peggiorato, perché la sede centrale è facilmente raggiungibile.\nBenché capisca la necessità di risparmiare, non condivido questa scelta. La biblioteca di quartiere non è soltanto un luogo dove si prendono in prestito libri: è uno spazio di studio per gli studenti e di incontro per gli anziani, molti dei quali non possono spostarsi facilmente. Se venisse chiusa, il quartiere perderebbe uno dei pochi servizi culturali rimasti.\nPropongo quindi che il Comune valuti soluzioni alternative, per esempio una gestione condivisa con le associazioni, affinché la biblioteca possa restare aperta almeno tre giorni a settimana.\nIn attesa di un suo riscontro, porgo distinti saluti.",
-          "instruction": "Scrivi una lettera formale (compito in stile CELI)."
-        },
-        {
-          "type": "free_write",
-          "id": "b2-12-l3-e11",
-          "prompt": "Scrivi un'email informale (120–180 parole) a un amico italiano che vuole venire a studiare per qualche mese nella tua città. Raccontagli la tua esperienza, dagli dei consigli (se fossi in te…, purché…, a meno che…) e racconta un errore che hai fatto (se avessi…).",
-          "minWords": 120,
-          "checklist": [
-            "Ho usato un registro informale coerente (tu, Caro…, Un abbraccio).",
-            "Ho dato almeno due consigli (se fossi in te + condizionale, ti consiglio di…).",
-            "Ho raccontato un errore con un periodo ipotetico di tipo 3.",
-            "Ho usato almeno una congiunzione con il congiuntivo (purché, a meno che, benché).",
-            "Ho usato pensavo che + congiuntivo imperfetto.",
-            "Il testo ha tra 120 e 180 parole."
-          ],
-          "modelAnswer": "Caro Tommaso,\nche bella notizia! Sono contentissimo che tu abbia deciso di venire a studiare qui per sei mesi.\nTi do qualche consiglio, visto che anch'io sono passato per le stesse difficoltà. Prima di tutto, se fossi in te, comincerei a cercare casa subito: le stanze per studenti sono poche e spariscono in fretta. Quando sono arrivato io, pensavo che fosse facile trovare una stanza a settembre e invece ho dormito due settimane in un ostello. Se avessi cercato prima, avrei risparmiato un sacco di soldi e di stress!\nPoi ti consiglio di iscriverti a un corso di lingua, a meno che tu non preferisca imparare parlando con la gente. Io ho fatto tutte e due le cose e, pur avendo poco tempo, ho fatto progressi enormi.\nInsomma, ti aspetto! Ti posso ospitare io per i primi giorni, purché tu non abbia paura del mio divano scomodo.\nUn abbraccio,\nRichard",
-          "instruction": "Scrivi un'email informale (compito in stile CELI)."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-12-l3-e12",
-          "text": "Se fossi in te, comincerei a cercare casa subito.",
-          "translation": "If I were you, I'd start looking for a place straight away.",
-          "instruction": "Ascolta e ripeti ad alta voce."
+          "modelAnswer": "Egregio direttore, le scrivo in merito alla chiusura della biblioteca di quartiere. La decisione è stata presa dal comune, che ha dichiarato che la struttura sarebbe stata chiusa per mancanza di fondi. Benché capisca le difficoltà, penso che sia una perdita. Se fosse possibile, propongo di ridurre gli orari. In attesa di un suo riscontro, porgo distinti saluti."
         }
       ]
     }
@@ -751,133 +684,102 @@
   "grammarTips": [
     {
       "id": "b2-12-t1",
-      "rule": "Pensavo che + cong. imperfetto",
-      "tip": "Past main verb → past subjunctive: pensavo che fosse, credevo che avesse. Not pensavo che è or che sia.",
+      "rule": "Penso che / Pensavo che",
+      "tip": "The main verb decides: penso che sia, pensavo che fosse.",
       "example": {
-        "it": "Credevo che il negozio fosse chiuso.",
-        "en": "I thought the shop was closed."
+        "it": "Pensavo che fosse tardi.",
+        "en": "I thought it was late."
       },
       "challenge": {
-        "type": "error_correction",
-        "sentence": "Pensavo che il treno è già partito.",
+        "type": "gap_fill",
+        "instruction": "Completa.",
+        "sentence": "Pensavo che Luca ___ in ritardo.",
         "answers": [
-          "Pensavo che il treno fosse già partito.",
-          "Pensavo che il treno fosse partito."
+          "fosse"
         ],
-        "instruction": "C'è un errore. Correggi."
+        "hint": "essere",
+        "explanation": "Past main verb → congiuntivo imperfetto."
       }
     },
     {
       "id": "b2-12-t2",
-      "rule": "Tipo 3 o misto?",
-      "tip": "Past condition: se avessi + participio. Result then → avrei fatto; result now (oggi, adesso) → farei.",
+      "rule": "Benché, purché, affinché",
+      "tip": "These conjunctions always take the congiuntivo.",
       "example": {
-        "it": "Se avessi dormito, adesso starei meglio.",
-        "en": "If I had slept, I'd feel better now."
+        "it": "Esco purché non piova.",
+        "en": "I'll go out as long as it doesn't rain."
       },
       "challenge": {
         "type": "multiple_choice",
-        "prompt": "Se avessi preso il treno delle sette, adesso ___ già in ufficio.",
+        "instruction": "Scegli.",
+        "prompt": "Te lo spiego ___ tu capisca.",
         "options": [
-          "ero",
-          "sarei stato",
-          "sarei",
-          "fossi"
+          "affinché",
+          "siccome",
+          "dopo che"
         ],
-        "answer": 2,
-        "instruction": "Scegli la forma giusta."
+        "answer": 0,
+        "explanation": "Affinché + congiuntivo expresses purpose."
       }
     },
     {
       "id": "b2-12-t3",
-      "rule": "Passivo nei tempi composti",
-      "tip": "In compound tenses the passive uses essere + stato: è stato approvato, sarà stata firmata. Never è venuto approvato.",
+      "rule": "Ha detto che sarebbe venuto",
+      "tip": "After a past reporting verb a future becomes the condizionale passato.",
       "example": {
-        "it": "Il progetto è stato approvato ieri.",
-        "en": "The project was approved yesterday."
+        "it": "Ha detto che sarebbe venuto.",
+        "en": "He said he would come."
       },
       "challenge": {
-        "type": "gap_fill",
-        "sentence": "Il progetto ___ dal comune.",
+        "type": "transform",
+        "instruction": "Riscrivi.",
+        "source": "«Verrò domani.»",
+        "cue": "Ha detto che…",
         "answers": [
-          "è stato approvato"
+          "Ha detto che sarebbe venuto il giorno dopo.",
+          "Ha detto che sarebbe venuta il giorno dopo.",
+          "Ha detto che sarebbe venuto l'indomani."
         ],
-        "instruction": "Trasforma al passivo: «Il comune ha approvato il progetto.»"
+        "explanation": "Future becomes condizionale passato."
       }
     },
     {
       "id": "b2-12-t4",
-      "rule": "Discorso indiretto: i tempi",
-      "tip": "With ha detto che: presente → imperfetto, passato prossimo → trapassato, futuro → condizionale passato.",
+      "rule": "Se avessi saputo…",
+      "tip": "Impossible past condition: se + trapassato congiuntivo, condizionale passato.",
       "example": {
-        "it": "«Ho finito» → Ha detto che aveva finito.",
-        "en": "'I've finished' → He said he had finished."
+        "it": "Se l'avessi saputo, sarei venuto.",
+        "en": "If I had known, I would have come."
       },
       "challenge": {
         "type": "gap_fill",
-        "sentence": "Marco ha detto che ___ il portafoglio.",
+        "instruction": "Completa.",
+        "sentence": "Se avessi studiato, ___ l'esame.",
         "answers": [
-          "aveva perso"
+          "avrei passato",
+          "avrei superato"
         ],
-        "instruction": "Riferisci: «Ho perso il portafoglio.»"
+        "hint": "passare",
+        "explanation": "Se + trapassato congiuntivo → condizionale passato."
       }
     },
     {
       "id": "b2-12-t5",
-      "rule": "Anche se vs benché",
-      "tip": "Anche se + indicativo, benché / sebbene + congiuntivo: anche se è tardi = benché sia tardi.",
+      "rule": "Dopo aver / pur essendo",
+      "tip": "Same subject: use the implicit form: dopo aver finito, pur essendo stanco.",
       "example": {
-        "it": "Benché piovesse, siamo usciti.",
-        "en": "Although it was raining, we went out."
+        "it": "Pur essendo stanco, è venuto.",
+        "en": "Although tired, he came."
       },
       "challenge": {
-        "type": "multiple_choice",
-        "prompt": "Sebbene ___ poco tempo, ti aiuto volentieri.",
-        "options": [
-          "ho",
-          "avrò",
-          "avrei",
-          "abbia"
-        ],
-        "answer": 3,
-        "instruction": "Scegli la forma giusta."
-      }
-    },
-    {
-      "id": "b2-12-t6",
-      "rule": "Pur + gerundio",
-      "tip": "Pur + gerundio = although, with the same subject: pur essendo stanco, è venuto.",
-      "example": {
-        "it": "Pur avendo poco tempo, ha finito il lavoro.",
-        "en": "Although he had little time, he finished the job."
-      },
-      "challenge": {
-        "type": "translate",
-        "direction": "en_it",
-        "source": "Although I'm tired, I'll come.",
+        "type": "error_correction",
+        "instruction": "Correggi.",
+        "sentence": "Dopo aver arrivato, ho chiamato.",
         "answers": [
-          "Pur essendo stanco, vengo.",
-          "Pur essendo stanco vengo.",
-          "Pur essendo stanco, verrò.",
-          "Pur essendo stanco verrò.",
-          "Anche se sono stanco, vengo.",
-          "Anche se sono stanco vengo.",
-          "Anche se sono stanco, verrò.",
-          "Anche se sono stanco verrò.",
-          "Benché sia stanco, vengo.",
-          "Benché sia stanco vengo.",
-          "Benché sia stanco, verrò.",
-          "Benché sia stanco verrò.",
-          "Sebbene sia stanco, vengo.",
-          "Sebbene sia stanco vengo.",
-          "Sebbene sia stanco, verrò.",
-          "Sebbene sia stanco verrò.",
-          "Pur essendo stanca, vengo.",
-          "Pur essendo stanca vengo.",
-          "Anche se sono stanca, vengo.",
-          "Anche se sono stanca vengo."
+          "Dopo essere arrivato, ho chiamato.",
+          "Dopo essere arrivata, ho chiamato."
         ],
-        "instruction": "Traduci in italiano."
+        "explanation": "Arrivare takes essere."
       }
     }
   ]

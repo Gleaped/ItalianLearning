@@ -2,8 +2,10 @@
   "id": "b2-06",
   "level": "B2",
   "title": "Mi ha detto che…",
-  "objective": "By the end you can pass on accurately what a doctor, teacher, official or friend said, asked or told you to do, using reported speech with the correct tense, pronoun and time shifts.",
-  "grammarFocus": "Discorso indiretto: verbo introduttivo al presente vs al passato; presente → imperfetto, passato prossimo → trapassato, futuro → condizionale passato; domande con se e parole interrogative; imperativo → di + infinito; cambi di tempo, luogo e persona; verbi introduttivi (spiegare, assicurare, consigliare di, ricordare di).",
+  "format": 2,
+  "module": "b2-m3",
+  "objective": "By the end you can pass on accurately what a doctor, teacher, official or friend said, asked or told you to do, with the correct tense, pronoun and time shifts.",
+  "grammarFocus": "Discorso indiretto: verbo introduttivo al presente vs al passato; presente → imperfetto, passato prossimo → trapassato, futuro → condizionale passato; domande con se e parole interrogative; imperativo → di + infinito; indicatori di tempo e luogo; verbi introduttivi.",
   "remedialUnitIds": [
     "b2-03",
     "b1-11"
@@ -11,24 +13,158 @@
   "lessons": [
     {
       "id": "b2-06-l1",
-      "title": "Il medico ha detto che…",
-      "minutes": 10,
+      "title": "Ha detto che… (presente)",
+      "minutes": 7,
+      "goal": "You can report what someone said in the present: «Ho la febbre» becomes «Ha detto che aveva la febbre».",
+      "takeaway": "Past reporting verb (ha detto che…) + present becomes imperfetto; present reporting verb (dice che…) changes nothing.",
       "exercises": [
         {
-          "type": "gap_fill",
+          "type": "multiple_choice",
           "id": "b2-06-l1-e01",
-          "instruction": "Riscaldamento: completa.",
-          "sentence": "Mi ha detto che ___ (passare) a prendermi alle otto.",
-          "answers": [
-            "sarebbe passato",
-            "sarebbe passata"
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Ieri Marco ___ la febbre alta, per questo è rimasto a casa.",
+          "options": [
+            "aveva",
+            "ha",
+            "avrebbe",
+            "abbia"
           ],
-          "hint": "passare – lui/lei",
-          "explanation": "Futuro nel passato → condizionale passato (B2-03)."
+          "answer": 0,
+          "explanation": "A background state in the past takes the imperfetto: aveva."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-06-l1-e02",
+          "stage": "learn",
+          "title": "Dice che… / Ha detto che…",
+          "body": "If the reporting verb is in the **present**, tenses stay the same. If it is in the **past**, they take a step back.\n\n| diretto | indiretto |\n|---|---|\n| «Sono stanco.» | Dice che è stanco. |\n| «Sono stanco.» | Ha detto che ==era== stanco. |\n| «Ho la febbre.» | Ha detto che ==aveva== la febbre. |\n\n> Person changes too: «==Ho== la febbre» → ha detto che ==aveva==.",
+          "examples": [
+            {
+              "it": "Ha detto che aveva mal di testa.",
+              "en": "He said he had a headache."
+            },
+            {
+              "it": "Dice che stasera fa tardi.",
+              "en": "He says he'll be late tonight."
+            }
+          ]
         },
         {
           "type": "multiple_choice",
-          "id": "b2-06-l1-e02",
+          "id": "b2-06-l1-e03",
+          "stage": "practise",
+          "instruction": "Scegli la frase giusta.",
+          "prompt": "«Ho mal di schiena.» → Il paziente ha detto che ___ mal di schiena.",
+          "options": [
+            "ha",
+            "aveva",
+            "avrà",
+            "abbia"
+          ],
+          "answer": 1,
+          "explanation": "After a past reporting verb the present becomes the imperfetto: aveva."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-06-l1-e04",
+          "stage": "practise",
+          "instruction": "Collega la frase diretta con quella indiretta.",
+          "pairs": [
+            {
+              "left": "«Il mio medico è molto bravo.»",
+              "right": "Ha detto che il suo medico era molto bravo."
+            },
+            {
+              "left": "«Abito a Torino.»",
+              "right": "Ha detto che abitava a Torino."
+            },
+            {
+              "left": "«Non capisco.»",
+              "right": "Ha detto che non capiva."
+            },
+            {
+              "left": "«Da giovane fumavo.»",
+              "right": "Ha detto che da giovane fumava."
+            }
+          ],
+          "explanation": "Present becomes imperfetto; an imperfetto stays imperfetto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-06-l1-e05",
+          "stage": "practise",
+          "instruction": "Completa con l'imperfetto.",
+          "sentence": "«Sono molto stanca.» → Giulia ha detto che ___ molto stanca.",
+          "answers": [
+            "era"
+          ],
+          "explanation": "After a past reporting verb, sono becomes era.",
+          "hint": "essere"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-06-l1-e06",
+          "stage": "practise",
+          "instruction": "Completa con l'imperfetto.",
+          "sentence": "«Il farmaco non è pericoloso.» → Il farmacista ha detto che il farmaco non ___ pericoloso.",
+          "answers": [
+            "era"
+          ],
+          "explanation": "The present of the quoted sentence becomes the imperfetto.",
+          "hint": "essere"
+        },
+        {
+          "type": "transform",
+          "id": "b2-06-l1-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "«Non ho tempo.»",
+          "cue": "Mi ha detto che…",
+          "answers": [
+            "Mi ha detto che non aveva tempo.",
+            "Mi ha detto che non aveva tempo"
+          ],
+          "explanation": "After ha detto che, present ho becomes imperfetto aveva (and the person changes).",
+          "hint": "avere"
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-06-l1-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Il dottore ha detto che ho solo un'influenza.",
+          "answers": [
+            "Il dottore ha detto che avevo solo un'influenza.",
+            "Il dottore ha detto che aveva solo un'influenza."
+          ],
+          "explanation": "With a past reporting verb the present must shift to the imperfetto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-06-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Ieri sei andato dal medico. Riferisci a un amico due cose che ti ha detto.",
+          "keywords": [
+            "mi ha detto che",
+            "aveva"
+          ],
+          "modelAnswer": "Il medico mi ha detto che avevo solo un'influenza. Mi ha detto anche che non era niente di grave."
+        }
+      ]
+    },
+    {
+      "id": "b2-06-l2",
+      "title": "Aveva già fatto (passato)",
+      "minutes": 7,
+      "goal": "You can report past events: «Ho fatto le analisi» becomes «Ha detto che aveva fatto le analisi».",
+      "takeaway": "Past reporting verb + passato prossimo becomes trapassato prossimo (aveva / era + participio).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-06-l2-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: scegli la forma giusta.",
           "prompt": "Quando sono arrivato al cinema, il film ___ già.",
           "options": [
@@ -38,281 +174,524 @@
             "sarebbe cominciato"
           ],
           "answer": 0,
-          "explanation": "Un'azione anteriore a un'altra azione passata → trapassato prossimo (B1-11)."
+          "explanation": "An action before another past action takes the trapassato prossimo."
         },
         {
           "type": "grammar_note",
-          "id": "b2-06-l1-e03",
-          "title": "Il discorso indiretto: riferire che cosa ha detto qualcuno",
-          "body": "Se il verbo introduttivo è al **presente** (*dice, scrive, spiega che…*), i tempi non cambiano: cambiano solo le persone.\n- «Sono stanco.» → *Dice che **è** stanco.*\n\nSe il verbo introduttivo è al **passato** (*ha detto, diceva, aveva detto che…*), i tempi «fanno un passo indietro»:\n- presente → **imperfetto**: «Ho la febbre.» → *Ha detto che **aveva** la febbre.*\n- passato prossimo → **trapassato prossimo**: «Ho fatto le analisi.» → *Ha detto che **aveva fatto** le analisi.*\n- futuro → **condizionale passato**: «Le manderò i risultati.» → *Ha detto che mi **avrebbe mandato** i risultati.*\n- l'imperfetto resta imperfetto: «Da piccolo giocavo a calcio.» → *Ha detto che da piccolo giocava a calcio.*\n\nCambiano anche le persone: *io → lui/lei, mio → suo, Lei (a me) → io*.\n\nNel parlato, se l'informazione è ancora vera adesso, spesso il tempo non cambia: *Ha detto che la farmacia **chiude** alle otto.* Nello scritto e all'esame, applica lo spostamento.",
+          "id": "b2-06-l2-e02",
+          "stage": "learn",
+          "title": "Ha detto che aveva fatto…",
+          "body": "A past event in the quote goes one step further back: **passato prossimo → trapassato prossimo**.\n\n| diretto | indiretto |\n|---|---|\n| «Ho fatto le analisi.» | Ha detto che ==aveva fatto== le analisi. |\n| «Sono partito.» | Ha detto che ==era partito==. |\n| «Ho perso le chiavi.» | Ha detto che ==aveva perso== le chiavi. |\n\n> Keep the right auxiliary: avere or essere, as in the original.",
           "examples": [
             {
-              "it": "«Non è niente di grave.» → Il medico ha detto che non era niente di grave.",
-              "en": "'It's nothing serious.' → The doctor said it was nothing serious."
+              "it": "Mi ha detto che era già partito.",
+              "en": "He told me he had already left."
             },
             {
-              "it": "«Ho già preso un antibiotico.» → Ha detto che aveva già preso un antibiotico.",
-              "en": "'I've already taken an antibiotic.' → He said he had already taken an antibiotic."
-            },
-            {
-              "it": "«Guarirà in una settimana.» → Mi ha detto che sarei guarito in una settimana.",
-              "en": "'You'll recover in a week.' → She told me I would recover in a week."
-            },
-            {
-              "it": "«Il mio studio è al secondo piano.» → Ha detto che il suo studio era al secondo piano.",
-              "en": "'My office is on the second floor.' → He said his office was on the second floor."
+              "it": "Ha detto che aveva preso la tachipirina.",
+              "en": "He said he had taken paracetamol."
             }
           ]
         },
         {
-          "type": "match_pairs",
-          "id": "b2-06-l1-e04",
-          "instruction": "Abbina ogni frase diretta al discorso indiretto.",
-          "pairs": [
+          "type": "sort_buckets",
+          "id": "b2-06-l2-e03",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "dal presente (era, aveva, capiva)",
+            "dal passato prossimo (trapassato)"
+          ],
+          "items": [
             {
-              "left": "«Ho mal di testa.»",
-              "right": "Ha detto che aveva mal di testa."
+              "text": "Ha detto che aveva la febbre.",
+              "bucket": 0
             },
             {
-              "left": "«Ho preso la tachipirina.»",
-              "right": "Ha detto che aveva preso la tachipirina."
+              "text": "Ha detto che aveva fatto le analisi.",
+              "bucket": 1
             },
             {
-              "left": "«Domani starò meglio.»",
-              "right": "Ha detto che il giorno dopo sarebbe stato meglio."
+              "text": "Ha detto che era stanco.",
+              "bucket": 0
             },
             {
-              "left": "«Da giovane fumavo.»",
-              "right": "Ha detto che da giovane fumava."
+              "text": "Ha detto che era già uscito.",
+              "bucket": 1
             },
             {
-              "left": "«Il mio medico è molto bravo.»",
-              "right": "Ha detto che il suo medico era molto bravo."
+              "text": "Ha detto che non capiva.",
+              "bucket": 0
+            },
+            {
+              "text": "Ha detto che aveva perso il treno.",
+              "bucket": 1
             }
           ],
-          "explanation": "Presente → imperfetto; passato prossimo → trapassato; futuro → condizionale passato; imperfetto invariato."
+          "explanation": "Present → imperfetto; passato prossimo → trapassato prossimo."
         },
         {
           "type": "gap_fill",
-          "id": "b2-06-l1-e05",
-          "instruction": "Discorso indiretto: completa.",
-          "sentence": "«Ho la febbre da tre giorni.» → Il paziente ha detto che ___ la febbre da tre giorni.",
-          "answers": [
-            "aveva"
-          ],
-          "hint": "avere",
-          "explanation": "Presente → imperfetto: ho → aveva."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-06-l1-e06",
-          "instruction": "Discorso indiretto: completa.",
+          "id": "b2-06-l2-e04",
+          "stage": "practise",
+          "instruction": "Completa con il trapassato.",
           "sentence": "«Ho già fatto le analisi del sangue.» → Ha detto che ___ già fatto le analisi del sangue.",
           "answers": [
             "aveva"
           ],
-          "hint": "avere – ausiliare",
-          "explanation": "Passato prossimo → trapassato prossimo: ho fatto → aveva fatto."
+          "explanation": "Passato prossimo becomes trapassato: aveva + participio.",
+          "hint": "avere"
         },
         {
           "type": "gap_fill",
-          "id": "b2-06-l1-e07",
-          "instruction": "Discorso indiretto: completa.",
-          "sentence": "«Le manderò i risultati per email.» → La dottoressa mi ha detto che mi ___ i risultati per email.",
+          "id": "b2-06-l2-e05",
+          "stage": "practise",
+          "instruction": "Completa con il trapassato.",
+          "sentence": "«Sono arrivata ieri sera.» → Ha detto che ___ arrivata la sera prima.",
+          "answers": [
+            "era"
+          ],
+          "explanation": "Verbs of movement take essere in the trapassato: era arrivata.",
+          "hint": "essere"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-06-l2-e06",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "«Ho chiamato il tecnico.» → Mi ha detto che ___ il tecnico.",
+          "options": [
+            "ha chiamato",
+            "chiamava",
+            "aveva chiamato",
+            "chiamerebbe"
+          ],
+          "answer": 2,
+          "explanation": "The quoted passato prossimo becomes trapassato: aveva chiamato."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-06-l2-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Mi ha detto che ha già mangiato.",
+          "answers": [
+            "Mi ha detto che aveva già mangiato."
+          ],
+          "explanation": "A past event after ha detto che needs the trapassato prossimo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-06-l2-e08",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Allora, il dottore mi ha detto che non era niente di grave: probabilmente avevo preso un virus. Mi ha spiegato che gli antibiotici non servivano e che dovevo bere molto e riposare.",
+          "question": "Che cosa ha detto il medico degli antibiotici?",
+          "options": [
+            "Che servivano subito.",
+            "Che non servivano.",
+            "Che erano finiti.",
+            "Che costavano troppo."
+          ],
+          "answer": 1,
+          "explanation": "Servivano is an imperfetto reporting «non servono»: the doctor said antibiotics were not needed."
+        },
+        {
+          "type": "free_write",
+          "id": "b2-06-l2-e09",
+          "stage": "use",
+          "instruction": "Scrivi 2 o 3 frasi.",
+          "prompt": "Racconta a un amico che cosa ti ha detto una persona (un collega, un vicino, un medico) su quello che aveva fatto.",
+          "minWords": 30,
+          "checklist": [
+            "Ho usato ha detto / mi ha detto che.",
+            "Ho usato il trapassato (aveva / era + participio).",
+            "Ho usato almeno un imperfetto."
+          ],
+          "modelAnswer": "Il mio vicino mi ha detto che aveva già chiamato l'amministratore. Mi ha spiegato che era uscito presto e che aveva lasciato un biglietto."
+        }
+      ]
+    },
+    {
+      "id": "b2-06-l3",
+      "title": "Sarebbe venuto (futuro)",
+      "minutes": 7,
+      "goal": "You can report future plans: «Verrò giovedì» becomes «Ha detto che sarebbe venuto giovedì».",
+      "takeaway": "Past reporting verb + future becomes condizionale passato (sarebbe + participio / avrebbe + participio).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-06-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta (b2-03).",
+          "prompt": "Mi ha detto che ___ presto.",
+          "options": [
+            "sarebbe tornato",
+            "tornerà",
+            "tornava",
+            "tornasse"
+          ],
+          "answer": 0,
+          "explanation": "Future in the past is the condizionale passato."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-06-l3-e02",
+          "stage": "learn",
+          "title": "Il futuro nel passato",
+          "body": "A plan or promise becomes the **condizionale passato**: the future seen from a past moment.\n\n| diretto | indiretto |\n|---|---|\n| «Verrò giovedì.» | Ha detto che ==sarebbe venuto== giovedì. |\n| «Ti richiamerò.» | Ha detto che mi ==avrebbe richiamato==. |\n| «Sarà pronto.» | Ha detto che ==sarebbe stato== pronto. |\n\n> Not *ha detto che verrà* about a past promise: the plan is already in the past.",
+          "examples": [
+            {
+              "it": "La dottoressa ha detto che avrebbe mandato i risultati per email.",
+              "en": "The doctor said she would send the results by email."
+            },
+            {
+              "it": "Mi ha assicurato che sarebbe passato alle otto.",
+              "en": "He assured me he would come by at eight."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-06-l3-e03",
+          "stage": "practise",
+          "instruction": "Scegli la frase giusta.",
+          "prompt": "«Domani starò meglio.» → Ha detto che il giorno dopo ___ meglio.",
+          "options": [
+            "starà",
+            "starebbe",
+            "sarebbe stato",
+            "stava"
+          ],
+          "answer": 2,
+          "explanation": "Future becomes condizionale passato; stare takes essere: sarebbe stato."
+        },
+        {
+          "type": "find_trigger",
+          "id": "b2-06-l3-e04",
+          "stage": "practise",
+          "instruction": "Tocca le parole che mostrano il futuro nel passato.",
+          "sentence": "Il tecnico ha detto che sarebbe arrivato verso le tre.",
+          "trigger": "sarebbe arrivato",
+          "explanation": "Sarebbe arrivato is the condizionale passato, used for a future seen from the past."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-06-l3-e05",
+          "stage": "practise",
+          "instruction": "Completa con il condizionale passato.",
+          "sentence": "«Le manderò i risultati.» → La dottoressa mi ha detto che mi ___ i risultati.",
           "answers": [
             "avrebbe mandato",
             "avrebbe inviato",
             "avrebbe spedito"
           ],
-          "hint": "mandare – lei",
-          "explanation": "Futuro → condizionale passato. Le (a Lei, cioè a me) → mi."
+          "explanation": "Future becomes condizionale passato: avrebbe mandato.",
+          "hint": "mandare – lei"
         },
         {
-          "type": "multiple_choice",
-          "id": "b2-06-l1-e08",
-          "instruction": "Scegli la risposta giusta.",
-          "prompt": "«Il farmaco non è pericoloso.» → Il farmacista ha detto che il farmaco non ___ pericoloso.",
-          "options": [
-            "è stato",
-            "era",
-            "sarebbe",
-            "sia"
-          ],
-          "answer": 1,
-          "explanation": "Presente → imperfetto: è → era."
-        },
-        {
-          "type": "translate",
-          "id": "b2-06-l1-e09",
-          "instruction": "Traduci in italiano.",
-          "direction": "en_it",
-          "source": "The doctor told me I had to take the medicine twice a day.",
+          "type": "gap_fill",
+          "id": "b2-06-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa con il condizionale passato.",
+          "sentence": "«Il permesso sarà pronto tra due settimane.» → L'impiegato ha detto che il permesso ___ pronto due settimane dopo.",
           "answers": [
-            "Il medico mi ha detto che dovevo prendere la medicina due volte al giorno.",
-            "Il medico mi ha detto che dovevo prendere il farmaco due volte al giorno.",
-            "Il dottore mi ha detto che dovevo prendere la medicina due volte al giorno.",
-            "Il dottore mi ha detto che dovevo prendere il farmaco due volte al giorno.",
-            "La dottoressa mi ha detto che dovevo prendere la medicina due volte al giorno.",
-            "La dottoressa mi ha detto che dovevo prendere il farmaco due volte al giorno.",
-            "Il medico mi ha detto di prendere la medicina due volte al giorno.",
-            "Il medico mi ha detto di prendere il farmaco due volte al giorno.",
-            "Il dottore mi ha detto di prendere la medicina due volte al giorno.",
-            "Il dottore mi ha detto di prendere il farmaco due volte al giorno.",
-            "La dottoressa mi ha detto di prendere la medicina due volte al giorno.",
-            "La dottoressa mi ha detto di prendere il farmaco due volte al giorno."
+            "sarebbe stato"
           ],
-          "explanation": "Had to → dovevo (devo → dovevo). Anche: mi ha detto di prendere…"
-        },
-        {
-          "type": "listen_choose",
-          "id": "b2-06-l1-e10",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Allora, il dottore mi ha detto che non era niente di grave: probabilmente avevo preso un virus e sarei guarito in una settimana. Mi ha spiegato che gli antibiotici non servivano, ma che dovevo bere molto e riposare. Ha detto anche che, se la febbre non passava, dovevo richiamarlo.",
-          "question": "Che cosa ha detto il medico?",
-          "options": [
-            "Che doveva prendere un antibiotico.",
-            "Che doveva fare subito delle analisi.",
-            "Che sarebbe guarito in circa una settimana.",
-            "Che doveva tornare in ambulatorio il giorno dopo."
-          ],
-          "answer": 2,
-          "explanation": "Sarei guarito in una settimana: futuro nel passato nel discorso indiretto."
+          "explanation": "Sarà becomes sarebbe stato after a past reporting verb.",
+          "hint": "essere – lui"
         },
         {
           "type": "error_correction",
-          "id": "b2-06-l1-e11",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "id": "b2-06-l3-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
           "sentence": "La farmacista ha detto che il farmaco arriverebbe lunedì.",
           "answers": [
             "La farmacista ha detto che il farmaco sarebbe arrivato lunedì."
           ],
-          "explanation": "Futuro («arriverà») riferito al passato → condizionale passato: sarebbe arrivato."
+          "explanation": "The simple conditional is wrong here: a future in the past needs the condizionale passato."
         },
         {
-          "type": "speak_repeat",
-          "id": "b2-06-l1-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Il medico mi ha detto che non era niente di grave e che sarei guarito presto.",
-          "translation": "The doctor told me it was nothing serious and that I would soon get better."
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-06-l1-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Ieri sei andato dal medico. Riferisci a un amico tre cose che ti ha detto.",
-          "keywords": [
-            "mi ha detto che",
-            "dovevo"
+          "type": "translate",
+          "id": "b2-06-l3-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "He said he would call me back the next day.",
+          "answers": [
+            "Ha detto che mi avrebbe richiamato il giorno dopo.",
+            "Mi ha detto che mi avrebbe richiamato il giorno dopo.",
+            "Ha detto che mi avrebbe richiamato l'indomani.",
+            "Ha detto che mi avrebbe richiamato il giorno seguente."
           ],
-          "modelAnswer": "Il medico mi ha detto che avevo solo un'influenza. Mi ha detto che dovevo restare a casa per tre giorni e che mi avrebbe mandato la ricetta sul telefono.",
-          "explanation": "Ha detto che + imperfetto / trapassato / condizionale passato."
+          "explanation": "A promise reported later uses the condizionale passato: avrebbe richiamato."
+        },
+        {
+          "type": "roleplay",
+          "id": "b2-06-l3-e09",
+          "stage": "use",
+          "instruction": "Parla con il tuo coinquilino. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "Il tuo coinquilino Matteo non era in casa quando è passato il padrone di casa. Riferisci che cosa ha detto.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Allora, è passato il padrone di casa? Che cosa ha detto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, ha detto che il tecnico sarebbe venuto giovedì a controllare la caldaia.",
+              "hint": "Ha detto che + condizionale passato.",
+              "keywords": [
+                "ha detto che",
+                "sarebbe"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Giovedì? Io lavoro tutto il giorno. E ha detto altro?"
+            },
+            {
+              "speaker": "you",
+              "text": "Ha detto che mi avrebbe richiamato per l'orario preciso.",
+              "hint": "Report a second promise.",
+              "keywords": [
+                "avrebbe",
+                "richiamato"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Va bene, grazie!"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "b2-06-l2",
-      "title": "Mi ha chiesto se…",
-      "minutes": 10,
+      "id": "b2-06-l4",
+      "title": "Mi ha chiesto se… / di…",
+      "minutes": 8,
+      "goal": "You can report questions and orders: «Hai fatto i compiti?» and «Ripeti!» become «Mi ha chiesto se…» and «Mi ha detto di…».",
+      "takeaway": "Yes/no question → chiedere se; question word stays; order → dire di + infinito.",
       "exercises": [
         {
-          "type": "gap_fill",
-          "id": "b2-06-l2-e01",
-          "instruction": "Riscaldamento: discorso indiretto.",
-          "sentence": "«Sono stanca morta.» → Giulia ha detto che ___ stanca morta.",
-          "answers": [
-            "era"
-          ],
-          "hint": "essere",
-          "explanation": "Presente → imperfetto."
-        },
-        {
           "type": "multiple_choice",
-          "id": "b2-06-l2-e02",
+          "id": "b2-06-l4-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "«Ho perso le chiavi.» → Ha detto che ___ le chiavi.",
+          "prompt": "«Sono libero.» → Ha detto che ___ libero.",
           "options": [
-            "ha perso",
-            "aveva perso",
-            "perdeva",
-            "avrebbe perso"
+            "era",
+            "è",
+            "sarebbe",
+            "fosse stato"
           ],
-          "answer": 1,
-          "explanation": "Passato prossimo → trapassato prossimo."
+          "answer": 0,
+          "explanation": "Present becomes imperfetto after a past reporting verb."
         },
         {
           "type": "grammar_note",
-          "id": "b2-06-l2-e03",
-          "title": "Domande, ordini, tempo e luogo",
-          "body": "**Domande sì/no** → **se**: «Hai studiato?» → *Mi ha chiesto **se** avevo studiato.*\n**Domande con chi, che cosa, dove, quando, perché…** → stessa parola: «Dove abiti?» → *Mi ha chiesto **dove** abitavo* (più formale: *abitassi*).\n\n**Imperativo** → **di + infinito**: «Ripeti!» → *Mi ha detto **di** ripetere.* · «Non preoccuparti!» → *Mi ha detto di non preoccuparmi.*\n\n**Tempo e luogo** cambiano punto di vista:\n- oggi → quel giorno · ieri → il giorno prima · domani → il giorno dopo (l'indomani)\n- la settimana prossima → la settimana dopo · due giorni fa → due giorni prima\n- qui → lì · questo → quello · venire → andare (spesso)\n\n**Persone**: «Ti ho aiutato io» → *Ha detto che mi aveva aiutato lui.* Controlla sempre chi parla a chi.",
+          "id": "b2-06-l4-e02",
+          "stage": "learn",
+          "title": "Domande e ordini",
+          "body": "Questions and orders change form, not only tense.\n\n| diretto | indiretto |\n|---|---|\n| «Hai studiato?» | Mi ha chiesto ==se== avevo studiato. |\n| «Dove abiti?» | Mi ha chiesto ==dove== abitavo. |\n| «Ripeti!» | Mi ha detto ==di== ripetere. |\n| «Non preoccuparti!» | Mi ha detto ==di non== preoccuparmi. |\n\n> No question mark, no inverted order, and never *chiesto che avevo*.",
           "examples": [
             {
-              "it": "«Hai fatto i compiti?» → Mi ha chiesto se avevo fatto i compiti.",
-              "en": "'Have you done your homework?' → She asked me if I had done my homework."
+              "it": "Mi ha chiesto se potevo portare il certificato.",
+              "en": "He asked me whether I could bring the certificate."
             },
             {
-              "it": "«Perché sei in ritardo?» → Mi ha chiesto perché ero in ritardo.",
-              "en": "'Why are you late?' → He asked me why I was late."
-            },
-            {
-              "it": "«Leggete questo articolo!» → Ci ha detto di leggere quell'articolo.",
-              "en": "'Read this article!' → She told us to read that article."
-            },
-            {
-              "it": "«Ci vediamo qui domani.» → Ha detto che ci saremmo visti lì il giorno dopo.",
-              "en": "'See you here tomorrow.' → He said we'd meet there the next day."
+              "it": "La professoressa ci ha detto di parlare solo italiano.",
+              "en": "The teacher told us to speak only Italian."
             }
           ]
         },
         {
           "type": "match_pairs",
-          "id": "b2-06-l2-e04",
-          "instruction": "Abbina ogni domanda o ordine al discorso indiretto.",
+          "id": "b2-06-l4-e03",
+          "stage": "practise",
+          "instruction": "Collega la frase diretta con quella indiretta.",
           "pairs": [
             {
               "left": "«Sei mai stato in Sicilia?»",
               "right": "Mi ha chiesto se ero mai stato in Sicilia."
             },
             {
-              "left": "«Quando hai cominciato a studiare italiano?»",
-              "right": "Mi ha chiesto quando avevo cominciato a studiare italiano."
+              "left": "«Quando hai cominciato?»",
+              "right": "Mi ha chiesto quando avevo cominciato."
             },
             {
               "left": "«Che lavoro fai?»",
               "right": "Mi ha chiesto che lavoro facevo."
             },
             {
-              "left": "«Ripassa il congiuntivo!»",
-              "right": "Mi ha detto di ripassare il congiuntivo."
-            },
-            {
               "left": "«Non usare il dizionario!»",
               "right": "Mi ha detto di non usare il dizionario."
             }
-          ]
+          ],
+          "explanation": "Yes/no questions take se, question words stay, orders take di + infinito."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b2-06-l4-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "domanda sì/no (se)",
+            "domanda con parola (dove, quando…)",
+            "ordine (di + infinito)"
+          ],
+          "items": [
+            {
+              "text": "Mi ha chiesto se avevo il codice fiscale.",
+              "bucket": 0
+            },
+            {
+              "text": "Mi ha chiesto dove abitavo.",
+              "bucket": 1
+            },
+            {
+              "text": "Mi ha detto di aspettare fuori.",
+              "bucket": 2
+            },
+            {
+              "text": "Mi ha chiesto se parlavo inglese.",
+              "bucket": 0
+            },
+            {
+              "text": "Mi ha chiesto quando ero arrivato.",
+              "bucket": 1
+            },
+            {
+              "text": "Mi ha detto di non chiamare dopo le nove.",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Three patterns: se, the question word, and di + infinitive."
         },
         {
           "type": "gap_fill",
-          "id": "b2-06-l2-e05",
-          "instruction": "Discorso indiretto: completa.",
+          "id": "b2-06-l4-e05",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
           "sentence": "«Hai fatto i compiti?» → L'insegnante mi ha chiesto ___ avevo fatto i compiti.",
           "answers": [
             "se"
           ],
-          "explanation": "Domanda sì/no → se."
+          "explanation": "A yes/no question is reported with se."
         },
         {
           "type": "gap_fill",
-          "id": "b2-06-l2-e06",
-          "instruction": "Discorso indiretto: completa.",
-          "sentence": "«Ripassa il congiuntivo per domani!» → Mi ha detto ___ ripassare il congiuntivo per il giorno dopo.",
+          "id": "b2-06-l4-e06",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "«Ripassa il congiuntivo!» → Mi ha detto ___ ripassare il congiuntivo.",
           "answers": [
             "di"
           ],
-          "explanation": "Imperativo → di + infinito; domani → il giorno dopo."
+          "explanation": "An order is reported with di + infinito."
+        },
+        {
+          "type": "transform",
+          "id": "b2-06-l4-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "«Dove lavori?»",
+          "cue": "Mi ha chiesto…",
+          "answers": [
+            "Mi ha chiesto dove lavoravo.",
+            "Mi ha chiesto dove lavorassi."
+          ],
+          "explanation": "The question word stays; the verb shifts to the imperfetto.",
+          "hint": "lavorare – io"
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-06-l4-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "L'impiegato mi ha chiesto che avevo il codice fiscale.",
+          "answers": [
+            "L'impiegato mi ha chiesto se avevo il codice fiscale.",
+            "L'impiegato mi ha chiesto se avessi il codice fiscale."
+          ],
+          "explanation": "A yes/no question needs se, not che."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-06-l4-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Ricordi la tua prima lezione di italiano? Riferisci due domande dell'insegnante e un consiglio.",
+          "keywords": [
+            "mi ha chiesto",
+            "di"
+          ],
+          "modelAnswer": "L'insegnante mi ha chiesto da dove venivo e perché studiavo l'italiano. Poi mi ha detto di ascoltare la radio italiana ogni giorno."
+        }
+      ]
+    },
+    {
+      "id": "b2-06-l5",
+      "title": "Riferire un messaggio",
+      "minutes": 8,
+      "goal": "You can pass on a message with the right time words and the right verb: spiegare, consigliare, ricordare, promettere.",
+      "takeaway": "Time words shift (domani → il giorno dopo, qui → lì); choose the verb that fits: che + indicativo or di + infinito.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-06-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "«Ripeti, per favore!» → Mi ha detto ___.",
+          "options": [
+            "di ripetere",
+            "che ripeto",
+            "se ripetere",
+            "ripetere"
+          ],
+          "answer": 0,
+          "explanation": "An order is reported with di + infinito."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-06-l5-e02",
+          "stage": "learn",
+          "title": "Tempo, luogo, verbi",
+          "body": "Time and place shift with the point of view.\n\n| diretto | indiretto |\n|---|---|\n| oggi | ==quel giorno== |\n| ieri | ==il giorno prima== |\n| domani | ==il giorno dopo== |\n| qui | ==lì== |\n\n> *Domani* stays *domani* only if the day is still ahead of you now.",
+          "examples": [
+            {
+              "it": "Ha detto che sarebbe tornato il giorno dopo.",
+              "en": "He said he'd be back the next day."
+            },
+            {
+              "it": "Mi ha chiesto che cosa avevo fatto il giorno prima.",
+              "en": "He asked me what I had done the day before."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-06-l5-e03",
+          "stage": "learn",
+          "title": "Verbi introduttivi",
+          "body": "A precise verb says what the speaker meant.\n\n| + che + indicativo | + di + infinito |\n|---|---|\n| ==spiegare== che | ==consigliare== di |\n| ==assicurare== che | ==ricordare== di |\n| ==aggiungere== che | ==promettere== di |\n\n> «Le prometto che richiamo» → *Ha promesso di richiamarmi.*",
+          "examples": [
+            {
+              "it": "Mi ha assicurato che era tutto in regola.",
+              "en": "He assured me everything was in order."
+            },
+            {
+              "it": "Mi ha ricordato di portare il codice fiscale.",
+              "en": "He reminded me to bring my tax code."
+            }
+          ]
         },
         {
           "type": "multiple_choice",
-          "id": "b2-06-l2-e07",
+          "id": "b2-06-l5-e04",
+          "stage": "practise",
           "instruction": "Scegli la risposta giusta.",
           "prompt": "«Ci vediamo qui domani.» → Ha detto che ci saremmo visti ___.",
           "options": [
@@ -322,167 +701,13 @@
             "qui ieri"
           ],
           "answer": 1,
-          "explanation": "Qui → lì, domani → il giorno dopo."
-        },
-        {
-          "type": "sentence_build",
-          "id": "b2-06-l2-e08",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "She asked me where I had bought the book.",
-          "tiles": [
-            "Mi",
-            "ha",
-            "chiesto",
-            "dove",
-            "avevo",
-            "comprato",
-            "il",
-            "libro"
-          ],
-          "distractors": [
-            "se",
-            "ho"
-          ],
-          "explanation": "Dove resta; passato prossimo → trapassato: avevo comprato."
-        },
-        {
-          "type": "error_correction",
-          "id": "b2-06-l2-e09",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Mi ha chiesto che cosa ho fatto il giorno prima.",
-          "answers": [
-            "Mi ha chiesto che cosa avevo fatto il giorno prima.",
-            "Mi ha chiesto cosa avevo fatto il giorno prima.",
-            "Mi ha chiesto che cosa avessi fatto il giorno prima."
-          ],
-          "explanation": "Passato prossimo nel discorso diretto → trapassato nel discorso indiretto: avevo fatto."
-        },
-        {
-          "type": "translate",
-          "id": "b2-06-l2-e10",
-          "instruction": "Traduci in italiano.",
-          "direction": "en_it",
-          "source": "The teacher told us to speak only Italian.",
-          "answers": [
-            "L'insegnante ci ha detto di parlare solo italiano.",
-            "L'insegnante ci ha detto di parlare solo in italiano.",
-            "L'insegnante ci ha detto di parlare soltanto italiano.",
-            "L'insegnante ci ha detto di parlare soltanto in italiano.",
-            "L'insegnante ci ha detto di parlare solamente in italiano.",
-            "La professoressa ci ha detto di parlare solo italiano.",
-            "La professoressa ci ha detto di parlare solo in italiano.",
-            "La professoressa ci ha detto di parlare soltanto italiano.",
-            "La professoressa ci ha detto di parlare soltanto in italiano.",
-            "La professoressa ci ha detto di parlare solamente in italiano.",
-            "Il professore ci ha detto di parlare solo italiano.",
-            "Il professore ci ha detto di parlare solo in italiano.",
-            "Il professore ci ha detto di parlare soltanto italiano.",
-            "Il professore ci ha detto di parlare soltanto in italiano.",
-            "Il professore ci ha detto di parlare solamente in italiano.",
-            "La maestra ci ha detto di parlare solo italiano.",
-            "La maestra ci ha detto di parlare solo in italiano.",
-            "La maestra ci ha detto di parlare soltanto italiano.",
-            "La maestra ci ha detto di parlare soltanto in italiano.",
-            "La maestra ci ha detto di parlare solamente in italiano.",
-            "Il maestro ci ha detto di parlare solo italiano.",
-            "Il maestro ci ha detto di parlare solo in italiano.",
-            "Il maestro ci ha detto di parlare soltanto italiano.",
-            "Il maestro ci ha detto di parlare soltanto in italiano.",
-            "Il maestro ci ha detto di parlare solamente in italiano."
-          ],
-          "explanation": "Told us to + verbo → ci ha detto di + infinito."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "b2-06-l2-e11",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Mi ha chiesto se potevo portare il certificato il giorno dopo.",
-          "answers": [
-            "Mi ha chiesto se potevo portare il certificato il giorno dopo."
-          ],
-          "slow": false,
-          "explanation": "Se + imperfetto; il giorno dopo = l'indomani."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-06-l2-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "La professoressa ci ha detto di non preoccuparci e di parlare il più possibile.",
-          "translation": "The teacher told us not to worry and to speak as much as possible."
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-06-l2-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Ricordi la tua prima lezione di italiano? Riferisci due domande che ti ha fatto l'insegnante e un consiglio che ti ha dato.",
-          "keywords": [
-            "mi ha chiesto",
-            "di"
-          ],
-          "modelAnswer": "L'insegnante mi ha chiesto da dove venivo e perché studiavo l'italiano. Poi mi ha detto di ascoltare la radio italiana tutti i giorni e di non avere paura di sbagliare.",
-          "explanation": "Mi ha chiesto + se / parola interrogativa; mi ha detto di + infinito."
-        }
-      ]
-    },
-    {
-      "id": "b2-06-l3",
-      "title": "Riferire un messaggio",
-      "minutes": 12,
-      "exercises": [
-        {
-          "type": "gap_fill",
-          "id": "b2-06-l3-e01",
-          "instruction": "Riscaldamento: discorso indiretto.",
-          "sentence": "«Dove lavori?» → Mi ha chiesto dove ___.",
-          "answers": [
-            "lavoravo",
-            "lavorassi"
-          ],
-          "hint": "lavorare – io",
-          "explanation": "Presente → imperfetto (o congiuntivo imperfetto, più formale)."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b2-06-l3-e02",
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "«Chiudi la porta, per favore!» → Mi ha detto ___ la porta.",
-          "options": [
-            "di chiudere",
-            "che chiudo",
-            "chiudere",
-            "se chiudessi"
-          ],
-          "answer": 0,
-          "explanation": "Imperativo → di + infinito."
-        },
-        {
-          "type": "grammar_note",
-          "id": "b2-06-l3-e03",
-          "title": "Riferire con precisione: i verbi introduttivi",
-          "body": "Non solo *dire*: un buon verbo introduttivo riassume l'intenzione di chi parla.\n- + **che** + indicativo: *spiegare, assicurare, rispondere, aggiungere, ammettere*\n- + **di** + infinito: *consigliare, raccomandare, ricordare, chiedere (= domandare di fare), promettere*\n- **chiedere se** = to ask whether · **chiedere di** = to ask (someone) to\n\nCon promettere e ricordare cambia la struttura:\n- «Le prometto che la richiamo.» → *Ha promesso **di** richiamarmi.*\n- «Si ricordi di portare il passaporto.» → *Mi ha ricordato **di** portare il passaporto.*\n\nPer i **messaggi** si usa spesso il presente: *Ha chiamato Marco: **dice che** ti richiama stasera.*",
-          "examples": [
-            {
-              "it": "Mi ha assicurato che era tutto in regola.",
-              "en": "He assured me everything was in order."
-            },
-            {
-              "it": "L'impiegata mi ha consigliato di prenotare online.",
-              "en": "The clerk advised me to book online."
-            },
-            {
-              "it": "Mi ha chiesto di aspettare fuori.",
-              "en": "She asked me to wait outside."
-            },
-            {
-              "it": "Ha promesso di richiamarmi entro venerdì.",
-              "en": "He promised to call me back by Friday."
-            }
-          ]
+          "explanation": "Qui becomes lì and domani becomes il giorno dopo."
         },
         {
           "type": "match_pairs",
-          "id": "b2-06-l3-e04",
-          "instruction": "Abbina ogni frase dell'impiegato alla versione riferita.",
+          "id": "b2-06-l5-e05",
+          "stage": "practise",
+          "instruction": "Collega la frase diretta con quella indiretta.",
           "pairs": [
             {
               "left": "«Si ricordi di portare il codice fiscale.»",
@@ -497,306 +722,90 @@
               "right": "Mi ha assicurato che era tutto in regola."
             },
             {
-              "left": "«Può aspettare fuori, per favore?»",
-              "right": "Mi ha chiesto di aspettare fuori."
-            },
-            {
               "left": "«Le prometto che la richiamo.»",
               "right": "Ha promesso di richiamarmi."
             }
-          ]
+          ],
+          "explanation": "Consigliare and ricordare take di + infinito; assicurare takes che + indicativo."
         },
         {
           "type": "gap_fill",
-          "id": "b2-06-l3-e05",
-          "instruction": "Discorso indiretto: completa.",
-          "sentence": "«Il permesso sarà pronto tra due settimane.» → L'impiegato ha detto che il permesso ___ pronto due settimane dopo.",
+          "id": "b2-06-l5-e06",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "«Ho visto Anna ieri.» → Marco ha detto che aveva visto Anna ___.",
           "answers": [
-            "sarebbe stato"
+            "il giorno prima"
           ],
-          "hint": "essere – lui",
-          "explanation": "Futuro → condizionale passato; tra due settimane → due settimane dopo."
+          "explanation": "Ieri becomes il giorno prima in reported speech."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-06-l5-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Mi ha detto che sarebbe venuto qui domani.",
+          "answers": [
+            "Mi ha detto che sarebbe venuto lì il giorno dopo.",
+            "Mi ha detto che sarebbe venuto là il giorno dopo.",
+            "Mi ha detto che sarebbe venuto lì l'indomani."
+          ],
+          "explanation": "Place and time words shift: qui → lì, domani → il giorno dopo."
         },
         {
           "type": "reading",
-          "id": "b2-06-l3-e06",
-          "instruction": "Lettura (stile CELI): leggi il messaggio e rispondi.",
+          "id": "b2-06-l5-e08",
+          "stage": "use",
+          "instruction": "Leggi il messaggio e rispondi.",
           "title": "Il messaggio di Marta",
-          "passage": "Ciao Richard! Sono passata in Comune per la tua pratica di residenza, come mi avevi chiesto. L'impiegata mi ha detto che la domanda era arrivata, ma che mancava una copia del contratto d'affitto. Mi ha spiegato che senza il contratto non potevano andare avanti e che, se non lo mandavi entro dieci giorni, la pratica sarebbe stata archiviata.\nLe ho chiesto se si poteva mandare per email e mi ha risposto di sì, ma che doveva essere firmato sia da te sia dal proprietario. Mi ha anche detto di ricordarti che nelle settimane successive un vigile sarebbe passato a casa per il controllo e che qualcuno doveva essere presente.\nInfine mi ha chiesto se avevi un numero di telefono italiano, perché dovevano poterti contattare. Gliel'ho lasciato io. Un bacio, Marta",
+          "passage": "Ciao {name}! Sono passata in Comune per la tua pratica di residenza, come mi avevi chiesto. L'impiegata mi ha detto che la domanda era arrivata, ma che mancava una copia del contratto d'affitto. Mi ha spiegato che, se non lo mandavi entro dieci giorni, la pratica sarebbe stata archiviata. Le ho chiesto se si poteva mandare per email e mi ha risposto di sì. Mi ha ricordato di dirti di firmarlo.",
           "questions": [
             {
-              "question": "Che cosa mancava nella pratica?",
+              "question": "Che cosa mancava?",
               "options": [
                 "Il passaporto.",
                 "Una copia del contratto d'affitto.",
-                "Il codice fiscale.",
-                "Una fototessera."
+                "La domanda.",
+                "La ricevuta."
               ],
               "answer": 1
             },
             {
-              "question": "Che cosa succede se il documento non arriva entro dieci giorni?",
+              "question": "Che cosa sarebbe successo senza il documento?",
               "options": [
-                "La pratica viene archiviata.",
-                "Si paga una multa.",
-                "Bisogna tornare in Comune di persona.",
-                "Il vigile passa subito."
+                "La pratica sarebbe stata archiviata.",
+                "Avrebbe pagato una multa.",
+                "Sarebbe andato in Comune.",
+                "Nulla."
               ],
               "answer": 0
             },
             {
               "question": "Come si può mandare il documento?",
               "options": [
-                "Solo per posta.",
-                "Per email, ma firmato solo dal proprietario.",
-                "Di persona allo sportello.",
-                "Per email, firmato da Richard e dal proprietario."
-              ],
-              "answer": 3
-            },
-            {
-              "question": "Che cosa succederà nelle settimane successive?",
-              "options": [
-                "L'impiegata telefonerà a Marta.",
-                "Richard riceverà la carta d'identità.",
-                "Un vigile passerà a casa per un controllo.",
-                "Il proprietario andrà in Comune."
+                "Solo di persona.",
+                "Per posta.",
+                "Per email.",
+                "Non si può."
               ],
               "answer": 2
             }
-          ],
-          "explanation": "Marta usa tutte le strutture: ha detto che + imperfetto, ha chiesto se, mi ha detto di + infinito, sarebbe stata archiviata."
-        },
-        {
-          "type": "translate",
-          "id": "b2-06-l3-e07",
-          "instruction": "Traduci in inglese.",
-          "direction": "it_en",
-          "source": "Ha detto che avrebbe richiamato il giorno dopo.",
-          "answers": [
-            "He said he would call back the next day.",
-            "He said he would call back the following day.",
-            "He said he would call back the day after.",
-            "He said he would call me back the next day.",
-            "He said he would call me back the following day.",
-            "He said he would call me back the day after.",
-            "He said he would ring back the next day.",
-            "He said he would ring back the following day.",
-            "He said he would ring back the day after.",
-            "He said he would phone back the next day.",
-            "He said he would phone back the following day.",
-            "He said he would phone back the day after.",
-            "He said she would call back the next day.",
-            "He said she would call back the following day.",
-            "He said she would call back the day after.",
-            "He said she would call me back the next day.",
-            "He said she would call me back the following day.",
-            "He said she would call me back the day after.",
-            "He said she would ring back the next day.",
-            "He said she would ring back the following day.",
-            "He said she would ring back the day after.",
-            "He said she would phone back the next day.",
-            "He said she would phone back the following day.",
-            "He said she would phone back the day after.",
-            "He said he'd call back the next day.",
-            "He said he'd call back the following day.",
-            "He said he'd call back the day after.",
-            "He said he'd call me back the next day.",
-            "He said he'd call me back the following day.",
-            "He said he'd call me back the day after.",
-            "He said he'd ring back the next day.",
-            "He said he'd ring back the following day.",
-            "He said he'd ring back the day after.",
-            "He said he'd phone back the next day.",
-            "He said he'd phone back the following day.",
-            "He said he'd phone back the day after.",
-            "He said she'd call back the next day.",
-            "He said she'd call back the following day.",
-            "He said she'd call back the day after.",
-            "He said she'd call me back the next day.",
-            "He said she'd call me back the following day.",
-            "He said she'd call me back the day after.",
-            "He said she'd ring back the next day.",
-            "He said she'd ring back the following day.",
-            "He said she'd ring back the day after.",
-            "He said she'd phone back the next day.",
-            "He said she'd phone back the following day.",
-            "He said she'd phone back the day after.",
-            "She said he would call back the next day.",
-            "She said he would call back the following day.",
-            "She said he would call back the day after.",
-            "She said he would call me back the next day.",
-            "She said he would call me back the following day.",
-            "She said he would call me back the day after.",
-            "She said he would ring back the next day.",
-            "She said he would ring back the following day.",
-            "She said he would ring back the day after.",
-            "She said he would phone back the next day.",
-            "She said he would phone back the following day.",
-            "She said he would phone back the day after.",
-            "She said she would call back the next day.",
-            "She said she would call back the following day.",
-            "She said she would call back the day after.",
-            "She said she would call me back the next day.",
-            "She said she would call me back the following day.",
-            "She said she would call me back the day after.",
-            "She said she would ring back the next day.",
-            "She said she would ring back the following day.",
-            "She said she would ring back the day after.",
-            "She said she would phone back the next day.",
-            "She said she would phone back the following day.",
-            "She said she would phone back the day after.",
-            "She said he'd call back the next day.",
-            "She said he'd call back the following day.",
-            "She said he'd call back the day after.",
-            "She said he'd call me back the next day.",
-            "She said he'd call me back the following day.",
-            "She said he'd call me back the day after.",
-            "She said he'd ring back the next day.",
-            "She said he'd ring back the following day.",
-            "She said he'd ring back the day after.",
-            "She said he'd phone back the next day.",
-            "She said he'd phone back the following day.",
-            "She said he'd phone back the day after.",
-            "She said she'd call back the next day.",
-            "She said she'd call back the following day.",
-            "She said she'd call back the day after.",
-            "She said she'd call me back the next day.",
-            "She said she'd call me back the following day.",
-            "She said she'd call me back the day after.",
-            "She said she'd ring back the next day.",
-            "She said she'd ring back the following day.",
-            "She said she'd ring back the day after.",
-            "She said she'd phone back the next day.",
-            "She said she'd phone back the following day.",
-            "She said she'd phone back the day after."
-          ],
-          "explanation": "Condizionale passato = would + verb; il giorno dopo = the next day."
-        },
-        {
-          "type": "error_correction",
-          "id": "b2-06-l3-e08",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "L'impiegato mi ha chiesto che avevo il codice fiscale.",
-          "answers": [
-            "L'impiegato mi ha chiesto se avevo il codice fiscale.",
-            "L'impiegato mi ha chiesto se avessi il codice fiscale."
-          ],
-          "explanation": "Domanda sì/no → se, non che."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b2-06-l3-e09",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Buongiorno, sono la dottoressa Galli dell'ufficio personale. Volevo dirle che il suo contratto è pronto e che può passare a firmarlo da giovedì. Si ricordi di portare un documento d'identità e le coordinate bancarie. Se giovedì non le va bene, mi richiami pure a questo numero.",
-          "question": "Che cosa bisogna portare per firmare il contratto?",
-          "options": [
-            "Il contratto vecchio.",
-            "Un documento e le coordinate bancarie.",
-            "Una fototessera.",
-            "Il codice fiscale e una lettera."
-          ],
-          "answer": 1,
-          "explanation": "Si ricordi di portare… → Mi ha ricordato di portare un documento e le coordinate bancarie."
-        },
-        {
-          "type": "roleplay",
-          "id": "b2-06-l3-e10",
-          "instruction": "Role-play: rispondi ad alta voce quando tocca a te.",
-          "scenario": "Il tuo coinquilino Matteo non era in casa quando è passato il padrone di casa. Ti chiede che cosa ha detto. Riferisci.",
-          "turns": [
-            {
-              "speaker": "npc",
-              "text": "Allora, è passato il padrone di casa? Che cosa ha detto?"
-            },
-            {
-              "speaker": "you",
-              "text": "Sì, ha detto che il tecnico sarebbe venuto giovedì a controllare la caldaia.",
-              "hint": "Riferisci un'informazione futura: ha detto che + condizionale passato.",
-              "keywords": [
-                "ha detto che",
-                "sarebbe"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Giovedì? Ma io lavoro tutto il giorno… Dobbiamo esserci per forza?"
-            },
-            {
-              "speaker": "you",
-              "text": "Ci ha chiesto di lasciargli le chiavi, se non c'è nessuno in casa.",
-              "hint": "Riferisci una richiesta: ci ha chiesto di + infinito.",
-              "keywords": [
-                "ci ha chiesto di"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Ok. E per la bolletta del gas? Ne avete parlato?"
-            },
-            {
-              "speaker": "you",
-              "text": "Sì, mi ha chiesto se l'avevamo già pagata. Gli ho detto di sì e gli ho mandato la ricevuta.",
-              "hint": "Riferisci la sua domanda: mi ha chiesto se + trapassato.",
-              "keywords": [
-                "mi ha chiesto se",
-                "avevamo"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Perfetto. Ha detto altro?"
-            },
-            {
-              "speaker": "you",
-              "text": "Ha aggiunto che a gennaio l'affitto non sarebbe aumentato. Ottima notizia, no?",
-              "hint": "Riferisci un'ultima informazione con aggiungere.",
-              "keywords": [
-                "ha aggiunto",
-                "sarebbe"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Davvero? Finalmente una buona notizia!"
-            }
-          ],
-          "explanation": "Hai usato verbi diversi (dire, chiedere di, chiedere se, aggiungere) e lo spostamento dei tempi."
+          ]
         },
         {
           "type": "free_write",
-          "id": "b2-06-l3-e11",
-          "instruction": "Scrittura (stile CELI, registro informale).",
-          "prompt": "Un tuo amico non è potuto venire all'assemblea di condominio di ieri sera. Scrivigli un'email (120–150 parole) per riferire che cosa hanno detto l'amministratore e gli altri condomini: informazioni, decisioni, domande e richieste.",
-          "minWords": 120,
+          "id": "b2-06-l5-e09",
+          "stage": "use",
+          "instruction": "Scrivi un messaggio di 60-80 parole.",
+          "prompt": "Un amico non è potuto venire all'assemblea di condominio di ieri sera. Scrivigli per riferire che cosa hanno detto l'amministratore e i vicini.",
+          "minWords": 60,
           "checklist": [
-            "Ho usato ha detto / ha spiegato che + imperfetto o trapassato.",
-            "Ho riferito almeno una informazione futura con il condizionale passato.",
-            "Ho riferito almeno una domanda (ha chiesto se / quando / perché…).",
-            "Ho riferito almeno una richiesta o un consiglio con di + infinito.",
-            "Ho adattato le espressioni di tempo (il giorno dopo, la settimana successiva…).",
-            "Registro informale coerente, almeno 120 parole."
+            "Ho usato ha detto / ha spiegato che.",
+            "Ho riferito una informazione futura (condizionale passato).",
+            "Ho riferito una domanda (ha chiesto se…) o un consiglio (di + infinito).",
+            "Ho cambiato ieri/domani/qui in modo corretto."
           ],
-          "modelAnswer": "Ciao Paolo,\nti racconto com'è andata l'assemblea di ieri sera, visto che non sei potuto venire. All'inizio l'amministratore ha spiegato che il preventivo per il rifacimento del tetto era arrivato e che la ditta aveva chiesto trentamila euro. Ha detto che i lavori sarebbero cominciati a marzo e che sarebbero durati circa due mesi.\nLa signora del terzo piano ha chiesto perché non avevamo chiesto altri preventivi, e l'amministratore ha risposto che ne aveva chiesti tre, ma che questo era il più economico. Alla fine abbiamo votato e la proposta è stata approvata quasi all'unanimità.\nL'amministratore ci ha chiesto di pagare la prima rata entro la fine del mese successivo e ha raccomandato a tutti di non lasciare le biciclette in cortile durante i lavori. Mi ha detto anche di salutarti!\nA presto,\nRichard"
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-06-l3-e12",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Riferisci a un amico il messaggio che hai sentito in segreteria: «Sono la dottoressa Galli. Il suo contratto è pronto, può passare a firmarlo da giovedì. Si ricordi di portare un documento e le coordinate bancarie.»",
-          "keywords": [
-            "ha detto che",
-            "di portare"
-          ],
-          "modelAnswer": "Ha chiamato la dottoressa Galli dell'ufficio personale. Ha detto che il mio contratto era pronto e che potevo passare a firmarlo da giovedì. Mi ha ricordato di portare un documento e le coordinate bancarie.",
-          "explanation": "Il suo (di me) → il mio; può → potevo; si ricordi di → mi ha ricordato di."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-06-l3-e13",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Ha chiamato Marco: dice che stasera fa tardi e che ti richiama domani.",
-          "translation": "Marco called: he says he'll be late tonight and will call you back tomorrow."
+          "modelAnswer": "Ieri all'assemblea l'amministratore ha detto che i lavori in cortile sarebbero cominciati il mese dopo. La signora Rossi ha chiesto se si poteva spostare l'orario. Mi hanno ricordato di portare la delega la prossima volta."
         }
       ]
     }
@@ -883,11 +892,6 @@
       "example": "Si ricordi di portare le coordinate bancarie."
     },
     {
-      "it": "il codice fiscale",
-      "en": "tax code",
-      "example": "Allo sportello mi hanno chiesto il codice fiscale."
-    },
-    {
       "it": "in regola",
       "en": "in order, compliant",
       "example": "I documenti sono tutti in regola."
@@ -901,11 +905,6 @@
       "it": "le analisi (del sangue)",
       "en": "(blood) tests",
       "example": "Ha detto che aveva già fatto le analisi."
-    },
-    {
-      "it": "guarire (guarito)",
-      "en": "to recover, get better",
-      "example": "Mi ha detto che sarei guarito in una settimana."
     },
     {
       "it": "niente di grave",
@@ -929,7 +928,8 @@
         "answers": [
           "aveva"
         ],
-        "hint": "avere"
+        "hint": "avere",
+        "explanation": "Present becomes imperfetto after a past reporting verb."
       }
     },
     {
@@ -949,11 +949,32 @@
           "aveva perso",
           "perdeva"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "Passato prossimo becomes trapassato prossimo."
       }
     },
     {
       "id": "b2-06-t3",
+      "rule": "Futuro → condizionale passato",
+      "tip": "A reported promise uses the condizionale passato: «Verrò» → Ha detto che sarebbe venuto.",
+      "example": {
+        "it": "Ha detto che sarebbe passato il giorno dopo.",
+        "en": "He said he'd come by the next day."
+      },
+      "challenge": {
+        "type": "transform",
+        "instruction": "Riscrivi la frase.",
+        "source": "«Tornerò domani.»",
+        "cue": "Ha detto che…",
+        "answers": [
+          "Ha detto che sarebbe tornato il giorno dopo.",
+          "Ha detto che sarebbe tornato l'indomani."
+        ],
+        "explanation": "Future becomes condizionale passato, domani becomes il giorno dopo."
+      }
+    },
+    {
+      "id": "b2-06-t4",
       "rule": "Ordini: di + infinito",
       "tip": "Reported orders and requests use di + infinitive: «Aspetti qui!» → Mi ha detto di aspettare lì.",
       "example": {
@@ -968,46 +989,26 @@
         "answers": [
           "Mi ha detto di aspettare.",
           "Lei mi ha detto di aspettare."
-        ]
-      }
-    },
-    {
-      "id": "b2-06-t4",
-      "rule": "Domande sì/no: chiedere se",
-      "tip": "Reported yes/no questions use se: «Hai il passaporto?» → Mi ha chiesto se avevo il passaporto.",
-      "example": {
-        "it": "Mi ha chiesto se ero libero.",
-        "en": "He asked me if I was free."
-      },
-      "challenge": {
-        "type": "error_correction",
-        "instruction": "C'è un errore. Riscrivi la frase corretta.",
-        "sentence": "Mi ha chiesto che avevo tempo.",
-        "answers": [
-          "Mi ha chiesto se avevo tempo.",
-          "Mi ha chiesto se avessi tempo."
         ],
-        "explanation": "Domanda sì/no → se."
+        "explanation": "Orders are reported with di + infinito."
       }
     },
     {
       "id": "b2-06-t5",
-      "rule": "Domani → il giorno dopo",
-      "tip": "In reported speech time words shift: oggi → quel giorno, domani → il giorno dopo, qui → lì.",
+      "rule": "Domande sì/no: chiedere se",
+      "tip": "Reported yes/no questions use se: «Hai il passaporto?» → Mi ha chiesto se avevo il passaporto.",
       "example": {
-        "it": "Ha detto che sarebbe passato il giorno dopo.",
-        "en": "He said he'd come by the next day."
+        "it": "Mi ha chiesto se avevo il passaporto.",
+        "en": "He asked me if I had my passport."
       },
       "challenge": {
-        "type": "multiple_choice",
-        "instruction": "Scegli la risposta giusta.",
-        "prompt": "«Torno domani.» → Ha detto che sarebbe tornato ___.",
-        "options": [
-          "domani",
-          "il giorno dopo",
-          "il giorno prima"
+        "type": "error_correction",
+        "instruction": "Correggi.",
+        "sentence": "Mi ha chiesto che avevo il passaporto.",
+        "answers": [
+          "Mi ha chiesto se avevo il passaporto."
         ],
-        "answer": 1
+        "explanation": "Yes/no questions need se."
       }
     }
   ]

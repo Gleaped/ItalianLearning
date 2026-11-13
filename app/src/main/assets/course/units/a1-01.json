@@ -1,0 +1,819 @@
+{
+  "id": "a1-01",
+  "level": "A1",
+  "title": "Ciao, sono…",
+  "format": 2,
+  "module": "a1-m1",
+  "objective": "By the end you can greet people, say and spell your name, and say where you are from.",
+  "grammarFocus": "Greetings (tu / Lei), mi chiamo, essere in the present, nationalities and the Italian alphabet.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-01-l1",
+      "title": "Ciao e buongiorno",
+      "minutes": 7,
+      "goal": "You can greet people and say goodbye, formally and informally.",
+      "takeaway": "Ciao is for friends; buongiorno, buonasera and arrivederci are safe with everyone.",
+      "exercises": [
+        {
+          "type": "speak_repeat",
+          "id": "a1-01-l1-e01",
+          "stage": "warmup",
+          "instruction": "Listen, then say it out loud.",
+          "text": "Ciao!",
+          "translation": "Hi! / Bye!"
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l1-e02",
+          "stage": "learn",
+          "title": "Salutare",
+          "body": "Italians greet by the time of day.\n\n| quando | si dice |\n|---|---|\n| morning, daytime | ==Buongiorno== |\n| afternoon, evening | ==Buonasera== |\n| going to bed | ==Buonanotte== |\n| goodbye (polite) | ==Arrivederci== |\n| hi / bye (friends) | ==Ciao== |\n\n> Use buongiorno and buonasera with strangers, in shops and offices. Ciao is for people you know.",
+          "examples": [
+            {
+              "it": "Buongiorno, signora!",
+              "en": "Good morning, madam."
+            },
+            {
+              "it": "Ciao, Marco!",
+              "en": "Hi, Marco!"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l1-e03",
+          "stage": "learn",
+          "title": "Come stai?",
+          "body": "To ask how someone is, choose **tu** (friends) or **Lei** (polite).\n\n| | informale | formale |\n|---|---|---|\n| ask | Come ==stai==? | Come ==sta==? |\n| answer | Bene, grazie. E ==tu==? | Bene, grazie. E ==Lei==? |\n\n> Lei (the polite *you*) is for strangers, older people and offices.",
+          "examples": [
+            {
+              "it": "Ciao, Anna! Come stai?",
+              "en": "Hi, Anna! How are you?"
+            },
+            {
+              "it": "Buongiorno, signor Rossi. Come sta?",
+              "en": "Good morning, Mr Rossi. How are you?"
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-01-l1-e04",
+          "stage": "practise",
+          "instruction": "Listen and choose.",
+          "audioText": "Buonasera, signora!",
+          "question": "When do you hear this?",
+          "options": [
+            "In the evening",
+            "In the morning",
+            "At bedtime"
+          ],
+          "answer": 0,
+          "explanation": "Buonasera is the greeting for the afternoon and evening."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-01-l1-e05",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "informal (tu)",
+            "formal (Lei)"
+          ],
+          "items": [
+            {
+              "text": "Ciao!",
+              "bucket": 0
+            },
+            {
+              "text": "Buongiorno!",
+              "bucket": 1
+            },
+            {
+              "text": "Come stai?",
+              "bucket": 0
+            },
+            {
+              "text": "Come sta?",
+              "bucket": 1
+            },
+            {
+              "text": "E tu?",
+              "bucket": 0
+            },
+            {
+              "text": "E Lei?",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Stai and tu go with friends; sta and Lei are polite."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-01-l1-e06",
+          "stage": "practise",
+          "instruction": "Type the missing word.",
+          "sentence": "Buongiorno, signora! Come ___?",
+          "answers": [
+            "sta"
+          ],
+          "explanation": "With a polite greeting (signora) use the Lei form: sta.",
+          "hint": "polite form"
+        },
+        {
+          "type": "translate",
+          "id": "a1-01-l1-e07",
+          "stage": "practise",
+          "instruction": "Translate.",
+          "direction": "en_it",
+          "source": "Good evening.",
+          "answers": [
+            "Buonasera.",
+            "Buonasera"
+          ],
+          "explanation": "Buonasera is used from the afternoon onwards."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-01-l1-e08",
+          "stage": "use",
+          "instruction": "Answer out loud.",
+          "prompt": "You meet your neighbour, Mrs Bianchi, in the morning. Greet her and ask how she is.",
+          "keywords": [
+            "buongiorno",
+            "come sta"
+          ],
+          "modelAnswer": "Buongiorno, signora Bianchi! Come sta?"
+        }
+      ]
+    },
+    {
+      "id": "a1-01-l2",
+      "title": "Mi chiamo…, sono…",
+      "minutes": 7,
+      "goal": "You can say your name, ask someone's name and use io sono, tu sei, lui è.",
+      "takeaway": "Mi chiamo / sono + name. Come ti chiami? (tu) or Come si chiama? (Lei). Essere: sono, sei, è.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-01-l2-e01",
+          "stage": "warmup",
+          "instruction": "Choose the right answer.",
+          "prompt": "Which greeting fits a friend called Luca?",
+          "options": [
+            "Ciao, Luca!",
+            "Buonanotte, signor Luca.",
+            "Arrivederci, signora."
+          ],
+          "answer": 0,
+          "explanation": "Ciao is the informal greeting for people you know."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l2-e02",
+          "stage": "learn",
+          "title": "Come ti chiami?",
+          "body": "Ask a name with **chiamarsi**. The little word changes.\n\n| | informale | formale |\n|---|---|---|\n| ask | Come ==ti== chiami? | Come ==si== chiama? |\n| answer | ==Mi== chiamo Anna. | ==Mi== chiamo Anna. |\n\nYou can also say **Sono Anna**. Reply to a name with **Piacere!** (Nice to meet you).",
+          "examples": [
+            {
+              "it": "Ciao, sono {name}!",
+              "en": "Hi, I'm {name}!"
+            },
+            {
+              "it": "Mi chiamo {name}. Piacere!",
+              "en": "My name is {name}. Nice to meet you!"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l2-e03",
+          "stage": "learn",
+          "title": "Essere: io sono",
+          "body": "**Essere** means *to be*. It is irregular.\n\n| persona | essere |\n|---|---|\n| io | ==sono== |\n| tu | ==sei== |\n| lui / lei | ==è== |\n\n> The accent matters: **è** = is, **e** = and.",
+          "examples": [
+            {
+              "it": "Io sono {name}.",
+              "en": "I am {name}."
+            },
+            {
+              "it": "Tu sei Anna?",
+              "en": "Are you Anna?"
+            },
+            {
+              "it": "Lui è Marco e lei è Giulia.",
+              "en": "He is Marco and she is Giulia."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-01-l2-e04",
+          "stage": "practise",
+          "instruction": "Listen and choose.",
+          "audioText": "Come ti chiami?",
+          "question": "What is the speaker asking?",
+          "options": [
+            "Your name",
+            "How you are",
+            "Where you are from"
+          ],
+          "answer": 0,
+          "explanation": "Come ti chiami? asks for a name."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-01-l2-e05",
+          "stage": "practise",
+          "instruction": "Read the sentences and choose.",
+          "sentences": [
+            "Come ti chiami?",
+            "Come si chiama?"
+          ],
+          "question": "You meet a stranger and use Lei. Which question do you ask?",
+          "answer": 1,
+          "translations": [
+            "What's your name? (friendly, tu)",
+            "What's your name? (polite, Lei)"
+          ],
+          "explanation": "Si chiama goes with the polite Lei form."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-01-l2-e06",
+          "stage": "practise",
+          "instruction": "Type each form.",
+          "verb": "essere",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "sono"
+            },
+            {
+              "person": "tu",
+              "answer": "sei"
+            },
+            {
+              "person": "lui / lei",
+              "answer": "è"
+            }
+          ],
+          "explanation": "Essere is irregular: sono, sei, è."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-01-l2-e07",
+          "stage": "practise",
+          "instruction": "Tap the words in order.",
+          "translation": "My name is Anna.",
+          "tiles": [
+            "Mi",
+            "chiamo",
+            "Anna"
+          ],
+          "distractors": [
+            "chiami",
+            "Sono"
+          ],
+          "explanation": "Mi chiamo + name is the usual way to say your name."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-01-l2-e08",
+          "stage": "use",
+          "instruction": "Play the scene out loud.",
+          "scenario": "At a party you meet a new person.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao! Come ti chiami?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mi chiamo {name}. E tu?",
+              "hint": "Say your name and ask back: E tu?",
+              "keywords": [
+                "mi chiamo",
+                "e tu"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Io sono Giulia. Piacere!"
+            },
+            {
+              "speaker": "you",
+              "text": "Piacere!",
+              "hint": "Say: Nice to meet you.",
+              "keywords": [
+                "piacere"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-01-l3",
+      "title": "Siamo, siete, sono",
+      "minutes": 7,
+      "goal": "You can use all six forms of essere and say where people are from.",
+      "takeaway": "Essere: sono, sei, è, siamo, siete, sono. Say Sono di + city, or Sono + nationality.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-01-l3-e01",
+          "stage": "warmup",
+          "instruction": "Type the missing word.",
+          "sentence": "Tu ___ Anna?",
+          "answers": [
+            "sei"
+          ],
+          "explanation": "Tu goes with sei."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l3-e02",
+          "stage": "learn",
+          "title": "Essere: noi, voi, loro",
+          "body": "The plural forms of **essere**:\n\n| persona | essere |\n|---|---|\n| noi | ==siamo== |\n| voi | ==siete== |\n| loro | ==sono== |\n\n> **Sono** means *I am* and *they are*. The context tells you which.",
+          "examples": [
+            {
+              "it": "Noi siamo amici.",
+              "en": "We are friends."
+            },
+            {
+              "it": "Voi siete di Milano?",
+              "en": "Are you (all) from Milan?"
+            },
+            {
+              "it": "Loro sono di Napoli.",
+              "en": "They are from Naples."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l3-e03",
+          "stage": "learn",
+          "title": "Di dove sei?",
+          "body": "Ask: **Di dove sei?** (tu) or **Di dove è?** (Lei). Answer with **Sono di** + city, or **Sono** + nationality.\n\n| finale | esempio |\n|---|---|\n| ==-o== / ==-a== | americano / americana |\n| ==-e== (same) | inglese, canadese |\n\n> Nationalities have no capital letter: *sono inglese*.",
+          "examples": [
+            {
+              "it": "Sono di Londra. Sono inglese.",
+              "en": "I'm from London. I'm English."
+            },
+            {
+              "it": "Marco è italiano; Giulia è italiana.",
+              "en": "Marco is Italian; Giulia is Italian."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-01-l3-e04",
+          "stage": "practise",
+          "instruction": "Listen and choose.",
+          "audioText": "Sono americana, di Chicago.",
+          "question": "Where is she from?",
+          "options": [
+            "Chicago",
+            "Rome",
+            "London"
+          ],
+          "answer": 0,
+          "explanation": "Sono di + city names the city; Chicago is the city here."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-01-l3-e05",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "-o / -a",
+            "-e"
+          ],
+          "items": [
+            {
+              "text": "americano",
+              "bucket": 0
+            },
+            {
+              "text": "francese",
+              "bucket": 1
+            },
+            {
+              "text": "italiana",
+              "bucket": 0
+            },
+            {
+              "text": "canadese",
+              "bucket": 1
+            },
+            {
+              "text": "australiana",
+              "bucket": 0
+            },
+            {
+              "text": "irlandese",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Nationalities ending in -o change to -a for women; those in -e stay the same."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-01-l3-e06",
+          "stage": "practise",
+          "instruction": "Type the missing word.",
+          "sentence": "Noi ___ di Roma.",
+          "answers": [
+            "siamo"
+          ],
+          "explanation": "Noi goes with siamo."
+        },
+        {
+          "type": "translate",
+          "id": "a1-01-l3-e07",
+          "stage": "practise",
+          "instruction": "Translate.",
+          "direction": "it_en",
+          "source": "Di dove sei?",
+          "answers": [
+            "Where are you from?",
+            "Where are you from"
+          ],
+          "explanation": "Di dove sei? asks about your origin."
+        },
+        {
+          "type": "translate",
+          "id": "a1-01-l3-e08",
+          "stage": "practise",
+          "instruction": "Translate.",
+          "direction": "en_it",
+          "source": "I am from London.",
+          "answers": [
+            "Sono di Londra.",
+            "Io sono di Londra."
+          ],
+          "explanation": "Sono di + city says where you are from."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-01-l3-e09",
+          "stage": "use",
+          "instruction": "Answer out loud.",
+          "prompt": "Di dove sei? Say where you are from and your nationality.",
+          "keywords": [
+            "sono",
+            "di"
+          ],
+          "modelAnswer": "Sono di Londra. Sono inglese."
+        }
+      ]
+    },
+    {
+      "id": "a1-01-l4",
+      "title": "L'alfabeto",
+      "minutes": 8,
+      "goal": "You can say the Italian letter names and spell your name aloud.",
+      "takeaway": "Spell with the letter names; ce / ci and ge / gi are soft, che / chi and ghe / ghi are hard; double letters are held longer.",
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "a1-01-l4-e01",
+          "stage": "warmup",
+          "instruction": "Translate.",
+          "direction": "en_it",
+          "source": "My name is Anna.",
+          "answers": [
+            "Mi chiamo Anna."
+          ],
+          "explanation": "Mi chiamo + name says your name."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l4-e02",
+          "stage": "learn",
+          "title": "Come si scrive?",
+          "body": "Ask: **Come si scrive?** Say double letters with **doppia**: Anna = a, ==doppia== enne, a.\n\n| lettere | nomi |\n|---|---|\n| A B C D E F G | a, bi, ci, di, e, effe, gi |\n| H I L M N O P | acca, i, elle, emme, enne, o, pi |\n| Q R S T U V Z | qu, erre, esse, ti, u, vu, zeta |",
+          "examples": [
+            {
+              "it": "Si scrive emme, a, erre, ci, o.",
+              "en": "It's spelled M-A-R-C-O."
+            },
+            {
+              "it": "Anna: a, doppia enne, a.",
+              "en": "Anna: A, double N, A."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-01-l4-e03",
+          "stage": "learn",
+          "title": "C e G",
+          "body": "Before **e / i**, c and g are soft. With **h**, they are hard.\n\n| scritto | suono | esempio |\n|---|---|---|\n| ==ci==, ==ce== | like *ch* | ciao, cena |\n| ==chi==, ==che== | like *k* | chi, che |\n| ==gi==, ==ge== | like *j* | gelato, giorno |\n| ==ghi==, ==ghe== | like *g* in *get* | spaghetti |\n\n> Double letters are held longer: **anno** is not **ano**.",
+          "examples": [
+            {
+              "it": "Ciao, mi chiamo Chiara.",
+              "en": "Hi, my name is Chiara."
+            },
+            {
+              "it": "Il gelato e gli spaghetti.",
+              "en": "The ice cream and the spaghetti."
+            }
+          ]
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-01-l4-e04",
+          "stage": "practise",
+          "instruction": "Listen and type what you hear.",
+          "audioText": "Mi chiamo Chiara.",
+          "answers": [
+            "Mi chiamo Chiara.",
+            "Mi chiamo Chiara"
+          ],
+          "explanation": "Chiara is written with ch because the sound is hard (k).",
+          "slow": true
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-01-l4-e05",
+          "stage": "practise",
+          "instruction": "Put each item in the right group.",
+          "buckets": [
+            "soft (ch / j sound)",
+            "hard (k / g sound)"
+          ],
+          "items": [
+            {
+              "text": "ciao",
+              "bucket": 0
+            },
+            {
+              "text": "cena",
+              "bucket": 0
+            },
+            {
+              "text": "chi",
+              "bucket": 1
+            },
+            {
+              "text": "che",
+              "bucket": 1
+            },
+            {
+              "text": "gelato",
+              "bucket": 0
+            },
+            {
+              "text": "giorno",
+              "bucket": 0
+            },
+            {
+              "text": "spaghetti",
+              "bucket": 1
+            },
+            {
+              "text": "ghiaccio",
+              "bucket": 1
+            }
+          ],
+          "explanation": "ci, ce, gi, ge are soft; chi, che, ghi, ghe are hard."
+        },
+        {
+          "type": "translate",
+          "id": "a1-01-l4-e06",
+          "stage": "practise",
+          "instruction": "Translate.",
+          "direction": "it_en",
+          "source": "Come si scrive?",
+          "answers": [
+            "How do you spell it?",
+            "How do you spell that?",
+            "How is it written?",
+            "How do you spell it",
+            "How do you spell this?"
+          ],
+          "explanation": "Come si scrive? asks for the spelling."
+        },
+        {
+          "type": "speak_repeat",
+          "id": "a1-01-l4-e07",
+          "stage": "practise",
+          "instruction": "Listen, then say it out loud.",
+          "text": "Mi chiamo Chiara. Si scrive ci, acca, i, a, erre, a.",
+          "translation": "My name is Chiara. It is spelled C-H-I-A-R-A."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-01-l4-e08",
+          "stage": "use",
+          "instruction": "Answer out loud.",
+          "prompt": "Someone asks: Come ti chiami? Come si scrive? Say your name and spell it.",
+          "keywords": [
+            "mi chiamo",
+            "si scrive"
+          ],
+          "modelAnswer": "Mi chiamo Marco. Si scrive emme, a, erre, ci, o."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "ciao",
+      "en": "hi / bye (informal)",
+      "example": "Ciao, Marco!"
+    },
+    {
+      "it": "buongiorno",
+      "en": "good morning / good day",
+      "example": "Buongiorno, signora!"
+    },
+    {
+      "it": "buonasera",
+      "en": "good evening",
+      "example": "Buonasera, signor Rossi."
+    },
+    {
+      "it": "buonanotte",
+      "en": "good night",
+      "example": "Buonanotte, Anna!"
+    },
+    {
+      "it": "arrivederci",
+      "en": "goodbye",
+      "example": "Arrivederci e grazie!"
+    },
+    {
+      "it": "Come stai? / Come sta?",
+      "en": "How are you? (tu / Lei)",
+      "example": "Ciao, Anna! Come stai?"
+    },
+    {
+      "it": "bene",
+      "en": "well, fine",
+      "example": "Bene, grazie. E tu?"
+    },
+    {
+      "it": "grazie",
+      "en": "thank you",
+      "example": "Grazie mille!"
+    },
+    {
+      "it": "piacere",
+      "en": "nice to meet you",
+      "example": "Piacere, sono Marco."
+    },
+    {
+      "it": "Mi chiamo…",
+      "en": "My name is…",
+      "example": "Mi chiamo Giulia."
+    },
+    {
+      "it": "Come ti chiami?",
+      "en": "What's your name? (tu)",
+      "example": "Ciao! Come ti chiami?"
+    },
+    {
+      "it": "Di dove sei?",
+      "en": "Where are you from? (tu)",
+      "example": "Di dove sei? Sono di Roma."
+    },
+    {
+      "it": "Sono di…",
+      "en": "I'm from…",
+      "example": "Sono di Londra."
+    },
+    {
+      "it": "italiano / italiana",
+      "en": "Italian",
+      "example": "Marco è italiano."
+    },
+    {
+      "it": "inglese",
+      "en": "English",
+      "example": "Sono inglese."
+    },
+    {
+      "it": "americano / americana",
+      "en": "American",
+      "example": "Anna è americana."
+    },
+    {
+      "it": "il nome",
+      "en": "name",
+      "example": "Il mio nome è Luca."
+    },
+    {
+      "it": "Come si scrive?",
+      "en": "How do you spell it?",
+      "example": "Come si scrive il tuo nome?"
+    },
+    {
+      "it": "la lettera",
+      "en": "letter",
+      "example": "Una lettera, la erre."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-01-t1",
+      "rule": "Ciao o buongiorno?",
+      "tip": "Ciao is for friends. With strangers, shops and offices use buongiorno or buonasera.",
+      "example": {
+        "it": "Buongiorno, signora!",
+        "en": "Good morning, madam."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "You greet a shop assistant in the morning:",
+        "options": [
+          "Ciao!",
+          "Buongiorno!",
+          "Buonanotte!"
+        ],
+        "answer": 1,
+        "explanation": "Buongiorno is polite and works with everyone."
+      }
+    },
+    {
+      "id": "a1-01-t2",
+      "rule": "Essere: sono, sei, è",
+      "tip": "Essere is irregular: io sono, tu sei, lui / lei è. Noi siamo, voi siete, loro sono.",
+      "example": {
+        "it": "Tu sei di Roma?",
+        "en": "Are you from Rome?"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Noi ___ italiani.",
+        "answers": [
+          "siamo"
+        ],
+        "explanation": "Noi goes with siamo."
+      }
+    },
+    {
+      "id": "a1-01-t3",
+      "rule": "Mi chiamo + nome",
+      "tip": "Say your name with Mi chiamo or Sono. Ask a friend: Come ti chiami?",
+      "example": {
+        "it": "Mi chiamo Anna.",
+        "en": "My name is Anna."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Mi chiami Anna.",
+        "answers": [
+          "Mi chiamo Anna.",
+          "Mi chiamo Anna"
+        ],
+        "explanation": "Io goes with chiamo: mi chiamo."
+      }
+    },
+    {
+      "id": "a1-01-t4",
+      "rule": "È con accento, e senza",
+      "tip": "The accent matters: è means is, e means and.",
+      "example": {
+        "it": "Lui è Marco e lei è Giulia.",
+        "en": "He is Marco and she is Giulia."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Marco ___ italiano. (is)",
+        "options": [
+          "è",
+          "e"
+        ],
+        "answer": 0,
+        "explanation": "è with an accent is the verb: is."
+      }
+    },
+    {
+      "id": "a1-01-t5",
+      "rule": "Nazionalità senza maiuscola",
+      "tip": "Nationalities have no capital letter. Words in -o change to -a; words in -e stay the same.",
+      "example": {
+        "it": "Sono inglese.",
+        "en": "I am English."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Which is correct?",
+        "options": [
+          "Sono Inglese.",
+          "Sono inglese."
+        ],
+        "answer": 1,
+        "explanation": "Italian nationalities are not capitalised."
+      }
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.consumeWindowInsets
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -32,6 +33,7 @@ import com.gleaped.italianlearning.R
 import com.gleaped.italianlearning.domain.reminders.ReminderTarget
 import com.gleaped.italianlearning.ui.challenge.ChallengeScreen
 import com.gleaped.italianlearning.ui.course.CourseMapScreen
+import com.gleaped.italianlearning.ui.course.LevelScreen
 import com.gleaped.italianlearning.ui.course.UnitScreen
 import com.gleaped.italianlearning.ui.grammar.GrammarScreen
 import com.gleaped.italianlearning.ui.grammar.GrammarTopicScreen
@@ -48,6 +50,7 @@ object Routes {
     const val REVIEW = "review"
     const val SETTINGS = "settings"
     const val UNIT = "unit/{unitId}"
+    const val LEVEL = "level/{levelId}"
     const val LESSON = "lesson/{unitId}/{lessonId}"
     const val CHALLENGE = "challenge/{unitId}/{tipId}"
     const val GRAMMAR = "grammar"
@@ -56,6 +59,7 @@ object Routes {
     const val WORD = "word/{lemmaId}"
 
     fun unit(id: String) = "unit/${Uri.encode(id)}"
+    fun level(id: String) = "level/${Uri.encode(id)}"
     fun lesson(unitId: String, lessonId: String) = "lesson/${Uri.encode(unitId)}/${Uri.encode(lessonId)}"
     fun challenge(unitId: String, tipId: String) = "challenge/${Uri.encode(unitId)}/${Uri.encode(tipId)}"
     fun grammarTopic(id: String) = "grammar/topic/${Uri.encode(id)}"
@@ -130,7 +134,9 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
             Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .consumeWindowInsets(padding),
+                .consumeWindowInsets(padding)
+                // One keyboard inset for every screen (#5): content always ends at the keyboard's top.
+                .imePadding(),
         ) {
             NavHost(navController = nav, startDestination = Routes.TODAY) {
                 composable(Routes.TODAY) {
@@ -141,10 +147,23 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                     )
                 }
                 composable(Routes.COURSE) {
-                    CourseMapScreen(onOpenUnit = { nav.navigate(Routes.unit(it)) })
+                    CourseMapScreen(
+                        onOpenLevel = { nav.navigate(Routes.level(it)) },
+                        onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                    )
+                }
+                composable(Routes.LEVEL) { entry ->
+                    LevelScreen(
+                        levelId = entry.arguments?.getString("levelId").orEmpty(),
+                        onBack = { nav.popBackStack() },
+                        onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                    )
                 }
                 composable(Routes.GRAMMAR) {
-                    GrammarScreen(onOpenTopic = { nav.navigate(Routes.grammarTopic(it)) })
+                    GrammarScreen(
+                        onOpenTopic = { nav.navigate(Routes.grammarTopic(it)) },
+                        onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                    )
                 }
                 composable(Routes.GRAMMAR_TOPIC) { entry ->
                     GrammarTopicScreen(

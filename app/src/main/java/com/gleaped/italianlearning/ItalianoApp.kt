@@ -22,7 +22,7 @@ class AppContainer(context: Context) {
     val appScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
     val database: AppDatabase by lazy { AppDatabase.build(appContext) }
     val settings: SettingsRepository by lazy { SettingsRepository(appContext) }
-    val content: ContentRepository by lazy { ContentRepository(appContext) }
+    val content: ContentRepository by lazy { ContentRepository(appContext, settings) }
     val reference: ReferenceRepository by lazy { ReferenceRepository(appContext) }
     val dictionary: DictionaryRepository by lazy { DictionaryRepository(appContext) }
     val learning: LearningRepository by lazy { LearningRepository(database) }

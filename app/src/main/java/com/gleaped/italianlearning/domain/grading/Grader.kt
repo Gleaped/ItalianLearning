@@ -174,4 +174,52 @@ object Grader {
             else -> Verdict.WRONG
         }
     }
+
+    // ---- Congiuntivo-track types ----
+
+    /**
+     * choose_mood: the mood pick decides first; a wrong mood is wrong whatever the form.
+     * With [forms] given, the typed form is graded like a conjugation answer.
+     */
+    fun gradeChooseMood(pickedMood: Int, answerMood: Int, typedForm: String?, forms: List<String>): GradeResult {
+        if (pickedMood != answerMood) return GradeResult(Verdict.WRONG, forms.firstOrNull().orEmpty())
+        if (forms.isEmpty() || typedForm == null) return GradeResult(Verdict.CORRECT, "")
+        val results = forms.map { gradeConjugation(typedForm, it) }
+        return results.minByOrNull { it.verdict.ordinal } ?: GradeResult(Verdict.WRONG, forms.first())
+    }
+
+    /** Splits a sentence into tappable tokens (whitespace-separated, punctuation kept). */
+    fun triggerTokens(sentence: String): List<String> = sentence.trim().split(Regex("\\s+")).filter { it.isNotEmpty() }
+
+    private fun cleanToken(token: String): String =
+        token.trim { !it.isLetterOrDigit() && it != '\'' && it != '’' }.lowercase()
+
+    /** Token indexes that make up [trigger] in [sentence] (first whole-word match), or empty. */
+    fun triggerSpan(sentence: String, trigger: String): IntRange? {
+        val tokens = triggerTokens(sentence).map(::cleanToken)
+        val want = triggerTokens(trigger).map(::cleanToken).filter { it.isNotEmpty() }
+        if (want.isEmpty() || want.size > tokens.size) return null
+        for (i in 0..tokens.size - want.size) {
+            if (tokens.subList(i, i + want.size) == want) return i until i + want.size
+        }
+        return null
+    }
+
+    /** find_trigger: tapping any token of the trigger counts. */
+    fun gradeFindTrigger(tappedIndex: Int, sentence: String, trigger: String): GradeResult {
+        val span = triggerSpan(sentence, trigger)
+        val ok = span != null && tappedIndex in span
+        return GradeResult(if (ok) Verdict.CORRECT else Verdict.WRONG, trigger)
+    }
+
+    /** sort_buckets: per-item verdicts combined; [picks] holds a bucket index (or -1) per item. */
+    fun gradeSortBuckets(picks: List<Int>, answers: List<Int>): Pair<Verdict, List<Boolean>> {
+        val correct = answers.mapIndexed { i, a -> picks.getOrNull(i) == a }
+        val verdict = when (correct.count { !it }) {
+            0 -> Verdict.CORRECT
+            1 -> if (answers.size >= 4) Verdict.ALMOST else Verdict.WRONG
+            else -> Verdict.WRONG
+        }
+        return verdict to correct
+    }
 }

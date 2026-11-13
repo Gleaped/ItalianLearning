@@ -108,3 +108,73 @@ only a flashcard.
 
 Level `CELI3` holds exam-preparation units aligned to the CELI 3 (B2) exam of the Università per Stranieri
 di Perugia. They use the same exercise types; timed mock sections set `minutes` to the real section length.
+
+## Format 2: the short-lesson anatomy
+
+Units written to the new anatomy set `"format": 2`. The app reads format 1 and 2 the same way; the content
+validator (`tools/validate_content.py`, run in CI) enforces the stricter rules below only for format 2.
+
+### Unit fields (in addition to the ones above)
+
+| field | meaning |
+|---|---|
+| `format` | `2` for units written to this anatomy |
+| `module` | id of a module in `course.json` (`modules`), used to group units inside a level |
+| `track` | optional track id, e.g. `"congiuntivo"`; track units are also listed in the Grammatica hub |
+
+### Lesson fields (in addition to `id`, `title`, `minutes`, `exercises`)
+
+| field | meaning |
+|---|---|
+| `goal` | one line, shown on the lesson's intro screen: what you will be able to say or do |
+| `takeaway` | the lesson's rule in one line, shown on the wrap-up screen |
+
+### Exercise field: `stage`
+
+Every exercise may carry `"stage"`: `warmup`, `learn`, `practise` or `use`. The player shows it as a small label.
+
+### Lesson anatomy (format 2)
+
+| stage | count | content |
+|---|---|---|
+| `warmup` | 1 | one quick item from an earlier unit |
+| `learn` | 1–2 | `grammar_note` rule cards |
+| `practise` | 3–5 | recognise first (multiple choice, `choose_mood`, `find_trigger`, `sort_buckets`, `minimal_pair`), then produce (`gap_fill`, `transform`, `conjugation`) |
+| `use` | 1 | `speak_respond`, `roleplay`, `free_write` or `reading` about real life |
+
+Rules enforced for format 2:
+
+- at most 10 exercises per lesson, `minutes` between 5 and 10;
+- a `grammar_note` body has at most 60 words outside its table rows;
+- every scored exercise has an `explanation`: one plain sentence that names the rule;
+- every lesson has `goal` and `takeaway`.
+
+### Rule-card markup (`grammar_note.body`, also allowed in `tip`)
+
+On top of paragraphs, `**bold**`, `*italic*` and `- ` bullets:
+
+- **Tables**: consecutive lines that start with `|`. The first row is the header; a `|---|---|` separator line is optional.
+  ```
+  | persona | parlare | prendere |
+  |---|---|---|
+  | io | parl==i== | prend==a== |
+  ```
+- **Highlight**: `==text==` marks an ending or trigger in the accent colour.
+- **Callout**: a paragraph whose lines start with `> ` is shown as a tinted "watch out" box.
+
+### New exercise types
+
+| type | fields | what the learner does |
+|---|---|---|
+| `choose_mood` | `sentence` with `___`, `verb` (infinitive, shown as a hint), `options` (default `["indicativo","congiuntivo"]`), `answer`: index, `forms?`: [accepted strings], `trigger?` | Picks the mood; if `forms` is given, then types the verb form |
+| `find_trigger` | `sentence`, `trigger` (exact words in the sentence, e.g. `"prima che"`) | Taps the word that triggers the mood |
+| `transform` | `source` (sentence to change), `cue` (the change, e.g. `"Dubito che…"` or `"→ passato"`), `answers`, `hint?` | Rewrites the sentence |
+| `sort_buckets` | `buckets`: [2–3 labels], `items`: [{`text`, `bucket`: index}] | Puts each item into the right group |
+| `minimal_pair` | `sentences`: [2–3 near-identical sentences], `question`, `answer`: index, `translations?`: [same length] | Picks the sentence that matches the question |
+
+`choose_mood`, `transform` and `find_trigger` may also be used as grammar-tip challenges.
+
+## Personal name
+
+Write `{name}` wherever a dialogue or text addresses or introduces the learner. The app replaces it with the name
+the learner chose on first run (Settings → Your name).

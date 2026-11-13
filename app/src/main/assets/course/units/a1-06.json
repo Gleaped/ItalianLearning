@@ -1,0 +1,1024 @@
+{
+  "id": "a1-06",
+  "level": "A1",
+  "title": "Dov'è la stazione?",
+  "format": 2,
+  "module": "a1-m2",
+  "objective": "By the end you can say what there is in town, say where things are and ask for and follow simple directions.",
+  "grammarFocus": "c'è / ci sono; a, in, di; a + article; place words; simple directions.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-06-l1",
+      "title": "C'è e ci sono",
+      "minutes": 7,
+      "goal": "You can say what there is in town and ask if something is nearby.",
+      "takeaway": "C'è + one thing; ci sono + more than one thing; non c'è for none.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-06-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il plurale.",
+          "prompt": "What is the plural of la farmacia?",
+          "options": [
+            "le farmacie",
+            "le farmaci",
+            "la farmacie",
+            "i farmacie"
+          ],
+          "answer": 0,
+          "explanation": "Feminine nouns in -a make the plural in -e: le farmacie."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l1-e02",
+          "stage": "learn",
+          "title": "C'è / ci sono",
+          "body": "Use **c'è** for one thing and **ci sono** for several.\n\n| italiano | significato |\n|---|---|\n| ==C'è== un bar. | There is a bar. |\n| ==Ci sono== due banche. | There are two banks. |\n| ==Non c'è== la farmacia. | There is no pharmacy. |\n\n> A question is the same words with a rising voice: **C'è** un bar qui vicino?",
+          "examples": [
+            {
+              "it": "C'è un bar qui vicino?",
+              "en": "Is there a café nearby?"
+            },
+            {
+              "it": "Ci sono tre negozi.",
+              "en": "There are three shops."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l1-e03",
+          "stage": "learn",
+          "title": "In città",
+          "body": "Places you will need.\n\n| il luogo | in English |\n|---|---|\n| la stazione | station |\n| la farmacia | pharmacy |\n| la banca | bank |\n| il supermercato | supermarket |\n| l'ufficio postale | post office |\n| la piazza | square |\n\n**Qui vicino** means *nearby*.",
+          "examples": [
+            {
+              "it": "C'è una banca in piazza.",
+              "en": "There is a bank in the square."
+            },
+            {
+              "it": "Non c'è un supermercato qui vicino.",
+              "en": "There is no supermarket nearby."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-06-l1-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "In questa strada ci sono due bar e una farmacia.",
+          "question": "What is there in the street?",
+          "options": [
+            "one bar and two pharmacies",
+            "two bars and a pharmacy",
+            "two bars and a bank",
+            "a bar and a pharmacy"
+          ],
+          "answer": 1,
+          "explanation": "Ci sono introduces the list: due bar (two bars) e una farmacia (and a pharmacy)."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-06-l1-e05",
+          "stage": "practise",
+          "instruction": "Scegli: c'è o ci sono?",
+          "buckets": [
+            "C'è",
+            "Ci sono"
+          ],
+          "items": [
+            {
+              "text": "una farmacia",
+              "bucket": 0
+            },
+            {
+              "text": "due banche",
+              "bucket": 1
+            },
+            {
+              "text": "un bar",
+              "bucket": 0
+            },
+            {
+              "text": "quattro negozi",
+              "bucket": 1
+            },
+            {
+              "text": "la stazione",
+              "bucket": 0
+            },
+            {
+              "text": "tre fermate",
+              "bucket": 1
+            }
+          ],
+          "explanation": "C'è goes with one thing; ci sono with a plural or a number above one."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l1-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "___ una banca qui vicino?",
+          "answers": [
+            "C'è"
+          ],
+          "explanation": "Una banca is singular, so c'è."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l1-e07",
+          "stage": "practise",
+          "instruction": "Scrivi le parole che mancano.",
+          "sentence": "___ tre ristoranti in piazza.",
+          "answers": [
+            "Ci sono"
+          ],
+          "explanation": "Tre ristoranti is plural, so ci sono."
+        },
+        {
+          "type": "translate",
+          "id": "a1-06-l1-e08",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "There is no pharmacy.",
+          "answers": [
+            "Non c'è una farmacia.",
+            "Non c'è la farmacia.",
+            "Non c'è nessuna farmacia.",
+            "Non c'è farmacia."
+          ],
+          "explanation": "Put non before c'è to say something is not there."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-06-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Descrivi la tua strada. Dì una frase con «c'è» e una con «ci sono».",
+          "keywords": [
+            "c'è",
+            "ci sono"
+          ],
+          "modelAnswer": "In questa strada c'è un bar e ci sono due negozi."
+        }
+      ]
+    },
+    {
+      "id": "a1-06-l2",
+      "title": "A, in o di?",
+      "minutes": 7,
+      "goal": "You can say where you live, work or come from with a, in and di.",
+      "takeaway": "a + city; in + country or many places; di = of / from a place.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-06-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "Sono ___ Napoli.",
+          "options": [
+            "di",
+            "a",
+            "in",
+            "da"
+          ],
+          "answer": 0,
+          "explanation": "Sono di + city says where you are from."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l2-e02",
+          "stage": "learn",
+          "title": "A o in?",
+          "body": "Two small words for places.\n\n| usa | esempio |\n|---|---|\n| ==a== + city | Abito ==a== Milano. |\n| ==a== + casa, scuola | Sono ==a== casa. |\n| ==in== + country | Abito ==in== Italia. |\n| ==in== + banca, farmacia, centro | Lavoro ==in== banca. |\n\n> No article after these: in banca, a casa.",
+          "examples": [
+            {
+              "it": "Studio a Torino.",
+              "en": "I study in Turin."
+            },
+            {
+              "it": "Lavoro in farmacia.",
+              "en": "I work in a pharmacy."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l2-e03",
+          "stage": "learn",
+          "title": "Di",
+          "body": "**Di** means *of* or *from*.\n\n| esempio | significato |\n|---|---|\n| Sono ==di== Torino. | I am from Turin. |\n| La casa ==di== Anna. | Anna's house. |\n| Il bar ==di== Marco. | Marco's café. |\n\nItalian has no 's: say *the house of Anna*.",
+          "examples": [
+            {
+              "it": "Il telefono di Luca è sul tavolo.",
+              "en": "Luca's phone is on the table."
+            },
+            {
+              "it": "Siamo di Firenze.",
+              "en": "We are from Florence."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-06-l2-e04",
+          "stage": "practise",
+          "instruction": "Scegli la parola giusta.",
+          "prompt": "Abito ___ Francia.",
+          "options": [
+            "a",
+            "in",
+            "di",
+            "da"
+          ],
+          "answer": 1,
+          "explanation": "Countries take in: in Francia."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-06-l2-e05",
+          "stage": "practise",
+          "instruction": "Scegli: a o in?",
+          "buckets": [
+            "a",
+            "in"
+          ],
+          "items": [
+            {
+              "text": "Roma",
+              "bucket": 0
+            },
+            {
+              "text": "Italia",
+              "bucket": 1
+            },
+            {
+              "text": "casa",
+              "bucket": 0
+            },
+            {
+              "text": "banca",
+              "bucket": 1
+            },
+            {
+              "text": "Torino",
+              "bucket": 0
+            },
+            {
+              "text": "Spagna",
+              "bucket": 1
+            },
+            {
+              "text": "scuola",
+              "bucket": 0
+            },
+            {
+              "text": "farmacia",
+              "bucket": 1
+            }
+          ],
+          "explanation": "A goes with cities and casa/scuola; in goes with countries and many places like banca."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l2-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Lavoro ___ banca.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Banca is one of the places that take in."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l2-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Abito ___ Firenze.",
+          "answers": [
+            "a"
+          ],
+          "explanation": "Cities take a: a Firenze."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-06-l2-e08",
+          "stage": "practise",
+          "instruction": "Trova l'errore e scrivi la frase giusta.",
+          "sentence": "Studio in Roma.",
+          "answers": [
+            "Studio a Roma.",
+            "Studio a Roma"
+          ],
+          "explanation": "Cities take a, not in."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-06-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in due frasi.",
+          "prompt": "Dove abiti? Dove lavori o studi?",
+          "keywords": [
+            "abito",
+            "lavoro",
+            "studio"
+          ],
+          "modelAnswer": "Abito a Roma. Lavoro in un ufficio."
+        }
+      ]
+    },
+    {
+      "id": "a1-06-l3",
+      "title": "Al, alla, all', ai",
+      "minutes": 7,
+      "goal": "You can say you are at the bar, the station or the post office.",
+      "takeaway": "a + il = al; a + la = alla; a + l' = all'; a + i = ai; a + le = alle.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-06-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "Lavoro ___ Spagna.",
+          "options": [
+            "a",
+            "in",
+            "di",
+            "al"
+          ],
+          "answer": 1,
+          "explanation": "Countries take in: in Spagna."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l3-e02",
+          "stage": "learn",
+          "title": "A + articolo",
+          "body": "**A** joins the article: two words become one.\n\n| a + | diventa | esempio |\n|---|---|---|\n| il | ==al== | al bar |\n| lo | ==allo== | allo stadio |\n| l' | ==all'== | all'ufficio |\n| la | ==alla== | alla stazione |\n| i | ==ai== | ai giardini |\n| le | ==alle== | alle poste |\n\n> You cannot say *a il bar*. It is always **al** bar.",
+          "examples": [
+            {
+              "it": "Sono al supermercato.",
+              "en": "I am at the supermarket."
+            },
+            {
+              "it": "Aspetto alla fermata.",
+              "en": "I am waiting at the stop."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-06-l3-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Sono all'ufficio postale.",
+          "question": "Where is the speaker?",
+          "options": [
+            "at the bank",
+            "at the post office",
+            "at the station",
+            "at the bar"
+          ],
+          "answer": 1,
+          "explanation": "All'ufficio postale means at the post office."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-06-l3-e04",
+          "stage": "practise",
+          "instruction": "Scegli: al, alla o all'?",
+          "buckets": [
+            "al",
+            "alla",
+            "all'"
+          ],
+          "items": [
+            {
+              "text": "bar",
+              "bucket": 0
+            },
+            {
+              "text": "stazione",
+              "bucket": 1
+            },
+            {
+              "text": "ufficio",
+              "bucket": 2
+            },
+            {
+              "text": "supermercato",
+              "bucket": 0
+            },
+            {
+              "text": "farmacia",
+              "bucket": 1
+            },
+            {
+              "text": "ospedale",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Use al with il words, alla with la words and all' before a vowel."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l3-e05",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Aspetto ___ fermata.",
+          "answers": [
+            "alla"
+          ],
+          "explanation": "Fermata is feminine (la fermata), so a + la = alla."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l3-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Siamo ___ giardini.",
+          "answers": [
+            "ai"
+          ],
+          "explanation": "I giardini is plural masculine, so a + i = ai."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-06-l3-e07",
+          "stage": "practise",
+          "instruction": "Trova l'errore e scrivi la frase giusta.",
+          "sentence": "Sono a il supermercato.",
+          "answers": [
+            "Sono al supermercato.",
+            "Sono al supermercato"
+          ],
+          "explanation": "A + il joins into al."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-06-l3-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Sei in centro. Dì dove sei: al bar, alla stazione, all'ufficio postale.",
+          "keywords": [
+            "sono",
+            "al",
+            "alla",
+            "all'"
+          ],
+          "modelAnswer": "Sono al bar. Poi sono alla stazione."
+        }
+      ]
+    },
+    {
+      "id": "a1-06-l4",
+      "title": "Dov'è…? Vicino a…",
+      "minutes": 7,
+      "goal": "You can ask where a place is and say where it is.",
+      "takeaway": "Dov'è + one place, dove sono + more than one; vicino a, accanto a, di fronte a + article.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-06-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "___ due bar in via Roma.",
+          "options": [
+            "Ci sono",
+            "C'è",
+            "Ce sono",
+            "Ci è"
+          ],
+          "answer": 0,
+          "explanation": "Due bar is plural, so ci sono."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l4-e02",
+          "stage": "learn",
+          "title": "Dov'è?",
+          "body": "Ask for a place with **dov'è** (one) or **dove sono** (several).\n\n| domanda | significato |\n|---|---|\n| ==Dov'è== la stazione? | Where is the station? |\n| ==Dove sono== i bagni? | Where are the toilets? |\n| ==Scusi==, dov'è la fermata? | Excuse me, where is the stop? |\n\n> Say **Scusi** to get a stranger's attention.",
+          "examples": [
+            {
+              "it": "Dov'è la farmacia?",
+              "en": "Where is the pharmacy?"
+            },
+            {
+              "it": "Dove sono i bagni?",
+              "en": "Where are the toilets?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l4-e03",
+          "stage": "learn",
+          "title": "Dove si trova?",
+          "body": "Words for position.\n\n| espressione | significato |\n|---|---|\n| vicino a | near |\n| lontano da | far from |\n| accanto a | next to |\n| di fronte a | opposite |\n| davanti a | in front of |\n| dietro | behind |\n\n> Add the article: vicino ==alla== stazione, di fronte ==al== bar.",
+          "examples": [
+            {
+              "it": "Il bar è di fronte al supermercato.",
+              "en": "The café is opposite the supermarket."
+            },
+            {
+              "it": "La banca è vicino alla piazza.",
+              "en": "The bank is near the square."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-06-l4-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "La farmacia è accanto alla banca.",
+          "question": "Where is the pharmacy?",
+          "options": [
+            "opposite the bank",
+            "behind the bank",
+            "next to the bank",
+            "far from the bank"
+          ],
+          "answer": 2,
+          "explanation": "Accanto a means next to."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-06-l4-e05",
+          "stage": "practise",
+          "instruction": "Abbina le coppie.",
+          "pairs": [
+            {
+              "left": "vicino a",
+              "right": "near"
+            },
+            {
+              "left": "lontano da",
+              "right": "far from"
+            },
+            {
+              "left": "accanto a",
+              "right": "next to"
+            },
+            {
+              "left": "di fronte a",
+              "right": "opposite"
+            },
+            {
+              "left": "dietro",
+              "right": "behind"
+            },
+            {
+              "left": "davanti a",
+              "right": "in front of"
+            }
+          ],
+          "explanation": "These words say where something is."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l4-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Dov'___ la farmacia?",
+          "answers": [
+            "è"
+          ],
+          "explanation": "Dov'è = dove + è: where is."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l4-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Il bar è di fronte ___ stazione.",
+          "answers": [
+            "alla"
+          ],
+          "explanation": "A + la = alla: di fronte alla stazione."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-06-l4-e08",
+          "stage": "practise",
+          "instruction": "Metti in ordine le parole.",
+          "translation": "The bank is next to the café.",
+          "tiles": [
+            "La",
+            "banca",
+            "è",
+            "accanto",
+            "al",
+            "bar"
+          ],
+          "distractors": [
+            "alla",
+            "in"
+          ],
+          "explanation": "Accanto a + il = accanto al."
+        },
+        {
+          "type": "reading",
+          "id": "a1-06-l4-e09",
+          "stage": "use",
+          "instruction": "Leggi e rispondi.",
+          "title": "Vicino alla stazione",
+          "passage": "La stazione è vicino al centro. Davanti alla stazione c'è un bar. Accanto al bar c'è una farmacia. Dietro la stazione ci sono due parcheggi.",
+          "questions": [
+            {
+              "question": "Where is the pharmacy?",
+              "options": [
+                "in front of the station",
+                "next to the bar",
+                "behind the station",
+                "far from the bar"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How many car parks are there?",
+              "options": [
+                "one",
+                "two",
+                "three",
+                "none"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-06-l5",
+      "title": "Per andare alla stazione?",
+      "minutes": 8,
+      "goal": "You can ask the way and follow simple directions.",
+      "takeaway": "Vai dritto, gira a destra / a sinistra; a stranger says vada, giri.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-06-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Il bar è di fronte ___ stazione.",
+          "options": [
+            "alla",
+            "a",
+            "il",
+            "al"
+          ],
+          "answer": 0,
+          "explanation": "A + la = alla."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l5-e02",
+          "stage": "learn",
+          "title": "Le indicazioni",
+          "body": "Friends hear the **tu** form. A stranger gets the polite **Lei** form.\n\n| tu | Lei |\n|---|---|\n| ==Vai== dritto. | ==Vada== dritto. |\n| ==Gira== a destra. | ==Giri== a destra. |\n| ==Prendi== la seconda strada. | ==Prenda== la seconda strada. |\n| ==Attraversa== la piazza. | ==Attraversi== la piazza. |\n\n> Learn to understand the Lei form: strangers use it.",
+          "examples": [
+            {
+              "it": "Vada dritto, poi giri a destra.",
+              "en": "Go straight, then turn right."
+            },
+            {
+              "it": "Per andare alla stazione?",
+              "en": "How do I get to the station?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-06-l5-e03",
+          "stage": "learn",
+          "title": "Parole utili",
+          "body": "Words on the way.\n\n| italiano | significato |\n|---|---|\n| dritto | straight on |\n| a destra / a sinistra | right / left |\n| poi | then |\n| il semaforo | traffic light |\n| l'incrocio | crossroads |\n| in fondo alla strada | at the end of the street |\n| a due minuti a piedi | two minutes on foot |",
+          "examples": [
+            {
+              "it": "La stazione è in fondo alla strada.",
+              "en": "The station is at the end of the street."
+            },
+            {
+              "it": "È a cinque minuti a piedi.",
+              "en": "It is five minutes on foot."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-06-l5-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Vada dritto fino al semaforo, poi giri a sinistra.",
+          "question": "What do you do at the traffic light?",
+          "options": [
+            "turn left",
+            "turn right",
+            "go straight",
+            "stop"
+          ],
+          "answer": 0,
+          "explanation": "Giri a sinistra means turn left."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-06-l5-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Gira a destra al semaforo.",
+            "Gira a sinistra al semaforo."
+          ],
+          "question": "Which sentence says turn left?",
+          "answer": 1,
+          "translations": [
+            "Turn right at the traffic light.",
+            "Turn left at the traffic light."
+          ],
+          "explanation": "Sinistra is left; destra is right."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-06-l5-e06",
+          "stage": "practise",
+          "instruction": "Metti in ordine le parole.",
+          "translation": "Go straight, then turn right.",
+          "tiles": [
+            "Vai",
+            "dritto",
+            "poi",
+            "gira",
+            "a",
+            "destra"
+          ],
+          "distractors": [
+            "sinistra",
+            "al"
+          ],
+          "explanation": "Vai dritto, poi gira a destra."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-06-l5-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Gira a ___ al semaforo. (left)",
+          "answers": [
+            "sinistra"
+          ],
+          "explanation": "A sinistra means to the left.",
+          "hint": "left"
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-06-l5-e08",
+          "stage": "practise",
+          "instruction": "Abbina la forma tu e la forma Lei.",
+          "pairs": [
+            {
+              "left": "Gira",
+              "right": "Giri"
+            },
+            {
+              "left": "Vai",
+              "right": "Vada"
+            },
+            {
+              "left": "Prendi",
+              "right": "Prenda"
+            },
+            {
+              "left": "Attraversa",
+              "right": "Attraversi"
+            }
+          ],
+          "explanation": "Each tu form matches its polite Lei form."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-06-l5-e09",
+          "stage": "use",
+          "instruction": "Sei in centro. Chiedi la strada.",
+          "scenario": "Ask a passer-by how to get to the station.",
+          "turns": [
+            {
+              "speaker": "you",
+              "text": "Scusi, per andare alla stazione?",
+              "keywords": [
+                "scusi",
+                "stazione"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Vada dritto fino al semaforo, poi giri a destra. La stazione è in fondo alla strada."
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie mille! È lontano?",
+              "keywords": [
+                "lontano"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "No, è a due minuti a piedi."
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie, buona giornata!",
+              "keywords": [
+                "grazie"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la stazione",
+      "en": "station",
+      "example": "Dov'è la stazione?"
+    },
+    {
+      "it": "la farmacia",
+      "en": "pharmacy",
+      "example": "C'è una farmacia qui vicino?"
+    },
+    {
+      "it": "la banca",
+      "en": "bank",
+      "example": "La banca è chiusa."
+    },
+    {
+      "it": "il supermercato",
+      "en": "supermarket",
+      "example": "Sono al supermercato."
+    },
+    {
+      "it": "l'ufficio postale",
+      "en": "post office",
+      "example": "L'ufficio postale è in piazza."
+    },
+    {
+      "it": "la fermata",
+      "en": "stop (bus)",
+      "example": "Aspetto alla fermata."
+    },
+    {
+      "it": "la piazza",
+      "en": "square",
+      "example": "Il bar è in piazza."
+    },
+    {
+      "it": "qui vicino",
+      "en": "nearby",
+      "example": "C'è un bar qui vicino?"
+    },
+    {
+      "it": "vicino a",
+      "en": "near",
+      "example": "Abito vicino alla stazione."
+    },
+    {
+      "it": "lontano da",
+      "en": "far from",
+      "example": "Il parcheggio è lontano dal centro."
+    },
+    {
+      "it": "accanto a",
+      "en": "next to",
+      "example": "La farmacia è accanto al bar."
+    },
+    {
+      "it": "di fronte a",
+      "en": "opposite",
+      "example": "La banca è di fronte alla posta."
+    },
+    {
+      "it": "dritto",
+      "en": "straight on",
+      "example": "Vai dritto."
+    },
+    {
+      "it": "a destra",
+      "en": "on the right",
+      "example": "Gira a destra."
+    },
+    {
+      "it": "a sinistra",
+      "en": "on the left",
+      "example": "Gira a sinistra."
+    },
+    {
+      "it": "il semaforo",
+      "en": "traffic light",
+      "example": "Gira al semaforo."
+    },
+    {
+      "it": "l'incrocio",
+      "en": "crossroads",
+      "example": "All'incrocio vai a destra."
+    },
+    {
+      "it": "Scusi,",
+      "en": "Excuse me,",
+      "example": "Scusi, dov'è la fermata?"
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-06-t1",
+      "rule": "C'è / ci sono",
+      "tip": "C'è goes with one thing, ci sono with several: c'è un bar, ci sono due bar.",
+      "example": {
+        "it": "Ci sono due farmacie.",
+        "en": "There are two pharmacies."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "___ tre bar qui.",
+        "options": [
+          "C'è",
+          "Ci sono"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "a1-06-t2",
+      "rule": "A o in?",
+      "tip": "A goes with cities, in with countries: abito a Roma, abito in Italia.",
+      "example": {
+        "it": "Abito a Parma, in Italia.",
+        "en": "I live in Parma, in Italy."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Abito ___ Spagna.",
+        "answers": [
+          "in"
+        ]
+      }
+    },
+    {
+      "id": "a1-06-t3",
+      "rule": "Al, alla, all'",
+      "tip": "A joins the article: al bar, alla stazione, all'ufficio, ai giardini.",
+      "example": {
+        "it": "Sono alla stazione.",
+        "en": "I am at the station."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Sono ___ bar.",
+        "answers": [
+          "al"
+        ]
+      }
+    },
+    {
+      "id": "a1-06-t4",
+      "rule": "Dov'è / dove sono",
+      "tip": "Dov'è asks about one place, dove sono about several.",
+      "example": {
+        "it": "Dove sono i bagni?",
+        "en": "Where are the toilets?"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Dov'___ la stazione?",
+        "answers": [
+          "è"
+        ]
+      }
+    },
+    {
+      "id": "a1-06-t5",
+      "rule": "Gira a sinistra",
+      "tip": "Gira a destra / a sinistra with friends; a stranger will say giri.",
+      "example": {
+        "it": "Gira a sinistra al semaforo.",
+        "en": "Turn left at the traffic light."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "Turn right.",
+        "answers": [
+          "Gira a destra.",
+          "Gira a destra"
+        ]
+      }
+    }
+  ]
+}

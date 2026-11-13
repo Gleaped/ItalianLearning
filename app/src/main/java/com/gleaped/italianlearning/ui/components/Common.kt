@@ -1,5 +1,6 @@
 package com.gleaped.italianlearning.ui.components
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -10,11 +11,14 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.AnnotatedString
@@ -27,6 +31,9 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import com.gleaped.italianlearning.AppContainer
 import com.gleaped.italianlearning.R
+import com.gleaped.italianlearning.content.RuleBlock
+import com.gleaped.italianlearning.content.RuleMarkup
+import com.gleaped.italianlearning.ui.theme.HighlightColors
 
 val LocalAppContainer = staticCompositionLocalOf<AppContainer> { error("AppContainer not provided") }
 
@@ -59,11 +66,21 @@ fun ItalianText(
     }
 }
 
-/** Inline **bold** and *italic* markup. */
-fun inlineMarkup(text: String): AnnotatedString = buildAnnotatedString {
+/** Inline **bold**, *italic* and ==highlight== markup; highlights use [highlight] in bold. */
+fun inlineMarkup(text: String, highlight: Color = Color.Unspecified): AnnotatedString = buildAnnotatedString {
     var i = 0
     while (i < text.length) {
         when {
+            text.startsWith("==", i) -> {
+                val end = text.indexOf("==", i + 2)
+                if (end > i + 2) {
+                    withStyle(SpanStyle(fontWeight = FontWeight.Bold, color = highlight)) { append(text.substring(i + 2, end)) }
+                    i = end + 2
+                } else {
+                    append("==")
+                    i += 2
+                }
+            }
             text.startsWith("**", i) -> {
                 val end = text.indexOf("**", i + 2)
                 if (end > i + 2) {
@@ -92,24 +109,44 @@ fun inlineMarkup(text: String): AnnotatedString = buildAnnotatedString {
     }
 }
 
-/** Markdown-lite: paragraphs separated by blank lines, `- ` bullets, inline bold/italic. */
+/** The accent colour for ==highlighted== text in the current theme. */
+@Composable
+fun highlightColor(): Color = if (isDarkSurface()) HighlightColors.dark else HighlightColors.light
+
+/**
+ * Rule-card markup (see [RuleMarkup]): paragraphs, bullets, pipe tables and "watch out" callouts,
+ * with inline bold, italic and ==highlight==. Words can be long-pressed to look them up.
+ */
 @Composable
 fun RichText(body: String, modifier: Modifier = Modifier) {
-    val paragraphs = body.replace("\r\n", "\n").split(Regex("\n\\s*\n")).map { it.trim() }.filter { it.isNotEmpty() }
-    Column(modifier = modifier) {
-        paragraphs.forEach { paragraph ->
-            val lines = paragraph.lines()
-            Column(modifier = Modifier.padding(bottom = 10.dp)) {
-                lines.forEach { raw ->
-                    val line = raw.trim()
-                    if (line.startsWith("- ") || line.startsWith("• ")) {
-                        Row(modifier = Modifier.padding(start = 8.dp, bottom = 4.dp)) {
-                            Text("•", style = MaterialTheme.typography.bodyLarge)
-                            Spacer(Modifier.width(8.dp))
-                            LookupText(inlineMarkup(line.drop(2)), style = MaterialTheme.typography.bodyLarge)
+    val blocks = remember(body) { RuleMarkup.parse(body) }
+    val accent = highlightColor()
+    val style = MaterialTheme.typography.bodyLarge
+    Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        blocks.forEach { block ->
+            when (block) {
+                is RuleBlock.Paragraph -> Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    block.lines.forEach { LookupText(inlineMarkup(it, accent), style = style) }
+                }
+                is RuleBlock.Bullets -> Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    block.items.forEach { item ->
+                        Row(modifier = Modifier.padding(start = 4.dp)) {
+                            Text("•", style = style, color = MaterialTheme.colorScheme.primary)
+                            Spacer(Modifier.width(10.dp))
+                            LookupText(inlineMarkup(item, accent), style = style)
                         }
-                    } else if (line.isNotEmpty()) {
-                        LookupText(inlineMarkup(line), style = MaterialTheme.typography.bodyLarge)
+                    }
+                }
+                is RuleBlock.Table -> ChartTableView(block.table, showTitle = false)
+                is RuleBlock.Callout -> Surface(
+                    color = MaterialTheme.colorScheme.secondaryContainer,
+                    contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
+                    shape = MaterialTheme.shapes.medium,
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Row(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
+                        Text("!", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(end = 12.dp))
+                        LookupText(inlineMarkup(block.text, MaterialTheme.colorScheme.onSecondaryContainer), style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }

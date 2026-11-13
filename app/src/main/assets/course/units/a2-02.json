@@ -1,0 +1,798 @@
+{
+  "id": "a2-02",
+  "level": "A2",
+  "title": "Mi piacerebbe…",
+  "format": 2,
+  "module": "a2-m3",
+  "objective": "By the end you can say what you liked or used to like, ask politely with vorrei, and say what you would like to do.",
+  "grammarFocus": "Piacere in the passato prossimo and imperfetto; vorrei and mi piacerebbe.",
+  "remedialUnitIds": [
+    "a2r-02"
+  ],
+  "lessons": [
+    {
+      "id": "a2-02-l1",
+      "title": "Mi è piaciuto!",
+      "minutes": 7,
+      "goal": "You can say what you liked, or did not like, about a film, a meal or a trip.",
+      "takeaway": "Piacere in the passato prossimo uses essere and agrees with the thing liked: mi è piaciuto / piaciuta, mi sono piaciuti / piaciute.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-02-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Mi ___ i gatti.",
+          "options": [
+            "piacciono",
+            "piace",
+            "piaci",
+            "piacete"
+          ],
+          "answer": 0,
+          "explanation": "Piacere agrees with the thing liked: gatti is plural, so piacciono."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-02-l1-e02",
+          "stage": "learn",
+          "title": "Mi è piaciuto / piaciuta",
+          "body": "In the passato prossimo **piacere** takes ==essere==. The participle agrees with the thing you liked, not with you.\n\n| cosa | passato prossimo |\n|---|---|\n| il film | mi è piaciut==o== |\n| la cena | mi è piaciut==a== |\n| i regali | mi sono piaciut==i== |\n| le scarpe | mi sono piaciut==e== |\n\n> Never *ho piaciuto*.",
+          "examples": [
+            {
+              "it": "La cena mi è piaciuta molto.",
+              "en": "I liked the dinner a lot."
+            },
+            {
+              "it": "Non mi sono piaciuti i regali.",
+              "en": "I didn't like the gifts."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-02-l1-e03",
+          "stage": "learn",
+          "title": "A chi è piaciuto?",
+          "body": "Change the small pronoun to say **who** liked it.\n\n| a chi | pronome | esempio |\n|---|---|---|\n| a me | ==mi== | Mi è piaciuto. |\n| a te | ==ti== | Ti è piaciuta la festa? |\n| a lui / a loro | ==gli== | Gli è piaciuto il concerto. |\n| a lei | ==le== | Le sono piaciuti i fiori. |\n| a noi / a voi | ==ci== / ==vi== | Ci è piaciuto. |",
+          "examples": [
+            {
+              "it": "Ti è piaciuta la festa?",
+              "en": "Did you like the party?"
+            },
+            {
+              "it": "A Marco è piaciuto il concerto.",
+              "en": "Marco liked the concert."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-02-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "La cena mi ___ molto.",
+          "options": [
+            "è piaciuta",
+            "è piaciuto",
+            "sono piaciute",
+            "ha piaciuto"
+          ],
+          "answer": 0,
+          "explanation": "Cena is feminine singular: è piaciuta."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-02-l1-e05",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Ti ___ (piacere) la festa di sabato?",
+          "answers": [
+            "è piaciuta"
+          ],
+          "explanation": "Festa is feminine singular, so è piaciuta.",
+          "hint": "passato prossimo"
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-02-l1-e06",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Ai bambini ___ (piacere) i regali.",
+          "answers": [
+            "sono piaciuti"
+          ],
+          "explanation": "I regali is masculine plural: sono piaciuti.",
+          "hint": "passato prossimo"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-02-l1-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "La cena mi ha piaciuto molto.",
+          "answers": [
+            "La cena mi è piaciuta molto."
+          ],
+          "explanation": "Piacere takes essere, and the participle agrees with cena: è piaciuta."
+        },
+        {
+          "type": "transform",
+          "id": "a2-02-l1-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Mi piace il film.",
+          "cue": "→ passato prossimo",
+          "answers": [
+            "Mi è piaciuto il film.",
+            "Il film mi è piaciuto."
+          ],
+          "explanation": "Piacere in the passato prossimo: è piaciuto, agreeing with il film."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-02-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Che cosa ti è piaciuto di più nell'ultima vacanza o nell'ultima serata fuori? Dì due cose.",
+          "keywords": [
+            "mi è piaciuto",
+            "mi è piaciuta",
+            "mi sono piaciuti",
+            "mi sono piaciute"
+          ],
+          "modelAnswer": "Della mia ultima vacanza mi è piaciuto molto il mare. Mi sono piaciute anche le città piccole."
+        }
+      ]
+    },
+    {
+      "id": "a2-02-l2",
+      "title": "Piaceva o è piaciuto?",
+      "minutes": 7,
+      "goal": "You can say what you used to like, and what you liked on one occasion.",
+      "takeaway": "Imperfetto (mi piaceva) for a taste over time; passato prossimo (mi è piaciuto) for a reaction to one event.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2-02-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con l'imperfetto.",
+          "sentence": "Quando eravamo piccoli, ___ (giocare, noi) sempre in strada.",
+          "answers": [
+            "giocavamo"
+          ],
+          "explanation": "Imperfetto of -are verbs: -avamo for noi.",
+          "hint": "giocare – noi"
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-02-l2-e02",
+          "stage": "learn",
+          "title": "Gusti di ieri e di un giorno",
+          "body": "Two pasts, two meanings.\n\n| quando | forma | esempio |\n|---|---|---|\n| a taste over a period | mi ==piaceva== / ==piacevano== | Da piccoli ci piacevano i cartoni. |\n| a reaction to one event | mi ==è piaciuto== | Ieri il film mi è piaciuto. |\n\n> *Piaceva* tells what you liked in those years. *È piaciuto* tells how you reacted once.",
+          "examples": [
+            {
+              "it": "Da piccoli ci piacevano i cartoni.",
+              "en": "As children we liked cartoons."
+            },
+            {
+              "it": "Ieri sera il concerto ci è piaciuto molto.",
+              "en": "Last night we liked the concert a lot."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-02-l2-e03",
+          "stage": "learn",
+          "title": "Non più",
+          "body": "To say you no longer like something, add **non … più**.\n\n| passato | oggi |\n|---|---|\n| Mi ==piaceva== il caffè dolce. | Non mi piace ==più==. |\n| Un tempo ci ==piacevano== i film horror. | Non ci piacciono ==più==. |\n\nUseful time words: **un tempo, da piccoli, quando ero giovane**.",
+          "examples": [
+            {
+              "it": "Un tempo mi piaceva il calcio, ora non più.",
+              "en": "I used to like football, now I don't."
+            },
+            {
+              "it": "Non mi piace più il caffè dolce.",
+              "en": "I don't like sweet coffee any more."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a2-02-l2-e04",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Da bambini ci piacevano i dolci.",
+            "Ieri sera ci è piaciuta la pizza."
+          ],
+          "question": "Which sentence is about a taste you had over many years?",
+          "answer": 0,
+          "translations": [
+            "As children we liked sweets.",
+            "Last night we liked the pizza."
+          ],
+          "explanation": "Imperfetto (piacevano) describes a taste that lasted; è piaciuta describes one reaction."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-02-l2-e05",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Quando ero giovane, mi ___ ballare.",
+          "options": [
+            "piaceva",
+            "è piaciuto",
+            "piacevo",
+            "ha piaciuto"
+          ],
+          "answer": 0,
+          "explanation": "A taste over a period of life: imperfetto, and ballare is singular, so piaceva."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-02-l2-e06",
+          "stage": "practise",
+          "instruction": "Imperfetto o passato prossimo?",
+          "buckets": [
+            "gusto abituale (piaceva)",
+            "una volta (è piaciuto)"
+          ],
+          "items": [
+            {
+              "text": "Da bambina a Giulia piacevano i cavalli.",
+              "bucket": 0
+            },
+            {
+              "text": "Ieri al concerto a Giulia è piaciuta la band.",
+              "bucket": 1
+            },
+            {
+              "text": "Ogni estate ci piaceva andare al lago.",
+              "bucket": 0
+            },
+            {
+              "text": "Domenica scorsa il museo ci è piaciuto molto.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Habits and general tastes take the imperfetto; one occasion takes the passato prossimo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-02-l2-e07",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Ieri sera il concerto ci ___ (piacere) molto.",
+          "answers": [
+            "è piaciuto"
+          ],
+          "explanation": "One event yesterday: passato prossimo, agreeing with concerto.",
+          "hint": "passato prossimo"
+        },
+        {
+          "type": "transform",
+          "id": "a2-02-l2-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Mi piace il caffè.",
+          "cue": "Quando ero giovane…",
+          "answers": [
+            "Quando ero giovane mi piaceva il caffè.",
+            "Quando ero giovane, mi piaceva il caffè.",
+            "Quando ero giovane il caffè mi piaceva.",
+            "Quando ero giovane, il caffè mi piaceva."
+          ],
+          "explanation": "A taste in the past over a period: mi piaceva."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-02-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Che cosa ti piaceva fare da bambino o da bambina?",
+          "keywords": [
+            "mi piaceva",
+            "mi piacevano"
+          ],
+          "modelAnswer": "Mi piaceva molto giocare all'aperto con gli amici. Mi piacevano anche i cartoni, ma non mi piaceva fare i compiti!"
+        }
+      ]
+    },
+    {
+      "id": "a2-02-l3",
+      "title": "Vorrei e mi piacerebbe",
+      "minutes": 8,
+      "goal": "You can ask politely for things and say what you would like to do.",
+      "takeaway": "Vorrei is the polite way to ask; mi piacerebbe + infinitive says what you would like to do.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-02-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Mi ___ le scarpe che hai comprato.",
+          "options": [
+            "piacciono",
+            "piace",
+            "piacete",
+            "piaci"
+          ],
+          "answer": 0,
+          "explanation": "Scarpe is plural, so piacciono."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-02-l3-e02",
+          "stage": "learn",
+          "title": "Vorrei",
+          "body": "**Vorrei** is the condizionale of volere. It sounds polite; *voglio* can sound blunt.\n\n| persona | vorrei |\n|---|---|\n| io | vorr==ei== |\n| tu | vorr==esti== |\n| lui/lei | vorr==ebbe== |\n| noi | vorr==emmo== |\n| voi | vorr==este== |\n| loro | vorr==ebbero== |\n\n> *Voglio un caffè* sounds like an order. Say *Vorrei un caffè*.",
+          "examples": [
+            {
+              "it": "Vorrei prenotare un tavolo per due.",
+              "en": "I'd like to book a table for two."
+            },
+            {
+              "it": "Vorrebbero una casa più grande.",
+              "en": "They'd like a bigger house."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-02-l3-e03",
+          "stage": "learn",
+          "title": "Mi piacerebbe",
+          "body": "**Mi piacerebbe** says what you would enjoy. It follows the normal piacere rule.\n\n| singolare / infinito | plurale |\n|---|---|\n| Mi ==piacerebbe== visitare Venezia. | Mi ==piacerebbero== due giorni di riposo. |\n| Ti ==piacerebbe== venire con noi? | Ti ==piacerebbero== questi libri. |",
+          "examples": [
+            {
+              "it": "Mi piacerebbe visitare Venezia.",
+              "en": "I'd like to visit Venice."
+            },
+            {
+              "it": "Ti piacerebbe venire con noi?",
+              "en": "Would you like to come with us?"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-02-l3-e04",
+          "stage": "practise",
+          "instruction": "Scegli la frase più gentile.",
+          "prompt": "Buongiorno, ___ prenotare un tavolo per stasera.",
+          "options": [
+            "vorrei",
+            "voglio",
+            "vogliono",
+            "vorresti"
+          ],
+          "answer": 0,
+          "explanation": "Vorrei is the polite request form."
+        },
+        {
+          "type": "conjugation",
+          "id": "a2-02-l3-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le forme.",
+          "verb": "volere",
+          "tense": "condizionale",
+          "items": [
+            {
+              "person": "io",
+              "answer": "vorrei"
+            },
+            {
+              "person": "tu",
+              "answer": "vorresti"
+            },
+            {
+              "person": "noi",
+              "answer": "vorremmo"
+            },
+            {
+              "person": "loro",
+              "answer": "vorrebbero"
+            }
+          ],
+          "explanation": "Volere in the condizionale: vorr- plus -ei, -esti, -emmo, -ebbero."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a2-02-l3-e06",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Mi piacerebbe visitare Venezia.",
+            "Mi piace visitare Venezia."
+          ],
+          "question": "Which sentence is a wish, not a fact about now?",
+          "answer": 0,
+          "translations": [
+            "I'd like to visit Venice.",
+            "I like visiting Venice."
+          ],
+          "explanation": "Piacerebbe expresses a wish; piace states a present taste."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-02-l3-e07",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "A Sara ___ (piacere) viaggiare di più.",
+          "answers": [
+            "piacerebbe"
+          ],
+          "explanation": "One thing liked (an infinitive): piacerebbe.",
+          "hint": "condizionale"
+        },
+        {
+          "type": "translate",
+          "id": "a2-02-l3-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I'd like to learn to cook.",
+          "answers": [
+            "Mi piacerebbe imparare a cucinare.",
+            "Vorrei imparare a cucinare.",
+            "Mi piacerebbe imparare a cucinare."
+          ],
+          "explanation": "Both mi piacerebbe + infinitive and vorrei + infinitive express a wish."
+        },
+        {
+          "type": "roleplay",
+          "id": "a2-02-l3-e09",
+          "stage": "use",
+          "instruction": "Telefoni a un albergo. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You phone a small hotel in Verona to book a room.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Hotel Arena, buongiorno. Come posso aiutarla?"
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno, vorrei prenotare una camera doppia per due notti.",
+              "hint": "Vorrei + infinito.",
+              "keywords": [
+                "vorrei",
+                "prenotare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo. Per quali date? E come si chiama?"
+            },
+            {
+              "speaker": "you",
+              "text": "Dal dieci al dodici maggio. Mi chiamo {name}.",
+              "hint": "Dal … al …",
+              "keywords": [
+                "dal",
+                "mi chiamo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto. Desidera altro?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, mi piacerebbe avere una camera tranquilla, se possibile.",
+              "hint": "Mi piacerebbe + infinito.",
+              "keywords": [
+                "mi piacerebbe",
+                "camera"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Nessun problema, la camera è sul retro. A presto!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-02-l4",
+      "title": "Quattro tempi di piacere",
+      "minutes": 7,
+      "goal": "You can choose the right form of piacere for now, then, yesterday and a wish.",
+      "takeaway": "Mi piace (now), mi piaceva (then), mi è piaciuto (once), mi piacerebbe (a wish).",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2-02-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Mi ___ (piacere) visitare Roma.",
+          "answers": [
+            "piacerebbe"
+          ],
+          "explanation": "A wish: piacerebbe + infinitive."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-02-l4-e02",
+          "stage": "learn",
+          "title": "Quattro forme",
+          "body": "One verb, four moments.\n\n| quando | forma |\n|---|---|\n| now | mi ==piace== / ==piacciono== |\n| as a habit in the past | mi ==piaceva== / ==piacevano== |\n| one event | mi ==è piaciuto== / ==sono piaciuti== |\n| wish | mi ==piacerebbe== / ==piacerebbero== |\n\n> The plural thing changes the verb, not the person: ==piacciono, piacevano, piaciuti, piacerebbero==.",
+          "examples": [
+            {
+              "it": "Mi piace il mare. Mi è piaciuto il viaggio.",
+              "en": "I like the sea. I liked the trip."
+            },
+            {
+              "it": "Mi piacerebbe vivere al mare.",
+              "en": "I'd like to live by the sea."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-02-l4-e03",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Ieri sera ho assaggiato il tiramisù: ___ moltissimo!",
+          "options": [
+            "mi è piaciuto",
+            "mi piacerebbe",
+            "mi piaceva",
+            "mi piacevano"
+          ],
+          "answer": 0,
+          "explanation": "One occasion yesterday: mi è piaciuto, agreeing with tiramisù."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-02-l4-e04",
+          "stage": "practise",
+          "instruction": "Che cosa esprime la frase?",
+          "buckets": [
+            "adesso",
+            "passato",
+            "desiderio"
+          ],
+          "items": [
+            {
+              "text": "Mi piace il mare.",
+              "bucket": 0
+            },
+            {
+              "text": "Mi è piaciuto il film.",
+              "bucket": 1
+            },
+            {
+              "text": "Mi piacerebbe vivere al mare.",
+              "bucket": 2
+            },
+            {
+              "text": "Da piccoli ci piaceva il mare.",
+              "bucket": 1
+            },
+            {
+              "text": "Ti piacerebbe venire?",
+              "bucket": 2
+            },
+            {
+              "text": "Non mi piacciono i ragni.",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Piace is now, piaceva / è piaciuto are past, piacerebbe is a wish."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-02-l4-e05",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Da bambini ci ___ (piacere) giocare in giardino.",
+          "answers": [
+            "piaceva"
+          ],
+          "explanation": "A habit in the past: imperfetto, and giocare is an infinitive, so piaceva.",
+          "hint": "imperfetto"
+        },
+        {
+          "type": "transform",
+          "id": "a2-02-l4-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Voglio un caffè.",
+          "cue": "→ più gentile",
+          "answers": [
+            "Vorrei un caffè."
+          ],
+          "explanation": "Vorrei is the polite form of voglio."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-02-l4-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Mi piacerebbe due giorni di riposo.",
+          "answers": [
+            "Mi piacerebbero due giorni di riposo."
+          ],
+          "explanation": "Two days is plural, so piacerebbero."
+        },
+        {
+          "type": "free_write",
+          "id": "a2-02-l4-e08",
+          "stage": "use",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Scrivi un messaggio a un amico: che cosa ti è piaciuto nell'ultimo viaggio o evento, e che cosa ti piacerebbe fare la prossima volta (almeno 30 parole).",
+          "minWords": 30,
+          "checklist": [
+            "Ho usato mi è piaciuto / piaciuta / piaciuti / piaciute.",
+            "Ho usato mi piacerebbe o vorrei.",
+            "Ho scelto bene tra piaceva e è piaciuto."
+          ],
+          "modelAnswer": "Ciao Marco! Il viaggio a Torino è stato bellissimo: mi sono piaciuti molto i musei e la cena in centro mi è piaciuta moltissimo. La prossima volta mi piacerebbe vedere anche le montagne. Vorrei restare un giorno in più!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la serata",
+      "en": "the evening (as an event)",
+      "example": "La serata mi è piaciuta molto."
+    },
+    {
+      "it": "la mostra",
+      "en": "exhibition",
+      "example": "La mostra mi è piaciuta."
+    },
+    {
+      "it": "il regalo",
+      "en": "gift",
+      "example": "I regali ti sono piaciuti?"
+    },
+    {
+      "it": "assaggiare",
+      "en": "to taste, to try (food)",
+      "example": "Ho assaggiato il tiramisù."
+    },
+    {
+      "it": "divertente",
+      "en": "fun, funny",
+      "example": "Il film era molto divertente."
+    },
+    {
+      "it": "noioso",
+      "en": "boring",
+      "example": "Il film era noioso."
+    },
+    {
+      "it": "non mi è piaciuto per niente",
+      "en": "I didn't like it at all",
+      "example": "Il ristorante non mi è piaciuto per niente."
+    },
+    {
+      "it": "da piccoli",
+      "en": "as children",
+      "example": "Da piccoli ci piaceva giocare fuori."
+    },
+    {
+      "it": "un tempo",
+      "en": "once, in the past",
+      "example": "Un tempo mi piaceva il calcio."
+    },
+    {
+      "it": "non … più",
+      "en": "no longer",
+      "example": "Non mi piace più il caffè dolce."
+    },
+    {
+      "it": "vorrei",
+      "en": "I would like",
+      "example": "Vorrei un tavolo per due."
+    },
+    {
+      "it": "mi piacerebbe",
+      "en": "I would like to",
+      "example": "Mi piacerebbe visitare Venezia."
+    },
+    {
+      "it": "il sogno",
+      "en": "dream",
+      "example": "Il mio sogno è vivere al mare."
+    },
+    {
+      "it": "la camera doppia",
+      "en": "double room",
+      "example": "Vorrei una camera doppia."
+    },
+    {
+      "it": "un paio di",
+      "en": "a couple of",
+      "example": "Mi piacerebbero un paio di giorni di riposo."
+    },
+    {
+      "it": "volentieri",
+      "en": "gladly, with pleasure",
+      "example": "Vengo volentieri!"
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2-02-t1",
+      "rule": "Mi è piaciuto o piaciuta?",
+      "tip": "In the passato prossimo piacere takes essere and agrees with the thing liked: mi è piaciuta la cena.",
+      "example": {
+        "it": "Mi sono piaciuti i regali.",
+        "en": "I liked the gifts."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "La cena mi ___ molto.",
+        "answers": [
+          "è piaciuta"
+        ],
+        "hint": "piacere – passato prossimo"
+      }
+    },
+    {
+      "id": "a2-02-t2",
+      "rule": "Piaceva o è piaciuto?",
+      "tip": "Imperfetto (mi piaceva) for a taste over time; passato prossimo (mi è piaciuto) for one event.",
+      "example": {
+        "it": "Da piccoli ci piaceva il mare.",
+        "en": "As children we liked the sea."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Ieri sera il concerto ci ___ molto.",
+        "options": [
+          "è piaciuto",
+          "piaceva",
+          "piacerebbe",
+          "piace"
+        ],
+        "answer": 0,
+        "explanation": "One event yesterday: è piaciuto."
+      }
+    },
+    {
+      "id": "a2-02-t3",
+      "rule": "Vorrei è gentile",
+      "tip": "Use vorrei, not voglio, to ask for something politely in a shop, bar or hotel.",
+      "example": {
+        "it": "Vorrei un caffè, per favore.",
+        "en": "I'd like a coffee, please."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Al bar: «___ un caffè, per favore.»",
+        "options": [
+          "Vorrei",
+          "Voglio",
+          "Volere",
+          "Vuoi"
+        ],
+        "answer": 0,
+        "explanation": "Vorrei is the polite form."
+      }
+    },
+    {
+      "id": "a2-02-t4",
+      "rule": "Mi piacerebbe / piacerebbero",
+      "tip": "Mi piacerebbe + infinitive or singular noun; mi piacerebbero + plural noun.",
+      "example": {
+        "it": "Mi piacerebbero due giorni di riposo.",
+        "en": "I'd like two days of rest."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Mi ___ (piacere) due giorni di riposo.",
+        "answers": [
+          "piacerebbero"
+        ],
+        "hint": "condizionale, plural"
+      }
+    }
+  ]
+}
