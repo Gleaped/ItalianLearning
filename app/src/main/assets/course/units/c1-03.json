@@ -2,8 +2,10 @@
   "id": "c1-03",
   "level": "C1",
   "title": "È lui che…",
-  "objective": "Alla fine dell'unità sai usare l'ordine marcato delle parole – dislocazioni, frasi scisse e pseudoscisse – per parlare in modo naturale, mettere in evidenza un'informazione e correggere un malinteso, scegliendo il registro adatto.",
-  "grammarFocus": "Ordine marcato: dislocazione a sinistra e a destra con pronome di ripresa (lo, la, li, le, ne, ci) e accordo del participio; ce l'ho / ce le ho; tema sospeso e quanto a / per quanto riguarda; frase scissa (è … che, è stato … a + infinito), pseudoscissa (quello che … è), c'è … che, non è che.",
+  "format": 2,
+  "module": "c1-m1",
+  "objective": "By the end you can use marked word order (left and right dislocation, cleft sentences) to sound natural, highlight an idea and correct a misunderstanding, in the right register.",
+  "grammarFocus": "Left dislocation with lo/la/li/le, ne, ci and participle agreement; right dislocation and ce l'ho; quanto a / per quanto riguarda; cleft sentences (è … che, è stato … a), quello che … è, c'è … che, non è che.",
   "remedialUnitIds": [
     "b1-02",
     "b1-03",
@@ -13,12 +15,15 @@
     {
       "id": "c1-03-l1",
       "title": "Il caffè lo prendo amaro",
-      "minutes": 10,
+      "minutes": 7,
+      "goal": "You can put the topic first and pick it up with lo, la, li, le.",
+      "takeaway": "Object first means the pronoun is compulsory, and the participle agrees: Le chiavi le ho lasciate.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "c1-03-l1-e01",
-          "instruction": "Riscaldamento: scegli il pronome giusto.",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il pronome.",
           "prompt": "– Hai comprato il pane? – Sì, ___ ho comprato stamattina.",
           "options": [
             "l'",
@@ -27,23 +32,14 @@
             "ci"
           ],
           "answer": 0,
-          "explanation": "Il pane → lo; davanti a ho si apostrofa: l'ho comprato."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-03-l1-e02",
-          "instruction": "Riscaldamento: completa con il pronome.",
-          "sentence": "– Quante mele vuoi? – ___ prendo due, grazie.",
-          "answers": [
-            "Ne"
-          ],
-          "explanation": "Con una quantità si usa ne: ne prendo due (unità b1-02)."
+          "explanation": "Il pane is a direct object, masculine singular: lo, shortened to l'."
         },
         {
           "type": "grammar_note",
-          "id": "c1-03-l1-e03",
+          "id": "c1-03-l1-e02",
+          "stage": "learn",
           "title": "La dislocazione a sinistra",
-          "body": "Nell'italiano parlato, e anche in molti testi scritti, è normalissimo mettere **all'inizio della frase** l'elemento di cui si parla – il **tema** – e riprenderlo poi con un **pronome atono**.\n\n- *Il caffè **lo** prendo amaro.*\n- *La macchina **l'**ho venduta l'anno scorso.*\n- *Di pane **ne** compro poco.*\n- *A Roma **ci** vado spesso per lavoro.*\n- *A Giulia **le** ho già scritto.*\n\n**Regole**\n- se il complemento oggetto va all'inizio, il pronome di ripresa è **obbligatorio**: *Il caffè prendo amaro* non funziona.\n- con i tempi composti il participio **concorda** con lo/la/li/le: *Le chiavi **le** ho lasci**ate** sul tavolo.*\n- con un partitivo o una quantità si riprende con **ne**: *Di problemi ne abbiamo tanti.*\n\n**Perché si usa**: per collegarsi a ciò che si è appena detto o per introdurre un nuovo argomento. È italiano standard, non una forma trascurata.\n\nAttenzione: *A me mi piace* è diffusissimo nel parlato informale, ma nello scritto curato va evitato: scrivi *A me piace* o *Mi piace*.",
+          "body": "Put the topic first, then pick it up with a pronoun. This is normal, standard Italian, not careless speech.\n\n| topic | pronoun | rest |\n|---|---|---|\n| Il caffè | ==lo== | prendo amaro. |\n| La macchina | ==l'== | ho venduta. |\n| I biglietti | ==li== | ho comprati. |\n| Le chiavi | ==le== | ho lasciate. |\n\n> Without the pronoun it fails: not *Il caffè prendo amaro*.",
           "examples": [
             {
               "it": "Il giornale lo compro tutte le mattine.",
@@ -52,21 +48,31 @@
             {
               "it": "Le bollette le ho già pagate.",
               "en": "I've already paid the bills."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-03-l1-e03",
+          "stage": "learn",
+          "title": "L'accordo del participio",
+          "body": "With lo, la, li, le before a compound tense, the participle agrees with the pronoun.\n\n| pronoun | participle |\n|---|---|\n| ==lo== ho | comprat==o== |\n| ==la== ho | comprat==a== |\n| ==li== ho | comprat==i== |\n| ==le== ho | comprat==e== |\n\n> Not *La lettera l'ho spedito*: write *l'ho spedita*.",
+          "examples": [
+            {
+              "it": "La tessera sanitaria l'ho lasciata a casa.",
+              "en": "I left my health card at home."
             },
             {
-              "it": "Di questo ne parliamo domani.",
-              "en": "We'll talk about this tomorrow."
-            },
-            {
-              "it": "Al medico ci vado lunedì.",
-              "en": "I'm going to the doctor on Monday."
+              "it": "I documenti li ho già inviati.",
+              "en": "I have already sent the documents."
             }
           ]
         },
         {
           "type": "multiple_choice",
           "id": "c1-03-l1-e04",
-          "instruction": "Scegli il pronome di ripresa.",
+          "stage": "practise",
+          "instruction": "Scegli il pronome.",
           "prompt": "Le chiavi ___ ho lasciate in macchina.",
           "options": [
             "le",
@@ -75,54 +81,49 @@
             "gli"
           ],
           "answer": 0,
-          "explanation": "Le chiavi (femminile plurale) → le; il participio concorda: lasciate."
+          "explanation": "Le chiavi is feminine plural: le, and the participle is lasciate."
         },
         {
           "type": "gap_fill",
           "id": "c1-03-l1-e05",
-          "instruction": "Completa con il pronome di ripresa.",
+          "stage": "practise",
+          "instruction": "Completa con il pronome.",
           "sentence": "Il giornale ___ compro ogni mattina all'edicola sotto casa.",
           "answers": [
             "lo"
           ],
-          "explanation": "Il giornale (maschile singolare) → lo."
+          "explanation": "Il giornale is moved first, so it is repeated with lo."
         },
         {
           "type": "gap_fill",
           "id": "c1-03-l1-e06",
-          "instruction": "Completa con il participio passato.",
+          "stage": "practise",
+          "instruction": "Completa con il participio.",
           "sentence": "Le lettere le ho già ___ (spedire).",
           "answers": [
             "spedite"
           ],
-          "explanation": "Le lettere … le ho spedite: con le prima del verbo il participio concorda (femminile plurale)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-03-l1-e07",
-          "instruction": "Completa con il pronome di ripresa.",
-          "sentence": "Di tempo libero ___ ho pochissimo in questo periodo.",
-          "answers": [
-            "ne"
-          ],
-          "explanation": "Di tempo libero → ne (quantità)."
+          "hint": "spedire → participio femminile plurale",
+          "explanation": "The participle agrees with le: spedite."
         },
         {
           "type": "error_correction",
-          "id": "c1-03-l1-e08",
-          "instruction": "Manca qualcosa. Riscrivi la frase corretta.",
+          "id": "c1-03-l1-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
           "sentence": "Questa canzone ho sentito mille volte.",
           "answers": [
             "Questa canzone l'ho sentita mille volte.",
-            "Ho sentito questa canzone mille volte.",
-            "Questa canzone l'ho già sentita mille volte."
+            "Questa canzone l'ho già sentita mille volte.",
+            "Ho sentito questa canzone mille volte."
           ],
-          "explanation": "Con l'oggetto all'inizio serve il pronome di ripresa (l'ho) e il participio concorda (sentita)."
+          "explanation": "When the object comes first you need the pronoun l' and an agreeing participle: l'ho sentita."
         },
         {
           "type": "sentence_build",
-          "id": "c1-03-l1-e09",
-          "instruction": "Metti le parole in ordine, cominciando dalla bolletta.",
+          "id": "c1-03-l1-e08",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
           "translation": "The bill – I've already paid it.",
           "tiles": [
             "La",
@@ -135,12 +136,116 @@
             "pagato",
             "ne"
           ],
-          "explanation": "La bolletta → l'ho … pagata: pronome di ripresa e participio femminile."
+          "explanation": "La bolletta is repeated with l', and the participle agrees: pagata."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-03-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Un amico ti chiede: «Hai già fatto il cambio di residenza? E la carta d'identità?» Rispondi con i pronomi.",
+          "keywords": [
+            "l'ho fatto",
+            "la devo"
+          ],
+          "modelAnswer": "Il cambio di residenza l'ho fatto la settimana scorsa, ma la carta d'identità la devo ancora rinnovare."
+        }
+      ]
+    },
+    {
+      "id": "c1-03-l2",
+      "title": "Di pane ne compro poco",
+      "minutes": 7,
+      "goal": "You can pick up a quantity with ne and a place or person with ci, gli, le.",
+      "takeaway": "Quantity or di-topic → ne; place → ci; person → gli/le: Di pane ne compro poco, A Roma ci vado spesso.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-03-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "I biglietti ___ ho comprati online.",
+          "answers": [
+            "li"
+          ],
+          "explanation": "I biglietti is masculine plural: li, with the agreeing participle comprati."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-03-l2-e02",
+          "stage": "learn",
+          "title": "Ne: quantità e argomenti",
+          "body": "**Ne** picks up a quantity or a topic introduced by **di**.\n\n| topic | pronoun | rest |\n|---|---|---|\n| Di pane | ==ne== | compro poco. |\n| Di problemi | ==ne== | abbiamo tanti. |\n| Di questo | ==ne== | parliamo domani. |\n\n> With a compound tense the participle agrees with the quantity: *Di mele ne ho comprate due.*",
+          "examples": [
+            {
+              "it": "Di tempo libero ne ho pochissimo.",
+              "en": "I have very little free time."
+            },
+            {
+              "it": "Di sedie ne ho solo sei.",
+              "en": "I only have six chairs."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-03-l2-e03",
+          "stage": "learn",
+          "title": "Ci, gli, le",
+          "body": "Places take **ci**. People take **gli** (him) or **le** (her).\n\n| topic | pronoun | rest |\n|---|---|---|\n| A Roma | ==ci== | vado spesso. |\n| Al medico | ==ci== | vado lunedì. |\n| A Giulia | ==le== | ho già scritto. |\n| A Marco | ==gli== | ho già scritto. |\n\n> Never *a Giulia ci scrivo*.",
+          "examples": [
+            {
+              "it": "A Napoli ci vado ogni mese.",
+              "en": "I go to Naples every month."
+            },
+            {
+              "it": "A Giulia le ho già scritto.",
+              "en": "I have already written to Giulia."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-03-l2-e04",
+          "stage": "practise",
+          "instruction": "Scegli il pronome.",
+          "prompt": "Di questo problema ___ abbiamo già parlato ieri.",
+          "options": [
+            "ne",
+            "lo",
+            "ci",
+            "gli"
+          ],
+          "answer": 0,
+          "explanation": "Di questo problema is a di-topic, so it is picked up with ne."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-03-l2-e05",
+          "stage": "practise",
+          "instruction": "Completa con il pronome.",
+          "sentence": "Di tempo libero ___ ho pochissimo in questo periodo.",
+          "answers": [
+            "ne"
+          ],
+          "explanation": "A quantity (pochissimo) with a di-topic needs ne."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-03-l2-e06",
+          "stage": "practise",
+          "instruction": "Completa con il pronome.",
+          "sentence": "A Napoli ___ vado ogni mese.",
+          "answers": [
+            "ci"
+          ],
+          "explanation": "A Napoli is a place, so ci."
         },
         {
           "type": "match_pairs",
-          "id": "c1-03-l1-e10",
-          "instruction": "Abbina la domanda alla risposta più naturale.",
+          "id": "c1-03-l2-e07",
+          "stage": "practise",
+          "instruction": "Abbina la domanda alla risposta.",
           "pairs": [
             {
               "left": "Hai visto Marco?",
@@ -163,60 +268,13 @@
               "right": "La banca la chiamo domani."
             }
           ],
-          "explanation": "In ogni risposta l'argomento della domanda va all'inizio e viene ripreso da un pronome."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "c1-03-l1-e11",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "La tessera sanitaria l'ho lasciata a casa, mi dispiace.",
-          "answers": [
-            "La tessera sanitaria l'ho lasciata a casa, mi dispiace.",
-            "La tessera sanitaria l'ho lasciata a casa mi dispiace."
-          ],
-          "slow": false,
-          "explanation": "La tessera sanitaria … l'ho lasciata: pronome e participio femminile."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "c1-03-l1-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "I documenti li porto domani mattina, va bene?",
-          "translation": "I'll bring the documents tomorrow morning, is that OK?"
-        },
-        {
-          "type": "speak_respond",
-          "id": "c1-03-l1-e13",
-          "instruction": "Rispondi ad alta voce mettendo all'inizio le cose di cui parli.",
-          "prompt": "Un amico ti chiede: «Hai già fatto il cambio di residenza? E la carta d'identità?»",
-          "keywords": [
-            "l'ho fatto",
-            "la devo"
-          ],
-          "modelAnswer": "Il cambio di residenza l'ho fatto la settimana scorsa, ma la carta d'identità la devo ancora rinnovare.",
-          "explanation": "Il cambio di residenza l'ho fatto / la carta d'identità la devo rinnovare: due dislocazioni a sinistra."
-        }
-      ]
-    },
-    {
-      "id": "c1-03-l2",
-      "title": "Ce l'hai, la tessera?",
-      "minutes": 10,
-      "exercises": [
-        {
-          "type": "gap_fill",
-          "id": "c1-03-l2-e01",
-          "instruction": "Riscaldamento: completa con il pronome di ripresa.",
-          "sentence": "I biglietti ___ ho comprati online.",
-          "answers": [
-            "li"
-          ],
-          "explanation": "I biglietti (maschile plurale) → li; participio comprati."
+          "explanation": "Each answer starts with the topic and picks it up with lo/la, ci or ne."
         },
         {
           "type": "translate",
-          "id": "c1-03-l2-e02",
-          "instruction": "Riscaldamento: traduci in inglese.",
+          "id": "c1-03-l2-e08",
+          "stage": "practise",
+          "instruction": "Traduci in inglese.",
           "direction": "it_en",
           "source": "Di questo ne parliamo domani.",
           "answers": [
@@ -224,26 +282,70 @@
             "We will talk about this tomorrow.",
             "We'll talk about it tomorrow.",
             "We will talk about it tomorrow.",
-            "We'll discuss this tomorrow.",
             "Let's talk about this tomorrow.",
-            "Let's talk about it tomorrow.",
-            "We'll discuss it tomorrow."
+            "Let's talk about it tomorrow."
           ],
-          "explanation": "Di questo ne parliamo: il ne riprende «di questo»."
+          "explanation": "Di questo is repeated by ne; the sentence just means we'll talk about this."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-03-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Un'amica ti chiede: «Quanto caffè bevi al giorno? E in palestra ci vai spesso?» Rispondi con ne e ci.",
+          "keywords": [
+            "ne bevo",
+            "ci vado"
+          ],
+          "modelAnswer": "Di caffè ne bevo due al giorno. In palestra ci vado tre volte alla settimana."
+        }
+      ]
+    },
+    {
+      "id": "c1-03-l3",
+      "title": "Ce l'hai, la tessera?",
+      "minutes": 8,
+      "goal": "You can ask and check things the spoken way: Ce l'hai, la tessera?",
+      "takeaway": "Right dislocation: pronoun first, topic last. Avere → ce l'ho, ce le hai. Formal writing: quanto a…",
+      "exercises": [
+        {
+          "type": "error_correction",
+          "id": "c1-03-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: correggi.",
+          "sentence": "La lettera l'ho spedito ieri.",
+          "answers": [
+            "La lettera l'ho spedita ieri."
+          ],
+          "explanation": "The participle agrees with l' (la lettera): spedita."
         },
         {
           "type": "grammar_note",
-          "id": "c1-03-l2-e03",
-          "title": "Dislocazione a destra e tema sospeso",
-          "body": "Nella **dislocazione a destra** il pronome viene **prima** e l'elemento a cui si riferisce arriva **alla fine**, quasi come un chiarimento. È tipica del parlato e ha spesso un tono colloquiale, affettuoso o di sollecitazione.\n\n- *Lo prendi tu, il pane?*\n- *Ce l'hai, la tessera sanitaria?* / *Ce le hai, le chiavi?*\n- *Non l'ho ancora letta, la tua email.*\n- *Ne vuoi ancora, di torta?*\n- *Non lo so, che cosa fare.*\n\nNello scritto si mette una **virgola** prima dell'elemento dislocato.\n\n**Avere nel parlato**: per il possesso si dice spesso *ce l'ho, ce l'hai* (con lo/la) e *ce li ho, ce le ho* (con li/le).\n\n**Tema sospeso**: nel parlato si «annuncia» l'argomento senza preposizione e poi si continua: *Marco, non gli ho ancora parlato.* È molto colloquiale.\nNel registro formale si usano invece **quanto a**, **per quanto riguarda**, **riguardo a**: *Quanto al pagamento, La informo che…*",
+          "id": "c1-03-l3-e02",
+          "stage": "learn",
+          "title": "La dislocazione a destra",
+          "body": "Say the pronoun first, then name the topic at the end, after a comma. It is colloquial and very common.\n\n| pronoun first | topic last |\n|---|---|\n| ==Lo== porti tu, | il vino? |\n| ==Ce l'==hai, | la tessera? |\n| ==Ce le== hai, | le chiavi? |\n| Non ==l'==ho letta, | la tua email. |\n\n> With avere, add **ce**: *ce l'ho, ce li ho*.",
           "examples": [
             {
               "it": "Lo porti tu, il vino?",
               "en": "Are you bringing the wine?"
             },
             {
-              "it": "Ce l'hai il codice fiscale?",
+              "it": "Ce l'hai, il codice fiscale?",
               "en": "Have you got your tax code?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-03-l3-e03",
+          "stage": "learn",
+          "title": "Parlato o formale?",
+          "body": "In formal writing introduce a topic with **quanto a** or **per quanto riguarda**.\n\n| spoken | formal |\n|---|---|\n| Il pagamento, l'ho fatto ieri. | ==Quanto al== pagamento, Le comunico che è stato effettuato. |\n| La scadenza, ve la dico domani. | ==Per quanto riguarda== la scadenza, Le faremo sapere. |\n\n> Save the dislocations for speech and messages.",
+          "examples": [
+            {
+              "it": "Quanto all'orario, Le confermo le dieci.",
+              "en": "As for the time, I confirm ten o'clock."
             },
             {
               "it": "Per quanto riguarda la scadenza, Le faremo sapere entro venerdì.",
@@ -253,7 +355,8 @@
         },
         {
           "type": "multiple_choice",
-          "id": "c1-03-l2-e04",
+          "id": "c1-03-l3-e04",
+          "stage": "practise",
           "instruction": "Scegli la forma giusta.",
           "prompt": "___, la ricevuta? Non la trovo più.",
           "options": [
@@ -263,60 +366,57 @@
             "Ne hai"
           ],
           "answer": 0,
-          "explanation": "La ricevuta (femminile singolare) → la → l' davanti a hai; avere nel parlato: ce l'hai."
+          "explanation": "La ricevuta is feminine singular: ce l'hai."
         },
         {
           "type": "gap_fill",
-          "id": "c1-03-l2-e05",
-          "instruction": "Completa con il pronome giusto.",
+          "id": "c1-03-l3-e05",
+          "stage": "practise",
+          "instruction": "Completa con il pronome.",
           "sentence": "Non ___ conosco, quel ristorante. Com'è?",
           "answers": [
             "lo"
           ],
-          "explanation": "Dislocazione a destra: il pronome (lo) anticipa «quel ristorante»."
+          "explanation": "Quel ristorante is moved to the end, so the verb takes lo first."
         },
         {
-          "type": "gap_fill",
-          "id": "c1-03-l2-e06",
-          "instruction": "Completa con la preposizione giusta.",
-          "sentence": "Ne vuoi ancora un po', ___ caffè?",
-          "answers": [
-            "di"
+          "type": "sort_buckets",
+          "id": "c1-03-l3-e06",
+          "stage": "practise",
+          "instruction": "Parlato o formale? Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Parlato",
+            "Formale"
           ],
-          "explanation": "Con ne l'elemento dislocato è introdotto da di: ne vuoi … di caffè?"
-        },
-        {
-          "type": "multiple_choice",
-          "id": "c1-03-l2-e07",
-          "instruction": "Quale frase va bene in un'email formale?",
-          "prompt": "Scrivi all'amministratore di condominio.",
-          "options": [
-            "Il pagamento, l'ho fatto ieri.",
-            "Quanto al pagamento, Le comunico che è stato effettuato ieri.",
-            "Il pagamento, gliel'ho fatto ieri, eh.",
-            "L'ho fatto ieri, il pagamento."
+          "items": [
+            {
+              "text": "Lo porti tu, il vino?",
+              "bucket": 0
+            },
+            {
+              "text": "Quanto alla scadenza, Le faccio sapere domani.",
+              "bucket": 1
+            },
+            {
+              "text": "Ce l'hai, la tessera?",
+              "bucket": 0
+            },
+            {
+              "text": "Per quanto riguarda il pagamento, è stato effettuato ieri.",
+              "bucket": 1
+            },
+            {
+              "text": "Non l'ho ancora letta, la tua email.",
+              "bucket": 0
+            }
           ],
-          "answer": 1,
-          "explanation": "Nello scritto formale la dislocazione colloquiale si sostituisce con quanto a / per quanto riguarda."
-        },
-        {
-          "type": "translate",
-          "id": "c1-03-l2-e08",
-          "instruction": "Traduci in italiano con una dislocazione a destra.",
-          "direction": "en_it",
-          "source": "Are you bringing the wine? (start with the pronoun)",
-          "answers": [
-            "Lo porti tu, il vino?",
-            "Lo porti tu il vino?",
-            "Lo porti tu, il vino",
-            "Lo porti tu il vino"
-          ],
-          "explanation": "Il pronome anticipa il vino: Lo porti tu, il vino?"
+          "explanation": "Right dislocation is spoken; quanto a and per quanto riguarda are formal."
         },
         {
           "type": "error_correction",
-          "id": "c1-03-l2-e09",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "id": "c1-03-l3-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
           "sentence": "Ce l'hai, le chiavi?",
           "answers": [
             "Ce le hai, le chiavi?",
@@ -324,54 +424,28 @@
             "Le chiavi, ce le hai?",
             "Le chiavi ce le hai?"
           ],
-          "explanation": "Le chiavi sono femminili plurali: ce le hai (non ce l'hai, che vale per lo/la)."
+          "explanation": "Le chiavi is plural, so ce le hai."
         },
         {
-          "type": "listen_choose",
-          "id": "c1-03-l2-e10",
-          "instruction": "Ascolta il dialogo e rispondi.",
-          "audioText": "Allora, la torta la porto io. Perfetto. E le bibite? Quelle le compra Sara, me l'ha detto ieri. E il regalo? Ah, il regalo non l'ha ancora comprato nessuno!",
-          "question": "Che cosa manca ancora?",
-          "options": [
-            "La torta",
-            "Le bibite",
-            "Il regalo",
-            "Niente"
+          "type": "translate",
+          "id": "c1-03-l3-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano. Comincia con il pronome.",
+          "direction": "en_it",
+          "source": "Are you bringing the wine?",
+          "answers": [
+            "Lo porti tu, il vino?",
+            "Lo porti tu il vino?",
+            "Lo porti, il vino?",
+            "Lo porti il vino?"
           ],
-          "answer": 2,
-          "explanation": "La torta la porto io, le bibite le compra Sara, il regalo non l'ha comprato nessuno."
-        },
-        {
-          "type": "sentence_build",
-          "id": "c1-03-l2-e11",
-          "instruction": "Metti le parole in ordine (registro formale).",
-          "translation": "As for the deadline, I'll let you know tomorrow.",
-          "tiles": [
-            "Quanto",
-            "alla",
-            "scadenza",
-            "Le",
-            "faccio",
-            "sapere",
-            "domani"
-          ],
-          "distractors": [
-            "della",
-            "Gli"
-          ],
-          "explanation": "Quanto a + nome = as for: la versione formale del tema sospeso."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "c1-03-l2-e12",
-          "instruction": "Ascolta e ripeti ad alta voce, con l'intonazione del parlato.",
-          "text": "Non l'ho ancora letta, la tua email. Te lo dico stasera.",
-          "translation": "I haven't read your email yet. I'll let you know tonight."
+          "explanation": "Pronoun first, topic last: Lo porti tu, il vino?"
         },
         {
           "type": "roleplay",
-          "id": "c1-03-l2-e13",
-          "instruction": "Organizzi una cena con un'amica. Rispondi ad alta voce quando tocca a te.",
+          "id": "c1-03-l3-e09",
+          "stage": "use",
+          "instruction": "Parla con Elena. Rispondi ad alta voce quando tocca a te.",
           "scenario": "You and your friend Elena are organising a dinner at your place on Saturday. Decide who brings what, using natural spoken word order.",
           "turns": [
             {
@@ -430,76 +504,68 @@
               "speaker": "npc",
               "text": "Vabbè, la sento io stasera. A sabato!"
             }
-          ],
-          "explanation": "Le dislocazioni rendono il dialogo naturale: il dolce lo porto io, il vino lo prende Marco."
-        },
-        {
-          "type": "flashcard",
-          "id": "c1-03-l2-e14",
-          "front": "per quanto riguarda…",
-          "back": "as far as … is concerned, as for…",
-          "example": "Per quanto riguarda il pagamento, può farlo online."
+          ]
         }
       ]
     },
     {
-      "id": "c1-03-l3",
+      "id": "c1-03-l4",
       "title": "È stato lui a dirmelo",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can correct a misunderstanding with È … che and È stato … a.",
+      "takeaway": "È + element + che… puts one thing in the spotlight; for a subject: è stato / sono stati + subject + a + infinitive.",
       "exercises": [
         {
-          "type": "multiple_choice",
-          "id": "c1-03-l3-e01",
-          "instruction": "Riscaldamento: scegli il pronome di ripresa.",
-          "prompt": "Di questo problema ___ abbiamo già parlato ieri.",
-          "options": [
-            "ne",
-            "lo",
-            "ci",
-            "gli"
-          ],
-          "answer": 0,
-          "explanation": "Di questo problema → ne."
-        },
-        {
-          "type": "error_correction",
-          "id": "c1-03-l3-e02",
-          "instruction": "Riscaldamento: c'è un errore. Riscrivi la frase corretta.",
-          "sentence": "La lettera l'ho spedito ieri.",
+          "type": "gap_fill",
+          "id": "c1-03-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Il vino ___ porta Luca.",
           "answers": [
-            "La lettera l'ho spedita ieri."
+            "lo"
           ],
-          "explanation": "La lettera … l'ho spedita: il participio concorda con il pronome femminile."
+          "explanation": "Il vino is moved first, so it is picked up with lo."
         },
         {
           "type": "grammar_note",
-          "id": "c1-03-l3-e03",
+          "id": "c1-03-l4-e02",
+          "stage": "learn",
           "title": "La frase scissa",
-          "body": "Per mettere in **evidenza** un elemento – spesso per correggere o fare un contrasto – l'italiano usa la **frase scissa**.\n\n**È + elemento + che + verbo coniugato**\n- *È Marco che ha chiamato, non Luca.*\n- *È per questo che ti ho scritto.*\n- *È qui che devo firmare?*\n\n**È stato / sono stati + soggetto + a + infinito** (molto frequente quando l'elemento è il soggetto)\n- *È stato il medico a consigliarmelo.*\n- *Sono stati i vicini a chiamare l'ambulanza.*\nEssere concorda con il soggetto (*sono stati i vicini*) e prende il tempo dell'evento.\n\n**Pseudoscissa**: *Quello che / Ciò che* + verbo + *è*…\n- *Quello che non capisco è perché nessuno risponda.*\n- *Ciò che conta è il risultato.* (più formale)\n\n**C'è … che** (presentativo, parlato): *C'è un signore che ti cerca.* / *C'è una cosa che non mi torna.*\n\n**Non è che** attenua una negazione o una domanda: *Non è che mi piaccia molto* (= non mi piace molto). Nella domanda colloquiale si usa anche l'indicativo: *Non è che hai visto le mie chiavi?*",
+          "body": "A cleft sentence puts one element in the spotlight, often to correct someone.\n\n| structure | example |\n|---|---|\n| ==È== Marco ==che== ha chiamato | not Luca. |\n| ==È== per questo ==che== | ti ho scritto. |\n| ==È== qui ==che== | devo firmare? |\n\n> The verb after **che** agrees with the element in the spotlight.",
           "examples": [
             {
-              "it": "Non sono stato io a rompere il vaso: è stato il gatto!",
-              "en": "It wasn't me who broke the vase – it was the cat!"
+              "it": "È Marco che ha chiamato, non Luca.",
+              "en": "It's Marco who called, not Luca."
             },
             {
               "it": "È proprio di questo che volevo parlarle.",
               "en": "This is exactly what I wanted to talk to you about."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-03-l4-e03",
+          "stage": "learn",
+          "title": "Il soggetto: è stato… a",
+          "body": "To highlight the **subject**, use essere + subject + **a** + infinitive. Essere agrees with the subject.\n\n| structure | example |\n|---|---|\n| ==È stato== il medico ==a== consigliarmelo. | The doctor advised me. |\n| ==Sono stati== i vicini ==a== chiamare l'ambulanza. | The neighbours called. |\n\n> Not *È stato i ragazzi*: write *Sono stati i ragazzi*.",
+          "examples": [
+            {
+              "it": "Sono stati i vicini a chiamare l'ambulanza.",
+              "en": "It was the neighbours who called the ambulance."
             },
             {
-              "it": "Quello che mi preoccupa è il costo.",
-              "en": "What worries me is the cost."
-            },
-            {
-              "it": "C'è un tecnico che vorrebbe parlarti.",
-              "en": "There's a technician who'd like to talk to you."
+              "it": "È stato il capo a spostare la riunione.",
+              "en": "It was the boss who moved the meeting."
             }
           ]
         },
         {
           "type": "multiple_choice",
-          "id": "c1-03-l3-e04",
-          "instruction": "Completa la frase scissa.",
-          "prompt": "Non sono stato io a rompere il vaso: ___ il gatto!",
+          "id": "c1-03-l4-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Non è stata Anna a rompere il vaso: ___ il gatto!",
           "options": [
             "è stato",
             "era",
@@ -507,32 +573,82 @@
             "ha stato"
           ],
           "answer": 0,
-          "explanation": "Il soggetto è il gatto (singolare) e l'evento è passato: è stato."
+          "explanation": "Essere agrees with the subject il gatto: è stato."
         },
         {
           "type": "gap_fill",
-          "id": "c1-03-l3-e05",
-          "instruction": "Completa la frase scissa.",
+          "id": "c1-03-l4-e05",
+          "stage": "practise",
+          "instruction": "Completa.",
           "sentence": "Sono stati i vicini ___ chiamare l'ambulanza.",
           "answers": [
             "a"
           ],
-          "explanation": "Essere + soggetto + a + infinito: sono stati i vicini a chiamare."
+          "explanation": "È stato / sono stati + subject + a + infinitive."
         },
         {
           "type": "gap_fill",
-          "id": "c1-03-l3-e06",
-          "instruction": "Completa la frase scissa.",
+          "id": "c1-03-l4-e06",
+          "stage": "practise",
+          "instruction": "Completa.",
           "sentence": "È proprio per questo ___ ti ho chiamato.",
           "answers": [
             "che"
           ],
-          "explanation": "È per questo che…: con un complemento (per questo) si usa che + verbo coniugato."
+          "explanation": "When the highlighted element is not the subject, the structure is è … che."
         },
         {
+          "type": "error_correction",
+          "id": "c1-03-l4-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "sentence": "È stato i ragazzi a lasciare la porta aperta.",
+          "answers": [
+            "Sono stati i ragazzi a lasciare la porta aperta."
+          ],
+          "explanation": "Essere agrees with the plural subject: sono stati."
+        },
+        {
+          "type": "transform",
+          "id": "c1-03-l4-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Il medico me l'ha detto.",
+          "cue": "È stato…",
+          "answers": [
+            "È stato il medico a dirmelo.",
+            "È stato il medico a dirmelo",
+            "È stato proprio il medico a dirmelo."
+          ],
+          "hint": "è stato … a + infinito",
+          "explanation": "Subject in the spotlight: è stato + il medico + a + infinitive (dirmelo)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-03-l4-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Un collega pensa che tu abbia dimenticato la riunione, ma è stato il capo a spostarla a domani. Correggilo.",
+          "keywords": [
+            "è stato il capo",
+            "spostarla"
+          ],
+          "modelAnswer": "No, guarda, è stato il capo a spostarla a domani."
+        }
+      ]
+    },
+    {
+      "id": "c1-03-l5",
+      "title": "Quello che…, non è che…",
+      "minutes": 8,
+      "goal": "You can say what matters, introduce news and soften a refusal.",
+      "takeaway": "Quello che … è …; c'è … che…; non è che + congiuntivo (colloquial questions: indicativo).",
+      "exercises": [
+        {
           "type": "multiple_choice",
-          "id": "c1-03-l3-e07",
-          "instruction": "Quale frase significa «It was the doctor who told me»?",
+          "id": "c1-03-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la frase corretta.",
           "prompt": "Scegli la frase corretta.",
           "options": [
             "È stato il medico a dirmelo.",
@@ -541,25 +657,76 @@
             "Il medico è stato a dirmelo."
           ],
           "answer": 0,
-          "explanation": "Con il soggetto in evidenza: è stato + soggetto + a + infinito (con il pronome attaccato: dirmelo)."
+          "explanation": "Subject in the spotlight: è stato + subject + a + infinitive."
         },
         {
-          "type": "translate",
-          "id": "c1-03-l3-e08",
-          "instruction": "Traduci in italiano con una pseudoscissa.",
-          "direction": "en_it",
-          "source": "What worries me is the cost.",
-          "answers": [
-            "Quello che mi preoccupa è il costo.",
-            "Ciò che mi preoccupa è il costo.",
-            "Quel che mi preoccupa è il costo.",
-            "La cosa che mi preoccupa è il costo."
+          "type": "grammar_note",
+          "id": "c1-03-l5-e02",
+          "stage": "learn",
+          "title": "Quello che…, c'è… che",
+          "body": "**Quello che … è …** keeps the key information for the end. **C'è … che** introduces something new.\n\n| structure | example |\n|---|---|\n| ==Quello che== mi preoccupa ==è== | il costo. |\n| ==Ciò che== conta ==è== | il risultato. (more formal) |\n| ==C'è== un signore ==che== | ti cerca. |\n| ==C'è== una cosa ==che== | non mi torna. |",
+          "examples": [
+            {
+              "it": "Quello che mi preoccupa è il costo.",
+              "en": "What worries me is the cost."
+            },
+            {
+              "it": "C'è una cosa che non mi torna.",
+              "en": "There's something that doesn't add up."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-03-l5-e03",
+          "stage": "learn",
+          "title": "Non è che…",
+          "body": "**Non è che** softens a refusal or a question.\n\n| use | example |\n|---|---|\n| statement + congiuntivo | Non è che ==mi piaccia== molto. |\n| spoken question | Non è che ==hai visto== le mie chiavi? |\n\n> It means *it's not that…* or *you wouldn't happen to…*",
+          "examples": [
+            {
+              "it": "Non è che abbia molta voglia di uscire.",
+              "en": "It's not that I really feel like going out."
+            },
+            {
+              "it": "Non è che hai visto le mie chiavi?",
+              "en": "You wouldn't have seen my keys, would you?"
+            }
+          ]
+        },
+        {
+          "type": "choose_mood",
+          "id": "c1-03-l5-e04",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Non è che ___ molta voglia di uscire.",
+          "verb": "avere",
+          "answer": 1,
+          "forms": [
+            "abbia"
           ],
-          "explanation": "Quello che / ciò che / quel che + verbo + è."
+          "trigger": "Non è che",
+          "explanation": "After non è che in a statement, careful Italian uses the congiuntivo: abbia."
+        },
+        {
+          "type": "listen_choose",
+          "id": "c1-03-l5-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Scusi, ma non è il rumore della strada che mi dà fastidio: è il riscaldamento che non funziona. Ho freddo da ieri sera.",
+          "question": "Qual è il vero problema dell'ospite?",
+          "options": [
+            "Il rumore della strada",
+            "Il riscaldamento guasto",
+            "La camera troppo piccola",
+            "Il ritardo della colazione"
+          ],
+          "answer": 1,
+          "explanation": "The cleft sentence è il riscaldamento che non funziona names the real problem."
         },
         {
           "type": "sentence_build",
-          "id": "c1-03-l3-e09",
+          "id": "c1-03-l5-e06",
+          "stage": "practise",
           "instruction": "Metti le parole in ordine.",
           "translation": "It's here that I have to sign, right?",
           "tiles": [
@@ -574,49 +741,39 @@
             "dove",
             "a"
           ],
-          "explanation": "È qui che…: frase scissa con un complemento di luogo; vero? chiede conferma."
+          "explanation": "È + element + che + verb: è qui che devo firmare."
         },
         {
-          "type": "error_correction",
-          "id": "c1-03-l3-e10",
-          "instruction": "C'è un errore di accordo. Riscrivi la frase corretta.",
-          "sentence": "È stato i ragazzi a lasciare la porta aperta.",
+          "type": "transform",
+          "id": "c1-03-l5-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Mi preoccupa il costo.",
+          "cue": "Quello che…",
           "answers": [
-            "Sono stati i ragazzi a lasciare la porta aperta."
+            "Quello che mi preoccupa è il costo.",
+            "Ciò che mi preoccupa è il costo.",
+            "Quel che mi preoccupa è il costo."
           ],
-          "explanation": "Essere concorda con il soggetto plurale: sono stati i ragazzi."
+          "hint": "Quello che … è …",
+          "explanation": "Quello che + verb + è + the key information."
         },
         {
-          "type": "listen_choose",
-          "id": "c1-03-l3-e11",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Scusi, ma non è il rumore della strada che mi dà fastidio: è il riscaldamento che non funziona. Ho freddo da ieri sera.",
-          "question": "Qual è il vero problema dell'ospite?",
-          "options": [
-            "Il rumore della strada",
-            "Il riscaldamento guasto",
-            "La camera troppo piccola",
-            "Il ritardo della colazione"
+          "type": "gap_fill",
+          "id": "c1-03-l5-e08",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "C'è una cosa ___ non mi torna in questa bolletta.",
+          "answers": [
+            "che"
           ],
-          "answer": 1,
-          "explanation": "Non è il rumore che mi dà fastidio: è il riscaldamento che non funziona – la frase scissa corregge un malinteso."
-        },
-        {
-          "type": "speak_respond",
-          "id": "c1-03-l3-e12",
-          "instruction": "Rispondi ad alta voce con una frase scissa.",
-          "prompt": "Un collega pensa che tu abbia dimenticato la riunione, ma in realtà è stato il capo a spostarla a domani. Correggilo.",
-          "keywords": [
-            "non sono stato io",
-            "è stato il capo"
-          ],
-          "modelAnswer": "No, guarda, non sono stato io a dimenticarla: è stato il capo a spostarla a domani.",
-          "explanation": "Non sono stato io a…, è stato il capo a…: correggi il malinteso mettendo in evidenza il soggetto."
+          "explanation": "C'è + noun + che introduces something new."
         },
         {
           "type": "roleplay",
-          "id": "c1-03-l3-e13",
-          "instruction": "Telefoni al proprietario di casa. Rispondi ad alta voce quando tocca a te (Lei).",
+          "id": "c1-03-l5-e09",
+          "stage": "use",
+          "instruction": "Parla con il padrone di casa. Rispondi ad alta voce quando tocca a te.",
           "scenario": "Your washing machine is leaking. Call your landlord, Mr Bassi: explain exactly what the problem is (and isn't), and ask who pays for the repair.",
           "turns": [
             {
@@ -626,7 +783,7 @@
             {
               "speaker": "you",
               "text": "Buongiorno, signor Bassi. La chiamo per la lavatrice: non è che si sia rotta, è lo scarico che perde.",
-              "hint": "Non è che + congiuntivo; then è … che to say what the real problem is.",
+              "hint": "Non è che + congiuntivo; then è … che.",
               "keywords": [
                 "non è che",
                 "è lo scarico"
@@ -671,15 +828,7 @@
                 "glielo"
               ]
             }
-          ],
-          "explanation": "Hai usato non è che + congiuntivo, la frase scissa (è lo scarico che perde, è stato il vicino a…) e la pseudoscissa (quello che vorrei sapere è…)."
-        },
-        {
-          "type": "flashcard",
-          "id": "c1-03-l3-e14",
-          "front": "Non è che…?",
-          "back": "You wouldn't happen to…? / It's not that…",
-          "example": "Non è che hai visto le mie chiavi?"
+          ]
         }
       ]
     }
@@ -775,92 +924,93 @@
     {
       "id": "c1-03-t1",
       "rule": "Oggetto all'inizio? Riprendilo",
-      "tip": "Se l'oggetto va all'inizio serve il pronome: «Il caffè lo prendo amaro», non «Il caffè prendo amaro».",
+      "tip": "If the object comes first, repeat it with a pronoun: «Il caffè lo prendo amaro».",
       "example": {
-        "it": "Il pane lo compro io.",
-        "en": "I'll buy the bread."
+        "it": "Il caffè lo prendo amaro.",
+        "en": "I take my coffee black."
       },
       "challenge": {
         "type": "gap_fill",
-        "instruction": "Completa con il pronome.",
-        "sentence": "La macchina ___ porto dal meccanico domani.",
+        "instruction": "Completa.",
+        "sentence": "Il giornale ___ compro ogni mattina.",
         "answers": [
-          "la"
+          "lo"
         ]
       }
     },
     {
       "id": "c1-03-t2",
       "rule": "Lo/la ripresi: accordo",
-      "tip": "Con lo/la/li/le prima del verbo il participio concorda: «Le chiavi le ho lasciate a casa».",
+      "tip": "With lo/la/li/le before the verb the participle agrees: «Le chiavi le ho lasciate».",
       "example": {
-        "it": "Le bollette le ho pagate ieri.",
-        "en": "I paid the bills yesterday."
+        "it": "Le chiavi le ho lasciate a casa.",
+        "en": "I left the keys at home."
       },
       "challenge": {
         "type": "gap_fill",
         "instruction": "Completa con il participio.",
-        "sentence": "La lettera l'ho ___ (spedire) ieri.",
+        "sentence": "Le bollette le ho già ___ (pagare).",
         "answers": [
-          "spedita"
+          "pagate"
         ]
       }
     },
     {
       "id": "c1-03-t3",
       "rule": "Ce l'hai? Ce le hai?",
-      "tip": "Avere nel parlato: ce l'ho / ce l'hai (lo, la), ce li ho / ce le ho (li, le). «Ce le hai, le chiavi?»",
+      "tip": "Spoken avere: ce l'ho / ce l'hai (lo, la), ce li ho / ce le ho (li, le).",
       "example": {
-        "it": "– Ce l'hai la tessera? – Sì, ce l'ho.",
-        "en": "– Have you got the card? – Yes, I have."
+        "it": "Ce le hai, le chiavi?",
+        "en": "Have you got the keys?"
       },
       "challenge": {
         "type": "multiple_choice",
-        "instruction": "Scegli la forma giusta.",
-        "prompt": "I documenti? Sì, ___ ho qui.",
+        "instruction": "Scegli.",
+        "prompt": "___, la tessera sanitaria?",
         "options": [
-          "ce l'",
-          "ce li",
-          "ce le",
-          "ce ne"
+          "Ce l'hai",
+          "Ce le hai",
+          "Ci hai",
+          "Ne hai"
         ],
-        "answer": 1
+        "answer": 0,
+        "explanation": "La tessera is feminine singular: ce l'hai."
       }
     },
     {
       "id": "c1-03-t4",
       "rule": "È stato lui a…",
-      "tip": "Per evidenziare il soggetto: essere + soggetto + a + infinito. «È stato il medico a consigliarmelo.»",
+      "tip": "To highlight the subject: essere + subject + a + infinitive. «È stato il medico a consigliarmelo.»",
       "example": {
-        "it": "Sono stati i vicini a chiamarmi.",
-        "en": "It was the neighbours who called me."
+        "it": "Sono stati i vicini a chiamare l'ambulanza.",
+        "en": "It was the neighbours who called the ambulance."
       },
       "challenge": {
-        "type": "translate",
-        "instruction": "Traduci con una frase scissa.",
-        "direction": "en_it",
-        "source": "It was Marco who paid.",
+        "type": "transform",
+        "instruction": "Riscrivi.",
+        "source": "Il capo ha spostato la riunione.",
+        "cue": "È stato…",
         "answers": [
-          "È stato Marco a pagare.",
-          "È stato Marco che ha pagato."
+          "È stato il capo a spostare la riunione.",
+          "È stato il capo a spostare la riunione"
         ]
       }
     },
     {
       "id": "c1-03-t5",
       "rule": "A me mi piace?",
-      "tip": "«A me mi piace» è diffuso nel parlato, ma nello scritto curato scrivi «A me piace» oppure «Mi piace».",
+      "tip": "«A me mi piace» is common in speech; in careful writing use «A me piace» or «Mi piace».",
       "example": {
-        "it": "A me piace molto questa città.",
-        "en": "I really like this city."
+        "it": "A me piace il caffè amaro.",
+        "en": "I like my coffee black."
       },
       "challenge": {
         "type": "error_correction",
-        "instruction": "Correggi per lo scritto curato.",
-        "sentence": "A me mi sembra una buona idea.",
+        "instruction": "Correggi.",
+        "sentence": "A me mi piace molto questa città.",
         "answers": [
-          "A me sembra una buona idea.",
-          "Mi sembra una buona idea."
+          "A me piace molto questa città.",
+          "Mi piace molto questa città."
         ]
       }
     }

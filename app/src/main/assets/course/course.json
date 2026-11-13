@@ -2,10 +2,16 @@
   "version": 1,
   "levels": [
     {
-      "id": "A2R",
-      "title": "Ripasso A2",
-      "description": "Remedial refreshers of core A2 grammar, to revisit whenever a B1 unit feels shaky.",
-      "remedial": true
+      "id": "A1",
+      "title": "A1 – Principiante",
+      "description": "First steps: introduce yourself, order, ask the way, talk about your day and what you like.",
+      "foundation": true
+    },
+    {
+      "id": "A2",
+      "title": "A2 – Elementare",
+      "description": "Talk about the past, use pronouns and prepositions, make plans and compare. Open any time as a refresher.",
+      "foundation": true
     },
     {
       "id": "B1",
@@ -30,58 +36,184 @@
   ],
   "units": [
     {
+      "id": "a1-01",
+      "level": "A1",
+      "order": 1,
+      "title": "Ciao, sono…",
+      "summary": "Greetings, essere and the alphabet to introduce yourself and spell your name.",
+      "available": true,
+      "module": "a1-m1"
+    },
+    {
+      "id": "a1-02",
+      "level": "A1",
+      "order": 2,
+      "title": "Un caffè e due cornetti",
+      "summary": "Noun gender and number with definite and indefinite articles.",
+      "available": true,
+      "module": "a1-m1"
+    },
+    {
+      "id": "a1-03",
+      "level": "A1",
+      "order": 3,
+      "title": "Che cosa fai?",
+      "summary": "Regular -are verbs in the present to talk about work, study and everyday actions.",
+      "available": true,
+      "module": "a1-m1"
+    },
+    {
+      "id": "a1-04",
+      "level": "A1",
+      "order": 4,
+      "title": "La mia giornata",
+      "summary": "Regular -ere and -ire verbs (including -isc-) and telling the time to describe your day.",
+      "available": true,
+      "module": "a1-m1"
+    },
+    {
+      "id": "a1-05",
+      "level": "A1",
+      "order": 5,
+      "title": "Al bar e al mercato",
+      "summary": "Numbers, prices, vorrei and quanto costa to order and shop.",
+      "available": true,
+      "module": "a1-m2"
+    },
+    {
+      "id": "a1-06",
+      "level": "A1",
+      "order": 6,
+      "title": "Dov'è la stazione?",
+      "summary": "C'è / ci sono, simple prepositions and directions to find places in town.",
+      "available": true,
+      "module": "a1-m2"
+    },
+    {
+      "id": "a1-07",
+      "level": "A1",
+      "order": 7,
+      "title": "Vado, faccio, vengo",
+      "summary": "The key irregular verbs: andare, fare, venire, avere, volere, potere, dovere, uscire.",
+      "available": true,
+      "module": "a1-m2"
+    },
+    {
+      "id": "a1-08",
+      "level": "A1",
+      "order": 8,
+      "title": "Mi piace!",
+      "summary": "Piacere, adverbs of frequency and free time.",
+      "available": true,
+      "module": "a1-m3"
+    },
+    {
+      "id": "a1-09",
+      "level": "A1",
+      "order": 9,
+      "title": "La mia famiglia",
+      "summary": "Possessive adjectives with family words, and describing people.",
+      "available": true,
+      "module": "a1-m3"
+    },
+    {
+      "id": "a1-10",
+      "level": "A1",
+      "order": 10,
+      "title": "Ripasso A1",
+      "summary": "A1 checkpoint: introduce yourself, order, ask the way and talk about your week.",
+      "available": true,
+      "module": "a1-m3"
+    },
+    {
       "id": "a2r-01",
-      "level": "A2R",
+      "level": "A2",
       "order": 1,
       "title": "Il passato prossimo",
       "summary": "Passato prossimo with avere or essere, irregular participles and agreement, to say what you did yesterday or last weekend.",
       "available": true,
-      "module": "a2r-m1"
+      "module": "a2-m1"
     },
     {
       "id": "a2r-02",
-      "level": "A2R",
+      "level": "A2",
       "order": 2,
       "title": "L'imperfetto",
       "summary": "Imperfetto forms and core uses (habits, descriptions, background) to describe how things used to be.",
       "available": true,
-      "module": "a2r-m1"
+      "module": "a2-m1"
+    },
+    {
+      "id": "a2-01",
+      "level": "A2",
+      "order": 3,
+      "title": "Che cosa stai facendo?",
+      "summary": "Stare + gerundio and stare per to say what is happening now or about to happen.",
+      "available": true,
+      "module": "a2-m1"
     },
     {
       "id": "a2r-03",
-      "level": "A2R",
-      "order": 3,
+      "level": "A2",
+      "order": 4,
       "title": "Preposizioni articolate",
       "summary": "Articles and articulated prepositions (al, nel, dal, sul…) to say where things are and how to get somewhere.",
       "available": true,
-      "module": "a2r-m1"
+      "module": "a2-m2"
     },
     {
       "id": "a2r-04",
-      "level": "A2R",
-      "order": 4,
+      "level": "A2",
+      "order": 5,
       "title": "Pronomi diretti e indiretti",
       "summary": "Direct and indirect object pronouns (lo, la, gli, le…) to handle everyday shopping and service exchanges.",
       "available": true,
-      "module": "a2r-m1"
+      "module": "a2-m2"
     },
     {
       "id": "a2r-05",
-      "level": "A2R",
-      "order": 5,
+      "level": "A2",
+      "order": 6,
       "title": "La giornata e i riflessivi",
       "summary": "Reflexive verbs in the present and passato prossimo to describe daily routines.",
       "available": true,
-      "module": "a2r-m1"
+      "module": "a2-m2"
     },
     {
       "id": "a2r-06",
-      "level": "A2R",
-      "order": 6,
+      "level": "A2",
+      "order": 7,
       "title": "Futuro e confronti",
       "summary": "Futuro semplice plus comparatives and superlatives to talk about plans and compare options.",
       "available": true,
-      "module": "a2r-m1"
+      "module": "a2-m3"
+    },
+    {
+      "id": "a2-02",
+      "level": "A2",
+      "order": 8,
+      "title": "Mi piacerebbe…",
+      "summary": "Piacere in the past and mi piacerebbe / vorrei to talk about tastes and wishes.",
+      "available": true,
+      "module": "a2-m3"
+    },
+    {
+      "id": "a2-03",
+      "level": "A2",
+      "order": 9,
+      "title": "Fai così!",
+      "summary": "The informal imperative (tu, voi, noi) with and without pronouns to give friendly instructions.",
+      "available": true,
+      "module": "a2-m3"
+    },
+    {
+      "id": "a2-04",
+      "level": "A2",
+      "order": 10,
+      "title": "Ripasso A2",
+      "summary": "A2 checkpoint: talk about the past, plans and preferences in everyday situations.",
+      "available": true,
+      "module": "a2-m3"
     },
     {
       "id": "b1-01",
@@ -472,10 +604,40 @@
   ],
   "modules": [
     {
-      "id": "a2r-m1",
-      "level": "A2R",
-      "title": "Ripasso A2",
-      "description": "Refreshers to revisit whenever a B1 unit feels shaky."
+      "id": "a1-m1",
+      "level": "A1",
+      "title": "Primi passi",
+      "description": "Introduce yourself; nouns, articles and the present tense."
+    },
+    {
+      "id": "a1-m2",
+      "level": "A1",
+      "title": "Vita quotidiana",
+      "description": "Cafés, shops, places and the most useful irregular verbs."
+    },
+    {
+      "id": "a1-m3",
+      "level": "A1",
+      "title": "Gusti e famiglia",
+      "description": "Piacere, possessives and the A1 checkpoint."
+    },
+    {
+      "id": "a2-m1",
+      "level": "A2",
+      "title": "Il passato",
+      "description": "Passato prossimo, imperfetto and stare + gerundio."
+    },
+    {
+      "id": "a2-m2",
+      "level": "A2",
+      "title": "Persone e cose",
+      "description": "Articulated prepositions, pronouns and reflexive verbs."
+    },
+    {
+      "id": "a2-m3",
+      "level": "A2",
+      "title": "Progetti e gusti",
+      "description": "Future, comparisons, mi piacerebbe, the informal imperative and the A2 checkpoint."
     },
     {
       "id": "b1-m1",

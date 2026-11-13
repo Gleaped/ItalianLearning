@@ -2,8 +2,10 @@
   "id": "b1-02",
   "level": "B1",
   "title": "Ci e ne",
+  "format": 2,
+  "module": "b1-m1",
   "objective": "By the end you can talk about where you go and how much you need at the market, in shops and at home, using ci for places and ne for quantities without repeating words.",
-  "grammarFocus": "Ci of place (ci vado, ci sono stato); ne with quantities and participle agreement (ne ho comprate due); volerci vs metterci; ci and ne with verbs + a / di (pensarci, averne bisogno, che ne pensi?).",
+  "grammarFocus": "Ci of place; ne with quantities and participle agreement; volerci vs metterci; ci and ne with verbs + a / di (pensarci, averne bisogno, che ne pensi?).",
   "remedialUnitIds": [
     "a2r-03",
     "a2r-04"
@@ -12,11 +14,14 @@
     {
       "id": "b1-02-l1",
       "title": "Ci vado domani",
-      "minutes": 10,
+      "minutes": 7,
+      "goal": "You can say where you go or have been without repeating the place.",
+      "takeaway": "Ci replaces a, in, da or su + a place already mentioned, and goes before the verb.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "b1-02-l1-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: scegli la preposizione giusta.",
           "prompt": "Il sabato mattina vado sempre ___ mercato.",
           "options": [
@@ -26,48 +31,47 @@
             "dal"
           ],
           "answer": 0,
-          "explanation": "Places like il mercato, il cinema, il bar take a + article: al mercato, al cinema."
+          "explanation": "Andare + a + il mercato becomes al mercato."
         },
         {
-          "type": "gap_fill",
+          "type": "grammar_note",
           "id": "b1-02-l1-e02",
-          "instruction": "Riscaldamento: completa con il passato prossimo.",
-          "sentence": "Ieri pomeriggio io ___ (andare) in centro a piedi.",
-          "answers": [
-            "sono andato",
-            "sono andata"
-          ],
-          "hint": "andare – io",
-          "explanation": "Andare takes essere; the participle agrees with the subject (masculine here)."
+          "stage": "learn",
+          "title": "Ci = lì, in quel posto",
+          "body": "Once a place is clear, replace it with **ci** (*there*). It stands for a, in, da or su + place.\n\n| domanda | risposta |\n|---|---|\n| Vai in palestra? | Sì, ==ci== vado il lunedì. |\n| Sei stato a Napoli? | Sì, ==ci== sono stato. |\n| Vai dal medico? | Sì, ==ci== vado domani. |\n\n> English drops *there*. Italian keeps **ci** with *andare*.",
+          "examples": [
+            {
+              "it": "Al mercato ci vado il sabato, quando c'è più scelta.",
+              "en": "I go to the market on Saturdays, when there is more choice."
+            },
+            {
+              "it": "Conosci Bologna? – Sì, ci abito da due anni.",
+              "en": "Do you know Bologna? – Yes, I have lived there for two years."
+            }
+          ]
         },
         {
           "type": "grammar_note",
           "id": "b1-02-l1-e03",
-          "title": "Ci = lì, in quel posto",
-          "body": "In Italian you don't keep repeating a place. Once it's clear, replace it with **ci** (= there).\n\n**Ci** replaces *a / in / da / su* + place:\n- *Vai in palestra?* – Sì, **ci** vado il lunedì.\n- *Sei mai stato a Napoli?* – Sì, **ci** sono stato l'anno scorso.\n- *Vai dal medico?* – Sì, **ci** vado domani.\n\n**Position:**\n- before the conjugated verb: **ci** vado, non **ci** vado, **ci** sono andato\n- with dovere / potere / volere: **ci** devo andare = devo andar**ci** (both are correct)\n- **ci** becomes **c'** before *è*, *era*: *c'è*, *c'era*\n\nEnglish often drops *there* (*I go on Mondays*), but Italian usually keeps **ci** with *andare*: *Ci vado il lunedì.*",
+          "stage": "learn",
+          "title": "Dove va ci?",
+          "body": "**Ci** goes before the conjugated verb. With dovere, potere or volere you have two choices.\n\n| situazione | esempio |\n|---|---|\n| presente | ==Ci== vado. Non ==ci== vado. |\n| passato prossimo | ==Ci== sono andato. |\n| con modale | ==Ci== devo andare = Devo andar==ci==. |\n| con essere | ==C'==è, ==c'==era |\n\n> Never *vado ci*. Put ci in front.",
           "examples": [
-            {
-              "it": "Al mercato ci vado il sabato, quando c'è più scelta.",
-              "en": "I go to the market on Saturdays, when there's more choice."
-            },
-            {
-              "it": "Conosci Bologna? – Sì, ci abito da due anni.",
-              "en": "Do you know Bologna? – Yes, I've been living there for two years."
-            },
             {
               "it": "In posta? Ci devo andare domani mattina.",
               "en": "The post office? I have to go there tomorrow morning."
             },
             {
               "it": "Non ci sono mai stato.",
-              "en": "I've never been there."
+              "en": "I have never been there."
             }
           ]
         },
         {
           "type": "multiple_choice",
           "id": "b1-02-l1-e04",
-          "instruction": "Scegli la risposta giusta.",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
           "prompt": "Vai spesso in palestra? – Sì, ___ tre volte a settimana.",
           "options": [
             "ci vado",
@@ -76,21 +80,23 @@
             "lo vado"
           ],
           "answer": 0,
-          "explanation": "Ci replaces in palestra and goes before the verb."
+          "explanation": "Ci replaces in palestra and goes before the verb: ci vado."
         },
         {
           "type": "gap_fill",
           "id": "b1-02-l1-e05",
+          "stage": "practise",
           "instruction": "Completa con ci.",
           "sentence": "Sei mai stato in Sicilia? – Sì, ___ sono stato due anni fa.",
           "answers": [
             "ci"
           ],
-          "explanation": "Ci sono stato = I've been there. Ci goes before the auxiliary."
+          "explanation": "Ci replaces in Sicilia before sono stato."
         },
         {
           "type": "sentence_build",
           "id": "b1-02-l1-e06",
+          "stage": "practise",
           "instruction": "Metti le parole in ordine.",
           "translation": "I have to go there tomorrow.",
           "tiles": [
@@ -103,39 +109,38 @@
             "ne",
             "andarci"
           ],
-          "explanation": "Ci goes before the modal verb: ci devo andare. Devo andarci is also correct."
+          "explanation": "Ci goes before the modal verb devo."
         },
         {
           "type": "error_correction",
           "id": "b1-02-l1-e07",
+          "stage": "practise",
           "instruction": "C'è un errore. Riscrivi la frase corretta.",
           "sentence": "Vado ci domani mattina.",
           "answers": [
             "Ci vado domani mattina.",
-            "Domani mattina ci vado.",
-            "Ci vado domattina."
+            "Domani mattina ci vado."
           ],
-          "explanation": "Ci goes before a conjugated verb, never after it."
+          "explanation": "Ci goes before the conjugated verb: ci vado."
         },
         {
-          "type": "translate",
+          "type": "transform",
           "id": "b1-02-l1-e08",
-          "instruction": "Traduci in italiano.",
-          "direction": "en_it",
-          "source": "We went there by train.",
+          "stage": "practise",
+          "instruction": "Sostituisci il luogo con ci.",
+          "source": "Vado in palestra il lunedì.",
+          "cue": "→ con ci",
           "answers": [
-            "Ci siamo andati in treno.",
-            "Ci siamo andate in treno.",
-            "Noi ci siamo andati in treno.",
-            "Noi ci siamo andate in treno.",
-            "Ci siamo andati col treno.",
-            "Ci siamo andati con il treno."
+            "Ci vado il lunedì.",
+            "Il lunedì ci vado."
           ],
-          "explanation": "Ci + essere: ci siamo andati. Masculine plural if the group includes a man."
+          "explanation": "Ci replaces in palestra and sits before the verb.",
+          "hint": "in palestra → ci"
         },
         {
           "type": "listen_choose",
           "id": "b1-02-l1-e09",
+          "stage": "practise",
           "instruction": "Ascolta e rispondi.",
           "audioText": "Hai bisogno delle medicine per la nonna? Non ti preoccupare, in farmacia ci passo io dopo il lavoro. Tanto ci vado tutti i giorni, è proprio sotto l'ufficio.",
           "question": "Che cosa farà chi parla?",
@@ -146,72 +151,64 @@
             "Comprerà le medicine domani mattina."
           ],
           "answer": 0,
-          "explanation": "Ci passo io = I'll stop by there (in farmacia). Ci vado means the speaker goes."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-02-l1-e10",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Al mercato ci vado il sabato mattina, quando c'è più scelta.",
-          "translation": "I go to the market on Saturday mornings, when there's more choice."
+          "explanation": "In farmacia ci passo io: ci stands for in farmacia."
         },
         {
           "type": "speak_respond",
-          "id": "b1-02-l1-e11",
+          "id": "b1-02-l1-e10",
+          "stage": "use",
           "instruction": "Rispondi ad alta voce in 2–3 frasi.",
           "prompt": "Dove fai la spesa di solito: al mercato, al supermercato o nei negozi sotto casa? Quando ci vai e come ci vai?",
           "keywords": [
             "ci vado",
             "di solito"
           ],
-          "modelAnswer": "Di solito faccio la spesa al supermercato vicino a casa. Ci vado il venerdì sera, a piedi. Al mercato invece ci vado solo il sabato, quando ho più tempo.",
-          "explanation": "Ci vado / ci sono stato: once the place is known, replace it with ci."
-        },
-        {
-          "type": "flashcard",
-          "id": "b1-02-l1-e12",
-          "front": "fare un salto (in / da)",
-          "back": "to pop over (to)",
-          "example": "Faccio un salto in panetteria: ci metto cinque minuti."
+          "modelAnswer": "Di solito faccio la spesa al supermercato vicino a casa. Ci vado il venerdì sera, a piedi. Al mercato invece ci vado solo il sabato, quando ho più tempo."
         }
       ]
     },
     {
       "id": "b1-02-l2",
       "title": "Quanti ne vuole?",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can say how many or how much you want of something already mentioned.",
+      "takeaway": "Ne stands for a quantity of something already mentioned: Ne vorrei due etti.",
       "exercises": [
         {
           "type": "gap_fill",
           "id": "b1-02-l2-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: completa con ci.",
           "sentence": "Stasera andiamo al cinema. Vieni anche tu? – Sì, ___ vengo volentieri!",
           "answers": [
             "ci"
           ],
-          "explanation": "Ci = al cinema. With venire it works just like andare."
+          "explanation": "Ci replaces al cinema."
         },
         {
-          "type": "flashcard",
+          "type": "grammar_note",
           "id": "b1-02-l2-e02",
-          "front": "un etto",
-          "back": "100 grams",
-          "example": "Mi dà due etti di prosciutto crudo, per favore?"
+          "stage": "learn",
+          "title": "Ne con le quantità",
+          "body": "**Ne** means *of it* or *of them*. Keep the quantity word and add **ne** before the verb.\n\n| domanda | risposta |\n|---|---|\n| Quante mele vuole? | ==Ne== vorrei un chilo. |\n| Hai degli spiccioli? | Sì, ==ne== ho un po'. |\n| Quanti caffè bevi? | ==Ne== bevo tre. / Non ==ne== bevo nessuno. |\n\n> English often says nothing; Italian must say **ne**.",
+          "examples": [
+            {
+              "it": "Di pane ne vorrei mezzo chilo.",
+              "en": "I would like half a kilo of bread."
+            },
+            {
+              "it": "Hai delle buste? – Sì, ne ho due.",
+              "en": "Have you got any bags? – Yes, I have two."
+            }
+          ]
         },
         {
           "type": "grammar_note",
           "id": "b1-02-l2-e03",
-          "title": "Ne con le quantità",
-          "body": "**Ne** means *of it / of them*. Use it when you give a **quantity** of something already mentioned: Italian must say *ne*, even when English says nothing.\n\n- *Quante mele vuole?* – **Ne** vorrei **un chilo**.\n- *Hai degli spiccioli?* – Sì, **ne** ho **un po'**.\n- *Quanti caffè bevi?* – **Ne** bevo **tre** al giorno. / **Non ne** bevo **nessuno**.\n\nKeep the quantity word (*un chilo, tre, un po', molti*) and put **ne** before the verb.\n\n**Passato prossimo:** the participle agrees with the noun that *ne* replaces:\n- *Mele?* **Ne** ho comprat**e** sei. / *Pomodori?* **Ne** ho comprat**i** due chili.\n\n**Careful:** with the whole amount (*tutto, tutti*) use lo / la / li / le, not ne: *Le uova? **Le** ho prese **tutte**.*",
+          "stage": "learn",
+          "title": "Ne e il participio; tutto = lo/la",
+          "body": "In the passato prossimo, the participle agrees with the noun **ne** replaces. For the **whole** amount use lo, la, li, le.\n\n| quantità | tutto |\n|---|---|\n| Mele? ==Ne== ho comprat==e== sei. | Le uova? ==Le== ho prese tutte. |\n| Pomodori? ==Ne== ho comprat==i== due chili. | Il latte? ==L'==ho bevuto tutto. |\n\n> Tutto or tutti means the whole thing: no ne.",
           "examples": [
-            {
-              "it": "Di pane ne vorrei mezzo chilo.",
-              "en": "I'd like half a kilo of bread."
-            },
-            {
-              "it": "Hai delle buste? – Sì, ne ho due.",
-              "en": "Have you got any bags? – Yes, I've got two."
-            },
             {
               "it": "Di pizze ne abbiamo ordinate quattro.",
               "en": "We ordered four pizzas."
@@ -225,7 +222,8 @@
         {
           "type": "multiple_choice",
           "id": "b1-02-l2-e04",
-          "instruction": "Scegli la risposta giusta.",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
           "prompt": "Quante mele vuole? – ___ vorrei un chilo.",
           "options": [
             "Ne",
@@ -234,108 +232,110 @@
             "Lo"
           ],
           "answer": 0,
-          "explanation": "A quantity (un chilo) of something already mentioned: ne."
+          "explanation": "A quantity (un chilo) of something already mentioned needs ne."
         },
         {
-          "type": "multiple_choice",
+          "type": "sort_buckets",
           "id": "b1-02-l2-e05",
-          "instruction": "Scegli la risposta giusta.",
-          "prompt": "Hai comprato le uova? – Sì, ___ ho comprate tutte.",
-          "options": [
-            "ne",
-            "le",
-            "ci",
-            "gli"
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "ne: una quantità",
+            "lo/la/li/le: tutto"
           ],
-          "answer": 1,
-          "explanation": "Tutte = the whole amount, so you use the direct pronoun le, not ne."
+          "items": [
+            {
+              "text": "Ne vorrei un chilo.",
+              "bucket": 0
+            },
+            {
+              "text": "Le ho prese tutte.",
+              "bucket": 1
+            },
+            {
+              "text": "Ne ho comprati tre.",
+              "bucket": 0
+            },
+            {
+              "text": "L'ho bevuto tutto.",
+              "bucket": 1
+            },
+            {
+              "text": "Ne bevo due al giorno.",
+              "bucket": 0
+            },
+            {
+              "text": "Li ho mangiati tutti.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Ne goes with a quantity or part; lo, la, li, le go with the whole thing."
         },
         {
-          "type": "gap_fill",
+          "type": "minimal_pair",
           "id": "b1-02-l2-e06",
-          "instruction": "Completa con il pronome giusto.",
-          "sentence": "Quanti caffè bevi al giorno? – ___ bevo tre.",
-          "answers": [
-            "ne"
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Ne ho mangiati due.",
+            "Li ho mangiati tutti."
           ],
-          "explanation": "Tre is a quantity of caffè, so ne is required."
+          "question": "Which sentence says you ate all of the biscuits?",
+          "answer": 1,
+          "translations": [
+            "I ate two of them.",
+            "I ate them all."
+          ],
+          "explanation": "Tutti means the whole amount, so li; two is a quantity, so ne."
         },
         {
           "type": "gap_fill",
           "id": "b1-02-l2-e07",
-          "instruction": "Completa con il participio passato. Attenzione all'accordo!",
+          "stage": "practise",
+          "instruction": "Completa con il pronome giusto.",
+          "sentence": "Quanti caffè bevi al giorno? – ___ bevo tre.",
+          "answers": [
+            "ne",
+            "Ne"
+          ],
+          "explanation": "A number (tre) of something already mentioned needs ne."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-02-l2-e08",
+          "stage": "practise",
+          "instruction": "Completa con il participio. Attenzione all'accordo!",
           "sentence": "Quante bottiglie d'acqua hai preso? – Ne ho ___ (prendere) sei.",
           "answers": [
             "prese"
           ],
-          "hint": "prendere – participio irregolare",
-          "explanation": "Ne replaces bottiglie (feminine plural), so the participle is prese."
+          "explanation": "With ne the participle agrees with the noun it replaces: bottiglie, so prese.",
+          "hint": "prendere – participio irregolare"
         },
         {
-          "type": "match_pairs",
-          "id": "b1-02-l2-e08",
-          "instruction": "Abbina domanda e risposta.",
-          "pairs": [
-            {
-              "left": "Quanti panini prendi?",
-              "right": "Ne prendo due."
-            },
-            {
-              "left": "Hai preso il pane?",
-              "right": "Sì, l'ho preso."
-            },
-            {
-              "left": "Vuole del formaggio?",
-              "right": "Sì, ne vorrei un etto."
-            },
-            {
-              "left": "Hai finito i biscotti?",
-              "right": "Sì, li ho mangiati tutti."
-            },
-            {
-              "left": "Hai degli spiccioli?",
-              "right": "No, non ne ho."
-            }
-          ],
-          "explanation": "Ne with a quantity; lo/la/li/le with the whole thing."
-        },
-        {
-          "type": "listen_transcribe",
+          "type": "transform",
           "id": "b1-02-l2-e09",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Di pomodori ne vorrei mezzo chilo, per favore.",
+          "stage": "practise",
+          "instruction": "Sostituisci le arance con ne.",
+          "source": "Ho comprato due chili di arance.",
+          "cue": "→ con ne",
           "answers": [
-            "Di pomodori ne vorrei mezzo chilo, per favore.",
-            "Di pomodori ne vorrei mezzo chilo per favore."
+            "Ne ho comprati due chili.",
+            "Ne ho comprate due chili."
           ],
-          "slow": false,
-          "explanation": "Di pomodori… ne: in speech the topic often comes first and ne repeats it."
-        },
-        {
-          "type": "translate",
-          "id": "b1-02-l2-e10",
-          "instruction": "Traduci in inglese.",
-          "direction": "it_en",
-          "source": "Ne ho comprati tre.",
-          "answers": [
-            "I bought three.",
-            "I bought three of them.",
-            "I've bought three.",
-            "I've bought three of them.",
-            "I have bought three.",
-            "I have bought three of them."
-          ],
-          "explanation": "Ne = of them. English often leaves it out."
+          "explanation": "Ne replaces di arance and the participle agrees with it (comprati/comprate).",
+          "hint": "Ne ho…"
         },
         {
           "type": "roleplay",
-          "id": "b1-02-l2-e11",
-          "instruction": "Al banco del mercato. Rispondi ad alta voce quando tocca a te.",
-          "scenario": "You're at a fruit and vegetable stall at the local market. Buy tomatoes and apples and pay.",
+          "id": "b1-02-l2-e10",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce quando tocca a te.",
+          "scenario": "You are at a fruit and vegetable stall at the local market. Buy tomatoes and apples and pay.",
           "turns": [
             {
               "speaker": "npc",
-              "text": "Buongiorno! Mi dica."
+              "text": "Buongiorno, {name}! Mi dica."
             },
             {
               "speaker": "you",
@@ -353,7 +353,7 @@
             {
               "speaker": "you",
               "text": "Ne vorrei mezzo chilo, per favore.",
-              "hint": "Say half a kilo – with ne.",
+              "hint": "Say half a kilo, with ne.",
               "keywords": [
                 "ne",
                 "mezzo chilo"
@@ -379,7 +379,7 @@
             {
               "speaker": "you",
               "text": "Sì, basta così, grazie. Quant'è?",
-              "hint": "That's all – ask how much.",
+              "hint": "That is all; ask how much.",
               "keywords": [
                 "basta così",
                 "quant'è"
@@ -389,26 +389,21 @@
               "speaker": "npc",
               "text": "Sono sei euro e venti. Grazie e buona giornata!"
             }
-          ],
-          "explanation": "Quanti ne vuole? → Ne vorrei… Every quantity of something already mentioned needs ne."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-02-l2-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Del prosciutto crudo? Sì, ne vorrei due etti, tagliato sottile.",
-          "translation": "Some prosciutto crudo? Yes, I'd like 200 grams, thinly sliced."
+          ]
         }
       ]
     },
     {
       "id": "b1-02-l3",
-      "title": "Ci vuole pazienza",
-      "minutes": 10,
+      "title": "Ci vuole o ci metto?",
+      "minutes": 7,
+      "goal": "You can say how long something takes, in general or for you.",
+      "takeaway": "Ci vuole / ci vogliono = it takes (impersonal); ci metto / ci mette = someone takes.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "b1-02-l3-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: scegli il pronome.",
           "prompt": "C'è ancora del pane? – Sì, ___ è rimasto un po'.",
           "options": [
@@ -418,23 +413,14 @@
             "l'"
           ],
           "answer": 0,
-          "explanation": "Un po' is a quantity, so ne."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-02-l3-e02",
-          "instruction": "Riscaldamento: completa con il participio passato.",
-          "sentence": "Quante pizze avete ordinato? – Ne abbiamo ___ (ordinare) quattro.",
-          "answers": [
-            "ordinate"
-          ],
-          "explanation": "Ne replaces pizze (feminine plural): ordinate."
+          "explanation": "A part (un po') of the bread: ne."
         },
         {
           "type": "grammar_note",
-          "id": "b1-02-l3-e03",
-          "title": "Volerci, metterci e i verbi con a / di",
-          "body": "**How long does it take?** Two verbs, two points of view:\n- **volerci** = *it takes* (impersonal, what is needed). It agrees with the thing needed and takes *essere*: ci **vuole** un'ora, ci **vogliono** due ore, ci **è voluta** mezz'ora.\n- **metterci** = *someone takes* (a person or vehicle is the subject): io ci **metto** venti minuti, l'autobus ci **mette** un'ora, ci **ho messo** tanto.\n\n**Ci and ne also replace ideas, not just places:**\n- verbs with **a** → **ci**: pensare a, credere a, riuscire a: *Hai pensato al regalo?* – No, non **ci** ho ancora pensato.\n- verbs with **di** → **ne**: parlare di, avere bisogno di, pensare di (opinion): *Hai bisogno della macchina?* – No, non **ne** ho bisogno.\n\nTwo very common questions: **Che ne pensi?** (what do you think of it?) and **Ci pensi tu?** (will you take care of it?).",
+          "id": "b1-02-l3-e02",
+          "stage": "learn",
+          "title": "Volerci e metterci",
+          "body": "Two verbs for *how long*. **Volerci** is impersonal and agrees with the time. **Metterci** has a person or vehicle as subject.\n\n| verbo | esempio |\n|---|---|\n| ==ci vuole== (singolare) | Ci vuole un'ora. |\n| ==ci vogliono== (plurale) | Ci vogliono due ore. |\n| ==ci è voluta== (passato) | Ci è voluta mezz'ora. |\n| ==ci metto== / ==ci mette== | Io ci metto venti minuti. L'autobus ci mette un'ora. |\n\n> Volerci takes essere, so the participle agrees: ci sono volute due ore.",
           "examples": [
             {
               "it": "Per arrivare in stazione ci vogliono venti minuti.",
@@ -443,20 +429,13 @@
             {
               "it": "Io a piedi ci metto un quarto d'ora.",
               "en": "It takes me a quarter of an hour on foot."
-            },
-            {
-              "it": "Ho visto il nuovo bar in piazza. Che ne pensi?",
-              "en": "I saw the new café in the square. What do you think of it?"
-            },
-            {
-              "it": "Il pane lo compro io, ci penso io.",
-              "en": "I'll buy the bread, I'll take care of it."
             }
           ]
         },
         {
           "type": "multiple_choice",
-          "id": "b1-02-l3-e04",
+          "id": "b1-02-l3-e03",
+          "stage": "practise",
           "instruction": "Scegli la forma giusta.",
           "prompt": "Per arrivare in stazione a piedi ___ venti minuti.",
           "options": [
@@ -466,11 +445,12 @@
             "ne vogliono"
           ],
           "answer": 0,
-          "explanation": "The subject is the time needed (venti minuti, plural): ci vogliono."
+          "explanation": "Venti minuti is plural and nobody is the subject: ci vogliono."
         },
         {
           "type": "multiple_choice",
-          "id": "b1-02-l3-e05",
+          "id": "b1-02-l3-e04",
+          "stage": "practise",
           "instruction": "Scegli la forma giusta.",
           "prompt": "Quanto tempo ___ per andare in ufficio?",
           "options": [
@@ -480,11 +460,12 @@
             "ci vogliono"
           ],
           "answer": 0,
-          "explanation": "A person (tu) is the subject: metterci → ci metti."
+          "explanation": "A person (tu) is the subject, so metterci: ci metti."
         },
         {
           "type": "conjugation",
-          "id": "b1-02-l3-e06",
+          "id": "b1-02-l3-e05",
+          "stage": "practise",
           "instruction": "Scrivi il presente di metterci.",
           "verb": "metterci",
           "tense": "presente",
@@ -500,46 +481,281 @@
             {
               "person": "lui/lei",
               "answer": "ci mette"
-            },
-            {
-              "person": "noi",
-              "answer": "ci mettiamo"
-            },
-            {
-              "person": "voi",
-              "answer": "ci mettete"
-            },
-            {
-              "person": "loro",
-              "answer": "ci mettono"
             }
           ],
-          "explanation": "Ci stays before every form: ci metto, ci metti… Metterci is used with a time expression."
+          "explanation": "Metterci is mettere with ci in front: ci metto, ci metti, ci mette."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "b1-02-l3-e06",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Ci vogliono venti minuti.",
+            "Ci metto venti minuti."
+          ],
+          "question": "Which sentence says how long it takes you personally?",
+          "answer": 1,
+          "translations": [
+            "It takes twenty minutes.",
+            "It takes me twenty minutes."
+          ],
+          "explanation": "Ci metto has a personal subject; ci vogliono is impersonal."
         },
         {
           "type": "gap_fill",
           "id": "b1-02-l3-e07",
+          "stage": "practise",
+          "instruction": "Completa con metterci.",
+          "sentence": "L'autobus ___ (metterci) mezz'ora per arrivare in centro.",
+          "answers": [
+            "ci mette"
+          ],
+          "explanation": "A vehicle is the subject, so metterci in the third person: ci mette.",
+          "hint": "metterci – lui/lei"
+        },
+        {
+          "type": "translate",
+          "id": "b1-02-l3-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "It takes me half an hour.",
+          "answers": [
+            "Ci metto mezz'ora.",
+            "Io ci metto mezz'ora.",
+            "Ci metto mezz'ora."
+          ],
+          "explanation": "A personal subject (me) means metterci: ci metto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-02-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Quanto tempo ci metti per andare al supermercato o al mercato più vicino? E con i mezzi pubblici, quanto ci vuole?",
+          "keywords": [
+            "ci metto",
+            "ci vogliono"
+          ],
+          "modelAnswer": "A piedi ci metto dieci minuti, quindi ci vado quasi sempre a piedi. Con l'autobus ci vogliono solo cinque minuti, ma bisogna aspettarlo e spesso è in ritardo."
+        }
+      ]
+    },
+    {
+      "id": "b1-02-l4",
+      "title": "Pensarci, parlarne",
+      "minutes": 8,
+      "goal": "You can use ci and ne for ideas: think about it, take care of it, talk about it.",
+      "takeaway": "Verbs with a take ci (pensarci); verbs with di take ne (parlarne, averne bisogno).",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-02-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con il participio.",
+          "sentence": "Quante pizze avete ordinato? – Ne abbiamo ___ (ordinare) quattro.",
+          "answers": [
+            "ordinate"
+          ],
+          "explanation": "With ne the participle agrees with the noun it replaces: pizze, so ordinate.",
+          "hint": "ordinare"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-02-l4-e02",
+          "stage": "learn",
+          "title": "Ci e ne per le idee",
+          "body": "Ci and ne also replace things that are not places. Look at the small word after the verb.\n\n| verbo + a → ==ci== | verbo + di → ==ne== |\n|---|---|\n| pensare a → ==Ci== penso. | parlare di → ==Ne== parliamo. |\n| credere a → Non ==ci== credo. | avere bisogno di → Non ==ne== ho bisogno. |\n| riuscire a → Non ==ci== riesco. | avere voglia di → ==Ne== ho voglia. |\n\n> Two common phrases: **Che ne pensi?** (what do you think of it?) and **Ci pensi tu?** (will you take care of it?).",
+          "examples": [
+            {
+              "it": "Hai pensato al regalo? – No, non ci ho ancora pensato.",
+              "en": "Have you thought about the gift? – No, I haven't thought about it yet."
+            },
+            {
+              "it": "Il pane lo compro io, ci penso io.",
+              "en": "I will buy the bread, I will take care of it."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b1-02-l4-e03",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "ci (verbo + a)",
+            "ne (verbo + di)"
+          ],
+          "items": [
+            {
+              "text": "Non ci ho ancora pensato.",
+              "bucket": 0
+            },
+            {
+              "text": "Ne parliamo domani.",
+              "bucket": 1
+            },
+            {
+              "text": "Non ci credo!",
+              "bucket": 0
+            },
+            {
+              "text": "Non ne ho bisogno.",
+              "bucket": 1
+            },
+            {
+              "text": "Non ci riesco.",
+              "bucket": 0
+            },
+            {
+              "text": "Ne ho voglia.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Verbs followed by a take ci; verbs followed by di take ne."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-02-l4-e04",
+          "stage": "practise",
           "instruction": "Completa con ci o ne.",
           "sentence": "Hai bisogno della macchina stasera? – No, non ___ ho bisogno, grazie.",
           "answers": [
             "ne"
           ],
-          "explanation": "Avere bisogno di → ne."
+          "explanation": "Avere bisogno di takes di, so the replacement is ne."
         },
         {
           "type": "gap_fill",
-          "id": "b1-02-l3-e08",
+          "id": "b1-02-l4-e05",
+          "stage": "practise",
           "instruction": "Completa con ci o ne.",
           "sentence": "Hai pensato al regalo per Luca? – No, non ___ ho ancora pensato.",
           "answers": [
             "ci"
           ],
-          "explanation": "Pensare a (qualcosa) → ci."
+          "explanation": "Pensare a takes a, so the replacement is ci."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-02-l4-e06",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Ho visto il nuovo bar in piazza. ___ pensi?",
+          "options": [
+            "Che ne",
+            "Che ci",
+            "Che lo",
+            "Che le"
+          ],
+          "answer": 0,
+          "explanation": "Pensare di (to have an opinion about) is ne: Che ne pensi?"
+        },
+        {
+          "type": "transform",
+          "id": "b1-02-l4-e07",
+          "stage": "practise",
+          "instruction": "Sostituisci con ne.",
+          "source": "Parliamo del problema domani.",
+          "cue": "→ con ne",
+          "answers": [
+            "Ne parliamo domani.",
+            "Domani ne parliamo."
+          ],
+          "explanation": "Parlare di takes ne, which goes before the verb.",
+          "hint": "del problema → ne"
+        },
+        {
+          "type": "translate",
+          "id": "b1-02-l4-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano (informale).",
+          "direction": "en_it",
+          "source": "What do you think of it?",
+          "answers": [
+            "Che ne pensi?",
+            "Cosa ne pensi?",
+            "Che cosa ne pensi?"
+          ],
+          "explanation": "Che ne pensi? uses ne for di + the thing you are asked about."
+        },
+        {
+          "type": "roleplay",
+          "id": "b1-02-l4-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce quando tocca a te.",
+          "scenario": "A colleague, Marco, asks you about a gift for another colleague. Use ci and ne.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Hai pensato al regalo per Luca?"
+            },
+            {
+              "speaker": "you",
+              "text": "Non ci ho ancora pensato. E tu?",
+              "hint": "Say you have not thought about it yet.",
+              "keywords": [
+                "non ci ho",
+                "pensato"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Io ho qualche idea. Che ne pensi di un buono per un ristorante?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mi sembra una bella idea. Ci pensi tu o ci penso io?",
+              "hint": "Say it is a nice idea and ask who takes care of it.",
+              "keywords": [
+                "ci pensi",
+                "ci penso"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ci penso io. Ne parliamo domani a pranzo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Va bene, ne parliamo domani. Grazie!",
+              "hint": "Agree to talk about it tomorrow.",
+              "keywords": [
+                "ne parliamo"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-02-l5",
+      "title": "Il mio quartiere",
+      "minutes": 8,
+      "goal": "You can describe your neighbourhood and your shopping with ci, ne and volerci.",
+      "takeaway": "Ci for places, ne for quantities, ci vuole for time: keep them before the verb.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-02-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il pronome.",
+          "prompt": "Vai spesso in palestra? – Sì, ___ vado ogni lunedì.",
+          "options": [
+            "ci",
+            "ne",
+            "lo",
+            "la"
+          ],
+          "answer": 0,
+          "explanation": "Ci replaces in palestra."
         },
         {
           "type": "reading",
-          "id": "b1-02-l3-e09",
-          "instruction": "Leggi il messaggio di Elena e rispondi alle domande.",
+          "id": "b1-02-l5-e02",
+          "stage": "practise",
+          "instruction": "Leggi il messaggio di Elena e rispondi.",
           "title": "Il mio nuovo quartiere",
           "passage": "Ciao Marco! Finalmente mi sono sistemata nel nuovo appartamento. Il quartiere è bellissimo e c'è tutto. Il mercato rionale è a due passi: ci vado il martedì e il venerdì, perché la frutta è freschissima e costa poco. Ieri ne ho comprati tre chili, ma ne ho già mangiata metà! Per il pane invece c'è un forno in fondo alla strada: ci ho trovato una focaccia buonissima. L'unico problema è il supermercato: è lontano e a piedi ci vogliono venti minuti. Per fortuna la mia vicina ha la macchina e ogni tanto mi ci porta. Quando vieni a trovarmi? Ne parliamo al telefono stasera?",
           "questions": [
@@ -574,46 +790,88 @@
               "answer": 2
             }
           ],
-          "explanation": "Notice how ci (al mercato, al forno) and ne (di frutta, di pane) avoid repeating words."
+          "explanation": "Ci vado = to the market; ne ho comprati tre chili = three kilos of the fruit; ci vogliono venti minuti = the time it takes."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-02-l5-e03",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Quante mele hai preso? – Ne ho preso sei.",
+          "answers": [
+            "Quante mele hai preso? – Ne ho prese sei.",
+            "Ne ho prese sei."
+          ],
+          "explanation": "With ne the participle agrees with the noun replaced: mele, so prese."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-02-l5-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Per fare il passaporto ___ almeno un mese.",
+          "options": [
+            "ci vuole",
+            "ci vogliono",
+            "ci metto",
+            "ci mette"
+          ],
+          "answer": 0,
+          "explanation": "Un mese is singular and impersonal: ci vuole."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-02-l5-e05",
+          "stage": "practise",
+          "instruction": "Completa con il pronome giusto.",
+          "sentence": "Il latte? ___ ho bevuto tutto.",
+          "answers": [
+            "L'",
+            "l'"
+          ],
+          "explanation": "The whole amount (tutto) takes lo, shortened to l' before ho, not ne."
         },
         {
           "type": "translate",
-          "id": "b1-02-l3-e10",
-          "instruction": "Traduci in italiano (informale).",
+          "id": "b1-02-l5-e06",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
           "direction": "en_it",
-          "source": "What do you think of it?",
+          "source": "I don't need it, thanks. (the car)",
           "answers": [
-            "Che ne pensi?",
-            "Cosa ne pensi?",
-            "Che cosa ne pensi?",
-            "Tu che ne pensi?",
-            "Tu cosa ne pensi?"
+            "Non ne ho bisogno, grazie.",
+            "Non ne ho bisogno."
           ],
-          "explanation": "Ne = of it/about it. Che ne pensi? is the everyday way to ask for an opinion."
+          "explanation": "Avere bisogno di takes ne: non ne ho bisogno."
         },
         {
-          "type": "speak_respond",
-          "id": "b1-02-l3-e11",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Quanto tempo ci metti per andare al supermercato o al mercato più vicino? E con i mezzi pubblici, quanto ci vuole?",
-          "keywords": [
-            "ci metto",
-            "ci vogliono"
+          "type": "listen_choose",
+          "id": "b1-02-l5-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Hai bisogno delle medicine per la nonna? Non ti preoccupare, in farmacia ci passo io dopo il lavoro. Tanto ci vado tutti i giorni.",
+          "question": "Dove va chi parla dopo il lavoro?",
+          "options": [
+            "In farmacia",
+            "In ufficio",
+            "Dalla nonna",
+            "Al mercato"
           ],
-          "modelAnswer": "A piedi ci metto dieci minuti, quindi ci vado quasi sempre a piedi. Con l'autobus ci vogliono solo cinque minuti, ma bisogna aspettarlo e spesso è in ritardo.",
-          "explanation": "Metterci for you (ci metto), volerci for the time in general (ci vogliono)."
+          "answer": 0,
+          "explanation": "Ci passo io = I will stop by there (the pharmacy)."
         },
         {
           "type": "free_write",
-          "id": "b1-02-l3-e12",
+          "id": "b1-02-l5-e08",
+          "stage": "use",
           "instruction": "Scrivi un messaggio.",
           "prompt": "Un amico italiano vuole sapere com'è la vita nel tuo quartiere. Scrivigli un messaggio (50–80 parole): dove fai la spesa, quando ci vai, quanto tempo ci metti, che cosa compri e in che quantità.",
           "minWords": 50,
           "checklist": [
-            "Ho usato ci al posto di un luogo già nominato (ci vado, ci sono andato).",
-            "Ho usato ne con una quantità (ne compro due chili, ne prendo un po').",
+            "Ho usato ci al posto di un luogo già nominato.",
+            "Ho usato ne con una quantità.",
             "Ho usato volerci o metterci per il tempo.",
-            "Ho controllato l'accordo del participio con ne (ne ho comprate…).",
+            "Ho controllato l'accordo del participio con ne.",
             "Ho chiuso con una domanda o un saluto."
           ],
           "modelAnswer": "Ciao Luca! Il mio quartiere è tranquillo e comodo. Per la spesa grande vado al supermercato: ci vado il venerdì sera e a piedi ci metto un quarto d'ora. La frutta però la compro al mercato, perché è più buona. Ci vado il sabato mattina e di solito ne prendo due o tre chili. C'è anche un forno sotto casa: ieri ci ho comprato del pane e ne ho già mangiato metà! E nel tuo quartiere come ti trovi?"
@@ -644,7 +902,7 @@
     },
     {
       "it": "la salumeria",
-      "en": "delicatessen (cold cuts, cheese)",
+      "en": "delicatessen",
       "example": "In salumeria ho preso due etti di prosciutto."
     },
     {
@@ -656,11 +914,6 @@
       "it": "mezzo chilo",
       "en": "half a kilo",
       "example": "Ne vorrei mezzo chilo, per favore."
-    },
-    {
-      "it": "la fetta",
-      "en": "slice",
-      "example": "Mi dà quattro fette di mortadella?"
     },
     {
       "it": "tagliato sottile",
@@ -699,12 +952,12 @@
     },
     {
       "it": "volerci (ci vuole / ci vogliono)",
-      "en": "to take (time, effort) – impersonal",
+      "en": "to take (time), impersonal",
       "example": "Ci vogliono venti minuti a piedi."
     },
     {
       "it": "metterci (ci metto)",
-      "en": "to take (time) – someone takes",
+      "en": "to take (time), someone takes",
       "example": "Ci metto mezz'ora per arrivare in ufficio."
     },
     {
@@ -721,6 +974,11 @@
       "it": "avere bisogno di (averne bisogno)",
       "en": "to need (to need it/some)",
       "example": "Ti serve la macchina? – No, non ne ho bisogno."
+    },
+    {
+      "it": "la fetta",
+      "en": "slice",
+      "example": "Mi dà quattro fette di mortadella?"
     }
   ],
   "grammarTips": [
@@ -798,26 +1056,6 @@
     },
     {
       "id": "b1-02-t5",
-      "rule": "Ci vuole o ci metto?",
-      "tip": "Ci vuole/vogliono = it takes (impersonal); ci metto/metti = I/you take (a person is the subject).",
-      "example": {
-        "it": "Ci vogliono due ore, ma io ci metto di meno.",
-        "en": "It takes two hours, but it takes me less."
-      },
-      "challenge": {
-        "type": "multiple_choice",
-        "prompt": "Per fare il passaporto ___ almeno un mese.",
-        "options": [
-          "ci vuole",
-          "ci vogliono",
-          "ci metto",
-          "ci mette"
-        ],
-        "answer": 0
-      }
-    },
-    {
-      "id": "b1-02-t6",
       "rule": "Pensarci, parlarne",
       "tip": "Verbs with a take ci (pensarci); verbs with di take ne (parlarne, averne bisogno).",
       "example": {

@@ -85,7 +85,7 @@ fun CourseMapScreen(onOpenLevel: (String) -> Unit, onOpenUnit: (String) -> Unit)
                 onClick = { onOpenLevel(level.id) },
                 modifier = Modifier.fillMaxWidth(),
                 colors = CardDefaults.cardColors(
-                    containerColor = if (level.remedial || level.isExam) MaterialTheme.colorScheme.surfaceVariant else MaterialTheme.colorScheme.primaryContainer,
+                    containerColor = if (level.alwaysOpen || level.isExam) MaterialTheme.colorScheme.surfaceVariant else MaterialTheme.colorScheme.primaryContainer,
                 ),
             ) {
                 Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -98,7 +98,7 @@ fun CourseMapScreen(onOpenLevel: (String) -> Unit, onOpenUnit: (String) -> Unit)
                     }
                     Text(
                         when {
-                            level.remedial -> "Always open · ${refs.size} refreshers"
+                            level.alwaysOpen -> "Always open · $unitsDone of ${refs.size} units done"
                             level.isExam -> "Always open · ${refs.size} units"
                             else -> "$unitsDone of ${refs.size} units done"
                         },

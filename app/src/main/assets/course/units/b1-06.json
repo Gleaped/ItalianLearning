@@ -2,6 +2,8 @@
   "id": "b1-06",
   "level": "B1",
   "title": "Vorrei sapere…",
+  "format": 2,
+  "module": "b1-m2",
   "objective": "By the end you can make polite requests on the phone and at the counter, give friendly advice and talk about what you'd like to do, using the condizionale presente.",
   "grammarFocus": "Condizionale presente: regular and irregular forms (vorrei, potrei, andrei, berrei); polite requests (Potrebbe…? Mi saprebbe dire…? Le dispiacerebbe…?); advice (dovresti, al tuo posto, faresti meglio a); wishes (mi piacerebbe, avrei voglia di); softening (non saprei, direi).",
   "remedialUnitIds": [
@@ -10,8 +12,10 @@
   "lessons": [
     {
       "id": "b1-06-l1",
-      "title": "Vorrei un'informazione",
-      "minutes": 10,
+      "title": "Il condizionale: le forme",
+      "minutes": 7,
+      "goal": "You can build the condizionale presente of regular verbs (parlerei, prenderei, finirei).",
+      "takeaway": "Condizionale = infinitive stem + -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
       "exercises": [
         {
           "type": "multiple_choice",
@@ -25,46 +29,244 @@
             "accomodarsi"
           ],
           "answer": 0,
-          "explanation": "Accomodarsi → Lei: si accomodi (pronoun before the verb)."
+          "explanation": "Accomodarsi → Lei: si accomodi (pronoun before the verb).",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-06-l1-e02",
+          "title": "Il condizionale presente",
+          "body": "The **condizionale** means *would*. Drop the final **-e** of the infinitive and add the endings. In -are verbs, **a** becomes **e**.\n\n| persona | parlare | prendere |\n|---|---|---|\n| io | parl==erei== | prend==erei== |\n| tu | parl==eresti== | prend==eresti== |\n| lui/lei/Lei | parl==erebbe== | prend==erebbe== |\n| noi | parl==eremmo== | prend==eremmo== |\n| voi | parl==ereste== | prend==ereste== |\n| loro | parl==erebbero== | prend==erebbero== |\n\n> Keep the hard sound: *pagare → pagherei*.",
+          "examples": [
+            {
+              "it": "Io parlerei con il direttore.",
+              "en": "I would talk to the manager."
+            },
+            {
+              "it": "Noi prenderemmo un caffè.",
+              "en": "We would have a coffee."
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b1-06-l1-e03",
+          "instruction": "Futuro o condizionale? Scegli il gruppo.",
+          "buckets": [
+            "futuro",
+            "condizionale"
+          ],
+          "items": [
+            {
+              "text": "parlerò",
+              "bucket": 0
+            },
+            {
+              "text": "parlerei",
+              "bucket": 1
+            },
+            {
+              "text": "prenderà",
+              "bucket": 0
+            },
+            {
+              "text": "prenderebbe",
+              "bucket": 1
+            },
+            {
+              "text": "finiremo",
+              "bucket": 0
+            },
+            {
+              "text": "finiremmo",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Future: -ò, -à, -emo. Conditional: -ei, -ebbe, -emmo.",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-06-l1-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Io non ___ mai un prezzo così alto. (pagare)",
+          "options": [
+            "pagherei",
+            "pagarei",
+            "pagherò",
+            "pagheri"
+          ],
+          "answer": 0,
+          "explanation": "In -are verbs a becomes e, and the h keeps the hard g: pagherei.",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
-          "id": "b1-06-l1-e02",
+          "id": "b1-06-l1-e05",
+          "instruction": "Completa.",
+          "sentence": "Noi ___ (prendere) un caffè, se hai tempo.",
+          "answers": [
+            "prenderemmo"
+          ],
+          "explanation": "Noi form of the conditional: -emmo, with double m.",
+          "stage": "practise"
+        },
+        {
+          "type": "conjugation",
+          "id": "b1-06-l1-e06",
+          "instruction": "Scrivi il condizionale di parlare.",
+          "verb": "parlare",
+          "tense": "condizionale presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "parlerei"
+            },
+            {
+              "person": "tu",
+              "answer": "parleresti"
+            },
+            {
+              "person": "noi",
+              "answer": "parleremmo"
+            },
+            {
+              "person": "loro",
+              "answer": "parlerebbero"
+            }
+          ],
+          "explanation": "Stem parler- + -ei, -esti, -emmo, -ebbero.",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "id": "b1-06-l1-e07",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Parlo con il direttore.",
+          "cue": "→ condizionale (io)",
+          "answers": [
+            "Parlerei con il direttore.",
+            "Parlerei con il direttore"
+          ],
+          "explanation": "Io form of the conditional: parlerei.",
+          "hint": "parlare → parlerei",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-06-l1-e08",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Che cosa mangeresti volentieri stasera? Usa «mangerei» e «preferirei».",
+          "keywords": [
+            "mangerei",
+            "preferirei"
+          ],
+          "modelAnswer": "Stasera mangerei volentieri una pizza, ma preferirei qualcosa di leggero. Forse prenderei solo un po' di pasta e una macedonia.",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "b1-06-l2",
+      "title": "Vorrei, potrei, andrei",
+      "minutes": 8,
+      "goal": "You can use the most common irregular conditionals (vorrei, potrei, andrei, sarei).",
+      "takeaway": "Irregular stems are the same as in the future: sar-, avr-, andr-, potr-, dovr-, vorr-, verr-, berr-.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-06-l2-e01",
           "instruction": "Riscaldamento: completa con il futuro semplice.",
           "sentence": "Domani mattina ___ (andare) in banca a chiedere informazioni.",
           "answers": [
             "andrò"
           ],
           "hint": "andare – io",
-          "explanation": "Andare has a short future stem: andr-. The conditional uses the same stem."
+          "explanation": "Andare has a short future stem: andr-. The conditional uses the same stem.",
+          "stage": "warmup"
         },
         {
           "type": "grammar_note",
-          "id": "b1-06-l1-e03",
-          "title": "Il condizionale presente: forme",
-          "body": "The **condizionale** (*would*) is the key to sounding polite in Italian. It's built on the **same stem as the future**:\n\n- parlare → parle**r**- → parler**ei**, parler**esti**, parler**ebbe**, parler**emmo**, parler**este**, parler**ebbero**\n- prendere → prender**ei** / finire → finir**ei**\n- -are verbs change a → e: *parlare → parlerei, pagare → pagherei, cercare → cercherei*\n\n**Irregular stems (same as the future):**\n- essere → **sarei**, avere → **avrei**, fare → **farei**, dare → **darei**, stare → **starei**\n- andare → **andrei**, potere → **potrei**, dovere → **dovrei**, sapere → **saprei**, vedere → **vedrei**, vivere → **vivrei**\n- volere → **vorrei**, venire → **verrei**, bere → **berrei**, rimanere → **rimarrei**, tenere → **terrei**\n\nCareful: *noi* has **-emmo** (*potremmo*) – the future has *-emo* (*potremo*). The double m is the difference, so pronounce it clearly.",
+          "id": "b1-06-l2-e02",
+          "title": "Radici irregolari (1)",
+          "body": "These verbs lose a vowel. The endings stay the same.\n\n| infinitive | io | tu |\n|---|---|---|\n| essere | ==sar==ei | ==sar==esti |\n| avere | ==avr==ei | ==avr==esti |\n| andare | ==andr==ei | ==andr==esti |\n| potere | ==potr==ei | ==potr==esti |\n| dovere | ==dovr==ei | ==dovr==esti |\n| sapere | ==sapr==ei | ==sapr==esti |\n\n> *Fare, dare, stare* keep the a: *farei, darei, starei*.",
           "examples": [
             {
-              "it": "Vorrei un'informazione, per favore.",
-              "en": "I'd like some information, please."
+              "it": "Potrei avere il conto?",
+              "en": "Could I have the bill?"
             },
             {
-              "it": "Potrebbe parlare più piano?",
-              "en": "Could you speak more slowly?"
-            },
-            {
-              "it": "Mi saprebbe dire dov'è l'ufficio anagrafe?",
-              "en": "Could you tell me where the registry office is?"
-            },
-            {
-              "it": "Le dispiacerebbe chiudere la finestra?",
-              "en": "Would you mind closing the window?"
+              "it": "Andrei volentieri al mare.",
+              "en": "I'd gladly go to the seaside."
             }
-          ]
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-06-l2-e03",
+          "title": "Radici irregolari (2)",
+          "body": "These verbs double the **r**.\n\n| infinitive | io | noi |\n|---|---|---|\n| volere | ==vorr==ei | ==vorr==emmo |\n| venire | ==verr==ei | ==verr==emmo |\n| bere | ==berr==ei | ==berr==emmo |\n| rimanere | ==rimarr==ei | ==rimarr==emmo |\n\n> It is *vorrei*, never *vorrebbi*.",
+          "examples": [
+            {
+              "it": "Verrei volentieri, ma lavoro.",
+              "en": "I'd gladly come, but I'm working."
+            },
+            {
+              "it": "Vorrei un po' di tempo.",
+              "en": "I'd like a bit of time."
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "match_pairs",
+          "id": "b1-06-l2-e04",
+          "instruction": "Abbina l'infinito al condizionale (io).",
+          "pairs": [
+            {
+              "left": "essere",
+              "right": "sarei"
+            },
+            {
+              "left": "avere",
+              "right": "avrei"
+            },
+            {
+              "left": "andare",
+              "right": "andrei"
+            },
+            {
+              "left": "venire",
+              "right": "verrei"
+            },
+            {
+              "left": "volere",
+              "right": "vorrei"
+            }
+          ],
+          "explanation": "These irregular stems are the same as in the future.",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-06-l2-e05",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Che caldo! Io ___ volentieri un bicchiere d'acqua fresca.",
+          "options": [
+            "berrei",
+            "beverei",
+            "bevrei",
+            "berrò"
+          ],
+          "answer": 0,
+          "explanation": "Bere has the irregular stem berr-: berrei.",
+          "stage": "practise"
         },
         {
           "type": "conjugation",
-          "id": "b1-06-l1-e04",
+          "id": "b1-06-l2-e06",
           "instruction": "Scrivi il condizionale presente di potere.",
           "verb": "potere",
           "tense": "condizionale presente",
@@ -94,11 +296,103 @@
               "answer": "potrebbero"
             }
           ],
-          "explanation": "Stem potr- (as in the future). Noi: potremmo, with double m."
+          "explanation": "Stem potr- (as in the future). Noi: potremmo, with double m.",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-06-l2-e07",
+          "instruction": "Completa con il condizionale.",
+          "sentence": "Io al posto tuo ___ (andare) direttamente all'ufficio informazioni.",
+          "answers": [
+            "andrei"
+          ],
+          "explanation": "Andare → andrei (irregular stem andr-).",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-06-l2-e08",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Vorrebbi prenotare un tavolo per due, per stasera.",
+          "answers": [
+            "Vorrei prenotare un tavolo per due, per stasera.",
+            "Vorrei prenotare un tavolo per due per stasera.",
+            "Per stasera vorrei prenotare un tavolo per due."
+          ],
+          "explanation": "Volere has an irregular stem: vorr- → vorrei.",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-06-l2-e09",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Un collega ti invita a una festa, ma sabato sei impegnato. Rifiuta con gentilezza: «Verrei volentieri, ma…».",
+          "keywords": [
+            "verrei",
+            "vorrei",
+            "potrei"
+          ],
+          "modelAnswer": "Grazie dell'invito! Verrei volentieri, ma sabato ho un impegno di famiglia. Potrei passare più tardi, verso le undici.",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "b1-06-l3",
+      "title": "Vorrei un'informazione",
+      "minutes": 7,
+      "goal": "You can make polite requests at the counter and on the phone.",
+      "takeaway": "Vorrei + noun or infinitive; Potrebbe…? / Mi saprebbe dire…? / Sarebbe possibile…? ask politely.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-06-l3-e01",
+          "instruction": "Riscaldamento: completa con il condizionale.",
+          "sentence": "Noi non ___ (potere) venire sabato.",
+          "answers": [
+            "potremmo"
+          ],
+          "explanation": "Potere → potremmo: stem potr- + -emmo.",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-06-l3-e02",
+          "title": "Richieste cortesi",
+          "body": "The conditional **softens** a request. At a counter, *vorrei* is the standard way to ask.\n\n| to say | phrase |\n|---|---|\n| I'd like | ==Vorrei== un caffè. |\n| I'd like to know | ==Vorrei sapere== quanto costa. |\n| Could you…? | ==Potrebbe== ripetere? |\n| Could you tell me…? | Mi ==saprebbe== dire dov'è la posta? |\n| Would it be possible…? | ==Sarebbe possibile== spostare? |\n\n> *Voglio un caffè* sounds rude. Say *Vorrei*.",
+          "examples": [
+            {
+              "it": "Buongiorno, vorrei sapere se avete posti per sabato.",
+              "en": "Good morning, I would like to know if you have places for Saturday."
+            },
+            {
+              "it": "Mi saprebbe dire dov'è la posta?",
+              "en": "Could you tell me where the post office is?"
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "minimal_pair",
+          "id": "b1-06-l3-e03",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Voglio un caffè e un cornetto.",
+            "Vorrei un caffè e un cornetto."
+          ],
+          "question": "Which sentence is more polite at the café counter?",
+          "answer": 1,
+          "translations": [
+            "I want a coffee and a croissant.",
+            "I would like a coffee and a croissant."
+          ],
+          "explanation": "Vorrei is the polite way to order; voglio sounds abrupt.",
+          "stage": "practise"
         },
         {
           "type": "multiple_choice",
-          "id": "b1-06-l1-e05",
+          "id": "b1-06-l3-e04",
           "instruction": "Al bar. Scegli la forma più cortese.",
           "prompt": "___ un caffè e un cornetto, per favore.",
           "options": [
@@ -108,61 +402,23 @@
             "Volevi"
           ],
           "answer": 0,
-          "explanation": "Vorrei is the standard polite way to order or ask for something."
+          "explanation": "Vorrei is the standard polite way to order or ask for something.",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
-          "id": "b1-06-l1-e06",
+          "id": "b1-06-l3-e05",
           "instruction": "Completa con il condizionale (Lei).",
           "sentence": "Scusi, ___ (potere) ripetere? Non ho capito bene.",
           "answers": [
             "potrebbe"
           ],
-          "explanation": "Polite request to a stranger: Potrebbe…?"
-        },
-        {
-          "type": "match_pairs",
-          "id": "b1-06-l1-e07",
-          "instruction": "Abbina le formule di cortesia al significato.",
-          "pairs": [
-            {
-              "left": "Mi saprebbe dire…?",
-              "right": "Could you tell me…?"
-            },
-            {
-              "left": "Le dispiacerebbe…?",
-              "right": "Would you mind…?"
-            },
-            {
-              "left": "Avrebbe un minuto?",
-              "right": "Would you have a minute?"
-            },
-            {
-              "left": "Vorrei sapere…",
-              "right": "I'd like to know…"
-            },
-            {
-              "left": "Sarebbe possibile…?",
-              "right": "Would it be possible…?"
-            }
-          ],
-          "explanation": "All of these use the conditional to soften the request."
-        },
-        {
-          "type": "error_correction",
-          "id": "b1-06-l1-e08",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Vorrebbi prenotare un tavolo per due, per stasera.",
-          "answers": [
-            "Vorrei prenotare un tavolo per due, per stasera.",
-            "Vorrei prenotare un tavolo per due per stasera.",
-            "Per stasera vorrei prenotare un tavolo per due."
-          ],
-          "explanation": "Volere has an irregular stem: vorr- → vorrei."
+          "explanation": "Polite request to a stranger: Potrebbe…?",
+          "stage": "practise"
         },
         {
           "type": "sentence_build",
-          "id": "b1-06-l1-e09",
+          "id": "b1-06-l3-e06",
           "instruction": "Metti le parole in ordine.",
           "translation": "Could you tell me where the post office is?",
           "tiles": [
@@ -177,29 +433,24 @@
             "sapeva",
             "potrebbe"
           ],
-          "explanation": "Mi saprebbe dire…? is a very polite way to ask a stranger."
+          "explanation": "Mi saprebbe dire…? is a very polite way to ask a stranger.",
+          "stage": "practise"
         },
         {
           "type": "listen_transcribe",
-          "id": "b1-06-l1-e10",
+          "id": "b1-06-l3-e07",
           "instruction": "Ascolta e scrivi la frase.",
           "audioText": "Vorrei sapere quanto costa una visita privata.",
           "answers": [
             "Vorrei sapere quanto costa una visita privata."
           ],
           "slow": false,
-          "explanation": "Vorrei sapere + question word (quanto, se, quando…)."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-06-l1-e11",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Buongiorno, vorrei sapere se avete ancora posti per sabato sera.",
-          "translation": "Good morning, I'd like to know if you still have places for Saturday evening."
+          "explanation": "Vorrei sapere + question word (quanto, se, quando…).",
+          "stage": "practise"
         },
         {
           "type": "speak_respond",
-          "id": "b1-06-l1-e12",
+          "id": "b1-06-l3-e08",
           "instruction": "Rispondi ad alta voce (Lei).",
           "prompt": "Sei allo sportello informazioni della stazione. Chiedi gentilmente a che ora parte il prossimo treno per Firenze e se è diretto.",
           "keywords": [
@@ -207,18 +458,21 @@
             "potrebbe"
           ],
           "modelAnswer": "Buongiorno, vorrei sapere a che ora parte il prossimo treno per Firenze. E potrebbe dirmi se è diretto o se devo cambiare?",
-          "explanation": "Vorrei sapere…, Potrebbe dirmi…?, Mi saprebbe dire…?"
+          "explanation": "Vorrei sapere…, Potrebbe dirmi…?, Mi saprebbe dire…?",
+          "stage": "use"
         }
       ]
     },
     {
-      "id": "b1-06-l2",
+      "id": "b1-06-l4",
       "title": "Al tuo posto…",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can give friendly advice with dovresti, potresti and al tuo posto.",
+      "takeaway": "Dovresti / potresti + infinitive (no preposition); al tuo posto + conditional = if I were you.",
       "exercises": [
         {
           "type": "multiple_choice",
-          "id": "b1-06-l2-e01",
+          "id": "b1-06-l4-e01",
           "instruction": "Riscaldamento: scegli la forma giusta.",
           "prompt": "Scusi, ___ chiudere la finestra? C'è un po' di corrente.",
           "options": [
@@ -228,169 +482,29 @@
             "può che"
           ],
           "answer": 0,
-          "explanation": "Polite request to Lei: potrebbe."
-        },
-        {
-          "type": "translate",
-          "id": "b1-06-l2-e02",
-          "instruction": "Riscaldamento: traduci in inglese.",
-          "direction": "it_en",
-          "source": "Mi saprebbe dire che ore sono?",
-          "answers": [
-            "Could you tell me what time it is?",
-            "Can you tell me what time it is?",
-            "Would you be able to tell me what time it is?",
-            "Could you tell me the time?",
-            "Do you know what time it is?",
-            "Would you know what time it is?",
-            "Can you tell me the time?"
-          ],
-          "explanation": "Mi saprebbe dire…? = Could you tell me…? (literally: would you know how to tell me)."
+          "explanation": "Polite request to Lei: potrebbe.",
+          "stage": "warmup"
         },
         {
           "type": "grammar_note",
-          "id": "b1-06-l2-e03",
+          "id": "b1-06-l4-e02",
           "title": "Dare consigli",
-          "body": "The conditional is how Italians give advice without sounding bossy.\n\n- **dovresti** + infinitive = *you should*: *Dovresti riposarti.*\n- **potresti** + infinitive = *you could*: *Potresti chiedere al vicino.*\n- **al tuo posto** (or *al posto tuo*) / **io** + conditional = *if I were you, I'd…*: *Al tuo posto, chiamerei il padrone di casa. Io prenderei il treno.*\n- **faresti meglio a** + infinitive = *you'd better*: *Faresti meglio a partire presto.*\n- **sarebbe meglio** + infinitive = *it would be better to*: *Sarebbe meglio prenotare.*\n\nWith Lei: *dovrebbe, potrebbe, al suo posto*.\n\nNote: *dovresti* + infinitive, never *dovresti **a***: *~~Dovresti a parlare~~*.",
+          "body": "Advice in the conditional sounds friendly, not bossy.\n\n| to say | form |\n|---|---|\n| you should | ==dovresti== + infinitive |\n| you could | ==potresti== + infinitive |\n| if I were you | ==al tuo posto== + conditional |\n| you'd better | ==faresti meglio a== + infinitive |\n\nWith Lei: *dovrebbe, potrebbe, al suo posto*.\n\n> *Dovresti* + infinitive directly. Never *dovresti a*.",
           "examples": [
             {
               "it": "Hai la febbre: dovresti restare a letto.",
               "en": "You've got a temperature: you should stay in bed."
             },
             {
-              "it": "Al tuo posto, scriverei un'email all'amministratore.",
-              "en": "If I were you, I'd write an email to the building manager."
-            },
-            {
-              "it": "Faresti meglio a portare l'ombrello.",
-              "en": "You'd better take an umbrella."
-            },
-            {
-              "it": "Sarebbe meglio arrivare dieci minuti prima.",
-              "en": "It would be better to arrive ten minutes early."
-            }
-          ]
-        },
-        {
-          "type": "conjugation",
-          "id": "b1-06-l2-e04",
-          "instruction": "Scrivi il condizionale presente di dovere.",
-          "verb": "dovere",
-          "tense": "condizionale presente",
-          "items": [
-            {
-              "person": "io",
-              "answer": "dovrei"
-            },
-            {
-              "person": "tu",
-              "answer": "dovresti"
-            },
-            {
-              "person": "lui/lei/Lei",
-              "answer": "dovrebbe"
-            },
-            {
-              "person": "noi",
-              "answer": "dovremmo"
-            },
-            {
-              "person": "voi",
-              "answer": "dovreste"
-            },
-            {
-              "person": "loro",
-              "answer": "dovrebbero"
+              "it": "Al tuo posto, chiamerei il padrone di casa.",
+              "en": "If I were you, I'd call the landlord."
             }
           ],
-          "explanation": "Stem dovr-: dovrei, dovresti… Very useful for advice and obligations."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b1-06-l2-e05",
-          "instruction": "Scegli la forma giusta.",
-          "prompt": "Hai la febbre da tre giorni: ___ andare dal medico.",
-          "options": [
-            "dovresti",
-            "dovrai",
-            "devi a",
-            "dovevi"
-          ],
-          "answer": 0,
-          "explanation": "Advice to a friend: dovresti + infinitive."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-06-l2-e06",
-          "instruction": "Completa con il condizionale.",
-          "sentence": "Al tuo posto io ___ (prendere) il treno: in macchina c'è troppo traffico.",
-          "answers": [
-            "prenderei"
-          ],
-          "explanation": "Al tuo posto io + conditional: prenderei."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-06-l2-e07",
-          "instruction": "Completa con il condizionale.",
-          "sentence": "Sei stanchissimo: ___ (fare) meglio a restare a casa stasera.",
-          "answers": [
-            "faresti"
-          ],
-          "explanation": "Fare → farei, faresti: faresti meglio a + infinitive."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-06-l2-e08",
-          "instruction": "Completa con il condizionale.",
-          "sentence": "Io al posto tuo ___ (andare) direttamente all'ufficio informazioni.",
-          "answers": [
-            "andrei"
-          ],
-          "explanation": "Andare → andrei (irregular stem andr-)."
-        },
-        {
-          "type": "error_correction",
-          "id": "b1-06-l2-e09",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Dovresti a parlare con il padrone di casa.",
-          "answers": [
-            "Dovresti parlare con il padrone di casa.",
-            "Dovresti parlarne con il padrone di casa."
-          ],
-          "explanation": "Dovresti is followed directly by the infinitive, without a."
-        },
-        {
-          "type": "translate",
-          "id": "b1-06-l2-e10",
-          "instruction": "Traduci in italiano (informale).",
-          "direction": "en_it",
-          "source": "If I were you, I'd call the landlord.",
-          "answers": [
-            "Al tuo posto, chiamerei il padrone di casa.",
-            "Al tuo posto chiamerei il padrone di casa.",
-            "Al posto tuo, chiamerei il padrone di casa.",
-            "Al posto tuo chiamerei il padrone di casa.",
-            "Io al tuo posto chiamerei il padrone di casa.",
-            "Io al posto tuo chiamerei il padrone di casa.",
-            "Al tuo posto, chiamerei il proprietario.",
-            "Al tuo posto chiamerei il proprietario.",
-            "Al posto tuo, chiamerei il proprietario.",
-            "Al posto tuo chiamerei il proprietario.",
-            "Io al tuo posto chiamerei il proprietario.",
-            "Io al posto tuo chiamerei il proprietario.",
-            "Al tuo posto, io chiamerei il padrone di casa.",
-            "Al tuo posto io chiamerei il padrone di casa.",
-            "Al posto tuo, io chiamerei il padrone di casa.",
-            "Al posto tuo io chiamerei il padrone di casa.",
-            "Al tuo posto telefonerei al padrone di casa.",
-            "Al posto tuo telefonerei al padrone di casa."
-          ],
-          "explanation": "If I were you = al tuo posto / al posto tuo + conditional."
+          "stage": "learn"
         },
         {
           "type": "reading",
-          "id": "b1-06-l2-e11",
+          "id": "b1-06-l4-e03",
           "instruction": "Leggi il post e le risposte, poi rispondi.",
           "title": "Forum: il vicino rumoroso",
           "passage": "Luca82: Ciao a tutti. Da un mese il vicino del piano di sopra fa rumore fino all'una di notte: musica, sedie trascinate… Io mi alzo alle sei e non ce la faccio più. Che cosa dovrei fare?\n\nMarta_T: Prima di tutto dovresti parlarci di persona, con calma. Magari non sa che si sente tutto.\n\nGiorgio.B: Io al posto tuo gli lascerei un biglietto gentile. Se non funziona, scriverei all'amministratore di condominio: il regolamento di solito prevede orari di silenzio.\n\nSimo: Sarebbe meglio evitare subito la polizia, rovineresti i rapporti per sempre. Potresti anche comprare dei tappi per le orecchie, nel frattempo!",
@@ -426,11 +540,79 @@
               "answer": 1
             }
           ],
-          "explanation": "Every reply uses a different advice structure: dovresti, al posto tuo, sarebbe meglio, potresti."
+          "explanation": "Every reply uses a different advice structure: dovresti, al posto tuo, sarebbe meglio, potresti.",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-06-l4-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Hai la febbre da tre giorni: ___ andare dal medico.",
+          "options": [
+            "dovresti",
+            "dovrai",
+            "devi a",
+            "dovevi"
+          ],
+          "answer": 0,
+          "explanation": "Advice to a friend: dovresti + infinitive.",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-06-l4-e05",
+          "instruction": "Completa con il condizionale.",
+          "sentence": "Al tuo posto io ___ (prendere) il treno: in macchina c'è troppo traffico.",
+          "answers": [
+            "prenderei"
+          ],
+          "explanation": "Al tuo posto io + conditional: prenderei.",
+          "stage": "practise"
+        },
+        {
+          "type": "translate",
+          "id": "b1-06-l4-e06",
+          "instruction": "Traduci in italiano (informale).",
+          "direction": "en_it",
+          "source": "If I were you, I'd call the landlord.",
+          "answers": [
+            "Al tuo posto, chiamerei il padrone di casa.",
+            "Al tuo posto chiamerei il padrone di casa.",
+            "Al posto tuo, chiamerei il padrone di casa.",
+            "Al posto tuo chiamerei il padrone di casa.",
+            "Io al tuo posto chiamerei il padrone di casa.",
+            "Io al posto tuo chiamerei il padrone di casa.",
+            "Al tuo posto, chiamerei il proprietario.",
+            "Al tuo posto chiamerei il proprietario.",
+            "Al posto tuo, chiamerei il proprietario.",
+            "Al posto tuo chiamerei il proprietario.",
+            "Io al tuo posto chiamerei il proprietario.",
+            "Io al posto tuo chiamerei il proprietario.",
+            "Al tuo posto, io chiamerei il padrone di casa.",
+            "Al tuo posto io chiamerei il padrone di casa.",
+            "Al posto tuo, io chiamerei il padrone di casa.",
+            "Al posto tuo io chiamerei il padrone di casa.",
+            "Al tuo posto telefonerei al padrone di casa.",
+            "Al posto tuo telefonerei al padrone di casa."
+          ],
+          "explanation": "If I were you = al tuo posto / al posto tuo + conditional.",
+          "stage": "practise"
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-06-l4-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Dovresti a parlare con il padrone di casa.",
+          "answers": [
+            "Dovresti parlare con il padrone di casa.",
+            "Dovresti parlarne con il padrone di casa."
+          ],
+          "explanation": "Dovresti is followed directly by the infinitive, without a.",
+          "stage": "practise"
         },
         {
           "type": "roleplay",
-          "id": "b1-06-l2-e12",
+          "id": "b1-06-l4-e08",
           "instruction": "Un amico ti chiede un consiglio. Rispondi ad alta voce quando tocca a te.",
           "scenario": "Your friend Sara has lost her wallet with her ID card and bank cards. Give her advice.",
           "turns": [
@@ -491,79 +673,66 @@
               "text": "Sì, hai ragione. Grazie, sei un tesoro!"
             }
           ],
-          "explanation": "Dovresti, potresti, al tuo posto: three ways to give advice."
-        },
-        {
-          "type": "speak_respond",
-          "id": "b1-06-l2-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Un amico vuole migliorare il suo italiano ma ha poco tempo. Dagli due o tre consigli.",
-          "keywords": [
-            "dovresti",
-            "potresti",
-            "al tuo posto"
-          ],
-          "modelAnswer": "Dovresti ascoltare un podcast in italiano mentre vai al lavoro. Potresti anche cambiare la lingua del telefono. Al tuo posto, cercherei un amico italiano per fare uno scambio di conversazione.",
-          "explanation": "Mix dovresti, potresti and al tuo posto + conditional."
+          "explanation": "Dovresti, potresti, al tuo posto: three ways to give advice.",
+          "stage": "use"
         }
       ]
     },
     {
-      "id": "b1-06-l3",
+      "id": "b1-06-l5",
       "title": "Mi piacerebbe…",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can express wishes and soften what you say (mi piacerebbe, avrei voglia di, non saprei).",
+      "takeaway": "Mi piacerebbe + infinitive or singular noun; mi piacerebbero + plural noun.",
       "exercises": [
         {
           "type": "gap_fill",
-          "id": "b1-06-l3-e01",
+          "id": "b1-06-l5-e01",
           "instruction": "Riscaldamento: completa con il condizionale.",
           "sentence": "Hai mal di testa? ___ (dovere) riposarti un po'.",
           "answers": [
             "Dovresti"
           ],
-          "explanation": "Advice to a friend: dovresti (+ riposarti)."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b1-06-l3-e02",
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "Che caldo! Io ___ volentieri un bicchiere d'acqua fresca.",
-          "options": [
-            "berrei",
-            "beverei",
-            "bevrei",
-            "berrò"
-          ],
-          "answer": 0,
-          "explanation": "Bere has the irregular stem berr-: berrei."
+          "explanation": "Advice to a friend: dovresti (+ riposarti).",
+          "stage": "warmup"
         },
         {
           "type": "grammar_note",
-          "id": "b1-06-l3-e03",
-          "title": "Desideri e telefonate",
-          "body": "**Wishes:**\n- **mi piacerebbe** + infinitive or singular noun: *Mi piacerebbe imparare a cucinare.*\n- **mi piacerebbero** + plural noun: *Mi piacerebbero due giorni di vacanza.*\n- **vorrei** + infinitive: *Vorrei cambiare casa.*\n- **avrei voglia di** + noun / infinitive: *Avrei voglia di una pizza.*\n- **sarebbe bello** + infinitive: *Sarebbe bello vivere al mare.*\n\n**Softening:** Italians use the conditional to sound less direct: *Non saprei* (I'm not sure), *Direi di sì* (I'd say so), *Preferirei di no* (I'd rather not).\n\n**On the phone:**\n- *Vorrei parlare con…* – *Potrei lasciare un messaggio?*\n- *Mi potrebbe richiamare?* – *Sarebbe possibile fissare un appuntamento?*",
+          "id": "b1-06-l5-e02",
+          "title": "Desideri",
+          "body": "Use the conditional for wishes.\n\n| phrase | + |\n|---|---|\n| mi ==piacerebbe== | infinitive or singular noun |\n| mi ==piacerebbero== | plural noun |\n| ==avrei voglia di== | noun or infinitive |\n| ==sarebbe bello== | infinitive |\n\n> *Piacere* agrees with what you like: *mi piacerebbero due giorni di vacanza*.",
           "examples": [
             {
               "it": "Mi piacerebbe vivere in campagna, un giorno.",
               "en": "I'd like to live in the countryside one day."
             },
             {
-              "it": "Stasera avrei voglia di andare al cinema.",
-              "en": "Tonight I'd like to go to the cinema."
-            },
-            {
-              "it": "Vorrei parlare con il signor Bianchi, per favore.",
-              "en": "I'd like to speak to Mr Bianchi, please."
-            },
-            {
-              "it": "Sabato vieni? – Non saprei, ti faccio sapere.",
-              "en": "Are you coming on Saturday? – I'm not sure, I'll let you know."
+              "it": "Avrei voglia di una pizza.",
+              "en": "I feel like a pizza."
             }
-          ]
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-06-l5-e03",
+          "title": "Ammorbidire",
+          "body": "Italians soften answers with the conditional.\n\n| phrase | meaning |\n|---|---|\n| ==Non saprei.== | I'm not sure. |\n| ==Direi di sì.== | I'd say yes. |\n| ==Preferirei di no.== | I'd rather not. |\n| Mi ==potrebbe richiamare==? | Could you call me back? |",
+          "examples": [
+            {
+              "it": "Non saprei, devo controllare.",
+              "en": "I'm not sure, I have to check."
+            },
+            {
+              "it": "Mi potrebbe richiamare nel pomeriggio?",
+              "en": "Could you call me back in the afternoon?"
+            }
+          ],
+          "stage": "learn"
         },
         {
           "type": "multiple_choice",
-          "id": "b1-06-l3-e04",
+          "id": "b1-06-l5-e04",
           "instruction": "Scegli la forma giusta.",
           "prompt": "Mi ___ visitare la Sicilia la prossima primavera.",
           "options": [
@@ -573,11 +742,12 @@
             "piacerà"
           ],
           "answer": 0,
-          "explanation": "Piacere + infinitive (visitare) → singular: mi piacerebbe."
+          "explanation": "Piacere + infinitive (visitare) → singular: mi piacerebbe.",
+          "stage": "practise"
         },
         {
           "type": "multiple_choice",
-          "id": "b1-06-l3-e05",
+          "id": "b1-06-l5-e05",
           "instruction": "Scegli la forma giusta.",
           "prompt": "Mi ___ molto delle lezioni di cucina regionale.",
           "options": [
@@ -587,21 +757,23 @@
             "piacciono"
           ],
           "answer": 0,
-          "explanation": "Plural subject (le lezioni) → mi piacerebbero."
+          "explanation": "Plural subject (le lezioni) → mi piacerebbero.",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
-          "id": "b1-06-l3-e06",
+          "id": "b1-06-l5-e06",
           "instruction": "Completa con il condizionale.",
           "sentence": "Che caldo! ___ (avere) proprio voglia di un gelato.",
           "answers": [
             "Avrei"
           ],
-          "explanation": "Avere → avrei; avere voglia di = to feel like."
+          "explanation": "Avere → avrei; avere voglia di = to feel like.",
+          "stage": "practise"
         },
         {
           "type": "translate",
-          "id": "b1-06-l3-e07",
+          "id": "b1-06-l5-e07",
           "instruction": "Traduci in inglese.",
           "direction": "it_en",
           "source": "Non saprei.",
@@ -613,11 +785,12 @@
             "I'm not really sure.",
             "I couldn't say."
           ],
-          "explanation": "Non saprei = a polite, softened 'I don't know'."
+          "explanation": "Non saprei = a polite, softened 'I don't know'.",
+          "stage": "practise"
         },
         {
           "type": "listen_choose",
-          "id": "b1-06-l3-e08",
+          "id": "b1-06-l5-e08",
           "instruction": "Ascolta il messaggio in segreteria e rispondi.",
           "audioText": "Buongiorno, chiamo per l'annuncio dell'appartamento in via Garibaldi. Vorrei sapere se è ancora disponibile e se sarebbe possibile vederlo giovedì pomeriggio, dopo le cinque. Mi potrebbe richiamare a questo numero? Grazie, buona giornata.",
           "question": "Che cosa vuole fare chi chiama?",
@@ -628,11 +801,12 @@
             "Pagare l'affitto"
           ],
           "answer": 0,
-          "explanation": "Vorrei sapere se…, sarebbe possibile…, mi potrebbe richiamare: a polite phone message."
+          "explanation": "Vorrei sapere se…, sarebbe possibile…, mi potrebbe richiamare: a polite phone message.",
+          "stage": "practise"
         },
         {
           "type": "roleplay",
-          "id": "b1-06-l3-e09",
+          "id": "b1-06-l5-e09",
           "instruction": "Telefoni a un'agenzia immobiliare. Rispondi ad alta voce quando tocca a te.",
           "scenario": "You call an estate agency about a flat to rent you saw online.",
           "turns": [
@@ -692,62 +866,8 @@
               "text": "Certo, glielo mando subito. A giovedì!"
             }
           ],
-          "explanation": "Vorrei, potrebbe, sarebbe possibile: keep every request in the conditional."
-        },
-        {
-          "type": "sentence_build",
-          "id": "b1-06-l3-e10",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "I'd like to speak to Dr Bianchi, please.",
-          "tiles": [
-            "Vorrei",
-            "parlare",
-            "con",
-            "la",
-            "dottoressa",
-            "Bianchi",
-            "per",
-            "favore"
-          ],
-          "distractors": [
-            "Voglio",
-            "alla"
-          ],
-          "explanation": "Vorrei parlare con… is the standard phrase to ask for someone on the phone."
-        },
-        {
-          "type": "free_write",
-          "id": "b1-06-l3-e11",
-          "instruction": "Scrivi un'email formale.",
-          "prompt": "Hai visto l'annuncio di una scuola che offre corsi di cucina italiana. Scrivi un'email (60–90 parole) per chiedere informazioni: orari, prezzo, numero di partecipanti e se sarebbe possibile fare una lezione di prova. Usa il condizionale per le richieste.",
-          "minWords": 60,
-          "checklist": [
-            "Ho iniziato con «Gentile…» / «Buongiorno» e ho finito con «Cordiali saluti».",
-            "Ho usato vorrei sapere / vorrei chiedere.",
-            "Ho usato almeno due richieste con il condizionale (potrebbe, sarebbe possibile…).",
-            "Ho usato il Lei in tutta l'email.",
-            "Ho controllato le forme irregolari (vorrei, potrei, sarebbe…)."
-          ],
-          "modelAnswer": "Gentile segreteria,\nho visto sul vostro sito l'annuncio dei corsi di cucina italiana e vorrei avere qualche informazione. Vorrei sapere in quali giorni e a che ora si svolgono le lezioni e quanto costa il corso completo. Mi potrebbe dire anche quante persone ci sono in ogni gruppo? Infine, sarebbe possibile partecipare a una lezione di prova prima di iscriversi? Mi piacerebbe molto imparare a fare la pasta fresca.\nLa ringrazio in anticipo per la risposta.\nCordiali saluti,\n{name}"
-        },
-        {
-          "type": "speak_respond",
-          "id": "b1-06-l3-e12",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Che cosa ti piacerebbe fare il prossimo fine settimana? E che cosa vorresti imparare quest'anno?",
-          "keywords": [
-            "mi piacerebbe",
-            "vorrei"
-          ],
-          "modelAnswer": "Il prossimo fine settimana mi piacerebbe andare in montagna a camminare. Quest'anno vorrei finalmente imparare a parlare italiano senza paura, e avrei voglia di fare anche un corso di cucina.",
-          "explanation": "Mi piacerebbe, vorrei, avrei voglia di: three ways to express wishes."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-06-l3-e13",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Non c'è problema. Potrei lasciare un messaggio? Mi potrebbe richiamare nel pomeriggio?",
-          "translation": "No problem. Could I leave a message? Could you call me back in the afternoon?"
+          "explanation": "Vorrei, potrebbe, sarebbe possibile: keep every request in the conditional.",
+          "stage": "use"
         }
       ]
     }
@@ -880,25 +1000,6 @@
             "person": "noi",
             "answer": "potremmo"
           }
-        ]
-      }
-    },
-    {
-      "id": "b1-06-t2",
-      "rule": "Richieste cortesi",
-      "tip": "Soften requests with the conditional: Vorrei…, Potrebbe…?, Mi saprebbe dire…?",
-      "example": {
-        "it": "Mi saprebbe dire dov'è la posta?",
-        "en": "Could you tell me where the post office is?"
-      },
-      "challenge": {
-        "type": "translate",
-        "direction": "en_it",
-        "source": "I'd like to know how much it costs.",
-        "answers": [
-          "Vorrei sapere quanto costa.",
-          "Vorrei sapere quanto costa?",
-          "Vorrei sapere il prezzo."
         ]
       }
     },

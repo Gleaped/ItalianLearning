@@ -2,8 +2,10 @@
   "id": "b2-08",
   "level": "B2",
   "title": "Ripasso 4",
+  "format": 2,
+  "module": "b2-m3",
   "objective": "By the end you can understand a news item or official notice and retell it to someone else, using the passive, reported speech and the sequence of tenses accurately.",
-  "grammarFocus": "Ripasso: passivo (essere, venire, si passivante); discorso indiretto con spostamento di tempi, persone e indicatori di tempo e luogo; concordanza dei tempi. Compiti in stile CELI: comprensione di una notizia, cloze, trasformazione, email informale.",
+  "grammarFocus": "Ripasso: passivo (essere, venire, andare, si passivante); discorso indiretto con spostamento di tempi, persone e indicatori; concordanza dei tempi (penso che sia / pensavo che fosse). Compiti: comprensione di una notizia, trasformazione, racconto.",
   "remedialUnitIds": [
     "b2-05",
     "b2-06",
@@ -13,11 +15,15 @@
     {
       "id": "b2-08-l1",
       "title": "Leggere la notizia",
-      "minutes": 12,
+      "minutes": 9,
+      "goal": "You can read a news item and spot the passive forms that hide who did what.",
+      "takeaway": "Essere + participio (any tense), venire + participio (simple tenses only), si passivante (verb agrees with the noun).",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "b2-08-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta (b2-05).",
           "prompt": "Il nuovo ponte ___ inaugurato la settimana scorsa.",
           "options": [
             "ha",
@@ -26,129 +32,77 @@
             "è stato"
           ],
           "answer": 3,
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "explanation": "Riscaldamento (B2-05): passivo al passato prossimo = essere + stato + participio. Venire non si usa nei tempi composti."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-08-l1-e02",
-          "sentence": "In questo negozio ___ (vendere) anche i francobolli.",
-          "answers": [
-            "si vendono"
-          ],
-          "hint": "si + vendere",
-          "instruction": "Riscaldamento: completa con il si passivante.",
-          "explanation": "Si passivante: il verbo concorda con il nome (i francobolli → si vendono)."
-        },
-        {
-          "type": "grammar_note",
-          "id": "b2-08-l1-e03",
-          "title": "Ripasso: il passivo",
-          "body": "Tre modi per mettere in primo piano l'azione e non chi la fa – tipici di notizie e avvisi:\n- **essere + participio** (tutti i tempi): *Il progetto **è stato approvato** dal consiglio comunale.*\n- **venire + participio** (solo tempi semplici): *Le domande **vengono esaminate** in ordine di arrivo.* Sottolinea il processo; impossibile nei tempi composti (~~*è venuto approvato*~~).\n- **si passivante**: *Si cercano volontari. Si sono raccolte mille firme.* Il verbo concorda con il nome: *si vende una casa / si vendono due case*.\n\nIl participio concorda sempre con il soggetto: *La strada è stata chiusa. I lavori sono stati sospesi.* Chi fa l'azione (l'agente) si introduce con **da**: *approvato **dal** sindaco*.",
-          "examples": [
-            {
-              "it": "La strada sarà chiusa al traffico da lunedì.",
-              "en": "The road will be closed to traffic from Monday."
-            },
-            {
-              "it": "I rifiuti vengono raccolti il martedì e il venerdì.",
-              "en": "Rubbish is collected on Tuesdays and Fridays."
-            },
-            {
-              "it": "Si sono raccolte più di mille firme.",
-              "en": "More than a thousand signatures were collected."
-            },
-            {
-              "it": "Il ladro è stato fermato dalla polizia.",
-              "en": "The thief was stopped by the police."
-            }
-          ]
+          "explanation": "Passato prossimo passive: è stato + participio; venire cannot be used in compound tenses."
         },
         {
           "type": "reading",
-          "id": "b2-08-l1-e04",
-          "title": "Lavori sulla linea ferroviaria: treni sostituiti da autobus",
-          "passage": "Da lunedì 3 marzo la linea ferroviaria tra Castelnuovo e il capoluogo sarà chiusa per tre settimane. Lo ha comunicato ieri la società che gestisce la rete, spiegando che i lavori, programmati da tempo, erano stati rinviati più volte a causa del maltempo.\nDurante la chiusura i treni verranno sostituiti da autobus, che partiranno dalle stazioni con dieci minuti di anticipo rispetto all'orario abituale. I biglietti e gli abbonamenti già acquistati resteranno validi. Si consiglia comunque ai viaggiatori di controllare gli orari sul sito, perché alcune corse potrebbero essere soppresse nei giorni festivi.\nLe proteste non sono mancate. Il comitato dei pendolari ha dichiarato che i cittadini non erano stati consultati e che sarebbe stato meglio programmare i lavori durante l'estate, quando le scuole sono chiuse. «Ogni anno ci viene detto che sarà l'ultima volta», ha commentato la portavoce. L'azienda ha risposto che la data era stata scelta per ridurre al minimo i disagi.",
+          "id": "b2-08-l1-e02",
+          "stage": "use",
+          "instruction": "Leggi la notizia e rispondi.",
+          "title": "Lavori sulla linea ferroviaria",
+          "passage": "Da lunedì 3 marzo la linea ferroviaria tra Castelnuovo e il capoluogo sarà chiusa per tre settimane. Lo ha comunicato ieri la società che gestisce la rete, spiegando che i lavori erano stati rinviati più volte a causa del maltempo.\nDurante la chiusura i treni verranno sostituiti da autobus. I biglietti e gli abbonamenti già acquistati resteranno validi. Si consiglia ai viaggiatori di controllare gli orari sul sito, perché alcune corse potrebbero essere soppresse nei giorni festivi.\nIl comitato dei pendolari ha dichiarato che i cittadini non erano stati consultati e che sarebbe stato meglio fare i lavori d'estate.",
           "questions": [
             {
               "question": "Perché i lavori erano stati rinviati?",
               "options": [
-                "Perché mancavano i soldi.",
-                "Per le vacanze estive.",
+                "Mancavano i soldi.",
                 "Per il maltempo.",
-                "Per le proteste dei pendolari."
+                "Per le vacanze.",
+                "Per le proteste."
               ],
-              "answer": 2
+              "answer": 1
             },
             {
-              "question": "Che cosa devono fare i viaggiatori che hanno già un abbonamento?",
+              "question": "Che cosa devono fare i viaggiatori con l'abbonamento?",
               "options": [
-                "Niente: l'abbonamento resta valido.",
+                "Niente: resta valido.",
                 "Comprarne uno nuovo.",
-                "Prendere il treno da un'altra stazione.",
-                "Chiedere un rimborso."
+                "Chiedere un rimborso.",
+                "Cambiare stazione."
               ],
               "answer": 0
             },
             {
-              "question": "Secondo il comitato dei pendolari, quando sarebbe stato meglio fare i lavori?",
+              "question": "Secondo il comitato, quando sarebbe stato meglio fare i lavori?",
               "options": [
-                "Nei giorni festivi.",
-                "Di notte.",
                 "D'estate.",
-                "In inverno."
+                "Di notte.",
+                "In inverno.",
+                "Nei giorni festivi."
               ],
-              "answer": 2
-            },
-            {
-              "question": "«Alcune corse potrebbero essere soppresse» significa che:",
-              "options": [
-                "alcuni autobus potrebbero arrivare in ritardo.",
-                "alcuni biglietti potrebbero costare di più.",
-                "alcune stazioni potrebbero chiudere.",
-                "alcuni autobus potrebbero non partire."
-              ],
-              "answer": 3
+              "answer": 0
             }
-          ],
-          "instruction": "Leggi la notizia e rispondi (comprensione in stile CELI).",
-          "explanation": "Nel testo trovi tutte e tre le forme passive: sarà chiusa, verranno sostituiti, erano stati rinviati, ci viene detto, si consiglia."
+          ]
         },
         {
           "type": "gap_fill",
-          "id": "b2-08-l1-e05",
+          "id": "b2-08-l1-e03",
+          "stage": "practise",
+          "instruction": "Completa con il passivo.",
           "sentence": "La strada ___ dal comune.",
           "answers": [
             "è stata chiusa"
           ],
-          "hint": "essere + participio, passato prossimo",
-          "instruction": "Trasforma al passivo: «Il comune ha chiuso la strada.»",
-          "explanation": "Ha chiuso → è stata chiusa; il participio concorda con la strada."
+          "explanation": "Passato prossimo passive of chiudere with a feminine subject: è stata chiusa.",
+          "hint": "essere + participio, passato prossimo"
         },
         {
           "type": "gap_fill",
-          "id": "b2-08-l1-e06",
+          "id": "b2-08-l1-e04",
+          "stage": "practise",
+          "instruction": "Completa con il passivo.",
           "sentence": "I treni ___ dagli autobus.",
           "answers": [
             "vengono sostituiti"
           ],
-          "hint": "venire + participio, presente",
-          "instruction": "Trasforma con venire: «Gli autobus sostituiscono i treni.»",
-          "explanation": "Tempo semplice (presente) → venire è possibile: vengono sostituiti."
-        },
-        {
-          "type": "error_correction",
-          "id": "b2-08-l1-e07",
-          "sentence": "I lavori sono venuti rinviati più volte.",
-          "answers": [
-            "I lavori sono stati rinviati più volte."
-          ],
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "explanation": "Venire + participio solo nei tempi semplici: al passato prossimo serve essere (sono stati rinviati)."
+          "explanation": "Venire + participio works in simple tenses like the present.",
+          "hint": "venire + participio, presente"
         },
         {
           "type": "multiple_choice",
-          "id": "b2-08-l1-e08",
+          "id": "b2-08-l1-e05",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
           "prompt": "In questa zona ___ molti appartamenti in affitto.",
           "options": [
             "si cerca",
@@ -157,77 +111,59 @@
             "si è cercato"
           ],
           "answer": 2,
-          "instruction": "Scegli la forma giusta.",
-          "explanation": "Si passivante con un nome plurale (appartamenti) → verbo al plurale."
+          "explanation": "With si passivante the verb agrees with the noun: appartamenti → cercano."
         },
         {
-          "type": "match_pairs",
-          "id": "b2-08-l1-e09",
-          "pairs": [
-            {
-              "left": "i pendolari",
-              "right": "chi viaggia ogni giorno per lavoro o studio"
-            },
-            {
-              "left": "i disagi",
-              "right": "problemi, difficoltà pratiche"
-            },
-            {
-              "left": "rinviare",
-              "right": "spostare a più tardi"
-            },
-            {
-              "left": "sopprimere una corsa",
-              "right": "cancellare un treno o un autobus"
-            },
-            {
-              "left": "la portavoce",
-              "right": "chi parla a nome di un gruppo"
-            }
-          ],
-          "instruction": "Abbina le parole della notizia al loro significato."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "b2-08-l1-e10",
-          "audioText": "Durante la chiusura i treni verranno sostituiti da autobus.",
+          "type": "error_correction",
+          "id": "b2-08-l1-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "I lavori sono venuti rinviati più volte.",
           "answers": [
-            "Durante la chiusura i treni verranno sostituiti da autobus."
+            "I lavori sono stati rinviati più volte."
           ],
-          "slow": false,
-          "instruction": "Ascolta e scrivi la frase.",
-          "explanation": "Verranno sostituiti = passivo con venire al futuro."
+          "explanation": "Venire cannot be used in compound tenses: use essere."
         },
         {
-          "type": "speak_repeat",
-          "id": "b2-08-l1-e11",
-          "text": "La strada sarà chiusa al traffico per tre settimane.",
-          "translation": "The road will be closed to traffic for three weeks.",
-          "instruction": "Ascolta e ripeti ad alta voce."
+          "type": "transform",
+          "id": "b2-08-l1-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase al passivo.",
+          "source": "Il comune ha chiuso la strada.",
+          "cue": "La strada…",
+          "answers": [
+            "La strada è stata chiusa dal comune.",
+            "La strada è stata chiusa dal Comune."
+          ],
+          "explanation": "The object becomes the subject: essere + participio, with agreement."
         },
         {
           "type": "speak_respond",
-          "id": "b2-08-l1-e12",
+          "id": "b2-08-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
           "prompt": "Riassumi la notizia: che cosa succede, perché, e come hanno reagito i pendolari. Usa almeno un passivo.",
           "keywords": [
             "chiusa",
             "sostituiti",
             "pendolari"
           ],
-          "modelAnswer": "La linea ferroviaria sarà chiusa per tre settimane per dei lavori. Durante la chiusura i treni verranno sostituiti da autobus. I pendolari hanno protestato perché non sono stati consultati.",
-          "instruction": "Rispondi ad alta voce in 3 frasi.",
-          "explanation": "Un buon riassunto usa il passivo per i fatti (sarà chiusa, verranno sostituiti) e il discorso indiretto per le reazioni."
+          "modelAnswer": "La linea ferroviaria sarà chiusa per tre settimane per dei lavori. I treni verranno sostituiti da autobus. I pendolari hanno protestato perché non erano stati consultati."
         }
       ]
     },
     {
       "id": "b2-08-l2",
       "title": "Riferire: ha detto che…",
-      "minutes": 10,
+      "minutes": 9,
+      "goal": "You can retell what an official or a friend said, with the right tenses and words.",
+      "takeaway": "Past reporting verb: present → imperfetto, passato → trapassato, futuro → condizionale passato; se for questions, di + infinito for orders.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "b2-08-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta (b2-06).",
           "prompt": "Il medico: «Torni tra una settimana.» → Il medico mi ha detto ___ tra una settimana.",
           "options": [
             "che torno",
@@ -236,201 +172,128 @@
             "di tornare"
           ],
           "answer": 3,
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "explanation": "Riscaldamento (B2-06): un ordine riferito → di + infinito."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-08-l2-e02",
-          "sentence": "Anna ha detto che il giorno dopo ___ in banca.",
-          "answers": [
-            "andava",
-            "sarebbe andata"
-          ],
-          "hint": "andare – lei",
-          "instruction": "Riscaldamento: riferisci. Anna: «Domani vado in banca.»",
-          "explanation": "Presente con valore di futuro → imperfetto (andava) oppure condizionale passato (sarebbe andata)."
-        },
-        {
-          "type": "grammar_note",
-          "id": "b2-08-l2-e03",
-          "title": "Ripasso: il discorso indiretto",
-          "body": "Con un verbo introduttivo al passato (*ha detto, ha spiegato, mi ha chiesto*) i tempi si spostano indietro – la stessa logica della concordanza:\n- presente → **imperfetto**: «Sono stanco» → *ha detto che **era** stanco*\n- passato prossimo → **trapassato**: «Ho finito» → *ha detto che **aveva finito***\n- futuro → **condizionale passato**: «Verrò» → *ha detto che **sarebbe venuto***\n- congiuntivo presente → **congiuntivo imperfetto**: «Credo che sia tardi» → *ha detto che credeva che **fosse** tardi*\n- imperativo → **di + infinito**: «Firmi qui» → *mi ha detto **di firmare** lì*\n- domanda sì/no → **se**: «È libero?» → *mi ha chiesto **se** ero libero*\n\nCambiano anche tempo, luogo e persone: *oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, qui → lì, questo → quello, io → lui/lei*.",
-          "examples": [
-            {
-              "it": "Mi hanno detto che il referto sarebbe stato pronto venerdì.",
-              "en": "They told me the report would be ready on Friday."
-            },
-            {
-              "it": "L'infermiera mi ha detto di portare la tessera sanitaria.",
-              "en": "The nurse told me to bring my health card."
-            },
-            {
-              "it": "Il medico mi ha chiesto se avevo già fatto le analisi.",
-              "en": "The doctor asked me if I had already had the tests."
-            },
-            {
-              "it": "Ha detto che il giorno prima c'era stato uno sciopero.",
-              "en": "He said there had been a strike the day before."
-            }
-          ]
+          "explanation": "An order is reported with di + infinito."
         },
         {
           "type": "multiple_choice",
-          "id": "b2-08-l2-e04",
-          "prompt": "La segretaria ha detto che il dottore ___ non c'era.",
+          "id": "b2-08-l2-e02",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "«Verrò domani.» → Anna ha detto che ___.",
           "options": [
-            "oggi",
-            "quel giorno",
-            "domani",
-            "ieri"
+            "verrà domani",
+            "sarebbe venuta il giorno dopo",
+            "veniva domani",
+            "è venuta il giorno dopo"
           ],
           "answer": 1,
-          "instruction": "Riferisci una settimana dopo. La segretaria: «Il dottore oggi non c'è.»",
-          "explanation": "Riferito giorni dopo, oggi → quel giorno. Se riferisci lo stesso giorno, oggi resta oggi."
+          "explanation": "Future becomes condizionale passato and domani becomes il giorno dopo."
         },
         {
-          "type": "gap_fill",
-          "id": "b2-08-l2-e05",
-          "sentence": "Il tecnico ha detto che ___ la caldaia il giorno prima.",
-          "answers": [
-            "aveva controllato"
+          "type": "sort_buckets",
+          "id": "b2-08-l2-e03",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "dal presente",
+            "dal passato prossimo",
+            "dal futuro"
           ],
-          "hint": "passato prossimo → trapassato",
-          "instruction": "Riferisci. Il tecnico: «Ho controllato la caldaia ieri.»",
-          "explanation": "Ho controllato → aveva controllato; ieri → il giorno prima."
+          "items": [
+            {
+              "text": "Ha detto che era stanco.",
+              "bucket": 0
+            },
+            {
+              "text": "Ha detto che aveva finito.",
+              "bucket": 1
+            },
+            {
+              "text": "Ha detto che sarebbe venuto.",
+              "bucket": 2
+            },
+            {
+              "text": "Ha detto che non aveva tempo.",
+              "bucket": 0
+            },
+            {
+              "text": "Ha detto che era già partito.",
+              "bucket": 1
+            },
+            {
+              "text": "Ha detto che avrebbe richiamato.",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Present → imperfetto, passato prossimo → trapassato, futuro → condizionale passato."
         },
         {
-          "type": "gap_fill",
-          "id": "b2-08-l2-e06",
-          "sentence": "L'impiegato mi ha detto ___ quel modulo.",
+          "type": "transform",
+          "id": "b2-08-l2-e04",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "«Ho perso le chiavi.»",
+          "cue": "Ha detto che…",
           "answers": [
-            "di compilare"
+            "Ha detto che aveva perso le chiavi."
           ],
-          "hint": "imperativo → ?",
-          "instruction": "Riferisci. L'impiegato: «Compili questo modulo.»",
-          "explanation": "Imperativo → di + infinito; questo → quello."
+          "explanation": "A reported passato prossimo becomes trapassato prossimo."
         },
         {
           "type": "error_correction",
-          "id": "b2-08-l2-e07",
+          "id": "b2-08-l2-e05",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
           "sentence": "Mi ha chiesto che avevo la ricevuta.",
           "answers": [
             "Mi ha chiesto se avevo la ricevuta.",
             "Mi ha chiesto se avessi la ricevuta."
           ],
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "explanation": "Una domanda sì/no riferita si introduce con se (anche + congiuntivo, più formale)."
-        },
-        {
-          "type": "translate",
-          "id": "b2-08-l2-e08",
-          "direction": "en_it",
-          "source": "She told me she would call me back the next day.",
-          "answers": [
-            "mi ha detto che mi avrebbe richiamato il giorno dopo.",
-            "mi ha detto che mi avrebbe richiamato il giorno seguente.",
-            "mi ha detto che mi avrebbe richiamato il giorno successivo.",
-            "mi ha detto che avrebbe richiamato il giorno dopo.",
-            "mi ha detto che avrebbe richiamato il giorno seguente.",
-            "mi ha detto che avrebbe richiamato il giorno successivo.",
-            "Lei mi ha detto che mi avrebbe richiamato il giorno dopo.",
-            "Lei mi ha detto che mi avrebbe richiamato il giorno seguente.",
-            "Lei mi ha detto che mi avrebbe richiamato il giorno successivo.",
-            "Lei mi ha detto che avrebbe richiamato il giorno dopo.",
-            "Lei mi ha detto che avrebbe richiamato il giorno seguente.",
-            "Lei mi ha detto che avrebbe richiamato il giorno successivo.",
-            "Mi ha detto che mi avrebbe richiamato l'indomani.",
-            "Mi ha detto che avrebbe richiamato l'indomani."
-          ],
-          "instruction": "Traduci in italiano.",
-          "explanation": "Would + verb in reported speech = condizionale passato: avrebbe richiamato."
+          "explanation": "A yes/no question is reported with se."
         },
         {
           "type": "listen_choose",
-          "id": "b2-08-l2-e09",
+          "id": "b2-08-l2-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
           "audioText": "Buongiorno, la chiamo dal centro prelievi. Le comunico che la sua prenotazione di giovedì è stata spostata a venerdì alle otto e un quarto. Si ricordi di venire a digiuno e di portare la tessera sanitaria. Se non può venire, ci chiami entro mercoledì.",
           "question": "Che cosa deve fare la persona se venerdì non può andare?",
           "options": [
             "Andare comunque giovedì.",
-            "Mandare una email.",
-            "Presentarsi alle otto e un quarto.",
-            "Telefonare entro mercoledì."
+            "Mandare un'email venerdì.",
+            "Chiamare entro mercoledì.",
+            "Portare la tessera sanitaria."
           ],
-          "answer": 3,
-          "instruction": "Ascolta il messaggio in segreteria e rispondi."
-        },
-        {
-          "type": "sentence_build",
-          "id": "b2-08-l2-e10",
-          "translation": "The nurse told me not to eat before the tests.",
-          "tiles": [
-            "L'infermiera",
-            "mi",
-            "ha",
-            "detto",
-            "di",
-            "non",
-            "mangiare",
-            "prima",
-            "delle",
-            "analisi"
-          ],
-          "distractors": [
-            "che",
-            "mangiassi"
-          ],
-          "instruction": "Metti le parole in ordine.",
-          "explanation": "Un ordine negativo riferito: di non + infinito."
+          "answer": 2,
+          "explanation": "The message says to call by Wednesday if Friday is not possible."
         },
         {
           "type": "speak_respond",
-          "id": "b2-08-l2-e11",
+          "id": "b2-08-l2-e07",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
           "prompt": "Riferisci a un amico il messaggio del centro prelievi: che cosa ti hanno detto?",
           "keywords": [
             "mi hanno detto",
             "spostata",
             "di portare"
           ],
-          "modelAnswer": "Mi hanno chiamato dal centro prelievi e mi hanno detto che la prenotazione era stata spostata a venerdì. Mi hanno detto di venire a digiuno e di portare la tessera sanitaria.",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "explanation": "È stata spostata → era stata spostata (trapassato passivo); si ricordi di portare → mi hanno detto di portare."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-08-l2-e12",
-          "text": "Mi hanno detto che il referto sarebbe stato pronto entro una settimana.",
-          "translation": "They told me the report would be ready within a week.",
-          "instruction": "Ascolta e ripeti ad alta voce."
+          "modelAnswer": "Mi hanno chiamato dal centro prelievi e mi hanno detto che la prenotazione era stata spostata a venerdì. Mi hanno detto di venire a digiuno e di portare la tessera sanitaria."
         }
       ]
     },
     {
       "id": "b2-08-l3",
-      "title": "Raccontare la notizia",
-      "minutes": 12,
+      "title": "Penso che / Pensavo che",
+      "minutes": 9,
+      "goal": "You can choose the right tense after a main verb in the present or in the past.",
+      "takeaway": "Penso che sia / Pensavo che fosse / Pensavo che fosse stato: the main verb decides the congiuntivo tense.",
       "exercises": [
         {
-          "type": "translate",
-          "id": "b2-08-l3-e01",
-          "direction": "it_en",
-          "source": "La riunione è stata rinviata a giovedì.",
-          "answers": [
-            "The meeting has been postponed to Thursday.",
-            "The meeting has been postponed until Thursday.",
-            "The meeting has been put off until Thursday.",
-            "The meeting has been moved to Thursday.",
-            "The meeting was postponed to Thursday.",
-            "The meeting was postponed until Thursday.",
-            "The meeting was put off until Thursday.",
-            "The meeting was moved to Thursday."
-          ],
-          "instruction": "Riscaldamento: traduci in inglese.",
-          "explanation": "Rinviare = to postpone; è stata rinviata = passivo al passato prossimo."
-        },
-        {
           "type": "multiple_choice",
-          "id": "b2-08-l3-e02",
+          "id": "b2-08-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta (cg-06).",
           "prompt": "Pensavo che la biblioteca ___ chiusa solo per una settimana.",
           "options": [
             "fosse",
@@ -439,108 +302,212 @@
             "sia"
           ],
           "answer": 0,
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "explanation": "Riscaldamento (B2-07): pensavo che + congiuntivo imperfetto."
+          "explanation": "A past main verb needs the congiuntivo imperfetto: fosse."
         },
         {
-          "type": "grammar_note",
-          "id": "b2-08-l3-e03",
-          "title": "Strategia: il cloze e la trasformazione",
-          "body": "Negli esercizi di **completamento (cloze)** e di **trasformazione**, tipici delle prove di competenza linguistica delle certificazioni come il CELI:\n- leggi prima **tutto il testo** per capire il tempo del racconto (presente? passato?)\n- chiediti che **tipo di parola** manca: verbo, preposizione, connettivo, pronome\n- controlla **chi fa l'azione**: se il soggetto la subisce, serve il passivo\n- controlla l'**accordo** del participio e la **concordanza** con il verbo principale\n- nella trasformazione mantieni **lo stesso significato**: cambia la struttura, non il contenuto",
-          "examples": [
+          "type": "match_pairs",
+          "id": "b2-08-l3-e02",
+          "stage": "practise",
+          "instruction": "Collega le due metà.",
+          "pairs": [
             {
-              "it": "Il sindaco ha detto: «Riapriremo a giugno.» → Il sindaco ha detto che avrebbero riaperto a giugno.",
-              "en": "The mayor said: 'We'll reopen in June.' → The mayor said they would reopen in June."
+              "left": "Penso che Luca",
+              "right": "sia in ritardo."
             },
             {
-              "it": "Il comune ha rinviato la riapertura. → La riapertura è stata rinviata dal comune.",
-              "en": "The council postponed the reopening. → The reopening was postponed by the council."
+              "left": "Pensavo che Luca",
+              "right": "fosse in ritardo."
+            },
+            {
+              "left": "Credo che Anna",
+              "right": "abbia già mangiato."
+            },
+            {
+              "left": "Credevo che Anna",
+              "right": "avesse già mangiato."
             }
-          ]
+          ],
+          "explanation": "Present main verb → congiuntivo presente or passato; past main verb → imperfetto or trapassato."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "b2-08-l3-e03",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "Penso che Marco sia partito.",
+            "Pensavo che Marco fosse partito."
+          ],
+          "question": "In which sentence is the thinking in the past?",
+          "answer": 1,
+          "translations": [
+            "I think Marco has left.",
+            "I thought Marco had left."
+          ],
+          "explanation": "Pensavo (past) goes with fosse partito; penso (present) with sia partito."
         },
         {
           "type": "gap_fill",
           "id": "b2-08-l3-e04",
-          "sentence": "La riapertura della biblioteca comunale, prevista per lunedì, ___ (rinviare) di un mese.",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo.",
+          "sentence": "Molti utenti speravano che la biblioteca ___ prima dell'estate.",
           "answers": [
-            "è stata rinviata"
+            "riaprisse"
           ],
-          "hint": "passivo, passato prossimo",
-          "instruction": "Cloze: completa la notizia «Biblioteca comunale, riapertura rinviata» con la forma giusta del verbo.",
-          "explanation": "La riapertura subisce l'azione → passivo; participio al femminile."
+          "explanation": "Speravano is past, so the congiuntivo imperfetto: riaprisse.",
+          "hint": "riaprire"
         },
         {
           "type": "gap_fill",
           "id": "b2-08-l3-e05",
-          "sentence": "Il sindaco ha spiegato che durante i lavori ___ (scoprire) alcuni problemi all'impianto elettrico.",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo.",
+          "sentence": "Credo che i lavori ___ la settimana scorsa.",
+          "answers": [
+            "siano finiti",
+            "siano terminati"
+          ],
+          "explanation": "A present main verb with a past event takes the congiuntivo passato: siano finiti."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-08-l3-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Pensavo che il treno è in ritardo.",
+          "answers": [
+            "Pensavo che il treno fosse in ritardo."
+          ],
+          "explanation": "After a past main verb of opinion use the congiuntivo imperfetto."
+        },
+        {
+          "type": "transform",
+          "id": "b2-08-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Penso che sia tardi.",
+          "cue": "Pensavo che…",
+          "answers": [
+            "Pensavo che fosse tardi."
+          ],
+          "explanation": "Moving the main verb to the past moves sia to fosse."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-08-l3-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Che cosa pensavi della tua città prima di andarci? E adesso?",
+          "keywords": [
+            "pensavo che",
+            "penso che"
+          ],
+          "modelAnswer": "Pensavo che la città fosse più piccola. Adesso penso che sia molto bella ma cara."
+        }
+      ]
+    },
+    {
+      "id": "b2-08-l4",
+      "title": "Raccontare la notizia",
+      "minutes": 10,
+      "goal": "You can mix passive, reported speech and the sequence of tenses to tell a news story.",
+      "takeaway": "Passive for the facts, reported speech for what people said, concordanza for what people thought.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-08-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "La riunione ___ rinviata a giovedì.",
+          "options": [
+            "è stata",
+            "ha",
+            "si è",
+            "è venuta"
+          ],
+          "answer": 0,
+          "explanation": "Passato prossimo passive: è stata + participio."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-08-l4-e02",
+          "stage": "practise",
+          "instruction": "Completa con il passivo.",
+          "sentence": "La riapertura della biblioteca, prevista per lunedì, ___ di un mese.",
+          "answers": [
+            "è stata rinviata"
+          ],
+          "explanation": "Passive passato prossimo of rinviare: è stata rinviata.",
+          "hint": "rinviare"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-08-l4-e03",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Il sindaco ha spiegato che durante i lavori ___ alcuni problemi all'impianto elettrico.",
           "answers": [
             "erano stati scoperti",
             "si erano scoperti"
           ],
-          "hint": "passivo, anteriorità nel passato",
-          "instruction": "Cloze: completa la notizia «Biblioteca comunale, riapertura rinviata» con la forma giusta del verbo.",
-          "explanation": "Ha spiegato (passato) + azione precedente → trapassato; i problemi subiscono l'azione → erano stati scoperti."
+          "explanation": "A passive in the trapassato: erano stati scoperti.",
+          "hint": "scoprire, passivo"
         },
         {
           "type": "gap_fill",
-          "id": "b2-08-l3-e06",
-          "sentence": "Ha aggiunto che la biblioteca ___ (riaprire) entro la fine del mese successivo.",
+          "id": "b2-08-l4-e04",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Ha aggiunto che la biblioteca ___ entro la fine del mese successivo.",
           "answers": [
             "avrebbe riaperto",
             "sarebbe riaperta"
           ],
-          "hint": "futuro nel passato",
-          "instruction": "Cloze: completa la notizia «Biblioteca comunale, riapertura rinviata» con la forma giusta del verbo.",
-          "explanation": "Ha aggiunto (passato) + azione futura → condizionale passato."
+          "explanation": "A reported future becomes the condizionale passato.",
+          "hint": "riaprire"
         },
         {
-          "type": "gap_fill",
-          "id": "b2-08-l3-e07",
-          "sentence": "Nel frattempo i libri prenotati ___ (potere) essere ritirati presso la sede di via Dante.",
+          "type": "transform",
+          "id": "b2-08-l4-e05",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "«Faremo il possibile.»",
+          "cue": "Il sindaco ha detto che…",
           "answers": [
-            "potranno",
-            "possono"
+            "Il sindaco ha detto che avrebbero fatto il possibile.",
+            "Il sindaco ha detto che avrebbe fatto il possibile."
           ],
-          "hint": "potere – loro",
-          "instruction": "Cloze: completa la notizia «Biblioteca comunale, riapertura rinviata» con la forma giusta del verbo.",
-          "explanation": "Potere + essere + participio: un passivo con verbo modale (potranno essere ritirati)."
+          "explanation": "Future becomes condizionale passato after a past reporting verb."
         },
         {
-          "type": "gap_fill",
-          "id": "b2-08-l3-e08",
-          "sentence": "Molti utenti speravano che la biblioteca ___ (riaprire) prima dell'estate.",
+          "type": "error_correction",
+          "id": "b2-08-l4-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore: riscrivi la frase giusta.",
+          "sentence": "Molti pensavano che la biblioteca riaprirà prima.",
           "answers": [
-            "riaprisse"
+            "Molti pensavano che la biblioteca riaprisse prima.",
+            "Molti pensavano che la biblioteca sarebbe riaperta prima.",
+            "Molti pensavano che la biblioteca sarebbe riaperta prima."
           ],
-          "hint": "congiuntivo",
-          "instruction": "Cloze: completa la notizia «Biblioteca comunale, riapertura rinviata» con la forma giusta del verbo.",
-          "explanation": "Speravano (passato) + contemporaneità/posteriorità → congiuntivo imperfetto: riaprisse."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-08-l3-e09",
-          "sentence": "Il sindaco ha detto che ___ il possibile.",
-          "answers": [
-            "avrebbero fatto",
-            "avrebbe fatto"
-          ],
-          "hint": "futuro → ?",
-          "instruction": "Trasformazione: riscrivi in forma indiretta. Il sindaco: «Faremo il possibile.»",
-          "explanation": "Futuro → condizionale passato; noi → loro (o lui, se parla per sé)."
+          "explanation": "Pensavano is past, so the congiuntivo imperfetto is needed."
         },
         {
           "type": "roleplay",
-          "id": "b2-08-l3-e10",
-          "scenario": "At work, your colleague Luca missed the news about the railway line. Tell him what's happening, reporting what the company and the commuters said.",
+          "id": "b2-08-l4-e07",
+          "stage": "use",
+          "instruction": "Parla con il tuo collega Luca. Rispondi ad alta voce.",
+          "scenario": "Il tuo collega Luca non sa della chiusura della linea ferroviaria. Raccontagli la notizia e che cosa hanno detto.",
           "turns": [
             {
               "speaker": "npc",
-              "text": "Ciao! Ho sentito che ci sono problemi con i treni. Sai qualcosa?"
+              "text": "Ciao {name}! Ho sentito che ci sono problemi con i treni. Sai qualcosa?"
             },
             {
               "speaker": "you",
-              "text": "Sì, ho letto che la linea sarà chiusa per tre settimane per dei lavori.",
-              "hint": "Say the line will be closed (passive, future).",
+              "text": "Sì, la linea sarà chiusa per tre settimane per dei lavori.",
+              "hint": "Passive, future.",
               "keywords": [
                 "sarà chiusa",
                 "lavori"
@@ -548,12 +515,12 @@
             },
             {
               "speaker": "npc",
-              "text": "Tre settimane? E come facciamo ad arrivare in ufficio?"
+              "text": "E come arriviamo in ufficio?"
             },
             {
               "speaker": "you",
               "text": "Hanno detto che i treni sarebbero stati sostituiti da autobus.",
-              "hint": "Report what the company said (hanno detto che + condizionale passato).",
+              "hint": "Hanno detto che + condizionale passato.",
               "keywords": [
                 "hanno detto",
                 "sostituiti"
@@ -561,59 +528,24 @@
             },
             {
               "speaker": "npc",
-              "text": "E gli abbonamenti? Devo comprarne uno nuovo?"
-            },
-            {
-              "speaker": "you",
-              "text": "No, hanno spiegato che gli abbonamenti sarebbero rimasti validi.",
-              "hint": "Report that season tickets stay valid.",
-              "keywords": [
-                "abbonamenti",
-                "validi"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Meno male. Ma perché non hanno fatto i lavori d'estate?"
-            },
-            {
-              "speaker": "you",
-              "text": "Infatti i pendolari hanno protestato: pensavano che fosse meglio farli d'estate.",
-              "hint": "Report the commuters' view (pensavano che + congiuntivo imperfetto).",
-              "keywords": [
-                "pensavano che",
-                "fosse"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Hanno ragione. Grazie dell'informazione!"
+              "text": "Meno male. Grazie!"
             }
-          ],
-          "instruction": "Parla con il tuo collega Luca. Rispondi ad alta voce quando tocca a te.",
-          "explanation": "Hai combinato passivo (sarà chiusa, sarebbero stati sostituiti), discorso indiretto e concordanza (pensavano che fosse)."
+          ]
         },
         {
           "type": "free_write",
-          "id": "b2-08-l3-e11",
-          "prompt": "Un amico italiano ti scrive: «Ho sentito che nel tuo quartiere è successo qualcosa. Che cosa?» Rispondi con un'email informale (120–180 parole): racconta una notizia locale, vera o inventata (lavori, una festa, un nuovo regolamento…). Riferisci che cosa hanno detto le persone coinvolte e che cosa pensavi tu.",
-          "minWords": 120,
+          "id": "b2-08-l4-e08",
+          "stage": "use",
+          "instruction": "Scrivi un'email di 100-140 parole.",
+          "prompt": "Un amico italiano ti scrive: «Ho sentito che nel tuo quartiere è successo qualcosa». Racconta una notizia locale (vera o inventata), che cosa hanno detto le persone coinvolte e che cosa pensavi tu.",
+          "minWords": 100,
           "checklist": [
-            "Ho usato almeno due forme passive (essere, venire o si passivante).",
-            "Ho riferito le parole di qualcuno con il discorso indiretto e i tempi spostati indietro.",
-            "Ho usato pensavo / credevo che + congiuntivo imperfetto.",
-            "Ho usato un registro informale coerente (Ciao…, Un abbraccio).",
-            "Ho organizzato il testo: saluto, fatti, reazioni, mia opinione, chiusura con una domanda."
+            "Ho usato almeno due forme passive.",
+            "Ho riferito due frasi con ha detto che.",
+            "Ho usato pensavo che + congiuntivo imperfetto.",
+            "Ho scritto in modo informale."
           ],
-          "modelAnswer": "Ciao Matteo,\ngrazie per il messaggio! Sì, nel mio quartiere c'è stata una piccola rivoluzione. Il mese scorso il comune ha deciso di chiudere al traffico la piazza principale e, da lunedì, le macchine non possono più passare. All'inizio molti negozianti erano arrabbiati: il fornaio mi ha detto che temeva di perdere metà dei clienti e che avrebbe firmato la petizione contro il progetto. In pochi giorni si sono raccolte quasi cinquecento firme! Il sindaco però ha spiegato che la piazza sarebbe stata trasformata in uno spazio pedonale con panchine e alberi, e che i lavori sarebbero stati finanziati dalla Regione. Io sinceramente pensavo che fosse un'idea un po' esagerata, invece adesso la piazza è piena di gente e anche il fornaio sembra contento. Insomma, a volte i cambiamenti fanno paura, ma poi funzionano.\nE tu come stai? Quando vieni a trovarmi?\nUn abbraccio,\n{name}",
-          "instruction": "Scrivi un'email informale (compito in stile CELI)."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-08-l3-e12",
-          "text": "Hanno detto che i lavori sarebbero finiti entro la fine del mese.",
-          "translation": "They said the work would be finished by the end of the month.",
-          "instruction": "Ascolta e ripeti ad alta voce."
+          "modelAnswer": "Caro Luca, nel mio quartiere hanno chiuso la strada principale. Il comune ha spiegato che la strada sarebbe stata riaperta dopo un mese. Pensavo che fosse una cosa rapida, ma i lavori sono molto lunghi."
         }
       ]
     }
@@ -688,94 +620,81 @@
   "grammarTips": [
     {
       "id": "b2-08-t1",
-      "rule": "Venire + participio: tempi semplici",
-      "tip": "Venire can replace essere in the passive only in simple tenses: viene chiuso, verrà chiuso, but è stato chiuso.",
+      "rule": "Passivo: essere o venire?",
+      "tip": "Venire + participio works only in simple tenses; in compound tenses use essere.",
       "example": {
-        "it": "Le domande vengono esaminate in ordine di arrivo.",
-        "en": "Applications are examined in order of arrival."
+        "it": "Le domande vengono esaminate. / Le domande sono state esaminate.",
+        "en": "The applications are examined. / were examined."
       },
       "challenge": {
-        "type": "error_correction",
-        "sentence": "La strada è venuta chiusa ieri.",
-        "answers": [
-          "La strada è stata chiusa ieri.",
-          "Ieri la strada è stata chiusa."
+        "type": "multiple_choice",
+        "instruction": "Scegli.",
+        "prompt": "I lavori ___ rinviati più volte.",
+        "options": [
+          "sono venuti",
+          "sono stati",
+          "hanno"
         ],
-        "instruction": "C'è un errore. Correggi."
+        "answer": 1,
+        "explanation": "Compound tenses need essere."
       }
     },
     {
       "id": "b2-08-t2",
-      "rule": "Si passivante: accordo con il nome",
-      "tip": "With the si passivante the verb agrees with the noun: si vende una casa, si vendono due case.",
+      "rule": "Riferire: i tre passi indietro",
+      "tip": "After a past reporting verb: present → imperfetto, passato → trapassato, futuro → condizionale passato.",
       "example": {
-        "it": "Si cercano volontari per la festa.",
-        "en": "Volunteers are wanted for the party."
+        "it": "Ha detto che sarebbe venuto.",
+        "en": "He said he would come."
       },
       "challenge": {
-        "type": "gap_fill",
-        "sentence": "In questo ufficio ___ (rilasciare) i certificati di residenza.",
+        "type": "transform",
+        "instruction": "Riscrivi.",
+        "source": "«Verrò domani.»",
+        "cue": "Ha detto che…",
         "answers": [
-          "si rilasciano"
+          "Ha detto che sarebbe venuto il giorno dopo.",
+          "Ha detto che sarebbe venuta il giorno dopo.",
+          "Ha detto che sarebbe venuto l'indomani."
         ],
-        "hint": "si + rilasciare",
-        "instruction": "Completa la frase."
+        "explanation": "Future becomes condizionale passato."
       }
     },
     {
       "id": "b2-08-t3",
-      "rule": "Ordine riferito → di + infinito",
-      "tip": "In reported speech an order becomes di + infinitive: «Firmi qui» → mi ha detto di firmare lì.",
+      "rule": "Pensavo che + imperfetto",
+      "tip": "A past main verb of opinion needs the congiuntivo imperfetto: Pensavo che fosse tardi.",
       "example": {
-        "it": "Mi ha detto di aspettare fuori.",
-        "en": "He told me to wait outside."
+        "it": "Pensavo che fosse chiusa.",
+        "en": "I thought it was closed."
       },
       "challenge": {
         "type": "gap_fill",
-        "sentence": "Mi ha detto ___ fuori.",
+        "instruction": "Completa.",
+        "sentence": "Pensavo che Luca ___ in ritardo.",
         "answers": [
-          "di aspettare"
+          "fosse"
         ],
-        "instruction": "Riferisci: «Aspetti fuori.»"
+        "hint": "essere",
+        "explanation": "Past main verb → congiuntivo imperfetto."
       }
     },
     {
       "id": "b2-08-t4",
-      "rule": "Futuro riferito → cond. passato",
-      "tip": "After ha detto che, a future becomes the condizionale passato: «Verrò» → ha detto che sarebbe venuto.",
-      "example": {
-        "it": "Ha detto che sarebbe arrivato tardi.",
-        "en": "He said he would arrive late."
-      },
-      "challenge": {
-        "type": "gap_fill",
-        "sentence": "Ha detto che mi ___ il giorno dopo.",
-        "answers": [
-          "avrebbe chiamato",
-          "avrebbe chiamata"
-        ],
-        "instruction": "Riferisci: «Ti chiamerò domani.»"
-      }
-    },
-    {
-      "id": "b2-08-t5",
-      "rule": "Domanda sì/no riferita → se",
-      "tip": "Reported yes/no questions are introduced by se: «È libero?» → mi ha chiesto se ero libero.",
+      "rule": "Mi ha chiesto se / di",
+      "tip": "Yes/no questions are reported with se; orders with di + infinitive.",
       "example": {
         "it": "Mi ha chiesto se avevo la ricevuta.",
-        "en": "She asked me if I had the receipt."
+        "en": "He asked me if I had the receipt."
       },
       "challenge": {
-        "type": "multiple_choice",
-        "prompt": "Mi ha chiesto ___ la tessera sanitaria.",
-        "options": [
-          "se ho avuto",
-          "di avere",
-          "che avevo",
-          "se avevo"
+        "type": "error_correction",
+        "instruction": "Correggi.",
+        "sentence": "Mi ha chiesto che avevo la ricevuta.",
+        "answers": [
+          "Mi ha chiesto se avevo la ricevuta."
         ],
-        "answer": 3,
-        "instruction": "Riferisci: «Ha la tessera sanitaria?»"
+        "explanation": "Yes/no questions need se."
       }
     }
   ]

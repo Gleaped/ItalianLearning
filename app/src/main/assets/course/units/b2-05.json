@@ -2,6 +2,8 @@
   "id": "b2-05",
   "level": "B2",
   "title": "Si comunica che…",
+  "format": 2,
+  "module": "b2-m3",
   "objective": "By the end you can understand and write news items, notices and official announcements, using the passive with essere, venire and andare, and the si passivante.",
   "grammarFocus": "Forma passiva con essere (tutti i tempi) e con venire (tempi semplici); andare + participio per l'obbligo; si passivante e formule degli avvisi (si comunica che, si prega di); titoli senza ausiliare.",
   "remedialUnitIds": [
@@ -11,62 +13,77 @@
   "lessons": [
     {
       "id": "b2-05-l1",
-      "title": "È stato approvato",
-      "minutes": 10,
+      "title": "La piscina è stata chiusa",
+      "minutes": 8,
+      "goal": "You can turn an active sentence into the passive with essere.",
+      "takeaway": "Passive = essere (same tense as the active verb) + participio, agreeing with the new subject.",
       "exercises": [
         {
           "type": "gap_fill",
           "id": "b2-05-l1-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: completa con il passato prossimo.",
           "sentence": "Ieri il sindaco ___ (inaugurare) la nuova biblioteca.",
           "answers": [
             "ha inaugurato"
           ],
-          "hint": "inaugurare – lui, passato prossimo",
-          "explanation": "Frase attiva: soggetto (il sindaco) + verbo + oggetto (la biblioteca)."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b2-05-l1-e02",
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "Le lettere? Le ho già ___ stamattina.",
-          "options": [
-            "spedito",
-            "spedite",
-            "spediti",
-            "spedita"
-          ],
-          "answer": 1,
-          "explanation": "Con lo/la/li/le prima di avere il participio si accorda: le ho spedite."
+          "hint": "inaugurare – lui",
+          "explanation": "Active sentence: subject + verb + object."
         },
         {
           "type": "grammar_note",
-          "id": "b2-05-l1-e03",
-          "title": "La forma passiva con essere",
-          "body": "Nella frase passiva l'**oggetto** diventa **soggetto**, e chi fa l'azione (l'agente) è introdotto da **da**:\n- attiva: *Il comune **ha chiuso** la piscina.*\n- passiva: *La piscina **è stata chiusa** dal comune.*\n\n**Forma**: *essere* nello stesso tempo del verbo attivo + participio passato, che si accorda con il soggetto.\n- presente: *è approvato* · imperfetto: *era approvato* · futuro: *sarà approvato*\n- passato prossimo: *è stato approvato* (attenzione: si accordano **due** participi: *la legge è stat**a** approvat**a***)\n- condizionale: *sarebbe approvato* · congiuntivo: *sia approvato*\n\nIl passivo è tipico di notizie, avvisi e testi ufficiali: mette al centro il fatto, non chi l'ha fatto. Spesso l'agente non c'è: *Il ponte è stato riaperto.*\n\nSolo i verbi **transitivi** (con complemento oggetto) possono diventare passivi: *arrivare, andare, piacere* no.",
+          "id": "b2-05-l1-e02",
+          "stage": "learn",
+          "title": "Dall'attivo al passivo",
+          "body": "The **object** becomes the **subject**. Use **essere** in the same tense as the active verb, plus the participio.\n\n| attivo | passivo |\n|---|---|\n| Il comune ==chiude== la piscina. | La piscina ==è chiusa== dal comune. |\n| Il comune ==ha chiuso== la piscina. | La piscina ==è stata chiusa== dal comune. |\n\n> In *è stata chiusa* **both** participles agree with the subject.",
           "examples": [
             {
               "it": "La nuova legge è stata approvata ieri.",
               "en": "The new law was passed yesterday."
             },
             {
-              "it": "Le domande saranno esaminate entro trenta giorni.",
-              "en": "Applications will be assessed within thirty days."
-            },
-            {
-              "it": "Il quadro è stato dipinto da Caravaggio.",
-              "en": "The painting was painted by Caravaggio."
-            },
-            {
-              "it": "I passeggeri erano stati avvisati del ritardo.",
-              "en": "Passengers had been informed of the delay."
+              "it": "Il ponte è stato inaugurato dal sindaco.",
+              "en": "The bridge was opened by the mayor."
             }
           ]
         },
         {
-          "type": "conjugation",
+          "type": "grammar_note",
+          "id": "b2-05-l1-e03",
+          "stage": "learn",
+          "title": "Il passivo in tutti i tempi",
+          "body": "Only *essere* changes tense. The participio stays the same.\n\n| tempo | esempio |\n|---|---|\n| presente | La legge ==è approvata==. |\n| imperfetto | La legge ==era approvata==. |\n| futuro | La legge ==sarà approvata==. |\n| passato prossimo | La legge ==è stata approvata==. |\n| congiuntivo | Penso che sia approvata. |",
+          "examples": [
+            {
+              "it": "Le domande saranno esaminate entro trenta giorni.",
+              "en": "The applications will be examined within thirty days."
+            },
+            {
+              "it": "Il museo era visitato da migliaia di persone.",
+              "en": "The museum used to be visited by thousands of people."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
           "id": "b2-05-l1-e04",
-          "instruction": "Scrivi il passato prossimo passivo di approvare per ogni soggetto.",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Quale frase è al passivo?",
+          "options": [
+            "Il comune ha chiuso la piscina.",
+            "La piscina è stata chiusa dal comune.",
+            "Il comune chiuderà la piscina.",
+            "La piscina chiude presto."
+          ],
+          "answer": 1,
+          "explanation": "The passive is essere + participio, with the object as subject."
+        },
+        {
+          "type": "conjugation",
+          "id": "b2-05-l1-e05",
+          "stage": "practise",
+          "instruction": "Scrivi il passato prossimo passivo di approvare.",
           "verb": "approvare",
           "tense": "passivo, passato prossimo",
           "items": [
@@ -81,28 +98,158 @@
             {
               "person": "le domande",
               "answer": "sono state approvate"
-            },
-            {
-              "person": "il bilancio",
-              "answer": "è stato approvato"
             }
           ],
-          "explanation": "Stato e approvato si accordano entrambi con il soggetto."
+          "explanation": "Both essere (stato) and the participio agree with the subject."
         },
         {
           "type": "gap_fill",
-          "id": "b2-05-l1-e05",
+          "id": "b2-05-l1-e06",
+          "stage": "practise",
           "instruction": "Completa la frase.",
           "sentence": "Il nuovo ponte ___ (inaugurare) ieri dal sindaco.",
           "answers": [
             "è stato inaugurato"
           ],
           "hint": "passivo, passato prossimo",
-          "explanation": "Soggetto maschile singolare → è stato inaugurato."
+          "explanation": "Masculine singular subject → è stato inaugurato."
+        },
+        {
+          "type": "transform",
+          "id": "b2-05-l1-e07",
+          "stage": "practise",
+          "instruction": "Volgi la frase al passivo.",
+          "source": "Il comune ha chiuso la piscina.",
+          "cue": "La piscina…",
+          "answers": [
+            "La piscina è stata chiusa dal comune."
+          ],
+          "hint": "essere + stato + chiusa",
+          "explanation": "Ha chiuso (passato prossimo) → è stata chiusa; feminine subject."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-05-l1-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "La nuova legge è stato approvato ieri.",
+          "answers": [
+            "La nuova legge è stata approvata ieri.",
+            "Ieri la nuova legge è stata approvata."
+          ],
+          "explanation": "Feminine subject (la legge) → stata approvata."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-05-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Racconta due novità della tua città o del tuo quartiere con il passivo (è stato aperto, è stata chiusa, sarà costruito…).",
+          "keywords": [
+            "è stato",
+            "è stata",
+            "sarà"
+          ],
+          "modelAnswer": "Il mese scorso è stato aperto un nuovo supermercato vicino a casa mia. Invece la vecchia piscina è stata chiusa per lavori e sarà riaperta solo l'anno prossimo."
+        }
+      ]
+    },
+    {
+      "id": "b2-05-l2",
+      "title": "Chi l'ha fatto?",
+      "minutes": 8,
+      "goal": "You can say who did it with da, or leave the agent out.",
+      "takeaway": "The agent takes da (dal direttore); often the agent is left out. Only transitive verbs have a passive.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-05-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Le lettere? Le ho già ___ stamattina.",
+          "options": [
+            "spedito",
+            "spedite",
+            "spediti",
+            "spedita"
+          ],
+          "answer": 1,
+          "explanation": "With lo/la/li/le before avere the participio agrees: le ho spedite."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-05-l2-e02",
+          "stage": "learn",
+          "title": "L'agente con da",
+          "body": "The person or thing doing the action comes after **da**. Often it is left out.\n\n| con agente | senza agente |\n|---|---|\n| La lettera è firmata ==dal== direttore. | Il ponte è stato riaperto. |\n| Il museo è visitato ==da== migliaia di persone. | La strada sarà chiusa. |\n\n> Say *da*, not ~~*per*~~. Only verbs with an object can be passive: not *arrivare* or *andare*.",
+          "examples": [
+            {
+              "it": "La mostra è stata organizzata dal comune.",
+              "en": "The exhibition was organised by the council."
+            },
+            {
+              "it": "Le chiavi saranno consegnate lunedì.",
+              "en": "The keys will be handed over on Monday."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b2-05-l2-e03",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Attiva",
+            "Passiva"
+          ],
+          "items": [
+            {
+              "text": "La legge è stata approvata.",
+              "bucket": 1
+            },
+            {
+              "text": "Il comune ha approvato la legge.",
+              "bucket": 0
+            },
+            {
+              "text": "I lavori saranno eseguiti da una ditta.",
+              "bucket": 1
+            },
+            {
+              "text": "Una ditta eseguirà i lavori.",
+              "bucket": 0
+            },
+            {
+              "text": "Le domande sono state accettate.",
+              "bucket": 1
+            },
+            {
+              "text": "Abbiamo accettato le domande.",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Passive: essere + participio; active: the subject does the action."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-05-l2-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Ieri sera il consiglio comunale ha approvato il nuovo piano del traffico. Dal primo gennaio il centro storico sarà chiuso alle auto nei giorni festivi. I residenti saranno informati con una lettera nelle prossime settimane, e i nuovi permessi saranno distribuiti dall'ufficio traffico.",
+          "question": "Come saranno informati i residenti?",
+          "options": [
+            "Con un'email.",
+            "Con una lettera.",
+            "Con un avviso in piazza.",
+            "Dall'ufficio traffico, al telefono."
+          ],
+          "answer": 1,
+          "explanation": "I residenti saranno informati con una lettera: passive in the future."
         },
         {
           "type": "gap_fill",
-          "id": "b2-05-l1-e06",
+          "id": "b2-05-l2-e05",
+          "stage": "practise",
           "instruction": "Completa la frase.",
           "sentence": "Le domande ___ (esaminare) entro trenta giorni.",
           "answers": [
@@ -110,35 +257,12 @@
             "verranno esaminate"
           ],
           "hint": "passivo, futuro",
-          "explanation": "Futuro passivo: saranno esaminate (o verranno esaminate, vedi lezione 2)."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b2-05-l1-e07",
-          "instruction": "Scegli la risposta giusta.",
-          "prompt": "La lettera è stata firmata ___ direttore.",
-          "options": [
-            "dal",
-            "per il",
-            "del",
-            "con il"
-          ],
-          "answer": 0,
-          "explanation": "L'agente si introduce con da (+ articolo): dal direttore. Non per, come in inglese 'by'."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-05-l1-e08",
-          "instruction": "Trasformazione (stile CELI): volgi la frase al passivo.",
-          "sentence": "«Il comune ha chiuso la piscina.» → La piscina ___ dal comune.",
-          "answers": [
-            "è stata chiusa"
-          ],
-          "explanation": "Ha chiuso (passato prossimo) → è stata chiusa; soggetto femminile."
+          "explanation": "Plural feminine subject, future passive: saranno esaminate."
         },
         {
           "type": "sentence_build",
-          "id": "b2-05-l1-e09",
+          "id": "b2-05-l2-e06",
+          "stage": "practise",
           "instruction": "Metti le parole in ordine.",
           "translation": "The museum was visited by thousands of people.",
           "tiles": [
@@ -156,129 +280,118 @@
             "ha",
             "per"
           ],
-          "explanation": "Essere + participio + da + agente."
+          "explanation": "Essere + participio + da + agent."
         },
         {
           "type": "error_correction",
-          "id": "b2-05-l1-e10",
+          "id": "b2-05-l2-e07",
+          "stage": "practise",
           "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "La nuova legge è stato approvato ieri.",
+          "sentence": "Il museo è stato visitato per migliaia di persone.",
           "answers": [
-            "La nuova legge è stata approvata ieri.",
-            "Ieri la nuova legge è stata approvata."
+            "Il museo è stato visitato da migliaia di persone."
           ],
-          "explanation": "Soggetto femminile (la legge) → stata approvata."
+          "explanation": "The agent takes da, not per."
         },
         {
-          "type": "listen_choose",
-          "id": "b2-05-l1-e11",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Ieri sera il consiglio comunale ha approvato il nuovo piano del traffico. Dal primo gennaio il centro storico sarà chiuso alle auto nei giorni festivi. I residenti saranno informati con una lettera nelle prossime settimane, e i nuovi permessi saranno distribuiti dall'ufficio traffico.",
-          "question": "Come saranno informati i residenti?",
-          "options": [
-            "Con un'email.",
-            "Con una lettera.",
-            "Con un avviso in piazza.",
-            "Dall'ufficio traffico, al telefono."
-          ],
-          "answer": 1,
-          "explanation": "I residenti saranno informati con una lettera: passivo al futuro."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-05-l1-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Il nuovo ospedale sarà inaugurato a marzo, se i lavori saranno finiti in tempo.",
-          "translation": "The new hospital will be opened in March, if the work is finished in time."
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-05-l1-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Racconta due novità della tua città o del tuo quartiere usando il passivo (è stato aperto, è stata chiusa, sarà costruito…).",
-          "keywords": [
-            "è stato",
-            "sarà"
-          ],
-          "modelAnswer": "Il mese scorso è stato aperto un nuovo supermercato vicino a casa mia. Invece la vecchia piscina è stata chiusa per lavori e sarà riaperta solo l'anno prossimo.",
-          "explanation": "Con il passivo metti al centro il fatto: chi l'ha fatto spesso non interessa."
+          "type": "reading",
+          "id": "b2-05-l2-e08",
+          "stage": "use",
+          "instruction": "Leggi la notizia e rispondi.",
+          "title": "Nuovo piano del traffico",
+          "passage": "Il consiglio comunale ha approvato il nuovo piano del traffico. Dal primo gennaio il centro storico sarà chiuso alle auto nei giorni festivi. Le strade saranno controllate da telecamere e i residenti riceveranno un permesso, che sarà distribuito dall'ufficio traffico. Il progetto è stato presentato dall'assessore alla mobilità.",
+          "questions": [
+            {
+              "question": "Quando sarà chiuso il centro alle auto?",
+              "options": [
+                "Ogni giorno.",
+                "Nei giorni festivi.",
+                "Solo d'estate.",
+                "Solo di notte."
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Chi distribuirà i permessi?",
+              "options": [
+                "L'ufficio traffico.",
+                "I residenti.",
+                "Le telecamere.",
+                "Il consiglio comunale."
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Chi ha presentato il progetto?",
+              "options": [
+                "Il sindaco.",
+                "L'assessore alla mobilità.",
+                "I residenti.",
+                "L'ufficio traffico."
+              ],
+              "answer": 1
+            }
+          ]
         }
       ]
     },
     {
-      "id": "b2-05-l2",
-      "title": "Il modulo va compilato",
-      "minutes": 10,
+      "id": "b2-05-l3",
+      "title": "La porta viene chiusa alle dieci",
+      "minutes": 8,
+      "goal": "You can describe actions with venire + participio.",
+      "takeaway": "Venire + participio = passive of an action, only in simple tenses: viene chiuso, verrà chiuso.",
       "exercises": [
         {
           "type": "gap_fill",
-          "id": "b2-05-l2-e01",
-          "instruction": "Riscaldamento: completa con il passivo.",
+          "id": "b2-05-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
           "sentence": "La mostra ___ (visitare) da moltissimi turisti l'estate scorsa.",
           "answers": [
             "è stata visitata"
           ],
           "hint": "passivo, passato prossimo",
-          "explanation": "Soggetto femminile → è stata visitata."
-        },
-        {
-          "type": "translate",
-          "id": "b2-05-l2-e02",
-          "instruction": "Riscaldamento: traduci in inglese.",
-          "direction": "it_en",
-          "source": "La strada sarà chiusa per lavori.",
-          "answers": [
-            "The road will be closed for roadworks.",
-            "The road will be closed for works.",
-            "The road will be closed due to roadworks.",
-            "The road will be closed because of roadworks.",
-            "The road will be closed for repairs.",
-            "The road will be closed due to works.",
-            "The road will be closed for construction work."
-          ],
-          "explanation": "Sarà chiusa: passivo al futuro."
+          "explanation": "Feminine subject, passato prossimo: è stata visitata."
         },
         {
           "type": "grammar_note",
-          "id": "b2-05-l2-e03",
-          "title": "Il passivo con venire e andare",
-          "body": "**Venire + participio** = passivo, solo nei **tempi semplici** (presente, imperfetto, futuro, condizionale presente, congiuntivo presente e imperfetto). Sottolinea l'**azione**, il processo:\n- *La porta **viene chiusa** alle 22.* (azione che succede ogni sera)\n- *La porta **è chiusa**.* (può essere anche solo uno stato)\n- Nei tempi composti solo essere: ~~*è venuto firmato*~~ → *è stato firmato*.\n\n**Andare + participio** = obbligo (*deve essere…*), tipico di istruzioni e avvisi:\n- *Il modulo **va compilato** in stampatello.* (= deve essere compilato)\n- *Le bottiglie **vanno buttate** nel vetro.*\n\nCon verbi come *perdere, distruggere, sprecare*, invece, andare indica una perdita: *Il pacco **è andato perso**.* (= si è perso)",
+          "id": "b2-05-l3-e02",
+          "stage": "learn",
+          "title": "Venire + participio",
+          "body": "**Venire** can replace *essere* in the passive. It stresses the **action**, not the result.\n\n| essere | venire |\n|---|---|\n| La porta ==è chiusa==. (state, or action) | La porta ==viene chiusa== alle 22. (action) |\n| Sarà approvato. | ==Verrà== approvato. |\n\n> Only simple tenses: not ~~*è venuto firmato*~~ but *è stato firmato*.",
           "examples": [
             {
               "it": "La colazione viene servita dalle sette alle dieci.",
               "en": "Breakfast is served from seven to ten."
             },
             {
-              "it": "La domanda va presentata entro il 31 marzo.",
-              "en": "The application must be submitted by 31 March."
-            },
-            {
-              "it": "I biglietti vanno convalidati a bordo.",
-              "en": "Tickets must be validated on board."
-            },
-            {
-              "it": "Purtroppo la valigia è andata persa.",
-              "en": "Unfortunately the suitcase got lost."
+              "it": "I documenti vengono controllati all'ingresso.",
+              "en": "Documents are checked at the entrance."
             }
           ]
         },
         {
-          "type": "multiple_choice",
-          "id": "b2-05-l2-e04",
-          "instruction": "Scegli la risposta giusta.",
-          "prompt": "Quale frase descrive un'azione che si ripete, non solo uno stato?",
-          "options": [
+          "type": "minimal_pair",
+          "id": "b2-05-l3-e03",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
             "La porta è chiusa.",
-            "La porta viene chiusa ogni sera alle dieci.",
-            "La porta era chiusa.",
-            "La porta resta chiusa."
+            "La porta viene chiusa ogni sera alle dieci."
           ],
+          "question": "Which sentence describes an action that repeats?",
           "answer": 1,
-          "explanation": "Venire + participio mette in evidenza l'azione: viene chiusa (da qualcuno, ogni sera)."
+          "translations": [
+            "The door is closed.",
+            "The door is closed every evening at ten."
+          ],
+          "explanation": "Venire + participio highlights an action that happens, here every evening."
         },
         {
           "type": "gap_fill",
-          "id": "b2-05-l2-e05",
+          "id": "b2-05-l3-e04",
+          "stage": "practise",
           "instruction": "Completa la frase.",
           "sentence": "In questo albergo la colazione ___ (servire) dalle sette alle dieci.",
           "answers": [
@@ -286,22 +399,107 @@
             "è servita"
           ],
           "hint": "passivo, presente",
-          "explanation": "Viene servita (azione abituale) o è servita: entrambi corretti."
+          "explanation": "Habitual action: viene servita (or è servita)."
         },
         {
           "type": "gap_fill",
-          "id": "b2-05-l2-e06",
+          "id": "b2-05-l3-e05",
+          "stage": "practise",
           "instruction": "Completa la frase.",
-          "sentence": "Questo modulo ___ (compilare) in stampatello.",
+          "sentence": "Il permesso ___ (rilasciare) dall'ufficio traffico.",
           "answers": [
-            "va compilato"
+            "viene rilasciato",
+            "è rilasciato"
           ],
-          "hint": "obbligo: andare + participio",
-          "explanation": "Va compilato = deve essere compilato."
+          "hint": "passivo, presente",
+          "explanation": "Masculine singular, simple tense: viene rilasciato."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-05-l3-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Il contratto è venuto firmato ieri.",
+          "answers": [
+            "Il contratto è stato firmato ieri.",
+            "Ieri il contratto è stato firmato."
+          ],
+          "explanation": "Venire is not used in compound tenses: è stato firmato."
+        },
+        {
+          "type": "translate",
+          "id": "b2-05-l3-e07",
+          "stage": "practise",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "I documenti vengono controllati all'ingresso.",
+          "answers": [
+            "The documents are checked at the entrance.",
+            "Documents are checked at the entrance.",
+            "The documents are checked at the entry.",
+            "The documents are checked on entry.",
+            "Documents are checked on entry.",
+            "The documents get checked at the entrance."
+          ],
+          "explanation": "Vengono controllati = are checked (passive of an action)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-05-l3-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Descrivi che cosa viene fatto ogni giorno nel tuo luogo di lavoro, a scuola o in un negozio. Usa viene / vengono + participio.",
+          "keywords": [
+            "viene",
+            "vengono"
+          ],
+          "modelAnswer": "Nel mio ufficio la posta viene ritirata alle nove e le riunioni vengono fissate il lunedì. Il portone viene chiuso alle otto di sera."
+        }
+      ]
+    },
+    {
+      "id": "b2-05-l4",
+      "title": "Il modulo va compilato",
+      "minutes": 8,
+      "goal": "You can give and understand obligations with andare + participio.",
+      "takeaway": "Va + participio = deve essere + participio: il modulo va compilato. With perdere/smarrire, andare = get lost.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-05-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "La riunione di condominio ___ ogni tre mesi.",
+          "options": [
+            "viene convocata",
+            "è venuta convocata",
+            "ha convocato",
+            "va convocata ieri"
+          ],
+          "answer": 0,
+          "explanation": "Venire + participio in a simple tense: viene convocata."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-05-l4-e02",
+          "stage": "learn",
+          "title": "Andare + participio",
+          "body": "**Andare + participio** means *must be done*. It is common on forms and notices.\n\n| va + participio | = deve essere |\n|---|---|\n| Il modulo ==va compilato==. | deve essere compilato |\n| I rifiuti ==vanno separati==. | devono essere separati |\n| La domanda ==va presentata== entro marzo. | deve essere presentata |\n\n> *Il pacco è ==andato perso==* = the parcel got lost.",
+          "examples": [
+            {
+              "it": "Il biglietto va convalidato a bordo.",
+              "en": "The ticket must be validated on board."
+            },
+            {
+              "it": "Le bottiglie vanno buttate nel vetro.",
+              "en": "Bottles go in the glass bin."
+            }
+          ]
         },
         {
           "type": "match_pairs",
-          "id": "b2-05-l2-e07",
+          "id": "b2-05-l4-e03",
+          "stage": "practise",
           "instruction": "Abbina ogni avviso al suo significato.",
           "pairs": [
             {
@@ -319,27 +517,38 @@
             {
               "left": "Il pacco è andato perso.",
               "right": "Il pacco si è perso."
-            },
-            {
-              "left": "I documenti vengono controllati all'ingresso.",
-              "right": "Qualcuno controlla i documenti all'ingresso."
             }
-          ]
+          ],
+          "explanation": "Va / vanno + participio = deve / devono essere + participio."
         },
         {
-          "type": "error_correction",
-          "id": "b2-05-l2-e08",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Il contratto è venuto firmato ieri.",
+          "type": "gap_fill",
+          "id": "b2-05-l4-e04",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Questo modulo ___ (compilare) in stampatello.",
           "answers": [
-            "Il contratto è stato firmato ieri.",
-            "Ieri il contratto è stato firmato."
+            "va compilato"
           ],
-          "explanation": "Venire non si usa nei tempi composti: è stato firmato."
+          "hint": "obbligo: andare + participio",
+          "explanation": "Va compilato = deve essere compilato."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-05-l4-e05",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "I documenti ___ (consegnare) entro lunedì.",
+          "answers": [
+            "vanno consegnati"
+          ],
+          "hint": "obbligo: andare + participio",
+          "explanation": "Plural subject → vanno consegnati."
         },
         {
           "type": "translate",
-          "id": "b2-05-l2-e09",
+          "id": "b2-05-l4-e06",
+          "stage": "practise",
           "instruction": "Traduci in italiano.",
           "direction": "en_it",
           "source": "The form must be signed and returned by Friday.",
@@ -355,175 +564,22 @@
         },
         {
           "type": "listen_transcribe",
-          "id": "b2-05-l2-e10",
+          "id": "b2-05-l4-e07",
+          "stage": "practise",
           "instruction": "Ascolta e scrivi la frase.",
           "audioText": "Il biglietto va convalidato prima di salire sul treno.",
           "answers": [
             "Il biglietto va convalidato prima di salire sul treno."
           ],
-          "slow": false,
-          "explanation": "Va convalidato: obbligo. Convalidare = timbrare il biglietto."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b2-05-l2-e11",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Avviso ai signori passeggeri: a causa di lavori sulla linea, il treno regionale delle otto e quindici è sostituito da un servizio di autobus tra le stazioni di Arezzo e Montevarchi. Gli autobus partono dal piazzale esterno della stazione. I biglietti del treno vengono accettati anche sugli autobus.",
-          "question": "Che cosa devono sapere i passeggeri?",
-          "options": [
-            "Il treno è cancellato e i biglietti vanno rimborsati.",
-            "Per un tratto il viaggio si fa in autobus con lo stesso biglietto.",
-            "Bisogna comprare un biglietto per l'autobus.",
-            "Il treno parte dal piazzale esterno."
-          ],
-          "answer": 1,
-          "explanation": "È sostituito da un servizio di autobus; i biglietti vengono accettati anche sugli autobus."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-05-l2-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Le bottiglie di vetro vanno buttate nel contenitore verde, i cartoni in quello giallo.",
-          "translation": "Glass bottles go in the green bin, cardboard in the yellow one."
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-05-l2-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Spiega a un nuovo vicino come funziona la raccolta differenziata nel tuo palazzo. Usa va / vanno + participio.",
-          "keywords": [
-            "vanno",
-            "va"
-          ],
-          "modelAnswer": "La carta va messa nel bidone bianco e la plastica in quello giallo. L'umido va buttato nei sacchetti compostabili, e il vetro va portato nella campana in fondo alla strada. I sacchi vanno lasciati fuori solo la sera prima della raccolta.",
-          "explanation": "Va / vanno + participio: il modo più naturale per spiegare regole e istruzioni."
-        }
-      ]
-    },
-    {
-      "id": "b2-05-l3",
-      "title": "Si comunica che…",
-      "minutes": 12,
-      "exercises": [
-        {
-          "type": "gap_fill",
-          "id": "b2-05-l3-e01",
-          "instruction": "Riscaldamento: completa.",
-          "sentence": "I documenti ___ (consegnare) entro lunedì.",
-          "answers": [
-            "vanno consegnati"
-          ],
-          "hint": "obbligo: andare + participio",
-          "explanation": "Soggetto plurale → vanno consegnati."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b2-05-l3-e02",
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "La riunione di condominio ___ ogni tre mesi.",
-          "options": [
-            "viene convocata",
-            "è venuta convocata",
-            "ha convocato",
-            "va convocata ieri"
-          ],
-          "answer": 0,
-          "explanation": "Venire + participio in un tempo semplice: viene convocata."
-        },
-        {
-          "type": "grammar_note",
-          "id": "b2-05-l3-e03",
-          "title": "Si passivante e linguaggio degli avvisi",
-          "body": "**Si + verbo alla 3ª persona** con un oggetto ha valore passivo: il verbo si accorda con la cosa (che spesso viene dopo).\n- *Si vende appartamento.* · *Si **vendono** appartamenti.*\n- *Qui si parla inglese.* · *Qui si **parlano** tre lingue.*\n- Nei tempi composti: essere + accordo: *Si sono vendut**i** tutti i biglietti.* · *Si è pres**a** una decisione.*\n\nDifferenza con il **si impersonale** (B1-05): senza oggetto il verbo resta al singolare: *Qui si lavora bene.*\n\n**Formule tipiche di avvisi e annunci**:\n- *Si comunica che… / Si avvisa la gentile clientela che…*\n- *Si informano i signori condomini che…* (plurale: i condomini vengono informati)\n- *Si prega di non fumare.* (= please do not smoke)\n\n**Titoli di giornale**: l'ausiliare spesso sparisce: *Approvata la riforma* = La riforma è stata approvata.",
-          "examples": [
-            {
-              "it": "Si affittano camere a studenti.",
-              "en": "Rooms to let to students."
-            },
-            {
-              "it": "Si comunica che l'ufficio resterà chiuso il 2 giugno.",
-              "en": "Please note that the office will be closed on 2 June."
-            },
-            {
-              "it": "Si sono raccolte più di mille firme.",
-              "en": "More than a thousand signatures were collected."
-            },
-            {
-              "it": "Si prega di lasciare libero il passo carrabile.",
-              "en": "Please keep the driveway clear."
-            }
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b2-05-l3-e04",
-          "instruction": "Scegli la risposta giusta.",
-          "prompt": "In questo negozio si ___ biciclette usate.",
-          "options": [
-            "vende",
-            "vendono",
-            "venduto",
-            "vendiamo"
-          ],
-          "answer": 1,
-          "explanation": "Si passivante: il verbo si accorda con biciclette (plurale)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-05-l3-e05",
-          "instruction": "Completa la frase.",
-          "sentence": "Ieri sera in assemblea si ___ (prendere) una decisione importante.",
-          "answers": [
-            "è presa"
-          ],
-          "hint": "si passivante, passato prossimo",
-          "explanation": "Tempo composto con essere; il participio si accorda con decisione: si è presa."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-05-l3-e06",
-          "instruction": "Completa la frase.",
-          "sentence": "Si ___ (pregare) i signori passeggeri di non lasciare bagagli incustoditi.",
-          "answers": [
-            "pregano"
-          ],
-          "hint": "si passivante, presente",
-          "explanation": "I signori passeggeri è il soggetto grammaticale → plurale: si pregano."
-        },
-        {
-          "type": "match_pairs",
-          "id": "b2-05-l3-e07",
-          "instruction": "Abbina ogni titolo di giornale alla frase completa.",
-          "pairs": [
-            {
-              "left": "Approvata la riforma",
-              "right": "La riforma è stata approvata."
-            },
-            {
-              "left": "Chiusa l'A1 per neve",
-              "right": "L'autostrada A1 è stata chiusa per la neve."
-            },
-            {
-              "left": "Rinviato lo sciopero dei treni",
-              "right": "Lo sciopero dei treni è stato rinviato."
-            },
-            {
-              "left": "Arrestati due ladri",
-              "right": "Due ladri sono stati arrestati."
-            },
-            {
-              "left": "Ritrovato il cane scomparso",
-              "right": "Il cane scomparso è stato ritrovato."
-            }
-          ],
-          "explanation": "Nei titoli resta solo il participio, accordato con il soggetto."
+          "explanation": "Va convalidato: obligation. Convalidare = to validate a ticket."
         },
         {
           "type": "reading",
-          "id": "b2-05-l3-e08",
-          "instruction": "Lettura (stile CELI): leggi l'avviso e rispondi.",
+          "id": "b2-05-l4-e08",
+          "stage": "use",
+          "instruction": "Leggi l'avviso e rispondi.",
           "title": "Avviso ai condomini",
-          "passage": "CONDOMINIO DI VIA DEI MILLE 14\n\nSi informano i signori condomini che lunedì 10 novembre inizieranno i lavori di rifacimento della facciata. I lavori saranno eseguiti dalla ditta Edilnova e dureranno circa sei settimane.\n\nDurante i lavori:\n– il cortile verrà utilizzato come deposito dei materiali e non potrà essere usato per parcheggiare;\n– le biciclette vanno spostate nella cantina comune entro domenica 9 novembre;\n– le finestre sulla strada andranno tenute chiuse durante l'orario di lavoro (8–17).\n\nSi ricorda inoltre che il portone viene chiuso alle ore 22. Le chiavi del nuovo portone saranno consegnate a ogni appartamento dall'amministratore entro venerdì.\n\nSi ringrazia per la collaborazione e ci si scusa per i disagi.\nL'amministratore",
+          "passage": "CONDOMINIO DI VIA DEI MILLE 14\n\nLunedì 10 novembre inizieranno i lavori di rifacimento della facciata. I lavori saranno eseguiti dalla ditta Edilnova e dureranno circa sei settimane.\n\nDurante i lavori:\n– il cortile verrà utilizzato come deposito dei materiali e non potrà essere usato per parcheggiare;\n– le biciclette vanno spostate nella cantina comune entro domenica 9 novembre;\n– le finestre sulla strada vanno tenute chiuse durante l'orario di lavoro (8–17).\n\nIl portone viene chiuso alle ore 22. Le chiavi del nuovo portone saranno consegnate a ogni appartamento dall'amministratore entro venerdì.\n\nL'amministratore",
           "questions": [
             {
               "question": "Chi farà i lavori?",
@@ -538,39 +594,149 @@
             {
               "question": "Che cosa bisogna fare con le biciclette?",
               "options": [
-                "Lasciarle in cortile.",
-                "Spostarle in cantina entro domenica.",
-                "Portarle via dal palazzo.",
-                "Legarle al portone."
+                "Lasciarle nel cortile.",
+                "Spostarle in cantina entro domenica 9.",
+                "Portarle alla ditta.",
+                "Venderle."
               ],
               "answer": 1
             },
             {
-              "question": "Che cosa succede alle 22?",
+              "question": "A che ora viene chiuso il portone?",
               "options": [
-                "Il portone viene chiuso.",
-                "Finiscono i lavori.",
-                "Si aprono le finestre.",
-                "Arriva l'amministratore."
+                "Alle 8.",
+                "Alle 17.",
+                "Alle 22.",
+                "Alle 24."
               ],
-              "answer": 0
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-05-l5",
+      "title": "Si comunica che…",
+      "minutes": 9,
+      "goal": "You can read and write notices, ads and headlines with the si passivante.",
+      "takeaway": "Si + verb agrees with the thing (si vende casa / si vendono case); headlines drop essere.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b2-05-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "I rifiuti ___ (separare).",
+          "answers": [
+            "vanno separati"
+          ],
+          "hint": "obbligo: andare + participio",
+          "explanation": "Plural subject → vanno separati."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-05-l5-e02",
+          "stage": "learn",
+          "title": "Il si passivante",
+          "body": "**Si + verb** in the 3rd person can have a passive meaning. The verb agrees with the **thing**.\n\n| singolare | plurale |\n|---|---|\n| Si ==vende== appartamento. | Si ==vendono== appartamenti. |\n| Qui si ==parla== inglese. | Qui si ==parlano== tre lingue. |\n\nCompound tenses use essere: *si sono venduti tutti i biglietti*.\n\n> Singular thing, singular verb; plural thing, plural verb.",
+          "examples": [
+            {
+              "it": "Si affittano camere a studenti.",
+              "en": "Rooms to let to students."
             },
             {
-              "question": "Che cosa riceverà ogni appartamento?",
-              "options": [
-                "Un rimborso.",
-                "Un posto auto.",
-                "Una lettera della ditta.",
-                "Le chiavi del nuovo portone."
-              ],
-              "answer": 3
+              "it": "Si è presa una decisione importante.",
+              "en": "An important decision was made."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-05-l5-e03",
+          "stage": "learn",
+          "title": "Avvisi e titoli",
+          "body": "Notices and headlines have their own style.\n\n| formula | significato |\n|---|---|\n| ==Si comunica che…== | We inform you that… |\n| ==Si prega di== + infinito | Please… |\n| ==Approvata== la riforma | La riforma è stata approvata. |\n\nIn headlines the auxiliary disappears and the participio agrees with the subject.",
+          "examples": [
+            {
+              "it": "Si prega di non fumare.",
+              "en": "Please do not smoke."
+            },
+            {
+              "it": "Chiusa l'A1 per neve.",
+              "en": "Motorway A1 closed because of snow."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-05-l5-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "In questo negozio si ___ biciclette usate.",
+          "options": [
+            "vende",
+            "vendono",
+            "venduto",
+            "vendiamo"
+          ],
+          "answer": 1,
+          "explanation": "Si passivante: the verb agrees with biciclette (plural)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-05-l5-e05",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Ieri sera in assemblea si ___ (prendere) una decisione importante.",
+          "answers": [
+            "è presa"
+          ],
+          "hint": "si passivante, passato prossimo",
+          "explanation": "Compound tense with essere; the participio agrees with decisione: si è presa."
+        },
+        {
+          "type": "match_pairs",
+          "id": "b2-05-l5-e06",
+          "stage": "practise",
+          "instruction": "Abbina ogni titolo alla frase completa.",
+          "pairs": [
+            {
+              "left": "Approvata la riforma",
+              "right": "La riforma è stata approvata."
+            },
+            {
+              "left": "Chiusa l'A1 per neve",
+              "right": "L'autostrada A1 è stata chiusa per la neve."
+            },
+            {
+              "left": "Rinviato lo sciopero",
+              "right": "Lo sciopero è stato rinviato."
+            },
+            {
+              "left": "Arrestati due ladri",
+              "right": "Due ladri sono stati arrestati."
             }
           ],
-          "explanation": "Trova tutte le forme passive: saranno eseguiti, verrà utilizzato, vanno spostate, andranno tenute, viene chiuso, saranno consegnate, si ricorda."
+          "explanation": "Headlines keep only the participio, agreeing with the subject."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-05-l5-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Si vende biglietti per il concerto all'ingresso.",
+          "answers": [
+            "Si vendono biglietti per il concerto all'ingresso.",
+            "All'ingresso si vendono biglietti per il concerto.",
+            "I biglietti per il concerto si vendono all'ingresso."
+          ],
+          "explanation": "Biglietti is plural → si vendono."
         },
         {
           "type": "translate",
-          "id": "b2-05-l3-e09",
+          "id": "b2-05-l5-e08",
+          "stage": "practise",
           "instruction": "Traduci in inglese.",
           "direction": "it_en",
           "source": "Si affittano camere a studenti.",
@@ -580,111 +746,26 @@
             "Rooms to rent to students.",
             "Rooms to let for students.",
             "Rooms for rent for students.",
-            "Rooms to rent for students.",
             "Rooms let to students.",
-            "Rooms rented to students.",
-            "We rent rooms to students.",
-            "Rooms available for students."
+            "We rent rooms to students."
           ],
-          "explanation": "Si passivante tipico degli annunci: si affittano, si vendono, si cercano."
-        },
-        {
-          "type": "error_correction",
-          "id": "b2-05-l3-e10",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Si vende biglietti per il concerto all'ingresso.",
-          "answers": [
-            "Si vendono biglietti per il concerto all'ingresso.",
-            "All'ingresso si vendono biglietti per il concerto.",
-            "I biglietti per il concerto si vendono all'ingresso."
-          ],
-          "explanation": "Biglietti è plurale → si vendono."
-        },
-        {
-          "type": "roleplay",
-          "id": "b2-05-l3-e11",
-          "instruction": "Role-play: rispondi ad alta voce quando tocca a te.",
-          "scenario": "Hai letto un avviso: la tua strada sarà chiusa per lavori. Telefoni all'ufficio relazioni con il pubblico del Comune per avere informazioni. Usa il Lei.",
-          "turns": [
-            {
-              "speaker": "npc",
-              "text": "Comune, ufficio relazioni con il pubblico, buongiorno."
-            },
-            {
-              "speaker": "you",
-              "text": "Buongiorno, ho letto che la mia strada sarà chiusa per lavori. Vorrei sapere quando cominceranno.",
-              "hint": "Spiega l'avviso con un passivo al futuro e fai una domanda.",
-              "keywords": [
-                "sarà chiusa",
-                "vorrei sapere"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Sì, via Garibaldi. I lavori verranno avviati lunedì prossimo e dureranno circa tre settimane."
-            },
-            {
-              "speaker": "you",
-              "text": "E le macchine dei residenti dove vanno parcheggiate?",
-              "hint": "Chiedi dove bisogna parcheggiare: vanno + participio.",
-              "keywords": [
-                "vanno parcheggiate"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Per i residenti è stato riservato il parcheggio di piazza Mazzini. Serve un permesso, che viene rilasciato dall'ufficio traffico."
-            },
-            {
-              "speaker": "you",
-              "text": "Il permesso va richiesto di persona o si può fare la domanda online?",
-              "hint": "Chiedi come va richiesto il permesso.",
-              "keywords": [
-                "va richiesto",
-                "online"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "La domanda si presenta online sul sito del Comune. Il permesso viene inviato per email entro due giorni."
-            },
-            {
-              "speaker": "you",
-              "text": "Perfetto, è stata molto gentile. La ringrazio, buona giornata.",
-              "hint": "Ringrazia e saluta.",
-              "keywords": [
-                "ringrazio"
-              ]
-            }
-          ],
-          "explanation": "Hai capito e usato tutte le forme: sarà chiusa, verranno avviati, vanno parcheggiate, è stato riservato, viene rilasciato, si presenta."
+          "explanation": "Si passivante is typical of ads: si affittano, si vendono."
         },
         {
           "type": "free_write",
-          "id": "b2-05-l3-e12",
-          "instruction": "Scrittura (stile CELI, registro formale).",
-          "prompt": "Sei il rappresentante del tuo palazzo. Scrivi un avviso per i condomini (120–150 parole): tra due settimane verrà riparato l'ascensore. Indica le date, che cosa verrà fatto e da chi, che cosa va fatto dai residenti e le regole da rispettare.",
-          "minWords": 120,
+          "id": "b2-05-l5-e09",
+          "stage": "use",
+          "instruction": "Scrittura formale.",
+          "prompt": "Sei il rappresentante del tuo palazzo. Scrivi un avviso per i condomini (100–130 parole): tra due settimane verrà riparato l'ascensore. Indica le date, che cosa verrà fatto e da chi, che cosa va fatto dai residenti e le regole da rispettare.",
+          "minWords": 100,
           "checklist": [
-            "Ho aperto con una formula da avviso (Si informano i signori condomini che…, Si comunica che…).",
-            "Ho usato il passivo con essere o venire per i lavori (sarà riparato, verrà sostituito…).",
-            "Ho usato va / vanno + participio per gli obblighi dei residenti.",
-            "Ho usato almeno un si passivante (si ricorda, si prega di…).",
-            "Ho chiuso con un ringraziamento e ho scritto almeno 120 parole."
+            "Formula di apertura (Si informano i signori condomini che…).",
+            "Passivo con essere o venire (sarà riparato, verrà sostituito…).",
+            "Va / vanno + participio per gli obblighi.",
+            "Almeno un si passivante (si ricorda, si prega di…).",
+            "Ringraziamento finale e almeno 100 parole."
           ],
-          "modelAnswer": "AVVISO AI CONDOMINI\n\nSi informano i signori condomini che da lunedì 17 a venerdì 21 novembre l'ascensore sarà fuori servizio per lavori di manutenzione. I lavori verranno eseguiti dalla ditta Ascensori Rossi e comprenderanno la sostituzione delle porte e del motore.\n\nDurante quei giorni l'ascensore non potrà essere utilizzato in nessun caso. Si prega quindi di organizzare in anticipo eventuali consegne di mobili o di spesa pesante. I residenti che hanno difficoltà a fare le scale vanno segnalati al sottoscritto entro venerdì 14: verrà organizzato un servizio di aiuto per la spesa con alcuni volontari del palazzo.\n\nSi ricorda inoltre che le scale vanno lasciate libere da biciclette e passeggini, perché saranno usate dai tecnici per trasportare il materiale.\n\nSi ringrazia per la collaborazione e ci si scusa per il disagio.\n\nIl rappresentante dei condomini"
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-05-l3-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Sei l'annunciatore della stazione. Annuncia che il treno per Roma delle 10.20 è stato cancellato, che i passeggeri devono prendere il treno successivo e che i biglietti restano validi.",
-          "keywords": [
-            "si avvisano",
-            "cancellato"
-          ],
-          "modelAnswer": "Si avvisano i signori passeggeri che il treno per Roma delle ore 10.20 è stato cancellato. I passeggeri sono pregati di prendere il treno successivo delle 11.05. I biglietti già acquistati restano validi.",
-          "explanation": "Si avvisano + passivo con essere: lo stile tipico degli annunci pubblici."
+          "modelAnswer": "AVVISO AI CONDOMINI\n\nSi informano i signori condomini che da lunedì 17 a venerdì 21 novembre l'ascensore sarà fuori servizio per lavori di manutenzione. I lavori verranno eseguiti dalla ditta Ascensori Rossi e comprenderanno la sostituzione delle porte e del motore.\n\nDurante quei giorni l'ascensore non potrà essere usato. Le spese e gli oggetti ingombranti vanno portati a mano; le biciclette vanno lasciate in cortile. Si prega di non ostruire le scale e di fare attenzione ai lavori. Il portone viene chiuso alle ore 22.\n\nSi ringrazia per la collaborazione e ci si scusa per il disagio.\nL'amministratore"
         }
       ]
     }
@@ -789,16 +870,6 @@
       "it": "si prega di",
       "en": "please (in notices)",
       "example": "Si prega di chiudere il portone."
-    },
-    {
-      "it": "il passo carrabile",
-      "en": "driveway (no parking)",
-      "example": "Non parcheggiare davanti al passo carrabile."
-    },
-    {
-      "it": "sostituire",
-      "en": "to replace",
-      "example": "Il treno è sostituito da un autobus."
     }
   ],
   "grammarTips": [

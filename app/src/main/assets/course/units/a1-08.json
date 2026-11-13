@@ -1,0 +1,1024 @@
+{
+  "id": "a1-08",
+  "level": "A1",
+  "title": "Mi piace!",
+  "format": 2,
+  "module": "a1-m3",
+  "objective": "By the end you can say what you like and dislike, name free-time activities and say how often you do things.",
+  "grammarFocus": "Piacere (piace / piacciono, mi ti gli le ci vi), non … mai, adverbs of frequency, free-time verbs.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-08-l1",
+      "title": "Mi piace, mi piacciono",
+      "minutes": 7,
+      "goal": "You can say what you like: one thing, an action or several things.",
+      "takeaway": "Mi piace + one thing or a verb; mi piacciono + several things.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-08-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "Io ___ al cinema stasera.",
+          "options": [
+            "vado",
+            "va",
+            "andare",
+            "vai"
+          ],
+          "answer": 0,
+          "explanation": "Andare is irregular: io vado."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l1-e02",
+          "stage": "learn",
+          "title": "Mi piace, mi piacciono",
+          "body": "Italian says *it is pleasing to me*. The thing you like decides the verb.\n\n| you like | verb | example |\n|---|---|---|\n| one thing | mi pia==ce== | Mi piace il caffè. |\n| an action | mi pia==ce== | Mi piace leggere. |\n| many things | mi pia==cciono== | Mi piacciono i gatti. |\n\n> The verb does not agree with *mi*. Never say *Mi piace i gatti*.",
+          "examples": [
+            {
+              "it": "Mi piace la pizza.",
+              "en": "I like pizza."
+            },
+            {
+              "it": "Mi piacciono gli spaghetti.",
+              "en": "I like spaghetti."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-08-l1-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Mi piace molto la pizza.",
+          "question": "What does the speaker like?",
+          "options": [
+            "Pizza",
+            "Pasta",
+            "Bread",
+            "Ice cream"
+          ],
+          "answer": 0,
+          "explanation": "Mi piace molto + la pizza: the speaker likes pizza."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-08-l1-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Mi piace…",
+            "Mi piacciono…"
+          ],
+          "items": [
+            {
+              "text": "il gelato",
+              "bucket": 0
+            },
+            {
+              "text": "le patate",
+              "bucket": 1
+            },
+            {
+              "text": "cucinare",
+              "bucket": 0
+            },
+            {
+              "text": "i film italiani",
+              "bucket": 1
+            },
+            {
+              "text": "la musica",
+              "bucket": 0
+            },
+            {
+              "text": "gli spaghetti",
+              "bucket": 1
+            },
+            {
+              "text": "viaggiare",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Use piace for one thing or an action, piacciono for several things."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-08-l1-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Mi piace il gatto.",
+            "Mi piacciono i gatti."
+          ],
+          "question": "Which sentence is about more than one cat?",
+          "answer": 1,
+          "translations": [
+            "I like the cat.",
+            "I like cats."
+          ],
+          "explanation": "Piacciono goes with a plural thing: i gatti."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-08-l1-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "Mi ___ la pizza.",
+          "answers": [
+            "piace"
+          ],
+          "explanation": "One thing (la pizza) takes piace."
+        },
+        {
+          "type": "translate",
+          "id": "a1-08-l1-e07",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "I like the coffee.",
+          "answers": [
+            "Mi piace il caffè.",
+            "Mi piace il caffè",
+            "Il caffè mi piace."
+          ],
+          "explanation": "Piacere: mi piace + the singular thing."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-08-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Che cosa ti piace mangiare? Dì due cose.",
+          "keywords": [
+            "mi piace",
+            "mi piacciono"
+          ],
+          "modelAnswer": "Mi piace la pasta. Mi piacciono anche i dolci."
+        }
+      ]
+    },
+    {
+      "id": "a1-08-l2",
+      "title": "Ti piace? Non mi piace",
+      "minutes": 7,
+      "goal": "You can ask others what they like and say what you do not like.",
+      "takeaway": "mi, ti, gli, le + piace; put non before mi; answer with anche a me / neanche a me.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-08-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: come si dice?",
+          "prompt": "How do you say: I would like a coffee?",
+          "options": [
+            "Vorrei un caffè.",
+            "Voglio un caffè.",
+            "Mi piace un caffè.",
+            "Ho un caffè."
+          ],
+          "answer": 0,
+          "explanation": "Vorrei is the polite way to order."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l2-e02",
+          "stage": "learn",
+          "title": "A chi piace?",
+          "body": "Change the small word to change the person.\n\n| who | word | example |\n|---|---|---|\n| io | ==mi== | Mi piace il tè. |\n| tu | ==ti== | Ti piace il tè? |\n| lui, lei | ==gli== / ==le== | Gli piace il tè. |\n| noi | ==ci== | Ci piace il tè. |\n| voi | ==vi== | Vi piace il tè? |\n| loro | ==gli== | Gli piace il tè. |\n\n> With a name, add **a**: A Marco piace il tè.",
+          "examples": [
+            {
+              "it": "Ti piace questo quartiere?",
+              "en": "Do you like this neighbourhood?"
+            },
+            {
+              "it": "A Marco piace il caffè.",
+              "en": "Marco likes coffee."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l2-e03",
+          "stage": "learn",
+          "title": "Non mi piace",
+          "body": "Put **non** before mi to say no. Add **molto** to say a lot.\n\n| say | answer |\n|---|---|\n| Mi piace il jazz. | ==Anche a me!== |\n| Non mi piace il jazz. | ==Neanche a me.== |\n| Mi piace il mare. | A me no. |\n\n> Non goes first: *Non mi piace*, not *Mi non piace*.",
+          "examples": [
+            {
+              "it": "Non mi piace il caldo.",
+              "en": "I don't like the heat."
+            },
+            {
+              "it": "Mi piace molto il mare.",
+              "en": "I like the sea a lot."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-08-l2-e04",
+          "stage": "practise",
+          "instruction": "Collega le parole.",
+          "pairs": [
+            {
+              "left": "a me",
+              "right": "mi piace"
+            },
+            {
+              "left": "a te",
+              "right": "ti piace"
+            },
+            {
+              "left": "a noi",
+              "right": "ci piace"
+            },
+            {
+              "left": "a voi",
+              "right": "vi piace"
+            }
+          ],
+          "explanation": "Each person has its own small word: mi, ti, ci, vi."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-08-l2-e05",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "A Marco ___ il tè.",
+          "answers": [
+            "piace"
+          ],
+          "explanation": "After a Marco the verb is piace for one thing."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-08-l2-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "___ piace il mare? (a te)",
+          "answers": [
+            "Ti",
+            "ti"
+          ],
+          "explanation": "Ti means to you: Ti piace il mare?"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-08-l2-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non mi piace il caldo.",
+          "answers": [
+            "Non mi piace il caldo.",
+            "Non mi piace il caldo"
+          ],
+          "explanation": "Non goes before mi: non mi piace.",
+          "slow": true
+        },
+        {
+          "type": "transform",
+          "id": "a1-08-l2-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Mi piace il pesce.",
+          "cue": "→ negativo",
+          "answers": [
+            "Non mi piace il pesce.",
+            "Non mi piace il pesce"
+          ],
+          "explanation": "Put non before mi to make the sentence negative.",
+          "hint": "non + mi piace"
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-08-l2-e09",
+          "stage": "use",
+          "instruction": "Parla con la vicina.",
+          "scenario": "You meet a new neighbour in the lift.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Ti piace questo quartiere?",
+              "hint": "Say yes, you like it a lot."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, mi piace molto.",
+              "hint": "Sì, mi piace…"
+            },
+            {
+              "speaker": "npc",
+              "text": "Ti piace la musica?",
+              "hint": "Say yes, and ask back."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, mi piace. E a te?",
+              "hint": "Sì, mi piace. E a te?"
+            },
+            {
+              "speaker": "npc",
+              "text": "Anche a me! A me piace il jazz."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-08-l3",
+      "title": "Il tempo libero",
+      "minutes": 7,
+      "goal": "You can name free-time activities and say which ones you like.",
+      "takeaway": "Mi piace + infinitive, even for two actions; giocare a, suonare + article.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-08-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "Mi ___ le scarpe nuove.",
+          "options": [
+            "piacciono",
+            "piace",
+            "piacere",
+            "piaci"
+          ],
+          "answer": 0,
+          "explanation": "Le scarpe is plural, so piacciono."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l3-e02",
+          "stage": "learn",
+          "title": "Mi piace + verbo",
+          "body": "For an action, use the **infinito** after piace. Even for two actions, piace stays singular.\n\n| | |\n|---|---|\n| Mi piace ==cucinare==. | I like cooking. |\n| Mi piace ==leggere== e ==camminare==. | I like reading and walking. |\n\n> Do not say *Mi piacciono leggere e camminare*.",
+          "examples": [
+            {
+              "it": "Mi piace nuotare.",
+              "en": "I like swimming."
+            },
+            {
+              "it": "Non mi piace viaggiare da solo.",
+              "en": "I don't like travelling alone."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l3-e03",
+          "stage": "learn",
+          "title": "Giocare, suonare, fare",
+          "body": "Some actions need a small word.\n\n| verb | use |\n|---|---|\n| giocare ==a== | giocare a calcio, a tennis |\n| suonare | suonare la chitarra |\n| fare | fare sport, fare una passeggiata |",
+          "examples": [
+            {
+              "it": "Gioco a tennis il sabato.",
+              "en": "I play tennis on Saturdays."
+            },
+            {
+              "it": "Faccio una passeggiata.",
+              "en": "I go for a walk."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-08-l3-e04",
+          "stage": "practise",
+          "instruction": "Collega le parole.",
+          "pairs": [
+            {
+              "left": "leggere",
+              "right": "to read"
+            },
+            {
+              "left": "nuotare",
+              "right": "to swim"
+            },
+            {
+              "left": "cucinare",
+              "right": "to cook"
+            },
+            {
+              "left": "viaggiare",
+              "right": "to travel"
+            },
+            {
+              "left": "camminare",
+              "right": "to walk"
+            },
+            {
+              "left": "ascoltare la musica",
+              "right": "to listen to music"
+            }
+          ],
+          "explanation": "These are common free-time verbs."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-08-l3-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Nel tempo libero cammino in montagna e nuoto in piscina.",
+          "question": "What does she do in her free time?",
+          "options": [
+            "Walks in the mountains and swims",
+            "Reads and cooks",
+            "Plays tennis",
+            "Watches films"
+          ],
+          "answer": 0,
+          "explanation": "Cammino = I walk; nuoto = I swim."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-08-l3-e06",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Fuori casa",
+            "A casa"
+          ],
+          "items": [
+            {
+              "text": "nuotare",
+              "bucket": 0
+            },
+            {
+              "text": "cucinare",
+              "bucket": 1
+            },
+            {
+              "text": "leggere",
+              "bucket": 1
+            },
+            {
+              "text": "camminare",
+              "bucket": 0
+            },
+            {
+              "text": "guardare la TV",
+              "bucket": 1
+            },
+            {
+              "text": "viaggiare",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Swimming, walking and travelling happen outside; the others usually at home."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-08-l3-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "Mi piace ___ a tennis.",
+          "answers": [
+            "giocare"
+          ],
+          "explanation": "Piace takes the infinitive: giocare a tennis."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-08-l3-e08",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I like playing football.",
+          "tiles": [
+            "Mi",
+            "piace",
+            "giocare",
+            "a",
+            "calcio"
+          ],
+          "distractors": [
+            "piacciono",
+            "di"
+          ],
+          "explanation": "Piace + infinitive, and giocare takes a."
+        },
+        {
+          "type": "free_write",
+          "id": "a1-08-l3-e09",
+          "stage": "use",
+          "instruction": "Scrivi.",
+          "prompt": "Scrivi 3 frasi: che cosa ti piace fare nel tempo libero?",
+          "minWords": 12,
+          "checklist": [
+            "Used mi piace + infinitive",
+            "Used at least one non mi piace",
+            "Spelled the verbs correctly"
+          ],
+          "modelAnswer": "Mi piace leggere e cucinare. Mi piace molto camminare. Non mi piace giocare a calcio."
+        }
+      ]
+    },
+    {
+      "id": "a1-08-l4",
+      "title": "Quante volte?",
+      "minutes": 7,
+      "goal": "You can say how often you do things.",
+      "takeaway": "Spesso, sempre, di solito go near the verb; never = non … mai.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-08-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: che ore sono?",
+          "prompt": "15:30",
+          "options": [
+            "Sono le tre e mezza.",
+            "Sono le tre e dieci.",
+            "Sono le quattro e mezza.",
+            "Sono le cinque meno un quarto."
+          ],
+          "answer": 0,
+          "explanation": "3:30 is le tre e mezza."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l4-e02",
+          "stage": "learn",
+          "title": "Sempre, spesso, mai",
+          "body": "Put these words after the verb.\n\n| word | meaning |\n|---|---|\n| ==sempre== | always |\n| ==spesso== | often |\n| ==di solito== | usually |\n| ==a volte== | sometimes |\n| ==raramente== | rarely |\n| ==non== … ==mai== | never |\n\n> Never needs **non**: *Non vado mai al cinema*.",
+          "examples": [
+            {
+              "it": "Vado spesso al mare.",
+              "en": "I often go to the sea."
+            },
+            {
+              "it": "Non mangio mai la carne.",
+              "en": "I never eat meat."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l4-e03",
+          "stage": "learn",
+          "title": "Ogni giorno, due volte",
+          "body": "Say how many times with **volte**.\n\n| | |\n|---|---|\n| ==ogni== giorno | every day |\n| una volta alla settimana | once a week |\n| due ==volte== al mese | twice a month |\n| ==il== sabato | on Saturdays |\n\n> **Il sabato** means every Saturday. **Sabato** alone means this Saturday.",
+          "examples": [
+            {
+              "it": "Vado in palestra due volte alla settimana.",
+              "en": "I go to the gym twice a week."
+            },
+            {
+              "it": "Il sabato esco con gli amici.",
+              "en": "On Saturdays I go out with friends."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-08-l4-e04",
+          "stage": "practise",
+          "instruction": "Collega le parole.",
+          "pairs": [
+            {
+              "left": "sempre",
+              "right": "always"
+            },
+            {
+              "left": "spesso",
+              "right": "often"
+            },
+            {
+              "left": "a volte",
+              "right": "sometimes"
+            },
+            {
+              "left": "raramente",
+              "right": "rarely"
+            },
+            {
+              "left": "mai",
+              "right": "never"
+            }
+          ],
+          "explanation": "These words show how often something happens."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-08-l4-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Non mangio mai la carne.",
+            "Mangio sempre la carne."
+          ],
+          "question": "Who is probably vegetarian?",
+          "answer": 0,
+          "translations": [
+            "I never eat meat.",
+            "I always eat meat."
+          ],
+          "explanation": "Non … mai means never."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-08-l4-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Vado in palestra due volte alla settimana.",
+          "question": "How often does the speaker go to the gym?",
+          "options": [
+            "Every day",
+            "Twice a week",
+            "Twice a month",
+            "Never"
+          ],
+          "answer": 1,
+          "explanation": "Due volte alla settimana means twice a week."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-08-l4-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Scrivi la frase giusta.",
+          "sentence": "Vado mai al cinema.",
+          "answers": [
+            "Non vado mai al cinema.",
+            "Non vado mai al cinema"
+          ],
+          "explanation": "Mai after the verb needs non: non vado mai."
+        },
+        {
+          "type": "transform",
+          "id": "a1-08-l4-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Vado al mare.",
+          "cue": "Aggiungi: spesso",
+          "answers": [
+            "Vado spesso al mare.",
+            "Spesso vado al mare.",
+            "Vado al mare spesso."
+          ],
+          "explanation": "Spesso goes near the verb.",
+          "hint": "spesso"
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-08-l4-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Quante volte alla settimana fai sport? Dì una frase.",
+          "keywords": [
+            "volte",
+            "settimana",
+            "mai",
+            "spesso"
+          ],
+          "modelAnswer": "Faccio sport due volte alla settimana."
+        }
+      ]
+    },
+    {
+      "id": "a1-08-l5",
+      "title": "Il fine settimana",
+      "minutes": 8,
+      "goal": "You can ask and answer simple questions about free time.",
+      "takeaway": "Che cosa ti piace fare? Quante volte …? + the answers you know.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-08-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scrivi la parola giusta.",
+          "sentence": "Mi ___ il cinema.",
+          "answers": [
+            "piace"
+          ],
+          "explanation": "One thing (il cinema) takes piace."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-08-l5-e02",
+          "stage": "learn",
+          "title": "Domande utili",
+          "body": "Learn these four questions.\n\n| domanda | risposta |\n|---|---|\n| Che cosa fai nel tempo libero? | Leggo e cucino. |\n| Che cosa ti piace fare? | Mi piace camminare. |\n| Quante volte vai in palestra? | Due volte alla settimana. |\n| Ti piace cucinare? | Sì, molto! |",
+          "examples": [
+            {
+              "it": "Che cosa fai il sabato?",
+              "en": "What do you do on Saturdays?"
+            },
+            {
+              "it": "Ti piace cucinare?",
+              "en": "Do you like cooking?"
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-08-l5-e03",
+          "stage": "practise",
+          "instruction": "Collega domanda e risposta.",
+          "pairs": [
+            {
+              "left": "Che cosa fai nel tempo libero?",
+              "right": "Leggo e cucino."
+            },
+            {
+              "left": "Quante volte vai in palestra?",
+              "right": "Due volte alla settimana."
+            },
+            {
+              "left": "Ti piace cucinare?",
+              "right": "Sì, molto!"
+            },
+            {
+              "left": "Che cosa ti piace fare?",
+              "right": "Mi piace camminare."
+            }
+          ],
+          "explanation": "Match each question to a fitting answer."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-08-l5-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Di solito il sabato esco con gli amici.",
+          "answers": [
+            "Di solito il sabato esco con gli amici.",
+            "Di solito il sabato esco con gli amici",
+            "Il sabato di solito esco con gli amici."
+          ],
+          "explanation": "Uscire is irregular: io esco.",
+          "slow": true
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-08-l5-e05",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "On Saturdays I go out with friends.",
+          "tiles": [
+            "Il",
+            "sabato",
+            "esco",
+            "con",
+            "gli",
+            "amici"
+          ],
+          "distractors": [
+            "usciamo",
+            "la"
+          ],
+          "explanation": "Il sabato = every Saturday; uscire: io esco."
+        },
+        {
+          "type": "reading",
+          "id": "a1-08-l5-e06",
+          "stage": "practise",
+          "instruction": "Leggi e rispondi.",
+          "title": "Il weekend di Giulia",
+          "passage": "Mi chiamo Giulia. Il sabato mattina vado al mercato con un'amica. Di solito compro frutta e verdura. Il pomeriggio leggo un libro o ascolto musica. Mi piace molto cucinare: la sera cucino per gli amici. La domenica sono a casa: dormo fino a tardi e guardo un film.",
+          "questions": [
+            {
+              "question": "When does Giulia go to the market?",
+              "options": [
+                "Saturday morning",
+                "Sunday morning",
+                "Every evening"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "What does she like a lot?",
+              "options": [
+                "Swimming",
+                "Cooking",
+                "Football"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What does she do on Sundays?",
+              "options": [
+                "Works",
+                "Goes to the market",
+                "Stays at home"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-08-l5-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "Non vado ___ in palestra la domenica.",
+          "answers": [
+            "mai"
+          ],
+          "explanation": "Non … mai means never."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-08-l5-e08",
+          "stage": "use",
+          "instruction": "Parla con un collega.",
+          "scenario": "A colleague asks about your weekend.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Che cosa fai nel fine settimana?",
+              "hint": "Say what you usually do on Saturday."
+            },
+            {
+              "speaker": "you",
+              "text": "Di solito il sabato esco con gli amici.",
+              "hint": "Di solito il sabato…"
+            },
+            {
+              "speaker": "npc",
+              "text": "Che bello! Ti piace cucinare?",
+              "hint": "Answer yes or no."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, mi piace molto cucinare.",
+              "hint": "Sì, mi piace…"
+            },
+            {
+              "speaker": "npc",
+              "text": "Anch'io! Buon weekend!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il tempo libero",
+      "en": "free time",
+      "example": "Nel tempo libero leggo."
+    },
+    {
+      "it": "leggere",
+      "en": "to read",
+      "example": "Mi piace leggere."
+    },
+    {
+      "it": "ascoltare la musica",
+      "en": "to listen to music",
+      "example": "Ascolto la musica la sera."
+    },
+    {
+      "it": "guardare un film",
+      "en": "to watch a film",
+      "example": "Guardo un film la domenica."
+    },
+    {
+      "it": "cucinare",
+      "en": "to cook",
+      "example": "Mi piace cucinare."
+    },
+    {
+      "it": "giocare a calcio",
+      "en": "to play football",
+      "example": "Gioco a calcio con gli amici."
+    },
+    {
+      "it": "nuotare",
+      "en": "to swim",
+      "example": "Nuoto in piscina."
+    },
+    {
+      "it": "camminare",
+      "en": "to walk",
+      "example": "Cammino in montagna."
+    },
+    {
+      "it": "viaggiare",
+      "en": "to travel",
+      "example": "Mi piace viaggiare."
+    },
+    {
+      "it": "la palestra",
+      "en": "gym",
+      "example": "Vado in palestra due volte alla settimana."
+    },
+    {
+      "it": "sempre",
+      "en": "always",
+      "example": "Mangio sempre alle otto."
+    },
+    {
+      "it": "spesso",
+      "en": "often",
+      "example": "Vado spesso al mare."
+    },
+    {
+      "it": "di solito",
+      "en": "usually",
+      "example": "Di solito esco il sabato."
+    },
+    {
+      "it": "a volte",
+      "en": "sometimes",
+      "example": "A volte guardo un film."
+    },
+    {
+      "it": "non … mai",
+      "en": "never",
+      "example": "Non vado mai in discoteca."
+    },
+    {
+      "it": "ogni giorno",
+      "en": "every day",
+      "example": "Cammino ogni giorno."
+    },
+    {
+      "it": "una volta alla settimana",
+      "en": "once a week",
+      "example": "Cucino una volta alla settimana."
+    },
+    {
+      "it": "il fine settimana",
+      "en": "weekend",
+      "example": "Che cosa fai nel fine settimana?"
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-08-t1",
+      "rule": "Mi piace o mi piacciono?",
+      "tip": "Match piace or piacciono to the thing you like, not to 'I'.",
+      "example": {
+        "it": "Mi piacciono i gatti.",
+        "en": "I like cats."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Mi ___ le pizze.",
+        "options": [
+          "piacciono",
+          "piace",
+          "piacere",
+          "piaci"
+        ],
+        "answer": 0,
+        "explanation": "Le pizze is plural, so piacciono."
+      }
+    },
+    {
+      "id": "a1-08-t2",
+      "rule": "Mi piace + infinito",
+      "tip": "For actions use piace + infinitive, even for two actions.",
+      "example": {
+        "it": "Mi piace leggere e cucinare.",
+        "en": "I like reading and cooking."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Mi ___ nuotare e camminare.",
+        "answers": [
+          "piace"
+        ],
+        "explanation": "Actions take piace, even two of them."
+      }
+    },
+    {
+      "id": "a1-08-t3",
+      "rule": "Non … mai",
+      "tip": "Never needs non before the verb: non vado mai.",
+      "example": {
+        "it": "Non vado mai al cinema.",
+        "en": "I never go to the cinema."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Mangio mai la carne.",
+        "answers": [
+          "Non mangio mai la carne.",
+          "Non mangio mai la carne"
+        ],
+        "explanation": "Mai after the verb needs non."
+      }
+    },
+    {
+      "id": "a1-08-t4",
+      "rule": "A Marco piace…",
+      "tip": "With a name, add a before it: a Marco piace il caffè.",
+      "example": {
+        "it": "A Marco piace il caffè.",
+        "en": "Marco likes coffee."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ Anna piace il mare.",
+        "answers": [
+          "A",
+          "a"
+        ],
+        "explanation": "Use a before the person who likes."
+      }
+    }
+  ]
+}

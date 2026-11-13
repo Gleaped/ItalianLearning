@@ -2,6 +2,8 @@
   "id": "b2-03",
   "level": "B2",
   "title": "Avrei voluto…",
+  "format": 2,
+  "module": "b2-m2",
   "objective": "By the end you can express regrets and missed opportunities, report what someone said they would do, and recognise unconfirmed news, using the condizionale passato.",
   "grammarFocus": "Condizionale passato (avrei fatto, sarei andato): rimpianti con avrei dovuto/potuto/voluto; futuro nel passato (ha detto che sarebbe arrivato); condizionale giornalistico per notizie non confermate.",
   "remedialUnitIds": [
@@ -11,12 +13,15 @@
   "lessons": [
     {
       "id": "b2-03-l1",
-      "title": "Avrei dovuto saperlo",
-      "minutes": 10,
+      "title": "Avrei fatto, sarei andato",
+      "minutes": 7,
+      "goal": "You can form the condizionale passato and say what would have happened.",
+      "takeaway": "Condizionale passato = avrei / sarei + participio: the action that did not happen.",
       "exercises": [
         {
           "type": "conjugation",
           "id": "b2-03-l1-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: condizionale presente di dovere.",
           "verb": "dovere",
           "tense": "condizionale presente",
@@ -30,65 +35,33 @@
               "answer": "dovresti"
             },
             {
-              "person": "lui/lei",
-              "answer": "dovrebbe"
-            },
-            {
               "person": "noi",
               "answer": "dovremmo"
-            },
-            {
-              "person": "voi",
-              "answer": "dovreste"
-            },
-            {
-              "person": "loro",
-              "answer": "dovrebbero"
             }
           ],
-          "explanation": "Ricorda le forme contratte: dovrei, potrei, vorrei, andrei, verrei, sarei, avrei."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b2-03-l1-e02",
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "Se fossi in te, ___ subito il medico.",
-          "options": [
-            "chiamassi",
-            "chiamerei",
-            "chiamo",
-            "avessi chiamato"
-          ],
-          "answer": 1,
-          "explanation": "Riscaldamento (B2-02): se fossi in te + condizionale presente."
+          "explanation": "Remember the contracted forms: dovrei, dovresti, dovrebbe…"
         },
         {
           "type": "grammar_note",
-          "id": "b2-03-l1-e03",
-          "title": "Il condizionale passato: forma e rimpianti",
-          "body": "**Forma**: condizionale presente di *avere* o *essere* + participio passato.\n- avere: avrei, avresti, avrebbe, avremmo, avreste, avrebbero + *fatto*\n- essere: sarei, saresti, sarebbe, saremmo, sareste, sarebbero + *andato/a/i/e*\n\n**Uso 1 – rimpianti e occasioni perse**: something that would have happened but didn't.\n- *Avrei voluto aiutarti, ma ero fuori città.*\n- *Sarei venuto volentieri, ma non stavo bene.*\n\nCon **dovere, potere, volere** è frequentissimo:\n- *avrei dovuto* = I should have · *avrei potuto* = I could have · *avrei voluto* = I would have liked to\n- Con un verbo che vuole essere, l'uso curato preferisce essere: *sarei dovuto partire prima* (ma *avrei dovuto partire* è molto comune).\n\nAttenzione all'inglese: *should have + participle* diventa **avrei dovuto + infinito**: *I should have called* → *Avrei dovuto chiamare.*\n\nNel parlato sentirai anche l'imperfetto con lo stesso senso: *Potevi dirmelo!* = *Avresti potuto dirmelo!*",
+          "id": "b2-03-l1-e02",
+          "stage": "learn",
+          "title": "Come si forma",
+          "body": "**Condizionale presente** of *avere* or *essere* + participio passato. It means *would have done*: something that did not happen.\n\n| persona | avere + fatto | essere + andato |\n|---|---|---|\n| io | ==avrei== fatto | ==sarei== andato/a |\n| tu | ==avresti== fatto | ==saresti== andato/a |\n| lui/lei | ==avrebbe== fatto | ==sarebbe== andato/a |\n| noi | ==avremmo== fatto | ==saremmo== andati/e |\n| voi | ==avreste== fatto | ==sareste== andati/e |\n| loro | ==avrebbero== fatto | ==sarebbero== andati/e |\n\n> With *essere* the participio agrees with the subject.",
           "examples": [
             {
-              "it": "Avrei dovuto prenotare prima.",
-              "en": "I should have booked earlier."
+              "it": "Sarei venuto volentieri, ma non stavo bene.",
+              "en": "I'd gladly have come, but I wasn't well."
             },
             {
               "it": "Saremmo rimasti volentieri, ma era tardi.",
               "en": "We'd gladly have stayed, but it was late."
-            },
-            {
-              "it": "Avresti potuto avvisarmi!",
-              "en": "You could have warned me!"
-            },
-            {
-              "it": "Avrei voluto dirtelo di persona.",
-              "en": "I would have liked to tell you in person."
             }
           ]
         },
         {
           "type": "conjugation",
-          "id": "b2-03-l1-e04",
+          "id": "b2-03-l1-e03",
+          "stage": "practise",
           "instruction": "Scrivi le forme: andare, condizionale passato.",
           "verb": "andare",
           "tense": "condizionale passato",
@@ -102,38 +75,31 @@
               "answer": "saresti andata"
             },
             {
-              "person": "lui",
-              "answer": "sarebbe andato"
-            },
-            {
               "person": "noi (m.)",
               "answer": "saremmo andati"
-            },
-            {
-              "person": "voi (f.)",
-              "answer": "sareste andate"
-            },
-            {
-              "person": "loro (m.)",
-              "answer": "sarebbero andati"
             }
           ],
-          "explanation": "Andare vuole essere: il participio si accorda con il soggetto."
+          "explanation": "Andare takes essere: the participio agrees with the subject."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b2-03-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Come si dice «We would have eaten here»?",
+          "options": [
+            "Mangeremmo qui.",
+            "Avremmo mangiato qui.",
+            "Abbiamo mangiato qui.",
+            "Mangiassimo qui."
+          ],
+          "answer": 1,
+          "explanation": "Something that would have happened but did not → condizionale passato."
         },
         {
           "type": "gap_fill",
           "id": "b2-03-l1-e05",
-          "instruction": "Completa la frase.",
-          "sentence": "___ (dovere) prenotare prima: adesso è tutto pieno!",
-          "answers": [
-            "avrei dovuto"
-          ],
-          "hint": "dovere – io",
-          "explanation": "Rimpianto: avrei dovuto + infinito = I should have."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-03-l1-e06",
+          "stage": "practise",
           "instruction": "Completa la frase.",
           "sentence": "Mi dispiace, ___ (venire) volentieri alla tua festa, ma avevo la febbre.",
           "answers": [
@@ -141,11 +107,94 @@
             "sarei venuta"
           ],
           "hint": "venire – io",
-          "explanation": "Un'azione desiderata che non è successa → condizionale passato con essere."
+          "explanation": "A wish that did not happen → condizionale passato with essere: sarei venuto/a."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-03-l1-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Avrei andato al mare, ma pioveva.",
+          "answers": [
+            "Sarei andato al mare, ma pioveva.",
+            "Sarei andata al mare, ma pioveva."
+          ],
+          "explanation": "Andare takes essere in the condizionale passato: sarei andato."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-03-l1-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Avrei voluto dirtelo prima, ma non ho avuto il coraggio.",
+          "answers": [
+            "Avrei voluto dirtelo prima, ma non ho avuto il coraggio.",
+            "Avrei voluto dirtelo prima ma non ho avuto il coraggio.",
+            "Te lo avrei voluto dire prima, ma non ho avuto il coraggio.",
+            "Te lo avrei voluto dire prima ma non ho avuto il coraggio.",
+            "Te l'avrei voluto dire prima, ma non ho avuto il coraggio.",
+            "Te l'avrei voluto dire prima ma non ho avuto il coraggio."
+          ],
+          "explanation": "Avrei voluto + infinito: a past wish that did not come true."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b2-03-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 frasi.",
+          "prompt": "Che cosa avresti fatto volentieri la settimana scorsa, ma non hai potuto? Perché?",
+          "keywords": [
+            "avrei",
+            "sarei",
+            "ma"
+          ],
+          "modelAnswer": "Sarei andato volentieri al cinema con i colleghi, ma ho dovuto finire una consegna. Avrei anche guardato la partita, ma ero troppo stanco."
+        }
+      ]
+    },
+    {
+      "id": "b2-03-l2",
+      "title": "Avrei dovuto, potuto, voluto",
+      "minutes": 8,
+      "goal": "You can express regrets and missed chances.",
+      "takeaway": "Avrei dovuto / potuto / voluto + infinito = I should / could / would have liked to.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b2-03-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Se fossi in te, ___ subito il medico.",
+          "options": [
+            "chiamassi",
+            "chiamerei",
+            "chiamo",
+            "avessi chiamato"
+          ],
+          "answer": 1,
+          "explanation": "Se fossi in te + condizionale presente (B2-02)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-03-l2-e02",
+          "stage": "learn",
+          "title": "Rimpianti con i verbi modali",
+          "body": "The three modals with **avrei** express regret. They are followed by the **infinito**, not a participle.\n\n| italiano | inglese |\n|---|---|\n| ==avrei dovuto== + inf. | I should have |\n| ==avrei potuto== + inf. | I could have |\n| ==avrei voluto== + inf. | I would have liked to |\n\n> English *should have called* is not ~~*avrei dovuto chiamato*~~: it is *avrei dovuto chiamare*.",
+          "examples": [
+            {
+              "it": "Avrei dovuto prenotare prima.",
+              "en": "I should have booked earlier."
+            },
+            {
+              "it": "Avresti potuto avvisarmi!",
+              "en": "You could have warned me!"
+            }
+          ]
         },
         {
           "type": "multiple_choice",
-          "id": "b2-03-l1-e07",
+          "id": "b2-03-l2-e03",
+          "stage": "practise",
           "instruction": "Scegli la risposta giusta.",
           "prompt": "Come si dice «I could have told you»?",
           "options": [
@@ -155,11 +204,25 @@
             "Avessi potuto dirtelo."
           ],
           "answer": 1,
-          "explanation": "Avrei potuto dirtelo (o, colloquiale, Potevo dirtelo). Potrei dirtelo = I could tell you (now)."
+          "explanation": "Avrei potuto + infinito = I could have; potrei = I could (now)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-03-l2-e04",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "___ (dovere) prenotare prima: adesso è tutto pieno!",
+          "answers": [
+            "Avrei dovuto",
+            "avrei dovuto"
+          ],
+          "hint": "dovere – io",
+          "explanation": "Regret: avrei dovuto + infinito = I should have."
         },
         {
           "type": "translate",
-          "id": "b2-03-l1-e08",
+          "id": "b2-03-l2-e05",
+          "stage": "practise",
           "instruction": "Traduci in italiano.",
           "direction": "en_it",
           "source": "I should have called you yesterday.",
@@ -167,21 +230,32 @@
             "Avrei dovuto chiamarti ieri.",
             "Avrei dovuto telefonarti ieri.",
             "Io avrei dovuto chiamarti ieri.",
-            "Io avrei dovuto telefonarti ieri.",
             "Ieri avrei dovuto chiamarti.",
             "Ieri avrei dovuto telefonarti.",
             "Ti avrei dovuto chiamare ieri.",
             "Ti avrei dovuto telefonare ieri.",
-            "Io ti avrei dovuto chiamare ieri.",
-            "Io ti avrei dovuto telefonare ieri.",
             "Dovevo chiamarti ieri.",
-            "Ti dovevo chiamare ieri."
+            "Ti dovevo chiamare ieri.",
+            "Sarei dovuto chiamarti ieri."
           ],
-          "explanation": "Should have + participle → avrei dovuto + infinito. Il pronome può andare prima di avrei o dopo l'infinito."
+          "explanation": "Should have + participle → avrei dovuto + infinito."
+        },
+        {
+          "type": "error_correction",
+          "id": "b2-03-l2-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Avrei dovuto di partire prima.",
+          "answers": [
+            "Avrei dovuto partire prima.",
+            "Sarei dovuto partire prima."
+          ],
+          "explanation": "Dovere, potere and volere take the infinito with no preposition."
         },
         {
           "type": "sentence_build",
-          "id": "b2-03-l1-e09",
+          "id": "b2-03-l2-e07",
+          "stage": "practise",
           "instruction": "Metti le parole in ordine.",
           "translation": "We would have liked to stay longer.",
           "tiles": [
@@ -196,113 +270,63 @@
             "vorremmo",
             "restati"
           ],
-          "explanation": "Avremmo voluto + infinito. (Anche saremmo voluti restare, nell'uso più curato.)"
-        },
-        {
-          "type": "error_correction",
-          "id": "b2-03-l1-e10",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Avrei dovuto di partire prima.",
-          "answers": [
-            "Avrei dovuto partire prima.",
-            "Sarei dovuto partire prima."
-          ],
-          "explanation": "Dovere, potere e volere sono seguiti dall'infinito senza preposizione."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "b2-03-l1-e11",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Avrei voluto dirtelo prima, ma non ho avuto il coraggio.",
-          "answers": [
-            "Avrei voluto dirtelo prima, ma non ho avuto il coraggio.",
-            "Avrei voluto dirtelo prima ma non ho avuto il coraggio.",
-            "Te lo avrei voluto dire prima, ma non ho avuto il coraggio.",
-            "Te lo avrei voluto dire prima ma non ho avuto il coraggio.",
-            "Te l'avrei voluto dire prima, ma non ho avuto il coraggio.",
-            "Te l'avrei voluto dire prima ma non ho avuto il coraggio."
-          ],
-          "slow": false,
-          "explanation": "Avrei voluto: un desiderio passato che non si è realizzato."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-03-l1-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Sarei venuto volentieri, ma ho avuto un imprevisto.",
-          "translation": "I'd gladly have come, but something came up."
+          "explanation": "Avremmo voluto + infinito."
         },
         {
           "type": "speak_respond",
-          "id": "b2-03-l1-e13",
+          "id": "b2-03-l2-e08",
+          "stage": "use",
           "instruction": "Rispondi ad alta voce in 2–3 frasi.",
           "prompt": "Pensa a qualcosa che avresti fatto diversamente negli ultimi anni. Che cosa avresti dovuto o voluto fare?",
           "keywords": [
             "avrei dovuto",
             "avrei voluto"
           ],
-          "modelAnswer": "Avrei dovuto cominciare a studiare l'italiano prima di trasferirmi. Avrei voluto anche viaggiare di più quando ero più giovane, ma lavoravo troppo.",
-          "explanation": "Avrei dovuto / avrei voluto + infinito per parlare di rimpianti."
+          "modelAnswer": "Avrei dovuto cominciare a studiare l'italiano prima di trasferirmi. Avrei voluto anche viaggiare di più quando ero più giovane, ma lavoravo troppo."
         }
       ]
     },
     {
-      "id": "b2-03-l2",
+      "id": "b2-03-l3",
       "title": "Ha detto che sarebbe venuto",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can report what someone promised or said they would do.",
+      "takeaway": "Past main verb + a later action = condizionale passato: ha detto che sarebbe arrivato.",
       "exercises": [
         {
           "type": "gap_fill",
-          "id": "b2-03-l2-e01",
-          "instruction": "Riscaldamento: condizionale passato.",
+          "id": "b2-03-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
           "sentence": "___ (volere) aiutarti, ma non ho fatto in tempo.",
           "answers": [
+            "Avrei voluto",
             "avrei voluto"
           ],
           "hint": "volere – io",
-          "explanation": "Avrei voluto + infinito: un'intenzione non realizzata."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b2-03-l2-e02",
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "Scusa, ___ prima, ma ero in riunione.",
-          "options": [
-            "ti avrei chiamato",
-            "ti chiamerei",
-            "ti chiamassi",
-            "ti avessi chiamato"
-          ],
-          "answer": 0,
-          "explanation": "Un'azione che non è successa nel passato → condizionale passato."
+          "explanation": "Avrei voluto + infinito: an intention that did not happen."
         },
         {
           "type": "grammar_note",
-          "id": "b2-03-l2-e03",
+          "id": "b2-03-l3-e02",
+          "stage": "learn",
           "title": "Il futuro nel passato",
-          "body": "Quando, da un punto di vista **passato**, parli di qualcosa che allora era ancora **futuro**, l'italiano usa il **condizionale passato** – not the condizionale presente that English *would* suggests.\n- *Dice che **arriverà** alle otto.* (ora → futuro)\n- *Ha detto che **sarebbe arrivato** alle otto.* (passato → futuro nel passato)\n\nVale sia che l'azione poi sia successa, sia che non sia successa:\n- *Mi aveva promesso che **avrebbe chiamato**…* (e non l'ha fatto)\n- *Sapevo che **sarebbe andata** bene.* (ed è andata bene)\n\n~~*Ha detto che arriverebbe*~~ è un errore tipico di chi parla inglese.\n\nNel parlato, se l'evento è ancora futuro adesso, si sente anche il futuro: *Ha detto che passa / passerà domani.* Ma nello scritto e nei racconti usa il condizionale passato. Ci servirà molto nel discorso indiretto (B2-06).",
+          "body": "Seen from the past, an action that was still **future** takes the **condizionale passato**. English *would* misleads you.\n\n| verbo principale | azione dopo |\n|---|---|\n| Dice che | ==verrà== |\n| Ha detto che | ==sarebbe venuto== |\n\nThis is true whether the action later happened or not.\n\n> Not ~~*Ha detto che arriverebbe*~~: say *sarebbe arrivato*.",
           "examples": [
             {
               "it": "Ha detto che sarebbe arrivato alle otto.",
               "en": "He said he would arrive at eight."
             },
             {
-              "it": "Mi avevano promesso che il tecnico sarebbe passato in mattinata.",
-              "en": "They had promised me the technician would come by in the morning."
-            },
-            {
               "it": "Sapevo che ce l'avresti fatta.",
               "en": "I knew you'd make it."
-            },
-            {
-              "it": "Pensavamo che sarebbe piovuto, invece c'era il sole.",
-              "en": "We thought it would rain, but it was sunny."
             }
           ]
         },
         {
           "type": "multiple_choice",
-          "id": "b2-03-l2-e04",
+          "id": "b2-03-l3-e03",
+          "stage": "practise",
           "instruction": "Scegli la risposta giusta.",
           "prompt": "Il tecnico ha detto che ___ entro mezzogiorno, ma non si è visto.",
           "options": [
@@ -312,33 +336,36 @@
             "fosse passato"
           ],
           "answer": 1,
-          "explanation": "Futuro visto dal passato → condizionale passato: sarebbe passato."
+          "explanation": "Future seen from the past → condizionale passato: sarebbe passato."
         },
         {
           "type": "gap_fill",
-          "id": "b2-03-l2-e05",
+          "id": "b2-03-l3-e04",
+          "stage": "practise",
           "instruction": "Completa la frase.",
           "sentence": "Mi avevano detto che il pacco ___ (arrivare) lunedì, ma non è ancora arrivato.",
           "answers": [
             "sarebbe arrivato"
           ],
           "hint": "arrivare – lui",
-          "explanation": "Futuro nel passato → condizionale passato con essere."
+          "explanation": "Future in the past → condizionale passato with essere."
         },
         {
           "type": "gap_fill",
-          "id": "b2-03-l2-e06",
+          "id": "b2-03-l3-e05",
+          "stage": "practise",
           "instruction": "Completa la frase.",
           "sentence": "Sapevo che quel colloquio ___ (andare) bene!",
           "answers": [
             "sarebbe andato"
           ],
           "hint": "andare – lui",
-          "explanation": "Sapevo che + futuro nel passato → sarebbe andato."
+          "explanation": "Sapevo che + future in the past → sarebbe andato."
         },
         {
           "type": "match_pairs",
-          "id": "b2-03-l2-e07",
+          "id": "b2-03-l3-e06",
+          "stage": "practise",
           "instruction": "Abbina ogni frase alla sua versione al passato.",
           "pairs": [
             {
@@ -354,19 +381,16 @@
               "right": "Pensavo che sarebbe costato molto."
             },
             {
-              "left": "Scrivono che arriveranno tardi.",
-              "right": "Hanno scritto che sarebbero arrivati tardi."
-            },
-            {
               "left": "So che ce la farai.",
               "right": "Sapevo che ce l'avresti fatta."
             }
           ],
-          "explanation": "Verbo principale al presente → futuro; verbo principale al passato → condizionale passato."
+          "explanation": "Present main verb → future; past main verb → condizionale passato."
         },
         {
           "type": "translate",
-          "id": "b2-03-l2-e08",
+          "id": "b2-03-l3-e07",
+          "stage": "practise",
           "instruction": "Traduci in italiano.",
           "direction": "en_it",
           "source": "She told me she would call back in the afternoon.",
@@ -385,123 +409,66 @@
             "Lei mi ha detto che mi avrebbe richiamata di pomeriggio.",
             "Mi ha detto che nel pomeriggio avrebbe richiamato.",
             "Mi ha detto che nel pomeriggio mi avrebbe richiamato.",
-            "Mi ha detto che nel pomeriggio mi avrebbe richiamata.",
-            "Mi ha detto che di pomeriggio avrebbe richiamato.",
-            "Mi ha detto che di pomeriggio mi avrebbe richiamato.",
-            "Mi ha detto che di pomeriggio mi avrebbe richiamata."
+            "Mi ha detto che nel pomeriggio mi avrebbe richiamata."
           ],
-          "explanation": "Would call back (futuro nel passato) → avrebbe richiamato."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b2-03-l2-e09",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Buongiorno signora Neri, sono Davide dell'impresa edile. Le avevo detto che avremmo finito i lavori in bagno entro venerdì, ma purtroppo le piastrelle non sono ancora arrivate. Avrei voluto avvisarla prima, mi scusi. Pensiamo di finire martedì prossimo.",
-          "question": "Perché i lavori non finiranno venerdì?",
-          "options": [
-            "Davide è malato.",
-            "La signora ha cambiato idea.",
-            "Mancano ancora le piastrelle.",
-            "L'impresa ha troppi clienti."
-          ],
-          "answer": 2,
-          "explanation": "Avremmo finito (futuro nel passato) + avrei voluto avvisarla (rimpianto)."
+          "explanation": "Would call back (future in the past) → avrebbe richiamato."
         },
         {
           "type": "error_correction",
-          "id": "b2-03-l2-e10",
+          "id": "b2-03-l3-e08",
+          "stage": "practise",
           "instruction": "C'è un errore. Riscrivi la frase corretta.",
           "sentence": "Mi ha promesso che mi aiuterebbe con il trasloco.",
           "answers": [
             "Mi ha promesso che mi avrebbe aiutato con il trasloco.",
-            "Mi ha promesso che mi avrebbe aiutata con il trasloco."
+            "Mi ha promesso che mi avrebbe aiutata con il trasloco.",
+            "Mi ha promesso che mi avrebbe aiutato nel trasloco."
           ],
-          "explanation": "Promessa nel passato → condizionale passato: avrebbe aiutato."
-        },
-        {
-          "type": "sentence_build",
-          "id": "b2-03-l2-e11",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "I knew it would end like this.",
-          "tiles": [
-            "Sapevo",
-            "che",
-            "sarebbe",
-            "finita",
-            "così"
-          ],
-          "distractors": [
-            "finirebbe",
-            "saprei"
-          ],
-          "explanation": "Sarebbe finita così: espressione idiomatica (la cosa, la storia → femminile)."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b2-03-l2-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Mi avevano assicurato che il tecnico sarebbe passato in mattinata.",
-          "translation": "They had assured me the technician would come by in the morning."
+          "explanation": "A promise made in the past → condizionale passato: avrebbe aiutato."
         },
         {
           "type": "speak_respond",
-          "id": "b2-03-l2-e13",
+          "id": "b2-03-l3-e09",
+          "stage": "use",
           "instruction": "Rispondi ad alta voce in 2–3 frasi.",
           "prompt": "Pensa a una promessa che qualcuno (un'azienda, un negozio, un amico) non ha mantenuto. Che cosa aveva detto che avrebbe fatto?",
           "keywords": [
             "aveva detto",
             "avrebbe"
           ],
-          "modelAnswer": "Il corriere aveva detto che avrebbe consegnato il pacco entro mezzogiorno. Ho aspettato a casa tutta la mattina, ma alla fine non è passato nessuno.",
-          "explanation": "Aveva detto / promesso che + condizionale passato."
+          "modelAnswer": "Il corriere aveva detto che avrebbe consegnato il pacco entro mezzogiorno. Ho aspettato a casa tutta la mattina, ma alla fine non è passato nessuno."
         }
       ]
     },
     {
-      "id": "b2-03-l3",
+      "id": "b2-03-l4",
       "title": "Secondo fonti non confermate…",
-      "minutes": 12,
+      "minutes": 8,
+      "goal": "You can recognise news that is reported but not confirmed.",
+      "takeaway": "Journalists use the condizionale for unconfirmed news: sarebbe entrato = reportedly got in.",
       "exercises": [
         {
-          "type": "gap_fill",
-          "id": "b2-03-l3-e01",
-          "instruction": "Riscaldamento: completa.",
-          "sentence": "Mi avevi promesso che ___ (venire) anche tu!",
-          "answers": [
-            "saresti venuto",
-            "saresti venuta"
-          ],
-          "hint": "venire – tu",
-          "explanation": "Futuro nel passato → condizionale passato."
-        },
-        {
           "type": "multiple_choice",
-          "id": "b2-03-l3-e02",
+          "id": "b2-03-l4-e01",
+          "stage": "warmup",
           "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "Al posto tuo ___ subito l'assicurazione dopo l'incidente.",
+          "prompt": "Mi aveva promesso che ___ anche lui alla riunione.",
           "options": [
-            "chiamassi",
-            "avessi chiamato",
-            "avrei chiamato",
-            "sarei chiamato"
+            "verrà",
+            "sarebbe venuto",
+            "veniva",
+            "verrebbe"
           ],
-          "answer": 2,
-          "explanation": "Un consiglio su una situazione passata → condizionale passato con avere."
+          "answer": 1,
+          "explanation": "Future seen from the past → condizionale passato."
         },
         {
           "type": "grammar_note",
-          "id": "b2-03-l3-e03",
-          "title": "Il condizionale della notizia non confermata",
-          "body": "Giornali, telegiornali e comunicati usano il condizionale per riportare informazioni **non ancora confermate**, prendendone le distanze:\n- condizionale presente per il presente: *Il ministro **sarebbe** pronto a dimettersi.*\n- condizionale passato per il passato: *Il ladro **sarebbe entrato** dalla finestra.*\n\nSegnali tipici: *secondo fonti…, secondo indiscrezioni, a quanto pare, stando a…*\n\nIn inglese: *reportedly, allegedly, is said to*. In italiano basta la forma del verbo – quindi leggi con attenzione: *è entrato* (fatto) ≠ *sarebbe entrato* (versione non verificata).\n\nNella conversazione quotidiana si preferisce di solito *pare che / sembra che* + congiuntivo: *Pare che il ladro sia entrato dalla finestra.*",
+          "id": "b2-03-l4-e02",
+          "stage": "learn",
+          "title": "La notizia non confermata",
+          "body": "Newspapers use the condizionale to report facts they have **not verified**.\n\n| certo | non confermato |\n|---|---|\n| Il sindaco ==si è dimesso==. | Il sindaco ==si sarebbe dimesso==. |\n| Il treno ==è== fermo. | Il treno ==sarebbe== fermo. |\n\nSignals: *secondo fonti, secondo indiscrezioni, a quanto pare*.\n\n> In conversation people say *pare che* + congiuntivo.",
           "examples": [
-            {
-              "it": "Secondo alcune fonti, l'azienda avrebbe chiuso due stabilimenti.",
-              "en": "According to some sources, the company has reportedly closed two plants."
-            },
-            {
-              "it": "Il treno sarebbe fermo per un guasto.",
-              "en": "The train is reportedly stopped due to a fault."
-            },
             {
               "it": "Secondo i testimoni, l'auto sarebbe passata con il rosso.",
               "en": "According to witnesses, the car allegedly ran the red light."
@@ -513,23 +480,74 @@
           ]
         },
         {
-          "type": "multiple_choice",
-          "id": "b2-03-l3-e04",
-          "instruction": "Scegli la risposta giusta.",
-          "prompt": "Quale frase presenta la notizia come NON confermata?",
-          "options": [
-            "Il sindaco si è dimesso ieri sera.",
-            "Il sindaco si sarebbe dimesso ieri sera.",
-            "Il sindaco si dimetterà domani.",
-            "Il sindaco si era dimesso."
+          "type": "minimal_pair",
+          "id": "b2-03-l4-e03",
+          "stage": "practise",
+          "instruction": "Leggi le due frasi e scegli.",
+          "sentences": [
+            "Il ministro si è dimesso.",
+            "Il ministro si sarebbe dimesso."
           ],
+          "question": "In which sentence is the news not confirmed?",
           "answer": 1,
-          "explanation": "Si sarebbe dimesso: condizionale passato giornalistico = reportedly resigned."
+          "translations": [
+            "The minister has resigned.",
+            "The minister has reportedly resigned."
+          ],
+          "explanation": "The condizionale shows the journalist does not guarantee the news."
+        },
+        {
+          "type": "find_trigger",
+          "id": "b2-03-l4-e04",
+          "stage": "practise",
+          "instruction": "Tocca le parole che segnalano una notizia non confermata.",
+          "sentence": "Secondo indiscrezioni, il sindaco sarebbe pronto a dimettersi.",
+          "trigger": "Secondo indiscrezioni",
+          "explanation": "Secondo indiscrezioni signals a rumour; the verb is in the condizionale."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b2-03-l4-e05",
+          "stage": "practise",
+          "instruction": "Trasforma in notizia non confermata.",
+          "sentence": "«La polizia ha arrestato due persone.» → Secondo fonti, la polizia ___ due persone.",
+          "answers": [
+            "avrebbe arrestato"
+          ],
+          "hint": "condizionale passato",
+          "explanation": "Past fact not yet confirmed → condizionale passato."
+        },
+        {
+          "type": "transform",
+          "id": "b2-03-l4-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come notizia non confermata.",
+          "source": "Il museo civico chiude per sei mesi.",
+          "cue": "Secondo indiscrezioni…",
+          "answers": [
+            "Secondo indiscrezioni, il museo civico chiuderebbe per sei mesi.",
+            "Secondo indiscrezioni il museo civico chiuderebbe per sei mesi."
+          ],
+          "hint": "chiude → chiuderebbe",
+          "explanation": "Present fact not confirmed → condizionale presente."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-03-l4-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi la frase.",
+          "audioText": "Secondo i primi testimoni, l'incendio sarebbe partito dal secondo piano.",
+          "answers": [
+            "Secondo i primi testimoni, l'incendio sarebbe partito dal secondo piano.",
+            "Secondo i primi testimoni l'incendio sarebbe partito dal secondo piano."
+          ],
+          "explanation": "Sarebbe partito: a reconstruction not yet verified."
         },
         {
           "type": "reading",
-          "id": "b2-03-l3-e05",
-          "instruction": "Lettura (stile CELI): leggi l'articolo e rispondi.",
+          "id": "b2-03-l4-e08",
+          "stage": "use",
+          "instruction": "Leggi l'articolo e rispondi.",
           "title": "Furto in gioielleria nel centro storico",
           "passage": "Furto nella notte tra sabato e domenica in una gioielleria del centro storico. Secondo le prime ricostruzioni, i ladri sarebbero entrati da una finestra sul retro, dopo aver disattivato l'allarme. Il bottino ammonterebbe a circa cinquantamila euro tra orologi e gioielli.\nIl proprietario si è accorto del furto alle otto di domenica mattina, quando è arrivato per aprire il negozio, e ha subito chiamato i carabinieri. Alcuni residenti avrebbero sentito dei rumori verso le tre, ma nessuno ha visto i responsabili.\nLe telecamere della zona sono già state consegnate agli investigatori. Secondo indiscrezioni, i ladri farebbero parte di una banda che negli ultimi mesi avrebbe colpito anche in altre città della regione.",
           "questions": [
@@ -563,12 +581,105 @@
               ],
               "answer": 2
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-03-l5",
+      "title": "Scusa, avrei voluto…",
+      "minutes": 8,
+      "goal": "You can apologise, explain and make it up, using all three uses of the condizionale passato.",
+      "takeaway": "Regret, future in the past, unconfirmed news: same form, three jobs. The context tells you which.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b2-03-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Mi avevi promesso che ___ (venire) anche tu!",
+          "answers": [
+            "saresti venuto",
+            "saresti venuta"
           ],
-          "explanation": "Condizionale (sarebbero entrati, ammonterebbe, farebbero parte) = non confermato; indicativo (si è accorto, ha chiamato) = fatto certo."
+          "hint": "venire – tu",
+          "explanation": "Future in the past → condizionale passato."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b2-03-l5-e02",
+          "stage": "learn",
+          "title": "Scusarsi e rimediare",
+          "body": "Use the three jobs together when you apologise.\n\n| funzione | frase |\n|---|---|\n| regret | ==Avrei dovuto== avvisarti. |\n| wish | ==Sarei venuto== volentieri. |\n| promise | Ti avevo detto che ==sarei arrivato==. |\n| repair | Per ==farmi perdonare==, ti offro un caffè. |",
+          "examples": [
+            {
+              "it": "Avrei dovuto avvisarti, mi dispiace.",
+              "en": "I should have told you, I am sorry."
+            },
+            {
+              "it": "Ti offro un aperitivo per farmi perdonare.",
+              "en": "I'll buy you a drink to make it up to you."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b2-03-l5-e03",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Rimpianto",
+            "Futuro nel passato",
+            "Notizia non confermata"
+          ],
+          "items": [
+            {
+              "text": "Avrei dovuto prenotare prima.",
+              "bucket": 0
+            },
+            {
+              "text": "Sarei venuto volentieri.",
+              "bucket": 0
+            },
+            {
+              "text": "Mi aveva detto che sarebbe passato.",
+              "bucket": 1
+            },
+            {
+              "text": "Ha promesso che avrebbe pagato.",
+              "bucket": 1
+            },
+            {
+              "text": "Il ladro sarebbe entrato dalla finestra.",
+              "bucket": 2
+            },
+            {
+              "text": "Secondo fonti, l'azienda avrebbe chiuso due stabilimenti.",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Same form, three jobs: regret, future in the past, or unconfirmed news."
+        },
+        {
+          "type": "listen_choose",
+          "id": "b2-03-l5-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e rispondi.",
+          "audioText": "Buongiorno signora Neri, sono Davide dell'impresa edile. Le avevo detto che avremmo finito i lavori in bagno entro venerdì, ma purtroppo le piastrelle non sono ancora arrivate. Avrei voluto avvisarla prima, mi scusi. Pensiamo di finire martedì prossimo.",
+          "question": "Perché i lavori non finiranno venerdì?",
+          "options": [
+            "Davide è malato.",
+            "La signora ha cambiato idea.",
+            "Mancano ancora le piastrelle.",
+            "L'impresa ha troppi clienti."
+          ],
+          "answer": 2,
+          "explanation": "Le piastrelle non sono ancora arrivate: the tiles are missing."
         },
         {
           "type": "translate",
-          "id": "b2-03-l3-e06",
+          "id": "b2-03-l5-e05",
+          "stage": "practise",
           "instruction": "Traduci in inglese.",
           "direction": "it_en",
           "source": "Il treno sarebbe in ritardo per un guasto.",
@@ -577,174 +688,47 @@
             "The train is reportedly late due to a breakdown.",
             "The train is reportedly late because of a fault.",
             "The train is reportedly late due to a fault.",
-            "The train is reportedly late because of a technical fault.",
-            "The train is reportedly late due to a technical fault.",
-            "The train is reportedly late because of a technical problem.",
-            "The train is reportedly late due to a technical problem.",
-            "The train is reportedly delayed because of a breakdown.",
-            "The train is reportedly delayed due to a breakdown.",
             "The train is reportedly delayed because of a fault.",
             "The train is reportedly delayed due to a fault.",
-            "The train is reportedly delayed because of a technical fault.",
-            "The train is reportedly delayed due to a technical fault.",
-            "The train is reportedly delayed because of a technical problem.",
-            "The train is reportedly delayed due to a technical problem.",
-            "The train is apparently late because of a breakdown.",
-            "The train is apparently late due to a breakdown.",
+            "The train is reportedly delayed because of a breakdown.",
+            "The train is reportedly delayed due to a breakdown.",
             "The train is apparently late because of a fault.",
-            "The train is apparently late due to a fault.",
-            "The train is apparently late because of a technical fault.",
-            "The train is apparently late due to a technical fault.",
-            "The train is apparently late because of a technical problem.",
-            "The train is apparently late due to a technical problem.",
-            "The train is apparently delayed because of a breakdown.",
-            "The train is apparently delayed due to a breakdown.",
             "The train is apparently delayed because of a fault.",
-            "The train is apparently delayed due to a fault.",
-            "The train is apparently delayed because of a technical fault.",
-            "The train is apparently delayed due to a technical fault.",
-            "The train is apparently delayed because of a technical problem.",
-            "The train is apparently delayed due to a technical problem.",
-            "The train is allegedly late because of a breakdown.",
-            "The train is allegedly late due to a breakdown.",
-            "The train is allegedly late because of a fault.",
-            "The train is allegedly late due to a fault.",
-            "The train is allegedly late because of a technical fault.",
-            "The train is allegedly late due to a technical fault.",
-            "The train is allegedly late because of a technical problem.",
-            "The train is allegedly late due to a technical problem.",
-            "The train is allegedly delayed because of a breakdown.",
-            "The train is allegedly delayed due to a breakdown.",
-            "The train is allegedly delayed because of a fault.",
-            "The train is allegedly delayed due to a fault.",
-            "The train is allegedly delayed because of a technical fault.",
-            "The train is allegedly delayed due to a technical fault.",
-            "The train is allegedly delayed because of a technical problem.",
-            "The train is allegedly delayed due to a technical problem.",
-            "The train is said to be late because of a breakdown.",
-            "The train is said to be late due to a breakdown.",
-            "The train is said to be late because of a fault.",
-            "The train is said to be late due to a fault.",
-            "The train is said to be late because of a technical fault.",
-            "The train is said to be late due to a technical fault.",
-            "The train is said to be late because of a technical problem.",
-            "The train is said to be late due to a technical problem.",
-            "The train is said to be delayed because of a breakdown.",
-            "The train is said to be delayed due to a breakdown.",
-            "The train is said to be delayed because of a fault.",
-            "The train is said to be delayed due to a fault.",
-            "The train is said to be delayed because of a technical fault.",
-            "The train is said to be delayed due to a technical fault.",
-            "The train is said to be delayed because of a technical problem.",
-            "The train is said to be delayed due to a technical problem.",
-            "Reportedly, the train is late because of a breakdown.",
-            "Reportedly the train is late because of a breakdown.",
-            "Reportedly, the train is late due to a breakdown.",
-            "Reportedly the train is late due to a breakdown.",
-            "Reportedly, the train is late because of a fault.",
-            "Reportedly the train is late because of a fault.",
-            "Reportedly, the train is late due to a fault.",
-            "Reportedly the train is late due to a fault.",
-            "Reportedly, the train is late due to a technical problem.",
-            "Reportedly the train is late due to a technical problem.",
-            "Reportedly, the train is delayed because of a breakdown.",
-            "Reportedly the train is delayed because of a breakdown.",
-            "Reportedly, the train is delayed due to a breakdown.",
-            "Reportedly the train is delayed due to a breakdown.",
-            "Reportedly, the train is delayed because of a fault.",
-            "Reportedly the train is delayed because of a fault.",
-            "Reportedly, the train is delayed due to a fault.",
-            "Reportedly the train is delayed due to a fault.",
-            "Reportedly, the train is delayed due to a technical problem.",
-            "Reportedly the train is delayed due to a technical problem.",
-            "Apparently, the train is late because of a breakdown.",
-            "Apparently the train is late because of a breakdown.",
-            "Apparently, the train is late due to a breakdown.",
-            "Apparently the train is late due to a breakdown.",
-            "Apparently, the train is late because of a fault.",
-            "Apparently the train is late because of a fault.",
-            "Apparently, the train is late due to a fault.",
-            "Apparently the train is late due to a fault.",
-            "Apparently, the train is late due to a technical problem.",
-            "Apparently the train is late due to a technical problem.",
-            "Apparently, the train is delayed because of a breakdown.",
-            "Apparently the train is delayed because of a breakdown.",
-            "Apparently, the train is delayed due to a breakdown.",
-            "Apparently the train is delayed due to a breakdown.",
-            "Apparently, the train is delayed because of a fault.",
-            "Apparently the train is delayed because of a fault.",
-            "Apparently, the train is delayed due to a fault.",
-            "Apparently the train is delayed due to a fault.",
-            "Apparently, the train is delayed due to a technical problem.",
-            "Apparently the train is delayed due to a technical problem."
+            "The train is apparently late because of a breakdown.",
+            "The train is apparently delayed because of a breakdown."
           ],
-          "explanation": "Sarebbe = reportedly is / is said to be."
+          "explanation": "The condizionale presente marks unconfirmed present news: reportedly."
         },
         {
-          "type": "gap_fill",
-          "id": "b2-03-l3-e07",
-          "instruction": "Trasformazione (stile CELI).",
-          "sentence": "Trasforma in notizia non confermata: «La polizia ha arrestato due persone.» → La polizia ___ due persone.",
+          "type": "error_correction",
+          "id": "b2-03-l5-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Ti avevo detto che arriverei alle nove.",
           "answers": [
-            "avrebbe arrestato"
+            "Ti avevo detto che sarei arrivato alle nove.",
+            "Ti avevo detto che sarei arrivata alle nove."
           ],
-          "hint": "condizionale passato",
-          "explanation": "Passato prossimo → condizionale passato per prendere le distanze."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b2-03-l3-e08",
-          "instruction": "Completa la frase.",
-          "sentence": "Secondo indiscrezioni, il sindaco ___ (essere) pronto a dimettersi.",
-          "answers": [
-            "sarebbe"
-          ],
-          "hint": "essere – notizia non confermata, presente",
-          "explanation": "Fatto presente non confermato → condizionale presente: sarebbe."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "b2-03-l3-e09",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Secondo i primi testimoni, l'incendio sarebbe partito dal secondo piano.",
-          "answers": [
-            "Secondo i primi testimoni, l'incendio sarebbe partito dal secondo piano.",
-            "Secondo i primi testimoni l'incendio sarebbe partito dal secondo piano."
-          ],
-          "slow": false,
-          "explanation": "Sarebbe partito: ricostruzione non ancora verificata."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b2-03-l3-e10",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Ultime notizie. A causa di uno sciopero del personale aeroportuale, domani sarebbero a rischio una cinquantina di voli. La compagnia non ha ancora confermato le cancellazioni e invita i passeggeri a controllare lo stato del proprio volo sul sito.",
-          "question": "Che cosa sappiamo con certezza?",
-          "options": [
-            "Cinquanta voli sono cancellati.",
-            "La compagnia non ha ancora confermato le cancellazioni.",
-            "Lo sciopero è stato annullato.",
-            "I passeggeri riceveranno un rimborso."
-          ],
-          "answer": 1,
-          "explanation": "Sarebbero a rischio = non confermato; non ha ancora confermato = fatto certo."
+          "explanation": "A promise seen from the past → condizionale passato: sarei arrivato."
         },
         {
           "type": "roleplay",
-          "id": "b2-03-l3-e11",
+          "id": "b2-03-l5-e07",
+          "stage": "use",
           "instruction": "Role-play: rispondi ad alta voce quando tocca a te.",
           "scenario": "Ieri sera non sei andato alla cena di compleanno della tua amica Chiara: hai avuto un problema al lavoro e non l'hai avvisata. Lei ti telefona.",
           "turns": [
             {
               "speaker": "npc",
-              "text": "Ciao! Allora, ieri sera che fine hai fatto?"
+              "text": "Ciao {name}! Allora, ieri sera che fine hai fatto?"
             },
             {
               "speaker": "you",
               "text": "Scusami tanto, Chiara. Sarei venuto volentieri, ma ho avuto un problema al lavoro.",
-              "hint": "Scusati: sarei venuto volentieri, ma…",
+              "hint": "Scusati: sarei venuto/a volentieri, ma…",
               "keywords": [
                 "sarei venuto",
+                "sarei venuta",
                 "scusami"
               ]
             },
@@ -772,48 +756,8 @@
                 "promesso",
                 "farmi perdonare"
               ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Volentieri! Giovedì ti va bene?"
-            },
-            {
-              "speaker": "you",
-              "text": "Perfetto, giovedì alle sette al solito bar.",
-              "hint": "Conferma giorno e ora.",
-              "keywords": [
-                "giovedì"
-              ]
             }
-          ],
-          "explanation": "Sarei venuto (rimpianto), avrei dovuto (autocritica), saresti arrivato (futuro nel passato)."
-        },
-        {
-          "type": "free_write",
-          "id": "b2-03-l3-e12",
-          "instruction": "Scrittura (stile CELI, registro informale).",
-          "prompt": "Scrivi un'email a un amico (120–150 parole). Avevi promesso di aiutarlo con il trasloco sabato, ma all'ultimo momento non sei potuto andare. Scusati, spiega che cosa è successo, di' che cosa avresti voluto fare e proponi un modo per rimediare.",
-          "minWords": 120,
-          "checklist": [
-            "Ho usato almeno due condizionali passati per rimpianti (avrei voluto, sarei venuto, avrei dovuto…).",
-            "Ho usato il futuro nel passato (ti avevo detto che sarei…).",
-            "Ho spiegato il motivo con passato prossimo e imperfetto.",
-            "Ho proposto un rimedio concreto (se vuoi…, ti va se…).",
-            "Registro informale coerente, almeno 120 parole."
-          ],
-          "modelAnswer": "Caro Stefano,\nti scrivo per chiederti scusa per sabato. Ti avevo promesso che sarei venuto ad aiutarti con il trasloco già alle otto, e invece non mi sono fatto vedere. Venerdì sera mi è venuta la febbre a trentanove e la mattina non riuscivo nemmeno ad alzarmi dal letto. Avrei dovuto avvisarti subito, lo so, ma ho dormito fino a mezzogiorno e quando ho visto i tuoi messaggi era troppo tardi.\nMi dispiace davvero: sarei venuto volentieri e avrei voluto vedere la casa nuova. Immagino che abbiate dovuto portare tutto da soli. Per farmi perdonare, se vuoi, il prossimo fine settimana ti aiuto a montare i mobili e a sistemare la cantina. Poi, ovviamente, la pizza la offro io!\nFammi sapere quando ti va bene.\nUn abbraccio,\n{name}"
-        },
-        {
-          "type": "speak_respond",
-          "id": "b2-03-l3-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Sei un giornalista radiofonico. Leggi questa notizia trasformandola in notizia non confermata: «Il museo civico chiude per sei mesi. I lavori costano due milioni di euro.»",
-          "keywords": [
-            "chiuderebbe",
-            "costerebbero"
-          ],
-          "modelAnswer": "Secondo indiscrezioni, il museo civico chiuderebbe per sei mesi e i lavori costerebbero circa due milioni di euro.",
-          "explanation": "Presente indicativo → condizionale presente per prendere le distanze."
+          ]
         }
       ]
     }
@@ -870,11 +814,6 @@
       "example": "Il pacco sarebbe stato consegnato lunedì."
     },
     {
-      "it": "l'impresa edile (f.)",
-      "en": "building firm",
-      "example": "L'impresa edile ha rimandato i lavori."
-    },
-    {
       "it": "la notizia",
       "en": "piece of news",
       "example": "La notizia non è ancora confermata."
@@ -910,11 +849,6 @@
       "example": "C'è stato un furto in gioielleria."
     },
     {
-      "it": "il ladro",
-      "en": "thief",
-      "example": "I ladri sarebbero entrati dal retro."
-    },
-    {
       "it": "dimettersi (dimesso)",
       "en": "to resign",
       "example": "Il sindaco si sarebbe dimesso."
@@ -934,7 +868,7 @@
     {
       "id": "b2-03-t1",
       "rule": "Avrei dovuto = I should have",
-      "tip": "«I should have done» is avrei dovuto + infinitive, not a past participle: Avrei dovuto chiamarti.",
+      "tip": "«I should have done» is avrei dovuto + infinitive, not a past participle.",
       "example": {
         "it": "Avrei dovuto prenotare prima.",
         "en": "I should have booked earlier."
@@ -984,7 +918,7 @@
     {
       "id": "b2-03-t3",
       "rule": "Futuro nel passato",
-      "tip": "Past main verb + later action → condizionale passato: Ha detto che sarebbe arrivato (not arriverebbe).",
+      "tip": "Past main verb + later action → condizionale passato: Ha detto che sarebbe arrivato.",
       "example": {
         "it": "Mi aveva detto che sarebbe passato.",
         "en": "He had told me he would come by."
@@ -1003,7 +937,7 @@
     {
       "id": "b2-03-t4",
       "rule": "Notizia non confermata",
-      "tip": "News reports use the conditional for unconfirmed facts: Il ladro sarebbe entrato = the thief allegedly got in.",
+      "tip": "News reports use the conditional for unconfirmed facts: Il ladro sarebbe entrato.",
       "example": {
         "it": "Il ministro sarebbe pronto a dimettersi.",
         "en": "The minister is reportedly ready to resign."
@@ -1018,6 +952,25 @@
           "L'incendio partirà dal garage."
         ],
         "answer": 1
+      }
+    },
+    {
+      "id": "b2-03-t5",
+      "rule": "Secondo fonti: avrebbe + part.",
+      "tip": "To distance yourself from a past fact, use the condizionale passato: avrebbe arrestato.",
+      "example": {
+        "it": "Secondo fonti, la banda avrebbe colpito ancora.",
+        "en": "According to sources, the gang has reportedly struck again."
+      },
+      "challenge": {
+        "type": "transform",
+        "instruction": "Riscrivi la frase.",
+        "source": "La polizia ha arrestato due persone.",
+        "cue": "Secondo fonti…",
+        "answers": [
+          "Secondo fonti, la polizia avrebbe arrestato due persone.",
+          "Secondo fonti la polizia avrebbe arrestato due persone."
+        ]
       }
     }
   ]

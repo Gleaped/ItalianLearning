@@ -1,0 +1,1029 @@
+{
+  "id": "a2-03",
+  "level": "A2",
+  "title": "Fai così!",
+  "format": 2,
+  "module": "a2-m3",
+  "objective": "By the end you can give friendly instructions and advice to one person, a group or together, with and without pronouns.",
+  "grammarFocus": "Informal imperative: tu, voi, noi; irregular forms; negative; pronouns attached (dimmi, prendilo, alzati).",
+  "remedialUnitIds": [
+    "a2r-04",
+    "a2r-05"
+  ],
+  "lessons": [
+    {
+      "id": "a2-03-l1",
+      "title": "Parla! Prendi! Senti!",
+      "minutes": 7,
+      "goal": "You can give a friendly order or suggestion with tu, and say what not to do.",
+      "takeaway": "Tu imperative: -a for -are verbs, -i for -ere / -ire verbs; negative: non + infinitive.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2-03-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa con il presente.",
+          "sentence": "Tu ___ (aprire) la finestra ogni mattina.",
+          "answers": [
+            "apri"
+          ],
+          "explanation": "Present tu of -ire verbs ends in -i."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l1-e02",
+          "stage": "learn",
+          "title": "L'imperativo con tu",
+          "body": "Use the **imperativo** for orders, advice and invitations. With ==tu==, -are verbs end in ==-a==; -ere and -ire verbs end in ==-i==.\n\n| infinito | presente (tu) | imperativo |\n|---|---|---|\n| parlare | parli | parl==a==! |\n| prendere | prendi | prend==i==! |\n| partire | parti | part==i==! |\n| finire | finisci | finisc==i==! |\n\n> -are verbs change: *parli* (present), *parla!* (imperative).",
+          "examples": [
+            {
+              "it": "Ascolta bene, per favore!",
+              "en": "Listen carefully, please!"
+            },
+            {
+              "it": "Prendi l'ombrello: piove.",
+              "en": "Take the umbrella: it's raining."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l1-e03",
+          "stage": "learn",
+          "title": "Non + infinito",
+          "body": "The **negative** with tu is not the imperative. Use ==non== plus the ==infinitive==.\n\n| positivo | negativo |\n|---|---|\n| Parla! | Non ==parlare==! |\n| Prendi! | Non ==prendere==! |\n| Finisci! | Non ==finire==! |",
+          "examples": [
+            {
+              "it": "Non parlare così forte!",
+              "en": "Don't talk so loudly!"
+            },
+            {
+              "it": "Non finire tutto il dolce!",
+              "en": "Don't finish the whole cake!"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Marco, ___ la porta, per favore!",
+          "options": [
+            "chiudi",
+            "chiude",
+            "chiudere",
+            "chiudo"
+          ],
+          "answer": 0,
+          "explanation": "Tu imperative of an -ere verb ends in -i: chiudi."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-03-l1-e05",
+          "stage": "practise",
+          "instruction": "L'imperativo finisce in -a o in -i?",
+          "buckets": [
+            "finisce in -a",
+            "finisce in -i"
+          ],
+          "items": [
+            {
+              "text": "Mangia!",
+              "bucket": 0
+            },
+            {
+              "text": "Scrivi!",
+              "bucket": 1
+            },
+            {
+              "text": "Ascolta!",
+              "bucket": 0
+            },
+            {
+              "text": "Apri!",
+              "bucket": 1
+            },
+            {
+              "text": "Chiama!",
+              "bucket": 0
+            },
+            {
+              "text": "Prendi!",
+              "bucket": 1
+            }
+          ],
+          "explanation": "-are verbs end in -a; -ere and -ire verbs end in -i."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-03-l1-e06",
+          "stage": "practise",
+          "instruction": "Completa con l'imperativo (tu).",
+          "sentence": "___ (ascoltare) bene, per favore!",
+          "answers": [
+            "ascolta"
+          ],
+          "explanation": "Tu imperative of an -are verb ends in -a.",
+          "hint": "ascoltare"
+        },
+        {
+          "type": "transform",
+          "id": "a2-03-l1-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Chiama Marco!",
+          "cue": "→ Non…",
+          "answers": [
+            "Non chiamare Marco!"
+          ],
+          "explanation": "Negative tu imperative: non + infinitive."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-03-l1-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Non parla così forte!",
+          "answers": [
+            "Non parlare così forte!"
+          ],
+          "explanation": "The negative with tu uses non + infinitive."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-03-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Un amico vuole imparare l'italiano. Che consigli gli dai? Usa l'imperativo (tu).",
+          "keywords": [
+            "ascolta",
+            "leggi",
+            "parla",
+            "guarda"
+          ],
+          "modelAnswer": "Ascolta la radio ogni giorno. Leggi un libro facile. Non avere paura di parlare!"
+        }
+      ]
+    },
+    {
+      "id": "a2-03-l2",
+      "title": "Vieni qui! Sii gentile!",
+      "minutes": 7,
+      "goal": "You can use the irregular tu imperatives: vai, fai, di', sii.",
+      "takeaway": "Vai, fai, dai, stai are like the present; di', sii, abbi are different. Negative: still non + infinitive.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2-03-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Non ___ (mangiare) tutto il dolce!",
+          "answers": [
+            "mangiare"
+          ],
+          "explanation": "Negative tu imperative: non + infinitive."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l2-e02",
+          "stage": "learn",
+          "title": "Come il presente",
+          "body": "Some irregular imperatives look like the **present tense**.\n\n| infinito | imperativo (tu) |\n|---|---|\n| andare | ==vai== (also va') |\n| fare | ==fai== (also fa') |\n| dare | ==dai== (also da') |\n| stare | ==stai== (also sta') |\n| venire | ==vieni== |\n| uscire | ==esci== |",
+          "examples": [
+            {
+              "it": "Vai dritto e poi gira a destra.",
+              "en": "Go straight, then turn right."
+            },
+            {
+              "it": "Fai piano: il bambino dorme.",
+              "en": "Be quiet: the baby is sleeping."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l2-e03",
+          "stage": "learn",
+          "title": "Di', sii, abbi",
+          "body": "These three are **different** from the present.\n\n| infinito | presente | imperativo |\n|---|---|---|\n| dire | dici | ==di'== |\n| essere | sei | ==sii== |\n| avere | hai | ==abbi== |\n\n> Di' has an **apostrophe**, not an accent. Negative: *Non essere triste!*",
+          "examples": [
+            {
+              "it": "Di' la verità!",
+              "en": "Tell the truth!"
+            },
+            {
+              "it": "Sii paziente, per favore.",
+              "en": "Be patient, please."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l2-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Marco, ___ qui!",
+          "options": [
+            "vieni",
+            "venire",
+            "viene",
+            "venga"
+          ],
+          "answer": 0,
+          "explanation": "Venire has a regular tu imperative: vieni."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2-03-l2-e05",
+          "stage": "practise",
+          "instruction": "Abbina l'infinito all'imperativo (tu).",
+          "pairs": [
+            {
+              "left": "dire",
+              "right": "di'"
+            },
+            {
+              "left": "essere",
+              "right": "sii"
+            },
+            {
+              "left": "avere",
+              "right": "abbi"
+            },
+            {
+              "left": "andare",
+              "right": "vai"
+            },
+            {
+              "left": "fare",
+              "right": "fai"
+            },
+            {
+              "left": "venire",
+              "right": "vieni"
+            }
+          ],
+          "explanation": "Di', sii and abbi are irregular; the others match the present."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-03-l2-e06",
+          "stage": "practise",
+          "instruction": "Completa con l'imperativo (tu).",
+          "sentence": "___ (dire) la verità, per favore.",
+          "answers": [
+            "di'",
+            "di’",
+            "Di'"
+          ],
+          "explanation": "The tu imperative of dire is di' (with an apostrophe).",
+          "hint": "dire"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-03-l2-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Dici la verità, per favore!",
+          "answers": [
+            "Di' la verità, per favore!",
+            "Di’ la verità, per favore!"
+          ],
+          "explanation": "The imperative of dire is di', not the present dici."
+        },
+        {
+          "type": "translate",
+          "id": "a2-03-l2-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "Be patient, please.",
+          "answers": [
+            "Sii paziente, per favore.",
+            "Abbi pazienza, per favore.",
+            "Per favore, sii paziente.",
+            "Per favore, abbi pazienza."
+          ],
+          "explanation": "Essere gives sii (sii paziente); avere gives abbi (abbi pazienza)."
+        },
+        {
+          "type": "roleplay",
+          "id": "a2-03-l2-e09",
+          "stage": "use",
+          "instruction": "Un amico arriva a casa tua. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "A friend phones from the station and asks how to reach your flat.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao! Sono davanti alla stazione. Come arrivo a casa tua?"
+            },
+            {
+              "speaker": "you",
+              "text": "Vai dritto fino al semaforo e poi gira a sinistra.",
+              "hint": "Imperativo tu: vai, gira.",
+              "keywords": [
+                "vai",
+                "gira"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Va bene. E poi?"
+            },
+            {
+              "speaker": "you",
+              "text": "Prendi la prima strada a destra. Il mio portone è il numero dieci.",
+              "hint": "Prendi la prima strada…",
+              "keywords": [
+                "prendi"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Quanto ci metto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Cinque minuti. Non correre, ti aspetto!",
+              "hint": "Non + infinito.",
+              "keywords": [
+                "non",
+                "aspetto"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Perfetto, a tra poco!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-03-l3",
+      "title": "Aspettate! Andiamo!",
+      "minutes": 7,
+      "goal": "You can give instructions to a group and make suggestions with let's.",
+      "takeaway": "Voi imperative = present voi (parlate!); noi imperative = present noi (andiamo! = let's go).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Marco, ___ piano, per favore!",
+          "options": [
+            "fai",
+            "fate",
+            "facciamo",
+            "fare"
+          ],
+          "answer": 0,
+          "explanation": "Tu imperative of fare: fai."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l3-e02",
+          "stage": "learn",
+          "title": "Voi: parlate!",
+          "body": "With ==voi== the imperative is the same as the present voi.\n\n| infinito | voi |\n|---|---|\n| parlare | parl==ate==! |\n| prendere | prend==ete==! |\n| partire | part==ite==! |\n| fare | f==ate==! |\n\n> The negative with voi is **non + the voi form**: *Non parlate!* (not the infinitive).",
+          "examples": [
+            {
+              "it": "Ragazzi, aspettate qui!",
+              "en": "Guys, wait here!"
+            },
+            {
+              "it": "Non parlate così forte!",
+              "en": "Don't talk so loudly!"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l3-e03",
+          "stage": "learn",
+          "title": "Noi: andiamo!",
+          "body": "The ==noi== imperative means **let's…** It is the same as the present noi.\n\n| infinito | noi |\n|---|---|\n| andare | and==iamo==! |\n| prendere | prend==iamo==! |\n| fare | fac==ciamo==! |\n\nNegative: *Non andiamo!* Useful: **Dai, andiamo! Facciamo così!**",
+          "examples": [
+            {
+              "it": "Facciamo così: tu prendi il treno e io la macchina.",
+              "en": "Let's do it this way: you take the train and I take the car."
+            },
+            {
+              "it": "Prendiamo un caffè?",
+              "en": "Shall we have a coffee?"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l3-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Ragazzi, ___ la finestra, per favore!",
+          "options": [
+            "chiudete",
+            "chiudi",
+            "chiudiamo",
+            "chiudere"
+          ],
+          "answer": 0,
+          "explanation": "Several people (voi): chiudete."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-03-l3-e05",
+          "stage": "practise",
+          "instruction": "A chi parla?",
+          "buckets": [
+            "a un amico (tu)",
+            "a più persone (voi)",
+            "a tutti insieme (noi)"
+          ],
+          "items": [
+            {
+              "text": "Aspetta!",
+              "bucket": 0
+            },
+            {
+              "text": "Aspettate!",
+              "bucket": 1
+            },
+            {
+              "text": "Aspettiamo!",
+              "bucket": 2
+            },
+            {
+              "text": "Non aspettare!",
+              "bucket": 0
+            },
+            {
+              "text": "Non aspettate!",
+              "bucket": 1
+            },
+            {
+              "text": "Andiamo!",
+              "bucket": 2
+            }
+          ],
+          "explanation": "Tu uses -a/-i or non + infinitive; voi uses -ate/-ete/-ite; noi uses -iamo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-03-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa con l'imperativo (noi).",
+          "sentence": "È tardi: ___ (andare) a casa!",
+          "answers": [
+            "andiamo"
+          ],
+          "explanation": "Let's go: the noi imperative is andiamo.",
+          "hint": "andare"
+        },
+        {
+          "type": "transform",
+          "id": "a2-03-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Non parlare!",
+          "cue": "→ voi",
+          "answers": [
+            "Non parlate!"
+          ],
+          "explanation": "Negative voi imperative: non + voi form."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-03-l3-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Ragazzi, non parlare così forte!",
+          "answers": [
+            "Ragazzi, non parlate così forte!"
+          ],
+          "explanation": "With voi the negative is non + the voi form, not the infinitive."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-03-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Proponi un programma agli amici per sabato. Usa «Andiamo…», «Prendiamo…», «Facciamo…».",
+          "keywords": [
+            "andiamo",
+            "prendiamo",
+            "facciamo"
+          ],
+          "modelAnswer": "Sabato andiamo al lago! Prendiamo il treno delle nove e facciamo un picnic."
+        }
+      ]
+    },
+    {
+      "id": "a2-03-l4",
+      "title": "Dimmi! Aspettami!",
+      "minutes": 8,
+      "goal": "You can attach a pronoun to the imperative: dimmi, dammi, prendilo.",
+      "takeaway": "In the affirmative the pronoun attaches to the end: prendilo, aspettami; after di', da', fa' it doubles: dimmi, dammi, fallo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il pronome.",
+          "prompt": "Dove sono le chiavi? Non ___ trovo.",
+          "options": [
+            "le",
+            "lo",
+            "la",
+            "gli"
+          ],
+          "answer": 0,
+          "explanation": "Le chiavi is feminine plural, so the direct pronoun is le."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l4-e02",
+          "stage": "learn",
+          "title": "Il pronome alla fine",
+          "body": "In the affirmative, attach the **pronoun** to the end of the verb.\n\n| imperativo + pronome | risultato |\n|---|---|\n| aspetta + mi | aspetta==mi==! |\n| prendi + lo | prendi==lo==! |\n| manda + mi | manda==mi== un messaggio! |\n| scrivi + gli | scrivi==gli==! |\n\n> One word, same stress as before: ==PRÈN==dilo.",
+          "examples": [
+            {
+              "it": "Il libro è bellissimo: leggilo!",
+              "en": "The book is great: read it!"
+            },
+            {
+              "it": "Aspettami davanti alla stazione!",
+              "en": "Wait for me in front of the station!"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l4-e03",
+          "stage": "learn",
+          "title": "Dimmi, dammi, fallo",
+          "body": "After **di', da', fa', va', sta'** the pronoun's first letter **doubles**.\n\n| forma | risultato |\n|---|---|\n| di' + mi | di==mm==i |\n| da' + mi | da==mm==i |\n| fa' + lo | fa==ll==o |\n| va' + ci | va==cc==i |\n\n> Exception: **gli** does not double: ==digli==.",
+          "examples": [
+            {
+              "it": "Dimmi la verità!",
+              "en": "Tell me the truth!"
+            },
+            {
+              "it": "Dammi una mano, per favore!",
+              "en": "Give me a hand, please!"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l4-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Il libro è bellissimo: ___!",
+          "options": [
+            "leggilo",
+            "lo leggi",
+            "leggi lo",
+            "lo leggere"
+          ],
+          "answer": 0,
+          "explanation": "Affirmative imperative: the pronoun attaches to the verb."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2-03-l4-e05",
+          "stage": "practise",
+          "instruction": "Abbina i pezzi alla forma giusta.",
+          "pairs": [
+            {
+              "left": "di' + mi",
+              "right": "dimmi"
+            },
+            {
+              "left": "da' + mi",
+              "right": "dammi"
+            },
+            {
+              "left": "fa' + lo",
+              "right": "fallo"
+            },
+            {
+              "left": "di' + gli",
+              "right": "digli"
+            },
+            {
+              "left": "di' + lo",
+              "right": "dillo"
+            }
+          ],
+          "explanation": "Pronouns double after di', da', fa'; gli does not."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-03-l4-e06",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Ho sete: ___ (dare + mi) un bicchiere d'acqua, per favore.",
+          "answers": [
+            "dammi",
+            "Dammi"
+          ],
+          "explanation": "Da' + mi gives dammi, with a double m.",
+          "hint": "da' + mi"
+        },
+        {
+          "type": "transform",
+          "id": "a2-03-l4-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Prendi il libro!",
+          "cue": "→ con lo",
+          "answers": [
+            "Prendilo!"
+          ],
+          "explanation": "The pronoun lo attaches to the verb: prendilo."
+        },
+        {
+          "type": "translate",
+          "id": "a2-03-l4-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "Tell me the truth.",
+          "answers": [
+            "Dimmi la verità."
+          ],
+          "explanation": "Di' + mi gives dimmi."
+        },
+        {
+          "type": "roleplay",
+          "id": "a2-03-l4-e09",
+          "stage": "use",
+          "instruction": "Aiuti un amico a sistemare casa. Rispondi ad alta voce quando tocca a te.",
+          "scenario": "A friend is moving into a new flat and you are helping.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Dove metto il computer?"
+            },
+            {
+              "speaker": "you",
+              "text": "Mettilo sul tavolo.",
+              "hint": "Mettere + lo.",
+              "keywords": [
+                "mettilo"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "E la sedia?"
+            },
+            {
+              "speaker": "you",
+              "text": "Portala in cucina.",
+              "hint": "Portare + la.",
+              "keywords": [
+                "portala"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Vado a prendere altre scatole: ti serve qualcosa?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, dammi una mano con questa valigia, poi chiamami quando arrivi.",
+              "hint": "Dammi…, chiamami…",
+              "keywords": [
+                "dammi",
+                "chiamami"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Subito!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-03-l5",
+      "title": "Alzati! Non preoccuparti!",
+      "minutes": 8,
+      "goal": "You can give reflexive orders and say what not to do with a pronoun.",
+      "takeaway": "Reflexive: alzati!; negative with a pronoun: non prenderlo! or non lo prendere!",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Giulia ___ alle sette.",
+          "options": [
+            "si alza",
+            "si alzi",
+            "ti alza",
+            "alzarsi"
+          ],
+          "answer": 0,
+          "explanation": "Reflexive verb, lei: si alza."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l5-e02",
+          "stage": "learn",
+          "title": "Alzati!",
+          "body": "With **reflexive** verbs, attach the pronoun: **-ti** for tu.\n\n| infinito | imperativo (tu) |\n|---|---|\n| alzarsi | alza==ti==! |\n| svegliarsi | sveglia==ti==! |\n| sbrigarsi | sbriga==ti==! |\n| sedersi | sied==iti== |\n\n> Remember: the pronoun is **-ti**, not *-si*.",
+          "examples": [
+            {
+              "it": "Sbrigati, il treno parte!",
+              "en": "Hurry up, the train is leaving!"
+            },
+            {
+              "it": "Siediti qui, per favore.",
+              "en": "Sit down here, please."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-03-l5-e03",
+          "stage": "learn",
+          "title": "Non prenderlo!",
+          "body": "The negative has **two options**. Both are correct.\n\n| positivo | negativo (A) | negativo (B) |\n|---|---|---|\n| Dillo! | Non dir==lo==! | Non ==lo== dire! |\n| Preoccupati! | Non preoccupar==ti==! | Non ==ti== preoccupare! |\n\nA: attach to the infinitive (drop the final e). B: put it before.",
+          "examples": [
+            {
+              "it": "Non preoccuparti, va tutto bene.",
+              "en": "Don't worry, everything's fine."
+            },
+            {
+              "it": "Non lo dire a nessuno!",
+              "en": "Don't tell anyone!"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-03-l5-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Sei in ritardo! ___!",
+          "options": [
+            "Sbrigati",
+            "Ti sbrigi",
+            "Sbrigarti",
+            "Sbriga ti"
+          ],
+          "answer": 0,
+          "explanation": "Reflexive imperative: the pronoun -ti attaches to the verb."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a2-03-l5-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Alzati subito!",
+            "Si alza subito."
+          ],
+          "question": "Which sentence is an order?",
+          "answer": 0,
+          "translations": [
+            "Get up now!",
+            "He/she gets up right away."
+          ],
+          "explanation": "The imperative with -ti is an order; si alza describes someone else."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-03-l5-e06",
+          "stage": "practise",
+          "instruction": "Completa.",
+          "sentence": "Non ___ (preoccuparsi): va tutto bene.",
+          "answers": [
+            "preoccuparti",
+            "ti preoccupare"
+          ],
+          "explanation": "Negative tu with a reflexive: the pronoun attaches (preoccuparti) or goes before (ti preoccupare).",
+          "hint": "preoccuparsi"
+        },
+        {
+          "type": "transform",
+          "id": "a2-03-l5-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Dillo a tutti!",
+          "cue": "→ Non…",
+          "answers": [
+            "Non dirlo a tutti!",
+            "Non lo dire a tutti!"
+          ],
+          "explanation": "Negative tu: non + infinitive, with the pronoun attached or placed before."
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-03-l5-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "Non preoccupati, è tutto a posto.",
+          "answers": [
+            "Non preoccuparti, è tutto a posto.",
+            "Non ti preoccupare, è tutto a posto."
+          ],
+          "explanation": "The negative with tu uses the infinitive: non preoccuparti."
+        },
+        {
+          "type": "free_write",
+          "id": "a2-03-l5-e09",
+          "stage": "use",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Un amico ha un colloquio di lavoro domani ed è nervoso. Scrivi 4 consigli (almeno 30 parole). Usa l'imperativo con tu.",
+          "minWords": 30,
+          "checklist": [
+            "Ho usato almeno 3 imperativi (tu).",
+            "Ho usato un imperativo negativo (non + infinito).",
+            "Ho usato almeno un pronome (…ti, …lo, …li)."
+          ],
+          "modelAnswer": "Non preoccuparti: andrà tutto bene! Dormi bene stasera e svegliati presto domani. Prepara i documenti e portali con te. Non arrivare in ritardo: parti con calma e sii gentile con tutti."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la ricetta",
+      "en": "recipe",
+      "example": "Segui la ricetta passo per passo."
+    },
+    {
+      "it": "sbrigarsi",
+      "en": "to hurry up",
+      "example": "Sbrigati, il treno parte!"
+    },
+    {
+      "it": "aspettare",
+      "en": "to wait",
+      "example": "Aspettami davanti alla stazione!"
+    },
+    {
+      "it": "girare",
+      "en": "to turn",
+      "example": "Gira a destra al semaforo."
+    },
+    {
+      "it": "andare dritto",
+      "en": "to go straight on",
+      "example": "Vai dritto fino alla piazza."
+    },
+    {
+      "it": "l'incrocio",
+      "en": "crossroads",
+      "example": "Al prossimo incrocio gira a sinistra."
+    },
+    {
+      "it": "il semaforo",
+      "en": "traffic light",
+      "example": "Gira a sinistra al semaforo."
+    },
+    {
+      "it": "fare piano",
+      "en": "to be quiet, to go easy",
+      "example": "Fai piano: il bambino dorme."
+    },
+    {
+      "it": "dai!",
+      "en": "come on!",
+      "example": "Dai, vieni con noi!"
+    },
+    {
+      "it": "non preoccuparti",
+      "en": "don't worry",
+      "example": "Non preoccuparti, ci penso io."
+    },
+    {
+      "it": "fammi sapere",
+      "en": "let me know",
+      "example": "Fammi sapere quando arrivi."
+    },
+    {
+      "it": "fammi vedere",
+      "en": "show me",
+      "example": "Fammi vedere la foto."
+    },
+    {
+      "it": "dammi una mano",
+      "en": "give me a hand",
+      "example": "Dammi una mano con la valigia."
+    },
+    {
+      "it": "mettere",
+      "en": "to put",
+      "example": "Mettilo sul tavolo."
+    },
+    {
+      "it": "spegnere",
+      "en": "to turn off",
+      "example": "Spegni la luce, per favore."
+    },
+    {
+      "it": "accendere",
+      "en": "to turn on",
+      "example": "Accendi il forno a duecento gradi."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2-03-t1",
+      "rule": "Imperativo tu: -a o -i",
+      "tip": "With tu, -are verbs end in -a (parla!), -ere and -ire verbs end in -i (prendi!, senti!).",
+      "example": {
+        "it": "Ascolta bene e ripeti.",
+        "en": "Listen carefully and repeat."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ (chiudere) la porta, per favore!",
+        "answers": [
+          "chiudi"
+        ],
+        "hint": "chiudere – tu"
+      }
+    },
+    {
+      "id": "a2-03-t2",
+      "rule": "Non + infinito (tu)",
+      "tip": "For a negative order to one person, use non + infinitive: non parlare, non mangiare.",
+      "example": {
+        "it": "Non parlare così forte!",
+        "en": "Don't talk so loudly!"
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Non mangia tutto il dolce!",
+        "answers": [
+          "Non mangiare tutto il dolce!"
+        ],
+        "explanation": "Negative tu: non + infinitive."
+      }
+    },
+    {
+      "id": "a2-03-t3",
+      "rule": "Di', sii, vai, fai",
+      "tip": "Di', sii and abbi are irregular; vai, fai, dai, stai look like the present. Di' takes an apostrophe.",
+      "example": {
+        "it": "Di' la verità!",
+        "en": "Tell the truth!"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Per favore, ___ la verità!",
+        "options": [
+          "di'",
+          "dici",
+          "dire",
+          "dì"
+        ],
+        "answer": 0,
+        "explanation": "Imperative of dire: di'."
+      }
+    },
+    {
+      "id": "a2-03-t4",
+      "rule": "Dimmi, dammi, fallo",
+      "tip": "After di', da', fa' the pronoun doubles its first letter: dimmi, dammi, fallo. Not for gli: digli.",
+      "example": {
+        "it": "Dammi una mano!",
+        "en": "Give me a hand!"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ (dire + mi) la verità!",
+        "answers": [
+          "dimmi",
+          "Dimmi"
+        ],
+        "hint": "di' + mi"
+      }
+    },
+    {
+      "id": "a2-03-t5",
+      "rule": "Voi e noi",
+      "tip": "The voi imperative is the present voi (parlate!); the noi imperative means let's (andiamo!).",
+      "example": {
+        "it": "Andiamo al mare!",
+        "en": "Let's go to the sea!"
+      },
+      "challenge": {
+        "type": "transform",
+        "source": "Non parlare!",
+        "cue": "→ voi",
+        "answers": [
+          "Non parlate!"
+        ],
+        "explanation": "Negative voi: non + voi form."
+      }
+    }
+  ]
+}

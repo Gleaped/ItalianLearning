@@ -1,0 +1,1064 @@
+{
+  "id": "a1-07",
+  "level": "A1",
+  "title": "Vado, faccio, vengo",
+  "format": 2,
+  "module": "a1-m2",
+  "objective": "By the end you can use andare, venire, fare, avere, volere, potere, dovere and uscire to talk about plans, needs and wishes.",
+  "grammarFocus": "Key irregular present verbs; avere expressions; modal verbs + infinitive.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-07-l1",
+      "title": "Vado e vengo",
+      "minutes": 8,
+      "goal": "You can say where you go and where you come from.",
+      "takeaway": "Vado, vai, va, andiamo, andate, vanno; vengo, vieni, viene, veniamo, venite, vengono.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Marco ___ il caffè. (prendere)",
+          "options": [
+            "prende",
+            "prendi",
+            "prendo",
+            "prendiamo"
+          ],
+          "answer": 0,
+          "explanation": "Regular -ere verb: lui/lei takes -e: prende."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l1-e02",
+          "stage": "learn",
+          "title": "Andare",
+          "body": "**Andare** (to go) is irregular.\n\n| persona | andare |\n|---|---|\n| io | ==vado== |\n| tu | vai |\n| lui/lei | va |\n| noi | andiamo |\n| voi | andate |\n| loro | ==vanno== |\n\n> **Io** and **loro** share the stem: vado / vanno.",
+          "examples": [
+            {
+              "it": "Vado in ufficio.",
+              "en": "I go to the office."
+            },
+            {
+              "it": "Andiamo al bar?",
+              "en": "Shall we go to the café?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l1-e03",
+          "stage": "learn",
+          "title": "Venire",
+          "body": "**Venire** (to come) is irregular too.\n\n| persona | venire |\n|---|---|\n| io | ==vengo== |\n| tu | vieni |\n| lui/lei | viene |\n| noi | veniamo |\n| voi | venite |\n| loro | ==vengono== |\n\n> **Vengo da** Roma = I come from Rome.",
+          "examples": [
+            {
+              "it": "Vieni al bar con noi?",
+              "en": "Are you coming to the café with us?"
+            },
+            {
+              "it": "Vengo da Milano.",
+              "en": "I come from Milan."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Noi ___ al mercato.",
+          "options": [
+            "andiamo",
+            "andate",
+            "vanno",
+            "vado"
+          ],
+          "answer": 0,
+          "explanation": "Noi goes with andiamo."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-07-l1-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Vado a Roma.",
+            "Vengo da Roma."
+          ],
+          "question": "Which sentence says you come from Rome?",
+          "answer": 1,
+          "translations": [
+            "I am going to Rome.",
+            "I come from Rome."
+          ],
+          "explanation": "Vengo da = I come from; vado a = I go to."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l1-e06",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "andare",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "vado"
+            },
+            {
+              "person": "tu",
+              "answer": "vai"
+            },
+            {
+              "person": "noi",
+              "answer": "andiamo"
+            },
+            {
+              "person": "loro",
+              "answer": "vanno"
+            }
+          ],
+          "explanation": "Andare is irregular: vado, vai, va, andiamo, andate, vanno."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l1-e07",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "venire",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "vengo"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "viene"
+            },
+            {
+              "person": "voi",
+              "answer": "venite"
+            },
+            {
+              "person": "loro",
+              "answer": "vengono"
+            }
+          ],
+          "explanation": "Venire is irregular: vengo, vieni, viene, veniamo, venite, vengono."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-07-l1-e08",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Anna, ___ al bar con noi?",
+          "answers": [
+            "vieni"
+          ],
+          "explanation": "Anna is addressed with tu, so vieni."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-07-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Dove vai oggi? Da dove vieni?",
+          "keywords": [
+            "vado",
+            "vengo"
+          ],
+          "modelAnswer": "Oggi vado in ufficio. Vengo da Milano."
+        }
+      ]
+    },
+    {
+      "id": "a1-07-l2",
+      "title": "Faccio, fai, fa",
+      "minutes": 7,
+      "goal": "You can say what you do and use fare in everyday phrases.",
+      "takeaway": "Faccio, fai, fa, facciamo, fate, fanno; fare colazione, fare la spesa, fa freddo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Anna ___ al bar.",
+          "options": [
+            "va",
+            "vai",
+            "vado",
+            "andiamo"
+          ],
+          "answer": 0,
+          "explanation": "Lei goes with va."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l2-e02",
+          "stage": "learn",
+          "title": "Fare",
+          "body": "**Fare** (to do, to make) is irregular.\n\n| persona | fare |\n|---|---|\n| io | ==faccio== |\n| tu | fai |\n| lui/lei | fa |\n| noi | facciamo |\n| voi | fate |\n| loro | ==fanno== |\n\n> **Che cosa fai?** = What are you doing?",
+          "examples": [
+            {
+              "it": "Che cosa fate stasera?",
+              "en": "What are you doing tonight?"
+            },
+            {
+              "it": "Facciamo una pausa.",
+              "en": "Let's take a break."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l2-e03",
+          "stage": "learn",
+          "title": "Fare nella vita",
+          "body": "Italian uses **fare** where English uses other verbs.\n\n| espressione | significato |\n|---|---|\n| fare colazione | have breakfast |\n| fare la spesa | do the shopping |\n| fare una pausa | take a break |\n| fare una passeggiata | go for a walk |\n| fa caldo / fa freddo | it is hot / cold |\n\n> No article: faccio colazione.",
+          "examples": [
+            {
+              "it": "Faccio colazione alle sette.",
+              "en": "I have breakfast at seven."
+            },
+            {
+              "it": "Oggi fa freddo.",
+              "en": "It is cold today."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-07-l2-e04",
+          "stage": "practise",
+          "instruction": "Abbina le coppie.",
+          "pairs": [
+            {
+              "left": "fare la spesa",
+              "right": "do the shopping"
+            },
+            {
+              "left": "fare colazione",
+              "right": "have breakfast"
+            },
+            {
+              "left": "fare una pausa",
+              "right": "take a break"
+            },
+            {
+              "left": "fare una passeggiata",
+              "right": "go for a walk"
+            }
+          ],
+          "explanation": "Fare is used in many everyday phrases."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-07-l2-e05",
+          "stage": "practise",
+          "instruction": "Metti in ordine le parole.",
+          "translation": "What do they do?",
+          "tiles": [
+            "Che",
+            "cosa",
+            "fanno"
+          ],
+          "distractors": [
+            "fa",
+            "fai"
+          ],
+          "explanation": "Loro goes with fanno."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l2-e06",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "fare",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "faccio"
+            },
+            {
+              "person": "tu",
+              "answer": "fai"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "fa"
+            },
+            {
+              "person": "voi",
+              "answer": "fate"
+            }
+          ],
+          "explanation": "Fare is irregular: faccio, fai, fa, facciamo, fate, fanno."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-07-l2-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Oggi ___ freddo.",
+          "answers": [
+            "fa"
+          ],
+          "explanation": "The weather uses fare: fa freddo."
+        },
+        {
+          "type": "translate",
+          "id": "a1-07-l2-e08",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "We do the shopping.",
+          "answers": [
+            "Facciamo la spesa.",
+            "Facciamo la spesa",
+            "Noi facciamo la spesa."
+          ],
+          "explanation": "Noi goes with facciamo; fare la spesa = to do the shopping."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-07-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Che cosa fai la mattina? Usa «faccio».",
+          "keywords": [
+            "faccio"
+          ],
+          "modelAnswer": "La mattina faccio colazione al bar. Poi faccio una passeggiata."
+        }
+      ]
+    },
+    {
+      "id": "a1-07-l3",
+      "title": "Ho, hai, ha",
+      "minutes": 7,
+      "goal": "You can say what you have and how you feel with avere.",
+      "takeaway": "Ho, hai, ha, abbiamo, avete, hanno; Italian says ho fame (I have hunger).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Che cosa ___ tu?",
+          "options": [
+            "fai",
+            "fa",
+            "fate",
+            "faccio"
+          ],
+          "answer": 0,
+          "explanation": "Tu goes with fai."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l3-e02",
+          "stage": "learn",
+          "title": "Avere",
+          "body": "**Avere** (to have). The **h** is silent.\n\n| persona | avere |\n|---|---|\n| io | ==ho== |\n| tu | hai |\n| lui/lei | ha |\n| noi | abbiamo |\n| voi | avete |\n| loro | ==hanno== |\n\n> **ha** (has) is not **a** (at); **hanno** is not **anno**.",
+          "examples": [
+            {
+              "it": "Hai un minuto?",
+              "en": "Do you have a minute?"
+            },
+            {
+              "it": "Abbiamo un appuntamento.",
+              "en": "We have an appointment."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l3-e03",
+          "stage": "learn",
+          "title": "Avere + sensazione",
+          "body": "Italian *has* feelings and age.\n\n| espressione | significato |\n|---|---|\n| ho fame | I am hungry |\n| ho sete | I am thirsty |\n| ho sonno | I am sleepy |\n| ho caldo / freddo | I am hot / cold |\n| ho fretta | I am in a hurry |\n| ho trent'anni | I am 30 |\n\n> Not *sono fame*: say **ho** fame.",
+          "examples": [
+            {
+              "it": "Ho sete. Vorrei un'acqua.",
+              "en": "I am thirsty. I would like water."
+            },
+            {
+              "it": "Ha fretta.",
+              "en": "He is in a hurry."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l3-e04",
+          "stage": "practise",
+          "instruction": "Scegli la frase giusta.",
+          "prompt": "Ho sete. Vorrei…",
+          "options": [
+            "un'acqua",
+            "un panino",
+            "un letto",
+            "una pausa"
+          ],
+          "answer": 0,
+          "explanation": "Ho sete means I am thirsty, so you want water."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-07-l3-e05",
+          "stage": "practise",
+          "instruction": "Scegli: avere o essere?",
+          "buckets": [
+            "avere (ho…)",
+            "essere (sono…)"
+          ],
+          "items": [
+            {
+              "text": "fame",
+              "bucket": 0
+            },
+            {
+              "text": "stanco",
+              "bucket": 1
+            },
+            {
+              "text": "sete",
+              "bucket": 0
+            },
+            {
+              "text": "di Roma",
+              "bucket": 1
+            },
+            {
+              "text": "sonno",
+              "bucket": 0
+            },
+            {
+              "text": "a casa",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Hunger, thirst and sleepiness use avere; where you are or what you are use essere."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l3-e06",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "avere",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "ho"
+            },
+            {
+              "person": "tu",
+              "answer": "hai"
+            },
+            {
+              "person": "noi",
+              "answer": "abbiamo"
+            },
+            {
+              "person": "loro",
+              "answer": "hanno"
+            }
+          ],
+          "explanation": "Avere is irregular: ho, hai, ha, abbiamo, avete, hanno."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-07-l3-e07",
+          "stage": "practise",
+          "instruction": "Trova l'errore e scrivi la frase giusta.",
+          "sentence": "Sono fame.",
+          "answers": [
+            "Ho fame.",
+            "Ho fame"
+          ],
+          "explanation": "Hunger uses avere: ho fame."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-07-l3-e08",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Marco ___ fretta.",
+          "answers": [
+            "ha"
+          ],
+          "explanation": "Lui/lei goes with ha: ha fretta."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-07-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in due frasi.",
+          "prompt": "Hai fame o sete adesso? Che cosa vorresti?",
+          "keywords": [
+            "ho"
+          ],
+          "modelAnswer": "Ho sete e ho un po' di sonno. Vorrei un caffè."
+        }
+      ]
+    },
+    {
+      "id": "a1-07-l4",
+      "title": "Voglio e posso",
+      "minutes": 8,
+      "goal": "You can say what you want and ask if you can do something.",
+      "takeaway": "Volere and potere + infinitive: voglio mangiare, posso entrare?",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "I'm cold: ___ freddo.",
+          "options": [
+            "Ho",
+            "Sono",
+            "Faccio",
+            "Vado"
+          ],
+          "answer": 0,
+          "explanation": "Feeling cold uses avere: ho freddo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l4-e02",
+          "stage": "learn",
+          "title": "Volere e potere",
+          "body": "Two very useful verbs.\n\n| persona | volere | potere |\n|---|---|---|\n| io | ==voglio== | ==posso== |\n| tu | vuoi | puoi |\n| lui/lei | vuole | ==può== |\n| noi | vogliamo | possiamo |\n| voi | volete | potete |\n| loro | vogliono | possono |\n\n> Watch the accent: ==può==.",
+          "examples": [
+            {
+              "it": "Vuoi un caffè?",
+              "en": "Do you want a coffee?"
+            },
+            {
+              "it": "Non possono venire.",
+              "en": "They can't come."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l4-e03",
+          "stage": "learn",
+          "title": "+ infinito",
+          "body": "The second verb stays in the **infinitive**.\n\n| esempio | significato |\n|---|---|\n| Voglio ==mangiare==. | I want to eat. |\n| Posso ==entrare==? | May I come in? |\n| Puoi ==ripetere==? | Can you repeat? |\n| Non posso ==venire==. | I can't come. |\n\n> No *to*: voglio mangiare. **Vorrei** is politer than **voglio**.",
+          "examples": [
+            {
+              "it": "Posso entrare?",
+              "en": "May I come in?"
+            },
+            {
+              "it": "Non voglio aspettare.",
+              "en": "I don't want to wait."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l4-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Scusi, ___ entrare?",
+          "options": [
+            "posso",
+            "possiamo",
+            "puoi",
+            "può"
+          ],
+          "answer": 0,
+          "explanation": "The speaker is one person, so posso."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-07-l4-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Voglio un caffè.",
+            "Vorrei un caffè."
+          ],
+          "question": "Which sentence is more polite?",
+          "answer": 1,
+          "translations": [
+            "I want a coffee.",
+            "I would like a coffee."
+          ],
+          "explanation": "Vorrei is the polite form; voglio sounds direct."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l4-e06",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "volere",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "voglio"
+            },
+            {
+              "person": "tu",
+              "answer": "vuoi"
+            },
+            {
+              "person": "noi",
+              "answer": "vogliamo"
+            },
+            {
+              "person": "loro",
+              "answer": "vogliono"
+            }
+          ],
+          "explanation": "Volere is irregular: voglio, vuoi, vuole, vogliamo, volete, vogliono."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l4-e07",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "potere",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "posso"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "può"
+            },
+            {
+              "person": "voi",
+              "answer": "potete"
+            },
+            {
+              "person": "loro",
+              "answer": "possono"
+            }
+          ],
+          "explanation": "Potere is irregular: posso, puoi, può, possiamo, potete, possono."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-07-l4-e08",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Anna non ___ venire.",
+          "answers": [
+            "può"
+          ],
+          "explanation": "Lui/lei goes with può; the accent is required."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-07-l4-e09",
+          "stage": "use",
+          "instruction": "Un vicino ti invita. Rispondi.",
+          "scenario": "A neighbour invites you to dinner on Saturday.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Vuoi venire a cena sabato?"
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie, volentieri! Posso portare il dolce?",
+              "keywords": [
+                "posso",
+                "portare"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Certo! Puoi venire alle otto?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, alle otto va bene. Grazie!",
+              "keywords": [
+                "alle otto"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-07-l5",
+      "title": "Devo uscire",
+      "minutes": 8,
+      "goal": "You can say what you must do and when you go out.",
+      "takeaway": "Devo + infinitive = I must; esco, esci, esce, usciamo, uscite, escono.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Voi ___ venire?",
+          "options": [
+            "potete",
+            "possiamo",
+            "puoi",
+            "può"
+          ],
+          "answer": 0,
+          "explanation": "Voi goes with potete."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l5-e02",
+          "stage": "learn",
+          "title": "Dovere",
+          "body": "**Dovere** means *must* or *have to*. Add an infinitive.\n\n| persona | dovere |\n|---|---|\n| io | ==devo== |\n| tu | devi |\n| lui/lei | deve |\n| noi | dobbiamo |\n| voi | dovete |\n| loro | ==devono== |\n\n> **Devo** lavorare = I have to work.",
+          "examples": [
+            {
+              "it": "Devo lavorare fino alle sei.",
+              "en": "I have to work until six."
+            },
+            {
+              "it": "Dobbiamo partire.",
+              "en": "We have to leave."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-07-l5-e03",
+          "stage": "learn",
+          "title": "Uscire",
+          "body": "**Uscire** (to go out) changes its stem.\n\n| persona | uscire |\n|---|---|\n| io | ==esco== |\n| tu | esci |\n| lui/lei | esce |\n| noi | usciamo |\n| voi | uscite |\n| loro | ==escono== |\n\n> ==esc-== for io, tu, lui/lei, loro; ==usc-== for noi and voi.",
+          "examples": [
+            {
+              "it": "Esco alle otto.",
+              "en": "I go out at eight."
+            },
+            {
+              "it": "Usciamo stasera?",
+              "en": "Shall we go out tonight?"
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-07-l5-e04",
+          "stage": "practise",
+          "instruction": "Scegli: esc- o usc-?",
+          "buckets": [
+            "esc-",
+            "usc-"
+          ],
+          "items": [
+            {
+              "text": "io",
+              "bucket": 0
+            },
+            {
+              "text": "tu",
+              "bucket": 0
+            },
+            {
+              "text": "lui/lei",
+              "bucket": 0
+            },
+            {
+              "text": "noi",
+              "bucket": 1
+            },
+            {
+              "text": "voi",
+              "bucket": 1
+            },
+            {
+              "text": "loro",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Uscire uses esc- except for noi and voi, which use usc-."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-07-l5-e05",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Stasera io ___ lavorare fino alle otto.",
+          "options": [
+            "devo",
+            "devi",
+            "deve",
+            "dobbiamo"
+          ],
+          "answer": 0,
+          "explanation": "Io goes with devo."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l5-e06",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "dovere",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "devo"
+            },
+            {
+              "person": "tu",
+              "answer": "devi"
+            },
+            {
+              "person": "noi",
+              "answer": "dobbiamo"
+            },
+            {
+              "person": "loro",
+              "answer": "devono"
+            }
+          ],
+          "explanation": "Dovere is irregular: devo, devi, deve, dobbiamo, dovete, devono."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-07-l5-e07",
+          "stage": "practise",
+          "instruction": "Scrivi le forme del presente.",
+          "verb": "uscire",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "esco"
+            },
+            {
+              "person": "tu",
+              "answer": "esci"
+            },
+            {
+              "person": "noi",
+              "answer": "usciamo"
+            },
+            {
+              "person": "loro",
+              "answer": "escono"
+            }
+          ],
+          "explanation": "Uscire: esco, esci, esce, usciamo, uscite, escono."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-07-l5-e08",
+          "stage": "practise",
+          "instruction": "Trova l'errore e scrivi la frase giusta.",
+          "sentence": "Noi esciamo alle sei.",
+          "answers": [
+            "Noi usciamo alle sei.",
+            "Usciamo alle sei."
+          ],
+          "explanation": "Noi uses the stem usc-: usciamo."
+        },
+        {
+          "type": "free_write",
+          "id": "a1-07-l5-e09",
+          "stage": "use",
+          "instruction": "Scrivi 3 o 4 frasi.",
+          "prompt": "Che cosa devi fare domani? A che ora esci di casa?",
+          "minWords": 20,
+          "checklist": [
+            "devo + infinito",
+            "esco + un orario",
+            "un altro verbo irregolare dell'unità"
+          ],
+          "modelAnswer": "Domani devo lavorare fino alle cinque. Esco di casa alle otto. Poi vado in banca e faccio la spesa. Devo anche cucinare."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "andare",
+      "en": "to go",
+      "example": "Vado in ufficio."
+    },
+    {
+      "it": "venire",
+      "en": "to come",
+      "example": "Vengo da Milano."
+    },
+    {
+      "it": "fare",
+      "en": "to do, to make",
+      "example": "Che cosa fai?"
+    },
+    {
+      "it": "avere",
+      "en": "to have",
+      "example": "Ho un appuntamento."
+    },
+    {
+      "it": "volere",
+      "en": "to want",
+      "example": "Voglio un caffè."
+    },
+    {
+      "it": "potere",
+      "en": "can, to be able",
+      "example": "Posso entrare?"
+    },
+    {
+      "it": "dovere",
+      "en": "must, to have to",
+      "example": "Devo lavorare."
+    },
+    {
+      "it": "uscire",
+      "en": "to go out",
+      "example": "Esco alle otto."
+    },
+    {
+      "it": "fare colazione",
+      "en": "to have breakfast",
+      "example": "Faccio colazione al bar."
+    },
+    {
+      "it": "fare la spesa",
+      "en": "to do the shopping",
+      "example": "Faccio la spesa il sabato."
+    },
+    {
+      "it": "fare una passeggiata",
+      "en": "to go for a walk",
+      "example": "Facciamo una passeggiata."
+    },
+    {
+      "it": "fare una pausa",
+      "en": "to take a break",
+      "example": "Facciamo una pausa."
+    },
+    {
+      "it": "avere fame",
+      "en": "to be hungry",
+      "example": "Ho fame."
+    },
+    {
+      "it": "avere sete",
+      "en": "to be thirsty",
+      "example": "Ho sete."
+    },
+    {
+      "it": "avere sonno",
+      "en": "to be sleepy",
+      "example": "Ho sonno."
+    },
+    {
+      "it": "avere fretta",
+      "en": "to be in a hurry",
+      "example": "Ho fretta."
+    },
+    {
+      "it": "stasera",
+      "en": "tonight",
+      "example": "Stasera esco con Anna."
+    },
+    {
+      "it": "Posso entrare?",
+      "en": "May I come in?",
+      "example": "Buongiorno, posso entrare?"
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-07-t1",
+      "rule": "Andare e venire",
+      "tip": "Andare: vado, vai, va, andiamo, andate, vanno. Venire: vengo, vieni, viene…",
+      "example": {
+        "it": "Vado a Roma.",
+        "en": "I am going to Rome."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Loro ___ al mare.",
+        "answers": [
+          "vanno"
+        ]
+      }
+    },
+    {
+      "id": "a1-07-t2",
+      "rule": "Fare",
+      "tip": "Fare: faccio, fai, fa, facciamo, fate, fanno. Also: fa caldo, fa freddo.",
+      "example": {
+        "it": "Oggi fa caldo.",
+        "en": "It is hot today."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Noi ___ la spesa.",
+        "answers": [
+          "facciamo"
+        ]
+      }
+    },
+    {
+      "id": "a1-07-t3",
+      "rule": "Avere + sensazione",
+      "tip": "Hunger, thirst and sleep use avere: ho fame, ho sete, ho sonno.",
+      "example": {
+        "it": "Ho fame.",
+        "en": "I am hungry."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Sono sete.",
+        "answers": [
+          "Ho sete."
+        ]
+      }
+    },
+    {
+      "id": "a1-07-t4",
+      "rule": "Volere / potere + infinito",
+      "tip": "After volere and potere the verb stays in the infinitive: posso entrare.",
+      "example": {
+        "it": "Posso entrare?",
+        "en": "May I come in?"
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Non ___ venire. (io)",
+        "answers": [
+          "posso"
+        ]
+      }
+    },
+    {
+      "id": "a1-07-t5",
+      "rule": "Uscire: esco / usciamo",
+      "tip": "Uscire uses esc- (esco, esci, esce, escono) but usc- for noi and voi.",
+      "example": {
+        "it": "Usciamo alle sei.",
+        "en": "We go out at six."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Noi ___ alle sei.",
+        "answers": [
+          "usciamo"
+        ]
+      }
+    }
+  ]
+}

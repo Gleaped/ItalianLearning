@@ -2,6 +2,8 @@
   "id": "b1-05",
   "level": "B1",
   "title": "Come si fa?",
+  "format": 2,
+  "module": "b1-m2",
   "objective": "By the end you can ask how things are done, understand instructions and procedures, and give clear instructions and directions to a friend (tu) or a stranger (Lei).",
   "grammarFocus": "Si impersonale (si mangia, si vendono, ci si alza); imperativo tu (gira, prendi, non girare; va', fa', di'); pronouns with the imperative (prendilo, dimmi, fammelo); imperativo Lei (prenda, vada, mi dica, si accomodi, non si preoccupi).",
   "remedialUnitIds": [
@@ -11,8 +13,10 @@
   "lessons": [
     {
       "id": "b1-05-l1",
-      "title": "Come si fa?",
-      "minutes": 10,
+      "title": "Si fa così",
+      "minutes": 7,
+      "goal": "You can explain how things are done and ask what is allowed, using si + verb.",
+      "takeaway": "Si + 3rd person: singular noun → si mette, plural noun → si mettono.",
       "exercises": [
         {
           "type": "multiple_choice",
@@ -26,45 +30,83 @@
             "le la"
           ],
           "answer": 0,
-          "explanation": "To you (Lei) + la procedura = gliela."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-05-l1-e02",
-          "instruction": "Riscaldamento: completa con ci o ne.",
-          "sentence": "Vai alla riunione di condominio stasera? – No, non ___ vado, sono stanco.",
-          "answers": [
-            "ci"
-          ],
-          "explanation": "Alla riunione → ci."
+          "explanation": "To you (Lei) + la procedura = gliela.",
+          "stage": "warmup"
         },
         {
           "type": "grammar_note",
-          "id": "b1-05-l1-e03",
+          "id": "b1-05-l1-e02",
           "title": "Il si impersonale",
-          "body": "To talk about what **people in general** do, or how things **are done**, Italian uses **si** + the verb in the 3rd person. English uses *you, one, people, they* or a passive.\n\n- *In Italia **si cena** tardi.* – In Italy people have dinner late.\n- *Come **si dice** «receipt» in italiano?* – How do you say…?\n- *Qui non **si può** parcheggiare.* – You can't park here.\n\n**With a plural noun**, the verb goes plural: *Dove **si comprano** i biglietti?* (singular: *Dove si compra il biglietto?*)\n\n**Reflexive verbs** can't have *si si*, so they use **ci si**: *La domenica **ci si sveglia** tardi.*\n\n**Si + essere + adjective**: the adjective is plural: *Quando **si è stanchi**, si sbaglia di più.*\n\nVery common questions: **Come si fa a…?** (How do you…?) **Si può…?** (Is it OK to…?)",
+          "body": "**Si** + the 3rd person says what people in general do. English says *you*, *one* or uses a passive.\n\n| noun | verb | example |\n|---|---|---|\n| singular | si ==beve== | Il caffè si ==beve== al banco. |\n| plural | si ==comprano== | I biglietti si ==comprano== qui. |\n\n> The verb agrees with the noun after it: *si vende la casa*, *si vendono le case*.",
           "examples": [
             {
-              "it": "Come si fa a fare l'abbonamento dell'autobus?",
-              "en": "How do you get a bus pass?"
+              "it": "Qui non si può parcheggiare.",
+              "en": "You can't park here."
             },
             {
-              "it": "In questo bar si paga prima alla cassa.",
-              "en": "In this café you pay at the till first."
-            },
-            {
-              "it": "I francobolli si comprano anche in tabaccheria.",
-              "en": "You can also buy stamps at the tobacconist's."
-            },
-            {
-              "it": "Al mare ci si rilassa sempre.",
-              "en": "At the seaside you always relax."
+              "it": "Come si dice «receipt» in italiano?",
+              "en": "How do you say \"receipt\" in Italian?"
             }
-          ]
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "minimal_pair",
+          "id": "b1-05-l1-e03",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Dove si compra il biglietto?",
+            "Dove si comprano i biglietti?"
+          ],
+          "question": "Which question is about more than one ticket?",
+          "answer": 1,
+          "translations": [
+            "Where do you buy the ticket?",
+            "Where do you buy the tickets?"
+          ],
+          "explanation": "The verb after si agrees with the noun: i biglietti → si comprano.",
+          "stage": "practise"
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b1-05-l1-e04",
+          "instruction": "Quale verbo? Scegli il gruppo giusto.",
+          "buckets": [
+            "si vende",
+            "si vendono"
+          ],
+          "items": [
+            {
+              "text": "i francobolli",
+              "bucket": 1
+            },
+            {
+              "text": "il caffè",
+              "bucket": 0
+            },
+            {
+              "text": "le sigarette",
+              "bucket": 1
+            },
+            {
+              "text": "la ricevuta",
+              "bucket": 0
+            },
+            {
+              "text": "i biglietti",
+              "bucket": 1
+            },
+            {
+              "text": "il giornale",
+              "bucket": 0
+            }
+          ],
+          "explanation": "Singular noun → si + singular verb; plural noun → si + plural verb.",
+          "stage": "practise"
         },
         {
           "type": "multiple_choice",
-          "id": "b1-05-l1-e04",
+          "id": "b1-05-l1-e05",
           "instruction": "Scegli la forma giusta.",
           "prompt": "In Italia il caffè ___ spesso al banco, in piedi.",
           "options": [
@@ -74,21 +116,8 @@
             "ci si beve"
           ],
           "answer": 0,
-          "explanation": "Il caffè is singular: si beve."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b1-05-l1-e05",
-          "instruction": "Scegli la forma giusta.",
-          "prompt": "Dove ___ i biglietti dell'autobus? – In tabaccheria o all'edicola.",
-          "options": [
-            "si comprano",
-            "si compra",
-            "ci si comprano",
-            "comprano si"
-          ],
-          "answer": 0,
-          "explanation": "I biglietti is plural, so the verb is plural: si comprano."
+          "explanation": "Il caffè is singular: si beve.",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
@@ -98,49 +127,156 @@
           "answers": [
             "si mette"
           ],
-          "explanation": "La carta is singular: si mette."
+          "explanation": "La carta is singular: si mette.",
+          "stage": "practise"
+        },
+        {
+          "type": "translate",
+          "id": "b1-05-l1-e07",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "You can't park here.",
+          "answers": [
+            "Qui non si può parcheggiare.",
+            "Non si può parcheggiare qui.",
+            "Qui è vietato parcheggiare.",
+            "È vietato parcheggiare qui.",
+            "Qui non si parcheggia.",
+            "Non si parcheggia qui."
+          ],
+          "explanation": "Non si può + infinitive = you can't (it's not allowed).",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-05-l1-e08",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
+          "prompt": "Un amico appena arrivato nel tuo palazzo ti chiede: «Come si fa la raccolta differenziata qui?». Spiegaglielo con il si impersonale.",
+          "keywords": [
+            "si mette",
+            "si porta"
+          ],
+          "modelAnswer": "È facile: l'umido si mette nel bidone marrone e la carta si porta giù il martedì sera. Il vetro invece si butta nelle campane in fondo alla strada.",
+          "explanation": "Explain procedures with si: si mette, si porta, si butta.",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "b1-05-l2",
+      "title": "Ci si alza tardi",
+      "minutes": 8,
+      "goal": "You can use si with reflexive verbs and with adjectives (ci si sveglia, si è stanchi).",
+      "takeaway": "Reflexive verbs: ci si + verb. With si è + adjective, the adjective is plural.",
+      "exercises": [
+        {
+          "type": "translate",
+          "id": "b1-05-l2-e01",
+          "instruction": "Riscaldamento: traduci in inglese.",
+          "direction": "it_en",
+          "source": "Qui non si fuma.",
+          "answers": [
+            "No smoking here.",
+            "You can't smoke here.",
+            "Smoking is not allowed here.",
+            "There's no smoking here.",
+            "Smoking isn't allowed here.",
+            "You can't smoke in here.",
+            "No smoking in here.",
+            "You're not allowed to smoke here."
+          ],
+          "explanation": "A sign: si + verb is often an English passive or 'no …ing'.",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-05-l2-e02",
+          "title": "Verbi riflessivi: ci si",
+          "body": "Reflexive verbs already have **si**. Italian avoids *si si* and says ==ci si==.\n\n| infinitive | impersonal |\n|---|---|\n| svegliarsi | ==ci si== sveglia |\n| divertirsi | ==ci si== diverte |\n| riposarsi | ==ci si== riposa |\n\n> Never *si si sveglia*.",
+          "examples": [
+            {
+              "it": "In vacanza ci si sveglia tardi.",
+              "en": "On holiday you wake up late."
+            },
+            {
+              "it": "Al mare ci si rilassa sempre.",
+              "en": "At the seaside you always relax."
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-05-l2-e03",
+          "title": "Si è + aggettivo",
+          "body": "With **si è** the adjective is plural, because *si* means *people*.\n\n| Italian | meaning |\n|---|---|\n| Quando si è stanch==i== | when you are tired |\n| Qui si è tutti content==i== | here everyone is happy |\n\n> The verb *essere* stays singular: *si è*, never *si sono*.",
+          "examples": [
+            {
+              "it": "Quando si è stanchi, si sbaglia di più.",
+              "en": "When you are tired you make more mistakes."
+            },
+            {
+              "it": "Da giovani si è più coraggiosi.",
+              "en": "When you are young you are braver."
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-05-l2-e04",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Al mare ___ sempre molto.",
+          "options": [
+            "ci si diverte",
+            "si diverte",
+            "si si diverte",
+            "ci diverte"
+          ],
+          "answer": 0,
+          "explanation": "Divertirsi is reflexive, so the impersonal form is ci si diverte.",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-05-l2-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Quando si è ___, si sbaglia di più.",
+          "options": [
+            "stanchi",
+            "stanco",
+            "stanca",
+            "stancamente"
+          ],
+          "answer": 0,
+          "explanation": "After si è the adjective is plural: stanchi.",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
-          "id": "b1-05-l1-e07",
+          "id": "b1-05-l2-e06",
           "instruction": "Completa con il si impersonale. Attenzione: è un verbo riflessivo!",
           "sentence": "In vacanza ___ (svegliarsi) tardi e si fa colazione con calma.",
           "answers": [
             "ci si sveglia"
           ],
-          "explanation": "Svegliarsi is reflexive: ci si sveglia (never si si)."
+          "explanation": "Svegliarsi is reflexive: ci si sveglia (never si si).",
+          "stage": "practise"
         },
         {
-          "type": "match_pairs",
-          "id": "b1-05-l1-e08",
-          "instruction": "Abbina le domande e i cartelli al significato.",
-          "pairs": [
-            {
-              "left": "Come si dice…?",
-              "right": "How do you say…?"
-            },
-            {
-              "left": "Come si scrive?",
-              "right": "How do you spell it?"
-            },
-            {
-              "left": "Si può pagare con la carta?",
-              "right": "Can I pay by card?"
-            },
-            {
-              "left": "Vietato fumare / Non si fuma",
-              "right": "No smoking"
-            },
-            {
-              "left": "Si accettano prenotazioni",
-              "right": "Bookings accepted"
-            }
+          "type": "error_correction",
+          "id": "b1-05-l2-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta.",
+          "sentence": "In vacanza si si riposa molto.",
+          "answers": [
+            "In vacanza ci si riposa molto."
           ],
-          "explanation": "These si-phrases are everywhere on signs and in everyday questions."
+          "explanation": "Reflexive verbs use ci si, never si si.",
+          "stage": "practise"
         },
         {
           "type": "reading",
-          "id": "b1-05-l1-e09",
+          "id": "b1-05-l2-e08",
           "instruction": "Leggi l'avviso del Comune e rispondi alle domande.",
           "title": "Raccolta differenziata: come funziona",
           "passage": "Gentili cittadini,\nnel nostro Comune la raccolta dei rifiuti si fa porta a porta. I sacchetti si espongono davanti al portone la sera prima del ritiro, dopo le ore 20. L'umido si raccoglie il lunedì, il mercoledì e il sabato; la carta il martedì; la plastica e le lattine insieme il giovedì. Il vetro invece non si ritira a domicilio: si porta nelle campane stradali. Per i rifiuti ingombranti (mobili, elettrodomestici) si può prenotare il ritiro gratuito al numero verde. Non si possono lasciare sacchetti per strada nei giorni sbagliati: la multa può arrivare a 300 euro.",
@@ -176,102 +312,34 @@
               "answer": 2
             }
           ],
-          "explanation": "Official notices are full of si impersonale: si raccoglie, si espone, si possono…"
-        },
-        {
-          "type": "sentence_build",
-          "id": "b1-05-l1-e10",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "Excuse me, how do you get to the station?",
-          "tiles": [
-            "Scusi",
-            "come",
-            "si",
-            "arriva",
-            "alla",
-            "stazione"
-          ],
-          "distractors": [
-            "arrivano",
-            "ci"
-          ],
-          "explanation": "Come si arriva…? = How do you get to…?"
-        },
-        {
-          "type": "translate",
-          "id": "b1-05-l1-e11",
-          "instruction": "Traduci in italiano.",
-          "direction": "en_it",
-          "source": "You can't park here.",
-          "answers": [
-            "Qui non si può parcheggiare.",
-            "Non si può parcheggiare qui.",
-            "Qui è vietato parcheggiare.",
-            "È vietato parcheggiare qui.",
-            "Qui non si parcheggia.",
-            "Non si parcheggia qui."
-          ],
-          "explanation": "Non si può + infinitive = you can't (it's not allowed)."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-05-l1-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Scusi, come si fa a fare l'abbonamento mensile dell'autobus?",
-          "translation": "Excuse me, how do you get a monthly bus pass?"
-        },
-        {
-          "type": "speak_respond",
-          "id": "b1-05-l1-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Un amico appena arrivato nel tuo palazzo ti chiede: «Come si fa la raccolta differenziata qui?». Spiegaglielo con il si impersonale.",
-          "keywords": [
-            "si mette",
-            "si porta"
-          ],
-          "modelAnswer": "È facile: l'umido si mette nel bidone marrone e la carta si porta giù il martedì sera. Il vetro invece si butta nelle campane in fondo alla strada.",
-          "explanation": "Explain procedures with si: si mette, si porta, si butta."
+          "explanation": "Official notices are full of si impersonale: si raccoglie, si espone, si possono…",
+          "stage": "use"
         }
       ]
     },
     {
-      "id": "b1-05-l2",
+      "id": "b1-05-l3",
       "title": "Gira a destra!",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can tell a friend what to do: directions, advice, invitations.",
+      "takeaway": "Tu: -are → -a, -ere/-ire → -i. Negative: non + infinitive.",
       "exercises": [
         {
           "type": "gap_fill",
-          "id": "b1-05-l2-e01",
+          "id": "b1-05-l3-e01",
           "instruction": "Riscaldamento: completa con il si impersonale.",
           "sentence": "In Italia le sigarette ___ (vendere) solo in tabaccheria.",
           "answers": [
             "si vendono"
           ],
-          "explanation": "Le sigarette is plural: si vendono."
-        },
-        {
-          "type": "translate",
-          "id": "b1-05-l2-e02",
-          "instruction": "Riscaldamento: traduci in inglese.",
-          "direction": "it_en",
-          "source": "Qui non si fuma.",
-          "answers": [
-            "No smoking here.",
-            "You can't smoke here.",
-            "Smoking is not allowed here.",
-            "There's no smoking here.",
-            "Smoking isn't allowed here.",
-            "You can't smoke in here.",
-            "No smoking in here.",
-            "You're not allowed to smoke here."
-          ],
-          "explanation": "A sign: si + verb is often an English passive or 'no …ing'."
+          "explanation": "Le sigarette is plural: si vendono.",
+          "stage": "warmup"
         },
         {
           "type": "grammar_note",
-          "id": "b1-05-l2-e03",
+          "id": "b1-05-l3-e02",
           "title": "L'imperativo con tu",
-          "body": "Use the **imperativo** to give instructions, directions, advice and invitations to a friend.\n\n**Regular forms (tu):**\n- -are → **-a**: girare → *gira*, aspettare → *aspetta*\n- -ere / -ire → **-i**: prendere → *prendi*, sentire → *senti*, finire → *finisci*\n\n**Negative:** **non + infinitive**: *Non girare! Non preoccuparti!*\n\n**Short irregular forms:** andare → **va'** (or *vai*), fare → **fa'** (*fai*), dare → **da'** (*dai*), stare → **sta'** (*stai*), dire → **di'**; also essere → **sii**, avere → **abbi**.\n\n**Pronouns are attached** to the end: *prendi**lo**, aspetta**mi**, mangia**ne** un po'*.\nWith the short forms the consonant **doubles**: **dimmi, fammi, dammelo, vacci, stammi bene** (but *dagli*).\nIn the negative, pronouns go before or after: *Non **me lo** dire* = *Non dir**melo***.",
+          "body": "Use the **imperativo** with a friend for directions, advice and invitations.\n\n| verb | tu | negative |\n|---|---|---|\n| girare | gir==a== | non girare |\n| prendere | prend==i== | non prendere |\n| finire | fin==isci== | non finire |\n\n> The negative is **not** the tu form: *non gira* is wrong. Say *non girare*.",
           "examples": [
             {
               "it": "Esci dalla stazione e gira a sinistra.",
@@ -280,20 +348,82 @@
             {
               "it": "Non dimenticare le chiavi!",
               "en": "Don't forget the keys!"
-            },
-            {
-              "it": "Fammi sapere quando arrivi.",
-              "en": "Let me know when you arrive."
-            },
-            {
-              "it": "Il pane? Prendilo tu, io non ho tempo.",
-              "en": "The bread? You get it, I haven't got time."
             }
-          ]
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-05-l3-e03",
+          "title": "Imperativi corti",
+          "body": "A few common verbs have short forms.\n\n| verb | tu |\n|---|---|\n| andare | ==va'== / vai |\n| fare | ==fa'== / fai |\n| dare | ==da'== / dai |\n| stare | ==sta'== / stai |\n| dire | ==di'== |\n\n> *Va' dritto* and *vai dritto* are both fine.",
+          "examples": [
+            {
+              "it": "Va' sempre dritto fino al semaforo.",
+              "en": "Go straight on to the traffic lights."
+            },
+            {
+              "it": "Di' la verità!",
+              "en": "Tell the truth!"
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "sort_buckets",
+          "id": "b1-05-l3-e04",
+          "instruction": "Affermativo o negativo? Scegli il gruppo.",
+          "buckets": [
+            "affermativo",
+            "negativo"
+          ],
+          "items": [
+            {
+              "text": "Aspetta!",
+              "bucket": 0
+            },
+            {
+              "text": "Non aspettare!",
+              "bucket": 1
+            },
+            {
+              "text": "Prendi il treno.",
+              "bucket": 0
+            },
+            {
+              "text": "Non prendere il treno.",
+              "bucket": 1
+            },
+            {
+              "text": "Gira a destra.",
+              "bucket": 0
+            },
+            {
+              "text": "Non girare qui.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Positive tu imperative uses the tu form; negative uses non + infinitive.",
+          "stage": "practise"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-05-l3-e05",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Esci pure, ma non ___ la porta aperta!",
+          "options": [
+            "lasciare",
+            "lasci",
+            "lascia",
+            "lasciato"
+          ],
+          "answer": 0,
+          "explanation": "Negative tu imperative = non + infinitive.",
+          "stage": "practise"
         },
         {
           "type": "conjugation",
-          "id": "b1-05-l2-e04",
+          "id": "b1-05-l3-e06",
           "instruction": "Scrivi l'imperativo di girare.",
           "verb": "girare",
           "tense": "imperativo",
@@ -315,47 +445,25 @@
               "answer": "girate"
             }
           ],
-          "explanation": "Tu gira, but in the negative: non girare (infinitive)."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "b1-05-l2-e05",
-          "instruction": "Scegli la forma giusta.",
-          "prompt": "Esci pure, ma non ___ la porta aperta!",
-          "options": [
-            "lasciare",
-            "lasci",
-            "lascia",
-            "lasciato"
-          ],
-          "answer": 0,
-          "explanation": "Negative tu imperative = non + infinitive."
+          "explanation": "Tu gira, but in the negative: non girare (infinitive).",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
-          "id": "b1-05-l2-e06",
-          "instruction": "Completa con l'imperativo (tu) + pronome.",
-          "sentence": "___ (dire + mi) la verità: ti piace questo piatto?",
+          "id": "b1-05-l3-e07",
+          "instruction": "Completa con l'imperativo (tu).",
+          "sentence": "___ (andare) sempre dritto fino al semaforo, poi gira a destra.",
           "answers": [
-            "Dimmi"
+            "Va'",
+            "Vai",
+            "Va"
           ],
-          "hint": "dire + mi",
-          "explanation": "Di' + mi = dimmi: the m doubles."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-05-l2-e07",
-          "instruction": "Completa con l'imperativo (tu) + pronome.",
-          "sentence": "Il pane? ___ (prendere + lo) tu, io non ho tempo.",
-          "answers": [
-            "Prendilo"
-          ],
-          "hint": "prendere + lo",
-          "explanation": "Prendi + lo = prendilo, one word."
+          "explanation": "Andare has a short tu imperative: va' (or vai).",
+          "stage": "practise"
         },
         {
           "type": "error_correction",
-          "id": "b1-05-l2-e08",
+          "id": "b1-05-l3-e08",
           "instruction": "C'è un errore. Riscrivi la frase corretta.",
           "sentence": "Non mangi quella torta, è per domani!",
           "answers": [
@@ -366,11 +474,119 @@
             "Non la mangiare, è per domani!",
             "Non la mangiare è per domani!"
           ],
-          "explanation": "Negative tu imperative = non + infinitive: non mangiare."
+          "explanation": "Negative tu imperative = non + infinitive: non mangiare.",
+          "stage": "practise"
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-05-l3-e09",
+          "instruction": "Rispondi ad alta voce con l'imperativo (tu).",
+          "prompt": "Un amico arriva a casa tua in autobus. Spiegagli in 3 frasi come arrivare dalla fermata.",
+          "keywords": [
+            "gira",
+            "prendi",
+            "va'",
+            "vai",
+            "attraversa"
+          ],
+          "modelAnswer": "Scendi alla fermata davanti alla farmacia e attraversa la strada. Va' dritto fino al semaforo e gira a sinistra. Casa mia è il numero 12, il portone verde.",
+          "stage": "use"
+        }
+      ]
+    },
+    {
+      "id": "b1-05-l4",
+      "title": "Dimmi! Fammi sapere",
+      "minutes": 8,
+      "goal": "You can attach pronouns to the imperative (prendilo, dimmi, fammi sapere).",
+      "takeaway": "Imperative + pronoun = one word; di', fa', da', sta', va' double the consonant: dimmi, fammi.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "b1-05-l4-e01",
+          "instruction": "Riscaldamento: completa con ci o ne.",
+          "sentence": "Vai alla riunione di condominio stasera? – No, non ___ vado, sono stanco.",
+          "answers": [
+            "ci"
+          ],
+          "explanation": "Alla riunione → ci.",
+          "stage": "warmup"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-05-l4-e02",
+          "title": "Il pronome si attacca",
+          "body": "With **tu**, the pronoun joins the end of the verb.\n\n| imperativo + pronome | result |\n|---|---|\n| prendi + lo | prendi==lo== |\n| aspetta + mi | aspetta==mi== |\n| mangia + ne | mangia==ne== |\n| lascia + le | lascia==le== |\n\n> In the negative the pronoun can go before: *non lo prendere* = *non prenderlo*.",
+          "examples": [
+            {
+              "it": "Il pane? Prendilo tu.",
+              "en": "The bread? You get it."
+            },
+            {
+              "it": "Aspettami, arrivo subito!",
+              "en": "Wait for me, I'm coming!"
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-05-l4-e03",
+          "title": "Dimmi, fammi, vacci",
+          "body": "With the short forms the consonant **doubles**.\n\n| short form + pronoun | result |\n|---|---|\n| di' + mi | di==mm==i |\n| fa' + mi | fa==mm==i |\n| va' + ci | va==cc==i |\n| da' + me + lo | da==mm==elo |\n\n> Exception: *gli* does not double: *dagli*.",
+          "examples": [
+            {
+              "it": "Fammi sapere quando arrivi.",
+              "en": "Let me know when you arrive."
+            },
+            {
+              "it": "Dimmi tutto!",
+              "en": "Tell me everything!"
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-05-l4-e04",
+          "instruction": "Completa con l'imperativo (tu) + pronome.",
+          "sentence": "___ (dire + mi) la verità: ti piace questo piatto?",
+          "answers": [
+            "Dimmi"
+          ],
+          "hint": "dire + mi",
+          "explanation": "Di' + mi = dimmi: the m doubles.",
+          "stage": "practise"
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-05-l4-e05",
+          "instruction": "Completa con l'imperativo (tu) + pronome.",
+          "sentence": "Il pane? ___ (prendere + lo) tu, io non ho tempo.",
+          "answers": [
+            "Prendilo"
+          ],
+          "hint": "prendere + lo",
+          "explanation": "Prendi + lo = prendilo, one word.",
+          "stage": "practise"
+        },
+        {
+          "type": "transform",
+          "id": "b1-05-l4-e06",
+          "instruction": "Riscrivi la frase come indicato.",
+          "source": "Prendi il libro.",
+          "cue": "→ sostituisci «il libro» con un pronome",
+          "answers": [
+            "Prendilo.",
+            "Prendilo"
+          ],
+          "explanation": "The pronoun lo attaches to the tu imperative: prendi + lo = prendilo.",
+          "hint": "prendi + lo",
+          "stage": "practise"
         },
         {
           "type": "sentence_build",
-          "id": "b1-05-l2-e09",
+          "id": "b1-05-l4-e07",
           "instruction": "Metti le parole in ordine.",
           "translation": "Tell me where you are and I'll come and get you.",
           "tiles": [
@@ -386,139 +602,95 @@
             "Dirmi",
             "ti"
           ],
-          "explanation": "Di' + mi = dimmi."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b1-05-l2-e10",
-          "instruction": "Ascolta le indicazioni e rispondi.",
-          "audioText": "Allora, quando esci dalla stazione gira a sinistra e va' sempre dritto fino alla piazza. Attraversa la piazza e prendi la seconda strada a destra. Casa mia è il numero dodici, il portone verde. Quando arrivi, chiamami!",
-          "question": "Che cosa deve fare la persona dopo la piazza?",
-          "options": [
-            "Prendere la seconda strada a destra",
-            "Girare subito a sinistra",
-            "Tornare alla stazione",
-            "Prendere la prima a destra"
-          ],
-          "answer": 0,
-          "explanation": "Gira, va', prendi, attraversa: directions are a typical use of the imperative."
+          "explanation": "Di' + mi = dimmi.",
+          "stage": "practise"
         },
         {
           "type": "listen_transcribe",
-          "id": "b1-05-l2-e11",
+          "id": "b1-05-l4-e08",
           "instruction": "Ascolta e scrivi la frase.",
           "audioText": "Fammi sapere quando arrivi a casa.",
           "answers": [
             "Fammi sapere quando arrivi a casa."
           ],
           "slow": false,
-          "explanation": "Fa' + mi = fammi; fammi sapere = let me know."
+          "explanation": "Fa' + mi = fammi; fammi sapere = let me know.",
+          "stage": "practise"
         },
         {
-          "type": "speak_respond",
-          "id": "b1-05-l2-e12",
-          "instruction": "Rispondi ad alta voce con l'imperativo (tu).",
-          "prompt": "Un amico ti chiede: «Come si fa il caffè con la moka?». Spiegagli i passaggi con l'imperativo.",
-          "keywords": [
-            "riempi",
-            "metti",
-            "mettila"
+          "type": "free_write",
+          "id": "b1-05-l4-e09",
+          "instruction": "Scrivi un messaggio con istruzioni.",
+          "prompt": "Parti per una settimana e un amico ti tiene d'occhio la casa. Scrivigli un messaggio (50–80 parole) con le istruzioni: le chiavi, le piante, la posta, la spazzatura. Usa l'imperativo con tu e almeno due pronomi attaccati.",
+          "minWords": 50,
+          "checklist": [
+            "Ho usato l'imperativo con tu (prendi, metti, controlla…).",
+            "Ho usato almeno un imperativo negativo (non + infinito).",
+            "Ho attaccato i pronomi all'imperativo (annaffiale, lasciala…).",
+            "Ho usato almeno una forma come fammi, dimmi o vacci.",
+            "Ho ringraziato e salutato."
           ],
-          "modelAnswer": "Riempi la parte di sotto con l'acqua fino alla valvola, poi metti il caffè nel filtro senza schiacciarlo. Chiudi bene la moka e mettila sul fuoco basso. Quando senti il rumore, spegni e servi subito.",
-          "explanation": "Riempi, metti, chiudi, mettila: instructions with tu and attached pronouns."
-        },
-        {
-          "type": "flashcard",
-          "id": "b1-05-l2-e13",
-          "front": "sempre dritto",
-          "back": "straight on",
-          "example": "Va' sempre dritto fino al semaforo."
+          "modelAnswer": "Ciao Paolo, grazie mille per l'aiuto! Le chiavi sono dalla portinaia: passa a prenderle quando vuoi. Le piante in salotto annaffiale due volte, martedì e venerdì, ma non dare troppa acqua al cactus. La posta è nella cassetta: prendila e lasciala sul tavolo in cucina. Il giovedì sera porta giù la plastica, per favore. Se c'è qualche problema, chiamami o mandami un messaggio. Fammi sapere se ti serve qualcosa. A presto!",
+          "stage": "use"
         }
       ]
     },
     {
-      "id": "b1-05-l3",
+      "id": "b1-05-l5",
       "title": "Prenda la seconda a destra",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can give instructions and directions to a stranger with Lei (mi dica, prenda, giri).",
+      "takeaway": "Lei: -are → -i, -ere/-ire → -a; the pronoun goes before the verb (mi dica, lo firmi).",
       "exercises": [
         {
-          "type": "multiple_choice",
-          "id": "b1-05-l3-e01",
-          "instruction": "Riscaldamento: scegli l'imperativo (tu) giusto.",
-          "prompt": "Le chiavi? ___ sul tavolo, per favore.",
-          "options": [
-            "Lasciale",
-            "Le lascia",
-            "Lasciarle",
-            "Lasci le"
-          ],
-          "answer": 0,
-          "explanation": "Lascia + le (le chiavi) = lasciale."
-        },
-        {
           "type": "gap_fill",
-          "id": "b1-05-l3-e02",
+          "id": "b1-05-l5-e01",
           "instruction": "Riscaldamento: completa con l'imperativo negativo (tu).",
           "sentence": "Non ___ (preoccuparsi), ci penso io!",
           "answers": [
             "preoccuparti",
             "ti preoccupare"
           ],
-          "explanation": "Non + infinitive, with the pronoun attached (preoccuparti) or before (ti preoccupare)."
+          "explanation": "Non + infinitive, with the pronoun attached (preoccuparti) or before (ti preoccupare).",
+          "stage": "warmup"
         },
         {
           "type": "grammar_note",
-          "id": "b1-05-l3-e03",
+          "id": "b1-05-l5-e02",
           "title": "L'imperativo con Lei",
-          "body": "At the counter, at the doctor's or with strangers you'll hear and need the **Lei** imperative. It uses the *congiuntivo presente* forms (you'll study it in depth later):\n\n- -are → **-i**: *scusi, giri, aspetti, compili*\n- -ere / -ire → **-a**: *prenda, senta, apra, scriva*\n\n**Common irregulars:** vada, faccia, dica, venga, esca, stia, dia, abbia, sia, tenga.\n\n**Pronouns go BEFORE the verb** (unlike with tu):\n- ***Mi** dica.* (How can I help?) – ***Si** accomodi.* (Take a seat.)\n- ***Lo** firmi qui.* – ***Me lo** dia pure.*\n\n**Negative:** *non* + the same form: ***Non si preoccupi.***\n\nCompare: *Scusa, senti, dimmi* (tu) ↔ *Scusi, senta, mi dica* (Lei).",
+          "body": "At the counter or with strangers use **Lei**. The endings swap.\n\n| verb | tu | Lei |\n|---|---|---|\n| girare | gira | gir==i== |\n| prendere | prendi | prend==a== |\n| sentire | senti | sent==a== |\n| finire | finisci | fin==isca== |\n\n> The pronoun goes **before** the verb: *Mi dica. Lo firmi qui.*",
+          "examples": [
+            {
+              "it": "Compili il modulo e lo firmi in fondo.",
+              "en": "Fill in the form and sign it at the bottom."
+            },
+            {
+              "it": "Prego, si accomodi.",
+              "en": "Please take a seat."
+            }
+          ],
+          "stage": "learn"
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-05-l5-e03",
+          "title": "Lei: forme irregolari",
+          "body": "Learn these Lei forms as chunks.\n\n| verb | Lei |\n|---|---|\n| andare | ==vada== |\n| fare | ==faccia== |\n| dire | ==dica== |\n| venire | ==venga== |\n| uscire | ==esca== |\n\n> Negative: *non* + same form: *Non si preoccupi.*",
           "examples": [
             {
               "it": "Vada dritto e prenda la seconda a destra.",
               "en": "Go straight on and take the second on the right."
             },
             {
-              "it": "Prego, si accomodi: il dottore arriva subito.",
-              "en": "Please take a seat: the doctor will be here shortly."
-            },
-            {
-              "it": "Compili il modulo e lo firmi in fondo.",
-              "en": "Fill in the form and sign it at the bottom."
-            },
-            {
               "it": "Non si preoccupi, glielo mando io.",
               "en": "Don't worry, I'll send it to you."
             }
-          ]
-        },
-        {
-          "type": "conjugation",
-          "id": "b1-05-l3-e04",
-          "instruction": "Scrivi l'imperativo di prendere.",
-          "verb": "prendere",
-          "tense": "imperativo",
-          "items": [
-            {
-              "person": "tu",
-              "answer": "prendi"
-            },
-            {
-              "person": "Lei",
-              "answer": "prenda"
-            },
-            {
-              "person": "noi",
-              "answer": "prendiamo"
-            },
-            {
-              "person": "voi",
-              "answer": "prendete"
-            }
           ],
-          "explanation": "Tu prendi ↔ Lei prenda: the Lei form swaps the vowel."
+          "stage": "learn"
         },
         {
           "type": "match_pairs",
-          "id": "b1-05-l3-e05",
+          "id": "b1-05-l5-e04",
           "instruction": "Abbina la forma con tu alla forma con Lei.",
           "pairs": [
             {
@@ -546,11 +718,12 @@
               "right": "vada"
             }
           ],
-          "explanation": "Lei: -are verbs end in -i, -ere/-ire verbs in -a, and pronouns go before the verb."
+          "explanation": "Lei: -are verbs end in -i, -ere/-ire verbs in -a, and pronouns go before the verb.",
+          "stage": "practise"
         },
         {
           "type": "multiple_choice",
-          "id": "b1-05-l3-e06",
+          "id": "b1-05-l5-e05",
           "instruction": "Scegli la forma giusta (Lei).",
           "prompt": "Scusi, per la stazione? – ___ sempre dritto e poi giri a sinistra.",
           "options": [
@@ -560,31 +733,35 @@
             "Andate"
           ],
           "answer": 0,
-          "explanation": "Andare → Lei: vada."
+          "explanation": "Andare → Lei: vada.",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
-          "id": "b1-05-l3-e07",
+          "id": "b1-05-l5-e06",
           "instruction": "Completa con l'imperativo (Lei).",
           "sentence": "Signora, ___ (accomodarsi) pure, il dottore arriva tra cinque minuti.",
           "answers": [
             "si accomodi"
           ],
-          "explanation": "Accomodarsi → Lei: si accomodi (pronoun before the verb)."
+          "explanation": "Accomodarsi → Lei: si accomodi (pronoun before the verb).",
+          "stage": "practise"
         },
         {
-          "type": "gap_fill",
-          "id": "b1-05-l3-e08",
-          "instruction": "Il medico parla al paziente. Completa con l'imperativo (Lei).",
-          "sentence": "___ (prendere) una compressa dopo i pasti, con un bicchiere d'acqua.",
+          "type": "error_correction",
+          "id": "b1-05-l5-e07",
+          "instruction": "C'è un errore. Riscrivi la frase corretta (Lei).",
+          "sentence": "Firmilo qui in basso, per favore.",
           "answers": [
-            "Prenda"
+            "Lo firmi qui in basso, per favore.",
+            "Lo firmi qui in basso per favore."
           ],
-          "explanation": "Prendere → Lei: prenda."
+          "explanation": "With the Lei imperative the pronoun goes before the verb: lo firmi.",
+          "stage": "practise"
         },
         {
           "type": "translate",
-          "id": "b1-05-l3-e09",
+          "id": "b1-05-l5-e08",
           "instruction": "Traduci in italiano (formale, Lei).",
           "direction": "en_it",
           "source": "Don't worry, sir.",
@@ -594,37 +771,12 @@
             "Signore, non si preoccupi.",
             "Signore non si preoccupi."
           ],
-          "explanation": "Negative Lei imperative: non si preoccupi."
-        },
-        {
-          "type": "error_correction",
-          "id": "b1-05-l3-e10",
-          "instruction": "C'è un errore. Riscrivi la frase corretta (Lei).",
-          "sentence": "Firmilo qui in basso, per favore.",
-          "answers": [
-            "Lo firmi qui in basso, per favore.",
-            "Lo firmi qui in basso per favore."
-          ],
-          "explanation": "With the Lei imperative the pronoun goes before the verb: lo firmi."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b1-05-l3-e11",
-          "instruction": "Il medico ti telefona. Ascolta e rispondi.",
-          "audioText": "Buongiorno, sono la dottoressa Russo. Ho visto le analisi: va tutto bene. Continui a prendere lo sciroppo per altri tre giorni e beva molta acqua. Non prenda l'antibiotico, non serve. Se la febbre torna, mi richiami pure lunedì mattina.",
-          "question": "Che cosa deve fare il paziente?",
-          "options": [
-            "Continuare lo sciroppo e bere molto",
-            "Prendere l'antibiotico per tre giorni",
-            "Rifare le analisi lunedì",
-            "Andare subito in ambulatorio"
-          ],
-          "answer": 0,
-          "explanation": "Continui, beva, non prenda, mi richiami: a doctor's instructions are almost all Lei imperatives."
+          "explanation": "Negative Lei imperative: non si preoccupi.",
+          "stage": "practise"
         },
         {
           "type": "roleplay",
-          "id": "b1-05-l3-e12",
+          "id": "b1-05-l5-e09",
           "instruction": "Un turista ti ferma per strada. Rispondi ad alta voce (Lei).",
           "scenario": "A tourist stops you in the street and asks for the nearest pharmacy. Give directions using Lei.",
           "turns": [
@@ -679,29 +831,8 @@
               ]
             }
           ],
-          "explanation": "Vada, giri, prenda: directions to a stranger use the Lei imperative."
-        },
-        {
-          "type": "free_write",
-          "id": "b1-05-l3-e13",
-          "instruction": "Scrivi un messaggio con istruzioni.",
-          "prompt": "Parti per una settimana e un amico ti tiene d'occhio la casa. Scrivigli un messaggio (50–80 parole) con le istruzioni: le chiavi, le piante, la posta, la spazzatura. Usa l'imperativo con tu e almeno due pronomi attaccati.",
-          "minWords": 50,
-          "checklist": [
-            "Ho usato l'imperativo con tu (prendi, metti, controlla…).",
-            "Ho usato almeno un imperativo negativo (non + infinito).",
-            "Ho attaccato i pronomi all'imperativo (annaffiale, lasciala…).",
-            "Ho usato almeno una forma come fammi, dimmi o vacci.",
-            "Ho ringraziato e salutato."
-          ],
-          "modelAnswer": "Ciao Paolo, grazie mille per l'aiuto! Le chiavi sono dalla portinaia: passa a prenderle quando vuoi. Le piante in salotto annaffiale due volte, martedì e venerdì, ma non dare troppa acqua al cactus. La posta è nella cassetta: prendila e lasciala sul tavolo in cucina. Il giovedì sera porta giù la plastica, per favore. Se c'è qualche problema, chiamami o mandami un messaggio. Fammi sapere se ti serve qualcosa. A presto!"
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-05-l3-e14",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Mi scusi, non ho capito. Me lo può ripetere più piano, per favore?",
-          "translation": "Excuse me, I didn't understand. Could you repeat it more slowly, please?"
+          "explanation": "Vada, giri, prenda: directions to a stranger use the Lei imperative.",
+          "stage": "use"
         }
       ]
     }

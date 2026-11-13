@@ -1,0 +1,735 @@
+{
+  "id": "a1-10",
+  "level": "A1",
+  "title": "Ripasso A1",
+  "format": 2,
+  "module": "a1-m3",
+  "objective": "By the end you can introduce yourself and your family, order and ask a price, ask the way and talk about your week and your tastes.",
+  "grammarFocus": "Checkpoint a1-01..09: essere, avere, articles, present tense, irregulars, vorrei, c'è, piacere, possessives, frequency.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-10-l1",
+      "title": "Mi presento",
+      "minutes": 8,
+      "goal": "You can greet, introduce yourself and talk about your family.",
+      "takeaway": "essere for who you are; avere for age and family; mia madre, i miei fratelli.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-10-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la risposta.",
+          "prompt": "Buongiorno, come sta?",
+          "options": [
+            "Bene, grazie. E Lei?",
+            "Ciao, bene. E te?",
+            "Sono Marco.",
+            "Prego."
+          ],
+          "answer": 0,
+          "explanation": "Come sta? is formal, so answer with Lei."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-10-l1-e02",
+          "stage": "practise",
+          "instruction": "Scrivi le forme.",
+          "verb": "essere",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "sono"
+            },
+            {
+              "person": "tu",
+              "answer": "sei"
+            },
+            {
+              "person": "lei",
+              "answer": "è"
+            },
+            {
+              "person": "noi",
+              "answer": "siamo"
+            },
+            {
+              "person": "voi",
+              "answer": "siete"
+            },
+            {
+              "person": "loro",
+              "answer": "sono"
+            }
+          ],
+          "explanation": "Essere is irregular in the present."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-10-l1-e03",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Ho ___ amica a Roma.",
+          "options": [
+            "un'",
+            "una",
+            "un",
+            "uno"
+          ],
+          "answer": 0,
+          "explanation": "Amica is feminine and starts with a vowel: un'amica."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-10-l1-e04",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "___ madre si chiama Elena. (my)",
+          "answers": [
+            "Mia",
+            "mia"
+          ],
+          "explanation": "Singular family word: mia, no article."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-10-l1-e05",
+          "stage": "practise",
+          "instruction": "C'è un errore. Scrivi la frase giusta.",
+          "sentence": "Lei sei di Milano.",
+          "answers": [
+            "Lei è di Milano.",
+            "Lei è di Milano"
+          ],
+          "explanation": "Lei goes with è, not sei."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-10-l1-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi chiamo Sara e sono di Bologna.",
+          "answers": [
+            "Mi chiamo Sara e sono di Bologna.",
+            "Mi chiamo Sara e sono di Bologna"
+          ],
+          "explanation": "Mi chiamo + name; sono di + city."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-10-l1-e07",
+          "stage": "use",
+          "instruction": "Presentati ad alta voce.",
+          "prompt": "Presentati: nome, città, lavoro.",
+          "keywords": [
+            "mi chiamo",
+            "sono",
+            "abito",
+            "lavoro"
+          ],
+          "modelAnswer": "Mi chiamo {name}. Sono di Manchester e abito a Torino. Lavoro in un ufficio."
+        }
+      ]
+    },
+    {
+      "id": "a1-10-l2",
+      "title": "Al bar e in città",
+      "minutes": 8,
+      "goal": "You can order, ask a price and ask where a place is.",
+      "takeaway": "Vorrei + thing; quanto costa?; c'è / ci sono; dov'è …?",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-10-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: come si dice?",
+          "prompt": "a coffee and two croissants",
+          "options": [
+            "Un caffè e due cornetti",
+            "Una caffè e due cornetto",
+            "Un caffè e due cornetto",
+            "Uno caffè e due cornetti"
+          ],
+          "answer": 0,
+          "explanation": "Singular masculine un; plural cornetti."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-10-l2-e02",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Vorrei due cappuccini e un cornetto, per favore.",
+          "question": "What does the customer order?",
+          "options": [
+            "Two cappuccinos and a croissant",
+            "One cappuccino and two croissants",
+            "Two coffees",
+            "A tea and a croissant"
+          ],
+          "answer": 0,
+          "explanation": "Due cappuccini + un cornetto."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-10-l2-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Sono otto euro e cinquanta.",
+          "answers": [
+            "Sono otto euro e cinquanta.",
+            "Sono otto euro e cinquanta"
+          ],
+          "explanation": "Numbers: otto euro e cinquanta.",
+          "slow": true
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-10-l2-e04",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "Quanto ___ un caffè?",
+          "answers": [
+            "costa"
+          ],
+          "explanation": "Costare with one thing: costa."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-10-l2-e05",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Nel mio quartiere ___ due farmacie.",
+          "options": [
+            "ci sono",
+            "c'è",
+            "è",
+            "sono c'è"
+          ],
+          "answer": 0,
+          "explanation": "Two pharmacies is plural: ci sono."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-10-l2-e06",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "Excuse me, where is the station?",
+          "tiles": [
+            "Scusi,",
+            "dov'è",
+            "la",
+            "stazione?"
+          ],
+          "distractors": [
+            "c'è",
+            "il"
+          ],
+          "explanation": "Dov'è + singular place."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-10-l2-e07",
+          "stage": "use",
+          "instruction": "Chiedi la strada.",
+          "scenario": "You ask a passer-by for the station.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno {name}! Posso aiutarla?",
+              "hint": "Ask where the station is."
+            },
+            {
+              "speaker": "you",
+              "text": "Scusi, dov'è la stazione?",
+              "hint": "Scusi, dov'è…?"
+            },
+            {
+              "speaker": "npc",
+              "text": "È dritto, poi a destra."
+            },
+            {
+              "speaker": "you",
+              "text": "Grazie mille!",
+              "hint": "Grazie mille!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-10-l3",
+      "title": "La mia settimana",
+      "minutes": 8,
+      "goal": "You can describe your week: verbs, times and how often.",
+      "takeaway": "Irregular verbs (vado, devo, esco), the time with alle, and sempre / mai.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-10-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Io lavoro, tu ___.",
+          "options": [
+            "lavori",
+            "lavora",
+            "lavorano",
+            "lavorare"
+          ],
+          "answer": 0,
+          "explanation": "Regular -are verbs: tu lavori."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-10-l3-e02",
+          "stage": "practise",
+          "instruction": "Scrivi le forme.",
+          "verb": "andare",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "vado"
+            },
+            {
+              "person": "tu",
+              "answer": "vai"
+            },
+            {
+              "person": "noi",
+              "answer": "andiamo"
+            },
+            {
+              "person": "loro",
+              "answer": "vanno"
+            }
+          ],
+          "explanation": "Andare is irregular in the present."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-10-l3-e03",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "Domani ___ lavorare fino alle sei. (dovere, io)",
+          "answers": [
+            "devo"
+          ],
+          "explanation": "Dovere: io devo + infinitive.",
+          "hint": "dovere"
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-10-l3-e04",
+          "stage": "practise",
+          "instruction": "Il corso comincia alle 18:45. Scegli.",
+          "prompt": "18:45",
+          "options": [
+            "alle sette meno un quarto",
+            "alle sei e un quarto",
+            "alle sette e un quarto",
+            "alle sei meno un quarto"
+          ],
+          "answer": 0,
+          "explanation": "6:45 is le sette meno un quarto."
+        },
+        {
+          "type": "transform",
+          "id": "a1-10-l3-e05",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Vado in palestra.",
+          "cue": "Aggiungi: due volte alla settimana",
+          "answers": [
+            "Vado in palestra due volte alla settimana.",
+            "Due volte alla settimana vado in palestra.",
+            "Vado in palestra due volte alla settimana"
+          ],
+          "explanation": "Due volte alla settimana says how often."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-10-l3-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Scrivi la frase giusta.",
+          "sentence": "Mi piace i film italiani.",
+          "answers": [
+            "Mi piacciono i film italiani.",
+            "Mi piacciono i film italiani"
+          ],
+          "explanation": "Plural thing: piacciono."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-10-l3-e07",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Che cosa fai il sabato? Dì tre frasi.",
+          "keywords": [
+            "il sabato",
+            "di solito",
+            "esco",
+            "vado"
+          ],
+          "modelAnswer": "Il sabato di solito dormo fino alle nove. Poi vado al mercato. La sera esco con gli amici."
+        }
+      ]
+    },
+    {
+      "id": "a1-10-l4",
+      "title": "Parlo di me",
+      "minutes": 9,
+      "goal": "You can write and read a short text about yourself and your family.",
+      "takeaway": "Mix it all: essere, avere, piacere, possessives and frequency.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-10-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Mi ___ i gatti.",
+          "options": [
+            "piacciono",
+            "piace",
+            "piacere",
+            "piaci"
+          ],
+          "answer": 0,
+          "explanation": "I gatti is plural: piacciono."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-10-l4-e02",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Famiglia",
+            "Tempo libero",
+            "Al bar"
+          ],
+          "items": [
+            {
+              "text": "la zia",
+              "bucket": 0
+            },
+            {
+              "text": "il nonno",
+              "bucket": 0
+            },
+            {
+              "text": "nuotare",
+              "bucket": 1
+            },
+            {
+              "text": "giocare a tennis",
+              "bucket": 1
+            },
+            {
+              "text": "il cornetto",
+              "bucket": 2
+            },
+            {
+              "text": "il cappuccino",
+              "bucket": 2
+            },
+            {
+              "text": "i cugini",
+              "bucket": 0
+            },
+            {
+              "text": "leggere",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Sort words by topic: family, free time, café."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-10-l4-e03",
+          "stage": "practise",
+          "instruction": "Collega domanda e risposta.",
+          "pairs": [
+            {
+              "left": "Quanti anni hai?",
+              "right": "Ho trent'anni."
+            },
+            {
+              "left": "Dove abiti?",
+              "right": "Abito a Milano."
+            },
+            {
+              "left": "Che cosa fai nel tempo libero?",
+              "right": "Leggo e cucino."
+            },
+            {
+              "left": "Hai fratelli?",
+              "right": "Sì, ho una sorella."
+            },
+            {
+              "left": "Quanto costa?",
+              "right": "Costa due euro."
+            }
+          ],
+          "explanation": "Match each question to a fitting answer."
+        },
+        {
+          "type": "translate",
+          "id": "a1-10-l4-e04",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "My sister likes cooking.",
+          "answers": [
+            "A mia sorella piace cucinare.",
+            "A mia sorella piace cucinare"
+          ],
+          "explanation": "A + person + piace + infinitive; mia sorella has no article."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-10-l4-e05",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "I miei genitori abitano a Roma. ___ casa è vicino al parco.",
+          "answers": [
+            "La loro",
+            "la loro"
+          ],
+          "explanation": "Loro always keeps the article: la loro casa."
+        },
+        {
+          "type": "reading",
+          "id": "a1-10-l4-e06",
+          "stage": "practise",
+          "instruction": "Leggi e rispondi.",
+          "title": "Marta e la sua famiglia",
+          "passage": "Ciao, sono Marta! Ho trent'anni e abito a Bologna con mio marito e i nostri due figli. Mia sorella abita a Roma. Di solito la domenica andiamo al parco. Ai miei figli piace giocare a calcio; a me piace leggere. La sera cuciniamo insieme.",
+          "questions": [
+            {
+              "question": "Where does Marta live?",
+              "options": [
+                "Rome",
+                "Bologna",
+                "Milan"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "What do her children like?",
+              "options": [
+                "Reading",
+                "Cooking",
+                "Playing football"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "What does Marta like?",
+              "options": [
+                "Reading",
+                "Football",
+                "Swimming"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "free_write",
+          "id": "a1-10-l4-e07",
+          "stage": "use",
+          "instruction": "Scrivi.",
+          "prompt": "Scrivi una presentazione di 5 frasi: chi sei, la tua famiglia, che cosa ti piace, che cosa fai nel fine settimana.",
+          "minWords": 30,
+          "checklist": [
+            "Said name and where from",
+            "Said who is in my family",
+            "Used mi piace correctly",
+            "Said how often I do something",
+            "Possessives right"
+          ],
+          "modelAnswer": "Mi chiamo {name} e sono di Manchester. Ho un fratello e una sorella. Mia sorella ha i capelli biondi. Mi piace cucinare e camminare. Di solito il sabato esco con gli amici."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "Come sta? / Come stai?",
+      "en": "How are you? (formal / informal)",
+      "example": "Buongiorno, come sta?"
+    },
+    {
+      "it": "Mi chiamo…",
+      "en": "My name is…",
+      "example": "Mi chiamo Sara."
+    },
+    {
+      "it": "Di dove sei?",
+      "en": "Where are you from?",
+      "example": "Di dove sei? Sono di Napoli."
+    },
+    {
+      "it": "Quanti anni hai?",
+      "en": "How old are you?",
+      "example": "Ho trent'anni."
+    },
+    {
+      "it": "i miei genitori",
+      "en": "my parents",
+      "example": "I miei genitori abitano a Roma."
+    },
+    {
+      "it": "Mi piace…",
+      "en": "I like…",
+      "example": "Mi piace cucinare."
+    },
+    {
+      "it": "Che cosa fai nel tempo libero?",
+      "en": "What do you do in your free time?",
+      "example": "Leggo e cammino."
+    },
+    {
+      "it": "di solito",
+      "en": "usually",
+      "example": "Di solito esco il sabato."
+    },
+    {
+      "it": "non … mai",
+      "en": "never",
+      "example": "Non vado mai in discoteca."
+    },
+    {
+      "it": "Vorrei…",
+      "en": "I would like…",
+      "example": "Vorrei un caffè, per favore."
+    },
+    {
+      "it": "Quanto costa?",
+      "en": "How much is it?",
+      "example": "Quanto costa il biglietto?"
+    },
+    {
+      "it": "Scusi, dov'è…?",
+      "en": "Excuse me, where is…?",
+      "example": "Scusi, dov'è la stazione?"
+    },
+    {
+      "it": "a destra",
+      "en": "on the right",
+      "example": "Giri a destra."
+    },
+    {
+      "it": "a sinistra",
+      "en": "on the left",
+      "example": "La farmacia è a sinistra."
+    },
+    {
+      "it": "dritto",
+      "en": "straight on",
+      "example": "Va sempre dritto."
+    },
+    {
+      "it": "per favore",
+      "en": "please",
+      "example": "Un caffè, per favore."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-10-t1",
+      "rule": "Età con avere",
+      "tip": "Italian uses avere for age: ho trent'anni, not sono trent'anni.",
+      "example": {
+        "it": "Mia sorella ha ventidue anni.",
+        "en": "My sister is twenty-two."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Mia sorella ___ ventidue anni.",
+        "answers": [
+          "ha"
+        ],
+        "explanation": "Age uses avere."
+      }
+    },
+    {
+      "id": "a1-10-t2",
+      "rule": "Ordinare: vorrei",
+      "tip": "Vorrei + thing is the polite way to order.",
+      "example": {
+        "it": "Vorrei un caffè, per favore.",
+        "en": "I would like a coffee, please."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ un caffè, per favore.",
+        "answers": [
+          "Vorrei",
+          "vorrei"
+        ],
+        "explanation": "Vorrei is the polite form to ask for something."
+      }
+    },
+    {
+      "id": "a1-10-t3",
+      "rule": "C'è o ci sono?",
+      "tip": "C'è for one thing, ci sono for several.",
+      "example": {
+        "it": "Ci sono due bar.",
+        "en": "There are two cafés."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "In piazza ___ una fontana.",
+        "options": [
+          "c'è",
+          "ci sono",
+          "è",
+          "sono"
+        ],
+        "answer": 0,
+        "explanation": "One thing: c'è."
+      }
+    },
+    {
+      "id": "a1-10-t4",
+      "rule": "Piace o piacciono?",
+      "tip": "Match piace or piacciono to the thing you like.",
+      "example": {
+        "it": "Mi piacciono i film.",
+        "en": "I like films."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Mi ___ i libri.",
+        "options": [
+          "piacciono",
+          "piace",
+          "piacere",
+          "piaci"
+        ],
+        "answer": 0,
+        "explanation": "I libri is plural: piacciono."
+      }
+    },
+    {
+      "id": "a1-10-t5",
+      "rule": "Non … mai",
+      "tip": "Never needs non before the verb.",
+      "example": {
+        "it": "Non vado mai al cinema.",
+        "en": "I never go to the cinema."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Vado mai in palestra.",
+        "answers": [
+          "Non vado mai in palestra.",
+          "Non vado mai in palestra"
+        ],
+        "explanation": "Mai after the verb needs non."
+      }
+    }
+  ]
+}

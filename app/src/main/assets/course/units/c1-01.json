@@ -2,8 +2,10 @@
   "id": "c1-01",
   "level": "C1",
   "title": "Registro e cortesia",
-  "objective": "Alla fine dell'unità sai scrivere email formali, richieste e reclami efficaci, scegliendo formule, lessico e costruzioni nominali adatte al registro.",
-  "grammarFocus": "Registro formale: formule di apertura e chiusura, Lei di cortesia, lessico formale (richiedere, fornire, pervenire, disporre di), condizionale e congiuntivo di cortesia, qualora; nominalizzazione (verbo → nome) con locuzioni come in merito a, a seguito di, ai fini di.",
+  "format": 2,
+  "module": "c1-m1",
+  "objective": "By the end you can write a polite, well-organised formal email or complaint: the right opening and closing, formal verbs, nouns instead of verbs, and qualora + congiuntivo.",
+  "grammarFocus": "Formal openings and closings, Lei; polite requests (potrebbe, Le sarei grato/a se potesse); formal verbs; nominalisation; qualora + congiuntivo; pertanto, mancata, pervenire.",
   "remedialUnitIds": [
     "b1-06",
     "b2-02",
@@ -13,12 +15,15 @@
     {
       "id": "c1-01-l1",
       "title": "Gentile Dottoressa…",
-      "minutes": 10,
+      "minutes": 7,
+      "goal": "You can open and close a formal email with the right formulas.",
+      "takeaway": "Open with Gentile + title, address the person with Le/La, close with distinti saluti: never Caro or ciao.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "c1-01-l1-e01",
-          "instruction": "Riscaldamento: scegli la forma più cortese.",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
           "prompt": "Buongiorno, ___ sapere a che ora apre lo sportello.",
           "options": [
             "Vorrei",
@@ -27,36 +32,18 @@
             "Volessi"
           ],
           "answer": 0,
-          "explanation": "Il condizionale attenua la richiesta: «vorrei» è la forma standard di cortesia (unità b1-06)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-01-l1-e02",
-          "instruction": "Riscaldamento: completa con il verbo tra parentesi.",
-          "sentence": "Le sarei grato se mi ___ (potere) inviare il modulo.",
-          "answers": [
-            "potesse"
-          ],
-          "hint": "potere – Lei, congiuntivo imperfetto",
-          "explanation": "Richiesta molto cortese: condizionale nella principale + se + congiuntivo imperfetto (Le sarei grato se potesse…)."
+          "explanation": "The condizionale vorrei softens a request (see b1-06)."
         },
         {
           "type": "grammar_note",
-          "id": "c1-01-l1-e03",
-          "title": "Il registro formale scritto",
-          "body": "In un'email formale cambiano tre cose: le **formule**, il **lessico** e la **costruzione delle frasi**.\n\n**Apertura**\n- *Gentile Dottor Rossi / Gentile Dottoressa Bianchi* – la formula più usata e più sicura\n- *Egregio Avvocato* – molto formale\n- *Spettabile ditta / Spett.le Ufficio Tributi* – per un'azienda o un ente\n- *Buongiorno,* – accettabile nelle email di lavoro meno formali\n\n**Chiusura**\n- *In attesa di un Suo cortese riscontro, porgo distinti saluti.*\n- *Cordiali saluti* (neutro-formale) / *Distinti saluti* (più distaccato)\n- *La ringrazio per l'attenzione.*\n\n**Pronomi di cortesia**: Lei, Le, La, Suo. Nelle lettere formali spesso si scrivono con la maiuscola (*La ringrazio, Le invio*): non è obbligatorio, ma è frequente.\n\n**Lessico**: nello scritto formale si preferiscono verbi più precisi: *chiedere → richiedere, dare → fornire, mandare → inviare, dire → comunicare, avere → disporre di, arrivare → pervenire*.\n\nAttenzione: *Caro* è affettuoso o amichevole; con un ufficio o una persona che non conosci usa *Gentile*.",
+          "id": "c1-01-l1-e02",
+          "stage": "learn",
+          "title": "Aprire e chiudere",
+          "body": "Open with a title and a name. Close with a set phrase.\n\n| who | opening |\n|---|---|\n| a person | ==Gentile== Dottoressa Bianchi |\n| an office or company | ==Spettabile== Ufficio Tributi |\n| very formal | ==Egregio== Avvocato |\n\n| closing | tone |\n|---|---|\n| ==Cordiali saluti== | neutral-formal |\n| ==Distinti saluti== | formal, distant |\n| In attesa di un Suo riscontro, ==porgo distinti saluti== | most formal |\n\n> **Caro** is warm and friendly. For an office or a stranger use **Gentile**.",
           "examples": [
             {
-              "it": "Gentile Dottoressa Bianchi, Le scrivo per richiedere un appuntamento.",
-              "en": "Dear Dr Bianchi, I am writing to request an appointment."
-            },
-            {
-              "it": "Le invio in allegato la copia del contratto.",
-              "en": "Please find attached a copy of the contract."
-            },
-            {
-              "it": "Non dispongo al momento della documentazione completa.",
-              "en": "I do not currently have the complete documentation."
+              "it": "Gentile Dottoressa Bianchi, Le scrivo per chiedere un appuntamento.",
+              "en": "Dear Dr Bianchi, I am writing to ask for an appointment."
             },
             {
               "it": "In attesa di un Suo cortese riscontro, porgo distinti saluti.",
@@ -65,9 +52,200 @@
           ]
         },
         {
-          "type": "match_pairs",
+          "type": "grammar_note",
+          "id": "c1-01-l1-e03",
+          "stage": "learn",
+          "title": "Lei, Le, La, Suo",
+          "body": "In a formal email you say **Lei** to one person. The forms are Le, La and Suo. Capital letters are common in letters but optional.\n\n| form | meaning | example |\n|---|---|---|\n| ==Le== | to you | ==Le== scrivo per… |\n| ==La== | you | ==La== ringrazio. |\n| ==Suo / Sua== | your | il ==Suo== indirizzo |\n\n> Don't mix registers: not *Gentile Dottoressa, **ti** scrivo*.",
+          "examples": [
+            {
+              "it": "La ringrazio per l'attenzione.",
+              "en": "Thank you for your attention."
+            },
+            {
+              "it": "Le invio il modulo compilato.",
+              "en": "I am sending you the completed form."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
           "id": "c1-01-l1-e04",
-          "instruction": "Abbina il verbo neutro al suo equivalente formale.",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Formale",
+            "Informale"
+          ],
+          "items": [
+            {
+              "text": "Gentile Dottoressa Bianchi,",
+              "bucket": 0
+            },
+            {
+              "text": "Ciao Marco,",
+              "bucket": 1
+            },
+            {
+              "text": "Distinti saluti",
+              "bucket": 0
+            },
+            {
+              "text": "A presto!",
+              "bucket": 1
+            },
+            {
+              "text": "In attesa di un Suo riscontro",
+              "bucket": 0
+            },
+            {
+              "text": "Un abbraccio",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Gentile, distinti saluti and Suo belong to formal writing; ciao, a presto and un abbraccio to friends."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "c1-01-l1-e05",
+          "stage": "practise",
+          "instruction": "Scegli la chiusura giusta.",
+          "prompt": "Hai scritto un reclamo a una compagnia telefonica. Come chiudi?",
+          "options": [
+            "Un abbraccio!",
+            "A presto, ciao!",
+            "In attesa di un Vostro cortese riscontro, porgo distinti saluti.",
+            "Baci e grazie mille!"
+          ],
+          "answer": 2,
+          "explanation": "A complaint needs a formal, distant closing such as porgo distinti saluti."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-01-l1-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "sentence": "Gentile Dottoressa, ti scrivo per chiedere un appuntamento.",
+          "answers": [
+            "Gentile Dottoressa, Le scrivo per chiedere un appuntamento.",
+            "Gentile Dottoressa Le scrivo per chiedere un appuntamento.",
+            "Gentile Dottoressa, Le scrivo per richiedere un appuntamento.",
+            "Gentile Dottoressa Le scrivo per richiedere un appuntamento.",
+            "Gentile Dottoressa, Vi scrivo per chiedere un appuntamento.",
+            "Gentile Dottoressa Vi scrivo per chiedere un appuntamento.",
+            "Gentile Dottoressa, Vi scrivo per richiedere un appuntamento.",
+            "Gentile Dottoressa Vi scrivo per richiedere un appuntamento."
+          ],
+          "explanation": "With Gentile and a title you use Lei, so the pronoun is Le: Le scrivo, not ti scrivo."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-01-l1-e07",
+          "stage": "practise",
+          "instruction": "Completa la formula.",
+          "sentence": "In attesa di un Suo cortese riscontro, ___ distinti saluti.",
+          "answers": [
+            "porgo"
+          ],
+          "hint": "porgere – io",
+          "explanation": "Porgere i saluti is the classic formal closing: porgo distinti saluti."
+        },
+        {
+          "type": "translate",
+          "id": "c1-01-l1-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I am writing to ask for an appointment.",
+          "answers": [
+            "Le scrivo per chiedere un appuntamento.",
+            "Le scrivo per chiedere un appuntamento",
+            "Le scrivo per richiedere un appuntamento.",
+            "Le scrivo per richiedere un appuntamento",
+            "Vi scrivo per chiedere un appuntamento.",
+            "Vi scrivo per chiedere un appuntamento",
+            "Vi scrivo per richiedere un appuntamento.",
+            "Vi scrivo per richiedere un appuntamento",
+            "Scrivo per chiedere un appuntamento.",
+            "Scrivo per chiedere un appuntamento",
+            "Scrivo per richiedere un appuntamento.",
+            "Scrivo per richiedere un appuntamento"
+          ],
+          "explanation": "Le scrivo per… is the standard opening; chiedere and richiedere both work."
+        },
+        {
+          "type": "speak_respond",
+          "id": "c1-01-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2–3 frasi. Usa il Lei.",
+          "prompt": "Lasci un messaggio in segreteria all'ufficio tributi del Comune: ti presenti, dici perché chiami e chiedi di essere richiamato/a.",
+          "keywords": [
+            "la chiamo",
+            "richiamarmi",
+            "ringrazio"
+          ],
+          "modelAnswer": "Buongiorno, sono {name}. La chiamo per un avviso di pagamento che ho ricevuto la settimana scorsa. Potrebbe richiamarmi a questo numero? La ringrazio, buona giornata."
+        }
+      ]
+    },
+    {
+      "id": "c1-01-l2",
+      "title": "Una richiesta cortese",
+      "minutes": 7,
+      "goal": "You can make a request politely, from potrebbe… to Le sarei grato/a se potesse…",
+      "takeaway": "Softer request: potrebbe…? Very polite: Le sarei grato/a se potesse… (condizionale + se + congiuntivo imperfetto).",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-01-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "sentence": "Buongiorno, ___ (volere, io) prenotare una visita.",
+          "answers": [
+            "vorrei"
+          ],
+          "hint": "volere – condizionale",
+          "explanation": "Vorrei (condizionale of volere) is the standard polite way to ask for something."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-01-l2-e02",
+          "stage": "learn",
+          "title": "Tre gradi di cortesia",
+          "body": "More distance means more politeness. The last form uses the condizionale plus **se** plus the congiuntivo imperfetto.\n\n| level | example |\n|---|---|\n| neutral | Può inviarmi il modulo? |\n| polite | ==Potrebbe== inviarmi il modulo? |\n| very polite | Le sarei grato/a ==se potesse== inviarmi il modulo. |\n\n> After **se** here use the imperfect subjunctive: not *se può*.",
+          "examples": [
+            {
+              "it": "Potrebbe indicarmi l'orario di apertura?",
+              "en": "Could you tell me the opening hours?"
+            },
+            {
+              "it": "Le sarei grata se potesse richiamarmi.",
+              "en": "I would be grateful if you could call me back."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-01-l2-e03",
+          "stage": "learn",
+          "title": "Il lessico formale",
+          "body": "Formal writing prefers more precise verbs.\n\n| everyday | formal |\n|---|---|\n| chiedere | ==richiedere== |\n| dare | ==fornire== |\n| mandare | ==inviare== |\n| dire | ==comunicare== |\n| avere | ==disporre di== |\n| arrivare | ==pervenire== |\n\n> **Disporre** needs **di**: *Non dispongo della documentazione.*",
+          "examples": [
+            {
+              "it": "Le invio in allegato la copia del contratto.",
+              "en": "Please find attached a copy of the contract."
+            },
+            {
+              "it": "Non dispongo al momento della documentazione completa.",
+              "en": "I do not currently have the complete documents."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "c1-01-l2-e04",
+          "stage": "practise",
+          "instruction": "Abbina il verbo comune al verbo formale.",
           "pairs": [
             {
               "left": "chiedere",
@@ -94,193 +272,13 @@
               "right": "pervenire"
             }
           ],
-          "explanation": "Questi verbi formali rendono il testo più preciso e distaccato. Attenzione: disporre di vuole la preposizione di."
+          "explanation": "Formal verbs are more precise and distant; disporre di keeps the preposition di."
         },
         {
           "type": "multiple_choice",
-          "id": "c1-01-l1-e05",
-          "instruction": "Quale frase è adatta a un'email all'ufficio anagrafe?",
-          "prompt": "Devi chiedere quali documenti servono per il cambio di residenza.",
-          "options": [
-            "Ciao, mi dite cosa devo portare per la residenza?",
-            "Caro ufficio, voglio sapere subito i documenti per la residenza.",
-            "Buongiorno, vorrei sapere quali documenti sono necessari per il cambio di residenza.",
-            "Salve ragazzi, che documenti servono per la residenza?"
-          ],
-          "answer": 2,
-          "explanation": "Registro formale: Lei/Vi di cortesia, richiedere, condizionale. «Ciao» e «Caro» sono troppo informali; «Voglio sapere subito» suona brusco."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-01-l1-e06",
-          "instruction": "Completa con un verbo formale.",
-          "sentence": "Le ___ in allegato la copia del documento d'identità.",
-          "answers": [
-            "invio",
-            "trasmetto",
-            "inoltro"
-          ],
-          "hint": "mandare → registro formale, io",
-          "explanation": "Mandare → inviare (o trasmettere, inoltrare). «Le invio in allegato…» è la formula standard per gli allegati."
-        },
-        {
-          "type": "error_correction",
-          "id": "c1-01-l1-e07",
-          "instruction": "C'è un errore di registro. Riscrivi la frase corretta.",
-          "sentence": "Gentile Dottoressa, ti scrivo per chiedere un appuntamento.",
-          "answers": [
-            "Gentile Dottoressa, Le scrivo per chiedere un appuntamento.",
-            "Gentile Dottoressa Le scrivo per chiedere un appuntamento.",
-            "Gentile Dottoressa, Le scrivo per richiedere un appuntamento.",
-            "Gentile Dottoressa Le scrivo per richiedere un appuntamento."
-          ],
-          "explanation": "Con Gentile Dottoressa si usa il Lei: Le scrivo (non ti scrivo)."
-        },
-        {
-          "type": "sentence_build",
-          "id": "c1-01-l1-e08",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "I would be grateful if you could send me the form.",
-          "tiles": [
-            "Le",
-            "sarei",
-            "grato",
-            "se",
-            "potesse",
-            "inviarmi",
-            "il",
-            "modulo"
-          ],
-          "distractors": [
-            "può",
-            "ti"
-          ],
-          "explanation": "Condizionale (sarei grato) + se + congiuntivo imperfetto (potesse). Il pronome si unisce all'infinito: inviarmi."
-        },
-        {
-          "type": "translate",
-          "id": "c1-01-l1-e09",
-          "instruction": "Traduci in italiano in registro formale.",
-          "direction": "en_it",
-          "source": "I am writing to request information about the registration.",
-          "answers": [
-            "Le scrivo per richiedere informazioni sull'iscrizione.",
-            "Le scrivo per richiedere informazioni in merito all'iscrizione.",
-            "Le scrivo per richiedere informazioni riguardo all'iscrizione.",
-            "Le scrivo per richiedere informazioni relative all'iscrizione.",
-            "Le scrivo per chiedere informazioni sull'iscrizione.",
-            "Le scrivo per chiedere informazioni in merito all'iscrizione.",
-            "Le scrivo per chiedere informazioni riguardo all'iscrizione.",
-            "Le scrivo per chiedere informazioni relative all'iscrizione.",
-            "Le scrivo per richiedere delle informazioni sull'iscrizione.",
-            "Le scrivo per richiedere delle informazioni in merito all'iscrizione.",
-            "Le scrivo per richiedere delle informazioni riguardo all'iscrizione.",
-            "Le scrivo per richiedere delle informazioni relative all'iscrizione.",
-            "Le scrivo per chiedere delle informazioni sull'iscrizione.",
-            "Le scrivo per chiedere delle informazioni in merito all'iscrizione.",
-            "Le scrivo per chiedere delle informazioni riguardo all'iscrizione.",
-            "Le scrivo per chiedere delle informazioni relative all'iscrizione.",
-            "Vi scrivo per richiedere informazioni sull'iscrizione.",
-            "Vi scrivo per richiedere informazioni in merito all'iscrizione.",
-            "Vi scrivo per richiedere informazioni riguardo all'iscrizione.",
-            "Vi scrivo per richiedere informazioni relative all'iscrizione.",
-            "Vi scrivo per chiedere informazioni sull'iscrizione.",
-            "Vi scrivo per chiedere informazioni in merito all'iscrizione.",
-            "Vi scrivo per chiedere informazioni riguardo all'iscrizione.",
-            "Vi scrivo per chiedere informazioni relative all'iscrizione.",
-            "Vi scrivo per richiedere delle informazioni sull'iscrizione.",
-            "Vi scrivo per richiedere delle informazioni in merito all'iscrizione.",
-            "Vi scrivo per richiedere delle informazioni riguardo all'iscrizione.",
-            "Vi scrivo per richiedere delle informazioni relative all'iscrizione.",
-            "Vi scrivo per chiedere delle informazioni sull'iscrizione.",
-            "Vi scrivo per chiedere delle informazioni in merito all'iscrizione.",
-            "Vi scrivo per chiedere delle informazioni riguardo all'iscrizione.",
-            "Vi scrivo per chiedere delle informazioni relative all'iscrizione.",
-            "Scrivo per richiedere informazioni sull'iscrizione.",
-            "Scrivo per richiedere informazioni in merito all'iscrizione.",
-            "Scrivo per richiedere informazioni riguardo all'iscrizione.",
-            "Scrivo per richiedere informazioni relative all'iscrizione.",
-            "Scrivo per chiedere informazioni sull'iscrizione.",
-            "Scrivo per chiedere informazioni in merito all'iscrizione.",
-            "Scrivo per chiedere informazioni riguardo all'iscrizione.",
-            "Scrivo per chiedere informazioni relative all'iscrizione.",
-            "Scrivo per richiedere delle informazioni sull'iscrizione.",
-            "Scrivo per richiedere delle informazioni in merito all'iscrizione.",
-            "Scrivo per richiedere delle informazioni riguardo all'iscrizione.",
-            "Scrivo per richiedere delle informazioni relative all'iscrizione.",
-            "Scrivo per chiedere delle informazioni sull'iscrizione.",
-            "Scrivo per chiedere delle informazioni in merito all'iscrizione.",
-            "Scrivo per chiedere delle informazioni riguardo all'iscrizione.",
-            "Scrivo per chiedere delle informazioni relative all'iscrizione."
-          ],
-          "explanation": "Le scrivo per richiedere… è un'apertura classica. Informazioni su / in merito a / riguardo a sono tutte possibili."
-        },
-        {
-          "type": "listen_choose",
-          "id": "c1-01-l1-e10",
-          "instruction": "Ascolta il messaggio in segreteria e rispondi.",
-          "audioText": "Buongiorno, sono Marco Ferri. La chiamo in merito alla mia richiesta di rimborso del dieci marzo. Non avendo ancora ricevuto risposta, Le sarei grato se potesse richiamarmi al più presto. La ringrazio.",
-          "question": "Che cosa chiede Marco?",
-          "options": [
-            "Di ricevere un nuovo modulo",
-            "Di essere richiamato",
-            "Di annullare la richiesta",
-            "Di fissare un appuntamento il dieci marzo"
-          ],
-          "answer": 1,
-          "explanation": "«Non avendo ancora ricevuto risposta» = poiché non ho ricevuto risposta. «Le sarei grato se potesse richiamarmi» = la richiesta."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "c1-01-l1-e11",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Le sarei grato se potesse fornirmi qualche informazione in più.",
-          "translation": "I would be grateful if you could give me some more information."
-        },
-        {
-          "type": "speak_respond",
-          "id": "c1-01-l1-e12",
-          "instruction": "Rispondi ad alta voce in 3–4 frasi.",
-          "prompt": "Lasci un messaggio in segreteria all'ufficio tributi del Comune: ti presenti, dici perché chiami e chiedi di essere richiamato. Usa il Lei.",
-          "keywords": [
-            "la chiamo",
-            "grato",
-            "richiamarmi",
-            "ringrazio"
-          ],
-          "modelAnswer": "Buongiorno, sono {name}. La chiamo in merito a un avviso di pagamento che ho ricevuto la settimana scorsa. Avrei bisogno di alcuni chiarimenti. Le sarei grato se potesse richiamarmi a questo numero. La ringrazio, buona giornata.",
-          "explanation": "Struttura: chi sei → perché chiami (in merito a…) → richiesta cortese → ringraziamento."
-        },
-        {
-          "type": "flashcard",
-          "id": "c1-01-l1-e13",
-          "front": "In attesa di un Suo cortese riscontro",
-          "back": "Looking forward to your kind reply",
-          "example": "In attesa di un Suo cortese riscontro, porgo distinti saluti."
-        }
-      ]
-    },
-    {
-      "id": "c1-01-l2",
-      "title": "Dal verbo al nome",
-      "minutes": 10,
-      "exercises": [
-        {
-          "type": "gap_fill",
-          "id": "c1-01-l2-e01",
-          "instruction": "Riscaldamento: completa la formula di chiusura.",
-          "sentence": "La ringrazio per l'attenzione e ___ distinti saluti.",
-          "answers": [
-            "porgo",
-            "Le porgo"
-          ],
-          "hint": "porgere – io",
-          "explanation": "Porgere i saluti è la formula formale classica: porgo distinti / cordiali saluti."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "c1-01-l2-e02",
-          "instruction": "Riscaldamento: quale verbo è più formale di «avere»?",
+          "id": "c1-01-l2-e05",
+          "stage": "practise",
+          "instruction": "Scegli il verbo giusto.",
           "prompt": "Al momento non ___ della documentazione richiesta.",
           "options": [
             "ho",
@@ -289,25 +287,114 @@
             "fornisco"
           ],
           "answer": 1,
-          "explanation": "Disporre di = avere a disposizione: «Non dispongo della documentazione»."
+          "explanation": "Disporre di = to have available: non dispongo della documentazione."
+        },
+        {
+          "type": "transform",
+          "id": "c1-01-l2-e06",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase in modo più cortese.",
+          "source": "Può inviarmi il modulo?",
+          "cue": "Potrebbe…?",
+          "answers": [
+            "Potrebbe inviarmi il modulo?",
+            "Potrebbe inviarmi il modulo",
+            "Potrebbe mandarmi il modulo?",
+            "Potrebbe inviare il modulo?"
+          ],
+          "hint": "potere → potrebbe",
+          "explanation": "Potrebbe (condizionale of potere) makes a request more polite than può."
+        },
+        {
+          "type": "gap_fill",
+          "id": "c1-01-l2-e07",
+          "stage": "practise",
+          "instruction": "Completa con il congiuntivo imperfetto.",
+          "sentence": "Le sarei grato/a se mi ___ (potere) inviare il modulo.",
+          "answers": [
+            "potesse"
+          ],
+          "hint": "potere – Lei, congiuntivo imperfetto",
+          "explanation": "Condizionale in the main clause plus se plus congiuntivo imperfetto: se potesse."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-01-l2-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "sentence": "Al momento non dispongo la documentazione completa.",
+          "answers": [
+            "Al momento non dispongo della documentazione completa.",
+            "Al momento non dispongo di una documentazione completa."
+          ],
+          "explanation": "Disporre takes the preposition di: dispongo della documentazione."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-01-l2-e09",
+          "stage": "use",
+          "instruction": "Scrivi un breve messaggio.",
+          "prompt": "Scrivi un'email di 30–40 parole all'ufficio anagrafe: chiedi un certificato di residenza e chiedi di inviarlo per email. Usa il Lei.",
+          "minWords": 30,
+          "checklist": [
+            "Ho aperto con Gentile… e chiuso con una formula formale.",
+            "Ho usato il Lei (Le scrivo, La ringrazio).",
+            "Ho usato un verbo formale (richiedere, inviare, fornire).",
+            "Ho usato potrebbe o Le sarei grato/a se potesse…"
+          ],
+          "modelAnswer": "Gentile Ufficio Anagrafe,\n\nLe scrivo per richiedere un certificato di residenza. Potrebbe inviarmelo per email all'indirizzo indicato di seguito? Le sarei grato/a se potesse fornirmi anche l'importo dei diritti di segreteria.\n\nLa ringrazio per l'attenzione e porgo distinti saluti.\n\n{name}"
+        }
+      ]
+    },
+    {
+      "id": "c1-01-l3",
+      "title": "Dal verbo al nome",
+      "minutes": 8,
+      "goal": "You can turn a verb into a noun to sound compact and formal.",
+      "takeaway": "Formal Italian prefers nouns: il ritardo nella consegna, il rinnovo, il pagamento.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "c1-01-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli.",
+          "prompt": "Quale verbo formale sostituisce «mandare»?",
+          "options": [
+            "inviare",
+            "tenere",
+            "disporre",
+            "pervenire"
+          ],
+          "answer": 0,
+          "explanation": "Inviare is the formal verb for mandare (lesson 2)."
         },
         {
           "type": "grammar_note",
-          "id": "c1-01-l2-e03",
-          "title": "La nominalizzazione",
-          "body": "Nei testi formali molte azioni espresse da un verbo diventano **nomi**. Il testo diventa più compatto e impersonale.\n\n- *Il pacco è arrivato in ritardo* → **il ritardo nella consegna** del pacco\n- *Quando avrò ricevuto la fattura* → **al ricevimento** della fattura\n- *Dopo che avrete controllato i documenti* → **dopo la verifica** (o **previa verifica**) dei documenti\n- *Per rinnovare il permesso* → **per il rinnovo** del permesso\n\n**Suffissi frequenti**\n- **-zione / -sione**: iscriversi → l'iscrizione, sostituire → la sostituzione, decidere → la decisione\n- **-mento**: pagare → il pagamento, annullare → l'annullamento, trasferire → il trasferimento\n- **-ura**: chiudere → la chiusura, aprire → l'apertura\n- **senza suffisso**: rimborsare → il rimborso, rinnovare → il rinnovo, consegnare → la consegna, verificare → la verifica; richiedere → la richiesta\n\n**Locuzioni che reggono il nome**: *in merito a, a seguito di, a causa di, ai fini di, in vista di, in attesa di*.\n\nAttenzione a non esagerare: quattro nomi di fila rendono la frase pesante. Un buon testo formale alterna verbi e nomi.",
+          "id": "c1-01-l3-e02",
+          "stage": "learn",
+          "title": "Da azione a nome",
+          "body": "Formal texts turn actions into nouns. Learn each noun with its article.\n\n| verb | noun |\n|---|---|\n| rimborsare | il ==rimborso== |\n| rinnovare | il ==rinnovo== |\n| consegnare | la ==consegna== |\n| iscriversi | l'==iscrizione== |\n| annullare | l'==annullamento== |\n| chiudere | la ==chiusura== |\n\n> Gender is not predictable: **il** rimborso, **la** consegna.",
+          "examples": [
+            {
+              "it": "Chiedo il rimborso del biglietto.",
+              "en": "I am asking for a refund of the ticket."
+            },
+            {
+              "it": "Il rinnovo del permesso richiede due settimane.",
+              "en": "Renewing the permit takes two weeks."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-01-l3-e03",
+          "stage": "learn",
+          "title": "Locuzioni con il nome",
+          "body": "These phrases are followed by a noun, not by a verb.\n\n| phrase | meaning |\n|---|---|\n| ==a causa di== | because of |\n| ==in merito a== | regarding |\n| ==a seguito di== | following |\n| ==in attesa di== | pending |\n| ==ai fini di== | for the purpose of |\n\n> Say *a causa della cancellazione*, not *a causa di cancellare*.",
           "examples": [
             {
               "it": "A causa del ritardo nella consegna, chiedo il rimborso.",
               "en": "Because of the late delivery, I am asking for a refund."
-            },
-            {
-              "it": "Ai fini del rinnovo, è necessario presentare due fototessere.",
-              "en": "For the renewal, two passport photos are required."
-            },
-            {
-              "it": "Il pagamento va effettuato entro trenta giorni dal ricevimento della fattura.",
-              "en": "Payment must be made within thirty days of receipt of the invoice."
             },
             {
               "it": "In attesa della verifica dei documenti, la pratica è sospesa.",
@@ -317,8 +404,9 @@
         },
         {
           "type": "match_pairs",
-          "id": "c1-01-l2-e04",
-          "instruction": "Abbina il verbo al nome corrispondente.",
+          "id": "c1-01-l3-e04",
+          "stage": "practise",
+          "instruction": "Abbina il verbo al nome.",
           "pairs": [
             {
               "left": "rimborsare",
@@ -345,32 +433,25 @@
               "right": "la sostituzione"
             }
           ],
-          "explanation": "Impara il nome con l'articolo: il genere non si indovina sempre (la consegna, ma il rimborso)."
+          "explanation": "Most nouns end in -zione, -mento, -ura, or have no suffix at all (il rimborso)."
         },
         {
           "type": "gap_fill",
-          "id": "c1-01-l2-e05",
+          "id": "c1-01-l3-e05",
+          "stage": "practise",
           "instruction": "Trasforma il verbo in nome.",
-          "sentence": "Chiedo il ___ (rimborsare) del biglietto non utilizzato.",
-          "answers": [
-            "rimborso"
-          ],
-          "explanation": "Rimborsare → il rimborso (nome senza suffisso)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-01-l2-e06",
-          "instruction": "Trasforma il verbo in nome.",
-          "sentence": "A causa della ___ (chiudere) degli uffici, la pratica è stata sospesa.",
+          "sentence": "A causa della ___ (chiudere) degli uffici, la pratica è sospesa.",
           "answers": [
             "chiusura"
           ],
-          "explanation": "Chiudere → la chiusura. Dopo «della» serve un nome femminile."
+          "hint": "chiudere → la …",
+          "explanation": "Chiudere becomes la chiusura; after della you need a feminine noun."
         },
         {
           "type": "multiple_choice",
-          "id": "c1-01-l2-e07",
-          "instruction": "Scegli la trasformazione nominale corretta.",
+          "id": "c1-01-l3-e06",
+          "stage": "practise",
+          "instruction": "Scegli la frase corretta.",
           "prompt": "«Poiché il volo è stato cancellato, chiedo il rimborso.» → «___, chiedo il rimborso.»",
           "options": [
             "A causa della cancellazione del volo",
@@ -379,219 +460,153 @@
             "Dovuto alla cancellazione volo"
           ],
           "answer": 0,
-          "explanation": "Cancellare un volo → la cancellazione del volo. «A causa di» regge un nome, non un infinito."
+          "explanation": "A causa di takes a noun: la cancellazione del volo."
+        },
+        {
+          "type": "transform",
+          "id": "c1-01-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi con un nome.",
+          "source": "Per rinnovare il permesso, serve una fototessera.",
+          "cue": "Per il…",
+          "answers": [
+            "Per il rinnovo del permesso, serve una fototessera.",
+            "Per il rinnovo del permesso serve una fototessera.",
+            "Ai fini del rinnovo del permesso, serve una fototessera.",
+            "Ai fini del rinnovo del permesso serve una fototessera."
+          ],
+          "hint": "rinnovare → il rinnovo",
+          "explanation": "Rinnovare becomes il rinnovo, and the clause turns into a noun phrase."
         },
         {
           "type": "error_correction",
-          "id": "c1-01-l2-e08",
-          "instruction": "C'è una parola sbagliata. Riscrivi la frase corretta.",
+          "id": "c1-01-l3-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
           "sentence": "Le scrivo a seguito della Sua email per il rinnovamento del contratto.",
           "answers": [
             "Le scrivo a seguito della Sua email per il rinnovo del contratto.",
-            "Le scrivo in seguito alla Sua email per il rinnovo del contratto."
+            "Le scrivo in seguito alla Sua email per il rinnovo del contratto.",
+            "Vi scrivo a seguito della Sua email per il rinnovo del contratto.",
+            "Vi scrivo in seguito alla Sua email per il rinnovo del contratto."
           ],
-          "explanation": "Per contratti, documenti e abbonamenti si dice il rinnovo. Il rinnovamento è un cambiamento profondo (il rinnovamento della politica)."
-        },
-        {
-          "type": "translate",
-          "id": "c1-01-l2-e09",
-          "instruction": "Traduci in italiano in registro formale.",
-          "direction": "en_it",
-          "source": "Following your email, I am sending you the payment receipt.",
-          "answers": [
-            "A seguito della Sua email, Le invio la ricevuta di pagamento.",
-            "A seguito della Sua email Le invio la ricevuta di pagamento.",
-            "A seguito della Sua email, Le invio la ricevuta del pagamento.",
-            "A seguito della Sua email Le invio la ricevuta del pagamento.",
-            "A seguito della Sua email, Le trasmetto la ricevuta di pagamento.",
-            "A seguito della Sua email Le trasmetto la ricevuta di pagamento.",
-            "A seguito della Sua email, Le trasmetto la ricevuta del pagamento.",
-            "A seguito della Sua email Le trasmetto la ricevuta del pagamento.",
-            "A seguito della Sua email, Le inoltro la ricevuta di pagamento.",
-            "A seguito della Sua email Le inoltro la ricevuta di pagamento.",
-            "A seguito della Sua email, Le inoltro la ricevuta del pagamento.",
-            "A seguito della Sua email Le inoltro la ricevuta del pagamento.",
-            "A seguito della Sua email, Le mando la ricevuta di pagamento.",
-            "A seguito della Sua email Le mando la ricevuta di pagamento.",
-            "A seguito della Sua email, Le mando la ricevuta del pagamento.",
-            "A seguito della Sua email Le mando la ricevuta del pagamento.",
-            "In seguito alla Sua email, Le invio la ricevuta di pagamento.",
-            "In seguito alla Sua email Le invio la ricevuta di pagamento.",
-            "In seguito alla Sua email, Le invio la ricevuta del pagamento.",
-            "In seguito alla Sua email Le invio la ricevuta del pagamento.",
-            "In seguito alla Sua email, Le trasmetto la ricevuta di pagamento.",
-            "In seguito alla Sua email Le trasmetto la ricevuta di pagamento.",
-            "In seguito alla Sua email, Le trasmetto la ricevuta del pagamento.",
-            "In seguito alla Sua email Le trasmetto la ricevuta del pagamento.",
-            "In seguito alla Sua email, Le inoltro la ricevuta di pagamento.",
-            "In seguito alla Sua email Le inoltro la ricevuta di pagamento.",
-            "In seguito alla Sua email, Le inoltro la ricevuta del pagamento.",
-            "In seguito alla Sua email Le inoltro la ricevuta del pagamento.",
-            "In seguito alla Sua email, Le mando la ricevuta di pagamento.",
-            "In seguito alla Sua email Le mando la ricevuta di pagamento.",
-            "In seguito alla Sua email, Le mando la ricevuta del pagamento.",
-            "In seguito alla Sua email Le mando la ricevuta del pagamento.",
-            "A seguito della sua email, Le invio la ricevuta di pagamento.",
-            "A seguito della sua email Le invio la ricevuta di pagamento.",
-            "A seguito della sua email, Le invio la ricevuta del pagamento.",
-            "A seguito della sua email Le invio la ricevuta del pagamento.",
-            "A seguito della sua email, Le trasmetto la ricevuta di pagamento.",
-            "A seguito della sua email Le trasmetto la ricevuta di pagamento.",
-            "A seguito della sua email, Le trasmetto la ricevuta del pagamento.",
-            "A seguito della sua email Le trasmetto la ricevuta del pagamento.",
-            "A seguito della sua email, Le inoltro la ricevuta di pagamento.",
-            "A seguito della sua email Le inoltro la ricevuta di pagamento.",
-            "A seguito della sua email, Le inoltro la ricevuta del pagamento.",
-            "A seguito della sua email Le inoltro la ricevuta del pagamento.",
-            "A seguito della sua email, Le mando la ricevuta di pagamento.",
-            "A seguito della sua email Le mando la ricevuta di pagamento.",
-            "A seguito della sua email, Le mando la ricevuta del pagamento.",
-            "A seguito della sua email Le mando la ricevuta del pagamento."
-          ],
-          "explanation": "A seguito di / in seguito a + nome = following. Ricevuta di pagamento o ricevuta del pagamento: entrambe corrette."
-        },
-        {
-          "type": "sentence_build",
-          "id": "c1-01-l2-e10",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "Pending verification of the documents, the application is on hold.",
-          "tiles": [
-            "In",
-            "attesa",
-            "della",
-            "verifica",
-            "dei",
-            "documenti",
-            "la",
-            "domanda",
-            "è",
-            "sospesa"
-          ],
-          "distractors": [
-            "verificare",
-            "sospendo"
-          ],
-          "explanation": "In attesa di + nome: una frase compatta e tipica delle comunicazioni ufficiali."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "c1-01-l2-e11",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "In merito alla Sua richiesta di rimborso, Le comunichiamo che la pratica è in corso di verifica.",
-          "answers": [
-            "In merito alla Sua richiesta di rimborso, Le comunichiamo che la pratica è in corso di verifica.",
-            "In merito alla Sua richiesta di rimborso Le comunichiamo che la pratica è in corso di verifica."
-          ],
-          "slow": false,
-          "explanation": "In merito a + nome; «in corso di verifica» = la verifica è in corso."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "c1-01-l2-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "A seguito della cancellazione del volo, chiedo il rimborso integrale del biglietto.",
-          "translation": "Following the cancellation of the flight, I am requesting a full refund of the ticket."
+          "explanation": "For contracts and permits the noun is il rinnovo; il rinnovamento means a deep change."
         },
         {
           "type": "speak_respond",
-          "id": "c1-01-l2-e13",
-          "instruction": "Riformula ad alta voce in stile formale.",
-          "prompt": "Trasforma in una frase formale: «Vi scrivo perché il pacco è arrivato tardi e rivoglio i soldi.»",
+          "id": "c1-01-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Di' la stessa cosa in modo formale con dei nomi: «Vi scrivo perché il pacco è arrivato tardi e rivoglio i soldi.»",
           "keywords": [
             "ritardo",
             "consegna",
             "rimborso"
           ],
-          "modelAnswer": "Vi scrivo in merito al ritardo nella consegna del pacco e chiedo il rimborso dell'importo pagato.",
-          "explanation": "Il ritardo nella consegna, il rimborso dell'importo: due nomi al posto di due verbi colloquiali."
-        },
-        {
-          "type": "flashcard",
-          "id": "c1-01-l2-e14",
-          "front": "in merito a…",
-          "back": "regarding…, with reference to…",
-          "example": "La contatto in merito alla Sua richiesta del 5 maggio."
+          "modelAnswer": "Vi scrivo in merito al ritardo nella consegna del pacco e chiedo il rimborso dell'importo pagato."
         }
       ]
     },
     {
-      "id": "c1-01-l3",
-      "title": "Scrivere un reclamo",
-      "minutes": 10,
+      "id": "c1-01-l4",
+      "title": "Qualora e pertanto",
+      "minutes": 7,
+      "goal": "You can state a condition and a conclusion in formal Italian.",
+      "takeaway": "Qualora + congiuntivo = if/should; pertanto = therefore; mancata + noun = something that did not happen.",
       "exercises": [
         {
-          "type": "gap_fill",
-          "id": "c1-01-l3-e01",
-          "instruction": "Riscaldamento: trasforma il verbo in nome.",
-          "sentence": "Chiedo l'___ (annullare) dell'ordine n. 4521.",
-          "answers": [
-            "annullamento"
-          ],
-          "explanation": "Annullare → l'annullamento (suffisso -mento)."
-        },
-        {
           "type": "multiple_choice",
-          "id": "c1-01-l3-e02",
-          "instruction": "Riscaldamento: scegli la chiusura adatta a un reclamo.",
-          "prompt": "Hai scritto un reclamo a una compagnia telefonica. Come chiudi?",
+          "id": "c1-01-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa.",
+          "prompt": "___ della Sua email, Le invio la ricevuta.",
           "options": [
-            "Un abbraccio!",
-            "A presto, ciao!",
-            "In attesa di un Vostro cortese riscontro, porgo distinti saluti.",
-            "Baci e grazie mille!"
+            "A seguito",
+            "Per seguire",
+            "In seguire",
+            "Seguito"
           ],
-          "answer": 2,
-          "explanation": "In un reclamo serve una chiusura formale e distaccata."
+          "answer": 0,
+          "explanation": "A seguito di + noun means following: a seguito della Sua email."
         },
         {
           "type": "grammar_note",
-          "id": "c1-01-l3-e03",
-          "title": "La struttura di un reclamo",
-          "body": "Un reclamo efficace è **chiaro, ordinato e fermo**, ma sempre cortese.\n\n- **Oggetto**, breve e nominale: *Oggetto: reclamo per mancata consegna dell'ordine n. 4521*\n- **Apertura**: *Spett.le Servizio Clienti,* / *Gentili Signori,*\n- **I fatti**, con date e numeri: *In data 3 marzo ho effettuato un ordine…*\n- **Il problema**: *Ad oggi non ho ricevuto…* / *Mi vedo costretto a segnalare che…*\n- **La richiesta**: *Chiedo pertanto la sostituzione del prodotto o, in alternativa, il rimborso integrale.*\n- **Una scadenza, se serve**: *entro e non oltre quindici giorni dal ricevimento della presente*\n- **Chiusura**: *In attesa di un Vostro cortese riscontro, porgo distinti saluti.*\n\n**Lessico utile**\n- *mancato/mancata* + nome = qualcosa che non è avvenuto: *la mancata consegna, il mancato rimborso*\n- *la presente* = questa lettera\n- *pertanto* = quindi (formale)\n- *qualora* + congiuntivo = se, nel caso in cui: *Qualora non riceva risposta, mi rivolgerò a…*\n- *pervenire* = arrivare (con essere): *Non mi è pervenuta alcuna risposta.*",
+          "id": "c1-01-l4-e02",
+          "stage": "learn",
+          "title": "Qualora + congiuntivo",
+          "body": "**Qualora** means *should* or *in case*. It is formal and always takes the congiuntivo.\n\n| formal | everyday |\n|---|---|\n| ==Qualora== non riceva risposta | Se non ricevo risposta |\n| ==Qualora== il problema persista | Se il problema continua |\n\n> Not *qualora non ricevo*: the indicativo is wrong here.",
           "examples": [
-            {
-              "it": "Ad oggi non mi è pervenuta alcuna comunicazione.",
-              "en": "To date I have not received any communication."
-            },
-            {
-              "it": "Chiedo pertanto il rimborso integrale dell'importo.",
-              "en": "I therefore request a full refund of the amount."
-            },
             {
               "it": "Qualora il problema persista, mi rivolgerò a un legale.",
               "en": "Should the problem persist, I will contact a lawyer."
+            },
+            {
+              "it": "Qualora non riceva risposta, scriverò di nuovo.",
+              "en": "Should I receive no reply, I will write again."
             }
           ]
         },
         {
+          "type": "grammar_note",
+          "id": "c1-01-l4-e03",
+          "stage": "learn",
+          "title": "Pertanto, mancata, pervenire",
+          "body": "Three words you will meet in every formal complaint.\n\n| word | meaning | example |\n|---|---|---|\n| ==pertanto== | therefore | Chiedo ==pertanto== il rimborso. |\n| ==mancata== + noun | it did not happen | la ==mancata== consegna |\n| ==pervenire== | to reach | Non mi è ==pervenuta== alcuna risposta. |\n\n> **Pervenire** takes essere: *è pervenuta, sono pervenuti*.",
+          "examples": [
+            {
+              "it": "Il documento è scaduto; pertanto è necessario rinnovarlo.",
+              "en": "The document has expired; it must therefore be renewed."
+            },
+            {
+              "it": "Ad oggi non mi è pervenuta alcuna comunicazione.",
+              "en": "To date I have received no communication."
+            }
+          ]
+        },
+        {
+          "type": "find_trigger",
+          "id": "c1-01-l4-e04",
+          "stage": "practise",
+          "instruction": "Tocca la parola che chiede il congiuntivo.",
+          "sentence": "Qualora il problema persista, mi rivolgerò a un legale.",
+          "trigger": "Qualora",
+          "explanation": "Qualora introduces a condition and is followed by the congiuntivo."
+        },
+        {
+          "type": "choose_mood",
+          "id": "c1-01-l4-e05",
+          "stage": "practise",
+          "instruction": "Scegli il modo, poi scrivi il verbo.",
+          "sentence": "Qualora non ___ risposta entro dieci giorni, scriverò di nuovo.",
+          "verb": "ricevere",
+          "answer": 1,
+          "forms": [
+            "riceva",
+            "ricevessi"
+          ],
+          "trigger": "Qualora",
+          "explanation": "Qualora takes the congiuntivo: riceva (or the imperfect ricevessi)."
+        },
+        {
           "type": "multiple_choice",
-          "id": "c1-01-l3-e04",
+          "id": "c1-01-l4-e06",
+          "stage": "practise",
           "instruction": "Che cosa significa?",
           "prompt": "«Reclamo per mancata consegna»",
           "options": [
             "La consegna è arrivata in ritardo.",
             "La consegna non è avvenuta.",
             "La consegna era incompleta.",
-            "La consegna è stata annullata dal cliente."
+            "Il cliente ha annullato la consegna."
           ],
           "answer": 1,
-          "explanation": "Mancato/a + nome indica qualcosa che doveva succedere e non è successo."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-01-l3-e05",
-          "instruction": "Completa con il connettivo formale giusto.",
-          "sentence": "___ il problema non venga risolto, mi rivolgerò a un'associazione di consumatori.",
-          "answers": [
-            "Qualora"
-          ],
-          "hint": "= se, nel caso in cui (formale)",
-          "explanation": "Qualora = se, nel caso in cui (formale); vuole il congiuntivo: venga risolto."
+          "explanation": "Mancata + noun means the thing that should have happened did not happen."
         },
         {
           "type": "conjugation",
-          "id": "c1-01-l3-e06",
-          "instruction": "Passato prossimo di pervenire (con essere): accorda il participio con il soggetto.",
+          "id": "c1-01-l4-e07",
+          "stage": "practise",
+          "instruction": "Passato prossimo di pervenire. Attenzione all'accordo.",
           "verb": "pervenire",
           "tense": "passato prossimo",
           "items": [
@@ -608,14 +623,141 @@
               "answer": "è pervenuto"
             }
           ],
-          "explanation": "Pervenire si coniuga come venire e vuole essere: la risposta è pervenuta, i documenti sono pervenuti."
+          "explanation": "Pervenire takes essere, and the participle agrees with the subject."
+        },
+        {
+          "type": "error_correction",
+          "id": "c1-01-l4-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase.",
+          "sentence": "Qualora non ricevo risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori.",
+          "answers": [
+            "Qualora non riceva risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori.",
+            "Qualora non riceva risposta entro dieci giorni mi rivolgerò a un'associazione di consumatori.",
+            "Qualora non ricevessi risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori.",
+            "Qualora non ricevessi risposta entro dieci giorni mi rivolgerò a un'associazione di consumatori."
+          ],
+          "explanation": "Qualora requires the congiuntivo: riceva, not the present indicative ricevo."
+        },
+        {
+          "type": "free_write",
+          "id": "c1-01-l4-e09",
+          "stage": "use",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Hai ordinato un libro, ma non è mai arrivato. Scrivi 3–4 frasi formali (40–60 parole): i fatti, la richiesta con pertanto e una scadenza con qualora.",
+          "minWords": 40,
+          "checklist": [
+            "Ho descritto il fatto con una data.",
+            "Ho usato pertanto per la richiesta.",
+            "Ho usato qualora + congiuntivo per la scadenza.",
+            "Ho usato almeno un nome al posto di un verbo (la consegna, il rimborso)."
+          ],
+          "modelAnswer": "In data 3 maggio ho ordinato sul Vostro sito il volume indicato nell'ordine n. 5521. Ad oggi non mi è pervenuta alcuna consegna. Chiedo pertanto la spedizione immediata oppure il rimborso. Qualora non riceva risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori."
+        }
+      ]
+    },
+    {
+      "id": "c1-01-l5",
+      "title": "Scrivere un reclamo",
+      "minutes": 8,
+      "goal": "You can write a clear, firm and polite complaint.",
+      "takeaway": "Subject, facts with dates, problem, request (pertanto), deadline (qualora), formal closing.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "c1-01-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: trasforma il verbo in nome.",
+          "sentence": "Chiedo l'___ (annullare) dell'ordine n. 4521.",
+          "answers": [
+            "annullamento"
+          ],
+          "explanation": "Annullare becomes l'annullamento (suffix -mento)."
+        },
+        {
+          "type": "grammar_note",
+          "id": "c1-01-l5-e02",
+          "stage": "learn",
+          "title": "La struttura di un reclamo",
+          "body": "A good complaint is clear, ordered and firm, but always polite.\n\n| step | example |\n|---|---|\n| Oggetto | ==Reclamo per mancata consegna== |\n| Fatti | In data 3 marzo ho ordinato… |\n| Problema | Ad oggi non ho ricevuto… |\n| Richiesta | Chiedo ==pertanto== il rimborso. |\n| Scadenza | ==entro e non oltre== quindici giorni |\n| Chiusura | porgo distinti saluti |\n\n> Keep dates and numbers. Stay calm: no insults.",
+          "examples": [
+            {
+              "it": "Chiedo pertanto la sostituzione del prodotto o, in alternativa, il rimborso integrale.",
+              "en": "I therefore ask for a replacement or, alternatively, a full refund."
+            },
+            {
+              "it": "Il pagamento va effettuato entro e non oltre il 30 giugno.",
+              "en": "Payment must be made no later than 30 June."
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "c1-01-l5-e03",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Il pacco non è mai arrivato.",
+            "Il pacco è arrivato in ritardo."
+          ],
+          "question": "Which situation is a «mancata consegna»?",
+          "answer": 0,
+          "translations": [
+            "The parcel never arrived.",
+            "The parcel arrived late."
+          ],
+          "explanation": "Mancata consegna means the delivery did not happen at all."
+        },
+        {
+          "type": "transform",
+          "id": "c1-01-l5-e04",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con qualora.",
+          "source": "Se non mi rispondete, vado da un avvocato.",
+          "cue": "Qualora…",
+          "answers": [
+            "Qualora non mi rispondiate, mi rivolgerò a un legale.",
+            "Qualora non mi rispondiate mi rivolgerò a un legale.",
+            "Qualora non mi rispondiate, mi rivolgerò a un avvocato.",
+            "Qualora non mi rispondiate mi rivolgerò a un avvocato.",
+            "Qualora non mi rispondiate, andrò da un avvocato.",
+            "Qualora non mi rispondiate andrò da un avvocato.",
+            "Qualora non riceva risposta, mi rivolgerò a un legale.",
+            "Qualora non riceva risposta mi rivolgerò a un legale.",
+            "Qualora non riceva risposta, mi rivolgerò a un avvocato.",
+            "Qualora non riceva risposta mi rivolgerò a un avvocato.",
+            "Qualora non riceva risposta, andrò da un avvocato.",
+            "Qualora non riceva risposta andrò da un avvocato."
+          ],
+          "hint": "congiuntivo presente",
+          "explanation": "Qualora replaces se and takes the congiuntivo: non mi rispondiate."
+        },
+        {
+          "type": "translate",
+          "id": "c1-01-l5-e05",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I therefore request a full refund.",
+          "answers": [
+            "Chiedo pertanto il rimborso integrale.",
+            "Chiedo pertanto il rimborso totale.",
+            "Richiedo pertanto il rimborso integrale.",
+            "Richiedo pertanto il rimborso totale.",
+            "Pertanto chiedo il rimborso integrale.",
+            "Pertanto chiedo il rimborso totale.",
+            "Pertanto richiedo il rimborso integrale.",
+            "Pertanto richiedo il rimborso totale."
+          ],
+          "explanation": "Pertanto means therefore; integrale or totale both work for full."
         },
         {
           "type": "reading",
-          "id": "c1-01-l3-e07",
-          "instruction": "Leggi il reclamo e rispondi alle domande.",
+          "id": "c1-01-l5-e06",
+          "stage": "practise",
+          "instruction": "Leggi il reclamo e rispondi.",
           "title": "Un reclamo al servizio clienti",
-          "passage": "Oggetto: reclamo per mancata attivazione della linea internet – contratto n. 88213\n\nSpett.le Servizio Clienti,\n\nin data 2 settembre ho sottoscritto un contratto per una linea internet presso la mia nuova abitazione. Al momento della firma mi era stata garantita l'attivazione entro dieci giorni lavorativi. Ad oggi, a distanza di oltre un mese, la linea non è ancora attiva, nonostante tre segnalazioni telefoniche al Vostro numero verde.\n\nPoiché lavoro da casa, la mancata attivazione mi sta causando notevoli disagi. Chiedo pertanto l'attivazione immediata della linea e lo storno dei canoni addebitati per il periodo in cui il servizio non è stato erogato.\n\nQualora non riceva risposta entro quindici giorni dalla presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n{name}",
+          "passage": "Oggetto: reclamo per mancata attivazione della linea internet – contratto n. 88213\n\nSpett.le Servizio Clienti,\n\nin data 2 settembre ho sottoscritto un contratto per una linea internet presso la mia nuova abitazione. Al momento della firma mi era stata garantita l'attivazione entro dieci giorni lavorativi. Ad oggi, a distanza di oltre un mese, la linea non è ancora attiva, nonostante tre segnalazioni telefoniche al Vostro numero verde.\n\nPoiché lavoro da casa, la mancata attivazione mi sta causando notevoli disagi. Chiedo pertanto l'attivazione immediata della linea e lo storno dei canoni addebitati per il periodo in cui il servizio non è stato erogato.\n\nQualora non riceva risposta entro quindici giorni dalla presente, mi rivolgerò a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n{name}",
           "questions": [
             {
               "question": "Qual è il problema principale?",
@@ -632,7 +774,7 @@
               "options": [
                 "Di annullare il contratto e cambiare operatore",
                 "Un tecnico entro dieci giorni",
-                "L'attivazione subito e la restituzione dei canoni pagati",
+                "L'attivazione subito e la restituzione dei canoni",
                 "Un nuovo numero verde"
               ],
               "answer": 2
@@ -647,139 +789,23 @@
               ],
               "answer": 0
             }
-          ],
-          "explanation": "Nota la struttura: oggetto nominale, fatti con date, problema, richiesta (pertanto), scadenza (qualora + congiuntivo), chiusura formale."
-        },
-        {
-          "type": "error_correction",
-          "id": "c1-01-l3-e08",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Qualora non ricevo risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori.",
-          "answers": [
-            "Qualora non riceva risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori.",
-            "Qualora non riceva risposta entro dieci giorni mi rivolgerò a un'associazione di consumatori.",
-            "Qualora non ricevessi risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori.",
-            "Qualora non ricevessi risposta entro dieci giorni mi rivolgerò a un'associazione di consumatori.",
-            "Qualora non dovessi ricevere risposta entro dieci giorni, mi rivolgerò a un'associazione di consumatori.",
-            "Qualora non dovessi ricevere risposta entro dieci giorni mi rivolgerò a un'associazione di consumatori."
-          ],
-          "explanation": "Qualora vuole il congiuntivo: riceva (o ricevessi). Il presente indicativo ricevo non è possibile."
-        },
-        {
-          "type": "translate",
-          "id": "c1-01-l3-e09",
-          "instruction": "Traduci in italiano in registro formale.",
-          "direction": "en_it",
-          "source": "I therefore request a full refund.",
-          "answers": [
-            "Chiedo pertanto il rimborso integrale.",
-            "Chiedo pertanto il rimborso totale.",
-            "Richiedo pertanto il rimborso integrale.",
-            "Richiedo pertanto il rimborso totale.",
-            "Pertanto chiedo il rimborso integrale.",
-            "Pertanto chiedo il rimborso totale.",
-            "Pertanto richiedo il rimborso integrale.",
-            "Pertanto richiedo il rimborso totale."
-          ],
-          "explanation": "Pertanto = therefore (formale). Integrale o totale: entrambi corretti."
-        },
-        {
-          "type": "roleplay",
-          "id": "c1-01-l3-e10",
-          "instruction": "Telefoni al servizio clienti. Rispondi ad alta voce quando tocca a te (registro formale).",
-          "scenario": "You call your internet provider's customer service because your line still hasn't been activated a month after signing the contract. Be polite but firm.",
-          "turns": [
-            {
-              "speaker": "npc",
-              "text": "Servizio clienti, buongiorno. Sono Chiara, come posso aiutarLa?"
-            },
-            {
-              "speaker": "you",
-              "text": "Buongiorno. La chiamo in merito alla mancata attivazione della mia linea internet.",
-              "hint": "Say why you're calling: in merito a + mancata attivazione.",
-              "keywords": [
-                "in merito",
-                "attivazione"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Mi può dare il numero del contratto, per favore?"
-            },
-            {
-              "speaker": "you",
-              "text": "Certo, è il numero 88213. L'ho sottoscritto il 2 settembre e mi era stata garantita l'attivazione entro dieci giorni.",
-              "hint": "Give the number and the facts with the date.",
-              "keywords": [
-                "contratto",
-                "settembre",
-                "dieci giorni"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Vedo. Purtroppo c'è stato un ritardo da parte del tecnico. Le chiedo ancora qualche giorno di pazienza."
-            },
-            {
-              "speaker": "you",
-              "text": "Capisco, ma lavoro da casa e il ritardo mi sta causando molti disagi. Vorrei sapere una data precisa.",
-              "hint": "Explain the inconvenience and ask for a precise date (condizionale).",
-              "keywords": [
-                "disagi",
-                "vorrei",
-                "data"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Il tecnico può passare giovedì mattina. Le va bene?"
-            },
-            {
-              "speaker": "you",
-              "text": "Sì, va bene. Inoltre Le sarei grato se potesse stornare i canoni addebitati per questo mese.",
-              "hint": "Accept and ask for the charges to be refunded (Le sarei grato se…).",
-              "keywords": [
-                "grato",
-                "potesse",
-                "canoni"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Inoltro subito la richiesta all'ufficio amministrativo. Riceverà una conferma via email."
-            },
-            {
-              "speaker": "you",
-              "text": "La ringrazio. Buona giornata.",
-              "hint": "Thank her formally.",
-              "keywords": [
-                "ringrazio"
-              ]
-            }
-          ],
-          "explanation": "Hai usato il Lei, la nominalizzazione (mancata attivazione, rimborso) e il condizionale di cortesia."
+          ]
         },
         {
           "type": "free_write",
-          "id": "c1-01-l3-e11",
-          "instruction": "Scrivi un reclamo.",
-          "prompt": "Hai comprato online una lavatrice: è arrivata con tre settimane di ritardo e con lo sportello rotto. Scrivi un'email di reclamo al venditore (100–140 parole): oggetto, fatti con date, problema, richiesta (sostituzione o rimborso), eventuale scadenza, chiusura formale.",
+          "id": "c1-01-l5-e07",
+          "stage": "use",
+          "instruction": "Scrivi un'email di reclamo.",
+          "prompt": "Hai comprato online una lavatrice: è arrivata con tre settimane di ritardo e con lo sportello rotto. Scrivi un'email di reclamo al venditore (100–140 parole): oggetto, fatti con date, problema, richiesta, scadenza, chiusura formale.",
           "minWords": 100,
           "checklist": [
             "Ho scritto un oggetto breve e nominale.",
-            "Ho usato formule di apertura e chiusura formali e il Lei/Voi di cortesia.",
-            "Ho usato almeno tre nominalizzazioni (ritardo nella consegna, sostituzione, rimborso…).",
-            "Ho usato almeno un connettivo formale: pertanto, a seguito di, in merito a, qualora + congiuntivo.",
-            "Ho chiesto qualcosa di preciso, in modo fermo ma cortese."
+            "Ho usato formule di apertura e chiusura formali e il Lei/Voi.",
+            "Ho usato almeno tre nomi al posto di verbi (ritardo nella consegna, sostituzione, rimborso).",
+            "Ho usato pertanto e qualora + congiuntivo.",
+            "Ho chiesto qualcosa di preciso, con tono fermo ma cortese."
           ],
-          "modelAnswer": "Oggetto: reclamo per ritardo nella consegna e prodotto danneggiato – ordine n. 30577\n\nSpett.le Servizio Clienti,\n\nin data 4 ottobre ho acquistato sul Vostro sito una lavatrice, con consegna prevista entro cinque giorni lavorativi. Il prodotto mi è stato consegnato soltanto il 28 ottobre, con oltre tre settimane di ritardo. Inoltre, al momento dell'apertura dell'imballo, ho constatato che lo sportello era rotto, come risulta dalle fotografie che Vi invio in allegato.\n\nChiedo pertanto la sostituzione del prodotto o, in alternativa, il rimborso integrale dell'importo pagato. Qualora non riceva una risposta entro quindici giorni dal ricevimento della presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n{name}"
-        },
-        {
-          "type": "flashcard",
-          "id": "c1-01-l3-e12",
-          "front": "pertanto",
-          "back": "therefore, consequently (formal)",
-          "example": "Il documento è scaduto; pertanto è necessario rinnovarlo."
+          "modelAnswer": "Oggetto: reclamo per ritardo nella consegna e prodotto danneggiato – ordine n. 30577\n\nSpett.le Servizio Clienti,\n\nin data 4 ottobre ho acquistato sul Vostro sito una lavatrice, con consegna prevista entro cinque giorni lavorativi. Il prodotto mi è stato consegnato soltanto il 28 ottobre, con oltre tre settimane di ritardo. Inoltre, all'apertura dell'imballo, ho constatato che lo sportello era rotto, come risulta dalle fotografie allegate.\n\nChiedo pertanto la sostituzione del prodotto o, in alternativa, il rimborso integrale dell'importo pagato. Qualora non riceva risposta entro quindici giorni dal ricevimento della presente, mi rivolgerò a un'associazione di consumatori.\n\nIn attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n{name}"
         }
       ]
     }
@@ -837,7 +863,7 @@
     },
     {
       "it": "la mancata consegna",
-      "en": "failure to deliver, non-delivery",
+      "en": "failure to deliver",
       "example": "Scrivo per segnalare la mancata consegna del pacco."
     },
     {
@@ -857,12 +883,12 @@
     },
     {
       "it": "disporre di",
-      "en": "to have (available)",
+      "en": "to have available",
       "example": "Non dispongo ancora del codice fiscale."
     },
     {
       "it": "pervenire",
-      "en": "to reach, be received (formal; with essere)",
+      "en": "to reach, be received (with essere)",
       "example": "Non mi è pervenuta alcuna risposta."
     },
     {
@@ -872,73 +898,65 @@
     },
     {
       "it": "qualora",
-      "en": "if, should (formal; + subjunctive)",
+      "en": "if, should (+ congiuntivo)",
       "example": "Qualora ci fossero problemi, mi contatti."
     },
     {
       "it": "in merito a",
       "en": "regarding",
-      "example": "La chiamo in merito alla Sua email."
-    },
-    {
-      "it": "a seguito di",
-      "en": "following",
-      "example": "A seguito della Sua richiesta, Le invio il modulo."
+      "example": "La contatto in merito alla Sua email."
     },
     {
       "it": "entro e non oltre",
       "en": "no later than",
       "example": "Il pagamento va effettuato entro e non oltre il 30 giugno."
-    },
-    {
-      "it": "porgere distinti saluti",
-      "en": "to send kind regards (formal sign-off)",
-      "example": "In attesa di un riscontro, porgo distinti saluti."
     }
   ],
   "grammarTips": [
     {
       "id": "c1-01-t1",
       "rule": "Gentile, non Caro",
-      "tip": "In un'email formale apri con «Gentile Dottor…» o «Gentile Signora…»; «Caro» è amichevole, non formale.",
+      "tip": "Open a formal email with Gentile + title. Caro is friendly, not formal.",
       "example": {
-        "it": "Gentile Dottoressa Ferri, Le scrivo per…",
-        "en": "Dear Dr Ferri, I am writing to…"
+        "it": "Gentile Dottoressa Bianchi, Le scrivo…",
+        "en": "Dear Dr Bianchi, I am writing to you…"
       },
       "challenge": {
         "type": "multiple_choice",
-        "instruction": "Scegli l'apertura giusta per un'email al medico di base.",
-        "prompt": "Apertura formale:",
+        "instruction": "Scegli l'apertura giusta.",
+        "prompt": "Scrivi a un ufficio comunale.",
         "options": [
-          "Caro dottore,",
-          "Gentile Dottor Russo,",
-          "Ciao dottore,",
-          "Ehi Dottor Russo,"
+          "Caro ufficio,",
+          "Gentile Ufficio,",
+          "Ciao a tutti,",
+          "Ehi ufficio,"
         ],
-        "answer": 1
+        "answer": 1,
+        "explanation": "Gentile is the safe formal opening."
       }
     },
     {
       "id": "c1-01-t2",
-      "rule": "Le sarei grato se potesse…",
-      "tip": "Richiesta formale: condizionale + se + congiuntivo imperfetto. «Le sarei grato se potesse richiamarmi.»",
+      "rule": "Le sarei grato/a se potesse…",
+      "tip": "Very polite request: condizionale + se + congiuntivo imperfetto.",
       "example": {
-        "it": "Le sarei grato se potesse inviarmi il modulo.",
-        "en": "I would be grateful if you could send me the form."
+        "it": "Le sarei grata se potesse richiamarmi.",
+        "en": "I would be grateful if you could call me back."
       },
       "challenge": {
         "type": "gap_fill",
         "instruction": "Completa.",
-        "sentence": "Le sarei grato se ___ (potere) richiamarmi entro domani.",
+        "sentence": "Le sarei grato/a se mi ___ (potere) richiamare.",
         "answers": [
           "potesse"
-        ]
+        ],
+        "hint": "congiuntivo imperfetto"
       }
     },
     {
       "id": "c1-01-t3",
       "rule": "Lessico formale",
-      "tip": "Nello scritto formale: chiedere → richiedere, dare → fornire, mandare → inviare, avere → disporre di.",
+      "tip": "Formal verbs: chiedere → richiedere, dare → fornire, mandare → inviare, avere → disporre di.",
       "example": {
         "it": "Le invio in allegato il contratto.",
         "en": "Please find the contract attached."
@@ -957,7 +975,7 @@
     {
       "id": "c1-01-t4",
       "rule": "Nominalizzazione",
-      "tip": "Il verbo diventa nome: «perché il pacco è arrivato tardi» → «a causa del ritardo nella consegna».",
+      "tip": "Verb to noun: «perché il pacco è arrivato tardi» → «a causa del ritardo nella consegna».",
       "example": {
         "it": "Chiedo il rinnovo del contratto.",
         "en": "I am requesting the renewal of the contract."
@@ -974,7 +992,7 @@
     {
       "id": "c1-01-t5",
       "rule": "Qualora + congiuntivo",
-      "tip": "«Qualora» (= se, nel caso in cui) è formale e vuole il congiuntivo: «Qualora non riceva risposta, …»",
+      "tip": "Qualora (= se, nel caso in cui) is formal and takes the congiuntivo: «Qualora non riceva risposta, …»",
       "example": {
         "it": "Qualora il problema persista, mi rivolgerò a un legale.",
         "en": "Should the problem persist, I will contact a lawyer."

@@ -1,0 +1,875 @@
+{
+  "id": "a1-04",
+  "level": "A1",
+  "title": "La mia giornata",
+  "format": 2,
+  "module": "a1-m1",
+  "objective": "By the end you can use regular -ere and -ire verbs, tell the time and describe your day.",
+  "grammarFocus": "Present of -ere, -ire and -ire with -isc-; numbers 1-12; che ore sono? and a che ora?",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-04-l1",
+      "title": "Prendo, leggo, scrivo",
+      "minutes": 8,
+      "goal": "You can use -ere verbs: prendo un caffè, leggo un libro.",
+      "takeaway": "-ere verbs: -o, -i, -e, -iamo, -ete, -ono.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-04-l1-e01",
+          "stage": "warmup",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Loro ___ italiano. (parlare)",
+          "answers": [
+            "parlano"
+          ],
+          "explanation": "Loro goes with -ano."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l1-e02",
+          "stage": "learn",
+          "title": "I verbi in -ere",
+          "body": "Take off **-ere**. Add the ending.\n\n| persona | prendere |\n|---|---|\n| io | prend==o== |\n| tu | prend==i== |\n| lui / lei | prend==e== |\n| noi | prend==iamo== |\n| voi | prend==ete== |\n| loro | prend==ono== |\n\n> Only lui / lei (-e), voi (-ete) and loro (-ono) differ from -are verbs.",
+          "examples": [
+            {
+              "it": "Prendo un caffè.",
+              "en": "I have a coffee."
+            },
+            {
+              "it": "Marco prende il cornetto.",
+              "en": "Marco has the croissant."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l1-e03",
+          "stage": "learn",
+          "title": "Cinque verbi",
+          "body": "Useful -ere verbs:\n\n| verbo | significato | esempio |\n|---|---|---|\n| ==prendere== | to take, have | Prendo il treno. |\n| ==leggere== | to read | Leggo un libro. |\n| ==scrivere== | to write | Scrivo una mail. |\n| ==vedere== | to see | Vedo un film. |\n| ==vivere== | to live | Vivo a Roma. |",
+          "examples": [
+            {
+              "it": "Leggo un libro e scrivo una mail.",
+              "en": "I read a book and write an email."
+            },
+            {
+              "it": "Che cosa prendete?",
+              "en": "What are you (all) having?"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-04-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Lui ___ il caffè. (prendere)",
+          "options": [
+            "prende",
+            "prendi",
+            "prendo"
+          ],
+          "answer": 0,
+          "explanation": "Lui goes with -e: prende."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-04-l1-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Leggo un libro.",
+            "Leggi un libro.",
+            "Legge un libro."
+          ],
+          "question": "Quale frase dice «tu leggi»?",
+          "answer": 1,
+          "translations": [
+            "I read a book.",
+            "You read a book.",
+            "He / she reads a book."
+          ],
+          "explanation": "The ending -i goes with tu."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-04-l1-e06",
+          "stage": "practise",
+          "instruction": "Scrivi ogni forma.",
+          "verb": "prendere",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "prendo"
+            },
+            {
+              "person": "tu",
+              "answer": "prendi"
+            },
+            {
+              "person": "lui / lei",
+              "answer": "prende"
+            },
+            {
+              "person": "noi",
+              "answer": "prendiamo"
+            },
+            {
+              "person": "voi",
+              "answer": "prendete"
+            },
+            {
+              "person": "loro",
+              "answer": "prendono"
+            }
+          ],
+          "explanation": "The -ere endings are -o, -i, -e, -iamo, -ete, -ono."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-04-l1-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Noi ___ un caffè. (prendere)",
+          "answers": [
+            "prendiamo"
+          ],
+          "explanation": "Noi always ends in -iamo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-04-l1-e08",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Vedo un film.",
+          "question": "Che cosa fa la persona?",
+          "options": [
+            "Watches a film",
+            "Reads a book",
+            "Buys a book"
+          ],
+          "answer": 0,
+          "explanation": "Vedo un film means I see / watch a film."
+        },
+        {
+          "type": "translate",
+          "id": "a1-04-l1-e09",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "She reads a book.",
+          "answers": [
+            "Legge un libro.",
+            "Lei legge un libro."
+          ],
+          "explanation": "Lei goes with legge (-e)."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-04-l1-e10",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Al bar: che cosa prendi? Say what you have.",
+          "keywords": [
+            "prendo"
+          ],
+          "modelAnswer": "Prendo un caffè e un cornetto."
+        }
+      ]
+    },
+    {
+      "id": "a1-04-l2",
+      "title": "Dormo, finisco, capisco",
+      "minutes": 8,
+      "goal": "You can use -ire verbs, including finisco and capisco.",
+      "takeaway": "-ire verbs: -o, -i, -e, -iamo, -ite, -ono. Some (finire, capire, preferire) add -isc- in io, tu, lui / lei, loro.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-04-l2-e01",
+          "stage": "warmup",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Tu ___ un libro. (leggere)",
+          "answers": [
+            "leggi"
+          ],
+          "explanation": "Tu goes with -i."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l2-e02",
+          "stage": "learn",
+          "title": "I verbi in -ire",
+          "body": "Like -ere, but **-ite** for voi.\n\n| persona | dormire |\n|---|---|\n| io | dorm==o== |\n| tu | dorm==i== |\n| lui / lei | dorm==e== |\n| noi | dorm==iamo== |\n| voi | dorm==ite== |\n| loro | dorm==ono== |\n\nOthers: **partire**, **aprire**, **sentire**.",
+          "examples": [
+            {
+              "it": "Dormo bene.",
+              "en": "I sleep well."
+            },
+            {
+              "it": "Il treno parte alle otto.",
+              "en": "The train leaves at eight."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l2-e03",
+          "stage": "learn",
+          "title": "Finire: -isc-",
+          "body": "Many -ire verbs add **-isc-** in four forms.\n\n| persona | finire |\n|---|---|\n| io | fin==isco== |\n| tu | fin==isci== |\n| lui / lei | fin==isce== |\n| noi | fin==iamo== |\n| voi | fin==ite== |\n| loro | fin==iscono== |\n\n> Learn them with the verb: **finire**, **capire**, **preferire**.",
+          "examples": [
+            {
+              "it": "Capisco l'italiano.",
+              "en": "I understand Italian."
+            },
+            {
+              "it": "Finiamo alle cinque.",
+              "en": "We finish at five."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-04-l2-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni parola nel gruppo giusto.",
+          "buckets": [
+            "come dormire",
+            "come finire (-isc-)"
+          ],
+          "items": [
+            {
+              "text": "dormire",
+              "bucket": 0
+            },
+            {
+              "text": "partire",
+              "bucket": 0
+            },
+            {
+              "text": "aprire",
+              "bucket": 0
+            },
+            {
+              "text": "finire",
+              "bucket": 1
+            },
+            {
+              "text": "capire",
+              "bucket": 1
+            },
+            {
+              "text": "preferire",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Finire, capire and preferire add -isc-; dormire, partire and aprire do not."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-04-l2-e05",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Tu ___ l'italiano. (capire)",
+          "options": [
+            "capisci",
+            "capi",
+            "capisce"
+          ],
+          "answer": 0,
+          "explanation": "Capire adds -isc- with tu: capisci."
+        },
+        {
+          "type": "conjugation",
+          "id": "a1-04-l2-e06",
+          "stage": "practise",
+          "instruction": "Scrivi ogni forma.",
+          "verb": "finire",
+          "tense": "presente",
+          "items": [
+            {
+              "person": "io",
+              "answer": "finisco"
+            },
+            {
+              "person": "tu",
+              "answer": "finisci"
+            },
+            {
+              "person": "lui / lei",
+              "answer": "finisce"
+            },
+            {
+              "person": "noi",
+              "answer": "finiamo"
+            },
+            {
+              "person": "voi",
+              "answer": "finite"
+            },
+            {
+              "person": "loro",
+              "answer": "finiscono"
+            }
+          ],
+          "explanation": "Finire has -isc- except in noi and voi."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-04-l2-e07",
+          "stage": "practise",
+          "instruction": "Correggi la frase.",
+          "sentence": "Io finio il lavoro.",
+          "answers": [
+            "Io finisco il lavoro.",
+            "Finisco il lavoro.",
+            "Io finisco il lavoro",
+            "Finisco il lavoro"
+          ],
+          "explanation": "Finire adds -isc- with io: finisco."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-04-l2-e08",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Capisco l'italiano.",
+          "answers": [
+            "Capisco l'italiano.",
+            "Capisco l’italiano.",
+            "Capisco l'italiano"
+          ],
+          "explanation": "Capire adds -isc- with io: capisco."
+        },
+        {
+          "type": "translate",
+          "id": "a1-04-l2-e09",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "I don't understand.",
+          "answers": [
+            "Non capisco.",
+            "Io non capisco."
+          ],
+          "explanation": "Non goes before capisco."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-04-l2-e10",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Capisci l'italiano? Parli italiano? Rispondi in due frasi.",
+          "keywords": [
+            "capisco",
+            "parlo"
+          ],
+          "modelAnswer": "Capisco l'italiano, ma non parlo molto bene."
+        }
+      ]
+    },
+    {
+      "id": "a1-04-l3",
+      "title": "Che ore sono?",
+      "minutes": 8,
+      "goal": "You can ask and tell the time.",
+      "takeaway": "È l'una; sono le due, le tre… Add e mezza, e un quarto, meno un quarto.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-04-l3-e01",
+          "stage": "warmup",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Loro ___ l'italiano. (capire)",
+          "answers": [
+            "capiscono"
+          ],
+          "explanation": "Capire adds -isc- with loro: capiscono."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l3-e02",
+          "stage": "learn",
+          "title": "Numeri e ore",
+          "body": "Ask: **Che ore sono?** Say: **Sono le** + number.\n\n| 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|\n| una | due | tre | quattro | cinque | sei |\n\n| 7 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|\n| sette | otto | nove | dieci | undici | dodici |\n\n> 1:00 is the exception: **È l'una**.",
+          "examples": [
+            {
+              "it": "Che ore sono? Sono le tre.",
+              "en": "What time is it? It's three o'clock."
+            },
+            {
+              "it": "È l'una.",
+              "en": "It's one o'clock."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l3-e03",
+          "stage": "learn",
+          "title": "E mezza, e un quarto",
+          "body": "Add the minutes with **e**.\n\n| ora | si dice |\n|---|---|\n| 3:15 | Sono le tre ==e un quarto== |\n| 3:30 | Sono le tre ==e mezza== |\n| 3:45 | Sono le quattro ==meno un quarto== |\n| 3:10 | Sono le tre ==e dieci== |\n\n> Noon is **mezzogiorno**, midnight **mezzanotte**: È mezzogiorno.",
+          "examples": [
+            {
+              "it": "Sono le otto e mezza.",
+              "en": "It's half past eight."
+            },
+            {
+              "it": "È mezzogiorno.",
+              "en": "It's noon."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-04-l3-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Sono le otto e mezza.",
+          "question": "Che ora è?",
+          "options": [
+            "8:30",
+            "8:15",
+            "7:30"
+          ],
+          "answer": 0,
+          "explanation": "E mezza means half past: 8:30."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-04-l3-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "È l'una.",
+          "question": "Che ora è?",
+          "options": [
+            "1:00",
+            "2:00",
+            "11:00"
+          ],
+          "answer": 0,
+          "explanation": "È l'una is the only singular form: 1:00."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-04-l3-e06",
+          "stage": "practise",
+          "instruction": "Collega le coppie.",
+          "pairs": [
+            {
+              "left": "3:00",
+              "right": "Sono le tre"
+            },
+            {
+              "left": "1:00",
+              "right": "È l'una"
+            },
+            {
+              "left": "6:30",
+              "right": "Sono le sei e mezza"
+            },
+            {
+              "left": "9:15",
+              "right": "Sono le nove e un quarto"
+            },
+            {
+              "left": "11:45",
+              "right": "Sono le dodici meno un quarto"
+            }
+          ],
+          "explanation": "Use sono le + number; add e mezza, e un quarto or meno un quarto."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-04-l3-e07",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "How do you say 1:00?",
+          "options": [
+            "È l'una.",
+            "Sono le una.",
+            "Sono l'una."
+          ],
+          "answer": 0,
+          "explanation": "One o'clock is singular: è l'una."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-04-l3-e08",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Sono le sette e ___. (7:30)",
+          "answers": [
+            "mezza"
+          ],
+          "explanation": "E mezza means half past."
+        },
+        {
+          "type": "translate",
+          "id": "a1-04-l3-e09",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "It is ten o'clock.",
+          "answers": [
+            "Sono le dieci.",
+            "Sono le dieci"
+          ],
+          "explanation": "Use sono le + the number for all hours except one."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-04-l3-e10",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Guarda l'orologio. Che ore sono? Say the time.",
+          "keywords": [
+            "sono le",
+            "è l'una"
+          ],
+          "modelAnswer": "Sono le nove e un quarto."
+        }
+      ]
+    },
+    {
+      "id": "a1-04-l4",
+      "title": "Alle otto",
+      "minutes": 8,
+      "goal": "You can say what you do and at what time.",
+      "takeaway": "A che ora? → alle + number (all'una, a mezzogiorno).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-04-l4-e01",
+          "stage": "warmup",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Which is 6:15?",
+          "options": [
+            "Sono le sei e un quarto.",
+            "Sono le sei e mezza.",
+            "Sono le sette meno un quarto."
+          ],
+          "answer": 0,
+          "explanation": "E un quarto means a quarter past."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l4-e02",
+          "stage": "learn",
+          "title": "A che ora?",
+          "body": "Ask: **A che ora…?** Answer with **alle** + number.\n\n| domanda | risposta |\n|---|---|\n| A che ora finisci? | Finisco ==alle== cinque. |\n| A che ora ceni? | Ceno ==alle== otto. |\n| A che ora parte il treno? | Parte ==all'==una. |\n\n> 1:00 is **all'una**; noon is **a mezzogiorno**.",
+          "examples": [
+            {
+              "it": "Il lavoro comincia alle nove.",
+              "en": "Work starts at nine."
+            },
+            {
+              "it": "Ceno alle otto.",
+              "en": "I have dinner at eight."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-04-l4-e03",
+          "stage": "learn",
+          "title": "La mattina, la sera",
+          "body": "Parts of the day:\n\n| italiano | inglese |\n|---|---|\n| ==la mattina== | in the morning |\n| ==il pomeriggio== | in the afternoon |\n| ==la sera== | in the evening |\n| ==di solito== | usually |\n\n> **Cenare** (to have dinner) and **cominciare** (to start) are regular -are verbs.",
+          "examples": [
+            {
+              "it": "La mattina prendo un caffè.",
+              "en": "In the morning I have a coffee."
+            },
+            {
+              "it": "La sera di solito cucino.",
+              "en": "In the evening I usually cook."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-04-l4-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Finisco ___ cinque.",
+          "options": [
+            "alle",
+            "a",
+            "all'"
+          ],
+          "answer": 0,
+          "explanation": "Use alle before a plural hour (le cinque)."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-04-l4-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Il lavoro comincia alle nove.",
+          "question": "Quando comincia il lavoro?",
+          "options": [
+            "9:00",
+            "8:00",
+            "6:00"
+          ],
+          "answer": 0,
+          "explanation": "Alle nove means at nine."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-04-l4-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Ceno alle ___. (8:00)",
+          "answers": [
+            "otto"
+          ],
+          "explanation": "Alle + the number: alle otto."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-04-l4-e07",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "I finish at five.",
+          "tiles": [
+            "Finisco",
+            "alle",
+            "cinque"
+          ],
+          "distractors": [
+            "alla",
+            "Finisci"
+          ],
+          "explanation": "Finisco is the io form; alle + number gives the time."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-04-l4-e08",
+          "stage": "practise",
+          "instruction": "Correggi la frase.",
+          "sentence": "Finisco a le cinque.",
+          "answers": [
+            "Finisco alle cinque.",
+            "Finisco alle cinque"
+          ],
+          "explanation": "A + le becomes alle."
+        },
+        {
+          "type": "reading",
+          "id": "a1-04-l4-e09",
+          "stage": "practise",
+          "instruction": "Leggi e rispondi.",
+          "title": "La giornata di Marta",
+          "passage": "La mattina Marta prende un caffè e legge. Il lavoro comincia alle nove e finisce alle cinque. La sera cucina e guarda un film.",
+          "questions": [
+            {
+              "question": "A che ora comincia il lavoro di Marta? (When does Marta's work start?)",
+              "options": [
+                "alle nove",
+                "alle cinque",
+                "alle otto"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa fa la sera? (What does she do in the evening?)",
+              "options": [
+                "Cucina e guarda un film",
+                "Legge un libro",
+                "Finisce il lavoro"
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Read for the key details: names, actions and times."
+        },
+        {
+          "type": "free_write",
+          "id": "a1-04-l4-e10",
+          "stage": "use",
+          "instruction": "Scrivi in italiano.",
+          "prompt": "Scrivi 4 frasi sulla tua giornata. Usa: la mattina, il pomeriggio, la sera e un'ora (alle…).",
+          "minWords": 15,
+          "checklist": [
+            "4 frasi",
+            "almeno un'ora con alle / all'",
+            "i verbi hanno la forma io (-o)"
+          ],
+          "modelAnswer": "La mattina prendo un caffè. Il lavoro comincia alle nove. Il pomeriggio studio italiano. La sera ceno alle otto."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "prendere",
+      "en": "to take, to have",
+      "example": "Prendo un caffè."
+    },
+    {
+      "it": "leggere",
+      "en": "to read",
+      "example": "Leggo un libro."
+    },
+    {
+      "it": "scrivere",
+      "en": "to write",
+      "example": "Scrivo una mail."
+    },
+    {
+      "it": "vedere",
+      "en": "to see",
+      "example": "Vedo un film."
+    },
+    {
+      "it": "vivere",
+      "en": "to live",
+      "example": "Vivo a Roma."
+    },
+    {
+      "it": "dormire",
+      "en": "to sleep",
+      "example": "Dormo bene."
+    },
+    {
+      "it": "partire",
+      "en": "to leave",
+      "example": "Il treno parte alle otto."
+    },
+    {
+      "it": "aprire",
+      "en": "to open",
+      "example": "Apro la porta."
+    },
+    {
+      "it": "finire",
+      "en": "to finish",
+      "example": "Finisco alle cinque."
+    },
+    {
+      "it": "capire",
+      "en": "to understand",
+      "example": "Non capisco."
+    },
+    {
+      "it": "preferire",
+      "en": "to prefer",
+      "example": "Preferisco il tè."
+    },
+    {
+      "it": "Che ore sono?",
+      "en": "What time is it?",
+      "example": "Che ore sono? Sono le tre."
+    },
+    {
+      "it": "A che ora…?",
+      "en": "At what time…?",
+      "example": "A che ora ceni?"
+    },
+    {
+      "it": "mezzogiorno",
+      "en": "noon",
+      "example": "È mezzogiorno."
+    },
+    {
+      "it": "la mattina",
+      "en": "in the morning",
+      "example": "La mattina prendo un caffè."
+    },
+    {
+      "it": "il pomeriggio",
+      "en": "in the afternoon",
+      "example": "Il pomeriggio studio."
+    },
+    {
+      "it": "la sera",
+      "en": "in the evening",
+      "example": "La sera cucino."
+    },
+    {
+      "it": "di solito",
+      "en": "usually",
+      "example": "Di solito ceno alle otto."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-04-t1",
+      "rule": "-ere: -o, -i, -e, -iamo, -ete, -ono",
+      "tip": "Regular -ere verbs: prendo, prendi, prende, prendiamo, prendete, prendono.",
+      "example": {
+        "it": "Leggo un libro.",
+        "en": "I read a book."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Voi ___ un caffè. (prendere)",
+        "answers": [
+          "prendete"
+        ],
+        "explanation": "Voi goes with -ete for -ere verbs."
+      }
+    },
+    {
+      "id": "a1-04-t2",
+      "rule": "-ire e -isc-",
+      "tip": "Finire, capire, preferire add -isc- in io, tu, lui / lei, loro: finisco, capisci.",
+      "example": {
+        "it": "Capisco l'italiano.",
+        "en": "I understand Italian."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Io ___ (finire) alle cinque.",
+        "answers": [
+          "finisco"
+        ],
+        "explanation": "Finire adds -isc- with io."
+      }
+    },
+    {
+      "id": "a1-04-t3",
+      "rule": "È l'una, sono le due",
+      "tip": "1:00 is è l'una; all the other hours are sono le + number.",
+      "example": {
+        "it": "Sono le tre e mezza.",
+        "en": "It's half past three."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "3:00",
+        "options": [
+          "Sono le tre.",
+          "È le tre.",
+          "È l'tre."
+        ],
+        "answer": 0,
+        "explanation": "Hours from two onwards use sono le."
+      }
+    },
+    {
+      "id": "a1-04-t4",
+      "rule": "A che ora? Alle…",
+      "tip": "Give the time of an action with alle + number; all'una for 1:00.",
+      "example": {
+        "it": "Ceno alle otto.",
+        "en": "I have dinner at eight."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "I finish at five.",
+        "answers": [
+          "Finisco alle cinque.",
+          "Finisco alle cinque"
+        ],
+        "explanation": "Alle + number gives the time."
+      }
+    }
+  ]
+}

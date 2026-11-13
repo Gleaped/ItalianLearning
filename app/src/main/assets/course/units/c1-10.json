@@ -2,6 +2,8 @@
   "id": "c1-10",
   "level": "C1",
   "title": "Ripasso finale",
+  "format": 2,
+  "module": "c1-m3",
   "objective": "Alla fine del percorso sai argomentare a lungo, mediare tra posizioni diverse, riferire e scrivere testi formali usando con sicurezza le strutture di B2 e C1.",
   "grammarFocus": "Ripasso cumulativo: concordanza dei tempi, periodo ipotetico (anche misto), passivo e andare + participio, discorso indiretto, passato remoto, ordine marcato, registro formale e burocratese, verbi pronominali, congiuntivo avanzato, connettivi e mediazione.",
   "remedialUnitIds": [
@@ -16,6 +18,8 @@
       "id": "c1-10-l1",
       "title": "Precisione grammaticale",
       "minutes": 10,
+      "goal": "You can check your accuracy on the key B2 and C1 structures.",
+      "takeaway": "Match the tense to the time frame: check congiuntivo, passive, indirect speech and clitics.",
       "exercises": [
         {
           "type": "multiple_choice",
@@ -29,41 +33,8 @@
           ],
           "answer": 0,
           "instruction": "Riscaldamento (b2-09): scegli la forma giusta.",
-          "explanation": "Periodo ipotetico dell'irrealtà nel passato: se + trapassato congiuntivo → condizionale passato."
-        },
-        {
-          "type": "gap_fill",
-          "id": "c1-10-l1-e02",
-          "sentence": "Dante ___ (nascere) a Firenze nel 1265.",
-          "answers": [
-            "nacque"
-          ],
-          "hint": "nascere – lui",
-          "instruction": "Riscaldamento (c1-02): completa con il passato remoto."
-        },
-        {
-          "type": "grammar_note",
-          "id": "c1-10-l1-e03",
-          "title": "Ripasso: le strutture chiave del percorso",
-          "body": "Prima della prova, ripassa le strutture che fanno la differenza tra B2 e C1:\n\n- **Concordanza dei tempi**: principale al passato → congiuntivo imperfetto/trapassato: *Pensavo che fossi già partito.*\n- **Periodo ipotetico misto**: *Se avessi accettato quel lavoro, ora vivrei a Milano.*\n- **Passivo**: *Il progetto è stato approvato / venne approvato*; **andare + participio**: *va firmato*.\n- **Discorso indiretto** al passato: futuro → condizionale passato: *«Tornerò» → Disse che sarebbe tornato.*\n- **Ordine marcato** (c1-03): *Il caffè lo prendo amaro. È stato lui a decidere.*\n- **Verbi pronominali** (c1-06): *ce l'ho fatta, me la sono cavata.*\n- **Congiuntivo avanzato** (c1-08): *come se fosse, chiunque sia, il migliore che io abbia visto.*",
-          "examples": [
-            {
-              "it": "Pensavo che tu fossi già partito.",
-              "en": "I thought you had already left."
-            },
-            {
-              "it": "Se avessi accettato, ora vivrei a Milano.",
-              "en": "If I had accepted, I'd be living in Milan now."
-            },
-            {
-              "it": "Disse che sarebbe tornato il giorno dopo.",
-              "en": "He said he would come back the next day."
-            },
-            {
-              "it": "È stato il direttore a decidere.",
-              "en": "It was the director who decided."
-            }
-          ]
+          "explanation": "Periodo ipotetico dell'irrealtà nel passato: se + trapassato congiuntivo → condizionale passato.",
+          "stage": "warmup"
         },
         {
           "type": "reading",
@@ -113,29 +84,34 @@
             }
           ],
           "instruction": "Leggi il testo e scegli la forma giusta per ogni spazio numerato.",
-          "explanation": "(1) concordanza al passato → congiuntivo imperfetto; (2) metterci al passato remoto (io misi); (3) chiunque + congiuntivo; (4) se + congiuntivo imperfetto → condizionale presente."
+          "explanation": "(1) concordanza al passato → congiuntivo imperfetto; (2) metterci al passato remoto (io misi); (3) chiunque + congiuntivo; (4) se + congiuntivo imperfetto → condizionale presente.",
+          "stage": "practise"
         },
         {
-          "type": "gap_fill",
+          "type": "transform",
           "id": "c1-10-l1-e05",
-          "sentence": "Il Comune ha approvato il progetto. → Il progetto ___ dal Comune.",
-          "answers": [
-            "è stato approvato",
-            "fu approvato",
-            "venne approvato"
-          ],
+          "stage": "practise",
           "instruction": "Trasforma la frase al passivo.",
-          "explanation": "Passato prossimo passivo: è stato + participio accordato."
+          "source": "Il Comune ha approvato il progetto.",
+          "cue": "→ passivo (passato prossimo)",
+          "answers": [
+            "Il progetto è stato approvato dal Comune."
+          ],
+          "explanation": "Passive in the passato prossimo: è stato + participle agreeing with the subject."
         },
         {
-          "type": "gap_fill",
+          "type": "transform",
           "id": "c1-10-l1-e06",
-          "sentence": "«Tornerò domani», disse. → Disse che ___ il giorno dopo.",
-          "answers": [
-            "sarebbe tornato"
-          ],
+          "stage": "practise",
           "instruction": "Trasforma in discorso indiretto.",
-          "explanation": "Futuro nel passato = condizionale passato; domani → il giorno dopo."
+          "source": "«Tornerò domani», disse.",
+          "cue": "→ Disse che…",
+          "answers": [
+            "Disse che sarebbe tornato il giorno dopo.",
+            "Disse che sarebbe tornata il giorno dopo.",
+            "Disse che sarebbe tornato l'indomani."
+          ],
+          "explanation": "Future in the past becomes the conditional perfect; domani becomes il giorno dopo."
         },
         {
           "type": "gap_fill",
@@ -145,18 +121,21 @@
             "lo"
           ],
           "instruction": "Completa la dislocazione con il pronome.",
-          "explanation": "Oggetto dislocato a sinistra → ripresa con il pronome clitico."
+          "explanation": "A left-dislocated object is picked up again by a clitic pronoun.",
+          "stage": "practise"
         },
         {
-          "type": "error_correction",
+          "type": "choose_mood",
           "id": "c1-10-l1-e08",
-          "sentence": "Pensavo che tu sei già partito.",
-          "answers": [
-            "Pensavo che tu fossi già partito.",
-            "Pensavo che fossi già partito."
+          "stage": "practise",
+          "instruction": "Scegli il modo e scrivi il verbo.",
+          "sentence": "Pensavo che tu ___ già partito.",
+          "verb": "essere",
+          "answer": 1,
+          "forms": [
+            "fossi"
           ],
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "explanation": "Pensavo che + anteriorità → congiuntivo trapassato."
+          "explanation": "Past main verb + a thought: congiuntivo imperfetto."
         },
         {
           "type": "error_correction",
@@ -166,7 +145,8 @@
             "Alla fine ce l'abbiamo fatta."
           ],
           "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "explanation": "Farcela: il participio concorda con la."
+          "explanation": "Farcela: il participio concorda con la.",
+          "stage": "practise"
         },
         {
           "type": "sentence_build",
@@ -187,7 +167,8 @@
             "era"
           ],
           "instruction": "Metti le parole in ordine.",
-          "explanation": "Frase scissa: essere + elemento messo in rilievo + a + infinito."
+          "explanation": "Frase scissa: essere + elemento messo in rilievo + a + infinito.",
+          "stage": "practise"
         },
         {
           "type": "conjugation",
@@ -220,14 +201,9 @@
               "answer": "fecero"
             }
           ],
-          "instruction": "Ripassa il passato remoto di fare."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "c1-10-l1-e12",
-          "text": "Se avessi saputo che il termine era scaduto, avrei presentato la domanda prima.",
-          "translation": "If I had known the deadline had passed, I would have submitted the application earlier.",
-          "instruction": "Ascolta e ripeti ad alta voce."
+          "instruction": "Ripassa il passato remoto di fare.",
+          "stage": "practise",
+          "explanation": "The passato remoto of fare is irregular: feci, facesti, fece, facemmo, faceste, fecero."
         },
         {
           "type": "speak_respond",
@@ -240,7 +216,8 @@
           ],
           "modelAnswer": "L'ultima volta il medico mi ha detto che avrei dovuto fare più movimento e che la pressione era un po' alta. Mi ha chiesto se dormissi bene e mi ha consigliato di bere meno caffè. Ha aggiunto che, se le cose non fossero migliorate, avremmo fatto altri esami.",
           "instruction": "Rispondi ad alta voce in 3–4 frasi.",
-          "explanation": "Discorso indiretto al passato: dovrai → avrei dovuto; dormi? → se dormissi."
+          "explanation": "Discorso indiretto al passato: dovrai → avrei dovuto; dormi? → se dormissi.",
+          "stage": "use"
         }
       ]
     },
@@ -248,6 +225,8 @@
       "id": "c1-10-l2",
       "title": "Registro formale: leggere e scrivere",
       "minutes": 10,
+      "goal": "You can read and write a formal letter in the right register.",
+      "takeaway": "Formal Italian means Lei, fixed formulas and nouns instead of verbs.",
       "exercises": [
         {
           "type": "multiple_choice",
@@ -260,7 +239,9 @@
             "Bisogna presentarlo prima di aprile."
           ],
           "answer": 0,
-          "instruction": "Riscaldamento (c1-07): scegli il significato."
+          "instruction": "Riscaldamento (c1-07): scegli il significato.",
+          "stage": "warmup",
+          "explanation": "Da presentare entro e non oltre means the date is the last possible day."
         },
         {
           "type": "gap_fill",
@@ -270,7 +251,9 @@
             "fosse",
             "sia"
           ],
-          "instruction": "Riscaldamento: completa con il congiuntivo."
+          "instruction": "Riscaldamento: completa con il congiuntivo.",
+          "stage": "practise",
+          "explanation": "Qualora + congiuntivo means \"if, in case\" in formal writing."
         },
         {
           "type": "reading",
@@ -320,7 +303,8 @@
             }
           ],
           "instruction": "Leggi l'articolo e rispondi alle domande.",
-          "explanation": "Nota i connettivi che organizzano il testo: eppure (svolta), inoltre (aggiunta), insomma (conclusione)."
+          "explanation": "Nota i connettivi che organizzano il testo: eppure (svolta), inoltre (aggiunta), insomma (conclusione).",
+          "stage": "practise"
         },
         {
           "type": "match_pairs",
@@ -347,7 +331,9 @@
               "right": "La ringrazio anticipatamente per l'attenzione."
             }
           ],
-          "instruction": "Abbina la frase informale alla versione formale."
+          "instruction": "Abbina la frase informale alla versione formale.",
+          "stage": "practise",
+          "explanation": "Formal letters swap informal phrases for fixed formulas."
         },
         {
           "type": "translate",
@@ -368,7 +354,9 @@
             "Le scrivo in merito alla fattura che ho ricevuto in data 10 maggio.",
             "Le scrivo in merito alla fattura ricevuta in data 10 maggio."
           ],
-          "instruction": "Traduci in italiano (registro formale)."
+          "instruction": "Traduci in italiano (registro formale).",
+          "stage": "practise",
+          "explanation": "Le scrivo in merito a… opens a formal letter about a topic."
         },
         {
           "type": "error_correction",
@@ -383,7 +371,45 @@
             "Gentile Dottoressa Ferri Le scrivo per chiedere un appuntamento."
           ],
           "instruction": "C'è un errore di registro. Riscrivi la frase corretta.",
-          "explanation": "Con una dottoressa si usa il Lei: Le scrivo (spesso con la maiuscola di cortesia)."
+          "explanation": "A formal letter uses Lei, not tu.",
+          "stage": "practise"
+        },
+        {
+          "type": "sort_buckets",
+          "id": "c1-10-l2-e09",
+          "stage": "practise",
+          "instruction": "Informale o formale? Metti ogni formula nel gruppo giusto.",
+          "buckets": [
+            "Informale",
+            "Formale"
+          ],
+          "items": [
+            {
+              "text": "Ti scrivo per…",
+              "bucket": 0
+            },
+            {
+              "text": "Le scrivo in merito a…",
+              "bucket": 1
+            },
+            {
+              "text": "Fammi sapere.",
+              "bucket": 0
+            },
+            {
+              "text": "Resto in attesa di un Suo cortese riscontro.",
+              "bucket": 1
+            },
+            {
+              "text": "Ciao e a presto!",
+              "bucket": 0
+            },
+            {
+              "text": "Porgo distinti saluti.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Formal letters use fixed courtesy formulas with Lei."
         },
         {
           "type": "gap_fill",
@@ -393,7 +419,8 @@
             "rinnovo"
           ],
           "instruction": "Nominalizza il verbo tra parentesi.",
-          "explanation": "Rinnovare → il rinnovo: lo stile formale preferisce i nomi ai verbi."
+          "explanation": "Rinnovare → il rinnovo: lo stile formale preferisce i nomi ai verbi.",
+          "stage": "practise"
         },
         {
           "type": "listen_choose",
@@ -407,39 +434,9 @@
             "Una lettera di presentazione."
           ],
           "answer": 0,
-          "instruction": "Ascolta il messaggio in segreteria e rispondi."
-        },
-        {
-          "type": "multiple_choice",
-          "id": "c1-10-l2-e09",
-          "prompt": "Quale frase chiude meglio la lettera?",
-          "options": [
-            "In attesa di un Suo cortese riscontro, porgo distinti saluti.",
-            "Ciao e a presto!",
-            "Fammi sapere qualcosa, grazie.",
-            "Rispondete subito, è urgente!"
-          ],
-          "answer": 0,
-          "instruction": "Scegli la chiusura più adatta a una lettera formale di reclamo."
-        },
-        {
-          "type": "speak_respond",
-          "id": "c1-10-l2-e10",
-          "prompt": "Lascia un messaggio in segreteria all'amministratore di condominio: c'è un'infiltrazione d'acqua nel soffitto del tuo bagno. Spiega il problema e chiedi un sopralluogo urgente.",
-          "keywords": [
-            "la chiamo",
-            "sopralluogo",
-            "la ringrazio"
-          ],
-          "modelAnswer": "Buongiorno, sono l'inquilino dell'interno 8 di via Verdi 14. La chiamo in merito a un'infiltrazione d'acqua nel soffitto del bagno, che da ieri si è allargata parecchio. Temo che il problema venga dal terrazzo condominiale. Le sarei grato se potesse organizzare un sopralluogo al più presto. Mi può richiamare a questo numero. La ringrazio e buona giornata.",
-          "instruction": "Rispondi ad alta voce (registro formale)."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "c1-10-l2-e11",
-          "text": "Resto in attesa di un Suo cortese riscontro e porgo distinti saluti.",
-          "translation": "I look forward to your kind reply. Yours sincerely.",
-          "instruction": "Ascolta e ripeti ad alta voce."
+          "instruction": "Ascolta il messaggio in segreteria e rispondi.",
+          "stage": "practise",
+          "explanation": "The message says the signed form is missing."
         },
         {
           "type": "free_write",
@@ -454,7 +451,8 @@
             "Ho usato il Lei/Voi in modo coerente e ho controllato congiuntivi e concordanze."
           ],
           "modelAnswer": "Oggetto: reclamo per lavatrice danneggiata – ordine n. 45821\n\nSpettabile Servizio Clienti,\n\nin data 3 ottobre ho acquistato sul Vostro sito una lavatrice, consegnata il 10 ottobre. Aperto l'imballo, ho constatato che lo sportello era rotto e la parte posteriore presentava un'ammaccatura evidente. Il giorno stesso ho segnalato il problema tramite il modulo online, allegando le fotografie del danno. Non avendo ricevuto alcuna risposta a distanza di due settimane, mi vedo costretto a scriverVi nuovamente. Vi chiedo pertanto la sostituzione dell'apparecchio o, in alternativa, il rimborso integrale dell'importo pagato, entro e non oltre il 15 novembre. Qualora non ricevessi un riscontro entro tale data, mi riserverò di rivolgermi a un'associazione dei consumatori. Restando in attesa di un Vostro cortese riscontro, porgo distinti saluti.\n\n[Nome e cognome]",
-          "instruction": "Scrivi un'email formale di reclamo."
+          "instruction": "Scrivi un'email formale di reclamo.",
+          "stage": "use"
         }
       ]
     },
@@ -462,6 +460,8 @@
       "id": "c1-10-l3",
       "title": "Argomentare e mediare",
       "minutes": 10,
+      "goal": "You can build an argument, answer objections and mediate a discussion.",
+      "takeaway": "Organise with connectors, soften with the conditional, close with a proposal.",
       "exercises": [
         {
           "type": "multiple_choice",
@@ -475,7 +475,8 @@
           ],
           "answer": 0,
           "instruction": "Riscaldamento (c1-09): scegli il connettivo.",
-          "explanation": "Tuttavia introduce un contrasto: costoso, ma conveniente nel lungo periodo."
+          "explanation": "Tuttavia introduce un contrasto: costoso, ma conveniente nel lungo periodo.",
+          "stage": "warmup"
         },
         {
           "type": "gap_fill",
@@ -484,7 +485,9 @@
           "answers": [
             "voglia"
           ],
-          "instruction": "Riscaldamento (c1-08): completa con il congiuntivo."
+          "instruction": "Riscaldamento (cg-08): completa con il congiuntivo.",
+          "stage": "practise",
+          "explanation": "Chiunque + congiuntivo means \"whoever\"."
         },
         {
           "type": "reading",
@@ -524,7 +527,8 @@
             }
           ],
           "instruction": "Leggi il testo argomentativo e rispondi alle domande.",
-          "explanation": "Struttura argomentativa: tesi dei sostenitori → tuttavia (antitesi) → inoltre → direi che (conclusione attenuata)."
+          "explanation": "Struttura argomentativa: tesi dei sostenitori → tuttavia (antitesi) → inoltre → direi che (conclusione attenuata).",
+          "stage": "practise"
         },
         {
           "type": "multiple_choice",
@@ -538,7 +542,8 @@
           ],
           "answer": 0,
           "instruction": "Rileggi il testo: che funzione ha «il che» nella frase «il che crea nuove disuguaglianze»?",
-          "explanation": "Il che = e questo fatto: riprende un'intera frase."
+          "explanation": "Il che = e questo fatto: riprende un'intera frase.",
+          "stage": "practise"
         },
         {
           "type": "gap_fill",
@@ -547,7 +552,9 @@
           "answers": [
             "fosse"
           ],
-          "instruction": "Completa con il congiuntivo."
+          "instruction": "Completa con il congiuntivo.",
+          "stage": "practise",
+          "explanation": "Come se is followed by the congiuntivo imperfetto."
         },
         {
           "type": "translate",
@@ -572,18 +579,9 @@
             "It's not that it's wrong, but I'd say it's a little premature.",
             "It's not that it's wrong but I'd say it's a little premature."
           ],
-          "instruction": "Traduci in inglese."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "c1-10-l3-e07",
-          "audioText": "Tutto sommato, mi pare che entrambe le proposte abbiano dei vantaggi.",
-          "answers": [
-            "Tutto sommato, mi pare che entrambe le proposte abbiano dei vantaggi.",
-            "Tutto sommato mi pare che entrambe le proposte abbiano dei vantaggi."
-          ],
-          "slow": true,
-          "instruction": "Ascolta e scrivi la frase."
+          "instruction": "Traduci in inglese.",
+          "stage": "practise",
+          "explanation": "Non che + congiuntivo means \"not that…\"."
         },
         {
           "type": "multiple_choice",
@@ -596,7 +594,33 @@
             "Smettetela di litigare!"
           ],
           "answer": 0,
-          "instruction": "Scegli la frase migliore per un mediatore."
+          "instruction": "Scegli la frase migliore per un mediatore.",
+          "stage": "practise",
+          "explanation": "A mediator finds common ground and proposes with e se + imperfetto."
+        },
+        {
+          "type": "sentence_build",
+          "id": "c1-10-l3-e12",
+          "translation": "Summing up, it seems to me that both proposals have their merits.",
+          "tiles": [
+            "Riassumendo",
+            "mi",
+            "pare",
+            "che",
+            "entrambe",
+            "le",
+            "proposte",
+            "abbiano",
+            "dei",
+            "meriti"
+          ],
+          "distractors": [
+            "hanno",
+            "entrambi"
+          ],
+          "instruction": "Metti le parole in ordine.",
+          "explanation": "Mi pare che + congiuntivo; entrambe concorda con proposte (femminile).",
+          "stage": "practise"
         },
         {
           "type": "roleplay",
@@ -657,20 +681,8 @@
             }
           ],
           "instruction": "Sei il moderatore di una riunione di lavoro. Rispondi ad alta voce quando tocca a te.",
-          "explanation": "Hai usato la sequenza completa della mediazione e il lessico formale delle riunioni."
-        },
-        {
-          "type": "speak_respond",
-          "id": "c1-10-l3-e10",
-          "prompt": "Esprimi la tua opinione: è meglio vivere in una grande città o in un piccolo paese? Presenta pro e contro, poi la tua posizione.",
-          "keywords": [
-            "da un lato",
-            "dall'altro",
-            "tuttavia",
-            "direi"
-          ],
-          "modelAnswer": "Da un lato la grande città offre più lavoro, più servizi e una vita culturale ricca: cinema, mostre, collegamenti. Dall'altro, però, la vita è più cara e lo stress è più alto, soprattutto per il traffico. Il piccolo paese, invece, è più tranquillo e i rapporti sono più umani; tuttavia, i servizi sono pochi e chi non ha la macchina può sentirsi isolato. Tutto sommato, direi che la soluzione migliore sia una città media, che abbia i servizi essenziali senza il caos delle metropoli.",
-          "instruction": "Parla per circa un minuto."
+          "explanation": "Hai usato la sequenza completa della mediazione e il lessico formale delle riunioni.",
+          "stage": "use"
         },
         {
           "type": "free_write",
@@ -685,30 +697,8 @@
             "Ho mantenuto un registro formale e impersonale (si, nominalizzazioni)."
           ],
           "modelAnswer": "Negli ultimi anni il lavoro da remoto ha cambiato il rapporto tra le persone e le città. Da un lato, molti lavoratori hanno lasciato i grandi centri per trasferirsi in paesi più tranquilli, dove la vita costa meno e il tempo perso nel traffico si riduce. Dall'altro, i quartieri degli uffici si sono svuotati, e bar e negozi che vivevano dei pendolari faticano ad andare avanti.\n\nC'è chi sostiene che questo sia un rischio per le città, destinate a perdere vitalità. Tuttavia, credo che si tratti soprattutto di un'occasione: se gli spazi vuoti venissero trasformati in case, servizi e luoghi di incontro, i centri urbani potrebbero diventare più vivibili. Inoltre, il ritorno nei piccoli centri potrebbe frenarne lo spopolamento.\n\nInsomma, il lavoro da remoto non è né un bene né un male in sé. Tutto dipende da come lo si governa: benché il cambiamento sia ormai avviato, spetta alle amministrazioni fare in modo che ne beneficino tutti.",
-          "instruction": "Scrivi un testo argomentativo."
-        },
-        {
-          "type": "sentence_build",
-          "id": "c1-10-l3-e12",
-          "translation": "Summing up, it seems to me that both proposals have their merits.",
-          "tiles": [
-            "Riassumendo",
-            "mi",
-            "pare",
-            "che",
-            "entrambe",
-            "le",
-            "proposte",
-            "abbiano",
-            "dei",
-            "meriti"
-          ],
-          "distractors": [
-            "hanno",
-            "entrambi"
-          ],
-          "instruction": "Metti le parole in ordine.",
-          "explanation": "Mi pare che + congiuntivo; entrambe concorda con proposte (femminile)."
+          "instruction": "Scrivi un testo argomentativo.",
+          "stage": "use"
         }
       ]
     }

@@ -1,0 +1,1034 @@
+{
+  "id": "a2-01",
+  "level": "A2",
+  "title": "Che cosa stai facendo?",
+  "format": 2,
+  "module": "a2-m1",
+  "objective": "By the end you can say what is happening right now (sto + gerundio), what someone is doing, and what is about to happen (sto per + infinito).",
+  "grammarFocus": "Stare + gerundio (regular and irregular: facendo, dicendo, bevendo), pronouns with stare + gerundio, stare per + infinito.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a2-01-l1",
+      "title": "Sto mangiando: stare + gerundio",
+      "minutes": 7,
+      "goal": "You can say what you are doing right now.",
+      "takeaway": "Sto / stai / sta… + gerundio: -are → -ando, -ere and -ire → -endo.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta di stare.",
+          "prompt": "Come ___ i tuoi genitori?",
+          "options": [
+            "stanno",
+            "sta",
+            "state",
+            "stiamo"
+          ],
+          "answer": 0,
+          "explanation": "Stare in the present: loro stanno."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l1-e02",
+          "stage": "learn",
+          "title": "Stare + gerundio",
+          "body": "To say what is happening **right now**, use **stare** + the **gerundio**.\n\n| persona | stare | gerundio |\n|---|---|---|\n| io | ==sto== | lavor==ando== |\n| tu | ==stai== | lavor==ando== |\n| lui/lei | ==sta== | lavor==ando== |\n| noi | ==stiamo== | lavor==ando== |\n| voi | ==state== | lavor==ando== |\n| loro | ==stanno== | lavor==ando== |\n\n> The gerundio never changes: only *stare* does.",
+          "examples": [
+            {
+              "it": "Sto lavorando.",
+              "en": "I'm working (right now)."
+            },
+            {
+              "it": "Stiamo mangiando.",
+              "en": "We're eating."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l1-e03",
+          "stage": "learn",
+          "title": "Il gerundio",
+          "body": "Replace the infinitive ending.\n\n| infinito | gerundio |\n|---|---|\n| parl==are== | parl==ando== |\n| prend==ere== | prend==endo== |\n| dorm==ire== | dorm==endo== |\n\n> Both -ere and -ire verbs end in ==-endo==.",
+          "examples": [
+            {
+              "it": "Luca sta prendendo un caffè.",
+              "en": "Luca is having a coffee."
+            },
+            {
+              "it": "I bambini stanno dormendo.",
+              "en": "The children are sleeping."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l1-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Non posso parlare adesso: ___ una mail.",
+          "options": [
+            "sto leggendo",
+            "sto leggere",
+            "sono leggendo",
+            "ho leggendo"
+          ],
+          "answer": 0,
+          "explanation": "Right now = stare + gerundio: sto leggendo."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-01-l1-e05",
+          "stage": "practise",
+          "instruction": "Metti ogni verbo nel gruppo del suo gerundio.",
+          "buckets": [
+            "-ando",
+            "-endo"
+          ],
+          "items": [
+            {
+              "text": "mangiare",
+              "bucket": 0
+            },
+            {
+              "text": "vendere",
+              "bucket": 1
+            },
+            {
+              "text": "partire",
+              "bucket": 1
+            },
+            {
+              "text": "lavorare",
+              "bucket": 0
+            },
+            {
+              "text": "scrivere",
+              "bucket": 1
+            },
+            {
+              "text": "finire",
+              "bucket": 1
+            }
+          ],
+          "explanation": "-are verbs give -ando; -ere and -ire verbs give -endo."
+        },
+        {
+          "type": "conjugation",
+          "id": "a2-01-l1-e06",
+          "stage": "practise",
+          "instruction": "Scrivi: stare + lavorare.",
+          "verb": "lavorare (stare + gerundio)",
+          "tense": "presente progressivo",
+          "items": [
+            {
+              "person": "io",
+              "answer": "sto lavorando"
+            },
+            {
+              "person": "tu",
+              "answer": "stai lavorando"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "sta lavorando"
+            },
+            {
+              "person": "noi",
+              "answer": "stiamo lavorando"
+            },
+            {
+              "person": "voi",
+              "answer": "state lavorando"
+            },
+            {
+              "person": "loro",
+              "answer": "stanno lavorando"
+            }
+          ],
+          "explanation": "Only stare changes; the gerundio stays lavorando."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-01-l1-e07",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Anna ___ (dormire): non fare rumore!",
+          "answers": [
+            "sta dormendo"
+          ],
+          "explanation": "Right now: sta + gerundio of dormire, which ends in -endo.",
+          "hint": "dormire – lei"
+        },
+        {
+          "type": "transform",
+          "id": "a2-01-l1-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con l'inizio indicato.",
+          "source": "Mangio una mela.",
+          "cue": "Adesso…",
+          "answers": [
+            "Adesso sto mangiando una mela.",
+            "Sto mangiando una mela adesso.",
+            "Adesso io sto mangiando una mela."
+          ],
+          "explanation": "Right now: sto + gerundio.",
+          "hint": "mangiare → mangiando"
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-01-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Che cosa stai facendo adesso? Dillo in due frasi.",
+          "keywords": [
+            "sto",
+            "stiamo"
+          ],
+          "modelAnswer": "Sto studiando italiano e sto ascoltando la musica."
+        }
+      ]
+    },
+    {
+      "id": "a2-01-l2",
+      "title": "Facendo, dicendo, bevendo",
+      "minutes": 7,
+      "goal": "You can ask and say what someone is doing, with fare, dire and bere.",
+      "takeaway": "Fare → facendo, dire → dicendo, bere → bevendo; ask: Che cosa stai facendo?",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a2-01-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: completa la frase.",
+          "sentence": "Noi ___ (aspettare) l'autobus.",
+          "answers": [
+            "stiamo aspettando"
+          ],
+          "explanation": "Stare (stiamo) + gerundio in -ando.",
+          "hint": "aspettare – noi"
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l2-e02",
+          "stage": "learn",
+          "title": "Fare, dire, bere",
+          "body": "These three have an **irregular gerundio**: old stem + **-endo**.\n\n| infinito | gerundio |\n|---|---|\n| fare | ==fac==endo |\n| dire | ==dic==endo |\n| bere | ==bev==endo |\n\n> Not *farendo*: say *facendo*.",
+          "examples": [
+            {
+              "it": "Sto bevendo un caffè.",
+              "en": "I'm drinking a coffee."
+            },
+            {
+              "it": "Che cosa stai dicendo?",
+              "en": "What are you saying?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l2-e03",
+          "stage": "learn",
+          "title": "La domanda",
+          "body": "Put the question word first. Keep **stare** + gerundio.\n\n| domanda | significato |\n|---|---|\n| Che cosa ==stai facendo==? | What are you doing? |\n| Dove ==stai andando==? | Where are you going? |\n| Con chi ==stai parlando==? | Who are you talking to? |\n\n> Answer with the same pattern: *Sto lavorando.*",
+          "examples": [
+            {
+              "it": "Che cosa state facendo?",
+              "en": "What are you (pl.) doing?"
+            },
+            {
+              "it": "Con chi sta parlando Anna?",
+              "en": "Who is Anna talking to?"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l2-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "— Che cosa stai ___? — Sto preparando la cena.",
+          "options": [
+            "facendo",
+            "fando",
+            "fatto",
+            "fare"
+          ],
+          "answer": 0,
+          "explanation": "Fare has the irregular gerundio facendo."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a2-01-l2-e05",
+          "stage": "practise",
+          "instruction": "Abbina l'infinito al gerundio.",
+          "pairs": [
+            {
+              "left": "fare",
+              "right": "facendo"
+            },
+            {
+              "left": "dire",
+              "right": "dicendo"
+            },
+            {
+              "left": "bere",
+              "right": "bevendo"
+            },
+            {
+              "left": "mangiare",
+              "right": "mangiando"
+            },
+            {
+              "left": "dormire",
+              "right": "dormendo"
+            },
+            {
+              "left": "leggere",
+              "right": "leggendo"
+            }
+          ],
+          "explanation": "Fare, dire and bere use old stems; the other verbs follow the regular -ando / -endo rule."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-01-l2-e06",
+          "stage": "practise",
+          "instruction": "Completa con il gerundio.",
+          "sentence": "Scusa, non ho capito: che cosa stai ___ (dire)?",
+          "answers": [
+            "dicendo"
+          ],
+          "explanation": "Dire has the irregular gerundio dicendo.",
+          "hint": "dire → ?"
+        },
+        {
+          "type": "transform",
+          "id": "a2-01-l2-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la domanda.",
+          "source": "Che cosa fai?",
+          "cue": "Adesso, con stare…",
+          "answers": [
+            "Che cosa stai facendo?"
+          ],
+          "explanation": "Right now: stai + gerundio of fare.",
+          "hint": "fare → facendo"
+        },
+        {
+          "type": "translate",
+          "id": "a2-01-l2-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "I'm drinking a coffee.",
+          "answers": [
+            "Sto bevendo un caffè.",
+            "Io sto bevendo un caffè."
+          ],
+          "explanation": "Bere → bevendo, with sto."
+        },
+        {
+          "type": "roleplay",
+          "id": "a2-01-l2-e09",
+          "stage": "use",
+          "instruction": "Parla ad alta voce quando tocca a te.",
+          "scenario": "A friend calls you while you are busy.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Ciao {name}! Che cosa stai facendo?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sto cucinando. E tu?",
+              "hint": "Say what you're doing, with sto + gerundio.",
+              "keywords": [
+                "sto"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Io sto guidando: sto tornando a casa. Che cosa stai preparando?"
+            },
+            {
+              "speaker": "you",
+              "text": "Sto preparando la pasta.",
+              "hint": "Same verb as the question: preparare.",
+              "keywords": [
+                "sto preparando"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Che buono! Ti richiamo più tardi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-01-l3",
+      "title": "Mi sto lavando: i pronomi",
+      "minutes": 7,
+      "goal": "You can use pronouns with stare + gerundio: mi sto vestendo, ti sto aspettando.",
+      "takeaway": "The pronoun goes before stare: mi sto lavando, ti sto aspettando.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Noi ___ un caffè.",
+          "options": [
+            "stiamo bevendo",
+            "stiamo bevando",
+            "stiamo bere",
+            "stanno bevendo"
+          ],
+          "answer": 0,
+          "explanation": "Noi → stiamo, and bere → bevendo."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l3-e02",
+          "stage": "learn",
+          "title": "Il pronome prima di stare",
+          "body": "A pronoun goes **before** stare.\n\n| frase | significato |\n|---|---|\n| ==Mi== sto vestendo. | I'm getting dressed. |\n| ==Ti== sto aspettando. | I'm waiting for you. |\n| ==Lo== sto leggendo. | I'm reading it. |\n\n> It can also attach to the gerundio (*sto aspettandoti*), but before *stare* is more common.",
+          "examples": [
+            {
+              "it": "Ti sto chiamando da dieci minuti.",
+              "en": "I've been calling you for ten minutes."
+            },
+            {
+              "it": "Lo sto guardando adesso.",
+              "en": "I'm watching it now."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l3-e03",
+          "stage": "learn",
+          "title": "I riflessivi",
+          "body": "Reflexive verbs keep their pronoun: **mi, ti, si, ci, vi, si**.\n\n| persona | lavarsi |\n|---|---|\n| io | ==mi== sto lavando |\n| tu | ==ti== stai lavando |\n| lui/lei | ==si== sta lavando |\n| noi | ==ci== stiamo lavando |\n| voi | ==vi== state lavando |\n| loro | ==si== stanno lavando |",
+          "examples": [
+            {
+              "it": "Mi sto preparando per uscire.",
+              "en": "I'm getting ready to go out."
+            },
+            {
+              "it": "Si stanno divertendo molto.",
+              "en": "They're having a great time."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l3-e04",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Aspetta un attimo, ___ vestendo!",
+          "options": [
+            "mi sto",
+            "sto",
+            "ti sto",
+            "si sta"
+          ],
+          "answer": 0,
+          "explanation": "I am getting dressed: the reflexive pronoun mi goes before sto."
+        },
+        {
+          "type": "conjugation",
+          "id": "a2-01-l3-e05",
+          "stage": "practise",
+          "instruction": "Scrivi: stare + lavarsi.",
+          "verb": "lavarsi (stare + gerundio)",
+          "tense": "presente progressivo",
+          "items": [
+            {
+              "person": "io",
+              "answer": "mi sto lavando"
+            },
+            {
+              "person": "tu",
+              "answer": "ti stai lavando"
+            },
+            {
+              "person": "lui/lei",
+              "answer": "si sta lavando"
+            },
+            {
+              "person": "noi",
+              "answer": "ci stiamo lavando"
+            },
+            {
+              "person": "voi",
+              "answer": "vi state lavando"
+            },
+            {
+              "person": "loro",
+              "answer": "si stanno lavando"
+            }
+          ],
+          "explanation": "Pronoun + stare + gerundio; the pronoun matches the subject."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-01-l3-e06",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Anna e Luca ___ (prepararsi) per la festa.",
+          "answers": [
+            "si stanno preparando",
+            "stanno preparandosi"
+          ],
+          "explanation": "Reflexive pronoun si goes before stanno.",
+          "hint": "prepararsi – loro"
+        },
+        {
+          "type": "transform",
+          "id": "a2-01-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Ti aspetto.",
+          "cue": "Adesso: sto + gerundio",
+          "answers": [
+            "Ti sto aspettando.",
+            "Sto aspettandoti."
+          ],
+          "explanation": "The pronoun goes before stare (or attaches to the gerundio).",
+          "hint": "aspettare → aspettando"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-01-l3-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase giusta.",
+          "sentence": "Sto mi preparando per uscire.",
+          "answers": [
+            "Mi sto preparando per uscire.",
+            "Sto preparandomi per uscire."
+          ],
+          "explanation": "The pronoun goes before stare or attaches to the gerundio, never between them."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a2-01-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Sei in ritardo e un amico ti telefona. Spiega che cosa stai facendo.",
+          "keywords": [
+            "mi sto",
+            "sto"
+          ],
+          "modelAnswer": "Scusa, sto arrivando! Mi sto mettendo le scarpe e poi esco."
+        }
+      ]
+    },
+    {
+      "id": "a2-01-l4",
+      "title": "Sto per…: sta per succedere",
+      "minutes": 8,
+      "goal": "You can say that something is about to happen.",
+      "takeaway": "Sto per + infinito = I'm about to; sto + gerundio = I'm in the middle of it.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Luca e Marco ___ giocando a calcio.",
+          "options": [
+            "stanno",
+            "sta",
+            "stiamo",
+            "state"
+          ],
+          "answer": 0,
+          "explanation": "Loro → stanno + gerundio."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l4-e02",
+          "stage": "learn",
+          "title": "Sto per + infinito",
+          "body": "**Stare per** + **infinito** = about to. It happens in a moment.\n\n| frase | significato |\n|---|---|\n| Sto ==per== uscire. | I'm about to go out. |\n| Il film sta ==per== finire. | The film is about to end. |\n| Il treno sta ==per== partire. | The train is about to leave. |\n\n> *Per* takes the infinito, not the gerundio.",
+          "examples": [
+            {
+              "it": "Corri! Il treno sta per partire.",
+              "en": "Run! The train is about to leave."
+            },
+            {
+              "it": "Scusa, sto per uscire.",
+              "en": "Sorry, I'm about to go out."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l4-e03",
+          "stage": "learn",
+          "title": "In corso o tra un attimo?",
+          "body": "Gerundio = **in progress**. **Per** + infinito = **not yet started**.\n\n| frase | significato |\n|---|---|\n| Sto ==uscendo==. | I'm going out (now). |\n| Sto ==per uscire==. | I'm about to go out. |\n| Sto ==mangiando==. | I'm eating. |\n| Sto ==per mangiare==. | I'm about to eat. |",
+          "examples": [
+            {
+              "it": "Sto cenando: ti richiamo.",
+              "en": "I'm having dinner: I'll call you back."
+            },
+            {
+              "it": "Sto per cenare: hai fame?",
+              "en": "I'm about to have dinner: are you hungry?"
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a2-01-l4-e04",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Sto mangiando.",
+            "Sto per mangiare."
+          ],
+          "question": "Which sentence means the meal has not started yet?",
+          "answer": 1,
+          "translations": [
+            "I'm eating.",
+            "I'm about to eat."
+          ],
+          "explanation": "Stare per + infinito means about to; stare + gerundio means in progress."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l4-e05",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Corri! Il treno ___ partire.",
+          "options": [
+            "sta per",
+            "sta",
+            "è per",
+            "sta a"
+          ],
+          "answer": 0,
+          "explanation": "About to happen = sta per + infinito."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-01-l4-e06",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Scusa, devo andare: la lezione ___ (cominciare).",
+          "answers": [
+            "sta per cominciare"
+          ],
+          "explanation": "Stare per + infinito for something about to begin.",
+          "hint": "about to start"
+        },
+        {
+          "type": "transform",
+          "id": "a2-01-l4-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Il film finisce tra un minuto.",
+          "cue": "Usa stare per…",
+          "answers": [
+            "Il film sta per finire."
+          ],
+          "explanation": "Stare per + infinito says it is about to happen.",
+          "hint": "finire"
+        },
+        {
+          "type": "translate",
+          "id": "a2-01-l4-e08",
+          "stage": "practise",
+          "instruction": "Traduci in italiano.",
+          "direction": "en_it",
+          "source": "The shop is about to close.",
+          "answers": [
+            "Il negozio sta per chiudere."
+          ],
+          "explanation": "Stare per + infinito: sta per chiudere."
+        },
+        {
+          "type": "reading",
+          "id": "a2-01-l4-e09",
+          "stage": "use",
+          "instruction": "Leggi e rispondi alle domande.",
+          "title": "Alla stazione",
+          "passage": "Sono alla stazione di Bologna. Il treno per Milano sta per partire, ma Giulia non è ancora arrivata. Sto aspettando davanti al binario 4 e la sto chiamando, ma non risponde. Ecco, sta arrivando di corsa!",
+          "questions": [
+            {
+              "question": "Che cosa sta per fare il treno?",
+              "options": [
+                "Partire",
+                "Arrivare",
+                "Fermarsi",
+                "Cambiare binario"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa sta facendo l'autore adesso?",
+              "options": [
+                "Sta salendo sul treno",
+                "Sta aspettando e chiamando Giulia",
+                "Sta comprando il biglietto",
+                "Sta correndo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa sta facendo Giulia alla fine?",
+              "options": [
+                "Sta arrivando di corsa",
+                "Sta dormendo",
+                "Sta partendo",
+                "Sta rispondendo al telefono"
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Sta per partire = about to leave; sto aspettando, sta arrivando = in progress."
+        }
+      ]
+    },
+    {
+      "id": "a2-01-l5",
+      "title": "Adesso o di solito?",
+      "minutes": 8,
+      "goal": "You can choose between the present and stare + gerundio.",
+      "takeaway": "Present for habits, facts and plans; stare + gerundio for what is happening now.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Il film ___ finire: restiamo!",
+          "options": [
+            "sta per",
+            "sta",
+            "è",
+            "fa per"
+          ],
+          "answer": 0,
+          "explanation": "About to happen = sta per + infinito."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l5-e02",
+          "stage": "learn",
+          "title": "Presente o stare + gerundio?",
+          "body": "Present = habits and facts. **Stare + gerundio** = this moment.\n\n| di solito | adesso |\n|---|---|\n| Di solito ==lavoro== in ufficio. | Oggi ==sto lavorando== da casa. |\n| Ogni giorno ==prendo== il treno. | Proprio ora ==sto prendendo== il treno. |\n\n> Plans use the present: *Domani parto per Roma.*",
+          "examples": [
+            {
+              "it": "Di solito studio la sera.",
+              "en": "I usually study in the evening."
+            },
+            {
+              "it": "Adesso sto studiando.",
+              "en": "I'm studying right now."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a2-01-l5-e03",
+          "stage": "learn",
+          "title": "I segnali",
+          "body": "Time words help you choose.\n\n| stare + gerundio | presente |\n|---|---|\n| ==adesso / ora== | ==di solito== |\n| ==in questo momento== | ==ogni giorno== |\n| ==proprio ora== | ==sempre / spesso== |",
+          "examples": [
+            {
+              "it": "In questo momento sto aspettando il medico.",
+              "en": "At the moment I'm waiting for the doctor."
+            },
+            {
+              "it": "Ogni giorno aspetto l'autobus alle otto.",
+              "en": "Every day I wait for the bus at eight."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a2-01-l5-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "presente (abitudine)",
+            "stare + gerundio (adesso)"
+          ],
+          "items": [
+            {
+              "text": "Di solito studio la sera.",
+              "bucket": 0
+            },
+            {
+              "text": "In questo momento sto studiando.",
+              "bucket": 1
+            },
+            {
+              "text": "Ogni giorno prendo il treno.",
+              "bucket": 0
+            },
+            {
+              "text": "Proprio ora sto prendendo il treno.",
+              "bucket": 1
+            },
+            {
+              "text": "Lavoro in banca.",
+              "bucket": 0
+            },
+            {
+              "text": "Sto lavorando e non posso parlare.",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Habits and facts use the present; what is happening now uses stare + gerundio."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a2-01-l5-e05",
+          "stage": "practise",
+          "instruction": "Scegli la forma giusta.",
+          "prompt": "Di solito Marco ___ in ufficio, ma oggi lavora da casa.",
+          "options": [
+            "va",
+            "sta andando",
+            "sta per andare",
+            "è andando"
+          ],
+          "answer": 0,
+          "explanation": "Di solito signals a habit: simple present."
+        },
+        {
+          "type": "find_trigger",
+          "id": "a2-01-l5-e06",
+          "stage": "practise",
+          "instruction": "Tocca le parole che indicano «adesso».",
+          "sentence": "In questo momento Luca sta parlando con il capo.",
+          "trigger": "In questo momento",
+          "explanation": "In questo momento means right now, so stare + gerundio fits."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a2-01-l5-e07",
+          "stage": "practise",
+          "instruction": "Completa la frase.",
+          "sentence": "Non posso uscire: ___ (studiare) per l'esame.",
+          "answers": [
+            "sto studiando"
+          ],
+          "explanation": "Right now: sto + gerundio.",
+          "hint": "studiare – io"
+        },
+        {
+          "type": "error_correction",
+          "id": "a2-01-l5-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase giusta.",
+          "sentence": "Ogni mattina sto prendendo il caffè al bar.",
+          "answers": [
+            "Ogni mattina prendo il caffè al bar."
+          ],
+          "explanation": "Ogni mattina signals a habit, so use the simple present."
+        },
+        {
+          "type": "free_write",
+          "id": "a2-01-l5-e09",
+          "stage": "use",
+          "instruction": "Scrivi un breve testo.",
+          "prompt": "Scrivi un messaggio a un amico (almeno 30 parole): che cosa stai facendo adesso e che cosa fai di solito.",
+          "minWords": 30,
+          "checklist": [
+            "Ho usato sto / sta + gerundio per adesso.",
+            "Ho usato il presente per le abitudini.",
+            "Ho usato almeno due segnali (adesso, di solito…)."
+          ],
+          "modelAnswer": "Ciao Marco! Adesso sto lavorando a casa e sto bevendo un caffè. Di solito lavoro in ufficio, ma oggi piove e preferisco restare qui. Tra poco sto per uscire a fare la spesa. E tu, che cosa stai facendo?"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "in questo momento",
+      "en": "at the moment",
+      "example": "In questo momento sto lavorando."
+    },
+    {
+      "it": "proprio ora",
+      "en": "right now",
+      "example": "Proprio ora sto uscendo."
+    },
+    {
+      "it": "adesso / ora",
+      "en": "now",
+      "example": "Adesso sto studiando."
+    },
+    {
+      "it": "tra poco",
+      "en": "soon, in a moment",
+      "example": "Tra poco sto per uscire."
+    },
+    {
+      "it": "un attimo",
+      "en": "a moment",
+      "example": "Aspetta un attimo, mi sto vestendo."
+    },
+    {
+      "it": "di corsa",
+      "en": "in a rush, running",
+      "example": "Sta arrivando di corsa."
+    },
+    {
+      "it": "sto arrivando",
+      "en": "I'm on my way",
+      "example": "Scusa, sto arrivando!"
+    },
+    {
+      "it": "fare rumore",
+      "en": "to make noise",
+      "example": "Non fare rumore: il bambino sta dormendo."
+    },
+    {
+      "it": "il binario",
+      "en": "platform (train)",
+      "example": "Il treno è al binario 4."
+    },
+    {
+      "it": "la cena",
+      "en": "dinner",
+      "example": "Sto preparando la cena."
+    },
+    {
+      "it": "richiamare",
+      "en": "to call back",
+      "example": "Ti richiamo più tardi."
+    },
+    {
+      "it": "guidare",
+      "en": "to drive",
+      "example": "Sto guidando: ti richiamo."
+    },
+    {
+      "it": "prepararsi",
+      "en": "to get ready",
+      "example": "Mi sto preparando per uscire."
+    },
+    {
+      "it": "lavarsi i denti",
+      "en": "to brush one's teeth",
+      "example": "Mi sto lavando i denti."
+    },
+    {
+      "it": "mettersi le scarpe",
+      "en": "to put on one's shoes",
+      "example": "Mi sto mettendo le scarpe."
+    },
+    {
+      "it": "stare per",
+      "en": "to be about to",
+      "example": "Il film sta per finire."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a2-01-t1",
+      "rule": "Sto + gerundio: adesso",
+      "tip": "Use stare + gerundio for what is happening right now: sto lavorando, stai leggendo.",
+      "example": {
+        "it": "Shh, i bambini stanno dormendo.",
+        "en": "Shh, the children are sleeping."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Shh, i bambini ___ (dormire).",
+        "answers": [
+          "stanno dormendo"
+        ],
+        "hint": "dormire – loro"
+      }
+    },
+    {
+      "id": "a2-01-t2",
+      "rule": "Il gerundio: -ando, -endo",
+      "tip": "-are → -ando; -ere and -ire → -endo: parlando, prendendo, dormendo.",
+      "example": {
+        "it": "Sto prendendo un caffè.",
+        "en": "I'm having a coffee."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Sto ___ (prendere) un caffè.",
+        "answers": [
+          "prendendo"
+        ],
+        "hint": "prendere → ?"
+      }
+    },
+    {
+      "id": "a2-01-t3",
+      "rule": "Fare, dire, bere",
+      "tip": "Irregular gerundi: facendo, dicendo, bevendo. Che cosa stai facendo?",
+      "example": {
+        "it": "Che cosa stai bevendo?",
+        "en": "What are you drinking?"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Che cosa stai ___?",
+        "options": [
+          "facendo",
+          "fando",
+          "fatto",
+          "fare"
+        ],
+        "answer": 0,
+        "explanation": "Fare → facendo."
+      }
+    },
+    {
+      "id": "a2-01-t4",
+      "rule": "Pronome prima di stare",
+      "tip": "The pronoun goes before stare: mi sto vestendo, ti sto aspettando.",
+      "example": {
+        "it": "Mi sto lavando le mani.",
+        "en": "I'm washing my hands."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Sto mi lavando le mani.",
+        "answers": [
+          "Mi sto lavando le mani.",
+          "Sto lavandomi le mani."
+        ]
+      }
+    },
+    {
+      "id": "a2-01-t5",
+      "rule": "Stare per + infinito",
+      "tip": "Stare per + infinitive means about to: il treno sta per partire.",
+      "example": {
+        "it": "Il film sta per cominciare.",
+        "en": "The film is about to start."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Il film ___ cominciare.",
+        "options": [
+          "sta per",
+          "sta",
+          "è per",
+          "fa per"
+        ],
+        "answer": 0,
+        "explanation": "About to = sta per + infinito."
+      }
+    }
+  ]
+}

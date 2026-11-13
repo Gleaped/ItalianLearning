@@ -1,0 +1,1046 @@
+{
+  "id": "a1-09",
+  "level": "A1",
+  "title": "La mia famiglia",
+  "format": 2,
+  "module": "a1-m3",
+  "objective": "By the end you can name family members, say my / your / his / her / our / their, and describe a person.",
+  "grammarFocus": "Family words; possessive adjectives and the article rule for family; adjective agreement; avere with age, hair and eyes.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-09-l1",
+      "title": "I membri della famiglia",
+      "minutes": 7,
+      "goal": "You can name family members and say who is in your family.",
+      "takeaway": "Ho un fratello, due sorelle; no article after non ho; genitori = parents.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-09-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "un fratello → due ___",
+          "options": [
+            "fratelli",
+            "fratelle",
+            "fratello",
+            "fratellos"
+          ],
+          "answer": 0,
+          "explanation": "Masculine nouns in -o take -i in the plural."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l1-e02",
+          "stage": "learn",
+          "title": "La famiglia",
+          "body": "Learn the pairs.\n\n| maschio | femmina |\n|---|---|\n| il ==padre== | la ==madre== |\n| il ==fratello== | la ==sorella== |\n| il ==nonno== | la ==nonna== |\n| il ==figlio== | la ==figlia== |\n| il ==marito== | la ==moglie== |\n| lo ==zio== | la ==zia== |\n| il ==cugino== | la ==cugina== |\n\n> **I genitori** = parents. **I parenti** = relatives.",
+          "examples": [
+            {
+              "it": "Mia nonna ha ottant'anni.",
+              "en": "My grandmother is eighty."
+            },
+            {
+              "it": "I genitori di Anna abitano a Torino.",
+              "en": "Anna's parents live in Turin."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l1-e03",
+          "stage": "learn",
+          "title": "Ho un fratello",
+          "body": "Use **avere** to say who is in your family.\n\n| | |\n|---|---|\n| Ho ==un== fratello. | I have a brother. |\n| Ho ==due== sorelle. | I have two sisters. |\n| ==Non== ho fratelli. | I have no brothers. |\n| Hai figli? | Do you have children? |\n\n> After **non ho** there is no article.",
+          "examples": [
+            {
+              "it": "Ho una sorella e due fratelli.",
+              "en": "I have a sister and two brothers."
+            },
+            {
+              "it": "Non ho figli.",
+              "en": "I have no children."
+            }
+          ]
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-09-l1-e04",
+          "stage": "practise",
+          "instruction": "Collega le parole.",
+          "pairs": [
+            {
+              "left": "il nonno",
+              "right": "grandfather"
+            },
+            {
+              "left": "la zia",
+              "right": "aunt"
+            },
+            {
+              "left": "il cugino",
+              "right": "cousin (male)"
+            },
+            {
+              "left": "il marito",
+              "right": "husband"
+            },
+            {
+              "left": "i genitori",
+              "right": "parents"
+            },
+            {
+              "left": "la figlia",
+              "right": "daughter"
+            }
+          ],
+          "explanation": "These are core family words."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-09-l1-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Ho un fratello e due sorelle.",
+          "question": "How many brothers and sisters in total?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "answer": 1,
+          "explanation": "One brother plus two sisters makes three."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-09-l1-e06",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Maschio",
+            "Femmina"
+          ],
+          "items": [
+            {
+              "text": "il padre",
+              "bucket": 0
+            },
+            {
+              "text": "la zia",
+              "bucket": 1
+            },
+            {
+              "text": "il cugino",
+              "bucket": 0
+            },
+            {
+              "text": "la nonna",
+              "bucket": 1
+            },
+            {
+              "text": "il figlio",
+              "bucket": 0
+            },
+            {
+              "text": "la moglie",
+              "bucket": 1
+            },
+            {
+              "text": "lo zio",
+              "bucket": 0
+            },
+            {
+              "text": "la sorella",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Il / lo are masculine; la is feminine."
+        },
+        {
+          "type": "transform",
+          "id": "a1-09-l1-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Ho un fratello.",
+          "cue": "Ho due…",
+          "answers": [
+            "Ho due fratelli.",
+            "Ho due fratelli"
+          ],
+          "explanation": "Masculine -o becomes -i in the plural.",
+          "hint": "fratello → fratelli"
+        },
+        {
+          "type": "translate",
+          "id": "a1-09-l1-e08",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "I have a sister and two brothers.",
+          "answers": [
+            "Ho una sorella e due fratelli.",
+            "Ho una sorella e due fratelli"
+          ],
+          "explanation": "Avere: ho + un / una / number + noun."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-09-l1-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Hai fratelli o sorelle? Dì una frase.",
+          "keywords": [
+            "ho",
+            "fratello",
+            "sorella",
+            "fratelli",
+            "sorelle",
+            "figlio unico",
+            "figlia unica"
+          ],
+          "modelAnswer": "Ho una sorella e un fratello. (Non ho fratelli. / Sono figlio unico.)"
+        }
+      ]
+    },
+    {
+      "id": "a1-09-l2",
+      "title": "Mio, tuo",
+      "minutes": 7,
+      "goal": "You can say my and your with things and friends.",
+      "takeaway": "il mio, la mia, i miei, le mie: the ending follows the thing, not the owner.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-09-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: che cosa significa?",
+          "prompt": "Which means 'parents'?",
+          "options": [
+            "i genitori",
+            "i parenti",
+            "i figli",
+            "i nonni"
+          ],
+          "answer": 0,
+          "explanation": "I genitori are parents; i parenti are relatives."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l2-e02",
+          "stage": "learn",
+          "title": "Il mio, la mia",
+          "body": "The possessive takes an **article** and agrees with the **thing**.\n\n| | m sing. | f sing. | m pl. | f pl. |\n|---|---|---|---|---|\n| my | il ==mio== | la ==mia== | i ==miei== | le ==mie== |\n| your | il ==tuo== | la ==tua== | i ==tuoi== | le ==tue== |\n\n> Say *la mia borsa* whether you are a man or a woman.",
+          "examples": [
+            {
+              "it": "Dov'è il mio telefono?",
+              "en": "Where is my phone?"
+            },
+            {
+              "it": "I tuoi amici sono simpatici.",
+              "en": "Your friends are nice."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l2-e03",
+          "stage": "learn",
+          "title": "È mio! È tua?",
+          "body": "After **essere** the article goes.\n\n| | |\n|---|---|\n| Il libro è ==mio==. | The book is mine. |\n| La borsa è ==tua==? | Is the bag yours? |\n| Gli occhiali sono ==miei==. | The glasses are mine. |\n| Le chiavi sono ==mie==. | The keys are mine. |",
+          "examples": [
+            {
+              "it": "Questo telefono è tuo?",
+              "en": "Is this phone yours?"
+            },
+            {
+              "it": "No, non è mio.",
+              "en": "No, it is not mine."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-09-l2-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "___ casa è grande. (my)",
+          "options": [
+            "La mia",
+            "Il mio",
+            "I miei",
+            "Le mie"
+          ],
+          "answer": 0,
+          "explanation": "Casa is feminine singular: la mia."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-09-l2-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Dove sono le mie chiavi?",
+          "question": "What is the speaker looking for?",
+          "options": [
+            "Keys",
+            "A bag",
+            "Glasses",
+            "A phone"
+          ],
+          "answer": 0,
+          "explanation": "Le chiavi = the keys."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-09-l2-e06",
+          "stage": "practise",
+          "instruction": "Collega le parole.",
+          "pairs": [
+            {
+              "left": "il mio",
+              "right": "telefono"
+            },
+            {
+              "left": "la mia",
+              "right": "borsa"
+            },
+            {
+              "left": "i miei",
+              "right": "amici"
+            },
+            {
+              "left": "le mie",
+              "right": "chiavi"
+            }
+          ],
+          "explanation": "The possessive matches the gender and number of the noun."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-09-l2-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "Dove sono ___ chiavi? (my)",
+          "answers": [
+            "le mie"
+          ],
+          "explanation": "Chiavi is feminine plural: le mie."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-09-l2-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Scrivi la frase giusta.",
+          "sentence": "Il mia telefono è nuovo.",
+          "answers": [
+            "Il mio telefono è nuovo.",
+            "Il mio telefono è nuovo"
+          ],
+          "explanation": "Telefono is masculine, so il mio."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-09-l2-e09",
+          "stage": "use",
+          "instruction": "Parla con un'amica.",
+          "scenario": "At a café table, a phone is on the table.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Scusa {name}, questo telefono è tuo?",
+              "hint": "Say no, it is not yours."
+            },
+            {
+              "speaker": "you",
+              "text": "No, non è mio. Il mio è qui.",
+              "hint": "No, non è mio."
+            },
+            {
+              "speaker": "npc",
+              "text": "Ah, scusa! Allora è di Marta."
+            },
+            {
+              "speaker": "you",
+              "text": "Sì, forse è di Marta.",
+              "hint": "Sì, è di Marta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-09-l3",
+      "title": "Mia madre, i miei genitori",
+      "minutes": 7,
+      "goal": "You can talk about one family member or several without mistakes.",
+      "takeaway": "No article with a singular family word (mia madre); article with plural (i miei fratelli).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-09-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la risposta.",
+          "prompt": "Questa borsa è ___.",
+          "options": [
+            "mia",
+            "la mia",
+            "mio",
+            "miei"
+          ],
+          "answer": 0,
+          "explanation": "After essere there is no article: è mia."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l3-e02",
+          "stage": "learn",
+          "title": "Mia madre",
+          "body": "With **one** family member, drop the article.\n\n| singular: no article | plural: article |\n|---|---|\n| ==mia== madre | ==le== mie sorelle |\n| ==mio== padre | ==i== miei genitori |\n| ==tua== sorella | ==i== tuoi nonni |\n\n> Say *mia madre*, not *la mia madre*.",
+          "examples": [
+            {
+              "it": "Mio padre è medico.",
+              "en": "My father is a doctor."
+            },
+            {
+              "it": "I miei nonni abitano a Napoli.",
+              "en": "My grandparents live in Naples."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l3-e03",
+          "stage": "learn",
+          "title": "Amici e mamma",
+          "body": "Other people keep the article. So do **mamma** and **papà**.\n\n| | |\n|---|---|\n| ==il== mio amico | my friend |\n| ==la== mia collega | my colleague |\n| ==la== mia mamma | my mum |\n| ==il== mio papà | my dad |\n\n> Friends and colleagues are not family words.",
+          "examples": [
+            {
+              "it": "Il mio amico lavora a Milano.",
+              "en": "My friend works in Milan."
+            },
+            {
+              "it": "La mia mamma cucina bene.",
+              "en": "My mum cooks well."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-09-l3-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Senza articolo",
+            "Con l'articolo"
+          ],
+          "items": [
+            {
+              "text": "mia madre",
+              "bucket": 0
+            },
+            {
+              "text": "i miei fratelli",
+              "bucket": 1
+            },
+            {
+              "text": "il mio amico",
+              "bucket": 1
+            },
+            {
+              "text": "tuo padre",
+              "bucket": 0
+            },
+            {
+              "text": "la mia casa",
+              "bucket": 1
+            },
+            {
+              "text": "mia sorella",
+              "bucket": 0
+            },
+            {
+              "text": "le mie cugine",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Only singular family words drop the article."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-09-l3-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Il mio amico lavora a Torino.",
+            "Mio amico lavora a Torino."
+          ],
+          "question": "Which sentence is correct?",
+          "answer": 0,
+          "translations": [
+            "My friend works in Turin.",
+            "(incorrect)"
+          ],
+          "explanation": "Amico is not a family word, so it needs the article."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-09-l3-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "___ padre è medico. (my)",
+          "answers": [
+            "Mio",
+            "mio"
+          ],
+          "explanation": "Singular family word: no article, so mio."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-09-l3-e07",
+          "stage": "practise",
+          "instruction": "C'è un errore. Scrivi la frase giusta.",
+          "sentence": "La mia madre è dottoressa.",
+          "answers": [
+            "Mia madre è dottoressa.",
+            "Mia madre è dottoressa"
+          ],
+          "explanation": "With a singular family member the article is dropped."
+        },
+        {
+          "type": "transform",
+          "id": "a1-09-l3-e08",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "Mio fratello è simpatico.",
+          "cue": "I miei fratelli…",
+          "answers": [
+            "I miei fratelli sono simpatici.",
+            "I miei fratelli sono simpatici"
+          ],
+          "explanation": "Plural family words take the article and a plural verb.",
+          "hint": "i miei + sono"
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-09-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Parla di una persona della tua famiglia. Dì due frasi.",
+          "keywords": [
+            "mia",
+            "mio",
+            "i miei",
+            "le mie"
+          ],
+          "modelAnswer": "Mia sorella si chiama Laura. Abita a Roma."
+        }
+      ]
+    },
+    {
+      "id": "a1-09-l4",
+      "title": "Suo, nostro, loro",
+      "minutes": 7,
+      "goal": "You can say his, her, our, your (plural) and their.",
+      "takeaway": "suo = his or her; nostro, vostro change endings; loro never changes and keeps the article.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-09-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "___ madre è dottoressa. (my)",
+          "options": [
+            "Mia",
+            "La mia",
+            "Mio",
+            "Le mie"
+          ],
+          "answer": 0,
+          "explanation": "Singular family word: mia, no article."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l4-e02",
+          "stage": "learn",
+          "title": "Suo, sua",
+          "body": "**Suo** means his **or** her. The ending follows the thing, not the owner.\n\n| | m sing. | f sing. | m pl. | f pl. |\n|---|---|---|---|---|\n| his / her | il ==suo== | la ==sua== | i ==suoi== | le ==sue== |\n\n> *Il suo libro* can be Marco's or Anna's. Context tells you.",
+          "examples": [
+            {
+              "it": "Anna e il suo gatto.",
+              "en": "Anna and her cat."
+            },
+            {
+              "it": "Marco e sua sorella.",
+              "en": "Marco and his sister."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l4-e03",
+          "stage": "learn",
+          "title": "Nostro, vostro, loro",
+          "body": "Same pattern as mio.\n\n| | m sing. | f sing. | m pl. | f pl. |\n|---|---|---|---|---|\n| our | il ==nostro== | la ==nostra== | i ==nostri== | le ==nostre== |\n| your (pl.) | il ==vostro== | la ==vostra== | i ==vostri== | le ==vostre== |\n| their | il ==loro== | la ==loro== | i ==loro== | le ==loro== |\n\n> **Loro** never changes. It always keeps the article, also with family.",
+          "examples": [
+            {
+              "it": "La nostra casa è piccola.",
+              "en": "Our house is small."
+            },
+            {
+              "it": "La loro madre è francese.",
+              "en": "Their mother is French."
+            }
+          ]
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-09-l4-e04",
+          "stage": "practise",
+          "instruction": "Metti ogni frase nel gruppo giusto.",
+          "buckets": [
+            "Suo (lui / lei)",
+            "Loro (loro)"
+          ],
+          "items": [
+            {
+              "text": "il suo libro",
+              "bucket": 0
+            },
+            {
+              "text": "la loro casa",
+              "bucket": 1
+            },
+            {
+              "text": "sua sorella",
+              "bucket": 0
+            },
+            {
+              "text": "i loro figli",
+              "bucket": 1
+            },
+            {
+              "text": "le sue chiavi",
+              "bucket": 0
+            },
+            {
+              "text": "le loro amiche",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Suo is for one owner; loro is for several owners."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-09-l4-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Marta e Luca hanno un cane. Il loro cane è nero.",
+          "question": "Whose dog is black?",
+          "options": [
+            "Marta's",
+            "Luca's",
+            "Marta and Luca's",
+            "The speaker's"
+          ],
+          "answer": 2,
+          "explanation": "Il loro cane = their dog."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-09-l4-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "Voi avete una casa. La ___ casa è grande.",
+          "answers": [
+            "vostra"
+          ],
+          "explanation": "Casa is feminine and the owners are voi: la vostra."
+        },
+        {
+          "type": "transform",
+          "id": "a1-09-l4-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase.",
+          "source": "La casa di Anna e Luca è grande.",
+          "cue": "La loro…",
+          "answers": [
+            "La loro casa è grande.",
+            "La loro casa è grande"
+          ],
+          "explanation": "Loro replaces di Anna e Luca and never changes."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-09-l4-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Scrivi la frase giusta.",
+          "sentence": "Loro casa è bella.",
+          "answers": [
+            "La loro casa è bella.",
+            "La loro casa è bella"
+          ],
+          "explanation": "Loro always keeps the article: la loro."
+        },
+        {
+          "type": "free_write",
+          "id": "a1-09-l4-e09",
+          "stage": "use",
+          "instruction": "Scrivi.",
+          "prompt": "Scrivi 3 frasi su una famiglia (la tua o una famiglia che conosci). Usa suo, nostro o loro.",
+          "minWords": 15,
+          "checklist": [
+            "Used suo / nostro / loro",
+            "Right ending for the thing",
+            "Right article"
+          ],
+          "modelAnswer": "La mia amica Sara abita con suo marito. La loro casa è vicino al mare. I loro figli sono simpatici."
+        }
+      ]
+    },
+    {
+      "id": "a1-09-l5",
+      "title": "Com'è?",
+      "minutes": 8,
+      "goal": "You can describe a person: age, height, hair, eyes and character.",
+      "takeaway": "essere + adjective that agrees; avere + i capelli / gli occhi + plural adjective.",
+      "exercises": [
+        {
+          "type": "gap_fill",
+          "id": "a1-09-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scrivi la parola giusta.",
+          "sentence": "Mia sorella ___ ventidue anni.",
+          "answers": [
+            "ha"
+          ],
+          "explanation": "In Italian age uses avere: ha ventidue anni."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l5-e02",
+          "stage": "learn",
+          "title": "Alto, alta, gentile",
+          "body": "Adjectives agree with the person.\n\n| | m | f |\n|---|---|---|\n| sing. | alt==o== | alt==a== |\n| pl. | alt==i== | alt==e== |\n| sing. | gentil==e== | gentil==e== |\n| pl. | gentil==i== | gentil==i== |\n\nUseful: alto, basso, giovane, anziano, simpatico, gentile.",
+          "examples": [
+            {
+              "it": "Mia sorella è alta.",
+              "en": "My sister is tall."
+            },
+            {
+              "it": "I miei nonni sono gentili.",
+              "en": "My grandparents are kind."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-09-l5-e03",
+          "stage": "learn",
+          "title": "Capelli e occhi",
+          "body": "Use **avere** and the plural.\n\n| | |\n|---|---|\n| Ha i capelli ==castani==. | He has brown hair. |\n| Ha i capelli ==biondi==. | blond hair |\n| Ha gli occhi ==verdi==. | green eyes |\n| Ha gli occhi ==azzurri==. | blue eyes |\n\n> *I capelli* and *gli occhi* are plural.",
+          "examples": [
+            {
+              "it": "Ha i capelli lunghi e gli occhi verdi.",
+              "en": "She has long hair and green eyes."
+            },
+            {
+              "it": "Ha i capelli neri.",
+              "en": "He has black hair."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "a1-09-l5-e04",
+          "stage": "practise",
+          "instruction": "Scegli la risposta giusta.",
+          "prompt": "Mia sorella è ___. (tall)",
+          "options": [
+            "alta",
+            "alto",
+            "alti",
+            "alte"
+          ],
+          "answer": 0,
+          "explanation": "Sorella is feminine singular: alta."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-09-l5-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Ha i capelli neri e gli occhi verdi.",
+            "Ha i capelli biondi e gli occhi azzurri."
+          ],
+          "question": "Who has light hair?",
+          "answer": 1,
+          "translations": [
+            "He has black hair and green eyes.",
+            "He has blond hair and blue eyes."
+          ],
+          "explanation": "Biondi means blond; neri means black."
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-09-l5-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Mio fratello è alto, ha i capelli castani e gli occhi verdi.",
+          "question": "Which description fits?",
+          "options": [
+            "Tall, brown hair, green eyes",
+            "Short, blond hair, blue eyes",
+            "Tall, black hair, brown eyes",
+            "Short, grey hair, green eyes"
+          ],
+          "answer": 0,
+          "explanation": "Alto, castani, verdi."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-09-l5-e07",
+          "stage": "practise",
+          "instruction": "Scrivi la parola giusta.",
+          "sentence": "I miei nonni sono molto ___. (kind)",
+          "answers": [
+            "gentili"
+          ],
+          "explanation": "Gentile ends in -e: the plural is gentili."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-09-l5-e08",
+          "stage": "practise",
+          "instruction": "Metti le parole in ordine.",
+          "translation": "My sister has long hair.",
+          "tiles": [
+            "Mia",
+            "sorella",
+            "ha",
+            "i",
+            "capelli",
+            "lunghi"
+          ],
+          "distractors": [
+            "è",
+            "le"
+          ],
+          "explanation": "Avere + i capelli + plural adjective."
+        },
+        {
+          "type": "free_write",
+          "id": "a1-09-l5-e09",
+          "stage": "use",
+          "instruction": "Scrivi.",
+          "prompt": "Descrivi una persona (un amico o un familiare). Scrivi almeno 3 frasi.",
+          "minWords": 20,
+          "checklist": [
+            "Said who the person is",
+            "Said age or height",
+            "Described hair or eyes",
+            "Adjectives agree"
+          ],
+          "modelAnswer": "Mio fratello si chiama Paolo. Ha trent'anni ed è alto. Ha i capelli castani e gli occhi verdi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la famiglia",
+      "en": "family",
+      "example": "Ho una famiglia grande."
+    },
+    {
+      "it": "i genitori",
+      "en": "parents",
+      "example": "I miei genitori abitano a Roma."
+    },
+    {
+      "it": "il padre / il papà",
+      "en": "father / dad",
+      "example": "Mio padre è medico."
+    },
+    {
+      "it": "la madre / la mamma",
+      "en": "mother / mum",
+      "example": "Mia madre cucina bene."
+    },
+    {
+      "it": "il fratello",
+      "en": "brother",
+      "example": "Ho un fratello."
+    },
+    {
+      "it": "la sorella",
+      "en": "sister",
+      "example": "Mia sorella è alta."
+    },
+    {
+      "it": "il nonno",
+      "en": "grandfather",
+      "example": "Mio nonno ha ottant'anni."
+    },
+    {
+      "it": "la nonna",
+      "en": "grandmother",
+      "example": "Mia nonna abita con noi."
+    },
+    {
+      "it": "il figlio",
+      "en": "son",
+      "example": "Ho un figlio."
+    },
+    {
+      "it": "la figlia",
+      "en": "daughter",
+      "example": "Ho una figlia."
+    },
+    {
+      "it": "il marito",
+      "en": "husband",
+      "example": "Mio marito lavora a Milano."
+    },
+    {
+      "it": "la moglie",
+      "en": "wife",
+      "example": "Sua moglie è francese."
+    },
+    {
+      "it": "lo zio",
+      "en": "uncle",
+      "example": "Mio zio abita a Napoli."
+    },
+    {
+      "it": "la zia",
+      "en": "aunt",
+      "example": "Mia zia è simpatica."
+    },
+    {
+      "it": "il cugino / la cugina",
+      "en": "cousin",
+      "example": "Mio cugino ha dieci anni."
+    },
+    {
+      "it": "alto",
+      "en": "tall",
+      "example": "Mio fratello è alto."
+    },
+    {
+      "it": "simpatico",
+      "en": "nice, friendly",
+      "example": "La tua amica è simpatica."
+    },
+    {
+      "it": "i capelli",
+      "en": "hair",
+      "example": "Ha i capelli castani."
+    },
+    {
+      "it": "gli occhi",
+      "en": "eyes",
+      "example": "Ha gli occhi verdi."
+    },
+    {
+      "it": "Quanti anni hai?",
+      "en": "How old are you?",
+      "example": "Quanti anni hai? Ho trent'anni."
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-09-t1",
+      "rule": "Il mio, la mia, i miei, le mie",
+      "tip": "The possessive follows the thing owned, with an article.",
+      "example": {
+        "it": "La mia borsa è nuova.",
+        "en": "My bag is new."
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "___ chiavi sono qui. (my)",
+        "options": [
+          "Le mie",
+          "I miei",
+          "La mia",
+          "Il mio"
+        ],
+        "answer": 0,
+        "explanation": "Chiavi is feminine plural: le mie."
+      }
+    },
+    {
+      "id": "a1-09-t2",
+      "rule": "Mia madre: niente articolo",
+      "tip": "One singular family word: no article. Plural: article.",
+      "example": {
+        "it": "Mia madre è dottoressa.",
+        "en": "My mother is a doctor."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "La mia madre abita a Roma.",
+        "answers": [
+          "Mia madre abita a Roma.",
+          "Mia madre abita a Roma"
+        ],
+        "explanation": "Singular family word: drop the article."
+      }
+    },
+    {
+      "id": "a1-09-t3",
+      "rule": "Suo = his or her",
+      "tip": "Suo follows the thing, not the owner: sua madre can be his or her mother.",
+      "example": {
+        "it": "Marco e sua sorella.",
+        "en": "Marco and his sister."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "His mother",
+        "answers": [
+          "Sua madre"
+        ],
+        "explanation": "Singular family word: sua, no article."
+      }
+    },
+    {
+      "id": "a1-09-t4",
+      "rule": "Loro ha sempre l'articolo",
+      "tip": "Loro never changes and always keeps the article.",
+      "example": {
+        "it": "La loro casa è grande.",
+        "en": "Their house is big."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "___ loro casa è grande.",
+        "answers": [
+          "La",
+          "la"
+        ],
+        "explanation": "Loro keeps the article: la loro."
+      }
+    },
+    {
+      "id": "a1-09-t5",
+      "rule": "Capelli e occhi sono plurali",
+      "tip": "Use avere + i capelli / gli occhi + a plural adjective.",
+      "example": {
+        "it": "Ha i capelli lunghi.",
+        "en": "She has long hair."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Ha i capelli ___. (long)",
+        "answers": [
+          "lunghi"
+        ],
+        "explanation": "Capelli is plural, so lunghi."
+      }
+    }
+  ]
+}

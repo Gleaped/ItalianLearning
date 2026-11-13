@@ -31,11 +31,16 @@ data class Level(
     val title: String,
     val description: String = "",
     val remedial: Boolean = false,
+    /** Foundation level (A1, A2): always open and outside the B1 → C1 unlock chain, like refreshers. */
+    val foundation: Boolean = false,
     /** Exam-preparation track (e.g. CELI3): always open, outside the B1 → C1 unlock chain. */
     val exam: Boolean = false,
 ) {
     /** `exam: true`, or a CELI level id (course.json marks CELI3 by id only). */
     val isExam: Boolean get() = exam || id.uppercase().startsWith("CELI")
+
+    /** Always open, never part of the unlock chain. */
+    val alwaysOpen: Boolean get() = remedial || foundation
 }
 
 @Serializable

@@ -2,8 +2,10 @@
   "id": "b1-10",
   "level": "B1",
   "title": "La persona che cerco",
-  "objective": "By the end you can describe people, things and places precisely, explain what you need even when you don't know the word, and understand ads and notices, using relative pronouns.",
-  "grammarFocus": "Relative pronouns: che (subject/object, never omitted), preposition + cui, in cui/dove, il quale (formal), chi (+ singular verb), quello che / ciò che; preview of che + congiuntivo for things that may not exist.",
+  "format": 2,
+  "module": "b1-m4",
+  "objective": "By the end you can describe people, things and places precisely with che, cui, chi and quello che, and describe an object when you don't know its name.",
+  "grammarFocus": "Relative pronouns: che, preposition + cui, il quale (formal), chi + singular verb, quello che / ciò che, in cui / dove.",
   "remedialUnitIds": [
     "a2r-03",
     "a2r-04"
@@ -11,319 +13,402 @@
   "lessons": [
     {
       "id": "b1-10-l1",
-      "title": "Che e cui",
-      "minutes": 10,
+      "title": "Che: la persona che cerco",
+      "minutes": 7,
+      "goal": "You can describe a person or thing with che: il collega che lavora con me.",
+      "takeaway": "Che = who, which or that, for subject or object, and it is never dropped.",
       "exercises": [
         {
           "type": "multiple_choice",
           "id": "b1-10-l1-e01",
-          "instruction": "Riscaldamento: scegli la forma giusta (congiuntivo).",
-          "prompt": "Penso che la farmacia ___ alle otto stasera.",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "Quanti biglietti vuole? – ___ prendo due.",
           "options": [
-            "chiuda",
-            "chiudi",
-            "chiudono",
-            "chiudere"
+            "Ne",
+            "Li",
+            "Ci",
+            "Gli"
           ],
           "answer": 0,
-          "explanation": "Penso che + congiuntivo: chiuda (lei, la farmacia)."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-10-l1-e02",
-          "instruction": "Riscaldamento: completa con la preposizione articolata.",
-          "sentence": "Ho parlato ___ (di + il) problema con il medico.",
-          "answers": [
-            "del"
-          ],
-          "hint": "di + il",
-          "explanation": "Di + il = del. You'll need these prepositions again in a moment, in front of cui."
+          "explanation": "Ne replaces 'of them' when you give a quantity."
         },
         {
           "type": "grammar_note",
-          "id": "b1-10-l1-e03",
-          "title": "Che e cui",
-          "body": "**che** = who, which, that\n- works as subject or object, for people and things, and never changes: *il medico **che** mi ha visitato*, *la casa **che** ho visto*\n- it can **never be left out**, unlike English: *the house I saw* = *la casa **che** ho visto*\n- it is **never used after a preposition**\n\n**cui** = after a preposition\n- **a cui, di cui, con cui, in cui, per cui, da cui, su cui**\n- the preposition comes from the verb: parlare **di** → *il libro **di cui** ti ho parlato*; avere bisogno **di** → *il documento **di cui** ho bisogno*; lavorare **con** → *la collega **con cui** lavoro*\n- **in cui** can mean *where* or *when*: *la città **in cui** (= dove) abito*, *il giorno **in cui** sono arrivato*\n\nEnglish often puts the preposition at the end (*the friend I go out with*); Italian puts it first: *l'amico **con cui** esco*.",
+          "id": "b1-10-l1-e02",
+          "stage": "learn",
+          "title": "Che",
+          "body": "**Che** joins two sentences. It means *who*, *which* or *that*, and Italian ==never drops it==.\n\n| about | example |\n|---|---|\n| a person | il medico ==che== mi ha visitato |\n| a thing | il libro ==che== ho letto |\n\n> English says 'the book I read'. Italian must say il libro **che** ho letto.",
           "examples": [
             {
-              "it": "Il medico che mi ha visitato era molto gentile.",
-              "en": "The doctor who examined me was very kind."
+              "it": "Il vicino che suona la chitarra è simpatico.",
+              "en": "The neighbour who plays the guitar is nice."
             },
             {
-              "it": "La casa che abbiamo visto ieri costa troppo.",
-              "en": "The house we saw yesterday costs too much."
-            },
-            {
-              "it": "Questo è il libro di cui ti ho parlato.",
-              "en": "This is the book I told you about."
-            },
-            {
-              "it": "La collega con cui lavoro è di Napoli.",
-              "en": "The colleague I work with is from Naples."
+              "it": "Ecco le chiavi che cercavi.",
+              "en": "Here are the keys you were looking for."
             }
           ]
         },
         {
           "type": "multiple_choice",
-          "id": "b1-10-l1-e04",
-          "instruction": "Scegli il pronome relativo giusto.",
-          "prompt": "Il medico ___ mi ha visitato era molto gentile.",
+          "id": "b1-10-l1-e03",
+          "stage": "practise",
+          "instruction": "Scegli la parola giusta.",
+          "prompt": "Questo è il libro ___ ho comprato ieri.",
           "options": [
             "che",
             "cui",
-            "di cui",
+            "dove",
             "chi"
           ],
           "answer": 0,
-          "explanation": "Subject of the relative clause, no preposition: che."
+          "explanation": "The relative pronoun is the object of ho comprato, so it is che."
         },
         {
-          "type": "multiple_choice",
+          "type": "sort_buckets",
+          "id": "b1-10-l1-e04",
+          "stage": "practise",
+          "instruction": "Il pronome è soggetto o oggetto? In tutti e due i casi si usa che.",
+          "buckets": [
+            "che = soggetto",
+            "che = oggetto"
+          ],
+          "items": [
+            {
+              "text": "Il medico che mi ha visitato",
+              "bucket": 0
+            },
+            {
+              "text": "La pizza che abbiamo ordinato",
+              "bucket": 1
+            },
+            {
+              "text": "Il vicino che suona la batteria",
+              "bucket": 0
+            },
+            {
+              "text": "Le chiavi che ho perso",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Che can be the subject (who does the action) or the object (who receives it), but the word stays che."
+        },
+        {
+          "type": "gap_fill",
           "id": "b1-10-l1-e05",
-          "instruction": "Scegli il pronome relativo giusto.",
-          "prompt": "La ragazza con ___ lavoro è di Napoli.",
-          "options": [
-            "che",
-            "cui",
-            "quale",
-            "chi"
-          ],
-          "answer": 1,
-          "explanation": "After a preposition (con) use cui."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-10-l1-e06",
-          "instruction": "Completa con il pronome relativo (preposizione + cui).",
-          "sentence": "Questo è il libro ___ ti ho parlato.",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Ho perso le chiavi ___ mi hai dato ieri.",
           "answers": [
-            "di cui",
-            "del quale"
+            "che"
           ],
-          "hint": "parlare di…",
-          "explanation": "Parlare di qualcosa → di cui."
-        },
-        {
-          "type": "gap_fill",
-          "id": "b1-10-l1-e07",
-          "instruction": "Completa con il pronome relativo.",
-          "sentence": "La città ___ sono nato è piccola ma bellissima.",
-          "answers": [
-            "in cui",
-            "dove",
-            "nella quale"
-          ],
-          "hint": "luogo",
-          "explanation": "Place: in cui or dove."
-        },
-        {
-          "type": "sentence_build",
-          "id": "b1-10-l1-e08",
-          "instruction": "Metti le parole in ordine.",
-          "translation": "The man I met yesterday is a doctor.",
-          "tiles": [
-            "L'uomo",
-            "che",
-            "ho",
-            "conosciuto",
-            "ieri",
-            "è",
-            "un",
-            "medico"
-          ],
-          "distractors": [
-            "cui",
-            "chi"
-          ],
-          "explanation": "Italian cannot drop che: l'uomo che ho conosciuto."
+          "explanation": "The keys are the object of mi hai dato, so che links the two parts."
         },
         {
           "type": "error_correction",
-          "id": "b1-10-l1-e09",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "La casa ho visto ieri era bellissima.",
+          "id": "b1-10-l1-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase giusta.",
+          "sentence": "La pizza abbiamo mangiato ieri era buonissima.",
           "answers": [
-            "La casa che ho visto ieri era bellissima."
+            "La pizza che abbiamo mangiato ieri era buonissima."
           ],
-          "explanation": "English can drop 'that'; Italian can't drop che."
+          "explanation": "Italian never drops che, unlike English 'the pizza we ate'."
         },
         {
-          "type": "translate",
-          "id": "b1-10-l1-e10",
-          "instruction": "Traduci in italiano.",
-          "direction": "en_it",
-          "source": "This is the friend I go to the gym with.",
+          "type": "transform",
+          "id": "b1-10-l1-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con il cambio indicato.",
+          "source": "Ho un vicino. Il vicino suona la batteria.",
+          "cue": "Unisci le frasi con che.",
           "answers": [
-            "Questo è l'amico con cui vado in palestra.",
-            "Questa è l'amica con cui vado in palestra.",
-            "Questo è l'amico con il quale vado in palestra.",
-            "Questa è l'amica con la quale vado in palestra."
+            "Ho un vicino che suona la batteria.",
+            "Il vicino che suona la batteria è mio."
           ],
-          "explanation": "The preposition moves to the front: con cui."
-        },
-        {
-          "type": "listen_transcribe",
-          "id": "b1-10-l1-e11",
-          "instruction": "Ascolta e scrivi la frase.",
-          "audioText": "Ecco il documento di cui ha bisogno per la residenza.",
-          "answers": [
-            "Ecco il documento di cui ha bisogno per la residenza."
-          ],
-          "slow": false,
-          "explanation": "Avere bisogno di → di cui ha bisogno."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-10-l1-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "Il paese in cui sono cresciuto è vicino al mare.",
-          "translation": "The village where I grew up is near the sea."
+          "explanation": "Che replaces the repeated noun and joins the two sentences.",
+          "hint": "Ho un vicino ___ …"
         },
         {
           "type": "speak_respond",
-          "id": "b1-10-l1-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Descrivi una persona importante per te: chi è, che cosa fa, di che cosa parlate quando vi vedete?",
+          "id": "b1-10-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Descrivi una persona che conosci bene: un amico, un collega o un vicino. Usa «che».",
           "keywords": [
             "che",
-            "con cui"
+            "persona",
+            "amico",
+            "collega",
+            "vicino"
           ],
-          "modelAnswer": "Una persona importante per me è un amico che conosco dall'università. È la persona con cui parlo di tutto: i libri che leggiamo, i viaggi che vogliamo fare e i problemi di cui non parlo con nessun altro.",
-          "explanation": "Che for subject/object, cui after a preposition (con cui, di cui)."
+          "modelAnswer": "Ho un amico che si chiama Marco. È una persona che ascolta sempre e che ha sempre tempo per gli altri. È il tipo di amico che chiama anche quando sei lontano."
         }
       ]
     },
     {
       "id": "b1-10-l2",
-      "title": "Il quale, chi, quello che",
-      "minutes": 10,
+      "title": "Cui: dopo la preposizione",
+      "minutes": 7,
+      "goal": "You can say di cui, con cui, a cui to link a sentence after a preposition.",
+      "takeaway": "After a preposition use cui, never che: la collega con cui lavoro.",
       "exercises": [
         {
           "type": "gap_fill",
           "id": "b1-10-l2-e01",
-          "instruction": "Riscaldamento: completa con il pronome relativo.",
-          "sentence": "Il signore ___ abita al terzo piano è molto simpatico.",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: preposizione articolata.",
+          "sentence": "Ho parlato ___ (di + il) medico ieri.",
           "answers": [
-            "che",
-            "il quale"
+            "del"
           ],
-          "hint": "soggetto",
-          "explanation": "Subject, no preposition: che."
+          "explanation": "di + il becomes del."
         },
         {
-          "type": "flashcard",
+          "type": "grammar_note",
           "id": "b1-10-l2-e02",
-          "front": "il quale / la quale / i quali / le quali",
-          "back": "who, which (formal; agrees with the noun)",
-          "example": "Ho scritto all'ufficio, il quale mi ha risposto subito."
+          "stage": "learn",
+          "title": "Preposizione + cui",
+          "body": "After a preposition, **che** is not allowed. Use ==cui==. The preposition comes from the verb.\n\n| verb | form |\n|---|---|\n| avere bisogno **di** | il documento ==di cui== ho bisogno |\n| lavorare **con** | la collega ==con cui== lavoro |\n| rivolgersi **a** | l'ufficio ==a cui== mi sono rivolto |\n\n> Never write di che or con che.",
+          "examples": [
+            {
+              "it": "Il medico di cui ti ho parlato riceve il martedì.",
+              "en": "The doctor I told you about sees patients on Tuesdays."
+            },
+            {
+              "it": "È l'amica con cui vado in palestra.",
+              "en": "She is the friend I go to the gym with."
+            }
+          ]
         },
         {
           "type": "grammar_note",
           "id": "b1-10-l2-e03",
-          "title": "Il quale, chi, quello che",
-          "body": "**il quale / la quale / i quali / le quali**\n- a more formal alternative to che and cui, common in writing and official language\n- it agrees with the noun and combines with prepositions: *al quale, della quale, con i quali, nelle quali*\n- useful to avoid ambiguity: *la sorella di Marco, **la quale** vive a Roma* (the sister, not Marco)\n\n**chi** = the person who / anyone who (*colui che*)\n- always with a **singular** verb: ***Chi** arriva tardi **deve** aspettare.*\n- very common in notices, rules and proverbs: *Chi cerca trova.* *C'è chi dice che…*\n\n**quello che / ciò che** = what, the thing(s) that\n- *Quello che mi serve è un modulo.* (What I need is…)\n- *Ti ringrazio per tutto quello che hai fatto.* (everything that…)\n- *ciò che* is the more formal version.",
+          "stage": "learn",
+          "title": "Il quale (formale)",
+          "body": "In formal or written Italian, **il quale** can replace *cui* after a preposition. It agrees in gender and number.\n\n| | singolare | plurale |\n|---|---|---|\n| maschile | ==il quale== | ==i quali== |\n| femminile | ==la quale== | ==le quali== |\n\n> Use cui in speech; save il quale for letters and notices.",
           "examples": [
             {
               "it": "La signora con la quale ho parlato si chiama Bianchi.",
-              "en": "The lady I spoke to is called Bianchi."
+              "en": "The lady I spoke with is called Bianchi."
             },
             {
-              "it": "Chi vuole partecipare deve iscriversi entro venerdì.",
-              "en": "Anyone who wants to take part must sign up by Friday."
-            },
-            {
-              "it": "Non ho capito quello che ha detto il medico.",
-              "en": "I didn't understand what the doctor said."
-            },
-            {
-              "it": "C'è chi preferisce il treno e chi la macchina.",
-              "en": "Some people prefer the train and some the car."
+              "it": "Le persone alle quali scrivo sono clienti.",
+              "en": "The people I write to are clients."
             }
           ]
         },
         {
           "type": "multiple_choice",
           "id": "b1-10-l2-e04",
-          "instruction": "Scegli la forma giusta.",
-          "prompt": "___ vuole partecipare deve iscriversi entro venerdì.",
+          "stage": "practise",
+          "instruction": "Scegli la parola giusta.",
+          "prompt": "La ragazza con ___ lavoro è di Napoli.",
           "options": [
-            "Chi",
-            "Che",
-            "Quello che",
-            "Cui"
+            "cui",
+            "che",
+            "chi",
+            "dove"
           ],
           "answer": 0,
-          "explanation": "Chi = the person who / anyone who, with a singular verb."
+          "explanation": "After the preposition con you need cui, not che."
         },
         {
-          "type": "multiple_choice",
+          "type": "sort_buckets",
           "id": "b1-10-l2-e05",
-          "instruction": "Scegli la forma giusta.",
-          "prompt": "Scusi, non ho capito ___ ha detto il medico.",
-          "options": [
-            "quello che",
-            "chi",
-            "cui",
-            "il quale"
+          "stage": "practise",
+          "instruction": "Che o cui? Guarda la parola prima del gap.",
+          "buckets": [
+            "che",
+            "cui"
           ],
-          "answer": 0,
-          "explanation": "Quello che = what (the thing that)."
+          "items": [
+            {
+              "text": "Il film ___ ho visto",
+              "bucket": 0
+            },
+            {
+              "text": "Il film di ___ parlo",
+              "bucket": 1
+            },
+            {
+              "text": "L'amica ___ vive a Roma",
+              "bucket": 0
+            },
+            {
+              "text": "L'amica a ___ scrivo",
+              "bucket": 1
+            }
+          ],
+          "explanation": "With a preposition (di, a) you need cui; with no preposition you use che."
         },
         {
           "type": "gap_fill",
           "id": "b1-10-l2-e06",
-          "instruction": "Completa la frase.",
+          "stage": "practise",
+          "instruction": "Scrivi la parola o le parole che mancano.",
+          "sentence": "Questo è il medico ___ ti ho parlato.",
+          "answers": [
+            "di cui",
+            "del quale"
+          ],
+          "explanation": "Parlare di needs the preposition di, so di cui.",
+          "hint": "parlare di"
+        },
+        {
+          "type": "transform",
+          "id": "b1-10-l2-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con il cambio indicato.",
+          "source": "Ho una collega. Esco con lei il venerdì.",
+          "cue": "Unisci le frasi con con cui.",
+          "answers": [
+            "Ho una collega con cui esco il venerdì.",
+            "Ho una collega con la quale esco il venerdì.",
+            "La collega con cui esco il venerdì è mia amica."
+          ],
+          "explanation": "Uscire con needs con, so the link is con cui."
+        },
+        {
+          "type": "error_correction",
+          "id": "b1-10-l2-e08",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase giusta.",
+          "sentence": "Il modulo di che ho bisogno non c'è.",
+          "answers": [
+            "Il modulo di cui ho bisogno non c'è."
+          ],
+          "explanation": "After a preposition (di) the pronoun must be cui, not che."
+        },
+        {
+          "type": "speak_respond",
+          "id": "b1-10-l2-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Parla di una persona con cui lavori o studi, o di un posto a cui torni volentieri. Usa «con cui», «di cui» o «a cui».",
+          "keywords": [
+            "con cui",
+            "di cui",
+            "a cui",
+            "in cui"
+          ],
+          "modelAnswer": "La collega con cui lavoro si chiama Elena. È una persona di cui mi fido molto. Il bar a cui torno sempre è quello sotto l'ufficio."
+        }
+      ]
+    },
+    {
+      "id": "b1-10-l3",
+      "title": "Chi e quello che",
+      "minutes": 7,
+      "goal": "You can say 'whoever' with chi and 'what' with quello che.",
+      "takeaway": "Chi + singular verb = whoever; quello che / ciò che = what.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "b1-10-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "Il modulo di ___ ho bisogno è sul tavolo.",
+          "options": [
+            "cui",
+            "che",
+            "chi",
+            "quello"
+          ],
+          "answer": 0,
+          "explanation": "Avere bisogno di needs di, so di cui."
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-10-l3-e02",
+          "stage": "learn",
+          "title": "Chi",
+          "body": "**Chi** means *the person who* or *whoever*. It is always followed by a ==singular== verb, even when you mean many people.\n\n| esempio | |\n|---|---|\n| Chi ==arriva== tardi aspetta. | Whoever arrives late waits. |\n| Chi ==vuole== partecipare si iscrive. | Whoever wants to take part signs up. |\n\n> Chi vogliono… is wrong. Always chi vuole.",
+          "examples": [
+            {
+              "it": "Chi cerca trova.",
+              "en": "Seek and you shall find."
+            },
+            {
+              "it": "Chi ha bisogno di aiuto può chiamarmi.",
+              "en": "Anyone who needs help can call me."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "b1-10-l3-e03",
+          "stage": "learn",
+          "title": "Quello che",
+          "body": "**Quello che** or **ciò che** means *what* in the sense of *the thing that*.\n\n| esempio | |\n|---|---|\n| Non ho capito ==quello che== ha detto. | I didn't understand what he said. |\n| ==Ciò che== mi serve è un modulo. | What I need is a form. |\n\n> Quello che is for things. Chi is for people.",
+          "examples": [
+            {
+              "it": "Dimmi quello che pensi.",
+              "en": "Tell me what you think."
+            },
+            {
+              "it": "Ti ringrazio per tutto ciò che hai fatto.",
+              "en": "Thank you for everything you did."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "id": "b1-10-l3-e04",
+          "stage": "practise",
+          "instruction": "Scegli la parola giusta.",
+          "prompt": "___ vuole partecipare deve iscriversi entro venerdì.",
+          "options": [
+            "Chi",
+            "Che",
+            "Quello",
+            "Cui"
+          ],
+          "answer": 0,
+          "explanation": "Chi means whoever and takes a singular verb."
+        },
+        {
+          "type": "gap_fill",
+          "id": "b1-10-l3-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le parole che mancano.",
           "sentence": "Ti ringrazio per tutto ___ hai fatto per me.",
           "answers": [
             "quello che",
             "ciò che"
           ],
-          "hint": "everything that…",
-          "explanation": "Tutto quello che = everything (that)."
+          "explanation": "Tutto quello che / tutto ciò che means 'everything that'."
         },
         {
-          "type": "gap_fill",
-          "id": "b1-10-l2-e07",
-          "instruction": "Completa con la forma giusta di il quale.",
-          "sentence": "La signora con ___ ho parlato al telefono si chiama Bianchi.",
+          "type": "error_correction",
+          "id": "b1-10-l3-e06",
+          "stage": "practise",
+          "instruction": "C'è un errore. Riscrivi la frase giusta.",
+          "sentence": "Chi vogliono iscriversi devono compilare il modulo.",
           "answers": [
-            "la quale"
+            "Chi vuole iscriversi deve compilare il modulo."
           ],
-          "hint": "con + la signora",
-          "explanation": "Il quale agrees with la signora: con la quale (= con cui)."
+          "explanation": "Chi always takes a singular verb: vuole, deve."
         },
         {
-          "type": "match_pairs",
-          "id": "b1-10-l2-e08",
-          "instruction": "Abbina l'inizio del proverbio alla fine.",
-          "pairs": [
-            {
-              "left": "Chi dorme",
-              "right": "non piglia pesci."
-            },
-            {
-              "left": "Chi va piano",
-              "right": "va sano e va lontano."
-            },
-            {
-              "left": "Chi trova un amico",
-              "right": "trova un tesoro."
-            },
-            {
-              "left": "Chi tace",
-              "right": "acconsente."
-            },
-            {
-              "left": "Chi cerca",
-              "right": "trova."
-            }
+          "type": "transform",
+          "id": "b1-10-l3-e07",
+          "stage": "practise",
+          "instruction": "Riscrivi la frase con il cambio indicato.",
+          "source": "Le persone che arrivano tardi aspettano.",
+          "cue": "Inizia con Chi…",
+          "answers": [
+            "Chi arriva tardi aspetta."
           ],
-          "explanation": "Proverbs love chi + singular verb. Piglia is an old/colloquial form of prende."
+          "explanation": "Chi means 'the person who' and takes a singular verb.",
+          "hint": "Chi arriv…"
         },
         {
           "type": "translate",
-          "id": "b1-10-l2-e09",
-          "instruction": "Traduci in italiano.",
+          "id": "b1-10-l3-e08",
+          "stage": "practise",
+          "instruction": "Traduci.",
           "direction": "en_it",
           "source": "What I need is a certificate of residence.",
           "answers": [
@@ -332,332 +417,166 @@
             "Quello di cui ho bisogno è un certificato di residenza.",
             "Ciò di cui ho bisogno è un certificato di residenza."
           ],
-          "explanation": "What = quello che (or quello di cui with avere bisogno di)."
-        },
-        {
-          "type": "listen_choose",
-          "id": "b1-10-l2-e10",
-          "instruction": "Ascolta e rispondi.",
-          "audioText": "Buongiorno, ieri ho dimenticato una borsa sul treno delle diciotto per Firenze. È una borsa di pelle marrone, dentro la quale c'erano un portafoglio nero e le chiavi di casa. Il portafoglio è la cosa di cui ho più bisogno, perché ci sono i documenti.",
-          "question": "Che cosa c'era nella borsa?",
-          "options": [
-            "Un portafoglio e delle chiavi.",
-            "Un computer e un caricabatterie.",
-            "Dei documenti di lavoro e un ombrello.",
-            "Solo dei biglietti del treno."
-          ],
-          "answer": 0,
-          "explanation": "Dentro la quale = dentro cui; di cui ho più bisogno = the thing I need most."
-        },
-        {
-          "type": "error_correction",
-          "id": "b1-10-l2-e11",
-          "instruction": "C'è un errore. Riscrivi la frase corretta.",
-          "sentence": "Chi vogliono iscriversi devono compilare il modulo.",
-          "answers": [
-            "Chi vuole iscriversi deve compilare il modulo."
-          ],
-          "explanation": "Chi always takes a singular verb."
-        },
-        {
-          "type": "speak_repeat",
-          "id": "b1-10-l2-e12",
-          "instruction": "Ascolta e ripeti ad alta voce.",
-          "text": "C'è chi dice che quest'inverno sarà molto freddo.",
-          "translation": "Some people say this winter will be very cold."
+          "explanation": "'What' as 'the thing that' is quello che or ciò che."
         },
         {
           "type": "speak_respond",
-          "id": "b1-10-l2-e13",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Qual è la cosa che ti piace di più della vita in Italia? E quella che ti piace di meno?",
+          "id": "b1-10-l3-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce in 2 o 3 frasi.",
+          "prompt": "Che cosa ti piace di più della vita in Italia? E che cosa ti piace di meno? Usa «quello che» e «chi».",
           "keywords": [
             "quello che",
-            "in cui"
+            "ciò che",
+            "chi"
           ],
-          "modelAnswer": "Quello che mi piace di più è il modo in cui la gente vive le piazze, soprattutto la sera. Quello che mi piace di meno è la burocrazia: ci sono uffici in cui bisogna aspettare ore!",
-          "explanation": "Quello che = what; in cui = in which / where."
+          "modelAnswer": "Quello che mi piace di più è il cibo. Chi vive qui sa che la gente è molto socievole. Ciò che mi piace di meno è la burocrazia."
         }
       ]
     },
     {
-      "id": "b1-10-l3",
+      "id": "b1-10-l4",
       "title": "Mi serve una cosa che…",
-      "minutes": 10,
+      "minutes": 8,
+      "goal": "You can describe an object or a place when you don't know its name.",
+      "takeaway": "Una cosa che / con cui / in cui… + verb describes what you can't name.",
       "exercises": [
         {
           "type": "multiple_choice",
-          "id": "b1-10-l3-e01",
-          "instruction": "Riscaldamento: scegli la forma giusta.",
-          "prompt": "Il collega ___ ti ho parlato arriva domani da Milano.",
+          "id": "b1-10-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il verbo giusto.",
+          "prompt": "Chi ___ tardi aspetta.",
           "options": [
-            "di cui",
-            "che",
-            "chi",
-            "il quale"
+            "arriva",
+            "arrivano",
+            "arrivare",
+            "arrivi"
           ],
           "answer": 0,
-          "explanation": "Parlare di qualcuno → di cui."
+          "explanation": "Chi takes a singular verb."
         },
         {
           "type": "grammar_note",
-          "id": "b1-10-l3-e02",
-          "title": "Descrivere quando non sai la parola",
-          "body": "Relative clauses rescue you when you don't know a word – at the hardware shop, the pharmacy, the office.\n\n**Useful frames**\n- *È una cosa **che** si usa per…* (It's a thing you use to…)\n- *È un attrezzo **con cui** si…* (It's a tool you … with)\n- *È il posto **in cui / dove** si…*\n- *Mi serve **quello che** si mette…* (I need the thing you put…)\n- *Com'è fatto?* – *È di plastica / di metallo, è lungo / piccolo / rotondo.*\n\n**Stretch (preview)**: when you look for something that may not exist, che is followed by the congiuntivo: *Cerco qualcuno **che parli** inglese.* *Cerco una casa **che abbia** il giardino.*",
+          "id": "b1-10-l4-e02",
+          "stage": "learn",
+          "title": "Descrivere senza la parola",
+          "body": "Forgot the word? Describe it with a relative sentence.\n\n| cosa | formula |\n|---|---|\n| strumento | una cosa ==con cui== si apre una bottiglia |\n| posto | un posto ==in cui== si comprano le medicine |\n| persona | una persona ==che== ripara le scarpe |\n\n> **In cui** and **dove** both work for places.",
           "examples": [
             {
-              "it": "È una cosa con cui si apre una bottiglia di vino.",
-              "en": "It's a thing you open a bottle of wine with."
+              "it": "Mi serve una cosa con cui si puliscono i vetri.",
+              "en": "I need something you clean windows with."
             },
             {
-              "it": "È il negozio in cui si comprano viti e chiodi.",
-              "en": "It's the shop where you buy screws and nails."
-            },
-            {
-              "it": "Mi serve quella cosa di plastica che si mette nel muro.",
-              "en": "I need that plastic thing you put in the wall."
-            },
-            {
-              "it": "Cerchiamo una persona che non fumi in casa.",
-              "en": "We're looking for someone who doesn't smoke indoors."
+              "it": "Cerco un negozio dove vendono tasselli.",
+              "en": "I'm looking for a shop that sells wall plugs."
             }
           ]
         },
         {
           "type": "multiple_choice",
-          "id": "b1-10-l3-e03",
-          "instruction": "Indovina la parola.",
+          "id": "b1-10-l4-e03",
+          "stage": "practise",
+          "instruction": "Che cos'è?",
           "prompt": "È una cosa con cui si apre una bottiglia di vino.",
           "options": [
             "il cavatappi",
-            "l'apriscatole",
             "il colapasta",
-            "la grattugia"
+            "il trapano",
+            "la spina"
           ],
           "answer": 0,
-          "explanation": "Il cavatappi = corkscrew. L'apriscatole opens tins."
+          "explanation": "Con cui si apre a bottle describes a corkscrew."
         },
         {
           "type": "multiple_choice",
-          "id": "b1-10-l3-e04",
-          "instruction": "Indovina la parola.",
+          "id": "b1-10-l4-e04",
+          "stage": "practise",
+          "instruction": "Che cos'è?",
           "prompt": "È il negozio in cui si comprano le medicine.",
           "options": [
             "la farmacia",
             "la ferramenta",
-            "la tabaccheria",
-            "l'edicola"
+            "la libreria",
+            "il tabaccaio"
           ],
           "answer": 0,
-          "explanation": "La ferramenta = hardware shop; la tabaccheria sells stamps, tickets and tobacco; l'edicola = newsstand."
-        },
-        {
-          "type": "match_pairs",
-          "id": "b1-10-l3-e05",
-          "instruction": "Abbina la parola alla definizione.",
-          "pairs": [
-            {
-              "left": "il colapasta",
-              "right": "cosa con cui si scola la pasta"
-            },
-            {
-              "left": "la ferramenta",
-              "right": "negozio in cui si comprano viti e attrezzi"
-            },
-            {
-              "left": "il cacciavite",
-              "right": "attrezzo con cui si girano le viti"
-            },
-            {
-              "left": "la presa",
-              "right": "cosa in cui si attacca la spina"
-            },
-            {
-              "left": "il mestolo",
-              "right": "cucchiaio grande con cui si serve la minestra"
-            }
-          ],
-          "explanation": "Definitions with con cui / in cui are exactly what dictionaries – and the CELI exam – use."
+          "explanation": "In cui = where: the place where medicines are sold is a pharmacy."
         },
         {
           "type": "gap_fill",
-          "id": "b1-10-l3-e06",
-          "instruction": "Completa con preposizione + cui.",
+          "id": "b1-10-l4-e05",
+          "stage": "practise",
+          "instruction": "Scrivi le parole che mancano.",
           "sentence": "Mi serve una cosa ___ si puliscono i vetri.",
           "answers": [
-            "con cui",
-            "con la quale"
+            "con cui"
           ],
-          "hint": "si puliscono con…",
-          "explanation": "You clean with it: con cui."
-        },
-        {
-          "type": "reading",
-          "id": "b1-10-l3-e07",
-          "instruction": "Leggi l'annuncio e rispondi alle domande.",
-          "title": "Cercasi coinquilino/a",
-          "passage": "Cerchiamo un coinquilino o una coinquilina per una stanza singola in un appartamento in cui viviamo già in tre. La stanza, che dà su un cortile tranquillo, è luminosa e arredata. La casa si trova in una zona da cui si arriva in centro in dieci minuti di autobus. Cerchiamo una persona ordinata, con cui condividere anche qualche cena, e che non fumi in casa. Quello che chiediamo soprattutto è rispetto per gli spazi comuni. Chi è interessato può scriverci su WhatsApp.",
-          "questions": [
-            {
-              "question": "Quante persone vivono già nell'appartamento?",
-              "options": [
-                "Una.",
-                "Due.",
-                "Tre.",
-                "Quattro."
-              ],
-              "answer": 2
-            },
-            {
-              "question": "Com'è la stanza?",
-              "options": [
-                "Buia e vuota.",
-                "Luminosa e arredata.",
-                "Sulla strada, rumorosa.",
-                "Doppia."
-              ],
-              "answer": 1
-            },
-            {
-              "question": "Che cosa chiedono soprattutto?",
-              "options": [
-                "Di cucinare ogni sera.",
-                "Di pagare in anticipo.",
-                "Rispetto per gli spazi comuni.",
-                "Di avere la macchina."
-              ],
-              "answer": 2
-            }
-          ],
-          "explanation": "Count the relatives: in cui, che, da cui, con cui, che non fumi (congiuntivo!), quello che, chi."
+          "explanation": "You clean windows with something, so the preposition con goes before cui."
         },
         {
           "type": "translate",
-          "id": "b1-10-l3-e08",
-          "instruction": "Traduci in italiano.",
+          "id": "b1-10-l4-e06",
+          "stage": "practise",
+          "instruction": "Traduci.",
           "direction": "en_it",
           "source": "It's the shop where I bought my bike.",
           "answers": [
-            "È il negozio in cui ho comprato la mia bici.",
-            "È il negozio in cui ho comprato la mia bicicletta.",
-            "È il negozio in cui ho comprato la bici.",
-            "È il negozio in cui ho comprato la bicicletta.",
-            "È il negozio dove ho comprato la mia bici.",
-            "È il negozio dove ho comprato la mia bicicletta.",
             "È il negozio dove ho comprato la bici.",
+            "È il negozio in cui ho comprato la bici.",
             "È il negozio dove ho comprato la bicicletta.",
-            "È il negozio nel quale ho comprato la mia bici.",
-            "È il negozio nel quale ho comprato la mia bicicletta.",
-            "È il negozio nel quale ho comprato la bici.",
-            "È il negozio nel quale ho comprato la bicicletta."
+            "È il negozio in cui ho comprato la bicicletta.",
+            "È il negozio nel quale ho comprato la bici."
           ],
-          "explanation": "Where = in cui / dove."
+          "explanation": "For a place, where is dove or in cui."
         },
         {
           "type": "roleplay",
-          "id": "b1-10-l3-e09",
-          "instruction": "Sei in ferramenta. Non sai come si chiama quello che ti serve. Rispondi ad alta voce.",
-          "scenario": "You're in a hardware shop. You need wall plugs (tasselli) to put up a shelf, but you don't know the word.",
+          "id": "b1-10-l4-e07",
+          "stage": "use",
+          "scenario": "You're in a hardware shop. You need wall plugs to put up a shelf, but you don't know the word. Describe them.",
           "turns": [
             {
               "speaker": "npc",
-              "text": "Buongiorno, mi dica."
+              "text": "Buongiorno, {name}! Posso aiutarla?"
             },
             {
               "speaker": "you",
-              "text": "Buongiorno, mi serve una cosa, ma non so come si chiama.",
-              "hint": "Explain you don't know the word.",
+              "text": "Buongiorno. Mi serve una cosa che si mette nel muro per appendere una mensola.",
+              "hint": "una cosa che si mette nel muro…",
               "keywords": [
-                "mi serve"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Nessun problema. Com'è fatta? A che cosa serve?"
-            },
-            {
-              "speaker": "you",
-              "text": "È una cosa di plastica che si mette nel muro prima della vite.",
-              "hint": "Describe it with che si mette…",
-              "keywords": [
-                "che",
-                "muro"
-              ]
-            },
-            {
-              "speaker": "npc",
-              "text": "Ah, un tassello! Per che cosa le serve?"
-            },
-            {
-              "speaker": "you",
-              "text": "Per appendere una mensola su cui metterò dei libri.",
-              "hint": "Su cui + what you'll put on the shelf.",
-              "keywords": [
-                "su cui",
+                "cosa",
+                "muro",
                 "mensola"
               ]
             },
             {
               "speaker": "npc",
-              "text": "Allora le servono tasselli da otto. Ha un trapano?"
+              "text": "Ah, i tasselli! Di che misura?"
             },
             {
               "speaker": "you",
-              "text": "No, è proprio quello che mi manca. Si può noleggiare qui?",
-              "hint": "Quello che mi manca = what I'm missing.",
+              "text": "Non lo so. Mi dà quelli che vanno bene per un muro di mattoni?",
+              "hint": "quelli che vanno bene per…",
               "keywords": [
-                "quello che"
+                "quelli che",
+                "muro"
               ]
             },
             {
               "speaker": "npc",
-              "text": "Sì, il noleggio costa dieci euro al giorno."
+              "text": "Ecco, questi vanno bene. Le serve anche qualcosa con cui fare i buchi?"
             },
             {
               "speaker": "you",
-              "text": "Perfetto, allora prendo i tasselli e il trapano a noleggio.",
-              "hint": "Decide.",
+              "text": "No, grazie. Il trapano ce l'ho già.",
+              "hint": "Il trapano ce l'ho già.",
               "keywords": [
-                "prendo"
+                "trapano",
+                "già"
               ]
             }
-          ],
-          "explanation": "You got what you needed without knowing the words – che, su cui and quello che did the work."
-        },
-        {
-          "type": "free_write",
-          "id": "b1-10-l3-e10",
-          "instruction": "Scrivi un annuncio.",
-          "prompt": "Hai perso un oggetto (una borsa, un portafoglio, un ombrello…). Scrivi un annuncio per il gruppo del quartiere (60–90 parole): descrivi l'oggetto, dove e quando l'hai perso e che cosa c'era dentro.",
-          "minWords": 60,
-          "checklist": [
-            "Ho usato che almeno due volte.",
-            "Ho usato preposizione + cui almeno una volta (in cui, di cui, con cui…).",
-            "Ho usato quello che o chi.",
-            "Ho usato i tempi del passato correttamente (ho perso / c'era).",
-            "Ho scritto come contattarmi."
-          ],
-          "modelAnswer": "Ciao a tutti! Sabato pomeriggio ho perso uno zaino blu al parco giochi di via Verdi, vicino alla panchina in cui mi siedo di solito. È uno zaino piccolo, con una tasca davanti che si chiude con la zip. Dentro c'erano un libro che mi ha regalato un amico e un quaderno di cui ho molto bisogno, perché ci sono tutti i miei appunti d'italiano. Chi lo trova può scrivermi qui o lasciarlo al bar del parco. Grazie mille!"
-        },
-        {
-          "type": "speak_respond",
-          "id": "b1-10-l3-e11",
-          "instruction": "Rispondi ad alta voce in 2–3 frasi.",
-          "prompt": "Spiega che cos'è la moka a qualcuno che non la conosce, senza dire la parola «moka».",
-          "keywords": [
-            "che",
-            "con cui",
-            "si"
-          ],
-          "modelAnswer": "È una piccola caffettiera di metallo con cui si fa il caffè a casa. Si mette l'acqua nella parte di sotto e il caffè nel filtro, e poi la si mette sul fuoco.",
-          "explanation": "A definition with con cui and si impersonale."
-        },
-        {
-          "type": "flashcard",
-          "id": "b1-10-l3-e12",
-          "front": "la ferramenta",
-          "back": "hardware shop",
-          "example": "Ho comprato i tasselli in ferramenta."
+          ]
         }
       ]
     }
@@ -754,11 +673,6 @@
       "example": "Condividiamo la cucina e il bagno."
     },
     {
-      "it": "gli spazi comuni",
-      "en": "shared spaces",
-      "example": "Bisogna rispettare gli spazi comuni."
-    },
-    {
       "it": "avere bisogno di",
       "en": "to need",
       "example": "È il documento di cui ho bisogno."
@@ -810,15 +724,16 @@
     },
     {
       "id": "b1-10-t3",
-      "rule": "Il che non si omette",
+      "rule": "Che non si omette mai",
       "tip": "English drops 'that'; Italian never drops che: la casa che ho visto (the house I saw).",
       "example": {
         "it": "L'uomo che ho conosciuto è un medico.",
         "en": "The man I met is a doctor."
       },
       "challenge": {
-        "type": "error_correction",
-        "sentence": "La pizza abbiamo mangiato ieri era buonissima.",
+        "type": "transform",
+        "source": "La pizza abbiamo mangiato ieri era buonissima.",
+        "cue": "Correggi la frase.",
         "answers": [
           "La pizza che abbiamo mangiato ieri era buonissima."
         ]

@@ -1,0 +1,1004 @@
+{
+  "id": "a1-05",
+  "level": "A1",
+  "title": "Al bar e al mercato",
+  "format": 2,
+  "module": "a1-m2",
+  "objective": "By the end you can count to 100, order at a bar with vorrei, ask prices with quanto costa and buy food by weight.",
+  "grammarFocus": "Numbers 0–100; vorrei; quanto costa / costano; quantity + di.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "a1-05-l1",
+      "title": "Numeri da 0 a 20",
+      "minutes": 7,
+      "goal": "You can say and understand the numbers from 0 to 20.",
+      "takeaway": "11 to 16 end in -dici; 17, 18 and 19 start with dici-: diciassette, diciotto, diciannove.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-05-l1-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la frase giusta.",
+          "prompt": "How do you say \"It's one o'clock\"?",
+          "options": [
+            "È l'una.",
+            "Sono l'una.",
+            "È le una.",
+            "Sono una."
+          ],
+          "answer": 0,
+          "explanation": "One o'clock is singular, so Italian says è l'una; the other hours use sono le."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l1-e02",
+          "stage": "learn",
+          "title": "Da 0 a 10",
+          "body": "Say each number aloud. Only **uno** changes: un caffè, una birra.\n\n| numero | italiano |\n|---|---|\n| 0 | zero |\n| 1 | uno |\n| 2 | due |\n| 3 | tre |\n| 4 | quattro |\n| 5 | cinque |\n| 6 | sei |\n| 7 | sette |\n| 8 | otto |\n| 9 | nove |\n| 10 | dieci |",
+          "examples": [
+            {
+              "it": "Ho due cornetti.",
+              "en": "I have two croissants."
+            },
+            {
+              "it": "Il bus è il sette.",
+              "en": "The bus is number seven."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l1-e03",
+          "stage": "learn",
+          "title": "Da 11 a 20",
+          "body": "From 11 to 16 the ending is ==dici==. From 17 to 19 the word starts with ==dici==.\n\n| numero | italiano | numero | italiano |\n|---|---|---|---|\n| 11 | un==dici== | 16 | se==dici== |\n| 12 | do==dici== | 17 | ==dici==assette |\n| 13 | tre==dici== | 18 | ==dici==otto |\n| 14 | quattor==dici== | 19 | ==dici==annove |\n| 15 | quin==dici== | 20 | venti |\n\n> Careful: 16 is **sedici**, 6 is **sei**.",
+          "examples": [
+            {
+              "it": "Sono le dodici.",
+              "en": "It is twelve o'clock."
+            },
+            {
+              "it": "Ho diciotto anni.",
+              "en": "I am eighteen years old."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-05-l1-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Il mio autobus è il quattordici.",
+          "question": "Which number do you hear?",
+          "options": [
+            "4",
+            "14",
+            "40",
+            "41"
+          ],
+          "answer": 1,
+          "explanation": "Quattordici is 14: quattro (4) plus -dici."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-05-l1-e05",
+          "stage": "practise",
+          "instruction": "Abbina le coppie.",
+          "pairs": [
+            {
+              "left": "sei",
+              "right": "6"
+            },
+            {
+              "left": "nove",
+              "right": "9"
+            },
+            {
+              "left": "dodici",
+              "right": "12"
+            },
+            {
+              "left": "quindici",
+              "right": "15"
+            },
+            {
+              "left": "sedici",
+              "right": "16"
+            },
+            {
+              "left": "diciotto",
+              "right": "18"
+            }
+          ],
+          "explanation": "Match each Italian number word with its digits."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-05-l1-e06",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Il mio bus è il tre.",
+            "Il mio bus è il tredici."
+          ],
+          "question": "Which bus is number 13?",
+          "answer": 1,
+          "translations": [
+            "My bus is number 3.",
+            "My bus is number 13."
+          ],
+          "explanation": "Tredici is 13; tre is only 3."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-05-l1-e07",
+          "stage": "practise",
+          "instruction": "Scrivi il numero in lettere.",
+          "sentence": "Due più tre fa ___.",
+          "answers": [
+            "cinque"
+          ],
+          "explanation": "Due plus tre makes cinque (5).",
+          "hint": "2 + 3"
+        },
+        {
+          "type": "translate",
+          "id": "a1-05-l1-e08",
+          "stage": "practise",
+          "instruction": "Scrivi in italiano.",
+          "direction": "en_it",
+          "source": "seventeen",
+          "answers": [
+            "diciassette"
+          ],
+          "explanation": "17 is diciassette: dici- plus sette."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-05-l1-e09",
+          "stage": "use",
+          "instruction": "Dì i numeri ad alta voce.",
+          "prompt": "Conta da uno a dieci ad alta voce.",
+          "keywords": [
+            "uno",
+            "due",
+            "tre",
+            "quattro",
+            "cinque"
+          ],
+          "modelAnswer": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci."
+        }
+      ]
+    },
+    {
+      "id": "a1-05-l2",
+      "title": "Numeri da 20 a 100",
+      "minutes": 7,
+      "goal": "You can say and understand numbers up to 100, for prices and addresses.",
+      "takeaway": "Tens + units: ventuno, trentadue; the tens lose their last vowel before uno and otto.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-05-l2-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il numero.",
+          "prompt": "Which word means 12?",
+          "options": [
+            "dodici",
+            "due",
+            "venti",
+            "dieci"
+          ],
+          "answer": 0,
+          "explanation": "Dodici is 12; due is 2 and venti is 20."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l2-e02",
+          "stage": "learn",
+          "title": "Le decine",
+          "body": "These are the tens. Most end in ==-anta==.\n\n| numero | italiano |\n|---|---|\n| 20 | venti |\n| 30 | tr==enta== |\n| 40 | quar==anta== |\n| 50 | cinqu==anta== |\n| 60 | sess==anta== |\n| 70 | sett==anta== |\n| 80 | ott==anta== |\n| 90 | nov==anta== |\n| 100 | cento |",
+          "examples": [
+            {
+              "it": "Ho trenta euro.",
+              "en": "I have thirty euros."
+            },
+            {
+              "it": "Il bus è il quaranta.",
+              "en": "The bus is number forty."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l2-e03",
+          "stage": "learn",
+          "title": "21, 38, 53…",
+          "body": "Write the ten and the unit as **one word**.\n\n| numero | italiano |\n|---|---|\n| 21 | vent==i==uno → ventuno |\n| 28 | ventotto |\n| 32 | trentadue |\n| 53 | cinquantatré |\n\n> The ten loses its last vowel before **uno** and **otto**: ventuno, trentotto. **Tré** has an accent at the end: ventitré.",
+          "examples": [
+            {
+              "it": "Ho ventuno anni.",
+              "en": "I am twenty-one."
+            },
+            {
+              "it": "Sono ventotto euro.",
+              "en": "That is twenty-eight euros."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-05-l2-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Il numero è il quarantacinque.",
+          "question": "Which number do you hear?",
+          "options": [
+            "45",
+            "54",
+            "44",
+            "15"
+          ],
+          "answer": 0,
+          "explanation": "Quaranta (40) plus cinque (5) makes 45."
+        },
+        {
+          "type": "minimal_pair",
+          "id": "a1-05-l2-e05",
+          "stage": "practise",
+          "instruction": "Leggi le frasi e scegli.",
+          "sentences": [
+            "Il bus è il quaranta.",
+            "Il bus è il quattordici."
+          ],
+          "question": "Which bus is number 14?",
+          "answer": 1,
+          "translations": [
+            "The bus is number 40.",
+            "The bus is number 14."
+          ],
+          "explanation": "Quattordici is 14; quaranta is 40."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-05-l2-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "settantotto",
+          "answers": [
+            "settantotto"
+          ],
+          "explanation": "78 is settanta + otto, and the final a of settanta drops: settantotto."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-05-l2-e07",
+          "stage": "practise",
+          "instruction": "Scrivi il numero in lettere.",
+          "sentence": "Venti più trenta fa ___.",
+          "answers": [
+            "cinquanta"
+          ],
+          "explanation": "20 plus 30 makes cinquanta (50).",
+          "hint": "20 + 30"
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-05-l2-e08",
+          "stage": "practise",
+          "instruction": "Trova l'errore e scrivi la frase giusta.",
+          "sentence": "Il bus è il ventiotto.",
+          "answers": [
+            "Il bus è il ventotto.",
+            "Il bus è il ventotto"
+          ],
+          "explanation": "The ten loses its last vowel before otto: ventotto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-05-l2-e09",
+          "stage": "use",
+          "instruction": "Leggi ad alta voce.",
+          "prompt": "Leggi questi numeri: 21, 38, 53, 67, 82, 99.",
+          "keywords": [
+            "ventuno",
+            "trentotto",
+            "cinquantatré",
+            "sessantasette",
+            "ottantadue",
+            "novantanove"
+          ],
+          "modelAnswer": "Ventuno, trentotto, cinquantatré, sessantasette, ottantadue, novantanove."
+        }
+      ]
+    },
+    {
+      "id": "a1-05-l3",
+      "title": "Al bar: vorrei",
+      "minutes": 7,
+      "goal": "You can order a drink and a snack politely at a bar.",
+      "takeaway": "Vorrei + thing + per favore; say basta così when you have enough.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-05-l3-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la parola giusta.",
+          "prompt": "Which word is feminine?",
+          "options": [
+            "la birra",
+            "il cappuccino",
+            "il tè",
+            "il panino"
+          ],
+          "answer": 0,
+          "explanation": "Birra is feminine, so it takes la or una."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l3-e02",
+          "stage": "learn",
+          "title": "Vorrei",
+          "body": "**Vorrei** means *I would like*. It is polite. Add what you want, then **per favore**.\n\n| in italiano | in English |\n|---|---|\n| un ==caffè== | an espresso |\n| un ==cappuccino== | a cappuccino |\n| un'==acqua== frizzante | sparkling water |\n| un ==succo== di frutta | a fruit juice |\n| un ==cornetto== | a croissant |\n\n> A plain **caffè** is an espresso.",
+          "examples": [
+            {
+              "it": "Vorrei un caffè, per favore.",
+              "en": "I would like an espresso, please."
+            },
+            {
+              "it": "Vorrei due cornetti.",
+              "en": "I would like two croissants."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l3-e03",
+          "stage": "learn",
+          "title": "Al banco",
+          "body": "Useful lines at the counter.\n\n| il barista | tu |\n|---|---|\n| Buongiorno, dica! | Vorrei un caffè. |\n| Altro? | No, ==basta così==, grazie. |\n| Ecco a Lei. | Grazie! |\n\n> In many bars you pay first at the **cassa** and show the **scontrino** (receipt) at the counter.",
+          "examples": [
+            {
+              "it": "Altro? — No, basta così.",
+              "en": "Anything else? — No, that's all."
+            },
+            {
+              "it": "Dica!",
+              "en": "Go ahead! (What can I get you?)"
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-05-l3-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Buongiorno! Vorrei un cappuccino e un cornetto, per favore.",
+          "question": "What does the customer order?",
+          "options": [
+            "a coffee and a sandwich",
+            "a cappuccino and a croissant",
+            "a tea and a croissant",
+            "a cappuccino and a juice"
+          ],
+          "answer": 1,
+          "explanation": "Vorrei introduces the order: un cappuccino e un cornetto."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-05-l3-e05",
+          "stage": "practise",
+          "instruction": "Metti in ordine le parole.",
+          "translation": "I would like a coffee, please.",
+          "tiles": [
+            "Vorrei",
+            "un",
+            "caffè",
+            "per",
+            "favore"
+          ],
+          "distractors": [
+            "Voglio",
+            "una"
+          ],
+          "explanation": "Vorrei + un + noun, then per favore."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-05-l3-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "___ un caffè, per favore.",
+          "answers": [
+            "Vorrei"
+          ],
+          "explanation": "Vorrei is the polite way to ask for something."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-05-l3-e07",
+          "stage": "practise",
+          "instruction": "Trova l'errore e scrivi la frase giusta.",
+          "sentence": "Vorrei una cappuccino, per favore.",
+          "answers": [
+            "Vorrei un cappuccino, per favore.",
+            "Vorrei un cappuccino per favore."
+          ],
+          "explanation": "Cappuccino is masculine, so it takes un."
+        },
+        {
+          "type": "translate",
+          "id": "a1-05-l3-e08",
+          "stage": "practise",
+          "instruction": "Traduci.",
+          "direction": "en_it",
+          "source": "I would like two croissants.",
+          "answers": [
+            "Vorrei due cornetti.",
+            "Vorrei due cornetti",
+            "Vorrei due cornetti, per favore."
+          ],
+          "explanation": "Use vorrei + number + plural noun: due cornetti."
+        },
+        {
+          "type": "roleplay",
+          "id": "a1-05-l3-e09",
+          "stage": "use",
+          "instruction": "Sei al bar. Parla con il barista.",
+          "scenario": "Order a coffee and a croissant, then say that is all.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buongiorno, dica!"
+            },
+            {
+              "speaker": "you",
+              "text": "Buongiorno! Vorrei un caffè e un cornetto, per favore.",
+              "keywords": [
+                "vorrei",
+                "caffè",
+                "cornetto"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Ecco a Lei. Altro?"
+            },
+            {
+              "speaker": "you",
+              "text": "No, basta così, grazie.",
+              "keywords": [
+                "basta così",
+                "grazie"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Prego, buona giornata!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-05-l4",
+      "title": "Quanto costa?",
+      "minutes": 7,
+      "goal": "You can ask the price of things and understand the answer.",
+      "takeaway": "Quanto costa + one thing; quanto costano + more than one. 2,50 = due euro e cinquanta.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-05-l4-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli il numero.",
+          "prompt": "Which number is quaranta?",
+          "options": [
+            "14",
+            "40",
+            "4",
+            "44"
+          ],
+          "answer": 1,
+          "explanation": "Quaranta is 40; quattordici is 14."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l4-e02",
+          "stage": "learn",
+          "title": "Costa o costano?",
+          "body": "Ask the price with **quanto**. The verb agrees with the thing.\n\n| una cosa | più cose |\n|---|---|\n| Quanto ==costa== il caffè? | Quanto ==costano== i cornetti? |\n| ==Costa== un euro. | ==Costano== due euro. |\n\n> **Euro** never changes: un euro, due euro.",
+          "examples": [
+            {
+              "it": "Quanto costa un tè?",
+              "en": "How much is a tea?"
+            },
+            {
+              "it": "Quanto costano le arance?",
+              "en": "How much are the oranges?"
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l4-e03",
+          "stage": "learn",
+          "title": "Dire i prezzi",
+          "body": "Say the euros, **e**, then the cents.\n\n| prezzo | si dice |\n|---|---|\n| 1,50 € | un euro e cinquanta |\n| 2,20 € | due euro e venti |\n| 12,00 € | dodici euro |\n| 0,80 € | ottanta centesimi |\n\nIn Italy prices use a **comma**. For the total you hear **Sono** or **Fa**: *Sono tre euro*.",
+          "examples": [
+            {
+              "it": "Sono due euro e cinquanta.",
+              "en": "That's 2.50 euros."
+            },
+            {
+              "it": "Fa tre euro.",
+              "en": "That makes 3 euros."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-05-l4-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Sono due euro e cinquanta.",
+          "question": "How much is it?",
+          "options": [
+            "2.15 euros",
+            "2.50 euros",
+            "12.50 euros",
+            "2.05 euros"
+          ],
+          "answer": 1,
+          "explanation": "Due euro e cinquanta means 2.50 euros."
+        },
+        {
+          "type": "sort_buckets",
+          "id": "a1-05-l4-e05",
+          "stage": "practise",
+          "instruction": "Scegli: costa o costano?",
+          "buckets": [
+            "costa",
+            "costano"
+          ],
+          "items": [
+            {
+              "text": "il cappuccino",
+              "bucket": 0
+            },
+            {
+              "text": "i cornetti",
+              "bucket": 1
+            },
+            {
+              "text": "l'acqua",
+              "bucket": 0
+            },
+            {
+              "text": "le mele",
+              "bucket": 1
+            },
+            {
+              "text": "il pane",
+              "bucket": 0
+            },
+            {
+              "text": "i panini",
+              "bucket": 1
+            }
+          ],
+          "explanation": "Costa goes with one thing (singular); costano with several (plural)."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-05-l4-e06",
+          "stage": "practise",
+          "instruction": "Scrivi la forma giusta.",
+          "sentence": "Quanto ___ i panini?",
+          "answers": [
+            "costano"
+          ],
+          "explanation": "I panini is plural, so the verb is costano."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a1-05-l4-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Quanto costa un cappuccino?",
+          "answers": [
+            "Quanto costa un cappuccino?"
+          ],
+          "explanation": "Un cappuccino is one thing, so costa."
+        },
+        {
+          "type": "translate",
+          "id": "a1-05-l4-e08",
+          "stage": "practise",
+          "instruction": "Traduci in inglese.",
+          "direction": "it_en",
+          "source": "Quanto costano le mele?",
+          "answers": [
+            "How much are the apples?",
+            "How much do the apples cost?",
+            "How much are apples?"
+          ],
+          "explanation": "Le mele is plural, so costano: how much do they cost."
+        },
+        {
+          "type": "speak_respond",
+          "id": "a1-05-l4-e09",
+          "stage": "use",
+          "instruction": "Rispondi ad alta voce.",
+          "prompt": "Sei in pasticceria. Chiedi il prezzo di un cornetto e di due panini.",
+          "keywords": [
+            "quanto costa",
+            "quanto costano"
+          ],
+          "modelAnswer": "Quanto costa un cornetto? E quanto costano due panini?"
+        }
+      ]
+    },
+    {
+      "id": "a1-05-l5",
+      "title": "Al mercato",
+      "minutes": 8,
+      "goal": "You can buy fruit, vegetables and cheese by weight.",
+      "takeaway": "Un chilo / mezzo chilo / un etto + di + thing: un chilo di mele.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "id": "a1-05-l5-e01",
+          "stage": "warmup",
+          "instruction": "Riscaldamento: scegli la forma giusta.",
+          "prompt": "Quanto ___ le arance?",
+          "options": [
+            "costa",
+            "costano",
+            "costo",
+            "costiamo"
+          ],
+          "answer": 1,
+          "explanation": "Le arance is plural, so the verb is costano."
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l5-e02",
+          "stage": "learn",
+          "title": "Quanto ne vuole?",
+          "body": "Say the quantity, then **di**, then the thing.\n\n| quantità | esempio |\n|---|---|\n| un chilo | un chilo ==di== mele |\n| mezzo chilo | mezzo chilo ==di== pomodori |\n| un etto (100 g) | un etto ==di== prosciutto |\n| due etti (200 g) | due etti ==di== formaggio |\n\n> Never skip **di**: un chilo di mele, not *un chilo mele*.",
+          "examples": [
+            {
+              "it": "Vorrei un chilo di arance.",
+              "en": "I would like a kilo of oranges."
+            },
+            {
+              "it": "Due etti di formaggio, per favore.",
+              "en": "200 grams of cheese, please."
+            }
+          ]
+        },
+        {
+          "type": "grammar_note",
+          "id": "a1-05-l5-e03",
+          "stage": "learn",
+          "title": "Dal fruttivendolo",
+          "body": "What the seller says, and what you say.\n\n| il venditore | tu |\n|---|---|\n| Desidera? | Vorrei mezzo chilo di pomodori. |\n| Altro? | Basta così. Quant'è? |\n| Sono tre euro. | Ecco, grazie. |\n\n**Quant'è?** means *How much is it?*",
+          "examples": [
+            {
+              "it": "Desidera?",
+              "en": "What would you like?"
+            },
+            {
+              "it": "Quant'è? — Sono tre euro.",
+              "en": "How much is it? — It's three euros."
+            }
+          ]
+        },
+        {
+          "type": "listen_choose",
+          "id": "a1-05-l5-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Vorrei mezzo chilo di pomodori e due etti di formaggio.",
+          "question": "How much cheese does the customer want?",
+          "options": [
+            "100 grams",
+            "200 grams",
+            "500 grams",
+            "2 kilos"
+          ],
+          "answer": 1,
+          "explanation": "Due etti is 2 x 100 g, so 200 grams."
+        },
+        {
+          "type": "match_pairs",
+          "id": "a1-05-l5-e05",
+          "stage": "practise",
+          "instruction": "Abbina le coppie.",
+          "pairs": [
+            {
+              "left": "un etto",
+              "right": "100 g"
+            },
+            {
+              "left": "due etti",
+              "right": "200 g"
+            },
+            {
+              "left": "mezzo chilo",
+              "right": "500 g"
+            },
+            {
+              "left": "un chilo",
+              "right": "1000 g"
+            }
+          ],
+          "explanation": "An etto is 100 grams and a chilo is 1000 grams."
+        },
+        {
+          "type": "sentence_build",
+          "id": "a1-05-l5-e06",
+          "stage": "practise",
+          "instruction": "Metti in ordine le parole.",
+          "translation": "I would like a kilo of apples.",
+          "tiles": [
+            "Vorrei",
+            "un",
+            "chilo",
+            "di",
+            "mele"
+          ],
+          "distractors": [
+            "a",
+            "pomodori"
+          ],
+          "explanation": "After a quantity (un chilo) you need di."
+        },
+        {
+          "type": "error_correction",
+          "id": "a1-05-l5-e07",
+          "stage": "practise",
+          "instruction": "Trova l'errore e scrivi la frase giusta.",
+          "sentence": "Vorrei un chilo mele.",
+          "answers": [
+            "Vorrei un chilo di mele.",
+            "Vorrei un chilo di mele"
+          ],
+          "explanation": "A quantity is always followed by di."
+        },
+        {
+          "type": "gap_fill",
+          "id": "a1-05-l5-e08",
+          "stage": "practise",
+          "instruction": "Scrivi la parola che manca.",
+          "sentence": "Vorrei due ___ di prosciutto.",
+          "answers": [
+            "etti"
+          ],
+          "explanation": "Due etti means 200 grams; the plural is etti.",
+          "hint": "200 g"
+        },
+        {
+          "type": "reading",
+          "id": "a1-05-l5-e09",
+          "stage": "use",
+          "instruction": "Leggi e rispondi.",
+          "title": "Al mercato",
+          "passage": "{name} compra la frutta. Il fruttivendolo dice: «Buongiorno, {name}! Desidera?»\n«Vorrei un chilo di arance e mezzo chilo di pomodori, per favore.»\n«Ecco. Altro?»\n«No, basta così. Quant'è?»\n«Le arance costano due euro al chilo. I pomodori costano tre euro al chilo. Sono tre euro e cinquanta.»",
+          "questions": [
+            {
+              "question": "What does {name} buy?",
+              "options": [
+                "a kilo of apples and half a kilo of tomatoes",
+                "a kilo of oranges and half a kilo of tomatoes",
+                "half a kilo of oranges and a kilo of tomatoes",
+                "a kilo of oranges and two kilos of tomatoes"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "How much is the total?",
+              "options": [
+                "2.00 euros",
+                "3.00 euros",
+                "3.50 euros",
+                "5.00 euros"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "vorrei",
+      "en": "I would like",
+      "example": "Vorrei un caffè, per favore."
+    },
+    {
+      "it": "per favore",
+      "en": "please",
+      "example": "Un'acqua, per favore."
+    },
+    {
+      "it": "il cornetto",
+      "en": "croissant",
+      "example": "Vorrei un cornetto."
+    },
+    {
+      "it": "il panino",
+      "en": "sandwich",
+      "example": "Un panino al prosciutto, grazie."
+    },
+    {
+      "it": "l'acqua frizzante",
+      "en": "sparkling water",
+      "example": "Un'acqua frizzante, per favore."
+    },
+    {
+      "it": "il succo di frutta",
+      "en": "fruit juice",
+      "example": "Vorrei un succo di frutta."
+    },
+    {
+      "it": "la cassa",
+      "en": "till, cash desk",
+      "example": "Si paga alla cassa."
+    },
+    {
+      "it": "lo scontrino",
+      "en": "receipt",
+      "example": "Ecco lo scontrino."
+    },
+    {
+      "it": "Quanto costa?",
+      "en": "How much is it?",
+      "example": "Quanto costa un caffè?"
+    },
+    {
+      "it": "l'euro (pl. euro)",
+      "en": "euro",
+      "example": "Costa due euro."
+    },
+    {
+      "it": "il centesimo",
+      "en": "cent",
+      "example": "Sono ottanta centesimi."
+    },
+    {
+      "it": "il chilo",
+      "en": "kilo",
+      "example": "Un chilo di mele, per favore."
+    },
+    {
+      "it": "l'etto",
+      "en": "100 grams",
+      "example": "Due etti di formaggio."
+    },
+    {
+      "it": "l'arancia",
+      "en": "orange",
+      "example": "Un chilo di arance."
+    },
+    {
+      "it": "il pomodoro",
+      "en": "tomato",
+      "example": "I pomodori costano tre euro."
+    },
+    {
+      "it": "Altro?",
+      "en": "Anything else?",
+      "example": "Altro? — No, grazie."
+    },
+    {
+      "it": "Basta così.",
+      "en": "That's all, thanks.",
+      "example": "Basta così, grazie."
+    },
+    {
+      "it": "Quant'è?",
+      "en": "How much is it (total)?",
+      "example": "Quant'è? — Sono tre euro."
+    },
+    {
+      "it": "al chilo",
+      "en": "per kilo",
+      "example": "Costano due euro al chilo."
+    },
+    {
+      "it": "Desidera?",
+      "en": "What would you like? (polite)",
+      "example": "Buongiorno, desidera?"
+    }
+  ],
+  "grammarTips": [
+    {
+      "id": "a1-05-t1",
+      "rule": "Numeri 11–19",
+      "tip": "11–16 end in -dici (undici … sedici); 17, 18 and 19 start with dici-: diciassette.",
+      "example": {
+        "it": "Ho diciassette euro.",
+        "en": "I have seventeen euros."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Quindici più due fa ___.",
+        "answers": [
+          "diciassette"
+        ]
+      }
+    },
+    {
+      "id": "a1-05-t2",
+      "rule": "Ventuno, ventotto",
+      "tip": "Before uno and otto the tens lose their last vowel: ventuno, trentotto. Tré takes an accent: ventitré.",
+      "example": {
+        "it": "Sono ventuno euro.",
+        "en": "That is twenty-one euros."
+      },
+      "challenge": {
+        "type": "error_correction",
+        "sentence": "Sono ventiuno euro.",
+        "answers": [
+          "Sono ventuno euro."
+        ]
+      }
+    },
+    {
+      "id": "a1-05-t3",
+      "rule": "Vorrei + per favore",
+      "tip": "Vorrei + thing + per favore is the polite way to order at a bar or shop.",
+      "example": {
+        "it": "Vorrei un caffè, per favore.",
+        "en": "I would like an espresso, please."
+      },
+      "challenge": {
+        "type": "translate",
+        "direction": "en_it",
+        "source": "I would like a coffee, please.",
+        "answers": [
+          "Vorrei un caffè, per favore.",
+          "Vorrei un caffè per favore."
+        ]
+      }
+    },
+    {
+      "id": "a1-05-t4",
+      "rule": "Costa o costano?",
+      "tip": "Use costa for one thing and costano for more than one.",
+      "example": {
+        "it": "Quanto costano i cornetti?",
+        "en": "How much are the croissants?"
+      },
+      "challenge": {
+        "type": "multiple_choice",
+        "prompt": "Quanto ___ le mele?",
+        "options": [
+          "costa",
+          "costano"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "a1-05-t5",
+      "rule": "Un chilo di…",
+      "tip": "After a quantity always use di: un chilo di mele, due etti di formaggio.",
+      "example": {
+        "it": "Vorrei un etto di prosciutto.",
+        "en": "I would like 100 g of ham."
+      },
+      "challenge": {
+        "type": "gap_fill",
+        "sentence": "Un chilo ___ arance, per favore.",
+        "answers": [
+          "di"
+        ]
+      }
+    }
+  ]
+}
