@@ -14,6 +14,8 @@ import com.gleaped.italianlearning.domain.dictionary.FormMatch
 import com.gleaped.italianlearning.domain.dictionary.InstallAction
 import com.gleaped.italianlearning.domain.dictionary.LemmaRow
 import com.gleaped.italianlearning.domain.dictionary.LookupGroup
+import com.gleaped.italianlearning.domain.writing.WritingChecker
+import com.gleaped.italianlearning.domain.writing.WritingReport
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -60,6 +62,22 @@ class DictionaryRepository(context: Context) {
             } catch (e: SQLiteException) {
                 Log.w(TAG, "lookup failed", e)
                 emptyList()
+            }
+        }
+    }
+
+    /**
+     * Checks a written text (see [WritingChecker]). When the dictionary is not available the
+     * report still has the pattern checks, but no spelling notes.
+     */
+    suspend fun checkWriting(text: String): WritingReport {
+        val ready = availability() as? DictionaryAvailability.Ready
+        return withContext(Dispatchers.IO) {
+            try {
+                WritingChecker.check(text, ready?.lookup?.let { lookup -> { word: String -> lookup.spelling(word) } })
+            } catch (e: SQLiteException) {
+                Log.w(TAG, "writing check failed", e)
+                WritingChecker.check(text, null)
             }
         }
     }

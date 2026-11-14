@@ -52,6 +52,7 @@ fun HomeScreen(
     onProgress: () -> Unit = {},
     onMix: () -> Unit = {},
     onExamSettings: () -> Unit = {},
+    onOral: () -> Unit = {},
 ) {
     val container = LocalAppContainer.current
     val vm: OverviewViewModel = viewModel(factory = OverviewViewModel.factory(container))
@@ -198,7 +199,7 @@ fun HomeScreen(
             }
         }
 
-        ExamCard(o, onProgress = onProgress, onSettings = onExamSettings)
+        ExamCard(o, onProgress = onProgress, onSettings = onExamSettings, onOral = onOral)
 
         OutlinedButton(onClick = onProgress, modifier = Modifier.fillMaxWidth()) {
             Text("Progress by skill and my writing")
@@ -225,7 +226,7 @@ fun HomeScreen(
 
 /** Countdown to the exam, the weekly pace that keeps to it, and a rough score against the pass marks. */
 @Composable
-private fun ExamCard(o: Overview, onProgress: () -> Unit, onSettings: () -> Unit) {
+private fun ExamCard(o: Overview, onProgress: () -> Unit, onSettings: () -> Unit, onOral: () -> Unit) {
     val today = LocalDate.now().toEpochDay()
     OutlinedCard(Modifier.fillMaxWidth()) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
@@ -258,7 +259,10 @@ private fun ExamCard(o: Overview, onProgress: () -> Unit, onSettings: () -> Unit
                 paceLine?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
             }
             ReadinessLines(o.readiness)
-            TextButton(onClick = onProgress) { Text("See the estimate by part") }
+            Row {
+                TextButton(onClick = onProgress) { Text("Estimate by part") }
+                TextButton(onClick = onOral) { Text("Prova orale") }
+            }
         }
     }
 }

@@ -86,6 +86,7 @@ import com.gleaped.italianlearning.speech.TtsStatus
 import com.gleaped.italianlearning.ui.components.ItalianText
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import com.gleaped.italianlearning.ui.components.LookupText
+import com.gleaped.italianlearning.ui.components.WritingNotes
 import com.gleaped.italianlearning.ui.components.RatingChoices
 import com.gleaped.italianlearning.ui.components.RichText
 import com.gleaped.italianlearning.ui.components.SpeakerButton
@@ -875,6 +876,7 @@ private fun FreeWriteView(e: FreeWrite, answered: Boolean, actions: ExerciseActi
         if (!selfCheck) {
             CheckButton(enabled = text.isNotBlank(), onClick = { selfCheck = true }, label = "I'm done — check my writing")
         } else {
+            WritingNotes(text)
             if (e.modelAnswer.isNotBlank()) {
                 SectionLabel("Model answer")
                 OutlinedCard(Modifier.fillMaxWidth()) {

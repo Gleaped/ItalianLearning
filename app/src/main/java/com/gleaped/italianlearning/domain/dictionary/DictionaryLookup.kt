@@ -57,6 +57,20 @@ data class LookupPlan(
  */
 class DictionaryLookup(private val store: DictionaryStore) {
 
+    /**
+     * Whether [word] is a spelling the dictionary knows: [Spelling.KNOWN] when one of its forms
+     * matches exactly, [Spelling.ACCENT] when only the accents differ (with the form that matches),
+     * [Spelling.UNKNOWN] when no form matches even without accents.
+     */
+    fun spelling(word: String): SpellingResult {
+        val norm = WordNormalizer.normalize(word)
+        if (norm.isEmpty()) return SpellingResult(Spelling.KNOWN)
+        val forms = store.formsByNorm(norm, 12).map { it.first.form.let { f -> WordNormalizer.lowerKeepAccents(f) } }
+        if (forms.isEmpty()) return SpellingResult(Spelling.UNKNOWN)
+        val typed = WordNormalizer.lowerKeepAccents(word)
+        return if (typed in forms) SpellingResult(Spelling.KNOWN) else SpellingResult(Spelling.ACCENT, forms.first())
+    }
+
     fun search(query: String, maxGroups: Int = MAX_GROUPS): List<LookupGroup> {
         val plan = plan(query)
         if (plan.isEmpty) return emptyList()
@@ -165,3 +179,9 @@ object DictionaryInstallPlan {
     fun shouldReplace(installedVersion: String?, assetVersion: String?): Boolean =
         assetVersion != null && assetVersion != installedVersion
 }
+
+/** How a written word compares with the dictionary's forms. */
+enum class Spelling { KNOWN, ACCENT, UNKNOWN }
+
+/** [suggestion] is the matching form when only the accents differ. */
+data class SpellingResult(val kind: Spelling, val suggestion: String? = null)

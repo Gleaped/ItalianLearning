@@ -14,6 +14,7 @@ import com.gleaped.italianlearning.reminders.ReminderContentBuilder
 import com.gleaped.italianlearning.reminders.ReminderScheduler
 import com.gleaped.italianlearning.reminders.Shortcuts
 import com.gleaped.italianlearning.data.flags.FlagRepository
+import com.gleaped.italianlearning.data.oral.OralRepository
 import com.gleaped.italianlearning.data.writing.WritingRepository
 import com.gleaped.italianlearning.speech.TtsManager
 import kotlinx.coroutines.CoroutineScope
@@ -37,6 +38,7 @@ class AppContainer(context: Context) {
     val tts: TtsManager by lazy { TtsManager(appContext) }
     val writing: WritingRepository by lazy { WritingRepository(appContext) }
     val flags: FlagRepository by lazy { FlagRepository(appContext) }
+    val oral: OralRepository by lazy { OralRepository(appContext) }
     val backup: BackupRepository by lazy { BackupRepository(database, writing, settings) }
 }
 
