@@ -1,0 +1,1005 @@
+{
+  "id": "celi-09",
+  "level": "CELI3",
+  "title": "Simulazione d'esame 2",
+  "objective": "Alla fine dell'unità hai fatto una seconda simulazione completa del CELI 3, con testi e registrazioni nuovi: lettura, scrittura, competenza linguistica, ascolto e orale.",
+  "grammarFocus": "Gestione del tempo e delle strategie su un secondo fascicolo: parafrasi nell'A.1, confronto nell'A.2, risposte aperte brevi nell'A.3, registro nella B.2.",
+  "remedialUnitIds": [
+    "celi-01",
+    "celi-02",
+    "celi-03",
+    "celi-04",
+    "celi-05"
+  ],
+  "lessons": [
+    {
+      "id": "celi-09-l1",
+      "title": "Fascicolo 1 – Lettura e scrittura (2 h 15 min)",
+      "minutes": 135,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Quanto dura il Fascicolo 1 e quali parti comprende?",
+          "options": [
+            "45 minuti: Parte C",
+            "2 ore e 15 minuti: Parte A (lettura) e Parte B (scrittura)",
+            "25 minuti: Parte D",
+            "15 minuti: l'orale"
+          ],
+          "answer": 1,
+          "explanation": "A e B insieme durano 2 h 15 min.",
+          "instruction": "Prima di cominciare.",
+          "id": "celi-09-l1-e01"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Istruzioni della simulazione 2",
+          "body": "Metti un timer di **135 minuti** e non usare il dizionario.\n\n- **A.1** – due testi, 9 domande (3 punti l'una)\n- **A.2** – 10 affermazioni: Testo 1 o Testo 2? (1 punto)\n- **A.3** – 4 domande aperte (fino a 3 punti)\n- **B.1** 120–180 parole e **B.2** 80–100 parole",
+          "examples": [
+            {
+              "it": "Scegli la traccia in cui sai usare più parole precise.",
+              "en": "Pick the prompt where you know the most precise words."
+            }
+          ],
+          "id": "celi-09-l1-e02"
+        },
+        {
+          "type": "reading",
+          "instruction": "A.1 – Testo 1. Leggi l'articolo e scegli la risposta giusta (5 domande).",
+          "title": "Il ritorno del cinema di quartiere",
+          "passage": "Fino a qualche anno fa sembrava destinato a scomparire. Il piccolo cinema di quartiere, con una sola sala e le poltroncine rosse un po' consumate, era stato sostituito dai grandi multisala dei centri commerciali. Oggi, invece, in molte città italiane tornano ad accendersi le insegne di locali che sembravano chiusi per sempre.\n\nA Bologna, per esempio, un gruppo di ex studenti ha riaperto un cinema chiuso da quindici anni, trasformandolo in una cooperativa. I soci pagano una quota annuale e in cambio scelgono i film, partecipano ai dibattiti e, se vogliono, danno una mano alla cassa. «Non facciamo concorrenza ai multisala», spiega uno dei fondatori, «offriamo qualcosa di diverso: un luogo dove, dopo il film, ci si ferma a parlare».\n\nLa formula funziona perché unisce la proiezione a una serie di iniziative che il grande schermo da solo non garantisce: rassegne dedicate ai registi esordienti, serate per le scuole, incontri con gli autori. Il pubblico, tuttavia, non è fatto soltanto di giovani. Molti spettatori sono persone di una certa età che, dopo anni di televisione, hanno ritrovato il piacere di uscire la sera. I conti, però, restano fragili: senza i contributi del Comune e le donazioni dei soci, nessuna di queste sale riuscirebbe a coprire le spese.",
+          "questions": [
+            {
+              "question": "Che cosa è successo ai cinema di quartiere negli ultimi anni?",
+              "options": [
+                "Sono stati sostituiti da cooperative",
+                "Rischiavano di sparire, ma ora alcuni stanno riaprendo",
+                "Sono stati trasformati in centri commerciali",
+                "Hanno aumentato i prezzi dei biglietti"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa fanno i soci della cooperativa di Bologna?",
+              "options": [
+                "Lavorano solo alla cassa",
+                "Scelgono i film e partecipano alla vita del cinema",
+                "Pagano un biglietto più basso",
+                "Dirigono il Comune"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa intende il fondatore dicendo «non facciamo concorrenza ai multisala»?",
+              "options": [
+                "Che i loro biglietti costano meno",
+                "Che offrono un'esperienza diversa dalla semplice proiezione",
+                "Che non proiettano film recenti",
+                "Che chiuderanno presto"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Secondo il testo, chi frequenta questi cinema?",
+              "options": [
+                "Soltanto studenti",
+                "Soprattutto bambini delle scuole",
+                "Anche persone anziane che tornano a uscire la sera",
+                "Solo i soci fondatori"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Qual è il problema ancora aperto?",
+              "options": [
+                "La mancanza di film",
+                "I conti, che dipendono da contributi e donazioni",
+                "La concorrenza della televisione",
+                "Il rumore per i vicini"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Controlla ogni risposta con la frase del testo che la conferma.",
+          "id": "celi-09-l1-e03"
+        },
+        {
+          "type": "reading",
+          "instruction": "A.1 – Testo 2. Leggi la lettera e scegli la risposta giusta (4 domande).",
+          "title": "Lettera da un Erasmus",
+          "passage": "Caro Matteo,\n\nti scrivo dall'aeroporto, in attesa dell'ultimo volo per Madrid. Sono passati quasi cinque mesi dall'inizio dell'Erasmus e non ho ancora finito di stupirmi. All'inizio non è stato facile: la lingua, le lezioni in aule enormi e un appartamento condiviso con cinque persone di cinque Paesi diversi. La prima sera, ricordo, non riuscivo nemmeno a ordinare una pizza senza essere imbarazzato.\n\nPoi, a poco a poco, le cose sono cambiate. Ho capito che l'università qui non ti spiega tutto: devi cercare da solo, organizzare gruppi di studio e, quando non capisci, chiedere. All'inizio lo trovavo faticoso, ma ora mi sembra il modo migliore per imparare davvero. Quanto alla lingua, il vero salto l'ho fatto grazie ai coinquilini: la sera cucinavamo insieme e potevamo parlare solo in spagnolo, perché nessuno conosceva l'italiano.\n\nTi consiglio di partire anche tu, se ne avrai l'occasione. Non pensare ai costi: con la borsa di studio e un lavoretto serale ce la si fa. L'unica cosa che mi manca sono le domeniche in famiglia. Per il resto, tornerei domani!\n\nUn abbraccio,\nLuca",
+          "questions": [
+            {
+              "question": "Come si sentiva Luca all'inizio dell'esperienza?",
+              "options": [
+                "Del tutto a suo agio",
+                "In difficoltà con la lingua e con la nuova vita",
+                "Arrabbiato con i coinquilini",
+                "Annoiato dalle lezioni"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa ha capito sull'università spagnola?",
+              "options": [
+                "Che è più facile di quella italiana",
+                "Che bisogna studiare molto da soli e chiedere quando serve",
+                "Che le lezioni sono sempre in piccoli gruppi",
+                "Che gli esami sono facoltativi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa lo ha aiutato di più con la lingua?",
+              "options": [
+                "Un corso intensivo",
+                "Le serate in cucina con i coinquilini",
+                "Le lezioni in aula",
+                "Un libro di grammatica"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa consiglia a Matteo?",
+              "options": [
+                "Di aspettare un anno",
+                "Di partire, perché i costi sono sostenibili",
+                "Di non lasciare la famiglia",
+                "Di studiare prima lo spagnolo"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "Le risposte parafrasano il testo: cerca il significato, non le stesse parole.",
+          "id": "celi-09-l1-e04"
+        },
+        {
+          "type": "reading",
+          "instruction": "A.2 – Leggi i due testi. A quale testo si riferisce ogni affermazione? (10 affermazioni)",
+          "title": "Città o campagna?",
+          "passage": "TESTO 1 – Vivere in città\nIo non tornerei mai a vivere in un paese piccolo. In città ho tutto a portata di mano: il lavoro è a venti minuti di metropolitana, i negozi restano aperti fino a tardi e se mi viene voglia di un film o di una mostra non devo organizzare niente. Certo, si paga con l'affitto alto e con l'aria meno pulita. Ma il vero vantaggio è l'anonimato: nessuno si interessa dei fatti miei e posso conoscere gente nuova ogni settimana. Una città, per me, è anche una promessa: puoi diventare chi vuoi.\n\nTESTO 2 – Vivere in campagna\nDopo dieci anni a Milano mi sono trasferita in un paesino dell'Umbria e non rimpiango niente. Le giornate hanno un altro ritmo: al mattino porto i bambini a scuola a piedi, il pomeriggio lavoro dal giardino. Spendo molto meno, perché la casa costa la metà, e i vicini si conoscono davvero. Certo, per vedere un cinema bisogna prendere la macchina e d'inverno ci si sente un po' isolati. Ma l'idea di tornare al traffico e alla fretta non mi sfiora nemmeno: oggi ho più tempo per me di quanto ne abbia mai avuto.",
+          "questions": [
+            {
+              "question": "Vuole conoscere sempre persone nuove.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Ha pagato meno per la casa.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Considera un vantaggio il fatto che gli altri non si occupano di lui.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Accompagna i figli a scuola a piedi.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Vive lontano da molti servizi.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Ha il posto di lavoro vicino a casa.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Si sente a volte isolata.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Riconosce che la vita costa cara.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Ha più tempo libero di prima.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Si sente libero di cambiare identità.",
+              "options": [
+                "Testo 1",
+                "Testo 2"
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Attenzione: alcune affermazioni sembrano valere per entrambi i testi, ma solo uno le dice davvero.",
+          "id": "celi-09-l1-e05"
+        },
+        {
+          "type": "reading",
+          "instruction": "A.3 – Leggi il testo. (Rispondi poi alle 4 domande aperte nell'esercizio successivo.)",
+          "title": "Orti per chi non ha un giardino",
+          "passage": "A Sondrio, in Valtellina, da quest'autunno chi non ha un orto può averne uno. Il Comune ha messo a disposizione quaranta piccoli appezzamenti in un terreno prima abbandonato e li affitta per dieci euro al mese a chi vive in città e non ha giardino. L'idea è nata dopo che alcuni residenti, durante il periodo di chiusura delle scuole, avevano coltivato per conto proprio un angolo del parco.\n\nLe regole sono poche ma precise. Ogni assegnatario deve occuparsi del suo pezzo di terra almeno due volte a settimana e può usare soltanto concimi naturali. Una volta al mese i partecipanti si riuniscono per decidere insieme come usare i prodotti in eccesso: spesso li donano a una mensa per le persone in difficoltà. Per chi non ha mai avuto a che fare con la terra, un agronomo in pensione offre consigli gratuiti il sabato mattina.\n\nSecondo l'assessora all'ambiente, i vantaggi sono almeno tre: si recupera un'area degradata, si crea un'occasione di incontro tra persone di età diverse e si abituano i più piccoli a capire da dove viene il cibo. Il progetto ha però già un problema: le richieste sono arrivate a più di trecento, e per ora la lista d'attesa supera i due anni.",
+          "questions": [
+            {
+              "question": "Che cosa ha messo a disposizione il Comune di Sondrio?",
+              "options": [
+                "Quaranta appezzamenti di terreno affittati a poco",
+                "Un parco giochi",
+                "Corsi di cucina",
+                "Una mensa gratuita"
+              ],
+              "answer": 0
+            }
+          ],
+          "explanation": "Questa è solo una domanda guida: le risposte aperte sono nell'esercizio successivo.",
+          "id": "celi-09-l1-e06"
+        },
+        {
+          "type": "free_write",
+          "instruction": "A.3 – Rispondi alle 4 domande sul testo «Orti per chi non ha un giardino» con frasi brevi e complete.",
+          "prompt": "1. Come è nata l'idea degli orti a Sondrio?\n2. Quali sono le regole principali per chi ottiene un orto?\n3. Che cosa si fa dei prodotti in eccesso?\n4. Quale problema ha già il progetto?",
+          "minWords": 40,
+          "checklist": [
+            "Ho risposto a tutte e 4 le domande (fino a 3 punti ciascuna).",
+            "Nella domanda 2 ho dato entrambe le regole.",
+            "Nella domanda 3 ho indicato sia chi decide sia che cosa succede ai prodotti.",
+            "Ho scritto frasi complete, riformulando con parole mie.",
+            "Ho controllato persone e tempi verbali."
+          ],
+          "modelAnswer": "1. L'idea è nata dall'iniziativa di alcuni residenti che avevano coltivato un angolo del parco quando le scuole erano chiuse.\n2. Bisogna lavorare la terra almeno due volte a settimana e usare solo concimi naturali.\n3. Si decide insieme una volta al mese; spesso vengono donati a una mensa per persone in difficoltà.\n4. Le richieste sono più di trecento e la lista d'attesa supera i due anni.",
+          "explanation": "Nell'A.3 conta il contenuto: riformula ciò che dice il testo e controlla di non aver tralasciato un'informazione.",
+          "id": "celi-09-l1-e07"
+        },
+        {
+          "type": "free_write",
+          "instruction": "B.1 – Scegli UNA delle due tracce e scrivi una composizione (120–180 parole).",
+          "prompt": "Traccia 1: Racconta un'esperienza (un viaggio, un corso, un lavoro) che ti ha cambiato il modo di vedere qualcosa. Che cosa hai imparato?\n\nTraccia 2: «Nel tempo libero le persone guardano troppo lo schermo e non incontrano più nessuno.» Sei d'accordo? Esprimi la tua opinione con argomenti ed esempi.",
+          "minWords": 120,
+          "checklist": [
+            "Ho svolto tutti i punti della traccia con introduzione, sviluppo e conclusione (coerenza e coesione, 5).",
+            "Ho usato connettivi vari: innanzitutto, inoltre, per esempio, d'altra parte, in conclusione.",
+            "Ho usato strutture varie e corrette: congiuntivo, periodo ipotetico, relative, passato prossimo e imperfetto (competenza grammaticale, 5).",
+            "Il lessico è preciso e non ripetitivo; ho controllato l'ortografia (competenza lessicale, 5).",
+            "Il registro è adatto e coerente (competenza sociolinguistica, 5).",
+            "Ho scritto tra 120 e 180 parole."
+          ],
+          "modelAnswer": "(Traccia 2) Penso che questa affermazione contenga una parte di verità, ma non sia del tutto giusta. È vero che molti di noi passano ore davanti al telefono: basta salire su un autobus per vedere quasi tutti con la testa china. Inoltre, i social network danno l'impressione di essere in contatto con gli altri, mentre spesso sostituiscono le conversazioni vere.\n\nD'altra parte, lo schermo non è sempre un nemico. Grazie a una videochiamata, per esempio, posso parlare ogni domenica con i miei genitori, che vivono in un altro Paese. Un gruppo di messaggi mi ha anche permesso di organizzare una cena con vecchi compagni di scuola che non vedevo da anni.\n\nIn conclusione, credo che il problema non sia lo schermo in sé, ma il modo in cui lo usiamo. Se lo spegniamo quando siamo con qualcuno, può diventare uno strumento utile anziché un ostacolo.",
+          "explanation": "Nella B.1 il numero di parole conta: 120 è il minimo, 180 il massimo.",
+          "id": "celi-09-l1-e08"
+        },
+        {
+          "type": "free_write",
+          "instruction": "B.2 – Scegli UNA delle tre tracce e scrivi una lettera o e-mail (80–100 parole).",
+          "prompt": "Traccia 1: Hai visto un annuncio per un corso di cucina italiana serale. Scrivi alla scuola: presentati, chiedi informazioni su orari, costo e livello e domanda se puoi provare una lezione.\n\nTraccia 2: Una collega ti ha sostituito durante una malattia. Scrivile per ringraziarla, spiega come ti senti e proponi di offrirle un caffè.\n\nTraccia 3: Il tuo affittuario non ha ancora riparato il riscaldamento, anche se glielo hai chiesto due volte. Scrivigli con tono formale: ricorda le richieste precedenti, descrivi il disagio e chiedi un intervento entro una data.",
+          "minWords": 80,
+          "checklist": [
+            "Ho svolto tutti i punti della traccia scelta (coerenza e coesione, 5).",
+            "Ho scelto il registro giusto (tu o Lei) e l'ho mantenuto, con formule d'apertura e chiusura adatte (competenza sociolinguistica, 6).",
+            "Il lessico è adeguato alla situazione (competenza lessicale, 5).",
+            "Ho controllato verbi, accordi e preposizioni (competenza grammaticale, 4).",
+            "Ho scritto tra 80 e 100 parole."
+          ],
+          "modelAnswer": "(Traccia 3) Gentile signor Ferri,\nle scrivo per la terza volta riguardo al riscaldamento del mio appartamento, che da tre settimane non funziona. Le avevo già segnalato il problema il 5 e il 12 novembre, ma non ho ricevuto risposta.\nCon queste temperature il disagio è notevole, soprattutto perché in casa ci sono due bambini piccoli. Le chiedo quindi di far intervenire un tecnico entro venerdì 28.\nSe non fosse possibile, la pregherei di comunicarmelo subito, così da poter valutare altre soluzioni.\nIn attesa di un suo riscontro, la saluto cordialmente.\nAnna Rossi",
+          "explanation": "Nella B.2 il registro vale 6 punti: scegli Lei o tu e non cambiare.",
+          "id": "celi-09-l1-e09"
+        }
+      ]
+    },
+    {
+      "id": "celi-09-l2",
+      "title": "Fascicolo 2 – Competenza linguistica (45 min)",
+      "minutes": 45,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Nella Parte C quanti item ci sono in tutto?",
+          "options": [
+            "23",
+            "35 (23 + 7 + 5)",
+            "10",
+            "49"
+          ],
+          "answer": 1,
+          "explanation": "C.1: 23 item; C.2: 7 frasi; C.3: 5 parole.",
+          "instruction": "Prima di cominciare.",
+          "id": "celi-09-l2-e01"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Istruzioni della simulazione 2",
+          "body": "Metti un timer di **45 minuti**. Completa ogni spazio con **una parola** nella C.1, ricostruisci le frasi nella C.2 e forma le parole nella C.3.\n\nIn questa simulazione trovi una versione più breve della C.1 (12 spazi).",
+          "examples": [
+            {
+              "it": "Leggi la frase intera prima di scrivere.",
+              "en": "Read the whole sentence before writing."
+            }
+          ],
+          "id": "celi-09-l2-e02"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (1/12). Completa con una parola.",
+          "sentence": "Caro Paolo, scusa se non ti ho scritto prima: ___ ultime settimane sono state davvero piene.",
+          "answers": [
+            "le",
+            "queste",
+            "quelle"
+          ],
+          "explanation": "le: articolo plurale femminile.",
+          "id": "celi-09-l2-e03"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (2/12). Completa con una parola.",
+          "sentence": "Ho cambiato lavoro e adesso passo molto tempo in treno, ___ mi permette però di leggere.",
+          "answers": [
+            "il che",
+            "cosa che",
+            "il quale"
+          ],
+          "explanation": "il che / cosa che: riprende tutta la frase.",
+          "id": "celi-09-l2-e04"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (3/12). Completa con una parola.",
+          "sentence": "Se avessi saputo che venivi a Roma, ti ___ aspettato alla stazione.",
+          "answers": [
+            "avrei",
+            "avrei aspettato"
+          ],
+          "explanation": "Periodo ipotetico del terzo tipo: avessi saputo → avrei aspettato.",
+          "id": "celi-09-l2-e05"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (4/12). Completa con una parola.",
+          "sentence": "Spero che tu ___ bene e che i tuoi esami siano andati come volevi.",
+          "answers": [
+            "stia",
+            "stai",
+            "sia"
+          ],
+          "explanation": "Spero che + congiuntivo (stia).",
+          "id": "celi-09-l2-e06"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (5/12). Completa con una parola.",
+          "sentence": "Non vedo l'___ di rivederti: che ne dici di sabato prossimo?",
+          "answers": [
+            "ora"
+          ],
+          "explanation": "non vedere l'ora di + infinito.",
+          "id": "celi-09-l2-e07"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (6/12). Completa con una parola.",
+          "sentence": "Il museo, ___ ho visitato domenica, ha una collezione splendida di arte moderna.",
+          "answers": [
+            "che",
+            "il quale"
+          ],
+          "explanation": "che: pronome relativo oggetto.",
+          "id": "celi-09-l2-e08"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (7/12). Completa con una parola.",
+          "sentence": "Mi hanno detto che la mostra sarà aperta fino ___ fine del mese.",
+          "answers": [
+            "alla"
+          ],
+          "explanation": "fino a + la = fino alla fine.",
+          "id": "celi-09-l2-e09"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (8/12). Completa con una parola.",
+          "sentence": "Sebbene piovesse a dirotto, siamo ___ lo stesso a fare una passeggiata.",
+          "answers": [
+            "usciti",
+            "andati",
+            "stati"
+          ],
+          "explanation": "Sebbene + congiuntivo; passato prossimo con essere.",
+          "id": "celi-09-l2-e10"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (9/12). Completa con una parola.",
+          "sentence": "Appena ___ i risultati, ti telefonerò per raccontarti tutto.",
+          "answers": [
+            "avrò",
+            "saprò"
+          ],
+          "explanation": "Appena + futuro (avrò i risultati / saprò i risultati).",
+          "id": "celi-09-l2-e11"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (10/12). Completa con una parola.",
+          "sentence": "Mi dispiace, ma non ho ancora avuto il ___ di rispondere alla tua lettera.",
+          "answers": [
+            "tempo",
+            "modo"
+          ],
+          "explanation": "avere il tempo di + infinito.",
+          "id": "celi-09-l2-e12"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (11/12). Completa con una parola.",
+          "sentence": "Marta mi ha chiesto ___ potevo aiutarla con il trasloco.",
+          "answers": [
+            "se"
+          ],
+          "explanation": "Domanda indiretta: chiedere se + indicativo.",
+          "id": "celi-09-l2-e13"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.1 (12/12). Completa con una parola.",
+          "sentence": "Penso che sia giusto che tutti ___ la possibilità di studiare.",
+          "answers": [
+            "abbiano"
+          ],
+          "explanation": "Pensare che / essere giusto che + congiuntivo.",
+          "id": "celi-09-l2-e14"
+        },
+        {
+          "type": "sentence_build",
+          "instruction": "C.2 (1/3). Ricostruisci la frase.",
+          "translation": "They told me they would have come if they had known.",
+          "tiles": [
+            "Mi",
+            "hanno",
+            "detto",
+            "che",
+            "sarebbero",
+            "venuti",
+            "se",
+            "avessero",
+            "saputo"
+          ],
+          "distractors": [
+            "verrebbero",
+            "avevano"
+          ],
+          "explanation": "Controlla il modo del verbo dopo la congiunzione.",
+          "id": "celi-09-l2-e15"
+        },
+        {
+          "type": "sentence_build",
+          "instruction": "C.2 (2/3). Ricostruisci la frase.",
+          "translation": "Although he was tired, he kept working until midnight.",
+          "tiles": [
+            "Benché",
+            "fosse",
+            "stanco",
+            "ha",
+            "continuato",
+            "a",
+            "lavorare",
+            "fino",
+            "a",
+            "mezzanotte"
+          ],
+          "distractors": [
+            "è",
+            "perché"
+          ],
+          "explanation": "Controlla il modo del verbo dopo la congiunzione.",
+          "id": "celi-09-l2-e16"
+        },
+        {
+          "type": "sentence_build",
+          "instruction": "C.2 (3/3). Ricostruisci la frase.",
+          "translation": "The house that we visited yesterday is too expensive for us.",
+          "tiles": [
+            "La",
+            "casa",
+            "che",
+            "abbiamo",
+            "visitato",
+            "ieri",
+            "è",
+            "troppo",
+            "cara",
+            "per",
+            "noi"
+          ],
+          "distractors": [
+            "cui",
+            "molto"
+          ],
+          "explanation": "Controlla il modo del verbo dopo la congiunzione.",
+          "id": "celi-09-l2-e17"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.3 (1/5). Completa con una parola della stessa famiglia.",
+          "sentence": "Il ___ della biblioteca è stato rinviato di una settimana. (APRIRE)",
+          "answers": [
+            "apertura",
+            "l'apertura"
+          ],
+          "explanation": "aprire → apertura.",
+          "id": "celi-09-l2-e18"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.3 (2/5). Completa con una parola della stessa famiglia.",
+          "sentence": "Molti studenti sono ___ di non trovare lavoro dopo la laurea. (PREOCCUPARE)",
+          "answers": [
+            "preoccupati"
+          ],
+          "explanation": "preoccupare → preoccupato.",
+          "id": "celi-09-l2-e19"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.3 (3/5). Completa con una parola della stessa famiglia.",
+          "sentence": "L'___ del museo è stata criticata dai giornali. (ORGANIZZARE)",
+          "answers": [
+            "organizzazione"
+          ],
+          "explanation": "organizzare → organizzazione.",
+          "id": "celi-09-l2-e20"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.3 (4/5). Completa con una parola della stessa famiglia.",
+          "sentence": "Il treno è arrivato con un forte ___. (RITARDARE)",
+          "answers": [
+            "ritardo"
+          ],
+          "explanation": "ritardare → ritardo.",
+          "id": "celi-09-l2-e21"
+        },
+        {
+          "type": "gap_fill",
+          "instruction": "C.3 (5/5). Completa con una parola della stessa famiglia.",
+          "sentence": "La sua ___ di parlare in pubblico è sorprendente. (CAPACE)",
+          "answers": [
+            "capacità"
+          ],
+          "explanation": "capace → capacità.",
+          "id": "celi-09-l2-e22"
+        }
+      ]
+    },
+    {
+      "id": "celi-09-l3",
+      "title": "Fascicolo 3 – Ascolto (25 min)",
+      "minutes": 25,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Che cosa conviene fare prima di ogni ascolto della D.1?",
+          "options": [
+            "Chiudere gli occhi",
+            "Leggere la domanda e tutte le opzioni",
+            "Scrivere a caso",
+            "Tradurre le opzioni"
+          ],
+          "answer": 1,
+          "explanation": "Le opzioni ti dicono che cosa ascoltare.",
+          "instruction": "Prima di cominciare.",
+          "id": "celi-09-l3-e01"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Istruzioni della simulazione 2",
+          "body": "Metti un timer di **25 minuti**.\n\n- **D.1** – due registrazioni, 10 domande (3 punti l'una)\n- **D.2** – 10 frasi: scrivi la parola esatta che senti (1 punto)\n\nIn questa app ogni domanda ripete l'intera registrazione.",
+          "examples": [
+            {
+              "it": "Ascolta, segna le parole chiave, poi scegli.",
+              "en": "Listen, note key words, then choose."
+            }
+          ],
+          "id": "celi-09-l3-e02"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 1 (1/5). Ascolta e rispondi.",
+          "audioText": "Buonasera e benvenuti al notiziario. Apriamo con la vicenda dei lavori sulla linea ferroviaria Milano-Torino: la società che gestisce i binari ha annunciato che dal quindici gennaio i treni regionali saranno sostituiti da autobus tra Novara e Vercelli, per quattro settimane. I viaggiatori sono invitati a consultare il sito per gli orari dei bus, che partiranno ogni mezz'ora dalle cinque del mattino. Un portavoce ha spiegato che il lavoro era previsto da tempo, ma è stato rinviato più volte per mancanza di fondi. I pendolari protestano: secondo un comitato, il viaggio in pullman durerà quaranta minuti in più, e molti rischiano di arrivare tardi al lavoro. Il Comune di Novara ha assicurato che metterà a disposizione una linea speciale per gli studenti.",
+          "question": "Che cosa succederà dal quindici gennaio?",
+          "options": [
+            "I treni saranno più frequenti",
+            "Alcuni treni saranno sostituiti da autobus",
+            "La stazione di Novara chiuderà",
+            "I biglietti costeranno meno"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Alcuni treni saranno sostituiti da autobus».",
+          "id": "celi-09-l3-e03"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 1 (2/5). Ascolta e rispondi.",
+          "audioText": "Buonasera e benvenuti al notiziario. Apriamo con la vicenda dei lavori sulla linea ferroviaria Milano-Torino: la società che gestisce i binari ha annunciato che dal quindici gennaio i treni regionali saranno sostituiti da autobus tra Novara e Vercelli, per quattro settimane. I viaggiatori sono invitati a consultare il sito per gli orari dei bus, che partiranno ogni mezz'ora dalle cinque del mattino. Un portavoce ha spiegato che il lavoro era previsto da tempo, ma è stato rinviato più volte per mancanza di fondi. I pendolari protestano: secondo un comitato, il viaggio in pullman durerà quaranta minuti in più, e molti rischiano di arrivare tardi al lavoro. Il Comune di Novara ha assicurato che metterà a disposizione una linea speciale per gli studenti.",
+          "question": "Per quanto tempo durerà il servizio sostitutivo?",
+          "options": [
+            "Una settimana",
+            "Due settimane",
+            "Quattro settimane",
+            "Un anno"
+          ],
+          "answer": 2,
+          "explanation": "Controlla: «Quattro settimane».",
+          "id": "celi-09-l3-e04"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 1 (3/5). Ascolta e rispondi.",
+          "audioText": "Buonasera e benvenuti al notiziario. Apriamo con la vicenda dei lavori sulla linea ferroviaria Milano-Torino: la società che gestisce i binari ha annunciato che dal quindici gennaio i treni regionali saranno sostituiti da autobus tra Novara e Vercelli, per quattro settimane. I viaggiatori sono invitati a consultare il sito per gli orari dei bus, che partiranno ogni mezz'ora dalle cinque del mattino. Un portavoce ha spiegato che il lavoro era previsto da tempo, ma è stato rinviato più volte per mancanza di fondi. I pendolari protestano: secondo un comitato, il viaggio in pullman durerà quaranta minuti in più, e molti rischiano di arrivare tardi al lavoro. Il Comune di Novara ha assicurato che metterà a disposizione una linea speciale per gli studenti.",
+          "question": "Perché i lavori erano stati rinviati?",
+          "options": [
+            "Per il maltempo",
+            "Per mancanza di fondi",
+            "Per uno sciopero",
+            "Per un errore del Comune"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Per mancanza di fondi».",
+          "id": "celi-09-l3-e05"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 1 (4/5). Ascolta e rispondi.",
+          "audioText": "Buonasera e benvenuti al notiziario. Apriamo con la vicenda dei lavori sulla linea ferroviaria Milano-Torino: la società che gestisce i binari ha annunciato che dal quindici gennaio i treni regionali saranno sostituiti da autobus tra Novara e Vercelli, per quattro settimane. I viaggiatori sono invitati a consultare il sito per gli orari dei bus, che partiranno ogni mezz'ora dalle cinque del mattino. Un portavoce ha spiegato che il lavoro era previsto da tempo, ma è stato rinviato più volte per mancanza di fondi. I pendolari protestano: secondo un comitato, il viaggio in pullman durerà quaranta minuti in più, e molti rischiano di arrivare tardi al lavoro. Il Comune di Novara ha assicurato che metterà a disposizione una linea speciale per gli studenti.",
+          "question": "Che cosa temono i pendolari?",
+          "options": [
+            "Di pagare di più",
+            "Di arrivare tardi al lavoro",
+            "Di non trovare posto",
+            "Di perdere l'abbonamento"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Di arrivare tardi al lavoro».",
+          "id": "celi-09-l3-e06"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 1 (5/5). Ascolta e rispondi.",
+          "audioText": "Buonasera e benvenuti al notiziario. Apriamo con la vicenda dei lavori sulla linea ferroviaria Milano-Torino: la società che gestisce i binari ha annunciato che dal quindici gennaio i treni regionali saranno sostituiti da autobus tra Novara e Vercelli, per quattro settimane. I viaggiatori sono invitati a consultare il sito per gli orari dei bus, che partiranno ogni mezz'ora dalle cinque del mattino. Un portavoce ha spiegato che il lavoro era previsto da tempo, ma è stato rinviato più volte per mancanza di fondi. I pendolari protestano: secondo un comitato, il viaggio in pullman durerà quaranta minuti in più, e molti rischiano di arrivare tardi al lavoro. Il Comune di Novara ha assicurato che metterà a disposizione una linea speciale per gli studenti.",
+          "question": "Che cosa offrirà il Comune di Novara?",
+          "options": [
+            "Biglietti gratuiti",
+            "Una linea speciale per gli studenti",
+            "Un parcheggio più grande",
+            "Un rimborso agli utenti"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Una linea speciale per gli studenti».",
+          "id": "celi-09-l3-e07"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 2 (1/5). Ascolta e rispondi.",
+          "audioText": "Oggi siamo in studio con Elisa Bruni, che ha scritto un libro sul valore del silenzio. Elisa, perché un libro sul silenzio? — Perché ho notato che quasi nessuno riesce più a stare in silenzio per dieci minuti. Anch'io, quando ho cominciato a scrivere, avevo sempre la radio accesa. Poi un giorno, durante un viaggio in montagna, il telefono non prendeva e mi sono accorta che, senza rumori, i pensieri diventavano più chiari. — Quindi consiglia di vivere in un eremo? — No, per carità! Sarebbe poco realistico. Consiglio piuttosto dieci minuti al giorno senza telefono, senza musica e senza televisione: una passeggiata, per esempio. All'inizio è strano, quasi fastidioso. Dopo qualche settimana, invece, molte persone mi dicono di dormire meglio e di essere meno nervose. — E i bambini? — Con loro bisogna essere pazienti: più che imporre il silenzio, bisogna proporre giochi tranquilli, come disegnare o ascoltare i rumori del bosco.",
+          "question": "Che cosa faceva sempre Elisa quando ha cominciato a scrivere?",
+          "options": [
+            "Camminava in montagna",
+            "Teneva la radio accesa",
+            "Parlava con gli amici",
+            "Cantava"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Teneva la radio accesa».",
+          "id": "celi-09-l3-e08"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 2 (2/5). Ascolta e rispondi.",
+          "audioText": "Oggi siamo in studio con Elisa Bruni, che ha scritto un libro sul valore del silenzio. Elisa, perché un libro sul silenzio? — Perché ho notato che quasi nessuno riesce più a stare in silenzio per dieci minuti. Anch'io, quando ho cominciato a scrivere, avevo sempre la radio accesa. Poi un giorno, durante un viaggio in montagna, il telefono non prendeva e mi sono accorta che, senza rumori, i pensieri diventavano più chiari. — Quindi consiglia di vivere in un eremo? — No, per carità! Sarebbe poco realistico. Consiglio piuttosto dieci minuti al giorno senza telefono, senza musica e senza televisione: una passeggiata, per esempio. All'inizio è strano, quasi fastidioso. Dopo qualche settimana, invece, molte persone mi dicono di dormire meglio e di essere meno nervose. — E i bambini? — Con loro bisogna essere pazienti: più che imporre il silenzio, bisogna proporre giochi tranquilli, come disegnare o ascoltare i rumori del bosco.",
+          "question": "Che cosa le ha fatto capire il valore del silenzio?",
+          "options": [
+            "Un libro letto in vacanza",
+            "Un viaggio in montagna senza segnale telefonico",
+            "Un consiglio di un medico",
+            "Una trasmissione radiofonica"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Un viaggio in montagna senza segnale telefonico».",
+          "id": "celi-09-l3-e09"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 2 (3/5). Ascolta e rispondi.",
+          "audioText": "Oggi siamo in studio con Elisa Bruni, che ha scritto un libro sul valore del silenzio. Elisa, perché un libro sul silenzio? — Perché ho notato che quasi nessuno riesce più a stare in silenzio per dieci minuti. Anch'io, quando ho cominciato a scrivere, avevo sempre la radio accesa. Poi un giorno, durante un viaggio in montagna, il telefono non prendeva e mi sono accorta che, senza rumori, i pensieri diventavano più chiari. — Quindi consiglia di vivere in un eremo? — No, per carità! Sarebbe poco realistico. Consiglio piuttosto dieci minuti al giorno senza telefono, senza musica e senza televisione: una passeggiata, per esempio. All'inizio è strano, quasi fastidioso. Dopo qualche settimana, invece, molte persone mi dicono di dormire meglio e di essere meno nervose. — E i bambini? — Con loro bisogna essere pazienti: più che imporre il silenzio, bisogna proporre giochi tranquilli, come disegnare o ascoltare i rumori del bosco.",
+          "question": "Che cosa consiglia di fare?",
+          "options": [
+            "Andare a vivere in un eremo",
+            "Passare dieci minuti al giorno senza telefono né musica",
+            "Smettere di guardare la televisione",
+            "Dormire di più"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Passare dieci minuti al giorno senza telefono né musica».",
+          "id": "celi-09-l3-e10"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 2 (4/5). Ascolta e rispondi.",
+          "audioText": "Oggi siamo in studio con Elisa Bruni, che ha scritto un libro sul valore del silenzio. Elisa, perché un libro sul silenzio? — Perché ho notato che quasi nessuno riesce più a stare in silenzio per dieci minuti. Anch'io, quando ho cominciato a scrivere, avevo sempre la radio accesa. Poi un giorno, durante un viaggio in montagna, il telefono non prendeva e mi sono accorta che, senza rumori, i pensieri diventavano più chiari. — Quindi consiglia di vivere in un eremo? — No, per carità! Sarebbe poco realistico. Consiglio piuttosto dieci minuti al giorno senza telefono, senza musica e senza televisione: una passeggiata, per esempio. All'inizio è strano, quasi fastidioso. Dopo qualche settimana, invece, molte persone mi dicono di dormire meglio e di essere meno nervose. — E i bambini? — Con loro bisogna essere pazienti: più che imporre il silenzio, bisogna proporre giochi tranquilli, come disegnare o ascoltare i rumori del bosco.",
+          "question": "Che effetto, secondo lei, ha questa abitudine dopo qualche settimana?",
+          "options": [
+            "Peggiora il sonno",
+            "Rende meno nervosi e fa dormire meglio",
+            "Fa sentire soli",
+            "Riduce il lavoro"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Rende meno nervosi e fa dormire meglio».",
+          "id": "celi-09-l3-e11"
+        },
+        {
+          "type": "listen_choose",
+          "instruction": "D.1 – Testo 2 (5/5). Ascolta e rispondi.",
+          "audioText": "Oggi siamo in studio con Elisa Bruni, che ha scritto un libro sul valore del silenzio. Elisa, perché un libro sul silenzio? — Perché ho notato che quasi nessuno riesce più a stare in silenzio per dieci minuti. Anch'io, quando ho cominciato a scrivere, avevo sempre la radio accesa. Poi un giorno, durante un viaggio in montagna, il telefono non prendeva e mi sono accorta che, senza rumori, i pensieri diventavano più chiari. — Quindi consiglia di vivere in un eremo? — No, per carità! Sarebbe poco realistico. Consiglio piuttosto dieci minuti al giorno senza telefono, senza musica e senza televisione: una passeggiata, per esempio. All'inizio è strano, quasi fastidioso. Dopo qualche settimana, invece, molte persone mi dicono di dormire meglio e di essere meno nervose. — E i bambini? — Con loro bisogna essere pazienti: più che imporre il silenzio, bisogna proporre giochi tranquilli, come disegnare o ascoltare i rumori del bosco.",
+          "question": "Come bisogna comportarsi con i bambini?",
+          "options": [
+            "Imporre il silenzio",
+            "Proporre giochi tranquilli",
+            "Non parlarne",
+            "Lasciarli alla televisione"
+          ],
+          "answer": 1,
+          "explanation": "Controlla: «Proporre giochi tranquilli».",
+          "id": "celi-09-l3-e12"
+        },
+        {
+          "type": "listen_transcribe",
+          "instruction": "D.2 (1/5). Ascolta e scrivi la frase.",
+          "audioText": "I treni saranno sostituiti da autobus tra Novara e Vercelli.",
+          "answers": [
+            "I treni saranno sostituiti da autobus tra Novara e Vercelli.",
+            "I treni saranno sostituiti da autobus tra Novara e Vercelli"
+          ],
+          "slow": false,
+          "explanation": "Controlla doppie, accenti e preposizioni.",
+          "id": "celi-09-l3-e13"
+        },
+        {
+          "type": "listen_transcribe",
+          "instruction": "D.2 (2/5). Ascolta e scrivi la frase.",
+          "audioText": "Il comitato dei pendolari protesta per il ritardo.",
+          "answers": [
+            "Il comitato dei pendolari protesta per il ritardo.",
+            "Il comitato dei pendolari protesta per il ritardo"
+          ],
+          "slow": false,
+          "explanation": "Controlla doppie, accenti e preposizioni.",
+          "id": "celi-09-l3-e14"
+        },
+        {
+          "type": "listen_transcribe",
+          "instruction": "D.2 (3/5). Ascolta e scrivi la frase.",
+          "audioText": "Senza rumori, i pensieri diventavano più chiari.",
+          "answers": [
+            "Senza rumori, i pensieri diventavano più chiari.",
+            "Senza rumori, i pensieri diventavano più chiari"
+          ],
+          "slow": false,
+          "explanation": "Controlla doppie, accenti e preposizioni.",
+          "id": "celi-09-l3-e15"
+        },
+        {
+          "type": "listen_transcribe",
+          "instruction": "D.2 (4/5). Ascolta e scrivi la frase.",
+          "audioText": "Dieci minuti al giorno senza telefono, musica e televisione.",
+          "answers": [
+            "Dieci minuti al giorno senza telefono, musica e televisione.",
+            "Dieci minuti al giorno senza telefono, musica e televisione"
+          ],
+          "slow": false,
+          "explanation": "Controlla doppie, accenti e preposizioni.",
+          "id": "celi-09-l3-e16"
+        },
+        {
+          "type": "listen_transcribe",
+          "instruction": "D.2 (5/5). Ascolta e scrivi la frase.",
+          "audioText": "Dopo qualche settimana molte persone dicono di dormire meglio.",
+          "answers": [
+            "Dopo qualche settimana molte persone dicono di dormire meglio.",
+            "Dopo qualche settimana molte persone dicono di dormire meglio"
+          ],
+          "slow": false,
+          "explanation": "Controlla doppie, accenti e preposizioni.",
+          "id": "celi-09-l3-e17"
+        }
+      ]
+    },
+    {
+      "id": "celi-09-l4",
+      "title": "Prova orale (15 min + 15 min di preparazione)",
+      "minutes": 15,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Quanto tempo hai per preparare l'orale?",
+          "options": [
+            "Nessuno",
+            "Circa 15 minuti",
+            "Un'ora",
+            "Un giorno"
+          ],
+          "answer": 1,
+          "explanation": "Circa 15 minuti prima della prova.",
+          "instruction": "Prima di cominciare.",
+          "id": "celi-09-l4-e01"
+        },
+        {
+          "type": "grammar_note",
+          "title": "Istruzioni della simulazione 2",
+          "body": "Metti un timer di **15 minuti** per parlare, dopo **15 minuti** di preparazione.\n\nL'ordine: **presentazione**, poi foto, riassunto e role-play. Registrati: il tuo orale in *Prova orale* si può riascoltare.",
+          "examples": [
+            {
+              "it": "Parla senza fermarti: gli errori ripetuti contano una volta.",
+              "en": "Keep speaking: repeated errors count once."
+            }
+          ],
+          "id": "celi-09-l4-e02"
+        },
+        {
+          "type": "speak_respond",
+          "instruction": "1. Presentazione (2–3 minuti).",
+          "prompt": "Presentati: chi sei, che cosa fai nella vita, perché studi l'italiano e che cosa ti piace fare nel tempo libero.",
+          "keywords": [
+            "mi chiamo",
+            "lavoro",
+            "studio italiano",
+            "nel tempo libero"
+          ],
+          "modelAnswer": "Mi chiamo {name} e lavoro nel settore informatico. Studio italiano da qualche anno perché mi piace molto la cultura italiana e vorrei vivere qualche mese a Perugia. Nel tempo libero cammino in montagna, leggo e cucino spesso per gli amici. Il mio obiettivo è superare l'esame CELI 3 entro l'anno.",
+          "explanation": "Prepara la presentazione: è la parte in cui ti senti più sicuro.",
+          "id": "celi-09-l4-e03"
+        },
+        {
+          "type": "speak_respond",
+          "instruction": "2. Descrivi e commenta una foto.",
+          "prompt": "Immagina una foto: una famiglia in cucina prepara una grande cena. Descrivi che cosa vedi, che cosa pensi che stiano festeggiando e se nella tua famiglia succede lo stesso.",
+          "keywords": [
+            "nella foto",
+            "sembra",
+            "forse",
+            "nella mia famiglia"
+          ],
+          "modelAnswer": "Nella foto vedo una famiglia numerosa in una cucina luminosa: una donna taglia le verdure, un uomo mescola qualcosa in una pentola e i bambini apparecchiano la tavola. Sembrano felici. Forse stanno festeggiando un compleanno o una festa tradizionale. Nella mia famiglia, di solito, cucina chi è più bravo e gli altri aiutano a pulire.",
+          "explanation": "Usa «sembra», «forse», «probabilmente» per fare ipotesi.",
+          "id": "celi-09-l4-e04"
+        },
+        {
+          "type": "speak_respond",
+          "instruction": "3. Riassumi e commenta un testo breve.",
+          "prompt": "Riassumi in 4–5 frasi il testo «Il ritorno del cinema di quartiere» e di' che cosa ne pensi.",
+          "keywords": [
+            "il testo parla",
+            "cooperativa",
+            "secondo me"
+          ],
+          "modelAnswer": "Il testo parla del ritorno dei piccoli cinema di quartiere, spesso gestiti da cooperative di soci. Offrono film, dibattiti e incontri, non solo la proiezione. Non sono frequentati solo da giovani, ma anche da persone anziane. Il problema è che senza contributi non riuscirebbero a pagare le spese. Secondo me è un'iniziativa utile, perché crea occasioni per incontrarsi.",
+          "explanation": "Riassumere + opinione è la seconda parte dell'esame.",
+          "id": "celi-09-l4-e05"
+        },
+        {
+          "type": "speak_respond",
+          "instruction": "Domanda di discussione.",
+          "prompt": "Il commissario ti chiede: «Pensa che i cinema di quartiere abbiano un futuro?». Rispondi con un'opinione e un esempio.",
+          "keywords": [
+            "credo che",
+            "per esempio",
+            "d'altra parte"
+          ],
+          "modelAnswer": "Credo che abbiano un futuro, se riescono a offrire qualcosa che la televisione non dà. Per esempio, un incontro con il regista dopo il film. D'altra parte, senza aiuti pubblici sarà difficile andare avanti.",
+          "explanation": "Usa «credo che» + congiuntivo.",
+          "id": "celi-09-l4-e06"
+        },
+        {
+          "type": "roleplay",
+          "instruction": "4. Role-play: la prenotazione sbagliata.",
+          "scenario": "Role card: You booked a hotel room for two nights, but on arrival the receptionist says there is no booking in your name. Find a solution.",
+          "turns": [
+            {
+              "speaker": "npc",
+              "text": "Buonasera, mi dica."
+            },
+            {
+              "speaker": "you",
+              "text": "Buonasera. Ho prenotato una camera singola per due notti a nome mio, ma lei non trova la prenotazione.",
+              "hint": "Explain the problem.",
+              "keywords": [
+                "ho prenotato",
+                "per due notti",
+                "prenotazione"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Mi dispiace, controllo ancora, ma non risulta nulla. L'albergo è pieno."
+            },
+            {
+              "speaker": "you",
+              "text": "Mi dispiace, ma ho la conferma via e-mail. Potrebbe cercare una soluzione, magari in un altro albergo della stessa catena?",
+              "hint": "Insist politely and propose something.",
+              "keywords": [
+                "conferma",
+                "potrebbe",
+                "soluzione"
+              ]
+            },
+            {
+              "speaker": "npc",
+              "text": "Una camera libera ce l'ho in un albergo vicino, ma costa di più."
+            },
+            {
+              "speaker": "you",
+              "text": "In quel caso vorrei che l'albergo pagasse la differenza, visto che l'errore non è mio.",
+              "hint": "Ask who pays.",
+              "keywords": [
+                "differenza",
+                "errore"
+              ]
+            }
+          ],
+          "explanation": "Nel role-play contano registro (Lei) e cortesia.",
+          "id": "celi-09-l4-e07"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il pendolare",
+      "en": "commuter",
+      "example": "I pendolari protestano per il ritardo."
+    },
+    {
+      "it": "l'appezzamento",
+      "en": "plot of land",
+      "example": "Il Comune affitta quaranta appezzamenti."
+    },
+    {
+      "it": "il riscontro",
+      "en": "reply, feedback (formal)",
+      "example": "In attesa di un suo riscontro, la saluto."
+    },
+    {
+      "it": "a portata di mano",
+      "en": "within reach",
+      "example": "In città ho tutto a portata di mano."
+    }
+  ]
+}

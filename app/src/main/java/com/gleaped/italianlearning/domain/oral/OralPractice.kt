@@ -77,6 +77,7 @@ object OralLog {
         }
         addFrom("celi-05") { true }
         addFrom("celi-06") { it.title.startsWith("Prova orale") }
+        addFrom("celi-09") { it.title.startsWith("Prova orale") }
         return out
     }
 
