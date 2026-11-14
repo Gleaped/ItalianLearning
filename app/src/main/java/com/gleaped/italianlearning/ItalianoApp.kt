@@ -15,6 +15,7 @@ import com.gleaped.italianlearning.reminders.ReminderContentBuilder
 import com.gleaped.italianlearning.reminders.ReminderScheduler
 import com.gleaped.italianlearning.reminders.Shortcuts
 import com.gleaped.italianlearning.data.flags.FlagRepository
+import com.gleaped.italianlearning.data.exam.PaperRepository
 import com.gleaped.italianlearning.data.oral.OralRepository
 import com.gleaped.italianlearning.data.writing.WritingRepository
 import com.gleaped.italianlearning.speech.TtsManager
@@ -41,6 +42,7 @@ class AppContainer(context: Context) {
     val coreDeck: CoreDeckService by lazy { CoreDeckService(settings, content, dictionary, learning) }
     val flags: FlagRepository by lazy { FlagRepository(appContext) }
     val oral: OralRepository by lazy { OralRepository(appContext) }
+    val papers: PaperRepository by lazy { PaperRepository(appContext) }
     val backup: BackupRepository by lazy { BackupRepository(database, writing, settings) }
 }
 
