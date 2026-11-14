@@ -8,6 +8,8 @@ import com.gleaped.italianlearning.data.db.ExerciseResultEntity
 import com.gleaped.italianlearning.data.db.LessonProgressEntity
 import com.gleaped.italianlearning.data.db.SrsCardEntity
 import com.gleaped.italianlearning.domain.grading.Verdict
+import com.gleaped.italianlearning.domain.srs.CardKind
+import com.gleaped.italianlearning.domain.srs.Cards
 import com.gleaped.italianlearning.domain.srs.Rating
 import com.gleaped.italianlearning.domain.srs.Sm2
 import com.gleaped.italianlearning.domain.srs.SrsState
@@ -80,6 +82,34 @@ class LearningRepository(private val db: AppDatabase) {
         recordActivity(lessons = 1, cards = 0)
         // Unit vocabulary feeds the review deck once the learner has met the unit.
         addVocabulary(unit)
+        addGrammarCards(unit)
+    }
+
+    /**
+     * Puts the unit's grammar-tip challenges into the review deck, in step with the lessons
+     * finished: half the lessons done, half the tips in. Cards already there are left alone.
+     */
+    suspend fun addGrammarCards(unit: CourseUnit) {
+        val tips = unit.grammarTips.filter { it.challenge != null }
+        if (tips.isEmpty() || unit.lessons.isEmpty()) return
+        val done = unit.lessons.count { progress.lesson(it.id) != null }
+        if (done == 0) return
+        val share = (tips.size * done + unit.lessons.size - 1) / unit.lessons.size
+        val cards = tips.take(share).map { tip ->
+            newCard(
+                id = Cards.grammarId(unit.id, tip.id),
+                front = tip.rule,
+                back = tip.tip,
+                example = tip.example?.it,
+                unitId = unit.id,
+            )
+        }
+        srs.insertIfAbsent(cards)
+    }
+
+    /** Adds grammar cards for every unit with a finished lesson; covers lessons done before grammar cards existed. */
+    suspend fun syncGrammarCards(unit: suspend (String) -> CourseUnit?) {
+        progress.startedUnitIds().forEach { id -> unit(id)?.let { addGrammarCards(it) } }
     }
 
     /** Every stored exercise answer, oldest first; the source for [WeakSpots]. */
@@ -157,8 +187,13 @@ class LearningRepository(private val db: AppDatabase) {
         val day = today()
         val due = srs.dueReviews(day)
         val allowance = (dailyNewCards - srs.newIntroducedOn(day)).coerceAtLeast(0)
-        val fresh = if (allowance > 0) srs.newCards(allowance) else emptyList()
-        return due + fresh
+        if (allowance == 0) return due
+        // About a quarter of the day's new cards are grammar, so rules are not stuck behind the vocabulary.
+        val grammar = srs.newGrammarCards((allowance + 3) / 4)
+        val words = srs.newCards(allowance - grammar.size)
+        val spare = allowance - grammar.size - words.size
+        val moreGrammar = if (spare > 0) srs.newGrammarCards(grammar.size + spare).drop(grammar.size) else emptyList()
+        return due + Cards.spread(words, grammar + moreGrammar)
     }
 
     suspend fun review(card: SrsCardEntity, rating: Rating): SrsCardEntity {
@@ -174,6 +209,13 @@ class LearningRepository(private val db: AppDatabase) {
             lastReviewedEpochDay = day,
         )
         srs.update(updated)
+        // A word known twice running gets its produce twin: meaning shown, Italian asked.
+        if (Cards.kindOf(card.id) == CardKind.RECOGNISE && next.repetitions >= Cards.PRODUCE_AFTER_REPETITIONS) {
+            // It starts tomorrow as an ordinary review: the word is not new, only the direction is.
+            val twin = newCard(Cards.produceId(card.id), card.front, card.back, card.example, card.sourceUnitId)
+                .copy(dueEpochDay = day + 1, firstReviewedEpochDay = day)
+            srs.insertIfAbsent(listOf(twin))
+        }
         recordActivity(lessons = 0, cards = 1)
         return updated
     }

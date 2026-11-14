@@ -62,13 +62,18 @@ interface SrsDao {
     @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NOT NULL AND dueEpochDay <= :today ORDER BY dueEpochDay, id")
     suspend fun dueReviews(today: Long): List<SrsCardEntity>
 
-    @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NULL ORDER BY rowid LIMIT :limit")
+    /** New vocabulary cards, oldest first. Grammar cards ("g:" ids) have their own share. */
+    @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NULL AND id NOT LIKE 'g:%' ORDER BY rowid LIMIT :limit")
     suspend fun newCards(limit: Int): List<SrsCardEntity>
 
-    @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay = :today")
+    @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NULL AND id LIKE 'g:%' ORDER BY rowid LIMIT :limit")
+    suspend fun newGrammarCards(limit: Int): List<SrsCardEntity>
+
+    /** Produce twins ("r:" ids) repeat a known word, so they do not count as new. */
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay = :today AND id NOT LIKE 'r:%'")
     suspend fun newIntroducedOn(today: Long): Int
 
-    @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay = :today")
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay = :today AND id NOT LIKE 'r:%'")
     fun observeNewIntroducedOn(today: Long): Flow<Int>
 
     @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay IS NOT NULL AND dueEpochDay <= :today")
