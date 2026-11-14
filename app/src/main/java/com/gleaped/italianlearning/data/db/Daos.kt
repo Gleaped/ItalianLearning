@@ -41,6 +41,18 @@ interface ProgressDao {
     @Upsert
     suspend fun upsertActivity(entity: ActivityDayEntity)
 
+    @Query("SELECT * FROM lesson_progress ORDER BY completedAtMillis, lessonId")
+    suspend fun allLessons(): List<LessonProgressEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertLessons(lessons: List<LessonProgressEntity>)
+
+    @Query("SELECT * FROM activity_days ORDER BY epochDay")
+    suspend fun allActivity(): List<ActivityDayEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertActivity(days: List<ActivityDayEntity>)
+
     @Query("DELETE FROM lesson_progress")
     suspend fun clearLessons()
 
@@ -62,8 +74,11 @@ interface SrsDao {
     @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NOT NULL AND dueEpochDay <= :today ORDER BY dueEpochDay, id")
     suspend fun dueReviews(today: Long): List<SrsCardEntity>
 
-    /** New vocabulary cards, oldest first. Grammar cards ("g:" ids) have their own share. */
-    @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NULL AND id NOT LIKE 'g:%' ORDER BY rowid LIMIT :limit")
+    /**
+     * New vocabulary cards: words the learner added from the dictionary ("d:" ids) first, then
+     * oldest first. Grammar cards ("g:" ids) have their own share.
+     */
+    @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NULL AND id NOT LIKE 'g:%' ORDER BY (id LIKE 'd:%') DESC, rowid LIMIT :limit")
     suspend fun newCards(limit: Int): List<SrsCardEntity>
 
     @Query("SELECT * FROM srs_cards WHERE firstReviewedEpochDay IS NULL AND id LIKE 'g:%' ORDER BY rowid LIMIT :limit")
@@ -90,6 +105,18 @@ interface SrsDao {
 
     @Query("SELECT COUNT(*) FROM srs_cards")
     fun observeTotal(): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE id = :id")
+    fun observeCount(id: String): Flow<Int>
+
+    @Query("DELETE FROM srs_cards WHERE id = :id OR id = :twinId")
+    suspend fun delete(id: String, twinId: String)
+
+    @Query("SELECT * FROM srs_cards ORDER BY rowid")
+    suspend fun all(): List<SrsCardEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertAll(cards: List<SrsCardEntity>)
 
     @Query("DELETE FROM srs_cards")
     suspend fun clear()

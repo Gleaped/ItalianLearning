@@ -1,5 +1,9 @@
 package com.gleaped.italianlearning.ui.home
 
+import androidx.compose.foundation.clickable
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import com.gleaped.italianlearning.domain.practice.DailyMix
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -39,6 +43,7 @@ fun HomeScreen(
     onCourse: () -> Unit,
     onPractice: () -> Unit = {},
     onProgress: () -> Unit = {},
+    onMix: () -> Unit = {},
 ) {
     val container = LocalAppContainer.current
     val vm: OverviewViewModel = viewModel(factory = OverviewViewModel.factory(container))
@@ -110,55 +115,81 @@ fun HomeScreen(
             }
         }
 
-        // Missed exercises that are due to be asked again
-        if (o.weakDue > 0) {
-            val round = minOf(o.weakDue, WeakSpots.SESSION_SIZE)
-            Card(
-                onClick = onPractice,
-                modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer),
-            ) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                    Text("Punti deboli", style = MaterialTheme.typography.labelLarge)
-                    Text(
-                        if (o.weakDue == 1) "1 item to revisit" else "${o.weakDue} items to revisit",
-                        style = MaterialTheme.typography.titleLarge,
-                    )
-                    Text(
-                        "Things you missed earlier, ready for another go. $round now, about ${(round + 1) / 2} min.",
-                        style = MaterialTheme.typography.bodyMedium,
-                    )
-                }
-            }
+        // Today's plan: what is worth doing today, ticked off as it gets done.
+        val reviewReady = o.dueReviews + o.newCards
+        val lessonTarget: (() -> Unit)? = when {
+            saved != null && savedUnit != null && savedLesson != null -> ({ onStartLesson(savedUnit.id, savedLesson.id) })
+            next != null -> ({ onStartLesson(next.first.id, next.second.id) })
+            else -> null
         }
-
-        // Review + streak
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Card(onClick = onReview, modifier = Modifier.weight(1f)) {
-                Column(Modifier.padding(16.dp)) {
-                    Text("Review", style = MaterialTheme.typography.labelLarge)
-                    Text("${o.dueReviews + o.newCards}", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+        val weakRound = minOf(o.weakDue, WeakSpots.SESSION_SIZE)
+        Card(Modifier.fillMaxWidth()) {
+            Column(Modifier.padding(horizontal = 12.dp, vertical = 12.dp)) {
+                Row(Modifier.padding(horizontal = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text("Il piano di oggi", style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
                     Text(
                         when {
-                            o.dueReviews + o.newCards == 0 -> "Nothing due"
-                            o.newCards > 0 -> "${o.dueReviews} due · ${o.newCards} new"
-                            else -> "cards due"
+                            o.streak > 1 -> "${o.streak} days in a row"
+                            o.streak == 1 -> "1 day so far"
+                            else -> ""
                         },
-                        style = MaterialTheme.typography.bodySmall,
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary,
                     )
                 }
-            }
-            Card(Modifier.weight(1f)) {
-                Column(Modifier.padding(16.dp)) {
-                    Text("Streak", style = MaterialTheme.typography.labelLarge)
-                    Text("${o.streak}", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-                    Text(
-                        when {
-                            o.practicedToday -> "Done for today ✓"
-                            o.streak > 0 -> "Practise today to keep it going"
-                            else -> "Start one today"
+                Text(
+                    when {
+                        o.practicedToday -> "You have practised today. Anything more is a bonus."
+                        o.streak > 0 -> "Any one of these keeps your streak going."
+                        else -> "Any one of these counts as practice for today."
+                    },
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(horizontal = 4.dp, vertical = 4.dp),
+                )
+                if (lessonTarget != null || o.lessonsToday > 0) {
+                    PlanRow(
+                        done = o.lessonsToday > 0,
+                        title = "A lesson",
+                        detail = when {
+                            o.lessonsToday == 1 -> "Done: 1 lesson today"
+                            o.lessonsToday > 1 -> "Done: ${o.lessonsToday} lessons today"
+                            savedLesson != null -> "Continue “${savedLesson.title}”"
+                            next != null -> "“${next.second.title}”, about ${next.second.minutes} min"
+                            else -> ""
                         },
-                        style = MaterialTheme.typography.bodySmall,
+                        onClick = lessonTarget,
+                    )
+                }
+                PlanRow(
+                    done = reviewReady == 0,
+                    title = "Review cards",
+                    detail = when {
+                        reviewReady == 0 -> "Nothing waiting right now"
+                        o.newCards > 0 -> "${o.dueReviews} due and ${o.newCards} new, about ${(reviewReady + 5) / 6} min"
+                        else -> "${o.dueReviews} due, about ${(reviewReady + 5) / 6} min"
+                    },
+                    onClick = onReview,
+                )
+                if (o.weakDue > 0) {
+                    PlanRow(
+                        done = false,
+                        title = "Punti deboli",
+                        detail = (if (o.weakDue == 1) "1 item you missed is" else "${o.weakDue} items you missed are") +
+                            " ready for another go, about ${(weakRound + 1) / 2} min",
+                        onClick = onPractice,
+                    )
+                }
+                if (o.mixAvailable) {
+                    PlanRow(
+                        done = o.mixDoneToday,
+                        title = "Mix del giorno",
+                        detail = if (o.mixDoneToday) {
+                            "Done today. Tap for another mix"
+                        } else {
+                            "${DailyMix.SIZE} mixed questions from lessons you have finished, about ${DailyMix.SIZE / 2} min"
+                        },
+                        onClick = onMix,
                     )
                 }
             }
@@ -183,5 +214,33 @@ fun HomeScreen(
             }
         }
         Spacer(Modifier.height(16.dp))
+    }
+}
+
+/** One line of today's plan: a tick or an open circle, what it is, and how much there is. */
+@Composable
+private fun PlanRow(done: Boolean, title: String, detail: String, onClick: (() -> Unit)?) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(MaterialTheme.shapes.medium)
+            .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier)
+            .padding(horizontal = 4.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        Text(
+            if (done) "✓" else "○",
+            style = MaterialTheme.typography.titleLarge,
+            color = if (done) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+            // The detail line already says whether it is done.
+            modifier = Modifier.clearAndSetSemantics { },
+        )
+        Column(Modifier.weight(1f)) {
+            Text(title, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
+            if (detail.isNotBlank()) {
+                Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+        }
     }
 }

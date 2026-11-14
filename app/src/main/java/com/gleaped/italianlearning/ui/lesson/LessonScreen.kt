@@ -1,5 +1,11 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import android.os.SystemClock
+import com.gleaped.italianlearning.domain.practice.Practice
+import com.gleaped.italianlearning.domain.progress.ExamClock
+import kotlinx.coroutines.delay
+import androidx.compose.runtime.mutableIntStateOf
+import com.gleaped.italianlearning.domain.speech.QuietSpeech
 import com.gleaped.italianlearning.domain.speech.SpokenWord
 import com.gleaped.italianlearning.domain.speech.SpokenWords
 import com.gleaped.italianlearning.speech.SpeechCapture
@@ -97,7 +103,9 @@ fun LessonScreen(
             title = { Text("Leave this lesson?") },
             text = {
                 Text(
-                    if (vm.isPractice) {
+                    if (vm.isMix) {
+                        "This round won't be saved. A new mix is ready whenever you like."
+                    } else if (vm.isPractice) {
                         "This round won't be saved. The items stay in Punti deboli for next time."
                     } else {
                         "Your place is saved. You can pick up where you left off, or start again."
@@ -133,10 +141,14 @@ fun LessonScreen(
                     },
                     title = {
                         when (val s = state) {
-                            is LessonUiState.Running -> LinearProgressIndicator(
-                                progress = { s.progress },
-                                modifier = Modifier.fillMaxWidth().padding(end = 16.dp),
-                            )
+                            is LessonUiState.Running -> Row(
+                                Modifier.fillMaxWidth().padding(end = 16.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                            ) {
+                                LinearProgressIndicator(progress = { s.progress }, modifier = Modifier.weight(1f))
+                                s.clock?.let { ExamCountdown(it) }
+                            }
                             is LessonUiState.Finished -> Text(s.lesson.title)
                             is LessonUiState.Intro -> Text(s.unit.title, style = MaterialTheme.typography.titleMedium)
                             else -> Text("")
@@ -243,6 +255,27 @@ private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor
     }
 }
 
+/** Time left on a timed paper. It only informs: when the time is up the paper can still be finished. */
+@Composable
+private fun ExamCountdown(clock: ExamClock) {
+    var remaining by remember(clock) { mutableIntStateOf(clock.remainingSeconds(SystemClock.elapsedRealtime())) }
+    LaunchedEffect(clock) {
+        while (true) {
+            remaining = clock.remainingSeconds(SystemClock.elapsedRealtime())
+            delay(1000)
+        }
+    }
+    val late = remaining <= 0
+    Text(
+        if (late) "Tempo scaduto" else ExamClock.format(remaining),
+        style = MaterialTheme.typography.labelLarge,
+        color = when {
+            late || remaining <= 300 -> MaterialTheme.colorScheme.error
+            else -> MaterialTheme.colorScheme.onSurfaceVariant
+        },
+    )
+}
+
 /** Verdict, answer and why; at most about 40% of the screen (it scrolls inside beyond that). */
 @Composable
 private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit, onOverride: () -> Unit) {
@@ -277,7 +310,11 @@ private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit, onOverride
  */
 @Composable
 private fun SayIt(text: String) {
-    val tts = LocalAppContainer.current.tts
+    val container = LocalAppContainer.current
+    val tts = container.tts
+    val settings by container.settings.settings.collectAsStateWithLifecycle(null)
+    // Not offered while "can't talk now" is on.
+    if (QuietSpeech.active(settings?.quietSpeechUntilMillis ?: 0L, System.currentTimeMillis())) return
     var open by remember(text) { mutableStateOf(false) }
     var words by remember(text) { mutableStateOf<List<SpokenWord>?>(null) }
     var unavailable by remember { mutableStateOf(false) }
@@ -355,10 +392,18 @@ private fun IntroView(s: LessonUiState.Intro) {
             Text(goal, style = MaterialTheme.typography.bodyLarge)
         }
         Text(
-            "About ${lesson.minutes} minutes · $steps steps",
+            if (lesson.timed) "Timed: ${lesson.minutes} minutes · $steps steps" else "About ${lesson.minutes} minutes · $steps steps",
             style = MaterialTheme.typography.labelLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+        if (lesson.timed) {
+            Text(
+                "The clock starts when you do and keeps running as in the exam, also if you leave the app. " +
+                    "When the time is up you are told, and you can still finish. " +
+                    "If you stop and come back later, the time you used is remembered.",
+                style = MaterialTheme.typography.bodyMedium,
+            )
+        }
         val stages = lesson.exercises.mapNotNull { stageLabel(it.stage) }.distinct()
         if (stages.size > 1) {
             Text(stages.joinToString("  →  "), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
@@ -425,6 +470,46 @@ fun FeedbackBody(feedback: Feedback) {
     }
 }
 
+/** Time used against the limit, and the score against a practice target. */
+@Composable
+private fun ExamResult(usedSeconds: Int, limitSeconds: Int, percent: Int?) {
+    Surface(
+        color = MaterialTheme.colorScheme.surfaceVariant,
+        shape = MaterialTheme.shapes.large,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("La prova in numeri", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            val over = usedSeconds - limitSeconds
+            Text(
+                "Time: ${ExamClock.format(usedSeconds)} of ${ExamClock.format(limitSeconds)}" +
+                    if (over > 0) " (${ExamClock.format(over)} over)" else "",
+                style = MaterialTheme.typography.bodyLarge,
+            )
+            if (percent != null) {
+                Text(
+                    "Score on the marked items: $percent%",
+                    style = MaterialTheme.typography.bodyLarge,
+                )
+                Text(
+                    if (percent >= ExamClock.TARGET_PERCENT) {
+                        "That is above the practice target of ${ExamClock.TARGET_PERCENT}%."
+                    } else {
+                        "The practice target is ${ExamClock.TARGET_PERCENT}%. Punti deboli will bring back what you missed."
+                    },
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+            }
+            Text(
+                "The target is a guide for practice, not the official pass mark. Writing and speaking are not marked here: " +
+                    "compare yours with the model answers.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+    }
+}
+
 @Composable
 private fun SummaryView(
     s: LessonUiState.Finished,
@@ -442,8 +527,9 @@ private fun SummaryView(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
+        val mix = s.practice && s.lesson.id == Practice.MIX_LESSON_ID
         Text(
-            if (s.practice) "Fatto!" else "Lezione completata!",
+            if (s.practice) "Fatto!" else if (s.lesson.timed) "Prova completata!" else "Lezione completata!",
             style = MaterialTheme.typography.headlineMedium,
             textAlign = TextAlign.Center,
         )
@@ -478,8 +564,12 @@ private fun SummaryView(
         if (sum.skipped > 0) {
             Text("${sum.skipped} skipped", style = MaterialTheme.typography.bodySmall)
         }
+        if (s.examSeconds != null && s.examLimitSeconds != null) {
+            ExamResult(s.examSeconds, s.examLimitSeconds, ExamClock.percent(sum.correct, sum.almost, sum.wrong))
+        }
         Text(
             when {
+                mix -> "Anything you missed comes back tomorrow in Punti deboli. A fresh mix is ready whenever you like."
                 s.practice -> "Items you got right come back after a longer gap; three in a row and they are done."
                 sum.wrong > 0 -> "New words from this unit are now in your review deck. The items you missed come back tomorrow in Punti deboli."
                 else -> "New words from this unit are now in your review deck."

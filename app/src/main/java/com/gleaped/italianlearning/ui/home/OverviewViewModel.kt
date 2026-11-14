@@ -1,5 +1,8 @@
 package com.gleaped.italianlearning.ui.home
 
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.distinctUntilChanged
+import com.gleaped.italianlearning.domain.practice.DailyMix
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -32,31 +35,37 @@ data class Overview(
     val weakDue: Int = 0,
     /** The lesson left part-way, when it can still be continued. */
     val checkpoint: LessonCheckpoint? = null,
+    /** Lessons finished today. */
+    val lessonsToday: Int = 0,
+    /** Enough lessons are finished for the daily mix. */
+    val mixAvailable: Boolean = false,
+    val mixDoneToday: Boolean = false,
 )
 
 class OverviewViewModel(container: AppContainer) : ViewModel() {
 
     private val contentFlow = flow { emit(container.content.load()) }
 
-    private val reviewCounts = combine(
-        container.learning.dueReviewCount(),
-        container.learning.newCardCount(),
-        container.learning.newIntroducedTodayCount(),
-        container.settings.settings,
-    ) { due, fresh, introducedToday, settings ->
-        // Same rule as the review queue: new cards already met today use up the daily allowance.
-        val allowance = (settings.dailyNewCards - introducedToday).coerceAtLeast(0)
-        due to minOf(fresh, allowance)
-    }
+    private val reviewCounts = container.learning.reviewCounts(
+        container.settings.settings.map { it.dailyNewCards }.distinctUntilChanged(),
+    )
 
-    /** Review counts, the answer history and the saved lesson position, bundled to stay within combine's arity. */
-    private class Extras(val counts: Pair<Int, Int>, val attempts: List<AttemptRecord>, val checkpoint: LessonCheckpoint?)
+    /** Review counts, the answer history and the rest of today's state, bundled to stay within combine's arity. */
+    private class Extras(
+        val counts: Pair<Int, Int>,
+        val attempts: List<AttemptRecord>,
+        val checkpoint: LessonCheckpoint?,
+        val lessonsToday: Int,
+        val lastMixDay: Long,
+    )
 
     private val extras = combine(
         reviewCounts,
         container.learning.attempts,
         container.settings.lessonCheckpoint,
-    ) { counts, attempts, checkpoint -> Extras(counts, attempts, checkpoint) }
+        container.learning.lessonsToday,
+        container.settings.lastMixDay,
+    ) { counts, attempts, checkpoint, lessonsToday, lastMixDay -> Extras(counts, attempts, checkpoint, lessonsToday, lastMixDay) }
 
     val overview: StateFlow<Overview?> = combine(
         contentFlow,
@@ -82,6 +91,9 @@ class OverviewViewModel(container: AppContainer) : ViewModel() {
             newCards = counts.second,
             weakDue = weakDue,
             checkpoint = checkpoint,
+            lessonsToday = extra.lessonsToday,
+            mixAvailable = completed.size >= DailyMix.MIN_LESSONS,
+            mixDoneToday = extra.lastMixDay == today,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 

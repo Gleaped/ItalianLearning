@@ -103,7 +103,7 @@ class ChallengeViewModel(
                 feedback = null,
                 done = tip.challenge == null,
                 autoPlay = settings.autoPlayAudio,
-                speechEnabled = settings.speechPracticeEnabled,
+                speechEnabled = settings.speechNow(),
             )
             // Seen here counts as shown, so the next reminder picks another tip.
             container.settings.markTipShown(tip.id)

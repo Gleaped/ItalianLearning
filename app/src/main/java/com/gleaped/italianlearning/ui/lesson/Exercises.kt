@@ -1,5 +1,7 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.gleaped.italianlearning.domain.speech.QuietSpeech
 import androidx.compose.material3.Slider
 import androidx.compose.runtime.mutableStateMapOf
 import kotlinx.coroutines.launch
@@ -585,7 +587,12 @@ private fun SpeakOrType(
     onResponses: (List<String>) -> Unit,
     onSkip: () -> Unit,
 ) {
-    var typing by remember { mutableStateOf(!speechEnabled) }
+    val container = LocalAppContainer.current
+    val settings by container.settings.settings.collectAsStateWithLifecycle(null)
+    // "Can't talk now" applies at once, also to the step on screen.
+    val quiet = QuietSpeech.active(settings?.quietSpeechUntilMillis ?: 0L, System.currentTimeMillis())
+    var chosenTyping by remember { mutableStateOf(!speechEnabled) }
+    val typing = chosenTyping || quiet
     var unavailableReason by remember { mutableStateOf<String?>(null) }
     var input by remember { mutableStateOf("") }
     Column(verticalArrangement = Arrangement.spacedBy(8.dp), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -602,12 +609,20 @@ private fun SpeakOrType(
                         com.gleaped.italianlearning.speech.SpeechUnavailable.LANGUAGE_UNAVAILABLE ->
                             "Italian speech recognition isn't installed, so let's type instead."
                     }
-                    typing = true
+                    chosenTyping = true
                 },
             )
         } else {
             unavailableReason?.let {
                 Text(it, style = MaterialTheme.typography.bodySmall, textAlign = TextAlign.Center)
+            }
+            if (quiet) {
+                Text(
+                    "Speaking is paused for now, so type your answer.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    textAlign = TextAlign.Center,
+                )
             }
             AnswerField(
                 value = input,
@@ -621,7 +636,18 @@ private fun SpeakOrType(
             CheckButton(enabled = !answered && input.isNotBlank(), onClick = { onResponses(listOf(input)) })
         }
         if (!answered) {
-            SpeechFallbackRow(showTypeInstead = !typing, onTypeInstead = { typing = true }, onSkip = onSkip, enabled = true)
+            SpeechFallbackRow(showTypeInstead = !typing, onTypeInstead = { chosenTyping = true }, onSkip = onSkip, enabled = true)
+            if (quiet) {
+                TextButton(onClick = {
+                    chosenTyping = false
+                    container.appScope.launch { container.settings.setQuietSpeechUntil(0L) }
+                }) { Text("I can talk again: use the microphone") }
+            } else if (!typing) {
+                TextButton(onClick = {
+                    val until = QuietSpeech.until(System.currentTimeMillis())
+                    container.appScope.launch { container.settings.setQuietSpeechUntil(until) }
+                }) { Text("Can't talk now: type for the next hour") }
+            }
         }
     }
 }

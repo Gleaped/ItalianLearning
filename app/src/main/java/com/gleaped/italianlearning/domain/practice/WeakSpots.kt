@@ -106,4 +106,8 @@ object Practice {
     const val UNIT_ID = "~practice"
     const val WEAK_LESSON_ID = "weak"
     const val TITLE = "Punti deboli"
+
+    /** The daily mixed round, see [DailyMix]. */
+    const val MIX_LESSON_ID = "mix"
+    const val MIX_TITLE = "Mix del giorno"
 }

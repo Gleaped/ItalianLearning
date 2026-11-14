@@ -7,6 +7,7 @@ import com.gleaped.italianlearning.domain.grading.Verdict
 /**
  * What a review card asks. The kind is read from the card id, so no extra column is stored:
  *  - `v:` / `f:` ids are [RECOGNISE] cards: see the Italian, recall the meaning
+ *  - `d:<lemmaId>` is a [RECOGNISE] card the learner added from the dictionary
  *  - `r:<id of the recognise card>` is its [PRODUCE] twin: see the meaning, produce the Italian
  *  - `g:<unitId>:<tipId>` is a [GRAMMAR] card: answer the tip's quick challenge
  */
@@ -26,6 +27,15 @@ object Cards {
     }
 
     fun produceId(recogniseCardId: String): String = PRODUCE_PREFIX + recogniseCardId
+
+    /** Source "unit" of cards added from the dictionary. */
+    const val DICTIONARY_UNIT_ID = "~dizionario"
+
+    fun dictionaryId(lemmaId: Long): String = "d:$lemmaId"
+
+    /** The meaning side of a dictionary card: the first few senses, most common first. */
+    fun dictionaryBack(glosses: List<String>, limit: Int = 3): String =
+        glosses.map { it.trim() }.filter { it.isNotEmpty() }.distinct().take(limit).joinToString("; ")
 
     fun grammarId(unitId: String, tipId: String): String = "$GRAMMAR_PREFIX$unitId:$tipId"
 

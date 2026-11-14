@@ -121,4 +121,6 @@ data class Lesson(
     val goal: String = "",
     /** The lesson's rule in one line; shown on the wrap-up screen. */
     val takeaway: String = "",
+    /** An exam paper: [minutes] is its time limit and the lesson player shows a countdown. */
+    val timed: Boolean = false,
 )

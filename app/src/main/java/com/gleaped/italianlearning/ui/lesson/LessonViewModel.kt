@@ -1,5 +1,10 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import android.os.SystemClock
+import com.gleaped.italianlearning.domain.practice.DailyMix
+import com.gleaped.italianlearning.domain.progress.ExamClock
+import com.gleaped.italianlearning.domain.progress.SkillStats
+import kotlin.random.Random
 import com.gleaped.italianlearning.domain.speech.SpokenWord
 import com.gleaped.italianlearning.content.SentenceBuild
 import androidx.lifecycle.ViewModel
@@ -80,6 +85,8 @@ sealed interface LessonUiState {
         val step: Int = 0,
         /** Above zero in the re-ask round at the end: missed items still to get right, this one included. */
         val retryLeft: Int = 0,
+        /** Timed exam papers only; read against SystemClock.elapsedRealtime(). */
+        val clock: ExamClock? = null,
     ) : LessonUiState {
         val exercise: Exercise get() = lesson.exercises[index]
         val inRetry: Boolean get() = retryLeft > 0
@@ -94,6 +101,9 @@ sealed interface LessonUiState {
         val summary: LessonSummary,
         /** A practice round rather than a course lesson. */
         val practice: Boolean = false,
+        /** Timed exam papers only: seconds used and the paper's limit. */
+        val examSeconds: Int? = null,
+        val examLimitSeconds: Int? = null,
     ) : LessonUiState
 }
 
@@ -108,6 +118,10 @@ class LessonViewModel(
 
     /** True for the "Punti deboli" round, which re-asks exercises from several lessons. */
     val isPractice: Boolean = unitId == Practice.UNIT_ID
+
+    /** True for the "Mix del giorno" round: exercises from finished lessons, topics shuffled. */
+    val isMix: Boolean = isPractice && lessonId == Practice.MIX_LESSON_ID
+    private var clock: ExamClock? = null
 
     /** First-attempt results, one per exercise; the re-ask round does not change them. */
     private val outcomes = mutableListOf<ExerciseOutcome>()
@@ -127,8 +141,12 @@ class LessonViewModel(
         viewModelScope.launch {
             val settings = container.settings.current()
             autoPlay = settings.autoPlayAudio
-            speechEnabled = settings.speechPracticeEnabled
-            if (isPractice) loadPractice() else loadLesson()
+            speechEnabled = settings.speechNow()
+            when {
+                isMix -> loadMix()
+                isPractice -> loadPractice()
+                else -> loadLesson()
+            }
         }
     }
 
@@ -163,17 +181,51 @@ class LessonViewModel(
             return
         }
         origins = picked.map { it.first }
-        val lesson = Lesson(
-            id = Practice.WEAK_LESSON_ID,
-            title = Practice.TITLE,
-            minutes = (picked.size + 1) / 2,
-            exercises = picked.map { it.second },
-            goal = "Another go at items you missed earlier. Each one comes back after 1, 3 and 7 days until it sticks.",
+        showRound(
+            Lesson(
+                id = Practice.WEAK_LESSON_ID,
+                title = Practice.TITLE,
+                minutes = (picked.size + 1) / 2,
+                exercises = picked.map { it.second },
+                goal = "Another go at items you missed earlier. Each one comes back after 1, 3 and 7 days until it sticks.",
+            ),
         )
+    }
+
+    private suspend fun loadMix() {
+        val today = LocalDate.now().toEpochDay()
+        val content = container.content.load()
+        val attempts = container.learning.attemptsNow()
+        val picked = DailyMix.pick(
+            candidates = DailyMix.candidates(content.units.values, container.learning.completedLessonIds.first()),
+            weakUnitIds = SkillStats.recentlyMissedUnits(attempts, today),
+            recent = attempts.filter { it.epochDay > today - DailyMix.RECENT_DAYS }.map { it.lessonId to it.exerciseIndex }.toSet(),
+            random = Random(System.nanoTime()),
+        )
+        if (picked.isEmpty()) {
+            _state.value = LessonUiState.Error("The mix draws on lessons you have finished. Finish a lesson or two first.")
+            return
+        }
+        // Stored like a "Punti deboli" round: a miss here opens a weak spot for that exercise.
+        origins = picked.map { WeakSpot(it.lessonId, it.exerciseIndex, it.exercise.id, it.type, today) }
+        showRound(
+            Lesson(
+                id = Practice.MIX_LESSON_ID,
+                title = Practice.MIX_TITLE,
+                minutes = (picked.size + 1) / 2,
+                exercises = picked.map { it.exercise },
+                goal = "A short mix from lessons you have finished, with the topics shuffled on purpose. " +
+                    "Switching between rules is harder than practising one at a time, and that is why it sticks.",
+            ),
+        )
+    }
+
+    /** Shows the intro of a practice round, which is a lesson made up on the spot. */
+    private fun showRound(lesson: Lesson) {
         val unit = CourseUnit(
             id = Practice.UNIT_ID,
             level = "",
-            title = Practice.TITLE,
+            title = lesson.title,
             objective = "",
             grammarFocus = "",
             remedialUnitIds = emptyList(),
@@ -190,6 +242,9 @@ class LessonViewModel(
         outcomes.clear()
         retryQueue.clear()
         retryCount.clear()
+        clock = intro.lesson.takeIf { it.timed }?.let {
+            ExamClock(it.minutes * 60, saved?.elapsedSeconds ?: 0, SystemClock.elapsedRealtime())
+        }
         val first = LessonUiState.Running(
             unit = intro.unit,
             lesson = intro.lesson,
@@ -197,6 +252,7 @@ class LessonViewModel(
             feedback = null,
             autoPlay = autoPlay,
             speechEnabled = speechEnabled,
+            clock = clock,
         )
         if (saved == null) {
             if (checkpoint != null) {
@@ -321,12 +377,14 @@ class LessonViewModel(
             lessonId = lessonId,
             index = nextIndex,
             verdicts = outcomes.associate { it.index to it.verdict },
+            elapsedSeconds = clock?.elapsedSeconds(SystemClock.elapsedRealtime()) ?: 0,
         )
         checkpoint = saved
         viewModelScope.launch { container.settings.saveLessonCheckpoint(saved) }
     }
 
     private fun finish(running: LessonUiState.Running) {
+        val examSeconds = clock?.elapsedSeconds(SystemClock.elapsedRealtime())
         viewModelScope.launch {
             val scored = outcomes.filter { o -> running.lesson.exercises.getOrNull(o.index)?.scored == true }
             var next: kotlin.Pair<CourseUnit, Lesson>? = null
@@ -338,6 +396,7 @@ class LessonViewModel(
                         spot to verdict
                     },
                 )
+                if (isMix) container.settings.markMixDone(LocalDate.now().toEpochDay())
             } else {
                 container.learning.completeLesson(running.unit, running.lesson.id, outcomes.toList())
                 checkpoint = null
@@ -366,6 +425,8 @@ class LessonViewModel(
                     nextLessonTitle = next?.second?.title,
                 ),
                 practice = isPractice,
+                examSeconds = examSeconds,
+                examLimitSeconds = clock?.limitSeconds,
             )
         }
     }
