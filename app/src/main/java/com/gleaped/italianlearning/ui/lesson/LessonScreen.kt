@@ -575,6 +575,17 @@ private fun SummaryView(
         if (s.examSeconds != null && s.examLimitSeconds != null) {
             ExamResult(s.examSeconds, s.examLimitSeconds, ExamClock.percent(sum.correct, sum.almost, sum.wrong))
         }
+        s.checkPassed?.let { passed ->
+            Text(
+                if (passed) {
+                    "Module passed. Its lessons are marked as known and its words are in your review deck. You can still open any lesson."
+                } else {
+                    "Not yet 85%, so nothing was marked. Misses come back in Punti deboli, and you can try again any time."
+                },
+                style = MaterialTheme.typography.bodyLarge,
+                textAlign = TextAlign.Center,
+            )
+        }
         Text(
             when {
                 mix -> "Anything you missed comes back tomorrow in Punti deboli. A fresh mix is ready whenever you like."

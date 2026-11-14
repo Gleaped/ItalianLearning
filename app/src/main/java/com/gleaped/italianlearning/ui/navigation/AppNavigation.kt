@@ -41,6 +41,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.gleaped.italianlearning.domain.practice.LevelCheck
 import com.gleaped.italianlearning.domain.practice.Practice
 import com.gleaped.italianlearning.R
 import com.gleaped.italianlearning.domain.reminders.ReminderTarget
@@ -217,6 +218,7 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                         levelId = entry.arguments?.getString("levelId").orEmpty(),
                         onBack = { nav.popBackStack() },
                         onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                        onTestOut = { nav.navigate(Routes.lesson(Practice.UNIT_ID, LevelCheck.lessonId(it))) },
                     )
                 }
                 composable(Routes.GRAMMAR) {
