@@ -600,6 +600,24 @@
       "summary": "Timed mock of all three booklets and the oral, with self-assessment against the official criteria and pass marks.",
       "available": true,
       "module": "celi-m1"
+    },
+    {
+      "id": "celi-07",
+      "level": "CELI3",
+      "order": 7,
+      "title": "Biblioteca di lettura",
+      "summary": "Four long texts (about 280 words): an article, a letter to the editor, an interview and a news feature, each with exam-style questions and a spoken summary.",
+      "available": true,
+      "module": "celi-m2"
+    },
+    {
+      "id": "celi-08",
+      "level": "CELI3",
+      "order": 8,
+      "title": "Biblioteca di ascolto",
+      "summary": "Six long recordings (150 to 200 words): news bulletin, voicemail, museum guide, airport announcement, radio feature and a travel story, five questions each.",
+      "available": true,
+      "module": "celi-m2"
     }
   ],
   "modules": [
@@ -710,6 +728,12 @@
       "level": "CELI3",
       "title": "Esame CELI 3",
       "description": "Every section of the exam and a timed mock."
+    },
+    {
+      "id": "celi-m2",
+      "level": "CELI3",
+      "title": "Biblioteca",
+      "description": "Longer reading and listening texts for extensive practice, as in the real exam."
     }
   ]
 }

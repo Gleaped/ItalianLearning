@@ -88,6 +88,8 @@ The track mirrors the real CELI 3 sections; the verified format and sources are 
 | celi-04 | Scrivere per l'esame | Part B: 80–100-word letter/email and 120–180-word composition |
 | celi-05 | Parlare per l'esame | Oral: self-presentation, photo, text summary, role-play |
 | celi-06 | Simulazione d'esame | Timed mock of all sections, scored against the official pass marks |
+| celi-07 | Biblioteca di lettura | Four long texts (about 280 words) with exam-style questions and a spoken summary |
+| celi-08 | Biblioteca di ascolto | Six long recordings (150 to 200 words) with five questions each |
 
 ## Unit 1 in detail: `b1-01` Com'è andata?
 

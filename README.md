@@ -19,6 +19,7 @@ and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
   speak & repeat, speak & respond, role-play and free writing with a self-check.
 - **Answer checking** — case, extra spaces, final punctuation, commas, apostrophe style and a typed subject
   pronoun ("io ero") are forgiven; a missing or wrong accent counts as **almost** rather than wrong.
+- **Biblioteca (exam track)** — long reading texts (about 280 words) and long listening texts (150 to 200 words) with exam-style questions, for extensive practice.
 - **Listening & speaking** — Italian text-to-speech (`it-IT`) for listening exercises, role-play lines and a
   speaker button next to Italian text; speech recognition (`it-IT`, offline preferred) for speaking exercises.
   The microphone permission is asked the first time you tap the mic. If you decline, or the device has no
