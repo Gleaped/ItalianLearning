@@ -50,6 +50,10 @@ and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
 - **Prova orale** — from Today or Progress: three exam-style speaking tasks, each with preparation time, then the phone
   records your answer, you listen back, read a model answer and score yourself on the four oral criteria. Recordings
   are deleted when you leave; your scores and their averages are kept under Progress.
+- **Core words** — a few nouns, verbs, adjectives and adverbs a day (Settings, 5 by default, 0 = off) from the dictionary's
+  frequency list join the review deck, starting from words you probably know and skipping what the course teaches.
+- **Coniuga** — an endless verb drill built from the dictionary's conjugation tables: ten forms a round from the commonest
+  verbs, in the tenses you choose; the ones missed come round again.
 - **Gentler streak** — one missed day a week is forgiven as a rest day. Long-press the app icon for shortcuts to
   review, the next lesson and the dictionary.
 - **Dictionary** — the search icon in the top bar opens an offline lookup: type any form ("andò", "belle") and see
