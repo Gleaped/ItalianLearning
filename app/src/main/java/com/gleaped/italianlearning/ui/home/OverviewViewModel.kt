@@ -13,6 +13,10 @@ import com.gleaped.italianlearning.content.CourseContent
 import com.gleaped.italianlearning.domain.practice.AttemptRecord
 import com.gleaped.italianlearning.domain.practice.WeakSpots
 import com.gleaped.italianlearning.domain.progress.CourseProgress
+import com.gleaped.italianlearning.domain.progress.ExamPlan
+import com.gleaped.italianlearning.domain.progress.ExamReadiness
+import com.gleaped.italianlearning.domain.progress.Readiness
+import com.gleaped.italianlearning.domain.progress.SkillStats
 import com.gleaped.italianlearning.domain.progress.LessonCheckpoint
 import com.gleaped.italianlearning.domain.progress.Streak
 import kotlinx.coroutines.flow.SharingStarted
@@ -40,6 +44,12 @@ data class Overview(
     /** Enough lessons are finished for the daily mix. */
     val mixAvailable: Boolean = false,
     val mixDoneToday: Boolean = false,
+    /** Day of the exam as an epoch day; 0 = not set. */
+    val examDateEpochDay: Long = 0L,
+    /** Rough exam score estimate from the answers so far. */
+    val readiness: Readiness = Readiness(emptyList(), null, null),
+    /** Lessons still to do on the way to B2. */
+    val remainingLessons: Int = 0,
 )
 
 class OverviewViewModel(container: AppContainer) : ViewModel() {
@@ -81,9 +91,10 @@ class OverviewViewModel(container: AppContainer) : ViewModel() {
             val lesson = content.units[saved.unitId]?.lessons?.firstOrNull { it.id == saved.lessonId }
             lesson != null && saved.index in 1..lesson.exercises.size
         }
+        val courseProgress = CourseProgress(content.course, content.units, completed, settings.unlockAllUnits)
         Overview(
             content = content,
-            progress = CourseProgress(content.course, content.units, completed, settings.unlockAllUnits),
+            progress = courseProgress,
             completedLessons = completed,
             streak = Streak.current(days, today),
             practicedToday = today in days,
@@ -94,6 +105,9 @@ class OverviewViewModel(container: AppContainer) : ViewModel() {
             lessonsToday = extra.lessonsToday,
             mixAvailable = completed.size >= DailyMix.MIN_LESSONS,
             mixDoneToday = extra.lastMixDay == today,
+            examDateEpochDay = settings.examDateEpochDay,
+            readiness = ExamReadiness.estimate(SkillStats.bySkill(extra.attempts, today)),
+            remainingLessons = ExamPlan.remainingLessons(courseProgress.levelProgress()),
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 

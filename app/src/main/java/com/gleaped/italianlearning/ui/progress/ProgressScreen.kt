@@ -37,7 +37,10 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.gleaped.italianlearning.AppContainer
+import com.gleaped.italianlearning.domain.progress.ExamReadiness
+import com.gleaped.italianlearning.domain.progress.Readiness
 import com.gleaped.italianlearning.domain.progress.SkillScore
+import com.gleaped.italianlearning.domain.progress.Standing
 import com.gleaped.italianlearning.domain.progress.SkillStats
 import com.gleaped.italianlearning.domain.progress.WeakTopic
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
@@ -54,6 +57,7 @@ data class ProgressUiState(
     val skills: List<SkillScore>,
     val weak: List<WeakTopicRow>,
     val totalAnswers: Int,
+    val readiness: Readiness,
 )
 
 class ProgressViewModel(private val container: AppContainer) : ViewModel() {
@@ -63,10 +67,12 @@ class ProgressViewModel(private val container: AppContainer) : ViewModel() {
             val unit = runCatching { container.content.unit(topic.unitId) }.getOrNull()
             WeakTopicRow(topic, unit?.title ?: topic.unitId, unit?.grammarFocus.orEmpty())
         }
+        val skills = SkillStats.bySkill(attempts, LocalDate.now().toEpochDay())
         ProgressUiState(
-            skills = SkillStats.bySkill(attempts, LocalDate.now().toEpochDay()),
+            skills = skills,
             weak = weak,
             totalAnswers = attempts.size,
+            readiness = ExamReadiness.estimate(skills),
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 
@@ -124,6 +130,9 @@ fun ProgressScreen(onBack: () -> Unit, onOpenUnit: (String) -> Unit, onOpenWriti
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
+
+            Text("CELI 3 estimate by part", style = MaterialTheme.typography.titleLarge)
+            ReadinessTable(s.readiness)
 
             Text("Weakest grammar topics", style = MaterialTheme.typography.titleLarge)
             if (s.weak.isEmpty()) {
@@ -188,5 +197,57 @@ private fun SkillRow(score: SkillScore) {
             modifier = Modifier.fillMaxWidth().clearAndSetSemantics { },
         )
         Text(summary, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
+/** The estimated points per exam part with the pass marks, as a short table. */
+@Composable
+private fun ReadinessTable(r: Readiness) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Text(
+            "Your lesson accuracy turned into points on the exam's own scale. Lesson answers are easier than exam tasks, " +
+                "and writing and speaking depend on your own scoring, so read this as a guide, not a forecast.",
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        r.parts.forEach { est ->
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text("${est.part.italian}: ${est.part.english}", style = MaterialTheme.typography.bodyLarge)
+                }
+                Text(
+                    est.points?.let { "$it / ${est.part.max}" } ?: "not enough answers",
+                    style = MaterialTheme.typography.bodyLarge,
+                )
+            }
+        }
+        val rows = listOf(
+            Triple("Written total", r.written, ExamReadiness.WRITTEN_MAX to ExamReadiness.WRITTEN_PASS),
+            Triple("Oral total", r.oral, ExamReadiness.ORAL_MAX to ExamReadiness.ORAL_PASS),
+            Triple("Overall", r.overall, 200 to ExamReadiness.OVERALL_PASS),
+        )
+        rows.forEach { (label, points, scale) ->
+            val (max, pass) = scale
+            val standing = points?.let { ExamReadiness.standing(it, pass, max) }
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text(label, style = MaterialTheme.typography.titleMedium)
+                    Text("Pass mark $pass of $max", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+                Column(horizontalAlignment = Alignment.End) {
+                    Text(points?.let { "$it / $max" } ?: "–", style = MaterialTheme.typography.titleMedium)
+                    standing?.let {
+                        Text(
+                            when (it) {
+                                Standing.ABOVE -> "above"
+                                Standing.NEAR -> "close"
+                                Standing.BELOW -> "below"
+                            },
+                            style = MaterialTheme.typography.bodySmall,
+                        )
+                    }
+                }
+            }
+        }
     }
 }

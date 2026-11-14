@@ -67,4 +67,20 @@ object WritingLog {
         val scored = CeliCriterion.entries.mapNotNull { c -> entry.scores[c.key]?.let { "${c.italian} $it/${CeliCriterion.MAX_SCORE}" } }
         if (scored.isNotEmpty()) append("\n\nAutovalutazione: ").append(scored.joinToString(", "))
     }
+
+    /**
+     * The text with a request for feedback, for a tutor or any assistant the learner chooses.
+     * It names the exam and the criteria so the answer comes back in the exam's terms.
+     */
+    fun feedbackRequest(entry: SavedWriting): String = buildString {
+        append("I am preparing for the CELI 3 (B2) Italian exam. Please give feedback on the text below.\n\n")
+        append("1. Mark each mistake and say briefly why it is wrong.\n")
+        append("2. Give a corrected version that keeps my own ideas and words where they are right.\n")
+        append("3. Score it as the exam would, out of 5 for each: lessico, grammatica, adeguatezza (register and format), coerenza e coesione (all points of the task covered, linked).\n")
+        append("4. Name the two things most worth practising next.\n\n")
+        append("Task: ").append(entry.prompt.trim()).append("\n\n")
+        append("My text:\n").append(entry.text.trim())
+        val scored = CeliCriterion.entries.mapNotNull { c -> entry.scores[c.key]?.let { "${c.italian} $it/${CeliCriterion.MAX_SCORE}" } }
+        if (scored.isNotEmpty()) append("\n\nMy own scores: ").append(scored.joinToString(", "))
+    }
 }

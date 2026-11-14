@@ -38,6 +38,13 @@ and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
   audio, common mistakes and links to the units that practise it. Grammar notes in lessons show a quiet
   *Vedi la regola* link to the matching topic. Content: `assets/grammar/reference.json`
   ([format](docs/reference-and-dictionary-format.md)).
+- **Exam countdown and readiness** — set the day of your CELI 3 exam in Settings and Today shows the days left, the
+  lessons a week that finish B2 in time, and a rough score per exam part against the official pass marks (84/140
+  written, 33/60 oral, 117/200 overall). Progress shows the estimate part by part.
+- **Flag an exercise** — *Segnala* on any exercise saves it, with a note, to a list in Settings that can be sent on so
+  the content can be corrected. *Ask for feedback* on a saved text shares it with a request for corrections and exam-style scores.
+- **Gentler streak** — one missed day a week is forgiven as a rest day. Long-press the app icon for shortcuts to
+  review, the next lesson and the dictionary.
 - **Dictionary** — the search icon in the top bar opens an offline lookup: type any form ("andò", "belle") and see
   the lemma, part of speech, meaning and which form matched; open an entry for every gloss, an example, notes
   and every form as collapsible tables (verbs grouped by mood). Recent lookups, a speaker button and a *Fonti*

@@ -31,8 +31,21 @@ class ProgressTest {
         assertEquals(0, Streak.current(emptyList(), 100))
         assertEquals(3, Streak.current(listOf(98, 99, 100), 100))
         assertEquals(2, Streak.current(listOf(98, 99), 100)) // today not done yet
-        assertEquals(0, Streak.current(listOf(97, 98), 100))
+        assertEquals(2, Streak.current(listOf(97, 98), 100)) // yesterday missed: a rest day
+        assertEquals(0, Streak.current(listOf(96, 97), 100)) // two days missed
         assertEquals(1, Streak.current(listOf(95, 100), 100))
+    }
+
+    @Test
+    fun streakForgivesOneRestDayAWeek() {
+        // 94..98 practised, 99 missed, today (100) practised: the gap is bridged and not counted.
+        assertEquals(6, Streak.current(listOf(94, 95, 96, 97, 98, 100), 100))
+        // A second gap within a week ends the streak.
+        assertEquals(3, Streak.current(listOf(95, 97, 99, 100), 100)) // 98 rest; 96 would be a second one
+        // Rest days 99 and 92 are seven days apart, so both are forgiven: 100, 98 to 93, 91 and 90.
+        assertEquals(9, Streak.current(listOf(90L, 91L) + (93..98).map { it.toLong() } + listOf(100L), 100))
+        // A missed day with no practice before it is not a rest day.
+        assertEquals(1, Streak.current(listOf(100), 100))
     }
 
     @Test

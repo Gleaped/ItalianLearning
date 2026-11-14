@@ -174,6 +174,7 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                         onPractice = { nav.navigate(Routes.lesson(Practice.UNIT_ID, Practice.WEAK_LESSON_ID)) },
                         onProgress = { nav.navigate(Routes.PROGRESS) { launchSingleTop = true } },
                         onMix = { nav.navigate(Routes.lesson(Practice.UNIT_ID, Practice.MIX_LESSON_ID)) },
+                        onExamSettings = { nav.navigateTopLevel(Routes.SETTINGS) },
                     )
                 }
                 composable(Routes.PROGRESS) {
@@ -289,6 +290,7 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                 when (val target = link.target) {
                     ReminderTarget.Today -> nav.navigateTopLevel(Routes.TODAY)
                     ReminderTarget.Review -> nav.navigateTopLevel(Routes.REVIEW)
+                    ReminderTarget.Lookup -> nav.navigate(Routes.LOOKUP) { launchSingleTop = true }
                     is ReminderTarget.Challenge -> nav.navigate(Routes.challenge(target.unitId, target.tipId)) {
                         // A newer challenge replaces one that is still open.
                         popUpTo(Routes.CHALLENGE) { inclusive = true }

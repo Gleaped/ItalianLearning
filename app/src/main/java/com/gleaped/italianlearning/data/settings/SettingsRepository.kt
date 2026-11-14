@@ -65,6 +65,8 @@ data class Settings(
     val userName: String = "",
     /** True once the first-run welcome (name prompt) has been answered or skipped. */
     val onboarded: Boolean = false,
+    /** The day of the CELI 3 exam as an epoch day; 0 = not set. */
+    val examDateEpochDay: Long = 0L,
 ) {
     /** Whether speaking steps use the microphone right now. */
     fun speechNow(nowMillis: Long = System.currentTimeMillis()): Boolean =
@@ -122,6 +124,7 @@ class SettingsRepository(context: Context) {
         val quietAfterPractice = booleanPreferencesKey("quiet_after_practice")
         val quietSpeechUntil = longPreferencesKey("quiet_speech_until")
         val lastMixDay = longPreferencesKey("last_mix_day")
+        val examDate = longPreferencesKey("exam_date_epoch_day")
     }
 
     /** The lesson the learner left part-way, if any. */
@@ -157,6 +160,7 @@ class SettingsRepository(context: Context) {
             textSize = p[Keys.textSize]?.let { name -> TextSize.entries.firstOrNull { it.name == name } } ?: defaults.textSize,
             userName = p[Keys.userName] ?: "",
             onboarded = p[Keys.onboarded] ?: false,
+            examDateEpochDay = p[Keys.examDate] ?: 0L,
         )
     }.distinctUntilChanged()
 
@@ -191,6 +195,18 @@ class SettingsRepository(context: Context) {
     val lastMixDay: Flow<Long> = store.data.map { it[Keys.lastMixDay] ?: 0L }.distinctUntilChanged()
 
     suspend fun markMixDone(epochDay: Long) = store.edit { it[Keys.lastMixDay] = epochDay }
+
+    /** Sets the exam day (an epoch day); 0 clears it. */
+    suspend fun setExamDate(epochDay: Long) {
+        store.edit { prefs ->
+            if (epochDay > 0) {
+                prefs[Keys.examDate] = epochDay
+            } else {
+                prefs.remove(Keys.examDate)
+            }
+        }
+    }
+
     suspend fun setVoiceName(value: String) = store.edit { it[Keys.voiceName] = value }
     suspend fun setListenFirst(value: Boolean) = store.edit { it[Keys.listenFirst] = value }
     suspend fun setDailyNewCards(value: Int) = store.edit { it[Keys.dailyNewCards] = value }

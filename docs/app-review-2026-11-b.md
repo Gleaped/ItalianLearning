@@ -6,6 +6,10 @@ Second review of Italiano, written after every item of the first review (bugs B,
 - Not done: I could not run the app on a phone or emulator here. Everything about screens and feel comes from reading the Compose code, so treat the UI items as "check on the phone first".
 - Review only. No app code was changed.
 
+## Status of the suggestions
+
+Built so far (phase A): X1 exam date, countdown, pace and readiness; U3 flag button (as "Segnala"); L4 forgiving streak (one rest day a week); U2 simpler Today; U4 launcher shortcuts; W3 improved. The rest follow in the order at the end. Correction: the saved-texts screen already had a *Share* button when this review was written. W3 therefore became "Ask for feedback", a share that adds a ready-made request (mark mistakes, correct, score on the four exam criteria).
+
 ## How to read the ratings
 
 | Rating | Meaning |
