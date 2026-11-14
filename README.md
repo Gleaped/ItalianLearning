@@ -43,6 +43,13 @@ and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
   written, 33/60 oral, 117/200 overall). Progress shows the estimate part by part.
 - **Flag an exercise** — *Segnala* on any exercise saves it, with a note, to a list in Settings that can be sent on so
   the content can be corrected. *Ask for feedback* on a saved text shares it with a request for corrections and exam-style scores.
+- **Writing check and second draft** — after a writing exercise, and on any saved text, *Da rivedere* lists what an
+  offline check found: unknown words and missing accents (against the dictionary), frequent errors (*qual'è*,
+  *un'amico*, *penso che è*…), mixed formal and informal address, repeated words, very long or short sentences and
+  few linking words. It is a list of things to look at, not a mark. *Rewrite* keeps the first text and saves a second draft.
+- **Prova orale** — from Today or Progress: three exam-style speaking tasks, each with preparation time, then the phone
+  records your answer, you listen back, read a model answer and score yourself on the four oral criteria. Recordings
+  are deleted when you leave; your scores and their averages are kept under Progress.
 - **Gentler streak** — one missed day a week is forgiven as a rest day. Long-press the app icon for shortcuts to
   review, the next lesson and the dictionary.
 - **Dictionary** — the search icon in the top bar opens an offline lookup: type any form ("andò", "belle") and see
