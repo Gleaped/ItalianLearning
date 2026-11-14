@@ -136,7 +136,7 @@ fun FindTriggerView(e: FindTrigger, answered: Boolean, actions: ExerciseActions)
 fun TransformView(e: Transform, answered: Boolean, actions: ExerciseActions) {
     var input by remember(e) { mutableStateOf("") }
     val check = {
-        val r = Grader.gradeTyped(input, e.answers)
+        val r = Grader.gradeTyped(input, e.answers, allowSlip = true)
         actions.answer(Feedback(r.verdict, expected = r.expected, note = r.note))
     }
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {

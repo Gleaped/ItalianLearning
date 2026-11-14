@@ -28,6 +28,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.gleaped.italianlearning.domain.practice.WeakSpots
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import java.time.LocalTime
 
@@ -36,6 +37,7 @@ fun HomeScreen(
     onStartLesson: (unitId: String, lessonId: String) -> Unit,
     onReview: () -> Unit,
     onCourse: () -> Unit,
+    onPractice: () -> Unit = {},
 ) {
     val container = LocalAppContainer.current
     val vm: OverviewViewModel = viewModel(factory = OverviewViewModel.factory(container))
@@ -71,9 +73,24 @@ fun HomeScreen(
 
         // Next lesson
         val next = o.progress.nextLesson()
+        // A lesson left part-way comes first: finishing it is the quickest win.
+        val saved = o.checkpoint
+        val savedUnit = saved?.let { o.content.units[it.unitId] }
+        val savedLesson = savedUnit?.lessons?.firstOrNull { it.id == saved?.lessonId }
         ElevatedCard(Modifier.fillMaxWidth()) {
             Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                if (next != null) {
+                if (saved != null && savedUnit != null && savedLesson != null) {
+                    val total = savedLesson.exercises.size
+                    Text("Continue your lesson", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                    Text(savedLesson.title, style = MaterialTheme.typography.titleLarge)
+                    Text(
+                        "${savedUnit.title} · step ${minOf(saved.index + 1, total)} of $total",
+                        style = MaterialTheme.typography.bodyMedium,
+                    )
+                    Button(onClick = { onStartLesson(savedUnit.id, savedLesson.id) }, modifier = Modifier.fillMaxWidth()) {
+                        Text("Continue lesson")
+                    }
+                } else if (next != null) {
                     val (unit, lesson) = next
                     Text("Next lesson", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                     Text(lesson.title, style = MaterialTheme.typography.titleLarge)
@@ -88,6 +105,28 @@ fun HomeScreen(
                         style = MaterialTheme.typography.bodyMedium,
                     )
                     OutlinedButton(onClick = onCourse, modifier = Modifier.fillMaxWidth()) { Text("Open course map") }
+                }
+            }
+        }
+
+        // Missed exercises that are due to be asked again
+        if (o.weakDue > 0) {
+            val round = minOf(o.weakDue, WeakSpots.SESSION_SIZE)
+            Card(
+                onClick = onPractice,
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer),
+            ) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text("Punti deboli", style = MaterialTheme.typography.labelLarge)
+                    Text(
+                        if (o.weakDue == 1) "1 item to revisit" else "${o.weakDue} items to revisit",
+                        style = MaterialTheme.typography.titleLarge,
+                    )
+                    Text(
+                        "Things you missed earlier, ready for another go. $round now, about ${(round + 1) / 2} min.",
+                        style = MaterialTheme.typography.bodyMedium,
+                    )
                 }
             }
         }

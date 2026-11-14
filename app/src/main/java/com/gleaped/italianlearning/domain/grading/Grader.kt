@@ -19,8 +19,21 @@ object Grader {
 
     const val ACCENT_NOTE = "Almost! Check the accents."
 
-    /** Compares a typed answer with a list of accepted answers. */
-    fun gradeTyped(input: String, accepted: List<String>): GradeResult {
+    /** Sentences shorter than this get no spelling tolerance: in a short answer every letter is the point. */
+    private const val MIN_WORDS_FOR_SLIP = 3
+    private const val MIN_SLIP_WORD_LENGTH = 6
+    private const val PROTECTED_ENDING = 3
+
+    fun spellingNote(word: String) = "Almost! Check the spelling of “$word”."
+
+    /**
+     * Compares a typed answer with a list of accepted answers.
+     *
+     * With [allowSlip] (whole-sentence answers), one small typing slip in one longer word is
+     * "almost" rather than wrong. A slip never touches the last three letters of the word,
+     * because Italian endings carry the grammar being practised (parlano / parlino).
+     */
+    fun gradeTyped(input: String, accepted: List<String>, allowSlip: Boolean = false): GradeResult {
         val answers = accepted.filter { it.isNotBlank() }
         if (answers.isEmpty()) return GradeResult(Verdict.CORRECT, "")
         val user = AnswerNormalizer.normalize(input)
@@ -37,7 +50,54 @@ object Grader {
         val userNoAccents = AnswerNormalizer.stripAccents(userBare)
         answers.firstOrNull { AnswerNormalizer.stripAccents(AnswerNormalizer.withoutPunctuation(it)) == userNoAccents }
             ?.let { return GradeResult(Verdict.ALMOST, it, ACCENT_NOTE) }
+        // 4. One typing slip in a sentence -> almost.
+        if (allowSlip) {
+            for (answer in answers) {
+                val word = slipWord(userBare, AnswerNormalizer.withoutPunctuation(answer)) ?: continue
+                return GradeResult(Verdict.ALMOST, answer, spellingNote(word))
+            }
+        }
         return GradeResult(Verdict.WRONG, answers.first())
+    }
+
+    /**
+     * The word of [expected] that [user] misspells, when the two sentences (already normalised,
+     * words separated by single spaces) differ by exactly one slip in one word; otherwise null.
+     */
+    fun slipWord(user: String, expected: String): String? {
+        val u = user.split(' ')
+        val e = expected.split(' ')
+        if (u.size != e.size || e.size < MIN_WORDS_FOR_SLIP) return null
+        var slip: String? = null
+        for (i in e.indices) {
+            if (u[i] == e[i]) continue
+            if (slip != null || !isSlip(u[i], e[i])) return null
+            slip = e[i]
+        }
+        return slip
+    }
+
+    /** One letter wrong, missing, extra, or two neighbours swapped, away from the word's ending. */
+    private fun isSlip(typed: String, word: String): Boolean {
+        if (word.length < MIN_SLIP_WORD_LENGTH || typed.length < PROTECTED_ENDING) return false
+        if (typed.takeLast(PROTECTED_ENDING) != word.takeLast(PROTECTED_ENDING)) return false
+        return when (typed.length - word.length) {
+            0 -> {
+                val diffs = typed.indices.filter { typed[it] != word[it] }
+                diffs.size == 1 ||
+                    (diffs.size == 2 && diffs[1] == diffs[0] + 1 &&
+                        typed[diffs[0]] == word[diffs[1]] && typed[diffs[1]] == word[diffs[0]])
+            }
+            1 -> oneInsertion(shorter = word, longer = typed)
+            -1 -> oneInsertion(shorter = typed, longer = word)
+            else -> false
+        }
+    }
+
+    private fun oneInsertion(shorter: String, longer: String): Boolean {
+        var i = 0
+        while (i < shorter.length && shorter[i] == longer[i]) i++
+        return shorter.substring(i) == longer.substring(i + 1)
     }
 
     /** Conjugation items: the learner may type the subject pronoun ("io ero"); it is stripped. */
