@@ -172,6 +172,17 @@
           "hint": "cavarsela – io"
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-06-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non so se ce la faccio per le otto.",
+          "answers": [
+            "Non so se ce la faccio per le otto."
+          ],
+          "explanation": "farcela = to manage, to make it"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-06-l1-e08",
           "stage": "use",
@@ -424,6 +435,17 @@
           "instruction": "Traduci in italiano.",
           "explanation": "Take it personally ≈ prendersela; be angry with = avercela con.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-06-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Con il tedesco me la cavo.",
+          "answers": [
+            "Con il tedesco me la cavo."
+          ],
+          "explanation": "cavarsela = to get by, to cope"
         },
         {
           "type": "speak_respond",
@@ -761,6 +783,17 @@
           "instruction": "Completa con sentirsela al presente.",
           "stage": "practise",
           "explanation": "Sentirsela di + infinitive = to feel up to doing something."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-06-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non prendertela, non l'ha fatto apposta.",
+          "answers": [
+            "Non prendertela, non l'ha fatto apposta."
+          ],
+          "explanation": "prendersela (con qualcuno) = to take offence, to get upset (with someone)"
         },
         {
           "type": "speak_respond",

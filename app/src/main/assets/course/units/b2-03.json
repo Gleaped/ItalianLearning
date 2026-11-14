@@ -273,6 +273,17 @@
           "explanation": "Avremmo voluto + infinito."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-03-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Avrei voluto salutarti, ma non ho fatto in tempo.",
+          "answers": [
+            "Avrei voluto salutarti, ma non ho fatto in tempo."
+          ],
+          "explanation": "non fare in tempo = not to make it in time"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-03-l2-e08",
           "stage": "use",
@@ -425,6 +436,17 @@
             "Mi ha promesso che mi avrebbe aiutato nel trasloco."
           ],
           "explanation": "A promise made in the past → condizionale passato: avrebbe aiutato."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-03-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi aveva promesso che avrebbe chiamato.",
+          "answers": [
+            "Mi aveva promesso che avrebbe chiamato."
+          ],
+          "explanation": "promettere (promesso) = to promise"
         },
         {
           "type": "speak_respond",

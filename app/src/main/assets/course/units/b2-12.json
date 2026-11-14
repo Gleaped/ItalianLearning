@@ -165,6 +165,17 @@
           "explanation": "Affinché always takes the congiuntivo: prenda."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-12-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Le scrivo in merito alla sua richiesta.",
+          "answers": [
+            "Le scrivo in merito alla sua richiesta."
+          ],
+          "explanation": "in merito a = regarding, about (formal)"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-12-l1-e09",
           "stage": "use",
@@ -471,6 +482,17 @@
           "explanation": "Se + congiuntivo imperfetto + condizionale for a polite request."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-12-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Secondo un'indagine, molti preferiscono lavorare da casa.",
+          "answers": [
+            "Secondo un'indagine, molti preferiscono lavorare da casa."
+          ],
+          "explanation": "l'indagine (f.) = survey, investigation"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-12-l3-e08",
           "stage": "use",
@@ -576,6 +598,17 @@
             "se"
           ],
           "explanation": "A polite request: se + congiuntivo imperfetto, then the condizionale."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-12-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non condivido questa scelta.",
+          "answers": [
+            "Non condivido questa scelta."
+          ],
+          "explanation": "condividere (una scelta) = to agree with, to share (a decision)"
         },
         {
           "type": "speak_respond",

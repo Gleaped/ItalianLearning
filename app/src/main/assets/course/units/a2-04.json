@@ -129,6 +129,18 @@
           "explanation": "Fare has the irregular participle fatto, with avere."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-04-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ieri sera sono rimasto a casa.",
+          "answers": [
+            "Ieri sera sono rimasto a casa."
+          ],
+          "explanation": "ieri sera = last night",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-04-l1-e07",
           "stage": "use",
@@ -254,6 +266,18 @@
           "hint": "passato prossimo"
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-04-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ogni domenica andavamo dalla nonna.",
+          "answers": [
+            "Ogni domenica andavamo dalla nonna."
+          ],
+          "explanation": "ogni domenica = every Sunday",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-04-l2-e07",
           "stage": "use",
@@ -369,6 +393,18 @@
           "explanation": "Molto + adjective can become the absolute superlative: buonissimo."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-04-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "La settimana prossima sarò a Roma.",
+          "answers": [
+            "La settimana prossima sarò a Roma."
+          ],
+          "explanation": "la settimana prossima = next week",
+          "slow": true
+        },
+        {
           "type": "free_write",
           "id": "a2-04-l3-e07",
           "stage": "use",
@@ -473,6 +509,18 @@
           ],
           "explanation": "Da' + mi gives dammi, with a double m.",
           "hint": "da' + mi"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-04-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il treno è più veloce dell'autobus.",
+          "answers": [
+            "Il treno è più veloce dell'autobus."
+          ],
+          "explanation": "più … di = more … than (nouns)",
+          "slow": true
         },
         {
           "type": "roleplay",

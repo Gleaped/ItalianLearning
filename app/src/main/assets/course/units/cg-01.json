@@ -157,6 +157,17 @@
           "explanation": "Spero che signals a hope, so parli is the congiuntivo; so che and vedo che report facts."
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-01-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ascolto il messaggio del vicino.",
+          "answers": [
+            "Ascolto il messaggio del vicino."
+          ],
+          "explanation": "ascoltare = to listen to"
+        },
+        {
           "type": "reading",
           "id": "cg-01-l1-e09",
           "stage": "use",
@@ -691,6 +702,17 @@
           "explanation": "Voglio che triggers the congiuntivo, and pulire is an -isc- verb, so pulisca."
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-01-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Preferisco il tavolo vicino alla finestra.",
+          "answers": [
+            "Preferisco il tavolo vicino alla finestra."
+          ],
+          "explanation": "preferire = to prefer"
+        },
+        {
           "type": "roleplay",
           "id": "cg-01-l4-e08",
           "stage": "use",
@@ -861,6 +883,17 @@
           ],
           "hint": "capire – lei",
           "explanation": "Credo che triggers the congiuntivo; capire is an -isc- verb, so capisca."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-01-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Credo che Anna cerchi un nuovo lavoro.",
+          "answers": [
+            "Credo che Anna cerchi un nuovo lavoro."
+          ],
+          "explanation": "cercare = to look for"
         },
         {
           "type": "speak_respond",

@@ -155,6 +155,17 @@
           "explanation": "Pronouns attach to the gerundio: vedendolo."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-10-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "L'inquilino del terzo piano è molto gentile.",
+          "answers": [
+            "L'inquilino del terzo piano è molto gentile."
+          ],
+          "explanation": "l'inquilino / l'inquilina = tenant"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-10-l1-e09",
           "stage": "use",
@@ -577,6 +588,17 @@
           "explanation": "Prima di + infinito."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-10-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho scritto all'amministratore di condominio.",
+          "answers": [
+            "Ho scritto all'amministratore di condominio."
+          ],
+          "explanation": "l'amministratore di condominio = building manager"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-10-l4-e09",
           "stage": "use",
@@ -695,6 +717,17 @@
           ],
           "answer": 0,
           "explanation": "The gerundio and the main verb must share the subject: io."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-10-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il deposito cauzionale è di due mensilità.",
+          "answers": [
+            "Il deposito cauzionale è di due mensilità."
+          ],
+          "explanation": "il deposito cauzionale = security deposit"
         },
         {
           "type": "reading",

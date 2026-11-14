@@ -307,6 +307,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-07-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il modulo va compilato in stampatello.",
+          "answers": [
+            "Il modulo va compilato in stampatello."
+          ],
+          "explanation": "il modulo = form"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-07-l2-e09",
           "prompt": "Un'amica straniera ti mostra questo avviso: «Si comunica che, a decorrere dal 1° ottobre, l'accesso agli sportelli sarà consentito esclusivamente previa prenotazione.» Spiegale con parole semplici che cosa significa.",
@@ -836,6 +847,17 @@
           "instruction": "Metti le parole in ordine.",
           "explanation": "Apertura classica di una lettera formale: In riferimento a… / In merito a…",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-07-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho presentato la domanda di residenza.",
+          "answers": [
+            "Ho presentato la domanda di residenza."
+          ],
+          "explanation": "la domanda = application"
         },
         {
           "type": "speak_respond",

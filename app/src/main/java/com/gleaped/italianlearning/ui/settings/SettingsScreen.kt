@@ -1,5 +1,9 @@
 package com.gleaped.italianlearning.ui.settings
 
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.material3.RadioButton
+import androidx.compose.ui.semantics.Role
+import androidx.compose.runtime.LaunchedEffect
 import android.Manifest
 import android.app.TimePickerDialog
 import android.content.ActivityNotFoundException
@@ -103,6 +107,14 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
 
     fun setAutoPlay(v: Boolean) = update { repo.setAutoPlay(v) }
     fun setSpeechPractice(v: Boolean) = update { repo.setSpeechPractice(v) }
+    fun setListenFirst(v: Boolean) = update { repo.setListenFirst(v) }
+
+    /** Chooses the Italian voice (blank = best installed) and plays a sample of it. */
+    fun setVoice(name: String) {
+        container.tts.setPreferredVoice(name)
+        update { repo.setVoiceName(name) }
+        testVoice()
+    }
     fun setDailyNewCards(v: Int) = update { repo.setDailyNewCards(v) }
     fun setUnlockAll(v: Boolean) = update { repo.setUnlockAll(v) }
     fun setTheme(v: ThemeMode) = update { repo.setThemeMode(v) }
@@ -358,7 +370,33 @@ fun SettingsScreen() {
                 safeStart(context, Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
             }) { Text("Install Italian voice") }
         }
+        val voices by container.tts.voices.collectAsStateWithLifecycle()
+        LaunchedEffect(Unit) { container.tts.refreshVoices() }
+        if (voices.size > 1) {
+            Text("Voice", style = MaterialTheme.typography.bodyLarge)
+            val chosen = voices.firstOrNull { it.name == settings.voiceName }
+            VoiceRow("Automatic (best installed)", chosen == null) { vm.setVoice("") }
+            voices.forEach { v -> VoiceRow(v.label, chosen == v) { vm.setVoice(v.name) } }
+            Text(
+                "Tap a voice to hear it. In dialogues the other speaker uses a different voice.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        } else {
+            Text(
+                "Only one Italian voice is installed, so in dialogues the other speaker is the same voice at a lower pitch. " +
+                    "More voices can be added in Android's text-to-speech settings.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
         SwitchRow("Play audio automatically", "Listening exercises and role-plays start playing on their own.", settings.autoPlayAudio, vm::setAutoPlay)
+        SwitchRow(
+            "Listen before reading",
+            "In role-plays you hear the other person's line first. Its text appears when you answer, or when you tap Show text.",
+            settings.listenFirst,
+            vm::setListenFirst,
+        )
         SwitchRow(
             "Speaking practice",
             "Use the microphone for speaking exercises. Off = type your answers instead.",
@@ -445,6 +483,17 @@ private fun appVersion(context: Context): String = try {
 @Composable
 private fun SectionTitle(text: String) {
     Text(text, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
+}
+
+@Composable
+private fun VoiceRow(label: String, selected: Boolean, onSelect: () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().selectable(selected = selected, role = Role.RadioButton, onClick = onSelect),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        RadioButton(selected = selected, onClick = null, modifier = Modifier.padding(12.dp))
+        Text(label, style = MaterialTheme.typography.bodyLarge)
+    }
 }
 
 @Composable

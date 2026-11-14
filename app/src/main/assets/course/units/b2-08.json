@@ -138,6 +138,17 @@
           "explanation": "The object becomes the subject: essere + participio, with agreement."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-08-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Lo sciopero ha causato molti disagi.",
+          "answers": [
+            "Lo sciopero ha causato molti disagi."
+          ],
+          "explanation": "i disagi = inconvenience, disruption"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-08-l1-e08",
           "stage": "use",
@@ -394,6 +405,17 @@
           "explanation": "Moving the main verb to the past moves sia to fosse."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-08-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Alcune corse sono state soppresse.",
+          "answers": [
+            "Alcune corse sono state soppresse."
+          ],
+          "explanation": "sopprimere (una corsa) = to cancel (a train or bus service)"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-08-l3-e08",
           "stage": "use",
@@ -492,6 +514,17 @@
             "Molti pensavano che la biblioteca sarebbe riaperta prima."
           ],
           "explanation": "Pensavano is past, so the congiuntivo imperfetto is needed."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-08-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "La riunione è stata rinviata a giovedì.",
+          "answers": [
+            "La riunione è stata rinviata a giovedì."
+          ],
+          "explanation": "rinviare = to postpone"
         },
         {
           "type": "roleplay",

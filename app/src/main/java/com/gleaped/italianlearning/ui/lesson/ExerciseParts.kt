@@ -1,5 +1,11 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import com.gleaped.italianlearning.domain.speech.SpokenWord
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.withStyle
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.WindowInsets
@@ -382,4 +388,28 @@ fun Hint(text: String) {
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
     }
+}
+
+/** A sentence the learner said, with the words the recogniser did not hear in bold and underlined. */
+@Composable
+fun MarkedSentence(
+    words: List<SpokenWord>,
+    modifier: Modifier = Modifier,
+    style: TextStyle = MaterialTheme.typography.bodyLarge,
+) {
+    val missed = SpanStyle(fontWeight = FontWeight.Bold, textDecoration = TextDecoration.Underline)
+    val text = buildAnnotatedString {
+        words.forEachIndexed { index, word ->
+            if (index > 0) append(" ")
+            if (word.heard) append(word.text) else withStyle(missed) { append(word.text) }
+        }
+    }
+    val notHeard = words.filter { !it.heard }.joinToString(", ") { it.text }
+    Text(
+        text,
+        style = style,
+        modifier = modifier.semantics {
+            if (notHeard.isNotEmpty()) stateDescription = "Not heard: $notHeard"
+        },
+    )
 }

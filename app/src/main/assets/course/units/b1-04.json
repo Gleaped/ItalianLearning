@@ -162,6 +162,17 @@
           "hint": "Ne ho…"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-04-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Stamattina ho fatto tutte le commissioni.",
+          "answers": [
+            "Stamattina ho fatto tutte le commissioni."
+          ],
+          "explanation": "le commissioni = errands"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-04-l1-e09",
           "stage": "use",
@@ -549,6 +560,17 @@
             }
           ],
           "explanation": "Mentre facevo (scene), ho trovato (event), ne ha bisogno (avere bisogno di), ve la riporto (combined pronoun)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-04-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Me lo può pulire, per favore?",
+          "answers": [
+            "Me lo può pulire, per favore?"
+          ],
+          "explanation": "pulire (il pesce) = to clean, to gut (fish)"
         },
         {
           "type": "free_write",

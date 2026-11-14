@@ -42,9 +42,15 @@ fun isDarkSurface(): Boolean = MaterialTheme.colorScheme.background.luminance() 
 
 /** Speaker button that reads Italian text aloud. */
 @Composable
-fun SpeakerButton(text: String, modifier: Modifier = Modifier, slow: Boolean = false) {
+fun SpeakerButton(
+    text: String,
+    modifier: Modifier = Modifier,
+    slow: Boolean = false,
+    /** Use the other speaker's voice (the partner in a role-play). */
+    second: Boolean = false,
+) {
     val tts = LocalAppContainer.current.tts
-    IconButton(onClick = { tts.speak(text, slow) }, modifier = modifier) {
+    IconButton(onClick = { tts.speak(text, slow, second = second) }, modifier = modifier) {
         Icon(
             painter = painterResource(if (slow) R.drawable.ic_slow else R.drawable.ic_volume),
             contentDescription = if (slow) "Listen slowly" else "Listen",

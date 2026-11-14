@@ -1,5 +1,8 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import com.gleaped.italianlearning.domain.speech.SpokenWord
+import com.gleaped.italianlearning.domain.speech.SpokenWords
+import kotlinx.coroutines.flow.map
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -270,16 +273,16 @@ private fun ListenControls(audioText: String, autoPlay: Boolean, revealAfterAnsw
     val status by tts.status.collectAsState()
     var revealed by remember { mutableStateOf(false) }
     LaunchedEffect(audioText, status) {
-        if (autoPlay && status == TtsStatus.READY) tts.speak(audioText, slowByDefault)
+        if (autoPlay && status == TtsStatus.READY) tts.speak(audioText, slowByDefault, dialogue = true)
     }
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
-            FilledTonalButton(onClick = { tts.speak(audioText, slowByDefault) }) {
+            FilledTonalButton(onClick = { tts.speak(audioText, slowByDefault, dialogue = true) }) {
                 Icon(painterResource(R.drawable.ic_volume), contentDescription = null)
                 Spacer(Modifier.width(8.dp))
                 Text("Play")
             }
-            OutlinedButton(onClick = { tts.speak(audioText, slow = true) }) {
+            OutlinedButton(onClick = { tts.speak(audioText, slow = true, dialogue = true) }) {
                 Icon(painterResource(R.drawable.ic_slow), contentDescription = null)
                 Spacer(Modifier.width(8.dp))
                 Text("Slowly")
@@ -631,7 +634,14 @@ private fun SpeakRepeatView(e: SpeakRepeat, answered: Boolean, speechEnabled: Bo
             onResponses = { alternatives ->
                 val (verdict, score) = Grader.gradeSpeakRepeat(alternatives, e.text)
                 val best = alternatives.maxByOrNull { Grader.wordOverlap(it, e.text) }.orEmpty()
-                actions.answer(Feedback(verdict, expected = e.text, note = heardNote(best, (score * 100).roundToInt())))
+                actions.answer(
+                    Feedback(
+                        verdict,
+                        expected = e.text,
+                        note = heardNote(best, (score * 100).roundToInt()),
+                        spoken = SpokenWords.mark(best, e.text),
+                    ),
+                )
             },
             onSkip = { actions.continueWith(null) },
         )
@@ -666,11 +676,24 @@ private fun SpeakRespondView(e: SpeakRespond, answered: Boolean, speechEnabled: 
 
 // ---------------------------------------------------------------- roleplay
 
-private data class RoleplayLine(val npc: Boolean, val text: String, val sub: String? = null)
+private data class RoleplayLine(
+    val npc: Boolean,
+    val text: String,
+    val sub: String? = null,
+    /** The model line word by word, when the learner's turn was to say exactly that. */
+    val marks: List<SpokenWord>? = null,
+    /** A partner's line is first only heard; false until its text may be shown. */
+    val revealed: Boolean = true,
+)
 
 @Composable
 private fun RoleplayView(e: Roleplay, answered: Boolean, autoPlay: Boolean, speechEnabled: Boolean, actions: ExerciseActions) {
-    val tts = LocalAppContainer.current.tts
+    val container = LocalAppContainer.current
+    val tts = container.tts
+    val ttsStatus by tts.status.collectAsState()
+    val listenFirstSetting by remember { container.settings.settings.map { it.listenFirst } }.collectAsState(initial = true)
+    // Without sound there is nothing to listen to first, so the text is shown as before.
+    val listenFirst = listenFirstSetting && autoPlay && ttsStatus == TtsStatus.READY
     var turn by remember(e) { mutableIntStateOf(0) }
     val transcript = remember(e) { mutableStateListOf<RoleplayLine>() }
     val verdicts = remember(e) { mutableStateListOf<Verdict>() }
@@ -680,15 +703,22 @@ private fun RoleplayView(e: Roleplay, answered: Boolean, autoPlay: Boolean, spee
     LaunchedEffect(turn) {
         val t = e.turns.getOrNull(turn) ?: return@LaunchedEffect
         if (t.isNpc) {
-            transcript.add(RoleplayLine(true, t.text))
-            if (autoPlay) tts.speak(t.text)
+            transcript.add(RoleplayLine(true, t.text, revealed = false))
+            if (autoPlay) tts.speak(t.text, second = true)
             awaitingNext = true
+        }
+    }
+
+    fun revealAll() {
+        for (i in transcript.indices) {
+            if (!transcript[i].revealed) transcript[i] = transcript[i].copy(revealed = true)
         }
     }
 
     fun advance() {
         awaitingNext = false
         if (turn + 1 >= e.turns.size) {
+            revealAll()
             turn = e.turns.size
             val overall = Grader.combine(verdicts.toList())
             actions.answer(Feedback(overall, note = "Conversation finished."))
@@ -701,7 +731,9 @@ private fun RoleplayView(e: Roleplay, answered: Boolean, autoPlay: Boolean, spee
         if (e.scenario.isNotBlank()) {
             Text(e.scenario, style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
         }
-        transcript.forEach { line -> ChatBubble(line) }
+        transcript.forEachIndexed { index, line ->
+            ChatBubble(line, hidden = listenFirst && !line.revealed, onReveal = { transcript[index] = line.copy(revealed = true) })
+        }
         if (!answered && current != null) {
             if (current.isNpc) {
                 if (awaitingNext) {
@@ -714,16 +746,22 @@ private fun RoleplayView(e: Roleplay, answered: Boolean, autoPlay: Boolean, spee
                     answered = false,
                     speechEnabled = speechEnabled,
                     onResponses = { alternatives ->
-                        val verdict = if (current.keywords.isNotEmpty()) {
-                            Grader.gradeKeywords(alternatives, current.keywords).first
-                        } else {
+                        val exact = current.keywords.isEmpty()
+                        val verdict = if (exact) {
                             Grader.gradeSpeakRepeat(alternatives, current.text).first
+                        } else {
+                            Grader.gradeKeywords(alternatives, current.keywords).first
                         }
                         verdicts.add(verdict)
-                        transcript.add(RoleplayLine(false, alternatives.firstOrNull().orEmpty(), "Model: ${current.text}"))
+                        val said = if (exact) SpokenWords.best(alternatives, current.text) else alternatives.firstOrNull().orEmpty()
+                        val marks = if (exact) SpokenWords.mark(said, current.text) else null
+                        // Once answered, the lines so far can be read as well.
+                        revealAll()
+                        transcript.add(RoleplayLine(false, said, "Model: ${current.text}", marks))
                         awaitingNext = true
                     },
                     onSkip = {
+                        revealAll()
                         transcript.add(RoleplayLine(false, "…", "Model: ${current.text}"))
                         awaitingNext = true
                     },
@@ -736,7 +774,7 @@ private fun RoleplayView(e: Roleplay, answered: Boolean, autoPlay: Boolean, spee
 }
 
 @Composable
-private fun ChatBubble(line: RoleplayLine) {
+private fun ChatBubble(line: RoleplayLine, hidden: Boolean, onReveal: () -> Unit) {
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = if (line.npc) Arrangement.Start else Arrangement.End,
@@ -749,12 +787,26 @@ private fun ChatBubble(line: RoleplayLine) {
         ) {
             Column(Modifier.padding(start = 12.dp, top = 6.dp, bottom = 8.dp, end = 4.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    LookupText(line.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
-                    if (line.npc) SpeakerButton(line.text)
+                    if (hidden) {
+                        Text("Ascolta…", style = MaterialTheme.typography.bodyLarge, fontStyle = FontStyle.Italic, modifier = Modifier.weight(1f))
+                        TextButton(onClick = onReveal) { Text("Show text") }
+                    } else {
+                        LookupText(line.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+                    }
+                    if (line.npc) SpeakerButton(line.text, second = true)
                 }
                 line.sub?.let { sub ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(sub, style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f))
+                        val marks = line.marks
+                        if (marks != null) {
+                            MarkedSentence(
+                                listOf(SpokenWord("Model:", true)) + marks,
+                                Modifier.weight(1f),
+                                MaterialTheme.typography.bodySmall,
+                            )
+                        } else {
+                            Text(sub, style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f))
+                        }
                         SpeakerButton(sub.removePrefix("Model: "))
                     }
                 }

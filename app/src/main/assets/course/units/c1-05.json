@@ -115,6 +115,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-05-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Scusa, oggi ho la testa fra le nuvole.",
+          "answers": [
+            "Scusa, oggi ho la testa fra le nuvole."
+          ],
+          "explanation": "avere la testa fra le nuvole = to have one's head in the clouds"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-05-l1-e08",
           "stage": "use",
@@ -411,6 +422,17 @@
           ],
           "explanation": "Fare fronte a = affrontare, sostenere (una spesa, un problema).",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-05-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non vedo l'ora di partire.",
+          "answers": [
+            "Non vedo l'ora di partire."
+          ],
+          "explanation": "non vedere l'ora di / che = to look forward to, can't wait"
         },
         {
           "type": "speak_respond",
@@ -730,6 +752,17 @@
           ],
           "explanation": "La forma fissa usa il verbo pigliare (toscano/colloquiale per prendere): chi dorme non piglia pesci.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-05-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Fino a venerdì sono al verde.",
+          "answers": [
+            "Fino a venerdì sono al verde."
+          ],
+          "explanation": "essere al verde = to be broke"
         },
         {
           "type": "roleplay",

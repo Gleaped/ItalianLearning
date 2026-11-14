@@ -139,6 +139,17 @@
           "explanation": "La bolletta is repeated with l', and the participle agrees: pagata."
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-03-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non è che mi piaccia molto.",
+          "answers": [
+            "Non è che mi piaccia molto."
+          ],
+          "explanation": "non è che… = it's not that…; you wouldn't happen to…?"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-03-l1-e09",
           "stage": "use",
@@ -286,6 +297,17 @@
             "Let's talk about it tomorrow."
           ],
           "explanation": "Di questo is repeated by ne; the sentence just means we'll talk about this."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-03-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Quanto all'orario, Le confermo le dieci.",
+          "answers": [
+            "Quanto all'orario, Le confermo le dieci."
+          ],
+          "explanation": "quanto a… = as for…"
         },
         {
           "type": "speak_respond",
@@ -440,6 +462,17 @@
             "Lo porti il vino?"
           ],
           "explanation": "Pronoun first, topic last: Lo porti tu, il vino?"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-03-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Per quanto riguarda le spese, se ne occupa il proprietario.",
+          "answers": [
+            "Per quanto riguarda le spese, se ne occupa il proprietario."
+          ],
+          "explanation": "per quanto riguarda… = as far as … is concerned"
         },
         {
           "type": "roleplay",
@@ -622,6 +655,17 @@
           ],
           "hint": "è stato … a + infinito",
           "explanation": "Subject in the spotlight: è stato + il medico + a + infinitive (dirmelo)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-03-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ciò che conta è arrivare in tempo.",
+          "answers": [
+            "Ciò che conta è arrivare in tempo."
+          ],
+          "explanation": "ciò che conta = what matters"
         },
         {
           "type": "speak_respond",

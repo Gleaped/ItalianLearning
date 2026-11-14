@@ -148,6 +148,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-06-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Sembrava che nessuno sapesse niente.",
+          "answers": [
+            "Sembrava che nessuno sapesse niente."
+          ],
+          "explanation": "sembrare che = to seem that"
+        },
+        {
           "type": "speak_respond",
           "prompt": "Prima di arrivare in Italia, che idee avevi? Di' due cose con pensavo che / credevo che / immaginavo che.",
           "keywords": [
@@ -317,6 +328,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-06-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Peccato che non sia venuto.",
+          "answers": [
+            "Peccato che non sia venuto."
+          ],
+          "explanation": "peccato che = it's a pity that"
+        },
+        {
           "type": "speak_respond",
           "prompt": "Pensa alla tua infanzia. Cosa volevi che i tuoi genitori facessero o dicessero? Di' due frasi con volevo che.",
           "keywords": [
@@ -462,6 +484,17 @@
           "explanation": "Uscire takes essere: fosse uscito.",
           "id": "cg-06-l3-e08",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-06-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Meno male che sei arrivato.",
+          "answers": [
+            "Meno male che sei arrivato."
+          ],
+          "explanation": "meno male che = thank goodness"
         },
         {
           "type": "free_write",
@@ -623,6 +656,17 @@
           "explanation": "Vorrei che + imperfetto: venissi.",
           "id": "cg-06-l4-e08",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-06-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "C'è stato un malinteso sulla data.",
+          "answers": [
+            "C'è stato un malinteso sulla data."
+          ],
+          "explanation": "il malinteso = misunderstanding"
         },
         {
           "type": "roleplay",
@@ -805,6 +849,17 @@
           "explanation": "Purché always takes the congiuntivo: restituisca.",
           "id": "cg-06-l5-e07",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-06-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Immaginavo che fosse più facile.",
+          "answers": [
+            "Immaginavo che fosse più facile."
+          ],
+          "explanation": "immaginare = to imagine"
         },
         {
           "type": "free_write",

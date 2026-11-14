@@ -124,6 +124,18 @@
           "explanation": "I biglietti is masculine plural, so the pronoun is li."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-04-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il camerino è in fondo a destra.",
+          "answers": [
+            "Il camerino è in fondo a destra."
+          ],
+          "explanation": "il camerino = fitting room",
+          "slow": true
+        },
+        {
           "type": "roleplay",
           "id": "a2r-04-l1-e08",
           "stage": "use",
@@ -305,6 +317,18 @@
           "explanation": "The pronoun goes before the modal or on the end of the infinitive, never between them."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-04-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Questa giacca mi sta bene.",
+          "answers": [
+            "Questa giacca mi sta bene."
+          ],
+          "explanation": "mi sta bene = it fits / suits me",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-04-l2-e09",
           "stage": "use",
@@ -424,6 +448,18 @@
             "La torta? La ho comprata in pasticceria."
           ],
           "explanation": "The pronoun goes before ho, and la becomes l' before a vowel."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-04-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Posso pagare con la carta?",
+          "answers": [
+            "Posso pagare con la carta?"
+          ],
+          "explanation": "pagare con la carta = to pay by card",
+          "slow": true
         },
         {
           "type": "roleplay",
@@ -617,6 +653,18 @@
           "explanation": "Scrivere and rispondere take a + person: le ho scritto, non mi ha risposto, with no agreement."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-04-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Conservi lo scontrino per il cambio.",
+          "answers": [
+            "Conservi lo scontrino per il cambio."
+          ],
+          "explanation": "lo scontrino = receipt (till)",
+          "slow": true
+        },
+        {
           "type": "reading",
           "id": "a2r-04-l4-e09",
           "stage": "use",
@@ -779,6 +827,18 @@
             "I miei genitori? Telefono loro ogni domenica."
           ],
           "explanation": "Telefonare a + people takes gli (or loro after the verb)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-04-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non mi ha ancora risposto.",
+          "answers": [
+            "Non mi ha ancora risposto."
+          ],
+          "explanation": "rispondere (risposto) = to answer, reply",
+          "slow": true
         },
         {
           "type": "speak_respond",

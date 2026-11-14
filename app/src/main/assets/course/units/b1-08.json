@@ -342,6 +342,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-08-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Per la visita serve l'impegnativa del medico.",
+          "answers": [
+            "Per la visita serve l'impegnativa del medico."
+          ],
+          "explanation": "l'impegnativa (f.) = doctor's referral (for tests or specialists)"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-08-l2-e07",
           "instruction": "Rispondi ad alta voce in 3–4 frasi.",
@@ -660,6 +671,17 @@
           "hint": "si + aspettare",
           "explanation": "La gente aspetta = si aspetta.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-08-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Potrei spostare l'appuntamento a giovedì?",
+          "answers": [
+            "Potrei spostare l'appuntamento a giovedì?"
+          ],
+          "explanation": "spostare (un appuntamento) = to move, to reschedule"
         },
         {
           "type": "free_write",

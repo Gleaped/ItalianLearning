@@ -39,6 +39,10 @@ data class Settings(
     val speechRate: Float = 0.9f,
     val autoPlayAudio: Boolean = true,
     val speechPracticeEnabled: Boolean = true,
+    /** Name of the Italian voice chosen in Settings; blank = the best one installed. */
+    val voiceName: String = "",
+    /** In role-plays the partner's line is heard before its text is shown. */
+    val listenFirst: Boolean = true,
     val dailyNewCards: Int = 10,
     val unlockAllUnits: Boolean = false,
     val themeMode: ThemeMode = ThemeMode.SYSTEM,
@@ -104,6 +108,8 @@ class SettingsRepository(context: Context) {
         val userName = stringPreferencesKey("user_name")
         val onboarded = booleanPreferencesKey("onboarded")
         val lessonCheckpoint = stringPreferencesKey("lesson_checkpoint")
+        val voiceName = stringPreferencesKey("voice_name")
+        val listenFirst = booleanPreferencesKey("listen_first")
     }
 
     /** The lesson the learner left part-way, if any. */
@@ -123,6 +129,8 @@ class SettingsRepository(context: Context) {
             speechRate = p[Keys.speechRate] ?: defaults.speechRate,
             autoPlayAudio = p[Keys.autoPlay] ?: defaults.autoPlayAudio,
             speechPracticeEnabled = p[Keys.speechPractice] ?: defaults.speechPracticeEnabled,
+            voiceName = p[Keys.voiceName] ?: defaults.voiceName,
+            listenFirst = p[Keys.listenFirst] ?: defaults.listenFirst,
             dailyNewCards = p[Keys.dailyNewCards] ?: defaults.dailyNewCards,
             unlockAllUnits = p[Keys.unlockAll] ?: defaults.unlockAllUnits,
             themeMode = p[Keys.theme]?.let { name -> ThemeMode.entries.firstOrNull { it.name == name } } ?: defaults.themeMode,
@@ -161,6 +169,8 @@ class SettingsRepository(context: Context) {
     suspend fun setSpeechRate(value: Float) = store.edit { it[Keys.speechRate] = value }
     suspend fun setAutoPlay(value: Boolean) = store.edit { it[Keys.autoPlay] = value }
     suspend fun setSpeechPractice(value: Boolean) = store.edit { it[Keys.speechPractice] = value }
+    suspend fun setVoiceName(value: String) = store.edit { it[Keys.voiceName] = value }
+    suspend fun setListenFirst(value: Boolean) = store.edit { it[Keys.listenFirst] = value }
     suspend fun setDailyNewCards(value: Int) = store.edit { it[Keys.dailyNewCards] = value }
     suspend fun setUnlockAll(value: Boolean) = store.edit { it[Keys.unlockAll] = value }
     suspend fun setThemeMode(value: ThemeMode) = store.edit { it[Keys.theme] = value.name }

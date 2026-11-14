@@ -157,6 +157,17 @@
           "hint": "avere → abbia"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-08-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "A prescindere dal prezzo, la qualità conta.",
+          "answers": [
+            "A prescindere dal prezzo, la qualità conta."
+          ],
+          "explanation": "a prescindere da = regardless of"
+        },
+        {
           "type": "roleplay",
           "id": "cg-08-l1-e09",
           "stage": "use",
@@ -341,6 +352,17 @@
           "hint": "abbia + mai + participio"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-08-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Che io sappia, l'ufficio chiude alle cinque.",
+          "answers": [
+            "Che io sappia, l'ufficio chiude alle cinque."
+          ],
+          "explanation": "che io sappia = as far as I know"
+        },
+        {
           "type": "speak_respond",
           "id": "cg-08-l2-e09",
           "stage": "use",
@@ -506,6 +528,17 @@
           "hint": "essere → sia"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-08-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ha perso il treno e per giunta il portafoglio.",
+          "answers": [
+            "Ha perso il treno e per giunta il portafoglio."
+          ],
+          "explanation": "per giunta = on top of that"
+        },
+        {
           "type": "free_write",
           "id": "cg-08-l3-e09",
           "stage": "use",
@@ -665,6 +698,17 @@
           ],
           "instruction": "C'è un errore. Riscrivi la frase corretta.",
           "explanation": "Benché always takes the congiuntivo, even in speech."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-08-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Benché sia tardi, resto.",
+          "answers": [
+            "Benché sia tardi, resto."
+          ],
+          "explanation": "benché = although"
         },
         {
           "type": "roleplay",
@@ -872,6 +916,17 @@
           "instruction": "Riscrivi la frase.",
           "explanation": "Feelings like mi dispiace che take the congiuntivo, here the passato.",
           "hint": "essere → sia + partito"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-08-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Sia come sia, io non cambio idea.",
+          "answers": [
+            "Sia come sia, io non cambio idea."
+          ],
+          "explanation": "sia come sia = be that as it may"
         },
         {
           "type": "free_write",

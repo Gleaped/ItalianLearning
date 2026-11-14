@@ -319,6 +319,17 @@
           "explanation": "L'Italia is a third person: fu, not fosti (tu)."
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-02-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "C'era una volta un piccolo paese tra le montagne.",
+          "answers": [
+            "C'era una volta un piccolo paese tra le montagne."
+          ],
+          "explanation": "c'era una volta = once upon a time"
+        },
+        {
           "type": "free_write",
           "id": "c1-02-l2-e08",
           "stage": "use",
@@ -515,6 +526,17 @@
           "explanation": "The subject is third person singular: aprì, not aprii (io)."
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-02-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Visse a lungo in Francia.",
+          "answers": [
+            "Visse a lungo in Francia."
+          ],
+          "explanation": "visse (vivere) = he/she lived"
+        },
+        {
           "type": "reading",
           "id": "c1-02-l3-e09",
           "stage": "use",
@@ -686,6 +708,17 @@
             "Quando lui arrivò il negozio già era chiuso."
           ],
           "explanation": "Arrivò is the event (remoto); era già chiuso is the situation (imperfetto)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-02-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Fu una decisione difficile.",
+          "answers": [
+            "Fu una decisione difficile."
+          ],
+          "explanation": "fu (essere) = he/she/it was"
         },
         {
           "type": "roleplay",
@@ -878,6 +911,17 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-02-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "D'un tratto sentì un rumore.",
+          "answers": [
+            "D'un tratto sentì un rumore."
+          ],
+          "explanation": "d'un tratto = suddenly"
         },
         {
           "type": "free_write",

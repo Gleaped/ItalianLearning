@@ -119,6 +119,17 @@
           "explanation": "After penso che the auxiliary is in the congiuntivo: abbia, not ha."
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-04-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Penso che sia già partito.",
+          "answers": [
+            "Penso che sia già partito."
+          ],
+          "explanation": "già = already"
+        },
+        {
           "type": "speak_respond",
           "id": "cg-04-l1-e08",
           "stage": "use",
@@ -269,6 +280,17 @@
             "Penso che Elena sia andata al mercato."
           ],
           "explanation": "Andare takes essere, so the congiuntivo passato is sia andata."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-04-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non penso che sia ancora arrivata.",
+          "answers": [
+            "Non penso che sia ancora arrivata."
+          ],
+          "explanation": "ancora = yet, still"
         },
         {
           "type": "roleplay",
@@ -450,6 +472,17 @@
           ],
           "hint": "di aver + participio",
           "explanation": "With the same subject, use di aver + participio instead of che."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-04-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Spero che sia arrivato bene.",
+          "answers": [
+            "Spero che sia arrivato bene."
+          ],
+          "explanation": "arrivare = to arrive"
         },
         {
           "type": "free_write",

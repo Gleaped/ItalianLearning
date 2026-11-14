@@ -174,6 +174,17 @@
           "explanation": "Le scrivo per… is the standard opening; chiedere and richiedere both work."
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-01-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Resto in attesa di un Suo riscontro.",
+          "answers": [
+            "Resto in attesa di un Suo riscontro."
+          ],
+          "explanation": "il riscontro = reply, feedback (formal)"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-01-l1-e09",
           "stage": "use",
@@ -328,6 +339,17 @@
             "Al momento non dispongo di una documentazione completa."
           ],
           "explanation": "Disporre takes the preposition di: dispongo della documentazione."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-01-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho inviato la richiesta tramite PEC.",
+          "answers": [
+            "Ho inviato la richiesta tramite PEC."
+          ],
+          "explanation": "la richiesta = request"
         },
         {
           "type": "free_write",
@@ -493,6 +515,17 @@
           "explanation": "For contracts and permits the noun is il rinnovo; il rinnovamento means a deep change."
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-01-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Trova i documenti in allegato.",
+          "answers": [
+            "Trova i documenti in allegato."
+          ],
+          "explanation": "l'allegato = attachment"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-01-l3-e09",
           "stage": "use",
@@ -638,6 +671,17 @@
             "Qualora non ricevessi risposta entro dieci giorni mi rivolgerò a un'associazione di consumatori."
           ],
           "explanation": "Qualora requires the congiuntivo: riceva, not the present indicative ricevo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-01-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho chiesto il rimborso del biglietto.",
+          "answers": [
+            "Ho chiesto il rimborso del biglietto."
+          ],
+          "explanation": "il rimborso = refund"
         },
         {
           "type": "free_write",
@@ -790,6 +834,17 @@
               "answer": 0
             }
           ]
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-01-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "La consegna è prevista per lunedì.",
+          "answers": [
+            "La consegna è prevista per lunedì."
+          ],
+          "explanation": "la consegna = delivery"
         },
         {
           "type": "free_write",

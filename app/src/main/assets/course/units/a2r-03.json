@@ -148,6 +148,18 @@
           "explanation": "In + la always merges into nella."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-03-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Al primo incrocio giri a destra.",
+          "answers": [
+            "Al primo incrocio giri a destra."
+          ],
+          "explanation": "l'incrocio = crossroads, junction",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-03-l1-e09",
           "stage": "use",
@@ -284,6 +296,18 @@
             "Le chiavi dell’auto sono nel cassetto."
           ],
           "explanation": "Of the car = di + la = della (or dell' for auto); in the drawer = nel cassetto."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-03-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il bagno è in fondo al corridoio.",
+          "answers": [
+            "Il bagno è in fondo al corridoio."
+          ],
+          "explanation": "in fondo a = at the end/bottom of",
+          "slow": true
         },
         {
           "type": "speak_respond",
@@ -448,6 +472,18 @@
             "Domani vado dalla medica."
           ],
           "explanation": "To go to a person's practice use da: dal medico."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-03-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Devo passare all'ufficio postale.",
+          "answers": [
+            "Devo passare all'ufficio postale."
+          ],
+          "explanation": "l'ufficio postale = post office",
+          "slow": true
         },
         {
           "type": "speak_respond",

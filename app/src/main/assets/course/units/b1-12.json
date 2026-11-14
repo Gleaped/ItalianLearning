@@ -101,6 +101,17 @@
           "explanation": "Di cui for 'about whom', and the trapassato era partito for 'had left'."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-12-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Sono l'inquilino del secondo piano.",
+          "answers": [
+            "Sono l'inquilino del secondo piano."
+          ],
+          "explanation": "l'inquilino (m.) = tenant"
+        },
+        {
           "type": "roleplay",
           "id": "b1-12-l1-e07",
           "stage": "use",
@@ -221,6 +232,17 @@
             "Prenda il farmaco due volte al giorno"
           ],
           "explanation": "The formal imperative uses the Lei form: prenda."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-12-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "La lavatrice si è rotta di nuovo.",
+          "answers": [
+            "La lavatrice si è rotta di nuovo."
+          ],
+          "explanation": "la lavatrice = washing machine"
         },
         {
           "type": "roleplay",
@@ -353,6 +375,17 @@
           "explanation": "Penso che introduces an opinion, so the verb is in the congiuntivo: abbia."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-12-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "È caro, però è comodo.",
+          "answers": [
+            "È caro, però è comodo."
+          ],
+          "explanation": "però = but, however"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-12-l3-e07",
           "stage": "use",
@@ -460,6 +493,17 @@
             "Può mandarmelo per email?"
           ],
           "explanation": "Condizionale for a polite request, and the combined pronoun me lo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-12-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Lavorano meno ore con lo stesso stipendio.",
+          "answers": [
+            "Lavorano meno ore con lo stesso stipendio."
+          ],
+          "explanation": "lo stipendio = salary"
         },
         {
           "type": "free_write",

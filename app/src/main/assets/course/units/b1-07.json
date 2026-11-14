@@ -140,6 +140,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-07-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Dopo che avremo cenato, usciremo.",
+          "answers": [
+            "Dopo che avremo cenato, usciremo."
+          ],
+          "explanation": "dopo che = after (+ verb)"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-07-l1-e07",
           "instruction": "Rispondi ad alta voce in 2 frasi.",
@@ -439,6 +450,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-07-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Abbiamo rimandato la gita a lunedì.",
+          "answers": [
+            "Abbiamo rimandato la gita a lunedì."
+          ],
+          "explanation": "rimandare = to postpone, to put off"
+        },
+        {
           "type": "reading",
           "id": "b1-07-l3-e08",
           "instruction": "Leggi le previsioni del tempo e rispondi alle domande.",
@@ -631,6 +653,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-07-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Appena avrò finito, ti chiamerò.",
+          "answers": [
+            "Appena avrò finito, ti chiamerò."
+          ],
+          "explanation": "appena = as soon as"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-07-l4-e09",
           "instruction": "Rispondi ad alta voce in 2–3 frasi.",
@@ -764,6 +797,17 @@
           ],
           "explanation": "Perdere has an irregular participle: perso.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-07-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Probabilmente arriverò verso le sette.",
+          "answers": [
+            "Probabilmente arriverò verso le sette."
+          ],
+          "explanation": "probabilmente = probably"
         },
         {
           "type": "roleplay",

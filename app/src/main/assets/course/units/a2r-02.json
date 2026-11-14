@@ -312,6 +312,18 @@
           "hint": "essere → ero"
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-02-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Da piccolo abitavo in campagna.",
+          "answers": [
+            "Da piccolo abitavo in campagna."
+          ],
+          "explanation": "da piccolo / da bambino = as a child",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-02-l2-e09",
           "stage": "use",
@@ -452,6 +464,18 @@
           "explanation": "The subject is noi (eravamo), so the verb must be andavamo, not andavano."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-02-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Di solito facevo colazione al bar.",
+          "answers": [
+            "Di solito facevo colazione al bar."
+          ],
+          "explanation": "di solito = usually",
+          "slow": true
+        },
+        {
           "type": "free_write",
           "id": "a2r-02-l3-e08",
           "stage": "use",
@@ -588,6 +612,18 @@
             "Faceva freddo e c'erano molti turisti."
           ],
           "explanation": "Weather and scene are descriptions: faceva, c'era (gente is singular) or c'erano (plural)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-02-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ogni estate andavamo al mare.",
+          "answers": [
+            "Ogni estate andavamo al mare."
+          ],
+          "explanation": "ogni estate = every summer",
+          "slow": true
         },
         {
           "type": "reading",
