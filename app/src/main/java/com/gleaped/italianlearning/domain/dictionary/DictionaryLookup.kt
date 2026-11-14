@@ -14,6 +14,12 @@ interface DictionaryStore {
     fun lemma(id: Long): LemmaRow?
 
     fun meta(): Map<String, String>
+
+    /** Content words ranked after [afterRank] by frequency, nearest first. */
+    fun contentWordsAfter(afterRank: Int, limit: Int): List<LemmaRow> = emptyList()
+
+    /** The most frequent verbs, with their forms tables, up to rank [maxRank]. */
+    fun verbsUpTo(maxRank: Int, limit: Int): List<LemmaRow> = emptyList()
 }
 
 /** The SQL behind [DictionaryStore], kept here (pure Kotlin) so it is reviewed and tested with the planner. */
@@ -30,6 +36,16 @@ object DictionarySql {
     const val LEMMAS_IN_RANGE =
         "SELECT $LEMMA_COLS FROM lemma l WHERE l.lemma >= ? AND l.lemma < ? " +
             "ORDER BY l.freq_rank IS NULL, l.freq_rank, length(l.lemma), l.lemma LIMIT ?"
+
+    /** Args: after rank, limit. */
+    const val CONTENT_WORDS_AFTER =
+        "SELECT $LEMMA_COLS FROM lemma l WHERE l.freq_rank > ? AND l.pos IN ('noun','verb','adj','adv') " +
+            "ORDER BY l.freq_rank LIMIT ?"
+
+    /** Args: max rank, limit. */
+    const val VERBS_UP_TO =
+        "SELECT $LEMMA_COLS FROM lemma l WHERE l.pos = 'verb' AND l.freq_rank IS NOT NULL AND l.freq_rank <= ? " +
+            "ORDER BY l.freq_rank LIMIT ?"
 
     const val LEMMA_BY_ID = "SELECT $LEMMA_COLS FROM lemma l WHERE l.id = ?"
 
@@ -56,6 +72,10 @@ data class LookupPlan(
  * lemma.lemma; results grouped by lemma and ordered by freq_rank.
  */
 class DictionaryLookup(private val store: DictionaryStore) {
+
+    fun contentWordsAfter(afterRank: Int, limit: Int): List<LemmaRow> = store.contentWordsAfter(afterRank, limit)
+
+    fun verbsUpTo(maxRank: Int, limit: Int): List<LemmaRow> = store.verbsUpTo(maxRank, limit)
 
     /**
      * Whether [word] is a spelling the dictionary knows: [Spelling.KNOWN] when one of its forms

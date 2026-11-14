@@ -78,6 +78,7 @@ import com.gleaped.italianlearning.data.settings.Settings
 import com.gleaped.italianlearning.data.settings.TextSize
 import com.gleaped.italianlearning.data.settings.ThemeMode
 import com.gleaped.italianlearning.domain.profile.LearnerName
+import com.gleaped.italianlearning.domain.srs.CoreDeck
 import com.gleaped.italianlearning.reminders.Notifications
 import com.gleaped.italianlearning.reminders.toMask
 import com.gleaped.italianlearning.reminders.toSpec
@@ -126,6 +127,7 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
     }
     fun setDailyNewCards(v: Int) = update { repo.setDailyNewCards(v) }
     fun setExamDate(epochDay: Long) = update { repo.setExamDate(epochDay) }
+    fun setCoreWords(v: Int) = update { repo.setCoreWordsPerDay(v) }
     fun setUnlockAll(v: Boolean) = update { repo.setUnlockAll(v) }
     fun setTheme(v: ThemeMode) = update { repo.setThemeMode(v) }
     fun setTextSize(v: TextSize) = update { repo.setTextSize(v) }
@@ -514,6 +516,22 @@ fun SettingsScreen() {
             onValueChange = { vm.setDailyNewCards(it.roundToInt()) },
             valueRange = 0f..40f,
             steps = 7,
+        )
+        Text(
+            if (settings.coreWordsPerDay == 0) "Core words: off" else "Core words added each day: ${settings.coreWordsPerDay}",
+            style = MaterialTheme.typography.bodyLarge,
+        )
+        Slider(
+            value = settings.coreWordsPerDay.toFloat(),
+            onValueChange = { vm.setCoreWords(it.roundToInt()) },
+            valueRange = 0f..CoreDeck.MAX_PER_DAY.toFloat(),
+            steps = CoreDeck.MAX_PER_DAY - 1,
+        )
+        Text(
+            "Each day the most frequent nouns, verbs, adjectives and adverbs the course has not taught yet join your review cards, " +
+                "starting from words you probably know. They are offered within the new cards per day above, so raise that number to meet them sooner.",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
         SwitchRow("Unlock all units", "Skip ahead freely instead of finishing units in order.", settings.unlockAllUnits, vm::setUnlockAll)
 

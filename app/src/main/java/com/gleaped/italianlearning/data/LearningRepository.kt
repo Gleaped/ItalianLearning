@@ -11,6 +11,7 @@ import com.gleaped.italianlearning.data.db.SrsCardEntity
 import com.gleaped.italianlearning.domain.grading.Verdict
 import com.gleaped.italianlearning.domain.srs.CardKind
 import com.gleaped.italianlearning.domain.srs.Cards
+import com.gleaped.italianlearning.domain.srs.CoreDeck
 import com.gleaped.italianlearning.domain.srs.Rating
 import com.gleaped.italianlearning.domain.srs.Sm2
 import com.gleaped.italianlearning.domain.srs.SrsState
@@ -200,6 +201,15 @@ class LearningRepository(private val db: AppDatabase) {
         )
     }
 
+    /** Adds core-word cards (see [CoreDeck]); cards already in the deck are left alone. */
+    suspend fun addCoreWords(rows: List<com.gleaped.italianlearning.domain.dictionary.LemmaRow>) {
+        val cards = rows.mapNotNull { row ->
+            val back = CoreDeck.back(row) ?: return@mapNotNull null
+            newCard(CoreDeck.cardId(row.id), CoreDeck.front(row), back, row.exampleIt?.takeIf { it.isNotBlank() }, CoreDeck.UNIT_ID)
+        }
+        if (cards.isNotEmpty()) srs.insertIfAbsent(cards)
+    }
+
     /** Takes a dictionary word (and its produce twin) out of the deck again. */
     suspend fun removeDictionaryWord(lemmaId: Long) {
         val id = Cards.dictionaryId(lemmaId)
@@ -266,6 +276,11 @@ class LearningRepository(private val db: AppDatabase) {
     suspend fun undoReview(original: SrsCardEntity) {
         srs.update(original)
         recordActivity(lessons = 0, cards = -1)
+    }
+
+    /** Counts a finished practice round that is not a lesson or the deck (the verb drill) as activity for the day. */
+    suspend fun recordExtraPractice(answers: Int) {
+        if (answers > 0) recordActivity(lessons = 0, cards = answers)
     }
 
     private suspend fun recordActivity(lessons: Int, cards: Int) {
