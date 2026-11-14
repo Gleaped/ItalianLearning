@@ -16,6 +16,7 @@
       "id": "celi-06-l1",
       "title": "Fascicolo 1 – Lettura e scrittura (2 h 15 min)",
       "minutes": 135,
+      "timed": true,
       "exercises": [
         {
           "type": "multiple_choice",
@@ -335,6 +336,7 @@
       "id": "celi-06-l2",
       "title": "Fascicolo 2 – Competenza linguistica (45 min)",
       "minutes": 45,
+      "timed": true,
       "exercises": [
         {
           "type": "multiple_choice",
@@ -780,6 +782,7 @@
       "id": "celi-06-l3",
       "title": "Fascicolo 3 – Ascolto (25 min)",
       "minutes": 25,
+      "timed": true,
       "exercises": [
         {
           "type": "multiple_choice",
@@ -1069,6 +1072,7 @@
       "id": "celi-06-l4",
       "title": "Prova orale (15 min + 15 min di preparazione)",
       "minutes": 15,
+      "timed": true,
       "exercises": [
         {
           "type": "multiple_choice",

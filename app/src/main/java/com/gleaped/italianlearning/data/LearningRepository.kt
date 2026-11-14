@@ -1,5 +1,6 @@
 package com.gleaped.italianlearning.data
 
+import kotlinx.coroutines.flow.combine
 import com.gleaped.italianlearning.content.CourseUnit
 import com.gleaped.italianlearning.content.Flashcard
 import com.gleaped.italianlearning.data.db.ActivityDayEntity
@@ -47,6 +48,25 @@ class LearningRepository(private val db: AppDatabase) {
 
     /** New cards first reviewed today; they use up the daily new-card allowance. */
     fun newIntroducedTodayCount(): Flow<Int> = srs.observeNewIntroducedOn(today())
+
+    /**
+     * What a review session offers right now, as (due reviews, new cards). New cards already
+     * met today use up the daily allowance, as in [reviewQueue].
+     */
+    fun reviewCounts(dailyNewCards: Flow<Int>): Flow<Pair<Int, Int>> = combine(
+        dueReviewCount(),
+        newCardCount(),
+        newIntroducedTodayCount(),
+        dailyNewCards,
+    ) { due, fresh, introducedToday, perDay ->
+        due to minOf(fresh, (perDay - introducedToday).coerceAtLeast(0))
+    }
+
+    /** Lessons finished today. */
+    val lessonsToday: Flow<Int> = progress.observeActivity().map { list ->
+        val day = today()
+        list.firstOrNull { it.epochDay == day }?.lessonsCompleted ?: 0
+    }
 
     /** New cards still waiting in the deck, whether or not today's allowance has room for them. */
     suspend fun waitingNewCardCount(): Int = srs.newCount()
@@ -165,6 +185,25 @@ class LearningRepository(private val db: AppDatabase) {
         srs.insertIfAbsent(
             listOf(newCard("f:$lessonId:${card.front}", card.front, card.back, card.example, unitId)),
         )
+    }
+
+    /** True while the dictionary word [lemmaId] is in the review deck. */
+    fun hasDictionaryWord(lemmaId: Long): Flow<Boolean> =
+        srs.observeCount(Cards.dictionaryId(lemmaId)).map { it > 0 }
+
+    /** Adds a word from the dictionary to the review deck; it is offered before other new words. */
+    suspend fun addDictionaryWord(lemmaId: Long, lemma: String, glosses: List<String>, example: String?) {
+        val back = Cards.dictionaryBack(glosses)
+        if (lemma.isBlank() || back.isBlank()) return
+        srs.insertIfAbsent(
+            listOf(newCard(Cards.dictionaryId(lemmaId), lemma.trim(), back, example?.takeIf { it.isNotBlank() }, Cards.DICTIONARY_UNIT_ID)),
+        )
+    }
+
+    /** Takes a dictionary word (and its produce twin) out of the deck again. */
+    suspend fun removeDictionaryWord(lemmaId: Long) {
+        val id = Cards.dictionaryId(lemmaId)
+        srs.delete(id, Cards.produceId(id))
     }
 
     private fun newCard(id: String, front: String, back: String, example: String?, unitId: String) = SrsCardEntity(

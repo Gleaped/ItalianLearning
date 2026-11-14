@@ -1,5 +1,12 @@
 package com.gleaped.italianlearning.ui.navigation
 
+import androidx.compose.material3.Badge
+import androidx.compose.material3.BadgedBox
+import androidx.compose.runtime.remember
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.gleaped.italianlearning.ui.components.LocalAppContainer
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.distinctUntilChanged
 import com.gleaped.italianlearning.ui.progress.ProgressScreen
 import com.gleaped.italianlearning.ui.progress.WritingScreen
 import android.net.Uri
@@ -106,6 +113,13 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
     val currentRoute = backStack?.destination?.route
     val currentTopLevel = topLevel.firstOrNull { it.route == currentRoute }
     val showBottomBar = currentTopLevel != null
+    val container = LocalAppContainer.current
+    // Cards a review session would offer now, shown as a badge on the Review tab.
+    val reviewReady by remember(container) {
+        container.learning
+            .reviewCounts(container.settings.settings.map { it.dailyNewCards }.distinctUntilChanged())
+            .map { it.first + it.second }
+    }.collectAsStateWithLifecycle(0)
 
     Scaffold(
         topBar = {
@@ -127,7 +141,15 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                         NavigationBarItem(
                             selected = currentRoute == item.route,
                             onClick = { nav.navigateTopLevel(item.route) },
-                            icon = { Icon(painterResource(item.icon), contentDescription = null) },
+                            icon = {
+                                if (item.route == Routes.REVIEW && reviewReady > 0) {
+                                    BadgedBox(badge = { Badge { Text(if (reviewReady > 99) "99+" else "$reviewReady") } }) {
+                                        Icon(painterResource(item.icon), contentDescription = null)
+                                    }
+                                } else {
+                                    Icon(painterResource(item.icon), contentDescription = null)
+                                }
+                            },
                             label = { Text(item.label) },
                         )
                     }
@@ -151,6 +173,7 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                         onCourse = { nav.navigateTopLevel(Routes.COURSE) },
                         onPractice = { nav.navigate(Routes.lesson(Practice.UNIT_ID, Practice.WEAK_LESSON_ID)) },
                         onProgress = { nav.navigate(Routes.PROGRESS) { launchSingleTop = true } },
+                        onMix = { nav.navigate(Routes.lesson(Practice.UNIT_ID, Practice.MIX_LESSON_ID)) },
                     )
                 }
                 composable(Routes.PROGRESS) {

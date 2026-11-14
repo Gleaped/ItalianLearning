@@ -1,5 +1,6 @@
 package com.gleaped.italianlearning
 
+import com.gleaped.italianlearning.data.backup.BackupRepository
 import android.app.Application
 import android.content.Context
 import com.gleaped.italianlearning.data.LearningRepository
@@ -33,6 +34,7 @@ class AppContainer(context: Context) {
     val reminderContent: ReminderContentBuilder by lazy { ReminderContentBuilder(content, learning, settings) }
     val tts: TtsManager by lazy { TtsManager(appContext) }
     val writing: WritingRepository by lazy { WritingRepository(appContext) }
+    val backup: BackupRepository by lazy { BackupRepository(database, writing, settings) }
 }
 
 class ItalianoApp : Application() {

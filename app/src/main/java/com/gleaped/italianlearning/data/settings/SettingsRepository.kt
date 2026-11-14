@@ -1,5 +1,6 @@
 package com.gleaped.italianlearning.data.settings
 
+import com.gleaped.italianlearning.domain.speech.QuietSpeech
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -39,6 +40,8 @@ data class Settings(
     val speechRate: Float = 0.9f,
     val autoPlayAudio: Boolean = true,
     val speechPracticeEnabled: Boolean = true,
+    /** "Can't talk now": speaking steps are typed until this time. 0 = not set. */
+    val quietSpeechUntilMillis: Long = 0L,
     /** Name of the Italian voice chosen in Settings; blank = the best one installed. */
     val voiceName: String = "",
     /** In role-plays the partner's line is heard before its text is shown. */
@@ -63,6 +66,10 @@ data class Settings(
     /** True once the first-run welcome (name prompt) has been answered or skipped. */
     val onboarded: Boolean = false,
 ) {
+    /** Whether speaking steps use the microphone right now. */
+    fun speechNow(nowMillis: Long = System.currentTimeMillis()): Boolean =
+        speechPracticeEnabled && !QuietSpeech.active(quietSpeechUntilMillis, nowMillis)
+
     /** Name used in lesson dialogues. */
     val displayName: String get() = userName.trim().ifEmpty { DEFAULT_LEARNER_NAME }
 
@@ -113,6 +120,8 @@ class SettingsRepository(context: Context) {
         val voiceName = stringPreferencesKey("voice_name")
         val listenFirst = booleanPreferencesKey("listen_first")
         val quietAfterPractice = booleanPreferencesKey("quiet_after_practice")
+        val quietSpeechUntil = longPreferencesKey("quiet_speech_until")
+        val lastMixDay = longPreferencesKey("last_mix_day")
     }
 
     /** The lesson the learner left part-way, if any. */
@@ -132,6 +141,7 @@ class SettingsRepository(context: Context) {
             speechRate = p[Keys.speechRate] ?: defaults.speechRate,
             autoPlayAudio = p[Keys.autoPlay] ?: defaults.autoPlayAudio,
             speechPracticeEnabled = p[Keys.speechPractice] ?: defaults.speechPracticeEnabled,
+            quietSpeechUntilMillis = p[Keys.quietSpeechUntil] ?: 0L,
             voiceName = p[Keys.voiceName] ?: defaults.voiceName,
             listenFirst = p[Keys.listenFirst] ?: defaults.listenFirst,
             dailyNewCards = p[Keys.dailyNewCards] ?: defaults.dailyNewCards,
@@ -173,6 +183,14 @@ class SettingsRepository(context: Context) {
     suspend fun setSpeechRate(value: Float) = store.edit { it[Keys.speechRate] = value }
     suspend fun setAutoPlay(value: Boolean) = store.edit { it[Keys.autoPlay] = value }
     suspend fun setSpeechPractice(value: Boolean) = store.edit { it[Keys.speechPractice] = value }
+
+    /** Speaking steps are typed until [untilMillis]; 0 turns the microphone back on. */
+    suspend fun setQuietSpeechUntil(untilMillis: Long) = store.edit { it[Keys.quietSpeechUntil] = untilMillis }
+
+    /** The day (epoch day) the daily mix was last finished; 0 = never. */
+    val lastMixDay: Flow<Long> = store.data.map { it[Keys.lastMixDay] ?: 0L }.distinctUntilChanged()
+
+    suspend fun markMixDone(epochDay: Long) = store.edit { it[Keys.lastMixDay] = epochDay }
     suspend fun setVoiceName(value: String) = store.edit { it[Keys.voiceName] = value }
     suspend fun setListenFirst(value: Boolean) = store.edit { it[Keys.listenFirst] = value }
     suspend fun setDailyNewCards(value: Int) = store.edit { it[Keys.dailyNewCards] = value }

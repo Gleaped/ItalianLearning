@@ -1,5 +1,14 @@
 package com.gleaped.italianlearning.ui.settings
 
+import android.content.ContentResolver
+import android.net.Uri
+import com.gleaped.italianlearning.domain.backup.Backup
+import com.gleaped.italianlearning.domain.backup.BackupCodec
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import java.time.LocalDate
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.material3.RadioButton
 import androidx.compose.ui.semantics.Role
@@ -146,6 +155,61 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
         repo.clearLessonCheckpoint()
     }
 
+    private val _backupMessage = MutableStateFlow<String?>(null)
+
+    /** What the last backup or restore did, for a line under the buttons. */
+    val backupMessage: StateFlow<String?> = _backupMessage.asStateFlow()
+
+    private val _pendingRestore = MutableStateFlow<Backup?>(null)
+
+    /** A backup file that was read and waits for the learner's confirmation. */
+    val pendingRestore: StateFlow<Backup?> = _pendingRestore.asStateFlow()
+
+    fun exportBackup(resolver: ContentResolver, uri: Uri) = update {
+        _backupMessage.value = try {
+            val backup = container.backup.export(System.currentTimeMillis())
+            withContext(Dispatchers.IO) {
+                val out = resolver.openOutputStream(uri) ?: error("no stream")
+                out.use { it.write(BackupCodec.encode(backup).toByteArray(Charsets.UTF_8)) }
+            }
+            "Backup saved: ${BackupCodec.summary(backup)}."
+        } catch (e: Exception) {
+            "The backup could not be saved. Try another folder."
+        }
+    }
+
+    fun readBackup(resolver: ContentResolver, uri: Uri) = update {
+        val backup = try {
+            withContext(Dispatchers.IO) {
+                resolver.openInputStream(uri)?.use { it.readBytes().toString(Charsets.UTF_8) }
+            }.let(BackupCodec::decode)
+        } catch (e: Exception) {
+            null
+        }
+        if (backup == null) {
+            _backupMessage.value = "That file is not an Italiano backup, so nothing was changed."
+        } else {
+            _pendingRestore.value = backup
+        }
+    }
+
+    fun cancelRestore() {
+        _pendingRestore.value = null
+    }
+
+    fun confirmRestore() {
+        val backup = _pendingRestore.value ?: return
+        _pendingRestore.value = null
+        update {
+            _backupMessage.value = try {
+                container.backup.restore(backup)
+                "Restored: ${BackupCodec.summary(backup)}."
+            } catch (e: Exception) {
+                "The backup could not be restored. Your progress was left as it was."
+            }
+        }
+    }
+
     companion object {
         fun factory(container: AppContainer): ViewModelProvider.Factory = viewModelFactory {
             initializer { SettingsViewModel(container) }
@@ -211,6 +275,29 @@ fun SettingsScreen() {
             notificationsAllowed = Notifications.canPost(context)
             addWithPicker()
         }
+    }
+
+    val backupMessage by vm.backupMessage.collectAsStateWithLifecycle()
+    val pendingRestore by vm.pendingRestore.collectAsStateWithLifecycle()
+    val saveBackup = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri ->
+        if (uri != null) vm.exportBackup(context.contentResolver, uri)
+    }
+    val openBackup = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+        if (uri != null) vm.readBackup(context.contentResolver, uri)
+    }
+    pendingRestore?.let { backup ->
+        AlertDialog(
+            onDismissRequest = vm::cancelRestore,
+            title = { Text("Restore this backup?") },
+            text = {
+                Text(
+                    "The backup holds ${BackupCodec.summary(backup)}. It replaces the lessons, review cards, streak and " +
+                        "saved writing on this phone. Reminders and settings are kept.",
+                )
+            },
+            confirmButton = { TextButton(onClick = vm::confirmRestore) { Text("Restore") } },
+            dismissButton = { TextButton(onClick = vm::cancelRestore) { Text("Cancel") } },
+        )
     }
 
     if (confirmReset) {
@@ -465,6 +552,29 @@ fun SettingsScreen() {
         HorizontalDivider()
 
         SectionTitle("Data")
+        Text(
+            "A backup is one file with your lessons, review cards, streak and saved writing. Keep it somewhere safe, " +
+                "or use it to move to a new phone.",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            OutlinedButton(onClick = {
+                try {
+                    saveBackup.launch(BackupCodec.fileName(LocalDate.now()))
+                } catch (e: ActivityNotFoundException) {
+                    // No file picker on this device; nothing to do.
+                }
+            }) { Text("Save a backup") }
+            OutlinedButton(onClick = {
+                try {
+                    openBackup.launch(arrayOf("application/json", "application/octet-stream", "text/plain"))
+                } catch (e: ActivityNotFoundException) {
+                    // No file picker on this device; nothing to do.
+                }
+            }) { Text("Restore a backup") }
+        }
+        backupMessage?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
         OutlinedButton(onClick = { confirmReset = true }) { Text("Reset progress…") }
         Text(
             "Italiano works fully offline. Nothing leaves your phone: no account, no tracking.",

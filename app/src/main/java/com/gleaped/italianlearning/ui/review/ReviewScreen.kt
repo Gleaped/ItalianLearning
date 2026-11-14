@@ -138,7 +138,7 @@ class ReviewViewModel(private val container: AppContainer) : ViewModel() {
                 newWaiting = waiting,
                 tips = tips,
                 autoPlay = settings.autoPlayAudio,
-                speechEnabled = settings.speechPracticeEnabled,
+                speechEnabled = settings.speechNow(),
             )
         }
     }

@@ -1,5 +1,6 @@
 package com.gleaped.italianlearning.ui.lookup
 
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -393,6 +394,7 @@ fun WordEntryScreen(lemmaId: Long, onBack: () -> Unit) {
                     verticalArrangement = Arrangement.spacedBy(16.dp),
                 ) {
                     EntryBody(l.lemma, allGlosses = true)
+                    DeckButton(l.lemma)
                     FormsSection(l.lemma)
                     SourcesLine(l.sources) { showSources = true }
                 }
@@ -400,6 +402,35 @@ fun WordEntryScreen(lemmaId: Long, onBack: () -> Unit) {
         }
     }
     if (showSources) SourcesSheet((load as? EntryLoad.Ready)?.sources) { showSources = false }
+}
+
+/** Adds the word to the review deck, or shows that it is there (with a way to take it out). */
+@Composable
+private fun DeckButton(lemma: LemmaRow) {
+    val container = LocalAppContainer.current
+    val inDeck by remember(lemma.id) { container.learning.hasDictionaryWord(lemma.id) }.collectAsStateWithLifecycle(false)
+    if (lemma.glosses.isEmpty()) return
+    if (inDeck) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                "In your review deck ✓",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.weight(1f),
+            )
+            TextButton(onClick = { container.appScope.launch { container.learning.removeDictionaryWord(lemma.id) } }) {
+                Text("Remove")
+            }
+        }
+    } else {
+        OutlinedButton(
+            onClick = {
+                container.appScope.launch {
+                    container.learning.addDictionaryWord(lemma.id, lemma.lemma, lemma.glosses, lemma.exampleIt)
+                }
+            },
+        ) { Text("Add to my review deck") }
+    }
 }
 
 /** Headword, glosses, Italian definition, example and notes. */
@@ -579,6 +610,7 @@ private fun WordLookupSheet(word: String, onDismiss: () -> Unit, onOpenEntry: (L
                                 Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.secondary)
                             }
                             EntryBody(group.lemma, allGlosses = false)
+                            DeckButton(group.lemma)
                             TextButton(onClick = {
                                 container.appScope.launch { container.settings.addRecentLookup(group.lemma.lemma) }
                                 onOpenEntry(group.lemma.id)

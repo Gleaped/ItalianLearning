@@ -27,6 +27,7 @@ object ContentParser {
         val exercises: List<JsonObject> = emptyList(),
         val goal: String = "",
         val takeaway: String = "",
+        val timed: Boolean = false,
     )
 
     @Serializable
@@ -73,6 +74,7 @@ object ContentParser {
                     exercises = l.exercises.map(::parseExercise),
                     goal = l.goal.trim(),
                     takeaway = l.takeaway.trim(),
+                    timed = l.timed,
                 )
             },
             vocabulary = dto.vocabulary,

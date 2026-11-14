@@ -39,6 +39,10 @@ class WritingRepository(context: Context) {
 
     suspend fun delete(id: String) = update { list -> list.filter { it.id != id } }
 
+    /** Used when a backup is restored. */
+    suspend fun replaceAll(entries: List<SavedWriting>) =
+        update { entries.filter { it.text.isNotBlank() }.distinctBy { it.id }.take(WritingLog.LIMIT) }
+
     private suspend fun update(change: (List<SavedWriting>) -> List<SavedWriting>) = mutex.withLock {
         ensureLoaded()
         val next = change(_entries.value)
