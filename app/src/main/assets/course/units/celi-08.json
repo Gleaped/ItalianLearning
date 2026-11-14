@@ -1,0 +1,704 @@
+{
+  "id": "celi-08",
+  "level": "CELI3",
+  "title": "Biblioteca di ascolto",
+  "objective": "Alla fine dell'unità hai ascoltato sei testi lunghi (circa 145–200 parole) come quelli della Parte D: notiziari, annunci, telefonate, una rubrica radio e due monologhi.",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli, numeri, orari e segnali del discorso.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "celi-08-l1",
+      "title": "Notiziario radio: sciopero e maltempo",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 150 parole (notiziario) e rispondere a cinque domande.",
+      "takeaway": "Leggi le domande prima: l'ascolto diventa una caccia a dettagli precisi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-08-l1-e01",
+          "stage": "learn",
+          "title": "Notiziario: come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande: sai già che cosa cercare.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, non fermarti: vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l1-e02",
+          "stage": "practise",
+          "audioText": "Ecco i titoli di questa mattina. Sciopero dei treni regionali: dalle nove di stasera fino alle diciassette di domani si fermano i convogli in tutta la Lombardia. Saranno garantiti soltanto i servizi essenziali, tra le sei e le nove e tra le diciotto e le ventuno. Chi ha già acquistato un biglietto potrà chiedere il rimborso entro trenta giorni, oppure usarlo nei sette giorni successivi. Passiamo al maltempo. Da questo pomeriggio una perturbazione proveniente dall'Atlantico porterà piogge intense sul Nord-Ovest, con possibili temporali sulle zone alpine. La protezione civile invita a evitare spostamenti non necessari e a non lasciare l'auto vicino ai corsi d'acqua. Al Sud, invece, il cielo resterà sereno, con temperature superiori alla media del periodo. Infine, una buona notizia per gli studenti: il Comune di Torino ha deciso di estendere fino a mezzanotte l'orario di apertura delle sale studio. L'iniziativa partirà lunedì prossimo e sarà gratuita per chi ha meno di ventisei anni.",
+          "question": "Fino a quando durerà lo sciopero dei treni?",
+          "options": [
+            "Fino alle nove di stasera",
+            "Fino alle diciassette di domani",
+            "Fino alle ventuno di domani",
+            "Per trenta giorni"
+          ],
+          "answer": 1,
+          "explanation": "Dalle nove di stasera fino alle diciassette di domani."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l1-e03",
+          "stage": "practise",
+          "audioText": "Ecco i titoli di questa mattina. Sciopero dei treni regionali: dalle nove di stasera fino alle diciassette di domani si fermano i convogli in tutta la Lombardia. Saranno garantiti soltanto i servizi essenziali, tra le sei e le nove e tra le diciotto e le ventuno. Chi ha già acquistato un biglietto potrà chiedere il rimborso entro trenta giorni, oppure usarlo nei sette giorni successivi. Passiamo al maltempo. Da questo pomeriggio una perturbazione proveniente dall'Atlantico porterà piogge intense sul Nord-Ovest, con possibili temporali sulle zone alpine. La protezione civile invita a evitare spostamenti non necessari e a non lasciare l'auto vicino ai corsi d'acqua. Al Sud, invece, il cielo resterà sereno, con temperature superiori alla media del periodo. Infine, una buona notizia per gli studenti: il Comune di Torino ha deciso di estendere fino a mezzanotte l'orario di apertura delle sale studio. L'iniziativa partirà lunedì prossimo e sarà gratuita per chi ha meno di ventisei anni.",
+          "question": "Che cosa possono fare i viaggiatori che hanno già il biglietto?",
+          "options": [
+            "Solo usarlo il giorno stesso",
+            "Chiedere il rimborso o usarlo nei sette giorni successivi",
+            "Cambiarlo con un abbonamento",
+            "Perderlo senza rimborso"
+          ],
+          "answer": 1,
+          "explanation": "Rimborso entro trenta giorni, oppure uso entro sette giorni."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l1-e04",
+          "stage": "practise",
+          "audioText": "Ecco i titoli di questa mattina. Sciopero dei treni regionali: dalle nove di stasera fino alle diciassette di domani si fermano i convogli in tutta la Lombardia. Saranno garantiti soltanto i servizi essenziali, tra le sei e le nove e tra le diciotto e le ventuno. Chi ha già acquistato un biglietto potrà chiedere il rimborso entro trenta giorni, oppure usarlo nei sette giorni successivi. Passiamo al maltempo. Da questo pomeriggio una perturbazione proveniente dall'Atlantico porterà piogge intense sul Nord-Ovest, con possibili temporali sulle zone alpine. La protezione civile invita a evitare spostamenti non necessari e a non lasciare l'auto vicino ai corsi d'acqua. Al Sud, invece, il cielo resterà sereno, con temperature superiori alla media del periodo. Infine, una buona notizia per gli studenti: il Comune di Torino ha deciso di estendere fino a mezzanotte l'orario di apertura delle sale studio. L'iniziativa partirà lunedì prossimo e sarà gratuita per chi ha meno di ventisei anni.",
+          "question": "Che cosa consiglia la protezione civile?",
+          "options": [
+            "Di partire presto",
+            "Di evitare spostamenti non necessari",
+            "Di salire in montagna",
+            "Di non uscire per una settimana"
+          ],
+          "answer": 1,
+          "explanation": "Evitare spostamenti non necessari e non lasciare l'auto vicino ai corsi d'acqua."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l1-e05",
+          "stage": "practise",
+          "audioText": "Ecco i titoli di questa mattina. Sciopero dei treni regionali: dalle nove di stasera fino alle diciassette di domani si fermano i convogli in tutta la Lombardia. Saranno garantiti soltanto i servizi essenziali, tra le sei e le nove e tra le diciotto e le ventuno. Chi ha già acquistato un biglietto potrà chiedere il rimborso entro trenta giorni, oppure usarlo nei sette giorni successivi. Passiamo al maltempo. Da questo pomeriggio una perturbazione proveniente dall'Atlantico porterà piogge intense sul Nord-Ovest, con possibili temporali sulle zone alpine. La protezione civile invita a evitare spostamenti non necessari e a non lasciare l'auto vicino ai corsi d'acqua. Al Sud, invece, il cielo resterà sereno, con temperature superiori alla media del periodo. Infine, una buona notizia per gli studenti: il Comune di Torino ha deciso di estendere fino a mezzanotte l'orario di apertura delle sale studio. L'iniziativa partirà lunedì prossimo e sarà gratuita per chi ha meno di ventisei anni.",
+          "question": "Come sarà il tempo al Sud?",
+          "options": [
+            "Piovoso",
+            "Freddo",
+            "Sereno e più caldo del solito",
+            "Con temporali forti"
+          ],
+          "answer": 2,
+          "explanation": "Cielo sereno, temperature superiori alla media."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l1-e06",
+          "stage": "practise",
+          "audioText": "Ecco i titoli di questa mattina. Sciopero dei treni regionali: dalle nove di stasera fino alle diciassette di domani si fermano i convogli in tutta la Lombardia. Saranno garantiti soltanto i servizi essenziali, tra le sei e le nove e tra le diciotto e le ventuno. Chi ha già acquistato un biglietto potrà chiedere il rimborso entro trenta giorni, oppure usarlo nei sette giorni successivi. Passiamo al maltempo. Da questo pomeriggio una perturbazione proveniente dall'Atlantico porterà piogge intense sul Nord-Ovest, con possibili temporali sulle zone alpine. La protezione civile invita a evitare spostamenti non necessari e a non lasciare l'auto vicino ai corsi d'acqua. Al Sud, invece, il cielo resterà sereno, con temperature superiori alla media del periodo. Infine, una buona notizia per gli studenti: il Comune di Torino ha deciso di estendere fino a mezzanotte l'orario di apertura delle sale studio. L'iniziativa partirà lunedì prossimo e sarà gratuita per chi ha meno di ventisei anni.",
+          "question": "Che cosa cambia per le sale studio di Torino?",
+          "options": [
+            "Chiuderanno prima",
+            "Resteranno aperte fino a mezzanotte",
+            "Saranno a pagamento per tutti",
+            "Apriranno solo il lunedì"
+          ],
+          "answer": 1,
+          "explanation": "L'orario sarà esteso fino a mezzanotte, gratis per chi ha meno di ventisei anni."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-08-l1-e07",
+          "stage": "learn",
+          "front": "il convoglio",
+          "back": "train (formal, in announcements)",
+          "example": "I convogli si fermano in tutta la Lombardia."
+        }
+      ]
+    },
+    {
+      "id": "celi-08-l2",
+      "title": "Messaggio in segreteria telefonica",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 140 parole (telefonata) e rispondere a cinque domande.",
+      "takeaway": "Leggi le domande prima: l'ascolto diventa una caccia a dettagli precisi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-08-l2-e01",
+          "stage": "learn",
+          "title": "Telefonata: come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande: sai già che cosa cercare.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, non fermarti: vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l2-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Elena Moretti, la chiamo da parte dello studio dentistico del dottor Gallo. Le telefono perché l'appuntamento che aveva fissato per giovedì alle quindici purtroppo non è più possibile: il dottore è dovuto partire per un convegno e tornerà soltanto lunedì. Ci scusiamo molto per il disagio. Le proponiamo due alternative. La prima è martedì della settimana prossima, alle dieci e trenta; la seconda è mercoledì alle diciassette, ma in quel caso la visita sarebbe con la dottoressa Neri, che lavora con il dottor Gallo da molti anni. Se preferisce, può anche venire senza appuntamento venerdì mattina, ma potrebbe dover aspettare. La prego di richiamarci entro domani sera al numero zero due, tre quattro cinque, sei sette otto nove, oppure di rispondere a questo messaggio. Ricordo che per la visita serve portare la tessera sanitaria e la radiografia dell'anno scorso. Grazie e buona giornata.",
+          "question": "Perché l'appuntamento di giovedì non è più possibile?",
+          "options": [
+            "Lo studio è chiuso per lavori",
+            "Il dottore è via per un convegno",
+            "La paziente ha cambiato idea",
+            "La dottoressa è malata"
+          ],
+          "answer": 1,
+          "explanation": "Il dottor Gallo è partito per un convegno e torna lunedì."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l2-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Elena Moretti, la chiamo da parte dello studio dentistico del dottor Gallo. Le telefono perché l'appuntamento che aveva fissato per giovedì alle quindici purtroppo non è più possibile: il dottore è dovuto partire per un convegno e tornerà soltanto lunedì. Ci scusiamo molto per il disagio. Le proponiamo due alternative. La prima è martedì della settimana prossima, alle dieci e trenta; la seconda è mercoledì alle diciassette, ma in quel caso la visita sarebbe con la dottoressa Neri, che lavora con il dottor Gallo da molti anni. Se preferisce, può anche venire senza appuntamento venerdì mattina, ma potrebbe dover aspettare. La prego di richiamarci entro domani sera al numero zero due, tre quattro cinque, sei sette otto nove, oppure di rispondere a questo messaggio. Ricordo che per la visita serve portare la tessera sanitaria e la radiografia dell'anno scorso. Grazie e buona giornata.",
+          "question": "Quale alternativa prevede una visita con un'altra dottoressa?",
+          "options": [
+            "Martedì alle dieci e trenta",
+            "Mercoledì alle diciassette",
+            "Venerdì mattina",
+            "Lunedì pomeriggio"
+          ],
+          "answer": 1,
+          "explanation": "Mercoledì alle diciassette, con la dottoressa Neri."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l2-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Elena Moretti, la chiamo da parte dello studio dentistico del dottor Gallo. Le telefono perché l'appuntamento che aveva fissato per giovedì alle quindici purtroppo non è più possibile: il dottore è dovuto partire per un convegno e tornerà soltanto lunedì. Ci scusiamo molto per il disagio. Le proponiamo due alternative. La prima è martedì della settimana prossima, alle dieci e trenta; la seconda è mercoledì alle diciassette, ma in quel caso la visita sarebbe con la dottoressa Neri, che lavora con il dottor Gallo da molti anni. Se preferisce, può anche venire senza appuntamento venerdì mattina, ma potrebbe dover aspettare. La prego di richiamarci entro domani sera al numero zero due, tre quattro cinque, sei sette otto nove, oppure di rispondere a questo messaggio. Ricordo che per la visita serve portare la tessera sanitaria e la radiografia dell'anno scorso. Grazie e buona giornata.",
+          "question": "Che cosa succede se si va venerdì mattina?",
+          "options": [
+            "Si paga di meno",
+            "Non serve l'appuntamento, ma si potrebbe aspettare",
+            "La visita è fatta dal dottor Gallo",
+            "Lo studio è chiuso"
+          ],
+          "answer": 1,
+          "explanation": "Si può venire senza appuntamento, ma potrebbe esserci attesa."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l2-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Elena Moretti, la chiamo da parte dello studio dentistico del dottor Gallo. Le telefono perché l'appuntamento che aveva fissato per giovedì alle quindici purtroppo non è più possibile: il dottore è dovuto partire per un convegno e tornerà soltanto lunedì. Ci scusiamo molto per il disagio. Le proponiamo due alternative. La prima è martedì della settimana prossima, alle dieci e trenta; la seconda è mercoledì alle diciassette, ma in quel caso la visita sarebbe con la dottoressa Neri, che lavora con il dottor Gallo da molti anni. Se preferisce, può anche venire senza appuntamento venerdì mattina, ma potrebbe dover aspettare. La prego di richiamarci entro domani sera al numero zero due, tre quattro cinque, sei sette otto nove, oppure di rispondere a questo messaggio. Ricordo che per la visita serve portare la tessera sanitaria e la radiografia dell'anno scorso. Grazie e buona giornata.",
+          "question": "Entro quando bisogna richiamare lo studio?",
+          "options": [
+            "Entro oggi pomeriggio",
+            "Entro domani sera",
+            "Entro giovedì",
+            "Entro lunedì"
+          ],
+          "answer": 1,
+          "explanation": "Richiamare entro domani sera."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l2-e06",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Elena Moretti, la chiamo da parte dello studio dentistico del dottor Gallo. Le telefono perché l'appuntamento che aveva fissato per giovedì alle quindici purtroppo non è più possibile: il dottore è dovuto partire per un convegno e tornerà soltanto lunedì. Ci scusiamo molto per il disagio. Le proponiamo due alternative. La prima è martedì della settimana prossima, alle dieci e trenta; la seconda è mercoledì alle diciassette, ma in quel caso la visita sarebbe con la dottoressa Neri, che lavora con il dottor Gallo da molti anni. Se preferisce, può anche venire senza appuntamento venerdì mattina, ma potrebbe dover aspettare. La prego di richiamarci entro domani sera al numero zero due, tre quattro cinque, sei sette otto nove, oppure di rispondere a questo messaggio. Ricordo che per la visita serve portare la tessera sanitaria e la radiografia dell'anno scorso. Grazie e buona giornata.",
+          "question": "Che cosa bisogna portare alla visita?",
+          "options": [
+            "Il certificato medico e un documento",
+            "La tessera sanitaria e una vecchia radiografia",
+            "Solo la tessera sanitaria",
+            "I risultati delle analisi del sangue"
+          ],
+          "answer": 1,
+          "explanation": "Tessera sanitaria e radiografia dell'anno scorso."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-08-l2-e07",
+          "stage": "learn",
+          "front": "da parte di",
+          "back": "on behalf of",
+          "example": "La chiamo da parte dello studio dentistico."
+        }
+      ]
+    },
+    {
+      "id": "celi-08-l3",
+      "title": "La guida del museo",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 160 parole (monologo) e rispondere a cinque domande.",
+      "takeaway": "Leggi le domande prima: l'ascolto diventa una caccia a dettagli precisi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-08-l3-e01",
+          "stage": "learn",
+          "title": "Monologo: come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande: sai già che cosa cercare.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, non fermarti: vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l3-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo della Seta. Prima di cominciare la visita, qualche informazione pratica. La visita dura circa un'ora e un quarto e si svolge su due piani: al pianoterra vedremo gli antichi telai, al primo piano la sezione dedicata alla moda. Vi chiedo di non toccare i tessuti esposti e di non usare il flash, perché la luce rovina i colori. Un po' di storia: la produzione della seta in questa valle è documentata fin dal Quattrocento. All'inizio i bachi venivano allevati nelle case dei contadini, spesso nella stessa stanza in cui si dormiva. Soltanto nell'Ottocento sono nate le prime grandi filande, dove lavoravano soprattutto donne, a volte bambine, per dodici ore al giorno. Il museo è nato quarant'anni fa, quando l'ultima fabbrica ha chiuso e un gruppo di ex operaie ha chiesto di conservare i macchinari. Alla fine del percorso troverete un piccolo negozio e un caffè. Se qualcuno ha bisogno di sedersi, c'è un ascensore vicino alle scale.",
+          "question": "Quanto dura la visita?",
+          "options": [
+            "Circa quarantacinque minuti",
+            "Circa un'ora e un quarto",
+            "Circa due ore",
+            "Circa un'ora e mezza"
+          ],
+          "answer": 1,
+          "explanation": "«Circa un'ora e un quarto»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l3-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo della Seta. Prima di cominciare la visita, qualche informazione pratica. La visita dura circa un'ora e un quarto e si svolge su due piani: al pianoterra vedremo gli antichi telai, al primo piano la sezione dedicata alla moda. Vi chiedo di non toccare i tessuti esposti e di non usare il flash, perché la luce rovina i colori. Un po' di storia: la produzione della seta in questa valle è documentata fin dal Quattrocento. All'inizio i bachi venivano allevati nelle case dei contadini, spesso nella stessa stanza in cui si dormiva. Soltanto nell'Ottocento sono nate le prime grandi filande, dove lavoravano soprattutto donne, a volte bambine, per dodici ore al giorno. Il museo è nato quarant'anni fa, quando l'ultima fabbrica ha chiuso e un gruppo di ex operaie ha chiesto di conservare i macchinari. Alla fine del percorso troverete un piccolo negozio e un caffè. Se qualcuno ha bisogno di sedersi, c'è un ascensore vicino alle scale.",
+          "question": "Perché non si può usare il flash?",
+          "options": [
+            "Disturba gli altri visitatori",
+            "La luce rovina i colori dei tessuti",
+            "È vietato dalla legge",
+            "Si rompono i telai"
+          ],
+          "answer": 1,
+          "explanation": "La luce rovina i colori."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l3-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo della Seta. Prima di cominciare la visita, qualche informazione pratica. La visita dura circa un'ora e un quarto e si svolge su due piani: al pianoterra vedremo gli antichi telai, al primo piano la sezione dedicata alla moda. Vi chiedo di non toccare i tessuti esposti e di non usare il flash, perché la luce rovina i colori. Un po' di storia: la produzione della seta in questa valle è documentata fin dal Quattrocento. All'inizio i bachi venivano allevati nelle case dei contadini, spesso nella stessa stanza in cui si dormiva. Soltanto nell'Ottocento sono nate le prime grandi filande, dove lavoravano soprattutto donne, a volte bambine, per dodici ore al giorno. Il museo è nato quarant'anni fa, quando l'ultima fabbrica ha chiuso e un gruppo di ex operaie ha chiesto di conservare i macchinari. Alla fine del percorso troverete un piccolo negozio e un caffè. Se qualcuno ha bisogno di sedersi, c'è un ascensore vicino alle scale.",
+          "question": "Dove venivano allevati i bachi all'inizio?",
+          "options": [
+            "Nelle filande",
+            "Nelle case dei contadini",
+            "In campagna, all'aperto",
+            "In un museo"
+          ],
+          "answer": 1,
+          "explanation": "Nelle case dei contadini, anche nella stanza in cui si dormiva."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l3-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo della Seta. Prima di cominciare la visita, qualche informazione pratica. La visita dura circa un'ora e un quarto e si svolge su due piani: al pianoterra vedremo gli antichi telai, al primo piano la sezione dedicata alla moda. Vi chiedo di non toccare i tessuti esposti e di non usare il flash, perché la luce rovina i colori. Un po' di storia: la produzione della seta in questa valle è documentata fin dal Quattrocento. All'inizio i bachi venivano allevati nelle case dei contadini, spesso nella stessa stanza in cui si dormiva. Soltanto nell'Ottocento sono nate le prime grandi filande, dove lavoravano soprattutto donne, a volte bambine, per dodici ore al giorno. Il museo è nato quarant'anni fa, quando l'ultima fabbrica ha chiuso e un gruppo di ex operaie ha chiesto di conservare i macchinari. Alla fine del percorso troverete un piccolo negozio e un caffè. Se qualcuno ha bisogno di sedersi, c'è un ascensore vicino alle scale.",
+          "question": "Come è nato il museo?",
+          "options": [
+            "Per iniziativa del Comune",
+            "Su richiesta di ex operaie dell'ultima fabbrica",
+            "Grazie a un'eredità",
+            "Dopo una mostra a Milano"
+          ],
+          "answer": 1,
+          "explanation": "Un gruppo di ex operaie ha chiesto di conservare i macchinari."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l3-e06",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo della Seta. Prima di cominciare la visita, qualche informazione pratica. La visita dura circa un'ora e un quarto e si svolge su due piani: al pianoterra vedremo gli antichi telai, al primo piano la sezione dedicata alla moda. Vi chiedo di non toccare i tessuti esposti e di non usare il flash, perché la luce rovina i colori. Un po' di storia: la produzione della seta in questa valle è documentata fin dal Quattrocento. All'inizio i bachi venivano allevati nelle case dei contadini, spesso nella stessa stanza in cui si dormiva. Soltanto nell'Ottocento sono nate le prime grandi filande, dove lavoravano soprattutto donne, a volte bambine, per dodici ore al giorno. Il museo è nato quarant'anni fa, quando l'ultima fabbrica ha chiuso e un gruppo di ex operaie ha chiesto di conservare i macchinari. Alla fine del percorso troverete un piccolo negozio e un caffè. Se qualcuno ha bisogno di sedersi, c'è un ascensore vicino alle scale.",
+          "question": "Che cosa c'è alla fine del percorso?",
+          "options": [
+            "Un cinema",
+            "Un negozio e un caffè",
+            "Una sala conferenze",
+            "Un parcheggio"
+          ],
+          "answer": 1,
+          "explanation": "Un piccolo negozio e un caffè."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-08-l3-e07",
+          "stage": "learn",
+          "front": "il telaio",
+          "back": "loom",
+          "example": "Al pianoterra vedremo gli antichi telai."
+        }
+      ]
+    },
+    {
+      "id": "celi-08-l4",
+      "title": "Annuncio in aeroporto",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 140 parole (annuncio) e rispondere a cinque domande.",
+      "takeaway": "Leggi le domande prima: l'ascolto diventa una caccia a dettagli precisi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-08-l4-e01",
+          "stage": "learn",
+          "title": "Annuncio: come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande: sai già che cosa cercare.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, non fermarti: vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l4-e02",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, per il volo per Lisbona delle quattordici e venti si comunica che l'imbarco, previsto al gate dodici, è stato spostato al gate ventitré. La partenza subirà un ritardo di circa quaranta minuti a causa di un controllo tecnico sull'aeromobile. Si prega di tenere pronti la carta d'imbarco e un documento d'identità. I passeggeri che hanno una coincidenza a Lisbona sono pregati di rivolgersi al banco informazioni, in fondo al corridoio a sinistra, dove riceveranno una nuova prenotazione. Ricordiamo che, in caso di ritardo superiore alle due ore, la compagnia offrirà un pasto gratuito; per ritardi superiori alle quattro ore è previsto anche il rimborso del biglietto, su richiesta. Infine, un avviso per tutti: il parcheggio a lunga sosta è temporaneamente chiuso per lavori. Si consiglia di utilizzare il parcheggio multipiano di fronte al terminal, raggiungibile a piedi in cinque minuti. Grazie per l'attenzione.",
+          "question": "Che cosa è cambiato per il volo per Lisbona?",
+          "options": [
+            "Il giorno di partenza",
+            "Il gate di imbarco e l'orario",
+            "La destinazione",
+            "La compagnia aerea"
+          ],
+          "answer": 1,
+          "explanation": "Il gate è stato spostato dal dodici al ventitré e la partenza è in ritardo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l4-e03",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, per il volo per Lisbona delle quattordici e venti si comunica che l'imbarco, previsto al gate dodici, è stato spostato al gate ventitré. La partenza subirà un ritardo di circa quaranta minuti a causa di un controllo tecnico sull'aeromobile. Si prega di tenere pronti la carta d'imbarco e un documento d'identità. I passeggeri che hanno una coincidenza a Lisbona sono pregati di rivolgersi al banco informazioni, in fondo al corridoio a sinistra, dove riceveranno una nuova prenotazione. Ricordiamo che, in caso di ritardo superiore alle due ore, la compagnia offrirà un pasto gratuito; per ritardi superiori alle quattro ore è previsto anche il rimborso del biglietto, su richiesta. Infine, un avviso per tutti: il parcheggio a lunga sosta è temporaneamente chiuso per lavori. Si consiglia di utilizzare il parcheggio multipiano di fronte al terminal, raggiungibile a piedi in cinque minuti. Grazie per l'attenzione.",
+          "question": "Perché c'è il ritardo?",
+          "options": [
+            "Per il maltempo",
+            "Per uno sciopero",
+            "Per un controllo tecnico",
+            "Per un errore dei passeggeri"
+          ],
+          "answer": 2,
+          "explanation": "A causa di un controllo tecnico sull'aeromobile."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l4-e04",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, per il volo per Lisbona delle quattordici e venti si comunica che l'imbarco, previsto al gate dodici, è stato spostato al gate ventitré. La partenza subirà un ritardo di circa quaranta minuti a causa di un controllo tecnico sull'aeromobile. Si prega di tenere pronti la carta d'imbarco e un documento d'identità. I passeggeri che hanno una coincidenza a Lisbona sono pregati di rivolgersi al banco informazioni, in fondo al corridoio a sinistra, dove riceveranno una nuova prenotazione. Ricordiamo che, in caso di ritardo superiore alle due ore, la compagnia offrirà un pasto gratuito; per ritardi superiori alle quattro ore è previsto anche il rimborso del biglietto, su richiesta. Infine, un avviso per tutti: il parcheggio a lunga sosta è temporaneamente chiuso per lavori. Si consiglia di utilizzare il parcheggio multipiano di fronte al terminal, raggiungibile a piedi in cinque minuti. Grazie per l'attenzione.",
+          "question": "Dove devono andare i passeggeri con una coincidenza?",
+          "options": [
+            "Al gate dodici",
+            "Al banco informazioni",
+            "Al parcheggio",
+            "All'uscita"
+          ],
+          "answer": 1,
+          "explanation": "Al banco informazioni, in fondo al corridoio a sinistra."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l4-e05",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, per il volo per Lisbona delle quattordici e venti si comunica che l'imbarco, previsto al gate dodici, è stato spostato al gate ventitré. La partenza subirà un ritardo di circa quaranta minuti a causa di un controllo tecnico sull'aeromobile. Si prega di tenere pronti la carta d'imbarco e un documento d'identità. I passeggeri che hanno una coincidenza a Lisbona sono pregati di rivolgersi al banco informazioni, in fondo al corridoio a sinistra, dove riceveranno una nuova prenotazione. Ricordiamo che, in caso di ritardo superiore alle due ore, la compagnia offrirà un pasto gratuito; per ritardi superiori alle quattro ore è previsto anche il rimborso del biglietto, su richiesta. Infine, un avviso per tutti: il parcheggio a lunga sosta è temporaneamente chiuso per lavori. Si consiglia di utilizzare il parcheggio multipiano di fronte al terminal, raggiungibile a piedi in cinque minuti. Grazie per l'attenzione.",
+          "question": "Dopo quanto ritardo si ha diritto al rimborso del biglietto?",
+          "options": [
+            "Oltre un'ora",
+            "Oltre due ore",
+            "Oltre quattro ore",
+            "Mai"
+          ],
+          "answer": 2,
+          "explanation": "Rimborso per ritardi superiori alle quattro ore; il pasto dopo due."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l4-e06",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, per il volo per Lisbona delle quattordici e venti si comunica che l'imbarco, previsto al gate dodici, è stato spostato al gate ventitré. La partenza subirà un ritardo di circa quaranta minuti a causa di un controllo tecnico sull'aeromobile. Si prega di tenere pronti la carta d'imbarco e un documento d'identità. I passeggeri che hanno una coincidenza a Lisbona sono pregati di rivolgersi al banco informazioni, in fondo al corridoio a sinistra, dove riceveranno una nuova prenotazione. Ricordiamo che, in caso di ritardo superiore alle due ore, la compagnia offrirà un pasto gratuito; per ritardi superiori alle quattro ore è previsto anche il rimborso del biglietto, su richiesta. Infine, un avviso per tutti: il parcheggio a lunga sosta è temporaneamente chiuso per lavori. Si consiglia di utilizzare il parcheggio multipiano di fronte al terminal, raggiungibile a piedi in cinque minuti. Grazie per l'attenzione.",
+          "question": "Che cosa è temporaneamente chiuso?",
+          "options": [
+            "Il banco informazioni",
+            "Il parcheggio a lunga sosta",
+            "Il terminal",
+            "Il gate ventitré"
+          ],
+          "answer": 1,
+          "explanation": "Il parcheggio a lunga sosta è chiuso per lavori."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-08-l4-e07",
+          "stage": "learn",
+          "front": "l'imbarco",
+          "back": "boarding",
+          "example": "L'imbarco è stato spostato al gate ventitré."
+        }
+      ]
+    },
+    {
+      "id": "celi-08-l5",
+      "title": "Radio: il consiglio dell'esperta",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 160 parole (rubrica radio) e rispondere a cinque domande.",
+      "takeaway": "Leggi le domande prima: l'ascolto diventa una caccia a dettagli precisi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-08-l5-e01",
+          "stage": "learn",
+          "title": "Rubrica radio: come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande: sai già che cosa cercare.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, non fermarti: vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l5-e02",
+          "stage": "practise",
+          "audioText": "Siamo tornati con la rubrica «Soldi in tasca», e oggi parliamo di un problema che riguarda molti giovani: come mettere da parte qualcosa quando lo stipendio è basso. Ospite in studio è la consulente finanziaria Paola Villani. Paola, da dove si comincia? Dalla cosa più noiosa: scrivere, per un mese, tutto ciò che si spende. Quasi nessuno lo fa, e quasi tutti rimangono sorpresi. Il caffè al bar, gli abbonamenti dimenticati, le consegne a domicilio: sono piccole cifre che, sommate, pesano più dell'affitto. Il secondo passo è decidere una somma fissa da risparmiare appena arriva lo stipendio, anche solo cinquanta euro, e non quella che avanza a fine mese, perché a fine mese non avanza mai niente. Meglio un conto separato, che non si veda ogni giorno. E se arriva un imprevisto, come una riparazione dell'auto, quei soldi servono proprio a questo. Il terzo consiglio, infine, è non investire mai in qualcosa che non si capisce: se qualcuno promette guadagni facili e sicuri, bisogna diffidare.",
+          "question": "Di che cosa parla la rubrica di oggi?",
+          "options": [
+            "Come cercare lavoro",
+            "Come risparmiare con uno stipendio basso",
+            "Come comprare casa",
+            "Come investire in borsa"
+          ],
+          "answer": 1,
+          "explanation": "Come mettere da parte qualcosa con uno stipendio basso."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l5-e03",
+          "stage": "practise",
+          "audioText": "Siamo tornati con la rubrica «Soldi in tasca», e oggi parliamo di un problema che riguarda molti giovani: come mettere da parte qualcosa quando lo stipendio è basso. Ospite in studio è la consulente finanziaria Paola Villani. Paola, da dove si comincia? Dalla cosa più noiosa: scrivere, per un mese, tutto ciò che si spende. Quasi nessuno lo fa, e quasi tutti rimangono sorpresi. Il caffè al bar, gli abbonamenti dimenticati, le consegne a domicilio: sono piccole cifre che, sommate, pesano più dell'affitto. Il secondo passo è decidere una somma fissa da risparmiare appena arriva lo stipendio, anche solo cinquanta euro, e non quella che avanza a fine mese, perché a fine mese non avanza mai niente. Meglio un conto separato, che non si veda ogni giorno. E se arriva un imprevisto, come una riparazione dell'auto, quei soldi servono proprio a questo. Il terzo consiglio, infine, è non investire mai in qualcosa che non si capisce: se qualcuno promette guadagni facili e sicuri, bisogna diffidare.",
+          "question": "Qual è il primo consiglio dell'esperta?",
+          "options": [
+            "Aprire un conto in banca",
+            "Annotare tutte le spese per un mese",
+            "Cambiare lavoro",
+            "Ridurre l'affitto"
+          ],
+          "answer": 1,
+          "explanation": "Scrivere, per un mese, tutto ciò che si spende."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l5-e04",
+          "stage": "practise",
+          "audioText": "Siamo tornati con la rubrica «Soldi in tasca», e oggi parliamo di un problema che riguarda molti giovani: come mettere da parte qualcosa quando lo stipendio è basso. Ospite in studio è la consulente finanziaria Paola Villani. Paola, da dove si comincia? Dalla cosa più noiosa: scrivere, per un mese, tutto ciò che si spende. Quasi nessuno lo fa, e quasi tutti rimangono sorpresi. Il caffè al bar, gli abbonamenti dimenticati, le consegne a domicilio: sono piccole cifre che, sommate, pesano più dell'affitto. Il secondo passo è decidere una somma fissa da risparmiare appena arriva lo stipendio, anche solo cinquanta euro, e non quella che avanza a fine mese, perché a fine mese non avanza mai niente. Meglio un conto separato, che non si veda ogni giorno. E se arriva un imprevisto, come una riparazione dell'auto, quei soldi servono proprio a questo. Il terzo consiglio, infine, è non investire mai in qualcosa che non si capisce: se qualcuno promette guadagni facili e sicuri, bisogna diffidare.",
+          "question": "Perché consiglia di risparmiare subito, appena arriva lo stipendio?",
+          "options": [
+            "Perché le banche lo richiedono",
+            "Perché a fine mese di solito non avanza niente",
+            "Perché gli interessi sono più alti",
+            "Perché è obbligatorio per legge"
+          ],
+          "answer": 1,
+          "explanation": "A fine mese non avanza mai niente."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l5-e05",
+          "stage": "practise",
+          "audioText": "Siamo tornati con la rubrica «Soldi in tasca», e oggi parliamo di un problema che riguarda molti giovani: come mettere da parte qualcosa quando lo stipendio è basso. Ospite in studio è la consulente finanziaria Paola Villani. Paola, da dove si comincia? Dalla cosa più noiosa: scrivere, per un mese, tutto ciò che si spende. Quasi nessuno lo fa, e quasi tutti rimangono sorpresi. Il caffè al bar, gli abbonamenti dimenticati, le consegne a domicilio: sono piccole cifre che, sommate, pesano più dell'affitto. Il secondo passo è decidere una somma fissa da risparmiare appena arriva lo stipendio, anche solo cinquanta euro, e non quella che avanza a fine mese, perché a fine mese non avanza mai niente. Meglio un conto separato, che non si veda ogni giorno. E se arriva un imprevisto, come una riparazione dell'auto, quei soldi servono proprio a questo. Il terzo consiglio, infine, è non investire mai in qualcosa che non si capisce: se qualcuno promette guadagni facili e sicuri, bisogna diffidare.",
+          "question": "A che cosa servono i soldi del conto separato?",
+          "options": [
+            "A fare regali",
+            "A coprire gli imprevisti",
+            "A pagare l'affitto",
+            "A investire in borsa"
+          ],
+          "answer": 1,
+          "explanation": "Servono per gli imprevisti, come la riparazione dell'auto."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l5-e06",
+          "stage": "practise",
+          "audioText": "Siamo tornati con la rubrica «Soldi in tasca», e oggi parliamo di un problema che riguarda molti giovani: come mettere da parte qualcosa quando lo stipendio è basso. Ospite in studio è la consulente finanziaria Paola Villani. Paola, da dove si comincia? Dalla cosa più noiosa: scrivere, per un mese, tutto ciò che si spende. Quasi nessuno lo fa, e quasi tutti rimangono sorpresi. Il caffè al bar, gli abbonamenti dimenticati, le consegne a domicilio: sono piccole cifre che, sommate, pesano più dell'affitto. Il secondo passo è decidere una somma fissa da risparmiare appena arriva lo stipendio, anche solo cinquanta euro, e non quella che avanza a fine mese, perché a fine mese non avanza mai niente. Meglio un conto separato, che non si veda ogni giorno. E se arriva un imprevisto, come una riparazione dell'auto, quei soldi servono proprio a questo. Il terzo consiglio, infine, è non investire mai in qualcosa che non si capisce: se qualcuno promette guadagni facili e sicuri, bisogna diffidare.",
+          "question": "Che cosa dice dei guadagni «facili e sicuri»?",
+          "options": [
+            "Che sono i più convenienti",
+            "Che bisogna diffidarne",
+            "Che si trovano solo in banca",
+            "Che sono vietati"
+          ],
+          "answer": 1,
+          "explanation": "Se qualcuno promette guadagni facili e sicuri, bisogna diffidare."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-08-l5-e07",
+          "stage": "learn",
+          "front": "mettere da parte",
+          "back": "to put aside, to save",
+          "example": "Voglio mettere da parte qualcosa ogni mese."
+        }
+      ]
+    },
+    {
+      "id": "celi-08-l6",
+      "title": "Il racconto di un viaggio",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 190 parole (monologo) e rispondere a cinque domande.",
+      "takeaway": "Leggi le domande prima: l'ascolto diventa una caccia a dettagli precisi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-08-l6-e01",
+          "stage": "learn",
+          "title": "Monologo: come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande: sai già che cosa cercare.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, non fermarti: vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l6-e02",
+          "stage": "practise",
+          "audioText": "Quell'estate avevo deciso di fare il Cammino di Santiago da solo, senza dire niente a nessuno. Pensavo che dopo una settimana sarei tornato a casa, e invece sono arrivato in fondo, in trentacinque giorni. Il primo giorno è stato il peggiore: avevo uno zaino pesantissimo, e dopo dieci chilometri ho dovuto lasciare per strada metà delle mie cose, compreso un libro che avevo comprato apposta. Ho imparato presto che quello che conta non è la distanza, ma il ritmo. Mi svegliavo alle cinque, partivo prima del caldo e a mezzogiorno ero già in un ostello, a lavare i vestiti e a parlare con gli altri pellegrini. Ho conosciuto una signora di settant'anni che camminava da due mesi e un ragazzo giapponese che non sapeva una parola di spagnolo ma sorrideva sempre. A metà strada mi sono fatto male a un piede e sono rimasto fermo quattro giorni in un paesino con una sola strada. Allora mi è sembrato un disastro; oggi penso che sia stata la parte più bella, perché ho dovuto smettere di correre. Quando sono arrivato alla cattedrale non ho provato la grande emozione che mi aspettavo: ho provato soprattutto stanchezza e una strana calma.",
+          "question": "Perché il primo giorno è stato il peggiore?",
+          "options": [
+            "Pioveva troppo",
+            "Lo zaino era troppo pesante",
+            "Si è perso",
+            "Aveva freddo"
+          ],
+          "answer": 1,
+          "explanation": "Aveva uno zaino pesantissimo e ha dovuto lasciare metà delle sue cose."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l6-e03",
+          "stage": "practise",
+          "audioText": "Quell'estate avevo deciso di fare il Cammino di Santiago da solo, senza dire niente a nessuno. Pensavo che dopo una settimana sarei tornato a casa, e invece sono arrivato in fondo, in trentacinque giorni. Il primo giorno è stato il peggiore: avevo uno zaino pesantissimo, e dopo dieci chilometri ho dovuto lasciare per strada metà delle mie cose, compreso un libro che avevo comprato apposta. Ho imparato presto che quello che conta non è la distanza, ma il ritmo. Mi svegliavo alle cinque, partivo prima del caldo e a mezzogiorno ero già in un ostello, a lavare i vestiti e a parlare con gli altri pellegrini. Ho conosciuto una signora di settant'anni che camminava da due mesi e un ragazzo giapponese che non sapeva una parola di spagnolo ma sorrideva sempre. A metà strada mi sono fatto male a un piede e sono rimasto fermo quattro giorni in un paesino con una sola strada. Allora mi è sembrato un disastro; oggi penso che sia stata la parte più bella, perché ho dovuto smettere di correre. Quando sono arrivato alla cattedrale non ho provato la grande emozione che mi aspettavo: ho provato soprattutto stanchezza e una strana calma.",
+          "question": "Che cosa pensava di fare all'inizio?",
+          "options": [
+            "Arrivare in fondo",
+            "Tornare a casa dopo una settimana",
+            "Camminare per due mesi",
+            "Fermarsi in un ostello"
+          ],
+          "answer": 1,
+          "explanation": "Pensava di tornare a casa dopo una settimana."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l6-e04",
+          "stage": "practise",
+          "audioText": "Quell'estate avevo deciso di fare il Cammino di Santiago da solo, senza dire niente a nessuno. Pensavo che dopo una settimana sarei tornato a casa, e invece sono arrivato in fondo, in trentacinque giorni. Il primo giorno è stato il peggiore: avevo uno zaino pesantissimo, e dopo dieci chilometri ho dovuto lasciare per strada metà delle mie cose, compreso un libro che avevo comprato apposta. Ho imparato presto che quello che conta non è la distanza, ma il ritmo. Mi svegliavo alle cinque, partivo prima del caldo e a mezzogiorno ero già in un ostello, a lavare i vestiti e a parlare con gli altri pellegrini. Ho conosciuto una signora di settant'anni che camminava da due mesi e un ragazzo giapponese che non sapeva una parola di spagnolo ma sorrideva sempre. A metà strada mi sono fatto male a un piede e sono rimasto fermo quattro giorni in un paesino con una sola strada. Allora mi è sembrato un disastro; oggi penso che sia stata la parte più bella, perché ho dovuto smettere di correre. Quando sono arrivato alla cattedrale non ho provato la grande emozione che mi aspettavo: ho provato soprattutto stanchezza e una strana calma.",
+          "question": "Che cosa ha imparato sul cammino?",
+          "options": [
+            "Che la distanza è l'unica cosa importante",
+            "Che il ritmo conta più della distanza",
+            "Che si cammina meglio la sera",
+            "Che è meglio camminare in gruppo"
+          ],
+          "answer": 1,
+          "explanation": "Ha imparato che conta il ritmo, non la distanza."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l6-e05",
+          "stage": "practise",
+          "audioText": "Quell'estate avevo deciso di fare il Cammino di Santiago da solo, senza dire niente a nessuno. Pensavo che dopo una settimana sarei tornato a casa, e invece sono arrivato in fondo, in trentacinque giorni. Il primo giorno è stato il peggiore: avevo uno zaino pesantissimo, e dopo dieci chilometri ho dovuto lasciare per strada metà delle mie cose, compreso un libro che avevo comprato apposta. Ho imparato presto che quello che conta non è la distanza, ma il ritmo. Mi svegliavo alle cinque, partivo prima del caldo e a mezzogiorno ero già in un ostello, a lavare i vestiti e a parlare con gli altri pellegrini. Ho conosciuto una signora di settant'anni che camminava da due mesi e un ragazzo giapponese che non sapeva una parola di spagnolo ma sorrideva sempre. A metà strada mi sono fatto male a un piede e sono rimasto fermo quattro giorni in un paesino con una sola strada. Allora mi è sembrato un disastro; oggi penso che sia stata la parte più bella, perché ho dovuto smettere di correre. Quando sono arrivato alla cattedrale non ho provato la grande emozione che mi aspettavo: ho provato soprattutto stanchezza e una strana calma.",
+          "question": "Perché oggi ricorda con piacere i giorni in cui è rimasto fermo?",
+          "options": [
+            "Perché ha conosciuto una persona speciale",
+            "Perché ha dovuto smettere di correre",
+            "Perché il paese era bellissimo",
+            "Perché ha riposato in un hotel di lusso"
+          ],
+          "answer": 1,
+          "explanation": "È stata la parte più bella perché ha dovuto smettere di correre."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-08-l6-e06",
+          "stage": "practise",
+          "audioText": "Quell'estate avevo deciso di fare il Cammino di Santiago da solo, senza dire niente a nessuno. Pensavo che dopo una settimana sarei tornato a casa, e invece sono arrivato in fondo, in trentacinque giorni. Il primo giorno è stato il peggiore: avevo uno zaino pesantissimo, e dopo dieci chilometri ho dovuto lasciare per strada metà delle mie cose, compreso un libro che avevo comprato apposta. Ho imparato presto che quello che conta non è la distanza, ma il ritmo. Mi svegliavo alle cinque, partivo prima del caldo e a mezzogiorno ero già in un ostello, a lavare i vestiti e a parlare con gli altri pellegrini. Ho conosciuto una signora di settant'anni che camminava da due mesi e un ragazzo giapponese che non sapeva una parola di spagnolo ma sorrideva sempre. A metà strada mi sono fatto male a un piede e sono rimasto fermo quattro giorni in un paesino con una sola strada. Allora mi è sembrato un disastro; oggi penso che sia stata la parte più bella, perché ho dovuto smettere di correre. Quando sono arrivato alla cattedrale non ho provato la grande emozione che mi aspettavo: ho provato soprattutto stanchezza e una strana calma.",
+          "question": "Che cosa ha provato arrivando alla cattedrale?",
+          "options": [
+            "Una grande gioia",
+            "Stanchezza e calma",
+            "Delusione e rabbia",
+            "Paura"
+          ],
+          "answer": 1,
+          "explanation": "Non una grande emozione, ma stanchezza e una strana calma."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-08-l6-e07",
+          "stage": "learn",
+          "front": "lo zaino",
+          "back": "backpack",
+          "example": "Avevo uno zaino pesantissimo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il convoglio",
+      "en": "train (formal, in announcements)",
+      "example": "I convogli si fermano in tutta la Lombardia."
+    },
+    {
+      "it": "la perturbazione",
+      "en": "weather front, disturbance",
+      "example": "Una perturbazione porterà piogge intense."
+    },
+    {
+      "it": "il corso d'acqua",
+      "en": "watercourse (river, stream)",
+      "example": "Non lasciare l'auto vicino ai corsi d'acqua."
+    },
+    {
+      "it": "da parte di",
+      "en": "on behalf of",
+      "example": "La chiamo da parte dello studio dentistico."
+    },
+    {
+      "it": "il disagio",
+      "en": "inconvenience",
+      "example": "Ci scusiamo per il disagio."
+    },
+    {
+      "it": "fissare un appuntamento",
+      "en": "to set an appointment",
+      "example": "Aveva fissato un appuntamento per giovedì."
+    },
+    {
+      "it": "il telaio",
+      "en": "loom",
+      "example": "Al pianoterra vedremo gli antichi telai."
+    },
+    {
+      "it": "la filanda",
+      "en": "silk/cotton spinning mill",
+      "example": "Nell'Ottocento nacquero le prime filande."
+    },
+    {
+      "it": "i macchinari",
+      "en": "machinery",
+      "example": "Hanno chiesto di conservare i macchinari."
+    },
+    {
+      "it": "l'imbarco",
+      "en": "boarding",
+      "example": "L'imbarco è stato spostato al gate ventitré."
+    },
+    {
+      "it": "la coincidenza",
+      "en": "connection (travel)",
+      "example": "Ho una coincidenza a Lisbona."
+    },
+    {
+      "it": "a lunga sosta",
+      "en": "long-stay",
+      "example": "Il parcheggio a lunga sosta è chiuso."
+    },
+    {
+      "it": "mettere da parte",
+      "en": "to put aside, to save",
+      "example": "Voglio mettere da parte qualcosa ogni mese."
+    },
+    {
+      "it": "l'imprevisto",
+      "en": "unexpected event",
+      "example": "Se arriva un imprevisto, quei soldi servono."
+    },
+    {
+      "it": "diffidare",
+      "en": "to distrust, be wary",
+      "example": "Bisogna diffidare dei guadagni facili."
+    },
+    {
+      "it": "lo zaino",
+      "en": "backpack",
+      "example": "Avevo uno zaino pesantissimo."
+    },
+    {
+      "it": "il pellegrino",
+      "en": "pilgrim",
+      "example": "A mezzogiorno parlavo con gli altri pellegrini."
+    },
+    {
+      "it": "l'ostello",
+      "en": "hostel",
+      "example": "A mezzogiorno ero già in un ostello."
+    }
+  ]
+}

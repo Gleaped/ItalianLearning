@@ -1,0 +1,536 @@
+{
+  "id": "celi-07",
+  "level": "CELI3",
+  "title": "Biblioteca di lettura",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 270–290 parole) come quelli della Parte A: un articolo, una lettera al giornale, un'intervista e un articolo di attualità.",
+  "grammarFocus": "Lettura estensiva: titoli e connettivi (tuttavia, dal canto loro, invece), cercare la frase che conferma la risposta, riassumere a voce.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "celi-07-l1",
+      "title": "Lavorare da casa: il bilancio di due anni",
+      "minutes": 10,
+      "goal": "Leggere un testo autentico di circa 280 parole e coglierne idee e dettagli.",
+      "takeaway": "Cerca la risposta nella frase del testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-07-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Lavorare da casa: il bilancio di due anni",
+          "passage": "Quando, nella primavera di due anni fa, migliaia di uffici italiani si sono svuotati dall'oggi al domani, il lavoro da remoto sembrava una soluzione d'emergenza destinata a durare poche settimane. Oggi, invece, più di un lavoratore dipendente su cinque, nelle grandi città del Nord, passa da casa almeno due giorni a settimana. Un'indagine condotta su milleduecento persone prova a capire che cosa sia davvero cambiato.\n\nIl vantaggio più citato è il tempo: chi abita in periferia risparmia in media un'ora e mezza al giorno tra autobus, metropolitana e code. Molti intervistati dichiarano di aver ritrovato abitudini dimenticate, come cucinare la sera o accompagnare i figli a scuola. Quasi tutti, però, ammettono di non riuscire più a staccare: la scrivania è in salotto, il computer resta acceso e le email arrivano a qualsiasi ora. «All'inizio mi sembrava di essere più libera», racconta una grafica di Bologna, «poi mi sono accorta che lavoravo fino a tardi quasi ogni sera, solo perché non avevo più un orario di uscita».\n\nLe aziende, dal canto loro, hanno scoperto che la produttività non è crollata, come qualcuno temeva. Alcune hanno persino ridotto gli spazi, rinunciando a interi piani di uffici. Resta aperta, tuttavia, la questione dei rapporti umani. I più giovani, in particolare, lamentano la difficoltà di imparare il mestiere senza poter osservare i colleghi più esperti, mentre i responsabili temono che la squadra perda coesione.\n\nLa soluzione che si sta imponendo è un modello misto: due o tre giorni in sede, concordati in anticipo, e il resto a distanza. Perché funzioni, secondo gli esperti, servono regole chiare, a cominciare dal diritto a non rispondere ai messaggi fuori orario. Senza di esse, avvertono, la flessibilità rischia di trasformarsi in una reperibilità permanente.",
+          "questions": [
+            {
+              "question": "Che cosa pensava la maggior parte delle persone all'inizio del lavoro da remoto?",
+              "options": [
+                "Che sarebbe diventato la norma",
+                "Che sarebbe stato necessario solo per breve tempo",
+                "Che avrebbe fatto crollare la produttività",
+                "Che avrebbe costretto le aziende a chiudere"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale vantaggio indicano più spesso gli intervistati?",
+              "options": [
+                "Uno stipendio più alto",
+                "Meno tempo perso negli spostamenti",
+                "Più incontri con i colleghi",
+                "Una scrivania più grande"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è, secondo la grafica di Bologna, il problema principale?",
+              "options": [
+                "Lavora meno di prima",
+                "Non ha più un momento preciso in cui smettere",
+                "Il computer è troppo vecchio",
+                "Non può più accompagnare i figli"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa lamentano soprattutto i lavoratori più giovani?",
+              "options": [
+                "Di non guadagnare abbastanza",
+                "Di non poter imparare osservando i colleghi",
+                "Di dover tornare in ufficio ogni giorno",
+                "Di ricevere troppe email"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa chiedono gli esperti perché il modello misto funzioni?",
+              "options": [
+                "Più giorni in ufficio",
+                "Regole chiare, come il diritto a non rispondere fuori orario",
+                "Meno spazio negli uffici",
+                "Un controllo costante dei dipendenti"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "1) Il testo dice che sembrava «una soluzione d'emergenza destinata a durare poche settimane». 2) Si risparmia un'ora e mezza al giorno tra mezzi pubblici e code. 3) Lavorava fino a tardi «perché non avevo più un orario di uscita». 4) Hanno difficoltà a imparare il mestiere senza osservare i colleghi esperti. 5) «Servono regole chiare, a cominciare dal diritto a non rispondere ai messaggi fuori orario»."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l1-e02",
+          "stage": "learn",
+          "front": "staccare",
+          "back": "to switch off, disconnect (from work)",
+          "example": "La sera non riesco a staccare dal lavoro."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l1-e03",
+          "stage": "learn",
+          "front": "la reperibilità",
+          "back": "being on call, availability",
+          "example": "La reperibilità permanente è un problema."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l1-e04",
+          "stage": "learn",
+          "front": "dal canto loro",
+          "back": "for their part",
+          "example": "Le aziende, dal canto loro, risparmiano sugli spazi."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-07-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi: vantaggi, problemi e soluzione proposta.",
+          "keywords": [
+            "tempo",
+            "orario",
+            "modello misto",
+            "regole"
+          ],
+          "modelAnswer": "Il lavoro da casa fa risparmiare tempo negli spostamenti, ma molti non riescono più a staccare dopo l'orario di lavoro e i giovani imparano meno dai colleghi. Per questo si sta diffondendo un modello misto, con regole chiare sui messaggi fuori orario.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "celi-07-l2",
+      "title": "Lettera al giornale: «Le piste ciclabili non bastano»",
+      "minutes": 10,
+      "goal": "Leggere un testo autentico di circa 270 parole e coglierne idee e dettagli.",
+      "takeaway": "Cerca la risposta nella frase del testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-07-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Lettera al giornale: «Le piste ciclabili non bastano»",
+          "passage": "Gentile direttore,\n\nvorrei intervenire sul dibattito di questi giorni sulle nuove piste ciclabili della nostra città. Da otto anni vado al lavoro in bicicletta, tutti i giorni, con qualsiasi tempo, e posso dire di aver visto la situazione cambiare. Chi sostiene che non sia cambiato nulla, sbaglia: le piste sono più numerose e, in alcune zone, anche ben tenute. Ma chi afferma che il problema sia risolto, sbaglia ancora di più.\n\nIl difetto principale è che le piste non formano una rete. Il tratto che percorro io, per esempio, è largo e protetto per un chilometro e mezzo, poi finisce di colpo davanti a un incrocio pericoloso, dove le auto girano a destra senza guardare. Per proseguire bisogna scendere dalla sella oppure rischiare. Ho conosciuto più di una persona che, dopo una brutta caduta in quel punto, ha rimesso la bicicletta in garage e ha ripreso la macchina. Ecco il paradosso: una pista a metà è peggio di nessuna pista, perché dà una sicurezza che non c'è.\n\nNon è soltanto una questione di cemento e di vernice. Nei Paesi dove la bicicletta è davvero diffusa, i limiti di velocità in città sono bassi e vengono rispettati, i parcheggi per le bici sono sorvegliati e le scuole organizzano percorsi sicuri per i bambini. Da noi, invece, ogni intervento sembra isolato dagli altri, come se qualcuno volesse poter dire «abbiamo fatto qualcosa» senza affrontare il problema.\n\nChiedo quindi all'amministrazione non di costruire di più, ma di collegare meglio quello che esiste, a partire dall'incrocio di cui ho parlato. Mi basterebbe sapere che, entro un anno, quel punto sarà sistemato.\n\nDistinti saluti,\nMarta Fontana",
+          "questions": [
+            {
+              "question": "Che cosa pensa l'autrice di chi dice che nulla è cambiato?",
+              "options": [
+                "Ha ragione",
+                "Sbaglia, perché le piste sono aumentate",
+                "Non ha mai usato la bicicletta",
+                "Dovrebbe scrivere al sindaco"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è il difetto principale delle piste secondo l'autrice?",
+              "options": [
+                "Sono troppo strette",
+                "Non sono collegate tra loro",
+                "Sono troppo costose",
+                "Sono poco usate"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché, secondo lei, una pista a metà è peggio di nessuna pista?",
+              "options": [
+                "Perché costa di più",
+                "Perché dà una falsa sensazione di sicurezza",
+                "Perché le auto vanno più veloci",
+                "Perché è più difficile da mantenere"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa succede, secondo il testo, nei Paesi dove la bici è diffusa?",
+              "options": [
+                "Le auto sono vietate",
+                "I limiti di velocità sono bassi e rispettati",
+                "Non servono parcheggi per le bici",
+                "Le piste sono sempre gratuite"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa chiede l'autrice all'amministrazione?",
+              "options": [
+                "Di costruire molte nuove piste",
+                "Di sistemare i collegamenti esistenti, a partire da un incrocio",
+                "Di vietare le auto in centro",
+                "Di rimuovere le piste inutili"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "1) Dice che chi sostiene che non sia cambiato nulla «sbaglia: le piste sono più numerose». 2) «Le piste non formano una rete». 3) Dà «una sicurezza che non c'è». 4) I limiti di velocità sono bassi e vengono rispettati. 5) Chiede di «collegare meglio quello che esiste» e di sistemare l'incrocio entro un anno."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l2-e02",
+          "stage": "learn",
+          "front": "la sella",
+          "back": "saddle",
+          "example": "Per proseguire bisogna scendere dalla sella."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l2-e03",
+          "stage": "learn",
+          "front": "di colpo",
+          "back": "suddenly, all at once",
+          "example": "La pista finisce di colpo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l2-e04",
+          "stage": "learn",
+          "front": "sorvegliato",
+          "back": "supervised, guarded",
+          "example": "Un parcheggio sorvegliato per le biciclette."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-07-l2-e05",
+          "stage": "use",
+          "prompt": "Spiega a voce, in tre o quattro frasi, che cosa chiede l'autrice della lettera e perché.",
+          "keywords": [
+            "rete",
+            "incrocio",
+            "sicurezza",
+            "collegare"
+          ],
+          "modelAnswer": "L'autrice chiede di collegare meglio le piste ciclabili che esistono, perché una pista che finisce a metà è pericolosa e dà una falsa sicurezza. Vorrebbe che l'amministrazione sistemasse prima di tutto un incrocio pericoloso.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "celi-07-l3",
+      "title": "Tornare in montagna: l'intervista a un giovane pastore",
+      "minutes": 10,
+      "goal": "Leggere un testo autentico di circa 280 parole e coglierne idee e dettagli.",
+      "takeaway": "Cerca la risposta nella frase del testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-07-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Tornare in montagna: l'intervista a un giovane pastore",
+          "passage": "A ventotto anni, Davide Rinaldi ha lasciato un posto sicuro in una banca di Milano per tornare nel paese dei nonni, in provincia di Cuneo, dove oggi alleva duecento pecore e produce formaggio. Lo abbiamo incontrato a milleduecento metri di quota.\n\nCome è nata questa decisione?\n«Non da un giorno all'altro. Per anni ho passato le estati con mio nonno, e avevo sempre l'impressione che quella fosse l'unica vita in cui mi sentivo davvero utile. A Milano guadagnavo bene, ma tornavo a casa senza aver prodotto nulla che potessi toccare. Quando il nonno si è ammalato e il gregge rischiava di essere venduto, ho capito che era il momento.»\n\nÈ stato difficile?\n«Più di quanto immaginassi. Le giornate cominciano alle quattro e mezza e non esistono domeniche. Il primo inverno ho pensato di mollare: le spese erano alte, il formaggio non si vendeva e io non sapevo nemmeno riparare una recinzione. Mi ha salvato un vicino, che mi ha insegnato il mestiere senza chiedere niente in cambio.»\n\nOggi come va?\n«Meglio. Vendiamo ai ristoranti della zona e a un gruppo d'acquisto di Torino. Non sono diventato ricco, e non credo che succederà, ma riesco a vivere e a pagare un ragazzo che mi aiuta d'estate. Il problema vero, qui, non è il lavoro: è la solitudine. Il paese ha quaranta abitanti d'inverno, e i miei amici di città si stupiscono che non mi manchi nulla. Mi manca, ogni tanto, una serata in compagnia.»\n\nConsiglierebbe questa scelta a un coetaneo?\n«Solo a chi è disposto a rinunciare alle comodità e sa che non c'è nessuna scorciatoia. Non è una fuga: è un lavoro duro, e se lo si idealizza si rischia di restare delusi.»",
+          "questions": [
+            {
+              "question": "Perché Davide ha lasciato Milano?",
+              "options": [
+                "Perché era stato licenziato dalla banca",
+                "Perché in quella vita non si sentiva davvero utile",
+                "Perché guadagnava troppo poco",
+                "Perché voleva studiare agricoltura"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale episodio lo ha spinto a decidere?",
+              "options": [
+                "La vendita della casa dei nonni",
+                "La malattia del nonno e il rischio di perdere il gregge",
+                "Una proposta di lavoro a Torino",
+                "La chiusura della banca"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa lo ha aiutato durante il primo inverno?",
+              "options": [
+                "Un prestito della banca",
+                "Il consiglio di un amico di Milano",
+                "Un vicino che gli ha insegnato il mestiere",
+                "Un corso gratuito"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Qual è oggi, per lui, la difficoltà più grande?",
+              "options": [
+                "Il lavoro troppo faticoso",
+                "La mancanza di clienti",
+                "La solitudine",
+                "I costi della produzione"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa direbbe a un suo coetaneo?",
+              "options": [
+                "Di partire subito, perché è facile",
+                "Di andare solo se è pronto a rinunciare alle comodità",
+                "Di non lasciare mai la città",
+                "Di aspettare di diventare ricco"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "1) In montagna si sentiva «davvero utile»; a Milano non produceva nulla di concreto. 2) Il nonno si è ammalato e il gregge rischiava di essere venduto. 3) Un vicino gli ha insegnato il mestiere senza chiedere nulla in cambio. 4) Dice che il problema vero «è la solitudine». 5) Lo consiglia «solo a chi è disposto a rinunciare alle comodità»."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l3-e02",
+          "stage": "learn",
+          "front": "allevare",
+          "back": "to raise (animals)",
+          "example": "Alleva duecento pecore."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l3-e03",
+          "stage": "learn",
+          "front": "il gregge",
+          "back": "flock",
+          "example": "Il gregge rischiava di essere venduto."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l3-e04",
+          "stage": "learn",
+          "front": "mollare",
+          "back": "to give up, quit (informal)",
+          "example": "Il primo inverno ho pensato di mollare."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-07-l3-e05",
+          "stage": "use",
+          "prompt": "Racconta a voce, in poche frasi, perché Davide ha cambiato vita e che cosa pensa oggi di quella scelta.",
+          "keywords": [
+            "nonno",
+            "banca",
+            "solitudine",
+            "lavoro duro"
+          ],
+          "modelAnswer": "Davide ha lasciato la banca per tornare in montagna, perché si sentiva più utile con le pecore e perché suo nonno si era ammalato. Oggi vive del suo lavoro, ma soffre la solitudine e dice che è una scelta dura, non una fuga.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "celi-07-l4",
+      "title": "Venezia e il biglietto d'ingresso: una prova difficile",
+      "minutes": 10,
+      "goal": "Leggere un testo autentico di circa 270 parole e coglierne idee e dettagli.",
+      "takeaway": "Cerca la risposta nella frase del testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-07-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Venezia e il biglietto d'ingresso: una prova difficile",
+          "passage": "Dalla scorsa primavera chi visita Venezia in alcuni giorni di grande affluenza deve pagare cinque euro per entrare nel centro storico. Il Comune l'ha definito un «esperimento» e ha promesso di analizzarne i risultati prima di decidere se renderlo permanente. A distanza di qualche mese, però, il bilancio è tutt'altro che chiaro.\n\nI sostenitori del biglietto fanno notare che la città, con meno di cinquantamila abitanti, riceve in alcune giornate oltre cinquantamila visitatori in più, la maggior parte dei quali non dorme in hotel e spende poco. «Chi viene per qualche ora usa i servizi, sporca le strade e non lascia niente», dice un assessore. Il biglietto, nelle intenzioni, dovrebbe scoraggiare soprattutto questo tipo di turismo e spingere i visitatori a prenotare con anticipo, in modo che il flusso si distribuisca meglio.\n\nI critici, tuttavia, osservano che nei giorni sottoposti al pagamento le presenze non sono diminuite in modo evidente. Per molti turisti cinque euro sono una spesa trascurabile, e il rischio è che la città diventi una specie di parco a tema con un ingresso a pagamento, accessibile soprattutto a chi se lo può permettere. Un'associazione di residenti sostiene inoltre che il vero problema sia un altro: la scomparsa dei negozi di vicinato, sostituiti da locali per turisti, e il costo degli affitti, che spinge i veneziani a trasferirsi in terraferma.\n\nGli studiosi sono prudenti. Secondo un docente di economia urbana, un solo strumento non basta: il biglietto può funzionare soltanto se accompagnato da misure su alloggi e trasporti. «Altrimenti», avverte, «si cura il sintomo senza toccare la causa». Il Comune per ora non cambia strada e annuncia che raccoglierà i dati fino alla fine dell'anno.",
+          "questions": [
+            {
+              "question": "Che cosa è stato introdotto a Venezia?",
+              "options": [
+                "Un biglietto per entrare nel centro storico in certi giorni",
+                "Il divieto di visitare la città a chi non prenota",
+                "Una tassa sugli alberghi",
+                "Un limite di orario per i negozi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quale tipo di turismo vorrebbe scoraggiare il Comune?",
+              "options": [
+                "Quello dei visitatori che restano a dormire",
+                "Quello di chi viene per poche ore e spende poco",
+                "Quello degli studenti stranieri",
+                "Quello dei residenti che tornano in città"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa osservano i critici sui risultati?",
+              "options": [
+                "Le presenze sono calate molto",
+                "Le presenze non sono diminuite in modo evidente",
+                "I turisti hanno chiesto di pagare di più",
+                "I negozi hanno aumentato i prezzi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale altro problema segnala l'associazione dei residenti?",
+              "options": [
+                "La chiusura dei musei",
+                "La perdita dei negozi di vicinato e gli affitti alti",
+                "La mancanza di hotel",
+                "Il numero troppo basso di turisti"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa intende il docente con «si cura il sintomo senza toccare la causa»?",
+              "options": [
+                "Che il biglietto è troppo costoso",
+                "Che il biglietto da solo non risolve i problemi di fondo",
+                "Che il Comune deve chiudere la città",
+                "Che i turisti sono la vera causa"
+              ],
+              "answer": 1
+            }
+          ],
+          "explanation": "1) Il biglietto di cinque euro vale solo nei giorni di grande affluenza. 2) L'assessore parla di chi viene per qualche ora e «non lascia niente». 3) Per molti turisti cinque euro sono una spesa trascurabile. 4) I negozi di vicinato scompaiono e gli affitti spingono i veneziani ad andarsene. 5) Senza misure su alloggi e trasporti il biglietto non basta."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l4-e02",
+          "stage": "learn",
+          "front": "l'affluenza",
+          "back": "turnout, crowds",
+          "example": "Nei giorni di grande affluenza si paga."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l4-e03",
+          "stage": "learn",
+          "front": "trascurabile",
+          "back": "negligible",
+          "example": "Per molti turisti cinque euro sono una spesa trascurabile."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-07-l4-e04",
+          "stage": "learn",
+          "front": "di vicinato",
+          "back": "neighbourhood (shops, services)",
+          "example": "I negozi di vicinato stanno scomparendo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-07-l4-e05",
+          "stage": "use",
+          "prompt": "Spiega a voce, in tre o quattro frasi, le ragioni a favore e contro il biglietto d'ingresso.",
+          "keywords": [
+            "biglietto",
+            "turismo",
+            "residenti",
+            "affitti"
+          ],
+          "modelAnswer": "Il Comune vuole scoraggiare il turismo di poche ore e distribuire meglio i visitatori. I critici rispondono che cinque euro non fermano nessuno e che i veri problemi sono gli affitti alti e la scomparsa dei negozi dei residenti.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "staccare",
+      "en": "to switch off, disconnect (from work)",
+      "example": "La sera non riesco a staccare dal lavoro."
+    },
+    {
+      "it": "la reperibilità",
+      "en": "being on call, availability",
+      "example": "La reperibilità permanente è un problema."
+    },
+    {
+      "it": "dal canto loro",
+      "en": "for their part",
+      "example": "Le aziende, dal canto loro, risparmiano sugli spazi."
+    },
+    {
+      "it": "concordare",
+      "en": "to agree on (a plan, a time)",
+      "example": "I giorni in sede sono concordati in anticipo."
+    },
+    {
+      "it": "la sella",
+      "en": "saddle",
+      "example": "Per proseguire bisogna scendere dalla sella."
+    },
+    {
+      "it": "di colpo",
+      "en": "suddenly, all at once",
+      "example": "La pista finisce di colpo."
+    },
+    {
+      "it": "sorvegliato",
+      "en": "supervised, guarded",
+      "example": "Un parcheggio sorvegliato per le biciclette."
+    },
+    {
+      "it": "intervenire",
+      "en": "to step in, to take part (in a discussion)",
+      "example": "Vorrei intervenire sul dibattito di questi giorni."
+    },
+    {
+      "it": "allevare",
+      "en": "to raise (animals)",
+      "example": "Alleva duecento pecore."
+    },
+    {
+      "it": "il gregge",
+      "en": "flock",
+      "example": "Il gregge rischiava di essere venduto."
+    },
+    {
+      "it": "mollare",
+      "en": "to give up, quit (informal)",
+      "example": "Il primo inverno ho pensato di mollare."
+    },
+    {
+      "it": "la scorciatoia",
+      "en": "shortcut",
+      "example": "Non c'è nessuna scorciatoia."
+    },
+    {
+      "it": "stupirsi",
+      "en": "to be surprised",
+      "example": "I miei amici si stupiscono."
+    },
+    {
+      "it": "l'affluenza",
+      "en": "turnout, crowds",
+      "example": "Nei giorni di grande affluenza si paga."
+    },
+    {
+      "it": "trascurabile",
+      "en": "negligible",
+      "example": "Per molti turisti cinque euro sono una spesa trascurabile."
+    },
+    {
+      "it": "di vicinato",
+      "en": "neighbourhood (shops, services)",
+      "example": "I negozi di vicinato stanno scomparendo."
+    },
+    {
+      "it": "la terraferma",
+      "en": "the mainland",
+      "example": "Molti veneziani si trasferiscono in terraferma."
+    },
+    {
+      "it": "tutt'altro che",
+      "en": "anything but, far from",
+      "example": "Il bilancio è tutt'altro che chiaro."
+    }
+  ]
+}
