@@ -82,6 +82,24 @@ class DictionaryRepository(context: Context) {
         }
     }
 
+    /** Content words after [afterRank], most frequent first; empty when the dictionary is not available. */
+    suspend fun contentWordsAfter(afterRank: Int, limit: Int): List<LemmaRow> = withStore { it.contentWordsAfter(afterRank, limit) }
+
+    /** The most frequent verbs with their forms, for the verb drill. */
+    suspend fun verbs(maxRank: Int, limit: Int): List<LemmaRow> = withStore { it.verbsUpTo(maxRank, limit) }
+
+    private suspend fun withStore(block: (DictionaryLookup) -> List<LemmaRow>): List<LemmaRow> {
+        val ready = availability() as? DictionaryAvailability.Ready ?: return emptyList()
+        return withContext(Dispatchers.IO) {
+            try {
+                block(ready.lookup)
+            } catch (e: SQLiteException) {
+                Log.w(TAG, "query failed", e)
+                emptyList()
+            }
+        }
+    }
+
     suspend fun entry(id: Long): LemmaRow? {
         val ready = availability() as? DictionaryAvailability.Ready ?: return null
         return withContext(Dispatchers.IO) {
@@ -204,6 +222,16 @@ private class SqliteDictionaryStore(private val db: SQLiteDatabase) : Dictionary
 
     override fun lemmasInRange(lower: String, upper: String, limit: Int): List<LemmaRow> =
         db.rawQuery(DictionarySql.LEMMAS_IN_RANGE, arrayOf(lower, upper, limit.toString())).use { c ->
+            buildList { while (c.moveToNext()) add(c.lemmaAt(0)) }
+        }
+
+    override fun contentWordsAfter(afterRank: Int, limit: Int): List<LemmaRow> =
+        db.rawQuery(DictionarySql.CONTENT_WORDS_AFTER, arrayOf(afterRank.toString(), limit.toString())).use { c ->
+            buildList { while (c.moveToNext()) add(c.lemmaAt(0)) }
+        }
+
+    override fun verbsUpTo(maxRank: Int, limit: Int): List<LemmaRow> =
+        db.rawQuery(DictionarySql.VERBS_UP_TO, arrayOf(maxRank.toString(), limit.toString())).use { c ->
             buildList { while (c.moveToNext()) add(c.lemmaAt(0)) }
         }
 

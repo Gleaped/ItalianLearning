@@ -76,6 +76,8 @@ class MainActivity : ComponentActivity() {
         lifecycleScope.launch {
             container.settings.markOpened(System.currentTimeMillis())
             container.reminderScheduler.reschedule()
+            // A few new core words a day; a failure here must not affect the app.
+            runCatching { container.coreDeck.topUp() }
         }
     }
 }

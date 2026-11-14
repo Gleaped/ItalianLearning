@@ -53,6 +53,7 @@ fun HomeScreen(
     onMix: () -> Unit = {},
     onExamSettings: () -> Unit = {},
     onOral: () -> Unit = {},
+    onVerbs: () -> Unit = {},
 ) {
     val container = LocalAppContainer.current
     val vm: OverviewViewModel = viewModel(factory = OverviewViewModel.factory(container))
@@ -184,6 +185,12 @@ fun HomeScreen(
                         onClick = onPractice,
                     )
                 }
+                PlanRow(
+                    done = false,
+                    title = "Coniuga",
+                    detail = "Ten verb forms in the tenses you choose, about 3 min",
+                    onClick = onVerbs,
+                )
                 if (o.mixAvailable) {
                     PlanRow(
                         done = o.mixDoneToday,

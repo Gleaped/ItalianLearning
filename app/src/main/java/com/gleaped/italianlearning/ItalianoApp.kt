@@ -5,6 +5,7 @@ import android.app.Application
 import android.content.Context
 import com.gleaped.italianlearning.data.LearningRepository
 import com.gleaped.italianlearning.data.content.ContentRepository
+import com.gleaped.italianlearning.data.core.CoreDeckService
 import com.gleaped.italianlearning.data.db.AppDatabase
 import com.gleaped.italianlearning.data.dictionary.DictionaryRepository
 import com.gleaped.italianlearning.data.reference.ReferenceRepository
@@ -37,6 +38,7 @@ class AppContainer(context: Context) {
     val reminderContent: ReminderContentBuilder by lazy { ReminderContentBuilder(content, learning, settings) }
     val tts: TtsManager by lazy { TtsManager(appContext) }
     val writing: WritingRepository by lazy { WritingRepository(appContext) }
+    val coreDeck: CoreDeckService by lazy { CoreDeckService(settings, content, dictionary, learning) }
     val flags: FlagRepository by lazy { FlagRepository(appContext) }
     val oral: OralRepository by lazy { OralRepository(appContext) }
     val backup: BackupRepository by lazy { BackupRepository(database, writing, settings) }

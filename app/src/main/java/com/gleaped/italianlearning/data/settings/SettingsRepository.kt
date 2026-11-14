@@ -1,6 +1,7 @@
 package com.gleaped.italianlearning.data.settings
 
 import com.gleaped.italianlearning.domain.speech.QuietSpeech
+import com.gleaped.italianlearning.domain.srs.CoreDeck
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -67,6 +68,8 @@ data class Settings(
     val onboarded: Boolean = false,
     /** The day of the CELI 3 exam as an epoch day; 0 = not set. */
     val examDateEpochDay: Long = 0L,
+    /** Core words added to the review deck each day; 0 = off. */
+    val coreWordsPerDay: Int = CoreDeck.DEFAULT_PER_DAY,
 ) {
     /** Whether speaking steps use the microphone right now. */
     fun speechNow(nowMillis: Long = System.currentTimeMillis()): Boolean =
@@ -125,6 +128,9 @@ class SettingsRepository(context: Context) {
         val quietSpeechUntil = longPreferencesKey("quiet_speech_until")
         val lastMixDay = longPreferencesKey("last_mix_day")
         val examDate = longPreferencesKey("exam_date_epoch_day")
+        val coreWordsPerDay = intPreferencesKey("core_words_per_day")
+        val coreNextRank = intPreferencesKey("core_next_rank")
+        val coreLastDay = longPreferencesKey("core_last_day")
     }
 
     /** The lesson the learner left part-way, if any. */
@@ -161,6 +167,7 @@ class SettingsRepository(context: Context) {
             userName = p[Keys.userName] ?: "",
             onboarded = p[Keys.onboarded] ?: false,
             examDateEpochDay = p[Keys.examDate] ?: 0L,
+            coreWordsPerDay = p[Keys.coreWordsPerDay] ?: defaults.coreWordsPerDay,
         )
     }.distinctUntilChanged()
 
@@ -195,6 +202,21 @@ class SettingsRepository(context: Context) {
     val lastMixDay: Flow<Long> = store.data.map { it[Keys.lastMixDay] ?: 0L }.distinctUntilChanged()
 
     suspend fun markMixDone(epochDay: Long) = store.edit { it[Keys.lastMixDay] = epochDay }
+
+    suspend fun setCoreWordsPerDay(value: Int) { store.edit { it[Keys.coreWordsPerDay] = value.coerceIn(0, CoreDeck.MAX_PER_DAY) } }
+
+    /** Where the core deck stands: the frequency rank to continue after, and the day it last added words. */
+    suspend fun coreDeckState(): Pair<Int, Long> {
+        val p = store.data.first()
+        return (p[Keys.coreNextRank] ?: CoreDeck.START_RANK) to (p[Keys.coreLastDay] ?: 0L)
+    }
+
+    suspend fun saveCoreDeckState(nextRank: Int, day: Long) {
+        store.edit {
+            it[Keys.coreNextRank] = nextRank
+            it[Keys.coreLastDay] = day
+        }
+    }
 
     /** Sets the exam day (an epoch day); 0 clears it. */
     suspend fun setExamDate(epochDay: Long) {
