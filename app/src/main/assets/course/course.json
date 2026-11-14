@@ -618,6 +618,15 @@
       "summary": "Six long recordings (150 to 200 words): news bulletin, voicemail, museum guide, airport announcement, radio feature and a travel story, five questions each.",
       "available": true,
       "module": "celi-m2"
+    },
+    {
+      "id": "celi-09",
+      "level": "CELI3",
+      "order": 9,
+      "title": "Simulazione d'esame 2",
+      "summary": "A second timed mock of all three booklets and the oral, with new texts and recordings.",
+      "available": true,
+      "module": "celi-m1"
     }
   ],
   "modules": [
