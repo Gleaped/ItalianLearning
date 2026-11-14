@@ -320,6 +320,17 @@
           "explanation": "After se use the congiuntivo imperfetto (avessi), not the condizionale."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-02-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "È solo un'ipotesi, non è ancora deciso.",
+          "answers": [
+            "È solo un'ipotesi, non è ancora deciso."
+          ],
+          "explanation": "l'ipotesi (f.) = hypothesis, possibility"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-02-l2-e09",
           "stage": "use",
@@ -794,6 +805,17 @@
             "risparmio"
           ],
           "explanation": "Type 2: se + congiuntivo imperfetto, then condizionale."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-02-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Accetto, a una condizione.",
+          "answers": [
+            "Accetto, a una condizione."
+          ],
+          "explanation": "la condizione = condition"
         },
         {
           "type": "free_write",

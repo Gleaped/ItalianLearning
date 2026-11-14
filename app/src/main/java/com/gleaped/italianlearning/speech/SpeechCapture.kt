@@ -1,5 +1,6 @@
 package com.gleaped.italianlearning.speech
 
+import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -49,6 +50,7 @@ fun SpeechCapture(
     modifier: Modifier = Modifier,
 ) {
     val context = LocalContext.current
+    val tts = LocalAppContainer.current.tts
     val currentOnResult by rememberUpdatedState(onResult)
     val currentOnUnavailable by rememberUpdatedState(onUnavailable)
     var listening by remember { mutableStateOf(false) }
@@ -121,6 +123,8 @@ fun SpeechCapture(
             putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, true)
             putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, context.packageName)
         }
+        // The microphone must not pick up the app's own voice.
+        tts.stop()
         listening = true
         status = "Ascolto…"
         r.startListening(intent)

@@ -153,6 +153,18 @@
           "hint": "mangiare → mangiato"
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-01-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ieri sera sono rimasto a casa.",
+          "answers": [
+            "Ieri sera sono rimasto a casa."
+          ],
+          "explanation": "ieri sera = last night, yesterday evening",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-01-l1-e09",
           "stage": "use",
@@ -339,6 +351,18 @@
           "explanation": "Andare takes essere; for 'we' the participle is andati. Dal medico = to the doctor's."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-01-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Domenica mattina ho pulito casa.",
+          "answers": [
+            "Domenica mattina ho pulito casa."
+          ],
+          "explanation": "pulire casa = to clean the house",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-01-l2-e09",
           "stage": "use",
@@ -495,6 +519,18 @@
             "Ho letto il tuo messaggio e ho risposto."
           ],
           "explanation": "Leggere → letto and rispondere → risposto, both with avere."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-01-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Che cosa hai fatto nel fine settimana?",
+          "answers": [
+            "Che cosa hai fatto nel fine settimana?"
+          ],
+          "explanation": "il fine settimana = the weekend",
+          "slow": true
         },
         {
           "type": "speak_respond",
@@ -819,6 +855,18 @@
             "We watched a movie and then went out."
           ],
           "explanation": "Vedere → visto (avere); uscire → usciti (essere, agreeing with 'we')."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-01-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Sabato ho fatto la spesa al mercato.",
+          "answers": [
+            "Sabato ho fatto la spesa al mercato."
+          ],
+          "explanation": "fare la spesa = to do the food shopping",
+          "slow": true
         },
         {
           "type": "roleplay",

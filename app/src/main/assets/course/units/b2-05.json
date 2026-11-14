@@ -140,6 +140,17 @@
           "explanation": "Feminine subject (la legge) → stata approvata."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-05-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Hai letto l'avviso in portineria?",
+          "answers": [
+            "Hai letto l'avviso in portineria?"
+          ],
+          "explanation": "l'avviso (m.) = notice"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-05-l1-e09",
           "stage": "use",
@@ -442,6 +453,17 @@
             "The documents get checked at the entrance."
           ],
           "explanation": "Vengono controllati = are checked (passive of an action)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-05-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Le chiavi saranno consegnate dall'amministratore.",
+          "answers": [
+            "Le chiavi saranno consegnate dall'amministratore."
+          ],
+          "explanation": "l'amministratore di condominio (m.) = building manager"
         },
         {
           "type": "speak_respond",
@@ -750,6 +772,17 @@
             "We rent rooms to students."
           ],
           "explanation": "Si passivante is typical of ads: si affittano, si vendono."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-05-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Strada chiusa per lavori in corso.",
+          "answers": [
+            "Strada chiusa per lavori in corso."
+          ],
+          "explanation": "i lavori in corso = work in progress, roadworks"
         },
         {
           "type": "free_write",

@@ -141,6 +141,17 @@
           "explanation": "With a past reporting verb the present must shift to the imperfetto."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-06-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ti ho lasciato un messaggio in segreteria.",
+          "answers": [
+            "Ti ho lasciato un messaggio in segreteria."
+          ],
+          "explanation": "il messaggio in segreteria = voicemail message"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-06-l1-e09",
           "stage": "use",
@@ -428,6 +439,17 @@
           "explanation": "A promise reported later uses the condizionale passato: avrebbe richiamato."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-06-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ha detto che sarebbe tornato il giorno dopo.",
+          "answers": [
+            "Ha detto che sarebbe tornato il giorno dopo."
+          ],
+          "explanation": "il giorno dopo / l'indomani = the next day"
+        },
+        {
           "type": "roleplay",
           "id": "b2-06-l3-e09",
           "stage": "use",
@@ -619,6 +641,17 @@
           "explanation": "A yes/no question needs se, not che."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-06-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi ha chiesto che cosa avevo fatto il giorno prima.",
+          "answers": [
+            "Mi ha chiesto che cosa avevo fatto il giorno prima."
+          ],
+          "explanation": "il giorno prima = the day before"
+        },
+        {
           "type": "speak_respond",
           "id": "b2-06-l4-e09",
           "stage": "use",
@@ -751,6 +784,17 @@
             "Mi ha detto che sarebbe venuto lì l'indomani."
           ],
           "explanation": "Place and time words shift: qui → lì, domani → il giorno dopo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-06-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Puoi riferire a Marco che ho chiamato?",
+          "answers": [
+            "Puoi riferire a Marco che ho chiamato?"
+          ],
+          "explanation": "riferire = to pass on, report"
         },
         {
           "type": "reading",

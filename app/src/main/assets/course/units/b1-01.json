@@ -691,6 +691,17 @@
           "explanation": "Found out is ho saputo (or ho scoperto); the pharmacy's state is era chiusa."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-01-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "All'improvviso è andata via la luce.",
+          "answers": [
+            "All'improvviso è andata via la luce."
+          ],
+          "explanation": "all'improvviso = suddenly"
+        },
+        {
           "type": "reading",
           "id": "b1-01-l4-e09",
           "stage": "use",

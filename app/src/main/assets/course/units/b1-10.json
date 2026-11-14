@@ -131,6 +131,17 @@
           "hint": "Ho un vicino ___ …"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-10-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho letto il tuo annuncio sul sito.",
+          "answers": [
+            "Ho letto il tuo annuncio sul sito."
+          ],
+          "explanation": "l'annuncio (m.) = advert, notice"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-10-l1-e08",
           "stage": "use",
@@ -282,6 +293,17 @@
           "explanation": "After a preposition (di) the pronoun must be cui, not che."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-10-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho chiesto all'ufficio oggetti smarriti della stazione.",
+          "answers": [
+            "Ho chiesto all'ufficio oggetti smarriti della stazione."
+          ],
+          "explanation": "l'ufficio oggetti smarriti = lost property office"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-10-l2-e09",
           "stage": "use",
@@ -420,6 +442,17 @@
           "explanation": "'What' as 'the thing that' is quello che or ciò che."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-10-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "È il documento di cui ho bisogno.",
+          "answers": [
+            "È il documento di cui ho bisogno."
+          ],
+          "explanation": "avere bisogno di = to need"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-10-l3-e09",
           "stage": "use",
@@ -529,6 +562,17 @@
             "È il negozio nel quale ho comprato la bici."
           ],
           "explanation": "For a place, where is dove or in cui."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-10-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il cacciavite l'ho comprato in ferramenta.",
+          "answers": [
+            "Il cacciavite l'ho comprato in ferramenta."
+          ],
+          "explanation": "la ferramenta = hardware shop"
         },
         {
           "type": "roleplay",

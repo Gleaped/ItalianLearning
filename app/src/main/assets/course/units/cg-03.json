@@ -118,6 +118,17 @@
           "explanation": "After penso che the verb moves to the congiuntivo: è becomes sia."
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-03-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Lascio che i bambini giochino un po'.",
+          "answers": [
+            "Lascio che i bambini giochino un po'."
+          ],
+          "explanation": "lasciare che = to let, to allow"
+        },
+        {
           "type": "speak_respond",
           "id": "cg-03-l1-e08",
           "stage": "use",
@@ -283,6 +294,17 @@
           "explanation": "After voglio che the verb is in the congiuntivo: fa becomes faccia."
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-03-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho paura che faccia freddo.",
+          "answers": [
+            "Ho paura che faccia freddo."
+          ],
+          "explanation": "avere paura = to be afraid"
+        },
+        {
           "type": "speak_respond",
           "id": "cg-03-l2-e09",
           "stage": "use",
@@ -442,6 +464,17 @@
           ],
           "hint": "partire → parta",
           "explanation": "Mi dispiace che is a feeling trigger: parte becomes parta."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-03-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi dispiace che tu non possa venire.",
+          "answers": [
+            "Mi dispiace che tu non possa venire."
+          ],
+          "explanation": "Mi dispiace che… = I'm sorry that…"
         },
         {
           "type": "roleplay",
@@ -612,6 +645,17 @@
           "explanation": "Doubt triggers the congiuntivo: è becomes sia."
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-03-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi fa piacere che tu stia meglio.",
+          "answers": [
+            "Mi fa piacere che tu stia meglio."
+          ],
+          "explanation": "Mi fa piacere che… = I'm glad that…"
+        },
+        {
           "type": "speak_respond",
           "id": "cg-03-l4-e09",
           "stage": "use",
@@ -773,6 +817,17 @@
           ],
           "hint": "parlare → parli",
           "explanation": "Bisogna che + congiuntivo: parla becomes parli."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-03-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi sembra che sia chiuso.",
+          "answers": [
+            "Mi sembra che sia chiuso."
+          ],
+          "explanation": "Mi sembra che… = It seems to me that…"
         },
         {
           "type": "roleplay",

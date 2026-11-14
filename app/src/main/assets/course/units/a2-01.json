@@ -179,6 +179,18 @@
           "hint": "mangiare → mangiando"
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-01-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "In questo momento sto lavorando.",
+          "answers": [
+            "In questo momento sto lavorando."
+          ],
+          "explanation": "in questo momento = at the moment",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-01-l1-e09",
           "stage": "use",
@@ -330,6 +342,18 @@
             "Io sto bevendo un caffè."
           ],
           "explanation": "Bere → bevendo, with sto."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-01-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi sto lavando i denti.",
+          "answers": [
+            "Mi sto lavando i denti."
+          ],
+          "explanation": "lavarsi i denti = to brush one's teeth",
+          "slow": true
         },
         {
           "type": "roleplay",
@@ -516,6 +540,18 @@
           "explanation": "The pronoun goes before stare or attaches to the gerundio, never between them."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-01-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Aspetta un attimo, mi sto vestendo.",
+          "answers": [
+            "Aspetta un attimo, mi sto vestendo."
+          ],
+          "explanation": "un attimo = a moment",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-01-l3-e09",
           "stage": "use",
@@ -653,6 +689,18 @@
             "Il negozio sta per chiudere."
           ],
           "explanation": "Stare per + infinito: sta per chiudere."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-01-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Tra poco sto per uscire.",
+          "answers": [
+            "Tra poco sto per uscire."
+          ],
+          "explanation": "tra poco = soon, in a moment",
+          "slow": true
         },
         {
           "type": "reading",
@@ -836,6 +884,18 @@
             "Ogni mattina prendo il caffè al bar."
           ],
           "explanation": "Ogni mattina signals a habit, so use the simple present."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-01-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Proprio ora sto uscendo.",
+          "answers": [
+            "Proprio ora sto uscendo."
+          ],
+          "explanation": "proprio ora = right now",
+          "slow": true
         },
         {
           "type": "free_write",

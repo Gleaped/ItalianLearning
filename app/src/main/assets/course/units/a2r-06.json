@@ -145,6 +145,18 @@
           "hint": "lavorare → lavorer-"
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-06-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "L'anno prossimo cercherò un'altra casa.",
+          "answers": [
+            "L'anno prossimo cercherò un'altra casa."
+          ],
+          "explanation": "l'anno prossimo = next year",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-06-l1-e09",
           "stage": "use",
@@ -339,6 +351,18 @@
           "explanation": "Venire has a double r in the futuro: verrò."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-06-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "La settimana prossima sarò a Roma.",
+          "answers": [
+            "La settimana prossima sarò a Roma."
+          ],
+          "explanation": "la settimana prossima = next week",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-06-l2-e09",
           "stage": "use",
@@ -503,6 +527,18 @@
           "hint": "di + l'autobus"
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-06-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il treno regionale è più economico.",
+          "answers": [
+            "Il treno regionale è più economico."
+          ],
+          "explanation": "economico = cheap, inexpensive",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-06-l3-e09",
           "stage": "use",
@@ -642,6 +678,18 @@
             "Luca è tanto alto quanto Marco."
           ],
           "explanation": "Equality is tanto … quanto or come, not che."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-06-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Tra due giorni partirò per le vacanze.",
+          "answers": [
+            "Tra due giorni partirò per le vacanze."
+          ],
+          "explanation": "tra / fra (due giorni) = in (two days' time)",
+          "slow": true
         },
         {
           "type": "reading",
@@ -812,6 +860,18 @@
             "Starò meglio domani."
           ],
           "explanation": "After a verb use meglio; the futuro of sentirsi is mi sentirò."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-06-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "È stato il viaggio peggiore della mia vita.",
+          "answers": [
+            "È stato il viaggio peggiore della mia vita."
+          ],
+          "explanation": "peggiore = worse (adjective)",
+          "slow": true
         },
         {
           "type": "roleplay",

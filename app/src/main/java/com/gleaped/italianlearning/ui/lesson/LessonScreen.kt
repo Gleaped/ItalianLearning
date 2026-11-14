@@ -1,5 +1,8 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import com.gleaped.italianlearning.domain.speech.SpokenWord
+import com.gleaped.italianlearning.domain.speech.SpokenWords
+import com.gleaped.italianlearning.speech.SpeechCapture
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -253,6 +256,7 @@ private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit, onOverride
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             Box(Modifier.heightIn(max = maxHeight).verticalScroll(rememberScrollState())) { FeedbackBody(feedback) }
+            feedback.sayIt?.let { SayIt(it) }
             Button(onClick = onContinue, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
                 Text("Continue", style = MaterialTheme.typography.titleMedium)
             }
@@ -265,6 +269,42 @@ private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit, onOverride
             }
         }
     }
+}
+
+/**
+ * "Say it": the correct answer is played, then the learner repeats it into the microphone
+ * and sees which words came through. Practice only; it never changes the score.
+ */
+@Composable
+private fun SayIt(text: String) {
+    val tts = LocalAppContainer.current.tts
+    var open by remember(text) { mutableStateOf(false) }
+    var words by remember(text) { mutableStateOf<List<SpokenWord>?>(null) }
+    var unavailable by remember { mutableStateOf(false) }
+    if (unavailable) return
+    if (!open) {
+        OutlinedButton(
+            onClick = {
+                open = true
+                tts.speak(text)
+            },
+            modifier = Modifier.fillMaxWidth(),
+            colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface),
+        ) { Text("Listen and say it") }
+        return
+    }
+    words?.let { marked ->
+        MarkedSentence(marked, style = MaterialTheme.typography.titleMedium)
+        Text(
+            if (SpokenWords.allHeard(marked)) "Bene! Every word came through." else "Say the underlined words again.",
+            style = MaterialTheme.typography.bodySmall,
+        )
+    }
+    SpeechCapture(
+        enabled = true,
+        onResult = { alternatives -> words = SpokenWords.mark(SpokenWords.best(alternatives, text), text) },
+        onUnavailable = { unavailable = true },
+    )
 }
 
 /** Widest text column in lessons: about 60 characters per line on tablets and in landscape. */
@@ -361,7 +401,16 @@ fun FeedbackBody(feedback: Feedback) {
         feedback.note?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
         val showExpected = feedback.expected != null &&
             (feedback.verdict != com.gleaped.italianlearning.domain.grading.Verdict.CORRECT || feedback.expectedLabel != "Answer")
-        if (showExpected) {
+        val spoken = feedback.spoken
+        if (spoken != null) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                MarkedSentence(spoken, Modifier.weight(1f), MaterialTheme.typography.titleMedium)
+                SpeakerButton(feedback.expected ?: spoken.joinToString(" ") { it.text })
+            }
+            if (!SpokenWords.allHeard(spoken)) {
+                Text("The underlined words were not heard. Listen and say them again.", style = MaterialTheme.typography.bodySmall)
+            }
+        } else if (showExpected) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) {
                     Text(feedback.expectedLabel, style = MaterialTheme.typography.labelMedium)

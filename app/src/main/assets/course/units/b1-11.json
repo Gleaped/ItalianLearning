@@ -146,6 +146,17 @@
           "explanation": "Marco's leaving came before the call, so it goes in the trapassato."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-11-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il treno era già partito.",
+          "answers": [
+            "Il treno era già partito."
+          ],
+          "explanation": "già = already"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-11-l1-e09",
           "stage": "use",
@@ -277,6 +288,17 @@
             "Luca non era mai stato a Roma"
           ],
           "explanation": "Essere takes essere: era stato, with non… mai around it."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-11-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non erano ancora arrivati.",
+          "answers": [
+            "Non erano ancora arrivati."
+          ],
+          "explanation": "non… ancora = not yet"
         },
         {
           "type": "speak_respond",
@@ -412,6 +434,17 @@
           ],
           "explanation": "Dopo + aver + participle expresses the earlier action.",
           "hint": "Dopo aver…"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-11-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Appena sono arrivato, ti ho chiamato.",
+          "answers": [
+            "Appena sono arrivato, ti ho chiamato."
+          ],
+          "explanation": "appena = as soon as, just"
         },
         {
           "type": "speak_respond",
@@ -572,6 +605,17 @@
             "Quando la polizia è arrivata il ladro era già scappato."
           ],
           "explanation": "The thief fled before the police arrived, so scappare goes in the trapassato: era scappato."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-11-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non ero mai stato a Napoli.",
+          "answers": [
+            "Non ero mai stato a Napoli."
+          ],
+          "explanation": "non… mai = never"
         },
         {
           "type": "roleplay",

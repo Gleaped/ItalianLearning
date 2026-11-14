@@ -167,6 +167,17 @@
           "explanation": "Eppure translates \"and yet\" after a surprising result."
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-09-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non mi disturbi, anzi.",
+          "answers": [
+            "Non mi disturbi, anzi."
+          ],
+          "explanation": "anzi = on the contrary; or rather"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-09-l1-e09",
           "stage": "use",
@@ -468,6 +479,17 @@
             "Ho l'impressione che manchi ancora qualche documento."
           ],
           "explanation": "Avere l'impressione che takes the congiuntivo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-09-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Piuttosto che aspettare, telefoniamo.",
+          "answers": [
+            "Piuttosto che aspettare, telefoniamo."
+          ],
+          "explanation": "piuttosto che = rather than"
         },
         {
           "type": "roleplay",

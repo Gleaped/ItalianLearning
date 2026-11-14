@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
             val loaded by container.settings.settings.collectAsStateWithLifecycle<Settings?>(initialValue = null)
             val settings = loaded ?: Settings(onboarded = true)
             LaunchedEffect(settings.speechRate) { container.tts.setRate(settings.speechRate) }
+            LaunchedEffect(settings.voiceName) { container.tts.setPreferredVoice(settings.voiceName) }
             CompositionLocalProvider(LocalAppContainer provides container) {
                 ItalianoTheme(themeMode = settings.themeMode, textSize = settings.textSize) {
                     if (loaded != null && !settings.onboarded) {

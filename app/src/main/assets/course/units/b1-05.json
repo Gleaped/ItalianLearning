@@ -148,6 +148,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-05-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Come si fa a rinnovare l'abbonamento?",
+          "answers": [
+            "Come si fa a rinnovare l'abbonamento?"
+          ],
+          "explanation": "Come si fa a…? = How do you…?"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-05-l1-e08",
           "instruction": "Rispondi ad alta voce in 2–3 frasi.",
@@ -273,6 +284,17 @@
           ],
           "explanation": "Reflexive verbs use ci si, never si si.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-05-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Qui la raccolta differenziata si fa porta a porta.",
+          "answers": [
+            "Qui la raccolta differenziata si fa porta a porta."
+          ],
+          "explanation": "la raccolta differenziata = recycling, sorted waste collection"
         },
         {
           "type": "reading",
@@ -476,6 +498,17 @@
           ],
           "explanation": "Negative tu imperative = non + infinitive: non mangiare.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-05-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "L'umido si raccoglie tre volte a settimana.",
+          "answers": [
+            "L'umido si raccoglie tre volte a settimana."
+          ],
+          "explanation": "l'umido (m.) = food / organic waste"
         },
         {
           "type": "speak_respond",
@@ -773,6 +806,17 @@
           ],
           "explanation": "Negative Lei imperative: non si preoccupi.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-05-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho fatto l'abbonamento mensile.",
+          "answers": [
+            "Ho fatto l'abbonamento mensile."
+          ],
+          "explanation": "l'abbonamento (m.) = season ticket, subscription, pass"
         },
         {
           "type": "roleplay",

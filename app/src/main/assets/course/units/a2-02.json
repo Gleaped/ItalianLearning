@@ -130,6 +130,18 @@
           "explanation": "Piacere in the passato prossimo: è piaciuto, agreeing with il film."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-02-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "La serata mi è piaciuta molto.",
+          "answers": [
+            "La serata mi è piaciuta molto."
+          ],
+          "explanation": "la serata = the evening (as an event)",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-02-l1-e09",
           "stage": "use",
@@ -287,6 +299,18 @@
           "explanation": "A taste in the past over a period: mi piaceva."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-02-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il ristorante non mi è piaciuto per niente.",
+          "answers": [
+            "Il ristorante non mi è piaciuto per niente."
+          ],
+          "explanation": "non mi è piaciuto per niente = I didn't like it at all",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-02-l2-e09",
           "stage": "use",
@@ -440,6 +464,18 @@
             "Mi piacerebbe imparare a cucinare."
           ],
           "explanation": "Both mi piacerebbe + infinitive and vorrei + infinitive express a wish."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-02-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non mi piace più il caffè dolce.",
+          "answers": [
+            "Non mi piace più il caffè dolce."
+          ],
+          "explanation": "non … più = no longer",
+          "slow": true
         },
         {
           "type": "roleplay",
@@ -617,6 +653,18 @@
             "Mi piacerebbero due giorni di riposo."
           ],
           "explanation": "Two days is plural, so piacerebbero."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-02-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Da piccoli ci piaceva giocare fuori.",
+          "answers": [
+            "Da piccoli ci piaceva giocare fuori."
+          ],
+          "explanation": "da piccoli = as children",
+          "slow": true
         },
         {
           "type": "free_write",

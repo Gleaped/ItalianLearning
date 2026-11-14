@@ -111,6 +111,17 @@
           "explanation": "Mi aspettavo che needs the congiuntivo imperfetto: fosse."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b2-04-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "L'appartamento non corrispondeva all'annuncio.",
+          "answers": [
+            "L'appartamento non corrispondeva all'annuncio."
+          ],
+          "explanation": "l'annuncio (m.) = advert, listing"
+        },
+        {
           "type": "reading",
           "id": "b2-04-l1-e08",
           "stage": "use",
@@ -297,6 +308,17 @@
             "Vi sarei grata se poteste restituirmi metà dell'importo."
           ],
           "explanation": "Vi sarei grato/a se + congiuntivo imperfetto: poteste."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-04-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho inviato un reclamo all'agenzia.",
+          "answers": [
+            "Ho inviato un reclamo all'agenzia."
+          ],
+          "explanation": "il reclamo = complaint"
         },
         {
           "type": "free_write",
@@ -602,6 +624,17 @@
           ],
           "hint": "arriveremo → sarebbero arrivati",
           "explanation": "A promise seen from the past → condizionale passato: sarebbero arrivati."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b2-04-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "L'agenzia ha deciso di venirci incontro.",
+          "answers": [
+            "L'agenzia ha deciso di venirci incontro."
+          ],
+          "explanation": "venire incontro a qualcuno = to meet someone halfway"
         },
         {
           "type": "free_write",

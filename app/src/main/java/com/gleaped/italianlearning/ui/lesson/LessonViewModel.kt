@@ -1,5 +1,7 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import com.gleaped.italianlearning.domain.speech.SpokenWord
+import com.gleaped.italianlearning.content.SentenceBuild
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -43,6 +45,10 @@ data class Feedback(
     val expectedLabel: String = "Answer",
     /** Offers "My answer was right"; set by the lesson player for typed and spoken answers. */
     val canOverride: Boolean = false,
+    /** A spoken answer word by word: [expected] is then shown with the missed words marked. */
+    val spoken: List<SpokenWord>? = null,
+    /** Italian the learner can repeat aloud from the feedback panel; set by the lesson player. */
+    val sayIt: String? = null,
 )
 
 data class LessonSummary(
@@ -232,6 +238,7 @@ class LessonViewModel(
             feedback = feedback.copy(
                 explanation = feedback.explanation ?: running.exercise.explanation,
                 canOverride = feedback.verdict != Verdict.CORRECT && canOverride(running.exercise),
+                sayIt = sayable(running.exercise, feedback).takeIf { running.speechEnabled },
             ),
         )
     }
@@ -366,6 +373,14 @@ class LessonViewModel(
     companion object {
         /** How often a missed item is re-asked in the end-of-lesson round if it is missed again. */
         const val MAX_RETRIES = 2
+
+        /** The Italian answer to repeat aloud after a written exercise, if it has one. */
+        fun sayable(exercise: Exercise, feedback: Feedback): String? = when (exercise) {
+            is GapFill, is Transform, is ErrorCorrection, is ListenTranscribe, is Conjugation, is SentenceBuild ->
+                feedback.expected
+            is Translate -> feedback.expected.takeIf { !exercise.fromItalian }
+            else -> null
+        }?.takeIf { it.isNotBlank() }
 
         /** Typed and spoken answers, where a correct answer can be marked wrong. */
         fun canOverride(exercise: Exercise): Boolean = when (exercise) {

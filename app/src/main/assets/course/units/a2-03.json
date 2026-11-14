@@ -151,6 +151,18 @@
           "explanation": "The negative with tu uses non + infinitive."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-03-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Al prossimo incrocio gira a sinistra.",
+          "answers": [
+            "Al prossimo incrocio gira a sinistra."
+          ],
+          "explanation": "l'incrocio = crossroads",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-03-l1-e09",
           "stage": "use",
@@ -306,6 +318,18 @@
             "Per favore, abbi pazienza."
           ],
           "explanation": "Essere gives sii (sii paziente); avere gives abbi (abbi pazienza)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-03-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Vai dritto fino alla piazza.",
+          "answers": [
+            "Vai dritto fino alla piazza."
+          ],
+          "explanation": "andare dritto = to go straight on",
+          "slow": true
         },
         {
           "type": "roleplay",
@@ -505,6 +529,18 @@
           "explanation": "With voi the negative is non + the voi form, not the infinitive."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2-03-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Aspettami davanti alla stazione!",
+          "answers": [
+            "Aspettami davanti alla stazione!"
+          ],
+          "explanation": "aspettare = to wait",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2-03-l3-e09",
           "stage": "use",
@@ -655,6 +691,18 @@
             "Dimmi la verità."
           ],
           "explanation": "Di' + mi gives dimmi."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-03-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Non preoccuparti, ci penso io.",
+          "answers": [
+            "Non preoccuparti, ci penso io."
+          ],
+          "explanation": "non preoccuparti = don't worry",
+          "slow": true
         },
         {
           "type": "roleplay",
@@ -833,6 +881,18 @@
             "Non ti preoccupare, è tutto a posto."
           ],
           "explanation": "The negative with tu uses the infinitive: non preoccuparti."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2-03-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Segui la ricetta passo per passo.",
+          "answers": [
+            "Segui la ricetta passo per passo."
+          ],
+          "explanation": "la ricetta = recipe",
+          "slow": true
         },
         {
           "type": "free_write",

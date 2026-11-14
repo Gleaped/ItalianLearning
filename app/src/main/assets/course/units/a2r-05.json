@@ -163,6 +163,18 @@
           "explanation": "Io takes mi, and the pronoun comes before the verb: mi vesto."
         },
         {
+          "type": "listen_transcribe",
+          "id": "a2r-05-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Domani devo alzarmi presto.",
+          "answers": [
+            "Domani devo alzarmi presto."
+          ],
+          "explanation": "alzarsi = to get up",
+          "slow": true
+        },
+        {
           "type": "speak_respond",
           "id": "a2r-05-l1-e08",
           "stage": "use",
@@ -276,6 +288,18 @@
             "Domani mi devo alzare presto."
           ],
           "explanation": "The pronoun must match the subject (io): alzarmi or mi devo alzare."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-05-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Di solito mi sveglio alle sette.",
+          "answers": [
+            "Di solito mi sveglio alle sette."
+          ],
+          "explanation": "svegliarsi = to wake up",
+          "slow": true
         },
         {
           "type": "speak_respond",
@@ -451,6 +475,18 @@
             "Stamattina ho fatto la doccia in fretta."
           ],
           "explanation": "Reflexive verbs use essere: mi sono fatto/a la doccia."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "a2r-05-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi sono addormentato sul divano.",
+          "answers": [
+            "Mi sono addormentato sul divano."
+          ],
+          "explanation": "addormentarsi = to fall asleep",
+          "slow": true
         },
         {
           "type": "free_write",

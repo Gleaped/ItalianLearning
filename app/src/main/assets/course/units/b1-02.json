@@ -529,6 +529,17 @@
           "explanation": "A personal subject (me) means metterci: ci metto."
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-02-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il mercato rionale è aperto tutte le mattine.",
+          "answers": [
+            "Il mercato rionale è aperto tutte le mattine."
+          ],
+          "explanation": "il mercato rionale = neighbourhood market"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-02-l3-e09",
           "stage": "use",
@@ -679,6 +690,17 @@
             "Che cosa ne pensi?"
           ],
           "explanation": "Che ne pensi? uses ne for di + the thing you are asked about."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-02-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Faccio un salto in farmacia e torno.",
+          "answers": [
+            "Faccio un salto in farmacia e torno."
+          ],
+          "explanation": "fare un salto (in / da) = to pop over (to)"
         },
         {
           "type": "roleplay",

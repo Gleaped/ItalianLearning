@@ -185,6 +185,17 @@
           "explanation": "Irregular remoto forms break in io, lui/lei and loro (1-3-3)."
         },
         {
+          "type": "listen_transcribe",
+          "id": "c1-04-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "La piena ha portato via il ponte.",
+          "answers": [
+            "La piena ha portato via il ponte."
+          ],
+          "explanation": "la piena = flood (of a river)"
+        },
+        {
           "type": "speak_respond",
           "id": "c1-04-l1-e08",
           "stage": "use",
@@ -544,6 +555,17 @@
             "Pertanto richiedo il risarcimento dei danni."
           ],
           "explanation": "Pertanto means therefore; risarcimento del danno is compensation for damage."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "c1-04-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Il trasloco è durato tutto il giorno.",
+          "answers": [
+            "Il trasloco è durato tutto il giorno."
+          ],
+          "explanation": "il trasloco = house move, removal"
         },
         {
           "type": "roleplay",

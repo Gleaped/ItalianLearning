@@ -154,6 +154,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "b1-06-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Le dispiacerebbe chiudere la porta?",
+          "answers": [
+            "Le dispiacerebbe chiudere la porta?"
+          ],
+          "explanation": "Le dispiacerebbe…? = Would you mind…?"
+        },
+        {
           "type": "speak_respond",
           "id": "b1-06-l1-e08",
           "instruction": "Rispondi ad alta voce in 2 frasi.",
@@ -322,6 +333,17 @@
           ],
           "explanation": "Volere has an irregular stem: vorr- → vorrei.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-06-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Vorrei sapere se l'appartamento è ancora libero.",
+          "answers": [
+            "Vorrei sapere se l'appartamento è ancora libero."
+          ],
+          "explanation": "Vorrei sapere… = I'd like to know…"
         },
         {
           "type": "speak_respond",
@@ -609,6 +631,17 @@
           ],
           "explanation": "Dovresti is followed directly by the infinitive, without a.",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "b1-06-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Mi saprebbe dire dov'è la fermata?",
+          "answers": [
+            "Mi saprebbe dire dov'è la fermata?"
+          ],
+          "explanation": "Mi saprebbe dire…? = Could you tell me…?"
         },
         {
           "type": "roleplay",

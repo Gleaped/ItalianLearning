@@ -145,6 +145,17 @@
           "explanation": "Credo che triggers the congiuntivo, and uscire gives esca from esco."
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-02-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Voglio che tu mi dia una mano.",
+          "answers": [
+            "Voglio che tu mi dia una mano."
+          ],
+          "explanation": "dare una mano = to give a hand"
+        },
+        {
           "type": "speak_respond",
           "id": "cg-02-l1-e08",
           "stage": "use",
@@ -293,6 +304,17 @@
           ],
           "hint": "salire – lui",
           "explanation": "Credo che triggers the congiuntivo, and salire gives salga from salgo."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-02-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Spero che tu rimanga a cena.",
+          "answers": [
+            "Spero che tu rimanga a cena."
+          ],
+          "explanation": "rimanere = to stay, to remain"
         },
         {
           "type": "roleplay",
@@ -460,6 +482,17 @@
           ],
           "hint": "dovere – lei",
           "explanation": "Penso che triggers the congiuntivo; dovere gives debba (also deva)."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-02-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Voglio che l'amministratore rimanga fino alla fine.",
+          "answers": [
+            "Voglio che l'amministratore rimanga fino alla fine."
+          ],
+          "explanation": "l'amministratore = property manager"
         },
         {
           "type": "free_write",
@@ -794,6 +827,17 @@
           ],
           "hint": "volere – lei",
           "explanation": "Credo che triggers the congiuntivo, and volere gives voglia."
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-02-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Credo che Marco salga con l'ascensore.",
+          "answers": [
+            "Credo che Marco salga con l'ascensore."
+          ],
+          "explanation": "salire = to go up"
         },
         {
           "type": "speak_respond",

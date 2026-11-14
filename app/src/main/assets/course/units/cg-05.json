@@ -139,6 +139,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-05-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Benché sia tardi, restiamo.",
+          "answers": [
+            "Benché sia tardi, restiamo."
+          ],
+          "explanation": "benché = although"
+        },
+        {
           "type": "speak_respond",
           "prompt": "Un amico dice: \"Non vai mai in palestra!\" Rispondi con benché o sebbene + congiuntivo.",
           "keywords": [
@@ -305,6 +316,17 @@
           "explanation": "Purché is followed by the congiuntivo: sia, not è.",
           "id": "cg-05-l2-e08",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-05-l2-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Vengo, purché finisca presto.",
+          "answers": [
+            "Vengo, purché finisca presto."
+          ],
+          "explanation": "purché = provided that"
         },
         {
           "type": "roleplay",
@@ -493,6 +515,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-05-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ti presto l'auto a patto che tu faccia benzina.",
+          "answers": [
+            "Ti presto l'auto a patto che tu faccia benzina."
+          ],
+          "explanation": "a patto che = on condition that"
+        },
+        {
           "type": "reading",
           "title": "Una lettera alla preside",
           "passage": "Gentile Preside,\nle scriviamo a nome dei genitori della classe 3ª B. Benché la scuola abbia fatto molto per la sicurezza, l'uscita di via Roma resta pericolosa. Chiediamo un incontro affinché si trovi una soluzione prima che arrivi l'inverno. Siamo disponibili a collaborare, purché il Comune sia coinvolto. Non vogliamo scrivere ai giornali, a meno che non sia necessario.\nCordiali saluti,\n{name}, rappresentante dei genitori",
@@ -675,6 +708,17 @@
           "stage": "practise"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-05-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Firmo a condizione che il prezzo non cambi.",
+          "answers": [
+            "Firmo a condizione che il prezzo non cambi."
+          ],
+          "explanation": "a condizione che = on the condition that"
+        },
+        {
           "type": "speak_respond",
           "prompt": "Un amico arriva tra poco. Di' tre cose che fai prima che arrivi, o prima di uscire.",
           "keywords": [
@@ -826,6 +870,17 @@
           "explanation": "Benché takes the congiuntivo (siano); alternatively use anche se + indicativo.",
           "id": "cg-05-l5-e07",
           "stage": "practise"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-05-l5-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Nonostante il traffico, siamo arrivati in tempo.",
+          "answers": [
+            "Nonostante il traffico, siamo arrivati in tempo."
+          ],
+          "explanation": "nonostante = despite / although"
         },
         {
           "type": "free_write",

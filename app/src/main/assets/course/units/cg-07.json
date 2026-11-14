@@ -163,6 +163,17 @@
           "hint": "avere → avessi; fare → farei"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-07-l1-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Con il senno di poi, avrei accettato.",
+          "answers": [
+            "Con il senno di poi, avrei accettato."
+          ],
+          "explanation": "con il senno di poi = with hindsight"
+        },
+        {
           "type": "speak_respond",
           "id": "cg-07-l1-e09",
           "stage": "use",
@@ -518,6 +529,17 @@
           "hint": "parlare → parlerei"
         },
         {
+          "type": "listen_transcribe",
+          "id": "cg-07-l3-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Se non fosse stato per te, non avrei finito.",
+          "answers": [
+            "Se non fosse stato per te, non avrei finito."
+          ],
+          "explanation": "se non fosse stato per = if it hadn't been for"
+        },
+        {
           "type": "free_write",
           "id": "cg-07-l3-e09",
           "stage": "use",
@@ -688,6 +710,17 @@
           "instruction": "Riscrivi la frase.",
           "explanation": "Come se always takes the congiuntivo, here the imperfetto fosse.",
           "hint": "essere → fosse"
+        },
+        {
+          "type": "listen_transcribe",
+          "id": "cg-07-l4-ld",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi.",
+          "audioText": "Ho perso l'occasione di conoscerlo.",
+          "answers": [
+            "Ho perso l'occasione di conoscerlo."
+          ],
+          "explanation": "perdere l'occasione = to miss the chance"
         },
         {
           "type": "speak_respond",
