@@ -21,6 +21,7 @@ and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
   pronoun ("io ero") are forgiven; a missing or wrong accent counts as **almost** rather than wrong.
 - **Biblioteca (exam track)** — long reading texts (about 280 words) and long listening texts (150 to 200 words) with exam-style questions, for extensive practice.
 - **Real practice papers** — enter your points for each part of a past paper you did on paper (Progress, "Prove ufficiali") and see them against the pass marks (84/140 written, 33/60 oral, 117/200 overall).
+- **Test out of a module** — on the course map, a 20-question check from across a module; 85% marks its lessons as known (and puts its words in the review deck). Advice, never a lock.
 - **Listening & speaking** — Italian text-to-speech (`it-IT`) for listening exercises, role-play lines and a
   speaker button next to Italian text; speech recognition (`it-IT`, offline preferred) for speaking exercises.
   The microphone permission is asked the first time you tap the mic. If you decline, or the device has no
