@@ -58,6 +58,11 @@
             android:name=".reminders.ReminderReceiver"
             android:exported="false" />
 
+        <!-- Buttons on a reminder: answer its question, or "Più tardi". -->
+        <receiver
+            android:name=".reminders.ReminderActionReceiver"
+            android:exported="false" />
+
         <receiver
             android:name=".reminders.BootReceiver"
             android:exported="true">

@@ -77,12 +77,19 @@ object ReminderPlanner {
         lastOpened: Instant?,
         lastFired: Instant?,
         paused: Boolean,
+        /** The learner asked for no reminders on a day they have already practised. */
+        quietAfterPractice: Boolean = false,
+        practicedToday: Boolean = false,
     ): Boolean {
         if (paused) return false
+        if (quietAfterPractice && practicedToday) return false
         if (!isInactiveAt(now.toInstant(), lastOpened)) return true
         val lastFiredDate = lastFired?.atZone(now.zone)?.toLocalDate() ?: return true
         return lastFiredDate != now.toLocalDate()
     }
+
+    /** How long "Later" on a reminder waits before it comes back. */
+    val snooze: Duration = Duration.ofHours(1)
 
     private fun validTime(r: ReminderSpec) = r.hour in 0..23 && r.minute in 0..59
 }

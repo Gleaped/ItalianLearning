@@ -1,5 +1,7 @@
 package com.gleaped.italianlearning.reminders
 
+import com.gleaped.italianlearning.domain.progress.SkillStats
+import java.time.LocalDate
 import com.gleaped.italianlearning.content.GrammarTip
 import com.gleaped.italianlearning.data.LearningRepository
 import com.gleaped.italianlearning.data.content.ContentRepository
@@ -28,10 +30,19 @@ class ReminderContentBuilder(
     suspend fun build(seed: Long, inactive: Boolean, practicedToday: Boolean): ReminderContent {
         val s = settings.current()
         val state = settings.currentReminderState()
-        for (kind in ReminderRotation.order(state.sequence, s.allowedReminderKinds)) {
+        val ready = learning.reviewReadyCount(s.dailyNewCards)
+        for (kind in ReminderRotation.order(state.sequence, s.allowedReminderKinds, ready)) {
             val built = when (kind) {
-                ReminderKind.GRAMMAR -> nextTip(state.tipHistory, state.openedUnitIds)?.let(ReminderComposer::grammar)
-                ReminderKind.REVIEW -> learning.reviewReadyCount(s.dailyNewCards)
+                ReminderKind.GRAMMAR -> {
+                    // Every second grammar reminder aims at units with recent mistakes.
+                    val missed = if (Math.floorMod(state.sequence, 2L) == 0L) {
+                        SkillStats.recentlyMissedUnits(learning.attemptsNow(), LocalDate.now().toEpochDay())
+                    } else {
+                        emptySet()
+                    }
+                    nextTip(state.tipHistory, state.openedUnitIds, missed)?.let { ReminderComposer.grammar(it, seed) }
+                }
+                ReminderKind.REVIEW -> ready
                     .takeIf { it > 0 }
                     ?.let { ReminderComposer.review(it, seed) }
                 ReminderKind.NEXT_LESSON -> nextLesson(s.unlockAllUnits, seed, inactive, practicedToday)
@@ -41,7 +52,14 @@ class ReminderContentBuilder(
         return ReminderComposer.generic(seed, inactive, practicedToday)
     }
 
-    suspend fun nextTip(history: List<String>, openedUnitIds: Set<String>): GrammarTip? {
+    /** The reminder for one known tip: used when "Later" brings a grammar reminder back. */
+    suspend fun forTip(unitId: String, tipId: String, seed: Long): ReminderContent? =
+        tip(unitId, tipId)?.let { ReminderComposer.grammar(it, seed) }
+
+    suspend fun tip(unitId: String, tipId: String): GrammarTip? =
+        content.unit(unitId)?.grammarTips?.firstOrNull { it.id == tipId }
+
+    suspend fun nextTip(history: List<String>, openedUnitIds: Set<String>, priorityUnitIds: Set<String> = emptySet()): GrammarTip? {
         val course = content.course()
         val started = learning.startedUnitIds()
         // Units that could contribute: started, opened remedial, and the fallback candidates.
@@ -66,7 +84,7 @@ class ReminderContentBuilder(
             eligible = TipSelector.eligibleUnitIds(course, started, openedUnitIds, withTips.keys)
         }
         val candidates = eligible.flatMap { withTips[it].orEmpty() }
-        return TipSelector.pick(candidates, history)
+        return TipSelector.pick(candidates, history, priorityUnitIds)
     }
 
     private suspend fun loadTips(unitIds: List<String>): Map<String, List<GrammarTip>> {

@@ -1,5 +1,10 @@
 package com.gleaped.italianlearning.ui.lesson
 
+import androidx.compose.material3.Slider
+import androidx.compose.runtime.mutableStateMapOf
+import kotlinx.coroutines.launch
+import com.gleaped.italianlearning.domain.writing.SavedWriting
+import com.gleaped.italianlearning.domain.writing.CeliCriterion
 import com.gleaped.italianlearning.domain.speech.SpokenWord
 import com.gleaped.italianlearning.domain.speech.SpokenWords
 import kotlinx.coroutines.flow.map
@@ -822,6 +827,8 @@ private fun FreeWriteView(e: FreeWrite, answered: Boolean, actions: ExerciseActi
     var text by remember(e) { mutableStateOf("") }
     var selfCheck by remember(e) { mutableStateOf(false) }
     val checked = remember(e) { mutableStateListOf(*Array(e.checklist.size) { false }) }
+    val scores = remember(e) { mutableStateMapOf<String, Int>() }
+    val container = LocalAppContainer.current
     val words = AnswerNormalizer.wordCount(text)
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(e.prompt, style = MaterialTheme.typography.titleLarge)
@@ -860,9 +867,47 @@ private fun FreeWriteView(e: FreeWrite, answered: Boolean, actions: ExerciseActi
                     }
                 }
             }
+            SectionLabel("Score it like the exam (optional)")
+            CeliCriterion.entries.forEach { criterion ->
+                val value = scores[criterion.key] ?: 0
+                Column {
+                    Text(
+                        "${criterion.italian}: " + if (value == 0) "not scored" else "$value/${CeliCriterion.MAX_SCORE}",
+                        style = MaterialTheme.typography.bodyLarge,
+                    )
+                    Text(criterion.question, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Slider(
+                        value = value.toFloat(),
+                        onValueChange = { v ->
+                            val n = v.roundToInt()
+                            if (n == 0) {
+                                scores.remove(criterion.key)
+                            } else {
+                                scores[criterion.key] = n
+                            }
+                        },
+                        valueRange = 0f..CeliCriterion.MAX_SCORE.toFloat(),
+                        steps = CeliCriterion.MAX_SCORE - 1,
+                        enabled = !answered,
+                    )
+                }
+            }
             CheckButton(enabled = !answered, label = "Finish", onClick = {
                 val verdict = Grader.gradeFreeWrite(words, e.minWords, checked.count { it }, e.checklist.size)
-                val note = if (words < e.minWords) "Aim for at least ${e.minWords} words next time." else null
+                val now = System.currentTimeMillis()
+                val saved = SavedWriting(
+                    id = "$now-${e.id.orEmpty()}",
+                    exerciseId = e.id,
+                    prompt = e.prompt,
+                    text = text.trim(),
+                    modelAnswer = e.modelAnswer,
+                    savedAtMillis = now,
+                    scores = scores.toMap(),
+                )
+                // Outlives this screen, so the text is kept even if the lesson is closed straight away.
+                container.appScope.launch { container.writing.save(saved) }
+                val short = if (words < e.minWords) "Aim for at least ${e.minWords} words next time. " else ""
+                val note = short + "Your text is saved under Progress, I miei testi."
                 actions.answer(Feedback(verdict, note = note))
             })
         }

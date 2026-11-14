@@ -38,6 +38,7 @@ fun HomeScreen(
     onReview: () -> Unit,
     onCourse: () -> Unit,
     onPractice: () -> Unit = {},
+    onProgress: () -> Unit = {},
 ) {
     val container = LocalAppContainer.current
     val vm: OverviewViewModel = viewModel(factory = OverviewViewModel.factory(container))
@@ -161,6 +162,10 @@ fun HomeScreen(
                     )
                 }
             }
+        }
+
+        OutlinedButton(onClick = onProgress, modifier = Modifier.fillMaxWidth()) {
+            Text("Progress by skill and my writing")
         }
 
         // Level progress

@@ -121,6 +121,7 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
     fun setTextSize(v: TextSize) = update { repo.setTextSize(v) }
     fun setUserName(v: String) = update { repo.setUserName(v) }
     fun setPaused(v: Boolean) = updateReminders { repo.setRemindersPaused(v) }
+    fun setQuietAfterPractice(v: Boolean) = update { repo.setQuietAfterPractice(v) }
     fun setReminderGrammar(v: Boolean) = update { repo.setReminderGrammar(v) }
     fun setReminderReview(v: Boolean) = update { repo.setReminderReview(v) }
     fun setReminderNextLesson(v: Boolean) = update { repo.setReminderNextLesson(v) }
@@ -325,6 +326,12 @@ fun SettingsScreen() {
             "If you haven't opened the app for a couple of days, reminders quieten down to at most one a day until you're back.",
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        SwitchRow(
+            "Quiet once I've practised",
+            "No more reminders on a day when you have already done a lesson or a review.",
+            settings.quietAfterPractice,
+            vm::setQuietAfterPractice,
         )
         Text("What reminders can be about", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 4.dp))
         SwitchRow(
