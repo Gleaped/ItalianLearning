@@ -417,7 +417,7 @@ private fun SentenceBuildView(e: SentenceBuild, answered: Boolean, actions: Exer
 private fun TranslateView(e: Translate, answered: Boolean, actions: ExerciseActions) {
     var input by remember { mutableStateOf("") }
     val check = {
-        val r = Grader.gradeTyped(input, e.answers)
+        val r = Grader.gradeTyped(input, e.answers, allowSlip = true)
         actions.answer(Feedback(r.verdict, expected = r.expected, note = r.note))
     }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -516,7 +516,7 @@ private fun ErrorCorrectionView(e: ErrorCorrection, answered: Boolean, actions: 
 private fun ListenTranscribeView(e: ListenTranscribe, answered: Boolean, autoPlay: Boolean, actions: ExerciseActions) {
     var input by remember { mutableStateOf("") }
     val check = {
-        val r = Grader.gradeTyped(input, e.answers)
+        val r = Grader.gradeTyped(input, e.answers, allowSlip = true)
         actions.answer(Feedback(r.verdict, expected = r.expected, note = r.note))
     }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {

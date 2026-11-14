@@ -13,7 +13,12 @@ import com.gleaped.italianlearning.domain.srs.Sm2
 import com.gleaped.italianlearning.domain.srs.SrsState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import com.gleaped.italianlearning.domain.practice.AttemptRecord
+import com.gleaped.italianlearning.domain.practice.WeakSpot
+import com.gleaped.italianlearning.domain.practice.WeakSpots
+import java.time.Instant
 import java.time.LocalDate
+import java.time.ZoneId
 
 /** Result of one exercise within a lesson run. */
 data class ExerciseOutcome(
@@ -75,6 +80,48 @@ class LearningRepository(private val db: AppDatabase) {
         recordActivity(lessons = 1, cards = 0)
         // Unit vocabulary feeds the review deck once the learner has met the unit.
         addVocabulary(unit)
+    }
+
+    /** Every stored exercise answer, oldest first; the source for [WeakSpots]. */
+    val attempts: Flow<List<AttemptRecord>> = progress.observeResults().map { it.toAttempts() }
+
+    suspend fun attemptsNow(): List<AttemptRecord> = progress.results().toAttempts()
+
+    private fun List<ExerciseResultEntity>.toAttempts(): List<AttemptRecord> {
+        val zone = ZoneId.systemDefault()
+        return mapNotNull { r ->
+            val verdict = Verdict.entries.firstOrNull { it.name == r.verdict } ?: return@mapNotNull null
+            AttemptRecord(
+                lessonId = r.lessonId,
+                exerciseIndex = r.exerciseIndex,
+                exerciseId = r.exerciseId,
+                type = r.type,
+                verdict = verdict,
+                epochDay = Instant.ofEpochMilli(r.answeredAtMillis).atZone(zone).toLocalDate().toEpochDay(),
+            )
+        }
+    }
+
+    /**
+     * Stores the answers of a practice round against the lessons the exercises came from,
+     * which moves each weak spot along (see [WeakSpots]). Counts as activity for the day.
+     */
+    suspend fun recordPractice(answers: List<Pair<WeakSpot, Verdict>>) {
+        if (answers.isEmpty()) return
+        val now = System.currentTimeMillis()
+        progress.insertResults(
+            answers.map { (spot, verdict) ->
+                ExerciseResultEntity(
+                    lessonId = spot.lessonId,
+                    exerciseIndex = spot.exerciseIndex,
+                    exerciseId = spot.exerciseId,
+                    type = spot.type,
+                    verdict = verdict.name,
+                    answeredAtMillis = now,
+                )
+            },
+        )
+        recordActivity(lessons = 0, cards = answers.size)
     }
 
     suspend fun addVocabulary(unit: CourseUnit) {

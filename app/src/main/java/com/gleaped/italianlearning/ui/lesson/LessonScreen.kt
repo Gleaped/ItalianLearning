@@ -17,6 +17,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -73,6 +74,7 @@ fun LessonScreen(
     onOpenWord: (lemmaId: Long) -> Unit = {},
 ) {
     val container = LocalAppContainer.current
+    val vm: LessonViewModel = viewModel(factory = LessonViewModel.factory(container, unitId, lessonId))
     val reference by produceState<GrammarReference?>(null, container) { value = container.reference.load() }
     val ruleFor: (com.gleaped.italianlearning.content.GrammarNote) -> RuleLink? = remember(reference, unitId) {
         { note: com.gleaped.italianlearning.content.GrammarNote ->
@@ -80,7 +82,6 @@ fun LessonScreen(
                 ?.let { topic -> RuleLink(topic.title) { onOpenRule(topic.id) } }
         }
     }
-    val vm: LessonViewModel = viewModel(factory = LessonViewModel.factory(container, unitId, lessonId))
     val state by vm.state.collectAsStateWithLifecycle()
     var confirmExit by remember { mutableStateOf(false) }
 
@@ -91,7 +92,15 @@ fun LessonScreen(
         AlertDialog(
             onDismissRequest = { confirmExit = false },
             title = { Text("Leave this lesson?") },
-            text = { Text("Your progress in this lesson won't be saved. You can start again any time.") },
+            text = {
+                Text(
+                    if (vm.isPractice) {
+                        "This round won't be saved. The items stay in Punti deboli for next time."
+                    } else {
+                        "Your place is saved. You can pick up where you left off, or start again."
+                    },
+                )
+            },
             confirmButton = {
                 TextButton(onClick = {
                     confirmExit = false
@@ -135,9 +144,14 @@ fun LessonScreen(
             bottomBar = {
                 val s = state
                 when {
-                    s is LessonUiState.Running && s.feedback != null -> FeedbackPanel(s.feedback, onContinue = vm::next)
+                    s is LessonUiState.Running && s.feedback != null ->
+                        FeedbackPanel(s.feedback, onContinue = vm::next, onOverride = vm::overrideCorrect)
                     s is LessonUiState.Running -> PrimaryActionBar(primaryAction)
-                    s is LessonUiState.Intro -> StartBar(onStart = vm::start)
+                    s is LessonUiState.Intro -> StartBar(
+                        resumeStep = s.resumeStep,
+                        onStart = { vm.start() },
+                        onResume = { vm.start(resume = true) },
+                    )
                     else -> Unit
                 }
             },
@@ -178,7 +192,7 @@ private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor
             ruleFor = ruleFor,
         )
     }
-    key(s.index) {
+    key(s.step) {
         val scroll = rememberScrollState()
         LaunchedEffect(s.feedback != null) {
             if (s.feedback != null) scroll.animateScrollTo(scroll.maxValue)
@@ -191,12 +205,16 @@ private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor
                 .widthIn(max = ReadableWidth),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            val earlierRules = remember(s.lesson, s.index) {
-                s.lesson.exercises.take(s.index).filterIsInstance<GrammarNote>()
+            val earlierRules = remember(s.lesson, s.index, s.inRetry) {
+                (if (s.inRetry) s.lesson.exercises else s.lesson.exercises.take(s.index)).filterIsInstance<GrammarNote>()
             }
             Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
                 Text(
-                    listOfNotNull(stageLabel(s.exercise.stage), "${s.index + 1} of ${s.lesson.exercises.size}").joinToString("  ·  "),
+                    if (s.inRetry) {
+                        "Riproviamo  ·  ${s.retryLeft} to get right"
+                    } else {
+                        listOfNotNull(stageLabel(s.exercise.stage), "${s.index + 1} of ${s.lesson.exercises.size}").joinToString("  ·  ")
+                    },
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.weight(1f),
@@ -224,7 +242,7 @@ private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor
 
 /** Verdict, answer and why; at most about 40% of the screen (it scrolls inside beyond that). */
 @Composable
-private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit) {
+private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit, onOverride: () -> Unit) {
     val maxHeight = (LocalConfiguration.current.screenHeightDp * 0.4f).dp
     Surface(color = verdictColor(feedback.verdict), tonalElevation = 2.dp) {
         Column(
@@ -237,6 +255,13 @@ private fun FeedbackPanel(feedback: Feedback, onContinue: () -> Unit) {
             Box(Modifier.heightIn(max = maxHeight).verticalScroll(rememberScrollState())) { FeedbackBody(feedback) }
             Button(onClick = onContinue, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
                 Text("Continue", style = MaterialTheme.typography.titleMedium)
+            }
+            if (feedback.canOverride) {
+                TextButton(
+                    onClick = onOverride,
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = ButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.onSurface),
+                ) { Text("My answer was right") }
             }
         }
     }
@@ -254,11 +279,18 @@ fun stageLabel(stage: String?): String? = when (stage?.lowercase()) {
 }
 
 @Composable
-private fun StartBar(onStart: () -> Unit) {
+private fun StartBar(resumeStep: Int?, onStart: () -> Unit, onResume: () -> Unit) {
     Surface(tonalElevation = 3.dp) {
-        Box(Modifier.fillMaxWidth().navigationBarsPadding().padding(horizontal = 20.dp, vertical = 12.dp)) {
-            Button(onClick = onStart, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
-                Text("Cominciamo", style = MaterialTheme.typography.titleMedium)
+        Column(Modifier.fillMaxWidth().navigationBarsPadding().padding(horizontal = 20.dp, vertical = 12.dp)) {
+            if (resumeStep != null) {
+                Button(onClick = onResume, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+                    Text("Continua dal passo $resumeStep", style = MaterialTheme.typography.titleMedium)
+                }
+                TextButton(onClick = onStart, modifier = Modifier.fillMaxWidth()) { Text("Start again") }
+            } else {
+                Button(onClick = onStart, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+                    Text("Cominciamo", style = MaterialTheme.typography.titleMedium)
+                }
             }
         }
     }
@@ -361,7 +393,11 @@ private fun SummaryView(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Lezione completata!", style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
+        Text(
+            if (s.practice) "Fatto!" else "Lezione completata!",
+            style = MaterialTheme.typography.headlineMedium,
+            textAlign = TextAlign.Center,
+        )
         Text(s.lesson.title, style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
         if (s.lesson.takeaway.isNotBlank()) {
             Surface(
@@ -384,7 +420,8 @@ private fun SummaryView(
                     pct >= 0.9 -> "Bravissimo! That was excellent."
                     pct >= 0.7 -> "Molto bene! Solid work."
                     pct >= 0.5 -> "Bene! A little review will make it stick."
-                    else -> "Good effort. Try this lesson again later, or have a look at the refresher units."
+                    s.practice -> "Good effort. These will come back tomorrow for another go."
+                    else -> "Good effort. The items you missed will come back in Punti deboli on the Today screen."
                 },
                 textAlign = TextAlign.Center,
             )
@@ -393,7 +430,11 @@ private fun SummaryView(
             Text("${sum.skipped} skipped", style = MaterialTheme.typography.bodySmall)
         }
         Text(
-            "New words from this unit are now in your review deck.",
+            when {
+                s.practice -> "Items you got right come back after a longer gap; three in a row and they are done."
+                sum.wrong > 0 -> "New words from this unit are now in your review deck. The items you missed come back tomorrow in Punti deboli."
+                else -> "New words from this unit are now in your review deck."
+            },
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
@@ -404,7 +445,9 @@ private fun SummaryView(
                 Text("Next: ${sum.nextLessonTitle ?: "lesson"}")
             }
         }
-        OutlinedButton(onClick = onReview, modifier = Modifier.fillMaxWidth()) { Text("Review cards") }
+        if (!s.practice) {
+            OutlinedButton(onClick = onReview, modifier = Modifier.fillMaxWidth()) { Text("Review cards") }
+        }
         TextButton(onClick = onClose, modifier = Modifier.fillMaxWidth()) { Text("Done") }
     }
 }

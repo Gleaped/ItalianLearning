@@ -11,6 +11,8 @@ import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
+import com.gleaped.italianlearning.domain.progress.LessonCheckpoint
+import com.gleaped.italianlearning.domain.progress.LessonCheckpointCodec
 import com.gleaped.italianlearning.domain.dictionary.RecentLookups
 import com.gleaped.italianlearning.domain.profile.LearnerName
 import com.gleaped.italianlearning.domain.reminders.ReminderKind
@@ -101,7 +103,19 @@ class SettingsRepository(context: Context) {
         val textSize = stringPreferencesKey("text_size")
         val userName = stringPreferencesKey("user_name")
         val onboarded = booleanPreferencesKey("onboarded")
+        val lessonCheckpoint = stringPreferencesKey("lesson_checkpoint")
     }
+
+    /** The lesson the learner left part-way, if any. */
+    val lessonCheckpoint: Flow<LessonCheckpoint?> =
+        store.data.map { LessonCheckpointCodec.decode(it[Keys.lessonCheckpoint]) }.distinctUntilChanged()
+
+    suspend fun currentLessonCheckpoint(): LessonCheckpoint? = lessonCheckpoint.first()
+
+    suspend fun saveLessonCheckpoint(checkpoint: LessonCheckpoint) =
+        store.edit { it[Keys.lessonCheckpoint] = LessonCheckpointCodec.encode(checkpoint) }
+
+    suspend fun clearLessonCheckpoint() = store.edit { it.remove(Keys.lessonCheckpoint) }
 
     val settings: Flow<Settings> = store.data.map { p ->
         val defaults = Settings()

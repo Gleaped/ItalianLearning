@@ -128,7 +128,10 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
 
     fun testVoice() = container.tts.speak("Ciao! Questa è la voce italiana.")
 
-    fun resetProgress() = update { container.learning.resetProgress() }
+    fun resetProgress() = update {
+        container.learning.resetProgress()
+        repo.clearLessonCheckpoint()
+    }
 
     companion object {
         fun factory(container: AppContainer): ViewModelProvider.Factory = viewModelFactory {

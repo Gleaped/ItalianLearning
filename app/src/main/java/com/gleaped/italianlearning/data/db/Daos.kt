@@ -26,6 +26,12 @@ interface ProgressDao {
     @Insert
     suspend fun insertResults(results: List<ExerciseResultEntity>)
 
+    @Query("SELECT * FROM exercise_results ORDER BY answeredAtMillis, id")
+    fun observeResults(): Flow<List<ExerciseResultEntity>>
+
+    @Query("SELECT * FROM exercise_results ORDER BY answeredAtMillis, id")
+    suspend fun results(): List<ExerciseResultEntity>
+
     @Query("SELECT * FROM activity_days")
     fun observeActivity(): Flow<List<ActivityDayEntity>>
 
