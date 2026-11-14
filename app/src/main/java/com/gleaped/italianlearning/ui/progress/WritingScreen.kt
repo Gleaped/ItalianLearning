@@ -19,6 +19,7 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -43,6 +44,7 @@ import com.gleaped.italianlearning.domain.writing.SavedWriting
 import com.gleaped.italianlearning.domain.writing.WritingLog
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import com.gleaped.italianlearning.ui.components.LookupText
+import com.gleaped.italianlearning.ui.components.WritingNotes
 import kotlinx.coroutines.launch
 import java.time.Instant
 import java.time.ZoneId
@@ -109,6 +111,7 @@ fun WritingScreen(onBack: () -> Unit) {
                     open = openId == entry.id,
                     onToggle = { openId = if (openId == entry.id) null else entry.id },
                     onDelete = { deleting = entry },
+                    onRevise = { revised -> scope.launch { container.writing.save(entry.copy(revision = revised.trim())) } },
                 )
             }
         }
@@ -131,8 +134,18 @@ fun WritingScreen(onBack: () -> Unit) {
 }
 
 @Composable
-private fun WritingCard(entry: SavedWriting, date: String, open: Boolean, onToggle: () -> Unit, onDelete: () -> Unit) {
+private fun WritingCard(
+    entry: SavedWriting,
+    date: String,
+    open: Boolean,
+    onToggle: () -> Unit,
+    onDelete: () -> Unit,
+    onRevise: (String) -> Unit,
+) {
     val context = LocalContext.current
+    var checking by remember(entry.id) { mutableStateOf(false) }
+    var rewriting by remember(entry.id) { mutableStateOf(false) }
+    var draft by remember(entry.id) { mutableStateOf(entry.latest) }
     Card(onClick = onToggle, modifier = Modifier.fillMaxWidth()) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(date, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -147,6 +160,10 @@ private fun WritingCard(entry: SavedWriting, date: String, open: Boolean, onTogg
                 return@Column
             }
             LookupText(entry.text, style = MaterialTheme.typography.bodyLarge)
+            if (entry.revision.isNotBlank()) {
+                Text("Second draft", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                LookupText(entry.revision, style = MaterialTheme.typography.bodyLarge)
+            }
             val scored = CeliCriterion.entries.mapNotNull { c -> entry.scores[c.key]?.let { c to it } }
             if (scored.isNotEmpty()) {
                 Text(
@@ -165,7 +182,36 @@ private fun WritingCard(entry: SavedWriting, date: String, open: Boolean, onTogg
                 TextButton(onClick = { share(context, WritingLog.shareText(entry)) }) { Text("Share") }
             }
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                TextButton(onClick = { checking = !checking }) { Text(if (checking) "Hide notes" else "Check my text") }
+                TextButton(onClick = {
+                    draft = entry.latest
+                    rewriting = !rewriting
+                }) { Text(if (rewriting) "Cancel" else "Rewrite") }
                 TextButton(onClick = { share(context, WritingLog.feedbackRequest(entry)) }) { Text("Ask for feedback") }
+            }
+            if (checking) WritingNotes(entry.latest)
+            if (rewriting) {
+                Text(
+                    "Rewrite it with the notes and the model answer in mind. Your first version is kept.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                OutlinedTextField(
+                    value = draft,
+                    onValueChange = { draft = it },
+                    modifier = Modifier.fillMaxWidth(),
+                    minLines = 6,
+                    label = { Text("Second draft") },
+                )
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(
+                        enabled = draft.isNotBlank(),
+                        onClick = {
+                            onRevise(draft)
+                            rewriting = false
+                        },
+                    ) { Text("Save second draft") }
+                }
             }
             Text(
                 "Ask for feedback shares your text with a request that marks mistakes, corrects them and scores it on the exam's criteria. " +

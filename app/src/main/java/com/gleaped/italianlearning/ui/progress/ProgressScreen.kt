@@ -37,6 +37,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.gleaped.italianlearning.AppContainer
+import com.gleaped.italianlearning.domain.oral.OralCriterion
+import com.gleaped.italianlearning.domain.oral.OralLog
 import com.gleaped.italianlearning.domain.progress.ExamReadiness
 import com.gleaped.italianlearning.domain.progress.Readiness
 import com.gleaped.italianlearning.domain.progress.SkillScore
@@ -86,7 +88,7 @@ class ProgressViewModel(private val container: AppContainer) : ViewModel() {
 /** Accuracy by skill and the weakest grammar topics, from every answer given in lessons. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ProgressScreen(onBack: () -> Unit, onOpenUnit: (String) -> Unit, onOpenWriting: () -> Unit) {
+fun ProgressScreen(onBack: () -> Unit, onOpenUnit: (String) -> Unit, onOpenWriting: () -> Unit, onOpenOral: () -> Unit = {}) {
     val container = LocalAppContainer.current
     val vm: ProgressViewModel = viewModel(factory = ProgressViewModel.factory(container))
     val state by vm.state.collectAsStateWithLifecycle()
@@ -162,6 +164,10 @@ fun ProgressScreen(onBack: () -> Unit, onOpenUnit: (String) -> Unit, onOpenWriti
                     }
                 }
             }
+
+            Text("Speaking practice", style = MaterialTheme.typography.titleLarge)
+            OralSummary()
+            OutlinedButton(onClick = onOpenOral, modifier = Modifier.fillMaxWidth()) { Text("Prova orale: record and score yourself") }
 
             Text("Writing", style = MaterialTheme.typography.titleLarge)
             Text(
@@ -248,6 +254,33 @@ private fun ReadinessTable(r: Readiness) {
                     }
                 }
             }
+        }
+    }
+}
+
+/** Your own scores from the oral practice, averaged over the latest answers. */
+@Composable
+private fun OralSummary() {
+    val container = LocalAppContainer.current
+    val entries by container.oral.entries.collectAsStateWithLifecycle()
+    androidx.compose.runtime.LaunchedEffect(Unit) { container.oral.load() }
+    val averages = OralLog.averages(entries)
+    if (averages.isEmpty()) {
+        Text(
+            "Record yourself answering an exam-style task, listen back and score yourself. Your averages appear here.",
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        return
+    }
+    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Text(
+            "Your own scores over the last ${minOf(entries.size, 10)} answers",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        OralCriterion.entries.forEach { c ->
+            averages[c]?.let { Text("${c.italian}: ${"%.1f".format(it)} of ${OralCriterion.MAX_SCORE}", style = MaterialTheme.typography.bodyLarge) }
         }
     }
 }

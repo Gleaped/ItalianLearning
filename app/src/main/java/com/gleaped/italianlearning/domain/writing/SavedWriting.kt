@@ -15,7 +15,12 @@ data class SavedWriting(
     val savedAtMillis: Long,
     /** Self-assessment, 1 to 5, by [CeliCriterion.key]; criteria left unscored are absent. */
     val scores: Map<String, Int> = emptyMap(),
-)
+    /** A second draft written after reading the model answer and the notes; blank until then. */
+    val revision: String = "",
+) {
+    /** The text to share or check: the second draft when there is one. */
+    val latest: String get() = revision.ifBlank { text }
+}
 
 /** The areas a CELI written production is marked on, for self-assessment. */
 enum class CeliCriterion(val key: String, val italian: String, val question: String) {
@@ -63,7 +68,7 @@ object WritingLog {
     /** The text as shared with a tutor: prompt, text and self-assessment. */
     fun shareText(entry: SavedWriting): String = buildString {
         append("Traccia: ").append(entry.prompt.trim()).append("\n\n")
-        append(entry.text.trim())
+        append(entry.latest.trim())
         val scored = CeliCriterion.entries.mapNotNull { c -> entry.scores[c.key]?.let { "${c.italian} $it/${CeliCriterion.MAX_SCORE}" } }
         if (scored.isNotEmpty()) append("\n\nAutovalutazione: ").append(scored.joinToString(", "))
     }
@@ -79,7 +84,7 @@ object WritingLog {
         append("3. Score it as the exam would, out of 5 for each: lessico, grammatica, adeguatezza (register and format), coerenza e coesione (all points of the task covered, linked).\n")
         append("4. Name the two things most worth practising next.\n\n")
         append("Task: ").append(entry.prompt.trim()).append("\n\n")
-        append("My text:\n").append(entry.text.trim())
+        append(if (entry.revision.isBlank()) "My text:\n" else "My text (second draft):\n").append(entry.latest.trim())
         val scored = CeliCriterion.entries.mapNotNull { c -> entry.scores[c.key]?.let { "${c.italian} $it/${CeliCriterion.MAX_SCORE}" } }
         if (scored.isNotEmpty()) append("\n\nMy own scores: ").append(scored.joinToString(", "))
     }
