@@ -627,6 +627,15 @@
       "summary": "A second timed mock of all three booklets and the oral, with new texts and recordings.",
       "available": true,
       "module": "celi-m1"
+    },
+    {
+      "id": "celi-10",
+      "level": "CELI3",
+      "order": 10,
+      "title": "Famiglie di parole",
+      "summary": "Word formation for part C.3: nouns, adjectives, adverbs and opposites from a base word, with prefixes and suffixes.",
+      "available": true,
+      "module": "celi-m1"
     }
   ],
   "modules": [
