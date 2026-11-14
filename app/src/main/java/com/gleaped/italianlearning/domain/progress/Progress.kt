@@ -5,15 +5,31 @@ import com.gleaped.italianlearning.content.CourseUnit
 import com.gleaped.italianlearning.content.Lesson
 import com.gleaped.italianlearning.content.UnitRef
 
-/** Streak = consecutive days with activity, ending today (or yesterday, if today is still open). */
+/**
+ * Streak = days practised in a row, ending today (or yesterday, if today is still open).
+ * One missed day is forgiven as a rest day, at most one in any [REST_WINDOW] days, so a
+ * single bad day does not wipe out weeks of work. Rest days are not counted.
+ */
 object Streak {
+    /** Rest days used must be at least this many days apart. */
+    const val REST_WINDOW = 7
+
     fun current(activeEpochDays: Collection<Long>, todayEpochDay: Long): Int {
         if (activeEpochDays.isEmpty()) return 0
         val days = activeEpochDays.toHashSet()
         var day = if (todayEpochDay in days) todayEpochDay else todayEpochDay - 1
         var count = 0
-        while (day in days) {
-            count++
+        var lastRest: Long? = null
+        while (true) {
+            if (day in days) {
+                count++
+                day--
+                continue
+            }
+            // A missed day only counts as a rest day when practice came before it.
+            val restAllowed = (day - 1) in days && (lastRest == null || lastRest - day >= REST_WINDOW)
+            if (!restAllowed) break
+            lastRest = day
             day--
         }
         return count

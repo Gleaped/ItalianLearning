@@ -54,6 +54,8 @@ object ReminderRotation {
 sealed interface ReminderTarget {
     data object Today : ReminderTarget
     data object Review : ReminderTarget
+    /** The dictionary search (from a launcher shortcut). */
+    data object Lookup : ReminderTarget
     data class Challenge(val unitId: String, val tipId: String) : ReminderTarget
 }
 

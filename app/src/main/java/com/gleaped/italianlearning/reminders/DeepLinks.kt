@@ -19,6 +19,7 @@ object DeepLinks {
 
     private const val OPEN_TODAY = "today"
     private const val OPEN_REVIEW = "review"
+    private const val OPEN_LOOKUP = "lookup"
     private const val OPEN_CHALLENGE = "challenge"
 
     fun intentFor(context: Context, target: ReminderTarget): Intent =
@@ -27,6 +28,7 @@ object DeepLinks {
             when (target) {
                 ReminderTarget.Today -> putExtra(EXTRA_OPEN, OPEN_TODAY)
                 ReminderTarget.Review -> putExtra(EXTRA_OPEN, OPEN_REVIEW)
+                ReminderTarget.Lookup -> putExtra(EXTRA_OPEN, OPEN_LOOKUP)
                 is ReminderTarget.Challenge -> {
                     putExtra(EXTRA_OPEN, OPEN_CHALLENGE)
                     putExtra(EXTRA_UNIT_ID, target.unitId)
@@ -42,6 +44,7 @@ object DeepLinks {
         return when (intent.getStringExtra(EXTRA_OPEN)) {
             OPEN_TODAY -> ReminderTarget.Today
             OPEN_REVIEW -> ReminderTarget.Review
+            OPEN_LOOKUP -> ReminderTarget.Lookup
             OPEN_CHALLENGE -> {
                 val unitId = intent.getStringExtra(EXTRA_UNIT_ID)
                 val tipId = intent.getStringExtra(EXTRA_TIP_ID)

@@ -125,6 +125,7 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
         testVoice()
     }
     fun setDailyNewCards(v: Int) = update { repo.setDailyNewCards(v) }
+    fun setExamDate(epochDay: Long) = update { repo.setExamDate(epochDay) }
     fun setUnlockAll(v: Boolean) = update { repo.setUnlockAll(v) }
     fun setTheme(v: ThemeMode) = update { repo.setThemeMode(v) }
     fun setTextSize(v: TextSize) = update { repo.setTextSize(v) }
@@ -343,6 +344,11 @@ fun SettingsScreen() {
                 enabled = LearnerName.clean(nameDraft) != settings.userName,
             ) { Text("Save") }
         }
+        HorizontalDivider()
+
+        // ---------------- Exam
+        SectionTitle("CELI 3 exam")
+        ExamDateSection(examEpochDay = settings.examDateEpochDay, onChange = vm::setExamDate)
         HorizontalDivider()
 
         // ---------------- Reminders
@@ -575,6 +581,7 @@ fun SettingsScreen() {
             }) { Text("Restore a backup") }
         }
         backupMessage?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
+        FlagsSection()
         OutlinedButton(onClick = { confirmReset = true }) { Text("Reset progress…") }
         Text(
             "Italiano works fully offline. Nothing leaves your phone: no account, no tracking.",

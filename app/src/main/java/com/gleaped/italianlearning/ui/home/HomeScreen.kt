@@ -23,6 +23,12 @@ import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedCard
+import androidx.compose.material3.TextButton
+import com.gleaped.italianlearning.domain.progress.ExamPlan
+import com.gleaped.italianlearning.domain.progress.ExamReadiness
+import com.gleaped.italianlearning.domain.progress.Readiness
+import com.gleaped.italianlearning.domain.progress.Standing
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -34,6 +40,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.gleaped.italianlearning.domain.practice.WeakSpots
 import com.gleaped.italianlearning.ui.components.LocalAppContainer
+import java.time.LocalDate
 import java.time.LocalTime
 
 @Composable
@@ -44,6 +51,7 @@ fun HomeScreen(
     onPractice: () -> Unit = {},
     onProgress: () -> Unit = {},
     onMix: () -> Unit = {},
+    onExamSettings: () -> Unit = {},
 ) {
     val container = LocalAppContainer.current
     val vm: OverviewViewModel = viewModel(factory = OverviewViewModel.factory(container))
@@ -147,17 +155,12 @@ fun HomeScreen(
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(horizontal = 4.dp, vertical = 4.dp),
                 )
-                if (lessonTarget != null || o.lessonsToday > 0) {
+                // The card above already offers the next lesson; here it only shows once done.
+                if (o.lessonsToday > 0) {
                     PlanRow(
-                        done = o.lessonsToday > 0,
+                        done = true,
                         title = "A lesson",
-                        detail = when {
-                            o.lessonsToday == 1 -> "Done: 1 lesson today"
-                            o.lessonsToday > 1 -> "Done: ${o.lessonsToday} lessons today"
-                            savedLesson != null -> "Continue “${savedLesson.title}”"
-                            next != null -> "“${next.second.title}”, about ${next.second.minutes} min"
-                            else -> ""
-                        },
+                        detail = if (o.lessonsToday == 1) "Done: 1 lesson today" else "Done: ${o.lessonsToday} lessons today",
                         onClick = lessonTarget,
                     )
                 }
@@ -195,13 +198,16 @@ fun HomeScreen(
             }
         }
 
+        ExamCard(o, onProgress = onProgress, onSettings = onExamSettings)
+
         OutlinedButton(onClick = onProgress, modifier = Modifier.fillMaxWidth()) {
             Text("Progress by skill and my writing")
         }
 
         // Level progress
         Text("Your levels", style = MaterialTheme.typography.titleMedium)
-        o.progress.levelProgress().forEach { lp ->
+        val foundation = o.content.course.levels.filter { it.alwaysOpen }.map { it.id }.toSet()
+        o.progress.levelProgress().filter { lp -> lp.total > 0 && (lp.levelId !in foundation || lp.completed > 0) }.forEach { lp ->
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Row(Modifier.fillMaxWidth()) {
                     Text(lp.title, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
@@ -215,6 +221,76 @@ fun HomeScreen(
         }
         Spacer(Modifier.height(16.dp))
     }
+}
+
+/** Countdown to the exam, the weekly pace that keeps to it, and a rough score against the pass marks. */
+@Composable
+private fun ExamCard(o: Overview, onProgress: () -> Unit, onSettings: () -> Unit) {
+    val today = LocalDate.now().toEpochDay()
+    OutlinedCard(Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("Esame CELI 3", style = MaterialTheme.typography.titleMedium)
+            if (o.examDateEpochDay <= 0L) {
+                Text(
+                    "Set the day of your exam to see a countdown and how many lessons a week keep you on course. It is optional.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                TextButton(onClick = onSettings) { Text("Set exam date") }
+            } else {
+                val left = ExamPlan.daysLeft(o.examDateEpochDay, today)
+                Text(
+                    when {
+                        left > 1 -> "$left days to go"
+                        left == 1 -> "The exam is tomorrow"
+                        left == 0 -> "The exam is today. In bocca al lupo!"
+                        else -> "The exam date has passed. You can set a new one in Settings."
+                    },
+                    style = MaterialTheme.typography.titleLarge,
+                )
+                val pace = ExamPlan.lessonsPerWeek(o.remainingLessons, left)
+                val paceLine = when {
+                    left < 0 -> null
+                    o.remainingLessons == 0 -> "You have finished every lesson up to B2. Keep going with reviews and the mock papers."
+                    pace == null -> null
+                    else -> "${o.remainingLessons} lessons to finish B2: about $pace a week gets you there."
+                }
+                paceLine?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
+            }
+            ReadinessLines(o.readiness)
+            TextButton(onClick = onProgress) { Text("See the estimate by part") }
+        }
+    }
+}
+
+@Composable
+private fun ReadinessLines(r: Readiness) {
+    val written = r.written
+    val oral = r.oral
+    if (written == null && oral == null) {
+        Text(
+            "A score estimate appears once you have answered enough in each skill.",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        return
+    }
+    fun line(label: String, points: Int?, max: Int, pass: Int): String {
+        if (points == null) return "$label: not enough answers yet"
+        val where = when (ExamReadiness.standing(points, pass, max)) {
+            Standing.ABOVE -> "above the pass mark"
+            Standing.NEAR -> "close to the pass mark"
+            Standing.BELOW -> "below the pass mark"
+        }
+        return "$label: about $points of $max, $where ($pass)"
+    }
+    Text(line("Written", written, ExamReadiness.WRITTEN_MAX, ExamReadiness.WRITTEN_PASS), style = MaterialTheme.typography.bodyMedium)
+    Text(line("Oral", oral, ExamReadiness.ORAL_MAX, ExamReadiness.ORAL_PASS), style = MaterialTheme.typography.bodyMedium)
+    Text(
+        "A rough guide from your lesson answers, not a prediction.",
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
 }
 
 /** One line of today's plan: a tick or an open circle, what it is, and how much there is. */

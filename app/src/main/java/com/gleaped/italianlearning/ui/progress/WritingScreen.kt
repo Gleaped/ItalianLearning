@@ -164,6 +164,15 @@ private fun WritingCard(entry: SavedWriting, date: String, open: Boolean, onTogg
                 TextButton(onClick = { copy(context, entry.text) }) { Text("Copy") }
                 TextButton(onClick = { share(context, WritingLog.shareText(entry)) }) { Text("Share") }
             }
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                TextButton(onClick = { share(context, WritingLog.feedbackRequest(entry)) }) { Text("Ask for feedback") }
+            }
+            Text(
+                "Ask for feedback shares your text with a request that marks mistakes, corrects them and scores it on the exam's criteria. " +
+                    "Send it to a tutor or any assistant you use; the app itself stays offline.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
         }
     }
 }

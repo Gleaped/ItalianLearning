@@ -63,6 +63,7 @@ import com.gleaped.italianlearning.ui.components.ItalianText
 import com.gleaped.italianlearning.ui.components.RichText
 import com.gleaped.italianlearning.ui.components.highlightColor
 import com.gleaped.italianlearning.ui.components.inlineMarkup
+import com.gleaped.italianlearning.content.ExerciseTypes
 import com.gleaped.italianlearning.content.GrammarNote
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.widthIn
@@ -239,6 +240,13 @@ private fun RunningLesson(s: LessonUiState.Running, vm: LessonViewModel, ruleFor
                     TextButton(onClick = { showRules = true }) { Text("Rivedi la regola") }
                     if (showRules) RuleRecallSheet(earlierRules, onDismiss = { showRules = false })
                 }
+                FlagExerciseButton(
+                    unitId = s.unit.id,
+                    lessonId = s.lesson.id,
+                    index = s.index,
+                    exerciseId = s.exercise.id,
+                    type = ExerciseTypes.of(s.exercise),
+                )
             }
             s.exercise.instruction?.takeIf { it.isNotBlank() }?.let {
                 Text(it, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.secondary)
