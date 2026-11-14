@@ -57,9 +57,30 @@ class ReminderScheduler(
         }
     }
 
+    /**
+     * "Later": one more alarm, [ReminderPlanner.snooze] from now, separate from the regular one.
+     * It carries the grammar tip to bring back, if the reminder was about one.
+     */
+    fun snooze(unitId: String?, tipId: String?, now: ZonedDateTime = ZonedDateTime.now()) {
+        val alarmManager = context.getSystemService(AlarmManager::class.java) ?: return
+        val intent = Intent(context, ReminderReceiver::class.java)
+            .setAction(ACTION_SNOOZED)
+            .putExtra(ReminderActionReceiver.EXTRA_UNIT_ID, unitId)
+            .putExtra(ReminderActionReceiver.EXTRA_TIP_ID, tipId)
+        val pending = PendingIntent.getBroadcast(
+            context,
+            REQUEST_CODE_SNOOZE,
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+        )
+        alarmManager.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, now.plus(ReminderPlanner.snooze).toInstant().toEpochMilli(), pending)
+    }
+
     companion object {
         const val ACTION_FIRE = "com.gleaped.italianlearning.action.REMINDER"
+        const val ACTION_SNOOZED = "com.gleaped.italianlearning.action.REMINDER_SNOOZED"
         private const val REQUEST_CODE = 4201
+        private const val REQUEST_CODE_SNOOZE = 4202
 
         fun alarmIntent(context: Context): PendingIntent {
             val intent = Intent(context, ReminderReceiver::class.java).setAction(ACTION_FIRE)

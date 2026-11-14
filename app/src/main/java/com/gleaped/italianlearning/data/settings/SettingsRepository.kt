@@ -47,6 +47,8 @@ data class Settings(
     val unlockAllUnits: Boolean = false,
     val themeMode: ThemeMode = ThemeMode.SYSTEM,
     val remindersPaused: Boolean = false,
+    /** No reminders for the rest of a day on which the learner has practised. */
+    val quietAfterPractice: Boolean = false,
     /** 0 = never opened. */
     val lastOpenedMillis: Long = 0L,
     /** 0 = never fired. */
@@ -110,6 +112,7 @@ class SettingsRepository(context: Context) {
         val lessonCheckpoint = stringPreferencesKey("lesson_checkpoint")
         val voiceName = stringPreferencesKey("voice_name")
         val listenFirst = booleanPreferencesKey("listen_first")
+        val quietAfterPractice = booleanPreferencesKey("quiet_after_practice")
     }
 
     /** The lesson the learner left part-way, if any. */
@@ -135,6 +138,7 @@ class SettingsRepository(context: Context) {
             unlockAllUnits = p[Keys.unlockAll] ?: defaults.unlockAllUnits,
             themeMode = p[Keys.theme]?.let { name -> ThemeMode.entries.firstOrNull { it.name == name } } ?: defaults.themeMode,
             remindersPaused = p[Keys.remindersPaused] ?: defaults.remindersPaused,
+            quietAfterPractice = p[Keys.quietAfterPractice] ?: defaults.quietAfterPractice,
             lastOpenedMillis = p[Keys.lastOpened] ?: 0L,
             lastReminderFiredMillis = p[Keys.lastFired] ?: 0L,
             reminderGrammar = p[Keys.reminderGrammar] ?: defaults.reminderGrammar,
@@ -175,6 +179,7 @@ class SettingsRepository(context: Context) {
     suspend fun setUnlockAll(value: Boolean) = store.edit { it[Keys.unlockAll] = value }
     suspend fun setThemeMode(value: ThemeMode) = store.edit { it[Keys.theme] = value.name }
     suspend fun setRemindersPaused(value: Boolean) = store.edit { it[Keys.remindersPaused] = value }
+    suspend fun setQuietAfterPractice(value: Boolean) = store.edit { it[Keys.quietAfterPractice] = value }
     suspend fun markOpened(nowMillis: Long) = store.edit { it[Keys.lastOpened] = nowMillis }
     suspend fun markReminderFired(nowMillis: Long) = store.edit { it[Keys.lastFired] = nowMillis }
     suspend fun setReminderGrammar(value: Boolean) = store.edit { it[Keys.reminderGrammar] = value }

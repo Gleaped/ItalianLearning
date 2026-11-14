@@ -1,5 +1,7 @@
 package com.gleaped.italianlearning.ui.navigation
 
+import com.gleaped.italianlearning.ui.progress.ProgressScreen
+import com.gleaped.italianlearning.ui.progress.WritingScreen
 import android.net.Uri
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Box
@@ -58,6 +60,8 @@ object Routes {
     const val GRAMMAR_TOPIC = "grammar/topic/{topicId}"
     const val LOOKUP = "lookup"
     const val WORD = "word/{lemmaId}"
+    const val PROGRESS = "progress"
+    const val WRITING = "writing"
 
     fun unit(id: String) = "unit/${Uri.encode(id)}"
     fun level(id: String) = "level/${Uri.encode(id)}"
@@ -146,7 +150,18 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                         onReview = { nav.navigateTopLevel(Routes.REVIEW) },
                         onCourse = { nav.navigateTopLevel(Routes.COURSE) },
                         onPractice = { nav.navigate(Routes.lesson(Practice.UNIT_ID, Practice.WEAK_LESSON_ID)) },
+                        onProgress = { nav.navigate(Routes.PROGRESS) { launchSingleTop = true } },
                     )
+                }
+                composable(Routes.PROGRESS) {
+                    ProgressScreen(
+                        onBack = { nav.popBackStack() },
+                        onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                        onOpenWriting = { nav.navigate(Routes.WRITING) { launchSingleTop = true } },
+                    )
+                }
+                composable(Routes.WRITING) {
+                    WritingScreen(onBack = { nav.popBackStack() })
                 }
                 composable(Routes.COURSE) {
                     CourseMapScreen(

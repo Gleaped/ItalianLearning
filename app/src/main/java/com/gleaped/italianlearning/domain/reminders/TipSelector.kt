@@ -51,8 +51,22 @@ object TipSelector {
      * [history] lists shown tip ids, oldest first, most recent last; an id may appear
      * more than once (only its last showing counts).
      */
-    fun pick(candidates: List<GrammarTip>, history: List<String>): GrammarTip? {
+    fun pick(candidates: List<GrammarTip>, history: List<String>): GrammarTip? = pick(candidates, history, emptySet())
+
+    /** A tip from a priority unit is not shown again within this many reminders. */
+    const val PRIORITY_GAP = 6
+
+    /**
+     * As [pick], but tips from [priorityUnitIds] (units where the learner recently made
+     * mistakes) go first, unless they were among the last [PRIORITY_GAP] tips shown.
+     */
+    fun pick(candidates: List<GrammarTip>, history: List<String>, priorityUnitIds: Set<String>): GrammarTip? {
         if (candidates.isEmpty()) return null
+        if (priorityUnitIds.isNotEmpty()) {
+            val recent = history.takeLast(PRIORITY_GAP).toSet()
+            val urgent = candidates.filter { it.unitId in priorityUnitIds && it.id !in recent }
+            if (urgent.isNotEmpty()) return pick(urgent, history, emptySet())
+        }
         val lastShown = HashMap<String, Int>()
         history.forEachIndexed { i, id -> lastShown[id] = i }
         candidates.firstOrNull { it.id !in lastShown }?.let { return it }
