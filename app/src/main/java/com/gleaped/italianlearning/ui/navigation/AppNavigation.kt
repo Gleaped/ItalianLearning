@@ -8,6 +8,7 @@ import com.gleaped.italianlearning.ui.components.LocalAppContainer
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.distinctUntilChanged
 import com.gleaped.italianlearning.ui.progress.ProgressScreen
+import com.gleaped.italianlearning.ui.exam.PapersScreen
 import com.gleaped.italianlearning.ui.oral.OralScreen
 import com.gleaped.italianlearning.ui.practice.VerbDrillScreen
 import com.gleaped.italianlearning.ui.progress.WritingScreen
@@ -69,6 +70,7 @@ object Routes {
     const val GRAMMAR_TOPIC = "grammar/topic/{topicId}"
     const val LOOKUP = "lookup"
     const val ORAL = "oral"
+    const val PAPERS = "papers"
     const val VERBS = "verbs"
     const val WORD = "word/{lemmaId}"
     const val PROGRESS = "progress"
@@ -189,6 +191,7 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                         onOpenUnit = { nav.navigate(Routes.unit(it)) },
                         onOpenWriting = { nav.navigate(Routes.WRITING) { launchSingleTop = true } },
                         onOpenOral = { nav.navigate(Routes.ORAL) { launchSingleTop = true } },
+                        onOpenPapers = { nav.navigate(Routes.PAPERS) { launchSingleTop = true } },
                     )
                 }
                 composable(Routes.WRITING) {
@@ -196,6 +199,9 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                 }
                 composable(Routes.VERBS) {
                     VerbDrillScreen(onBack = { nav.popBackStack() })
+                }
+                composable(Routes.PAPERS) {
+                    PapersScreen(onBack = { nav.popBackStack() })
                 }
                 composable(Routes.ORAL) {
                     OralScreen(onBack = { nav.popBackStack() })

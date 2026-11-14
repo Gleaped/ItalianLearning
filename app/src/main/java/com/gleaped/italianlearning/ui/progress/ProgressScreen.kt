@@ -88,7 +88,7 @@ class ProgressViewModel(private val container: AppContainer) : ViewModel() {
 /** Accuracy by skill and the weakest grammar topics, from every answer given in lessons. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ProgressScreen(onBack: () -> Unit, onOpenUnit: (String) -> Unit, onOpenWriting: () -> Unit, onOpenOral: () -> Unit = {}) {
+fun ProgressScreen(onBack: () -> Unit, onOpenUnit: (String) -> Unit, onOpenWriting: () -> Unit, onOpenOral: () -> Unit = {}, onOpenPapers: () -> Unit = {}) {
     val container = LocalAppContainer.current
     val vm: ProgressViewModel = viewModel(factory = ProgressViewModel.factory(container))
     val state by vm.state.collectAsStateWithLifecycle()
@@ -168,6 +168,13 @@ fun ProgressScreen(onBack: () -> Unit, onOpenUnit: (String) -> Unit, onOpenWriti
             Text("Speaking practice", style = MaterialTheme.typography.titleLarge)
             OralSummary()
             OutlinedButton(onClick = onOpenOral, modifier = Modifier.fillMaxWidth()) { Text("Prova orale: record and score yourself") }
+
+            Text("Real practice papers", style = MaterialTheme.typography.titleLarge)
+            Text(
+                "Score a past paper you did on paper and compare it with the pass marks.",
+                style = MaterialTheme.typography.bodyMedium,
+            )
+            OutlinedButton(onClick = onOpenPapers, modifier = Modifier.fillMaxWidth()) { Text("Prove ufficiali: log a paper") }
 
             Text("Writing", style = MaterialTheme.typography.titleLarge)
             Text(
