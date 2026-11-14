@@ -26,6 +26,7 @@ import com.gleaped.italianlearning.content.SpeakRepeat
 import com.gleaped.italianlearning.content.SpeakRespond
 import com.gleaped.italianlearning.content.Transform
 import com.gleaped.italianlearning.content.Translate
+import com.gleaped.italianlearning.domain.practice.LevelCheck
 import com.gleaped.italianlearning.domain.practice.Practice
 import com.gleaped.italianlearning.domain.practice.WeakSpot
 import com.gleaped.italianlearning.domain.practice.WeakSpots
@@ -104,6 +105,8 @@ sealed interface LessonUiState {
         /** Timed exam papers only: seconds used and the paper's limit. */
         val examSeconds: Int? = null,
         val examLimitSeconds: Int? = null,
+        /** A module check only: whether it was passed, and so the module's lessons marked as known. */
+        val checkPassed: Boolean? = null,
     ) : LessonUiState
 }
 
@@ -121,6 +124,11 @@ class LessonViewModel(
 
     /** True for the "Mix del giorno" round: exercises from finished lessons, topics shuffled. */
     val isMix: Boolean = isPractice && lessonId == Practice.MIX_LESSON_ID
+
+    /** True for "Test del modulo": exercises from a whole module, to test out of it. */
+    private val checkModuleId: String? = if (isPractice) LevelCheck.moduleOf(lessonId) else null
+    private val isCheck: Boolean = checkModuleId != null
+    private var checkUnits: List<CourseUnit> = emptyList()
     private var clock: ExamClock? = null
 
     /** First-attempt results, one per exercise; the re-ask round does not change them. */
@@ -144,6 +152,7 @@ class LessonViewModel(
             speechEnabled = settings.speechNow()
             when {
                 isMix -> loadMix()
+                isCheck -> loadCheck()
                 isPractice -> loadPractice()
                 else -> loadLesson()
             }
@@ -188,6 +197,32 @@ class LessonViewModel(
                 minutes = (picked.size + 1) / 2,
                 exercises = picked.map { it.second },
                 goal = "Another go at items you missed earlier. Each one comes back after 1, 3 and 7 days until it sticks.",
+            ),
+        )
+    }
+
+    private suspend fun loadCheck() {
+        val moduleId = checkModuleId ?: return
+        val content = container.content.load()
+        checkUnits = content.course.units
+            .filter { it.module == moduleId && it.available }
+            .sortedBy { it.order }
+            .mapNotNull { content.units[it.id] }
+        val picked = LevelCheck.pick(checkUnits, Random(System.nanoTime()))
+        if (picked.size < LevelCheck.MIN_SIZE) {
+            _state.value = LessonUiState.Error("This module has too few exercises to test out of.")
+            return
+        }
+        val today = LocalDate.now().toEpochDay()
+        origins = picked.map { WeakSpot(it.lessonId, it.exerciseIndex, it.exercise.id, it.type, today) }
+        showRound(
+            Lesson(
+                id = lessonId,
+                title = LevelCheck.TITLE,
+                minutes = (picked.size + 1) / 2,
+                exercises = picked.map { it.exercise },
+                goal = "${picked.size} questions from across the module. Score 85% or more and its lessons are marked as known; " +
+                    "you can still open any of them. Misses come back in Punti deboli.",
             ),
         )
     }
@@ -388,6 +423,7 @@ class LessonViewModel(
         viewModelScope.launch {
             val scored = outcomes.filter { o -> running.lesson.exercises.getOrNull(o.index)?.scored == true }
             var next: kotlin.Pair<CourseUnit, Lesson>? = null
+            var checkPassed: Boolean? = null
             if (isPractice) {
                 container.learning.recordPractice(
                     outcomes.mapNotNull { o ->
@@ -397,6 +433,15 @@ class LessonViewModel(
                     },
                 )
                 if (isMix) container.settings.markMixDone(LocalDate.now().toEpochDay())
+                if (isCheck) {
+                    val ok = LevelCheck.passed(
+                        scored.count { it.verdict == Verdict.CORRECT },
+                        scored.count { it.verdict == Verdict.ALMOST },
+                        scored.size,
+                    )
+                    checkPassed = ok
+                    if (ok) container.learning.markUnitsKnown(checkUnits)
+                }
             } else {
                 container.learning.completeLesson(running.unit, running.lesson.id, outcomes.toList())
                 checkpoint = null
@@ -427,6 +472,7 @@ class LessonViewModel(
                 practice = isPractice,
                 examSeconds = examSeconds,
                 examLimitSeconds = clock?.limitSeconds,
+                checkPassed = checkPassed,
             )
         }
     }

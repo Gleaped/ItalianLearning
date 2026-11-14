@@ -129,7 +129,7 @@ fun CourseMapScreen(onOpenLevel: (String) -> Unit, onOpenUnit: (String) -> Unit)
 /** One level: its modules as headings, each with its units in study order. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun LevelScreen(levelId: String, onBack: () -> Unit, onOpenUnit: (String) -> Unit) {
+fun LevelScreen(levelId: String, onBack: () -> Unit, onOpenUnit: (String) -> Unit, onTestOut: (String) -> Unit = {}) {
     val o = rememberOverview()
     val level = o?.content?.course?.levels?.firstOrNull { it.id == levelId }
     Scaffold(
@@ -178,6 +178,11 @@ fun LevelScreen(levelId: String, onBack: () -> Unit, onOpenUnit: (String) -> Uni
                             Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                         Text("$done of ${refs.size} done", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.secondary)
+                        if (module != null && done < refs.size && refs.any { o.progress.status(it) == UnitStatus.UNLOCKED }) {
+                            androidx.compose.material3.TextButton(onClick = { onTestOut(module.id) }) {
+                                Text("Test out of this module")
+                            }
+                        }
                     }
                 }
                 items(refs, key = { it.id }) { ref -> UnitRow(ref, o, onOpenUnit) }

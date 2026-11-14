@@ -110,6 +110,33 @@ class LearningRepository(private val db: AppDatabase) {
      * Puts the unit's grammar-tip challenges into the review deck, in step with the lessons
      * finished: half the lessons done, half the tips in. Cards already there are left alone.
      */
+    /**
+     * Marks every lesson of [units] as done after a passed module check, without exercise results,
+     * and puts the units' vocabulary and grammar tips into the review deck as finishing them would.
+     */
+    suspend fun markUnitsKnown(units: List<CourseUnit>) {
+        val now = System.currentTimeMillis()
+        units.forEach { unit ->
+            unit.lessons.forEach { lesson ->
+                if (progress.lesson(lesson.id) == null) {
+                    progress.upsertLesson(
+                        LessonProgressEntity(
+                            lessonId = lesson.id,
+                            unitId = unit.id,
+                            completedAtMillis = now,
+                            correct = 0,
+                            almost = 0,
+                            wrong = 0,
+                            attempts = 1,
+                        ),
+                    )
+                }
+            }
+            addVocabulary(unit)
+            addGrammarCards(unit)
+        }
+    }
+
     suspend fun addGrammarCards(unit: CourseUnit) {
         val tips = unit.grammarTips.filter { it.challenge != null }
         if (tips.isEmpty() || unit.lessons.isEmpty()) return
