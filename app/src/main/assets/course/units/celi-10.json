@@ -1,0 +1,491 @@
+{
+  "id": "celi-10",
+  "level": "CELI3",
+  "title": "Famiglie di parole",
+  "objective": "Alla fine dell'unità sai formare nomi, aggettivi, avverbi e contrari da una parola di base, come richiede la C.3 del CELI 3.",
+  "grammarFocus": "Formazione delle parole: suffissi -zione, -mento, -ura, -ità, -oso, -abile, -mente; prefissi in-/im-/ir-/il-, s-, dis-.",
+  "remedialUnitIds": [
+    "celi-03"
+  ],
+  "lessons": [
+    {
+      "id": "celi-10-l1",
+      "title": "Nomi dai verbi",
+      "minutes": 8,
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "title": "Dal verbo al nome",
+          "body": "Molti nomi si formano dal verbo con un suffisso.\n\n- **-zione / -sione**: organizzare → organizzazione, decidere → decisione\n- **-mento**: sviluppare → sviluppo, cambiare → cambiamento\n- **-tura / -ura**: aprire → apertura, chiudere → chiusura\n- **-ità** (da aggettivi): possibile → possibilità",
+          "examples": [
+            {
+              "it": "Il Comune ha annunciato l'apertura del museo.",
+              "en": "The council announced the opening of the museum."
+            },
+            {
+              "it": "Ho preso una decisione importante.",
+              "en": "I made an important decision."
+            }
+          ],
+          "id": "celi-10-l1-e01"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "La ___ della biblioteca è prevista per maggio. (APRIRE)",
+          "answers": [
+            "apertura"
+          ],
+          "explanation": "aprire → apertura.",
+          "id": "celi-10-l1-e02"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "L'___ del concerto è stata perfetta. (ORGANIZZARE)",
+          "answers": [
+            "organizzazione"
+          ],
+          "explanation": "organizzare → organizzazione.",
+          "id": "celi-10-l1-e03"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Dopo lunghe discussioni hanno preso una ___ . (DECIDERE)",
+          "answers": [
+            "decisione"
+          ],
+          "explanation": "decidere → decisione.",
+          "id": "celi-10-l1-e04"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il ___ di casa è stato complicato. (TRASFERIRE)",
+          "answers": [
+            "trasferimento"
+          ],
+          "explanation": "trasferire → trasferimento.",
+          "id": "celi-10-l1-e05"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "La ___ del treno è prevista alle nove. (PARTIRE)",
+          "answers": [
+            "partenza"
+          ],
+          "explanation": "partire → partenza.",
+          "id": "celi-10-l1-e06"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Abbiamo parlato di un possibile ___ della scuola. (CAMBIARE)",
+          "answers": [
+            "cambiamento"
+          ],
+          "explanation": "cambiare → cambiamento.",
+          "id": "celi-10-l1-e07"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "L'___ della legge è stata rinviata. (APPROVARE)",
+          "answers": [
+            "approvazione"
+          ],
+          "explanation": "approvare → approvazione.",
+          "id": "celi-10-l1-e08"
+        },
+        {
+          "type": "match_pairs",
+          "instruction": "Abbina il verbo al nome corrispondente.",
+          "pairs": [
+            {
+              "left": "scoprire",
+              "right": "scoperta"
+            },
+            {
+              "left": "crescere",
+              "right": "crescita"
+            },
+            {
+              "left": "arrivare",
+              "right": "arrivo"
+            },
+            {
+              "left": "riunire",
+              "right": "riunione"
+            }
+          ],
+          "explanation": "Riconosci il suffisso: indica la categoria della parola.",
+          "id": "celi-10-l1-e09"
+        }
+      ]
+    },
+    {
+      "id": "celi-10-l2",
+      "title": "Aggettivi e avverbi",
+      "minutes": 8,
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "title": "Aggettivi da nomi e verbi",
+          "body": "Altri suffissi formano aggettivi.\n\n- **-oso**: la fatica → faticoso, il rumore → rumoroso\n- **-abile / -ibile**: pagare → pagabile, leggere → leggibile\n- **-ale**: la cultura → culturale, la regione → regionale\n- **-mente** forma gli avverbi: lento → lentamente, facile → facilmente",
+          "examples": [
+            {
+              "it": "È un lavoro molto faticoso.",
+              "en": "It's a very tiring job."
+            },
+            {
+              "it": "Ha risposto gentilmente.",
+              "en": "He answered kindly."
+            }
+          ],
+          "id": "celi-10-l2-e01"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Dopo il viaggio ero molto ___ . (STANCARE)",
+          "answers": [
+            "stanco",
+            "stanca"
+          ],
+          "explanation": "stancare → stanco (participio usato come aggettivo).",
+          "id": "celi-10-l2-e02"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il vicino è sempre molto ___ la sera. (RUMORE)",
+          "answers": [
+            "rumoroso"
+          ],
+          "explanation": "rumore → rumoroso.",
+          "id": "celi-10-l2-e03"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Questa scrittura non è ___ : non si capisce niente. (LEGGERE)",
+          "answers": [
+            "leggibile"
+          ],
+          "explanation": "leggere → leggibile.",
+          "id": "celi-10-l2-e04"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "La mostra ha un forte interesse ___ . (CULTURA)",
+          "answers": [
+            "culturale"
+          ],
+          "explanation": "cultura → culturale.",
+          "id": "celi-10-l2-e05"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Ha risposto ___ alla domanda. (CALMO)",
+          "answers": [
+            "calmamente"
+          ],
+          "explanation": "calmo → calmamente.",
+          "id": "celi-10-l2-e06"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il problema si risolve ___ . (FACILE)",
+          "answers": [
+            "facilmente"
+          ],
+          "explanation": "facile → facilmente (la -e finale resta).",
+          "id": "celi-10-l2-e07"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "È un'idea ___ : non costa niente. (VANTAGGIO)",
+          "answers": [
+            "vantaggiosa"
+          ],
+          "explanation": "vantaggio → vantaggioso (idea → -a).",
+          "id": "celi-10-l2-e08"
+        },
+        {
+          "type": "match_pairs",
+          "instruction": "Abbina il nome all'aggettivo.",
+          "pairs": [
+            {
+              "left": "la paura",
+              "right": "pauroso"
+            },
+            {
+              "left": "la regione",
+              "right": "regionale"
+            },
+            {
+              "left": "il pericolo",
+              "right": "pericoloso"
+            },
+            {
+              "left": "la storia",
+              "right": "storico"
+            }
+          ],
+          "explanation": "Riconosci il suffisso: indica la categoria della parola.",
+          "id": "celi-10-l2-e09"
+        }
+      ]
+    },
+    {
+      "id": "celi-10-l3",
+      "title": "Contrari e prefissi",
+      "minutes": 8,
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "title": "Il contrario con un prefisso",
+          "body": "Per formare il contrario si usano i prefissi.\n\n- **in-**: possibile → impossibile (in- diventa **im-** davanti a b, m, p; **ir-** davanti a r; **il-** davanti a l)\n- **s-** e **dis-**: fortuna → sfortuna, ordine → disordine\n- **anti-, contro-**: contro + corrente → controcorrente",
+          "examples": [
+            {
+              "it": "È un compito impossibile.",
+              "en": "It's an impossible task."
+            },
+            {
+              "it": "C'è molto disordine in camera.",
+              "en": "There's a lot of mess in the room."
+            }
+          ],
+          "id": "celi-10-l3-e01"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Era un compito quasi ___ . (POSSIBILE)",
+          "answers": [
+            "impossibile"
+          ],
+          "explanation": "in- + possibile → impossibile (in- → im- davanti a p).",
+          "id": "celi-10-l3-e02"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Purtroppo è ___ : non sa cosa fare. (SICURO)",
+          "answers": [
+            "insicuro"
+          ],
+          "explanation": "in + sicuro → insicuro.",
+          "id": "celi-10-l3-e03"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Che ___ ! Ho perso il treno. (FORTUNA)",
+          "answers": [
+            "sfortuna"
+          ],
+          "explanation": "s- + fortuna → sfortuna.",
+          "id": "celi-10-l3-e04"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "In camera c'era un gran ___ . (ORDINE)",
+          "answers": [
+            "disordine"
+          ],
+          "explanation": "dis- + ordine → disordine.",
+          "id": "celi-10-l3-e05"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Questa decisione è ___ : non rispetta le regole. (LEGALE)",
+          "answers": [
+            "illegale"
+          ],
+          "explanation": "in- → il- davanti a l: illegale.",
+          "id": "celi-10-l3-e06"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il suo comportamento è davvero ___ . (RESPONSABILE)",
+          "answers": [
+            "irresponsabile"
+          ],
+          "explanation": "in- → ir- davanti a r: irresponsabile.",
+          "id": "celi-10-l3-e07"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Mi sembra una persona ___ : non ascolta mai. (PAZIENTE)",
+          "answers": [
+            "impaziente"
+          ],
+          "explanation": "in- → im- davanti a p: impaziente.",
+          "id": "celi-10-l3-e08"
+        },
+        {
+          "type": "match_pairs",
+          "instruction": "Abbina la parola al suo contrario.",
+          "pairs": [
+            {
+              "left": "felice",
+              "right": "infelice"
+            },
+            {
+              "left": "fiducia",
+              "right": "sfiducia"
+            },
+            {
+              "left": "utile",
+              "right": "inutile"
+            },
+            {
+              "left": "accordo",
+              "right": "disaccordo"
+            }
+          ],
+          "explanation": "Riconosci il suffisso: indica la categoria della parola.",
+          "id": "celi-10-l3-e09"
+        }
+      ]
+    },
+    {
+      "id": "celi-10-l4",
+      "title": "Allenamento C.3",
+      "minutes": 10,
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "title": "Come si risolve la C.3",
+          "body": "Nella C.3 una frase contiene una parola in maiuscolo: la trasformi per riempire lo spazio.\n\n1. Capisci che parola serve (nome, aggettivo, avverbio?).\n2. Scegli il suffisso o il prefisso.\n3. Controlla ortografia, doppie e singolare/plurale.",
+          "examples": [
+            {
+              "it": "L'organizzazione è stata ottima.",
+              "en": "The organisation was excellent."
+            }
+          ],
+          "id": "celi-10-l4-e01"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il ___ in treno è molto comodo. (VIAGGIARE)",
+          "answers": [
+            "viaggio"
+          ],
+          "explanation": "viaggiare → viaggio.",
+          "id": "celi-10-l4-e02"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "La ___ dei lavori è stata più lunga del previsto. (DURARE)",
+          "answers": [
+            "durata"
+          ],
+          "explanation": "durare → durata.",
+          "id": "celi-10-l4-e03"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il suo ___ al lavoro è ammirevole. (IMPEGNARE)",
+          "answers": [
+            "impegno"
+          ],
+          "explanation": "impegnare → impegno.",
+          "id": "celi-10-l4-e04"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Il pubblico ha applaudito ___ . (ENTUSIASTA)",
+          "answers": [
+            "entusiasticamente",
+            "con entusiasmo"
+          ],
+          "explanation": "entusiasta → entusiasticamente (anche «con entusiasmo»).",
+          "id": "celi-10-l4-e05"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "È una decisione ___ : nessuno la capisce. (RAGIONE)",
+          "answers": [
+            "irragionevole",
+            "irrazionale"
+          ],
+          "explanation": "in- + ragionevole → irragionevole (in- → ir- davanti a r).",
+          "id": "celi-10-l4-e06"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Ha lavorato con grande ___ . (SERIO)",
+          "answers": [
+            "serietà"
+          ],
+          "explanation": "serio → serietà.",
+          "id": "celi-10-l4-e07"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "La ___ della città è aumentata negli ultimi anni. (POPOLARE)",
+          "answers": [
+            "popolazione"
+          ],
+          "explanation": "popolare → popolazione.",
+          "id": "celi-10-l4-e08"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "Mostra sempre molto ___ per gli anziani. (RISPETTARE)",
+          "answers": [
+            "rispetto"
+          ],
+          "explanation": "rispettare → rispetto.",
+          "id": "celi-10-l4-e09"
+        },
+        {
+          "type": "gap_fill",
+          "sentence": "La ___ del museo è gratuita la domenica. (ENTRARE)",
+          "answers": [
+            "entrata"
+          ],
+          "explanation": "entrare → entrata.",
+          "id": "celi-10-l4-e10"
+        },
+        {
+          "type": "match_pairs",
+          "instruction": "Abbina la parola alla famiglia.",
+          "pairs": [
+            {
+              "left": "organizzare",
+              "right": "organizzazione"
+            },
+            {
+              "left": "nuovo",
+              "right": "novità"
+            },
+            {
+              "left": "lungo",
+              "right": "lunghezza"
+            },
+            {
+              "left": "bello",
+              "right": "bellezza"
+            }
+          ],
+          "explanation": "Riconosci il suffisso: indica la categoria della parola.",
+          "id": "celi-10-l4-e11"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'apertura",
+      "en": "opening",
+      "example": "L'apertura del museo è prevista per maggio."
+    },
+    {
+      "it": "il cambiamento",
+      "en": "change",
+      "example": "Il cambiamento è stato improvviso."
+    },
+    {
+      "it": "irresponsabile",
+      "en": "irresponsible",
+      "example": "È un comportamento irresponsabile."
+    },
+    {
+      "it": "la serietà",
+      "en": "seriousness",
+      "example": "Lavora con grande serietà."
+    }
+  ]
+}
