@@ -18,6 +18,12 @@ import androidx.compose.ui.unit.sp
 import com.gleaped.italianlearning.R
 import com.gleaped.italianlearning.data.settings.TextSize
 import com.gleaped.italianlearning.data.settings.ThemeMode
+import com.gleaped.italianlearning.data.settings.UiStyle
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Shapes
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.ui.unit.dp
 
 // Palette: basil green, terracotta and cream, quietly Italian.
 private val Basil = Color(0xFF2E6B4F)
@@ -65,6 +71,78 @@ private val DarkColors = darkColorScheme(
     error = Color(0xFFFFB4AB),
 )
 
+// Majorca (maiolica): Mediterranean ceramic tiles, deep blue and cream with terracotta.
+object Majorca {
+    val Blue = Color(0xFF0D3B66)
+    val Cream = Color(0xFFF4EDE0)
+    val Terracotta = Color(0xFFE07A3F)
+    val TerracottaDark = Color(0xFFA8481A)
+    val BlueSoft = Color(0xFFBBD0E6)
+}
+
+private val MajorcaLight = lightColorScheme(
+    primary = Majorca.Blue,
+    onPrimary = Majorca.Cream,
+    primaryContainer = Color(0xFFD3E2F2),
+    onPrimaryContainer = Color(0xFF062038),
+    secondary = Color(0xFFB65A24),
+    onSecondary = Color.White,
+    secondaryContainer = Color(0xFFFFDCC6),
+    onSecondaryContainer = Color(0xFF3A1500),
+    tertiary = Majorca.TerracottaDark,
+    background = Majorca.Cream,
+    onBackground = Majorca.Blue,
+    surface = Majorca.Cream,
+    onSurface = Color(0xFF0B2F52),
+    surfaceVariant = Color(0xFFE6DDCB),
+    onSurfaceVariant = Color(0xFF2E4A68),
+    outline = Majorca.Blue,
+    outlineVariant = Color(0xFF8FA6BF),
+    surfaceContainerLowest = Color.White,
+    surfaceContainerLow = Color(0xFFFBF7EF),
+    surfaceContainer = Color(0xFFFFFFFF),
+    surfaceContainerHigh = Color(0xFFEFE6D5),
+    surfaceContainerHighest = Color(0xFFE6DDCB),
+    error = Color(0xFFBA1A1A),
+)
+
+private val MajorcaDark = darkColorScheme(
+    primary = Color(0xFF9CC3EA),
+    onPrimary = Color(0xFF062038),
+    primaryContainer = Color(0xFF1B4F82),
+    onPrimaryContainer = Color(0xFFD3E2F2),
+    secondary = Color(0xFFFFB68A),
+    onSecondary = Color(0xFF5A2300),
+    secondaryContainer = Color(0xFF8A3E12),
+    onSecondaryContainer = Color(0xFFFFDCC6),
+    tertiary = Color(0xFFFFB68A),
+    background = Color(0xFF0A1A2B),
+    onBackground = Color(0xFFEFE6D5),
+    surface = Color(0xFF0A1A2B),
+    onSurface = Color(0xFFEFE6D5),
+    surfaceVariant = Color(0xFF223A55),
+    onSurfaceVariant = Color(0xFFC3D3E4),
+    outline = Color(0xFF9CC3EA),
+    outlineVariant = Color(0xFF3E5876),
+    surfaceContainerLowest = Color(0xFF07131F),
+    surfaceContainerLow = Color(0xFF0F2438),
+    surfaceContainer = Color(0xFF132C45),
+    surfaceContainerHigh = Color(0xFF193552),
+    surfaceContainerHighest = Color(0xFF223A55),
+    error = Color(0xFFFFB4AB),
+)
+
+private val MajorcaShapes = Shapes(
+    extraSmall = RoundedCornerShape(4.dp),
+    small = RoundedCornerShape(6.dp),
+    medium = RoundedCornerShape(6.dp),
+    large = RoundedCornerShape(8.dp),
+    extraLarge = RoundedCornerShape(10.dp),
+)
+
+/** The design the learner picked; screens use it for the few places that differ beyond colours. */
+val LocalUiStyle = staticCompositionLocalOf { UiStyle.MAJORCA }
+
 /** Colours for exercise feedback, readable in both themes. */
 object FeedbackColors {
     val correctLight = Color(0xFFD7F2E1)
@@ -96,9 +174,9 @@ object HighlightColors {
  * Reading-first type scale: body text at 17sp with 1.5 line height (Material's default is 16/24),
  * Italian sentences in exercises use titleLarge (21sp). [scale] comes from the text-size setting.
  */
-fun readableTypography(scale: Float): Typography {
+fun readableTypography(scale: Float, family: FontFamily = Hyperlegible): Typography {
     fun style(size: Float, line: Float, weight: FontWeight = FontWeight.Normal, spacing: TextUnit = 0.sp) = TextStyle(
-        fontFamily = Hyperlegible,
+        fontFamily = family,
         fontWeight = weight,
         fontSize = (size * scale).sp,
         lineHeight = (line * scale).sp,
@@ -127,6 +205,7 @@ fun readableTypography(scale: Float): Typography {
 fun ItalianoTheme(
     themeMode: ThemeMode = ThemeMode.SYSTEM,
     textSize: TextSize = TextSize.MEDIUM,
+    uiStyle: UiStyle = UiStyle.MAJORCA,
     content: @Composable () -> Unit,
 ) {
     val dark = when (themeMode) {
@@ -134,9 +213,18 @@ fun ItalianoTheme(
         ThemeMode.LIGHT -> false
         ThemeMode.DARK -> true
     }
-    MaterialTheme(
-        colorScheme = if (dark) DarkColors else LightColors,
-        typography = readableTypography(textSize.scale),
-        content = content,
-    )
+    val majorca = uiStyle == UiStyle.MAJORCA
+    CompositionLocalProvider(LocalUiStyle provides uiStyle) {
+        MaterialTheme(
+            colorScheme = when {
+                majorca && dark -> MajorcaDark
+                majorca -> MajorcaLight
+                dark -> DarkColors
+                else -> LightColors
+            },
+            typography = readableTypography(textSize.scale, if (majorca) FontFamily.Serif else Hyperlegible),
+            shapes = if (majorca) MajorcaShapes else MaterialTheme.shapes,
+            content = content,
+        )
+    }
 }

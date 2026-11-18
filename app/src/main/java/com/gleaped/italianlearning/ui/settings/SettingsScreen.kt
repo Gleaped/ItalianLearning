@@ -80,6 +80,7 @@ import com.gleaped.italianlearning.data.db.ReminderEntity
 import com.gleaped.italianlearning.data.settings.Settings
 import com.gleaped.italianlearning.data.settings.TextSize
 import com.gleaped.italianlearning.data.settings.ThemeMode
+import com.gleaped.italianlearning.data.settings.UiStyle
 import com.gleaped.italianlearning.domain.profile.LearnerName
 import com.gleaped.italianlearning.domain.srs.CoreDeck
 import com.gleaped.italianlearning.reminders.Notifications
@@ -135,6 +136,7 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
     fun setExamDate(epochDay: Long) = update { repo.setExamDate(epochDay) }
     fun setCoreWords(v: Int) = update { repo.setCoreWordsPerDay(v) }
     fun setUnlockAll(v: Boolean) = update { repo.setUnlockAll(v) }
+    fun setUiStyle(v: UiStyle) = update { repo.setUiStyle(v) }
     fun setTheme(v: ThemeMode) = update { repo.setThemeMode(v) }
     fun setTextSize(v: TextSize) = update { repo.setTextSize(v) }
     fun setUserName(v: String) = update { repo.setUserName(v) }
@@ -547,6 +549,16 @@ fun SettingsScreen() {
 
         // ---------------- Appearance
         SectionTitle("Appearance")
+        Text("Design", style = MaterialTheme.typography.titleSmall)
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            UiStyle.entries.forEach { style ->
+                FilterChip(
+                    selected = settings.uiStyle == style,
+                    onClick = { vm.setUiStyle(style) },
+                    label = { Text(if (style == UiStyle.MAJORCA) "Maiolica" else "Classic") },
+                )
+            }
+        }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             ThemeMode.entries.forEach { mode ->
                 FilterChip(

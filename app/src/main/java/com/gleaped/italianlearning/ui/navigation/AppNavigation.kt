@@ -1,6 +1,17 @@
 package com.gleaped.italianlearning.ui.navigation
 
 import androidx.compose.material3.Badge
+import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.unit.dp
+import com.gleaped.italianlearning.data.settings.UiStyle
+import com.gleaped.italianlearning.ui.theme.LocalUiStyle
+import com.gleaped.italianlearning.ui.theme.Majorca
 import androidx.compose.material3.BadgedBox
 import androidx.compose.runtime.remember
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -29,6 +40,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarDefaults
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -135,19 +147,38 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
     Scaffold(
         topBar = {
             if (currentTopLevel != null) {
-                TopAppBar(
-                    title = { Text(currentTopLevel.title) },
-                    actions = {
-                        IconButton(onClick = { nav.navigate(Routes.LOOKUP) { launchSingleTop = true } }) {
-                            Icon(Icons.Filled.Search, contentDescription = "Look up a word")
-                        }
-                    },
-                )
+                val majorca = LocalUiStyle.current == UiStyle.MAJORCA
+                Column {
+                    TopAppBar(
+                        title = { Text(currentTopLevel.title) },
+                        actions = {
+                            IconButton(onClick = { nav.navigate(Routes.LOOKUP) { launchSingleTop = true } }) {
+                                Icon(Icons.Filled.Search, contentDescription = "Look up a word")
+                            }
+                        },
+                        colors = if (majorca) {
+                            TopAppBarDefaults.topAppBarColors(
+                                containerColor = Majorca.Blue,
+                                titleContentColor = Majorca.Cream,
+                                actionIconContentColor = Majorca.Cream,
+                                navigationIconContentColor = Majorca.Cream,
+                            )
+                        } else {
+                            TopAppBarDefaults.topAppBarColors()
+                        },
+                    )
+                    // Terracotta rule under the blue header, like a tile border.
+                    if (majorca) Box(Modifier.fillMaxWidth().height(5.dp).background(Majorca.Terracotta))
+                }
             }
         },
         bottomBar = {
             if (showBottomBar) {
-                NavigationBar {
+                val majorca = LocalUiStyle.current == UiStyle.MAJORCA
+                NavigationBar(
+                    containerColor = if (majorca) Majorca.Blue else NavigationBarDefaults.containerColor,
+                    contentColor = if (majorca) Majorca.Cream else MaterialTheme.colorScheme.onSurfaceVariant,
+                ) {
                     topLevel.forEach { item ->
                         NavigationBarItem(
                             selected = currentRoute == item.route,
@@ -162,6 +193,17 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                                 }
                             },
                             label = { Text(item.label) },
+                            colors = if (majorca) {
+                                NavigationBarItemDefaults.colors(
+                                    selectedIconColor = Majorca.Blue,
+                                    selectedTextColor = Majorca.Cream,
+                                    unselectedIconColor = Majorca.BlueSoft,
+                                    unselectedTextColor = Majorca.BlueSoft,
+                                    indicatorColor = Majorca.Terracotta,
+                                )
+                            } else {
+                                NavigationBarItemDefaults.colors()
+                            },
                         )
                     }
                 }
