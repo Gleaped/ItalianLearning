@@ -70,6 +70,10 @@ data class Settings(
     val examDateEpochDay: Long = 0L,
     /** Core words added to the review deck each day; 0 = off. */
     val coreWordsPerDay: Int = CoreDeck.DEFAULT_PER_DAY,
+    /** Optional on-device Whisper recogniser for speaking steps; off until the learner turns it on. */
+    val whisperEnabled: Boolean = false,
+    /** Id of the chosen Whisper model (see WhisperModel). */
+    val whisperModel: String = "base",
 ) {
     /** Whether speaking steps use the microphone right now. */
     fun speechNow(nowMillis: Long = System.currentTimeMillis()): Boolean =
@@ -129,6 +133,8 @@ class SettingsRepository(context: Context) {
         val lastMixDay = longPreferencesKey("last_mix_day")
         val examDate = longPreferencesKey("exam_date_epoch_day")
         val coreWordsPerDay = intPreferencesKey("core_words_per_day")
+        val whisperEnabled = booleanPreferencesKey("whisper_enabled")
+        val whisperModel = stringPreferencesKey("whisper_model")
         val coreNextRank = intPreferencesKey("core_next_rank")
         val coreLastDay = longPreferencesKey("core_last_day")
     }
@@ -168,6 +174,8 @@ class SettingsRepository(context: Context) {
             onboarded = p[Keys.onboarded] ?: false,
             examDateEpochDay = p[Keys.examDate] ?: 0L,
             coreWordsPerDay = p[Keys.coreWordsPerDay] ?: defaults.coreWordsPerDay,
+            whisperEnabled = p[Keys.whisperEnabled] ?: defaults.whisperEnabled,
+            whisperModel = p[Keys.whisperModel] ?: defaults.whisperModel,
         )
     }.distinctUntilChanged()
 
@@ -194,6 +202,8 @@ class SettingsRepository(context: Context) {
     suspend fun setSpeechRate(value: Float) = store.edit { it[Keys.speechRate] = value }
     suspend fun setAutoPlay(value: Boolean) = store.edit { it[Keys.autoPlay] = value }
     suspend fun setSpeechPractice(value: Boolean) = store.edit { it[Keys.speechPractice] = value }
+    suspend fun setWhisperEnabled(value: Boolean) = store.edit { it[Keys.whisperEnabled] = value }
+    suspend fun setWhisperModel(id: String) = store.edit { it[Keys.whisperModel] = id }
 
     /** Speaking steps are typed until [untilMillis]; 0 turns the microphone back on. */
     suspend fun setQuietSpeechUntil(untilMillis: Long) = store.edit { it[Keys.quietSpeechUntil] = untilMillis }

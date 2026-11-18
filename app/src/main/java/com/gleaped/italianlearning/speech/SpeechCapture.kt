@@ -29,6 +29,13 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.collectAsState
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.gleaped.italianlearning.data.settings.Settings as AppSettings
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -54,7 +61,18 @@ fun SpeechCapture(
     modifier: Modifier = Modifier,
 ) {
     val context = LocalContext.current
-    val tts = LocalAppContainer.current.tts
+    val container = LocalAppContainer.current
+    val tts = container.tts
+    val whisper = container.whisper
+    val settings by container.settings.settings.collectAsStateWithLifecycle(initialValue = AppSettings())
+    val whisperState by whisper.state.collectAsState()
+    val whisperModel = WhisperModel.of(settings.whisperModel)
+    // Whisper is used only when switched on in Settings and its model is on the phone; otherwise Android's recogniser.
+    val useWhisper = settings.whisperEnabled && whisperState.supported && whisperModel in whisperState.installed
+    val scope = rememberCoroutineScope()
+    val whisperStop = remember { AtomicBoolean(false) }
+    var whisperJob by remember { mutableStateOf<Job?>(null) }
+    var transcribing by remember { mutableStateOf(false) }
     val currentOnResult by rememberUpdatedState(onResult)
     val currentOnUnavailable by rememberUpdatedState(onUnavailable)
     var listening by remember { mutableStateOf(false) }
@@ -66,6 +84,7 @@ fun SpeechCapture(
 
     DisposableEffect(Unit) {
         onDispose {
+            whisperJob?.cancel()
             recognizer?.destroy()
             recognizer = null
         }
@@ -154,8 +173,48 @@ fun SpeechCapture(
         r.startListening(intent)
     }
 
+    fun startWhisper() {
+        // The microphone must not pick up the app's own voice.
+        tts.stop()
+        whisperStop.set(false)
+        listening = true
+        transcribing = false
+        partial = ""
+        offerOfflinePack = false
+        status = "Ascolto…"
+        whisperJob = scope.launch {
+            try {
+                val recording = WhisperRecorder.record(onLevel = { level = it }, stopRequested = { whisperStop.get() })
+                level = 0f
+                if (recording == null) {
+                    status = "The microphone could not be opened. Try again or type instead."
+                    return@launch
+                }
+                if (!recording.heardSpeech) {
+                    status = "Didn't catch that. Tap the mic and try again."
+                    return@launch
+                }
+                transcribing = true
+                status = "Sto trascrivendo… (transcribing)"
+                val text = whisper.transcribe(whisperModel, recording.samples)
+                if (text.isNullOrBlank()) {
+                    status = if (text == null) "Whisper could not start. Turn it off in Settings or try again." else "Didn't catch that. Tap the mic and try again."
+                } else {
+                    status = null
+                    currentOnResult(listOf(text))
+                }
+            } finally {
+                listening = false
+                transcribing = false
+                level = 0f
+            }
+        }
+    }
+
+    fun begin() = if (useWhisper) startWhisper() else start()
+
     val permissionLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
-        if (granted) start() else currentOnUnavailable(SpeechUnavailable.PERMISSION_DENIED)
+        if (granted) begin() else currentOnUnavailable(SpeechUnavailable.PERMISSION_DENIED)
     }
 
     Column(
@@ -166,14 +225,14 @@ fun SpeechCapture(
         FilledIconButton(
             onClick = {
                 if (listening) {
-                    recognizer?.stopListening()
+                    if (useWhisper) whisperStop.set(true) else recognizer?.stopListening()
                 } else if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
-                    start()
+                    begin()
                 } else {
                     permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
                 }
             },
-            enabled = enabled,
+            enabled = enabled && !transcribing,
             modifier = Modifier.size(72.dp),
             colors = if (listening) {
                 IconButtonDefaults.filledIconButtonColors(containerColor = MaterialTheme.colorScheme.secondary)
@@ -192,7 +251,7 @@ fun SpeechCapture(
             style = MaterialTheme.typography.bodyMedium,
             textAlign = TextAlign.Center,
         )
-        if (listening) {
+        if (listening && !transcribing) {
             LinearProgressIndicator(progress = { level }, modifier = Modifier.fillMaxWidth(0.5f))
             if (partial.isNotBlank()) {
                 Text(

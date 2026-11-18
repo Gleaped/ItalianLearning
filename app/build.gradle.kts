@@ -20,6 +20,18 @@ android {
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = runNumber
         versionName = "0.1.$runNumber"
+
+        // Whisper (optional on-device recogniser) is native code. 64-bit ARM covers every current phone;
+        // other ABIs simply do without the Whisper option.
+        ndk {
+            abiFilters += setOf("arm64-v8a")
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path = file("src/main/cpp/CMakeLists.txt")
+        }
     }
 
     // Release signing key comes from the environment (GitHub secrets in CI), never

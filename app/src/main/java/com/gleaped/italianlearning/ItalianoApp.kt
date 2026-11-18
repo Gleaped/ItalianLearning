@@ -22,6 +22,7 @@ import com.gleaped.italianlearning.data.conversation.ConversationRepository
 import com.gleaped.italianlearning.data.writing.WritingRepository
 import com.gleaped.italianlearning.speech.TtsManager
 import com.gleaped.italianlearning.speech.VoicePack
+import com.gleaped.italianlearning.speech.WhisperEngine
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -41,6 +42,7 @@ class AppContainer(context: Context) {
     }
     val reminderContent: ReminderContentBuilder by lazy { ReminderContentBuilder(content, learning, settings) }
     val voicePack: VoicePack by lazy { VoicePack(appContext) }
+    val whisper: WhisperEngine by lazy { WhisperEngine(appContext) }
     val tts: TtsManager by lazy { TtsManager(appContext, voicePack) }
     val writing: WritingRepository by lazy { WritingRepository(appContext) }
     val coreDeck: CoreDeckService by lazy { CoreDeckService(settings, content, dictionary, learning) }
