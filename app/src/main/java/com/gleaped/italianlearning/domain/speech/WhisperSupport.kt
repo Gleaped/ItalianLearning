@@ -5,7 +5,7 @@ import kotlin.math.max
 /** Tidies the text Whisper returns. */
 object WhisperText {
     private val tags = Regex("""\[[^\]]*]|\([^)]*\)|\*[^*]*\*""")
-    private val spaces = Regex("""(?U)\s+""")
+    private val spaces = Regex("""[\s\u00a0\u2000-\u200a\u202f\u205f\u3000]+""")
 
     /** Whisper marks non-speech as "[BLANK_AUDIO]", "(musica)" and the like; those are not words. */
     fun clean(raw: String): String = raw.replace(tags, " ").replace(spaces, " ").trim()

@@ -102,7 +102,8 @@ class TtsManager(context: Context, private val pack: VoicePack? = null) {
      * With [dialogue], lines separated by a dash are read by alternating voices.
      */
     fun speak(text: String, slow: Boolean = false, second: Boolean = false, dialogue: Boolean = false) {
-        if (speakFromPack(text, slow, second, dialogue)) return
+        // The recordings are a bonus: any failure there falls through to the phone's voice.
+        if (runCatching { speakFromPack(text, slow, second, dialogue) }.getOrDefault(false)) return
         when (_status.value) {
             TtsStatus.INITIALISING -> pending = text to slow
             TtsStatus.READY -> {
@@ -144,12 +145,17 @@ class TtsManager(context: Context, private val pack: VoicePack? = null) {
         val spoken = lines.filter { it.isNotBlank() }
         if (spoken.isEmpty()) return
         val voice = if (second) AudioKey.VOICE_SECOND else AudioKey.VOICE_MAIN
-        val files = spoken.map { pack?.fileFor(it, voice) }
-        if (files.none { it == null }) {
-            if (_status.value == TtsStatus.READY) tts.stop()
-            packPlayer.play(files.filterNotNull(), speed = (if (slow) 0.75f else 1.0f) * (baseRate / 0.9f).coerceIn(0.6f, 1.4f))
-            return
-        }
+        val played = runCatching {
+            val files = spoken.map { pack?.fileFor(it, voice) }
+            if (files.none { it == null }) {
+                if (_status.value == TtsStatus.READY) tts.stop()
+                packPlayer.play(files.filterNotNull(), speed = (if (slow) 0.75f else 1.0f) * (baseRate / 0.9f).coerceIn(0.6f, 1.4f))
+                true
+            } else {
+                false
+            }
+        }.getOrDefault(false)
+        if (played) return
         if (_status.value != TtsStatus.READY) return
         packPlayer.stop()
         tts.setSpeechRate(if (slow) baseRate * 0.7f else baseRate)
