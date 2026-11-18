@@ -1,0 +1,232 @@
+{
+  "id": "sp-a1",
+  "level": "A1",
+  "title": "Suoni e parole parlate",
+  "format": 2,
+  "module": "a1-m3",
+  "objective": "By the end you can hear the difference between single and double consonants and follow short spoken exchanges.",
+  "grammarFocus": "Double consonants, rhythm of short sentences, greetings and ordering at the bar.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "sp-a1-l1",
+      "title": "Una consonante o due?",
+      "minutes": 7,
+      "goal": "You can hear and say the difference between single and double consonants.",
+      "takeaway": "Double consonants are held longer: pala is short, palla is long.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-a1-l1-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Buongiorno, come stai?",
+          "translation": "Good morning, how are you?"
+        },
+        {
+          "type": "grammar_note",
+          "id": "sp-a1-l1-e02",
+          "stage": "learn",
+          "instruction": "Leggi.",
+          "title": "Doppie: tienile più a lungo",
+          "body": "In Italian a **double consonant** is held for longer.\n\n- pala (shovel) / palla (ball)\\n- caro (dear) / carro (cart)",
+          "examples": [
+            {
+              "it": "pala / palla",
+              "en": "shovel / ball"
+            },
+            {
+              "it": "caro / carro",
+              "en": "dear / cart"
+            }
+          ]
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-a1-l1-e03",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "pala",
+            "palla"
+          ],
+          "target": 0,
+          "translations": [
+            "shovel",
+            "ball"
+          ],
+          "explanation": "Palla has a long l: hold it before you release the sound."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-a1-l1-e04",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "carro",
+            "caro"
+          ],
+          "target": 0,
+          "translations": [
+            "cart",
+            "dear"
+          ],
+          "explanation": "Carro has a long r. Say it as if you stop for a moment before the vowel."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-a1-l1-e05",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "sete",
+            "sette"
+          ],
+          "target": 0,
+          "translations": [
+            "thirst",
+            "seven"
+          ],
+          "explanation": "Sette has a long t, held for a beat."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-a1-l1-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Ho sette anni.",
+          "question": "How old is the speaker?",
+          "options": [
+            "Seven",
+            "Thirsty",
+            "Eleven"
+          ],
+          "answer": 0,
+          "explanation": "Sette (seven) has a long t; sete (thirst) is short."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-a1-l1-e07",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Ciao, mi chiamo Marco. Sono di Milano.",
+          "text": "Ciao, mi ___ Marco. Sono di ___.",
+          "answers": [
+            "chiamo",
+            "Milano"
+          ],
+          "explanation": "Mi chiamo is how you say your name. Listen for the name of the city at the end."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-a1-l1-e08",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Come ti chiami e di dove sei?",
+          "keywords": [
+            "mi chiamo",
+            "sono di"
+          ],
+          "modelAnswer": "Mi chiamo Anna e sono di Roma."
+        }
+      ]
+    },
+    {
+      "id": "sp-a1-l2",
+      "title": "Al bar, ascolta e rispondi",
+      "minutes": 8,
+      "goal": "You can follow and repeat a short exchange at the bar.",
+      "takeaway": "Vorrei… per favore is the polite way to order, at any bar.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-a1-l2-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Vorrei un caffè, per favore.",
+          "translation": "I would like a coffee, please."
+        },
+        {
+          "type": "shadow",
+          "id": "sp-a1-l2-e02",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Quanto costa un cornetto?",
+          "translation": "How much is a croissant?"
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-a1-l2-e03",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Buongiorno! Cosa prendi?",
+            "Un cappuccino, per favore.",
+            "Ecco a te. Sono due euro.",
+            "Grazie, arrivederci!"
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "A café exchange goes: greeting, order, the price, thanks."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-a1-l2-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Buongiorno! Vorrei un tè e un cornetto, per favore.",
+          "text": "Buongiorno! Vorrei un ___ e un ___, per favore.",
+          "answers": [
+            "tè",
+            "cornetto"
+          ],
+          "explanation": "Vorrei is followed by the thing you want."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-a1-l2-e05",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "cappello",
+            "capello"
+          ],
+          "target": 0,
+          "translations": [
+            "hat",
+            "hair"
+          ],
+          "explanation": "Cappello (hat) has a long p."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-a1-l2-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Mi dà due caffè, per favore?",
+          "question": "What does the customer want?",
+          "options": [
+            "Two coffees",
+            "Two teas",
+            "One coffee"
+          ],
+          "answer": 0,
+          "explanation": "Due caffè: two coffees. Listen for the number."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-a1-l2-e07",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Ordina un cappuccino e un cornetto.",
+          "keywords": [
+            "vorrei",
+            "per favore"
+          ],
+          "modelAnswer": "Vorrei un cappuccino e un cornetto, per favore."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "grammarTips": []
+}

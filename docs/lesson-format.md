@@ -171,6 +171,10 @@ On top of paragraphs, `**bold**`, `*italic*` and `- ` bullets:
 | `transform` | `source` (sentence to change), `cue` (the change, e.g. `"Dubito che…"` or `"→ passato"`), `answers`, `hint?` | Rewrites the sentence |
 | `sort_buckets` | `buckets`: [2–3 labels], `items`: [{`text`, `bucket`: index}] | Puts each item into the right group |
 | `minimal_pair` | `sentences`: [2–3 near-identical sentences], `question`, `answer`: index, `translations?`: [same length] | Picks the sentence that matches the question |
+| `shadow` | `text`, `translation?` | Hears a sentence, then says it straight after with the same rhythm; scored on words heard |
+| `minimal_pair_say` | `words`: [two words one sound apart], `target`: index of the one to say, `translations?` | Hears both words and says one; the recogniser must hear the right one |
+| `listen_order` | `sentences`: [lines in the right order], `question?` | Hears the lines shuffled and taps them into order |
+| `gap_listen` | `audioText` (whole text), `text` (same text with `___`), `answers`: [one per `___`] | Hears a passage and types the missing words |
 
 `choose_mood`, `transform` and `find_trigger` may also be used as grammar-tip challenges.
 

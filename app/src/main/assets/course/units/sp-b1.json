@@ -1,0 +1,196 @@
+{
+  "id": "sp-b1",
+  "level": "B1",
+  "title": "Ritmo, ascolto e conversazione",
+  "format": 2,
+  "module": "b1-m4",
+  "objective": "By the end you can follow a spoken story at natural speed and repeat longer sentences with the right rhythm.",
+  "grammarFocus": "Sentence rhythm, linking phrases, reacting in conversation.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "sp-b1-l1",
+      "title": "Il ritmo della frase",
+      "minutes": 8,
+      "goal": "You can repeat a long sentence keeping its rhythm and its linking phrases.",
+      "takeaway": "Chunk the sentence at the commas and say each chunk in one breath.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-b1-l1-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Quando sono arrivato in ufficio, mi sono accorto di aver dimenticato il telefono.",
+          "translation": "When I got to the office I realised I had forgotten my phone."
+        },
+        {
+          "type": "shadow",
+          "id": "sp-b1-l1-e02",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Se avessi più tempo, mi iscriverei a un corso di cucina.",
+          "translation": "If I had more time I would sign up for a cooking course."
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-b1-l1-e03",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Ieri sera volevo uscire con gli amici.",
+            "Però pioveva a dirotto, quindi sono rimasto a casa.",
+            "Ho preparato una cena semplice e ho guardato un film.",
+            "Alla fine è stata una serata molto piacevole."
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "A narrative sets the scene, then the problem, the action, and the result."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-b1-l1-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Dopo aver cenato, siamo usciti a fare due passi, anche se faceva freddo.",
+          "text": "Dopo aver ___, siamo usciti a fare due passi, anche se ___ freddo.",
+          "answers": [
+            "cenato",
+            "faceva"
+          ],
+          "explanation": "Dopo aver + participle: after having done. Faceva is the imperfetto for the weather."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-b1-l1-e05",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "figlio",
+            "filo"
+          ],
+          "target": 0,
+          "translations": [
+            "son",
+            "thread"
+          ],
+          "explanation": "Gli is one sound, a long soft l: fi-glio."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-b1-l1-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Mi sarebbe piaciuto venire, ma avevo un impegno di lavoro.",
+          "question": "Why didn't the speaker come?",
+          "options": [
+            "A work commitment",
+            "Illness",
+            "No time"
+          ],
+          "answer": 0,
+          "explanation": "Ma avevo un impegno: the reason follows ma."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-b1-l1-e07",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Racconta che cosa hai fatto lo scorso fine settimana e che cosa avresti voluto fare.",
+          "keywords": [
+            "ho",
+            "avrei"
+          ],
+          "modelAnswer": "Sabato ho visitato un museo e poi ho cenato fuori. Avrei voluto fare una gita, ma pioveva."
+        }
+      ]
+    },
+    {
+      "id": "sp-b1-l2",
+      "title": "Reagire in una conversazione",
+      "minutes": 8,
+      "goal": "You can react naturally to what someone tells you.",
+      "takeaway": "Short reactions (Davvero? Che bello! Mi dispiace) keep a conversation going.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-b1-l2-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Davvero? Non lo sapevo, mi dispiace molto.",
+          "translation": "Really? I didn't know, I'm very sorry."
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-b1-l2-e02",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Sai, ho cambiato lavoro.",
+            "Davvero? E come ti trovi?",
+            "Molto bene, i colleghi sono simpatici.",
+            "Che bello, sono contento per te!"
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "Good news is followed by a question, an answer and a warm reaction."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-b1-l2-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Mi dispiace tanto, spero che tu stia meglio presto.",
+          "text": "Mi ___ tanto, spero che tu ___ meglio presto.",
+          "answers": [
+            "dispiace",
+            "stia"
+          ],
+          "explanation": "Spero che takes the congiuntivo: stia (from stare)."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-b1-l2-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Scusa il ritardo, c'era un traffico incredibile!",
+          "question": "How does the speaker feel?",
+          "options": [
+            "Apologetic",
+            "Angry",
+            "Bored"
+          ],
+          "answer": 0,
+          "explanation": "Scusa il ritardo is an apology."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-b1-l2-e05",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "sogno",
+            "sono"
+          ],
+          "target": 0,
+          "translations": [
+            "dream",
+            "I am"
+          ],
+          "explanation": "Sogno has the soft gn sound, as in 'canyon'."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-b1-l2-e06",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Un amico ti dice che ha perso il lavoro. Reagisci e offri aiuto.",
+          "keywords": [
+            "mi dispiace",
+            "posso"
+          ],
+          "modelAnswer": "Mi dispiace molto! Se vuoi, posso aiutarti a cercare un nuovo lavoro."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "grammarTips": []
+}

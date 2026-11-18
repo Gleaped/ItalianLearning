@@ -1,0 +1,178 @@
+{
+  "id": "sp-b2",
+  "level": "B2",
+  "title": "Ascolto veloce e opinioni",
+  "format": 2,
+  "module": "b2-m4",
+  "objective": "By the end you can follow natural-speed speech and give an opinion with a reason and a counter-argument.",
+  "grammarFocus": "Argument structure, opinion phrases with the congiuntivo, filler phrases.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "sp-b2-l1",
+      "title": "Ascoltare un'argomentazione",
+      "minutes": 9,
+      "goal": "You can follow the structure of a spoken argument.",
+      "takeaway": "An argument has a claim, a reason, an objection and a conclusion.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-b2-l1-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Credo che il lavoro da casa sia utile, a patto che ci siano momenti di incontro.",
+          "translation": "I think working from home is useful as long as there are moments to meet."
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-b2-l1-e02",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Secondo me il treno è meglio dell'aereo per i viaggi brevi.",
+            "Prima di tutto è più comodo, perché si arriva in centro.",
+            "Certo, può costare di più, ma si risparmia tempo ai controlli.",
+            "In conclusione, per distanze brevi preferisco sempre il treno."
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "The argument goes: claim, reason, objection with a reply, conclusion."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-b2-l1-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Penso che sia importante che i giovani abbiano la possibilità di viaggiare.",
+          "text": "Penso che ___ importante che i giovani ___ la possibilità di viaggiare.",
+          "answers": [
+            "sia",
+            "abbiano"
+          ],
+          "explanation": "Penso che and è importante che both need the congiuntivo."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-b2-l1-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Nonostante il ritardo, la riunione si è svolta regolarmente.",
+          "text": "Nonostante il ___, la riunione si è ___ regolarmente.",
+          "answers": [
+            "ritardo",
+            "svolta"
+          ],
+          "explanation": "Nonostante + noun: despite. Svolgersi: to take place."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-b2-l1-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Benché fosse stanco, ha accettato di aiutarci fino a tarda sera.",
+          "question": "What did he do?",
+          "options": [
+            "He helped, though tired",
+            "He refused",
+            "He fell asleep"
+          ],
+          "answer": 0,
+          "explanation": "Benché + congiuntivo means although."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-b2-l1-e06",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Parla per un minuto: i social network aiutano o danneggiano le relazioni? Dai due motivi.",
+          "keywords": [
+            "secondo me",
+            "perché"
+          ],
+          "modelAnswer": "Secondo me i social network aiutano a restare in contatto, perché permettono di sentire amici lontani. Però a volte riducono gli incontri dal vivo."
+        }
+      ]
+    },
+    {
+      "id": "sp-b2-l2",
+      "title": "Dire la propria opinione",
+      "minutes": 9,
+      "goal": "You can give an opinion fluently, with linking phrases.",
+      "takeaway": "Say it in three beats: opinion, reason, example.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-b2-l2-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "A mio parere, sarebbe meglio investire di più nei trasporti pubblici.",
+          "translation": "In my view it would be better to invest more in public transport."
+        },
+        {
+          "type": "shadow",
+          "id": "sp-b2-l2-e02",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Non sono del tutto d'accordo, anche se capisco il tuo punto di vista.",
+          "translation": "I don't completely agree, though I understand your point of view."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-b2-l2-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Per quanto mi riguarda, è giusto che tutti possano studiare gratuitamente.",
+          "text": "Per quanto mi ___, è giusto che tutti ___ studiare gratuitamente.",
+          "answers": [
+            "riguarda",
+            "possano"
+          ],
+          "explanation": "È giusto che is followed by the congiuntivo: possano."
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-b2-l2-e04",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Oggi molti giovani lavorano all'estero.",
+            "Da un lato, è un'opportunità di crescita.",
+            "Dall'altro, si rischia di perdere i legami con la famiglia.",
+            "Secondo me, dipende da come si vive l'esperienza."
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "A balanced opinion: topic, one side, the other side, your view."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-b2-l2-e05",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "pesche",
+            "peschi"
+          ],
+          "target": 0,
+          "translations": [
+            "peaches",
+            "peach trees"
+          ],
+          "explanation": "The sound changes with the vowel: sche has a hard k."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-b2-l2-e06",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Sei favorevole o contrario al telelavoro? Spiega perché e fai un esempio.",
+          "keywords": [
+            "secondo me",
+            "per esempio"
+          ],
+          "modelAnswer": "Sono favorevole, perché si risparmia tempo. Per esempio, io evito un'ora di traffico ogni giorno."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "grammarTips": []
+}

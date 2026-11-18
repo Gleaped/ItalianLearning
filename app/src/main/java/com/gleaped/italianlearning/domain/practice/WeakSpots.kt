@@ -54,6 +54,8 @@ object WeakSpots {
         ExerciseTypes.TRANSFORM,
         ExerciseTypes.SORT_BUCKETS,
         ExerciseTypes.MINIMAL_PAIR,
+        ExerciseTypes.LISTEN_ORDER,
+        ExerciseTypes.GAP_LISTEN,
     )
 
     fun isRetryable(exercise: Exercise): Boolean = ExerciseTypes.of(exercise) in TYPES

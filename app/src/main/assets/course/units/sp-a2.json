@@ -1,0 +1,196 @@
+{
+  "id": "sp-a2",
+  "level": "A2",
+  "title": "Ascoltare e raccontare",
+  "format": 2,
+  "module": "a2-m3",
+  "objective": "By the end you can follow spoken directions and tell what you did yesterday.",
+  "grammarFocus": "Directions by ear, passato prossimo in speech, double consonants in everyday words.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "sp-a2-l1",
+      "title": "Dov'è? Segui le indicazioni",
+      "minutes": 8,
+      "goal": "You can follow spoken directions and say them back.",
+      "takeaway": "Dritto, a destra, a sinistra: three words carry most directions.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-a2-l1-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Vada sempre dritto e poi giri a destra.",
+          "translation": "Go straight on and then turn right."
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-a2-l1-e02",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Esca dalla stazione.",
+            "Vada sempre dritto per cento metri.",
+            "Giri a sinistra al semaforo.",
+            "Il museo è sulla destra."
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "Directions follow the route: leave, go straight, turn, arrive."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-a2-l1-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Per la stazione, vada dritto e giri a destra al semaforo.",
+          "text": "Per la stazione, vada ___ e giri a ___ al semaforo.",
+          "answers": [
+            "dritto",
+            "destra"
+          ],
+          "explanation": "Dritto means straight on. Giri is the polite command: turn."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-a2-l1-e04",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "nonno",
+            "nono"
+          ],
+          "target": 0,
+          "translations": [
+            "grandfather",
+            "ninth"
+          ],
+          "explanation": "Nonno has a long n: hold it."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "sp-a2-l1-e05",
+          "stage": "practise",
+          "instruction": "Ascolta le due parole e di' solo la prima.",
+          "words": [
+            "penna",
+            "pena"
+          ],
+          "target": 0,
+          "translations": [
+            "pen",
+            "pity"
+          ],
+          "explanation": "Penna (pen) has a long n."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-a2-l1-e06",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "La farmacia è dopo il semaforo, a sinistra.",
+          "question": "Where is the pharmacy?",
+          "options": [
+            "After the traffic light, on the left",
+            "Before the traffic light, on the right",
+            "Opposite the station"
+          ],
+          "answer": 0,
+          "explanation": "Dopo means after; a sinistra means on the left."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-a2-l1-e07",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Spiega a un turista come arrivare dalla stazione al centro.",
+          "keywords": [
+            "dritto",
+            "destra"
+          ],
+          "modelAnswer": "Vada sempre dritto, poi giri a destra. Il centro è in fondo alla strada."
+        }
+      ]
+    },
+    {
+      "id": "sp-a2-l2",
+      "title": "Che cosa hai fatto ieri?",
+      "minutes": 8,
+      "goal": "You can follow a short story in the past and tell what you did.",
+      "takeaway": "Ho + participle for most verbs, sono + participle for movement.",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-a2-l2-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Ieri sono andato al mercato e ho comprato la frutta.",
+          "translation": "Yesterday I went to the market and bought fruit."
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-a2-l2-e02",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Questa mattina mi sono svegliata presto.",
+            "Ho fatto colazione con un caffè.",
+            "Poi sono andata al lavoro in autobus.",
+            "La sera ho cenato con degli amici."
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "A story in the past goes through the day in time order."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-a2-l2-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Ieri sono andata al mare e ho mangiato un gelato.",
+          "text": "Ieri sono ___ al mare e ho ___ un gelato.",
+          "answers": [
+            "andata",
+            "mangiato"
+          ],
+          "explanation": "Andare takes essere (sono andata); mangiare takes avere (ho mangiato)."
+        },
+        {
+          "type": "shadow",
+          "id": "sp-a2-l2-e04",
+          "stage": "practise",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Abbiamo visto un film molto bello.",
+          "translation": "We saw a very nice film."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-a2-l2-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Ho dormito poco perché ho studiato fino a tardi.",
+          "question": "Why did the speaker sleep little?",
+          "options": [
+            "Studying late",
+            "Working",
+            "A party"
+          ],
+          "answer": 0,
+          "explanation": "Perché introduces the reason: ho studiato fino a tardi."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-a2-l2-e06",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Che cosa hai fatto ieri? Racconta tre cose.",
+          "keywords": [
+            "ho",
+            "sono"
+          ],
+          "modelAnswer": "Ieri mi sono alzato presto, ho lavorato tutto il giorno e la sera sono andato al cinema."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "grammarTips": []
+}
