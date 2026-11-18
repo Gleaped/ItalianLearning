@@ -32,7 +32,7 @@ import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.collectAsState
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.gleaped.italianlearning.data.settings.Settings
+import com.gleaped.italianlearning.data.settings.Settings as AppSettings
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
@@ -64,7 +64,7 @@ fun SpeechCapture(
     val container = LocalAppContainer.current
     val tts = container.tts
     val whisper = container.whisper
-    val settings by container.settings.settings.collectAsStateWithLifecycle(initialValue = Settings())
+    val settings by container.settings.settings.collectAsStateWithLifecycle(initialValue = AppSettings())
     val whisperState by whisper.state.collectAsState()
     val whisperModel = WhisperModel.of(settings.whisperModel)
     // Whisper is used only when switched on in Settings and its model is on the phone; otherwise Android's recogniser.
