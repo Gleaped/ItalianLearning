@@ -4,7 +4,7 @@ A personal, offline Android app for learning Italian from **CEFR B1 to C1**, wit
 **A2 refresher** units you can drop into at any time. Built for one learner (it asks your name on first run), sideloaded
 and updated through [Obtainium](https://github.com/ImranR98/Obtainium).
 
-- No accounts, no ads, no tracking, **no network permission** — everything ships inside the APK.
+- No accounts, no ads, no tracking. The only network use is the two optional downloads in Settings (natural voices, Whisper model); lessons need no connection.
 - Kotlin · Jetpack Compose · Material 3 · Room · DataStore · minSdk 26 / target SDK 37.
 
 ## Features
