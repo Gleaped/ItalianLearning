@@ -638,6 +638,15 @@
       "module": "celi-m1"
     },
     {
+      "id": "celi-11",
+      "level": "CELI3",
+      "order": 11,
+      "title": "Biblioteca di lettura 2",
+      "summary": "Four more long texts (about 230 words): an article on reviving villages, a letter to the editor, an interview with a baker and a feature on a library of things, with exam-style questions and a spoken summary.",
+      "available": true,
+      "module": "celi-m2"
+    },
+    {
       "id": "sp-a1",
       "level": "A1",
       "order": 11,

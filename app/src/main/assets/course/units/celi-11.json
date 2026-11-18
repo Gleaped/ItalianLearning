@@ -1,0 +1,462 @@
+{
+  "id": "celi-11",
+  "level": "CELI3",
+  "title": "Biblioteca di lettura 2",
+  "objective": "Alla fine dell'unità hai letto altri quattro testi lunghi (circa 200–250 parole) come quelli della Parte A: un articolo, una lettera al giornale, un'intervista e un articolo su un'iniziativa locale.",
+  "grammarFocus": "Lettura estensiva: causa e conseguenza (di conseguenza, grazie a), opinione e fatto (a mio avviso), parole della domanda nella risposta, limiti e vantaggi (ma, tuttavia, purtroppo).",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "celi-11-l1",
+      "title": "I borghi che tornano a vivere",
+      "minutes": 10,
+      "goal": "Leggere un articolo di attualità di circa 250 parole e cogliere cause, esempi e conclusione.",
+      "takeaway": "Le cause e le conseguenze di solito sono introdotte da parole come perché, di conseguenza, grazie a.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-11-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "I borghi che tornano a vivere",
+          "passage": "Per decenni i piccoli paesi dell'Appennino hanno perso abitanti: i giovani partivano per studiare o lavorare in città e non tornavano più. Le scuole chiudevano, i negozi abbassavano le serrande e le case restavano vuote. Oggi, però, in alcune zone la tendenza sembra invertirsi.\n\nUn esempio è un borgo di trecento abitanti in provincia di Rieti, dove il comune ha messo in vendita alcune case abbandonate a un euro, a patto che gli acquirenti le ristrutturino entro tre anni. In poco tempo sono arrivate richieste da tutta Europa. Non tutti, però, si sono trasferiti davvero: molti hanno comprato una seconda casa per le vacanze e la usano poche settimane all'anno.\n\nPer rendere il ritorno stabile, serve altro. Grazie alla fibra ottica, installata con fondi europei, chi lavora al computer può abitare in montagna senza perdere i clienti. Il sindaco, di conseguenza, ha trasformato l'ex scuola in uno spazio di lavoro condiviso, aperto anche ai ragazzi del posto.\n\nGli esperti, tuttavia, invitano alla prudenza. Un paese rinasce, dicono, solo se ci sono servizi essenziali: un medico, un autobus, un negozio di alimentari. Senza questi, le nuove famiglie dopo qualche anno se ne vanno. La sfida, quindi, non è soltanto attirare persone, ma convincerle a restare.",
+          "questions": [
+            {
+              "question": "Che cosa è successo ai piccoli paesi dell'Appennino negli ultimi decenni?",
+              "options": [
+                "Hanno avuto più turisti",
+                "Hanno perso molti abitanti",
+                "Hanno costruito nuove scuole",
+                "Sono stati uniti ad altri comuni"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa devono fare gli acquirenti delle case a un euro?",
+              "options": [
+                "Abitarci subito tutto l'anno",
+                "Rivenderle dopo tre anni",
+                "Ristrutturarle entro tre anni",
+                "Aprire un negozio"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché la fibra ottica è importante per il borgo?",
+              "options": [
+                "Permette di lavorare da lontano senza perdere i clienti",
+                "Fa diminuire il costo delle case",
+                "Attira più turisti d'estate",
+                "Sostituisce i servizi essenziali"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Secondo gli esperti, che cosa serve perché un paese rinasca davvero?",
+              "options": [
+                "Molte seconde case",
+                "Servizi essenziali come un medico e un autobus",
+                "Più eventi culturali",
+                "Prezzi delle case più alti"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l1-e02",
+          "stage": "learn",
+          "front": "serrande abbassate",
+          "back": "closed down (lit. shutters pulled down)",
+          "example": "In centro molti negozi hanno le serrande abbassate."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l1-e03",
+          "stage": "learn",
+          "front": "invertire la tendenza",
+          "back": "to reverse the trend",
+          "example": "Il comune vuole invertire la tendenza."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l1-e04",
+          "stage": "learn",
+          "front": "a patto che",
+          "back": "provided that",
+          "example": "Ti presto la macchina, a patto che tu la riporti domani."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-11-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "perso abitanti",
+            "casa",
+            "fibra ottica",
+            "servizi"
+          ],
+          "modelAnswer": "Molti piccoli paesi dell'Appennino hanno perso abitanti, ma ora alcuni vendono le case a un euro. La fibra ottica permette di lavorare da lontano e uno spazio condiviso aiuta i giovani. Tuttavia, senza servizi essenziali le famiglie non restano.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "celi-11-l2",
+      "title": "Una pista ciclabile per tutti?",
+      "minutes": 10,
+      "goal": "Leggere una lettera al giornale e distinguere le opinioni dell'autore dai fatti.",
+      "takeaway": "In una lettera al giornale, cerca le frasi con «a mio avviso» e «secondo me»: sono opinioni, non fatti.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-11-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una pista ciclabile per tutti?",
+          "passage": "Gentile direttore,\n\nvorrei esprimere il mio parere sulla nuova pista ciclabile di viale Garibaldi, inaugurata il mese scorso. Abito in questa strada da trent'anni e, a mio avviso, il progetto è stato pensato senza ascoltare chi ci vive.\n\nPer fare spazio alle biciclette, il comune ha eliminato i parcheggi su un lato della strada. Il risultato è che ogni sera i residenti girano a lungo in cerca di un posto, spesso lontano da casa. Per un anziano o per una famiglia con bambini piccoli non è una cosa da poco.\n\nNon sono contrario alle biciclette, anzi: io stesso vado al lavoro in bici tre giorni a settimana. Credo però che una città moderna debba trovare un equilibrio tra esigenze diverse. Perché non si è pensato, per esempio, a costruire un piccolo parcheggio sotterraneo nella piazza vicina?\n\nSecondo i dati del comune, nel primo mese le biciclette sulla pista sono aumentate del quaranta per cento. È senza dubbio un successo. Tuttavia, mi chiedo se questo numero basti a giustificare i disagi di chi non può rinunciare all'auto.\n\nVi ringrazio per lo spazio e vi porgo cordiali saluti.\n\nMarco Ferrari",
+          "questions": [
+            {
+              "question": "Perché l'autore scrive al direttore?",
+              "options": [
+                "Per ringraziare il comune",
+                "Per criticare un progetto",
+                "Per chiedere un lavoro",
+                "Per proporre una gara di ciclismo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale problema hanno i residenti dopo la costruzione della pista?",
+              "options": [
+                "Il rumore è aumentato",
+                "Le biciclette sono troppo veloci",
+                "Trovano meno parcheggi",
+                "Le strade sono più sporche"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa dice l'autore delle biciclette?",
+              "options": [
+                "Non le usa mai",
+                "Le usa per andare al lavoro",
+                "Vorrebbe vietarle",
+                "Le trova pericolose"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa ammette l'autore sui dati del comune?",
+              "options": [
+                "Sono sbagliati",
+                "Mostrano che la pista ha avuto successo",
+                "Non sono mai stati pubblicati",
+                "Riguardano solo i residenti"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l2-e02",
+          "stage": "learn",
+          "front": "a mio avviso",
+          "back": "in my opinion",
+          "example": "A mio avviso, la proposta è giusta."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l2-e03",
+          "stage": "learn",
+          "front": "il disagio",
+          "back": "inconvenience",
+          "example": "I lavori stradali creano molti disagi."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l2-e04",
+          "stage": "learn",
+          "front": "trovare un equilibrio",
+          "back": "to find a balance",
+          "example": "Bisogna trovare un equilibrio tra lavoro e tempo libero."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-11-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "pista ciclabile",
+            "parcheggi",
+            "residenti",
+            "equilibrio"
+          ],
+          "modelAnswer": "L'autore critica la nuova pista ciclabile perché ha eliminato molti parcheggi e crea disagi ai residenti. Non è contrario alle biciclette, anzi le usa, ma chiede un equilibrio e propone un parcheggio sotterraneo. Riconosce però che la pista ha avuto successo.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "celi-11-l3",
+      "title": "Il panettiere di quartiere",
+      "minutes": 10,
+      "goal": "Seguire un'intervista scritta e capire che cosa risponde la persona intervistata.",
+      "takeaway": "Nelle interviste, la risposta spesso riprende parole della domanda: usale per trovare il punto giusto.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-11-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il panettiere di quartiere",
+          "passage": "Giulia Bianchi parla con Antonio, che da trentacinque anni gestisce un forno nel centro di Bologna.\n\nAntonio, a che ora comincia la sua giornata?\nA mezzanotte. Alle due l'impasto è pronto e alle cinque il pane esce dal forno. Alle sette, quando arrivano i primi clienti, io sono già stanco, ma felice.\n\nNon è un lavoro facile, vero?\nNo, ma l'ho scelto io. Mio padre faceva il muratore e voleva che studiassi. Io, invece, ho sempre amato l'odore del pane. Ho imparato il mestiere da un vecchio panettiere, che mi ha insegnato soprattutto la pazienza.\n\nOggi che cosa è cambiato rispetto a quando ha cominciato?\nI supermercati vendono pane a tutte le ore e molti pensano che sia uguale. Non lo è: il nostro pane ha bisogno di tempo. Per fortuna, tanti giovani stanno riscoprendo i prodotti artigianali.\n\nHa un apprendista?\nSì, una ragazza di vent'anni, Chiara. È brava e curiosa. Se vorrà, un giorno potrà prendere il mio posto.\n\nE lei, andrà in pensione?\nForse tra qualche anno. Ma credo che continuerò a svegliarmi alle due, anche senza il forno.",
+          "questions": [
+            {
+              "question": "Quando il pane esce dal forno?",
+              "options": [
+                "A mezzanotte",
+                "Alle due",
+                "Alle cinque",
+                "Alle sette"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa voleva il padre di Antonio?",
+              "options": [
+                "Che facesse il panettiere",
+                "Che studiasse",
+                "Che aprisse un supermercato",
+                "Che lavorasse con lui"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa è cambiato rispetto al passato, secondo Antonio?",
+              "options": [
+                "Il pane costa meno",
+                "Molti pensano che tutto il pane sia uguale",
+                "Nessuno compra più pane artigianale",
+                "I forni aprono più tardi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa dice Antonio della sua apprendista?",
+              "options": [
+                "È troppo giovane",
+                "Potrebbe prendere il suo posto",
+                "Vuole cambiare lavoro",
+                "Non ha ancora cominciato"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l3-e02",
+          "stage": "learn",
+          "front": "l'impasto",
+          "back": "dough",
+          "example": "L'impasto deve riposare per otto ore."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l3-e03",
+          "stage": "learn",
+          "front": "artigianale",
+          "back": "handmade, artisan",
+          "example": "Preferisco il pane artigianale."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l3-e04",
+          "stage": "learn",
+          "front": "l'apprendista",
+          "back": "apprentice",
+          "example": "L'apprendista impara il mestiere in bottega."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-11-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "panettiere",
+            "mezzanotte",
+            "pazienza",
+            "apprendista"
+          ],
+          "modelAnswer": "Antonio è panettiere da trentacinque anni e comincia a lavorare a mezzanotte. Ha scelto questo mestiere per passione, anche se il padre voleva che studiasse. Oggi il pane artigianale è tornato di moda e una giovane apprendista potrebbe un giorno prendere il suo posto.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "celi-11-l4",
+      "title": "La biblioteca delle cose",
+      "minutes": 10,
+      "goal": "Leggere un articolo su un'iniziativa locale e riconoscere vantaggi e limiti.",
+      "takeaway": "Per trovare i limiti di un'idea, cerca parole come ma, però, tuttavia, purtroppo.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "celi-11-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La biblioteca delle cose",
+          "passage": "In alcune città italiane sono nate le «biblioteche delle cose»: luoghi dove, con la tessera, si prendono in prestito non libri, ma trapani, scale, tende da campeggio o macchine per cucire. L'idea è semplice. Chi ha bisogno di un attrezzo una volta all'anno non deve comprarlo: lo usa e lo restituisce.\n\nIl progetto è partito a Torino, grazie a un gruppo di volontari che hanno raccolto oggetti donati dai vicini. Oggi i soci sono più di seicento e l'archivio comprende circa duecento articoli. L'iscrizione costa venti euro all'anno e il prestito dura una settimana.\n\nI vantaggi sono evidenti. Si risparmia, si produce meno spazzatura e si conoscono persone nuove. Una volta alla settimana, inoltre, i soci organizzano laboratori in cui si impara a riparare una bicicletta o un elettrodomestico.\n\nCi sono però anche dei limiti. Gli oggetti si rovinano e qualcuno li restituisce in ritardo. I volontari, purtroppo, sono pochi e devono dedicare molto tempo alla manutenzione. Per questo i responsabili stanno cercando un piccolo contributo dal comune.\n\nNonostante le difficoltà, l'esperienza piace: altre due città hanno già chiesto di copiarla.",
+          "questions": [
+            {
+              "question": "Che cosa si può prendere in prestito in una «biblioteca delle cose»?",
+              "options": [
+                "Solo libri e riviste",
+                "Attrezzi e oggetti di uso occasionale",
+                "Vestiti usati",
+                "Biciclette elettriche"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Come è nato il progetto di Torino?",
+              "options": [
+                "Con fondi europei",
+                "Per iniziativa del comune",
+                "Grazie a volontari e a oggetti donati",
+                "Da un'azienda di attrezzi"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quale vantaggio NON è citato nel testo?",
+              "options": [
+                "Si risparmia denaro",
+                "Si produce meno spazzatura",
+                "Si conoscono persone nuove",
+                "Si ottengono sconti nei negozi"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Qual è uno dei problemi dell'iniziativa?",
+              "options": [
+                "Gli iscritti sono troppo pochi",
+                "Ci sono pochi volontari",
+                "Il prestito dura troppo",
+                "La tessera è molto cara"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l4-e02",
+          "stage": "learn",
+          "front": "il trapano",
+          "back": "drill",
+          "example": "Mi presti il trapano per un'ora?"
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l4-e03",
+          "stage": "learn",
+          "front": "prendere in prestito",
+          "back": "to borrow",
+          "example": "Ho preso in prestito un libro dalla biblioteca."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-11-l4-e04",
+          "stage": "learn",
+          "front": "la manutenzione",
+          "back": "maintenance",
+          "example": "Questa macchina richiede poca manutenzione."
+        },
+        {
+          "type": "speak_respond",
+          "id": "celi-11-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "prestito",
+            "volontari",
+            "risparmia",
+            "limiti"
+          ],
+          "modelAnswer": "A Torino alcuni volontari hanno creato una biblioteca delle cose, dove si prendono in prestito attrezzi con una tessera. Si risparmia, si produce meno spazzatura e si organizzano laboratori. Il problema è che i volontari sono pochi, quindi si chiede aiuto al comune.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "serrande abbassate",
+      "en": "closed down (lit. shutters pulled down)",
+      "example": "In centro molti negozi hanno le serrande abbassate."
+    },
+    {
+      "it": "invertire la tendenza",
+      "en": "to reverse the trend",
+      "example": "Il comune vuole invertire la tendenza."
+    },
+    {
+      "it": "a patto che",
+      "en": "provided that",
+      "example": "Ti presto la macchina, a patto che tu la riporti domani."
+    },
+    {
+      "it": "a mio avviso",
+      "en": "in my opinion",
+      "example": "A mio avviso, la proposta è giusta."
+    },
+    {
+      "it": "il disagio",
+      "en": "inconvenience",
+      "example": "I lavori stradali creano molti disagi."
+    },
+    {
+      "it": "trovare un equilibrio",
+      "en": "to find a balance",
+      "example": "Bisogna trovare un equilibrio tra lavoro e tempo libero."
+    },
+    {
+      "it": "l'impasto",
+      "en": "dough",
+      "example": "L'impasto deve riposare per otto ore."
+    },
+    {
+      "it": "artigianale",
+      "en": "handmade, artisan",
+      "example": "Preferisco il pane artigianale."
+    },
+    {
+      "it": "l'apprendista",
+      "en": "apprentice",
+      "example": "L'apprendista impara il mestiere in bottega."
+    },
+    {
+      "it": "il trapano",
+      "en": "drill",
+      "example": "Mi presti il trapano per un'ora?"
+    },
+    {
+      "it": "prendere in prestito",
+      "en": "to borrow",
+      "example": "Ho preso in prestito un libro dalla biblioteca."
+    },
+    {
+      "it": "la manutenzione",
+      "en": "maintenance",
+      "example": "Questa macchina richiede poca manutenzione."
+    }
+  ]
+}
