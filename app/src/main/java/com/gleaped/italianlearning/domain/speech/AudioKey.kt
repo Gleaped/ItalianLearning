@@ -14,7 +14,7 @@ object AudioKey {
 
     /**
      * Whitespace collapsed and trimmed, so layout differences do not change the key. Done by hand
-     * rather than with a "(?U)" regex: Android's regex engine rejects that flag, which crashed every
+     * rather than with the Unicode-class inline regex flag: Android's regex engine rejects that flag, which crashed every
      * playback. Matches Python's str.split() used by the render script.
      */
     fun normalise(text: String): String {
