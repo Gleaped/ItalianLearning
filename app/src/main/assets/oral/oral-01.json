@@ -1,0 +1,102 @@
+{
+ "id": "oral-01",
+ "title": "Prova orale 1",
+ "prepareMinutes": 15,
+ "greeting": [
+  "Buongiorno! Mi chiamo Elena e sarò la sua esaminatrice. Cominciamo, se è pronto.",
+  "Buongiorno e benvenuto. Siamo qui per una breve conversazione. Cominciamo quando vuole."
+ ],
+ "closing": [
+  "Grazie, l'esame orale è finito. Arrivederci e buona giornata!",
+  "Molto bene, abbiamo finito. Grazie e arrivederci!"
+ ],
+ "tasks": [
+  {
+   "kind": "presentation",
+   "title": "Presentazione personale",
+   "examiner": [
+    "Per cominciare, si presenti. Mi parli di lei: della sua famiglia, del suo lavoro o dei suoi studi, dei suoi interessi."
+   ],
+   "material": "Parli di sé per circa un minuto: chi è, che cosa fa, che cosa le piace e perché studia l'italiano.",
+   "cues": [
+    "nome e provenienza",
+    "lavoro o studi",
+    "interessi e tempo libero",
+    "perché studia l'italiano"
+   ],
+   "followUps": [
+    "Da quanto tempo studia l'italiano e che cosa trova più difficile?",
+    "Che cosa le piace di più dell'Italia?"
+   ],
+   "modelAnswer": "Mi chiamo Marco e vengo da Manchester, ma da cinque anni vivo a Londra con mia moglie. Lavoro come ingegnere in un'azienda che costruisce sistemi di energia solare. Nel tempo libero mi piace camminare in montagna e cucinare, soprattutto la pasta fresca. Studio italiano perché mi sono innamorato dell'Italia durante le vacanze e perché vorrei poter parlare con la famiglia di mia moglie senza traduzioni.",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  },
+  {
+   "kind": "photo",
+   "title": "Descrivi la foto",
+   "examiner": [
+    "Ora guardi questa foto. Mi dica che cosa vede, dove sono le persone e che cosa stanno facendo. Poi mi dica se le piacerebbe essere lì."
+   ],
+   "material": "FOTO: Una famiglia fa un picnic sull'erba in un parco, in una giornata di sole. Un uomo taglia un'anguria, due bambini giocano a pallone, una nonna è seduta su una coperta e legge un libro. Sullo sfondo ci sono alberi e un lago.",
+   "cues": [
+    "dove sono e che tempo fa",
+    "chi sono le persone",
+    "che cosa fanno",
+    "come si sentono",
+    "le piacerebbe essere lì?"
+   ],
+   "followUps": [
+    "Lei fa spesso dei picnic? Con chi?",
+    "Secondo lei, perché oggi molte famiglie preferiscono passare il tempo all'aperto?"
+   ],
+   "modelAnswer": "Nella foto vedo una famiglia che fa un picnic in un parco. Il tempo è bello, c'è il sole. Credo che siano tre generazioni: i nonni, i genitori e due bambini. Un uomo sta tagliando un'anguria, i bambini giocano a pallone e la nonna legge un libro sulla coperta. Sembrano tutti rilassati e contenti. Mi piacerebbe essere con loro, perché adoro stare all'aria aperta e mangiare in compagnia.",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  },
+  {
+   "kind": "text",
+   "title": "Riassumi il testo",
+   "examiner": [
+    "Legga questo breve testo e lo riassuma con parole sue. Poi mi dica che cosa ne pensa."
+   ],
+   "material": "TESTO: «Sempre più italiani lavorano da casa almeno un giorno alla settimana. I vantaggi sono evidenti: si risparmia tempo e denaro per gli spostamenti, e molti dichiarano di essere più concentrati. Ma non mancano i problemi: chi lavora a casa rischia di sentirsi isolato e di non staccare mai dal lavoro. Per questo molte aziende propongono un modello ibrido, con alcuni giorni in ufficio e altri a casa.»",
+   "cues": [
+    "di che cosa parla il testo",
+    "vantaggi",
+    "problemi",
+    "soluzione",
+    "la sua opinione"
+   ],
+   "followUps": [
+    "Lei preferirebbe lavorare a casa o in ufficio? Perché?",
+    "Quali altre professioni, secondo lei, si adattano al lavoro da casa?"
+   ],
+   "modelAnswer": "Il testo parla del lavoro da casa, che in Italia è sempre più diffuso. Tra i vantaggi ci sono il risparmio di tempo e di denaro e una maggiore concentrazione. Tra gli svantaggi ci sono l'isolamento e la difficoltà di separare vita e lavoro. Molte aziende scelgono quindi un modello ibrido. Secondo me è una buona soluzione, perché permette di avere i vantaggi di entrambi i modi di lavorare.",
+   "minSeconds": 90,
+   "maxSeconds": 150
+  },
+  {
+   "kind": "roleplay",
+   "title": "Compito comunicativo",
+   "examiner": [
+    "Ora facciamo un gioco di ruolo. Lei è il cliente e io sono l'impiegata dell'agenzia di viaggi. Cominci pure lei."
+   ],
+   "material": "SITUAZIONE: Vuole prenotare un viaggio di una settimana in Sicilia per due persone, a giugno. Si informi su voli, hotel e prezzo, chieda un consiglio sulle cose da vedere e spieghi che il budget è limitato.",
+   "cues": [
+    "saluto e richiesta",
+    "date e persone",
+    "budget",
+    "domande su hotel e voli",
+    "ringraziamenti"
+   ],
+   "followUps": [
+    "Preferisce un hotel in centro o vicino al mare?",
+    "Vuole anche noleggiare un'auto?"
+   ],
+   "modelAnswer": "Buongiorno, vorrei prenotare un viaggio in Sicilia per due persone, una settimana a giugno. Il nostro budget è limitato: non vorremmo spendere più di mille euro a testa. Mi può consigliare un hotel semplice ma comodo? Ci sono voli diretti da Milano? E che cosa ci consiglia di vedere? Siamo interessati soprattutto alla storia e al mare. Grazie mille per l'aiuto!",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  }
+ ]
+}

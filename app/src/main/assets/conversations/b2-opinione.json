@@ -1,0 +1,269 @@
+{
+ "id": "b2-opinione",
+ "title": "Un'opinione sul lavoro da casa",
+ "level": "B2",
+ "setting": "A colleague asks what you think about working from home.",
+ "goal": "Give your opinion, give two reasons, react to an objection and propose a compromise.",
+ "partner": "la collega",
+ "minutes": 9,
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Senti, volevo chiederti un'opinione. L'azienda sta pensando di far lavorare tutti da casa tre giorni a settimana. Tu cosa ne pensi?",
+    "Ti chiedo una cosa: secondo te, il lavoro da casa è una buona idea?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "penso",
+      "credo",
+      "secondo",
+      "ritengo",
+      "opinione",
+      "trovo",
+      "mi sembra",
+      "parere"
+     ],
+     "next": "why",
+     "reply": [
+      "Interessante, è un punto di vista chiaro."
+     ]
+    },
+    {
+     "match": [
+      "non so",
+      "dipende",
+      "boh"
+     ],
+     "next": "depends",
+     "reply": [
+      "Capisco, dipende da molte cose."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Scusa, cosa ne pensi?"
+   ],
+   "hint": "Say what you think: Penso che sia… / Credo che… / Secondo me…",
+   "model": "Credo che sia una buona idea, perché si risparmia tempo.",
+   "otherwise": "why"
+  },
+  {
+   "id": "depends",
+   "say": [
+    "Da cosa dipende, secondo te?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "dipende",
+      "lavoro",
+      "tipo",
+      "persone",
+      "casa",
+      "ufficio",
+      "tempo",
+      "dove",
+      "azienda"
+     ],
+     "next": "why",
+     "reply": [
+      "Hai ragione."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Da cosa dipende?"
+   ],
+   "hint": "Say what it depends on.",
+   "model": "Dipende dal tipo di lavoro e da come ci si organizza.",
+   "otherwise": "why"
+  },
+  {
+   "id": "why",
+   "say": [
+    "E perché lo pensi? Quali sono i vantaggi, secondo te?",
+    "Quali motivi hai per pensarlo?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "perché",
+      "perche",
+      "vantaggi",
+      "tempo",
+      "risparmiare",
+      "risparmio",
+      "traffico",
+      "concentrare",
+      "concentrazione",
+      "famiglia",
+      "flessibile",
+      "libertà",
+      "ambiente",
+      "viaggio",
+      "spostarsi"
+     ],
+     "next": "objection",
+     "reply": [
+      "Sì, sono ragioni valide."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Per quale ragione?"
+   ],
+   "hint": "Give a reason: Perché si risparmia tempo e ci si concentra meglio.",
+   "model": "Perché si evita il traffico e si può lavorare con più concentrazione.",
+   "otherwise": "objection"
+  },
+  {
+   "id": "objection",
+   "say": [
+    "Però non pensi che si perda il contatto con i colleghi? Io ho paura che i rapporti diventino più freddi.",
+    "D'accordo, ma a me preoccupa il fatto che si lavori da soli e si perda il senso di squadra. Non è un rischio?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "vero",
+      "hai ragione",
+      "giusto",
+      "d'accordo",
+      "capisco",
+      "però",
+      "ma",
+      "tuttavia",
+      "comunque",
+      "rischio",
+      "contatto",
+      "riunioni",
+      "videochiamate",
+      "ufficio",
+      "incontrarsi"
+     ],
+     "next": "compromise",
+     "reply": [
+      "Certo, è una cosa da considerare."
+     ]
+    },
+    {
+     "match": [
+      "non credo",
+      "non penso",
+      "non sono d'accordo",
+      "disaccordo",
+      "sbagli"
+     ],
+     "next": "compromise",
+     "reply": [
+      "Interessante, come mai?"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Non pensi che sia un rischio?"
+   ],
+   "hint": "React: Hai ragione, ma si possono fare riunioni in ufficio una volta a settimana.",
+   "model": "Hai ragione, ma credo che si possano organizzare delle riunioni in presenza.",
+   "otherwise": "compromise"
+  },
+  {
+   "id": "compromise",
+   "say": [
+    "E allora, cosa proporresti? Magari un compromesso?",
+    "Come potremmo risolvere la cosa, secondo te?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "propongo",
+      "proporrei",
+      "potremmo",
+      "potrebbe",
+      "compromesso",
+      "giorni",
+      "due",
+      "tre",
+      "settimana",
+      "alternare",
+      "metà",
+      "ibrido",
+      "presenza",
+      "ufficio",
+      "casa",
+      "soluzione"
+     ],
+     "next": "agree",
+     "reply": [
+      "Mi sembra una soluzione ragionevole."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Cosa proporresti?"
+   ],
+   "hint": "Propose: Potremmo lavorare due giorni in ufficio e tre a casa.",
+   "model": "Proporrei di alternare: due giorni in ufficio e tre a casa.",
+   "otherwise": "agree"
+  },
+  {
+   "id": "agree",
+   "say": [
+    "Sono d'accordo con te. Ne parlo con il direttore. Grazie per la chiacchierata!",
+    "Mi hai convinto. Lo propongo alla riunione di lunedì. Grazie!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "figurati",
+      "prego",
+      "volentieri",
+      "piacere",
+      "bene",
+      "ottimo",
+      "ciao",
+      "a presto",
+      "buona"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Grazie ancora!"
+   ],
+   "hint": "Close: Figurati, a presto!",
+   "model": "Figurati, è stato un piacere. A presto!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Ciao, a presto!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Secondo me / A mio parere…",
+   "en": "In my opinion…"
+  },
+  {
+   "it": "Credo che sia una buona idea.",
+   "en": "I think it's a good idea."
+  },
+  {
+   "it": "Hai ragione, però…",
+   "en": "You're right, but…"
+  },
+  {
+   "it": "Potremmo trovare un compromesso.",
+   "en": "We could find a compromise."
+  }
+ ]
+}

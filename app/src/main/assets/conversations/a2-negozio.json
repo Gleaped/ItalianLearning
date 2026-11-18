@@ -1,0 +1,365 @@
+{
+ "id": "a2-negozio",
+ "title": "In un negozio di abbigliamento",
+ "level": "A2",
+ "setting": "You want to buy a jacket in a clothes shop.",
+ "goal": "Ask for a jacket in your size and colour, try it on and decide.",
+ "partner": "la commessa",
+ "minutes": 6,
+ "slots": {
+  "colour": [
+   "blu",
+   "nera",
+   "verde"
+  ]
+ },
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Buongiorno! Posso aiutarla?",
+    "Salve! Cerca qualcosa in particolare?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "giacca",
+      "cerco",
+      "vorrei",
+      "giubbotto",
+      "cappotto"
+     ],
+     "next": "size",
+     "reply": [
+      "Abbiamo molti modelli nuovi."
+     ]
+    },
+    {
+     "match": [
+      "guardo",
+      "solo",
+      "niente"
+     ],
+     "next": "size",
+     "reply": [
+      "Faccia pure con calma. Se cerca qualcosa, mi dica."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Mi dica, cosa cerca?"
+   ],
+   "hint": "Say you are looking for a jacket: Cerco una giacca.",
+   "model": "Cerco una giacca, per favore.",
+   "otherwise": "size"
+  },
+  {
+   "id": "size",
+   "say": [
+    "Che taglia porta?",
+    "Di che taglia ha bisogno?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "taglia",
+      "porto",
+      "media",
+      "grande",
+      "piccola",
+      "quarantaquattro",
+      "quarantadue",
+      "quarantasei",
+      "non so",
+      "m",
+      "l",
+      "s"
+     ],
+     "next": "colour",
+     "reply": [
+      "Bene, ho proprio la sua taglia."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Che taglia porta?"
+   ],
+   "hint": "Say your size: Porto la taglia media / la quarantaquattro.",
+   "model": "Porto la taglia media.",
+   "otherwise": "colour"
+  },
+  {
+   "id": "colour",
+   "say": [
+    "Di che colore la vuole? Ce l'ho in blu, nera e verde.",
+    "Abbiamo questa giacca in blu, nera e verde. Quale preferisce?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "blu"
+     ],
+     "next": "try",
+     "reply": [
+      "Il blu le sta benissimo."
+     ],
+     "capture": "colour"
+    },
+    {
+     "match": [
+      "nera",
+      "nero"
+     ],
+     "next": "try",
+     "reply": [
+      "Il nero è sempre elegante."
+     ],
+     "capture": "colour"
+    },
+    {
+     "match": [
+      "verde"
+     ],
+     "next": "try",
+     "reply": [
+      "Il verde è un colore originale."
+     ],
+     "capture": "colour"
+    }
+   ],
+   "reprompt": [
+    "Blu, nera o verde?"
+   ],
+   "hint": "Choose a colour: blu, nera, verde.",
+   "model": "La vorrei blu.",
+   "otherwise": "try"
+  },
+  {
+   "id": "try",
+   "say": [
+    "Può provarla nel camerino, è lì a sinistra. Com'è la giacca?",
+    "Il camerino è in fondo. Come le sta?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "stretta",
+      "piccola",
+      "corta"
+     ],
+     "next": "smaller",
+     "reply": [
+      "Allora le porto la taglia più grande."
+     ]
+    },
+    {
+     "match": [
+      "larga",
+      "grande",
+      "lunga"
+     ],
+     "next": "smaller",
+     "reply": [
+      "Allora le porto una taglia più piccola."
+     ]
+    },
+    {
+     "match": [
+      "bene",
+      "perfetta",
+      "bella",
+      "comoda",
+      "va",
+      "piace"
+     ],
+     "next": "price",
+     "reply": [
+      "Meno male!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Come le sta? Va bene?"
+   ],
+   "hint": "Say how it fits: Mi sta bene / È un po' stretta.",
+   "model": "Mi sta bene, è comoda.",
+   "otherwise": "price"
+  },
+  {
+   "id": "smaller",
+   "say": [
+    "Ecco la nuova taglia. Ora com'è?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "bene",
+      "perfetta",
+      "bella",
+      "comoda",
+      "va",
+      "piace",
+      "meglio"
+     ],
+     "next": "price",
+     "reply": [
+      "Ottimo!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Va meglio?"
+   ],
+   "hint": "Say it fits now.",
+   "model": "Sì, adesso va bene.",
+   "otherwise": "price"
+  },
+  {
+   "id": "price",
+   "say": [
+    "Costa centoventi euro, ma oggi c'è il dieci per cento di sconto. La prende?",
+    "Sono centoventi euro con lo sconto. Allora, la prende?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "prendo",
+      "compro",
+      "sì",
+      "si",
+      "va bene",
+      "certo",
+      "volentieri",
+      "prende"
+     ],
+     "next": "pay",
+     "reply": [
+      "Perfetto!"
+     ]
+    },
+    {
+     "match": [
+      "troppo",
+      "caro",
+      "costa",
+      "pensare",
+      "no",
+      "non"
+     ],
+     "next": "think",
+     "reply": [
+      "Capisco."
+     ]
+    }
+   ],
+   "reprompt": [
+    "La prende?"
+   ],
+   "hint": "Decide: La prendo! / Ci devo pensare.",
+   "model": "Va bene, la prendo.",
+   "otherwise": "pay"
+  },
+  {
+   "id": "think",
+   "say": [
+    "Se vuole pensarci, la tengo da parte fino a domani."
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "domani",
+      "ritorno",
+      "tornare",
+      "pensare",
+      "va bene"
+     ],
+     "next": "bye"
+    }
+   ],
+   "reprompt": [
+    "Allora a domani?"
+   ],
+   "hint": "Thank her: Grazie, torno domani.",
+   "model": "Grazie, torno domani.",
+   "otherwise": "bye"
+  },
+  {
+   "id": "pay",
+   "say": [
+    "Alla cassa. Paga con la carta?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "carta",
+      "contanti",
+      "pago",
+      "sì",
+      "si",
+      "ecco",
+      "grazie"
+     ],
+     "next": "bye"
+    }
+   ],
+   "reprompt": [
+    "Carta o contanti?"
+   ],
+   "hint": "Say how you pay.",
+   "model": "Con la carta, grazie.",
+   "otherwise": "bye"
+  },
+  {
+   "id": "bye",
+   "say": [
+    "Grazie e buona giornata!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "arrivederci",
+      "buona",
+      "ciao",
+      "giornata"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Arrivederci!"
+   ],
+   "hint": "Say goodbye.",
+   "model": "Grazie, arrivederci!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Arrivederci!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Cerco una giacca.",
+   "en": "I'm looking for a jacket."
+  },
+  {
+   "it": "Che taglia porta?",
+   "en": "What size do you wear?"
+  },
+  {
+   "it": "Posso provarla?",
+   "en": "Can I try it on?"
+  },
+  {
+   "it": "Ci devo pensare.",
+   "en": "I need to think about it."
+  }
+ ]
+}

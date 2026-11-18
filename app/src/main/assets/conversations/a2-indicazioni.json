@@ -1,0 +1,192 @@
+{
+ "id": "a2-indicazioni",
+ "title": "Dov'è la stazione?",
+ "level": "A2",
+ "setting": "You are lost in an Italian town and stop a passer-by.",
+ "goal": "Ask the way to the station and understand the directions.",
+ "partner": "un passante",
+ "minutes": 5,
+ "start": "ask",
+ "states": [
+  {
+   "id": "ask",
+   "say": [
+    "Buongiorno, posso aiutarla?",
+    "Sì? Mi dica."
+   ],
+   "expect": [
+    {
+     "match": [
+      "stazione",
+      "dov'è",
+      "dove",
+      "treno"
+     ],
+     "next": "directions",
+     "reply": [
+      "Ah, la stazione!"
+     ]
+    },
+    {
+     "match": [
+      "scusi",
+      "scusa",
+      "senta"
+     ],
+     "next": "where"
+    }
+   ],
+   "reprompt": [
+    "Scusi, non ho capito. Cosa cerca?"
+   ],
+   "hint": "Ask where the station is: Scusi, dov'è la stazione?",
+   "model": "Scusi, dov'è la stazione?",
+   "otherwise": "directions"
+  },
+  {
+   "id": "where",
+   "say": [
+    "Mi dica, cosa cerca?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "stazione",
+      "dov'è",
+      "dove",
+      "treno"
+     ],
+     "next": "directions",
+     "reply": [
+      "Ah, la stazione!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Cosa cerca?"
+   ],
+   "hint": "Ask for the station.",
+   "model": "Scusi, dov'è la stazione?",
+   "otherwise": "directions"
+  },
+  {
+   "id": "directions",
+   "say": [
+    "Allora, vada sempre dritto per duecento metri, poi giri a destra al semaforo. La stazione è in fondo alla strada.",
+    "È facile: sempre dritto, poi la seconda a destra. La stazione è davanti alla piazza."
+   ],
+   "expect": [
+    {
+     "match": [
+      "lontano",
+      "distanza",
+      "quanto",
+      "minuti",
+      "piedi"
+     ],
+     "next": "far",
+     "reply": [
+      "Non è lontano."
+     ]
+    },
+    {
+     "match": [
+      "destra",
+      "dritto",
+      "semaforo",
+      "capito",
+      "grazie",
+      "va bene",
+      "ripeto"
+     ],
+     "next": "confirm"
+    }
+   ],
+   "reprompt": [
+    "Mi scusi, ha capito? Sempre dritto, poi a destra."
+   ],
+   "hint": "Check what you understood: Quindi dritto e poi a destra?",
+   "model": "Quindi vado dritto e poi giro a destra?",
+   "otherwise": "confirm"
+  },
+  {
+   "id": "far",
+   "say": [
+    "A piedi sono dieci minuti. Ma c'è anche l'autobus numero tre."
+   ],
+   "expect": [
+    {
+     "match": [
+      "autobus",
+      "bus",
+      "piedi",
+      "grazie",
+      "capito",
+      "destra",
+      "dritto",
+      "va bene"
+     ],
+     "next": "confirm"
+    }
+   ],
+   "reprompt": [
+    "Dieci minuti a piedi."
+   ],
+   "hint": "Say you will walk: Vado a piedi.",
+   "model": "Vado a piedi, grazie.",
+   "otherwise": "confirm"
+  },
+  {
+   "id": "confirm",
+   "say": [
+    "Esatto! Buon viaggio!",
+    "Perfetto, ha capito benissimo! Buona giornata!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "arrivederci",
+      "buongiorno",
+      "buona",
+      "ciao",
+      "mille"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Arrivederci!"
+   ],
+   "hint": "Thank them: Grazie mille, arrivederci!",
+   "model": "Grazie mille, arrivederci!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Di niente. Arrivederci!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Scusi, dov'è…?",
+   "en": "Excuse me, where is…?"
+  },
+  {
+   "it": "Sempre dritto.",
+   "en": "Straight on."
+  },
+  {
+   "it": "Giri a destra / a sinistra.",
+   "en": "Turn right / left."
+  },
+  {
+   "it": "È lontano?",
+   "en": "Is it far?"
+  }
+ ]
+}

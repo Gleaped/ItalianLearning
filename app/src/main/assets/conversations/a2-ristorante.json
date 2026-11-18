@@ -1,0 +1,411 @@
+{
+ "id": "a2-ristorante",
+ "title": "Al ristorante",
+ "level": "A2",
+ "setting": "You have dinner in a trattoria.",
+ "goal": "Get a table, order food and a drink, and ask for the bill.",
+ "partner": "il cameriere",
+ "minutes": 6,
+ "slots": {
+  "dish": [
+   "le lasagne",
+   "il risotto",
+   "la pizza",
+   "la pasta"
+  ],
+  "drink": [
+   "il vino",
+   "l'acqua",
+   "la birra"
+  ]
+ },
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Buonasera! Avete prenotato?",
+    "Buonasera! Siete in due? Avete prenotato un tavolo?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "prenotato",
+      "prenotazione",
+      "prenotare"
+     ],
+     "next": "table",
+     "reply": [
+      "Perfetto, ecco il vostro tavolo."
+     ]
+    },
+    {
+     "match": [
+      "no",
+      "non",
+      "senza"
+     ],
+     "next": "table",
+     "reply": [
+      "Nessun problema, abbiamo un tavolo libero."
+     ]
+    },
+    {
+     "match": [
+      "tavolo",
+      "due",
+      "tre",
+      "quattro",
+      "persone"
+     ],
+     "next": "table",
+     "reply": [
+      "Certo, venite pure."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Scusi, avete prenotato?",
+    "Come? Avete un tavolo prenotato?"
+   ],
+   "hint": "Say if you have booked: Sì, abbiamo prenotato. / No, non abbiamo prenotato.",
+   "model": "No, non abbiamo prenotato. Un tavolo per due, per favore.",
+   "otherwise": "table"
+  },
+  {
+   "id": "table",
+   "say": [
+    "Ecco il menù. Cosa prendete? Oggi abbiamo lasagne, risotto ai funghi e una buonissima pizza.",
+    "Accomodatevi. Come primo abbiamo lasagne, risotto e pasta al pomodoro. Cosa prende?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "lasagne"
+     ],
+     "next": "drink",
+     "reply": [
+      "Le lasagne sono la specialità della casa."
+     ],
+     "capture": "dish"
+    },
+    {
+     "match": [
+      "risotto"
+     ],
+     "next": "drink",
+     "reply": [
+      "Il risotto, ottima scelta."
+     ],
+     "capture": "dish"
+    },
+    {
+     "match": [
+      "pizza"
+     ],
+     "next": "drink",
+     "reply": [
+      "La pizza, subito."
+     ],
+     "capture": "dish"
+    },
+    {
+     "match": [
+      "pasta",
+      "pomodoro"
+     ],
+     "next": "drink",
+     "reply": [
+      "La pasta al pomodoro, benissimo."
+     ],
+     "capture": "dish"
+    },
+    {
+     "match": [
+      "vorrei",
+      "prendo",
+      "per me"
+     ],
+     "next": "which"
+    }
+   ],
+   "reprompt": [
+    "Mi scusi, cosa prende?"
+   ],
+   "hint": "Order a dish: Vorrei le lasagne / il risotto / la pizza.",
+   "model": "Per me il risotto ai funghi, per favore.",
+   "otherwise": "drink"
+  },
+  {
+   "id": "which",
+   "say": [
+    "Quale piatto preferisce? Lasagne, risotto, pizza o pasta al pomodoro?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "lasagne"
+     ],
+     "next": "drink",
+     "reply": [
+      "Le lasagne, perfetto."
+     ],
+     "capture": "dish"
+    },
+    {
+     "match": [
+      "risotto"
+     ],
+     "next": "drink",
+     "reply": [
+      "Il risotto, perfetto."
+     ],
+     "capture": "dish"
+    },
+    {
+     "match": [
+      "pizza"
+     ],
+     "next": "drink",
+     "reply": [
+      "La pizza, perfetto."
+     ],
+     "capture": "dish"
+    },
+    {
+     "match": [
+      "pasta",
+      "pomodoro"
+     ],
+     "next": "drink",
+     "reply": [
+      "La pasta, perfetto."
+     ],
+     "capture": "dish"
+    }
+   ],
+   "reprompt": [
+    "Lasagne, risotto, pizza o pasta?"
+   ],
+   "hint": "Choose one dish.",
+   "model": "Prendo la pizza.",
+   "otherwise": "drink"
+  },
+  {
+   "id": "drink",
+   "say": [
+    "E da bere? Vino della casa, acqua, birra?",
+    "Da bere cosa le porto?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "vino",
+      "rosso",
+      "bianco"
+     ],
+     "next": "ask",
+     "reply": [
+      "Un vino della casa, ottimo!"
+     ],
+     "capture": "drink"
+    },
+    {
+     "match": [
+      "acqua",
+      "naturale",
+      "frizzante"
+     ],
+     "next": "ask",
+     "reply": [
+      "Acqua, subito."
+     ],
+     "capture": "drink"
+    },
+    {
+     "match": [
+      "birra"
+     ],
+     "next": "ask",
+     "reply": [
+      "Una birra fresca, arriva subito."
+     ],
+     "capture": "drink"
+    }
+   ],
+   "reprompt": [
+    "Vino, acqua o birra?"
+   ],
+   "hint": "Order a drink: vino, acqua, birra.",
+   "model": "Una bottiglia d'acqua, per favore.",
+   "otherwise": "ask"
+  },
+  {
+   "id": "ask",
+   "say": [
+    "Ecco {dish|il suo piatto}. Buon appetito! Tutto bene?",
+    "Buon appetito! Le piace? Vuole altro?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "buonissimo",
+      "buono",
+      "delizioso",
+      "ottimo",
+      "squisito",
+      "bene",
+      "piace",
+      "grazie"
+     ],
+     "next": "bill",
+     "reply": [
+      "Mi fa piacere!"
+     ]
+    },
+    {
+     "match": [
+      "conto"
+     ],
+     "next": "bill",
+     "reply": [
+      "Certo, glielo porto subito."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Tutto bene con il piatto?"
+   ],
+   "hint": "Say you like it: È buonissimo, grazie!",
+   "model": "È buonissimo, grazie!",
+   "otherwise": "bill"
+  },
+  {
+   "id": "bill",
+   "say": [
+    "Vuole un dolce o un caffè?",
+    "Desidera altro? Un caffè, un dolce?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "conto"
+     ],
+     "next": "pay",
+     "reply": [
+      "Certo, glielo porto subito."
+     ]
+    },
+    {
+     "match": [
+      "no",
+      "niente",
+      "basta",
+      "solo",
+      "grazie"
+     ],
+     "next": "pay",
+     "reply": [
+      "Va bene, porto il conto."
+     ]
+    },
+    {
+     "match": [
+      "caffè",
+      "dolce",
+      "tiramisù",
+      "gelato"
+     ],
+     "next": "pay",
+     "reply": [
+      "Subito! E poi il conto."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Un caffè o un dolce?"
+   ],
+   "hint": "Ask for the bill: Il conto, per favore.",
+   "model": "Il conto, per favore.",
+   "otherwise": "pay"
+  },
+  {
+   "id": "pay",
+   "say": [
+    "Ecco il conto: sono ventotto euro. Paga con la carta o in contanti?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "carta",
+      "contanti",
+      "pago",
+      "ecco",
+      "tenga",
+      "euro"
+     ],
+     "next": "bye",
+     "reply": [
+      "Grazie mille!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Carta o contanti?"
+   ],
+   "hint": "Say how you pay: Con la carta, grazie.",
+   "model": "Pago con la carta, grazie.",
+   "otherwise": "bye"
+  },
+  {
+   "id": "bye",
+   "say": [
+    "Grazie e arrivederci! Torni presto, la aspettiamo."
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "arrivederci",
+      "buonasera",
+      "buona serata",
+      "ciao"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Arrivederci!"
+   ],
+   "hint": "Say goodbye.",
+   "model": "Grazie, arrivederci e buona serata!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Buona serata!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Avete un tavolo per due?",
+   "en": "Do you have a table for two?"
+  },
+  {
+   "it": "Vorrei il risotto, per favore.",
+   "en": "I would like the risotto, please."
+  },
+  {
+   "it": "Il conto, per favore.",
+   "en": "The bill, please."
+  },
+  {
+   "it": "È buonissimo!",
+   "en": "It's delicious!"
+  }
+ ]
+}

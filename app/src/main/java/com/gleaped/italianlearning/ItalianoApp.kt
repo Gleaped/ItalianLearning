@@ -17,8 +17,11 @@ import com.gleaped.italianlearning.reminders.Shortcuts
 import com.gleaped.italianlearning.data.flags.FlagRepository
 import com.gleaped.italianlearning.data.exam.PaperRepository
 import com.gleaped.italianlearning.data.oral.OralRepository
+import com.gleaped.italianlearning.data.oral.OralPaperRepository
+import com.gleaped.italianlearning.data.conversation.ConversationRepository
 import com.gleaped.italianlearning.data.writing.WritingRepository
 import com.gleaped.italianlearning.speech.TtsManager
+import com.gleaped.italianlearning.speech.VoicePack
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -37,11 +40,14 @@ class AppContainer(context: Context) {
         ReminderScheduler(appContext, database.reminderDao(), settings)
     }
     val reminderContent: ReminderContentBuilder by lazy { ReminderContentBuilder(content, learning, settings) }
-    val tts: TtsManager by lazy { TtsManager(appContext) }
+    val voicePack: VoicePack by lazy { VoicePack(appContext) }
+    val tts: TtsManager by lazy { TtsManager(appContext, voicePack) }
     val writing: WritingRepository by lazy { WritingRepository(appContext) }
     val coreDeck: CoreDeckService by lazy { CoreDeckService(settings, content, dictionary, learning) }
     val flags: FlagRepository by lazy { FlagRepository(appContext) }
     val oral: OralRepository by lazy { OralRepository(appContext) }
+    val oralPapers: OralPaperRepository by lazy { OralPaperRepository(appContext) }
+    val conversations: ConversationRepository by lazy { ConversationRepository(appContext) }
     val papers: PaperRepository by lazy { PaperRepository(appContext) }
     val backup: BackupRepository by lazy { BackupRepository(database, writing, settings) }
 }

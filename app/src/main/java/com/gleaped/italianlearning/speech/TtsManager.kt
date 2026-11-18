@@ -4,6 +4,7 @@ import android.content.Context
 import android.speech.tts.TextToSpeech
 import android.speech.tts.Voice
 import android.util.Log
+import com.gleaped.italianlearning.domain.speech.AudioKey
 import com.gleaped.italianlearning.domain.speech.SpeakableText
 import com.gleaped.italianlearning.domain.speech.VoiceChoice
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -24,7 +25,8 @@ data class VoiceOption(val name: String, val label: String)
  * Dialogues use a second voice for the other speaker; with only one voice installed, the
  * same voice is pitched lower instead so the speakers can still be told apart.
  */
-class TtsManager(context: Context) {
+class TtsManager(context: Context, private val pack: VoicePack? = null) {
+    private val packPlayer = VoicePlayer()
     private val _status = MutableStateFlow(TtsStatus.INITIALISING)
     val status: StateFlow<TtsStatus> = _status.asStateFlow()
 
@@ -100,9 +102,11 @@ class TtsManager(context: Context) {
      * With [dialogue], lines separated by a dash are read by alternating voices.
      */
     fun speak(text: String, slow: Boolean = false, second: Boolean = false, dialogue: Boolean = false) {
+        if (speakFromPack(text, slow, second, dialogue)) return
         when (_status.value) {
             TtsStatus.INITIALISING -> pending = text to slow
             TtsStatus.READY -> {
+                packPlayer.stop()
                 tts.setSpeechRate(if (slow) baseRate * 0.7f else baseRate)
                 val turns = if (dialogue) SpeakableText.dialogueTurns(text) else listOf(text)
                 turns.forEachIndexed { index, turn ->
@@ -116,6 +120,46 @@ class TtsManager(context: Context) {
         }
     }
 
+    /**
+     * Plays the natural-voice recording of the text when the downloaded pack has every line of it.
+     * A text that is only partly in the pack is read by the phone's voice as a whole, so one
+     * sentence never switches voice halfway.
+     */
+    private fun speakFromPack(text: String, slow: Boolean, second: Boolean, dialogue: Boolean): Boolean {
+        val voicePack = pack ?: return false
+        val turns = if (dialogue) SpeakableText.dialogueTurns(text) else listOf(text)
+        val files = turns.mapIndexed { index, turn -> voicePack.fileFor(turn, AudioKey.voiceForTurn(index, second)) }
+        if (files.isEmpty() || files.any { it == null }) return false
+        if (_status.value == TtsStatus.READY) tts.stop()
+        packPlayer.play(files.filterNotNull(), speed = (if (slow) 0.75f else 1.0f) * (baseRate / 0.9f).coerceIn(0.6f, 1.4f))
+        return true
+    }
+
+    /**
+     * Speaks several lines one after another, all in the main or all in the second voice: the
+     * partner's reaction and next question, for example. Natural-voice recordings are used only
+     * when the pack has every line; otherwise the phone's voice reads them all.
+     */
+    fun speakSequence(lines: List<String>, slow: Boolean = false, second: Boolean = true) {
+        val spoken = lines.filter { it.isNotBlank() }
+        if (spoken.isEmpty()) return
+        val voice = if (second) AudioKey.VOICE_SECOND else AudioKey.VOICE_MAIN
+        val files = spoken.map { pack?.fileFor(it, voice) }
+        if (files.none { it == null }) {
+            if (_status.value == TtsStatus.READY) tts.stop()
+            packPlayer.play(files.filterNotNull(), speed = (if (slow) 0.75f else 1.0f) * (baseRate / 0.9f).coerceIn(0.6f, 1.4f))
+            return
+        }
+        if (_status.value != TtsStatus.READY) return
+        packPlayer.stop()
+        tts.setSpeechRate(if (slow) baseRate * 0.7f else baseRate)
+        useVoice(second)
+        spoken.forEachIndexed { index, line ->
+            val mode = if (index == 0) TextToSpeech.QUEUE_FLUSH else TextToSpeech.QUEUE_ADD
+            tts.speak(line, mode, null, "seq-${line.hashCode()}-$index")
+        }
+    }
+
     private fun useVoice(second: Boolean) {
         val other = secondVoice
         val voice = if (second && other != null) other else mainVoice
@@ -125,6 +169,7 @@ class TtsManager(context: Context) {
     }
 
     fun stop() {
+        packPlayer.stop()
         if (_status.value == TtsStatus.READY) tts.stop()
     }
 

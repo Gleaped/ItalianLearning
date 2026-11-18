@@ -582,7 +582,7 @@ private fun heardNote(heard: String, percent: Int? = null): String =
 
 /** Shared mic / type-instead / skip block. Calls [onResponses] with the recogniser's alternatives or typed text. */
 @Composable
-private fun SpeakOrType(
+internal fun SpeakOrType(
     answered: Boolean,
     speechEnabled: Boolean,
     onResponses: (List<String>) -> Unit,

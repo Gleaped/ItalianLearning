@@ -10,8 +10,8 @@ import java.io.File
  * Records one spoken answer to a temporary file and plays it back. The recording is overwritten
  * by the next one and removed with [release]; nothing is kept or sent anywhere.
  */
-class AnswerRecorder(private val context: Context) {
-    private val file = File(context.cacheDir, "oral-answer.m4a")
+class AnswerRecorder(private val context: Context, name: String = "oral-answer.m4a") {
+    private val file = File(context.cacheDir, name)
     private var recorder: MediaRecorder? = null
     private var player: MediaPlayer? = null
 
@@ -39,6 +39,13 @@ class AnswerRecorder(private val context: Context) {
             releaseRecorder()
             false
         }
+    }
+
+    /** The loudest level since the last call, 0 to 32767; 0 when not recording. Used to see pauses. */
+    fun level(): Int = try {
+        recorder?.maxAmplitude ?: 0
+    } catch (e: Exception) {
+        0
     }
 
     /** Stops recording; true when there is something to play. */

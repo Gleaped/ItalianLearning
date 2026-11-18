@@ -1,0 +1,269 @@
+{
+ "id": "a1-bar",
+ "title": "Al bar",
+ "level": "A1",
+ "setting": "You are in a café in Italy at breakfast time.",
+ "goal": "Order a drink and a snack, and pay.",
+ "partner": "il barista",
+ "minutes": 4,
+ "slots": {
+  "drink": [
+   "un caffè",
+   "un cappuccino",
+   "un tè",
+   "un succo",
+   "un'acqua",
+   "una spremuta"
+  ]
+ },
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Buongiorno! Cosa prendi?",
+    "Ciao! Dimmi, cosa ti porto?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "caffè",
+      "espresso"
+     ],
+     "next": "food",
+     "reply": [
+      "Un caffè? Subito!"
+     ],
+     "capture": "drink"
+    },
+    {
+     "match": [
+      "cappuccino"
+     ],
+     "next": "food",
+     "reply": [
+      "Un cappuccino, ottimo!"
+     ],
+     "capture": "drink"
+    },
+    {
+     "match": [
+      "tè",
+      "succo",
+      "acqua",
+      "spremuta"
+     ],
+     "next": "food",
+     "reply": [
+      "Va bene!"
+     ],
+     "capture": "drink"
+    },
+    {
+     "match": [
+      "vorrei",
+      "prendo",
+      "per favore"
+     ],
+     "next": "what"
+    }
+   ],
+   "reprompt": [
+    "Scusa, cosa prendi?",
+    "Come? Un caffè, un cappuccino…?"
+   ],
+   "hint": "Ask for a drink: un caffè, un cappuccino, un tè…",
+   "model": "Vorrei un cappuccino, per favore.",
+   "otherwise": "what"
+  },
+  {
+   "id": "what",
+   "say": [
+    "Un caffè, un cappuccino, un tè, un succo?",
+    "Abbiamo caffè, cappuccino, tè e succhi di frutta. Cosa vuoi?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "caffè",
+      "espresso"
+     ],
+     "next": "food",
+     "reply": [
+      "Un caffè, perfetto."
+     ],
+     "capture": "drink"
+    },
+    {
+     "match": [
+      "cappuccino"
+     ],
+     "next": "food",
+     "reply": [
+      "Un cappuccino, perfetto."
+     ],
+     "capture": "drink"
+    },
+    {
+     "match": [
+      "tè",
+      "succo",
+      "acqua",
+      "spremuta"
+     ],
+     "next": "food",
+     "reply": [
+      "Benissimo."
+     ],
+     "capture": "drink"
+    }
+   ],
+   "reprompt": [
+    "Scusa, non ho capito."
+   ],
+   "hint": "Name one drink.",
+   "model": "Un cappuccino, per favore.",
+   "otherwise": "food"
+  },
+  {
+   "id": "food",
+   "say": [
+    "Vuoi anche qualcosa da mangiare? Abbiamo cornetti e panini.",
+    "E da mangiare? Ci sono i cornetti, sono freschi!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "no",
+      "niente",
+      "basta",
+      "no grazie",
+      "solo"
+     ],
+     "next": "pay",
+     "reply": [
+      "Va bene, solo da bere."
+     ]
+    },
+    {
+     "match": [
+      "sì",
+      "si",
+      "certo",
+      "volentieri",
+      "va bene",
+      "d'accordo",
+      "perfetto",
+      "okay",
+      "cornetto",
+      "panino",
+      "brioche",
+      "vorrei"
+     ],
+     "next": "pay",
+     "reply": [
+      "Un cornetto, ottima scelta!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Un cornetto o un panino?",
+    "Scusa, vuoi qualcosa da mangiare?"
+   ],
+   "hint": "Say yes (sì, un cornetto) or no (no, grazie).",
+   "model": "Sì, un cornetto, per favore.",
+   "otherwise": "pay"
+  },
+  {
+   "id": "pay",
+   "say": [
+    "{drink|Un caffè}… ecco a te! Sono due euro e cinquanta.",
+    "Ecco qui. Fanno due euro e cinquanta, grazie."
+   ],
+   "expect": [
+    {
+     "match": [
+      "ecco",
+      "tieni",
+      "grazie",
+      "euro",
+      "carta",
+      "contanti"
+     ],
+     "next": "bye",
+     "reply": [
+      "Grazie a te! Il resto è qui."
+     ]
+    },
+    {
+     "match": [
+      "quanto",
+      "costa",
+      "conto"
+     ],
+     "next": "bye",
+     "reply": [
+      "Sono due euro e cinquanta."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Sono due euro e cinquanta."
+   ],
+   "hint": "Say thank you or hand over the money: ecco, grazie.",
+   "model": "Ecco, grazie!",
+   "otherwise": "bye"
+  },
+  {
+   "id": "bye",
+   "say": [
+    "Buona giornata e arrivederci!",
+    "Grazie, arrivederci! Buona giornata!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "arrivederci",
+      "ciao",
+      "buona giornata",
+      "grazie",
+      "buongiorno"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Arrivederci!"
+   ],
+   "hint": "Say goodbye: arrivederci!",
+   "model": "Arrivederci, buona giornata!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "A presto!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Vorrei un cappuccino, per favore.",
+   "en": "I would like a cappuccino, please."
+  },
+  {
+   "it": "Quanto costa?",
+   "en": "How much is it?"
+  },
+  {
+   "it": "Ecco a Lei.",
+   "en": "Here you are."
+  },
+  {
+   "it": "Buona giornata!",
+   "en": "Have a good day!"
+  }
+ ]
+}

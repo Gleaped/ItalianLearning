@@ -57,6 +57,9 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.material3.LinearProgressIndicator
+import com.gleaped.italianlearning.speech.VoicePack
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -492,6 +495,7 @@ fun SettingsScreen() {
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
+        NaturalVoicesSection(container)
         SwitchRow("Play audio automatically", "Listening exercises and role-plays start playing on their own.", settings.autoPlayAudio, vm::setAutoPlay)
         SwitchRow(
             "Listen before reading",
@@ -649,4 +653,36 @@ private fun SwitchRow(title: String, subtitle: String?, checked: Boolean, onChan
         }
         Switch(checked = checked, onCheckedChange = onChange)
     }
+}
+
+/** Download, status and removal of the natural-voice pack. */
+@Composable
+private fun NaturalVoicesSection(container: AppContainer) {
+    val state by container.voicePack.state.collectAsStateWithLifecycle()
+    val scope = rememberCoroutineScope()
+    Text("Natural voices", style = MaterialTheme.typography.bodyLarge)
+    if (state.installed) {
+        Text(
+            "Installed: ${state.files} recorded lines, ${state.megabytes} MB. They play offline and sound the same on every phone. " +
+                "Anything not recorded is read by the phone's own voice.",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            OutlinedButton(onClick = { container.tts.speak("Buongiorno! Questa è una voce naturale.") }) { Text("Hear it") }
+            OutlinedButton(onClick = { container.voicePack.delete() }) { Text("Remove") }
+        }
+    } else {
+        Text(
+            "Download recorded voices for the lessons, once. They need storage and a Wi-Fi connection to fetch, then work offline.",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        if (state.downloading) {
+            LinearProgressIndicator(progress = { state.percent / 100f }, modifier = Modifier.fillMaxWidth())
+        } else {
+            Button(onClick = { scope.launch { container.voicePack.download(VoicePack.URL) } }) { Text("Download natural voices") }
+        }
+    }
+    state.error?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error) }
 }
