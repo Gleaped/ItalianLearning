@@ -332,6 +332,59 @@ data class MinimalPair(
     val translations: List<String> = emptyList(),
 ) : Exercise
 
+@Serializable
+@SerialName("shadow")
+data class Shadow(
+    override val id: String? = null,
+    override val instruction: String? = null,
+    override val explanation: String? = null,
+    override val stage: String? = null,
+    /** The sentence to hear and then say along with the voice. */
+    val text: String,
+    val translation: String? = null,
+) : Exercise
+
+@Serializable
+@SerialName("minimal_pair_say")
+data class MinimalPairSay(
+    override val id: String? = null,
+    override val instruction: String? = null,
+    override val explanation: String? = null,
+    override val stage: String? = null,
+    /** Two words that differ in one sound, e.g. pala and palla. */
+    val words: List<String>,
+    /** Index into [words] of the one to say. */
+    val target: Int,
+    val translations: List<String> = emptyList(),
+) : Exercise
+
+@Serializable
+@SerialName("listen_order")
+data class ListenOrder(
+    override val id: String? = null,
+    override val instruction: String? = null,
+    override val explanation: String? = null,
+    override val stage: String? = null,
+    /** The sentences in the right order; they are heard shuffled. */
+    val sentences: List<String>,
+    val question: String = "Listen and tap the lines in the order they make sense.",
+) : Exercise
+
+@Serializable
+@SerialName("gap_listen")
+data class GapListen(
+    override val id: String? = null,
+    override val instruction: String? = null,
+    override val explanation: String? = null,
+    override val stage: String? = null,
+    /** The whole text, as the voice reads it. */
+    val audioText: String,
+    /** The same text with `___` where a word was left out. */
+    val text: String,
+    /** The words that were left out, one per `___`, in order. */
+    val answers: List<String>,
+) : Exercise
+
 /** An exercise whose `type` this app version does not know. Shown as skippable. */
 @Serializable
 data class Unsupported(
@@ -378,12 +431,17 @@ object ExerciseTypes {
     const val TRANSFORM = "transform"
     const val SORT_BUCKETS = "sort_buckets"
     const val MINIMAL_PAIR = "minimal_pair"
+    const val SHADOW = "shadow"
+    const val MINIMAL_PAIR_SAY = "minimal_pair_say"
+    const val LISTEN_ORDER = "listen_order"
+    const val GAP_LISTEN = "gap_listen"
 
     val ALL: List<String> = listOf(
         GRAMMAR_NOTE, FLASHCARD, MULTIPLE_CHOICE, GAP_FILL, CONJUGATION, SENTENCE_BUILD,
         TRANSLATE, MATCH_PAIRS, ERROR_CORRECTION, LISTEN_TRANSCRIBE, LISTEN_CHOOSE, READING,
         SPEAK_REPEAT, SPEAK_RESPOND, ROLEPLAY, FREE_WRITE,
         CHOOSE_MOOD, FIND_TRIGGER, TRANSFORM, SORT_BUCKETS, MINIMAL_PAIR,
+        SHADOW, MINIMAL_PAIR_SAY, LISTEN_ORDER, GAP_LISTEN,
     )
 
     /** The JSON `type` name of a decoded exercise. */
@@ -409,6 +467,10 @@ object ExerciseTypes {
         is Transform -> TRANSFORM
         is SortBuckets -> SORT_BUCKETS
         is MinimalPair -> MINIMAL_PAIR
+        is Shadow -> SHADOW
+        is MinimalPairSay -> MINIMAL_PAIR_SAY
+        is ListenOrder -> LISTEN_ORDER
+        is GapListen -> GAP_LISTEN
         is Unsupported -> e.type
         is Invalid -> e.type
     }
@@ -440,6 +502,10 @@ object ExerciseSerializer : JsonContentPolymorphicSerializer<Exercise>(Exercise:
             ExerciseTypes.TRANSFORM -> Transform.serializer()
             ExerciseTypes.SORT_BUCKETS -> SortBuckets.serializer()
             ExerciseTypes.MINIMAL_PAIR -> MinimalPair.serializer()
+            ExerciseTypes.SHADOW -> Shadow.serializer()
+            ExerciseTypes.MINIMAL_PAIR_SAY -> MinimalPairSay.serializer()
+            ExerciseTypes.LISTEN_ORDER -> ListenOrder.serializer()
+            ExerciseTypes.GAP_LISTEN -> GapListen.serializer()
             else -> Unsupported.serializer()
         }
     }

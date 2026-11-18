@@ -1,0 +1,102 @@
+{
+ "id": "oral-02",
+ "title": "Prova orale 2",
+ "prepareMinutes": 15,
+ "greeting": [
+  "Buongiorno! Mi chiamo Elena e sarò la sua esaminatrice. Cominciamo, se è pronto.",
+  "Buongiorno e benvenuto. Siamo qui per una breve conversazione. Cominciamo quando vuole."
+ ],
+ "closing": [
+  "Grazie, l'esame orale è finito. Arrivederci e buona giornata!",
+  "Molto bene, abbiamo finito. Grazie e arrivederci!"
+ ],
+ "tasks": [
+  {
+   "kind": "presentation",
+   "title": "Presentazione personale",
+   "examiner": [
+    "Per cominciare, si presenti. Mi parli di lei: della sua famiglia, del suo lavoro o dei suoi studi, dei suoi interessi."
+   ],
+   "material": "Parli di sé per circa un minuto: chi è, che cosa fa, che cosa le piace e perché studia l'italiano.",
+   "cues": [
+    "nome e provenienza",
+    "lavoro o studi",
+    "interessi e tempo libero",
+    "perché studia l'italiano"
+   ],
+   "followUps": [
+    "Che cosa fa di solito nel fine settimana?",
+    "Ha già visitato l'Italia? Dove è stato?"
+   ],
+   "modelAnswer": "Mi chiamo Marco e vengo da Manchester, ma da cinque anni vivo a Londra con mia moglie. Lavoro come ingegnere in un'azienda che costruisce sistemi di energia solare. Nel tempo libero mi piace camminare in montagna e cucinare, soprattutto la pasta fresca. Studio italiano perché mi sono innamorato dell'Italia durante le vacanze e perché vorrei poter parlare con la famiglia di mia moglie senza traduzioni.",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  },
+  {
+   "kind": "photo",
+   "title": "Descrivi la foto",
+   "examiner": [
+    "Guardi questa foto e la descriva. Che cosa succede? Poi mi dica qual è la sua esperienza con i mezzi pubblici."
+   ],
+   "material": "FOTO: Una stazione della metropolitana nell'ora di punta. La banchina è affollata, molte persone guardano il telefono, un uomo con la valigia cerca di salire sul treno, una ragazza con le cuffie sorride. Il tabellone indica un ritardo di dieci minuti.",
+   "cues": [
+    "dove sono",
+    "quante persone ci sono",
+    "che cosa fanno",
+    "com'è l'atmosfera",
+    "esperienza personale"
+   ],
+   "followUps": [
+    "Lei usa i mezzi pubblici? Che cosa pensa del servizio nella sua città?",
+    "Che cosa si potrebbe fare per migliorare il trasporto pubblico?"
+   ],
+   "modelAnswer": "Nella foto c'è una stazione della metropolitana molto affollata, probabilmente nell'ora di punta. Molte persone aspettano il treno e quasi tutti guardano il telefono. C'è un uomo con una valigia che cerca di salire e una ragazza con le cuffie che sorride. Il tabellone segnala un ritardo. Io uso spesso la metropolitana per andare al lavoro: è comoda, ma nelle ore di punta è davvero stressante.",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  },
+  {
+   "kind": "text",
+   "title": "Riassumi il testo",
+   "examiner": [
+    "Legga il testo e lo riassuma. Poi mi dica se è d'accordo."
+   ],
+   "material": "TESTO: «Molte città italiane stanno introducendo zone a traffico limitato per ridurre lo smog. I commercianti temono di perdere clienti, ma le esperienze di altre città europee mostrano che le strade pedonali spesso attirano più visitatori. Resta però il problema dei residenti che, senza un buon trasporto pubblico, si sentono penalizzati.»",
+   "cues": [
+    "tema",
+    "l'obiettivo",
+    "la preoccupazione dei commercianti",
+    "il problema dei residenti",
+    "la sua opinione"
+   ],
+   "followUps": [
+    "Nella sua città esistono zone senza auto? Che cosa ne pensa?",
+    "Rinuncerebbe all'auto per l'ambiente? A quali condizioni?"
+   ],
+   "modelAnswer": "Il testo parla delle zone a traffico limitato nelle città italiane, introdotte per ridurre lo smog. I commercianti hanno paura di perdere clienti, ma altre città europee dimostrano che le aree pedonali possono attirare più visitatori. Il problema rimane per i residenti, se il trasporto pubblico non funziona bene. Secondo me le zone senza auto sono una buona idea, purché ci siano alternative valide.",
+   "minSeconds": 90,
+   "maxSeconds": 150
+  },
+  {
+   "kind": "roleplay",
+   "title": "Compito comunicativo",
+   "examiner": [
+    "Facciamo un gioco di ruolo. Io sono il proprietario di un appartamento e lei cerca casa. Cominci lei."
+   ],
+   "material": "SITUAZIONE: Telefona per un appartamento in affitto. Si informi sul prezzo, sulle spese, sui mezzi vicini e sulla data in cui può visitarlo. Spieghi che lavora in città e cerca una casa tranquilla.",
+   "cues": [
+    "saluto e motivo della telefonata",
+    "prezzo e spese",
+    "posizione e mezzi",
+    "richiesta di visita",
+    "ringraziamenti"
+   ],
+   "followUps": [
+    "Ha animali? Il contratto non li permette.",
+    "Quando potrebbe vedere l'appartamento?"
+   ],
+   "modelAnswer": "Buongiorno, la chiamo per l'annuncio dell'appartamento in affitto. Mi può dire quanto costa al mese e se le spese sono incluse? Lavoro in centro e cerco una casa tranquilla, vicina a una fermata della metropolitana. Sarebbe possibile visitare l'appartamento questo sabato mattina? Grazie, è stato molto gentile.",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  }
+ ]
+}

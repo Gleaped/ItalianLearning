@@ -1,0 +1,388 @@
+{
+ "id": "b2-reclamo",
+ "title": "Un reclamo",
+ "level": "B2",
+ "setting": "A washing machine you bought three weeks ago has stopped working. You phone customer service.",
+ "goal": "Explain the problem, say what you expect and agree what happens next.",
+ "partner": "l'operatore",
+ "minutes": 8,
+ "slots": {
+  "item": [
+   "la lavatrice"
+  ]
+ },
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Servizio clienti, buongiorno. In cosa posso esserle utile?",
+    "Buongiorno, parla con il servizio assistenza. Mi dica pure."
+   ],
+   "expect": [
+    {
+     "match": [
+      "lavatrice",
+      "acquistato",
+      "comprato",
+      "comprata",
+      "acquistata",
+      "problema",
+      "guasta",
+      "rotta",
+      "funziona"
+     ],
+     "next": "detail",
+     "reply": [
+      "Mi dispiace molto per l'inconveniente."
+     ],
+     "capture": "item"
+    },
+    {
+     "match": [
+      "reclamo",
+      "lamentare",
+      "lamentarmi",
+      "protestare"
+     ],
+     "next": "detail",
+     "reply": [
+      "Mi dica pure di cosa si tratta."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Mi scusi, può spiegare il problema?"
+   ],
+   "hint": "Explain: Ho comprato una lavatrice tre settimane fa e non funziona più.",
+   "model": "Ho comprato una lavatrice tre settimane fa, ma non funziona più.",
+   "otherwise": "detail"
+  },
+  {
+   "id": "detail",
+   "say": [
+    "Può descrivermi esattamente che cosa succede? E ha ancora lo scontrino?",
+    "Cosa non funziona esattamente? Ha con sé lo scontrino o la fattura?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "scontrino",
+      "fattura",
+      "ricevuta"
+     ],
+     "next": "want",
+     "reply": [
+      "Perfetto, mi serve per la garanzia."
+     ]
+    },
+    {
+     "match": [
+      "acqua",
+      "ruota",
+      "centrifuga",
+      "luce",
+      "rumore",
+      "parte",
+      "accende",
+      "si accende",
+      "spegne",
+      "perde",
+      "fermata"
+     ],
+     "next": "receipt",
+     "reply": [
+      "Capisco, è un guasto serio."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Che cosa succede esattamente?"
+   ],
+   "hint": "Describe the fault: Non si accende / perde acqua / fa un rumore strano. And say you have the receipt.",
+   "model": "Non si accende più e ho ancora lo scontrino.",
+   "otherwise": "want"
+  },
+  {
+   "id": "receipt",
+   "say": [
+    "E lo scontrino, ce l'ha?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "ho",
+      "scontrino",
+      "fattura",
+      "ricevuta",
+      "ancora"
+     ],
+     "next": "want",
+     "reply": [
+      "Ottimo."
+     ]
+    },
+    {
+     "match": [
+      "no",
+      "perso",
+      "non"
+     ],
+     "next": "want",
+     "reply": [
+      "Non è un problema, cerchiamo il suo ordine nel sistema."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Ha lo scontrino?"
+   ],
+   "hint": "Say whether you have the receipt.",
+   "model": "Sì, ho ancora lo scontrino.",
+   "otherwise": "want"
+  },
+  {
+   "id": "want",
+   "say": [
+    "Capisco. Cosa preferirebbe: la riparazione gratuita, la sostituzione o il rimborso?",
+    "Possiamo ripararla, sostituirla oppure rimborsarla. Lei cosa preferisce?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "rimborso",
+      "rimborsare",
+      "soldi",
+      "indietro"
+     ],
+     "next": "refund",
+     "reply": [
+      "Capisco la sua richiesta."
+     ]
+    },
+    {
+     "match": [
+      "sostituzione",
+      "sostituire",
+      "nuova",
+      "nuovo",
+      "cambiare"
+     ],
+     "next": "swap",
+     "reply": [
+      "Certo, è un suo diritto."
+     ]
+    },
+    {
+     "match": [
+      "riparazione",
+      "riparare",
+      "ripararla",
+      "tecnico",
+      "aggiustare"
+     ],
+     "next": "repair",
+     "reply": [
+      "Va bene."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Riparazione, sostituzione o rimborso?"
+   ],
+   "hint": "Say what you want: Preferirei la sostituzione. / Vorrei un rimborso.",
+   "model": "Vorrei la sostituzione, perché ne ho bisogno al più presto.",
+   "otherwise": "swap"
+  },
+  {
+   "id": "refund",
+   "say": [
+    "Il rimborso arriva entro quindici giorni sulla carta con cui ha pagato. Le va bene?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "va bene",
+      "d'accordo",
+      "accetto",
+      "entro",
+      "tempi",
+      "quanto",
+      "perfetto",
+      "benissimo"
+     ],
+     "next": "end_ok"
+    }
+   ],
+   "reprompt": [
+    "Le va bene il rimborso?"
+   ],
+   "hint": "Agree or ask about timing.",
+   "model": "Va bene, purché arrivi in tempi brevi.",
+   "otherwise": "end_ok"
+  },
+  {
+   "id": "swap",
+   "say": [
+    "Possiamo spedire una lavatrice nuova entro cinque giorni lavorativi e ritirare la vecchia. Le va bene?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "va bene",
+      "d'accordo",
+      "accetto",
+      "entro",
+      "giorni",
+      "presto",
+      "perfetto",
+      "benissimo",
+      "prima"
+     ],
+     "next": "end_ok",
+     "reply": [
+      "Perfetto."
+     ]
+    },
+    {
+     "match": [
+      "troppo",
+      "aspettare",
+      "urgente",
+      "subito",
+      "prima",
+      "fretta"
+     ],
+     "next": "urgent",
+     "reply": [
+      "Capisco l'urgenza."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Le va bene cinque giorni?"
+   ],
+   "hint": "Agree, or say it is too long.",
+   "model": "Va bene, ma spero che arrivi nei tempi previsti.",
+   "otherwise": "end_ok"
+  },
+  {
+   "id": "urgent",
+   "say": [
+    "Posso provare a fare una consegna prioritaria entro tre giorni. Va meglio?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "va bene",
+      "meglio",
+      "perfetto",
+      "grazie",
+      "benissimo"
+     ],
+     "next": "end_ok"
+    }
+   ],
+   "reprompt": [
+    "Tre giorni, va bene?"
+   ],
+   "hint": "Accept the faster delivery.",
+   "model": "Sì, così va meglio, grazie.",
+   "otherwise": "end_ok"
+  },
+  {
+   "id": "repair",
+   "say": [
+    "Un tecnico può venire a casa sua entro due giorni. Quando preferisce?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "lunedì",
+      "martedì",
+      "mercoledì",
+      "giovedì",
+      "venerdì",
+      "mattina",
+      "pomeriggio",
+      "domani",
+      "giorno",
+      "dopodomani",
+      "pomeriggio"
+     ],
+     "next": "end_ok",
+     "reply": [
+      "Segno l'appuntamento."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Quando preferisce?"
+   ],
+   "hint": "Say a day: Giovedì pomeriggio.",
+   "model": "Giovedì pomeriggio, se possibile.",
+   "otherwise": "end_ok"
+  },
+  {
+   "id": "end_ok",
+   "say": [
+    "Abbiamo concluso. Riceverà una conferma per email. Posso fare altro per lei?",
+    "Tutto registrato. Riceverà una email di conferma. Altro?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "no",
+      "niente",
+      "nessuno",
+      "grazie",
+      "basta",
+      "tutto",
+      "a posto"
+     ],
+     "next": "end2"
+    }
+   ],
+   "reprompt": [
+    "Posso fare altro?"
+   ],
+   "hint": "Close politely: No, grazie, è tutto. Arrivederci.",
+   "model": "No, grazie, è tutto. Arrivederci.",
+   "otherwise": "end2",
+   "goal": true
+  },
+  {
+   "id": "end2",
+   "say": [
+    "Grazie per la pazienza e buona giornata!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Mi dispiace, ma devo presentare un reclamo.",
+   "en": "I'm sorry, but I have to make a complaint."
+  },
+  {
+   "it": "Il prodotto non funziona più.",
+   "en": "The product no longer works."
+  },
+  {
+   "it": "Vorrei un rimborso / una sostituzione.",
+   "en": "I'd like a refund / a replacement."
+  },
+  {
+   "it": "Spero che il problema si risolva presto.",
+   "en": "I hope the problem will be solved soon."
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "oral-03",
+ "title": "Prova orale 3",
+ "prepareMinutes": 15,
+ "greeting": [
+  "Buongiorno! Mi chiamo Elena e sarò la sua esaminatrice. Cominciamo, se è pronto.",
+  "Buongiorno e benvenuto. Siamo qui per una breve conversazione. Cominciamo quando vuole."
+ ],
+ "closing": [
+  "Grazie, l'esame orale è finito. Arrivederci e buona giornata!",
+  "Molto bene, abbiamo finito. Grazie e arrivederci!"
+ ],
+ "tasks": [
+  {
+   "kind": "presentation",
+   "title": "Presentazione personale",
+   "examiner": [
+    "Per cominciare, si presenti. Mi parli di lei: della sua famiglia, del suo lavoro o dei suoi studi, dei suoi interessi."
+   ],
+   "material": "Parli di sé per circa un minuto: chi è, che cosa fa, che cosa le piace e perché studia l'italiano.",
+   "cues": [
+    "nome e provenienza",
+    "lavoro o studi",
+    "interessi e tempo libero",
+    "perché studia l'italiano"
+   ],
+   "followUps": [
+    "Qual è il suo piatto italiano preferito? Lo sa cucinare?",
+    "Come immagina il suo futuro tra cinque anni?"
+   ],
+   "modelAnswer": "Mi chiamo Marco e vengo da Manchester, ma da cinque anni vivo a Londra con mia moglie. Lavoro come ingegnere in un'azienda che costruisce sistemi di energia solare. Nel tempo libero mi piace camminare in montagna e cucinare, soprattutto la pasta fresca. Studio italiano perché mi sono innamorato dell'Italia durante le vacanze e perché vorrei poter parlare con la famiglia di mia moglie senza traduzioni.",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  },
+  {
+   "kind": "photo",
+   "title": "Descrivi la foto",
+   "examiner": [
+    "Guardi la foto: la descriva e poi mi dica che cosa pensa dello studio in gruppo."
+   ],
+   "material": "FOTO: Un gruppo di studenti seduti intorno a un grande tavolo in una biblioteca. Hanno libri, appunti e portatili. Una ragazza spiega qualcosa alla lavagna portatile, un ragazzo prende appunti e un altro beve un caffè. C'è un po' di disordine, ma tutti sembrano concentrati.",
+   "cues": [
+    "luogo",
+    "persone e attività",
+    "atmosfera",
+    "pro e contro dello studio in gruppo",
+    "esperienza personale"
+   ],
+   "followUps": [
+    "Preferisce studiare da solo o in gruppo? Perché?",
+    "Che consiglio darebbe a chi non riesce a concentrarsi?"
+   ],
+   "modelAnswer": "Nella foto vedo un gruppo di studenti che studiano insieme in una biblioteca. Hanno libri, appunti e computer sul tavolo. Una ragazza spiega qualcosa agli altri, un ragazzo scrive e un altro beve un caffè. Sembrano concentrati, anche se c'è un po' di disordine. Lo studio in gruppo è utile perché ci si aiuta, ma bisogna evitare le distrazioni. Io preferisco studiare da solo e poi ripassare con gli altri.",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  },
+  {
+   "kind": "text",
+   "title": "Riassumi il testo",
+   "examiner": [
+    "Legga il testo e lo riassuma con parole sue; poi mi dica che cosa ne pensa."
+   ],
+   "material": "TESTO: «In Italia cresce il numero di persone che sceglie di vivere in piccoli borghi, lontano dalle grandi città. Il costo della vita più basso, la qualità dell'aria e il contatto con la natura sono i motivi principali. Il rovescio della medaglia sono i servizi: poche scuole, pochi medici, collegamenti difficili. Per questo i comuni offrono incentivi a chi decide di trasferirsi.»",
+   "cues": [
+    "di che cosa parla",
+    "i motivi",
+    "i problemi",
+    "gli incentivi",
+    "la sua opinione"
+   ],
+   "followUps": [
+    "Lei vivrebbe in un piccolo paese? Perché sì o perché no?",
+    "Quali servizi sono indispensabili, secondo lei?"
+   ],
+   "modelAnswer": "Il testo racconta che molti italiani scelgono di vivere nei piccoli borghi. I motivi sono il costo della vita più basso, l'aria pulita e la natura. Ci sono però problemi, perché mancano scuole, medici e collegamenti. Per questo i comuni offrono incentivi. Io penso che sia una scelta affascinante, ma servono servizi di base e una buona connessione internet.",
+   "minSeconds": 90,
+   "maxSeconds": 150
+  },
+  {
+   "kind": "roleplay",
+   "title": "Compito comunicativo",
+   "examiner": [
+    "Facciamo un gioco di ruolo. Io sono il direttore di un corso di cucina e lei vuole iscriversi. Cominci lei."
+   ],
+   "material": "SITUAZIONE: Telefona a una scuola di cucina. Chieda informazioni sul corso di pasta fresca: durata, giorni, prezzo, se bisogna portare qualcosa e se è adatto ai principianti.",
+   "cues": [
+    "saluto e motivo",
+    "durata e orari",
+    "prezzo",
+    "materiali",
+    "livello richiesto"
+   ],
+   "followUps": [
+    "Preferisce il corso serale o quello del sabato?",
+    "Ha intolleranze alimentari?"
+   ],
+   "modelAnswer": "Buonasera, vorrei informazioni sul corso di pasta fresca. Quanto dura e in quali giorni si tiene? Qual è il prezzo e che cosa devo portare? Sono un principiante: è adatto anche a me? Preferirei il corso serale perché lavoro tutto il giorno. Posso iscrivermi anche per telefono? La ringrazio molto!",
+   "minSeconds": 60,
+   "maxSeconds": 120
+  }
+ ]
+}

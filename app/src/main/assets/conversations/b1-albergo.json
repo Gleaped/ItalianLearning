@@ -1,0 +1,451 @@
+{
+ "id": "b1-albergo",
+ "title": "Prenotare una camera",
+ "level": "B1",
+ "setting": "You phone a small hotel to book a room.",
+ "goal": "Book a room for the nights you want, ask about breakfast and give your name.",
+ "partner": "la receptionist",
+ "minutes": 7,
+ "slots": {
+  "room": [
+   "una camera singola",
+   "una camera doppia",
+   "una camera matrimoniale"
+  ],
+  "nights": [
+   "una notte",
+   "due notti",
+   "tre notti",
+   "quattro notti",
+   "cinque notti"
+  ]
+ },
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Hotel Belvedere, buongiorno! Come posso aiutarla?",
+    "Pronto, Hotel Belvedere. Mi dica!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "camera",
+      "stanza",
+      "prenotare",
+      "prenotazione",
+      "vorrei",
+      "posto"
+     ],
+     "next": "type",
+     "reply": [
+      "Certo, la aiuto volentieri."
+     ]
+    },
+    {
+     "match": [
+      "pronto",
+      "buongiorno",
+      "salve"
+     ],
+     "next": "what",
+     "reply": [
+      "Buongiorno!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Pronto? Mi sente?"
+   ],
+   "hint": "Say you want to book a room: Vorrei prenotare una camera.",
+   "model": "Buongiorno, vorrei prenotare una camera.",
+   "otherwise": "type"
+  },
+  {
+   "id": "what",
+   "say": [
+    "In cosa posso esserle utile?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "camera",
+      "stanza",
+      "prenotare",
+      "prenotazione",
+      "vorrei",
+      "posto"
+     ],
+     "next": "type"
+    }
+   ],
+   "reprompt": [
+    "Come posso aiutarla?"
+   ],
+   "hint": "Say you want a room.",
+   "model": "Vorrei prenotare una camera.",
+   "otherwise": "type"
+  },
+  {
+   "id": "type",
+   "say": [
+    "Preferisce una camera singola o una doppia?",
+    "Singola, doppia o matrimoniale?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "singola"
+     ],
+     "next": "nights",
+     "reply": [
+      "Una singola, va bene."
+     ],
+     "capture": "room"
+    },
+    {
+     "match": [
+      "doppia"
+     ],
+     "next": "nights",
+     "reply": [
+      "Una doppia, va bene."
+     ],
+     "capture": "room"
+    },
+    {
+     "match": [
+      "matrimoniale"
+     ],
+     "next": "nights",
+     "reply": [
+      "Una matrimoniale, va bene."
+     ],
+     "capture": "room"
+    }
+   ],
+   "reprompt": [
+    "Singola o doppia?"
+   ],
+   "hint": "Choose: singola, doppia or matrimoniale.",
+   "model": "Una camera doppia, per favore.",
+   "otherwise": "nights"
+  },
+  {
+   "id": "nights",
+   "say": [
+    "Per quante notti? E da quale giorno?",
+    "Quando arriva e quante notti si ferma?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "una",
+      "due",
+      "tre",
+      "quattro",
+      "cinque",
+      "sei",
+      "sette",
+      "notte",
+      "notti",
+      "giorni",
+      "settimana"
+     ],
+     "next": "price",
+     "reply": [
+      "Va bene, controllo la disponibilità… sì, è libera."
+     ],
+     "capture": "nights"
+    },
+    {
+     "match": [
+      "venerdì",
+      "sabato",
+      "domenica",
+      "lunedì",
+      "martedì",
+      "mercoledì",
+      "giovedì",
+      "domani",
+      "luglio",
+      "agosto",
+      "settembre"
+     ],
+     "next": "nights2",
+     "reply": [
+      "Perfetto."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Per quante notti?"
+   ],
+   "hint": "Say how many nights: Per tre notti.",
+   "model": "Per tre notti, da venerdì.",
+   "otherwise": "price"
+  },
+  {
+   "id": "nights2",
+   "say": [
+    "E quante notti si ferma?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "una",
+      "due",
+      "tre",
+      "quattro",
+      "cinque",
+      "sei",
+      "sette",
+      "notte",
+      "notti",
+      "giorni",
+      "settimana"
+     ],
+     "next": "price",
+     "reply": [
+      "Va bene, è libera."
+     ],
+     "capture": "nights"
+    }
+   ],
+   "reprompt": [
+    "Quante notti?"
+   ],
+   "hint": "Say how many nights.",
+   "model": "Per tre notti.",
+   "otherwise": "price"
+  },
+  {
+   "id": "price",
+   "say": [
+    "{room|La camera} costa novanta euro a notte, colazione inclusa. Va bene?",
+    "Il prezzo è novanta euro a notte con la colazione. Le va bene {room|la camera}?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "va bene",
+      "perfetto",
+      "d'accordo",
+      "ottimo",
+      "prendo",
+      "benissimo"
+     ],
+     "next": "name"
+    },
+    {
+     "match": [
+      "colazione",
+      "orario",
+      "ora",
+      "quando",
+      "a che ora"
+     ],
+     "next": "breakfast",
+     "reply": [
+      "Certo!"
+     ]
+    },
+    {
+     "match": [
+      "troppo",
+      "caro",
+      "sconto",
+      "meno"
+     ],
+     "next": "discount",
+     "reply": [
+      "Capisco."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Il prezzo va bene?"
+   ],
+   "hint": "Accept or ask: Va bene. / A che ora è la colazione?",
+   "model": "Va bene. A che ora è la colazione?",
+   "otherwise": "breakfast"
+  },
+  {
+   "id": "breakfast",
+   "say": [
+    "La colazione è dalle sette alle dieci, in sala da pranzo. Va bene?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "va bene",
+      "perfetto",
+      "d'accordo",
+      "ottimo",
+      "benissimo",
+      "grazie"
+     ],
+     "next": "name"
+    }
+   ],
+   "reprompt": [
+    "Dalle sette alle dieci."
+   ],
+   "hint": "Say it is fine.",
+   "model": "Perfetto, grazie.",
+   "otherwise": "name"
+  },
+  {
+   "id": "discount",
+   "say": [
+    "Per tre notti posso farle il dieci per cento di sconto. Che ne dice?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "va bene",
+      "perfetto",
+      "d'accordo",
+      "ottimo",
+      "benissimo",
+      "grazie"
+     ],
+     "next": "name",
+     "reply": [
+      "Allora è fatta!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Va bene con lo sconto?"
+   ],
+   "hint": "Accept the discount.",
+   "model": "Sì, va benissimo, grazie.",
+   "otherwise": "name"
+  },
+  {
+   "id": "name",
+   "say": [
+    "Mi dice il suo nome e cognome, per favore? Poi le mando la conferma.",
+    "A che nome faccio la prenotazione?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "mi chiamo",
+      "nome",
+      "cognome",
+      "sono",
+      "a nome"
+     ],
+     "next": "confirm",
+     "reply": [
+      "Grazie, ho scritto tutto."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Come si chiama, per favore?"
+   ],
+   "hint": "Give your name: Mi chiamo… / A nome…",
+   "model": "Mi chiamo Richard Wolff.",
+   "otherwise": "confirm"
+  },
+  {
+   "id": "confirm",
+   "say": [
+    "La prenotazione è confermata: {room|una camera} per {nights|le notti richieste}. La aspettiamo! Ha altre domande?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "no",
+      "niente",
+      "nessuna",
+      "grazie",
+      "tutto",
+      "a posto"
+     ],
+     "next": "bye"
+    },
+    {
+     "match": [
+      "parcheggio",
+      "wifi",
+      "colazione",
+      "animali",
+      "cena"
+     ],
+     "next": "bye",
+     "reply": [
+      "Sì, c'è, senza problemi."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Ha altre domande?"
+   ],
+   "hint": "Say no more questions: No, grazie, è tutto.",
+   "model": "No, grazie, è tutto chiaro.",
+   "otherwise": "bye"
+  },
+  {
+   "id": "bye",
+   "say": [
+    "Allora a presto, buona giornata!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "arrivederci",
+      "buongiorno",
+      "buona",
+      "ciao",
+      "presto"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Arrivederci!"
+   ],
+   "hint": "Say goodbye.",
+   "model": "Grazie mille, arrivederci!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Arrivederci!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Vorrei prenotare una camera.",
+   "en": "I'd like to book a room."
+  },
+  {
+   "it": "Per quante notti?",
+   "en": "For how many nights?"
+  },
+  {
+   "it": "La colazione è inclusa?",
+   "en": "Is breakfast included?"
+  },
+  {
+   "it": "A che nome?",
+   "en": "Under what name?"
+  }
+ ]
+}

@@ -18,9 +18,10 @@ enum class Skill(val italian: String, val english: String) {
         /** The skill an exercise type practises; null for unscored types. */
         fun of(type: String): Skill? = when (type) {
             ExerciseTypes.READING -> READING
-            ExerciseTypes.LISTEN_TRANSCRIBE, ExerciseTypes.LISTEN_CHOOSE -> LISTENING
+            ExerciseTypes.LISTEN_TRANSCRIBE, ExerciseTypes.LISTEN_CHOOSE, ExerciseTypes.LISTEN_ORDER, ExerciseTypes.GAP_LISTEN -> LISTENING
             ExerciseTypes.FREE_WRITE -> WRITING
-            ExerciseTypes.SPEAK_REPEAT, ExerciseTypes.SPEAK_RESPOND, ExerciseTypes.ROLEPLAY -> SPEAKING
+            ExerciseTypes.SPEAK_REPEAT, ExerciseTypes.SPEAK_RESPOND, ExerciseTypes.ROLEPLAY,
+            ExerciseTypes.SHADOW, ExerciseTypes.MINIMAL_PAIR_SAY -> SPEAKING
             ExerciseTypes.GRAMMAR_NOTE, ExerciseTypes.FLASHCARD -> null
             else -> GRAMMAR
         }

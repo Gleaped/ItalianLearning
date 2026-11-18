@@ -1,0 +1,349 @@
+{
+ "id": "b1-medico",
+ "title": "Dal medico",
+ "level": "B1",
+ "setting": "You are not well and visit a doctor.",
+ "goal": "Describe your symptoms, answer questions and understand the advice.",
+ "partner": "il dottore",
+ "minutes": 7,
+ "slots": {
+  "symptom": [
+   "mal di testa",
+   "mal di gola",
+   "la febbre",
+   "la tosse"
+  ]
+ },
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Buongiorno, si accomodi. Come sta? Che cosa la porta qui?",
+    "Buongiorno! Mi dica, qual è il problema?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "mal di testa",
+      "testa"
+     ],
+     "next": "since",
+     "reply": [
+      "Capisco, la testa fa male."
+     ],
+     "capture": "symptom"
+    },
+    {
+     "match": [
+      "mal di gola",
+      "gola"
+     ],
+     "next": "since",
+     "reply": [
+      "Capisco, la gola fa male."
+     ],
+     "capture": "symptom"
+    },
+    {
+     "match": [
+      "febbre"
+     ],
+     "next": "since",
+     "reply": [
+      "Ha la febbre, quindi."
+     ],
+     "capture": "symptom"
+    },
+    {
+     "match": [
+      "tosse",
+      "raffreddore"
+     ],
+     "next": "since",
+     "reply": [
+      "Capisco, tosse e raffreddore."
+     ],
+     "capture": "symptom"
+    },
+    {
+     "match": [
+      "male",
+      "dolore",
+      "sto",
+      "sento",
+      "ho"
+     ],
+     "next": "vague"
+    }
+   ],
+   "reprompt": [
+    "Mi scusi, non ho capito. Che cosa ha?"
+   ],
+   "hint": "Describe a symptom: Ho mal di testa / mal di gola / la febbre / la tosse.",
+   "model": "Ho mal di gola e un po' di febbre.",
+   "otherwise": "since"
+  },
+  {
+   "id": "vague",
+   "say": [
+    "Dove sente il dolore? Mi può spiegare meglio?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "testa",
+      "gola",
+      "pancia",
+      "stomaco",
+      "schiena",
+      "febbre",
+      "tosse"
+     ],
+     "next": "since",
+     "reply": [
+      "Capisco."
+     ],
+     "capture": "symptom"
+    }
+   ],
+   "reprompt": [
+    "Mi dica dove sente il dolore."
+   ],
+   "hint": "Say where it hurts.",
+   "model": "Ho mal di testa.",
+   "otherwise": "since"
+  },
+  {
+   "id": "since",
+   "say": [
+    "Da quanto tempo ha {symptom|questo disturbo}?",
+    "Da quando ha questi sintomi?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "giorni",
+      "giorno",
+      "settimana",
+      "ieri",
+      "stamattina",
+      "stanotte",
+      "ore",
+      "oggi",
+      "da"
+     ],
+     "next": "other",
+     "reply": [
+      "Capisco, da poco quindi."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Da quanto tempo?"
+   ],
+   "hint": "Say how long: Da due giorni / Da ieri.",
+   "model": "Da due giorni, dottore.",
+   "otherwise": "other"
+  },
+  {
+   "id": "other",
+   "say": [
+    "Ha altri sintomi? Ha preso qualche medicina?",
+    "Ha anche altri problemi? Sta prendendo dei farmaci?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "no",
+      "niente",
+      "nessuno",
+      "non",
+      "nessuna"
+     ],
+     "next": "advice",
+     "reply": [
+      "Bene, allora la visito."
+     ]
+    },
+    {
+     "match": [
+      "sì",
+      "si",
+      "ho",
+      "tachipirina",
+      "antibiotico",
+      "medicina",
+      "pastiglia",
+      "stanco",
+      "stanchezza",
+      "dolore"
+     ],
+     "next": "advice",
+     "reply": [
+      "Va bene, ne tengo conto."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Altri sintomi? Medicine?"
+   ],
+   "hint": "Answer: No, niente. / Ho preso una tachipirina.",
+   "model": "No, non ho altri sintomi e non ho preso niente.",
+   "otherwise": "advice"
+  },
+  {
+   "id": "advice",
+   "say": [
+    "La visito… Non è niente di grave. Deve riposare, bere molta acqua e prendere questa medicina due volte al giorno dopo mangiato. Se non va meglio, torni tra tre giorni.",
+    "Non è niente di preoccupante. Le consiglio di restare a casa, riposare e prendere queste compresse. Se la febbre non scende, mi richiami."
+   ],
+   "expect": [
+    {
+     "match": [
+      "quante",
+      "quando",
+      "come",
+      "volte",
+      "giorno"
+     ],
+     "next": "dose",
+     "reply": [
+      "Due volte al giorno, dopo i pasti."
+     ]
+    },
+    {
+     "match": [
+      "grazie",
+      "capito",
+      "riposare",
+      "va bene",
+      "ok",
+      "d'accordo"
+     ],
+     "next": "done"
+    },
+    {
+     "match": [
+      "lavorare",
+      "lavoro",
+      "posso",
+      "tornare",
+      "uscire"
+     ],
+     "next": "work",
+     "reply": [
+      "Meglio di no, per due giorni."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Ha capito? Riposo e medicina."
+   ],
+   "hint": "Confirm you understood: Ho capito, riposo e prendo la medicina.",
+   "model": "Ho capito, grazie, dottore. Devo riposare e prendere la medicina.",
+   "otherwise": "done"
+  },
+  {
+   "id": "dose",
+   "say": [
+    "Due volte al giorno, mattina e sera, dopo aver mangiato."
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "capito",
+      "va bene",
+      "ok",
+      "d'accordo",
+      "chiaro"
+     ],
+     "next": "done"
+    }
+   ],
+   "reprompt": [
+    "Capito?"
+   ],
+   "hint": "Say you understood.",
+   "model": "Capito, grazie mille.",
+   "otherwise": "done"
+  },
+  {
+   "id": "work",
+   "say": [
+    "Le faccio un certificato per due giorni, così può restare a casa."
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "certificato",
+      "va bene",
+      "ok",
+      "d'accordo",
+      "capito"
+     ],
+     "next": "done"
+    }
+   ],
+   "reprompt": [
+    "Va bene?"
+   ],
+   "hint": "Thank the doctor.",
+   "model": "Grazie, dottore, è molto gentile.",
+   "otherwise": "done"
+  },
+  {
+   "id": "done",
+   "say": [
+    "Bene. Si riguardi e arrivederci!",
+    "Allora a presto, e guarisca presto!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "arrivederci",
+      "buongiorno",
+      "buona",
+      "ciao"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Arrivederci!"
+   ],
+   "hint": "Say goodbye.",
+   "model": "Grazie ancora, arrivederci!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Stia bene!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Ho mal di testa.",
+   "en": "I have a headache."
+  },
+  {
+   "it": "Da quanto tempo?",
+   "en": "For how long?"
+  },
+  {
+   "it": "Mi sento molto stanco.",
+   "en": "I feel very tired."
+  },
+  {
+   "it": "Devo prendere questa medicina?",
+   "en": "Do I have to take this medicine?"
+  }
+ ]
+}

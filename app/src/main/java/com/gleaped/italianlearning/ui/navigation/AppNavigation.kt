@@ -10,6 +10,8 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import com.gleaped.italianlearning.ui.progress.ProgressScreen
 import com.gleaped.italianlearning.ui.exam.PapersScreen
 import com.gleaped.italianlearning.ui.oral.OralScreen
+import com.gleaped.italianlearning.ui.conversation.ConversationScreen
+import com.gleaped.italianlearning.ui.oral.OralExamScreen
 import com.gleaped.italianlearning.ui.practice.VerbDrillScreen
 import com.gleaped.italianlearning.ui.progress.WritingScreen
 import android.net.Uri
@@ -71,6 +73,8 @@ object Routes {
     const val GRAMMAR_TOPIC = "grammar/topic/{topicId}"
     const val LOOKUP = "lookup"
     const val ORAL = "oral"
+    const val CONVERSATION = "conversation"
+    const val ORAL_EXAM = "oral-exam"
     const val PAPERS = "papers"
     const val VERBS = "verbs"
     const val WORD = "word/{lemmaId}"
@@ -183,6 +187,8 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                         onMix = { nav.navigate(Routes.lesson(Practice.UNIT_ID, Practice.MIX_LESSON_ID)) },
                         onExamSettings = { nav.navigateTopLevel(Routes.SETTINGS) },
                         onOral = { nav.navigate(Routes.ORAL) { launchSingleTop = true } },
+                        onConversation = { nav.navigate(Routes.CONVERSATION) { launchSingleTop = true } },
+                        onOralExam = { nav.navigate(Routes.ORAL_EXAM) { launchSingleTop = true } },
                         onVerbs = { nav.navigate(Routes.VERBS) { launchSingleTop = true } },
                     )
                 }
@@ -206,6 +212,12 @@ fun AppNavigation(deepLink: PendingDeepLink?, onDeepLinkHandled: (PendingDeepLin
                 }
                 composable(Routes.ORAL) {
                     OralScreen(onBack = { nav.popBackStack() })
+                }
+                composable(Routes.CONVERSATION) {
+                    ConversationScreen(onBack = { nav.popBackStack() })
+                }
+                composable(Routes.ORAL_EXAM) {
+                    OralExamScreen(onBack = { nav.popBackStack() })
                 }
                 composable(Routes.COURSE) {
                     CourseMapScreen(

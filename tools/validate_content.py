@@ -20,6 +20,7 @@ KNOWN_TYPES = {
     "translate", "match_pairs", "error_correction", "listen_transcribe", "listen_choose", "reading",
     "speak_repeat", "speak_respond", "roleplay", "free_write",
     "choose_mood", "find_trigger", "transform", "sort_buckets", "minimal_pair",
+    "shadow", "minimal_pair_say", "listen_order", "gap_listen",
 }
 UNSCORED = {"grammar_note"}
 QUICK_TYPES = {"multiple_choice", "gap_fill", "translate", "error_correction", "conjugation",
@@ -47,6 +48,10 @@ REQUIRED = {
     "transform": ["source", "cue", "answers"],
     "sort_buckets": ["buckets", "items"],
     "minimal_pair": ["sentences", "question", "answer"],
+    "shadow": ["text"],
+    "minimal_pair_say": ["words", "target"],
+    "listen_order": ["sentences"],
+    "gap_listen": ["audioText", "text", "answers"],
 }
 
 TOKEN_EDGE = re.compile(r"^[^\w']+|[^\w']+$", re.UNICODE)
@@ -137,6 +142,18 @@ def check_exercise(e, where, r: Report, strict: bool, quick_only=False):
         tr = e.get("translations")
         if tr is not None and len(tr) != len(e.get("sentences", [])):
             r.error(where, "translations must match sentences in length")
+    if t == "minimal_pair_say":
+        w = e.get("words", [])
+        if len(w) != 2 or w[0] == w[1]:
+            r.error(where, "minimal_pair_say needs two different words")
+        if not (isinstance(e.get("target"), int) and 0 <= e["target"] < len(w)):
+            r.error(where, "minimal_pair_say target out of range")
+    if t == "listen_order" and len(e.get("sentences", [])) < 3:
+        r.error(where, "listen_order needs at least 3 sentences")
+    if t == "gap_listen":
+        blanks = e.get("text", "").count("___")
+        if blanks == 0 or blanks != len(e.get("answers", [])):
+            r.error(where, f"gap_listen has {blanks} blanks for {len(e.get('answers', []))} answers")
     if t == "reading":
         for i, q in enumerate(e.get("questions", [])):
             if not (isinstance(q.get("answer"), int) and 0 <= q["answer"] < len(q.get("options", []))):
@@ -166,7 +183,7 @@ def check_exercise(e, where, r: Report, strict: bool, quick_only=False):
             n = words_outside_tables(e.get("body", ""))
             if n > 60:
                 r.error(where, f"rule card has {n} words outside tables (max 60)")
-        elif not quick_only and not (e.get("explanation") or "").strip() and t not in ("flashcard", "speak_repeat", "roleplay", "free_write", "reading", "speak_respond"):
+        elif not quick_only and not (e.get("explanation") or "").strip() and t not in ("flashcard", "speak_repeat", "roleplay", "free_write", "reading", "speak_respond", "shadow"):
             r.error(where, f"{t} has no explanation")
         if not quick_only and stage is None:
             r.warn(where, "no stage")

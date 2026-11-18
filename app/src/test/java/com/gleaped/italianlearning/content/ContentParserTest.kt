@@ -46,6 +46,7 @@ class ContentParserTest {
                 "Translate", "MatchPairs", "ErrorCorrection", "ListenTranscribe", "ListenChoose", "Reading",
                 "SpeakRepeat", "SpeakRespond", "Roleplay", "FreeWrite",
                 "ChooseMood", "FindTrigger", "Transform", "SortBuckets", "MinimalPair",
+                "Shadow", "MinimalPairSay", "ListenOrder", "GapListen",
             ),
             typeNames,
         )

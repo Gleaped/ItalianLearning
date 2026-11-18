@@ -261,6 +261,43 @@
         {
           "type": "multiple_choice",
           "prompt": "Missing options and answer"
+        },
+        {
+          "type": "shadow",
+          "id": "shadow1",
+          "text": "Vorrei un caffè, per favore.",
+          "translation": "I would like a coffee, please."
+        },
+        {
+          "type": "minimal_pair_say",
+          "id": "mps1",
+          "words": [
+            "pala",
+            "palla"
+          ],
+          "target": 0,
+          "translations": [
+            "shovel",
+            "ball"
+          ]
+        },
+        {
+          "type": "listen_order",
+          "id": "lo1",
+          "sentences": [
+            "Buongiorno!",
+            "Un caffè, per favore.",
+            "Ecco a lei."
+          ]
+        },
+        {
+          "type": "gap_listen",
+          "id": "gl1",
+          "audioText": "Mi chiamo Anna.",
+          "text": "Mi ___ Anna.",
+          "answers": [
+            "chiamo"
+          ]
         }
       ],
       "goal": "You can order a coffee.",

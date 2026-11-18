@@ -636,6 +636,51 @@
       "summary": "Word formation for part C.3: nouns, adjectives, adverbs and opposites from a base word, with prefixes and suffixes.",
       "available": true,
       "module": "celi-m1"
+    },
+    {
+      "id": "sp-a1",
+      "level": "A1",
+      "order": 11,
+      "title": "Suoni e parole parlate",
+      "summary": "Hear and say the sounds that learners mix up, and follow short spoken exchanges.",
+      "available": true,
+      "module": "a1-m3"
+    },
+    {
+      "id": "sp-a2",
+      "level": "A2",
+      "order": 11,
+      "title": "Ascoltare e raccontare",
+      "summary": "Follow directions and short stories by ear, and tell what you did.",
+      "available": true,
+      "module": "a2-m3"
+    },
+    {
+      "id": "sp-b1",
+      "level": "B1",
+      "order": 16,
+      "title": "Ritmo, ascolto e conversazione",
+      "summary": "Shadow longer sentences, follow a spoken story and react to what you hear.",
+      "available": true,
+      "module": "b1-m4"
+    },
+    {
+      "id": "sp-b2",
+      "level": "B2",
+      "order": 12,
+      "title": "Ascolto veloce e opinioni",
+      "summary": "Follow natural-speed speech, rebuild an argument and say your opinion fluently.",
+      "available": true,
+      "module": "b2-m4"
+    },
+    {
+      "id": "sp-c1",
+      "level": "C1",
+      "order": 11,
+      "title": "Registro e sfumature parlate",
+      "summary": "Hear register and nuance, and speak with precision and fluency.",
+      "available": true,
+      "module": "c1-m3"
     }
   ],
   "modules": [

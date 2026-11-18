@@ -16,6 +16,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.FilledIconButton
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.TextButton
+import androidx.compose.ui.text.font.FontStyle
+import android.provider.Settings
 import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -55,6 +59,9 @@ fun SpeechCapture(
     val currentOnUnavailable by rememberUpdatedState(onUnavailable)
     var listening by remember { mutableStateOf(false) }
     var status by remember { mutableStateOf<String?>(null) }
+    var partial by remember { mutableStateOf("") }
+    var level by remember { mutableStateOf(0f) }
+    var offerOfflinePack by remember { mutableStateOf(false) }
     var recognizer by remember { mutableStateOf<SpeechRecognizer?>(null) }
 
     DisposableEffect(Unit) {
@@ -76,7 +83,10 @@ fun SpeechCapture(
                 }
 
                 override fun onBeginningOfSpeech() = Unit
-                override fun onRmsChanged(rmsdB: Float) = Unit
+                override fun onRmsChanged(rmsdB: Float) {
+                    // About -2 dB is silence and 10 dB is loud speech; the bar only shows that the mic hears something.
+                    level = ((rmsdB + 2f) / 12f).coerceIn(0f, 1f)
+                }
                 override fun onBufferReceived(buffer: ByteArray?) = Unit
                 override fun onEndOfSpeech() {
                     status = "Un attimo…"
@@ -84,15 +94,20 @@ fun SpeechCapture(
 
                 override fun onError(error: Int) {
                     listening = false
+                    level = 0f
                     when (error) {
                         SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS ->
                             currentOnUnavailable(SpeechUnavailable.PERMISSION_DENIED)
                         ERROR_LANGUAGE_NOT_SUPPORTED, ERROR_LANGUAGE_UNAVAILABLE -> {
                             status = "Italian speech recognition isn't installed on this device."
+                            offerOfflinePack = true
                             currentOnUnavailable(SpeechUnavailable.LANGUAGE_UNAVAILABLE)
                         }
                         SpeechRecognizer.ERROR_NETWORK, SpeechRecognizer.ERROR_NETWORK_TIMEOUT, SpeechRecognizer.ERROR_SERVER ->
+                        {
                             status = "Speech recognition isn't available offline. Try typing instead."
+                            offerOfflinePack = true
+                        }
                         SpeechRecognizer.ERROR_NO_MATCH, SpeechRecognizer.ERROR_SPEECH_TIMEOUT ->
                             status = "Didn't catch that. Tap the mic and try again."
                         else -> status = "Something went wrong. Try again or type instead."
@@ -101,6 +116,8 @@ fun SpeechCapture(
 
                 override fun onResults(results: Bundle?) {
                     listening = false
+                    level = 0f
+                    partial = ""
                     val list = results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION).orEmpty()
                     if (list.isEmpty()) {
                         status = "Didn't catch that. Tap the mic and try again."
@@ -110,7 +127,11 @@ fun SpeechCapture(
                     }
                 }
 
-                override fun onPartialResults(partialResults: Bundle?) = Unit
+                override fun onPartialResults(partialResults: Bundle?) {
+                    // The words appear as they are recognised, so the learner sees at once that the phone hears them.
+                    partial = partialResults?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)?.firstOrNull().orEmpty()
+                }
+
                 override fun onEvent(eventType: Int, params: Bundle?) = Unit
             })
             recognizer = created
@@ -120,12 +141,15 @@ fun SpeechCapture(
             putExtra(RecognizerIntent.EXTRA_LANGUAGE, "it-IT")
             putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "it-IT")
             putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 5)
+            putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
             putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, true)
             putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, context.packageName)
         }
         // The microphone must not pick up the app's own voice.
         tts.stop()
         listening = true
+        partial = ""
+        offerOfflinePack = false
         status = "Ascolto…"
         r.startListening(intent)
     }
@@ -168,6 +192,25 @@ fun SpeechCapture(
             style = MaterialTheme.typography.bodyMedium,
             textAlign = TextAlign.Center,
         )
+        if (listening) {
+            LinearProgressIndicator(progress = { level }, modifier = Modifier.fillMaxWidth(0.5f))
+            if (partial.isNotBlank()) {
+                Text(
+                    text = "“$partial”",
+                    style = MaterialTheme.typography.bodyLarge,
+                    fontStyle = FontStyle.Italic,
+                    textAlign = TextAlign.Center,
+                )
+            }
+        }
+        if (offerOfflinePack && !listening) {
+            TextButton(onClick = {
+                // Opens the phone's voice input settings, where the Italian offline pack can be added.
+                runCatching {
+                    context.startActivity(Intent(Settings.ACTION_VOICE_INPUT_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+                }
+            }) { Text("Get Italian offline speech") }
+        }
     }
 }
 

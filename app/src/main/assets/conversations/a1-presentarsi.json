@@ -1,0 +1,158 @@
+{
+ "id": "a1-presentarsi",
+ "title": "Ci presentiamo",
+ "level": "A1",
+ "setting": "You meet a new neighbour at a party.",
+ "goal": "Say your name, where you are from and what you do.",
+ "partner": "Marco",
+ "minutes": 4,
+ "start": "hello",
+ "states": [
+  {
+   "id": "hello",
+   "say": [
+    "Ciao! Io sono Marco. E tu, come ti chiami?",
+    "Piacere, mi chiamo Marco. Come ti chiami?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "mi chiamo",
+      "sono",
+      "piacere",
+      "chiamo"
+     ],
+     "next": "where",
+     "reply": [
+      "Piacere di conoscerti!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Scusa, come ti chiami?",
+    "Come? Il tuo nome?"
+   ],
+   "hint": "Say your name: Mi chiamo…",
+   "model": "Mi chiamo Anna, piacere!",
+   "otherwise": "where"
+  },
+  {
+   "id": "where",
+   "say": [
+    "Di dove sei?",
+    "Sei italiano? Di dove sei?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sono di",
+      "vengo da",
+      "sono",
+      "vengo"
+     ],
+     "next": "job",
+     "reply": [
+      "Che bello!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Di dove sei? Di che città?"
+   ],
+   "hint": "Say where you are from: Sono di… / Vengo da…",
+   "model": "Sono di Londra, e tu?",
+   "otherwise": "job"
+  },
+  {
+   "id": "job",
+   "say": [
+    "E che lavoro fai?",
+    "Cosa fai nella vita? Lavori o studi?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "lavoro",
+      "sono",
+      "studio",
+      "faccio",
+      "medico",
+      "insegnante",
+      "studente",
+      "impiegato"
+     ],
+     "next": "nice",
+     "reply": [
+      "Interessante!"
+     ]
+    }
+   ],
+   "reprompt": [
+    "Che lavoro fai?"
+   ],
+   "hint": "Say what you do: Sono… / Studio… / Lavoro in…",
+   "model": "Sono insegnante.",
+   "otherwise": "nice"
+  },
+  {
+   "id": "nice",
+   "say": [
+    "Mi fa piacere averti conosciuto! Parli molto bene italiano.",
+    "È stato un piacere! Ci vediamo presto?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "sì",
+      "si",
+      "certo",
+      "volentieri",
+      "va bene",
+      "d'accordo",
+      "perfetto",
+      "okay",
+      "piacere",
+      "anche",
+      "grazie",
+      "presto",
+      "ciao",
+      "arrivederci"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Ci vediamo presto?"
+   ],
+   "hint": "Say it was nice to meet them: Piacere mio! / Grazie, a presto!",
+   "model": "Grazie, anche per me è stato un piacere!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Ciao, a presto!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Mi chiamo…",
+   "en": "My name is…"
+  },
+  {
+   "it": "Sono di…",
+   "en": "I am from…"
+  },
+  {
+   "it": "Che lavoro fai?",
+   "en": "What do you do for work?"
+  },
+  {
+   "it": "Piacere di conoscerti.",
+   "en": "Nice to meet you."
+  }
+ ]
+}

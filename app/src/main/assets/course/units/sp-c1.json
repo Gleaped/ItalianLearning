@@ -1,0 +1,93 @@
+{
+  "id": "sp-c1",
+  "level": "C1",
+  "title": "Registro e sfumature parlate",
+  "format": 2,
+  "module": "c1-m3",
+  "objective": "By the end you can recognise formal and informal registers by ear and speak with precise connectives.",
+  "grammarFocus": "Formal and informal register, hedging, concession and connectives.",
+  "remedialUnitIds": [],
+  "lessons": [
+    {
+      "id": "sp-c1-l1",
+      "title": "Registro e cortesia",
+      "minutes": 9,
+      "goal": "You can hear and use the formal register in speech.",
+      "takeaway": "Formal speech softens requests: Le sarei grato se… / Potrebbe…",
+      "exercises": [
+        {
+          "type": "shadow",
+          "id": "sp-c1-l1-e01",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Le sarei grato se potesse farmi avere una risposta entro venerdì.",
+          "translation": "I would be grateful if you could get me an answer by Friday."
+        },
+        {
+          "type": "shadow",
+          "id": "sp-c1-l1-e02",
+          "stage": "warmup",
+          "instruction": "Ascolta e ripeti subito dopo, con lo stesso ritmo.",
+          "text": "Vorrei sottolineare che la decisione non è ancora definitiva.",
+          "translation": "I would like to stress that the decision is not yet final."
+        },
+        {
+          "type": "gap_listen",
+          "id": "sp-c1-l1-e03",
+          "stage": "practise",
+          "instruction": "Ascolta e scrivi le parole che mancano.",
+          "audioText": "Qualora lo ritenesse opportuno, potremmo fissare un incontro la settimana prossima.",
+          "text": "___ lo ritenesse opportuno, potremmo ___ un incontro la settimana prossima.",
+          "answers": [
+            "Qualora",
+            "fissare"
+          ],
+          "explanation": "Qualora + congiuntivo is a formal 'if'; fissare un incontro is to set a meeting."
+        },
+        {
+          "type": "listen_order",
+          "id": "sp-c1-l1-e04",
+          "stage": "practise",
+          "instruction": "Ascolto: rimetti in ordine.",
+          "sentences": [
+            "Egregio dottor Rossi, la contatto in merito alla sua proposta.",
+            "Abbiamo esaminato con attenzione il progetto.",
+            "Ci sono tuttavia alcuni aspetti che andrebbero chiariti.",
+            "Restiamo a disposizione per un colloquio e porgiamo distinti saluti."
+          ],
+          "question": "Ascolta le frasi e toccale nell'ordine giusto.",
+          "explanation": "A formal message: greeting and reason, review, reservation, close."
+        },
+        {
+          "type": "listen_choose",
+          "id": "sp-c1-l1-e05",
+          "stage": "practise",
+          "instruction": "Ascolta e scegli.",
+          "audioText": "Non è che io sia contrario, però vorrei riflettere ancora un po'.",
+          "question": "What is the speaker's attitude?",
+          "options": [
+            "Hesitant, not opposed",
+            "Firmly against",
+            "Enthusiastic"
+          ],
+          "answer": 0,
+          "explanation": "Non è che sia contrario softens a refusal: he is hesitant."
+        },
+        {
+          "type": "speak_respond",
+          "id": "sp-c1-l1-e06",
+          "stage": "use",
+          "instruction": "Rispondi a voce, con frasi complete.",
+          "prompt": "Spiega con tono formale a un cliente che la consegna sarà in ritardo e proponi una soluzione.",
+          "keywords": [
+            "purtroppo",
+            "potremmo"
+          ],
+          "modelAnswer": "Purtroppo la consegna subirà un ritardo di alcuni giorni. Potremmo offrirle uno sconto sul prossimo ordine come segno di scuse."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "grammarTips": []
+}

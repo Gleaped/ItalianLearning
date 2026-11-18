@@ -53,6 +53,8 @@ fun HomeScreen(
     onMix: () -> Unit = {},
     onExamSettings: () -> Unit = {},
     onOral: () -> Unit = {},
+    onConversation: () -> Unit = {},
+    onOralExam: () -> Unit = {},
     onVerbs: () -> Unit = {},
 ) {
     val container = LocalAppContainer.current
@@ -206,6 +208,8 @@ fun HomeScreen(
             }
         }
 
+        SpeakingCard(onConversation = onConversation, onOralExam = onOralExam, onOral = onOral)
+
         ExamCard(o, onProgress = onProgress, onSettings = onExamSettings, onOral = onOral)
 
         OutlinedButton(onClick = onProgress, modifier = Modifier.fillMaxWidth()) {
@@ -228,6 +232,26 @@ fun HomeScreen(
             }
         }
         Spacer(Modifier.height(16.dp))
+    }
+}
+
+/** Entry to the speaking practice: free conversation scenes and the exam oral rehearsal. */
+@Composable
+private fun SpeakingCard(onConversation: () -> Unit, onOralExam: () -> Unit, onOral: () -> Unit) {
+    OutlinedCard(Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("Parliamo!", style = MaterialTheme.typography.titleMedium)
+            Text(
+                "Talk with a partner who answers what you say, from your first day to the exam oral.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Button(onClick = onConversation) { Text("Conversazione") }
+                OutlinedButton(onClick = onOralExam) { Text("Esame orale") }
+            }
+            TextButton(onClick = onOral) { Text("Quick speaking rounds") }
+        }
     }
 }
 

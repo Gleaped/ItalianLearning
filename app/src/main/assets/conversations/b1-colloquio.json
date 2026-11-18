@@ -1,0 +1,254 @@
+{
+ "id": "b1-colloquio",
+ "title": "Colloquio di lavoro",
+ "level": "B1",
+ "setting": "You have a job interview at a small company in Milan.",
+ "goal": "Present yourself, talk about your experience and strengths, and ask a question.",
+ "partner": "la responsabile",
+ "minutes": 8,
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Buongiorno, si accomodi. Mi parli un po' di lei.",
+    "Buongiorno e grazie per essere venuto. Cominciamo: si presenti brevemente."
+   ],
+   "expect": [
+    {
+     "match": [
+      "mi chiamo",
+      "sono",
+      "ho",
+      "lavoro",
+      "studio",
+      "anni",
+      "laureato",
+      "laurea"
+     ],
+     "next": "experience",
+     "reply": [
+      "Molto bene, grazie."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Mi dica qualcosa su di lei."
+   ],
+   "hint": "Introduce yourself: Mi chiamo… Ho… anni… Sono…",
+   "model": "Mi chiamo Marco, ho trent'anni e sono ingegnere.",
+   "otherwise": "experience"
+  },
+  {
+   "id": "experience",
+   "say": [
+    "Che esperienze di lavoro ha avuto finora?",
+    "Ha già lavorato in questo settore? Dove?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "lavorato",
+      "lavoro",
+      "esperienza",
+      "anni",
+      "azienda",
+      "ufficio",
+      "negozio",
+      "ristorante",
+      "stage",
+      "tirocinio"
+     ],
+     "next": "strength",
+     "reply": [
+      "Interessante."
+     ]
+    },
+    {
+     "match": [
+      "no",
+      "prima",
+      "nessuna",
+      "mai"
+     ],
+     "next": "strength",
+     "reply": [
+      "Capisco, è un primo lavoro."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Che esperienza ha?"
+   ],
+   "hint": "Talk about your experience: Ho lavorato per tre anni in…",
+   "model": "Ho lavorato per tre anni in un'azienda di software.",
+   "otherwise": "strength"
+  },
+  {
+   "id": "strength",
+   "say": [
+    "Quali sono i suoi punti di forza?",
+    "Mi dica un suo pregio e un suo difetto."
+   ],
+   "expect": [
+    {
+     "match": [
+      "preciso",
+      "puntuale",
+      "paziente",
+      "creativo",
+      "organizzato",
+      "flessibile",
+      "lavorare",
+      "squadra",
+      "impegno",
+      "punti",
+      "forza",
+      "pregio",
+      "bravo",
+      "veloce"
+     ],
+     "next": "why",
+     "reply": [
+      "Ottimo, è importante."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Quali sono i suoi pregi?"
+   ],
+   "hint": "Name a strength: Sono preciso e lavoro bene in squadra.",
+   "model": "Sono molto organizzato e lavoro bene in squadra.",
+   "otherwise": "why"
+  },
+  {
+   "id": "why",
+   "say": [
+    "Perché vuole lavorare con noi?",
+    "Che cosa l'ha convinta a candidarsi per questo posto?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "perché",
+      "perche",
+      "azienda",
+      "lavoro",
+      "interessante",
+      "opportunità",
+      "crescere",
+      "imparare",
+      "progetti",
+      "posto"
+     ],
+     "next": "question",
+     "reply": [
+      "Capisco la sua motivazione."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Perché ha scelto noi?"
+   ],
+   "hint": "Say why: Perché l'azienda è interessante e voglio imparare.",
+   "model": "Perché la vostra azienda è molto innovativa e vorrei crescere professionalmente.",
+   "otherwise": "question"
+  },
+  {
+   "id": "question",
+   "say": [
+    "Bene. Ha qualche domanda da farmi?",
+    "Prima di finire: vuole sapere qualcosa sul lavoro?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "domanda",
+      "orario",
+      "stipendio",
+      "quando",
+      "come",
+      "quanti",
+      "dove",
+      "squadra",
+      "contratto",
+      "orari",
+      "inizio"
+     ],
+     "next": "close",
+     "reply": [
+      "Buona domanda, le rispondo subito."
+     ]
+    },
+    {
+     "match": [
+      "no",
+      "niente",
+      "nessuna",
+      "tutto chiaro"
+     ],
+     "next": "close"
+    }
+   ],
+   "reprompt": [
+    "Ha delle domande?"
+   ],
+   "hint": "Ask a question: Quali sono gli orari di lavoro?",
+   "model": "Quali sono gli orari di lavoro?",
+   "otherwise": "close"
+  },
+  {
+   "id": "close",
+   "say": [
+    "Ci metteremo in contatto con lei entro una settimana. Grazie per essere venuto.",
+    "Le faremo sapere entro pochi giorni. La ringrazio per il tempo."
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "arrivederci",
+      "buongiorno",
+      "buona",
+      "piacere",
+      "giornata",
+      "aspetto"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Grazie e arrivederci."
+   ],
+   "hint": "Thank them: Grazie a voi, a presto!",
+   "model": "La ringrazio, è stato un piacere. Arrivederci!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Arrivederci e buona giornata!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Mi presento: …",
+   "en": "Let me introduce myself: …"
+  },
+  {
+   "it": "Ho lavorato per … anni in …",
+   "en": "I worked for … years at …"
+  },
+  {
+   "it": "Sono una persona precisa e puntuale.",
+   "en": "I am a precise and punctual person."
+  },
+  {
+   "it": "Mi piacerebbe crescere professionalmente.",
+   "en": "I would like to grow professionally."
+  }
+ ]
+}

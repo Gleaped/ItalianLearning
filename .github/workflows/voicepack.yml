@@ -1,0 +1,42 @@
+name: Voice pack
+
+# Renders the natural Italian voices once and publishes them as a pre-release asset that the
+# app downloads from Settings. Run it by hand after lessons or conversations change; lines
+# already rendered are rebuilt only when their text changes, because the file name is a hash.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install kokoro-onnx soundfile numpy
+      - name: Download the model
+        run: |
+          curl -sSL -o kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          curl -sSL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+      - name: Restore earlier audio
+        uses: actions/cache@v4
+        with:
+          path: build/voicepack
+          key: voicepack-${{ github.run_id }}
+          restore-keys: voicepack-
+      - name: Render
+        run: python3 tools/audio/render_pack.py --out build/voicepack --zip
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view voicepack >/dev/null 2>&1 || gh release create voicepack --prerelease --title "Natural voices" --notes "Audio pack downloaded by the app from Settings. Not an app release."
+          gh release upload voicepack build/voicepack.zip --clobber

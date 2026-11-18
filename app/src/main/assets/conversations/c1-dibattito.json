@@ -1,0 +1,336 @@
+{
+ "id": "c1-dibattito",
+ "title": "Dibattito sul turismo di massa",
+ "level": "C1",
+ "setting": "At a dinner, a friend argues that mass tourism is ruining Italian cities.",
+ "goal": "Take a position, give a nuanced argument, concede a point and propose a measure.",
+ "partner": "l'amica Giulia",
+ "minutes": 10,
+ "start": "greet",
+ "states": [
+  {
+   "id": "greet",
+   "say": [
+    "Io sono convinta che il turismo di massa stia distruggendo le nostre città: Venezia, Firenze, ormai sono diventate dei parchi a tema. Tu che ne pensi?",
+    "Mi sembra che il turismo di massa abbia ormai snaturato i centri storici. Sei d'accordo?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "d'accordo",
+      "concordo",
+      "ragione",
+      "vero",
+      "esatto",
+      "giusto",
+      "condivido"
+     ],
+     "next": "agree1",
+     "reply": [
+      "Come sono contenta di sentirlo!"
+     ]
+    },
+    {
+     "match": [
+      "non",
+      "disaccordo",
+      "esagerato",
+      "esageri",
+      "sbagli",
+      "non credo",
+      "non penso",
+      "non sono d'accordo"
+     ],
+     "next": "disagree1",
+     "reply": [
+      "Ah, davvero? Interessante!"
+     ]
+    },
+    {
+     "match": [
+      "dipende",
+      "in parte",
+      "parzialmente",
+      "sfumato",
+      "complesso",
+      "non è così semplice",
+      "però"
+     ],
+     "next": "nuance1",
+     "reply": [
+      "Vedo che sei più prudente di me."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Scusa, come la vedi?"
+   ],
+   "hint": "Take a position: Non credo che sia così semplice… / Sono in parte d'accordo, ma…",
+   "model": "Sono in parte d'accordo, ma penso che il problema sia più complesso.",
+   "otherwise": "nuance1"
+  },
+  {
+   "id": "agree1",
+   "say": [
+    "E secondo te qual è la causa principale del problema?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "affitti",
+      "case",
+      "airbnb",
+      "residenti",
+      "prezzi",
+      "crociere",
+      "navi",
+      "low cost",
+      "voli",
+      "turisti",
+      "hotel",
+      "speculazione",
+      "abitanti"
+     ],
+     "next": "measure",
+     "reply": [
+      "Sì, è un fattore decisivo."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Qual è la causa principale?"
+   ],
+   "hint": "Name a cause: Gli affitti brevi e le crociere.",
+   "model": "Direi che la causa principale sono gli affitti brevi, che spingono via i residenti.",
+   "otherwise": "measure"
+  },
+  {
+   "id": "disagree1",
+   "say": [
+    "Però non puoi negare che i residenti siano costretti ad andarsene. Come lo spieghi?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "economia",
+      "lavoro",
+      "soldi",
+      "benefici",
+      "vantaggi",
+      "ricchezza",
+      "posti",
+      "turismo",
+      "dipendono",
+      "vivono"
+     ],
+     "next": "concede",
+     "reply": [
+      "Questo è vero, non lo nego."
+     ]
+    },
+    {
+     "match": [
+      "affitti",
+      "case",
+      "airbnb",
+      "residenti",
+      "prezzi"
+     ],
+     "next": "measure",
+     "reply": [
+      "Su questo hai ragione."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Come lo spieghi?"
+   ],
+   "hint": "Defend your view: Il turismo porta anche lavoro e ricchezza…",
+   "model": "Il turismo porta lavoro e ricchezza a molte famiglie, quindi non è tutto negativo.",
+   "otherwise": "concede"
+  },
+  {
+   "id": "nuance1",
+   "say": [
+    "E in che senso è più complesso? Spiegati meglio."
+   ],
+   "expect": [
+    {
+     "match": [
+      "economia",
+      "lavoro",
+      "soldi",
+      "benefici",
+      "vantaggi",
+      "ricchezza",
+      "posti",
+      "dipendono",
+      "vivono",
+      "turismo",
+      "regole",
+      "gestione",
+      "limitare",
+      "equilibrio"
+     ],
+     "next": "concede",
+     "reply": [
+      "Capisco il tuo ragionamento."
+     ]
+    },
+    {
+     "match": [
+      "affitti",
+      "case",
+      "airbnb",
+      "residenti",
+      "prezzi"
+     ],
+     "next": "measure",
+     "reply": [
+      "Su questo hai ragione."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Come, più complesso?"
+   ],
+   "hint": "Explain: Molte persone vivono di turismo, quindi serve un equilibrio.",
+   "model": "Molte famiglie vivono di turismo, quindi serve un equilibrio tra vantaggi e danni.",
+   "otherwise": "concede"
+  },
+  {
+   "id": "concede",
+   "say": [
+    "Va bene, ma ammetterai che qualcosa si debba fare. Qual è la tua proposta?",
+    "Concordo sul fatto che il turismo porti ricchezza, ma qualche limite ci vuole, no? Che cosa proporresti?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "proporrei",
+      "propongo",
+      "limitare",
+      "limitazioni",
+      "tassa",
+      "ticket",
+      "numero chiuso",
+      "regole",
+      "regolamentare",
+      "ingresso",
+      "prenotazione",
+      "stagione",
+      "distribuire",
+      "incentivare",
+      "vietare",
+      "tetto"
+     ],
+     "next": "agree2",
+     "reply": [
+      "Mi sembra una misura sensata."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Cosa proporresti?"
+   ],
+   "hint": "Propose a measure: Introdurrei un ticket d'ingresso e un tetto agli affitti brevi.",
+   "model": "Introdurrei un ticket d'ingresso e limiterei gli affitti brevi.",
+   "otherwise": "agree2"
+  },
+  {
+   "id": "measure",
+   "say": [
+    "E che misure adotteresti, tu?"
+   ],
+   "expect": [
+    {
+     "match": [
+      "proporrei",
+      "propongo",
+      "limitare",
+      "limitazioni",
+      "tassa",
+      "ticket",
+      "numero chiuso",
+      "regole",
+      "regolamentare",
+      "ingresso",
+      "prenotazione",
+      "stagione",
+      "distribuire",
+      "incentivare",
+      "vietare",
+      "tetto"
+     ],
+     "next": "agree2",
+     "reply": [
+      "Mi sembra una misura sensata."
+     ]
+    }
+   ],
+   "reprompt": [
+    "Che misure adotteresti?"
+   ],
+   "hint": "Propose a measure.",
+   "model": "Introdurrei un tetto agli affitti brevi e un ticket d'ingresso.",
+   "otherwise": "agree2"
+  },
+  {
+   "id": "agree2",
+   "say": [
+    "Bene, almeno su questo ci troviamo. Magari ne parliamo ancora, perché la questione è tutt'altro che chiusa.",
+    "Direi che su questo possiamo trovare un punto d'incontro. È stata una discussione davvero stimolante!"
+   ],
+   "expect": [
+    {
+     "match": [
+      "grazie",
+      "d'accordo",
+      "certo",
+      "volentieri",
+      "piacere",
+      "bene",
+      "stimolante",
+      "interessante",
+      "prossima",
+      "ancora",
+      "ciao"
+     ],
+     "next": "end"
+    }
+   ],
+   "reprompt": [
+    "Una bella discussione, no?"
+   ],
+   "hint": "Close: È stata una discussione davvero stimolante, grazie!",
+   "model": "È stata una discussione davvero stimolante. Ne riparliamo presto!",
+   "otherwise": "end",
+   "goal": true
+  },
+  {
+   "id": "end",
+   "say": [
+    "Alla prossima, allora!"
+   ],
+   "end": true
+  }
+ ],
+ "phrases": [
+  {
+   "it": "Sono in parte d'accordo, ma…",
+   "en": "I partly agree, but…"
+  },
+  {
+   "it": "Non si può negare che…",
+   "en": "You can't deny that…"
+  },
+  {
+   "it": "Credo che il problema sia più complesso.",
+   "en": "I think the problem is more complex."
+  },
+  {
+   "it": "Introdurrei una misura per limitare…",
+   "en": "I'd introduce a measure to limit…"
+  }
+ ]
+}

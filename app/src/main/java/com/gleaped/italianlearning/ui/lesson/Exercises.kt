@@ -56,6 +56,10 @@ import com.gleaped.italianlearning.content.ChooseMood
 import com.gleaped.italianlearning.content.Conjugation
 import com.gleaped.italianlearning.content.FindTrigger
 import com.gleaped.italianlearning.content.MinimalPair
+import com.gleaped.italianlearning.content.MinimalPairSay
+import com.gleaped.italianlearning.content.Shadow
+import com.gleaped.italianlearning.content.ListenOrder
+import com.gleaped.italianlearning.content.GapListen
 import com.gleaped.italianlearning.content.SortBuckets
 import com.gleaped.italianlearning.content.Transform
 import com.gleaped.italianlearning.content.ErrorCorrection
@@ -134,6 +138,10 @@ fun ExerciseView(
         is Transform -> TransformView(exercise, answered, actions)
         is SortBuckets -> SortBucketsView(exercise, answered, actions)
         is MinimalPair -> MinimalPairView(exercise, answered, actions)
+        is Shadow -> ShadowView(exercise, answered, autoPlay, speechEnabled, actions)
+        is MinimalPairSay -> MinimalPairSayView(exercise, answered, speechEnabled, actions)
+        is ListenOrder -> ListenOrderView(exercise, answered, actions)
+        is GapListen -> GapListenView(exercise, answered, autoPlay, actions)
         is Unsupported -> UnavailableView("This exercise type (\"${exercise.type}\") needs a newer version of the app.") { actions.continueWith(null) }
         is Invalid -> UnavailableView("This exercise could not be loaded.") { actions.continueWith(null) }
     }
@@ -582,7 +590,7 @@ private fun heardNote(heard: String, percent: Int? = null): String =
 
 /** Shared mic / type-instead / skip block. Calls [onResponses] with the recogniser's alternatives or typed text. */
 @Composable
-private fun SpeakOrType(
+internal fun SpeakOrType(
     answered: Boolean,
     speechEnabled: Boolean,
     onResponses: (List<String>) -> Unit,
@@ -703,6 +711,143 @@ private fun SpeakRespondView(e: SpeakRespond, answered: Boolean, speechEnabled: 
             },
             onSkip = { actions.continueWith(null) },
         )
+    }
+}
+
+// ---------------------------------------------------------------- shadow, say-the-word, order, listen-and-fill
+
+@Composable
+private fun ShadowView(e: Shadow, answered: Boolean, autoPlay: Boolean, speechEnabled: Boolean, actions: ExerciseActions) {
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text("Listen, then say it straight after, copying the rhythm:", style = MaterialTheme.typography.labelLarge)
+        ListenControls(e.text, autoPlay = autoPlay, revealAfterAnswer = true)
+        LookupText(e.text, style = MaterialTheme.typography.titleLarge)
+        e.translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+        SpeakOrType(
+            answered = answered,
+            speechEnabled = speechEnabled,
+            onResponses = { alternatives ->
+                val (verdict, score) = Grader.gradeSpeakRepeat(alternatives, e.text)
+                val best = alternatives.maxByOrNull { Grader.wordOverlap(it, e.text) }.orEmpty()
+                actions.answer(
+                    Feedback(verdict, expected = e.text, note = heardNote(best, (score * 100).roundToInt()), spoken = SpokenWords.mark(best, e.text)),
+                )
+            },
+            onSkip = { actions.continueWith(null) },
+        )
+    }
+}
+
+@Composable
+private fun MinimalPairSayView(e: MinimalPairSay, answered: Boolean, speechEnabled: Boolean, actions: ExerciseActions) {
+    val target = e.words.getOrElse(e.target) { "" }
+    val other = e.words.firstOrNull { it != target }.orEmpty()
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text("Two words, one sound apart. Hear both, then say the first one only:", style = MaterialTheme.typography.labelLarge)
+        e.words.forEachIndexed { i, w ->
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(w, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.weight(1f))
+                e.translations.getOrNull(i)?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                SpeakerButton(w)
+            }
+        }
+        Text("Say: “$target”", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
+        SpeakOrType(
+            answered = answered,
+            speechEnabled = speechEnabled,
+            onResponses = { alternatives ->
+                val heard = alternatives.map { AnswerNormalizer.tokens(it) }
+                val t = AnswerNormalizer.tokens(target).joinToString(" ")
+                val o = AnswerNormalizer.tokens(other).joinToString(" ")
+                val saidTarget = heard.any { words -> t.isNotEmpty() && t in words }
+                val saidOther = heard.any { words -> o.isNotEmpty() && o in words }
+                val verdict = when {
+                    saidTarget -> Verdict.CORRECT
+                    saidOther -> Verdict.WRONG
+                    else -> Verdict.ALMOST
+                }
+                val note = when (verdict) {
+                    Verdict.CORRECT -> "We heard “$target”."
+                    Verdict.WRONG -> "We heard “$other” instead of “$target”. Listen to both once more."
+                    else -> "We couldn't tell which word you said. " + heardNote(alternatives.firstOrNull().orEmpty())
+                }
+                actions.answer(Feedback(verdict, expected = target, note = note))
+            },
+            onSkip = { actions.continueWith(null) },
+        )
+    }
+}
+
+@Composable
+private fun ListenOrderView(e: ListenOrder, answered: Boolean, actions: ExerciseActions) {
+    val order = remember(e) {
+        var shuffled = shuffledOrder(e.sentences.size)
+        var tries = 0
+        while (e.sentences.size > 1 && shuffled == e.sentences.indices.toList() && tries++ < 10) shuffled = shuffledOrder(e.sentences.size)
+        shuffled
+    }
+    val picked = remember(e) { mutableStateListOf<Int>() }
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Text(e.question, style = MaterialTheme.typography.titleMedium)
+        order.forEach { i ->
+            val place = picked.indexOf(i)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                SpeakerButton(e.sentences[i])
+                OutlinedButton(
+                    onClick = { if (!answered && place < 0) picked.add(i) },
+                    enabled = !answered && place < 0,
+                    modifier = Modifier.weight(1f),
+                ) { Text(if (place >= 0) "${place + 1}" else "Tap to place") }
+                if (answered) LookupText(e.sentences[i], style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(2f))
+            }
+        }
+        if (!answered) TextButton(onClick = { picked.clear() }) { Text("Start again") }
+        CheckButton(enabled = !answered && picked.size == e.sentences.size, onClick = {
+            val right = picked.toList() == e.sentences.indices.toList()
+            actions.answer(
+                Feedback(
+                    if (right) Verdict.CORRECT else Verdict.WRONG,
+                    expected = e.sentences.joinToString("  "),
+                    expectedLabel = "Right order",
+                ),
+            )
+        })
+    }
+}
+
+@Composable
+private fun GapListenView(e: GapListen, answered: Boolean, autoPlay: Boolean, actions: ExerciseActions) {
+    val parts = remember(e) { e.text.split("___") }
+    val inputs = remember(e) { mutableStateListOf(*Array(e.answers.size) { "" }) }
+    val check = {
+        val results = e.answers.mapIndexed { i, a -> Grader.gradeTyped(inputs.getOrElse(i) { "" }, listOf(a), allowSlip = true).verdict }
+        val right = results.count { it == Verdict.CORRECT }
+        actions.answer(
+            Feedback(
+                Grader.combine(results),
+                expected = e.answers.joinToString(", "),
+                expectedLabel = "Missing words",
+                note = "$right of ${results.size} words right",
+            ),
+        )
+    }
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        ListenControls(e.audioText, autoPlay = autoPlay, revealAfterAnswer = answered)
+        Text("Listen and write the missing words:", style = MaterialTheme.typography.labelLarge)
+        Text(
+            parts.withIndex().joinToString("") { (i, p) -> if (i < parts.lastIndex) "$p [${i + 1}]" else p },
+            style = MaterialTheme.typography.bodyLarge,
+        )
+        e.answers.indices.forEach { i ->
+            AnswerField(
+                value = inputs[i],
+                onValueChange = { inputs[i] = it },
+                enabled = !answered,
+                onDone = { if (i == e.answers.lastIndex) check() },
+                label = "Word ${i + 1}",
+            )
+        }
+        CheckButton(enabled = !answered && inputs.all { it.isNotBlank() }, onClick = check)
     }
 }
 
