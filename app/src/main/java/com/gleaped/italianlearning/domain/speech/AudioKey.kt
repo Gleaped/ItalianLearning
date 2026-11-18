@@ -12,10 +12,25 @@ object AudioKey {
     const val VOICE_MAIN = "a"
     const val VOICE_SECOND = "b"
 
-    private val WHITESPACE = Regex("(?U)\\s+")
-
-    /** Whitespace collapsed and trimmed, so layout differences do not change the key. */
-    fun normalise(text: String): String = WHITESPACE.replace(text.trim(), " ")
+    /**
+     * Whitespace collapsed and trimmed, so layout differences do not change the key. Done by hand
+     * rather than with a "(?U)" regex: Android's regex engine rejects that flag, which crashed every
+     * playback. Matches Python's str.split() used by the render script.
+     */
+    fun normalise(text: String): String {
+        val out = StringBuilder(text.length)
+        var gap = false
+        for (c in text) {
+            if (Character.isWhitespace(c) || Character.isSpaceChar(c) || c == '\u0085') {
+                gap = out.isNotEmpty()
+            } else {
+                if (gap) out.append(' ')
+                gap = false
+                out.append(c)
+            }
+        }
+        return out.toString()
+    }
 
     fun key(text: String, voice: String): String {
         val digest = MessageDigest.getInstance("SHA-256").digest("$voice|${normalise(text)}".toByteArray(Charsets.UTF_8))
