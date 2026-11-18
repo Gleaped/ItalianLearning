@@ -39,6 +39,10 @@ jobs:
       - name: Validate course content
         run: python3 tools/validate_content.py
 
+      - name: Lint Italian text
+        # New spelling mistakes and duplicate sentences fail the build; known ones live in tools/qa/baseline.txt.
+        run: python3 tools/qa/lint_italian.py --baseline tools/qa/baseline.txt
+
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
