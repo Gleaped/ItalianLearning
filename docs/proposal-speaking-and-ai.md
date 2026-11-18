@@ -1,6 +1,18 @@
 # Proposal: a much better speaking app, with free AI as an optional extra
 
-Status: **proposal only, nothing built.** Written 2026-11-18 for Richard. Choices for you are listed in section 12.
+Status: **phases 0, 2, 3, 4 and 5 are built** (this PR). Phase 1 (family profiles) and the AI layers (phase 6) are not built, by Richard's decision on 2026-11-18: profiles wait, and AI stays a documented option if the scripted engine proves insufficient. Section 12 records the answers.
+
+## 0. What was built
+
+| Phase | Built |
+|---|---|
+| 0 | Live captions and a level bar while speaking, a prompt to add Italian offline speech when the phone lacks it |
+| 2 | Natural-voice pack: `tools/audio/render_pack.py` (Kokoro Italian voices `if_sara` and `im_nicola`, tested here), a manual workflow that publishes it as a pre-release asset, and in the app a Settings download and a player that falls back to the phone voice for any line not in the pack |
+| 3 | Scripted conversation engine (`domain/conversation`), 11 scenes from A1 to C1, a Conversazione screen, format docs and unit tests that play every scene through its model answers |
+| 4 | New exercise types `shadow`, `minimal_pair_say`, `listen_order`, `gap_listen`, and five new units (A1, A2, B1, B2, C1) using them |
+| 5 | Esame orale: three rehearsal papers, examiner voice, preparation time with notes, recorded answers with a pause meter, self-scoring and a rough score out of 60 |
+
+Not built: phase 1 profiles, phase 6 AI, phase 7 Whisper and pronunciation spike, phase 8 kids track. Scene count is 11, not 40, and photo tasks describe the picture in words until licensed photos exist. The voice pack has to be rendered once by running the "Voice pack" workflow after this merges, since no one has listened to the output yet.
 
 ## 1. The short version
 
