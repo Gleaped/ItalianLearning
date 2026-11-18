@@ -26,8 +26,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 ASSETS = ROOT / "app" / "src" / "main" / "assets"
-VOICES = {"a": "if_sara", "b": "im_nicola"}
-SPEED = 0.92
+# Voice tuning: each role is a weighted blend of Kokoro voice styles plus a speaking speed.
+# Bump TUNING whenever these change so that audio rendered with older settings is thrown away.
+TUNING = "2"
+VOICES = {
+    "a": ({"if_sara": 0.7, "af_bella": 0.3}, 0.95),
+    "b": ({"im_nicola": 0.65, "if_sara": 0.35}, 1.0),
+}
 
 TURN_BREAK = re.compile(r"(?:^|\s+)[–—]\s+")
 BRACKETED = re.compile(r"\s*\([^)]*\)")
@@ -209,22 +214,36 @@ def main():
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
+    manifest = out / "manifest.json"
+    try:
+        old_tuning = json.loads(manifest.read_text()).get("tuning")
+    except (OSError, ValueError):
+        old_tuning = None
+    if old_tuning != TUNING:
+        for f in out.glob("*.m4a"):
+            f.unlink()
+        print("voice tuning changed: re-rendering everything", file=sys.stderr)
     todo = [(k, t, v) for k, (t, v) in items if not (out / f"{k}.m4a").exists()]
     print(f"{len(todo)} to render", file=sys.stderr)
     if todo:
         from kokoro_onnx import Kokoro
 
         kokoro = Kokoro(args.model, args.voices)
+        styles = {
+            role: (sum(kokoro.get_voice_style(name) * weight for name, weight in mix.items()), speed)
+            for role, (mix, speed) in VOICES.items()
+        }
         for i, (k, text, voice) in enumerate(todo, 1):
             try:
-                samples, sr = kokoro.create(text, voice=VOICES[voice], speed=SPEED, lang="it")
+                style, speed = styles[voice]
+                samples, sr = kokoro.create(text, voice=style, speed=speed, lang="it")
                 (out / f"{k}.m4a").write_bytes(encode(samples, sr))
             except Exception as ex:  # one bad line must not stop the pack
                 print(f"skipped {text!r}: {ex}", file=sys.stderr)
             if i % 100 == 0:
                 print(f"{i}/{len(todo)}", file=sys.stderr)
     files = sorted(out.glob("*.m4a"))
-    (out / "manifest.json").write_text(json.dumps({"count": len(files), "voices": VOICES, "speed": SPEED}))
+    (out / "manifest.json").write_text(json.dumps({"count": len(files), "tuning": TUNING}))
     if args.zip:
         zpath = out.parent / "voicepack.zip"
         with zipfile.ZipFile(zpath, "w", zipfile.ZIP_STORED) as z:
