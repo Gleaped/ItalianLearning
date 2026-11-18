@@ -92,6 +92,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import java.time.DayOfWeek
 import java.util.Locale
+import com.gleaped.italianlearning.speech.WhisperModel
 import kotlin.math.roundToInt
 
 class SettingsViewModel(private val container: AppContainer) : ViewModel() {
@@ -121,6 +122,8 @@ class SettingsViewModel(private val container: AppContainer) : ViewModel() {
     fun setAutoPlay(v: Boolean) = update { repo.setAutoPlay(v) }
     fun setSpeechPractice(v: Boolean) = update { repo.setSpeechPractice(v) }
     fun setListenFirst(v: Boolean) = update { repo.setListenFirst(v) }
+    fun setWhisper(v: Boolean) = update { repo.setWhisperEnabled(v) }
+    fun setWhisperModel(m: WhisperModel) = update { repo.setWhisperModel(m.id) }
 
     /** Chooses the Italian voice (blank = best installed) and plays a sample of it. */
     fun setVoice(name: String) {
@@ -509,6 +512,7 @@ fun SettingsScreen() {
             settings.speechPracticeEnabled,
             vm::setSpeechPractice,
         )
+        WhisperSection(container, settings.whisperEnabled, WhisperModel.of(settings.whisperModel), vm::setWhisper, vm::setWhisperModel)
 
         HorizontalDivider()
 
@@ -682,6 +686,61 @@ private fun NaturalVoicesSection(container: AppContainer) {
             LinearProgressIndicator(progress = { state.percent / 100f }, modifier = Modifier.fillMaxWidth())
         } else {
             Button(onClick = { scope.launch { container.voicePack.download(VoicePack.URL) } }) { Text("Download natural voices") }
+        }
+    }
+    state.error?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error) }
+}
+
+@Composable
+private fun WhisperSection(
+    container: AppContainer,
+    enabled: Boolean,
+    model: WhisperModel,
+    onEnabled: (Boolean) -> Unit,
+    onModel: (WhisperModel) -> Unit,
+) {
+    val state by container.whisper.state.collectAsStateWithLifecycle()
+    val scope = rememberCoroutineScope()
+    SwitchRow(
+        "Whisper speech recognition",
+        "An optional recogniser that runs on this phone, offline, instead of Android's. It tends to follow longer answers better. " +
+            "It needs a one-off model download, then your voice never leaves the phone. Off = Android's recogniser.",
+        enabled,
+        onEnabled,
+    )
+    if (!state.supported) {
+        Text(
+            "Whisper isn't available on this phone (it needs a 64-bit ARM phone), so Android's recogniser stays in use.",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.error,
+        )
+        return
+    }
+    if (!enabled) return
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        WhisperModel.entries.forEach { m ->
+            FilterChip(selected = m == model, onClick = { onModel(m) }, label = { Text("${m.label} (about ${m.approxMb} MB)") })
+        }
+    }
+    Text(
+        if (model == WhisperModel.BASE) "Base is quick and a good start." else "Small is more accurate but slower and uses more memory; it suits a recent phone.",
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
+    when {
+        state.downloading != null ->
+            LinearProgressIndicator(progress = { state.percent / 100f }, modifier = Modifier.fillMaxWidth())
+        model in state.installed -> {
+            Text("Ready: ${model.label} is installed. Speaking steps now use Whisper.", style = MaterialTheme.typography.bodySmall)
+            OutlinedButton(onClick = { scope.launch { container.whisper.delete(model) } }) { Text("Remove ${model.label} model") }
+        }
+        else -> {
+            Text(
+                "Not active yet: the ${model.label} model has to be downloaded first. Android's recogniser is used until then.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Button(onClick = { scope.launch { container.whisper.download(model) } }) { Text("Download ${model.label} model") }
         }
     }
     state.error?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error) }

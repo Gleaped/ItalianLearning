@@ -25,3 +25,6 @@
 -dontwarn androidx.room.paging.**
 
 # ---- Broadcast receivers referenced from the manifest are kept by AAPT rules ----
+
+# ---- Whisper JNI bridge: the native side looks these methods up by name ----
+-keep class com.gleaped.italianlearning.speech.WhisperNative { *; }

@@ -80,4 +80,11 @@ class MainActivity : ComponentActivity() {
             runCatching { container.coreDeck.topUp() }
         }
     }
+
+    override fun onStop() {
+        super.onStop()
+        // The Whisper model takes memory about the size of its file; it is reloaded in a moment when next used.
+        val container = (application as ItalianoApp).container
+        container.appScope.launch { runCatching { container.whisper.release() } }
+    }
 }
