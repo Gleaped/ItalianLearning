@@ -428,7 +428,11 @@ If time is short, a smaller **core release** is: phases 0, 1, 2 and 6, plus 100 
 
 Richard asked for ten very different, readable UI designs to choose from. They are static mockups of the Home and a lesson screen, in [ui-designs/index.html](ui-designs/index.html), built as plain HTML and CSS so they open in any browser. The choice is listed in section 15. Applying the chosen design touches `ui/theme` and the layout of Home, Lesson and Review only; the content expansion above does not depend on it.
 
-## 15. Decisions needed from Richard
+## 15. Decisions
+
+Decided 2026-11-18: **core release first** (phases 0, 1, 2 and 6, plus 100 readers and 100 listening clips). The UI redesign waits while Richard reviews the ten directions with his wife, so new screens stay theme-neutral. Optional audio packs are undecided and are not built yet. Open questions that remain:
+
+## 15a. Original questions
 
 1. **Scope:** full A1 to C2 (about 26 weeks), or the core release first (about 8 weeks)? Recommended: core release first, then continue in the order given in section 13.
 2. **Audio:** is a roughly 175 MB set of optional downloadable voice packs acceptable? Recommended yes, one pack per level so only the needed levels are downloaded.
