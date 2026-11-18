@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
             LaunchedEffect(settings.speechRate) { container.tts.setRate(settings.speechRate) }
             LaunchedEffect(settings.voiceName) { container.tts.setPreferredVoice(settings.voiceName) }
             CompositionLocalProvider(LocalAppContainer provides container) {
-                ItalianoTheme(themeMode = settings.themeMode, textSize = settings.textSize) {
+                ItalianoTheme(themeMode = settings.themeMode, textSize = settings.textSize, uiStyle = settings.uiStyle) {
                     if (loaded != null && !settings.onboarded) {
                         WelcomeScreen(
                             onSave = { name -> lifecycleScope.launch { container.settings.setUserName(name) } },

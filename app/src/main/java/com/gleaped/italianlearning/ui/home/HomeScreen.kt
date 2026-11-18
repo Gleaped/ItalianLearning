@@ -1,5 +1,15 @@
 package com.gleaped.italianlearning.ui.home
 
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.border
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.sp
+import com.gleaped.italianlearning.data.settings.UiStyle
+import com.gleaped.italianlearning.ui.theme.LocalUiStyle
+import com.gleaped.italianlearning.ui.theme.Majorca
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.semantics.clearAndSetSemantics
@@ -77,7 +87,27 @@ fun HomeScreen(
             .padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(greeting, style = MaterialTheme.typography.headlineMedium)
+        val majorca = LocalUiStyle.current == UiStyle.MAJORCA
+        if (majorca) {
+            Column {
+                Column(
+                    Modifier
+                        .fillMaxWidth()
+                        .background(Majorca.Blue, RoundedCornerShape(topStart = 6.dp, topEnd = 6.dp))
+                        .padding(horizontal = 20.dp, vertical = 16.dp),
+                ) {
+                    Text(greeting, style = MaterialTheme.typography.headlineMedium, color = Majorca.Cream)
+                    Text(
+                        if (o.streak > 0) "${o.streak} giorni di fila" else "Ogni giorno conta",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = Majorca.Cream.copy(alpha = 0.85f),
+                    )
+                }
+                Box(Modifier.fillMaxWidth().height(6.dp).background(Majorca.Terracotta))
+            }
+        } else {
+            Text(greeting, style = MaterialTheme.typography.headlineMedium)
+        }
 
         if (o.content.loadErrors.isNotEmpty()) {
             Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer)) {
@@ -86,6 +116,29 @@ fun HomeScreen(
                     modifier = Modifier.padding(12.dp),
                     style = MaterialTheme.typography.bodySmall,
                 )
+            }
+        }
+
+        if (majorca) {
+            val nextLesson = o.progress.nextLesson()
+            val reviewCount = o.dueReviews + o.newCards
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    MajorcaTile(
+                        "🃏", "Ripasso", if (reviewCount == 0) "tutto fatto" else "$reviewCount carte",
+                        TileStyle.TERRACOTTA, Modifier.weight(1f), onReview,
+                    )
+                    MajorcaTile(
+                        "📘", "Lezione", nextLesson?.second?.title ?: "il corso",
+                        TileStyle.BLUE, Modifier.weight(1f),
+                    ) {
+                        if (nextLesson != null) onStartLesson(nextLesson.first.id, nextLesson.second.id) else onCourse()
+                    }
+                }
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    MajorcaTile("🗣", "Parlare", "una missione", TileStyle.PLAIN, Modifier.weight(1f), onConversation)
+                    MajorcaTile("📈", "Progressi", "per abilità", TileStyle.PLAIN, Modifier.weight(1f), onProgress)
+                }
             }
         }
 
@@ -353,5 +406,41 @@ private fun PlanRow(done: Boolean, title: String, detail: String, onClick: (() -
                 Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
+    }
+}
+
+private enum class TileStyle { PLAIN, BLUE, TERRACOTTA }
+
+/** A square "ceramic tile" shortcut: thick blue border, a faint dotted pattern and a big icon. */
+@Composable
+private fun MajorcaTile(
+    icon: String,
+    title: String,
+    subtitle: String,
+    style: TileStyle,
+    modifier: Modifier,
+    onClick: () -> Unit,
+) {
+    val bg = when (style) {
+        TileStyle.PLAIN -> Color.White
+        TileStyle.BLUE -> Majorca.Blue
+        TileStyle.TERRACOTTA -> Majorca.Terracotta
+    }
+    val fg = if (style == TileStyle.PLAIN) Majorca.Blue else Color.White
+    val border = if (style == TileStyle.TERRACOTTA) Majorca.TerracottaDark else Majorca.Blue
+    val shape = RoundedCornerShape(6.dp)
+    Column(
+        modifier = modifier
+            .aspectRatio(1.1f)
+            .clip(shape)
+            .background(bg)
+            .border(BorderStroke(3.dp, border), shape)
+            .clickable(onClick = onClick)
+            .padding(12.dp),
+        verticalArrangement = Arrangement.Bottom,
+    ) {
+        Text(icon, fontSize = 30.sp, modifier = Modifier.padding(bottom = 6.dp).clearAndSetSemantics { })
+        Text(title, color = fg, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+        Text(subtitle, color = fg.copy(alpha = 0.85f), style = MaterialTheme.typography.bodySmall, maxLines = 2)
     }
 }

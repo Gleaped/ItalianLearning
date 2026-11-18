@@ -26,6 +26,9 @@ import kotlinx.coroutines.flow.map
 
 enum class ThemeMode { SYSTEM, LIGHT, DARK }
 
+/** Look of the app: the Majorca tile design, or the original basil-and-cream look. */
+enum class UiStyle { MAJORCA, LEGACY }
+
 /** Text-size setting; [scale] multiplies the whole type scale. */
 enum class TextSize(val scale: Float, val label: String) {
     SMALL(0.9f, "S"),
@@ -50,6 +53,7 @@ data class Settings(
     val dailyNewCards: Int = 10,
     val unlockAllUnits: Boolean = false,
     val themeMode: ThemeMode = ThemeMode.SYSTEM,
+    val uiStyle: UiStyle = UiStyle.MAJORCA,
     val remindersPaused: Boolean = false,
     /** No reminders for the rest of a day on which the learner has practised. */
     val quietAfterPractice: Boolean = false,
@@ -112,6 +116,7 @@ class SettingsRepository(context: Context) {
         val dailyNewCards = intPreferencesKey("daily_new_cards")
         val unlockAll = booleanPreferencesKey("unlock_all_units")
         val theme = stringPreferencesKey("theme_mode")
+        val uiStyle = stringPreferencesKey("ui_style")
         val remindersPaused = booleanPreferencesKey("reminders_paused")
         val lastOpened = longPreferencesKey("last_opened_millis")
         val lastFired = longPreferencesKey("last_reminder_fired_millis")
@@ -161,6 +166,7 @@ class SettingsRepository(context: Context) {
             listenFirst = p[Keys.listenFirst] ?: defaults.listenFirst,
             dailyNewCards = p[Keys.dailyNewCards] ?: defaults.dailyNewCards,
             unlockAllUnits = p[Keys.unlockAll] ?: defaults.unlockAllUnits,
+            uiStyle = p[Keys.uiStyle]?.let { name -> UiStyle.entries.firstOrNull { it.name == name } } ?: defaults.uiStyle,
             themeMode = p[Keys.theme]?.let { name -> ThemeMode.entries.firstOrNull { it.name == name } } ?: defaults.themeMode,
             remindersPaused = p[Keys.remindersPaused] ?: defaults.remindersPaused,
             quietAfterPractice = p[Keys.quietAfterPractice] ?: defaults.quietAfterPractice,
@@ -243,6 +249,7 @@ class SettingsRepository(context: Context) {
     suspend fun setListenFirst(value: Boolean) = store.edit { it[Keys.listenFirst] = value }
     suspend fun setDailyNewCards(value: Int) = store.edit { it[Keys.dailyNewCards] = value }
     suspend fun setUnlockAll(value: Boolean) = store.edit { it[Keys.unlockAll] = value }
+    suspend fun setUiStyle(value: UiStyle) = store.edit { it[Keys.uiStyle] = value.name }
     suspend fun setThemeMode(value: ThemeMode) = store.edit { it[Keys.theme] = value.name }
     suspend fun setRemindersPaused(value: Boolean) = store.edit { it[Keys.remindersPaused] = value }
     suspend fun setQuietAfterPractice(value: Boolean) = store.edit { it[Keys.quietAfterPractice] = value }
