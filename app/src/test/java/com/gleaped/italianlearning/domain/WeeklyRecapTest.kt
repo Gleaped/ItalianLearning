@@ -26,7 +26,7 @@ class WeeklyRecapTest {
 
     @Test fun countsLastWeekOnly() {
         val days = listOf(
-            DayCount(monday - 7, 1, 0),
+            DayCount(monday - 8, 1, 0), // the week before last
             DayCount(monday - 5, 2, 10),
             DayCount(monday - 1, 1, 5),
             DayCount(monday + 1, 9, 9), // this week
