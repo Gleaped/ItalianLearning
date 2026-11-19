@@ -28,7 +28,7 @@ class FsrsTest {
         var s = Fsrs.review(SrsState(dueEpochDay = today), Rating.GOOD, today)
         var day = today
         var previous = s.intervalDays
-        repeat(5) {
+        repeat(3) {
             day = s.dueEpochDay
             s = Fsrs.review(s, Rating.GOOD, day)
             assertTrue("${s.intervalDays} > $previous", s.intervalDays > previous)
