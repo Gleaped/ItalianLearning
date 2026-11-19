@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b2-04",
+  "level": "LET",
+  "title": "Cultura e consumi",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 250 parole) su cultura e consumi: un servizio sui diritti dei consumatori, una recensione, un avviso istituzionale e un reportage.",
+  "grammarFocus": "Lettura estensiva B2: passivo e condizionale nei testi informativi e istituzionali, congiuntivo, connettivi (tuttavia, nonostante, di conseguenza, qualora).",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b2-04-l1",
+      "title": "Abbonamenti che non finiscono mai",
+      "minutes": 10,
+      "goal": "Leggere un servizio sui diritti dei consumatori e distinguere problema, diritti e consigli.",
+      "takeaway": "In un testo informativo i numeri presentano il problema, poi i verbi al condizionale e al congiuntivo introducono possibilità e norme.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-04-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Abbonamenti che non finiscono mai",
+          "passage": "Un'indagine condotta da un'associazione di consumatori su milleduecento famiglie del Centro Italia ha rilevato che quasi un abbonamento su tre viene rinnovato senza che il cliente se ne accorga. Palestre, piattaforme di film, servizi di telefonia: i casi più frequenti riguardano contratti sottoscritti online con una prova gratuita, che si trasforma in abbonamento a pagamento se non viene disdetta entro la data prevista.\n\nIl problema, spiegano i responsabili dell'indagine, non è soltanto la dimenticanza. Spesso le condizioni sono scritte in caratteri minuscoli e la procedura per disdire è molto più complicata di quella per iscriversi. Un intervistato ha raccontato di aver dovuto inviare una lettera raccomandata per interrompere un servizio che aveva attivato con due clic.\n\nLa legge, tuttavia, tutela chi acquista a distanza: entro quattordici giorni dalla conclusione del contratto il consumatore può recedere senza fornire alcuna motivazione, purché lo comunichi per iscritto. Inoltre, se le informazioni sul costo non fossero state chiare, l'addebito potrebbe essere contestato. Nonostante ciò, soltanto una persona su dieci conosce questi diritti.\n\nL'associazione consiglia di annotare in un calendario la scadenza di ogni prova gratuita, di conservare le email di conferma e di controllare periodicamente l'estratto conto. In caso di addebiti ingiustificati, si può chiedere il rimborso alla società e, se la risposta non arriva entro trenta giorni, presentare un reclamo.\n\nLe aziende, dal canto loro, respingono le accuse: affermano che le condizioni sono sempre indicate e che i clienti ricevono un promemoria. Di conseguenza, secondo i consumatori, servirebbe una norma che renda la disdetta semplice quanto l'iscrizione.",
+          "questions": [
+            {
+              "question": "Che cosa ha rilevato l'indagine?",
+              "options": [
+                "Che molti abbonamenti sono troppo cari",
+                "Che le palestre sono il servizio più usato",
+                "Che le prove gratuite sono vietate",
+                "Che circa un abbonamento su tre si rinnova senza che il cliente lo sappia"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Entro quanto tempo si può recedere da un acquisto a distanza?",
+              "options": [
+                "Quattordici giorni",
+                "Trenta giorni",
+                "Un anno",
+                "Tre mesi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché il problema non dipende solo dalla dimenticanza?",
+              "options": [
+                "Perché le prove gratuite sono troppo lunghe",
+                "Perché i clienti non usano il telefono",
+                "Perché disdire è spesso molto più difficile che iscriversi",
+                "Perché le aziende non inviano nessuna email"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Qual è la posizione dei consumatori alla fine?",
+              "options": [
+                "Le leggi attuali sono sufficienti",
+                "Servirebbe una regola che renda la disdetta facile come l'iscrizione",
+                "Le aziende hanno ragione",
+                "Bisognerebbe vietare ogni abbonamento"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l1-e02",
+          "stage": "learn",
+          "front": "la disdetta",
+          "back": "cancellation (of a contract)",
+          "example": "Ho inviato la disdetta dell'abbonamento."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l1-e03",
+          "stage": "learn",
+          "front": "recedere",
+          "back": "to withdraw (from a contract)",
+          "example": "Si può recedere dal contratto entro quattordici giorni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l1-e04",
+          "stage": "learn",
+          "front": "l'addebito",
+          "back": "charge, debit",
+          "example": "Ho notato un addebito che non riconosco."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-04-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "abbonamento",
+            "disdetta",
+            "quattordici giorni",
+            "reclamo"
+          ],
+          "modelAnswer": "Un'indagine mostra che molti abbonamenti si rinnovano senza che il cliente se ne accorga. Disdire è spesso complicato, ma la legge permette di recedere entro quattordici giorni. I consumatori vorrebbero una disdetta semplice quanto l'iscrizione.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-04-l2",
+      "title": "Il ristorante che salva gli avanzi",
+      "minutes": 10,
+      "goal": "Leggere una recensione e distinguere descrizione, giudizio personale e riflessione sulla tendenza.",
+      "takeaway": "In una recensione si alternano fatti, opinioni personali e un giudizio finale: «meno convincente» e «resta un dubbio» segnalano il punto di vista.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-04-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il ristorante che salva gli avanzi",
+          "passage": "Da qualche anno, nelle città di provincia, si diffonde un tipo di ristorante che gli esperti chiamano «cucina di recupero». Il principio è semplice: il menù cambia ogni giorno in base a ciò che i fornitori locali non sono riusciti a vendere, e gli scarti vengono trasformati in piatti curati. L'ultimo arrivato è «La Mezzaluna», aperto da pochi mesi in un ex magazzino vicino alla stazione, che abbiamo visitato un giovedì sera.\n\nL'ambiente è sobrio, con tavoli di legno riciclato e una cucina a vista. Il menù, scritto a mano su una lavagna, offre quattro antipasti, tre primi e due secondi. Il piatto che ricorderò più a lungo è una zuppa di pane raffermo con verdure di stagione, semplice ma sorprendentemente saporita. Meno convincente il dolce, una crema troppo densa che sapeva più di buone intenzioni che di vero gusto.\n\nI prezzi, nonostante la qualità, sono contenuti: una cena completa costa circa venticinque euro a persona. Il titolare spiega che, se non dovesse acquistare ingredienti costosi, potrebbe permettersi di mantenere i prezzi bassi e di pagare meglio il personale. Tuttavia ammette che l'organizzazione è complicata, perché non si sa mai in anticipo che cosa arriverà in cucina.\n\nResta un dubbio: questa tendenza è destinata a durare o è soltanto una moda passeggera? Molti clienti, che ordinano per curiosità, rischiano di tornare ai locali tradizionali non appena l'entusiasmo sarà passato. Certo, se il servizio continuasse a essere così attento, «La Mezzaluna» avrebbe buone possibilità di restare. Per ora il suo obiettivo, ridurre lo spreco senza rinunciare al piacere della tavola, è stato raggiunto quasi del tutto.",
+          "questions": [
+            {
+              "question": "Su quale principio si basa la «cucina di recupero»?",
+              "options": [
+                "Sui piatti preparati in anticipo",
+                "Sui prodotti più costosi del mercato",
+                "Sull'uso di ciò che i fornitori non hanno venduto",
+                "Sulle ricette dei nonni"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa pensa il recensore del dolce?",
+              "options": [
+                "Era il piatto migliore",
+                "Non lo ha convinto",
+                "Era troppo piccolo",
+                "Non l'ha assaggiato"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Come riesce il titolare a mantenere i prezzi bassi?",
+              "options": [
+                "Evitando ingredienti costosi",
+                "Riducendo gli stipendi",
+                "Servendo porzioni minuscole",
+                "Aprendo solo il giovedì"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è il dubbio finale del recensore?",
+              "options": [
+                "Se il cibo sia sano",
+                "Se il locale abbia abbastanza tavoli",
+                "Se i prezzi siano onesti",
+                "Se la tendenza sia solo una moda passeggera"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l2-e02",
+          "stage": "learn",
+          "front": "lo scarto",
+          "back": "waste, offcut",
+          "example": "Dagli scarti delle verdure si può fare un buon brodo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l2-e03",
+          "stage": "learn",
+          "front": "raffermo",
+          "back": "stale (of bread)",
+          "example": "Il pane raffermo si usa per la ribollita."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l2-e04",
+          "stage": "learn",
+          "front": "lo spreco",
+          "back": "waste, wastefulness",
+          "example": "Dobbiamo ridurre lo spreco di cibo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-04-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "cucina di recupero",
+            "zuppa",
+            "prezzi",
+            "moda"
+          ],
+          "modelAnswer": "Il recensore visita un ristorante che cucina gli avanzi dei fornitori locali. Apprezza la zuppa, meno il dolce, e i prezzi sono bassi. Si chiede se la tendenza durerà o se sia solo una moda.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-04-l3",
+      "title": "Avviso: consultazione su via Mazzini",
+      "minutes": 10,
+      "goal": "Leggere un avviso istituzionale e trovare date, condizioni e regole di una consultazione pubblica.",
+      "takeaway": "In un avviso ufficiale cerca date, destinatari, procedura ed eccezioni: la lingua è formale, con il passivo e il condizionale giuridico.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-04-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Avviso: consultazione su via Mazzini",
+          "passage": "COMUNE DI ROCCABRUNA – AVVISO ALLA CITTADINANZA\n\nConsultazione pubblica sulla pedonalizzazione di via Mazzini\n\nSi rende noto che domenica 13 dicembre, dalle ore 8 alle ore 20, si terrà una consultazione sul progetto di chiusura al traffico di via Mazzini, nel tratto compreso tra piazza del Mercato e il ponte vecchio.\n\nHanno diritto di partecipare tutti i residenti maggiorenni, anche se stranieri, purché iscritti all'anagrafe comunale entro il 30 novembre. Gli elettori dovranno presentarsi al seggio con un documento d'identità valido e con la tessera elettorale o, in mancanza di questa, con la ricevuta di residenza. Le persone che non possono muoversi da casa per motivi di salute potranno chiedere che il voto venga raccolto a domicilio, presentando la richiesta entro il 4 dicembre.\n\nIl quesito, formulato in modo semplice, sarà il seguente: «È favorevole alla chiusura al traffico di via Mazzini?». Si potrà rispondere soltanto con un sì o con un no; le schede che riportassero scritte o segni di riconoscimento saranno annullate.\n\nSi precisa che l'esito della consultazione non è vincolante: il consiglio comunale, tuttavia, si è impegnato a tenerne conto nella decisione finale. Qualora partecipasse meno di un terzo degli aventi diritto, il risultato verrebbe comunque comunicato, ma avrebbe valore soltanto indicativo.\n\nI risultati saranno pubblicati sul sito del comune e affissi all'albo pretorio entro tre giorni dalla chiusura dei seggi. Per informazioni è possibile rivolgersi all'ufficio elettorale, aperto nei giorni feriali dalle 9 alle 12.\n\nIl Sindaco",
+          "questions": [
+            {
+              "question": "Qual è lo scopo dell'avviso?",
+              "options": [
+                "Annunciare la chiusura definitiva di via Mazzini",
+                "Informare i cittadini su una consultazione riguardo alla chiusura al traffico",
+                "Chiedere denaro ai residenti",
+                "Presentare i candidati a sindaco"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Chi può partecipare alla consultazione?",
+              "options": [
+                "Solo i cittadini italiani",
+                "Chi ha più di sessant'anni",
+                "Chi possiede un'auto",
+                "I residenti maggiorenni iscritti all'anagrafe, anche stranieri"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che valore ha il risultato?",
+              "options": [
+                "Non è vincolante, ma il consiglio ne terrà conto",
+                "Decide automaticamente il progetto",
+                "Non verrà mai pubblicato",
+                "Vale solo se vota la metà dei residenti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa succede a una scheda con segni di riconoscimento?",
+              "options": [
+                "Viene conteggiata come sì",
+                "Viene restituita all'elettore",
+                "Viene annullata",
+                "Viene conteggiata come no"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l3-e02",
+          "stage": "learn",
+          "front": "il seggio",
+          "back": "polling station",
+          "example": "Il seggio è aperto fino alle venti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l3-e03",
+          "stage": "learn",
+          "front": "vincolante",
+          "back": "binding",
+          "example": "Il parere del comitato non è vincolante."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l3-e04",
+          "stage": "learn",
+          "front": "il quesito",
+          "back": "question (put to a vote)",
+          "example": "Il quesito del referendum è molto chiaro."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-04-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "consultazione",
+            "residenti",
+            "non vincolante",
+            "risultati"
+          ],
+          "modelAnswer": "Il comune invita i residenti maggiorenni a una consultazione domenicale sulla chiusura al traffico di via Mazzini. Il voto non è vincolante, ma il consiglio ne terrà conto. I risultati saranno pubblicati entro tre giorni.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-04-l4",
+      "title": "La sagra della castagna",
+      "minutes": 10,
+      "goal": "Leggere un reportage su una festa locale e capire origine, polemiche e significato per la comunità.",
+      "takeaway": "In un reportage dati, citazioni e commento dell'autore si alternano: la frase finale spesso offre l'interpretazione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-04-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La sagra della castagna",
+          "passage": "Ogni anno, l'ultimo fine settimana di ottobre, il borgo di Roccabruna, tremila abitanti appoggiati a una collina dell'Appennino, si trasforma nella capitale della castagna. La Sagra, che quest'anno ha compiuto settant'anni, non è nata per attirare turisti: all'inizio era soltanto una festa con cui i contadini ringraziavano la terra al termine del raccolto.\n\nOggi, tuttavia, l'evento richiama circa quindicimila visitatori in tre giorni. Per accoglierli, i volontari della pro loco cominciano a lavorare già in primavera. Una pensionata, che da quarant'anni prepara le frittelle di farina di castagne, racconta che il segreto non sta nella ricetta ma nella pazienza: «Se la pasta non riposa abbastanza, il risultato è deludente. Con i giovani è lo stesso: bisogna dare loro il tempo di imparare».\n\nNon mancano le polemiche. Alcuni residenti lamentano che, durante la festa, le strade vengano chiuse e che i prezzi nei negozi salgano. Un commerciante ammette che il guadagno è notevole, ma sostiene che, se la Sagra diventasse troppo commerciale, perderebbe la propria anima. Per evitarlo, il comitato organizzatore ha deciso che i banchi siano assegnati soltanto a produttori della zona e che la plastica sia sostituita da stoviglie compostabili.\n\nIl momento più atteso resta il corteo in costume della domenica pomeriggio, con le contrade che sfilano portando gli attrezzi di un tempo. Quest'anno, per la prima volta, hanno partecipato anche i ragazzi delle scuole, che avevano studiato la storia del paese per mesi. «Pensavo fosse una noia», confessa uno di loro, «invece ho scoperto da dove vengo». Forse è questo, più delle castagne, il vero prodotto del borgo.",
+          "questions": [
+            {
+              "question": "Come è nata la Sagra?",
+              "options": [
+                "Per promuovere il turismo",
+                "Come gara tra le contrade",
+                "Per vendere le castagne in città",
+                "Come festa di ringraziamento dopo il raccolto"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa intende la pensionata con l'esempio della pasta?",
+              "options": [
+                "Che bisogna dare tempo anche ai giovani per imparare",
+                "Che la ricetta va tenuta segreta",
+                "Che le frittelle si fanno in primavera",
+                "Che i giovani non sanno cucinare"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa teme il commerciante?",
+              "options": [
+                "Che i visitatori diminuiscano",
+                "Che i prezzi scendano troppo",
+                "Che la festa perda la sua anima diventando troppo commerciale",
+                "Che la pro loco chiuda"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa suggerisce la frase finale?",
+              "options": [
+                "Le castagne sono il prodotto più venduto",
+                "Il vero valore della festa è il legame dei giovani con il paese",
+                "La festa è ormai troppo grande",
+                "I ragazzi non vogliono partecipare"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l4-e02",
+          "stage": "learn",
+          "front": "la sagra",
+          "back": "local food festival",
+          "example": "Ogni estate andiamo alla sagra del paese."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l4-e03",
+          "stage": "learn",
+          "front": "il raccolto",
+          "back": "harvest",
+          "example": "Quest'anno il raccolto è stato abbondante."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-04-l4-e04",
+          "stage": "learn",
+          "front": "il corteo",
+          "back": "procession, parade",
+          "example": "Il corteo storico attraversa tutto il centro."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-04-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "sagra",
+            "castagne",
+            "volontari",
+            "corteo"
+          ],
+          "modelAnswer": "Un reportage racconta la sagra della castagna in un borgo dell'Appennino, nata come festa del raccolto e oggi molto frequentata. Ci sono polemiche su traffico e prezzi, ma i giovani riscoprono la storia del paese.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la disdetta",
+      "en": "cancellation (of a contract)",
+      "example": "Ho inviato la disdetta dell'abbonamento."
+    },
+    {
+      "it": "recedere",
+      "en": "to withdraw (from a contract)",
+      "example": "Si può recedere dal contratto entro quattordici giorni."
+    },
+    {
+      "it": "l'addebito",
+      "en": "charge, debit",
+      "example": "Ho notato un addebito che non riconosco."
+    },
+    {
+      "it": "lo scarto",
+      "en": "waste, offcut",
+      "example": "Dagli scarti delle verdure si può fare un buon brodo."
+    },
+    {
+      "it": "raffermo",
+      "en": "stale (of bread)",
+      "example": "Il pane raffermo si usa per la ribollita."
+    },
+    {
+      "it": "lo spreco",
+      "en": "waste, wastefulness",
+      "example": "Dobbiamo ridurre lo spreco di cibo."
+    },
+    {
+      "it": "il seggio",
+      "en": "polling station",
+      "example": "Il seggio è aperto fino alle venti."
+    },
+    {
+      "it": "vincolante",
+      "en": "binding",
+      "example": "Il parere del comitato non è vincolante."
+    },
+    {
+      "it": "il quesito",
+      "en": "question (put to a vote)",
+      "example": "Il quesito del referendum è molto chiaro."
+    },
+    {
+      "it": "la sagra",
+      "en": "local food festival",
+      "example": "Ogni estate andiamo alla sagra del paese."
+    },
+    {
+      "it": "il raccolto",
+      "en": "harvest",
+      "example": "Quest'anno il raccolto è stato abbondante."
+    },
+    {
+      "it": "il corteo",
+      "en": "procession, parade",
+      "example": "Il corteo storico attraversa tutto il centro."
+    }
+  ]
+}

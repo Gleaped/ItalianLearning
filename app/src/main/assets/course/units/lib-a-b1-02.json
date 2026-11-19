@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b1-02",
+  "level": "ASC",
+  "title": "Servizi e tempo libero",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni su viaggi, servizi e tempo libero (circa 100–140 parole): un racconto di viaggio, una ricetta, un'intervista, una visita guidata, una notizia e un messaggio della maestra.",
+  "grammarFocus": "Ascolto: leggere le domande prima, idea generale e dettagli, numeri, orari, prezzi e motivi.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b1-02-l1",
+      "title": "Racconto di viaggio: la Sicilia",
+      "minutes": 6,
+      "goal": "Capire il racconto di un viaggio e dei suoi imprevisti.",
+      "takeaway": "Nei racconti ascolta l'ordine degli eventi e i problemi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-02-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l1-e02",
+          "stage": "practise",
+          "audioText": "Ti racconto del viaggio in Sicilia, perché è stato, come dire, un po' un'avventura. Siamo partiti da Napoli la sera, con il traghetto, e abbiamo viaggiato tutta la notte. Il problema è che io, ehm, soffro il mal di mare, quindi non ho dormito quasi per niente. Siamo arrivati a Palermo alle sette di mattina, stanchissimi, e abbiamo noleggiato una macchina piccola, che costava quaranta euro al giorno. Poi siamo andati verso Cefalù, dove abbiamo mangiato il pesce più buono della mia vita. Il giorno dopo, però, abbiamo scoperto che avevamo perso le chiavi della macchina! Per fortuna una signora le aveva trovate sulla spiaggia e ce le ha riportate in albergo. Ecco, è stato il momento più emozionante di tutta la vacanza.",
+          "question": "Come sono andati in Sicilia?",
+          "options": [
+            "In aereo, la mattina",
+            "In treno, di sera",
+            "Con il traghetto, di notte",
+            "In macchina, di giorno"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l1-e03",
+          "stage": "practise",
+          "audioText": "Ti racconto del viaggio in Sicilia, perché è stato, come dire, un po' un'avventura. Siamo partiti da Napoli la sera, con il traghetto, e abbiamo viaggiato tutta la notte. Il problema è che io, ehm, soffro il mal di mare, quindi non ho dormito quasi per niente. Siamo arrivati a Palermo alle sette di mattina, stanchissimi, e abbiamo noleggiato una macchina piccola, che costava quaranta euro al giorno. Poi siamo andati verso Cefalù, dove abbiamo mangiato il pesce più buono della mia vita. Il giorno dopo, però, abbiamo scoperto che avevamo perso le chiavi della macchina! Per fortuna una signora le aveva trovate sulla spiaggia e ce le ha riportate in albergo. Ecco, è stato il momento più emozionante di tutta la vacanza.",
+          "question": "Perché il narratore non ha dormito?",
+          "options": [
+            "Soffre il mal di mare",
+            "Il traghetto era rumoroso",
+            "Aveva troppo caldo",
+            "Aveva perso le chiavi"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l1-e04",
+          "stage": "practise",
+          "audioText": "Ti racconto del viaggio in Sicilia, perché è stato, come dire, un po' un'avventura. Siamo partiti da Napoli la sera, con il traghetto, e abbiamo viaggiato tutta la notte. Il problema è che io, ehm, soffro il mal di mare, quindi non ho dormito quasi per niente. Siamo arrivati a Palermo alle sette di mattina, stanchissimi, e abbiamo noleggiato una macchina piccola, che costava quaranta euro al giorno. Poi siamo andati verso Cefalù, dove abbiamo mangiato il pesce più buono della mia vita. Il giorno dopo, però, abbiamo scoperto che avevamo perso le chiavi della macchina! Per fortuna una signora le aveva trovate sulla spiaggia e ce le ha riportate in albergo. Ecco, è stato il momento più emozionante di tutta la vacanza.",
+          "question": "Quanto costava la macchina a noleggio?",
+          "options": [
+            "Quattordici euro al giorno",
+            "Quaranta euro al giorno",
+            "Quaranta euro a settimana",
+            "Sessanta euro al giorno"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l1-e05",
+          "stage": "practise",
+          "audioText": "Ti racconto del viaggio in Sicilia, perché è stato, come dire, un po' un'avventura. Siamo partiti da Napoli la sera, con il traghetto, e abbiamo viaggiato tutta la notte. Il problema è che io, ehm, soffro il mal di mare, quindi non ho dormito quasi per niente. Siamo arrivati a Palermo alle sette di mattina, stanchissimi, e abbiamo noleggiato una macchina piccola, che costava quaranta euro al giorno. Poi siamo andati verso Cefalù, dove abbiamo mangiato il pesce più buono della mia vita. Il giorno dopo, però, abbiamo scoperto che avevamo perso le chiavi della macchina! Per fortuna una signora le aveva trovate sulla spiaggia e ce le ha riportate in albergo. Ecco, è stato il momento più emozionante di tutta la vacanza.",
+          "question": "Che cosa è successo alle chiavi?",
+          "options": [
+            "Le hanno trovate in albergo",
+            "Le hanno dimenticate sul traghetto",
+            "Non le hanno più trovate",
+            "Una signora le ha ritrovate e riportate"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l1-e06",
+          "stage": "learn",
+          "front": "il traghetto",
+          "back": "ferry",
+          "example": "Il traghetto parte alle nove di sera."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l1-e07",
+          "stage": "learn",
+          "front": "noleggiare",
+          "back": "to rent (a car, a bike)",
+          "example": "Vogliamo noleggiare una macchina per una settimana."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-02-l2",
+      "title": "Ricetta: la pasta al forno",
+      "minutes": 6,
+      "goal": "Seguire le istruzioni di una ricetta parlata.",
+      "takeaway": "Nelle istruzioni ascolta quantità, tempi e ordine dei passaggi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-02-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l2-e02",
+          "stage": "practise",
+          "audioText": "Allora, oggi facciamo una pasta al forno semplice, per quattro persone. Prima di tutto, mettete a bollire l'acqua e, nel frattempo, in una padella fate soffriggere una cipolla con un po' d'olio, per cinque minuti. Poi aggiungete trecento grammi di carne macinata e, dopo, una bottiglia di passata di pomodoro. Lasciate cuocere il sugo per venti minuti a fuoco basso, ma mi raccomando, non dimenticate il sale. Buttate la pasta, trecentocinquanta grammi, e scolatela due minuti prima, perché finisce di cuocere in forno. Mescolate la pasta con il sugo e con la mozzarella tagliata a pezzetti, e mettete tutto in una teglia. Infine, in forno a centottanta gradi per venticinque minuti. Fatela riposare un po' prima di servire, altrimenti scotta!",
+          "question": "Per quante persone è la ricetta?",
+          "options": [
+            "Per due persone",
+            "Per sei persone",
+            "Per otto persone",
+            "Per quattro persone"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l2-e03",
+          "stage": "practise",
+          "audioText": "Allora, oggi facciamo una pasta al forno semplice, per quattro persone. Prima di tutto, mettete a bollire l'acqua e, nel frattempo, in una padella fate soffriggere una cipolla con un po' d'olio, per cinque minuti. Poi aggiungete trecento grammi di carne macinata e, dopo, una bottiglia di passata di pomodoro. Lasciate cuocere il sugo per venti minuti a fuoco basso, ma mi raccomando, non dimenticate il sale. Buttate la pasta, trecentocinquanta grammi, e scolatela due minuti prima, perché finisce di cuocere in forno. Mescolate la pasta con il sugo e con la mozzarella tagliata a pezzetti, e mettete tutto in una teglia. Infine, in forno a centottanta gradi per venticinque minuti. Fatela riposare un po' prima di servire, altrimenti scotta!",
+          "question": "Quanto tempo deve cuocere il sugo?",
+          "options": [
+            "Cinque minuti",
+            "Venti minuti",
+            "Venticinque minuti",
+            "Due minuti"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l2-e04",
+          "stage": "practise",
+          "audioText": "Allora, oggi facciamo una pasta al forno semplice, per quattro persone. Prima di tutto, mettete a bollire l'acqua e, nel frattempo, in una padella fate soffriggere una cipolla con un po' d'olio, per cinque minuti. Poi aggiungete trecento grammi di carne macinata e, dopo, una bottiglia di passata di pomodoro. Lasciate cuocere il sugo per venti minuti a fuoco basso, ma mi raccomando, non dimenticate il sale. Buttate la pasta, trecentocinquanta grammi, e scolatela due minuti prima, perché finisce di cuocere in forno. Mescolate la pasta con il sugo e con la mozzarella tagliata a pezzetti, e mettete tutto in una teglia. Infine, in forno a centottanta gradi per venticinque minuti. Fatela riposare un po' prima di servire, altrimenti scotta!",
+          "question": "Quando bisogna scolare la pasta?",
+          "options": [
+            "Due minuti prima del tempo normale",
+            "Quando il sugo è freddo",
+            "Dopo il forno",
+            "Cinque minuti dopo"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l2-e05",
+          "stage": "practise",
+          "audioText": "Allora, oggi facciamo una pasta al forno semplice, per quattro persone. Prima di tutto, mettete a bollire l'acqua e, nel frattempo, in una padella fate soffriggere una cipolla con un po' d'olio, per cinque minuti. Poi aggiungete trecento grammi di carne macinata e, dopo, una bottiglia di passata di pomodoro. Lasciate cuocere il sugo per venti minuti a fuoco basso, ma mi raccomando, non dimenticate il sale. Buttate la pasta, trecentocinquanta grammi, e scolatela due minuti prima, perché finisce di cuocere in forno. Mescolate la pasta con il sugo e con la mozzarella tagliata a pezzetti, e mettete tutto in una teglia. Infine, in forno a centottanta gradi per venticinque minuti. Fatela riposare un po' prima di servire, altrimenti scotta!",
+          "question": "Quanto tempo resta in forno la pasta?",
+          "options": [
+            "Venti minuti a centottanta gradi",
+            "Venticinque minuti a duecento gradi",
+            "Venticinque minuti a centottanta gradi",
+            "Un'ora a cento gradi"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l2-e06",
+          "stage": "learn",
+          "front": "la padella",
+          "back": "frying pan",
+          "example": "Metti l'olio nella padella."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l2-e07",
+          "stage": "learn",
+          "front": "scolare",
+          "back": "to drain",
+          "example": "Scola la pasta due minuti prima."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-02-l3",
+      "title": "Intervista: la panettiera",
+      "minutes": 6,
+      "goal": "Capire un breve estratto di intervista su un lavoro.",
+      "takeaway": "Nelle interviste ascolta la domanda: ti dice che cosa cercare nella risposta.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-02-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l3-e02",
+          "stage": "practise",
+          "audioText": "Signora Bruni, lei fa la panettiera da trent'anni. Com'è la sua giornata? — Eh, comincia presto, alle tre di notte, perché il pane deve essere pronto per le sei e mezza, quando apriamo il negozio. — E non è stancante? — Beh, sì, ma io, come dire, ormai ci sono abituata. Il difficile è la sera: vado a letto alle otto, e i miei amici invece escono a cena. — Quanti clienti avete al giorno? — Circa duecento, soprattutto la mattina. Il sabato anche di più. — E che cosa è cambiato in questi anni? — Prima vendevamo solo pane bianco, adesso la gente chiede pane integrale e senza glutine, quindi abbiamo dovuto imparare cose nuove. Ma lavorare con le mani mi piace ancora molto, e non cambierei lavoro.",
+          "question": "A che ora comincia a lavorare la signora?",
+          "options": [
+            "Alle sei e mezza",
+            "Alle tre di notte",
+            "Alle otto di sera",
+            "Alle cinque di mattina"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l3-e03",
+          "stage": "practise",
+          "audioText": "Signora Bruni, lei fa la panettiera da trent'anni. Com'è la sua giornata? — Eh, comincia presto, alle tre di notte, perché il pane deve essere pronto per le sei e mezza, quando apriamo il negozio. — E non è stancante? — Beh, sì, ma io, come dire, ormai ci sono abituata. Il difficile è la sera: vado a letto alle otto, e i miei amici invece escono a cena. — Quanti clienti avete al giorno? — Circa duecento, soprattutto la mattina. Il sabato anche di più. — E che cosa è cambiato in questi anni? — Prima vendevamo solo pane bianco, adesso la gente chiede pane integrale e senza glutine, quindi abbiamo dovuto imparare cose nuove. Ma lavorare con le mani mi piace ancora molto, e non cambierei lavoro.",
+          "question": "Qual è la parte difficile della sua vita?",
+          "options": [
+            "Andare a letto presto la sera",
+            "Alzarsi alle sei",
+            "Parlare con i clienti",
+            "Lavorare la domenica"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l3-e04",
+          "stage": "practise",
+          "audioText": "Signora Bruni, lei fa la panettiera da trent'anni. Com'è la sua giornata? — Eh, comincia presto, alle tre di notte, perché il pane deve essere pronto per le sei e mezza, quando apriamo il negozio. — E non è stancante? — Beh, sì, ma io, come dire, ormai ci sono abituata. Il difficile è la sera: vado a letto alle otto, e i miei amici invece escono a cena. — Quanti clienti avete al giorno? — Circa duecento, soprattutto la mattina. Il sabato anche di più. — E che cosa è cambiato in questi anni? — Prima vendevamo solo pane bianco, adesso la gente chiede pane integrale e senza glutine, quindi abbiamo dovuto imparare cose nuove. Ma lavorare con le mani mi piace ancora molto, e non cambierei lavoro.",
+          "question": "Quanti clienti vengono ogni giorno?",
+          "options": [
+            "Circa trenta",
+            "Circa trecento",
+            "Circa duecento",
+            "Circa cento"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l3-e05",
+          "stage": "practise",
+          "audioText": "Signora Bruni, lei fa la panettiera da trent'anni. Com'è la sua giornata? — Eh, comincia presto, alle tre di notte, perché il pane deve essere pronto per le sei e mezza, quando apriamo il negozio. — E non è stancante? — Beh, sì, ma io, come dire, ormai ci sono abituata. Il difficile è la sera: vado a letto alle otto, e i miei amici invece escono a cena. — Quanti clienti avete al giorno? — Circa duecento, soprattutto la mattina. Il sabato anche di più. — E che cosa è cambiato in questi anni? — Prima vendevamo solo pane bianco, adesso la gente chiede pane integrale e senza glutine, quindi abbiamo dovuto imparare cose nuove. Ma lavorare con le mani mi piace ancora molto, e non cambierei lavoro.",
+          "question": "Che cosa è cambiato negli anni?",
+          "options": [
+            "Il negozio apre più tardi",
+            "Si vende solo pane bianco",
+            "Ci sono meno clienti",
+            "I clienti chiedono pane integrale e senza glutine"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l3-e06",
+          "stage": "learn",
+          "front": "la panettiera",
+          "back": "baker (woman)",
+          "example": "La panettiera apre il negozio alle sei e mezza."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l3-e07",
+          "stage": "learn",
+          "front": "integrale",
+          "back": "wholegrain",
+          "example": "Preferisco il pane integrale."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-02-l4",
+      "title": "Visita guidata: il castello",
+      "minutes": 6,
+      "goal": "Seguire una visita guidata e capire informazioni e regole.",
+      "takeaway": "Nelle visite guidate ascolta date, durata e cose da non fare.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-02-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l4-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti al castello! Io sono Elena e vi accompagno per la visita, che dura circa un'ora e mezza. Allora, il castello è stato costruito nel milleduecento da una famiglia di commercianti e poi, ehm, nel Cinquecento è diventato la residenza di un duca. Entriamo dalla torre: qui a sinistra vedete la sala delle armi, dove ci sono più di cento oggetti originali. Salendo al primo piano c'è la sala degli specchi, che è stata restaurata l'anno scorso. Vi chiedo solo di non usare il flash per le foto e di non toccare i muri. Alla fine, verso mezzogiorno, ci fermiamo nel giardino, dove potete comprare un caffè al bar, o i ricordi nel negozio. Se avete domande, chiedete pure durante la visita. Bene, seguitemi!",
+          "question": "Quanto dura la visita?",
+          "options": [
+            "Circa mezz'ora",
+            "Circa due ore",
+            "Circa tre ore",
+            "Circa un'ora e mezza"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l4-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti al castello! Io sono Elena e vi accompagno per la visita, che dura circa un'ora e mezza. Allora, il castello è stato costruito nel milleduecento da una famiglia di commercianti e poi, ehm, nel Cinquecento è diventato la residenza di un duca. Entriamo dalla torre: qui a sinistra vedete la sala delle armi, dove ci sono più di cento oggetti originali. Salendo al primo piano c'è la sala degli specchi, che è stata restaurata l'anno scorso. Vi chiedo solo di non usare il flash per le foto e di non toccare i muri. Alla fine, verso mezzogiorno, ci fermiamo nel giardino, dove potete comprare un caffè al bar, o i ricordi nel negozio. Se avete domande, chiedete pure durante la visita. Bene, seguitemi!",
+          "question": "Chi ha costruito il castello?",
+          "options": [
+            "Una famiglia di commercianti",
+            "Un duca",
+            "Un gruppo di soldati",
+            "Un architetto famoso"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l4-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti al castello! Io sono Elena e vi accompagno per la visita, che dura circa un'ora e mezza. Allora, il castello è stato costruito nel milleduecento da una famiglia di commercianti e poi, ehm, nel Cinquecento è diventato la residenza di un duca. Entriamo dalla torre: qui a sinistra vedete la sala delle armi, dove ci sono più di cento oggetti originali. Salendo al primo piano c'è la sala degli specchi, che è stata restaurata l'anno scorso. Vi chiedo solo di non usare il flash per le foto e di non toccare i muri. Alla fine, verso mezzogiorno, ci fermiamo nel giardino, dove potete comprare un caffè al bar, o i ricordi nel negozio. Se avete domande, chiedete pure durante la visita. Bene, seguitemi!",
+          "question": "Che cosa non si deve fare?",
+          "options": [
+            "Fare domande",
+            "Comprare un caffè",
+            "Usare il flash per le foto",
+            "Salire al primo piano"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l4-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti al castello! Io sono Elena e vi accompagno per la visita, che dura circa un'ora e mezza. Allora, il castello è stato costruito nel milleduecento da una famiglia di commercianti e poi, ehm, nel Cinquecento è diventato la residenza di un duca. Entriamo dalla torre: qui a sinistra vedete la sala delle armi, dove ci sono più di cento oggetti originali. Salendo al primo piano c'è la sala degli specchi, che è stata restaurata l'anno scorso. Vi chiedo solo di non usare il flash per le foto e di non toccare i muri. Alla fine, verso mezzogiorno, ci fermiamo nel giardino, dove potete comprare un caffè al bar, o i ricordi nel negozio. Se avete domande, chiedete pure durante la visita. Bene, seguitemi!",
+          "question": "Quale sala è stata restaurata l'anno scorso?",
+          "options": [
+            "La sala delle armi",
+            "La sala degli specchi",
+            "La torre",
+            "Il giardino"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l4-e06",
+          "stage": "learn",
+          "front": "il castello",
+          "back": "castle",
+          "example": "Il castello è sopra la collina."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l4-e07",
+          "stage": "learn",
+          "front": "restaurato",
+          "back": "restored",
+          "example": "Il palazzo è stato restaurato di recente."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-02-l5",
+      "title": "Notizia locale: la biblioteca",
+      "minutes": 6,
+      "goal": "Capire una notizia locale con numeri, motivi e durata.",
+      "takeaway": "Nelle notizie cerca che cosa cambia, chi ne parla e perché.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-02-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l5-e02",
+          "stage": "practise",
+          "audioText": "Passiamo alle notizie locali. Da lunedì prossimo la biblioteca comunale resterà aperta anche la sera, fino alle ventidue, per aiutare gli studenti che preparano gli esami. L'iniziativa, che durerà tre mesi, è stata decisa dal Comune dopo le richieste di molti giovani, che non trovavano posto nelle aule studio. Per entrare dopo le venti serve una tessera gratuita, che si può ritirare allo sportello oppure richiedere online. Ci saranno anche più posti: da centoventi a duecentottanta. Secondo il responsabile, il costo del progetto sarà di circa quindicimila euro, pagati con i fondi per la scuola. Il servizio, però, non sarà attivo la domenica. E adesso passiamo allo sport.",
+          "question": "Fino a che ora resta aperta la biblioteca?",
+          "options": [
+            "Fino alle venti",
+            "Fino alle ventidue",
+            "Fino a mezzanotte",
+            "Fino alle diciotto"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l5-e03",
+          "stage": "practise",
+          "audioText": "Passiamo alle notizie locali. Da lunedì prossimo la biblioteca comunale resterà aperta anche la sera, fino alle ventidue, per aiutare gli studenti che preparano gli esami. L'iniziativa, che durerà tre mesi, è stata decisa dal Comune dopo le richieste di molti giovani, che non trovavano posto nelle aule studio. Per entrare dopo le venti serve una tessera gratuita, che si può ritirare allo sportello oppure richiedere online. Ci saranno anche più posti: da centoventi a duecentottanta. Secondo il responsabile, il costo del progetto sarà di circa quindicimila euro, pagati con i fondi per la scuola. Il servizio, però, non sarà attivo la domenica. E adesso passiamo allo sport.",
+          "question": "Perché hanno deciso di prolungare l'orario?",
+          "options": [
+            "Gli studenti non trovavano posto per studiare",
+            "La biblioteca ha nuovi libri",
+            "Ci sono più turisti",
+            "Il Comune vuole risparmiare"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l5-e04",
+          "stage": "practise",
+          "audioText": "Passiamo alle notizie locali. Da lunedì prossimo la biblioteca comunale resterà aperta anche la sera, fino alle ventidue, per aiutare gli studenti che preparano gli esami. L'iniziativa, che durerà tre mesi, è stata decisa dal Comune dopo le richieste di molti giovani, che non trovavano posto nelle aule studio. Per entrare dopo le venti serve una tessera gratuita, che si può ritirare allo sportello oppure richiedere online. Ci saranno anche più posti: da centoventi a duecentottanta. Secondo il responsabile, il costo del progetto sarà di circa quindicimila euro, pagati con i fondi per la scuola. Il servizio, però, non sarà attivo la domenica. E adesso passiamo allo sport.",
+          "question": "Quanto durerà l'iniziativa?",
+          "options": [
+            "Un mese",
+            "Un anno",
+            "Tre mesi",
+            "Sei mesi"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l5-e05",
+          "stage": "practise",
+          "audioText": "Passiamo alle notizie locali. Da lunedì prossimo la biblioteca comunale resterà aperta anche la sera, fino alle ventidue, per aiutare gli studenti che preparano gli esami. L'iniziativa, che durerà tre mesi, è stata decisa dal Comune dopo le richieste di molti giovani, che non trovavano posto nelle aule studio. Per entrare dopo le venti serve una tessera gratuita, che si può ritirare allo sportello oppure richiedere online. Ci saranno anche più posti: da centoventi a duecentottanta. Secondo il responsabile, il costo del progetto sarà di circa quindicimila euro, pagati con i fondi per la scuola. Il servizio, però, non sarà attivo la domenica. E adesso passiamo allo sport.",
+          "question": "Quanti posti ci saranno?",
+          "options": [
+            "Centoventi",
+            "Duecentoventi",
+            "Quindicimila",
+            "Duecentottanta"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l5-e06",
+          "stage": "learn",
+          "front": "l'iniziativa",
+          "back": "initiative, scheme",
+          "example": "L'iniziativa è gratuita per gli studenti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l5-e07",
+          "stage": "learn",
+          "front": "la tessera",
+          "back": "membership card, pass",
+          "example": "Per entrare serve la tessera."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-02-l6",
+      "title": "Messaggio della maestra: la gita",
+      "minutes": 6,
+      "goal": "Capire un messaggio di una insegnante con informazioni pratiche.",
+      "takeaway": "Nei messaggi della scuola ascolta ora, costo, cose da portare e scadenze.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-02-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l6-e02",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti i genitori della classe terza, sono la maestra Anna. Vi lascio questo messaggio vocale per alcune informazioni sulla gita di venerdì. Allora, partiamo alle otto e un quarto davanti alla scuola, quindi vi prego di essere puntuali. Andiamo al museo della scienza, in autobus, e torniamo verso le quattro del pomeriggio. I bambini devono portare il pranzo al sacco, cioè un panino e la frutta, e una bottiglietta d'acqua. Niente patatine né dolci, per favore. Il costo della gita è dodici euro a bambino, da portare in una busta entro mercoledì. Se piove, la gita sarà rimandata alla settimana dopo. Grazie mille e buona serata.",
+          "question": "A che ora si parte venerdì?",
+          "options": [
+            "Alle otto e mezza",
+            "Alle quattro",
+            "Alle otto e un quarto",
+            "Alle nove e un quarto"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l6-e03",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti i genitori della classe terza, sono la maestra Anna. Vi lascio questo messaggio vocale per alcune informazioni sulla gita di venerdì. Allora, partiamo alle otto e un quarto davanti alla scuola, quindi vi prego di essere puntuali. Andiamo al museo della scienza, in autobus, e torniamo verso le quattro del pomeriggio. I bambini devono portare il pranzo al sacco, cioè un panino e la frutta, e una bottiglietta d'acqua. Niente patatine né dolci, per favore. Il costo della gita è dodici euro a bambino, da portare in una busta entro mercoledì. Se piove, la gita sarà rimandata alla settimana dopo. Grazie mille e buona serata.",
+          "question": "Che cosa devono portare i bambini?",
+          "options": [
+            "Un panino, la frutta e l'acqua",
+            "Patatine e dolci",
+            "Solo i soldi",
+            "Un panino e un libro"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l6-e04",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti i genitori della classe terza, sono la maestra Anna. Vi lascio questo messaggio vocale per alcune informazioni sulla gita di venerdì. Allora, partiamo alle otto e un quarto davanti alla scuola, quindi vi prego di essere puntuali. Andiamo al museo della scienza, in autobus, e torniamo verso le quattro del pomeriggio. I bambini devono portare il pranzo al sacco, cioè un panino e la frutta, e una bottiglietta d'acqua. Niente patatine né dolci, per favore. Il costo della gita è dodici euro a bambino, da portare in una busta entro mercoledì. Se piove, la gita sarà rimandata alla settimana dopo. Grazie mille e buona serata.",
+          "question": "Quando bisogna portare i soldi?",
+          "options": [
+            "Venerdì mattina",
+            "Entro mercoledì, in una busta",
+            "Entro lunedì",
+            "Alla fine della gita"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-02-l6-e05",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti i genitori della classe terza, sono la maestra Anna. Vi lascio questo messaggio vocale per alcune informazioni sulla gita di venerdì. Allora, partiamo alle otto e un quarto davanti alla scuola, quindi vi prego di essere puntuali. Andiamo al museo della scienza, in autobus, e torniamo verso le quattro del pomeriggio. I bambini devono portare il pranzo al sacco, cioè un panino e la frutta, e una bottiglietta d'acqua. Niente patatine né dolci, per favore. Il costo della gita è dodici euro a bambino, da portare in una busta entro mercoledì. Se piove, la gita sarà rimandata alla settimana dopo. Grazie mille e buona serata.",
+          "question": "Che cosa succede se piove?",
+          "options": [
+            "La gita è annullata",
+            "Si va lo stesso in autobus",
+            "La gita si fa a scuola",
+            "La gita è rimandata alla settimana dopo"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l6-e06",
+          "stage": "learn",
+          "front": "la gita",
+          "back": "school trip, outing",
+          "example": "La gita al museo è venerdì."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-02-l6-e07",
+          "stage": "learn",
+          "front": "il pranzo al sacco",
+          "back": "packed lunch",
+          "example": "Per la gita porta il pranzo al sacco."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il traghetto",
+      "en": "ferry",
+      "example": "Il traghetto parte alle nove di sera."
+    },
+    {
+      "it": "noleggiare",
+      "en": "to rent (a car, a bike)",
+      "example": "Vogliamo noleggiare una macchina per una settimana."
+    },
+    {
+      "it": "la padella",
+      "en": "frying pan",
+      "example": "Metti l'olio nella padella."
+    },
+    {
+      "it": "scolare",
+      "en": "to drain",
+      "example": "Scola la pasta due minuti prima."
+    },
+    {
+      "it": "la panettiera",
+      "en": "baker (woman)",
+      "example": "La panettiera apre il negozio alle sei e mezza."
+    },
+    {
+      "it": "integrale",
+      "en": "wholegrain",
+      "example": "Preferisco il pane integrale."
+    },
+    {
+      "it": "il castello",
+      "en": "castle",
+      "example": "Il castello è sopra la collina."
+    },
+    {
+      "it": "restaurato",
+      "en": "restored",
+      "example": "Il palazzo è stato restaurato di recente."
+    },
+    {
+      "it": "l'iniziativa",
+      "en": "initiative, scheme",
+      "example": "L'iniziativa è gratuita per gli studenti."
+    },
+    {
+      "it": "la tessera",
+      "en": "membership card, pass",
+      "example": "Per entrare serve la tessera."
+    },
+    {
+      "it": "la gita",
+      "en": "school trip, outing",
+      "example": "La gita al museo è venerdì."
+    },
+    {
+      "it": "il pranzo al sacco",
+      "en": "packed lunch",
+      "example": "Per la gita porta il pranzo al sacco."
+    }
+  ]
+}

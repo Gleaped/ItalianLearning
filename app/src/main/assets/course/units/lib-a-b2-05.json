@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b2-05",
+  "level": "ASC",
+  "title": "Cronaca, natura e relazioni",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni di livello B2 (circa 150–190 parole): un servizio su uno sciopero, un'intervista a una scrittrice, un bollettino meteo e agricolo, la consulenza di un'esperta sul sonno, una mediazione tra vicini e il racconto di un cammino a piedi.",
+  "grammarFocus": "Ascolto esteso B2: confrontare versioni diverse, riconoscere consigli e cautele, seguire una negoziazione e capire il bilancio di un'esperienza.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b2-05-l1",
+      "title": "Servizio al notiziario: lo sciopero dei trasporti",
+      "minutes": 8,
+      "goal": "Seguire un servizio di cronaca e confrontare dati e versioni diverse.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-05-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un servizio di cronaca",
+          "body": "In un servizio di cronaca i fatti sono presentati con precisione: chi, che cosa, quando.\n\nQuando due parti danno numeri diversi, ascolta chi dice che cosa: «secondo i sindacati… l'azienda, invece…».\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l1-e02",
+          "stage": "practise",
+          "audioText": "Passiamo alla cronaca. Da stamattina alle otto è in corso lo sciopero dei trasporti pubblici proclamato dai sindacati per il rinnovo del contratto, scaduto ormai da due anni. Lo stop durerà ventiquattro ore e riguarda autobus, metropolitana e tram, mentre i treni regionali circoleranno regolarmente. Sono garantiti i servizi essenziali nelle fasce dalle sei alle nove e dalle diciassette alle venti, ma l'azienda ha già annunciato forti disagi. Secondo i sindacati, ha aderito oltre il settanta per cento dei lavoratori; l'azienda, invece, parla di meno della metà. Una differenza non da poco, che sarà difficile chiarire prima di stasera. Le richieste dei lavoratori sono tre: un aumento di centocinquanta euro al mese, più sicurezza per gli autisti e meno turni notturni. Il ministro ha invitato le parti a riaprire il dialogo, ma finora non è stato fissato alcun incontro. Intanto, in centro il traffico è molto intenso e i taxi sono introvabili. Consigliamo, se possibile, di lavorare da casa o di usare la bicicletta. Torneremo sull'argomento nel notiziario delle tredici.",
+          "question": "Quali mezzi NON sono fermi?",
+          "options": [
+            "Gli autobus",
+            "I treni regionali",
+            "La metropolitana",
+            "I tram"
+          ],
+          "answer": 1,
+          "explanation": "Il testo dice che i treni regionali circoleranno regolarmente."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l1-e03",
+          "stage": "practise",
+          "audioText": "Passiamo alla cronaca. Da stamattina alle otto è in corso lo sciopero dei trasporti pubblici proclamato dai sindacati per il rinnovo del contratto, scaduto ormai da due anni. Lo stop durerà ventiquattro ore e riguarda autobus, metropolitana e tram, mentre i treni regionali circoleranno regolarmente. Sono garantiti i servizi essenziali nelle fasce dalle sei alle nove e dalle diciassette alle venti, ma l'azienda ha già annunciato forti disagi. Secondo i sindacati, ha aderito oltre il settanta per cento dei lavoratori; l'azienda, invece, parla di meno della metà. Una differenza non da poco, che sarà difficile chiarire prima di stasera. Le richieste dei lavoratori sono tre: un aumento di centocinquanta euro al mese, più sicurezza per gli autisti e meno turni notturni. Il ministro ha invitato le parti a riaprire il dialogo, ma finora non è stato fissato alcun incontro. Intanto, in centro il traffico è molto intenso e i taxi sono introvabili. Consigliamo, se possibile, di lavorare da casa o di usare la bicicletta. Torneremo sull'argomento nel notiziario delle tredici.",
+          "question": "In quali fasce orarie il servizio è garantito?",
+          "options": [
+            "Dalle sei alle nove e dalle diciassette alle venti",
+            "Dalle otto alle tredici",
+            "Solo dalle nove alle diciassette",
+            "Per tutta la giornata"
+          ],
+          "answer": 0,
+          "explanation": "Sono le fasce dei servizi essenziali indicate nel servizio."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l1-e04",
+          "stage": "practise",
+          "audioText": "Passiamo alla cronaca. Da stamattina alle otto è in corso lo sciopero dei trasporti pubblici proclamato dai sindacati per il rinnovo del contratto, scaduto ormai da due anni. Lo stop durerà ventiquattro ore e riguarda autobus, metropolitana e tram, mentre i treni regionali circoleranno regolarmente. Sono garantiti i servizi essenziali nelle fasce dalle sei alle nove e dalle diciassette alle venti, ma l'azienda ha già annunciato forti disagi. Secondo i sindacati, ha aderito oltre il settanta per cento dei lavoratori; l'azienda, invece, parla di meno della metà. Una differenza non da poco, che sarà difficile chiarire prima di stasera. Le richieste dei lavoratori sono tre: un aumento di centocinquanta euro al mese, più sicurezza per gli autisti e meno turni notturni. Il ministro ha invitato le parti a riaprire il dialogo, ma finora non è stato fissato alcun incontro. Intanto, in centro il traffico è molto intenso e i taxi sono introvabili. Consigliamo, se possibile, di lavorare da casa o di usare la bicicletta. Torneremo sull'argomento nel notiziario delle tredici.",
+          "question": "Che cosa mostra la differenza tra i dati dei sindacati e dell'azienda?",
+          "options": [
+            "Che le due parti valutano la partecipazione in modo molto diverso",
+            "Che lo sciopero è finito",
+            "Che i lavoratori non vogliono scioperare",
+            "Che i dati ufficiali sono già stati verificati"
+          ],
+          "answer": 0,
+          "explanation": "I sindacati parlano di oltre il settanta per cento; l'azienda di meno della metà."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l1-e05",
+          "stage": "practise",
+          "audioText": "Passiamo alla cronaca. Da stamattina alle otto è in corso lo sciopero dei trasporti pubblici proclamato dai sindacati per il rinnovo del contratto, scaduto ormai da due anni. Lo stop durerà ventiquattro ore e riguarda autobus, metropolitana e tram, mentre i treni regionali circoleranno regolarmente. Sono garantiti i servizi essenziali nelle fasce dalle sei alle nove e dalle diciassette alle venti, ma l'azienda ha già annunciato forti disagi. Secondo i sindacati, ha aderito oltre il settanta per cento dei lavoratori; l'azienda, invece, parla di meno della metà. Una differenza non da poco, che sarà difficile chiarire prima di stasera. Le richieste dei lavoratori sono tre: un aumento di centocinquanta euro al mese, più sicurezza per gli autisti e meno turni notturni. Il ministro ha invitato le parti a riaprire il dialogo, ma finora non è stato fissato alcun incontro. Intanto, in centro il traffico è molto intenso e i taxi sono introvabili. Consigliamo, se possibile, di lavorare da casa o di usare la bicicletta. Torneremo sull'argomento nel notiziario delle tredici.",
+          "question": "Com'è la situazione delle trattative?",
+          "options": [
+            "Le parti hanno firmato un accordo",
+            "Il ministro ha cancellato lo sciopero",
+            "L'incontro è fissato per stasera",
+            "Il conflitto non è ancora risolto e non c'è nessun incontro fissato"
+          ],
+          "answer": 3,
+          "explanation": "Il ministro ha invitato al dialogo, ma non è stato fissato alcun incontro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l1-e06",
+          "stage": "learn",
+          "front": "lo sciopero",
+          "back": "strike",
+          "example": "Domani c'è lo sciopero dei treni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l1-e07",
+          "stage": "learn",
+          "front": "il rinnovo del contratto",
+          "back": "contract renewal",
+          "example": "I sindacati chiedono il rinnovo del contratto."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-05-l2",
+      "title": "Intervista al festival del libro",
+      "minutes": 8,
+      "goal": "Seguire un'intervista a una scrittrice e capire ipotesi, scelte e atteggiamenti.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-05-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un'intervista letteraria",
+          "body": "Chi parla del proprio lavoro spiega le scelte con motivi e ripensamenti.\n\nEspressioni come «credo», «sinceramente» e «solo in parte» servono per non esagerare: ascoltale con attenzione.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l2-e02",
+          "stage": "practise",
+          "audioText": "Chiara Rinaldi, il suo nuovo romanzo, «Le stagioni della valle», è già alla terza ristampa. Se lo aspettava? Sinceramente no. Quando l'ho consegnato all'editore ero convinta che sarebbe stato un libro per pochi, perché racconta la vita in un paese di montagna e non succede quasi niente. Eppure i lettori lo amano. Credo perché parla di cose universali, come l'attesa o la memoria, anche se i luoghi sono molto precisi. Ho scritto la prima versione in sei mesi, ma poi ne ho impiegati quasi due anni per riscriverla: ho tagliato circa un terzo del testo. Un terzo! Non le è dispiaciuto? All'inizio sì, tantissimo. Poi ho capito che le pagine più belle, spesso, sono quelle che non si leggono. È un libro autobiografico? Solo in parte. La protagonista è ispirata a mia nonna, ma ho cambiato nomi ed eventi: non volevo scrivere una biografia. E il prossimo libro? Per ora non ne parlo, porta male. Se ne riparla tra un anno.",
+          "question": "Che cosa pensava la scrittrice del suo romanzo prima della pubblicazione?",
+          "options": [
+            "Era sicura di un grande successo",
+            "Pensava di non pubblicarlo",
+            "Pensava che avrebbe interessato pochi lettori",
+            "Voleva vincere un premio"
+          ],
+          "answer": 2,
+          "explanation": "Dice che pensava fosse «un libro per pochi»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l2-e03",
+          "stage": "practise",
+          "audioText": "Chiara Rinaldi, il suo nuovo romanzo, «Le stagioni della valle», è già alla terza ristampa. Se lo aspettava? Sinceramente no. Quando l'ho consegnato all'editore ero convinta che sarebbe stato un libro per pochi, perché racconta la vita in un paese di montagna e non succede quasi niente. Eppure i lettori lo amano. Credo perché parla di cose universali, come l'attesa o la memoria, anche se i luoghi sono molto precisi. Ho scritto la prima versione in sei mesi, ma poi ne ho impiegati quasi due anni per riscriverla: ho tagliato circa un terzo del testo. Un terzo! Non le è dispiaciuto? All'inizio sì, tantissimo. Poi ho capito che le pagine più belle, spesso, sono quelle che non si leggono. È un libro autobiografico? Solo in parte. La protagonista è ispirata a mia nonna, ma ho cambiato nomi ed eventi: non volevo scrivere una biografia. E il prossimo libro? Per ora non ne parlo, porta male. Se ne riparla tra un anno.",
+          "question": "Perché, secondo lei, il romanzo piace ai lettori?",
+          "options": [
+            "Perché ha molte avventure",
+            "Parla di temi universali, anche se i luoghi sono precisi",
+            "Perché è molto breve",
+            "Perché è scritto in dialetto"
+          ],
+          "answer": 1,
+          "explanation": "Con «credo» propone che l'attesa e la memoria siano temi universali."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l2-e04",
+          "stage": "practise",
+          "audioText": "Chiara Rinaldi, il suo nuovo romanzo, «Le stagioni della valle», è già alla terza ristampa. Se lo aspettava? Sinceramente no. Quando l'ho consegnato all'editore ero convinta che sarebbe stato un libro per pochi, perché racconta la vita in un paese di montagna e non succede quasi niente. Eppure i lettori lo amano. Credo perché parla di cose universali, come l'attesa o la memoria, anche se i luoghi sono molto precisi. Ho scritto la prima versione in sei mesi, ma poi ne ho impiegati quasi due anni per riscriverla: ho tagliato circa un terzo del testo. Un terzo! Non le è dispiaciuto? All'inizio sì, tantissimo. Poi ho capito che le pagine più belle, spesso, sono quelle che non si leggono. È un libro autobiografico? Solo in parte. La protagonista è ispirata a mia nonna, ma ho cambiato nomi ed eventi: non volevo scrivere una biografia. E il prossimo libro? Per ora non ne parlo, porta male. Se ne riparla tra un anno.",
+          "question": "Come ha vissuto il taglio di un terzo del testo?",
+          "options": [
+            "Non le è dispiaciuto per niente",
+            "All'inizio male, poi ha cambiato idea",
+            "Ha rifiutato di tagliare",
+            "Lo ha deciso l'editore contro il suo parere"
+          ],
+          "answer": 1,
+          "explanation": "Dice «all'inizio sì, tantissimo» e poi ha capito il valore del taglio."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l2-e05",
+          "stage": "practise",
+          "audioText": "Chiara Rinaldi, il suo nuovo romanzo, «Le stagioni della valle», è già alla terza ristampa. Se lo aspettava? Sinceramente no. Quando l'ho consegnato all'editore ero convinta che sarebbe stato un libro per pochi, perché racconta la vita in un paese di montagna e non succede quasi niente. Eppure i lettori lo amano. Credo perché parla di cose universali, come l'attesa o la memoria, anche se i luoghi sono molto precisi. Ho scritto la prima versione in sei mesi, ma poi ne ho impiegati quasi due anni per riscriverla: ho tagliato circa un terzo del testo. Un terzo! Non le è dispiaciuto? All'inizio sì, tantissimo. Poi ho capito che le pagine più belle, spesso, sono quelle che non si leggono. È un libro autobiografico? Solo in parte. La protagonista è ispirata a mia nonna, ma ho cambiato nomi ed eventi: non volevo scrivere una biografia. E il prossimo libro? Per ora non ne parlo, porta male. Se ne riparla tra un anno.",
+          "question": "Che rapporto c'è tra il libro e la vita della scrittrice?",
+          "options": [
+            "La protagonista è ispirata alla nonna, ma gli eventi sono cambiati",
+            "Il libro è un'autobiografia fedele",
+            "Non ha nessun legame con la sua vita",
+            "È la biografia di una persona famosa"
+          ],
+          "answer": 0,
+          "explanation": "Il libro è autobiografico solo in parte: la protagonista è ispirata alla nonna."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l2-e06",
+          "stage": "learn",
+          "front": "la ristampa",
+          "back": "reprint",
+          "example": "Il romanzo è alla terza ristampa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l2-e07",
+          "stage": "learn",
+          "front": "tagliare",
+          "back": "to cut",
+          "example": "Ho tagliato un terzo del testo."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-05-l3",
+      "title": "Bollettino meteorologico e agricolo",
+      "minutes": 8,
+      "goal": "Capire un bollettino con previsioni, consigli e incertezze.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-05-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un bollettino",
+          "body": "Un bollettino collega le previsioni ai consigli pratici: se piove, cosa si deve fare?\n\nCerca i verbi di consiglio («rimandare», «approfittare») e le parole di incertezza («è previsto», «l'incertezza è alta»).\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l3-e02",
+          "stage": "practise",
+          "audioText": "Bollettino meteorologico e agricolo per la pianura, a cura del servizio regionale. Dopo una settimana di tempo stabile, da domani sera una perturbazione atlantica porterà piogge diffuse, con temporali anche forti nella notte tra giovedì e venerdì. Le precipitazioni attese sono tra trenta e cinquanta millimetri in ventiquattro ore, abbastanza da creare problemi nei campi già saturi. Per chi coltiva cereali, il consiglio è di rimandare la semina dei prossimi giorni, perché il terreno troppo bagnato rischia di far marcire i semi. I frutticoltori, invece, dovrebbero approfittare delle ore asciutte di domani per i trattamenti, ma solo prima delle sedici, quando il vento comincerà a rinforzare. Le temperature scenderanno di circa sei gradi, con minime vicine allo zero in collina: attenzione quindi al rischio di gelate sulle fioriture precoci, che quest'anno sono in anticipo di una decina di giorni. Da sabato è previsto un miglioramento, ma l'incertezza è ancora alta, e il prossimo aggiornamento sarà diffuso domani alle diciotto.",
+          "question": "Quando arriveranno le piogge?",
+          "options": [
+            "Subito, in giornata",
+            "Da sabato",
+            "Fra una settimana",
+            "Da domani sera"
+          ],
+          "answer": 3,
+          "explanation": "Dopo una settimana di tempo stabile, la perturbazione arriva da domani sera."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l3-e03",
+          "stage": "practise",
+          "audioText": "Bollettino meteorologico e agricolo per la pianura, a cura del servizio regionale. Dopo una settimana di tempo stabile, da domani sera una perturbazione atlantica porterà piogge diffuse, con temporali anche forti nella notte tra giovedì e venerdì. Le precipitazioni attese sono tra trenta e cinquanta millimetri in ventiquattro ore, abbastanza da creare problemi nei campi già saturi. Per chi coltiva cereali, il consiglio è di rimandare la semina dei prossimi giorni, perché il terreno troppo bagnato rischia di far marcire i semi. I frutticoltori, invece, dovrebbero approfittare delle ore asciutte di domani per i trattamenti, ma solo prima delle sedici, quando il vento comincerà a rinforzare. Le temperature scenderanno di circa sei gradi, con minime vicine allo zero in collina: attenzione quindi al rischio di gelate sulle fioriture precoci, che quest'anno sono in anticipo di una decina di giorni. Da sabato è previsto un miglioramento, ma l'incertezza è ancora alta, e il prossimo aggiornamento sarà diffuso domani alle diciotto.",
+          "question": "Che cosa è consigliato a chi coltiva cereali?",
+          "options": [
+            "Seminare subito",
+            "Raccogliere tutto domani",
+            "Rimandare la semina",
+            "Irrigare più del solito"
+          ],
+          "answer": 2,
+          "explanation": "Il terreno troppo bagnato rischia di far marcire i semi."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l3-e04",
+          "stage": "practise",
+          "audioText": "Bollettino meteorologico e agricolo per la pianura, a cura del servizio regionale. Dopo una settimana di tempo stabile, da domani sera una perturbazione atlantica porterà piogge diffuse, con temporali anche forti nella notte tra giovedì e venerdì. Le precipitazioni attese sono tra trenta e cinquanta millimetri in ventiquattro ore, abbastanza da creare problemi nei campi già saturi. Per chi coltiva cereali, il consiglio è di rimandare la semina dei prossimi giorni, perché il terreno troppo bagnato rischia di far marcire i semi. I frutticoltori, invece, dovrebbero approfittare delle ore asciutte di domani per i trattamenti, ma solo prima delle sedici, quando il vento comincerà a rinforzare. Le temperature scenderanno di circa sei gradi, con minime vicine allo zero in collina: attenzione quindi al rischio di gelate sulle fioriture precoci, che quest'anno sono in anticipo di una decina di giorni. Da sabato è previsto un miglioramento, ma l'incertezza è ancora alta, e il prossimo aggiornamento sarà diffuso domani alle diciotto.",
+          "question": "Perché i frutticoltori devono fare i trattamenti entro le sedici?",
+          "options": [
+            "Perché comincerà a piovere",
+            "Perché farà troppo caldo",
+            "Perché dopo le sedici il vento rinforzerà",
+            "Perché i negozi chiuderanno"
+          ],
+          "answer": 2,
+          "explanation": "Il testo dice «solo prima delle sedici, quando il vento comincerà a rinforzare»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l3-e05",
+          "stage": "practise",
+          "audioText": "Bollettino meteorologico e agricolo per la pianura, a cura del servizio regionale. Dopo una settimana di tempo stabile, da domani sera una perturbazione atlantica porterà piogge diffuse, con temporali anche forti nella notte tra giovedì e venerdì. Le precipitazioni attese sono tra trenta e cinquanta millimetri in ventiquattro ore, abbastanza da creare problemi nei campi già saturi. Per chi coltiva cereali, il consiglio è di rimandare la semina dei prossimi giorni, perché il terreno troppo bagnato rischia di far marcire i semi. I frutticoltori, invece, dovrebbero approfittare delle ore asciutte di domani per i trattamenti, ma solo prima delle sedici, quando il vento comincerà a rinforzare. Le temperature scenderanno di circa sei gradi, con minime vicine allo zero in collina: attenzione quindi al rischio di gelate sulle fioriture precoci, che quest'anno sono in anticipo di una decina di giorni. Da sabato è previsto un miglioramento, ma l'incertezza è ancora alta, e il prossimo aggiornamento sarà diffuso domani alle diciotto.",
+          "question": "Che cosa si può dire della previsione per sabato?",
+          "options": [
+            "È certo che il tempo sarà sereno",
+            "Dovrebbe migliorare, ma è poco sicura",
+            "È certo che pioverà ancora",
+            "Non è stata fatta nessuna previsione"
+          ],
+          "answer": 1,
+          "explanation": "Dice «è previsto un miglioramento» ma «l'incertezza è ancora alta»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l3-e06",
+          "stage": "learn",
+          "front": "la semina",
+          "back": "sowing",
+          "example": "La semina è stata rimandata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l3-e07",
+          "stage": "learn",
+          "front": "la gelata",
+          "back": "frost",
+          "example": "Una gelata può rovinare i fiori."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-05-l4",
+      "title": "Consigli di un'esperta: il sonno",
+      "minutes": 8,
+      "goal": "Capire una consulenza con opinioni, errori comuni e consigli pratici.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-05-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un consiglio d'esperto",
+          "body": "Un'esperta smentisce un'idea sbagliata, spiega i fatti e poi dà consigli.\n\nCerca «in realtà», «un errore diffuso» e «meglio… piuttosto che»: introducono la correzione o il consiglio.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l4-e02",
+          "stage": "practise",
+          "audioText": "Molti pensano che dormire poco sia segno di forza, quasi un vanto. In realtà, i dati dicono il contrario. Un adulto ha bisogno, in media, di sette o otto ore di sonno per notte, e chi dorme regolarmente meno di sei ore ha un rischio maggiore di difficoltà di concentrazione e di irritabilità. Un errore molto diffuso è pensare di poter recuperare nel fine settimana: il sonno perso, purtroppo, non si restituisce del tutto. Più importante della durata, a volte, è la regolarità: andare a letto e svegliarsi sempre alla stessa ora aiuta il corpo a stabilire un ritmo. Poi ci sono i piccoli accorgimenti: spegnere gli schermi almeno un'ora prima, tenere la camera fresca, intorno ai diciotto gradi, e non bere caffè dopo le quindici. Il caffè, infatti, resta nel corpo per molte ore. E se non si riesce a dormire? Meglio alzarsi e leggere qualcosa di tranquillo, piuttosto che guardare l'orologio: l'ansia di non dormire peggiora il problema. Se l'insonnia dura più di tre settimane, è il caso di rivolgersi al medico, senza aspettare che passi da sola.",
+          "question": "Che cosa pensa l'esperta di chi si vanta di dormire poco?",
+          "options": [
+            "Che si sbagli, perché i dati dicono il contrario",
+            "Che sia una persona molto forte",
+            "Che abbia una dote naturale",
+            "Che non abbia bisogno di nessun consiglio"
+          ],
+          "answer": 0,
+          "explanation": "Con «in realtà, i dati dicono il contrario» smentisce l'idea."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l4-e03",
+          "stage": "practise",
+          "audioText": "Molti pensano che dormire poco sia segno di forza, quasi un vanto. In realtà, i dati dicono il contrario. Un adulto ha bisogno, in media, di sette o otto ore di sonno per notte, e chi dorme regolarmente meno di sei ore ha un rischio maggiore di difficoltà di concentrazione e di irritabilità. Un errore molto diffuso è pensare di poter recuperare nel fine settimana: il sonno perso, purtroppo, non si restituisce del tutto. Più importante della durata, a volte, è la regolarità: andare a letto e svegliarsi sempre alla stessa ora aiuta il corpo a stabilire un ritmo. Poi ci sono i piccoli accorgimenti: spegnere gli schermi almeno un'ora prima, tenere la camera fresca, intorno ai diciotto gradi, e non bere caffè dopo le quindici. Il caffè, infatti, resta nel corpo per molte ore. E se non si riesce a dormire? Meglio alzarsi e leggere qualcosa di tranquillo, piuttosto che guardare l'orologio: l'ansia di non dormire peggiora il problema. Se l'insonnia dura più di tre settimane, è il caso di rivolgersi al medico, senza aspettare che passi da sola.",
+          "question": "Che cosa dice del recupero del sonno nel fine settimana?",
+          "options": [
+            "Che funziona sempre",
+            "Che è raccomandato ogni giorno",
+            "Che è meglio dormire dodici ore",
+            "Che non basta per restituire tutto il sonno perso"
+          ],
+          "answer": 3,
+          "explanation": "Il sonno perso «non si restituisce del tutto»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l4-e04",
+          "stage": "practise",
+          "audioText": "Molti pensano che dormire poco sia segno di forza, quasi un vanto. In realtà, i dati dicono il contrario. Un adulto ha bisogno, in media, di sette o otto ore di sonno per notte, e chi dorme regolarmente meno di sei ore ha un rischio maggiore di difficoltà di concentrazione e di irritabilità. Un errore molto diffuso è pensare di poter recuperare nel fine settimana: il sonno perso, purtroppo, non si restituisce del tutto. Più importante della durata, a volte, è la regolarità: andare a letto e svegliarsi sempre alla stessa ora aiuta il corpo a stabilire un ritmo. Poi ci sono i piccoli accorgimenti: spegnere gli schermi almeno un'ora prima, tenere la camera fresca, intorno ai diciotto gradi, e non bere caffè dopo le quindici. Il caffè, infatti, resta nel corpo per molte ore. E se non si riesce a dormire? Meglio alzarsi e leggere qualcosa di tranquillo, piuttosto che guardare l'orologio: l'ansia di non dormire peggiora il problema. Se l'insonnia dura più di tre settimane, è il caso di rivolgersi al medico, senza aspettare che passi da sola.",
+          "question": "Perché consiglia di non bere caffè dopo le quindici?",
+          "options": [
+            "Perché il caffè è troppo caro",
+            "Perché il caffè rovina i denti",
+            "Perché fa venire fame",
+            "Perché la caffeina resta a lungo nel corpo"
+          ],
+          "answer": 3,
+          "explanation": "Spiega che il caffè «resta nel corpo per molte ore»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l4-e05",
+          "stage": "practise",
+          "audioText": "Molti pensano che dormire poco sia segno di forza, quasi un vanto. In realtà, i dati dicono il contrario. Un adulto ha bisogno, in media, di sette o otto ore di sonno per notte, e chi dorme regolarmente meno di sei ore ha un rischio maggiore di difficoltà di concentrazione e di irritabilità. Un errore molto diffuso è pensare di poter recuperare nel fine settimana: il sonno perso, purtroppo, non si restituisce del tutto. Più importante della durata, a volte, è la regolarità: andare a letto e svegliarsi sempre alla stessa ora aiuta il corpo a stabilire un ritmo. Poi ci sono i piccoli accorgimenti: spegnere gli schermi almeno un'ora prima, tenere la camera fresca, intorno ai diciotto gradi, e non bere caffè dopo le quindici. Il caffè, infatti, resta nel corpo per molte ore. E se non si riesce a dormire? Meglio alzarsi e leggere qualcosa di tranquillo, piuttosto che guardare l'orologio: l'ansia di non dormire peggiora il problema. Se l'insonnia dura più di tre settimane, è il caso di rivolgersi al medico, senza aspettare che passi da sola.",
+          "question": "Che cosa consiglia se non si riesce a dormire?",
+          "options": [
+            "Guardare spesso l'orologio",
+            "Restare a letto con il telefono",
+            "Alzarsi e leggere qualcosa di tranquillo",
+            "Bere una tazza di caffè"
+          ],
+          "answer": 2,
+          "explanation": "Meglio alzarsi e leggere, piuttosto che guardare l'orologio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l4-e06",
+          "stage": "learn",
+          "front": "l'insonnia",
+          "back": "insomnia",
+          "example": "Soffro di insonnia da due settimane."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l4-e07",
+          "stage": "learn",
+          "front": "recuperare",
+          "back": "to make up for, to recover",
+          "example": "Non si può recuperare il sonno perso."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-05-l5",
+      "title": "Mediazione tra vicini di casa",
+      "minutes": 8,
+      "goal": "Seguire una mediazione e capire posizioni, proposte e accordo finale.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-05-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare una mediazione",
+          "body": "Un mediatore non decide: guida due persone verso un accordo. Cerca le richieste di ciascuno e le concessioni.\n\nFrasi come «mi dispiace, però» e «questo mi sembra un po' rigido» indicano una trattativa: chi cede e su che cosa.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l5-e02",
+          "stage": "practise",
+          "audioText": "Buonasera a entrambi. Sono la mediatrice del Comune: il mio ruolo non è dare ragione a qualcuno, ma aiutarvi a trovare un accordo. Signor Pace, comincia lei: qual è il problema? Il problema, secondo me, è che dal piano di sopra arrivano rumori quasi ogni sera dopo le dieci: sedie spostate, passi, a volte musica. Io mi alzo alle cinque per lavoro. Signora Leone, vuole rispondere? Guardi, mi dispiace sinceramente, non sapevo di disturbare. Però devo dire che ho due bambini piccoli e, quando li metto a letto, è difficile impedire che corrano per casa. Non lo faccio apposta. Capisco. Ci sono soluzioni pratiche? Per esempio, dei tappeti? Sì, potrei mettere dei tappeti nelle stanze dei bambini e spostare i mobili lontano dalla camera del signor Pace. Per me sarebbe già un bel passo avanti. Vorrei però un po' di silenzio dopo le ventidue. Per i bambini ci vuole un po' di tempo: potremmo dire le ventidue e trenta? Va bene, proviamo. Perfetto. Ci rivediamo tra un mese per verificare.",
+          "question": "Qual è il ruolo della mediatrice?",
+          "options": [
+            "Decidere chi ha ragione",
+            "Aiutare i vicini a trovare un accordo",
+            "Multare chi fa rumore",
+            "Parlare solo con il signor Pace"
+          ],
+          "answer": 1,
+          "explanation": "Dice che non deve dare ragione a qualcuno, ma aiutarli a trovare un accordo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l5-e03",
+          "stage": "practise",
+          "audioText": "Buonasera a entrambi. Sono la mediatrice del Comune: il mio ruolo non è dare ragione a qualcuno, ma aiutarvi a trovare un accordo. Signor Pace, comincia lei: qual è il problema? Il problema, secondo me, è che dal piano di sopra arrivano rumori quasi ogni sera dopo le dieci: sedie spostate, passi, a volte musica. Io mi alzo alle cinque per lavoro. Signora Leone, vuole rispondere? Guardi, mi dispiace sinceramente, non sapevo di disturbare. Però devo dire che ho due bambini piccoli e, quando li metto a letto, è difficile impedire che corrano per casa. Non lo faccio apposta. Capisco. Ci sono soluzioni pratiche? Per esempio, dei tappeti? Sì, potrei mettere dei tappeti nelle stanze dei bambini e spostare i mobili lontano dalla camera del signor Pace. Per me sarebbe già un bel passo avanti. Vorrei però un po' di silenzio dopo le ventidue. Per i bambini ci vuole un po' di tempo: potremmo dire le ventidue e trenta? Va bene, proviamo. Perfetto. Ci rivediamo tra un mese per verificare.",
+          "question": "Perché i rumori disturbano particolarmente il signor Pace?",
+          "options": [
+            "Perché si alza molto presto per lavoro",
+            "Perché lavora di notte",
+            "Perché è malato",
+            "Perché ha un bambino piccolo"
+          ],
+          "answer": 0,
+          "explanation": "Spiega che si alza alle cinque."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l5-e04",
+          "stage": "practise",
+          "audioText": "Buonasera a entrambi. Sono la mediatrice del Comune: il mio ruolo non è dare ragione a qualcuno, ma aiutarvi a trovare un accordo. Signor Pace, comincia lei: qual è il problema? Il problema, secondo me, è che dal piano di sopra arrivano rumori quasi ogni sera dopo le dieci: sedie spostate, passi, a volte musica. Io mi alzo alle cinque per lavoro. Signora Leone, vuole rispondere? Guardi, mi dispiace sinceramente, non sapevo di disturbare. Però devo dire che ho due bambini piccoli e, quando li metto a letto, è difficile impedire che corrano per casa. Non lo faccio apposta. Capisco. Ci sono soluzioni pratiche? Per esempio, dei tappeti? Sì, potrei mettere dei tappeti nelle stanze dei bambini e spostare i mobili lontano dalla camera del signor Pace. Per me sarebbe già un bel passo avanti. Vorrei però un po' di silenzio dopo le ventidue. Per i bambini ci vuole un po' di tempo: potremmo dire le ventidue e trenta? Va bene, proviamo. Perfetto. Ci rivediamo tra un mese per verificare.",
+          "question": "Com'è l'atteggiamento della signora Leone?",
+          "options": [
+            "Dispiaciuta, ma spiega le sue difficoltà con i bambini",
+            "Aggressivo e senza scuse",
+            "Indifferente",
+            "Sorpreso, perché pensa che non ci siano rumori"
+          ],
+          "answer": 0,
+          "explanation": "Dice «mi dispiace sinceramente» ma spiega che con i bambini è difficile."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l5-e05",
+          "stage": "practise",
+          "audioText": "Buonasera a entrambi. Sono la mediatrice del Comune: il mio ruolo non è dare ragione a qualcuno, ma aiutarvi a trovare un accordo. Signor Pace, comincia lei: qual è il problema? Il problema, secondo me, è che dal piano di sopra arrivano rumori quasi ogni sera dopo le dieci: sedie spostate, passi, a volte musica. Io mi alzo alle cinque per lavoro. Signora Leone, vuole rispondere? Guardi, mi dispiace sinceramente, non sapevo di disturbare. Però devo dire che ho due bambini piccoli e, quando li metto a letto, è difficile impedire che corrano per casa. Non lo faccio apposta. Capisco. Ci sono soluzioni pratiche? Per esempio, dei tappeti? Sì, potrei mettere dei tappeti nelle stanze dei bambini e spostare i mobili lontano dalla camera del signor Pace. Per me sarebbe già un bel passo avanti. Vorrei però un po' di silenzio dopo le ventidue. Per i bambini ci vuole un po' di tempo: potremmo dire le ventidue e trenta? Va bene, proviamo. Perfetto. Ci rivediamo tra un mese per verificare.",
+          "question": "Che accordo raggiungono alla fine?",
+          "options": [
+            "Silenzio assoluto dalle ventuno",
+            "Nessun cambiamento fino al prossimo mese",
+            "Un trasloco della signora Leone",
+            "Tappeti, mobili spostati e silenzio dalle ventidue e trenta"
+          ],
+          "answer": 3,
+          "explanation": "Tappeti e mobili spostati, e un orario di silenzio dalle ventidue e trenta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l5-e06",
+          "stage": "learn",
+          "front": "il vicino",
+          "back": "neighbour",
+          "example": "Il vicino ha messo la musica alta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l5-e07",
+          "stage": "learn",
+          "front": "fare apposta",
+          "back": "to do on purpose",
+          "example": "Non lo faccio apposta."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-05-l6",
+      "title": "Il racconto di un cammino a piedi",
+      "minutes": 8,
+      "goal": "Seguire un racconto personale e capire emozioni, difficoltà e bilancio finale.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-05-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un racconto di viaggio",
+          "body": "In un racconto personale la persona passa dai dubbi iniziali alle difficoltà e poi al bilancio.\n\nCerca i connettori temporali («poi», «a poco a poco») e le frasi con «non direi… ma»: sono il giudizio personale.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l6-e02",
+          "stage": "practise",
+          "audioText": "L'anno scorso, a settembre, ho fatto a piedi un cammino di duecentoventi chilometri, da una piccola pieve di montagna fino al mare. Non sono una persona sportiva e, a dire il vero, partivo con molti dubbi: avevo paura di non farcela, di annoiarmi, di sentirmi sola. La prima settimana è stata durissima: avevo le vesciche, lo zaino pesava otto chili e ho persino pensato di tornare a casa dopo il terzo giorno. Poi, a poco a poco, qualcosa è cambiato. Ho imparato a dormire negli ostelli, a mangiare quello che c'era e a camminare in silenzio per ore. La cosa più bella sono state le persone: una coppia di pensionati, che incontravo ogni sera e con cui ho condiviso tante cene, e un ragazzo che mi ha prestato i bastoncini quando mi faceva male il ginocchio. Non direi di aver vissuto un'esperienza religiosa, ma di certo spirituale, nel senso che ho avuto tempo per pensare. Sono arrivata in diciassette giorni. Rifarei tutto? Sì, anche se, la prossima volta, porterei meno cose.",
+          "question": "Perché la narratrice aveva dei dubbi prima di partire?",
+          "options": [
+            "Perché non conosceva la strada",
+            "Perché non aveva soldi",
+            "Perché non è una persona sportiva e temeva di non farcela",
+            "Perché doveva partire da sola per lavoro"
+          ],
+          "answer": 2,
+          "explanation": "Dice di non essere sportiva e di aver avuto paura di non farcela, di annoiarsi e di sentirsi sola."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l6-e03",
+          "stage": "practise",
+          "audioText": "L'anno scorso, a settembre, ho fatto a piedi un cammino di duecentoventi chilometri, da una piccola pieve di montagna fino al mare. Non sono una persona sportiva e, a dire il vero, partivo con molti dubbi: avevo paura di non farcela, di annoiarmi, di sentirmi sola. La prima settimana è stata durissima: avevo le vesciche, lo zaino pesava otto chili e ho persino pensato di tornare a casa dopo il terzo giorno. Poi, a poco a poco, qualcosa è cambiato. Ho imparato a dormire negli ostelli, a mangiare quello che c'era e a camminare in silenzio per ore. La cosa più bella sono state le persone: una coppia di pensionati, che incontravo ogni sera e con cui ho condiviso tante cene, e un ragazzo che mi ha prestato i bastoncini quando mi faceva male il ginocchio. Non direi di aver vissuto un'esperienza religiosa, ma di certo spirituale, nel senso che ho avuto tempo per pensare. Sono arrivata in diciassette giorni. Rifarei tutto? Sì, anche se, la prossima volta, porterei meno cose.",
+          "question": "Quando ha pensato di tornare a casa?",
+          "options": [
+            "Alla fine del viaggio",
+            "Dopo il terzo giorno",
+            "Dopo diciassette giorni",
+            "Il primo giorno, prima di partire"
+          ],
+          "answer": 1,
+          "explanation": "Dice che ha pensato di tornare a casa dopo il terzo giorno."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l6-e04",
+          "stage": "practise",
+          "audioText": "L'anno scorso, a settembre, ho fatto a piedi un cammino di duecentoventi chilometri, da una piccola pieve di montagna fino al mare. Non sono una persona sportiva e, a dire il vero, partivo con molti dubbi: avevo paura di non farcela, di annoiarmi, di sentirmi sola. La prima settimana è stata durissima: avevo le vesciche, lo zaino pesava otto chili e ho persino pensato di tornare a casa dopo il terzo giorno. Poi, a poco a poco, qualcosa è cambiato. Ho imparato a dormire negli ostelli, a mangiare quello che c'era e a camminare in silenzio per ore. La cosa più bella sono state le persone: una coppia di pensionati, che incontravo ogni sera e con cui ho condiviso tante cene, e un ragazzo che mi ha prestato i bastoncini quando mi faceva male il ginocchio. Non direi di aver vissuto un'esperienza religiosa, ma di certo spirituale, nel senso che ho avuto tempo per pensare. Sono arrivata in diciassette giorni. Rifarei tutto? Sì, anche se, la prossima volta, porterei meno cose.",
+          "question": "Che cosa ricorda come la parte più bella?",
+          "options": [
+            "I paesaggi di montagna",
+            "Le persone che ha incontrato",
+            "Il cibo degli ostelli",
+            "L'arrivo al mare"
+          ],
+          "answer": 1,
+          "explanation": "Dice «la cosa più bella sono state le persone»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-05-l6-e05",
+          "stage": "practise",
+          "audioText": "L'anno scorso, a settembre, ho fatto a piedi un cammino di duecentoventi chilometri, da una piccola pieve di montagna fino al mare. Non sono una persona sportiva e, a dire il vero, partivo con molti dubbi: avevo paura di non farcela, di annoiarmi, di sentirmi sola. La prima settimana è stata durissima: avevo le vesciche, lo zaino pesava otto chili e ho persino pensato di tornare a casa dopo il terzo giorno. Poi, a poco a poco, qualcosa è cambiato. Ho imparato a dormire negli ostelli, a mangiare quello che c'era e a camminare in silenzio per ore. La cosa più bella sono state le persone: una coppia di pensionati, che incontravo ogni sera e con cui ho condiviso tante cene, e un ragazzo che mi ha prestato i bastoncini quando mi faceva male il ginocchio. Non direi di aver vissuto un'esperienza religiosa, ma di certo spirituale, nel senso che ho avuto tempo per pensare. Sono arrivata in diciassette giorni. Rifarei tutto? Sì, anche se, la prossima volta, porterei meno cose.",
+          "question": "Come descrive l'esperienza?",
+          "options": [
+            "Non religiosa, ma spirituale",
+            "Soprattutto sportiva",
+            "Una vacanza di relax",
+            "Un'esperienza religiosa profonda"
+          ],
+          "answer": 0,
+          "explanation": "Dice «non direi religiosa, ma di certo spirituale»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l6-e06",
+          "stage": "learn",
+          "front": "la vescica",
+          "back": "blister",
+          "example": "Le vesciche mi facevano male."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-05-l6-e07",
+          "stage": "learn",
+          "front": "il bastoncino",
+          "back": "walking pole",
+          "example": "Ho usato i bastoncini in salita."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "lo sciopero",
+      "en": "strike",
+      "example": "Domani c'è lo sciopero dei treni."
+    },
+    {
+      "it": "il rinnovo del contratto",
+      "en": "contract renewal",
+      "example": "I sindacati chiedono il rinnovo del contratto."
+    },
+    {
+      "it": "la ristampa",
+      "en": "reprint",
+      "example": "Il romanzo è alla terza ristampa."
+    },
+    {
+      "it": "tagliare",
+      "en": "to cut",
+      "example": "Ho tagliato un terzo del testo."
+    },
+    {
+      "it": "la semina",
+      "en": "sowing",
+      "example": "La semina è stata rimandata."
+    },
+    {
+      "it": "la gelata",
+      "en": "frost",
+      "example": "Una gelata può rovinare i fiori."
+    },
+    {
+      "it": "l'insonnia",
+      "en": "insomnia",
+      "example": "Soffro di insonnia da due settimane."
+    },
+    {
+      "it": "recuperare",
+      "en": "to make up for, to recover",
+      "example": "Non si può recuperare il sonno perso."
+    },
+    {
+      "it": "il vicino",
+      "en": "neighbour",
+      "example": "Il vicino ha messo la musica alta."
+    },
+    {
+      "it": "fare apposta",
+      "en": "to do on purpose",
+      "example": "Non lo faccio apposta."
+    },
+    {
+      "it": "la vescica",
+      "en": "blister",
+      "example": "Le vesciche mi facevano male."
+    },
+    {
+      "it": "il bastoncino",
+      "en": "walking pole",
+      "example": "Ho usato i bastoncini in salita."
+    }
+  ]
+}

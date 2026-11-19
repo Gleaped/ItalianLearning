@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b2-07",
+  "level": "LET",
+  "title": "Impegno e stili di vita",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 250-300 parole): un discorso, un editoriale, una pagina di domande frequenti e un servizio giornalistico.",
+  "grammarFocus": "Lettura estensiva B2: periodo ipotetico, registro oratorio ed editoriale, connettivi di contrasto e conseguenza (tuttavia, nonostante, di conseguenza), lessico dell'attualità sociale.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b2-07-l1",
+      "title": "Il valore del tempo donato",
+      "minutes": 10,
+      "goal": "Leggere un estratto di discorso sul volontariato e riconoscere le tecniche retoriche e l'invito finale.",
+      "takeaway": "Un discorso usa ripetizioni, domande retoriche e il «noi» per coinvolgere: nota questi segnali e distingui l'esempio dall'appello.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-07-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il valore del tempo donato",
+          "passage": "Autorità, amici, volontari, permettetemi di cominciare con una confessione. Quando, vent'anni fa, ho iniziato a distribuire pasti caldi ai senzatetto della stazione, pensavo di essere io a fare un favore a qualcuno. Mi sbagliavo. Ho capito presto che erano loro a insegnarmi qualcosa: la pazienza, la dignità, il coraggio di chiedere aiuto.\n\nStasera siamo qui per festeggiare i duemila volontari della nostra associazione. Duemila persone che, nonostante la stanchezza e gli impegni, trovano ogni settimana qualche ora da dedicare agli altri. C'è chi accompagna gli anziani alle visite mediche, chi aiuta i ragazzi a fare i compiti, chi ripulisce i giardini abbandonati. Nessuno di loro è pagato; nessuno lo fa per essere ringraziato.\n\nEppure sappiamo che il volontariato non è una soluzione magica. Se pensassimo che basti la buona volontà dei cittadini a colmare ogni lacuna, daremmo allo Stato un alibi per non fare la sua parte. I servizi sociali devono essere garantiti dalle istituzioni; il nostro compito è completarli, non sostituirli. Su questo dobbiamo essere chiari, e dobbiamo esserlo anche con chi ci applaude.\n\nTuttavia c'è un'altra cosa che il volontariato offre e che nessuna istituzione può dare: il senso di appartenere a una comunità. Chi dona il proprio tempo scopre di non essere solo, e chi lo riceve scopre di non essere dimenticato. Questa è, a mio avviso, la ricchezza più grande che abbiamo costruito insieme.\n\nAllora vi chiedo: che cosa accadrebbe se ciascuno di noi convincesse un amico, un collega, un vicino a unirsi a noi? Saremmo il doppio, e le nostre strade sarebbero un po' più umane. Non aspettiamo che qualcun altro cominci. Cominciamo noi, domani mattina, e continuiamo finché ce ne sarà bisogno. Grazie.",
+          "questions": [
+            {
+              "question": "Che cosa ammette l'oratore all'inizio del discorso?",
+              "options": [
+                "Credeva di fare un favore, ma ha imparato molto dagli altri",
+                "Di non aver mai fatto volontariato",
+                "Di essere stato pagato per i primi anni",
+                "Di aver cambiato lavoro vent'anni fa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa significa che il volontariato non deve sostituire lo Stato?",
+              "options": [
+                "Lo Stato deve chiudere i servizi sociali",
+                "I volontari devono essere pagati",
+                "Il volontariato è inutile",
+                "I servizi essenziali restano una responsabilità delle istituzioni"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Quale contributo specifico attribuisce al volontariato?",
+              "options": [
+                "Un guadagno economico per l'associazione",
+                "Il senso di appartenere a una comunità",
+                "Un aumento delle tasse locali",
+                "Un titolo di studio riconosciuto"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è lo scopo dell'ultima parte del discorso?",
+              "options": [
+                "Chiedere un finanziamento allo Stato",
+                "Annunciare lo scioglimento dell'associazione",
+                "Invitare ciascuno ad avvicinare nuove persone all'associazione",
+                "Criticare chi non partecipa"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l1-e02",
+          "stage": "learn",
+          "front": "il senzatetto",
+          "back": "homeless person",
+          "example": "Il comune ha aperto un dormitorio per i senzatetto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l1-e03",
+          "stage": "learn",
+          "front": "l'alibi",
+          "back": "excuse, alibi",
+          "example": "Non usare la stanchezza come alibi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l1-e04",
+          "stage": "learn",
+          "front": "colmare una lacuna",
+          "back": "to fill a gap",
+          "example": "Il corso serve a colmare le lacune nella preparazione."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-07-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "volontari",
+            "Stato",
+            "comunità",
+            "invito"
+          ],
+          "modelAnswer": "Un presidente festeggia duemila volontari e ricorda che aiutare gli altri insegna molto. Precisa che il volontariato non deve sostituire le istituzioni, ma dà un senso di comunità. Alla fine invita tutti a convincere qualcun altro a partecipare.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-07-l2",
+      "title": "Città in bicicletta",
+      "minutes": 10,
+      "goal": "Leggere un editoriale sulla mobilità ciclabile e identificare la posizione del giornale, gli argomenti e le obiezioni.",
+      "takeaway": "L'editoriale esprime la linea del giornale: segui la tesi, le obiezioni anticipate e la conclusione che propone un'azione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-07-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Città in bicicletta",
+          "passage": "Ogni volta che una città decide di togliere parcheggi per fare spazio a una pista ciclabile, si apre lo stesso dibattito. I commercianti temono di perdere clienti, gli automobilisti denunciano il caos, i ciclisti chiedono ancora più coraggio. Eppure le esperienze di altre città europee, descritte in decine di studi, ci insegnano che le paure, quasi sempre, sono più grandi dei danni.\n\nPrendiamo il caso di Lungomare, dove tre anni fa è stata trasformata in corsia ciclabile una strada a quattro corsie. All'inizio i negozianti hanno protestato; oggi, secondo una ricerca della locale camera di commercio, gli incassi sono cresciuti e le vetrine sono più frequentate, perché chi va a piedi o in bici si ferma più spesso di chi attraversa la strada in auto.\n\nSarebbe sbagliato, tuttavia, raccontare la storia come una favola. Le piste ciclabili realizzate a pezzi, che finiscono nel nulla dopo duecento metri, non convincono nessuno, e molte città hanno investito più nella vernice rossa che nella sicurezza. Se un percorso non fosse continuo e protetto, nessun genitore lascerebbe andare i figli a scuola in bicicletta.\n\nDi conseguenza, la domanda giusta non è se costruire piste ciclabili, ma come. Occorrono collegamenti tra quartieri, parcheggi sicuri per le bici, semafori pensati anche per chi pedala, e una manutenzione costante: nonostante la bella stagione, una buca può essere pericolosa quanto un'auto in doppia fila.\n\nQuesto giornale sostiene da tempo che la città del futuro debba essere meno rumorosa e più respirabile. Non è una battaglia contro le auto, che continueranno a essere necessarie per molti spostamenti; è una scelta di priorità. Il nostro augurio è che, prima della prossima campagna elettorale, i candidati smettano di discutere se la bicicletta sia di destra o di sinistra e dicano semplicemente dove intendono farla passare.",
+          "questions": [
+            {
+              "question": "Qual è la tesi generale dell'editoriale?",
+              "options": [
+                "Le auto devono essere vietate in città",
+                "Le piste ciclabili sono utili, se ben progettate",
+                "I commercianti hanno sempre ragione",
+                "Le biciclette sono inadatte alle città italiane"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa è successo a Lungomare, secondo la ricerca citata?",
+              "options": [
+                "I negozi hanno chiuso",
+                "Il traffico è raddoppiato",
+                "Gli incassi dei negozi sono aumentati",
+                "Le biciclette sono state vietate"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché l'editoriale critica le piste «a pezzi»?",
+              "options": [
+                "Se non sono continue e protette, la gente non si sente sicura",
+                "Costano troppo poco",
+                "Sono troppo larghe",
+                "Sono usate solo dai turisti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa chiede alla fine l'editoriale ai candidati?",
+              "options": [
+                "Di vietare la bicicletta",
+                "Di non parlare di mobilità",
+                "Di aumentare i parcheggi per auto",
+                "Di spiegare concretamente dove costruiranno i percorsi"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l2-e02",
+          "stage": "learn",
+          "front": "la corsia ciclabile",
+          "back": "bike lane",
+          "example": "La nuova corsia ciclabile collega la stazione al centro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l2-e03",
+          "stage": "learn",
+          "front": "l'incasso",
+          "back": "takings, revenue",
+          "example": "L'incasso della serata è stato ottimo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l2-e04",
+          "stage": "learn",
+          "front": "in doppia fila",
+          "back": "double-parked",
+          "example": "Un furgone in doppia fila blocca la strada."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-07-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "piste ciclabili",
+            "negozianti",
+            "sicurezza",
+            "candidati"
+          ],
+          "modelAnswer": "Il giornale sostiene che le piste ciclabili sono utili e che le paure dei commercianti sono spesso esagerate, come mostra il caso di Lungomare. Però devono essere continue, protette e ben mantenute. Alla fine invita i candidati a dire concretamente dove le costruiranno.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-07-l3",
+      "title": "FAQ: leggere l'etichetta",
+      "minutes": 10,
+      "goal": "Leggere una pagina di domande frequenti sull'etichettatura alimentare e trovare le informazioni rilevanti.",
+      "takeaway": "In una pagina FAQ ogni risposta è indipendente: leggi la domanda, cerca la parola chiave e verifica eccezioni e avvertenze nella risposta.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-07-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "FAQ: leggere l'etichetta",
+          "passage": "DOMANDE FREQUENTI – ETICHETTE ALIMENTARI (a cura dello sportello consumatori «Tavola Chiara»)\n\nChe cosa significa «da consumarsi preferibilmente entro»?\nIndica la data fino alla quale il produttore garantisce il massimo della qualità. Superata questa data, l'alimento può essere ancora consumato, purché la confezione sia integra e il prodotto sia stato conservato correttamente. Diverso è il caso di «da consumarsi entro», che compare su cibi molto deperibili, come il latte fresco: dopo quella data è meglio non mangiarli.\n\nGli ingredienti sono elencati in ordine casuale?\nNo. Devono essere indicati in ordine decrescente di peso: il primo è quello presente in quantità maggiore. Se in un biscotto lo zucchero compare prima della farina, ne contiene più della farina.\n\nChe cosa vuol dire «prodotto in Italia»?\nNon significa necessariamente che le materie prime siano italiane. In generale, l'indicazione riguarda il luogo dell'ultima trasformazione sostanziale. Per sapere da dove provengono gli ingredienti, bisogna cercare un'indicazione specifica, che in alcuni casi è obbligatoria, ad esempio per l'olio d'oliva.\n\nLe sostanze che provocano allergie sono segnalate?\nSì. Alcune sostanze, come glutine, uova, arachidi o latte, devono essere evidenziate nell'elenco degli ingredienti, di solito in grassetto. Se un prodotto potesse contenere tracce di una sostanza a causa della lavorazione, di norma compare la dicitura «può contenere tracce di...». Questa avvertenza non è però obbligatoria in tutti i casi.\n\n«Naturale» e «biologico» sono sinonimi?\nNo. «Biologico» è un termine regolato da norme precise e da controlli; «naturale», invece, non ha una definizione uniforme e, di conseguenza, viene usato spesso come slogan. Il consiglio è di non fermarsi mai alla parola in grande sulla confezione, ma di leggere l'elenco degli ingredienti.",
+          "questions": [
+            {
+              "question": "Che cosa si può fare con un prodotto dopo la data «da consumarsi preferibilmente entro»?",
+              "options": [
+                "Si può consumare, se è integro e ben conservato",
+                "Va buttato subito",
+                "Si deve restituire al produttore",
+                "Si può solo cucinare"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come sono elencati gli ingredienti?",
+              "options": [
+                "In ordine alfabetico",
+                "In ordine di prezzo",
+                "In ordine decrescente di quantità",
+                "In ordine casuale"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa si può dedurre da «prodotto in Italia»?",
+              "options": [
+                "Tutti gli ingredienti sono locali",
+                "Le materie prime possono non essere italiane",
+                "Il prodotto è biologico",
+                "Il prodotto è privo di allergeni"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché la pagina sconsiglia di fidarsi della parola «naturale»?",
+              "options": [
+                "È vietata dalla legge",
+                "Significa sempre biologico",
+                "Indica una data di scadenza",
+                "Non ha una definizione uniforme ed è spesso uno slogan"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l3-e02",
+          "stage": "learn",
+          "front": "deperibile",
+          "back": "perishable",
+          "example": "Il pesce fresco è un alimento deperibile."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l3-e03",
+          "stage": "learn",
+          "front": "l'etichetta",
+          "back": "label",
+          "example": "Leggo sempre l'etichetta prima di comprare."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l3-e04",
+          "stage": "learn",
+          "front": "la dicitura",
+          "back": "wording, notice",
+          "example": "La dicitura sulla confezione è poco leggibile."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-07-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "etichetta",
+            "ingredienti",
+            "data",
+            "biologico"
+          ],
+          "modelAnswer": "La pagina spiega come leggere le etichette alimentari. Dopo la data «preferibilmente» il cibo si può mangiare, se è conservato bene. Gli ingredienti sono in ordine di quantità, «prodotto in Italia» non garantisce materie prime italiane e «naturale» non equivale a «biologico».",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-07-l4",
+      "title": "Il paese dei nonni",
+      "minutes": 10,
+      "goal": "Leggere un servizio giornalistico sull'invecchiamento della popolazione e capire come sono presentati problemi e soluzioni.",
+      "takeaway": "Un servizio alterna scena, dati e voci: cerca i dati per capire la dimensione del problema e le voci per capire le soluzioni proposte.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-07-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il paese dei nonni",
+          "passage": "A Pietraverde, un paese di milleduecento abitanti sull'Appennino, l'età media supera i cinquantaquattro anni. L'ultima volta che è nato un bambino, la campana ha suonato a festa e mezzo paese si è radunato davanti alla casa dei genitori. Era accaduto diciotto mesi prima, e da allora nulla.\n\nIl declino demografico, che riguarda gran parte delle aree interne, ha conseguenze concrete. La scuola elementare è stata accorpata con quella del paese vicino, l'ufficio postale apre tre mattine alla settimana e il medico di base viene soltanto il martedì. «Se fossimo più giovani, ce ne andremmo anche noi», scherza Rosa, ottantadue anni, mentre sistema i fiori nella piazza.\n\nEppure il paese non si arrende. Qualche anno fa un gruppo di residenti ha trasformato una vecchia canonica in una casa condivisa per anziani soli, dove si cucina insieme e dove un'infermiera passa ogni giorno per i controlli. Nonostante i dubbi iniziali, l'esperimento è stato un successo: le ospiti, quasi tutte vedove, non hanno più lasciato il paese per andare in una casa di riposo in città.\n\nC'è poi il progetto più ambizioso, un accordo con alcune famiglie straniere che hanno accettato di trasferirsi a Pietraverde in cambio di una casa a canone ridotto e di un piccolo contributo per avviare un'attività. Non tutti sono d'accordo: c'è chi teme che il paese perda la propria identità. Il sindaco, tuttavia, ribatte che l'identità, senza abitanti, rischierebbe di diventare un ricordo.\n\nGli esperti avvertono che le soluzioni locali non bastano: servono trasporti, banda larga e servizi sanitari in tutto il territorio. Intanto, la sera, nella piazza di Pietraverde, le sedie vengono ancora disposte in cerchio, e qualcuno sussurra che la prossima nascita non tarderà.",
+          "questions": [
+            {
+              "question": "Che cosa mostra l'episodio della nascita all'inizio?",
+              "options": [
+                "Che i bambini sono molto numerosi",
+                "Che il paese è ricco di scuole",
+                "Che la campana è rotta",
+                "Quanto sia rara una nascita in paese"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Quale conseguenza ha avuto il declino demografico?",
+              "options": [
+                "Servizi ridotti o accorpati, come scuola e ufficio postale",
+                "Un aumento dei negozi",
+                "Nuove scuole in paese",
+                "Più medici di base"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché la casa condivisa è considerata un successo?",
+              "options": [
+                "Ha attirato molti turisti",
+                "Gli anziani possono restare in paese con assistenza",
+                "Ha ridotto i prezzi delle case",
+                "Ha sostituito la scuola"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa risponde il sindaco a chi teme di perdere l'identità del paese?",
+              "options": [
+                "Che gli stranieri non resteranno",
+                "Che l'identità non conta",
+                "Che senza abitanti l'identità rischia di sparire",
+                "Che la decisione spetta alla Regione"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l4-e02",
+          "stage": "learn",
+          "front": "accorpare",
+          "back": "to merge, to combine",
+          "example": "Il Comune ha accorpato due uffici in uno."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l4-e03",
+          "stage": "learn",
+          "front": "le aree interne",
+          "back": "inland rural areas",
+          "example": "Le aree interne perdono abitanti ogni anno."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-07-l4-e04",
+          "stage": "learn",
+          "front": "la casa di riposo",
+          "back": "care home",
+          "example": "Sua nonna vive in una casa di riposo vicino al mare."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-07-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "paese",
+            "anziani",
+            "servizi",
+            "sindaco"
+          ],
+          "modelAnswer": "A Pietraverde l'età media è alta e nascono pochissimi bambini, quindi i servizi sono stati ridotti. I residenti hanno creato una casa condivisa per anziani e il sindaco propone di accogliere famiglie straniere con case a canone ridotto. Gli esperti dicono che servono anche trasporti e servizi su tutto il territorio.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il senzatetto",
+      "en": "homeless person",
+      "example": "Il comune ha aperto un dormitorio per i senzatetto."
+    },
+    {
+      "it": "l'alibi",
+      "en": "excuse, alibi",
+      "example": "Non usare la stanchezza come alibi."
+    },
+    {
+      "it": "colmare una lacuna",
+      "en": "to fill a gap",
+      "example": "Il corso serve a colmare le lacune nella preparazione."
+    },
+    {
+      "it": "la corsia ciclabile",
+      "en": "bike lane",
+      "example": "La nuova corsia ciclabile collega la stazione al centro."
+    },
+    {
+      "it": "l'incasso",
+      "en": "takings, revenue",
+      "example": "L'incasso della serata è stato ottimo."
+    },
+    {
+      "it": "in doppia fila",
+      "en": "double-parked",
+      "example": "Un furgone in doppia fila blocca la strada."
+    },
+    {
+      "it": "deperibile",
+      "en": "perishable",
+      "example": "Il pesce fresco è un alimento deperibile."
+    },
+    {
+      "it": "l'etichetta",
+      "en": "label",
+      "example": "Leggo sempre l'etichetta prima di comprare."
+    },
+    {
+      "it": "la dicitura",
+      "en": "wording, notice",
+      "example": "La dicitura sulla confezione è poco leggibile."
+    },
+    {
+      "it": "accorpare",
+      "en": "to merge, to combine",
+      "example": "Il Comune ha accorpato due uffici in uno."
+    },
+    {
+      "it": "le aree interne",
+      "en": "inland rural areas",
+      "example": "Le aree interne perdono abitanti ogni anno."
+    },
+    {
+      "it": "la casa di riposo",
+      "en": "care home",
+      "example": "Sua nonna vive in una casa di riposo vicino al mare."
+    }
+  ]
+}

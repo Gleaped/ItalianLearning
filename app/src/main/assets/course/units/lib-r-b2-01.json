@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b2-01",
+  "level": "LET",
+  "title": "Attualità",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 250 parole) di attualità: un articolo, una lettera al giornale, un'intervista e un editoriale d'opinione.",
+  "grammarFocus": "Lettura estensiva B2: periodo ipotetico e congiuntivo nel testo d'opinione, connettivi di contrasto e concessione (tuttavia, nonostante), causa e conseguenza (di conseguenza), forma passiva.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b2-01-l1",
+      "title": "Una settimana più corta",
+      "minutes": 10,
+      "goal": "Leggere un articolo di attualità sulla settimana lavorativa di quattro giorni e distinguere dati, dubbi e conclusione.",
+      "takeaway": "Tuttavia, di conseguenza e nonostante segnalano vantaggi, limiti e conseguenze: cercali per seguire l'argomentazione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-01-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una settimana più corta",
+          "passage": "Da gennaio i dipendenti di una media azienda di software del Nord Italia lavorano quattro giorni a settimana, con lo stesso stipendio di prima. L'esperimento, che durerà un anno, è stato proposto dai lavoratori stessi e approvato dalla direzione dopo lunghe trattative.\n\nLe prime settimane sono servite soprattutto a riorganizzare le riunioni. «Se ogni incontro durasse un'ora, non finiremmo mai», racconta una responsabile di reparto. Sono stati quindi eliminati gli appuntamenti inutili e le mail interne sono state ridotte di un terzo. Secondo i dati raccolti dall'azienda, dopo sei mesi la produttività non è calata e le assenze per malattia sono diminuite sensibilmente.\n\nNon tutti, tuttavia, sono entusiasti. Alcuni dipendenti lamentano giornate più intense e meno pause, e chi lavora con i clienti all'estero deve comunque restare reperibile il venerdì. Un sindacalista osserva che la formula funziona bene nel settore informatico, ma sarebbe difficile applicarla a ospedali, scuole o negozi, dove la presenza fisica è indispensabile.\n\nC'è poi una questione di fondo. Se il tempo libero aumentasse per tutti, sostengono alcuni economisti, anche i consumi e il turismo ne trarrebbero vantaggio; altri temono invece che molte imprese, di fronte a costi crescenti, preferiscano semplicemente non assumere nuovo personale.\n\nPer ora la direzione si dice soddisfatta: le candidature sono raddoppiate e nessuno ha lasciato l'azienda negli ultimi mesi. Resta da capire se, una volta finito l'anno di prova, il modello sarà confermato oppure abbandonato, come è già accaduto altrove quando il lavoro arretrato ha cominciato ad accumularsi.",
+          "questions": [
+            {
+              "question": "Chi ha proposto l'esperimento della settimana di quattro giorni?",
+              "options": [
+                "La direzione dell'azienda",
+                "Un sindacato nazionale",
+                "I dipendenti stessi",
+                "Un gruppo di economisti"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa è successo dopo sei mesi, secondo i dati dell'azienda?",
+              "options": [
+                "La produttività non è diminuita",
+                "Le assenze sono aumentate",
+                "Le riunioni sono raddoppiate",
+                "Gli stipendi sono stati ridotti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché un sindacalista dubita che la formula valga per tutti i settori?",
+              "options": [
+                "Costa troppo alle imprese",
+                "I lavoratori preferiscono lo stipendio",
+                "Nei servizi non esistono i clienti",
+                "In alcuni lavori serve la presenza fisica"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa suggerisce l'ultima frase del testo?",
+              "options": [
+                "Il modello è già stato confermato",
+                "Il futuro dell'esperimento è ancora incerto",
+                "Il lavoro arretrato non è un problema",
+                "Altre aziende hanno copiato l'idea"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l1-e02",
+          "stage": "learn",
+          "front": "la trattativa",
+          "back": "negotiation",
+          "example": "I sindacati hanno concluso la trattativa con l'azienda."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l1-e03",
+          "stage": "learn",
+          "front": "reperibile",
+          "back": "reachable, on call",
+          "example": "Il medico di turno è reperibile anche di notte."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l1-e04",
+          "stage": "learn",
+          "front": "arretrato",
+          "back": "backlog; overdue",
+          "example": "Dopo le ferie ho un sacco di lavoro arretrato."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-01-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "quattro giorni",
+            "produttività",
+            "sindacalista",
+            "incerto"
+          ],
+          "modelAnswer": "Un'azienda di software ha introdotto la settimana di quattro giorni con lo stesso stipendio. Dopo sei mesi la produttività non è calata, ma alcuni lamentano giornate più intense. Tuttavia, il modello potrebbe non funzionare in ospedali o scuole e il futuro dell'esperimento resta incerto.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-01-l2",
+      "title": "Monopattini sul marciapiede",
+      "minutes": 10,
+      "goal": "Leggere una lettera al giornale, riconoscere la tesi dell'autrice e le sue proposte.",
+      "takeaway": "In una lettera al direttore l'autore espone un problema, poi propone soluzioni con il condizionale e il periodo ipotetico.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-01-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Monopattini sul marciapiede",
+          "passage": "Gentile direttore,\n\nle scrivo dopo l'ennesimo episodio vissuto ieri sera: mentre uscivo dal portone di casa, un monopattino elettrico, lanciato a velocità sostenuta sul marciapiede, mi ha sfiorato per pochi centimetri. Nessun danno, per fortuna, ma lo spavento è stato forte.\n\nNon sono contraria ai monopattini. Anzi, riconosco che, se fossero usati con giudizio, ridurrebbero il traffico e l'inquinamento nelle zone centrali. Il problema è che, nonostante le regole siano chiare, molti conducenti le ignorano: circolano in due, senza casco, spesso con il telefono in mano. Quando poi finiscono la corsa, li lasciano davanti ai portoni o in mezzo alle strisce pedonali, e chi ha un passeggino o una carrozzina deve fare lo slalom tra mezzi abbandonati, con evidente fatica e pericolo.\n\nChe cosa si potrebbe fare? Anzitutto il comune dovrebbe stabilire aree di sosta obbligatorie, in modo che nessuno possa abbandonare il mezzo dove capita. Inoltre i controlli andrebbero intensificati: se le multe fossero davvero applicate, probabilmente la maggior parte degli utenti si comporterebbe meglio. Infine, le società che noleggiano i monopattini dovrebbero essere ritenute responsabili dei mezzi lasciati in modo scorretto.\n\nMi rendo conto che vietare tutto sarebbe una soluzione sbrigativa e, di conseguenza, poco intelligente. Ma lasciare le cose come stanno significa accettare che i più deboli, anziani e bambini, paghino per l'indifferenza di pochi.\n\nNon chiedo privilegi, ma soltanto il rispetto di regole già esistenti. Spero che la mia lettera contribuisca ad aprire un dibattito serio, prima che accada qualcosa di più grave.\n\nCordiali saluti,\nuna lettrice",
+          "questions": [
+            {
+              "question": "Perché la lettrice scrive al direttore?",
+              "options": [
+                "Per raccontare una vacanza",
+                "Per chiedere regole più efficaci sui monopattini",
+                "Per vietare i monopattini",
+                "Per criticare i pedoni distratti"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa propone riguardo alle società di noleggio?",
+              "options": [
+                "Che riducano i prezzi",
+                "Che abbiano meno mezzi",
+                "Che organizzino corsi gratuiti",
+                "Che siano responsabili dei mezzi lasciati male"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Qual è la posizione dell'autrice?",
+              "options": [
+                "Favorevole ai monopattini, ma con più controlli",
+                "Contraria a ogni tipo di monopattino",
+                "Indifferente al problema",
+                "Favorevole a un divieto totale"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché giudica poco intelligente vietare tutto?",
+              "options": [
+                "Perché i monopattini sono economici",
+                "Perché nessuno rispetterebbe il divieto",
+                "Perché sarebbe una soluzione troppo rapida e superficiale",
+                "Perché il traffico aumenterebbe"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l2-e02",
+          "stage": "learn",
+          "front": "sbrigativo",
+          "back": "hasty, curt",
+          "example": "Il suo giudizio è stato troppo sbrigativo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l2-e03",
+          "stage": "learn",
+          "front": "sfiorare",
+          "back": "to brush past",
+          "example": "L'auto ha sfiorato il ciclista."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l2-e04",
+          "stage": "learn",
+          "front": "la sosta",
+          "back": "stop; parking",
+          "example": "In questa zona la sosta è vietata."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-01-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "monopattino",
+            "controlli",
+            "aree di sosta",
+            "responsabili"
+          ],
+          "modelAnswer": "Una lettrice rischia di essere investita da un monopattino sul marciapiede. Non vuole vietarli, ma chiede aree di sosta, più controlli e società di noleggio responsabili, perché i più deboli non debbano pagare per l'indifferenza di pochi.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-01-l3",
+      "title": "Dormire poco a sedici anni",
+      "minutes": 10,
+      "goal": "Leggere un'intervista e capire le risposte di un'esperta, distinguendo cause, conseguenze e consigli.",
+      "takeaway": "In un'intervista ogni risposta riprende parole della domanda: usale per trovare il punto giusto nel testo.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-01-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Dormire poco a sedici anni",
+          "passage": "Dottoressa, in Italia molti adolescenti dormono meno di sette ore per notte. Quanto è grave?\n\nÈ un problema serio, anche se se ne parla poco. Durante l'adolescenza l'orologio biologico si sposta: i ragazzi tendono ad addormentarsi più tardi e a svegliarsi più tardi. Se la scuola inizia alle otto, è come chiedere a un adulto di alzarsi alle cinque.\n\nQuindi la colpa non è solo degli schermi?\n\nNo, o almeno non soltanto. Il telefono a letto peggiora la situazione, perché la luce e le notifiche tengono il cervello in allerta. Ma sarebbe ingiusto attribuire tutto ai social: anche i compiti, lo sport serale e le abitudini familiari contano.\n\nChe conseguenze ha la mancanza di sonno?\n\nDifficoltà di concentrazione, irritabilità, più errori a scuola. Alcuni studi, peraltro ancora da confermare, la collegano anche a un maggiore rischio di ansia. Non direi che dormire poco renda meno intelligenti, ma certo rende più fragili. Per questo gli specialisti consigliano di non sottovalutare il problema.\n\nSpostare l'inizio delle lezioni sarebbe una soluzione?\n\nDove è stato fatto, i risultati sono incoraggianti: meno ritardi, più attenzione. Tuttavia in Italia organizzare i trasporti e gli orari delle famiglie sarebbe complicato. Se dovessi dare un consiglio immediato, direi di spegnere i dispositivi almeno un'ora prima di dormire e di mantenere orari regolari anche nel fine settimana.\n\nE i genitori?\n\nDovrebbero dare l'esempio. È difficile chiedere a un figlio di lasciare il telefono in cucina, se poi si rimane svegli a guardare le notizie fino a mezzanotte.",
+          "questions": [
+            {
+              "question": "Qual è l'idea principale dell'intervista?",
+              "options": [
+                "Il poco sonno degli adolescenti ha cause diverse e richiede più interventi",
+                "La colpa è soltanto dei social",
+                "Gli adolescenti hanno bisogno di meno sonno degli adulti",
+                "La scuola dovrebbe finire più tardi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché i ragazzi faticano ad alzarsi presto?",
+              "options": [
+                "Hanno troppi compiti",
+                "Dormono in camere troppo calde",
+                "Il loro orologio biologico si sposta più avanti",
+                "Usano il telefono a scuola"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa pensa la ricercatrice degli schermi?",
+              "options": [
+                "Non hanno alcun effetto",
+                "Sono una delle cause, ma non l'unica",
+                "Sono la causa principale",
+                "Sono utili prima di dormire"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa dice sullo spostamento dell'inizio delle lezioni?",
+              "options": [
+                "Non ha mai funzionato",
+                "È già stato adottato in Italia",
+                "Peggiorerebbe l'attenzione",
+                "Altrove ha dato buoni risultati, ma da noi sarebbe complicato"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l3-e02",
+          "stage": "learn",
+          "front": "l'orologio biologico",
+          "back": "body clock",
+          "example": "Dopo il viaggio il mio orologio biologico è confuso."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l3-e03",
+          "stage": "learn",
+          "front": "in allerta",
+          "back": "on alert",
+          "example": "Dopo la notizia tutti erano in allerta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l3-e04",
+          "stage": "learn",
+          "front": "incoraggiante",
+          "back": "encouraging",
+          "example": "I risultati dell'esame sono incoraggianti."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-01-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "orologio biologico",
+            "schermi",
+            "lezioni più tardi",
+            "genitori"
+          ],
+          "modelAnswer": "Secondo la ricercatrice, gli adolescenti dormono poco perché il loro orologio biologico si sposta e perché gli schermi li tengono svegli. Posticipare le lezioni aiuterebbe, ma sarebbe complicato. I genitori dovrebbero dare il buon esempio.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-01-l4",
+      "title": "Telefoni in classe: né vietare né permettere",
+      "minutes": 10,
+      "goal": "Leggere un editoriale d'opinione e individuare tesi, argomenti e conclusione.",
+      "takeaway": "In un testo d'opinione frasi come «a mio avviso» e «tuttavia» segnalano la posizione dell'autore e le sue obiezioni.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-01-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Telefoni in classe: né vietare né permettere",
+          "passage": "Il divieto degli smartphone in classe è tornato al centro del dibattito e, come spesso accade, le opinioni si dividono in due campi opposti: da una parte chi lo considera la salvezza dell'istruzione, dall'altra chi lo giudica un ritorno al passato. A mio avviso entrambe le posizioni sono troppo semplici.\n\nChe il telefono distragga è fuori discussione. Chiunque abbia provato a leggere una pagina con le notifiche accese lo sa. Se un insegnante dovesse competere ogni mattina con trenta schermi, la sua lezione sarebbe quasi sempre perdente. Perciò un limite chiaro, durante le spiegazioni, mi sembra ragionevole.\n\nTuttavia vietare tutto, in ogni momento, rischia di essere inutile. Gli studenti non imparano a usare bene uno strumento che viene soltanto tenuto fuori dalla porta. Se la scuola avesse il coraggio di insegnare a verificare le fonti, a riconoscere una notizia falsa, a gestire il proprio tempo online, il telefono diventerebbe un argomento di studio e non soltanto un nemico.\n\nC'è poi un aspetto che si dimentica spesso: i divieti funzionano solo se sono rispettati da tutti, adulti compresi. Non è credibile una scuola in cui i docenti controllano la posta durante i consigli di classe e pretendono, nello stesso tempo, che i ragazzi lascino il telefono nello zaino.\n\nNonostante le critiche, non credo quindi che la soluzione sia scegliere tra proibire e permettere. Servono regole condivise, spiegate e, soprattutto, coerenti. Solo così un divieto smette di essere una punizione e diventa un'abitudine che si capisce.",
+          "questions": [
+            {
+              "question": "Qual è la tesi dell'autore?",
+              "options": [
+                "Gli smartphone vanno sempre permessi",
+                "Il divieto è un ritorno al passato",
+                "I professori devono usare più il telefono",
+                "Né il divieto totale né la libertà totale sono la soluzione"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa dovrebbe insegnare la scuola, secondo l'autore?",
+              "options": [
+                "A non usare mai il telefono",
+                "A usare il telefono in modo critico",
+                "A scrivere più velocemente",
+                "A rispettare gli adulti"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché l'autore cita i docenti che controllano la posta?",
+              "options": [
+                "Per criticare i consigli di classe",
+                "Per difendere gli studenti",
+                "Per dire che le regole devono valere anche per gli adulti",
+                "Per chiedere più tecnologia"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Qual è il suo atteggiamento verso le lezioni?",
+              "options": [
+                "Un limite durante le spiegazioni gli sembra ragionevole",
+                "Preferisce lezioni senza regole",
+                "Vorrebbe più ore di lezione",
+                "Pensa che le lezioni siano inutili"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l4-e02",
+          "stage": "learn",
+          "front": "il divieto",
+          "back": "ban, prohibition",
+          "example": "C'è un divieto di sosta davanti alla scuola."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l4-e03",
+          "stage": "learn",
+          "front": "distrarre",
+          "back": "to distract",
+          "example": "Il rumore mi distrae mentre studio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-01-l4-e04",
+          "stage": "learn",
+          "front": "coerente",
+          "back": "consistent",
+          "example": "Un genitore deve essere coerente con le regole che dà."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-01-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "telefono",
+            "regole",
+            "coerenti",
+            "adulti"
+          ],
+          "modelAnswer": "L'autore pensa che né il divieto totale né la libertà totale siano la soluzione. Un limite durante le spiegazioni è ragionevole, ma la scuola dovrebbe insegnare un uso critico del telefono e le regole devono valere anche per gli adulti.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la trattativa",
+      "en": "negotiation",
+      "example": "I sindacati hanno concluso la trattativa con l'azienda."
+    },
+    {
+      "it": "reperibile",
+      "en": "reachable, on call",
+      "example": "Il medico di turno è reperibile anche di notte."
+    },
+    {
+      "it": "arretrato",
+      "en": "backlog; overdue",
+      "example": "Dopo le ferie ho un sacco di lavoro arretrato."
+    },
+    {
+      "it": "sbrigativo",
+      "en": "hasty, curt",
+      "example": "Il suo giudizio è stato troppo sbrigativo."
+    },
+    {
+      "it": "sfiorare",
+      "en": "to brush past",
+      "example": "L'auto ha sfiorato il ciclista."
+    },
+    {
+      "it": "la sosta",
+      "en": "stop; parking",
+      "example": "In questa zona la sosta è vietata."
+    },
+    {
+      "it": "l'orologio biologico",
+      "en": "body clock",
+      "example": "Dopo il viaggio il mio orologio biologico è confuso."
+    },
+    {
+      "it": "in allerta",
+      "en": "on alert",
+      "example": "Dopo la notizia tutti erano in allerta."
+    },
+    {
+      "it": "incoraggiante",
+      "en": "encouraging",
+      "example": "I risultati dell'esame sono incoraggianti."
+    },
+    {
+      "it": "il divieto",
+      "en": "ban, prohibition",
+      "example": "C'è un divieto di sosta davanti alla scuola."
+    },
+    {
+      "it": "distrarre",
+      "en": "to distract",
+      "example": "Il rumore mi distrae mentre studio."
+    },
+    {
+      "it": "coerente",
+      "en": "consistent",
+      "example": "Un genitore deve essere coerente con le regole che dà."
+    }
+  ]
+}

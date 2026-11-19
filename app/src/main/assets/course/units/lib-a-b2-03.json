@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b2-03",
+  "level": "ASC",
+  "title": "Salute, città e lavoro",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni di livello B2 (circa 150–190 parole): un'intervista a una dottoressa, un avviso del Comune, una relazione sulla didattica a distanza, una rubrica sui diritti del consumatore, un documentario sugli uccelli migratori e un colloquio di lavoro.",
+  "grammarFocus": "Ascolto esteso B2: seguire interviste e dialoghi, distinguere dati e opinioni, riconoscere dubbi e cautele del parlante e fare inferenze.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b2-03-l1",
+      "title": "Intervista radiofonica: prevenzione in autunno",
+      "minutes": 8,
+      "goal": "Seguire un'intervista a un medico e capire periodi, dati e opinioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-03-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un'intervista",
+          "body": "In un'intervista le domande dividono il testo in parti: ascolta prima la domanda, poi la risposta.\n\nPresta attenzione a «però», «detto questo» e «francamente»: introducono il parere vero dell'esperto.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l1-e02",
+          "stage": "practise",
+          "audioText": "Buonasera e bentornati. Oggi parliamo con la dottoressa Ferri, medico di base, di prevenzione in autunno. Dottoressa, quando conviene vaccinarsi contro l'influenza? Allora, il periodo migliore è tra metà ottobre e la fine di novembre, perché l'organismo ci mette circa due settimane a costruire la protezione. Però, attenzione: non è mai troppo tardi, anche a dicembre ha senso farlo. Chi dovrebbe vaccinarsi, in particolare? Le persone sopra i sessantacinque anni, chi ha malattie croniche e il personale sanitario. Nel nostro ambulatorio, l'anno scorso, si è vaccinato il sessanta per cento dei pazienti anziani e, francamente, non è abbastanza. Molti però dicono: «io non mi ammalo mai». Ecco, è un ragionamento comprensibile, ma un po' ingenuo: ci si vaccina anche per proteggere chi ci sta vicino, cioè i più fragili. Detto questo, il vaccino non è una bacchetta magica: se si ha la febbre, bisogna comunque restare a casa e riposare. Grazie, dottoressa. Prego, e buona serata a tutti.",
+          "question": "Di che cosa parla principalmente l'intervista?",
+          "options": [
+            "Di una nuova cura per l'asma",
+            "Della prevenzione dell'influenza e del vaccino",
+            "Dell'organizzazione dell'ospedale",
+            "Dei costi dei farmaci in farmacia"
+          ],
+          "answer": 1,
+          "explanation": "Tutta l'intervista riguarda il vaccino antinfluenzale e la prevenzione."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l1-e03",
+          "stage": "practise",
+          "audioText": "Buonasera e bentornati. Oggi parliamo con la dottoressa Ferri, medico di base, di prevenzione in autunno. Dottoressa, quando conviene vaccinarsi contro l'influenza? Allora, il periodo migliore è tra metà ottobre e la fine di novembre, perché l'organismo ci mette circa due settimane a costruire la protezione. Però, attenzione: non è mai troppo tardi, anche a dicembre ha senso farlo. Chi dovrebbe vaccinarsi, in particolare? Le persone sopra i sessantacinque anni, chi ha malattie croniche e il personale sanitario. Nel nostro ambulatorio, l'anno scorso, si è vaccinato il sessanta per cento dei pazienti anziani e, francamente, non è abbastanza. Molti però dicono: «io non mi ammalo mai». Ecco, è un ragionamento comprensibile, ma un po' ingenuo: ci si vaccina anche per proteggere chi ci sta vicino, cioè i più fragili. Detto questo, il vaccino non è una bacchetta magica: se si ha la febbre, bisogna comunque restare a casa e riposare. Grazie, dottoressa. Prego, e buona serata a tutti.",
+          "question": "Qual è, secondo la dottoressa, il periodo migliore per vaccinarsi?",
+          "options": [
+            "Da metà ottobre alla fine di novembre",
+            "Solo a dicembre",
+            "Da gennaio a marzo",
+            "Soltanto in estate"
+          ],
+          "answer": 0,
+          "explanation": "Dice «tra metà ottobre e la fine di novembre»; a dicembre si può ancora, ma non è il periodo migliore."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l1-e04",
+          "stage": "practise",
+          "audioText": "Buonasera e bentornati. Oggi parliamo con la dottoressa Ferri, medico di base, di prevenzione in autunno. Dottoressa, quando conviene vaccinarsi contro l'influenza? Allora, il periodo migliore è tra metà ottobre e la fine di novembre, perché l'organismo ci mette circa due settimane a costruire la protezione. Però, attenzione: non è mai troppo tardi, anche a dicembre ha senso farlo. Chi dovrebbe vaccinarsi, in particolare? Le persone sopra i sessantacinque anni, chi ha malattie croniche e il personale sanitario. Nel nostro ambulatorio, l'anno scorso, si è vaccinato il sessanta per cento dei pazienti anziani e, francamente, non è abbastanza. Molti però dicono: «io non mi ammalo mai». Ecco, è un ragionamento comprensibile, ma un po' ingenuo: ci si vaccina anche per proteggere chi ci sta vicino, cioè i più fragili. Detto questo, il vaccino non è una bacchetta magica: se si ha la febbre, bisogna comunque restare a casa e riposare. Grazie, dottoressa. Prego, e buona serata a tutti.",
+          "question": "Che cosa pensa la dottoressa del dato sui pazienti anziani vaccinati?",
+          "options": [
+            "Pensa che sia insufficiente",
+            "È molto soddisfatta",
+            "Lo trova esagerato",
+            "Non lo considera importante"
+          ],
+          "answer": 0,
+          "explanation": "Dopo il sessanta per cento dice «francamente non è abbastanza»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l1-e05",
+          "stage": "practise",
+          "audioText": "Buonasera e bentornati. Oggi parliamo con la dottoressa Ferri, medico di base, di prevenzione in autunno. Dottoressa, quando conviene vaccinarsi contro l'influenza? Allora, il periodo migliore è tra metà ottobre e la fine di novembre, perché l'organismo ci mette circa due settimane a costruire la protezione. Però, attenzione: non è mai troppo tardi, anche a dicembre ha senso farlo. Chi dovrebbe vaccinarsi, in particolare? Le persone sopra i sessantacinque anni, chi ha malattie croniche e il personale sanitario. Nel nostro ambulatorio, l'anno scorso, si è vaccinato il sessanta per cento dei pazienti anziani e, francamente, non è abbastanza. Molti però dicono: «io non mi ammalo mai». Ecco, è un ragionamento comprensibile, ma un po' ingenuo: ci si vaccina anche per proteggere chi ci sta vicino, cioè i più fragili. Detto questo, il vaccino non è una bacchetta magica: se si ha la febbre, bisogna comunque restare a casa e riposare. Grazie, dottoressa. Prego, e buona serata a tutti.",
+          "question": "Perché, secondo lei, si vaccina anche chi non si ammala mai?",
+          "options": [
+            "Perché il vaccino è obbligatorio",
+            "Perché così non avrà mai la febbre",
+            "Per evitare di andare dal medico",
+            "Per proteggere le persone più fragili vicine a lui"
+          ],
+          "answer": 3,
+          "explanation": "Dice che ci si vaccina per proteggere chi sta vicino, cioè i più fragili."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l1-e06",
+          "stage": "learn",
+          "front": "la prevenzione",
+          "back": "prevention",
+          "example": "La prevenzione è importante per la salute."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l1-e07",
+          "stage": "learn",
+          "front": "ingenuo",
+          "back": "naive",
+          "example": "È un ragionamento un po' ingenuo."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-03-l2",
+      "title": "Avviso del Comune: la raccolta differenziata",
+      "minutes": 8,
+      "goal": "Capire un avviso ufficiale con date, cambiamenti e condizioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-03-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un avviso ufficiale",
+          "body": "Un avviso del Comune dà informazioni pratiche: cosa cambia, da quando, per chi e con quali conseguenze.\n\nRicorda le formule «a partire da», «non più… ma» e «solo su prenotazione»: indicano date e condizioni.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l2-e02",
+          "stage": "practise",
+          "audioText": "Avviso alla cittadinanza. L'amministrazione comunale di Montevalle informa che, a partire dal primo marzo, cambia il calendario della raccolta differenziata. La plastica e le lattine non saranno più ritirate il giovedì, ma il martedì, mentre il vetro passerà dal sabato al mercoledì, a settimane alterne. Il ritiro dell'umido resta invariato: lunedì, mercoledì e venerdì. Per i primi due mesi non verranno applicate sanzioni, perché sappiamo che cambiare abitudini richiede un po' di tempo; dal primo maggio, però, i contenitori esposti nel giorno sbagliato non saranno ritirati e, in caso di abbandono ripetuto, si pagherà una multa fino a centocinquanta euro. Ricordiamo inoltre che il ritiro degli ingombranti è gratuito, ma solo su prenotazione e per un massimo di tre pezzi per volta. Il nuovo calendario, con i colori dei sacchetti, sarà distribuito nelle cassette della posta entro la fine di febbraio. Chi non lo ricevesse può ritirarlo allo sportello ambiente, in municipio, oppure scaricarlo dal sito del Comune. Grazie per la collaborazione.",
+          "question": "Qual è lo scopo dell'avviso?",
+          "options": [
+            "Annunciare nuove tasse comunali",
+            "Chiedere volontari per pulire il parco",
+            "Informare i cittadini del nuovo calendario dei rifiuti",
+            "Spiegare come riciclare i vestiti"
+          ],
+          "answer": 2,
+          "explanation": "L'avviso riguarda il cambio del calendario della raccolta differenziata."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l2-e03",
+          "stage": "practise",
+          "audioText": "Avviso alla cittadinanza. L'amministrazione comunale di Montevalle informa che, a partire dal primo marzo, cambia il calendario della raccolta differenziata. La plastica e le lattine non saranno più ritirate il giovedì, ma il martedì, mentre il vetro passerà dal sabato al mercoledì, a settimane alterne. Il ritiro dell'umido resta invariato: lunedì, mercoledì e venerdì. Per i primi due mesi non verranno applicate sanzioni, perché sappiamo che cambiare abitudini richiede un po' di tempo; dal primo maggio, però, i contenitori esposti nel giorno sbagliato non saranno ritirati e, in caso di abbandono ripetuto, si pagherà una multa fino a centocinquanta euro. Ricordiamo inoltre che il ritiro degli ingombranti è gratuito, ma solo su prenotazione e per un massimo di tre pezzi per volta. Il nuovo calendario, con i colori dei sacchetti, sarà distribuito nelle cassette della posta entro la fine di febbraio. Chi non lo ricevesse può ritirarlo allo sportello ambiente, in municipio, oppure scaricarlo dal sito del Comune. Grazie per la collaborazione.",
+          "question": "Quando verrà ritirata la plastica dopo il cambiamento?",
+          "options": [
+            "Il giovedì",
+            "Il martedì",
+            "Il mercoledì",
+            "Il sabato"
+          ],
+          "answer": 1,
+          "explanation": "Dice «non più il giovedì, ma il martedì»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l2-e04",
+          "stage": "practise",
+          "audioText": "Avviso alla cittadinanza. L'amministrazione comunale di Montevalle informa che, a partire dal primo marzo, cambia il calendario della raccolta differenziata. La plastica e le lattine non saranno più ritirate il giovedì, ma il martedì, mentre il vetro passerà dal sabato al mercoledì, a settimane alterne. Il ritiro dell'umido resta invariato: lunedì, mercoledì e venerdì. Per i primi due mesi non verranno applicate sanzioni, perché sappiamo che cambiare abitudini richiede un po' di tempo; dal primo maggio, però, i contenitori esposti nel giorno sbagliato non saranno ritirati e, in caso di abbandono ripetuto, si pagherà una multa fino a centocinquanta euro. Ricordiamo inoltre che il ritiro degli ingombranti è gratuito, ma solo su prenotazione e per un massimo di tre pezzi per volta. Il nuovo calendario, con i colori dei sacchetti, sarà distribuito nelle cassette della posta entro la fine di febbraio. Chi non lo ricevesse può ritirarlo allo sportello ambiente, in municipio, oppure scaricarlo dal sito del Comune. Grazie per la collaborazione.",
+          "question": "Perché per due mesi non ci saranno multe?",
+          "options": [
+            "Perché il Comune non ha i vigili",
+            "Perché ai cittadini serve tempo per cambiare abitudini",
+            "Perché la multa non esiste ancora",
+            "Perché i sacchetti non sono pronti"
+          ],
+          "answer": 1,
+          "explanation": "Il Comune sa che cambiare abitudini richiede un po' di tempo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l2-e05",
+          "stage": "practise",
+          "audioText": "Avviso alla cittadinanza. L'amministrazione comunale di Montevalle informa che, a partire dal primo marzo, cambia il calendario della raccolta differenziata. La plastica e le lattine non saranno più ritirate il giovedì, ma il martedì, mentre il vetro passerà dal sabato al mercoledì, a settimane alterne. Il ritiro dell'umido resta invariato: lunedì, mercoledì e venerdì. Per i primi due mesi non verranno applicate sanzioni, perché sappiamo che cambiare abitudini richiede un po' di tempo; dal primo maggio, però, i contenitori esposti nel giorno sbagliato non saranno ritirati e, in caso di abbandono ripetuto, si pagherà una multa fino a centocinquanta euro. Ricordiamo inoltre che il ritiro degli ingombranti è gratuito, ma solo su prenotazione e per un massimo di tre pezzi per volta. Il nuovo calendario, con i colori dei sacchetti, sarà distribuito nelle cassette della posta entro la fine di febbraio. Chi non lo ricevesse può ritirarlo allo sportello ambiente, in municipio, oppure scaricarlo dal sito del Comune. Grazie per la collaborazione.",
+          "question": "A quali condizioni il ritiro degli ingombranti è gratuito?",
+          "options": [
+            "Con prenotazione e al massimo tre pezzi",
+            "Senza limiti di numero, ma solo il sabato",
+            "Solo se si paga il ritiro dell'umido",
+            "Con prenotazione, ma per un solo pezzo"
+          ],
+          "answer": 0,
+          "explanation": "Gratuito «solo su prenotazione e per un massimo di tre pezzi per volta»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l2-e06",
+          "stage": "learn",
+          "front": "la raccolta differenziata",
+          "back": "separate waste collection",
+          "example": "La raccolta differenziata cambia da marzo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l2-e07",
+          "stage": "learn",
+          "front": "a settimane alterne",
+          "back": "every other week",
+          "example": "Il vetro si ritira a settimane alterne."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-03-l3",
+      "title": "Relazione: la didattica a distanza",
+      "minutes": 8,
+      "goal": "Seguire una relazione e distinguere dati, dubbi e proposte.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-03-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare una relazione",
+          "body": "In una relazione il parlante presenta un dato, poi lo commenta e infine propone una soluzione.\n\nFai attenzione alle espressioni di cautela: «probabilmente», «anche se non abbiamo prove» e «direi». Mostrano che non è sicuro.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l3-e02",
+          "stage": "practise",
+          "audioText": "Nella mia relazione vorrei guardare la didattica a distanza senza entusiasmi eccessivi, ma anche senza pregiudizi. Partiamo dai vantaggi: secondo un'indagine condotta in tre università del nord, il settanta per cento degli studenti lavoratori dichiara di riuscire a seguire più lezioni, perché non perde ore in viaggio. Questo è un dato importante, anzi direi decisivo, per chi ha un'occupazione. Però, ed ecco il punto, lo stesso studio mostra che il tasso di abbandono dei corsi interamente online è quasi il doppio rispetto a quello dei corsi in presenza: il quattordici per cento contro l'otto. Perché? Probabilmente, anche se non abbiamo ancora prove definitive, perché manca il contatto informale: la chiacchierata dopo la lezione, il caffè, il compagno che ti dice «guarda che l'esame è difficile». La soluzione che propongo non è tornare indietro, ma costruire formule miste: lezioni registrate da vedere quando si vuole e incontri in aula, pochi ma obbligatori, dedicati alla discussione. Insomma, la tecnologia serve, a patto che non sostituisca le relazioni.",
+          "question": "Qual è l'atteggiamento generale del relatore verso la didattica a distanza?",
+          "options": [
+            "Entusiasta e senza dubbi",
+            "Totalmente contrario",
+            "Indifferente al problema",
+            "Equilibrato: vede vantaggi e limiti"
+          ],
+          "answer": 3,
+          "explanation": "Dice di volerla guardare «senza entusiasmi eccessivi, ma anche senza pregiudizi»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l3-e03",
+          "stage": "practise",
+          "audioText": "Nella mia relazione vorrei guardare la didattica a distanza senza entusiasmi eccessivi, ma anche senza pregiudizi. Partiamo dai vantaggi: secondo un'indagine condotta in tre università del nord, il settanta per cento degli studenti lavoratori dichiara di riuscire a seguire più lezioni, perché non perde ore in viaggio. Questo è un dato importante, anzi direi decisivo, per chi ha un'occupazione. Però, ed ecco il punto, lo stesso studio mostra che il tasso di abbandono dei corsi interamente online è quasi il doppio rispetto a quello dei corsi in presenza: il quattordici per cento contro l'otto. Perché? Probabilmente, anche se non abbiamo ancora prove definitive, perché manca il contatto informale: la chiacchierata dopo la lezione, il caffè, il compagno che ti dice «guarda che l'esame è difficile». La soluzione che propongo non è tornare indietro, ma costruire formule miste: lezioni registrate da vedere quando si vuole e incontri in aula, pochi ma obbligatori, dedicati alla discussione. Insomma, la tecnologia serve, a patto che non sostituisca le relazioni.",
+          "question": "Perché molti studenti lavoratori seguono più lezioni a distanza?",
+          "options": [
+            "Perché le lezioni sono più facili",
+            "Perché pagano meno tasse",
+            "Perché non perdono tempo negli spostamenti",
+            "Perché possono saltare gli esami"
+          ],
+          "answer": 2,
+          "explanation": "Il dato è collegato alle «ore in viaggio» che non si perdono."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l3-e04",
+          "stage": "practise",
+          "audioText": "Nella mia relazione vorrei guardare la didattica a distanza senza entusiasmi eccessivi, ma anche senza pregiudizi. Partiamo dai vantaggi: secondo un'indagine condotta in tre università del nord, il settanta per cento degli studenti lavoratori dichiara di riuscire a seguire più lezioni, perché non perde ore in viaggio. Questo è un dato importante, anzi direi decisivo, per chi ha un'occupazione. Però, ed ecco il punto, lo stesso studio mostra che il tasso di abbandono dei corsi interamente online è quasi il doppio rispetto a quello dei corsi in presenza: il quattordici per cento contro l'otto. Perché? Probabilmente, anche se non abbiamo ancora prove definitive, perché manca il contatto informale: la chiacchierata dopo la lezione, il caffè, il compagno che ti dice «guarda che l'esame è difficile». La soluzione che propongo non è tornare indietro, ma costruire formule miste: lezioni registrate da vedere quando si vuole e incontri in aula, pochi ma obbligatori, dedicati alla discussione. Insomma, la tecnologia serve, a patto che non sostituisca le relazioni.",
+          "question": "Come spiega il relatore il maggior numero di abbandoni online?",
+          "options": [
+            "Con una prova definitiva: i corsi sono troppo difficili",
+            "Con il costo dei corsi online",
+            "Con una ipotesi: manca il contatto informale",
+            "Con la scarsa qualità dei computer"
+          ],
+          "answer": 2,
+          "explanation": "Usa «probabilmente» e ammette che non ci sono ancora prove definitive."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l3-e05",
+          "stage": "practise",
+          "audioText": "Nella mia relazione vorrei guardare la didattica a distanza senza entusiasmi eccessivi, ma anche senza pregiudizi. Partiamo dai vantaggi: secondo un'indagine condotta in tre università del nord, il settanta per cento degli studenti lavoratori dichiara di riuscire a seguire più lezioni, perché non perde ore in viaggio. Questo è un dato importante, anzi direi decisivo, per chi ha un'occupazione. Però, ed ecco il punto, lo stesso studio mostra che il tasso di abbandono dei corsi interamente online è quasi il doppio rispetto a quello dei corsi in presenza: il quattordici per cento contro l'otto. Perché? Probabilmente, anche se non abbiamo ancora prove definitive, perché manca il contatto informale: la chiacchierata dopo la lezione, il caffè, il compagno che ti dice «guarda che l'esame è difficile». La soluzione che propongo non è tornare indietro, ma costruire formule miste: lezioni registrate da vedere quando si vuole e incontri in aula, pochi ma obbligatori, dedicati alla discussione. Insomma, la tecnologia serve, a patto che non sostituisca le relazioni.",
+          "question": "Che cosa propone alla fine?",
+          "options": [
+            "Di tornare soltanto alle lezioni in aula",
+            "Un modello misto con pochi incontri in aula obbligatori",
+            "Di eliminare gli incontri dal vivo",
+            "Di rendere facoltative tutte le lezioni"
+          ],
+          "answer": 1,
+          "explanation": "Propone lezioni registrate più incontri in aula, pochi ma obbligatori."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l3-e06",
+          "stage": "learn",
+          "front": "l'abbandono",
+          "back": "dropout",
+          "example": "Il tasso di abbandono è più alto online."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l3-e07",
+          "stage": "learn",
+          "front": "a patto che",
+          "back": "provided that",
+          "example": "Va bene, a patto che sia pagato."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-03-l4",
+      "title": "Rubrica radiofonica: i diritti del consumatore",
+      "minutes": 8,
+      "goal": "Capire una rubrica con consigli pratici, eccezioni e un esempio.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-03-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare una rubrica di consigli",
+          "body": "In una rubrica di consigli c'è una regola, poi le eccezioni, poi un esempio.\n\nCerca «attenzione però», «a meno che» e «tranne»: indicano limiti ed eccezioni.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l4-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti a «Sportello consumatori». Oggi rispondiamo a una domanda che ci arriva spesso: posso restituire un prodotto comprato su internet? La risposta è sì: per gli acquisti a distanza hai quattordici giorni di tempo per ripensarci, a partire dal giorno in cui ricevi la merce, non da quando la ordini. Questo è un errore molto comune. Non devi nemmeno spiegare il motivo: basta una comunicazione scritta, per esempio una email. Attenzione però: le spese di restituzione, di solito, sono a carico tuo, a meno che il venditore non abbia dichiarato il contrario. E ci sono delle eccezioni: non puoi recedere se il prodotto è stato fatto su misura, come un mobile disegnato apposta per te, né se hai aperto un software sigillato o se si tratta di un alimento deperibile. Un consiglio personale: conserva sempre la confezione originale. Un ascoltatore, Luca, ci ha scritto di aver aspettato il rimborso per due mesi. Di norma il venditore deve restituire il denaro entro quattordici giorni dalla comunicazione: se non lo fa, scrivete a noi.",
+          "question": "Di che cosa parla la rubrica?",
+          "options": [
+            "Del diritto di restituire gli acquisti fatti online",
+            "Di come confrontare i prezzi dei supermercati",
+            "Di come aprire un negozio su internet",
+            "Di come scegliere un telefono nuovo"
+          ],
+          "answer": 0,
+          "explanation": "La domanda iniziale riguarda la restituzione di un prodotto comprato su internet."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l4-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti a «Sportello consumatori». Oggi rispondiamo a una domanda che ci arriva spesso: posso restituire un prodotto comprato su internet? La risposta è sì: per gli acquisti a distanza hai quattordici giorni di tempo per ripensarci, a partire dal giorno in cui ricevi la merce, non da quando la ordini. Questo è un errore molto comune. Non devi nemmeno spiegare il motivo: basta una comunicazione scritta, per esempio una email. Attenzione però: le spese di restituzione, di solito, sono a carico tuo, a meno che il venditore non abbia dichiarato il contrario. E ci sono delle eccezioni: non puoi recedere se il prodotto è stato fatto su misura, come un mobile disegnato apposta per te, né se hai aperto un software sigillato o se si tratta di un alimento deperibile. Un consiglio personale: conserva sempre la confezione originale. Un ascoltatore, Luca, ci ha scritto di aver aspettato il rimborso per due mesi. Di norma il venditore deve restituire il denaro entro quattordici giorni dalla comunicazione: se non lo fa, scrivete a noi.",
+          "question": "Da quando si contano i quattordici giorni?",
+          "options": [
+            "Dal giorno dell'ordine",
+            "Dal giorno del pagamento",
+            "Dal giorno della spedizione",
+            "Dal giorno in cui si riceve la merce"
+          ],
+          "answer": 3,
+          "explanation": "L'errore comune è contarli dall'ordine: invece partono dalla consegna."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l4-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti a «Sportello consumatori». Oggi rispondiamo a una domanda che ci arriva spesso: posso restituire un prodotto comprato su internet? La risposta è sì: per gli acquisti a distanza hai quattordici giorni di tempo per ripensarci, a partire dal giorno in cui ricevi la merce, non da quando la ordini. Questo è un errore molto comune. Non devi nemmeno spiegare il motivo: basta una comunicazione scritta, per esempio una email. Attenzione però: le spese di restituzione, di solito, sono a carico tuo, a meno che il venditore non abbia dichiarato il contrario. E ci sono delle eccezioni: non puoi recedere se il prodotto è stato fatto su misura, come un mobile disegnato apposta per te, né se hai aperto un software sigillato o se si tratta di un alimento deperibile. Un consiglio personale: conserva sempre la confezione originale. Un ascoltatore, Luca, ci ha scritto di aver aspettato il rimborso per due mesi. Di norma il venditore deve restituire il denaro entro quattordici giorni dalla comunicazione: se non lo fa, scrivete a noi.",
+          "question": "Quale prodotto NON si può restituire?",
+          "options": [
+            "Un paio di scarpe",
+            "Un libro ancora nel suo pacco",
+            "Un telefono mai usato",
+            "Un mobile fatto su misura"
+          ],
+          "answer": 3,
+          "explanation": "Fra le eccezioni c'è il prodotto fatto su misura, come un mobile disegnato apposta."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l4-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti a «Sportello consumatori». Oggi rispondiamo a una domanda che ci arriva spesso: posso restituire un prodotto comprato su internet? La risposta è sì: per gli acquisti a distanza hai quattordici giorni di tempo per ripensarci, a partire dal giorno in cui ricevi la merce, non da quando la ordini. Questo è un errore molto comune. Non devi nemmeno spiegare il motivo: basta una comunicazione scritta, per esempio una email. Attenzione però: le spese di restituzione, di solito, sono a carico tuo, a meno che il venditore non abbia dichiarato il contrario. E ci sono delle eccezioni: non puoi recedere se il prodotto è stato fatto su misura, come un mobile disegnato apposta per te, né se hai aperto un software sigillato o se si tratta di un alimento deperibile. Un consiglio personale: conserva sempre la confezione originale. Un ascoltatore, Luca, ci ha scritto di aver aspettato il rimborso per due mesi. Di norma il venditore deve restituire il denaro entro quattordici giorni dalla comunicazione: se non lo fa, scrivete a noi.",
+          "question": "Che cosa mostra l'esempio di Luca?",
+          "options": [
+            "Che il venditore paga sempre le spese",
+            "Che il rimborso arriva in un giorno",
+            "Che a volte il rimborso arriva molto in ritardo",
+            "Che non si può mai chiedere indietro il denaro"
+          ],
+          "answer": 2,
+          "explanation": "Luca ha aspettato due mesi, mentre di norma i tempi sono di quattordici giorni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l4-e06",
+          "stage": "learn",
+          "front": "recedere",
+          "back": "to withdraw (from a contract)",
+          "example": "Puoi recedere dal contratto entro due settimane."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l4-e07",
+          "stage": "learn",
+          "front": "il rimborso",
+          "back": "refund",
+          "example": "Aspetto ancora il rimborso."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-03-l5",
+      "title": "Documentario: gli uccelli migratori",
+      "minutes": 8,
+      "goal": "Seguire un documentario e capire cause, ipotesi e minacce.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-03-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un documentario",
+          "body": "Un documentario descrive un fenomeno, ne spiega le cause e poi presenta un problema.\n\nDistingui i fatti («usano il sole») dalle ipotesi («probabilmente anche il campo magnetico»).\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l5-e02",
+          "stage": "practise",
+          "audioText": "Ogni autunno, quando le giornate si accorciano, nelle zone umide del nord Europa comincia un fenomeno straordinario. Le gru, che durante l'estate hanno allevato i piccoli tra canneti e paludi, si radunano in grandi gruppi e partono verso sud. Volano in formazione a «V», un'abitudine che non è solo estetica: l'uccello che sta davanti rompe l'aria e quelli dietro risparmiano, secondo i ricercatori, fino a un quinto delle energie. Per orientarsi usano il sole di giorno e le stelle di notte, ma probabilmente anche il campo magnetico terrestre, anche se su questo punto gli studiosi non sono ancora d'accordo. Il viaggio dura in media tre settimane e copre circa quattromila chilometri, con soste in alcune aree protette, dove gli uccelli trovano cibo e riposo. Purtroppo queste soste sono sempre più in pericolo: negli ultimi trent'anni è sparito quasi un terzo delle zone umide lungo la rotta. Per questo oggi si parla di «corridoi ecologici», cioè una rete di luoghi sicuri che permetta agli uccelli di arrivare a destinazione. Senza questi rifugi, il viaggio rischia di diventare un'impresa impossibile.",
+          "question": "Perché le gru volano a «V»?",
+          "options": [
+            "Per essere più belle da vedere",
+            "Per risparmiare energia",
+            "Per difendersi dai predatori",
+            "Per trovare più facilmente il cibo"
+          ],
+          "answer": 1,
+          "explanation": "Chi sta dietro risparmia fino a un quinto delle energie."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l5-e03",
+          "stage": "practise",
+          "audioText": "Ogni autunno, quando le giornate si accorciano, nelle zone umide del nord Europa comincia un fenomeno straordinario. Le gru, che durante l'estate hanno allevato i piccoli tra canneti e paludi, si radunano in grandi gruppi e partono verso sud. Volano in formazione a «V», un'abitudine che non è solo estetica: l'uccello che sta davanti rompe l'aria e quelli dietro risparmiano, secondo i ricercatori, fino a un quinto delle energie. Per orientarsi usano il sole di giorno e le stelle di notte, ma probabilmente anche il campo magnetico terrestre, anche se su questo punto gli studiosi non sono ancora d'accordo. Il viaggio dura in media tre settimane e copre circa quattromila chilometri, con soste in alcune aree protette, dove gli uccelli trovano cibo e riposo. Purtroppo queste soste sono sempre più in pericolo: negli ultimi trent'anni è sparito quasi un terzo delle zone umide lungo la rotta. Per questo oggi si parla di «corridoi ecologici», cioè una rete di luoghi sicuri che permetta agli uccelli di arrivare a destinazione. Senza questi rifugi, il viaggio rischia di diventare un'impresa impossibile.",
+          "question": "Che cosa si dice sul campo magnetico terrestre?",
+          "options": [
+            "È una possibile guida, ma gli studiosi non sono d'accordo",
+            "È l'unico sistema di orientamento certo",
+            "È stato escluso da tutti gli studi",
+            "Serve solo di giorno"
+          ],
+          "answer": 0,
+          "explanation": "Il testo usa «probabilmente» e dice che gli studiosi non sono ancora d'accordo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l5-e04",
+          "stage": "practise",
+          "audioText": "Ogni autunno, quando le giornate si accorciano, nelle zone umide del nord Europa comincia un fenomeno straordinario. Le gru, che durante l'estate hanno allevato i piccoli tra canneti e paludi, si radunano in grandi gruppi e partono verso sud. Volano in formazione a «V», un'abitudine che non è solo estetica: l'uccello che sta davanti rompe l'aria e quelli dietro risparmiano, secondo i ricercatori, fino a un quinto delle energie. Per orientarsi usano il sole di giorno e le stelle di notte, ma probabilmente anche il campo magnetico terrestre, anche se su questo punto gli studiosi non sono ancora d'accordo. Il viaggio dura in media tre settimane e copre circa quattromila chilometri, con soste in alcune aree protette, dove gli uccelli trovano cibo e riposo. Purtroppo queste soste sono sempre più in pericolo: negli ultimi trent'anni è sparito quasi un terzo delle zone umide lungo la rotta. Per questo oggi si parla di «corridoi ecologici», cioè una rete di luoghi sicuri che permetta agli uccelli di arrivare a destinazione. Senza questi rifugi, il viaggio rischia di diventare un'impresa impossibile.",
+          "question": "Qual è il problema principale lungo la rotta?",
+          "options": [
+            "La scomparsa di molte zone umide",
+            "L'aumento delle temperature in Africa",
+            "La mancanza di cibo nel nord Europa",
+            "Il numero troppo alto di cacciatori"
+          ],
+          "answer": 0,
+          "explanation": "Negli ultimi trent'anni è sparito quasi un terzo delle zone umide."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l5-e05",
+          "stage": "practise",
+          "audioText": "Ogni autunno, quando le giornate si accorciano, nelle zone umide del nord Europa comincia un fenomeno straordinario. Le gru, che durante l'estate hanno allevato i piccoli tra canneti e paludi, si radunano in grandi gruppi e partono verso sud. Volano in formazione a «V», un'abitudine che non è solo estetica: l'uccello che sta davanti rompe l'aria e quelli dietro risparmiano, secondo i ricercatori, fino a un quinto delle energie. Per orientarsi usano il sole di giorno e le stelle di notte, ma probabilmente anche il campo magnetico terrestre, anche se su questo punto gli studiosi non sono ancora d'accordo. Il viaggio dura in media tre settimane e copre circa quattromila chilometri, con soste in alcune aree protette, dove gli uccelli trovano cibo e riposo. Purtroppo queste soste sono sempre più in pericolo: negli ultimi trent'anni è sparito quasi un terzo delle zone umide lungo la rotta. Per questo oggi si parla di «corridoi ecologici», cioè una rete di luoghi sicuri che permetta agli uccelli di arrivare a destinazione. Senza questi rifugi, il viaggio rischia di diventare un'impresa impossibile.",
+          "question": "A che cosa servono i «corridoi ecologici»?",
+          "options": [
+            "A vietare il volo agli aerei",
+            "A spostare le gru in Africa con i camion",
+            "A contare gli uccelli ogni anno",
+            "A offrire soste sicure lungo il viaggio"
+          ],
+          "answer": 3,
+          "explanation": "Sono una rete di luoghi sicuri per arrivare a destinazione."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l5-e06",
+          "stage": "learn",
+          "front": "la zona umida",
+          "back": "wetland",
+          "example": "La zona umida ospita molti uccelli."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l5-e07",
+          "stage": "learn",
+          "front": "orientarsi",
+          "back": "to find one's way",
+          "example": "Gli uccelli si orientano con le stelle."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-03-l6",
+      "title": "Dialogo: un colloquio di lavoro",
+      "minutes": 8,
+      "goal": "Capire un colloquio di lavoro: esperienza, motivazioni e condizioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-03-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un colloquio",
+          "body": "In un colloquio ci sono due voci: chi fa le domande e chi risponde. Segna chi parla e che cosa dice.\n\nLe risposte più sincere spesso cominciano con «be'», «diciamo che» o «mah»: sono segnali di esitazione.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l6-e02",
+          "stage": "practise",
+          "audioText": "Si accomodi, signora Bellini. Ho letto il suo curriculum: lavora da sei anni come addetta alla logistica, giusto? Sì, esatto, in una piccola azienda di spedizioni. Mi occupavo soprattutto di coordinare gli arrivi della merce, ma da un anno gestisco anche due colleghi. Interessante. Perché vuole cambiare? Be', diciamo che l'azienda è stata venduta e, ecco, l'ambiente non è più quello di prima. Non è una questione di stipendio, anzi, guadagnavo bene; cerco un posto dove poter crescere. Capisco. Qual è il suo punto debole? Mah, forse tendo a voler controllare tutto personalmente e a volte faccio fatica a delegare. Però ci sto lavorando. Bene. Le dico com'è la posizione: contratto di un anno, con possibilità di rinnovo, trentotto ore settimanali e qualche sabato mattina al mese. I sabati non sono un problema, purché siano programmati con un po' di anticipo. Questo possiamo garantirlo. Le faremo sapere entro dieci giorni; nel frattempo, se ha domande, può scrivermi.",
+          "question": "Per quale motivo la candidata vuole cambiare lavoro?",
+          "options": [
+            "Vuole uno stipendio più alto",
+            "Non le piace la logistica",
+            "Dopo la vendita dell'azienda l'ambiente è peggiorato",
+            "Ha litigato con i colleghi"
+          ],
+          "answer": 2,
+          "explanation": "Dice che l'azienda è stata venduta e l'ambiente non è più quello di prima; non è una questione di stipendio."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l6-e03",
+          "stage": "practise",
+          "audioText": "Si accomodi, signora Bellini. Ho letto il suo curriculum: lavora da sei anni come addetta alla logistica, giusto? Sì, esatto, in una piccola azienda di spedizioni. Mi occupavo soprattutto di coordinare gli arrivi della merce, ma da un anno gestisco anche due colleghi. Interessante. Perché vuole cambiare? Be', diciamo che l'azienda è stata venduta e, ecco, l'ambiente non è più quello di prima. Non è una questione di stipendio, anzi, guadagnavo bene; cerco un posto dove poter crescere. Capisco. Qual è il suo punto debole? Mah, forse tendo a voler controllare tutto personalmente e a volte faccio fatica a delegare. Però ci sto lavorando. Bene. Le dico com'è la posizione: contratto di un anno, con possibilità di rinnovo, trentotto ore settimanali e qualche sabato mattina al mese. I sabati non sono un problema, purché siano programmati con un po' di anticipo. Questo possiamo garantirlo. Le faremo sapere entro dieci giorni; nel frattempo, se ha domande, può scrivermi.",
+          "question": "Che cosa ammette la candidata a proposito del proprio carattere?",
+          "options": [
+            "Arriva spesso in ritardo",
+            "Fatica a delegare",
+            "Non sa lavorare in gruppo",
+            "Si stanca dopo poche ore"
+          ],
+          "answer": 1,
+          "explanation": "Dice di voler controllare tutto e di fare fatica a delegare."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l6-e04",
+          "stage": "practise",
+          "audioText": "Si accomodi, signora Bellini. Ho letto il suo curriculum: lavora da sei anni come addetta alla logistica, giusto? Sì, esatto, in una piccola azienda di spedizioni. Mi occupavo soprattutto di coordinare gli arrivi della merce, ma da un anno gestisco anche due colleghi. Interessante. Perché vuole cambiare? Be', diciamo che l'azienda è stata venduta e, ecco, l'ambiente non è più quello di prima. Non è una questione di stipendio, anzi, guadagnavo bene; cerco un posto dove poter crescere. Capisco. Qual è il suo punto debole? Mah, forse tendo a voler controllare tutto personalmente e a volte faccio fatica a delegare. Però ci sto lavorando. Bene. Le dico com'è la posizione: contratto di un anno, con possibilità di rinnovo, trentotto ore settimanali e qualche sabato mattina al mese. I sabati non sono un problema, purché siano programmati con un po' di anticipo. Questo possiamo garantirlo. Le faremo sapere entro dieci giorni; nel frattempo, se ha domande, può scrivermi.",
+          "question": "Quale condizione pone la candidata per lavorare il sabato?",
+          "options": [
+            "Che il sabato sia pagato il doppio",
+            "Che i turni siano programmati in anticipo",
+            "Che il sabato sia solo una volta all'anno",
+            "Che i colleghi lavorino con lei"
+          ],
+          "answer": 1,
+          "explanation": "Dice «purché siano programmati con un po' di anticipo»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-03-l6-e05",
+          "stage": "practise",
+          "audioText": "Si accomodi, signora Bellini. Ho letto il suo curriculum: lavora da sei anni come addetta alla logistica, giusto? Sì, esatto, in una piccola azienda di spedizioni. Mi occupavo soprattutto di coordinare gli arrivi della merce, ma da un anno gestisco anche due colleghi. Interessante. Perché vuole cambiare? Be', diciamo che l'azienda è stata venduta e, ecco, l'ambiente non è più quello di prima. Non è una questione di stipendio, anzi, guadagnavo bene; cerco un posto dove poter crescere. Capisco. Qual è il suo punto debole? Mah, forse tendo a voler controllare tutto personalmente e a volte faccio fatica a delegare. Però ci sto lavorando. Bene. Le dico com'è la posizione: contratto di un anno, con possibilità di rinnovo, trentotto ore settimanali e qualche sabato mattina al mese. I sabati non sono un problema, purché siano programmati con un po' di anticipo. Questo possiamo garantirlo. Le faremo sapere entro dieci giorni; nel frattempo, se ha domande, può scrivermi.",
+          "question": "Che cosa succederà dopo il colloquio?",
+          "options": [
+            "L'azienda risponderà entro dieci giorni",
+            "La candidata comincerà domani",
+            "La candidata dovrà fare un secondo test oggi",
+            "L'azienda non la contatterà più"
+          ],
+          "answer": 0,
+          "explanation": "L'intervistatore dice «le faremo sapere entro dieci giorni»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l6-e06",
+          "stage": "learn",
+          "front": "delegare",
+          "back": "to delegate",
+          "example": "Faccio fatica a delegare i compiti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-03-l6-e07",
+          "stage": "learn",
+          "front": "purché",
+          "back": "provided that, as long as",
+          "example": "Vengo purché sia con un po' di anticipo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la prevenzione",
+      "en": "prevention",
+      "example": "La prevenzione è importante per la salute."
+    },
+    {
+      "it": "ingenuo",
+      "en": "naive",
+      "example": "È un ragionamento un po' ingenuo."
+    },
+    {
+      "it": "la raccolta differenziata",
+      "en": "separate waste collection",
+      "example": "La raccolta differenziata cambia da marzo."
+    },
+    {
+      "it": "a settimane alterne",
+      "en": "every other week",
+      "example": "Il vetro si ritira a settimane alterne."
+    },
+    {
+      "it": "l'abbandono",
+      "en": "dropout",
+      "example": "Il tasso di abbandono è più alto online."
+    },
+    {
+      "it": "a patto che",
+      "en": "provided that",
+      "example": "Va bene, a patto che sia pagato."
+    },
+    {
+      "it": "recedere",
+      "en": "to withdraw (from a contract)",
+      "example": "Puoi recedere dal contratto entro due settimane."
+    },
+    {
+      "it": "il rimborso",
+      "en": "refund",
+      "example": "Aspetto ancora il rimborso."
+    },
+    {
+      "it": "la zona umida",
+      "en": "wetland",
+      "example": "La zona umida ospita molti uccelli."
+    },
+    {
+      "it": "orientarsi",
+      "en": "to find one's way",
+      "example": "Gli uccelli si orientano con le stelle."
+    },
+    {
+      "it": "delegare",
+      "en": "to delegate",
+      "example": "Faccio fatica a delegare i compiti."
+    },
+    {
+      "it": "purché",
+      "en": "provided that, as long as",
+      "example": "Vengo purché sia con un po' di anticipo."
+    }
+  ]
+}

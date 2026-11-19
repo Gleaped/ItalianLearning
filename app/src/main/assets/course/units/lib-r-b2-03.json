@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b2-03",
+  "level": "LET",
+  "title": "Scuola e società",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 250 parole) su scuola e società: un articolo, una lettera al giornale, un'intervista e una rubrica d'opinione.",
+  "grammarFocus": "Lettura estensiva B2: congiuntivo e periodo ipotetico nel testo d'opinione, connettivi di contrasto e conseguenza (tuttavia, nonostante, di conseguenza), forma passiva.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b2-03-l1",
+      "title": "Tasse più alte all'università",
+      "minutes": 10,
+      "goal": "Leggere un articolo di cronaca sull'aumento delle tasse universitarie e distinguere decisione, motivi e reazioni.",
+      "takeaway": "Tuttavia, nonostante e di conseguenza ti aiutano a separare la decisione dalle obiezioni e dalle sue conseguenze.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-03-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Tasse più alte all'università",
+          "passage": "Il consiglio dell'Università di Valmora ha approvato ieri sera l'aumento delle tasse per il prossimo anno accademico: la quota media passerà da 1.200 a 1.450 euro, mentre l'iscrizione resterà gratuita per gli studenti con un reddito familiare molto basso. La decisione, presa con undici voti favorevoli e sei contrari, è stata accolta con un breve applauso in sala e con i fischi di un centinaio di studenti, che aspettavano l'esito nel corridoio.\n\nIl rettore ha spiegato che l'ateneo non avrebbe potuto pareggiare il bilancio in altro modo. «Se i trasferimenti statali fossero rimasti al livello di cinque anni fa, oggi non saremmo qui a discutere», ha dichiarato. Secondo i suoi dati, le spese per l'energia e per le biblioteche sono cresciute del trenta per cento, mentre i finanziamenti pubblici sono aumentati appena del due.\n\nGli studenti, tuttavia, non si sono lasciati convincere. Il loro portavoce sostiene che l'aumento colpirà soprattutto la classe media, che non ha diritto alle esenzioni ma fatica ugualmente a pagare l'affitto in città. «Temiamo che qualcuno rinunci agli studi o scelga un'università più economica, anche se meno adatta a lui», ha detto.\n\nUna parte dei docenti si è mostrata più cauta. Alcuni riconoscono che i fondi sono insufficienti, ma chiedono che una quota delle nuove entrate venga destinata alle borse di studio e ai servizi per chi studia lontano da casa. Il rettore ha promesso che il tema sarà discusso a gennaio.\n\nNonostante le proteste, non è previsto alcun ripensamento. Gli studenti hanno annunciato un'assemblea pubblica per la prossima settimana e, di conseguenza, è probabile che il dibattito continui anche nei mesi che precedono le iscrizioni.",
+          "questions": [
+            {
+              "question": "A quanto salirà la quota media delle tasse?",
+              "options": [
+                "1.200 euro",
+                "1.450 euro",
+                "Resterà uguale",
+                "Sarà gratuita per tutti"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Come giustifica l'aumento il rettore?",
+              "options": [
+                "Con l'aumento degli studenti iscritti",
+                "Con le richieste dei docenti",
+                "Con la volontà di costruire nuove aule",
+                "Con costi cresciuti molto più dei finanziamenti pubblici"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Perché gli studenti temono per la classe media?",
+              "options": [
+                "Non ha diritto alle esenzioni ma ha comunque difficoltà a pagare",
+                "Non potrà più iscriversi online",
+                "Dovrà pagare anche l'affitto all'università",
+                "Riceverà meno borse di studio dei ricchi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa si può dedurre dalla fine del testo?",
+              "options": [
+                "Il consiglio cambierà presto idea",
+                "La discussione continuerà, ma la decisione resta valida",
+                "Le tasse saranno ridotte a gennaio",
+                "Gli studenti hanno accettato il risultato"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l1-e02",
+          "stage": "learn",
+          "front": "l'ateneo",
+          "back": "university (as an institution)",
+          "example": "L'ateneo ha aperto nuove aule per gli studenti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l1-e03",
+          "stage": "learn",
+          "front": "l'esenzione",
+          "back": "exemption",
+          "example": "Ha diritto all'esenzione dal pagamento delle tasse."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l1-e04",
+          "stage": "learn",
+          "front": "la borsa di studio",
+          "back": "scholarship",
+          "example": "Ha vinto una borsa di studio per l'estero."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-03-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "tasse",
+            "rettore",
+            "classe media",
+            "assemblea"
+          ],
+          "modelAnswer": "Il consiglio di un'università ha deciso di aumentare le tasse perché i costi sono cresciuti più dei finanziamenti. Gli studenti protestano, soprattutto per la classe media. Il rettore non cambierà idea, ma il dibattito continuerà.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-03-l2",
+      "title": "Il treno delle 7.12",
+      "minutes": 10,
+      "goal": "Leggere una lettera al giornale sui trasporti pubblici e riconoscere dati, critiche e proposte.",
+      "takeaway": "In una lettera di protesta i dati («sei volte su ventidue») rendono credibile la critica; poi arrivano le proposte con il condizionale.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-03-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il treno delle 7.12",
+          "passage": "Egregio direttore,\n\nsono un pendolare e ogni mattina prendo il treno regionale delle 7.12 per raggiungere il luogo di lavoro, a circa quaranta chilometri da casa. Le scrivo perché, dopo anni di ritardi e soppressioni, ritengo che sia arrivato il momento di dire chiaramente come stanno le cose.\n\nNell'ultimo mese il mio treno è arrivato in orario soltanto sei volte su ventidue. Le comunicazioni agli utenti, inoltre, sono sempre vaghe: gli altoparlanti annunciano un «inconveniente tecnico» senza spiegare né la durata né le alternative. Quando poi il treno viene soppresso, nessuno si preoccupa di organizzare un servizio sostitutivo. Così molti di noi sono costretti a prendere l'auto e, di conseguenza, aumentano traffico e inquinamento: un risultato assurdo per un servizio pubblico che dovrebbe fare l'esatto contrario.\n\nCapisco che gestire una rete vecchia non sia semplice, e non pretendo miracoli. Tuttavia mi aspetto che chi guida l'azienda ammetta i problemi invece di minimizzarli. Se i responsabili parlassero con più onestà, probabilmente i viaggiatori sarebbero meno arrabbiati; e se almeno gli orari fossero realistici, potremmo organizzarci.\n\nPropongo tre misure semplici: orari aggiornati sulla base dei tempi reali, avvisi tempestivi sul telefono e un rimborso automatico per chi subisce un ritardo superiore ai trenta minuti. Non si tratta di favori, ma di rispetto verso chi paga l'abbonamento.\n\nSpero che qualcuno, tra chi ne ha il potere, legga queste righe prima che i pendolari smettano del tutto di credere nel treno.\n\nDistinti saluti,\nun pendolare stanco",
+          "questions": [
+            {
+              "question": "Perché l'autore scrive al direttore?",
+              "options": [
+                "Per elogiare il personale del treno",
+                "Per proporre una nuova linea ferroviaria",
+                "Per protestare contro ritardi e comunicazioni poco chiare",
+                "Per chiedere un lavoro più vicino a casa"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quante volte su ventidue il treno è arrivato in orario?",
+              "options": [
+                "Sei",
+                "Ventidue",
+                "Due",
+                "Quaranta"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché secondo l'autore molti viaggiatori usano l'auto?",
+              "options": [
+                "Perché costa meno del treno",
+                "Perché i parcheggi sono gratuiti",
+                "Perché il treno è troppo veloce",
+                "Perché il treno viene spesso soppresso senza alternative"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa propone per chi subisce un grande ritardo?",
+              "options": [
+                "Un abbonamento gratuito",
+                "Un rimborso automatico",
+                "Un taxi pagato dall'azienda",
+                "Un biglietto per il mese successivo"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l2-e02",
+          "stage": "learn",
+          "front": "il pendolare",
+          "back": "commuter",
+          "example": "Il pendolare prende il treno ogni mattina."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l2-e03",
+          "stage": "learn",
+          "front": "la soppressione",
+          "back": "cancellation",
+          "example": "La soppressione del treno ha causato molti disagi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l2-e04",
+          "stage": "learn",
+          "front": "tempestivo",
+          "back": "prompt, timely",
+          "example": "Serve un avviso tempestivo in caso di sciopero."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-03-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "pendolare",
+            "ritardi",
+            "rimborso",
+            "orari"
+          ],
+          "modelAnswer": "Un pendolare protesta contro i ritardi e le comunicazioni vaghe del suo treno regionale. Molti usano l'auto, con più traffico. Propone orari realistici, avvisi tempestivi e un rimborso automatico.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-03-l3",
+      "title": "Un museo aperto a tutti",
+      "minutes": 10,
+      "goal": "Leggere un'intervista alla direttrice di un museo e capire obiettivi, critiche e risultati.",
+      "takeaway": "In un'intervista ogni risposta riprende la domanda: segui le parole chiave per trovare il punto giusto nel testo.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-03-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un museo aperto a tutti",
+          "passage": "Direttrice, il museo ha appena riaperto dopo due anni di lavori. Che cosa è cambiato?\n\nSoprattutto il modo di accogliere le persone. Prima si entrava da una porta laterale e si saliva subito al primo piano, dove erano esposte le opere più celebri. Oggi il percorso comincia dal cortile, che è stato trasformato in uno spazio gratuito per chi vuole soltanto sedersi, leggere o incontrare qualcuno.\n\nNon teme che un museo così aperto perda prestigio?\n\nAl contrario. Un museo che si rivolge soltanto agli specialisti rischia di restare vuoto. Se le sale fossero frequentate da pochi appassionati, non avremmo ottenuto i finanziamenti per i restauri. Il prestigio, a mio parere, deriva dalla capacità di coinvolgere pubblici diversi.\n\nCome avete scelto le opere da mostrare?\n\nNe abbiamo esposte meno, ma le abbiamo spiegate meglio. Ogni sala è stata pensata affinché il visitatore possa fermarsi senza sentirsi in difetto se non conosce l'autore. I depositi, che prima erano chiusi, sono visitabili su prenotazione.\n\nLe critiche non sono mancate.\n\nÈ vero. Alcuni colleghi sostengono che si sia semplificato troppo. Posso capirli, ma i numeri sono incoraggianti: i biglietti venduti nelle prime tre settimane sono stati il doppio rispetto allo stesso periodo di due anni fa, e metà dei visitatori ha meno di trent'anni.\n\nE il futuro?\n\nVorrei che le scuole venissero qui non una volta all'anno, ma ogni mese. Se riuscissimo a creare questa abitudine, il museo diventerebbe davvero parte della città e non una meta da cartolina.",
+          "questions": [
+            {
+              "question": "Che cosa è cambiato soprattutto con la riapertura?",
+              "options": [
+                "Il modo di accogliere i visitatori",
+                "Il prezzo del biglietto",
+                "Il numero di opere celebri",
+                "L'orario di apertura"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché la direttrice non teme di perdere prestigio?",
+              "options": [
+                "Perché i colleghi hanno approvato i lavori",
+                "Perché il museo è molto antico",
+                "Perché le opere sono più costose",
+                "Perché il prestigio nasce dal coinvolgere pubblici diversi"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa ha fatto il museo con le opere?",
+              "options": [
+                "Ne ha esposte di più, senza spiegazioni",
+                "Ne ha mostrate meno, con spiegazioni migliori",
+                "Le ha vendute per finanziare i restauri",
+                "Le ha spostate nel cortile"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è l'obiettivo per il futuro?",
+              "options": [
+                "Attirare soltanto turisti stranieri",
+                "Chiudere i depositi al pubblico",
+                "Far diventare la visita scolastica un'abitudine mensile",
+                "Raddoppiare il prezzo dei biglietti"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l3-e02",
+          "stage": "learn",
+          "front": "il restauro",
+          "back": "restoration",
+          "example": "Il restauro del quadro è durato un anno."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l3-e03",
+          "stage": "learn",
+          "front": "l'appassionato",
+          "back": "enthusiast",
+          "example": "È un appassionato di arte moderna."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l3-e04",
+          "stage": "learn",
+          "front": "la meta",
+          "back": "destination",
+          "example": "Venezia è una meta molto popolare."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-03-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "museo",
+            "cortile",
+            "critiche",
+            "scuole"
+          ],
+          "modelAnswer": "La direttrice spiega che il museo riaperto è più accogliente, con meno opere ma meglio spiegate. Alcuni colleghi criticano la semplificazione, ma i biglietti sono raddoppiati. Spera che le scuole vengano ogni mese.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-03-l4",
+      "title": "Che cosa sa il telefono di noi",
+      "minutes": 10,
+      "goal": "Leggere una rubrica d'opinione su social e privacy e individuare tesi, obiezioni e proposta finale.",
+      "takeaway": "In una rubrica l'autore parte da un'esperienza personale, smonta un luogo comune e chiude con un consiglio pratico.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-03-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Che cosa sa il telefono di noi",
+          "passage": "Ogni sera, prima di cena, mia figlia mi mostra una fotografia che ha pubblicato e mi chiede se mi piace. Ogni sera io penso la stessa cosa: chi altro la sta guardando? Non è nostalgia di un'epoca senza schermi, ma una domanda sensata, che in pochi si pongono.\n\nSi dice spesso che chi non ha nulla da nascondere non abbia nulla da temere. È un argomento comodo, ma debole. Nessuno di noi vorrebbe che il vicino leggesse le sue ricevute, eppure rendiamo pubblici i luoghi che frequentiamo, le persone che incontriamo, le opinioni che esprimiamo. Se queste informazioni venissero raccolte e incrociate, ne emergerebbe un ritratto sorprendentemente preciso.\n\nLe piattaforme, d'altra parte, non sono state create per proteggere la nostra riservatezza. Guadagnano grazie ai dati e, di conseguenza, hanno poco interesse a limitarne la raccolta. Le impostazioni sulla privacy esistono, ma sono nascoste in menu che nessuno legge e vengono modificate di continuo, quando non sono scritte in un linguaggio incomprensibile.\n\nSarebbe tuttavia ingiusto scaricare ogni responsabilità sulle aziende. Siamo noi a pubblicare, a condividere, a cliccare «accetto» senza leggere. Prima che si perda del tutto l'abitudine alla prudenza, bisognerebbe insegnarla a scuola come si insegna l'educazione stradale.\n\nNon propongo di cancellare i profili. Suggerisco una regola semplice: prima di pubblicare qualcosa, immaginare che la leggano un datore di lavoro, un futuro cliente o, magari, i nostri figli tra vent'anni. Se la risposta ci mettesse a disagio, forse sarebbe meglio non farlo. Nonostante tutto, la rete resta uno strumento straordinario: basta ricordare che non dimentica.",
+          "questions": [
+            {
+              "question": "Perché l'autore racconta la scena con la figlia?",
+              "options": [
+                "Per criticare le fotografie di sua figlia",
+                "Per rimpiangere il passato",
+                "Per introdurre la domanda su chi vede ciò che pubblichiamo",
+                "Per consigliare un nuovo social"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché considera debole l'argomento «non ho nulla da nascondere»?",
+              "options": [
+                "Perché condividiamo molte informazioni che non vorremmo rendere pubbliche",
+                "Perché nessuno ha davvero qualcosa da nascondere",
+                "Perché le leggi lo vietano",
+                "Perché i vicini non sono interessati"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché le piattaforme non limitano la raccolta dei dati?",
+              "options": [
+                "Perché la legge lo impone",
+                "Perché gli utenti lo chiedono",
+                "Perché i dati sono pochi",
+                "Perché guadagnano proprio grazie ai dati"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Qual è la regola proposta alla fine?",
+              "options": [
+                "Cancellare tutti i profili",
+                "Immaginare chi leggerà ciò che pubblichiamo",
+                "Pubblicare soltanto di sera",
+                "Evitare di usare il telefono a cena"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l4-e02",
+          "stage": "learn",
+          "front": "la riservatezza",
+          "back": "privacy, discretion",
+          "example": "Chiedo il rispetto della mia riservatezza."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l4-e03",
+          "stage": "learn",
+          "front": "incrociare",
+          "back": "to cross-reference",
+          "example": "Hanno incrociato i dati di due archivi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-03-l4-e04",
+          "stage": "learn",
+          "front": "a disagio",
+          "back": "uncomfortable, ill at ease",
+          "example": "Mi sento a disagio quando parlo in pubblico."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-03-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "privacy",
+            "piattaforme",
+            "dati",
+            "regola"
+          ],
+          "modelAnswer": "L'autore sostiene che condividere troppo online è rischioso, anche se si pensa di non avere nulla da nascondere. Le piattaforme guadagnano con i dati, ma anche noi siamo responsabili. Propone di immaginare chi leggerà ciò che pubblichiamo.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'ateneo",
+      "en": "university (as an institution)",
+      "example": "L'ateneo ha aperto nuove aule per gli studenti."
+    },
+    {
+      "it": "l'esenzione",
+      "en": "exemption",
+      "example": "Ha diritto all'esenzione dal pagamento delle tasse."
+    },
+    {
+      "it": "la borsa di studio",
+      "en": "scholarship",
+      "example": "Ha vinto una borsa di studio per l'estero."
+    },
+    {
+      "it": "il pendolare",
+      "en": "commuter",
+      "example": "Il pendolare prende il treno ogni mattina."
+    },
+    {
+      "it": "la soppressione",
+      "en": "cancellation",
+      "example": "La soppressione del treno ha causato molti disagi."
+    },
+    {
+      "it": "tempestivo",
+      "en": "prompt, timely",
+      "example": "Serve un avviso tempestivo in caso di sciopero."
+    },
+    {
+      "it": "il restauro",
+      "en": "restoration",
+      "example": "Il restauro del quadro è durato un anno."
+    },
+    {
+      "it": "l'appassionato",
+      "en": "enthusiast",
+      "example": "È un appassionato di arte moderna."
+    },
+    {
+      "it": "la meta",
+      "en": "destination",
+      "example": "Venezia è una meta molto popolare."
+    },
+    {
+      "it": "la riservatezza",
+      "en": "privacy, discretion",
+      "example": "Chiedo il rispetto della mia riservatezza."
+    },
+    {
+      "it": "incrociare",
+      "en": "to cross-reference",
+      "example": "Hanno incrociato i dati di due archivi."
+    },
+    {
+      "it": "a disagio",
+      "en": "uncomfortable, ill at ease",
+      "example": "Mi sento a disagio quando parlo in pubblico."
+    }
+  ]
+}

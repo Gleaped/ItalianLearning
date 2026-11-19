@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b1-01",
+  "level": "ASC",
+  "title": "Ogni giorno",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni di vita quotidiana (circa 100–140 parole): un messaggio in segreteria, un annuncio in stazione, il meteo, una pubblicità, una telefonata e un dialogo tra amici.",
+  "grammarFocus": "Ascolto: leggere le domande prima, idea generale e dettagli, numeri, orari, prezzi e motivi.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b1-01-l1",
+      "title": "Messaggio in segreteria: l'officina",
+      "minutes": 6,
+      "goal": "Capire un messaggio in segreteria sulla macchina.",
+      "takeaway": "Nei messaggi cerca il motivo, i prezzi e il giorno.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-01-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l1-e02",
+          "stage": "practise",
+          "audioText": "Pronto, buongiorno, sono Luca dell'officina Moretti, ehm, chiamo per la sua macchina. Allora, abbiamo controllato i freni e purtroppo bisogna cambiare le pastiglie. Le pastiglie costano centoventi euro, più il lavoro, quindi in totale circa centocinquanta euro. La macchina sarà pronta domani, giovedì, dopo le diciassette, cioè, diciamo verso le diciassette e trenta. Se preferisce passare venerdì mattina, va bene lo stesso, noi apriamo alle otto. Però, mi raccomando, porti con sé il libretto, perché ci serve per la revisione. Ah, un'altra cosa: il parcheggio davanti all'officina è chiuso per lavori, quindi lasci la macchina in via Verdi. Mi richiami oppure mi scriva un messaggio. Grazie e buona giornata.",
+          "question": "Perché telefona il meccanico?",
+          "options": [
+            "Bisogna cambiare le pastiglie dei freni",
+            "La macchina è già pronta",
+            "Ha perso il libretto del cliente",
+            "Deve spostare l'appuntamento"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l1-e03",
+          "stage": "practise",
+          "audioText": "Pronto, buongiorno, sono Luca dell'officina Moretti, ehm, chiamo per la sua macchina. Allora, abbiamo controllato i freni e purtroppo bisogna cambiare le pastiglie. Le pastiglie costano centoventi euro, più il lavoro, quindi in totale circa centocinquanta euro. La macchina sarà pronta domani, giovedì, dopo le diciassette, cioè, diciamo verso le diciassette e trenta. Se preferisce passare venerdì mattina, va bene lo stesso, noi apriamo alle otto. Però, mi raccomando, porti con sé il libretto, perché ci serve per la revisione. Ah, un'altra cosa: il parcheggio davanti all'officina è chiuso per lavori, quindi lasci la macchina in via Verdi. Mi richiami oppure mi scriva un messaggio. Grazie e buona giornata.",
+          "question": "Quanto costa in totale la riparazione?",
+          "options": [
+            "Centoventi euro",
+            "Circa duecento euro",
+            "Circa centocinquanta euro",
+            "Circa cinquanta euro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l1-e04",
+          "stage": "practise",
+          "audioText": "Pronto, buongiorno, sono Luca dell'officina Moretti, ehm, chiamo per la sua macchina. Allora, abbiamo controllato i freni e purtroppo bisogna cambiare le pastiglie. Le pastiglie costano centoventi euro, più il lavoro, quindi in totale circa centocinquanta euro. La macchina sarà pronta domani, giovedì, dopo le diciassette, cioè, diciamo verso le diciassette e trenta. Se preferisce passare venerdì mattina, va bene lo stesso, noi apriamo alle otto. Però, mi raccomando, porti con sé il libretto, perché ci serve per la revisione. Ah, un'altra cosa: il parcheggio davanti all'officina è chiuso per lavori, quindi lasci la macchina in via Verdi. Mi richiami oppure mi scriva un messaggio. Grazie e buona giornata.",
+          "question": "Quando sarà pronta la macchina?",
+          "options": [
+            "Giovedì alle otto",
+            "Giovedì verso le diciassette e trenta",
+            "Venerdì sera",
+            "Mercoledì pomeriggio"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l1-e05",
+          "stage": "practise",
+          "audioText": "Pronto, buongiorno, sono Luca dell'officina Moretti, ehm, chiamo per la sua macchina. Allora, abbiamo controllato i freni e purtroppo bisogna cambiare le pastiglie. Le pastiglie costano centoventi euro, più il lavoro, quindi in totale circa centocinquanta euro. La macchina sarà pronta domani, giovedì, dopo le diciassette, cioè, diciamo verso le diciassette e trenta. Se preferisce passare venerdì mattina, va bene lo stesso, noi apriamo alle otto. Però, mi raccomando, porti con sé il libretto, perché ci serve per la revisione. Ah, un'altra cosa: il parcheggio davanti all'officina è chiuso per lavori, quindi lasci la macchina in via Verdi. Mi richiami oppure mi scriva un messaggio. Grazie e buona giornata.",
+          "question": "Che cosa deve portare il cliente?",
+          "options": [
+            "La patente",
+            "Un documento di identità",
+            "La ricevuta del pagamento",
+            "Il libretto della macchina"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l1-e06",
+          "stage": "learn",
+          "front": "i freni",
+          "back": "brakes",
+          "example": "Devo controllare i freni della bicicletta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l1-e07",
+          "stage": "learn",
+          "front": "il libretto",
+          "back": "vehicle logbook, booklet",
+          "example": "Porta il libretto quando vieni in officina."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-01-l2",
+      "title": "Annuncio in stazione",
+      "minutes": 6,
+      "goal": "Capire un annuncio con ritardi e cambi di treno.",
+      "takeaway": "Negli annunci ascolta binari, orari e il motivo del problema.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-01-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l2-e02",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno regionale per Bologna delle nove e quaranta, in partenza dal binario sette, viaggia con circa venti minuti di ritardo. Ci scusiamo per il disagio. Si informano i signori viaggiatori che il treno per Firenze delle dieci e dieci è stato soppresso a causa di un guasto sulla linea. I passeggeri possono prendere il treno delle dieci e cinquanta dal binario tre, senza pagare nessun supplemento. Il bar della stazione è chiuso fino a mezzogiorno, ma i distributori automatici sono aperti. Inoltre vi ricordiamo che, per ragioni di sicurezza, non si possono lasciare i bagagli senza sorveglianza. Per qualsiasi informazione, rivolgetevi allo sportello al piano terra, vicino all'uscita. Grazie per l'attenzione.",
+          "question": "Quanto ritardo ha il treno per Bologna?",
+          "options": [
+            "Dieci minuti",
+            "Circa venti minuti",
+            "Quaranta minuti",
+            "Un'ora"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l2-e03",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno regionale per Bologna delle nove e quaranta, in partenza dal binario sette, viaggia con circa venti minuti di ritardo. Ci scusiamo per il disagio. Si informano i signori viaggiatori che il treno per Firenze delle dieci e dieci è stato soppresso a causa di un guasto sulla linea. I passeggeri possono prendere il treno delle dieci e cinquanta dal binario tre, senza pagare nessun supplemento. Il bar della stazione è chiuso fino a mezzogiorno, ma i distributori automatici sono aperti. Inoltre vi ricordiamo che, per ragioni di sicurezza, non si possono lasciare i bagagli senza sorveglianza. Per qualsiasi informazione, rivolgetevi allo sportello al piano terra, vicino all'uscita. Grazie per l'attenzione.",
+          "question": "Perché il treno per Firenze delle dieci e dieci non parte?",
+          "options": [
+            "C'è un guasto sulla linea",
+            "C'è uno sciopero",
+            "Il binario è chiuso per lavori",
+            "Mancano i passeggeri"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l2-e04",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno regionale per Bologna delle nove e quaranta, in partenza dal binario sette, viaggia con circa venti minuti di ritardo. Ci scusiamo per il disagio. Si informano i signori viaggiatori che il treno per Firenze delle dieci e dieci è stato soppresso a causa di un guasto sulla linea. I passeggeri possono prendere il treno delle dieci e cinquanta dal binario tre, senza pagare nessun supplemento. Il bar della stazione è chiuso fino a mezzogiorno, ma i distributori automatici sono aperti. Inoltre vi ricordiamo che, per ragioni di sicurezza, non si possono lasciare i bagagli senza sorveglianza. Per qualsiasi informazione, rivolgetevi allo sportello al piano terra, vicino all'uscita. Grazie per l'attenzione.",
+          "question": "Quale treno possono prendere i passeggeri per Firenze?",
+          "options": [
+            "Quello delle dieci e dieci dal binario sette",
+            "Quello delle undici dal binario due",
+            "Quello delle nove e quaranta dal binario tre",
+            "Quello delle dieci e cinquanta dal binario tre"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l2-e05",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno regionale per Bologna delle nove e quaranta, in partenza dal binario sette, viaggia con circa venti minuti di ritardo. Ci scusiamo per il disagio. Si informano i signori viaggiatori che il treno per Firenze delle dieci e dieci è stato soppresso a causa di un guasto sulla linea. I passeggeri possono prendere il treno delle dieci e cinquanta dal binario tre, senza pagare nessun supplemento. Il bar della stazione è chiuso fino a mezzogiorno, ma i distributori automatici sono aperti. Inoltre vi ricordiamo che, per ragioni di sicurezza, non si possono lasciare i bagagli senza sorveglianza. Per qualsiasi informazione, rivolgetevi allo sportello al piano terra, vicino all'uscita. Grazie per l'attenzione.",
+          "question": "Dove si possono chiedere informazioni?",
+          "options": [
+            "Al bar della stazione",
+            "Ai distributori automatici",
+            "Allo sportello al piano terra",
+            "Sul binario sette"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l2-e06",
+          "stage": "learn",
+          "front": "il binario",
+          "back": "platform, track",
+          "example": "Il treno parte dal binario tre."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l2-e07",
+          "stage": "learn",
+          "front": "il guasto",
+          "back": "breakdown, fault",
+          "example": "Il treno è fermo per un guasto."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-01-l3",
+      "title": "Previsioni del tempo",
+      "minutes": 6,
+      "goal": "Capire le previsioni del tempo per zone.",
+      "takeaway": "Nel meteo associa ogni zona al suo tempo e alla sua temperatura.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-01-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l3-e02",
+          "stage": "practise",
+          "audioText": "E adesso le previsioni del tempo per domani. Al nord, allora, avremo una mattinata con nebbia in pianura, soprattutto in Veneto e in Lombardia, poi nel pomeriggio il cielo sarà abbastanza sereno, con temperature intorno ai dodici gradi. Al centro, invece, il tempo peggiora: dalla sera arriveranno piogge, anche forti, sulla Toscana e sul Lazio, e la temperatura scenderà a nove gradi. Al sud, mah, ci sarà ancora il sole, con massime di diciotto gradi, ma soffierà un vento forte da nord, quindi attenzione sul mare, che sarà molto mosso. Per il fine settimana, il maltempo si sposterà verso est e sabato torneranno il sole e temperature più miti. Buona giornata a tutti!",
+          "question": "Com'è il tempo al nord domani mattina?",
+          "options": [
+            "Piove molto",
+            "C'è un forte vento",
+            "C'è nebbia in pianura",
+            "Fa molto caldo"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l3-e03",
+          "stage": "practise",
+          "audioText": "E adesso le previsioni del tempo per domani. Al nord, allora, avremo una mattinata con nebbia in pianura, soprattutto in Veneto e in Lombardia, poi nel pomeriggio il cielo sarà abbastanza sereno, con temperature intorno ai dodici gradi. Al centro, invece, il tempo peggiora: dalla sera arriveranno piogge, anche forti, sulla Toscana e sul Lazio, e la temperatura scenderà a nove gradi. Al sud, mah, ci sarà ancora il sole, con massime di diciotto gradi, ma soffierà un vento forte da nord, quindi attenzione sul mare, che sarà molto mosso. Per il fine settimana, il maltempo si sposterà verso est e sabato torneranno il sole e temperature più miti. Buona giornata a tutti!",
+          "question": "Che cosa succede al centro dalla sera?",
+          "options": [
+            "Torna il sole",
+            "Arrivano piogge anche forti",
+            "Si alza la nebbia",
+            "Nevica sulle montagne"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l3-e04",
+          "stage": "practise",
+          "audioText": "E adesso le previsioni del tempo per domani. Al nord, allora, avremo una mattinata con nebbia in pianura, soprattutto in Veneto e in Lombardia, poi nel pomeriggio il cielo sarà abbastanza sereno, con temperature intorno ai dodici gradi. Al centro, invece, il tempo peggiora: dalla sera arriveranno piogge, anche forti, sulla Toscana e sul Lazio, e la temperatura scenderà a nove gradi. Al sud, mah, ci sarà ancora il sole, con massime di diciotto gradi, ma soffierà un vento forte da nord, quindi attenzione sul mare, che sarà molto mosso. Per il fine settimana, il maltempo si sposterà verso est e sabato torneranno il sole e temperature più miti. Buona giornata a tutti!",
+          "question": "Quanti gradi di massima ci sono al sud?",
+          "options": [
+            "Dodici",
+            "Nove",
+            "Venti",
+            "Diciotto"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l3-e05",
+          "stage": "practise",
+          "audioText": "E adesso le previsioni del tempo per domani. Al nord, allora, avremo una mattinata con nebbia in pianura, soprattutto in Veneto e in Lombardia, poi nel pomeriggio il cielo sarà abbastanza sereno, con temperature intorno ai dodici gradi. Al centro, invece, il tempo peggiora: dalla sera arriveranno piogge, anche forti, sulla Toscana e sul Lazio, e la temperatura scenderà a nove gradi. Al sud, mah, ci sarà ancora il sole, con massime di diciotto gradi, ma soffierà un vento forte da nord, quindi attenzione sul mare, che sarà molto mosso. Per il fine settimana, il maltempo si sposterà verso est e sabato torneranno il sole e temperature più miti. Buona giornata a tutti!",
+          "question": "Come sarà il tempo sabato?",
+          "options": [
+            "Soleggiato, con temperature più miti",
+            "Piovoso e freddo",
+            "Ancora nebbioso",
+            "Con vento molto forte"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l3-e06",
+          "stage": "learn",
+          "front": "la pioggia",
+          "back": "rain",
+          "example": "Domani ci sarà pioggia al centro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l3-e07",
+          "stage": "learn",
+          "front": "il vento",
+          "back": "wind",
+          "example": "Oggi c'è molto vento sul mare."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-01-l4",
+      "title": "Pubblicità alla radio",
+      "minutes": 6,
+      "goal": "Capire una pubblicità con prezzi, orari e condizioni.",
+      "takeaway": "Nelle pubblicità cerca prezzi, giorni e condizioni speciali.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-01-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l4-e02",
+          "stage": "practise",
+          "audioText": "Hai la casa piena di cose che non usi più? Vieni al mercatino del libro usato di via Garibaldi! Questo sabato e domenica, dalle dieci alle venti, trovi più di cinquemila libri, ehm, romanzi, fumetti, libri per bambini, a prezzi veramente bassi: da uno a cinque euro. Se porti dieci libri da casa tua, ricevi uno sconto di tre euro sui tuoi acquisti. L'ingresso è gratuito e per i bambini c'è un laboratorio di disegno ogni ora, ma bisogna prenotare. Ci sono anche il caffè e i dolci della pasticceria del quartiere e, la domenica alle sedici, un autore locale legge alcune pagine del suo ultimo libro. Per prenotare il laboratorio vai sul sito, mercatino punto it. Non perdere l'occasione: ti aspettiamo!",
+          "question": "Che cosa si vende al mercatino?",
+          "options": [
+            "Vestiti vecchi",
+            "Libri usati",
+            "Mobili per la casa",
+            "Biglietti per il teatro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l4-e03",
+          "stage": "practise",
+          "audioText": "Hai la casa piena di cose che non usi più? Vieni al mercatino del libro usato di via Garibaldi! Questo sabato e domenica, dalle dieci alle venti, trovi più di cinquemila libri, ehm, romanzi, fumetti, libri per bambini, a prezzi veramente bassi: da uno a cinque euro. Se porti dieci libri da casa tua, ricevi uno sconto di tre euro sui tuoi acquisti. L'ingresso è gratuito e per i bambini c'è un laboratorio di disegno ogni ora, ma bisogna prenotare. Ci sono anche il caffè e i dolci della pasticceria del quartiere e, la domenica alle sedici, un autore locale legge alcune pagine del suo ultimo libro. Per prenotare il laboratorio vai sul sito, mercatino punto it. Non perdere l'occasione: ti aspettiamo!",
+          "question": "Quanto costano i libri?",
+          "options": [
+            "Da uno a cinque euro",
+            "Da dieci a venti euro",
+            "Un euro per tutti",
+            "Da cinque a dieci euro"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l4-e04",
+          "stage": "practise",
+          "audioText": "Hai la casa piena di cose che non usi più? Vieni al mercatino del libro usato di via Garibaldi! Questo sabato e domenica, dalle dieci alle venti, trovi più di cinquemila libri, ehm, romanzi, fumetti, libri per bambini, a prezzi veramente bassi: da uno a cinque euro. Se porti dieci libri da casa tua, ricevi uno sconto di tre euro sui tuoi acquisti. L'ingresso è gratuito e per i bambini c'è un laboratorio di disegno ogni ora, ma bisogna prenotare. Ci sono anche il caffè e i dolci della pasticceria del quartiere e, la domenica alle sedici, un autore locale legge alcune pagine del suo ultimo libro. Per prenotare il laboratorio vai sul sito, mercatino punto it. Non perdere l'occasione: ti aspettiamo!",
+          "question": "Che cosa ricevi se porti dieci libri?",
+          "options": [
+            "Un caffè gratis",
+            "Un libro nuovo",
+            "Uno sconto di tre euro",
+            "Uno sconto di dieci euro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l4-e05",
+          "stage": "practise",
+          "audioText": "Hai la casa piena di cose che non usi più? Vieni al mercatino del libro usato di via Garibaldi! Questo sabato e domenica, dalle dieci alle venti, trovi più di cinquemila libri, ehm, romanzi, fumetti, libri per bambini, a prezzi veramente bassi: da uno a cinque euro. Se porti dieci libri da casa tua, ricevi uno sconto di tre euro sui tuoi acquisti. L'ingresso è gratuito e per i bambini c'è un laboratorio di disegno ogni ora, ma bisogna prenotare. Ci sono anche il caffè e i dolci della pasticceria del quartiere e, la domenica alle sedici, un autore locale legge alcune pagine del suo ultimo libro. Per prenotare il laboratorio vai sul sito, mercatino punto it. Non perdere l'occasione: ti aspettiamo!",
+          "question": "Per quale attività bisogna prenotare?",
+          "options": [
+            "La lettura dell'autore",
+            "L'ingresso al mercatino",
+            "Il caffè con i dolci",
+            "Il laboratorio di disegno per bambini"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l4-e06",
+          "stage": "learn",
+          "front": "lo sconto",
+          "back": "discount",
+          "example": "Con la tessera c'è uno sconto del dieci per cento."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l4-e07",
+          "stage": "learn",
+          "front": "il mercatino",
+          "back": "small market, flea market",
+          "example": "Il sabato vado al mercatino del quartiere."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-01-l5",
+      "title": "Telefonata: prenotare una visita",
+      "minutes": 6,
+      "goal": "Capire una telefonata per prenotare una visita.",
+      "takeaway": "In una prenotazione ascolta giorno, ora, prezzo e documenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-01-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l5-e02",
+          "stage": "practise",
+          "audioText": "Studio fisioterapico Rinaldi, buongiorno. — Buongiorno, ehm, vorrei prenotare una visita per mio padre. — Certo. Per quando? — Possibilmente la prossima settimana, di mattina. — Dunque, vediamo... martedì è tutto occupato. Mercoledì c'è un posto alle nove e mezza, oppure giovedì alle undici. — Mercoledì alle nove e mezza va benissimo. Quanto costa la prima visita? — Sessanta euro, e dura quaranta minuti circa. Deve portare le analisi e, se ce l'ha, l'impegnativa del medico. — L'impegnativa? Ah, sì, ce l'ho. Posso pagare con la carta? — Sì, certo, anche con il bancomat. Mi dice il nome? — Giorgio Conti. Sono la figlia. — Va bene, a mercoledì allora.",
+          "question": "Per chi prenota la visita chi telefona?",
+          "options": [
+            "Per se stessa",
+            "Per un'amica",
+            "Per suo padre",
+            "Per suo figlio"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l5-e03",
+          "stage": "practise",
+          "audioText": "Studio fisioterapico Rinaldi, buongiorno. — Buongiorno, ehm, vorrei prenotare una visita per mio padre. — Certo. Per quando? — Possibilmente la prossima settimana, di mattina. — Dunque, vediamo... martedì è tutto occupato. Mercoledì c'è un posto alle nove e mezza, oppure giovedì alle undici. — Mercoledì alle nove e mezza va benissimo. Quanto costa la prima visita? — Sessanta euro, e dura quaranta minuti circa. Deve portare le analisi e, se ce l'ha, l'impegnativa del medico. — L'impegnativa? Ah, sì, ce l'ho. Posso pagare con la carta? — Sì, certo, anche con il bancomat. Mi dice il nome? — Giorgio Conti. Sono la figlia. — Va bene, a mercoledì allora.",
+          "question": "Quale appuntamento sceglie?",
+          "options": [
+            "Mercoledì alle nove e mezza",
+            "Giovedì alle undici",
+            "Martedì mattina",
+            "Mercoledì alle undici"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l5-e04",
+          "stage": "practise",
+          "audioText": "Studio fisioterapico Rinaldi, buongiorno. — Buongiorno, ehm, vorrei prenotare una visita per mio padre. — Certo. Per quando? — Possibilmente la prossima settimana, di mattina. — Dunque, vediamo... martedì è tutto occupato. Mercoledì c'è un posto alle nove e mezza, oppure giovedì alle undici. — Mercoledì alle nove e mezza va benissimo. Quanto costa la prima visita? — Sessanta euro, e dura quaranta minuti circa. Deve portare le analisi e, se ce l'ha, l'impegnativa del medico. — L'impegnativa? Ah, sì, ce l'ho. Posso pagare con la carta? — Sì, certo, anche con il bancomat. Mi dice il nome? — Giorgio Conti. Sono la figlia. — Va bene, a mercoledì allora.",
+          "question": "Quanto costa la prima visita?",
+          "options": [
+            "Quaranta euro",
+            "Sessanta euro",
+            "Cinquanta euro",
+            "Settanta euro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l5-e05",
+          "stage": "practise",
+          "audioText": "Studio fisioterapico Rinaldi, buongiorno. — Buongiorno, ehm, vorrei prenotare una visita per mio padre. — Certo. Per quando? — Possibilmente la prossima settimana, di mattina. — Dunque, vediamo... martedì è tutto occupato. Mercoledì c'è un posto alle nove e mezza, oppure giovedì alle undici. — Mercoledì alle nove e mezza va benissimo. Quanto costa la prima visita? — Sessanta euro, e dura quaranta minuti circa. Deve portare le analisi e, se ce l'ha, l'impegnativa del medico. — L'impegnativa? Ah, sì, ce l'ho. Posso pagare con la carta? — Sì, certo, anche con il bancomat. Mi dice il nome? — Giorgio Conti. Sono la figlia. — Va bene, a mercoledì allora.",
+          "question": "Che cosa deve portare il paziente?",
+          "options": [
+            "Solo la carta di credito",
+            "La tessera sanitaria e i soldi",
+            "Una lettera del medico di famiglia",
+            "Le analisi e l'impegnativa"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l5-e06",
+          "stage": "learn",
+          "front": "prenotare",
+          "back": "to book",
+          "example": "Vorrei prenotare un tavolo per due."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l5-e07",
+          "stage": "learn",
+          "front": "l'impegnativa",
+          "back": "doctor's referral",
+          "example": "Per la visita serve l'impegnativa del medico."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-01-l6",
+      "title": "Dialogo tra amici: il sabato",
+      "minutes": 6,
+      "goal": "Capire un dialogo informale tra amici che fanno un programma.",
+      "takeaway": "Nei dialoghi tra amici segui le proposte e chi le accetta o le rifiuta.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-01-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l6-e02",
+          "stage": "practise",
+          "audioText": "Allora, hai deciso cosa fare sabato? — Mah, non so, Chiara. Pensavo di andare al lago, però il tempo non è bello. — Eh già, io ho guardato le previsioni, dicono pioggia. Perché non andiamo al cinema? C'è quel film che volevi vedere, no? — Sì, ma sabato sera c'è già la cena da Marco. Alle otto e mezza, mi pare. — Ah, vero! Allora facciamo il cinema nel pomeriggio, alle quattro? — Il pomeriggio va bene. Poi però devo tornare presto, perché devo passare a comprare il vino per la cena. — Tranquillo, il film dura un'ora e quaranta, alle sei meno venti siamo fuori. — Perfetto, allora ci vediamo davanti al cinema.",
+          "question": "Perché non vanno al lago?",
+          "options": [
+            "Il lago è troppo lontano",
+            "Non hanno la macchina",
+            "Marco non vuole venire",
+            "Il tempo non è bello"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l6-e03",
+          "stage": "practise",
+          "audioText": "Allora, hai deciso cosa fare sabato? — Mah, non so, Chiara. Pensavo di andare al lago, però il tempo non è bello. — Eh già, io ho guardato le previsioni, dicono pioggia. Perché non andiamo al cinema? C'è quel film che volevi vedere, no? — Sì, ma sabato sera c'è già la cena da Marco. Alle otto e mezza, mi pare. — Ah, vero! Allora facciamo il cinema nel pomeriggio, alle quattro? — Il pomeriggio va bene. Poi però devo tornare presto, perché devo passare a comprare il vino per la cena. — Tranquillo, il film dura un'ora e quaranta, alle sei meno venti siamo fuori. — Perfetto, allora ci vediamo davanti al cinema.",
+          "question": "Che cosa fanno sabato sera?",
+          "options": [
+            "Vanno a cena da Marco",
+            "Vanno al cinema",
+            "Cucinano a casa",
+            "Restano al lago"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l6-e04",
+          "stage": "practise",
+          "audioText": "Allora, hai deciso cosa fare sabato? — Mah, non so, Chiara. Pensavo di andare al lago, però il tempo non è bello. — Eh già, io ho guardato le previsioni, dicono pioggia. Perché non andiamo al cinema? C'è quel film che volevi vedere, no? — Sì, ma sabato sera c'è già la cena da Marco. Alle otto e mezza, mi pare. — Ah, vero! Allora facciamo il cinema nel pomeriggio, alle quattro? — Il pomeriggio va bene. Poi però devo tornare presto, perché devo passare a comprare il vino per la cena. — Tranquillo, il film dura un'ora e quaranta, alle sei meno venti siamo fuori. — Perfetto, allora ci vediamo davanti al cinema.",
+          "question": "A che ora comincia il film?",
+          "options": [
+            "Alle otto e mezza",
+            "Alle quattro",
+            "Alle sei meno venti",
+            "Alle cinque"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-01-l6-e05",
+          "stage": "practise",
+          "audioText": "Allora, hai deciso cosa fare sabato? — Mah, non so, Chiara. Pensavo di andare al lago, però il tempo non è bello. — Eh già, io ho guardato le previsioni, dicono pioggia. Perché non andiamo al cinema? C'è quel film che volevi vedere, no? — Sì, ma sabato sera c'è già la cena da Marco. Alle otto e mezza, mi pare. — Ah, vero! Allora facciamo il cinema nel pomeriggio, alle quattro? — Il pomeriggio va bene. Poi però devo tornare presto, perché devo passare a comprare il vino per la cena. — Tranquillo, il film dura un'ora e quaranta, alle sei meno venti siamo fuori. — Perfetto, allora ci vediamo davanti al cinema.",
+          "question": "Che cosa deve comprare l'amico prima della cena?",
+          "options": [
+            "I biglietti",
+            "Il dolce",
+            "Il vino",
+            "Il pane"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l6-e06",
+          "stage": "learn",
+          "front": "il lago",
+          "back": "lake",
+          "example": "D'estate andiamo al lago."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-01-l6-e07",
+          "stage": "learn",
+          "front": "la cena",
+          "back": "dinner",
+          "example": "Sabato sera c'è la cena da Marco."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "i freni",
+      "en": "brakes",
+      "example": "Devo controllare i freni della bicicletta."
+    },
+    {
+      "it": "il libretto",
+      "en": "vehicle logbook, booklet",
+      "example": "Porta il libretto quando vieni in officina."
+    },
+    {
+      "it": "il binario",
+      "en": "platform, track",
+      "example": "Il treno parte dal binario tre."
+    },
+    {
+      "it": "il guasto",
+      "en": "breakdown, fault",
+      "example": "Il treno è fermo per un guasto."
+    },
+    {
+      "it": "la pioggia",
+      "en": "rain",
+      "example": "Domani ci sarà pioggia al centro."
+    },
+    {
+      "it": "il vento",
+      "en": "wind",
+      "example": "Oggi c'è molto vento sul mare."
+    },
+    {
+      "it": "lo sconto",
+      "en": "discount",
+      "example": "Con la tessera c'è uno sconto del dieci per cento."
+    },
+    {
+      "it": "il mercatino",
+      "en": "small market, flea market",
+      "example": "Il sabato vado al mercatino del quartiere."
+    },
+    {
+      "it": "prenotare",
+      "en": "to book",
+      "example": "Vorrei prenotare un tavolo per due."
+    },
+    {
+      "it": "l'impegnativa",
+      "en": "doctor's referral",
+      "example": "Per la visita serve l'impegnativa del medico."
+    },
+    {
+      "it": "il lago",
+      "en": "lake",
+      "example": "D'estate andiamo al lago."
+    },
+    {
+      "it": "la cena",
+      "en": "dinner",
+      "example": "Sabato sera c'è la cena da Marco."
+    }
+  ]
+}
