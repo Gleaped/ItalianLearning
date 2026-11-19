@@ -1,0 +1,399 @@
+{
+  "id": "lib-a-a2-05",
+  "level": "ASC",
+  "title": "Prenotazioni, esperienze e meteo",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A2 (circa 72 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a2-05-l1",
+      "title": "Prenotare un albergo",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-05-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l1-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei prenotare una camera doppia per tre notti, dal dodici al quindici ottobre. Mi dispiace, per quelle date abbiamo solo camere con vista sul cortile. Va bene lo stesso? Quanto costa? Ottanta euro a notte, colazione inclusa. D'accordo, la prendo. Mi lascia un nome e un numero di telefono? Sono Rossi, come il colore. Il numero è tre quattro sette, uno due tre, quattro cinque sei. La aspettiamo allora, signor Rossi.",
+          "question": "Per quante notti prenota?",
+          "options": [
+            "Due",
+            "Tre",
+            "Cinque"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l1-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei prenotare una camera doppia per tre notti, dal dodici al quindici ottobre. Mi dispiace, per quelle date abbiamo solo camere con vista sul cortile. Va bene lo stesso? Quanto costa? Ottanta euro a notte, colazione inclusa. D'accordo, la prendo. Mi lascia un nome e un numero di telefono? Sono Rossi, come il colore. Il numero è tre quattro sette, uno due tre, quattro cinque sei. La aspettiamo allora, signor Rossi.",
+          "question": "Com'è la camera?",
+          "options": [
+            "Con vista sul cortile",
+            "Con vista sul mare",
+            "Con balcone"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l1-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei prenotare una camera doppia per tre notti, dal dodici al quindici ottobre. Mi dispiace, per quelle date abbiamo solo camere con vista sul cortile. Va bene lo stesso? Quanto costa? Ottanta euro a notte, colazione inclusa. D'accordo, la prendo. Mi lascia un nome e un numero di telefono? Sono Rossi, come il colore. Il numero è tre quattro sette, uno due tre, quattro cinque sei. La aspettiamo allora, signor Rossi.",
+          "question": "Quanto costa a notte?",
+          "options": [
+            "Cento euro",
+            "Ottanta euro",
+            "Sessanta euro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l1-e5",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei prenotare una camera doppia per tre notti, dal dodici al quindici ottobre. Mi dispiace, per quelle date abbiamo solo camere con vista sul cortile. Va bene lo stesso? Quanto costa? Ottanta euro a notte, colazione inclusa. D'accordo, la prendo. Mi lascia un nome e un numero di telefono? Sono Rossi, come il colore. Il numero è tre quattro sette, uno due tre, quattro cinque sei. La aspettiamo allora, signor Rossi.",
+          "question": "Che cosa è incluso?",
+          "options": [
+            "La cena",
+            "La colazione",
+            "Il parcheggio"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l1-c1",
+          "stage": "learn",
+          "front": "la camera doppia",
+          "back": "double room",
+          "example": "Buongiorno, vorrei prenotare una camera doppia per tre notti, dal dodici al quindici ottobre."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l1-c2",
+          "stage": "learn",
+          "front": "il cortile",
+          "back": "courtyard",
+          "example": "Mi dispiace, per quelle date abbiamo solo camere con vista sul cortile."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-05-l2",
+      "title": "Un incidente",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-05-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l2-e2",
+          "stage": "practise",
+          "audioText": "Ieri mattina, mentre tornavo dal lavoro in bicicletta, un'auto non si è fermata allo stop e mi è venuta addosso. Non mi sono fatto niente di grave, solo qualche graffio e un po' di paura. Il conducente è sceso subito e si è scusato più volte. Abbiamo compilato il modulo dell'assicurazione e poi lui mi ha accompagnato a casa. La bicicletta, invece, è da buttare: la ruota è completamente storta. Ora devo comprarne una nuova.",
+          "question": "Come tornava a casa?",
+          "options": [
+            "In macchina",
+            "In bicicletta",
+            "In autobus"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l2-e3",
+          "stage": "practise",
+          "audioText": "Ieri mattina, mentre tornavo dal lavoro in bicicletta, un'auto non si è fermata allo stop e mi è venuta addosso. Non mi sono fatto niente di grave, solo qualche graffio e un po' di paura. Il conducente è sceso subito e si è scusato più volte. Abbiamo compilato il modulo dell'assicurazione e poi lui mi ha accompagnato a casa. La bicicletta, invece, è da buttare: la ruota è completamente storta. Ora devo comprarne una nuova.",
+          "question": "Che cosa è successo?",
+          "options": [
+            "Un'auto non si è fermata allo stop",
+            "È caduto da solo",
+            "Ha preso una buca"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l2-e4",
+          "stage": "practise",
+          "audioText": "Ieri mattina, mentre tornavo dal lavoro in bicicletta, un'auto non si è fermata allo stop e mi è venuta addosso. Non mi sono fatto niente di grave, solo qualche graffio e un po' di paura. Il conducente è sceso subito e si è scusato più volte. Abbiamo compilato il modulo dell'assicurazione e poi lui mi ha accompagnato a casa. La bicicletta, invece, è da buttare: la ruota è completamente storta. Ora devo comprarne una nuova.",
+          "question": "Come sta lui?",
+          "options": [
+            "Ha solo qualche graffio",
+            "Ha una gamba rotta",
+            "Sta benissimo, senza graffi"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l2-e5",
+          "stage": "practise",
+          "audioText": "Ieri mattina, mentre tornavo dal lavoro in bicicletta, un'auto non si è fermata allo stop e mi è venuta addosso. Non mi sono fatto niente di grave, solo qualche graffio e un po' di paura. Il conducente è sceso subito e si è scusato più volte. Abbiamo compilato il modulo dell'assicurazione e poi lui mi ha accompagnato a casa. La bicicletta, invece, è da buttare: la ruota è completamente storta. Ora devo comprarne una nuova.",
+          "question": "Che cosa deve fare ora?",
+          "options": [
+            "Andare in ospedale",
+            "Chiamare la polizia",
+            "Comprare una bicicletta nuova"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l2-c1",
+          "stage": "learn",
+          "front": "il graffio",
+          "back": "scratch",
+          "example": "Non mi sono fatto niente di grave, solo qualche graffio e un po' di paura."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l2-c2",
+          "stage": "learn",
+          "front": "storto",
+          "back": "bent"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-05-l3",
+      "title": "Intervista a una studentessa",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-05-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l3-e2",
+          "stage": "practise",
+          "audioText": "Allora Giulia, perché hai scelto di studiare all'estero? Volevo migliorare il mio inglese e conoscere un'altra cultura. Sono stata un anno a Dublino con il programma Erasmus. All'inizio è stato difficile: non capivo l'accento e mi sentivo sola. Poi ho trovato un gruppo di amici internazionali e tutto è cambiato. Rifaresti questa esperienza? Sicuramente, e la consiglio a tutti. Ora so cavarmela da sola e ho più fiducia in me stessa.",
+          "question": "Perché Giulia è andata all'estero?",
+          "options": [
+            "Per migliorare l'inglese",
+            "Per lavoro",
+            "Per una vacanza"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l3-e3",
+          "stage": "practise",
+          "audioText": "Allora Giulia, perché hai scelto di studiare all'estero? Volevo migliorare il mio inglese e conoscere un'altra cultura. Sono stata un anno a Dublino con il programma Erasmus. All'inizio è stato difficile: non capivo l'accento e mi sentivo sola. Poi ho trovato un gruppo di amici internazionali e tutto è cambiato. Rifaresti questa esperienza? Sicuramente, e la consiglio a tutti. Ora so cavarmela da sola e ho più fiducia in me stessa.",
+          "question": "Dove è stata?",
+          "options": [
+            "A Londra",
+            "A Dublino",
+            "A Parigi"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l3-e4",
+          "stage": "practise",
+          "audioText": "Allora Giulia, perché hai scelto di studiare all'estero? Volevo migliorare il mio inglese e conoscere un'altra cultura. Sono stata un anno a Dublino con il programma Erasmus. All'inizio è stato difficile: non capivo l'accento e mi sentivo sola. Poi ho trovato un gruppo di amici internazionali e tutto è cambiato. Rifaresti questa esperienza? Sicuramente, e la consiglio a tutti. Ora so cavarmela da sola e ho più fiducia in me stessa.",
+          "question": "Che cosa era difficile all'inizio?",
+          "options": [
+            "Il cibo",
+            "Il clima",
+            "Capire l'accento"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l3-e5",
+          "stage": "practise",
+          "audioText": "Allora Giulia, perché hai scelto di studiare all'estero? Volevo migliorare il mio inglese e conoscere un'altra cultura. Sono stata un anno a Dublino con il programma Erasmus. All'inizio è stato difficile: non capivo l'accento e mi sentivo sola. Poi ho trovato un gruppo di amici internazionali e tutto è cambiato. Rifaresti questa esperienza? Sicuramente, e la consiglio a tutti. Ora so cavarmela da sola e ho più fiducia in me stessa.",
+          "question": "Che cosa è migliorato dopo?",
+          "options": [
+            "Ha trovato casa",
+            "Si è fatta degli amici",
+            "Ha vinto una borsa di studio"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l3-c1",
+          "stage": "learn",
+          "front": "cavarsela",
+          "back": "to manage"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l3-c2",
+          "stage": "learn",
+          "front": "la fiducia",
+          "back": "confidence",
+          "example": "Ora so cavarmela da sola e ho più fiducia in me stessa."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-05-l4",
+      "title": "Previsioni per la settimana",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-05-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l4-e2",
+          "stage": "practise",
+          "audioText": "Ecco il tempo per i prossimi giorni. Lunedì e martedì il cielo sarà nuvoloso con piogge deboli al nord. Mercoledì tornerà il sole su tutta la penisola, ma le temperature rimarranno basse, soprattutto al mattino. Giovedì è previsto un aumento del vento, con possibili mareggiate sulle coste del sud. Venerdì e sabato il tempo migliorerà ancora e le temperature saliranno fino a venti gradi. Domenica, infine, potrebbe tornare la pioggia sulle regioni centrali.",
+          "question": "Com'è il tempo martedì?",
+          "options": [
+            "Soleggiato",
+            "Con la neve",
+            "Nuvoloso con piogge deboli"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l4-e3",
+          "stage": "practise",
+          "audioText": "Ecco il tempo per i prossimi giorni. Lunedì e martedì il cielo sarà nuvoloso con piogge deboli al nord. Mercoledì tornerà il sole su tutta la penisola, ma le temperature rimarranno basse, soprattutto al mattino. Giovedì è previsto un aumento del vento, con possibili mareggiate sulle coste del sud. Venerdì e sabato il tempo migliorerà ancora e le temperature saliranno fino a venti gradi. Domenica, infine, potrebbe tornare la pioggia sulle regioni centrali.",
+          "question": "Quando torna il sole ovunque?",
+          "options": [
+            "Mercoledì",
+            "Lunedì",
+            "Sabato"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l4-e4",
+          "stage": "practise",
+          "audioText": "Ecco il tempo per i prossimi giorni. Lunedì e martedì il cielo sarà nuvoloso con piogge deboli al nord. Mercoledì tornerà il sole su tutta la penisola, ma le temperature rimarranno basse, soprattutto al mattino. Giovedì è previsto un aumento del vento, con possibili mareggiate sulle coste del sud. Venerdì e sabato il tempo migliorerà ancora e le temperature saliranno fino a venti gradi. Domenica, infine, potrebbe tornare la pioggia sulle regioni centrali.",
+          "question": "Che cosa succede giovedì?",
+          "options": [
+            "Aumenta il vento",
+            "Fa molto caldo",
+            "Nevica"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-05-l4-e5",
+          "stage": "practise",
+          "audioText": "Ecco il tempo per i prossimi giorni. Lunedì e martedì il cielo sarà nuvoloso con piogge deboli al nord. Mercoledì tornerà il sole su tutta la penisola, ma le temperature rimarranno basse, soprattutto al mattino. Giovedì è previsto un aumento del vento, con possibili mareggiate sulle coste del sud. Venerdì e sabato il tempo migliorerà ancora e le temperature saliranno fino a venti gradi. Domenica, infine, potrebbe tornare la pioggia sulle regioni centrali.",
+          "question": "Quando potrebbe piovere al centro?",
+          "options": [
+            "Venerdì",
+            "Mercoledì",
+            "Domenica"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l4-c1",
+          "stage": "learn",
+          "front": "la mareggiata",
+          "back": "sea storm"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-05-l4-c2",
+          "stage": "learn",
+          "front": "debole",
+          "back": "weak, light"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la camera doppia",
+      "en": "double room",
+      "example": "Buongiorno, vorrei prenotare una camera doppia per tre notti, dal dodici al quindici ottobre."
+    },
+    {
+      "it": "il cortile",
+      "en": "courtyard",
+      "example": "Mi dispiace, per quelle date abbiamo solo camere con vista sul cortile."
+    },
+    {
+      "it": "il graffio",
+      "en": "scratch",
+      "example": "Non mi sono fatto niente di grave, solo qualche graffio e un po' di paura."
+    },
+    {
+      "it": "storto",
+      "en": "bent"
+    },
+    {
+      "it": "cavarsela",
+      "en": "to manage"
+    },
+    {
+      "it": "la fiducia",
+      "en": "confidence",
+      "example": "Ora so cavarmela da sola e ho più fiducia in me stessa."
+    },
+    {
+      "it": "la mareggiata",
+      "en": "sea storm"
+    },
+    {
+      "it": "debole",
+      "en": "weak, light"
+    }
+  ]
+}
