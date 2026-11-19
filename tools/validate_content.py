@@ -20,7 +20,7 @@ KNOWN_TYPES = {
     "translate", "match_pairs", "error_correction", "listen_transcribe", "listen_choose", "reading",
     "speak_repeat", "speak_respond", "roleplay", "free_write",
     "choose_mood", "find_trigger", "transform", "sort_buckets", "minimal_pair",
-    "shadow", "minimal_pair_say", "listen_order", "gap_listen",
+    "shadow", "minimal_pair_say", "listen_order", "gap_listen", "cloze_text",
 }
 UNSCORED = {"grammar_note"}
 QUICK_TYPES = {"multiple_choice", "gap_fill", "translate", "error_correction", "conjugation",
@@ -52,6 +52,7 @@ REQUIRED = {
     "minimal_pair_say": ["words", "target"],
     "listen_order": ["sentences"],
     "gap_listen": ["audioText", "text", "answers"],
+    "cloze_text": ["text", "gaps"],
 }
 
 TOKEN_EDGE = re.compile(r"^[^\w']+|[^\w']+$", re.UNICODE)
@@ -154,6 +155,16 @@ def check_exercise(e, where, r: Report, strict: bool, quick_only=False):
         blanks = e.get("text", "").count("___")
         if blanks == 0 or blanks != len(e.get("answers", [])):
             r.error(where, f"gap_listen has {blanks} blanks for {len(e.get('answers', []))} answers")
+    if t == "cloze_text":
+        blanks = e.get("text", "").count("___")
+        gaps = e.get("gaps", [])
+        if blanks == 0 or blanks != len(gaps):
+            r.error(where, f"cloze_text has {blanks} blanks for {len(gaps)} gaps")
+        for i, g in enumerate(gaps):
+            if not isinstance(g, dict) or not g.get("answers"):
+                r.error(where, f"cloze_text gap {i + 1} needs answers")
+            elif g.get("options") and not any(a in g["options"] for a in g["answers"]):
+                r.error(where, f"cloze_text gap {i + 1}: no answer appears in options")
     if t == "reading":
         for i, q in enumerate(e.get("questions", [])):
             if not (isinstance(q.get("answer"), int) and 0 <= q["answer"] < len(q.get("options", []))):
