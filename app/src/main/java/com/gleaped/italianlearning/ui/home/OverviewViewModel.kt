@@ -3,6 +3,7 @@ package com.gleaped.italianlearning.ui.home
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.distinctUntilChanged
 import com.gleaped.italianlearning.domain.practice.DailyMix
+import com.gleaped.italianlearning.domain.srs.ReviewCounts
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -35,6 +36,8 @@ data class Overview(
     val practicedToday: Boolean,
     val dueReviews: Int,
     val newCards: Int,
+    /** More cards are waiting than today's cap lets through; the rest come back on later days. */
+    val reviewEased: Boolean = false,
     /** Missed exercises ready to be asked again ("Punti deboli"). */
     val weakDue: Int = 0,
     /** The lesson left part-way, when it can still be continued. */
@@ -56,13 +59,13 @@ class OverviewViewModel(container: AppContainer) : ViewModel() {
 
     private val contentFlow = flow { emit(container.content.load()) }
 
-    private val reviewCounts = container.learning.reviewCounts(
+    private val reviewCounts = container.learning.reviewLoad(
         container.settings.settings.map { it.dailyNewCards }.distinctUntilChanged(),
     )
 
     /** Review counts, the answer history and the rest of today's state, bundled to stay within combine's arity. */
     private class Extras(
-        val counts: Pair<Int, Int>,
+        val counts: ReviewCounts,
         val attempts: List<AttemptRecord>,
         val checkpoint: LessonCheckpoint?,
         val lessonsToday: Int,
@@ -98,8 +101,9 @@ class OverviewViewModel(container: AppContainer) : ViewModel() {
             completedLessons = completed,
             streak = Streak.current(days, today),
             practicedToday = today in days,
-            dueReviews = counts.first,
-            newCards = counts.second,
+            dueReviews = counts.due,
+            newCards = counts.fresh,
+            reviewEased = counts.eased,
             weakDue = weakDue,
             checkpoint = checkpoint,
             lessonsToday = extra.lessonsToday,

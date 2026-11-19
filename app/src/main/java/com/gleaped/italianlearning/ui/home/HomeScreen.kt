@@ -204,6 +204,7 @@ fun HomeScreen(
                 }
                 Text(
                     when {
+                        o.reviewEased && !o.practicedToday -> "Welcome back. Today is a light day: the rest of the backlog can wait."
                         o.practicedToday -> "You have practised today. Anything more is a bonus."
                         o.streak > 0 -> "Any one of these keeps your streak going."
                         else -> "Any one of these counts as practice for today."
@@ -226,6 +227,7 @@ fun HomeScreen(
                     title = "Review cards",
                     detail = when {
                         reviewReady == 0 -> "Nothing waiting right now"
+                        o.reviewEased -> "${o.dueReviews} for today, the rest can wait. About ${(reviewReady + 5) / 6} min"
                         o.newCards > 0 -> "${o.dueReviews} due and ${o.newCards} new, about ${(reviewReady + 5) / 6} min"
                         else -> "${o.dueReviews} due, about ${(reviewReady + 5) / 6} min"
                     },
