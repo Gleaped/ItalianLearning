@@ -298,6 +298,16 @@
           "answers": [
             "chiamo"
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "ct1",
+          "title": "Al bar",
+          "text": "Io ___ un caffè e lei ___ un tè.",
+          "gaps": [
+            { "answers": ["prendo"], "options": ["prendo", "prende"] },
+            { "answers": ["prende"] }
+          ]
         }
       ],
       "goal": "You can order a coffee.",

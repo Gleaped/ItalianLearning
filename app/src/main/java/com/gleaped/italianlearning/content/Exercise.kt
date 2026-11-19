@@ -385,6 +385,28 @@ data class GapListen(
     val answers: List<String>,
 ) : Exercise
 
+@Serializable
+data class ClozeGap(
+    /** Accepted answers for this gap. */
+    val answers: List<String>,
+    /** Words to choose from, shown as a hint when given. */
+    val options: List<String> = emptyList(),
+)
+
+@Serializable
+@SerialName("cloze_text")
+data class ClozeText(
+    override val id: String? = null,
+    override val instruction: String? = null,
+    override val explanation: String? = null,
+    override val stage: String? = null,
+    val title: String = "",
+    /** A passage with `___` at every gap, in order. */
+    val text: String,
+    /** One entry per `___`, in order. */
+    val gaps: List<ClozeGap>,
+) : Exercise
+
 /** An exercise whose `type` this app version does not know. Shown as skippable. */
 @Serializable
 data class Unsupported(
@@ -435,13 +457,14 @@ object ExerciseTypes {
     const val MINIMAL_PAIR_SAY = "minimal_pair_say"
     const val LISTEN_ORDER = "listen_order"
     const val GAP_LISTEN = "gap_listen"
+    const val CLOZE_TEXT = "cloze_text"
 
     val ALL: List<String> = listOf(
         GRAMMAR_NOTE, FLASHCARD, MULTIPLE_CHOICE, GAP_FILL, CONJUGATION, SENTENCE_BUILD,
         TRANSLATE, MATCH_PAIRS, ERROR_CORRECTION, LISTEN_TRANSCRIBE, LISTEN_CHOOSE, READING,
         SPEAK_REPEAT, SPEAK_RESPOND, ROLEPLAY, FREE_WRITE,
         CHOOSE_MOOD, FIND_TRIGGER, TRANSFORM, SORT_BUCKETS, MINIMAL_PAIR,
-        SHADOW, MINIMAL_PAIR_SAY, LISTEN_ORDER, GAP_LISTEN,
+        SHADOW, MINIMAL_PAIR_SAY, LISTEN_ORDER, GAP_LISTEN, CLOZE_TEXT,
     )
 
     /** The JSON `type` name of a decoded exercise. */
@@ -471,6 +494,7 @@ object ExerciseTypes {
         is MinimalPairSay -> MINIMAL_PAIR_SAY
         is ListenOrder -> LISTEN_ORDER
         is GapListen -> GAP_LISTEN
+        is ClozeText -> CLOZE_TEXT
         is Unsupported -> e.type
         is Invalid -> e.type
     }
@@ -506,6 +530,7 @@ object ExerciseSerializer : JsonContentPolymorphicSerializer<Exercise>(Exercise:
             ExerciseTypes.MINIMAL_PAIR_SAY -> MinimalPairSay.serializer()
             ExerciseTypes.LISTEN_ORDER -> ListenOrder.serializer()
             ExerciseTypes.GAP_LISTEN -> GapListen.serializer()
+            ExerciseTypes.CLOZE_TEXT -> ClozeText.serializer()
             else -> Unsupported.serializer()
         }
     }

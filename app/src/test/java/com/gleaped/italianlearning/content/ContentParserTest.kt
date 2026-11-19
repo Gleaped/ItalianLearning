@@ -46,7 +46,7 @@ class ContentParserTest {
                 "Translate", "MatchPairs", "ErrorCorrection", "ListenTranscribe", "ListenChoose", "Reading",
                 "SpeakRepeat", "SpeakRespond", "Roleplay", "FreeWrite",
                 "ChooseMood", "FindTrigger", "Transform", "SortBuckets", "MinimalPair",
-                "Shadow", "MinimalPairSay", "ListenOrder", "GapListen",
+                "Shadow", "MinimalPairSay", "ListenOrder", "GapListen", "ClozeText",
             ),
             typeNames,
         )
@@ -118,6 +118,14 @@ class ContentParserTest {
         val fw = exercises[16] as FreeWrite
         assertEquals(30, fw.minWords)
         assertEquals(1, fw.checklist.size)
+    }
+
+    @Test
+    fun clozeTextDecodesGaps() {
+        val ex = exercises.first { it is ClozeText } as ClozeText
+        assertEquals(2, ex.gaps.size)
+        assertEquals(listOf("prendo", "prende"), ex.gaps[0].options)
+        assertEquals(listOf("prende"), ex.gaps[1].answers)
     }
 
     @Test

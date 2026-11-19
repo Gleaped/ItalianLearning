@@ -59,6 +59,7 @@ import com.gleaped.italianlearning.content.MinimalPair
 import com.gleaped.italianlearning.content.MinimalPairSay
 import com.gleaped.italianlearning.content.Shadow
 import com.gleaped.italianlearning.content.ListenOrder
+import com.gleaped.italianlearning.content.ClozeText
 import com.gleaped.italianlearning.content.GapListen
 import com.gleaped.italianlearning.content.SortBuckets
 import com.gleaped.italianlearning.content.Transform
@@ -142,6 +143,7 @@ fun ExerciseView(
         is MinimalPairSay -> MinimalPairSayView(exercise, answered, speechEnabled, actions)
         is ListenOrder -> ListenOrderView(exercise, answered, actions)
         is GapListen -> GapListenView(exercise, answered, autoPlay, actions)
+        is ClozeText -> ClozeTextView(exercise, answered, actions)
         is Unsupported -> UnavailableView("This exercise type (\"${exercise.type}\") needs a newer version of the app.") { actions.continueWith(null) }
         is Invalid -> UnavailableView("This exercise could not be loaded.") { actions.continueWith(null) }
     }
@@ -845,6 +847,43 @@ private fun GapListenView(e: GapListen, answered: Boolean, autoPlay: Boolean, ac
                 enabled = !answered,
                 onDone = { if (i == e.answers.lastIndex) check() },
                 label = "Word ${i + 1}",
+            )
+        }
+        CheckButton(enabled = !answered && inputs.all { it.isNotBlank() }, onClick = check)
+    }
+}
+
+@Composable
+private fun ClozeTextView(e: ClozeText, answered: Boolean, actions: ExerciseActions) {
+    val parts = remember(e) { e.text.split("___") }
+    val inputs = remember(e) { mutableStateListOf(*Array(e.gaps.size) { "" }) }
+    val check = {
+        val results = e.gaps.mapIndexed { i, g -> Grader.gradeTyped(inputs.getOrElse(i) { "" }, g.answers, allowSlip = true).verdict }
+        val right = results.count { it == Verdict.CORRECT }
+        actions.answer(
+            Feedback(
+                Grader.combine(results),
+                expected = e.gaps.joinToString(", ") { it.answers.firstOrNull().orEmpty() },
+                expectedLabel = "Missing words",
+                note = "$right of ${results.size} gaps right",
+            ),
+        )
+    }
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        if (e.title.isNotBlank()) Text(e.title, style = MaterialTheme.typography.titleMedium)
+        Text(
+            parts.withIndex().joinToString("") { (i, p) -> if (i < parts.lastIndex) "$p [${i + 1}]" else p },
+            style = MaterialTheme.typography.bodyLarge,
+        )
+        e.gaps.indices.forEach { i ->
+            val options = e.gaps[i].options
+            if (options.isNotEmpty()) Hint("[${i + 1}] " + options.joinToString(" / "))
+            AnswerField(
+                value = inputs[i],
+                onValueChange = { inputs[i] = it },
+                enabled = !answered,
+                onDone = { if (i == e.gaps.lastIndex) check() },
+                label = "Gap ${i + 1}",
             )
         }
         CheckButton(enabled = !answered && inputs.all { it.isNotBlank() }, onClick = check)
