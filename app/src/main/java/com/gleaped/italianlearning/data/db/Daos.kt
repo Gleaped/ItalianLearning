@@ -91,6 +91,13 @@ interface SrsDao {
     @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay = :today AND id NOT LIKE 'r:%'")
     fun observeNewIntroducedOn(today: Long): Flow<Int>
 
+    /** Cards met before today that were reviewed today: they use up the day's review allowance. */
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE lastReviewedEpochDay = :today AND firstReviewedEpochDay < :today")
+    fun observeReviewedOldOn(today: Long): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM srs_cards WHERE lastReviewedEpochDay = :today AND firstReviewedEpochDay < :today")
+    suspend fun reviewedOldOn(today: Long): Int
+
     @Query("SELECT COUNT(*) FROM srs_cards WHERE firstReviewedEpochDay IS NOT NULL AND dueEpochDay <= :today")
     fun observeDueReviewCount(today: Long): Flow<Int>
 

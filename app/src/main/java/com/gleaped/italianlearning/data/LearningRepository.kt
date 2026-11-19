@@ -13,6 +13,8 @@ import com.gleaped.italianlearning.domain.srs.CardKind
 import com.gleaped.italianlearning.domain.srs.Cards
 import com.gleaped.italianlearning.domain.srs.CoreDeck
 import com.gleaped.italianlearning.domain.srs.Rating
+import com.gleaped.italianlearning.domain.srs.ReviewCounts
+import com.gleaped.italianlearning.domain.srs.ReviewLoad
 import com.gleaped.italianlearning.domain.srs.Sm2
 import com.gleaped.italianlearning.domain.srs.SrsState
 import kotlinx.coroutines.flow.Flow
@@ -54,13 +56,22 @@ class LearningRepository(private val db: AppDatabase) {
      * What a review session offers right now, as (due reviews, new cards). New cards already
      * met today use up the daily allowance, as in [reviewQueue].
      */
-    fun reviewCounts(dailyNewCards: Flow<Int>): Flow<Pair<Int, Int>> = combine(
+    fun reviewCounts(dailyNewCards: Flow<Int>): Flow<Pair<Int, Int>> =
+        reviewLoad(dailyNewCards).map { it.due to it.fresh }
+
+    /** Like [reviewCounts], with the day's review cap applied and a note of whether a backlog is being eased. */
+    fun reviewLoad(dailyNewCards: Flow<Int>): Flow<ReviewCounts> = combine(
         dueReviewCount(),
         newCardCount(),
         newIntroducedTodayCount(),
         dailyNewCards,
-    ) { due, fresh, introducedToday, perDay ->
-        due to minOf(fresh, (perDay - introducedToday).coerceAtLeast(0))
+        srs.observeReviewedOldOn(today()),
+    ) { due, fresh, introducedToday, perDay, reviewedToday ->
+        ReviewCounts(
+            due = ReviewLoad.shown(due, reviewedToday),
+            fresh = minOf(fresh, (perDay - introducedToday).coerceAtLeast(0)),
+            eased = ReviewLoad.eased(due, reviewedToday),
+        )
     }
 
     /** Lessons finished today. */
@@ -261,7 +272,7 @@ class LearningRepository(private val db: AppDatabase) {
     /** Due reviews plus today's allowance of new cards. */
     suspend fun reviewQueue(dailyNewCards: Int): List<SrsCardEntity> {
         val day = today()
-        val due = srs.dueReviews(day)
+        val due = srs.dueReviews(day).take(ReviewLoad.allowance(srs.reviewedOldOn(day)))
         val allowance = (dailyNewCards - srs.newIntroducedOn(day)).coerceAtLeast(0)
         if (allowance == 0) return due
         // About a quarter of the day's new cards are grammar, so rules are not stuck behind the vocabulary.
