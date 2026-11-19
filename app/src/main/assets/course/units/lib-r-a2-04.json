@@ -1,0 +1,331 @@
+{
+  "id": "lib-r-a2-04",
+  "level": "LET",
+  "title": "Tempo libero e cucina",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A2 (circa 77 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a2-04-l1",
+      "title": "Il mio telefono nuovo",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-04-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il mio telefono nuovo",
+          "passage": "Ieri ho comprato un telefono nuovo, perché il vecchio non funzionava più bene: la batteria durava poche ore. Il commesso mi ha mostrato tre modelli e ho scelto quello più piccolo, che costa trecento euro. Ha una buona fotocamera e un grande schermo. Prima di uscire dal negozio, ho trasferito tutti i miei contatti e le foto. Adesso devo solo imparare a usare le nuove funzioni. Mio figlio dice che è facile, ma io ho bisogno di qualche giorno.",
+          "questions": [
+            {
+              "question": "Perché ha comprato un telefono nuovo?",
+              "options": [
+                "Il vecchio aveva la batteria debole",
+                "Il vecchio si è rotto",
+                "Voleva un regalo"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quanto costa il telefono?",
+              "options": [
+                "Cento euro",
+                "Trecento euro",
+                "Mille euro"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa ha trasferito?",
+              "options": [
+                "I contatti e le foto",
+                "Solo le foto",
+                "I giochi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa dice il figlio?",
+              "options": [
+                "Che è troppo caro",
+                "Che è facile",
+                "Che è vecchio"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l1-c1",
+          "stage": "learn",
+          "front": "la batteria",
+          "back": "battery",
+          "example": "Ieri ho comprato un telefono nuovo, perché il vecchio non funzionava più bene: la batteria durava poche ore."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l1-c2",
+          "stage": "learn",
+          "front": "lo schermo",
+          "back": "screen",
+          "example": "Ha una buona fotocamera e un grande schermo."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-04-l2",
+      "title": "La mia squadra",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-04-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La mia squadra",
+          "passage": "Ogni giovedì sera gioco a calcetto con i colleghi. Siamo dieci persone e giochiamo in un campo vicino all'ufficio. Non siamo bravi, ma ci divertiamo molto. L'allenatore è Stefano, il più vecchio del gruppo, che dice sempre di essere stato un grande calciatore. Dopo la partita andiamo in pizzeria e mangiamo tutti insieme. Chi perde paga la pizza, ma di solito pagano sempre gli stessi. Questa abitudine mi piace perché mi aiuta a conoscere meglio i colleghi.",
+          "questions": [
+            {
+              "question": "Quando giocano?",
+              "options": [
+                "Il sabato mattina",
+                "Il giovedì sera",
+                "La domenica"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove giocano?",
+              "options": [
+                "In palestra",
+                "In un campo vicino all'ufficio",
+                "Al parco"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa fanno dopo la partita?",
+              "options": [
+                "Vanno in pizzeria",
+                "Tornano a casa",
+                "Fanno una doccia"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Chi paga la pizza?",
+              "options": [
+                "Chi perde",
+                "L'allenatore",
+                "Il più giovane"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l2-c1",
+          "stage": "learn",
+          "front": "il calcetto",
+          "back": "five-a-side football",
+          "example": "Ogni giovedì sera gioco a calcetto con i colleghi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l2-c2",
+          "stage": "learn",
+          "front": "l'allenatore",
+          "back": "coach",
+          "example": "L'allenatore è Stefano, il più vecchio del gruppo, che dice sempre di essere stato un grande calciatore."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-04-l3",
+      "title": "Una ricetta semplice",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-04-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una ricetta semplice",
+          "passage": "Oggi vi spiego come fare gli spaghetti aglio, olio e peperoncino. Ci vogliono pochi ingredienti: spaghetti, aglio, olio d'oliva, peperoncino e prezzemolo. Prima mettete l'acqua a bollire e aggiungete il sale. Mentre la pasta cuoce, tagliate l'aglio a fettine e fatelo dorare nell'olio con il peperoncino. Scolate gli spaghetti al dente e mescolateli nella padella per un minuto. Aggiungete il prezzemolo e servite subito. È un piatto veloce, perfetto per una cena improvvisata.",
+          "questions": [
+            {
+              "question": "Quanti ingredienti servono, più o meno?",
+              "options": [
+                "Moltissimi",
+                "Dieci",
+                "Pochi"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa si fa mentre la pasta cuoce?",
+              "options": [
+                "Si taglia il prezzemolo",
+                "Si lava la padella",
+                "Si fa dorare l'aglio"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Come si scolano gli spaghetti?",
+              "options": [
+                "Molto cotti",
+                "Al dente",
+                "Crudi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quando si aggiunge il prezzemolo?",
+              "options": [
+                "All'inizio",
+                "Con il sale",
+                "Alla fine"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l3-c1",
+          "stage": "learn",
+          "front": "al dente",
+          "back": "firm, not overcooked",
+          "example": "Scolate gli spaghetti al dente e mescolateli nella padella per un minuto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l3-c2",
+          "stage": "learn",
+          "front": "scolare",
+          "back": "to drain"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-04-l4",
+      "title": "Una lettera a un amico",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-04-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una lettera a un amico",
+          "passage": "Caro Lorenzo, come stai? Sono passati due mesi da quando sei partito per Londra e mi manchi molto. Qui è tutto come prima: lavoro tanto e nel fine settimana vado al lago con gli altri amici. Ti ricordi della nostra pizzeria? Ha cambiato proprietario, ma la pizza è ancora buona. Ti scrivo anche per darti una bella notizia: a Natale vengo a trovarti! Ho già comprato il biglietto dell'aereo. Rispondimi presto e dimmi dove possiamo vederci. Un abbraccio, Davide.",
+          "questions": [
+            {
+              "question": "Dove abita adesso Lorenzo?",
+              "options": [
+                "A Roma",
+                "A Londra",
+                "Sul lago"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa è cambiato alla pizzeria?",
+              "options": [
+                "Il nome",
+                "Il proprietario",
+                "La pizza"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quando va a trovare Lorenzo?",
+              "options": [
+                "A Natale",
+                "In estate",
+                "Domani"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa ha già comprato Davide?",
+              "options": [
+                "Un regalo",
+                "Una casa",
+                "Il biglietto dell'aereo"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l4-c1",
+          "stage": "learn",
+          "front": "mancare",
+          "back": "to miss"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-04-l4-c2",
+          "stage": "learn",
+          "front": "un abbraccio",
+          "back": "a hug (closing of a letter)",
+          "example": "Un abbraccio, Davide."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la batteria",
+      "en": "battery",
+      "example": "Ieri ho comprato un telefono nuovo, perché il vecchio non funzionava più bene: la batteria durava poche ore."
+    },
+    {
+      "it": "lo schermo",
+      "en": "screen",
+      "example": "Ha una buona fotocamera e un grande schermo."
+    },
+    {
+      "it": "il calcetto",
+      "en": "five-a-side football",
+      "example": "Ogni giovedì sera gioco a calcetto con i colleghi."
+    },
+    {
+      "it": "l'allenatore",
+      "en": "coach",
+      "example": "L'allenatore è Stefano, il più vecchio del gruppo, che dice sempre di essere stato un grande calciatore."
+    },
+    {
+      "it": "al dente",
+      "en": "firm, not overcooked",
+      "example": "Scolate gli spaghetti al dente e mescolateli nella padella per un minuto."
+    },
+    {
+      "it": "scolare",
+      "en": "to drain"
+    },
+    {
+      "it": "mancare",
+      "en": "to miss"
+    },
+    {
+      "it": "un abbraccio",
+      "en": "a hug (closing of a letter)",
+      "example": "Un abbraccio, Davide."
+    }
+  ]
+}

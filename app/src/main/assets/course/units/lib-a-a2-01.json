@@ -1,0 +1,405 @@
+{
+  "id": "lib-a-a2-01",
+  "level": "ASC",
+  "title": "Messaggi e informazioni",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A2 (circa 79 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a2-01-l1",
+      "title": "Messaggio in segreteria",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-01-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l1-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Neri, sono Davide dell'agenzia immobiliare Casa Sole. La chiamo per l'appartamento di via Verdi, quello al terzo piano. Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro. Se vuole, può visitare l'appartamento domani alle diciassette oppure venerdì mattina alle dieci. Ci sono due camere, un grande salotto e un balcone con vista sul parco. Mi richiami entro stasera, per favore, al numero zero tre tre tre, uno due tre, quattro cinque sei. Grazie e arrivederci.",
+          "question": "Perché chiama Davide?",
+          "options": [
+            "Per un lavoro",
+            "Per parlare di un appartamento",
+            "Per un'offerta di telefono"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l1-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Neri, sono Davide dell'agenzia immobiliare Casa Sole. La chiamo per l'appartamento di via Verdi, quello al terzo piano. Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro. Se vuole, può visitare l'appartamento domani alle diciassette oppure venerdì mattina alle dieci. Ci sono due camere, un grande salotto e un balcone con vista sul parco. Mi richiami entro stasera, per favore, al numero zero tre tre tre, uno due tre, quattro cinque sei. Grazie e arrivederci.",
+          "question": "Qual è il nuovo prezzo?",
+          "options": [
+            "Duecentoventimila euro",
+            "Centomila euro",
+            "Duecentomila euro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l1-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Neri, sono Davide dell'agenzia immobiliare Casa Sole. La chiamo per l'appartamento di via Verdi, quello al terzo piano. Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro. Se vuole, può visitare l'appartamento domani alle diciassette oppure venerdì mattina alle dieci. Ci sono due camere, un grande salotto e un balcone con vista sul parco. Mi richiami entro stasera, per favore, al numero zero tre tre tre, uno due tre, quattro cinque sei. Grazie e arrivederci.",
+          "question": "Quando può visitare l'appartamento?",
+          "options": [
+            "Solo sabato",
+            "Domani alle diciassette o venerdì alle dieci",
+            "Lunedì mattina"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l1-e5",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Neri, sono Davide dell'agenzia immobiliare Casa Sole. La chiamo per l'appartamento di via Verdi, quello al terzo piano. Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro. Se vuole, può visitare l'appartamento domani alle diciassette oppure venerdì mattina alle dieci. Ci sono due camere, un grande salotto e un balcone con vista sul parco. Mi richiami entro stasera, per favore, al numero zero tre tre tre, uno due tre, quattro cinque sei. Grazie e arrivederci.",
+          "question": "Che cosa ha l'appartamento?",
+          "options": [
+            "Un giardino",
+            "Due camere e un balcone",
+            "Tre camere e un garage"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l1-c1",
+          "stage": "learn",
+          "front": "disposto a",
+          "back": "willing to",
+          "example": "Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l1-c2",
+          "stage": "learn",
+          "front": "abbassare",
+          "back": "to lower",
+          "example": "Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-01-l2",
+      "title": "Notizie dal quartiere",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-01-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l2-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti dalla radio del quartiere. Cominciamo con una buona notizia: da lunedì la biblioteca comunale è aperta anche la domenica mattina, dalle nove alle tredici. Un'altra novità riguarda i trasporti: la linea sette dell'autobus passa ogni dieci minuti, e non più ogni venti. Attenzione, invece, ai lavori in via Garibaldi: la strada è chiusa fino a venerdì e il traffico è deviato su via Mazzini. Infine, sabato prossimo c'è il mercatino dell'usato in piazza, dalle otto alle sei. Buona giornata!",
+          "question": "Quando è aperta la biblioteca la domenica?",
+          "options": [
+            "Tutto il giorno",
+            "Dalle nove alle tredici",
+            "Dalle otto alle sei"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l2-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti dalla radio del quartiere. Cominciamo con una buona notizia: da lunedì la biblioteca comunale è aperta anche la domenica mattina, dalle nove alle tredici. Un'altra novità riguarda i trasporti: la linea sette dell'autobus passa ogni dieci minuti, e non più ogni venti. Attenzione, invece, ai lavori in via Garibaldi: la strada è chiusa fino a venerdì e il traffico è deviato su via Mazzini. Infine, sabato prossimo c'è il mercatino dell'usato in piazza, dalle otto alle sei. Buona giornata!",
+          "question": "Ogni quanto passa la linea sette?",
+          "options": [
+            "Ogni venti minuti",
+            "Ogni dieci minuti",
+            "Ogni ora"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l2-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti dalla radio del quartiere. Cominciamo con una buona notizia: da lunedì la biblioteca comunale è aperta anche la domenica mattina, dalle nove alle tredici. Un'altra novità riguarda i trasporti: la linea sette dell'autobus passa ogni dieci minuti, e non più ogni venti. Attenzione, invece, ai lavori in via Garibaldi: la strada è chiusa fino a venerdì e il traffico è deviato su via Mazzini. Infine, sabato prossimo c'è il mercatino dell'usato in piazza, dalle otto alle sei. Buona giornata!",
+          "question": "Fino a quando è chiusa via Garibaldi?",
+          "options": [
+            "Fino a lunedì",
+            "Fino a venerdì",
+            "Per un mese"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l2-e5",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti dalla radio del quartiere. Cominciamo con una buona notizia: da lunedì la biblioteca comunale è aperta anche la domenica mattina, dalle nove alle tredici. Un'altra novità riguarda i trasporti: la linea sette dell'autobus passa ogni dieci minuti, e non più ogni venti. Attenzione, invece, ai lavori in via Garibaldi: la strada è chiusa fino a venerdì e il traffico è deviato su via Mazzini. Infine, sabato prossimo c'è il mercatino dell'usato in piazza, dalle otto alle sei. Buona giornata!",
+          "question": "Che cosa c'è sabato in piazza?",
+          "options": [
+            "Un concerto",
+            "Un mercatino dell'usato",
+            "Una gara di corsa"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l2-c1",
+          "stage": "learn",
+          "front": "la novità",
+          "back": "news, novelty",
+          "example": "Un'altra novità riguarda i trasporti: la linea sette dell'autobus passa ogni dieci minuti, e non più ogni venti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l2-c2",
+          "stage": "learn",
+          "front": "deviare",
+          "back": "to divert"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-01-l3",
+      "title": "Il racconto di Marco",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-01-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l3-e2",
+          "stage": "practise",
+          "audioText": "Sabato scorso ho fatto una gita sul lago di Garda con la mia famiglia. Siamo partiti presto, alle sette, perché volevamo evitare il traffico. Abbiamo fatto una passeggiata lungo la riva e poi abbiamo preso il battello per Sirmione. Là abbiamo visitato il castello e mangiato un gelato enorme. Mio figlio ha comprato un souvenir: una piccola barca di legno. Nel pomeriggio ha cominciato a piovere, e così siamo tornati a casa prima del previsto. Comunque è stata una giornata bellissima.",
+          "question": "A che ora sono partiti?",
+          "options": [
+            "Alle nove",
+            "Alle sette",
+            "A mezzogiorno"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l3-e3",
+          "stage": "practise",
+          "audioText": "Sabato scorso ho fatto una gita sul lago di Garda con la mia famiglia. Siamo partiti presto, alle sette, perché volevamo evitare il traffico. Abbiamo fatto una passeggiata lungo la riva e poi abbiamo preso il battello per Sirmione. Là abbiamo visitato il castello e mangiato un gelato enorme. Mio figlio ha comprato un souvenir: una piccola barca di legno. Nel pomeriggio ha cominciato a piovere, e così siamo tornati a casa prima del previsto. Comunque è stata una giornata bellissima.",
+          "question": "Come sono andati a Sirmione?",
+          "options": [
+            "In battello",
+            "In macchina",
+            "A piedi"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l3-e4",
+          "stage": "practise",
+          "audioText": "Sabato scorso ho fatto una gita sul lago di Garda con la mia famiglia. Siamo partiti presto, alle sette, perché volevamo evitare il traffico. Abbiamo fatto una passeggiata lungo la riva e poi abbiamo preso il battello per Sirmione. Là abbiamo visitato il castello e mangiato un gelato enorme. Mio figlio ha comprato un souvenir: una piccola barca di legno. Nel pomeriggio ha cominciato a piovere, e così siamo tornati a casa prima del previsto. Comunque è stata una giornata bellissima.",
+          "question": "Che cosa ha comprato il figlio?",
+          "options": [
+            "Un gelato",
+            "Un libro",
+            "Una barca di legno"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l3-e5",
+          "stage": "practise",
+          "audioText": "Sabato scorso ho fatto una gita sul lago di Garda con la mia famiglia. Siamo partiti presto, alle sette, perché volevamo evitare il traffico. Abbiamo fatto una passeggiata lungo la riva e poi abbiamo preso il battello per Sirmione. Là abbiamo visitato il castello e mangiato un gelato enorme. Mio figlio ha comprato un souvenir: una piccola barca di legno. Nel pomeriggio ha cominciato a piovere, e così siamo tornati a casa prima del previsto. Comunque è stata una giornata bellissima.",
+          "question": "Perché sono tornati prima?",
+          "options": [
+            "Ha cominciato a piovere",
+            "Erano stanchi",
+            "Era tardi"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l3-c1",
+          "stage": "learn",
+          "front": "la gita",
+          "back": "trip, outing",
+          "example": "Sabato scorso ho fatto una gita sul lago di Garda con la mia famiglia."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l3-c2",
+          "stage": "learn",
+          "front": "la riva",
+          "back": "shore",
+          "example": "Abbiamo fatto una passeggiata lungo la riva e poi abbiamo preso il battello per Sirmione."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-01-l4",
+      "title": "Chiedere informazioni",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-01-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l4-e2",
+          "stage": "practise",
+          "audioText": "Scusi, può aiutarmi? Devo andare all'ospedale, ma non conosco bene la zona. Certo. Siamo in piazza Dante: vada dritto fino al semaforo, poi giri a sinistra in via Mazzini. Continui per trecento metri e vedrà la chiesa. L'ospedale è dietro la chiesa, a destra. Se preferisce, può prendere l'autobus numero otto: la fermata è qui davanti e il viaggio dura cinque minuti. Mille grazie, è stato molto gentile. Si figuri, buona giornata!",
+          "question": "Dove deve andare la persona?",
+          "options": [
+            "Alla stazione",
+            "Al museo",
+            "All'ospedale"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l4-e3",
+          "stage": "practise",
+          "audioText": "Scusi, può aiutarmi? Devo andare all'ospedale, ma non conosco bene la zona. Certo. Siamo in piazza Dante: vada dritto fino al semaforo, poi giri a sinistra in via Mazzini. Continui per trecento metri e vedrà la chiesa. L'ospedale è dietro la chiesa, a destra. Se preferisce, può prendere l'autobus numero otto: la fermata è qui davanti e il viaggio dura cinque minuti. Mille grazie, è stato molto gentile. Si figuri, buona giornata!",
+          "question": "Dove deve girare a sinistra?",
+          "options": [
+            "In via Mazzini",
+            "In piazza Dante",
+            "Alla chiesa"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l4-e4",
+          "stage": "practise",
+          "audioText": "Scusi, può aiutarmi? Devo andare all'ospedale, ma non conosco bene la zona. Certo. Siamo in piazza Dante: vada dritto fino al semaforo, poi giri a sinistra in via Mazzini. Continui per trecento metri e vedrà la chiesa. L'ospedale è dietro la chiesa, a destra. Se preferisce, può prendere l'autobus numero otto: la fermata è qui davanti e il viaggio dura cinque minuti. Mille grazie, è stato molto gentile. Si figuri, buona giornata!",
+          "question": "Dov'è l'ospedale?",
+          "options": [
+            "Davanti al semaforo",
+            "Vicino alla fermata",
+            "Dietro la chiesa"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-01-l4-e5",
+          "stage": "practise",
+          "audioText": "Scusi, può aiutarmi? Devo andare all'ospedale, ma non conosco bene la zona. Certo. Siamo in piazza Dante: vada dritto fino al semaforo, poi giri a sinistra in via Mazzini. Continui per trecento metri e vedrà la chiesa. L'ospedale è dietro la chiesa, a destra. Se preferisce, può prendere l'autobus numero otto: la fermata è qui davanti e il viaggio dura cinque minuti. Mille grazie, è stato molto gentile. Si figuri, buona giornata!",
+          "question": "Quanto dura il viaggio in autobus?",
+          "options": [
+            "Dieci minuti",
+            "Cinque minuti",
+            "Un'ora"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l4-c1",
+          "stage": "learn",
+          "front": "si figuri",
+          "back": "don't mention it",
+          "example": "Si figuri, buona giornata!"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-01-l4-c2",
+          "stage": "learn",
+          "front": "la zona",
+          "back": "area",
+          "example": "Devo andare all'ospedale, ma non conosco bene la zona."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "disposto a",
+      "en": "willing to",
+      "example": "Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro."
+    },
+    {
+      "it": "abbassare",
+      "en": "to lower",
+      "example": "Il proprietario è disposto ad abbassare il prezzo: da duecentoventimila a duecentomila euro."
+    },
+    {
+      "it": "la novità",
+      "en": "news, novelty",
+      "example": "Un'altra novità riguarda i trasporti: la linea sette dell'autobus passa ogni dieci minuti, e non più ogni venti."
+    },
+    {
+      "it": "deviare",
+      "en": "to divert"
+    },
+    {
+      "it": "la gita",
+      "en": "trip, outing",
+      "example": "Sabato scorso ho fatto una gita sul lago di Garda con la mia famiglia."
+    },
+    {
+      "it": "la riva",
+      "en": "shore",
+      "example": "Abbiamo fatto una passeggiata lungo la riva e poi abbiamo preso il battello per Sirmione."
+    },
+    {
+      "it": "si figuri",
+      "en": "don't mention it",
+      "example": "Si figuri, buona giornata!"
+    },
+    {
+      "it": "la zona",
+      "en": "area",
+      "example": "Devo andare all'ospedale, ma non conosco bene la zona."
+    }
+  ]
+}

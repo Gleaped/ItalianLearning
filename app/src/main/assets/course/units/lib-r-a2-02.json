@@ -1,0 +1,329 @@
+{
+  "id": "lib-r-a2-02",
+  "level": "LET",
+  "title": "Progetti e confronti",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A2 (circa 72 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a2-02-l1",
+      "title": "Un regalo per Giulia",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-02-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un regalo per Giulia",
+          "passage": "Il mese prossimo Giulia compie trent'anni e vorrei farle un bel regalo. Ho pensato a un libro, ma lei ne ha già tanti. Poi ho pensato a un profumo, però non conosco i suoi gusti. Alla fine ho deciso: le regalo un corso di cucina. Lei adora cucinare e le lezioni si fanno in una scuola in centro. L'ho già prenotato per ottobre. Le dico che è una sorpresa, così non ci sono problemi. Spero che le piaccia.",
+          "questions": [
+            {
+              "question": "Quando compie gli anni Giulia?",
+              "options": [
+                "Domani",
+                "Il mese prossimo",
+                "Tra un anno"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché non regala un libro?",
+              "options": [
+                "Costano troppo",
+                "Giulia ne ha già tanti",
+                "Non le piace leggere"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che regalo ha scelto?",
+              "options": [
+                "Un profumo",
+                "Un corso di cucina",
+                "Un viaggio"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove si fanno le lezioni?",
+              "options": [
+                "In una scuola in centro",
+                "A casa di Giulia",
+                "Al ristorante"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l1-c1",
+          "stage": "learn",
+          "front": "compiere gli anni",
+          "back": "to turn (age)"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l1-c2",
+          "stage": "learn",
+          "front": "la sorpresa",
+          "back": "surprise",
+          "example": "Le dico che è una sorpresa, così non ci sono problemi."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-02-l2",
+      "title": "Il mio piano per l'estate",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-02-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il mio piano per l'estate",
+          "passage": "Quest'estate voglio cambiare vita. Prima di tutto, comincerò a correre tre volte alla settimana: ho già comprato le scarpe. In luglio partirò per la Sardegna con due amici. Dormiremo in una tenda sulla spiaggia e mangeremo pesce fresco ogni giorno. In agosto, invece, resterò in città e farò un corso d'inglese, perché per il lavoro mi serve. A settembre tornerò più forte, più abbronzato e più preparato.",
+          "questions": [
+            {
+              "question": "Quante volte alla settimana correrà?",
+              "options": [
+                "Due",
+                "Cinque",
+                "Tre"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Dove andrà a luglio?",
+              "options": [
+                "In Sicilia",
+                "In Liguria",
+                "In Sardegna"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Dove dormiranno?",
+              "options": [
+                "In un albergo",
+                "In una casa",
+                "In una tenda"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa farà ad agosto?",
+              "options": [
+                "Un viaggio",
+                "Un corso d'inglese",
+                "Niente"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l2-c1",
+          "stage": "learn",
+          "front": "abbronzato",
+          "back": "tanned",
+          "example": "A settembre tornerò più forte, più abbronzato e più preparato."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l2-c2",
+          "stage": "learn",
+          "front": "la tenda",
+          "back": "tent",
+          "example": "Dormiremo in una tenda sulla spiaggia e mangeremo pesce fresco ogni giorno."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-02-l3",
+      "title": "Bici o macchina?",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-02-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Bici o macchina?",
+          "passage": "Per andare in ufficio uso la bicicletta da due anni. È più veloce della macchina, perché in centro c'è sempre traffico. Inoltre è più economica: non pago la benzina né il parcheggio. Certo, quando piove è meno comoda e a volte arrivo bagnato. Però faccio movimento e mi sento meglio di prima. Mia moglie dice che la macchina è più sicura, ma io non sono d'accordo. Il mio consiglio è semplice: provate una settimana e poi decidete.",
+          "questions": [
+            {
+              "question": "Da quanto tempo usa la bicicletta?",
+              "options": [
+                "Da due mesi",
+                "Da due anni",
+                "Da una settimana"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché la bici è più veloce?",
+              "options": [
+                "Perché ha un motore",
+                "Perché in centro c'è traffico",
+                "Perché la strada è corta"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è il problema quando piove?",
+              "options": [
+                "È pericolosa",
+                "Non si può usare",
+                "È meno comoda"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa pensa la moglie?",
+              "options": [
+                "Che la bici è meglio",
+                "Che la macchina è più sicura",
+                "Che costa troppo"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l3-c1",
+          "stage": "learn",
+          "front": "economico",
+          "back": "cheap, economical"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l3-c2",
+          "stage": "learn",
+          "front": "il parcheggio",
+          "back": "parking",
+          "example": "Inoltre è più economica: non pago la benzina né il parcheggio."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-02-l4",
+      "title": "La mia casa ideale",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-02-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La mia casa ideale",
+          "passage": "La mia casa ideale sarà piccola, ma luminosa. Avrà due camere, un bagno grande e una cucina moderna. Mi piacerebbe un balcone per mettere le piante e per fare colazione la mattina. Sarà vicina alla metropolitana e a un parco, così potrò correre dopo il lavoro. Non voglio un appartamento troppo caro: preferisco spendere i soldi per viaggiare. Se troverò la casa giusta, la comprerò entro due anni.",
+          "questions": [
+            {
+              "question": "Come sarà la casa?",
+              "options": [
+                "Piccola e luminosa",
+                "Grande e vecchia",
+                "Nuova e rumorosa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa farà sul balcone?",
+              "options": [
+                "Una festa",
+                "Il bucato",
+                "Colazione e piante"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché vuole stare vicino a un parco?",
+              "options": [
+                "Per i bambini",
+                "Per correre",
+                "Per il cane"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quando comprerà la casa?",
+              "options": [
+                "Domani",
+                "Tra dieci anni",
+                "Entro due anni"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l4-c1",
+          "stage": "learn",
+          "front": "luminoso",
+          "back": "bright"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-02-l4-c2",
+          "stage": "learn",
+          "front": "entro",
+          "back": "within",
+          "example": "Se troverò la casa giusta, la comprerò entro due anni."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "compiere gli anni",
+      "en": "to turn (age)"
+    },
+    {
+      "it": "la sorpresa",
+      "en": "surprise",
+      "example": "Le dico che è una sorpresa, così non ci sono problemi."
+    },
+    {
+      "it": "abbronzato",
+      "en": "tanned",
+      "example": "A settembre tornerò più forte, più abbronzato e più preparato."
+    },
+    {
+      "it": "la tenda",
+      "en": "tent",
+      "example": "Dormiremo in una tenda sulla spiaggia e mangeremo pesce fresco ogni giorno."
+    },
+    {
+      "it": "economico",
+      "en": "cheap, economical"
+    },
+    {
+      "it": "il parcheggio",
+      "en": "parking",
+      "example": "Inoltre è più economica: non pago la benzina né il parcheggio."
+    },
+    {
+      "it": "luminoso",
+      "en": "bright"
+    },
+    {
+      "it": "entro",
+      "en": "within",
+      "example": "Se troverò la casa giusta, la comprerò entro due anni."
+    }
+  ]
+}
