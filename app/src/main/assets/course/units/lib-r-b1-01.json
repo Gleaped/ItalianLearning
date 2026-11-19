@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b1-01",
+  "level": "LET",
+  "title": "Vita quotidiana",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi di vita quotidiana (circa 200 parole): un post di blog, un'e-mail formale, una notizia e una pagina di diario.",
+  "grammarFocus": "Lettura estensiva di livello B1: esperienze personali, richieste formali, fatti e reazioni, emozioni e progetti; connettivi come però, quindi, invece, tuttavia.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b1-01-l1",
+      "title": "Un mese senza macchina",
+      "minutes": 8,
+      "goal": "Leggere un post di blog di circa 200 parole e cogliere esperienza, vantaggi e limiti.",
+      "takeaway": "In un blog si racconta un'esperienza personale: cerca i fatti, le opinioni e i piani per il futuro.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-01-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un mese senza macchina",
+          "passage": "Un mese fa ho deciso di lasciare la macchina in garage e di muovermi solo in bicicletta e con i mezzi pubblici. Lavoro in centro, a sei chilometri da casa, e prima prendevo l'auto ogni mattina, anche se perdevo mezz'ora nel traffico e un'altra mezz'ora a cercare parcheggio.\n\nAll'inizio non è stato facile. Il primo lunedì pioveva e sono arrivato in ufficio bagnato fino alle ginocchia. Poi ho comprato un impermeabile leggero e ho imparato a guardare le previsioni del tempo la sera prima. Adesso pedalo per venti minuti, e dopo cinque minuti sono già sveglio.\n\nI vantaggi sono stati evidenti. Ho speso meno in benzina e ho risparmiato più di cento euro, ma soprattutto mi sento meglio: dormo di più e non arrivo al lavoro nervoso. Ho anche scoperto vie e negozietti che non conoscevo.\n\nNaturalmente ci sono dei limiti. Quando devo fare una spesa grande, la bicicletta non basta, e in inverno, con il buio e il freddo, forse sarà più dura. Per questo, a dicembre, userò l'autobus due giorni a settimana e vedrò come va. Non voglio diventare un fanatico: voglio solo capire quale mezzo è il più comodo per ogni situazione. Se anche voi avete provato qualcosa di simile, scrivetemi nei commenti!",
+          "questions": [
+            {
+              "question": "Che cosa ha deciso di fare l'autore un mese fa?",
+              "options": [
+                "Vendere la macchina",
+                "Cambiare lavoro",
+                "Muoversi senza usare l'auto",
+                "Comprare una bicicletta elettrica"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché il primo lunedì è stato difficile?",
+              "options": [
+                "Pioveva e si è bagnato",
+                "Ha perso l'autobus",
+                "Era in ritardo per il traffico",
+                "La bicicletta era rotta"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Oltre al risparmio, quale vantaggio cita l'autore?",
+              "options": [
+                "Arriva sempre in anticipo",
+                "Ha trovato un lavoro migliore",
+                "Non deve più fare la spesa",
+                "Si sente meglio e dorme di più"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa farà a dicembre?",
+              "options": [
+                "Riprenderà l'auto ogni giorno",
+                "Userà l'autobus due giorni a settimana",
+                "Smetterà di scrivere il blog",
+                "Andrà al lavoro a piedi"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l1-e02",
+          "stage": "learn",
+          "front": "il parcheggio",
+          "back": "parking; parking space",
+          "example": "Non trovo parcheggio vicino all'ufficio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l1-e03",
+          "stage": "learn",
+          "front": "pedalare",
+          "back": "to pedal, to cycle",
+          "example": "Di domenica mi piace pedalare lungo il fiume."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l1-e04",
+          "stage": "learn",
+          "front": "risparmiare",
+          "back": "to save (money, time)",
+          "example": "Con l'abbonamento risparmio quaranta euro al mese."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-01-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "bicicletta",
+            "vantaggi",
+            "limiti",
+            "dicembre"
+          ],
+          "modelAnswer": "L'autore ha lasciato la macchina e si muove in bicicletta e con i mezzi. All'inizio è stato difficile per la pioggia, ma adesso risparmia e si sente meglio. Però ci sono dei limiti, perché per la spesa grande serve l'auto, e a dicembre userà l'autobus due giorni a settimana.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-01-l2",
+      "title": "Una caldaia guasta",
+      "minutes": 8,
+      "goal": "Leggere una e-mail formale di circa 200 parole e capire problema, richiesta e condizioni.",
+      "takeaway": "In un'e-mail formale il problema, la richiesta e le condizioni sono spesso in paragrafi diversi: leggi ogni paragrafo con uno scopo.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-01-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una caldaia guasta",
+          "passage": "Oggetto: Caldaia guasta nell'appartamento di via dei Tigli\n\nGentile signor Bianchi,\n\nle scrivo perché da lunedì scorso la caldaia non funziona più bene. Al mattino l'acqua calda dura pochi minuti e il riscaldamento si spegne da solo dopo un'ora. Ho provato a controllare la pressione, come mi aveva spiegato quando sono entrata, ma non è servito.\n\nIeri sera ho chiamato il numero dell'assistenza che trova sul libretto, però la segreteria ha risposto che il tecnico potrebbe venire solo la settimana prossima. Con queste temperature mi sembra troppo tardi, anche perché in casa c'è mia figlia, che ha sei anni e ha la tosse.\n\nLe chiedo quindi se è possibile autorizzare un altro tecnico, magari uno di sua fiducia. Se preferisce, posso anticipare io la spesa, a condizione che lei mi rimborsi con il prossimo affitto e che il tecnico mi lasci la fattura.\n\nSono a casa tutti i pomeriggi dalle quattro, e di mattina posso lasciare le chiavi alla vicina del primo piano. Mi dispiace disturbarla, ma spero che possiamo risolvere il problema presto.\n\nLa ringrazio in anticipo per l'attenzione e le porgo cordiali saluti.\n\nElena Marchetti",
+          "questions": [
+            {
+              "question": "Perché scrive Elena?",
+              "options": [
+                "Per disdire il contratto d'affitto",
+                "Per chiedere di risolvere un problema alla caldaia",
+                "Per chiedere uno sconto sull'affitto",
+                "Per invitare il padrone di casa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa ha risposto la segreteria dell'assistenza?",
+              "options": [
+                "Il tecnico verrà domani mattina",
+                "Il numero non è più attivo",
+                "La caldaia è ancora in garanzia",
+                "Il tecnico potrebbe venire solo la settimana prossima"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Perché per lei la situazione è urgente?",
+              "options": [
+                "In casa ci sono la figlia con la tosse e il freddo",
+                "Deve lasciare l'appartamento",
+                "Aspetta degli ospiti",
+                "Il tecnico costa troppo"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "A quale condizione può anticipare la spesa?",
+              "options": [
+                "Se il padrone di casa viene di persona",
+                "Se il tecnico lavora di sera",
+                "Se viene rimborsata con l'affitto e riceve la fattura",
+                "Se può cambiare appartamento"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l2-e02",
+          "stage": "learn",
+          "front": "guasto",
+          "back": "broken, out of order, faulty",
+          "example": "L'ascensore è guasto da due giorni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l2-e03",
+          "stage": "learn",
+          "front": "anticipare la spesa",
+          "back": "to pay up front",
+          "example": "Posso anticipare io la spesa e farmi rimborsare dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l2-e04",
+          "stage": "learn",
+          "front": "rimborsare",
+          "back": "to reimburse, to refund",
+          "example": "Il negozio mi ha rimborsato il biglietto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-01-l2-e05",
+          "stage": "use",
+          "prompt": "Spiega a voce il problema e la richiesta dell'e-mail, in tre o quattro frasi.",
+          "keywords": [
+            "caldaia",
+            "tecnico",
+            "anticipare",
+            "rimborso"
+          ],
+          "modelAnswer": "Elena scrive al padrone di casa perché la caldaia è guasta e il tecnico dell'assistenza può venire solo la settimana prossima. Chiede di chiamare un altro tecnico. Se è necessario, anticiperà lei la spesa, ma vuole il rimborso con l'affitto.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-01-l3",
+      "title": "Una biblioteca aperta fino a mezzanotte",
+      "minutes": 8,
+      "goal": "Leggere una notizia di circa 200 parole e distinguere fatti, reazioni e sviluppi futuri.",
+      "takeaway": "In una notizia si trovano prima i fatti, poi le reazioni, infine le conseguenze possibili: il futuro è spesso introdotto da se.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-01-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una biblioteca aperta fino a mezzanotte",
+          "passage": "In un quartiere periferico di una città del Nord la biblioteca comunale ha deciso di cambiare orario. Da lunedì scorso resta aperta fino a mezzanotte, dal lunedì al giovedì, per tutto il periodo degli esami universitari. L'iniziativa è nata dopo che un gruppo di studenti aveva raccolto duecento firme: molti di loro abitano in appartamenti piccoli e rumorosi, e dicono di non riuscire a studiare a casa.\n\nLe prime serate sono state un successo. Ogni sera arrivano circa ottanta persone, e spesso i posti non bastano. Alcuni portano il computer, altri i libri di testo; una piccola sala è stata riservata a chi deve ripetere ad alta voce, per non disturbare gli altri. Il comune ha assunto due custodi in più e ha promesso di tenere la caffetteria interna aperta fino alle dieci.\n\nNon mancano le critiche. Alcuni residenti temono rumore e disordine davanti all'ingresso, e per questo la polizia locale passerà ogni sera. L'assessora alla cultura, intervistata ieri, ha spiegato che l'esperimento durerà due mesi. Se i risultati saranno buoni, gli orari lunghi diventeranno permanenti, almeno nei mesi più difficili dell'anno. «Una biblioteca», ha detto, «serve se è aperta quando le persone ne hanno bisogno.»",
+          "questions": [
+            {
+              "question": "Come è nata l'iniziativa?",
+              "options": [
+                "Il comune ha ricevuto fondi europei",
+                "Alcuni studenti hanno raccolto duecento firme",
+                "I custodi hanno fatto una proposta",
+                "Un'università ha imposto il nuovo orario"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa succede spesso ogni sera?",
+              "options": [
+                "La biblioteca resta quasi vuota",
+                "La polizia chiude l'ingresso",
+                "I posti disponibili non bastano",
+                "Mancano i libri di testo"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché alcuni residenti sono preoccupati?",
+              "options": [
+                "Temono rumore e disordine fuori dalla biblioteca",
+                "Pensano che la biblioteca costi troppo",
+                "Credono che ci siano pochi custodi",
+                "Non sono stati avvisati dell'orario"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa succederà se l'esperimento andrà bene?",
+              "options": [
+                "La caffetteria chiuderà",
+                "L'esperimento durerà due anni",
+                "Si aprirà una seconda biblioteca",
+                "Gli orari lunghi potranno diventare permanenti"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l3-e02",
+          "stage": "learn",
+          "front": "la firma",
+          "back": "signature",
+          "example": "Per la petizione abbiamo raccolto cento firme."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l3-e03",
+          "stage": "learn",
+          "front": "il custode",
+          "back": "caretaker, attendant",
+          "example": "Il custode chiude il cancello alle otto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l3-e04",
+          "stage": "learn",
+          "front": "il residente",
+          "back": "resident",
+          "example": "Solo i residenti possono parcheggiare qui."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-01-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "orario",
+            "studenti",
+            "critiche",
+            "due mesi"
+          ],
+          "modelAnswer": "La biblioteca di un quartiere resta aperta fino a mezzanotte per gli studenti, dopo una raccolta di firme. Le prime serate sono andate bene, ma alcuni residenti temono rumore. L'esperimento dura due mesi e, se funziona, potrebbe diventare permanente.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-01-l4",
+      "title": "Il primo giorno di lavoro",
+      "minutes": 8,
+      "goal": "Leggere una pagina di diario di circa 200 parole e capire emozioni, eventi e piani per il giorno dopo.",
+      "takeaway": "In un diario si alternano passato (passato prossimo, imperfetto) e futuro: nota come cambiano i tempi verbali.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-01-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il primo giorno di lavoro",
+          "passage": "Martedì 14 ottobre, sera\n\nCaro diario, oggi è stato il mio primo giorno nel nuovo lavoro e sono distrutta, ma felice. Mi sono svegliata alle sei, perché non volevo fare tardi, e ho cambiato vestito tre volte prima di uscire. Alla fine ho scelto una camicia semplice e le scarpe comode.\n\nL'ufficio è piccolo e luminoso, con una grande finestra che dà su un cortile pieno di piante. La mia responsabile, Chiara, mi ha accolta con un caffè e mi ha presentato tutti i colleghi. Erano in sei, e naturalmente ho dimenticato quasi tutti i nomi! Lei ha riso e mi ha detto di non preoccuparmi: anche lei, il primo giorno, aveva chiamato il direttore con il nome sbagliato.\n\nDurante la mattina ho letto i documenti dei clienti e ho cominciato a imparare il programma per le fatture. Era più complicato di quanto pensassi, ma un collega, Paolo, mi ha mostrato alcuni trucchi. A pranzo siamo andati insieme in una trattoria vicina e ho scoperto che qui tutti mangiano in fretta, in quaranta minuti.\n\nDomani avrò una riunione con un cliente importante. Ho un po' di paura, ma mi sento più sicura di stamattina. Adesso vado a letto: se non dormo, domani non capirò niente!",
+          "questions": [
+            {
+              "question": "Come si sente la scrittrice alla fine della giornata?",
+              "options": [
+                "Delusa e arrabbiata",
+                "Annoiata e tranquilla",
+                "Stanca ma contenta",
+                "Triste ma rilassata"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Come descrive l'ufficio?",
+              "options": [
+                "Piccolo e luminoso, con una finestra sul cortile",
+                "Grande e moderno, in centro",
+                "Buio e rumoroso",
+                "Piccolo e senza finestre"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa ha raccontato Chiara per rassicurarla?",
+              "options": [
+                "Anche lei era arrivata in ritardo",
+                "Anche lei, il primo giorno, aveva sbagliato il nome del direttore",
+                "Anche lei aveva perso dei documenti",
+                "Anche lei aveva saltato il pranzo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa ha scoperto a pranzo?",
+              "options": [
+                "Che il pranzo dura due ore",
+                "Che nessuno esce dall'ufficio",
+                "Che i colleghi non parlano mai",
+                "Che i colleghi mangiano in fretta"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l4-e02",
+          "stage": "learn",
+          "front": "distrutto/a",
+          "back": "exhausted, wiped out (informal)",
+          "example": "Dopo il viaggio ero distrutta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l4-e03",
+          "stage": "learn",
+          "front": "accogliere",
+          "back": "to welcome, to receive",
+          "example": "Ci hanno accolto con un caffè e una torta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-01-l4-e04",
+          "stage": "learn",
+          "front": "la riunione",
+          "back": "meeting",
+          "example": "La riunione comincia alle dieci e finisce a mezzogiorno."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-01-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "primo giorno",
+            "colleghi",
+            "programma",
+            "riunione"
+          ],
+          "modelAnswer": "Oggi è stato il primo giorno di lavoro della scrittrice: è stanca ma felice. Ha conosciuto i colleghi, ha imparato un programma e ha pranzato con loro. Domani avrà una riunione importante e ha un po' di paura.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il parcheggio",
+      "en": "parking; parking space",
+      "example": "Non trovo parcheggio vicino all'ufficio."
+    },
+    {
+      "it": "pedalare",
+      "en": "to pedal, to cycle",
+      "example": "Di domenica mi piace pedalare lungo il fiume."
+    },
+    {
+      "it": "risparmiare",
+      "en": "to save (money, time)",
+      "example": "Con l'abbonamento risparmio quaranta euro al mese."
+    },
+    {
+      "it": "guasto",
+      "en": "broken, out of order, faulty",
+      "example": "L'ascensore è guasto da due giorni."
+    },
+    {
+      "it": "anticipare la spesa",
+      "en": "to pay up front",
+      "example": "Posso anticipare io la spesa e farmi rimborsare dopo."
+    },
+    {
+      "it": "rimborsare",
+      "en": "to reimburse, to refund",
+      "example": "Il negozio mi ha rimborsato il biglietto."
+    },
+    {
+      "it": "la firma",
+      "en": "signature",
+      "example": "Per la petizione abbiamo raccolto cento firme."
+    },
+    {
+      "it": "il custode",
+      "en": "caretaker, attendant",
+      "example": "Il custode chiude il cancello alle otto."
+    },
+    {
+      "it": "il residente",
+      "en": "resident",
+      "example": "Solo i residenti possono parcheggiare qui."
+    },
+    {
+      "it": "distrutto/a",
+      "en": "exhausted, wiped out (informal)",
+      "example": "Dopo il viaggio ero distrutta."
+    },
+    {
+      "it": "accogliere",
+      "en": "to welcome, to receive",
+      "example": "Ci hanno accolto con un caffè e una torta."
+    },
+    {
+      "it": "la riunione",
+      "en": "meeting",
+      "example": "La riunione comincia alle dieci e finisce a mezzogiorno."
+    }
+  ]
+}

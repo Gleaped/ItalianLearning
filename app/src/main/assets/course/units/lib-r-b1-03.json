@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b1-03",
+  "level": "LET",
+  "title": "Viaggi e città",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi su viaggi e città (circa 200 parole): un'e-mail dalle vacanze, una recensione di albergo, un estratto di guida e una notizia.",
+  "grammarFocus": "Lettura estensiva di livello B1: racconto di viaggio, giudizi e consigli, descrizioni di luoghi, fatti e reazioni; connettivi come però, quindi, perché, invece.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b1-03-l1",
+      "title": "Saluti da Lecce",
+      "minutes": 8,
+      "goal": "Leggere un'e-mail di vacanze di circa 200 parole e capire eventi, impressioni e piani.",
+      "takeaway": "In un'e-mail agli amici si racconta il passato (passato prossimo, imperfetto), si descrive il presente e si propone qualcosa per il futuro.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-03-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Saluti da Lecce",
+          "passage": "Oggetto: Saluti da Lecce!\n\nCara Marta,\n\nti scrivo dal tavolino di un bar in una piazzetta del centro, mentre aspetto un caffè con il ghiaccio e il latte di mandorla. Sono arrivata giovedì sera dopo un viaggio lunghissimo: il treno aveva due ore di ritardo e alla stazione non c'erano taxi, così ho camminato per venti minuti con la valigia. Però la padrona dell'appartamento mi aspettava sul portone con un sorriso e una bottiglia di vino, e la stanchezza è passata subito.\n\nLecce è bellissima. Le chiese hanno decorazioni in pietra chiara e la sera, con le luci accese, sembra tutto dorato. Ieri ho fatto una gita al mare: l'acqua era limpida e c'erano pochissimi turisti, perché a settembre le spiagge si svuotano. Ho conosciuto anche una coppia di Torino, Gianni e Lucia, che mi hanno consigliato un ristorante fuori città.\n\nDomani prenderò l'autobus per Otranto, dove resterò due notti. Se avrai qualche giorno libero, perché non vieni a trovarmi? Potremmo noleggiare una macchina e girare insieme per le campagne. Ti aspetto, scrivimi presto!\n\nUn abbraccio,\nGiulia",
+          "questions": [
+            {
+              "question": "Come è stato l'arrivo di Giulia a Lecce?",
+              "options": [
+                "Il treno è arrivato in anticipo",
+                "Ha preso un taxi fino all'appartamento",
+                "Il treno era in ritardo e ha camminato con la valigia",
+                "Nessuno l'ha aspettata"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché c'erano pochi turisti al mare?",
+              "options": [
+                "Perché era settembre",
+                "Perché pioveva",
+                "Perché l'acqua era sporca",
+                "Perché la spiaggia era privata"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa farà Giulia domani?",
+              "options": [
+                "Tornerà a Torino",
+                "Noleggerà una macchina",
+                "Resterà al bar tutto il giorno",
+                "Andrà a Otranto in autobus"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa propone a Marta?",
+              "options": [
+                "Di venire a trovarla e girare in macchina",
+                "Di prenotare un albergo a Otranto",
+                "Di scrivere a Gianni e Lucia",
+                "Di prendere il treno per Torino"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l1-e02",
+          "stage": "learn",
+          "front": "il ritardo",
+          "back": "delay, lateness",
+          "example": "Il volo ha quaranta minuti di ritardo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l1-e03",
+          "stage": "learn",
+          "front": "limpido/a",
+          "back": "clear, crystal-clear",
+          "example": "L'acqua del lago è limpida."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l1-e04",
+          "stage": "learn",
+          "front": "noleggiare",
+          "back": "to rent, to hire",
+          "example": "Abbiamo noleggiato due biciclette per il fine settimana."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-03-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "Lecce",
+            "viaggio",
+            "Otranto",
+            "Marta"
+          ],
+          "modelAnswer": "Giulia scrive a Marta da Lecce. Il viaggio è stato lungo, perché il treno era in ritardo, ma l'accoglienza è stata calorosa. Domani andrà a Otranto in autobus e invita Marta a raggiungerla per girare in macchina.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-03-l2",
+      "title": "Una settimana all'Hotel Mirabello",
+      "minutes": 8,
+      "goal": "Leggere una recensione di albergo di circa 200 parole e distinguere pregi, difetti e consigli.",
+      "takeaway": "In una recensione i giudizi positivi e negativi si alternano: nota i connettivi come ma, però, peccato che.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-03-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una settimana all'Hotel Mirabello",
+          "passage": "Abbiamo soggiornato sette giorni all'Hotel Mirabello, un piccolo albergo a trecento metri dal lago, e in generale siamo stati molto contenti. Lo consigliamo, anche se non è perfetto.\n\nLa camera era pulita e abbastanza grande per due persone, con un balcone sul giardino. Il letto era comodissimo, ma il bagno era un po' vecchio e la prima sera la doccia non scaldava l'acqua. Abbiamo avvisato la reception e dopo un'ora un tecnico ha sistemato tutto; il direttore ci ha anche offerto un aperitivo per scusarsi.\n\nLa colazione è il vero punto di forza: pane fresco, torte fatte in casa, marmellate di frutti di bosco e un caffè eccellente. Peccato che la sala sia piccola e che dopo le nove sia difficile trovare un tavolo. Per questo vi suggeriamo di scendere presto.\n\nIl personale è stato gentile e disponibile. La posizione è tranquilla, ma il centro del paese è un po' lontano: noi abbiamo preso l'autobus, che passa ogni mezz'ora. Il wi-fi funzionava bene solo nell'atrio.\n\nIl prezzo, centodieci euro a notte, ci è sembrato giusto. Se torniamo, chiederemo una camera ai piani alti, perché quella al piano terra era un po' rumorosa la sera. Voto: 4 su 5.",
+          "questions": [
+            {
+              "question": "Qual è il giudizio generale degli autori?",
+              "options": [
+                "Delusi, non lo consigliano",
+                "Contenti, ma con qualche difetto",
+                "Perfettamente soddisfatti, nessun problema",
+                "Contenti solo del prezzo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa è successo la prima sera?",
+              "options": [
+                "Il letto era rotto",
+                "Non c'era la colazione",
+                "La doccia non scaldava l'acqua",
+                "La camera era sporca"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché consigliano di scendere presto a colazione?",
+              "options": [
+                "Perché la colazione finisce alle otto",
+                "Perché il direttore aspetta gli ospiti",
+                "Perché il bar chiude presto",
+                "Perché dopo le nove è difficile trovare un tavolo"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa chiederanno la prossima volta?",
+              "options": [
+                "Una camera più economica",
+                "Una camera ai piani alti",
+                "Una camera con la colazione in stanza",
+                "Una camera vicino al lago"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l2-e02",
+          "stage": "learn",
+          "front": "soggiornare",
+          "back": "to stay (in a hotel, a place)",
+          "example": "Abbiamo soggiornato una settimana in montagna."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l2-e03",
+          "stage": "learn",
+          "front": "il punto di forza",
+          "back": "strong point, strength",
+          "example": "Il punto di forza dell'albergo è la colazione."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l2-e04",
+          "stage": "learn",
+          "front": "il personale",
+          "back": "staff",
+          "example": "Il personale dell'ufficio è sempre gentile."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-03-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "albergo",
+            "colazione",
+            "camera",
+            "prezzo"
+          ],
+          "modelAnswer": "Gli autori hanno soggiornato una settimana in un albergo vicino al lago. La camera era comoda, ma la doccia non funzionava la prima sera. La colazione è molto buona e il personale è gentile, però il centro è lontano e la camera al piano terra era rumorosa.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-03-l3",
+      "title": "Una giornata a Borgomare",
+      "minutes": 8,
+      "goal": "Leggere un estratto di guida turistica di circa 200 parole e capire consigli e orari.",
+      "takeaway": "Una guida usa spesso l'imperativo (cominciate, evitate) e dà informazioni pratiche su orari e prezzi: cercale con attenzione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-03-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una giornata a Borgomare",
+          "passage": "Borgomare è una piccola città sulla costa, ideale per chi ha poco tempo e vuole vedere il meglio in un solo giorno. Il nostro consiglio è di arrivare in treno: la stazione si trova a dieci minuti a piedi dal centro, mentre in macchina il parcheggio è caro e quasi sempre pieno.\n\nCominciate la mattina dal mercato coperto, aperto dal martedì al sabato fino all'una. Qui i pescatori vendono il pesce appena arrivato e le bancarelle di frutta sono un bello spettacolo. Poi salite con calma verso la parte alta della città: la salita è lunga, ma dalla terrazza del vecchio castello si vede tutto il golfo. Il castello è chiuso il lunedì, quindi controllate bene il giorno.\n\nPer pranzo c'è l'imbarazzo della scelta, ma evitate i locali sul lungomare, che sono più turistici e più cari. Nelle stradine dietro la chiesa trovate trattorie familiari dove un piatto di pasta costa circa otto euro. Nel pomeriggio potete passeggiare sul lungomare o fare il bagno, se la stagione lo permette.\n\nSe restate fino a sera, non perdete il tramonto dal molo: è il momento più bello della giornata. L'ultimo treno per il capoluogo parte alle 22.40, quindi non fate troppo tardi.",
+          "questions": [
+            {
+              "question": "Perché la guida consiglia il treno?",
+              "options": [
+                "Perché il biglietto costa poco",
+                "Perché in macchina il parcheggio è caro e quasi sempre pieno",
+                "Perché la stazione è lontana dal centro",
+                "Perché la strada è chiusa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa si può fare al mercato coperto?",
+              "options": [
+                "Mangiare nelle trattorie",
+                "Prendere il treno",
+                "Visitare il castello",
+                "Vedere il pesce appena arrivato e la frutta"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Dove consiglia di mangiare la guida?",
+              "options": [
+                "Nelle stradine dietro la chiesa",
+                "Sul lungomare",
+                "Al mercato coperto",
+                "Sul molo"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché non bisogna fare troppo tardi la sera?",
+              "options": [
+                "Perché il molo chiude",
+                "Perché il castello chiude alle otto",
+                "Perché l'ultimo treno parte alle 22.40",
+                "Perché i ristoranti chiudono presto"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l3-e02",
+          "stage": "learn",
+          "front": "il lungomare",
+          "back": "seafront, promenade",
+          "example": "La sera passeggiamo sul lungomare."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l3-e03",
+          "stage": "learn",
+          "front": "la bancarella",
+          "back": "market stall",
+          "example": "Alla bancarella ho comprato delle ciliegie."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l3-e04",
+          "stage": "learn",
+          "front": "il tramonto",
+          "back": "sunset",
+          "example": "Il tramonto sul mare era bellissimo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-03-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "Borgomare",
+            "mercato",
+            "castello",
+            "treno"
+          ],
+          "modelAnswer": "La guida propone una giornata a Borgomare: si arriva in treno, si visita il mercato e il castello, si mangia nelle stradine dietro la chiesa. La sera si guarda il tramonto dal molo, ma bisogna ricordare l'ultimo treno alle 22.40.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-03-l4",
+      "title": "Una nuova pista ciclabile",
+      "minutes": 8,
+      "goal": "Leggere una notizia di circa 200 parole e distinguere fatti, opinioni e sviluppi futuri.",
+      "takeaway": "In una notizia ci sono i fatti, le voci dei protagonisti e i prossimi passi: osserva chi dice che cosa.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-03-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una nuova pista ciclabile",
+          "passage": "Dopo due anni di lavori, sabato scorso a Valdoro è stata inaugurata la nuova pista ciclabile che collega la stazione ferroviaria con la zona industriale e le scuole superiori. Il percorso è lungo quattro chilometri e attraversa il parco comunale, dove prima c'era solo una strada sterrata.\n\nIl sindaco, che ha tagliato il nastro in bicicletta, ha ricordato che il progetto è costato più del previsto, ma ha aggiunto che «una città a misura di persona vale l'investimento». Alla festa hanno partecipato più di trecento persone, tra cui molti studenti che usano la bici tutti i giorni. Una ragazza di diciassette anni ha raccontato che prima impiegava quaranta minuti a piedi, mentre ora ne bastano quindici.\n\nNon tutti però sono d'accordo. Alcuni commercianti di via Roma lamentano che sono spariti venti posti auto davanti ai negozi e temono di perdere clienti. Il comune ha risposto che entro l'estate aprirà un parcheggio gratuito a cento metri, con una navetta ogni dieci minuti.\n\nTra sei mesi il comune controllerà quante persone usano davvero la pista: se i numeri saranno alti, il percorso si allungherà fino ai paesi vicini.",
+          "questions": [
+            {
+              "question": "Che cosa collega la nuova pista ciclabile?",
+              "options": [
+                "Il centro e il mare",
+                "La stazione, la zona industriale e le scuole superiori",
+                "Due paesi vicini",
+                "Il parco e il mercato"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché alcuni commercianti sono preoccupati?",
+              "options": [
+                "Perché la pista è troppo lunga",
+                "Perché i lavori sono durati due anni",
+                "Perché i clienti non hanno la bicicletta",
+                "Perché sono spariti venti posti auto davanti ai negozi"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa ha risposto il comune?",
+              "options": [
+                "Aprirà un parcheggio gratuito con una navetta",
+                "Chiuderà via Roma al traffico",
+                "Pagherà i commercianti",
+                "Toglierà la pista"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa succederà se la pista avrà molti utenti?",
+              "options": [
+                "Sarà chiusa la sera",
+                "Costerà di più",
+                "Il percorso si allungherà fino ai paesi vicini",
+                "Il sindaco si dimetterà"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l4-e02",
+          "stage": "learn",
+          "front": "inaugurare",
+          "back": "to inaugurate, to open officially",
+          "example": "Il sindaco ha inaugurato il nuovo ponte."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l4-e03",
+          "stage": "learn",
+          "front": "il commerciante",
+          "back": "shopkeeper, trader",
+          "example": "I commercianti del centro chiedono più parcheggi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-03-l4-e04",
+          "stage": "learn",
+          "front": "la navetta",
+          "back": "shuttle (bus)",
+          "example": "Una navetta porta i turisti dalla stazione all'albergo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-03-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "pista ciclabile",
+            "commercianti",
+            "parcheggio",
+            "sei mesi"
+          ],
+          "modelAnswer": "A Valdoro hanno inaugurato una pista ciclabile di quattro chilometri, apprezzata dagli studenti. Alcuni commercianti sono preoccupati perché sono spariti dei parcheggi, ma il comune promette un nuovo parcheggio con una navetta. Tra sei mesi si valuterà se allungare il percorso.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il ritardo",
+      "en": "delay, lateness",
+      "example": "Il volo ha quaranta minuti di ritardo."
+    },
+    {
+      "it": "limpido/a",
+      "en": "clear, crystal-clear",
+      "example": "L'acqua del lago è limpida."
+    },
+    {
+      "it": "noleggiare",
+      "en": "to rent, to hire",
+      "example": "Abbiamo noleggiato due biciclette per il fine settimana."
+    },
+    {
+      "it": "soggiornare",
+      "en": "to stay (in a hotel, a place)",
+      "example": "Abbiamo soggiornato una settimana in montagna."
+    },
+    {
+      "it": "il punto di forza",
+      "en": "strong point, strength",
+      "example": "Il punto di forza dell'albergo è la colazione."
+    },
+    {
+      "it": "il personale",
+      "en": "staff",
+      "example": "Il personale dell'ufficio è sempre gentile."
+    },
+    {
+      "it": "il lungomare",
+      "en": "seafront, promenade",
+      "example": "La sera passeggiamo sul lungomare."
+    },
+    {
+      "it": "la bancarella",
+      "en": "market stall",
+      "example": "Alla bancarella ho comprato delle ciliegie."
+    },
+    {
+      "it": "il tramonto",
+      "en": "sunset",
+      "example": "Il tramonto sul mare era bellissimo."
+    },
+    {
+      "it": "inaugurare",
+      "en": "to inaugurate, to open officially",
+      "example": "Il sindaco ha inaugurato il nuovo ponte."
+    },
+    {
+      "it": "il commerciante",
+      "en": "shopkeeper, trader",
+      "example": "I commercianti del centro chiedono più parcheggi."
+    },
+    {
+      "it": "la navetta",
+      "en": "shuttle (bus)",
+      "example": "Una navetta porta i turisti dalla stazione all'albergo."
+    }
+  ]
+}
