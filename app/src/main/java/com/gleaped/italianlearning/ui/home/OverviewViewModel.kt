@@ -4,6 +4,8 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.distinctUntilChanged
 import com.gleaped.italianlearning.domain.practice.DailyMix
 import com.gleaped.italianlearning.domain.srs.ReviewCounts
+import com.gleaped.italianlearning.domain.profile.WhatsNew
+import com.gleaped.italianlearning.domain.profile.WhatsNewNote
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -18,6 +20,8 @@ import com.gleaped.italianlearning.domain.progress.ExamPlan
 import com.gleaped.italianlearning.domain.progress.ExamReadiness
 import com.gleaped.italianlearning.domain.progress.Readiness
 import com.gleaped.italianlearning.domain.progress.SkillStats
+import com.gleaped.italianlearning.domain.progress.WeekSummary
+import com.gleaped.italianlearning.domain.progress.WeeklyRecap
 import com.gleaped.italianlearning.domain.progress.LessonCheckpoint
 import com.gleaped.italianlearning.domain.progress.Streak
 import kotlinx.coroutines.flow.SharingStarted
@@ -53,6 +57,8 @@ data class Overview(
     val readiness: Readiness = Readiness(emptyList(), null, null),
     /** Lessons still to do on the way to B2. */
     val remainingLessons: Int = 0,
+    /** A one-time note about what changed in the last update. */
+    val whatsNew: WhatsNewNote? = null,
 )
 
 class OverviewViewModel(container: AppContainer) : ViewModel() {
@@ -112,7 +118,18 @@ class OverviewViewModel(container: AppContainer) : ViewModel() {
             examDateEpochDay = settings.examDateEpochDay,
             readiness = ExamReadiness.estimate(SkillStats.bySkill(extra.attempts, today)),
             remainingLessons = ExamPlan.remainingLessons(courseProgress.levelProgress()),
+            whatsNew = WhatsNew.pending(settings.whatsNewSeen),
         )
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    /** Last week in a sentence, until it is dismissed. */
+    val recap: StateFlow<WeekSummary?> = combine(
+        container.learning.dayCounts,
+        container.learning.attempts,
+        container.settings.settings.map { it.recapSeenWeek }.distinctUntilChanged(),
+    ) { days, attempts, seenWeek ->
+        val today = LocalDate.now().toEpochDay()
+        WeeklyRecap.summarize(days, SkillStats.bySkill(attempts, today), today)?.takeIf { it.weekStartEpochDay != seenWeek }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 
     companion object {
