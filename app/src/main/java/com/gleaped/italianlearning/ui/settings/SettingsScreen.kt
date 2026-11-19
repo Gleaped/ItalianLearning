@@ -58,6 +58,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.material3.LinearProgressIndicator
 import com.gleaped.italianlearning.speech.VoicePack
 import androidx.compose.runtime.getValue
@@ -480,41 +481,43 @@ fun SettingsScreen() {
                 safeStart(context, Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
             }) { Text("Install Italian voice") }
         }
-        val voices by container.tts.voices.collectAsStateWithLifecycle()
-        LaunchedEffect(Unit) { container.tts.refreshVoices() }
-        if (voices.size > 1) {
-            Text("Voice", style = MaterialTheme.typography.bodyLarge)
-            val chosen = voices.firstOrNull { it.name == settings.voiceName }
-            VoiceRow("Automatic (best installed)", chosen == null) { vm.setVoice("") }
-            voices.forEach { v -> VoiceRow(v.label, chosen == v) { vm.setVoice(v.name) } }
-            Text(
-                "Tap a voice to hear it. In dialogues the other speaker uses a different voice.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
+        MoreOptions("More audio options") {
+            val voices by container.tts.voices.collectAsStateWithLifecycle()
+            LaunchedEffect(Unit) { container.tts.refreshVoices() }
+            if (voices.size > 1) {
+                Text("Voice", style = MaterialTheme.typography.bodyLarge)
+                val chosen = voices.firstOrNull { it.name == settings.voiceName }
+                VoiceRow("Automatic (best installed)", chosen == null) { vm.setVoice("") }
+                voices.forEach { v -> VoiceRow(v.label, chosen == v) { vm.setVoice(v.name) } }
+                Text(
+                    "Tap a voice to hear it. In dialogues the other speaker uses a different voice.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            } else {
+                Text(
+                    "Only one Italian voice is installed, so in dialogues the other speaker is the same voice at a lower pitch. " +
+                        "More voices can be added in Android's text-to-speech settings.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            NaturalVoicesSection(container)
+            SwitchRow("Play audio automatically", "Listening exercises and role-plays start playing on their own.", settings.autoPlayAudio, vm::setAutoPlay)
+            SwitchRow(
+                "Listen before reading",
+                "In role-plays you hear the other person's line first. Its text appears when you answer, or when you tap Show text.",
+                settings.listenFirst,
+                vm::setListenFirst,
             )
-        } else {
-            Text(
-                "Only one Italian voice is installed, so in dialogues the other speaker is the same voice at a lower pitch. " +
-                    "More voices can be added in Android's text-to-speech settings.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            SwitchRow(
+                "Speaking practice",
+                "Use the microphone for speaking exercises. Off = type your answers instead.",
+                settings.speechPracticeEnabled,
+                vm::setSpeechPractice,
             )
+            WhisperSection(container, settings.whisperEnabled, WhisperModel.of(settings.whisperModel), vm::setWhisper, vm::setWhisperModel)
         }
-        NaturalVoicesSection(container)
-        SwitchRow("Play audio automatically", "Listening exercises and role-plays start playing on their own.", settings.autoPlayAudio, vm::setAutoPlay)
-        SwitchRow(
-            "Listen before reading",
-            "In role-plays you hear the other person's line first. Its text appears when you answer, or when you tap Show text.",
-            settings.listenFirst,
-            vm::setListenFirst,
-        )
-        SwitchRow(
-            "Speaking practice",
-            "Use the microphone for speaking exercises. Off = type your answers instead.",
-            settings.speechPracticeEnabled,
-            vm::setSpeechPractice,
-        )
-        WhisperSection(container, settings.whisperEnabled, WhisperModel.of(settings.whisperModel), vm::setWhisper, vm::setWhisperModel)
 
         HorizontalDivider()
 
@@ -527,23 +530,25 @@ fun SettingsScreen() {
             valueRange = 0f..40f,
             steps = 7,
         )
-        Text(
-            if (settings.coreWordsPerDay == 0) "Core words: off" else "Core words added each day: ${settings.coreWordsPerDay}",
-            style = MaterialTheme.typography.bodyLarge,
-        )
-        Slider(
-            value = settings.coreWordsPerDay.toFloat(),
-            onValueChange = { vm.setCoreWords(it.roundToInt()) },
-            valueRange = 0f..CoreDeck.MAX_PER_DAY.toFloat(),
-            steps = CoreDeck.MAX_PER_DAY - 1,
-        )
-        Text(
-            "Each day the most frequent nouns, verbs, adjectives and adverbs the course has not taught yet join your review cards, " +
-                "starting from words you probably know. They are offered within the new cards per day above, so raise that number to meet them sooner.",
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-        SwitchRow("Unlock all units", "Skip ahead freely instead of finishing units in order.", settings.unlockAllUnits, vm::setUnlockAll)
+        MoreOptions("More learning options") {
+            Text(
+                if (settings.coreWordsPerDay == 0) "Core words: off" else "Core words added each day: ${settings.coreWordsPerDay}",
+                style = MaterialTheme.typography.bodyLarge,
+            )
+            Slider(
+                value = settings.coreWordsPerDay.toFloat(),
+                onValueChange = { vm.setCoreWords(it.roundToInt()) },
+                valueRange = 0f..CoreDeck.MAX_PER_DAY.toFloat(),
+                steps = CoreDeck.MAX_PER_DAY - 1,
+            )
+            Text(
+                "Each day the most frequent nouns, verbs, adjectives and adverbs the course has not taught yet join your review cards, " +
+                    "starting from words you probably know. They are offered within the new cards per day above, so raise that number to meet them sooner.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            SwitchRow("Unlock all units", "Skip ahead freely instead of finishing units in order.", settings.unlockAllUnits, vm::setUnlockAll)
+        }
 
         HorizontalDivider()
 
@@ -619,8 +624,10 @@ fun SettingsScreen() {
             }) { Text("Restore a backup") }
         }
         backupMessage?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
-        FlagsSection()
-        OutlinedButton(onClick = { confirmReset = true }) { Text("Reset progress…") }
+        MoreOptions("Advanced") {
+            FlagsSection()
+            OutlinedButton(onClick = { confirmReset = true }) { Text("Reset progress…") }
+        }
         Text(
             "Italiano works fully offline. Nothing leaves your phone: no account, no tracking.",
             style = MaterialTheme.typography.bodySmall,
@@ -640,6 +647,18 @@ private fun appVersion(context: Context): String = try {
     context.packageManager.getPackageInfo(context.packageName, 0).versionName ?: "?"
 } catch (e: Exception) {
     "?"
+}
+
+/** Rarely needed settings, folded away so the first view of Settings stays short. */
+@Composable
+private fun MoreOptions(title: String, content: @Composable () -> Unit) {
+    var open by rememberSaveable { mutableStateOf(false) }
+    TextButton(onClick = { open = !open }) {
+        Text(if (open) "$title \u25B2" else "$title \u25BC")
+    }
+    if (open) {
+        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) { content() }
+    }
 }
 
 @Composable

@@ -35,6 +35,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.TextButton
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.launch
 import com.gleaped.italianlearning.domain.progress.ExamPlan
 import com.gleaped.italianlearning.domain.progress.ExamReadiness
 import com.gleaped.italianlearning.domain.progress.Readiness
@@ -116,6 +118,37 @@ fun HomeScreen(
                     modifier = Modifier.padding(12.dp),
                     style = MaterialTheme.typography.bodySmall,
                 )
+            }
+        }
+
+        if (o.reviewEased && !o.practicedToday) {
+            Text(
+                "Welcome back. Today is a light day: the rest of the backlog can wait.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+
+        val recap by vm.recap.collectAsStateWithLifecycle()
+        recap?.let { week ->
+            val scope = rememberCoroutineScope()
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text("Your week", style = MaterialTheme.typography.titleSmall)
+                    Text(week.text, style = MaterialTheme.typography.bodyMedium)
+                    TextButton(onClick = { scope.launch { container.settings.markRecapSeen(week.weekStartEpochDay) } }) { Text("OK") }
+                }
+            }
+        }
+
+        o.whatsNew?.let { note ->
+            val scope = rememberCoroutineScope()
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text("What's new", style = MaterialTheme.typography.titleSmall)
+                    Text(note.text, style = MaterialTheme.typography.bodyMedium)
+                    TextButton(onClick = { scope.launch { container.settings.markWhatsNewSeen(note.id) } }) { Text("Got it") }
+                }
             }
         }
 
@@ -204,7 +237,6 @@ fun HomeScreen(
                 }
                 Text(
                     when {
-                        o.reviewEased && !o.practicedToday -> "Welcome back. Today is a light day: the rest of the backlog can wait."
                         o.practicedToday -> "You have practised today. Anything more is a bonus."
                         o.streak > 0 -> "Any one of these keeps your streak going."
                         else -> "Any one of these counts as practice for today."

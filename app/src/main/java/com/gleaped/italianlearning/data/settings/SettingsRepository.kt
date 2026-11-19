@@ -72,6 +72,10 @@ data class Settings(
     val onboarded: Boolean = false,
     /** The day of the CELI 3 exam as an epoch day; 0 = not set. */
     val examDateEpochDay: Long = 0L,
+    /** Id of the newest "what's new" note already dismissed; 0 = none. */
+    val whatsNewSeen: Int = 0,
+    /** Monday (epoch day) of the week whose recap was dismissed; 0 = never. */
+    val recapSeenWeek: Long = 0L,
     /** Core words added to the review deck each day; 0 = off. */
     val coreWordsPerDay: Int = CoreDeck.DEFAULT_PER_DAY,
     /** Optional on-device Whisper recogniser for speaking steps; off until the learner turns it on. */
@@ -137,6 +141,8 @@ class SettingsRepository(context: Context) {
         val quietSpeechUntil = longPreferencesKey("quiet_speech_until")
         val lastMixDay = longPreferencesKey("last_mix_day")
         val examDate = longPreferencesKey("exam_date_epoch_day")
+        val whatsNewSeen = intPreferencesKey("whats_new_seen")
+        val recapSeenWeek = longPreferencesKey("recap_seen_week")
         val coreWordsPerDay = intPreferencesKey("core_words_per_day")
         val whisperEnabled = booleanPreferencesKey("whisper_enabled")
         val whisperModel = stringPreferencesKey("whisper_model")
@@ -179,6 +185,8 @@ class SettingsRepository(context: Context) {
             userName = p[Keys.userName] ?: "",
             onboarded = p[Keys.onboarded] ?: false,
             examDateEpochDay = p[Keys.examDate] ?: 0L,
+            whatsNewSeen = p[Keys.whatsNewSeen] ?: 0,
+            recapSeenWeek = p[Keys.recapSeenWeek] ?: 0L,
             coreWordsPerDay = p[Keys.coreWordsPerDay] ?: defaults.coreWordsPerDay,
             whisperEnabled = p[Keys.whisperEnabled] ?: defaults.whisperEnabled,
             whisperModel = p[Keys.whisperModel] ?: defaults.whisperModel,
@@ -216,6 +224,10 @@ class SettingsRepository(context: Context) {
 
     /** The day (epoch day) the daily mix was last finished; 0 = never. */
     val lastMixDay: Flow<Long> = store.data.map { it[Keys.lastMixDay] ?: 0L }.distinctUntilChanged()
+
+    suspend fun markWhatsNewSeen(id: Int) = store.edit { it[Keys.whatsNewSeen] = id }
+
+    suspend fun markRecapSeen(weekStart: Long) = store.edit { it[Keys.recapSeenWeek] = weekStart }
 
     suspend fun markMixDone(epochDay: Long) = store.edit { it[Keys.lastMixDay] = epochDay }
 

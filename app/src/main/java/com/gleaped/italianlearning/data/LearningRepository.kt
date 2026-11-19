@@ -9,6 +9,7 @@ import com.gleaped.italianlearning.data.db.ExerciseResultEntity
 import com.gleaped.italianlearning.data.db.LessonProgressEntity
 import com.gleaped.italianlearning.data.db.SrsCardEntity
 import com.gleaped.italianlearning.domain.grading.Verdict
+import com.gleaped.italianlearning.domain.progress.DayCount
 import com.gleaped.italianlearning.domain.srs.CardKind
 import com.gleaped.italianlearning.domain.srs.Cards
 import com.gleaped.italianlearning.domain.srs.CoreDeck
@@ -72,6 +73,11 @@ class LearningRepository(private val db: AppDatabase) {
             fresh = minOf(fresh, (perDay - introducedToday).coerceAtLeast(0)),
             eased = ReviewLoad.eased(due, reviewedToday),
         )
+    }
+
+    /** Lessons and cards per day, for the weekly recap. */
+    val dayCounts: Flow<List<DayCount>> = progress.observeActivity().map { list ->
+        list.map { DayCount(it.epochDay, it.lessonsCompleted, it.cardsReviewed) }
     }
 
     /** Lessons finished today. */
