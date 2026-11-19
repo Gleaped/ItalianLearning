@@ -93,6 +93,7 @@ The track mirrors the real CELI 3 sections; the verified format and sources are 
 | celi-09 | Simulazione d'esame 2 | A second timed mock of all booklets and the oral, with new texts and recordings |
 | celi-10 | Famiglie di parole | Word formation for part C.3: suffixes, prefixes, opposites and adverbs |
 | celi-11 | Biblioteca di lettura 2 | Four more long texts (about 230 words) with exam-style questions and a spoken summary |
+| celi-12 | Biblioteca di ascolto 2 | Six more long recordings (130 to 170 words): voicemail, radio feature, phone call, interview, story and news bulletin, four questions each |
 
 ## Unit 1 in detail: `b1-01` Com'è andata?
 
