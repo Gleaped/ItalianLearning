@@ -1179,6 +1179,24 @@
       "summary": "4 listening texts at A1 (about 42 words each), with questions.",
       "available": true,
       "module": "asc-a1"
+    },
+    {
+      "id": "lib-r-a2-05",
+      "level": "LET",
+      "order": 28,
+      "title": "Weekend, casa e imprevisti",
+      "summary": "4 reading texts at A2 (about 74 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-a-a2-05",
+      "level": "ASC",
+      "order": 30,
+      "title": "Prenotazioni, esperienze e meteo",
+      "summary": "4 listening texts at A2 (about 72 words each), with questions.",
+      "available": true,
+      "module": "asc-a2"
     }
   ],
   "modules": [

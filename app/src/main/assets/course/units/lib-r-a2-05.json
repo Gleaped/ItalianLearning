@@ -1,0 +1,615 @@
+{
+  "id": "lib-r-a2-05",
+  "level": "LET",
+  "title": "Weekend, casa e imprevisti",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A2 (circa 74 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a2-05-l1",
+      "title": "Un weekend in montagna",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-05-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un weekend in montagna",
+          "passage": "Il mese scorso io e i miei amici abbiamo passato un weekend in montagna. Siamo partiti il venerdì sera e siamo arrivati in un piccolo rifugio verso le dieci. Il sabato ci siamo svegliati presto e abbiamo fatto una lunga camminata fino a un lago. Il paesaggio era bellissimo, ma faceva molto freddo. La sera abbiamo cenato con polenta e formaggio, poi abbiamo giocato a carte. Domenica è piovuto e siamo tornati a casa stanchi ma contenti.",
+          "questions": [
+            {
+              "question": "Quando sono partiti?",
+              "options": [
+                "Sabato mattina",
+                "Domenica",
+                "Venerdì sera"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Dove sono andati il sabato?",
+              "options": [
+                "In città",
+                "Fino a un lago",
+                "In una grotta"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che tempo ha fatto domenica?",
+              "options": [
+                "C'era il sole",
+                "Ha piovuto",
+                "Ha nevicato"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Come si sentivano al ritorno?",
+              "options": [
+                "Stanchi ma contenti",
+                "Tristi",
+                "Arrabbiati"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-05-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Il mese ___ io e i miei amici abbiamo passato un ___ in montagna. Siamo partiti il venerdì sera e siamo ___ in un piccolo rifugio verso le dieci. Il ___ ci siamo svegliati presto e ___ fatto una lunga camminata fino a un lago.",
+          "gaps": [
+            {
+              "answers": [
+                "scorso"
+              ],
+              "options": [
+                "abbiamo",
+                "arrivati",
+                "weekend",
+                "sabato",
+                "scorso"
+              ]
+            },
+            {
+              "answers": [
+                "weekend"
+              ],
+              "options": [
+                "abbiamo",
+                "arrivati",
+                "weekend",
+                "sabato",
+                "scorso"
+              ]
+            },
+            {
+              "answers": [
+                "arrivati"
+              ],
+              "options": [
+                "abbiamo",
+                "arrivati",
+                "weekend",
+                "sabato",
+                "scorso"
+              ]
+            },
+            {
+              "answers": [
+                "sabato"
+              ],
+              "options": [
+                "abbiamo",
+                "arrivati",
+                "weekend",
+                "sabato",
+                "scorso"
+              ]
+            },
+            {
+              "answers": [
+                "abbiamo"
+              ],
+              "options": [
+                "abbiamo",
+                "arrivati",
+                "weekend",
+                "sabato",
+                "scorso"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l1-c1",
+          "stage": "learn",
+          "front": "il rifugio",
+          "back": "mountain hut",
+          "example": "Siamo partiti il venerdì sera e siamo arrivati in un piccolo rifugio verso le dieci."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l1-c2",
+          "stage": "learn",
+          "front": "la camminata",
+          "back": "walk, hike",
+          "example": "Il sabato ci siamo svegliati presto e abbiamo fatto una lunga camminata fino a un lago."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-05-l2",
+      "title": "Cambiare casa",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-05-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Cambiare casa",
+          "passage": "Quando mi sono trasferito a Torino, ho cercato un appartamento per due mesi. All'inizio volevo abitare in centro, ma gli affitti erano troppo alti. Alla fine ho trovato una casa in periferia, vicino a un parco. Non è grandissima, però è luminosa e silenziosa. Il proprietario è molto gentile e mi ha lasciato un letto e un tavolo. Il centro è lontano, ma con la metropolitana ci metto solo venti minuti.",
+          "questions": [
+            {
+              "question": "Quanto tempo ha cercato casa?",
+              "options": [
+                "Due mesi",
+                "Un mese",
+                "Un anno"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché non ha scelto il centro?",
+              "options": [
+                "Gli affitti erano troppo alti",
+                "Era troppo rumoroso",
+                "Non c'erano appartamenti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Com'è la casa?",
+              "options": [
+                "Grandissima",
+                "Vecchia e buia",
+                "Luminosa e silenziosa"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quanto ci mette per il centro?",
+              "options": [
+                "Un'ora",
+                "Venti minuti",
+                "Cinque minuti"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-05-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Quando mi sono ___ a Torino, ho cercato un ___ per due mesi. All'inizio volevo ___ in centro, ma gli affitti ___ troppo alti. Alla fine ho ___ una casa in periferia, vicino a un parco.",
+          "gaps": [
+            {
+              "answers": [
+                "trasferito"
+              ],
+              "options": [
+                "trasferito",
+                "abitare",
+                "erano",
+                "trovato",
+                "appartamento"
+              ]
+            },
+            {
+              "answers": [
+                "appartamento"
+              ],
+              "options": [
+                "trasferito",
+                "abitare",
+                "erano",
+                "trovato",
+                "appartamento"
+              ]
+            },
+            {
+              "answers": [
+                "abitare"
+              ],
+              "options": [
+                "trasferito",
+                "abitare",
+                "erano",
+                "trovato",
+                "appartamento"
+              ]
+            },
+            {
+              "answers": [
+                "erano"
+              ],
+              "options": [
+                "trasferito",
+                "abitare",
+                "erano",
+                "trovato",
+                "appartamento"
+              ]
+            },
+            {
+              "answers": [
+                "trovato"
+              ],
+              "options": [
+                "trasferito",
+                "abitare",
+                "erano",
+                "trovato",
+                "appartamento"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l2-c1",
+          "stage": "learn",
+          "front": "la periferia",
+          "back": "suburbs",
+          "example": "Alla fine ho trovato una casa in periferia, vicino a un parco."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l2-c2",
+          "stage": "learn",
+          "front": "trasferirsi",
+          "back": "to move (house)"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-05-l3",
+      "title": "Il corso di cucina",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-05-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il corso di cucina",
+          "passage": "Da settembre frequento un corso di cucina italiana ogni giovedì sera. L'insegnante è uno chef di Bologna molto bravo e paziente. Finora abbiamo imparato a fare la pasta fresca, il ragù e il tiramisù. Il tiramisù mi è venuto benissimo, ma i tortellini erano un disastro: si sono aperti tutti nell'acqua! Alla fine di ogni lezione mangiamo insieme quello che abbiamo preparato. Ho conosciuto persone simpatiche e ho già deciso di continuare anche l'anno prossimo.",
+          "questions": [
+            {
+              "question": "Quando si tiene il corso?",
+              "options": [
+                "Il lunedì mattina",
+                "Ogni sabato",
+                "Il giovedì sera"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Da dove viene lo chef?",
+              "options": [
+                "Da Napoli",
+                "Da Roma",
+                "Da Bologna"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa è andato male?",
+              "options": [
+                "Il tiramisù",
+                "Il ragù",
+                "I tortellini"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa farà l'anno prossimo?",
+              "options": [
+                "Cambierà corso",
+                "Continuerà il corso",
+                "Smetterà"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-05-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Da ___ frequento un corso di ___ italiana ogni giovedì sera. L'insegnante è uno chef di Bologna ___ bravo e paziente. Finora abbiamo imparato a fare la ___ fresca, il ragù e il tiramisù. Il tiramisù mi è venuto benissimo, ma i ___ erano un disastro: si sono aperti tutti nell'acqua!",
+          "gaps": [
+            {
+              "answers": [
+                "settembre"
+              ],
+              "options": [
+                "molto",
+                "cucina",
+                "tortellini",
+                "pasta",
+                "settembre"
+              ]
+            },
+            {
+              "answers": [
+                "cucina"
+              ],
+              "options": [
+                "molto",
+                "cucina",
+                "tortellini",
+                "pasta",
+                "settembre"
+              ]
+            },
+            {
+              "answers": [
+                "molto"
+              ],
+              "options": [
+                "molto",
+                "cucina",
+                "tortellini",
+                "pasta",
+                "settembre"
+              ]
+            },
+            {
+              "answers": [
+                "pasta"
+              ],
+              "options": [
+                "molto",
+                "cucina",
+                "tortellini",
+                "pasta",
+                "settembre"
+              ]
+            },
+            {
+              "answers": [
+                "tortellini"
+              ],
+              "options": [
+                "molto",
+                "cucina",
+                "tortellini",
+                "pasta",
+                "settembre"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l3-c1",
+          "stage": "learn",
+          "front": "paziente",
+          "back": "patient",
+          "example": "L'insegnante è uno chef di Bologna molto bravo e paziente."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l3-c2",
+          "stage": "learn",
+          "front": "il ragù",
+          "back": "meat sauce",
+          "example": "Finora abbiamo imparato a fare la pasta fresca, il ragù e il tiramisù."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-05-l4",
+      "title": "Una brutta giornata",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-05-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una brutta giornata",
+          "passage": "Ieri è stata una giornata terribile. La sveglia non ha suonato e mi sono alzato tardi. Ho perso l'autobus e sono arrivato in ufficio con quaranta minuti di ritardo. Il capo era arrabbiato e mi ha chiesto di restare fino alle sette. A pranzo ho rovesciato il caffè sul computer e ho dovuto aspettare il tecnico. La sera, finalmente a casa, ho scoperto che non avevo le chiavi! Per fortuna la vicina ne aveva una copia.",
+          "questions": [
+            {
+              "question": "Perché è arrivato in ritardo?",
+              "options": [
+                "C'era sciopero",
+                "Ha trovato traffico",
+                "La sveglia non ha suonato"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa ha rovesciato?",
+              "options": [
+                "L'acqua sul tavolo",
+                "Il latte",
+                "Il caffè sul computer"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa ha scoperto la sera?",
+              "options": [
+                "Aveva perso il telefono",
+                "Non aveva le chiavi",
+                "Il frigo era vuoto"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Chi lo ha aiutato?",
+              "options": [
+                "La vicina",
+                "Il capo",
+                "Il tecnico"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-05-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Ieri è ___ una giornata terribile. La ___ non ha suonato e mi sono alzato tardi. Ho ___ l'autobus e sono arrivato in ___ con quaranta minuti di ritardo. Il capo era ___ e mi ha chiesto di restare fino alle sette.",
+          "gaps": [
+            {
+              "answers": [
+                "stata"
+              ],
+              "options": [
+                "perso",
+                "stata",
+                "sveglia",
+                "ufficio",
+                "arrabbiato"
+              ]
+            },
+            {
+              "answers": [
+                "sveglia"
+              ],
+              "options": [
+                "perso",
+                "stata",
+                "sveglia",
+                "ufficio",
+                "arrabbiato"
+              ]
+            },
+            {
+              "answers": [
+                "perso"
+              ],
+              "options": [
+                "perso",
+                "stata",
+                "sveglia",
+                "ufficio",
+                "arrabbiato"
+              ]
+            },
+            {
+              "answers": [
+                "ufficio"
+              ],
+              "options": [
+                "perso",
+                "stata",
+                "sveglia",
+                "ufficio",
+                "arrabbiato"
+              ]
+            },
+            {
+              "answers": [
+                "arrabbiato"
+              ],
+              "options": [
+                "perso",
+                "stata",
+                "sveglia",
+                "ufficio",
+                "arrabbiato"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l4-c1",
+          "stage": "learn",
+          "front": "rovesciare",
+          "back": "to spill"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-05-l4-c2",
+          "stage": "learn",
+          "front": "per fortuna",
+          "back": "luckily",
+          "example": "Per fortuna la vicina ne aveva una copia."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il rifugio",
+      "en": "mountain hut",
+      "example": "Siamo partiti il venerdì sera e siamo arrivati in un piccolo rifugio verso le dieci."
+    },
+    {
+      "it": "la camminata",
+      "en": "walk, hike",
+      "example": "Il sabato ci siamo svegliati presto e abbiamo fatto una lunga camminata fino a un lago."
+    },
+    {
+      "it": "la periferia",
+      "en": "suburbs",
+      "example": "Alla fine ho trovato una casa in periferia, vicino a un parco."
+    },
+    {
+      "it": "trasferirsi",
+      "en": "to move (house)"
+    },
+    {
+      "it": "paziente",
+      "en": "patient",
+      "example": "L'insegnante è uno chef di Bologna molto bravo e paziente."
+    },
+    {
+      "it": "il ragù",
+      "en": "meat sauce",
+      "example": "Finora abbiamo imparato a fare la pasta fresca, il ragù e il tiramisù."
+    },
+    {
+      "it": "rovesciare",
+      "en": "to spill"
+    },
+    {
+      "it": "per fortuna",
+      "en": "luckily",
+      "example": "Per fortuna la vicina ne aveva una copia."
+    }
+  ]
+}
