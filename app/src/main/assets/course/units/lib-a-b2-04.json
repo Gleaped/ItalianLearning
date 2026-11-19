@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b2-04",
+  "level": "ASC",
+  "title": "Cultura, casa e idee",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni di livello B2 (circa 150–190 parole): la visita guidata di una curatrice, un dibattito sul turismo, un podcast sul minimalismo, una telefonata a un padrone di casa, una giornata di orientamento all'università e la presentazione di una startup.",
+  "grammarFocus": "Ascolto esteso B2: riconoscere argomenti pro e contro, capire accordi e compromessi, valutare numeri e cogliere il tono di chi parla.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b2-04-l1",
+      "title": "Visita guidata: la sala della seta",
+      "minutes": 8,
+      "goal": "Seguire il discorso di una curatrice e capire spiegazioni, scoperte e regole.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-04-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare una visita guidata",
+          "body": "In una visita guidata la guida descrive un oggetto, racconta la sua storia e dà regole di comportamento.\n\nAscolta le espressioni di opinione, come «a mio avviso» e «devo ammettere»: mostrano che cosa pensa la guida.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l1-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti nella sala dedicata alla seta, che è forse la più amata dai visitatori, anche se, devo ammetterlo, è anche la più difficile da conservare. Come vedete, le teche sono quasi al buio: la luce, infatti, scolorisce i tessuti in pochi anni, per questo l'illuminazione si accende solo quando vi avvicinate. Davanti a voi c'è l'oggetto più prezioso della collezione, un abito da sera confezionato nel milleottocentosessanta per la moglie di un mercante. Per anni si è creduto che fosse di fabbricazione francese; poi un restauro, completato due anni fa, ha rivelato un'etichetta cucita all'interno, e abbiamo scoperto che era stato realizzato da una sarta locale. Questa scoperta, a mio avviso, è più interessante di qualsiasi leggenda, perché racconta un'abilità artigianale che si era quasi dimenticata. Ora una piccola richiesta: in questa sala non sono ammessi i flash, ma potete fotografare liberamente senza. Alla fine del percorso troverete un laboratorio dove, il sabato, una tessitrice mostra come si lavorava al telaio. Se avete domande, chiedete pure.",
+          "question": "Perché le teche sono quasi al buio?",
+          "options": [
+            "Perché il museo risparmia energia",
+            "Perché la luce rovina i tessuti",
+            "Perché l'abito è un oggetto segreto",
+            "Perché la sala è in restauro"
+          ],
+          "answer": 1,
+          "explanation": "La luce scolorisce i tessuti in pochi anni."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l1-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti nella sala dedicata alla seta, che è forse la più amata dai visitatori, anche se, devo ammetterlo, è anche la più difficile da conservare. Come vedete, le teche sono quasi al buio: la luce, infatti, scolorisce i tessuti in pochi anni, per questo l'illuminazione si accende solo quando vi avvicinate. Davanti a voi c'è l'oggetto più prezioso della collezione, un abito da sera confezionato nel milleottocentosessanta per la moglie di un mercante. Per anni si è creduto che fosse di fabbricazione francese; poi un restauro, completato due anni fa, ha rivelato un'etichetta cucita all'interno, e abbiamo scoperto che era stato realizzato da una sarta locale. Questa scoperta, a mio avviso, è più interessante di qualsiasi leggenda, perché racconta un'abilità artigianale che si era quasi dimenticata. Ora una piccola richiesta: in questa sala non sono ammessi i flash, ma potete fotografare liberamente senza. Alla fine del percorso troverete un laboratorio dove, il sabato, una tessitrice mostra come si lavorava al telaio. Se avete domande, chiedete pure.",
+          "question": "Che cosa si è scoperto sull'abito da sera?",
+          "options": [
+            "Che era stato fatto da una sarta del posto",
+            "Che era di fabbricazione francese",
+            "Che apparteneva a una regina",
+            "Che era stato cucito nel secolo scorso"
+          ],
+          "answer": 0,
+          "explanation": "L'etichetta trovata durante il restauro ha rivelato una sarta locale."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l1-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti nella sala dedicata alla seta, che è forse la più amata dai visitatori, anche se, devo ammetterlo, è anche la più difficile da conservare. Come vedete, le teche sono quasi al buio: la luce, infatti, scolorisce i tessuti in pochi anni, per questo l'illuminazione si accende solo quando vi avvicinate. Davanti a voi c'è l'oggetto più prezioso della collezione, un abito da sera confezionato nel milleottocentosessanta per la moglie di un mercante. Per anni si è creduto che fosse di fabbricazione francese; poi un restauro, completato due anni fa, ha rivelato un'etichetta cucita all'interno, e abbiamo scoperto che era stato realizzato da una sarta locale. Questa scoperta, a mio avviso, è più interessante di qualsiasi leggenda, perché racconta un'abilità artigianale che si era quasi dimenticata. Ora una piccola richiesta: in questa sala non sono ammessi i flash, ma potete fotografare liberamente senza. Alla fine del percorso troverete un laboratorio dove, il sabato, una tessitrice mostra come si lavorava al telaio. Se avete domande, chiedete pure.",
+          "question": "Che cosa pensa la curatrice della scoperta?",
+          "options": [
+            "La trova più interessante di una leggenda",
+            "La considera poco importante",
+            "Ne è delusa",
+            "La giudica solo una curiosità per esperti"
+          ],
+          "answer": 0,
+          "explanation": "Dice «a mio avviso è più interessante di qualsiasi leggenda»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l1-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti nella sala dedicata alla seta, che è forse la più amata dai visitatori, anche se, devo ammetterlo, è anche la più difficile da conservare. Come vedete, le teche sono quasi al buio: la luce, infatti, scolorisce i tessuti in pochi anni, per questo l'illuminazione si accende solo quando vi avvicinate. Davanti a voi c'è l'oggetto più prezioso della collezione, un abito da sera confezionato nel milleottocentosessanta per la moglie di un mercante. Per anni si è creduto che fosse di fabbricazione francese; poi un restauro, completato due anni fa, ha rivelato un'etichetta cucita all'interno, e abbiamo scoperto che era stato realizzato da una sarta locale. Questa scoperta, a mio avviso, è più interessante di qualsiasi leggenda, perché racconta un'abilità artigianale che si era quasi dimenticata. Ora una piccola richiesta: in questa sala non sono ammessi i flash, ma potete fotografare liberamente senza. Alla fine del percorso troverete un laboratorio dove, il sabato, una tessitrice mostra come si lavorava al telaio. Se avete domande, chiedete pure.",
+          "question": "Che cosa è permesso ai visitatori?",
+          "options": [
+            "Toccare i tessuti",
+            "Fotografare con il flash",
+            "Entrare nel laboratorio di notte",
+            "Fotografare senza flash"
+          ],
+          "answer": 3,
+          "explanation": "Non sono ammessi i flash, ma si può fotografare liberamente senza."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l1-e06",
+          "stage": "learn",
+          "front": "la teca",
+          "back": "display case",
+          "example": "L'abito è dentro una teca."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l1-e07",
+          "stage": "learn",
+          "front": "il telaio",
+          "back": "loom",
+          "example": "La tessitrice lavora al telaio."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-04-l2",
+      "title": "Dibattito: il turismo in centro storico",
+      "minutes": 8,
+      "goal": "Seguire un dibattito e distinguere posizioni, dati e compromessi.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-04-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un dibattito",
+          "body": "In un dibattito ogni persona difende una posizione. Cerca chi dice che cosa.\n\nFrasi come «mi permetta», «certo, però» e «su questo» introducono un'obiezione o un accordo parziale.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l2-e02",
+          "stage": "practise",
+          "audioText": "Allora, partiamo dai numeri: nel centro storico ci sono ormai più posti letto per turisti che residenti. Signora Moretti, lei è assessora: è un problema? Sì, lo è, e non lo dico per moda. Il commercio di quartiere sta sparendo: in cinque anni hanno chiuso trenta botteghe, sostituite da negozi di souvenir. Mi permetta, assessora, ma i turisti portano lavoro. Io ho quindici dipendenti, quasi tutti giovani del posto. Certo, signor Greco, nessuno lo nega, ma si tratta di lavoro stagionale e spesso precario. Sì, però se limitiamo gli arrivi, che cosa facciamo? Chiudiamo la città? Non propongo di chiuderla, propongo di governare i flussi: per esempio, una tassa di soggiorno più alta d'estate e un tetto agli affitti brevi nelle vie più piccole. Un tetto? Rischiamo di danneggiare chi affitta una stanza per arrotondare. Ecco, su questo punto possiamo trovare un compromesso: regole severe per chi possiede molti appartamenti, più flessibili per i piccoli proprietari. Su questo sono d'accordo.",
+          "question": "Che cosa è successo al commercio di quartiere, secondo l'assessora?",
+          "options": [
+            "Sono nate trenta nuove botteghe",
+            "Il numero di botteghe è rimasto uguale",
+            "Trenta botteghe hanno chiuso in cinque anni",
+            "Quindici botteghe sono diventate alberghi"
+          ],
+          "answer": 2,
+          "explanation": "Cita trenta botteghe chiuse in cinque anni, sostituite da negozi di souvenir."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l2-e03",
+          "stage": "practise",
+          "audioText": "Allora, partiamo dai numeri: nel centro storico ci sono ormai più posti letto per turisti che residenti. Signora Moretti, lei è assessora: è un problema? Sì, lo è, e non lo dico per moda. Il commercio di quartiere sta sparendo: in cinque anni hanno chiuso trenta botteghe, sostituite da negozi di souvenir. Mi permetta, assessora, ma i turisti portano lavoro. Io ho quindici dipendenti, quasi tutti giovani del posto. Certo, signor Greco, nessuno lo nega, ma si tratta di lavoro stagionale e spesso precario. Sì, però se limitiamo gli arrivi, che cosa facciamo? Chiudiamo la città? Non propongo di chiuderla, propongo di governare i flussi: per esempio, una tassa di soggiorno più alta d'estate e un tetto agli affitti brevi nelle vie più piccole. Un tetto? Rischiamo di danneggiare chi affitta una stanza per arrotondare. Ecco, su questo punto possiamo trovare un compromesso: regole severe per chi possiede molti appartamenti, più flessibili per i piccoli proprietari. Su questo sono d'accordo.",
+          "question": "Qual è l'argomento principale del signor Greco?",
+          "options": [
+            "Il turismo è dannoso per la città",
+            "Il turismo crea posti di lavoro per i giovani locali",
+            "Gli affitti brevi vanno vietati",
+            "Le tasse di soggiorno sono troppo basse"
+          ],
+          "answer": 1,
+          "explanation": "Ha quindici dipendenti, quasi tutti giovani del posto."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l2-e04",
+          "stage": "practise",
+          "audioText": "Allora, partiamo dai numeri: nel centro storico ci sono ormai più posti letto per turisti che residenti. Signora Moretti, lei è assessora: è un problema? Sì, lo è, e non lo dico per moda. Il commercio di quartiere sta sparendo: in cinque anni hanno chiuso trenta botteghe, sostituite da negozi di souvenir. Mi permetta, assessora, ma i turisti portano lavoro. Io ho quindici dipendenti, quasi tutti giovani del posto. Certo, signor Greco, nessuno lo nega, ma si tratta di lavoro stagionale e spesso precario. Sì, però se limitiamo gli arrivi, che cosa facciamo? Chiudiamo la città? Non propongo di chiuderla, propongo di governare i flussi: per esempio, una tassa di soggiorno più alta d'estate e un tetto agli affitti brevi nelle vie più piccole. Un tetto? Rischiamo di danneggiare chi affitta una stanza per arrotondare. Ecco, su questo punto possiamo trovare un compromesso: regole severe per chi possiede molti appartamenti, più flessibili per i piccoli proprietari. Su questo sono d'accordo.",
+          "question": "Che cosa propone l'assessora?",
+          "options": [
+            "Chiudere il centro ai turisti",
+            "Governare i flussi con tasse e limiti agli affitti brevi",
+            "Costruire più alberghi",
+            "Eliminare ogni tassa di soggiorno"
+          ],
+          "answer": 1,
+          "explanation": "Dice che non vuole chiudere la città, ma governare i flussi."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l2-e05",
+          "stage": "practise",
+          "audioText": "Allora, partiamo dai numeri: nel centro storico ci sono ormai più posti letto per turisti che residenti. Signora Moretti, lei è assessora: è un problema? Sì, lo è, e non lo dico per moda. Il commercio di quartiere sta sparendo: in cinque anni hanno chiuso trenta botteghe, sostituite da negozi di souvenir. Mi permetta, assessora, ma i turisti portano lavoro. Io ho quindici dipendenti, quasi tutti giovani del posto. Certo, signor Greco, nessuno lo nega, ma si tratta di lavoro stagionale e spesso precario. Sì, però se limitiamo gli arrivi, che cosa facciamo? Chiudiamo la città? Non propongo di chiuderla, propongo di governare i flussi: per esempio, una tassa di soggiorno più alta d'estate e un tetto agli affitti brevi nelle vie più piccole. Un tetto? Rischiamo di danneggiare chi affitta una stanza per arrotondare. Ecco, su questo punto possiamo trovare un compromesso: regole severe per chi possiede molti appartamenti, più flessibili per i piccoli proprietari. Su questo sono d'accordo.",
+          "question": "Su che cosa si trova un compromesso?",
+          "options": [
+            "Regole diverse per grandi e piccoli proprietari",
+            "Un divieto totale per gli affitti brevi",
+            "Nessuna regola per nessuno",
+            "Una tassa uguale per tutti i turisti"
+          ],
+          "answer": 0,
+          "explanation": "Regole severe per chi ha molti appartamenti, più flessibili per i piccoli proprietari."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l2-e06",
+          "stage": "learn",
+          "front": "l'affitto breve",
+          "back": "short-term rental",
+          "example": "Gli affitti brevi fanno salire i prezzi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l2-e07",
+          "stage": "learn",
+          "front": "il compromesso",
+          "back": "compromise",
+          "example": "Alla fine hanno trovato un compromesso."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-04-l3",
+      "title": "Podcast: la mia strada verso il minimalismo",
+      "minutes": 8,
+      "goal": "Seguire il racconto personale di un podcast e capire motivi, regole e opinioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-04-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un podcast",
+          "body": "In un podcast chi parla racconta un'esperienza in modo informale: ripete, si corregge e commenta.\n\nCerca i segnali di opinione («lo ammetto», «attenzione», «per me») e i cambiamenti di tono.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l3-e02",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentrovati. Oggi vi racconto come è cominciata la mia avventura con il minimalismo che, premetto, non significa vivere in una stanza bianca con una sedia. Tutto è nato tre anni fa, quando ho traslocato e ho scoperto di avere quarantadue magliette. Quarantadue! Ne indossavo, forse, sei. Allora mi sono chiesto: perché le tengo? Un po' per pigrizia, un po' per l'idea che «prima o poi potrebbero servire». Ho cominciato con una regola semplice: se non uso un oggetto da un anno, lo regalo o lo vendo. Ci sono stati momenti difficili, lo ammetto, soprattutto con i libri, perché mi sembrava di tradire una parte di me. Però il risultato mi ha sorpreso: non solo ho più spazio, ma spendo meno, circa un terzo in meno al mese, perché prima di comprare qualcosa ci penso almeno una settimana. Attenzione, però: non è una gara a chi ha meno cose. Per me il minimalismo è un modo di scegliere con più attenzione, non di rinunciare a tutto. Alla prossima puntata vi parlo di come organizzare l'armadio.",
+          "question": "Che cosa ha spinto il narratore a cambiare abitudini?",
+          "options": [
+            "La perdita di un lavoro",
+            "Un consiglio di un medico",
+            "Un viaggio in un paese povero",
+            "Un trasloco in cui ha scoperto di avere troppe magliette"
+          ],
+          "answer": 3,
+          "explanation": "Trasferendosi ha scoperto quarantadue magliette, ma ne indossava circa sei."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l3-e03",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentrovati. Oggi vi racconto come è cominciata la mia avventura con il minimalismo che, premetto, non significa vivere in una stanza bianca con una sedia. Tutto è nato tre anni fa, quando ho traslocato e ho scoperto di avere quarantadue magliette. Quarantadue! Ne indossavo, forse, sei. Allora mi sono chiesto: perché le tengo? Un po' per pigrizia, un po' per l'idea che «prima o poi potrebbero servire». Ho cominciato con una regola semplice: se non uso un oggetto da un anno, lo regalo o lo vendo. Ci sono stati momenti difficili, lo ammetto, soprattutto con i libri, perché mi sembrava di tradire una parte di me. Però il risultato mi ha sorpreso: non solo ho più spazio, ma spendo meno, circa un terzo in meno al mese, perché prima di comprare qualcosa ci penso almeno una settimana. Attenzione, però: non è una gara a chi ha meno cose. Per me il minimalismo è un modo di scegliere con più attenzione, non di rinunciare a tutto. Alla prossima puntata vi parlo di come organizzare l'armadio.",
+          "question": "Qual è la sua regola per decidere che cosa tenere?",
+          "options": [
+            "Si tiene solo ciò che costa molto",
+            "Si butta tutto ogni sei mesi",
+            "Si regala o si vende ciò che non si usa da un anno",
+            "Si tiene un solo oggetto per categoria"
+          ],
+          "answer": 2,
+          "explanation": "La regola è: se non uso un oggetto da un anno, lo regalo o lo vendo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l3-e04",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentrovati. Oggi vi racconto come è cominciata la mia avventura con il minimalismo che, premetto, non significa vivere in una stanza bianca con una sedia. Tutto è nato tre anni fa, quando ho traslocato e ho scoperto di avere quarantadue magliette. Quarantadue! Ne indossavo, forse, sei. Allora mi sono chiesto: perché le tengo? Un po' per pigrizia, un po' per l'idea che «prima o poi potrebbero servire». Ho cominciato con una regola semplice: se non uso un oggetto da un anno, lo regalo o lo vendo. Ci sono stati momenti difficili, lo ammetto, soprattutto con i libri, perché mi sembrava di tradire una parte di me. Però il risultato mi ha sorpreso: non solo ho più spazio, ma spendo meno, circa un terzo in meno al mese, perché prima di comprare qualcosa ci penso almeno una settimana. Attenzione, però: non è una gara a chi ha meno cose. Per me il minimalismo è un modo di scegliere con più attenzione, non di rinunciare a tutto. Alla prossima puntata vi parlo di come organizzare l'armadio.",
+          "question": "Che cosa è stato più difficile per lui?",
+          "options": [
+            "Rinunciare alle magliette",
+            "Vendere i mobili",
+            "Separarsi dai libri",
+            "Smettere di fare la spesa"
+          ],
+          "answer": 2,
+          "explanation": "Ammette difficoltà soprattutto con i libri, come se tradisse una parte di sé."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l3-e05",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentrovati. Oggi vi racconto come è cominciata la mia avventura con il minimalismo che, premetto, non significa vivere in una stanza bianca con una sedia. Tutto è nato tre anni fa, quando ho traslocato e ho scoperto di avere quarantadue magliette. Quarantadue! Ne indossavo, forse, sei. Allora mi sono chiesto: perché le tengo? Un po' per pigrizia, un po' per l'idea che «prima o poi potrebbero servire». Ho cominciato con una regola semplice: se non uso un oggetto da un anno, lo regalo o lo vendo. Ci sono stati momenti difficili, lo ammetto, soprattutto con i libri, perché mi sembrava di tradire una parte di me. Però il risultato mi ha sorpreso: non solo ho più spazio, ma spendo meno, circa un terzo in meno al mese, perché prima di comprare qualcosa ci penso almeno una settimana. Attenzione, però: non è una gara a chi ha meno cose. Per me il minimalismo è un modo di scegliere con più attenzione, non di rinunciare a tutto. Alla prossima puntata vi parlo di come organizzare l'armadio.",
+          "question": "Che cosa significa per lui il minimalismo?",
+          "options": [
+            "Possedere meno cose degli altri",
+            "Scegliere con più attenzione",
+            "Rinunciare a ogni acquisto",
+            "Vivere in una casa vuota"
+          ],
+          "answer": 1,
+          "explanation": "Dice che non è una gara, ma un modo di scegliere con più attenzione."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l3-e06",
+          "stage": "learn",
+          "front": "traslocare",
+          "back": "to move house",
+          "example": "Abbiamo traslocato a maggio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l3-e07",
+          "stage": "learn",
+          "front": "tradire",
+          "back": "to betray",
+          "example": "Mi sembrava di tradire una parte di me."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-04-l4",
+      "title": "Telefonata: un reclamo al padrone di casa",
+      "minutes": 8,
+      "goal": "Capire una telefonata di reclamo: problema, tono, accordi e richieste.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-04-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare un reclamo",
+          "body": "In un reclamo chi telefona espone un problema, spiega perché è urgente e fa una richiesta.\n\nCerca il tono: educato ma fermo («non lo dico per polemica») oppure evasivo («non esageriamo»).\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l4-e02",
+          "stage": "practise",
+          "audioText": "Pronto, signor Villa? Sono Marta Conti, l'inquilina del terzo piano. La disturbo perché è la terza volta che le telefono per la caldaia. Ah, signora, mi dispiace, ma l'idraulico era in ferie. Capisco, ma sono quasi due settimane che non abbiamo acqua calda, e con questo freddo non è accettabile. Non lo dico per polemica: è che ho un bambino piccolo. Certo, certo, ha ragione. Senta, domani mattina le mando qualcuno. Domani sarò al lavoro fino alle cinque; se può venire nel pomeriggio, meglio, altrimenti lascio le chiavi alla vicina. Va bene, passa nel pomeriggio. E c'è un'altra cosa: sul soffitto del bagno c'è una macchia di umidità che si sta allargando. Le mando una foto per email. Ah, questa non la sapevo. Mi faccia vedere e valutiamo. Inoltre, se il guasto non si risolve entro venerdì, le chiedo una riduzione dell'affitto per questo mese. Eh, non esageriamo, ne parliamo venerdì. D'accordo, a venerdì allora.",
+          "question": "Perché il padrone di casa non ha ancora risolto il problema della caldaia?",
+          "options": [
+            "Perché l'idraulico era in ferie",
+            "Perché la caldaia è nuova",
+            "Perché non ha ricevuto nessuna telefonata",
+            "Perché l'inquilina non era in casa"
+          ],
+          "answer": 0,
+          "explanation": "Il signor Villa dice che l'idraulico era in ferie."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l4-e03",
+          "stage": "practise",
+          "audioText": "Pronto, signor Villa? Sono Marta Conti, l'inquilina del terzo piano. La disturbo perché è la terza volta che le telefono per la caldaia. Ah, signora, mi dispiace, ma l'idraulico era in ferie. Capisco, ma sono quasi due settimane che non abbiamo acqua calda, e con questo freddo non è accettabile. Non lo dico per polemica: è che ho un bambino piccolo. Certo, certo, ha ragione. Senta, domani mattina le mando qualcuno. Domani sarò al lavoro fino alle cinque; se può venire nel pomeriggio, meglio, altrimenti lascio le chiavi alla vicina. Va bene, passa nel pomeriggio. E c'è un'altra cosa: sul soffitto del bagno c'è una macchia di umidità che si sta allargando. Le mando una foto per email. Ah, questa non la sapevo. Mi faccia vedere e valutiamo. Inoltre, se il guasto non si risolve entro venerdì, le chiedo una riduzione dell'affitto per questo mese. Eh, non esageriamo, ne parliamo venerdì. D'accordo, a venerdì allora.",
+          "question": "Che cosa è stato deciso per la riparazione?",
+          "options": [
+            "Il tecnico verrà domani mattina",
+            "Il tecnico verrà venerdì sera",
+            "Nessuno verrà prima della prossima settimana",
+            "Un tecnico verrà domani nel pomeriggio"
+          ],
+          "answer": 3,
+          "explanation": "La signora Conti è al lavoro fino alle cinque, quindi chiede il pomeriggio."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l4-e04",
+          "stage": "practise",
+          "audioText": "Pronto, signor Villa? Sono Marta Conti, l'inquilina del terzo piano. La disturbo perché è la terza volta che le telefono per la caldaia. Ah, signora, mi dispiace, ma l'idraulico era in ferie. Capisco, ma sono quasi due settimane che non abbiamo acqua calda, e con questo freddo non è accettabile. Non lo dico per polemica: è che ho un bambino piccolo. Certo, certo, ha ragione. Senta, domani mattina le mando qualcuno. Domani sarò al lavoro fino alle cinque; se può venire nel pomeriggio, meglio, altrimenti lascio le chiavi alla vicina. Va bene, passa nel pomeriggio. E c'è un'altra cosa: sul soffitto del bagno c'è una macchia di umidità che si sta allargando. Le mando una foto per email. Ah, questa non la sapevo. Mi faccia vedere e valutiamo. Inoltre, se il guasto non si risolve entro venerdì, le chiedo una riduzione dell'affitto per questo mese. Eh, non esageriamo, ne parliamo venerdì. D'accordo, a venerdì allora.",
+          "question": "Che cosa è nuovo per il padrone di casa?",
+          "options": [
+            "La rottura della caldaia",
+            "Il bambino piccolo della signora",
+            "Il fatto che l'affitto sia alto",
+            "La macchia di umidità nel bagno"
+          ],
+          "answer": 3,
+          "explanation": "Dice «questa non la sapevo» a proposito della macchia sul soffitto."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l4-e05",
+          "stage": "practise",
+          "audioText": "Pronto, signor Villa? Sono Marta Conti, l'inquilina del terzo piano. La disturbo perché è la terza volta che le telefono per la caldaia. Ah, signora, mi dispiace, ma l'idraulico era in ferie. Capisco, ma sono quasi due settimane che non abbiamo acqua calda, e con questo freddo non è accettabile. Non lo dico per polemica: è che ho un bambino piccolo. Certo, certo, ha ragione. Senta, domani mattina le mando qualcuno. Domani sarò al lavoro fino alle cinque; se può venire nel pomeriggio, meglio, altrimenti lascio le chiavi alla vicina. Va bene, passa nel pomeriggio. E c'è un'altra cosa: sul soffitto del bagno c'è una macchia di umidità che si sta allargando. Le mando una foto per email. Ah, questa non la sapevo. Mi faccia vedere e valutiamo. Inoltre, se il guasto non si risolve entro venerdì, le chiedo una riduzione dell'affitto per questo mese. Eh, non esageriamo, ne parliamo venerdì. D'accordo, a venerdì allora.",
+          "question": "Come reagisce il signor Villa alla richiesta di riduzione dell'affitto?",
+          "options": [
+            "Accetta subito",
+            "La rifiuta definitivamente",
+            "Non è entusiasta e rimanda la discussione",
+            "Offre il doppio della riduzione"
+          ],
+          "answer": 2,
+          "explanation": "Risponde «non esageriamo, ne parliamo venerdì»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l4-e06",
+          "stage": "learn",
+          "front": "la caldaia",
+          "back": "boiler",
+          "example": "La caldaia è rotta da due settimane."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l4-e07",
+          "stage": "learn",
+          "front": "l'umidità",
+          "back": "damp, humidity",
+          "example": "C'è una macchia di umidità sul soffitto."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-04-l5",
+      "title": "Giornata di orientamento all'università",
+      "minutes": 8,
+      "goal": "Seguire una presentazione universitaria e capire numeri, scelte e giudizi.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-04-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare una presentazione di orientamento",
+          "body": "Chi presenta un corso elenca regole, numeri e opportunità. Segna quanti posti, quanti candidati e quando si decide.\n\nAttenzione ai giudizi misurati: «non eccezionale, ma in linea con la media» è una valutazione neutra.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l5-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti alla giornata di orientamento della Facoltà di Scienze della Comunicazione. Sono la professoressa Orsini e vi spiegherò in breve come funziona il percorso triennale. Il corso è a numero programmato: ogni anno ammettiamo centoventi studenti, selezionati con un test di cultura generale e di logica che si svolge a settembre. Non è un esame spaventoso, ma non va nemmeno sottovalutato: l'anno scorso hanno fatto domanda in quasi quattrocento. Nel primo anno gli insegnamenti sono comuni; dal secondo si sceglie tra giornalismo, comunicazione d'impresa e media digitali. Una caratteristica di cui andiamo fieri è il tirocinio obbligatorio di tre mesi, che si può svolgere presso aziende, redazioni e associazioni del territorio. Secondo i nostri dati, circa sei laureati su dieci trovano lavoro entro un anno: un risultato non eccezionale, ma in linea con la media nazionale. Per quanto riguarda le tasse, dipendono dal reddito della famiglia, e sono previste riduzioni per chi ha ottimi voti. Dopo l'incontro, i nostri studenti vi accompagneranno a visitare le aule e la biblioteca.",
+          "question": "Come vengono scelti gli studenti ammessi?",
+          "options": [
+            "Con un colloquio a giugno",
+            "Con un test a settembre",
+            "Per ordine di iscrizione",
+            "Con la media dei voti del liceo"
+          ],
+          "answer": 1,
+          "explanation": "Gli studenti sono selezionati con un test di cultura generale e di logica a settembre."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l5-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti alla giornata di orientamento della Facoltà di Scienze della Comunicazione. Sono la professoressa Orsini e vi spiegherò in breve come funziona il percorso triennale. Il corso è a numero programmato: ogni anno ammettiamo centoventi studenti, selezionati con un test di cultura generale e di logica che si svolge a settembre. Non è un esame spaventoso, ma non va nemmeno sottovalutato: l'anno scorso hanno fatto domanda in quasi quattrocento. Nel primo anno gli insegnamenti sono comuni; dal secondo si sceglie tra giornalismo, comunicazione d'impresa e media digitali. Una caratteristica di cui andiamo fieri è il tirocinio obbligatorio di tre mesi, che si può svolgere presso aziende, redazioni e associazioni del territorio. Secondo i nostri dati, circa sei laureati su dieci trovano lavoro entro un anno: un risultato non eccezionale, ma in linea con la media nazionale. Per quanto riguarda le tasse, dipendono dal reddito della famiglia, e sono previste riduzioni per chi ha ottimi voti. Dopo l'incontro, i nostri studenti vi accompagneranno a visitare le aule e la biblioteca.",
+          "question": "Quando gli studenti scelgono il loro indirizzo?",
+          "options": [
+            "Al secondo anno",
+            "Prima di iscriversi",
+            "Alla fine del primo semestre",
+            "Dopo la laurea"
+          ],
+          "answer": 0,
+          "explanation": "Nel primo anno gli insegnamenti sono comuni; dal secondo si sceglie."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l5-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti alla giornata di orientamento della Facoltà di Scienze della Comunicazione. Sono la professoressa Orsini e vi spiegherò in breve come funziona il percorso triennale. Il corso è a numero programmato: ogni anno ammettiamo centoventi studenti, selezionati con un test di cultura generale e di logica che si svolge a settembre. Non è un esame spaventoso, ma non va nemmeno sottovalutato: l'anno scorso hanno fatto domanda in quasi quattrocento. Nel primo anno gli insegnamenti sono comuni; dal secondo si sceglie tra giornalismo, comunicazione d'impresa e media digitali. Una caratteristica di cui andiamo fieri è il tirocinio obbligatorio di tre mesi, che si può svolgere presso aziende, redazioni e associazioni del territorio. Secondo i nostri dati, circa sei laureati su dieci trovano lavoro entro un anno: un risultato non eccezionale, ma in linea con la media nazionale. Per quanto riguarda le tasse, dipendono dal reddito della famiglia, e sono previste riduzioni per chi ha ottimi voti. Dopo l'incontro, i nostri studenti vi accompagneranno a visitare le aule e la biblioteca.",
+          "question": "Come giudica la professoressa il dato sull'occupazione?",
+          "options": [
+            "Lo considera nella media, non eccezionale",
+            "Lo definisce straordinario",
+            "Lo giudica molto deludente",
+            "Dice che è il migliore del paese"
+          ],
+          "answer": 0,
+          "explanation": "Lo descrive come «non eccezionale, ma in linea con la media nazionale»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l5-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti alla giornata di orientamento della Facoltà di Scienze della Comunicazione. Sono la professoressa Orsini e vi spiegherò in breve come funziona il percorso triennale. Il corso è a numero programmato: ogni anno ammettiamo centoventi studenti, selezionati con un test di cultura generale e di logica che si svolge a settembre. Non è un esame spaventoso, ma non va nemmeno sottovalutato: l'anno scorso hanno fatto domanda in quasi quattrocento. Nel primo anno gli insegnamenti sono comuni; dal secondo si sceglie tra giornalismo, comunicazione d'impresa e media digitali. Una caratteristica di cui andiamo fieri è il tirocinio obbligatorio di tre mesi, che si può svolgere presso aziende, redazioni e associazioni del territorio. Secondo i nostri dati, circa sei laureati su dieci trovano lavoro entro un anno: un risultato non eccezionale, ma in linea con la media nazionale. Per quanto riguarda le tasse, dipendono dal reddito della famiglia, e sono previste riduzioni per chi ha ottimi voti. Dopo l'incontro, i nostri studenti vi accompagneranno a visitare le aule e la biblioteca.",
+          "question": "Che cosa si può dedurre dai numeri sulle domande?",
+          "options": [
+            "Che tutti i candidati sono ammessi",
+            "Che ottiene il posto uno studente su venti",
+            "Che i posti sono più delle domande",
+            "Che ottiene il posto circa uno studente su tre"
+          ],
+          "answer": 3,
+          "explanation": "Centoventi posti per quasi quattrocento domande: circa uno su tre."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l5-e06",
+          "stage": "learn",
+          "front": "il tirocinio",
+          "back": "internship, traineeship",
+          "example": "Il tirocinio dura tre mesi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l5-e07",
+          "stage": "learn",
+          "front": "a numero programmato",
+          "back": "with limited places",
+          "example": "Il corso è a numero programmato."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-04-l6",
+      "title": "Presentazione di una startup: frutta e ristoranti",
+      "minutes": 8,
+      "goal": "Capire una presentazione di impresa: problema, soluzione, numeri e richiesta di fondi.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-04-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare una presentazione di impresa",
+          "body": "Una presentazione per investitori ha una struttura fissa: problema, soluzione, risultati, richiesta.\n\nCerca anche le ammissioni di debolezza («ammetto», «non abbiamo ancora»): sono parte della sincerità del discorso.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l6-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti e grazie per averci dato questi minuti. Mi chiamo Dario e con la mia socia Elena abbiamo fondato «Fruttaviva», una piattaforma che collega i piccoli agricoltori ai ristoranti della città. Il problema è semplice: ogni settimana i produttori locali buttano circa il venti per cento della frutta, perché non è abbastanza bella per i supermercati. Noi la ritiriamo e la consegniamo ai ristoranti, che la usano per succhi, dolci e salse, a un prezzo più basso del dieci per cento rispetto ai grossisti. Siamo partiti sei mesi fa con tre agricoltori; oggi ne abbiamo ventidue e serviamo quaranta locali. Il fatturato dell'ultimo trimestre è stato di centomila euro e, lo ammetto, non abbiamo ancora utili, perché abbiamo investito molto in furgoni refrigerati. Cerchiamo trecentomila euro per comprarne altri quattro e per aprire un magazzino in una seconda città. Se tutto va come previsto, raggiungeremo il pareggio entro diciotto mesi. Sappiamo che il rischio c'è, ma crediamo che il momento sia giusto, perché i ristoratori cercano sempre più prodotti locali e sostenibili. Siamo pronti a rispondere alle vostre domande.",
+          "question": "Quale problema vuole risolvere la startup?",
+          "options": [
+            "La mancanza di agricoltori giovani",
+            "Il prezzo troppo alto dei ristoranti",
+            "Lo spreco della frutta poco bella",
+            "La difficoltà di trovare camion"
+          ],
+          "answer": 2,
+          "explanation": "I produttori buttano circa il venti per cento della frutta perché non è abbastanza bella per i supermercati."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l6-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti e grazie per averci dato questi minuti. Mi chiamo Dario e con la mia socia Elena abbiamo fondato «Fruttaviva», una piattaforma che collega i piccoli agricoltori ai ristoranti della città. Il problema è semplice: ogni settimana i produttori locali buttano circa il venti per cento della frutta, perché non è abbastanza bella per i supermercati. Noi la ritiriamo e la consegniamo ai ristoranti, che la usano per succhi, dolci e salse, a un prezzo più basso del dieci per cento rispetto ai grossisti. Siamo partiti sei mesi fa con tre agricoltori; oggi ne abbiamo ventidue e serviamo quaranta locali. Il fatturato dell'ultimo trimestre è stato di centomila euro e, lo ammetto, non abbiamo ancora utili, perché abbiamo investito molto in furgoni refrigerati. Cerchiamo trecentomila euro per comprarne altri quattro e per aprire un magazzino in una seconda città. Se tutto va come previsto, raggiungeremo il pareggio entro diciotto mesi. Sappiamo che il rischio c'è, ma crediamo che il momento sia giusto, perché i ristoratori cercano sempre più prodotti locali e sostenibili. Siamo pronti a rispondere alle vostre domande.",
+          "question": "Quale vantaggio hanno i ristoranti clienti?",
+          "options": [
+            "La frutta gratis il lunedì",
+            "Un prezzo più basso del dieci per cento rispetto ai grossisti",
+            "Una consegna in meno di un'ora",
+            "Una frutta più grande"
+          ],
+          "answer": 1,
+          "explanation": "Il prezzo è più basso del dieci per cento rispetto ai grossisti."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l6-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti e grazie per averci dato questi minuti. Mi chiamo Dario e con la mia socia Elena abbiamo fondato «Fruttaviva», una piattaforma che collega i piccoli agricoltori ai ristoranti della città. Il problema è semplice: ogni settimana i produttori locali buttano circa il venti per cento della frutta, perché non è abbastanza bella per i supermercati. Noi la ritiriamo e la consegniamo ai ristoranti, che la usano per succhi, dolci e salse, a un prezzo più basso del dieci per cento rispetto ai grossisti. Siamo partiti sei mesi fa con tre agricoltori; oggi ne abbiamo ventidue e serviamo quaranta locali. Il fatturato dell'ultimo trimestre è stato di centomila euro e, lo ammetto, non abbiamo ancora utili, perché abbiamo investito molto in furgoni refrigerati. Cerchiamo trecentomila euro per comprarne altri quattro e per aprire un magazzino in una seconda città. Se tutto va come previsto, raggiungeremo il pareggio entro diciotto mesi. Sappiamo che il rischio c'è, ma crediamo che il momento sia giusto, perché i ristoratori cercano sempre più prodotti locali e sostenibili. Siamo pronti a rispondere alle vostre domande.",
+          "question": "Perché la società non ha ancora utili?",
+          "options": [
+            "Perché ha pochi clienti",
+            "Perché ha investito molto nei furgoni refrigerati",
+            "Perché gli agricoltori vogliono più denaro",
+            "Perché i ristoranti non pagano"
+          ],
+          "answer": 1,
+          "explanation": "Lo ammette: l'investimento nei furgoni refrigerati ha assorbito gli incassi."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-04-l6-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno a tutti e grazie per averci dato questi minuti. Mi chiamo Dario e con la mia socia Elena abbiamo fondato «Fruttaviva», una piattaforma che collega i piccoli agricoltori ai ristoranti della città. Il problema è semplice: ogni settimana i produttori locali buttano circa il venti per cento della frutta, perché non è abbastanza bella per i supermercati. Noi la ritiriamo e la consegniamo ai ristoranti, che la usano per succhi, dolci e salse, a un prezzo più basso del dieci per cento rispetto ai grossisti. Siamo partiti sei mesi fa con tre agricoltori; oggi ne abbiamo ventidue e serviamo quaranta locali. Il fatturato dell'ultimo trimestre è stato di centomila euro e, lo ammetto, non abbiamo ancora utili, perché abbiamo investito molto in furgoni refrigerati. Cerchiamo trecentomila euro per comprarne altri quattro e per aprire un magazzino in una seconda città. Se tutto va come previsto, raggiungeremo il pareggio entro diciotto mesi. Sappiamo che il rischio c'è, ma crediamo che il momento sia giusto, perché i ristoratori cercano sempre più prodotti locali e sostenibili. Siamo pronti a rispondere alle vostre domande.",
+          "question": "A che cosa serviranno i trecentomila euro?",
+          "options": [
+            "A comprare quattro furgoni e aprire un magazzino",
+            "A pagare i debiti con i grossisti",
+            "A cercare nuovi agricoltori in Africa",
+            "A comprare un ristorante"
+          ],
+          "answer": 0,
+          "explanation": "Servono per altri quattro furgoni e un magazzino in una seconda città."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l6-e06",
+          "stage": "learn",
+          "front": "il fatturato",
+          "back": "turnover, revenue",
+          "example": "Il fatturato è cresciuto del dieci per cento."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-04-l6-e07",
+          "stage": "learn",
+          "front": "il pareggio",
+          "back": "break-even",
+          "example": "Raggiungeremo il pareggio entro diciotto mesi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la teca",
+      "en": "display case",
+      "example": "L'abito è dentro una teca."
+    },
+    {
+      "it": "il telaio",
+      "en": "loom",
+      "example": "La tessitrice lavora al telaio."
+    },
+    {
+      "it": "l'affitto breve",
+      "en": "short-term rental",
+      "example": "Gli affitti brevi fanno salire i prezzi."
+    },
+    {
+      "it": "il compromesso",
+      "en": "compromise",
+      "example": "Alla fine hanno trovato un compromesso."
+    },
+    {
+      "it": "traslocare",
+      "en": "to move house",
+      "example": "Abbiamo traslocato a maggio."
+    },
+    {
+      "it": "tradire",
+      "en": "to betray",
+      "example": "Mi sembrava di tradire una parte di me."
+    },
+    {
+      "it": "la caldaia",
+      "en": "boiler",
+      "example": "La caldaia è rotta da due settimane."
+    },
+    {
+      "it": "l'umidità",
+      "en": "damp, humidity",
+      "example": "C'è una macchia di umidità sul soffitto."
+    },
+    {
+      "it": "il tirocinio",
+      "en": "internship, traineeship",
+      "example": "Il tirocinio dura tre mesi."
+    },
+    {
+      "it": "a numero programmato",
+      "en": "with limited places",
+      "example": "Il corso è a numero programmato."
+    },
+    {
+      "it": "il fatturato",
+      "en": "turnover, revenue",
+      "example": "Il fatturato è cresciuto del dieci per cento."
+    },
+    {
+      "it": "il pareggio",
+      "en": "break-even",
+      "example": "Raggiungeremo il pareggio entro diciotto mesi."
+    }
+  ]
+}

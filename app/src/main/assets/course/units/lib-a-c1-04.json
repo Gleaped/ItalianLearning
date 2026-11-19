@@ -1,0 +1,397 @@
+{
+  "id": "lib-a-c1-04",
+  "level": "ASC",
+  "title": "Istituzioni e società",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello C1 (circa 99 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-c1-04-l1",
+      "title": "Consiglio comunale",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-04-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l1-e2",
+          "stage": "practise",
+          "audioText": "Colleghi, la proposta in discussione riguarda la pedonalizzazione del centro storico. Chi è favorevole sostiene che ridurrebbe lo smog e renderebbe la città più vivibile. I commercianti, tuttavia, temono un calo degli incassi, e non possiamo ignorarli. Propongo dunque una fase sperimentale di sei mesi, con monitoraggio dei dati su traffico, inquinamento e vendite. Se i risultati saranno negativi, la misura sarà rivista. Prima di votare, però, chiedo che si garantisca l'accesso ai residenti e ai mezzi di soccorso, e che il trasporto pubblico venga potenziato. Metto ai voti l'emendamento: chi è favorevole alzi la mano.",
+          "question": "Che cosa si discute?",
+          "options": [
+            "Un nuovo ospedale",
+            "Il bilancio",
+            "La pedonalizzazione del centro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l1-e3",
+          "stage": "practise",
+          "audioText": "Colleghi, la proposta in discussione riguarda la pedonalizzazione del centro storico. Chi è favorevole sostiene che ridurrebbe lo smog e renderebbe la città più vivibile. I commercianti, tuttavia, temono un calo degli incassi, e non possiamo ignorarli. Propongo dunque una fase sperimentale di sei mesi, con monitoraggio dei dati su traffico, inquinamento e vendite. Se i risultati saranno negativi, la misura sarà rivista. Prima di votare, però, chiedo che si garantisca l'accesso ai residenti e ai mezzi di soccorso, e che il trasporto pubblico venga potenziato. Metto ai voti l'emendamento: chi è favorevole alzi la mano.",
+          "question": "Che cosa temono i commercianti?",
+          "options": [
+            "L'aumento delle tasse",
+            "Il rumore",
+            "Un calo degli incassi"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l1-e4",
+          "stage": "practise",
+          "audioText": "Colleghi, la proposta in discussione riguarda la pedonalizzazione del centro storico. Chi è favorevole sostiene che ridurrebbe lo smog e renderebbe la città più vivibile. I commercianti, tuttavia, temono un calo degli incassi, e non possiamo ignorarli. Propongo dunque una fase sperimentale di sei mesi, con monitoraggio dei dati su traffico, inquinamento e vendite. Se i risultati saranno negativi, la misura sarà rivista. Prima di votare, però, chiedo che si garantisca l'accesso ai residenti e ai mezzi di soccorso, e che il trasporto pubblico venga potenziato. Metto ai voti l'emendamento: chi è favorevole alzi la mano.",
+          "question": "Quanto dura la fase sperimentale?",
+          "options": [
+            "Sei mesi",
+            "Un anno",
+            "Un mese"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l1-e5",
+          "stage": "practise",
+          "audioText": "Colleghi, la proposta in discussione riguarda la pedonalizzazione del centro storico. Chi è favorevole sostiene che ridurrebbe lo smog e renderebbe la città più vivibile. I commercianti, tuttavia, temono un calo degli incassi, e non possiamo ignorarli. Propongo dunque una fase sperimentale di sei mesi, con monitoraggio dei dati su traffico, inquinamento e vendite. Se i risultati saranno negativi, la misura sarà rivista. Prima di votare, però, chiedo che si garantisca l'accesso ai residenti e ai mezzi di soccorso, e che il trasporto pubblico venga potenziato. Metto ai voti l'emendamento: chi è favorevole alzi la mano.",
+          "question": "Che cosa si deve garantire?",
+          "options": [
+            "Accesso a residenti e soccorsi",
+            "Parcheggi gratis",
+            "Più vigili"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l1-c1",
+          "stage": "learn",
+          "front": "la pedonalizzazione",
+          "back": "pedestrianisation",
+          "example": "Colleghi, la proposta in discussione riguarda la pedonalizzazione del centro storico."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l1-c2",
+          "stage": "learn",
+          "front": "l'emendamento",
+          "back": "amendment",
+          "example": "Metto ai voti l'emendamento: chi è favorevole alzi la mano."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-04-l2",
+      "title": "Avviso sanitario",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-04-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l2-e2",
+          "stage": "practise",
+          "audioText": "Informiamo i cittadini che, a partire da lunedì, sarà attiva la campagna di vaccinazione antinfluenzale. Il vaccino è gratuito per gli over sessantacinque e per le persone con patologie croniche. Per prenotare è necessario contattare il proprio medico di base oppure utilizzare il portale regionale, previa registrazione con le credenziali digitali. Si raccomanda di presentarsi con la tessera sanitaria e di segnalare eventuali allergie. In caso di febbre alta nei giorni precedenti, occorre rimandare l'appuntamento. Gli ambulatori resteranno aperti anche il sabato mattina fino a fine dicembre, per ridurre i tempi di attesa.",
+          "question": "Chi ha il vaccino gratuito?",
+          "options": [
+            "Tutti i cittadini",
+            "Over sessantacinque e malati cronici",
+            "Solo i bambini"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l2-e3",
+          "stage": "practise",
+          "audioText": "Informiamo i cittadini che, a partire da lunedì, sarà attiva la campagna di vaccinazione antinfluenzale. Il vaccino è gratuito per gli over sessantacinque e per le persone con patologie croniche. Per prenotare è necessario contattare il proprio medico di base oppure utilizzare il portale regionale, previa registrazione con le credenziali digitali. Si raccomanda di presentarsi con la tessera sanitaria e di segnalare eventuali allergie. In caso di febbre alta nei giorni precedenti, occorre rimandare l'appuntamento. Gli ambulatori resteranno aperti anche il sabato mattina fino a fine dicembre, per ridurre i tempi di attesa.",
+          "question": "Come si prenota?",
+          "options": [
+            "Solo per telefono",
+            "Tramite medico o portale regionale",
+            "Di persona in ospedale"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l2-e4",
+          "stage": "practise",
+          "audioText": "Informiamo i cittadini che, a partire da lunedì, sarà attiva la campagna di vaccinazione antinfluenzale. Il vaccino è gratuito per gli over sessantacinque e per le persone con patologie croniche. Per prenotare è necessario contattare il proprio medico di base oppure utilizzare il portale regionale, previa registrazione con le credenziali digitali. Si raccomanda di presentarsi con la tessera sanitaria e di segnalare eventuali allergie. In caso di febbre alta nei giorni precedenti, occorre rimandare l'appuntamento. Gli ambulatori resteranno aperti anche il sabato mattina fino a fine dicembre, per ridurre i tempi di attesa.",
+          "question": "Che cosa fare con la febbre alta?",
+          "options": [
+            "Rimandare l'appuntamento",
+            "Andare comunque",
+            "Chiamare l'ambulanza"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l2-e5",
+          "stage": "practise",
+          "audioText": "Informiamo i cittadini che, a partire da lunedì, sarà attiva la campagna di vaccinazione antinfluenzale. Il vaccino è gratuito per gli over sessantacinque e per le persone con patologie croniche. Per prenotare è necessario contattare il proprio medico di base oppure utilizzare il portale regionale, previa registrazione con le credenziali digitali. Si raccomanda di presentarsi con la tessera sanitaria e di segnalare eventuali allergie. In caso di febbre alta nei giorni precedenti, occorre rimandare l'appuntamento. Gli ambulatori resteranno aperti anche il sabato mattina fino a fine dicembre, per ridurre i tempi di attesa.",
+          "question": "Quando aprono anche gli ambulatori?",
+          "options": [
+            "La domenica",
+            "Il sabato mattina",
+            "Di notte"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l2-c1",
+          "stage": "learn",
+          "front": "le credenziali",
+          "back": "credentials"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l2-c2",
+          "stage": "learn",
+          "front": "previa registrazione",
+          "back": "after registering"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-04-l3",
+      "title": "Il nuovo contratto",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-04-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l3-e2",
+          "stage": "practise",
+          "audioText": "Prima di firmare, vorrei chiarire alcuni punti. Il contratto prevede un periodo di prova di tre mesi, durante il quale ciascuna parte può recedere senza preavviso. Dopo di che, la durata è a tempo indeterminato, con preavviso di trenta giorni. Lo stipendio comprende una parte fissa e una variabile, legata al raggiungimento di obiettivi concordati ogni anno. Quanto alle ferie, spettano ventisei giorni, più i permessi per la formazione. Segnalo infine la clausola di non concorrenza: per un anno dopo la cessazione non potrà lavorare per aziende dello stesso settore nella regione. Se è tutto chiaro, può firmare in fondo a ogni pagina.",
+          "question": "Quanto dura il periodo di prova?",
+          "options": [
+            "Tre mesi",
+            "Sei mesi",
+            "Un mese"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l3-e3",
+          "stage": "practise",
+          "audioText": "Prima di firmare, vorrei chiarire alcuni punti. Il contratto prevede un periodo di prova di tre mesi, durante il quale ciascuna parte può recedere senza preavviso. Dopo di che, la durata è a tempo indeterminato, con preavviso di trenta giorni. Lo stipendio comprende una parte fissa e una variabile, legata al raggiungimento di obiettivi concordati ogni anno. Quanto alle ferie, spettano ventisei giorni, più i permessi per la formazione. Segnalo infine la clausola di non concorrenza: per un anno dopo la cessazione non potrà lavorare per aziende dello stesso settore nella regione. Se è tutto chiaro, può firmare in fondo a ogni pagina.",
+          "question": "Com'è composto lo stipendio?",
+          "options": [
+            "Parte fissa e parte variabile",
+            "Solo fisso",
+            "Solo a provvigione"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l3-e4",
+          "stage": "practise",
+          "audioText": "Prima di firmare, vorrei chiarire alcuni punti. Il contratto prevede un periodo di prova di tre mesi, durante il quale ciascuna parte può recedere senza preavviso. Dopo di che, la durata è a tempo indeterminato, con preavviso di trenta giorni. Lo stipendio comprende una parte fissa e una variabile, legata al raggiungimento di obiettivi concordati ogni anno. Quanto alle ferie, spettano ventisei giorni, più i permessi per la formazione. Segnalo infine la clausola di non concorrenza: per un anno dopo la cessazione non potrà lavorare per aziende dello stesso settore nella regione. Se è tutto chiaro, può firmare in fondo a ogni pagina.",
+          "question": "Quanti giorni di ferie ci sono?",
+          "options": [
+            "Venti",
+            "Trenta",
+            "Ventisei"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l3-e5",
+          "stage": "practise",
+          "audioText": "Prima di firmare, vorrei chiarire alcuni punti. Il contratto prevede un periodo di prova di tre mesi, durante il quale ciascuna parte può recedere senza preavviso. Dopo di che, la durata è a tempo indeterminato, con preavviso di trenta giorni. Lo stipendio comprende una parte fissa e una variabile, legata al raggiungimento di obiettivi concordati ogni anno. Quanto alle ferie, spettano ventisei giorni, più i permessi per la formazione. Segnalo infine la clausola di non concorrenza: per un anno dopo la cessazione non potrà lavorare per aziende dello stesso settore nella regione. Se è tutto chiaro, può firmare in fondo a ogni pagina.",
+          "question": "Che cosa vieta la clausola di non concorrenza?",
+          "options": [
+            "Cambiare città",
+            "Fare un secondo lavoro",
+            "Lavorare per concorrenti per un anno"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l3-c1",
+          "stage": "learn",
+          "front": "recedere",
+          "back": "to withdraw",
+          "example": "Il contratto prevede un periodo di prova di tre mesi, durante il quale ciascuna parte può recedere senza preavviso."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l3-c2",
+          "stage": "learn",
+          "front": "la clausola",
+          "back": "clause"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-04-l4",
+      "title": "Conferenza sul clima",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-04-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l4-e2",
+          "stage": "practise",
+          "audioText": "Colleghi, i dati che vi mostro sono inequivocabili: negli ultimi trent'anni la temperatura media è aumentata di quasi un grado e mezzo, e i fenomeni estremi si sono fatti più frequenti. Le soluzioni non mancano, ma richiedono volontà politica. Da un lato, la transizione verso le rinnovabili, che in Italia procede troppo lentamente; dall'altro, l'adattamento: città più verdi, reti idriche con meno perdite, agricoltura meno assetata. Qualcuno obietta che i costi siano proibitivi. Rispondo che inazione costerebbe molto di più, come dimostrano i danni delle recenti alluvioni. Concludo con un invito: smettiamo di considerare la sostenibilità un lusso, e cominciamo a trattarla come un investimento.",
+          "question": "Di quanto è salita la temperatura media?",
+          "options": [
+            "Dieci gradi",
+            "Quasi un grado e mezzo",
+            "Mezzo grado"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l4-e3",
+          "stage": "practise",
+          "audioText": "Colleghi, i dati che vi mostro sono inequivocabili: negli ultimi trent'anni la temperatura media è aumentata di quasi un grado e mezzo, e i fenomeni estremi si sono fatti più frequenti. Le soluzioni non mancano, ma richiedono volontà politica. Da un lato, la transizione verso le rinnovabili, che in Italia procede troppo lentamente; dall'altro, l'adattamento: città più verdi, reti idriche con meno perdite, agricoltura meno assetata. Qualcuno obietta che i costi siano proibitivi. Rispondo che inazione costerebbe molto di più, come dimostrano i danni delle recenti alluvioni. Concludo con un invito: smettiamo di considerare la sostenibilità un lusso, e cominciamo a trattarla come un investimento.",
+          "question": "Quali due strade indica il relatore?",
+          "options": [
+            "Nucleare e carbone",
+            "Tasse e divieti",
+            "Rinnovabili e adattamento"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l4-e4",
+          "stage": "practise",
+          "audioText": "Colleghi, i dati che vi mostro sono inequivocabili: negli ultimi trent'anni la temperatura media è aumentata di quasi un grado e mezzo, e i fenomeni estremi si sono fatti più frequenti. Le soluzioni non mancano, ma richiedono volontà politica. Da un lato, la transizione verso le rinnovabili, che in Italia procede troppo lentamente; dall'altro, l'adattamento: città più verdi, reti idriche con meno perdite, agricoltura meno assetata. Qualcuno obietta che i costi siano proibitivi. Rispondo che inazione costerebbe molto di più, come dimostrano i danni delle recenti alluvioni. Concludo con un invito: smettiamo di considerare la sostenibilità un lusso, e cominciamo a trattarla come un investimento.",
+          "question": "Che cosa risponde a chi parla di costi?",
+          "options": [
+            "Ha ragione",
+            "I costi sono bassi",
+            "Non agire costerebbe di più"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-04-l4-e5",
+          "stage": "practise",
+          "audioText": "Colleghi, i dati che vi mostro sono inequivocabili: negli ultimi trent'anni la temperatura media è aumentata di quasi un grado e mezzo, e i fenomeni estremi si sono fatti più frequenti. Le soluzioni non mancano, ma richiedono volontà politica. Da un lato, la transizione verso le rinnovabili, che in Italia procede troppo lentamente; dall'altro, l'adattamento: città più verdi, reti idriche con meno perdite, agricoltura meno assetata. Qualcuno obietta che i costi siano proibitivi. Rispondo che inazione costerebbe molto di più, come dimostrano i danni delle recenti alluvioni. Concludo con un invito: smettiamo di considerare la sostenibilità un lusso, e cominciamo a trattarla come un investimento.",
+          "question": "Come vorrebbe trattare la sostenibilità?",
+          "options": [
+            "Come un lusso",
+            "Come un obbligo morale",
+            "Come un investimento"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l4-c1",
+          "stage": "learn",
+          "front": "le rinnovabili",
+          "back": "renewables"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-04-l4-c2",
+          "stage": "learn",
+          "front": "l'alluvione",
+          "back": "flood"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la pedonalizzazione",
+      "en": "pedestrianisation",
+      "example": "Colleghi, la proposta in discussione riguarda la pedonalizzazione del centro storico."
+    },
+    {
+      "it": "l'emendamento",
+      "en": "amendment",
+      "example": "Metto ai voti l'emendamento: chi è favorevole alzi la mano."
+    },
+    {
+      "it": "le credenziali",
+      "en": "credentials"
+    },
+    {
+      "it": "previa registrazione",
+      "en": "after registering"
+    },
+    {
+      "it": "recedere",
+      "en": "to withdraw",
+      "example": "Il contratto prevede un periodo di prova di tre mesi, durante il quale ciascuna parte può recedere senza preavviso."
+    },
+    {
+      "it": "la clausola",
+      "en": "clause"
+    },
+    {
+      "it": "le rinnovabili",
+      "en": "renewables"
+    },
+    {
+      "it": "l'alluvione",
+      "en": "flood"
+    }
+  ]
+}

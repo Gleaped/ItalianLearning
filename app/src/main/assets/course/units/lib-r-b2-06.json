@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b2-06",
+  "level": "LET",
+  "title": "Città, comunità e turismo",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 250-300 parole): un reportage sull'integrazione, una rubrica d'opinione, un avviso istituzionale e una recensione.",
+  "grammarFocus": "Lettura estensiva B2: congiuntivo e condizionale nel commento, forma passiva negli avvisi ufficiali, connettivi di concessione e conseguenza (tuttavia, nonostante, inoltre, di conseguenza).",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b2-06-l1",
+      "title": "Imparare l'italiano da adulti",
+      "minutes": 10,
+      "goal": "Leggere un reportage sull'integrazione e distinguere testimonianze, dati e valutazioni del giornalista.",
+      "takeaway": "Un reportage alterna dati, voci di persone e commento: segna chi parla in ogni paragrafo per non confondere fatti e opinioni.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-06-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Imparare l'italiano da adulti",
+          "passage": "Il martedì e il giovedì sera, in una scuola media di Borgalto, le aule si riempiono di adulti che tornano a fare i compiti. Sono muratori, badanti, cuochi, infermieri: persone arrivate da una ventina di paesi diversi che frequentano il corso gratuito di italiano organizzato da un'associazione di volontari. Quest'anno gli iscritti sono più di duecento, il doppio rispetto a tre anni fa.\n\n«All'inizio mi vergognavo a parlare», racconta Amina, arrivata dal Marocco otto anni fa e oggi mediatrice in una scuola. «Capivo tutto, ma non rispondevo. Poi ho capito che sbagliare fa parte dell'imparare.» Per molti la lingua non è soltanto uno strumento: è la condizione per trovare un lavoro migliore, parlare con i professori dei figli o spiegare a un medico che cosa non va.\n\nTuttavia le difficoltà non mancano. I turni di lavoro rendono irregolare la frequenza, e molti iscritti abbandonano dopo poche settimane. «Se avessimo più fondi, organizzeremmo lezioni anche al mattino e un servizio di custodia per i bambini», spiega la coordinatrice, una ex insegnante di lettere. Inoltre, le aule sono state prestate dal Comune solo per due sere a settimana.\n\nNonostante questi limiti, i risultati si vedono. Un'indagine interna, svolta con un gruppo di ex allievi, mostra che chi ha frequentato il corso per almeno un anno ha trovato lavoro più facilmente e partecipa di più alla vita del quartiere. Il corso, però, non basta da solo: servono anche occasioni di incontro con chi l'italiano lo parla dalla nascita.\n\nPer questo è stato avviato un progetto di «tandem» tra studenti e volontari del quartiere, che si incontrano al bar o al parco per conversare. «Da quando chiacchiero ogni settimana con una signora di ottant'anni», dice un cuoco ghanese, «mi sento meno straniero.»",
+          "questions": [
+            {
+              "question": "Chi frequenta il corso serale di Borgalto?",
+              "options": [
+                "Soltanto bambini stranieri",
+                "Insegnanti italiani in pensione",
+                "Studenti universitari fuori sede",
+                "Adulti provenienti da molti paesi e con mestieri diversi"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Perché molti iscritti abbandonano il corso dopo poche settimane?",
+              "options": [
+                "I turni di lavoro rendono difficile frequentare con regolarità",
+                "Il corso costa troppo",
+                "Le lezioni sono troppo facili",
+                "I volontari sono poco preparati"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa dimostra l'indagine interna?",
+              "options": [
+                "Il corso garantisce un contratto a tutti",
+                "Chi studia per un anno trova lavoro con più facilità",
+                "Gli ex allievi lasciano il quartiere",
+                "Il corso è meno utile di un tempo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è lo scopo del progetto «tandem»?",
+              "options": [
+                "Sostituire il corso serale",
+                "Raccogliere nuovi fondi",
+                "Offrire occasioni di conversazione fuori dall'aula",
+                "Formare nuovi volontari come insegnanti"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l1-e02",
+          "stage": "learn",
+          "front": "il mediatore culturale",
+          "back": "cultural mediator",
+          "example": "Il mediatore culturale aiuta le famiglie a parlare con la scuola."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l1-e03",
+          "stage": "learn",
+          "front": "abbandonare",
+          "back": "to drop out; to abandon",
+          "example": "Alcuni studenti abbandonano il corso a metà anno."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l1-e04",
+          "stage": "learn",
+          "front": "la custodia",
+          "back": "childcare; safekeeping",
+          "example": "Il centro offre un servizio di custodia per i bambini."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-06-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "corso di italiano",
+            "adulti",
+            "turni di lavoro",
+            "tandem"
+          ],
+          "modelAnswer": "A Borgalto un corso serale gratuito aiuta gli adulti stranieri a imparare l'italiano per lavorare e vivere meglio. Molti abbandonano per i turni di lavoro, ma chi frequenta a lungo trova lavoro più facilmente. Il progetto tandem offre conversazione con gli abitanti del quartiere.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-06-l2",
+      "title": "Chi racconta il quartiere?",
+      "minutes": 10,
+      "goal": "Leggere una rubrica d'opinione sui giornali locali e individuare la tesi, gli argomenti e la proposta finale.",
+      "takeaway": "In una rubrica la tesi arriva presto e viene sostenuta con esempi e obiezioni: individua la frase della tesi e cerca poi come l'autore risponde ai dubbi.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-06-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Chi racconta il quartiere?",
+          "passage": "Qualche settimana fa è stato chiuso il settimanale del nostro quartiere, dopo quarant'anni di vita. Nessun funerale, nessuna protesta: un comunicato di tre righe e un ultimo numero con gli annunci dei negozi. Mi è sembrato un silenzio eloquente.\n\nSappiamo bene come siamo arrivati a questo punto. La pubblicità si è spostata sui grandi portali, i lettori leggono le notizie sul telefono e le redazioni più piccole non reggono i costi. Eppure, se i giornali locali scomparissero tutti, perderemmo qualcosa che nessun sito nazionale può sostituire: qualcuno che sieda al consiglio di circoscrizione, che racconti perché hanno chiuso la scuola, che verifichi dove finiscono i soldi pubblici.\n\nSi obietterà che oggi chiunque può pubblicare ciò che vuole sui social, e che quindi l'informazione locale non è mai stata così abbondante. Tuttavia abbondanza non significa qualità. Un messaggio inviato in un gruppo di condominio non è verificato da nessuno, non ha un responsabile e, di conseguenza, rischia di alimentare voci e sospetti anziché conoscenza.\n\nChe cosa si può fare? Non credo che basti rimpiangere la carta. Alcune redazioni in altre regioni hanno trovato una strada: sono diventate piccole cooperative, finanziate dagli abbonati e da contributi pubblici trasparenti, che non condizionano i contenuti. Sono esperimenti fragili, ma dimostrano che un'alternativa esiste, purché i lettori siano disposti a pagare per un servizio che finora hanno ricevuto gratis.\n\nSe ognuno di noi versasse qualche euro al mese per un notiziario di quartiere, forse la prossima volta non dovremmo accorgerci di una chiusura soltanto dal silenzio. La domanda, in fondo, è semplice: chi vogliamo che racconti la nostra strada, se non lo facciamo noi?",
+          "questions": [
+            {
+              "question": "Come è avvenuta la chiusura del settimanale?",
+              "options": [
+                "Dopo una lunga campagna dei lettori",
+                "Senza proteste, con un breve comunicato",
+                "Con una grande festa nel quartiere",
+                "Per decisione del consiglio di circoscrizione"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa perderemmo, secondo l'autore, se i giornali locali scomparissero?",
+              "options": [
+                "Le pagine dedicate allo sport",
+                "Le notizie di politica nazionale",
+                "Chi controlla ciò che accade nelle istituzioni locali",
+                "Gli annunci dei negozi soltanto"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché i messaggi nei gruppi dei condomini non sostituiscono un giornale?",
+              "options": [
+                "Non sono verificati e nessuno ne risponde",
+                "Sono troppo costosi",
+                "Non circolano abbastanza",
+                "Sono scritti solo da giornalisti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è la proposta dell'autore?",
+              "options": [
+                "Tornare a stampare solo su carta",
+                "Chiedere più pubblicità ai negozi",
+                "Affidare l'informazione ai social",
+                "Sostenere economicamente un notiziario di quartiere"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l2-e02",
+          "stage": "learn",
+          "front": "eloquente",
+          "back": "telling, expressive",
+          "example": "Il suo silenzio fu più eloquente di mille parole."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l2-e03",
+          "stage": "learn",
+          "front": "la redazione",
+          "back": "newsroom, editorial staff",
+          "example": "La redazione del giornale si trova in centro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l2-e04",
+          "stage": "learn",
+          "front": "l'abbonato",
+          "back": "subscriber",
+          "example": "Gli abbonati ricevono il giornale ogni mattina."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-06-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "giornale locale",
+            "chiusura",
+            "social",
+            "abbonati"
+          ],
+          "modelAnswer": "L'autore rimpiange la chiusura del giornale di quartiere, perché l'informazione locale controlla le istituzioni e non può essere sostituita dai social. Propone che i lettori paghino un piccolo abbonamento per sostenere un notiziario indipendente.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-06-l3",
+      "title": "Avviso: accesso al centro storico",
+      "minutes": 10,
+      "goal": "Leggere un avviso istituzionale sul turismo e capire regole, eccezioni e scadenze.",
+      "takeaway": "Negli avvisi ufficiali cerca prima chi, che cosa, quando; poi leggi con attenzione eccezioni e condizioni (salvo, purché, a meno che).",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-06-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Avviso: accesso al centro storico",
+          "passage": "COMUNE DI PORTOVERDE – SETTORE TURISMO E MOBILITÀ\n\nAVVISO ALLA CITTADINANZA E AI VISITATORI\n\nNuove regole di accesso al centro storico (dal 1° giugno al 30 settembre)\n\nNegli ultimi anni il numero dei visitatori giornalieri del centro storico è cresciuto fino a superare, nei fine settimana estivi, le trentamila presenze. Per tutelare i residenti, i monumenti e la qualità dell'esperienza di chi visita la città, l'Amministrazione ha approvato un regolamento sperimentale, che entrerà in vigore all'inizio di giugno.\n\nChe cosa cambia\n\nNei giorni di maggiore affluenza, indicati sul sito del Comune, l'ingresso alla zona pedonale sarà consentito soltanto a chi abbia prenotato una fascia oraria. La prenotazione è gratuita per i residenti e per i bambini fino ai dodici anni; per gli altri visitatori è previsto un contributo di tre euro, che sarà interamente destinato alla pulizia e alla manutenzione delle strade.\n\nI gruppi organizzati non potranno superare le venticinque persone, e le visite guidate non saranno ammesse nelle vie più strette dopo le 11. Gli autobus turistici dovranno fermarsi al parcheggio di Campo Lungo, da cui partirà ogni dieci minuti una navetta.\n\nEccezioni\n\nPotranno entrare senza prenotazione i lavoratori del centro, le persone con disabilità, i clienti degli alberghi (a condizione che esibiscano la conferma della prenotazione) e chiunque debba recarsi a un appuntamento medico o presso uffici pubblici.\n\nControlli e sanzioni\n\nIl rispetto delle regole sarà verificato da agenti della polizia locale. Chi entrasse senza la prenotazione richiesta sarà invitato a uscire; in caso di ripetuta inosservanza, sarà applicata una sanzione amministrativa.\n\nIl regolamento sarà valutato a fine stagione, anche sulla base delle osservazioni dei cittadini, che potranno essere inviate entro il 15 ottobre.",
+          "questions": [
+            {
+              "question": "Qual è lo scopo del nuovo regolamento?",
+              "options": [
+                "Aumentare il numero dei turisti",
+                "Chiudere definitivamente il centro",
+                "Proteggere residenti, monumenti e qualità della visita",
+                "Costruire un nuovo parcheggio"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Chi può entrare gratis con prenotazione?",
+              "options": [
+                "I residenti e i bambini fino a dodici anni",
+                "Tutti i turisti stranieri",
+                "I gruppi organizzati",
+                "I clienti degli alberghi soltanto"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quale persona può entrare senza prenotazione?",
+              "options": [
+                "Chi ha una guida turistica",
+                "Chi arriva con un autobus turistico",
+                "Chi non vuole pagare il contributo",
+                "Chi ha un appuntamento presso un ufficio pubblico"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa succederà al termine della stagione?",
+              "options": [
+                "Sarà abolito automaticamente",
+                "Il regolamento sarà valutato anche con i commenti dei cittadini",
+                "Sarà esteso ad altre città",
+                "Sarà trasformato in legge nazionale"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l3-e02",
+          "stage": "learn",
+          "front": "l'affluenza",
+          "back": "turnout, crowd",
+          "example": "Per l'alta affluenza il museo ha prolungato l'orario."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l3-e03",
+          "stage": "learn",
+          "front": "la navetta",
+          "back": "shuttle",
+          "example": "Una navetta collega il parcheggio al centro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l3-e04",
+          "stage": "learn",
+          "front": "la sanzione",
+          "back": "penalty, fine",
+          "example": "Chi non rispetta il divieto riceve una sanzione."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-06-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "prenotazione",
+            "residenti",
+            "eccezioni",
+            "sanzione"
+          ],
+          "modelAnswer": "Il Comune di Portoverde introduce in estate la prenotazione obbligatoria per entrare nel centro storico nei giorni di grande affluenza. È gratuita per residenti e bambini, ci sono eccezioni per lavoratori e persone con appuntamenti, e le violazioni possono essere sanzionate.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-06-l4",
+      "title": "Recensione: «Pietra su pietra»",
+      "minutes": 10,
+      "goal": "Leggere una recensione di una mostra sul restauro e distinguere descrizione, giudizio e raccomandazione.",
+      "takeaway": "In una recensione l'autore descrive, poi valuta: riconosci gli aggettivi di giudizio e le riserve introdotte da ma, però, tuttavia.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-06-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Recensione: «Pietra su pietra»",
+          "passage": "Chi pensa che il restauro sia un lavoro silenzioso e polveroso cambierà idea visitando «Pietra su pietra», la mostra allestita fino a dicembre nell'ex filanda di Castelmonte. L'esposizione racconta, in dodici sale, i tre anni di lavori che hanno restituito alla città il suo teatro ottocentesco, rimasto chiuso per quasi mezzo secolo.\n\nIl pregio maggiore della mostra è la chiarezza. Fotografie in grande formato mostrano lo stato del teatro prima dell'intervento: soffitti crollati, palchi invasi dall'umidità, affreschi coperti da strati di fumo. Accanto a ogni immagine, piccoli schermi mostrano il lavoro dei restauratori, ripreso con una pazienza quasi ipnotica. Si scopre, per esempio, che per ripulire un solo metro quadrato di decorazione possono servire intere settimane.\n\nBen riuscita è anche la sala dedicata alle scelte difficili. Che cosa si fa di un edificio quando una parte è andata perduta? Si ricostruisce, imitando lo stile originale, oppure si lascia visibile la lacuna, accettando che il tempo abbia lasciato dei segni? Il curatore non impone una risposta, e questo, a mio avviso, è uno dei meriti dell'allestimento.\n\nNon tutto, tuttavia, convince. I testi sui pannelli sono talvolta troppo tecnici e le didascalie, scritte in caratteri minuscoli, sono quasi illeggibili per chi non porti gli occhiali. Inoltre il percorso, pensato per piccoli gruppi, diventa faticoso nei fine settimana, quando la fila si allunga fin nel cortile.\n\nNonostante questi limiti, la mostra merita una visita, soprattutto se la si completa con un sopralluogo al teatro, aperto al pubblico il sabato mattina. Se i restauratori fossero stati meno discreti, forse oggi parleremmo di più del loro mestiere; la mostra, per fortuna, rimedia con intelligenza.",
+          "questions": [
+            {
+              "question": "Di che cosa parla la mostra?",
+              "options": [
+                "Della costruzione di un museo moderno",
+                "Del restauro di un teatro ottocentesco rimasto chiuso a lungo",
+                "Della storia di una filanda",
+                "Di un nuovo stile di architettura contemporanea"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale pregio principale riconosce il recensore?",
+              "options": [
+                "La chiarezza con cui si spiega il lavoro dei restauratori",
+                "La ricchezza dei testi tecnici",
+                "Il prezzo basso del biglietto",
+                "L'originalità delle opere esposte"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa pensa il recensore della sala sulle scelte difficili?",
+              "options": [
+                "Pensa che imponga una sola soluzione",
+                "La trova superflua",
+                "La considera troppo breve",
+                "Apprezza che il curatore lasci il visitatore libero di riflettere"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Quali sono i difetti segnalati?",
+              "options": [
+                "Mancanza di fotografie",
+                "Orari troppo ridotti",
+                "Testi troppo tecnici, didascalie piccole e code nei fine settimana",
+                "Prezzi molto elevati"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l4-e02",
+          "stage": "learn",
+          "front": "il restauro",
+          "back": "restoration",
+          "example": "Il restauro dell'affresco è durato due anni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l4-e03",
+          "stage": "learn",
+          "front": "l'allestimento",
+          "back": "staging, exhibition layout",
+          "example": "L'allestimento della mostra è molto elegante."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-06-l4-e04",
+          "stage": "learn",
+          "front": "la didascalia",
+          "back": "caption",
+          "example": "La didascalia spiega chi è ritratto nella foto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-06-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "mostra",
+            "restauro",
+            "teatro",
+            "difetti"
+          ],
+          "modelAnswer": "La recensione parla di una mostra sul restauro di un teatro ottocentesco. L'autore apprezza la chiarezza e la sala sulle scelte difficili, ma critica i testi troppo tecnici, le didascalie piccole e le code nei fine settimana. Alla fine consiglia comunque la visita.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il mediatore culturale",
+      "en": "cultural mediator",
+      "example": "Il mediatore culturale aiuta le famiglie a parlare con la scuola."
+    },
+    {
+      "it": "abbandonare",
+      "en": "to drop out; to abandon",
+      "example": "Alcuni studenti abbandonano il corso a metà anno."
+    },
+    {
+      "it": "la custodia",
+      "en": "childcare; safekeeping",
+      "example": "Il centro offre un servizio di custodia per i bambini."
+    },
+    {
+      "it": "eloquente",
+      "en": "telling, expressive",
+      "example": "Il suo silenzio fu più eloquente di mille parole."
+    },
+    {
+      "it": "la redazione",
+      "en": "newsroom, editorial staff",
+      "example": "La redazione del giornale si trova in centro."
+    },
+    {
+      "it": "l'abbonato",
+      "en": "subscriber",
+      "example": "Gli abbonati ricevono il giornale ogni mattina."
+    },
+    {
+      "it": "l'affluenza",
+      "en": "turnout, crowd",
+      "example": "Per l'alta affluenza il museo ha prolungato l'orario."
+    },
+    {
+      "it": "la navetta",
+      "en": "shuttle",
+      "example": "Una navetta collega il parcheggio al centro."
+    },
+    {
+      "it": "la sanzione",
+      "en": "penalty, fine",
+      "example": "Chi non rispetta il divieto riceve una sanzione."
+    },
+    {
+      "it": "il restauro",
+      "en": "restoration",
+      "example": "Il restauro dell'affresco è durato due anni."
+    },
+    {
+      "it": "l'allestimento",
+      "en": "staging, exhibition layout",
+      "example": "L'allestimento della mostra è molto elegante."
+    },
+    {
+      "it": "la didascalia",
+      "en": "caption",
+      "example": "La didascalia spiega chi è ritratto nella foto."
+    }
+  ]
+}

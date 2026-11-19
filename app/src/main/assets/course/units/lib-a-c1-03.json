@@ -1,0 +1,399 @@
+{
+  "id": "lib-a-c1-03",
+  "level": "ASC",
+  "title": "Cultura e letteratura",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello C1 (circa 106 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-c1-03-l1",
+      "title": "Presentazione di un libro",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-03-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l1-e2",
+          "stage": "practise",
+          "audioText": "Ringrazio tutti per essere venuti. Il romanzo che presentiamo stasera racconta la storia di una famiglia siciliana tra le due guerre. L'autore, che conosce bene quei luoghi, evita la nostalgia facile: la Sicilia che descrive è aspra, contraddittoria, ma amata. La struttura è insolita: ogni capitolo è narrato da un personaggio diverso, e il lettore deve ricomporre la verità da versioni spesso opposte. Alcuni critici hanno lamentato un finale troppo aperto; a me pare, invece, che l'ambiguità sia il cuore del libro. Prima di passare la parola all'autore, voglio ricordare che l'incontro è organizzato in collaborazione con la biblioteca, e che il ricavato delle vendite sarà devoluto al restauro del teatro.",
+          "question": "Di che cosa parla il romanzo?",
+          "options": [
+            "Di un viaggio",
+            "Di una famiglia siciliana",
+            "Di una guerra moderna"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l1-e3",
+          "stage": "practise",
+          "audioText": "Ringrazio tutti per essere venuti. Il romanzo che presentiamo stasera racconta la storia di una famiglia siciliana tra le due guerre. L'autore, che conosce bene quei luoghi, evita la nostalgia facile: la Sicilia che descrive è aspra, contraddittoria, ma amata. La struttura è insolita: ogni capitolo è narrato da un personaggio diverso, e il lettore deve ricomporre la verità da versioni spesso opposte. Alcuni critici hanno lamentato un finale troppo aperto; a me pare, invece, che l'ambiguità sia il cuore del libro. Prima di passare la parola all'autore, voglio ricordare che l'incontro è organizzato in collaborazione con la biblioteca, e che il ricavato delle vendite sarà devoluto al restauro del teatro.",
+          "question": "Com'è narrato?",
+          "options": [
+            "Da un solo narratore",
+            "In forma di lettere",
+            "Ogni capitolo da un personaggio diverso"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l1-e4",
+          "stage": "practise",
+          "audioText": "Ringrazio tutti per essere venuti. Il romanzo che presentiamo stasera racconta la storia di una famiglia siciliana tra le due guerre. L'autore, che conosce bene quei luoghi, evita la nostalgia facile: la Sicilia che descrive è aspra, contraddittoria, ma amata. La struttura è insolita: ogni capitolo è narrato da un personaggio diverso, e il lettore deve ricomporre la verità da versioni spesso opposte. Alcuni critici hanno lamentato un finale troppo aperto; a me pare, invece, che l'ambiguità sia il cuore del libro. Prima di passare la parola all'autore, voglio ricordare che l'incontro è organizzato in collaborazione con la biblioteca, e che il ricavato delle vendite sarà devoluto al restauro del teatro.",
+          "question": "Che cosa criticano alcuni critici?",
+          "options": [
+            "Il linguaggio",
+            "Il finale troppo aperto",
+            "La lunghezza"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l1-e5",
+          "stage": "practise",
+          "audioText": "Ringrazio tutti per essere venuti. Il romanzo che presentiamo stasera racconta la storia di una famiglia siciliana tra le due guerre. L'autore, che conosce bene quei luoghi, evita la nostalgia facile: la Sicilia che descrive è aspra, contraddittoria, ma amata. La struttura è insolita: ogni capitolo è narrato da un personaggio diverso, e il lettore deve ricomporre la verità da versioni spesso opposte. Alcuni critici hanno lamentato un finale troppo aperto; a me pare, invece, che l'ambiguità sia il cuore del libro. Prima di passare la parola all'autore, voglio ricordare che l'incontro è organizzato in collaborazione con la biblioteca, e che il ricavato delle vendite sarà devoluto al restauro del teatro.",
+          "question": "A che cosa andrà il ricavato?",
+          "options": [
+            "A una scuola",
+            "Al restauro del teatro",
+            "All'autore"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l1-c1",
+          "stage": "learn",
+          "front": "aspro",
+          "back": "harsh, rugged"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l1-c2",
+          "stage": "learn",
+          "front": "devoluto",
+          "back": "donated"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-03-l2",
+      "title": "Podcast di storia",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-03-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l2-e2",
+          "stage": "practise",
+          "audioText": "Nel millenovecentoquarantasei gli italiani furono chiamati a scegliere tra monarchia e repubblica. Il referendum, che si tenne il due giugno, segnò una frattura profonda: il nord votò in massa per la repubblica, mentre il sud rimase in larga parte fedele ai Savoia. Per la prima volta le donne poterono votare a livello nazionale, e questo fu un passaggio storico, tanto che molti ricordano ancora le lunghe file davanti ai seggi. Il risultato fu contestato dai monarchici, che denunciarono brogli, ma la Corte di Cassazione confermò l'esito. Il re Umberto secondo lasciò il paese senza opporre resistenza, evitando una guerra civile.",
+          "question": "Su che cosa votarono gli italiani nel 1946?",
+          "options": [
+            "Un nuovo governo",
+            "La costituzione",
+            "Monarchia o repubblica"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l2-e3",
+          "stage": "practise",
+          "audioText": "Nel millenovecentoquarantasei gli italiani furono chiamati a scegliere tra monarchia e repubblica. Il referendum, che si tenne il due giugno, segnò una frattura profonda: il nord votò in massa per la repubblica, mentre il sud rimase in larga parte fedele ai Savoia. Per la prima volta le donne poterono votare a livello nazionale, e questo fu un passaggio storico, tanto che molti ricordano ancora le lunghe file davanti ai seggi. Il risultato fu contestato dai monarchici, che denunciarono brogli, ma la Corte di Cassazione confermò l'esito. Il re Umberto secondo lasciò il paese senza opporre resistenza, evitando una guerra civile.",
+          "question": "Come votò il nord?",
+          "options": [
+            "Per la monarchia",
+            "Si astenne",
+            "In massa per la repubblica"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l2-e4",
+          "stage": "practise",
+          "audioText": "Nel millenovecentoquarantasei gli italiani furono chiamati a scegliere tra monarchia e repubblica. Il referendum, che si tenne il due giugno, segnò una frattura profonda: il nord votò in massa per la repubblica, mentre il sud rimase in larga parte fedele ai Savoia. Per la prima volta le donne poterono votare a livello nazionale, e questo fu un passaggio storico, tanto che molti ricordano ancora le lunghe file davanti ai seggi. Il risultato fu contestato dai monarchici, che denunciarono brogli, ma la Corte di Cassazione confermò l'esito. Il re Umberto secondo lasciò il paese senza opporre resistenza, evitando una guerra civile.",
+          "question": "Che cosa fu storico per le donne?",
+          "options": [
+            "Furono elette",
+            "Ebbero il divorzio",
+            "Votarono a livello nazionale"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l2-e5",
+          "stage": "practise",
+          "audioText": "Nel millenovecentoquarantasei gli italiani furono chiamati a scegliere tra monarchia e repubblica. Il referendum, che si tenne il due giugno, segnò una frattura profonda: il nord votò in massa per la repubblica, mentre il sud rimase in larga parte fedele ai Savoia. Per la prima volta le donne poterono votare a livello nazionale, e questo fu un passaggio storico, tanto che molti ricordano ancora le lunghe file davanti ai seggi. Il risultato fu contestato dai monarchici, che denunciarono brogli, ma la Corte di Cassazione confermò l'esito. Il re Umberto secondo lasciò il paese senza opporre resistenza, evitando una guerra civile.",
+          "question": "Che cosa fece il re?",
+          "options": [
+            "Contestò il voto",
+            "Convocò un secondo voto",
+            "Lasciò il paese senza resistere"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l2-c1",
+          "stage": "learn",
+          "front": "i brogli",
+          "back": "electoral fraud",
+          "example": "Il risultato fu contestato dai monarchici, che denunciarono brogli, ma la Corte di Cassazione confermò l'esito."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l2-c2",
+          "stage": "learn",
+          "front": "la frattura",
+          "back": "rift"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-03-l3",
+      "title": "Recensione di un film",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-03-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l3-e2",
+          "stage": "practise",
+          "audioText": "Ho visto ieri sera l'ultimo film del regista, e devo ammettere di essere rimasto spiazzato. La trama, apparentemente semplice, segue un uomo che torna nel paese natale per vendere la casa di famiglia. Ma il vero protagonista è il silenzio: pochissimi dialoghi, lunghe inquadrature fisse, una colonna sonora essenziale. Qualcuno troverà il ritmo troppo lento, e capisco chi esce dalla sala deluso. A me, invece, è sembrato un modo coraggioso di raccontare il rapporto con la memoria. Gli attori sono bravissimi, in particolare la protagonista femminile, che con un solo sguardo dice più di una pagina di sceneggiatura. Lo consiglio a chi ha pazienza, e a chi non cerca una storia consolatoria.",
+          "question": "Perché l'uomo torna al paese?",
+          "options": [
+            "Per un funerale",
+            "Per un matrimonio",
+            "Per vendere la casa di famiglia"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l3-e3",
+          "stage": "practise",
+          "audioText": "Ho visto ieri sera l'ultimo film del regista, e devo ammettere di essere rimasto spiazzato. La trama, apparentemente semplice, segue un uomo che torna nel paese natale per vendere la casa di famiglia. Ma il vero protagonista è il silenzio: pochissimi dialoghi, lunghe inquadrature fisse, una colonna sonora essenziale. Qualcuno troverà il ritmo troppo lento, e capisco chi esce dalla sala deluso. A me, invece, è sembrato un modo coraggioso di raccontare il rapporto con la memoria. Gli attori sono bravissimi, in particolare la protagonista femminile, che con un solo sguardo dice più di una pagina di sceneggiatura. Lo consiglio a chi ha pazienza, e a chi non cerca una storia consolatoria.",
+          "question": "Qual è il vero protagonista?",
+          "options": [
+            "Il silenzio",
+            "Il paese",
+            "La casa"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l3-e4",
+          "stage": "practise",
+          "audioText": "Ho visto ieri sera l'ultimo film del regista, e devo ammettere di essere rimasto spiazzato. La trama, apparentemente semplice, segue un uomo che torna nel paese natale per vendere la casa di famiglia. Ma il vero protagonista è il silenzio: pochissimi dialoghi, lunghe inquadrature fisse, una colonna sonora essenziale. Qualcuno troverà il ritmo troppo lento, e capisco chi esce dalla sala deluso. A me, invece, è sembrato un modo coraggioso di raccontare il rapporto con la memoria. Gli attori sono bravissimi, in particolare la protagonista femminile, che con un solo sguardo dice più di una pagina di sceneggiatura. Lo consiglio a chi ha pazienza, e a chi non cerca una storia consolatoria.",
+          "question": "Che cosa critica chi è deluso?",
+          "options": [
+            "Gli attori",
+            "Il ritmo lento",
+            "La musica"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l3-e5",
+          "stage": "practise",
+          "audioText": "Ho visto ieri sera l'ultimo film del regista, e devo ammettere di essere rimasto spiazzato. La trama, apparentemente semplice, segue un uomo che torna nel paese natale per vendere la casa di famiglia. Ma il vero protagonista è il silenzio: pochissimi dialoghi, lunghe inquadrature fisse, una colonna sonora essenziale. Qualcuno troverà il ritmo troppo lento, e capisco chi esce dalla sala deluso. A me, invece, è sembrato un modo coraggioso di raccontare il rapporto con la memoria. Gli attori sono bravissimi, in particolare la protagonista femminile, che con un solo sguardo dice più di una pagina di sceneggiatura. Lo consiglio a chi ha pazienza, e a chi non cerca una storia consolatoria.",
+          "question": "A chi lo consiglia il recensore?",
+          "options": [
+            "A chi vuole ridere",
+            "A chi ha pazienza",
+            "Ai bambini"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l3-c1",
+          "stage": "learn",
+          "front": "spiazzato",
+          "back": "thrown off balance",
+          "example": "Ho visto ieri sera l'ultimo film del regista, e devo ammettere di essere rimasto spiazzato."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l3-c2",
+          "stage": "learn",
+          "front": "l'inquadratura",
+          "back": "shot (film)"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-03-l4",
+      "title": "Una poesia letta",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-03-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l4-e2",
+          "stage": "practise",
+          "audioText": "Quando leggiamo una poesia, spesso cerchiamo un messaggio preciso, come se il testo fosse un indovinello da risolvere. Invece la poesia lavora per suggestione: le immagini, il suono, il ritmo dicono ciò che la prosa non riesce a dire. Prendiamo questi versi: parlano di una sera d'estate, ma in realtà evocano la fine di un amore. Notate come le parole brevi, le pause, creino un senso di sospensione. Non esiste un'interpretazione sola. Ciascuno vi porta la propria esperienza, ed è giusto così. L'unico errore sarebbe ridurre il testo a una morale. Provate a rileggerli a voce alta, lentamente, e ascoltate cosa vi restituiscono.",
+          "question": "Come lavora la poesia secondo chi parla?",
+          "options": [
+            "Per suggestione",
+            "Per spiegazione",
+            "Per argomentazione"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l4-e3",
+          "stage": "practise",
+          "audioText": "Quando leggiamo una poesia, spesso cerchiamo un messaggio preciso, come se il testo fosse un indovinello da risolvere. Invece la poesia lavora per suggestione: le immagini, il suono, il ritmo dicono ciò che la prosa non riesce a dire. Prendiamo questi versi: parlano di una sera d'estate, ma in realtà evocano la fine di un amore. Notate come le parole brevi, le pause, creino un senso di sospensione. Non esiste un'interpretazione sola. Ciascuno vi porta la propria esperienza, ed è giusto così. L'unico errore sarebbe ridurre il testo a una morale. Provate a rileggerli a voce alta, lentamente, e ascoltate cosa vi restituiscono.",
+          "question": "Di che cosa parlano in realtà i versi?",
+          "options": [
+            "Di una festa",
+            "Della fine di un amore",
+            "Di un viaggio"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l4-e4",
+          "stage": "practise",
+          "audioText": "Quando leggiamo una poesia, spesso cerchiamo un messaggio preciso, come se il testo fosse un indovinello da risolvere. Invece la poesia lavora per suggestione: le immagini, il suono, il ritmo dicono ciò che la prosa non riesce a dire. Prendiamo questi versi: parlano di una sera d'estate, ma in realtà evocano la fine di un amore. Notate come le parole brevi, le pause, creino un senso di sospensione. Non esiste un'interpretazione sola. Ciascuno vi porta la propria esperienza, ed è giusto così. L'unico errore sarebbe ridurre il testo a una morale. Provate a rileggerli a voce alta, lentamente, e ascoltate cosa vi restituiscono.",
+          "question": "Che cosa crea sospensione?",
+          "options": [
+            "Parole brevi e pause",
+            "Rime lunghe",
+            "Lunghe descrizioni"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-03-l4-e5",
+          "stage": "practise",
+          "audioText": "Quando leggiamo una poesia, spesso cerchiamo un messaggio preciso, come se il testo fosse un indovinello da risolvere. Invece la poesia lavora per suggestione: le immagini, il suono, il ritmo dicono ciò che la prosa non riesce a dire. Prendiamo questi versi: parlano di una sera d'estate, ma in realtà evocano la fine di un amore. Notate come le parole brevi, le pause, creino un senso di sospensione. Non esiste un'interpretazione sola. Ciascuno vi porta la propria esperienza, ed è giusto così. L'unico errore sarebbe ridurre il testo a una morale. Provate a rileggerli a voce alta, lentamente, e ascoltate cosa vi restituiscono.",
+          "question": "Che cosa consiglia di fare?",
+          "options": [
+            "Imparare la morale",
+            "Rileggerli a voce alta",
+            "Tradurli"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l4-c1",
+          "stage": "learn",
+          "front": "l'indovinello",
+          "back": "riddle",
+          "example": "Quando leggiamo una poesia, spesso cerchiamo un messaggio preciso, come se il testo fosse un indovinello da risolvere."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-03-l4-c2",
+          "stage": "learn",
+          "front": "la sospensione",
+          "back": "suspension",
+          "example": "Notate come le parole brevi, le pause, creino un senso di sospensione."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "aspro",
+      "en": "harsh, rugged"
+    },
+    {
+      "it": "devoluto",
+      "en": "donated"
+    },
+    {
+      "it": "i brogli",
+      "en": "electoral fraud",
+      "example": "Il risultato fu contestato dai monarchici, che denunciarono brogli, ma la Corte di Cassazione confermò l'esito."
+    },
+    {
+      "it": "la frattura",
+      "en": "rift"
+    },
+    {
+      "it": "spiazzato",
+      "en": "thrown off balance",
+      "example": "Ho visto ieri sera l'ultimo film del regista, e devo ammettere di essere rimasto spiazzato."
+    },
+    {
+      "it": "l'inquadratura",
+      "en": "shot (film)"
+    },
+    {
+      "it": "l'indovinello",
+      "en": "riddle",
+      "example": "Quando leggiamo una poesia, spesso cerchiamo un messaggio preciso, come se il testo fosse un indovinello da risolvere."
+    },
+    {
+      "it": "la sospensione",
+      "en": "suspension",
+      "example": "Notate come le parole brevi, le pause, creino un senso di sospensione."
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "id": "lib-r-c1-01",
+  "level": "LET",
+  "title": "Lingua, società e lavoro",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello C1 (circa 121 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-c1-01-l1",
+      "title": "L'italiano e i suoi dialetti",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-01-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "L'italiano e i suoi dialetti",
+          "passage": "In Italia convivono l'italiano standard e una straordinaria varietà di dialetti, che non sono, come si crede spesso, forme «sbagliate» della lingua nazionale, ma sistemi linguistici autonomi nati dal latino parallelamente al toscano. Fino al secondo dopoguerra gran parte della popolazione parlava il dialetto in famiglia e usava l'italiano solo a scuola o negli uffici. La diffusione della televisione, l'urbanizzazione e la scolarizzazione di massa hanno cambiato il quadro: oggi la maggior parte degli italiani è bilingue, ma l'uso esclusivo del dialetto è in forte calo, soprattutto tra i giovani. Alcuni linguisti temono una perdita irreparabile di patrimonio culturale; altri, invece, osservano che il dialetto sopravvive in forme nuove, come nella musica, nel teatro e nei social, e che le varietà regionali dell'italiano, arricchite di termini locali, rappresentano un'evoluzione naturale e non un impoverimento.",
+          "questions": [
+            {
+              "question": "Come descrive i dialetti l'autore?",
+              "options": [
+                "Come errori dell'italiano",
+                "Come sistemi linguistici autonomi derivati dal latino",
+                "Come lingue straniere",
+                "Come gerghi giovanili"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quali fattori hanno cambiato la situazione linguistica?",
+              "options": [
+                "Le migrazioni e le guerre",
+                "Le leggi regionali",
+                "Il turismo",
+                "Televisione, urbanizzazione e scuola"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa temono alcuni linguisti?",
+              "options": [
+                "L'eccesso di inglese",
+                "Il declino della scuola",
+                "Una perdita del patrimonio culturale",
+                "La scomparsa dell'italiano"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa sostengono gli altri studiosi?",
+              "options": [
+                "Il dialetto deve essere vietato",
+                "L'italiano è in crisi",
+                "Il dialetto sopravvive in forme nuove",
+                "Il bilinguismo è dannoso"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l1-c1",
+          "stage": "learn",
+          "front": "il patrimonio",
+          "back": "heritage, assets"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l1-c2",
+          "stage": "learn",
+          "front": "irreparabile",
+          "back": "irreparable"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-01-l2",
+      "title": "Il paradosso del lavoro nero",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-01-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il paradosso del lavoro nero",
+          "passage": "Secondo le stime dell'Istituto di statistica, in Italia l'economia non osservata vale circa il dodici per cento del prodotto interno lordo, e una parte considerevole è costituita da lavoro irregolare. Il fenomeno è particolarmente diffuso in agricoltura, nell'edilizia e nei servizi alla persona, dove molte famiglie assumono collaboratrici domestiche senza contratto. Il paradosso sta nel fatto che il lavoro nero, pur danneggiando le casse dello Stato e privando i lavoratori di tutele fondamentali, viene tollerato da chi lo pratica e, talvolta, da chi lo subisce, per mancanza di alternative. Le soluzioni proposte vanno dall'inasprimento dei controlli alla riduzione del costo del lavoro regolare. Gli esperti, tuttavia, avvertono che senza un cambiamento culturale ogni misura rischia di restare sulla carta.",
+          "questions": [
+            {
+              "question": "Quanto pesa l'economia non osservata?",
+              "options": [
+                "Circa il dodici per cento del PIL",
+                "Circa il due per cento",
+                "Circa la metà",
+                "Più del cinquanta per cento"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "In quali settori è più diffuso il lavoro irregolare?",
+              "options": [
+                "Agricoltura, edilizia e servizi alla persona",
+                "Informatica e banche",
+                "Moda e turismo",
+                "Industria e sanità"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è il paradosso?",
+              "options": [
+                "Aumenta lo stipendio",
+                "Viene tollerato anche da chi lo subisce",
+                "È legale ma vietato",
+                "Non danneggia lo Stato"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa avvertono gli esperti?",
+              "options": [
+                "Basta aumentare i controlli",
+                "Senza cambiamento culturale le misure restano sulla carta",
+                "Il problema è già risolto",
+                "Servono più tasse"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l2-c1",
+          "stage": "learn",
+          "front": "l'inasprimento",
+          "back": "tightening",
+          "example": "Le soluzioni proposte vanno dall'inasprimento dei controlli alla riduzione del costo del lavoro regolare."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l2-c2",
+          "stage": "learn",
+          "front": "restare sulla carta",
+          "back": "to remain on paper only",
+          "example": "Gli esperti, tuttavia, avvertono che senza un cambiamento culturale ogni misura rischia di restare sulla carta."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-01-l3",
+      "title": "Una città che cambia pelle",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-01-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una città che cambia pelle",
+          "passage": "Negli ultimi vent'anni il quartiere Bicocca, a Milano, ha vissuto una trasformazione radicale. Dove sorgevano stabilimenti industriali dismessi, sono comparsi un'università, un teatro e centinaia di nuove abitazioni. I promotori parlano di un modello di rigenerazione urbana: spazi inutilizzati restituiti alla collettività, con verde e servizi. I critici, tuttavia, osservano che l'aumento dei prezzi ha spinto fuori molti residenti storici e che il quartiere, pur ordinato, ha perso parte della sua identità popolare. Il dibattito, che coinvolge urbanisti, sociologi e amministratori, ruota intorno a una domanda: la riqualificazione deve limitarsi a migliorare gli edifici o deve anche proteggere chi ci abita? La risposta, probabilmente, richiede strumenti nuovi, come l'edilizia convenzionata e gli affitti calmierati.",
+          "questions": [
+            {
+              "question": "Che cosa sorgeva un tempo nel quartiere?",
+              "options": [
+                "Case popolari",
+                "Stabilimenti industriali",
+                "Un porto",
+                "Un parco"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa sostengono i promotori?",
+              "options": [
+                "Che sia stato un errore",
+                "Che sia troppo lento",
+                "Che sia un modello di rigenerazione urbana",
+                "Che sia solo estetico"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quale critica viene fatta?",
+              "options": [
+                "Ha costruito poco",
+                "Ha spinto fuori molti residenti storici",
+                "Ha distrutto il verde",
+                "Non ha servizi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa potrebbe aiutare, secondo il testo?",
+              "options": [
+                "Edilizia convenzionata e affitti calmierati",
+                "Più tasse",
+                "Meno servizi",
+                "Nuove fabbriche"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l3-c1",
+          "stage": "learn",
+          "front": "la rigenerazione urbana",
+          "back": "urban regeneration",
+          "example": "I promotori parlano di un modello di rigenerazione urbana: spazi inutilizzati restituiti alla collettività, con verde e servizi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l3-c2",
+          "stage": "learn",
+          "front": "calmierato",
+          "back": "capped, price-controlled"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-01-l4",
+      "title": "Parlare in pubblico",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-01-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Parlare in pubblico",
+          "passage": "Parlare in pubblico è una competenza che si può imparare, ma che pochi coltivano con metodo. Gli esperti di comunicazione distinguono tre livelli: i contenuti, la struttura e la presenza. Quanto ai contenuti, è fondamentale conoscere l'uditorio e selezionare poche idee, ripetute in forme diverse. La struttura, invece, deve guidare chi ascolta: un'apertura che catturi l'attenzione, uno sviluppo ordinato e una chiusura che lasci un messaggio chiaro. Infine la presenza: la voce, i gesti e le pause. Chi parla troppo in fretta, per esempio, perde credibilità, mentre un silenzio ben calibrato può rendere più incisivo un concetto. L'errore più comune, aggiungono gli esperti, è leggere diapositive sovraccariche di testo: il pubblico non può ascoltare e leggere contemporaneamente.",
+          "questions": [
+            {
+              "question": "Quali sono i tre livelli distinti?",
+              "options": [
+                "Voce, gesti e abbigliamento",
+                "Introduzione, tesi e prove",
+                "Studio, esercizio e pubblico",
+                "Contenuti, struttura e presenza"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa deve fare l'apertura?",
+              "options": [
+                "Riassumere tutto",
+                "Presentare i dati",
+                "Chiedere scusa",
+                "Catturare l'attenzione"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Perché parlare in fretta è un errore?",
+              "options": [
+                "Costa tempo",
+                "Fa perdere credibilità",
+                "Stanca la voce",
+                "Impressiona il pubblico"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è l'errore più comune?",
+              "options": [
+                "Usare diapositive sovraccariche di testo",
+                "Non usare il microfono",
+                "Parlare di troppi temi",
+                "Non salutare"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l4-c1",
+          "stage": "learn",
+          "front": "l'uditorio",
+          "back": "audience",
+          "example": "Quanto ai contenuti, è fondamentale conoscere l'uditorio e selezionare poche idee, ripetute in forme diverse."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-01-l4-c2",
+          "stage": "learn",
+          "front": "incisivo",
+          "back": "incisive, effective",
+          "example": "Chi parla troppo in fretta, per esempio, perde credibilità, mentre un silenzio ben calibrato può rendere più incisivo un concetto."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il patrimonio",
+      "en": "heritage, assets"
+    },
+    {
+      "it": "irreparabile",
+      "en": "irreparable"
+    },
+    {
+      "it": "l'inasprimento",
+      "en": "tightening",
+      "example": "Le soluzioni proposte vanno dall'inasprimento dei controlli alla riduzione del costo del lavoro regolare."
+    },
+    {
+      "it": "restare sulla carta",
+      "en": "to remain on paper only",
+      "example": "Gli esperti, tuttavia, avvertono che senza un cambiamento culturale ogni misura rischia di restare sulla carta."
+    },
+    {
+      "it": "la rigenerazione urbana",
+      "en": "urban regeneration",
+      "example": "I promotori parlano di un modello di rigenerazione urbana: spazi inutilizzati restituiti alla collettività, con verde e servizi."
+    },
+    {
+      "it": "calmierato",
+      "en": "capped, price-controlled"
+    },
+    {
+      "it": "l'uditorio",
+      "en": "audience",
+      "example": "Quanto ai contenuti, è fondamentale conoscere l'uditorio e selezionare poche idee, ripetute in forme diverse."
+    },
+    {
+      "it": "incisivo",
+      "en": "incisive, effective",
+      "example": "Chi parla troppo in fretta, per esempio, perde credibilità, mentre un silenzio ben calibrato può rendere più incisivo un concetto."
+    }
+  ]
+}

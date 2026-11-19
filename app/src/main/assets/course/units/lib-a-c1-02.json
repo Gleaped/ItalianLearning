@@ -1,0 +1,403 @@
+{
+  "id": "lib-a-c1-02",
+  "level": "ASC",
+  "title": "Territorio e tradizioni",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello C1 (circa 98 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-c1-02-l1",
+      "title": "Guida turistica",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-02-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l1-e2",
+          "stage": "practise",
+          "audioText": "Siamo davanti alla basilica, costruita nel dodicesimo secolo sulle rovine di un tempio romano. Notate la facciata: i marmi bianchi e verdi sono tipici dello stile romanico toscano. All'interno, invece, la decorazione è molto più tarda, barocca, perché nel Seicento la chiesa fu completamente rinnovata. Vi prego di fare attenzione al pavimento: sotto la navata centrale sono stati scoperti, durante un restauro, i resti di un mosaico. Purtroppo non è visitabile tutto l'anno, ma le visite guidate riprendono in primavera. Ora, se volete seguirmi, passiamo al chiostro, uno dei luoghi più silenziosi della città. Mi raccomando, non toccate le colonne.",
+          "question": "Su che cosa fu costruita la basilica?",
+          "options": [
+            "Sulle rovine di un tempio romano",
+            "Su un castello",
+            "Su un palazzo"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l1-e3",
+          "stage": "practise",
+          "audioText": "Siamo davanti alla basilica, costruita nel dodicesimo secolo sulle rovine di un tempio romano. Notate la facciata: i marmi bianchi e verdi sono tipici dello stile romanico toscano. All'interno, invece, la decorazione è molto più tarda, barocca, perché nel Seicento la chiesa fu completamente rinnovata. Vi prego di fare attenzione al pavimento: sotto la navata centrale sono stati scoperti, durante un restauro, i resti di un mosaico. Purtroppo non è visitabile tutto l'anno, ma le visite guidate riprendono in primavera. Ora, se volete seguirmi, passiamo al chiostro, uno dei luoghi più silenziosi della città. Mi raccomando, non toccate le colonne.",
+          "question": "Di che stile è l'interno?",
+          "options": [
+            "Romanico",
+            "Gotico",
+            "Barocco"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l1-e4",
+          "stage": "practise",
+          "audioText": "Siamo davanti alla basilica, costruita nel dodicesimo secolo sulle rovine di un tempio romano. Notate la facciata: i marmi bianchi e verdi sono tipici dello stile romanico toscano. All'interno, invece, la decorazione è molto più tarda, barocca, perché nel Seicento la chiesa fu completamente rinnovata. Vi prego di fare attenzione al pavimento: sotto la navata centrale sono stati scoperti, durante un restauro, i resti di un mosaico. Purtroppo non è visitabile tutto l'anno, ma le visite guidate riprendono in primavera. Ora, se volete seguirmi, passiamo al chiostro, uno dei luoghi più silenziosi della città. Mi raccomando, non toccate le colonne.",
+          "question": "Che cosa è stato scoperto sotto la navata?",
+          "options": [
+            "Una tomba",
+            "Un tesoro",
+            "Un mosaico"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l1-e5",
+          "stage": "practise",
+          "audioText": "Siamo davanti alla basilica, costruita nel dodicesimo secolo sulle rovine di un tempio romano. Notate la facciata: i marmi bianchi e verdi sono tipici dello stile romanico toscano. All'interno, invece, la decorazione è molto più tarda, barocca, perché nel Seicento la chiesa fu completamente rinnovata. Vi prego di fare attenzione al pavimento: sotto la navata centrale sono stati scoperti, durante un restauro, i resti di un mosaico. Purtroppo non è visitabile tutto l'anno, ma le visite guidate riprendono in primavera. Ora, se volete seguirmi, passiamo al chiostro, uno dei luoghi più silenziosi della città. Mi raccomando, non toccate le colonne.",
+          "question": "Dove vanno ora?",
+          "options": [
+            "Nel chiostro",
+            "Nella cripta",
+            "Sul campanile"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l1-c1",
+          "stage": "learn",
+          "front": "il chiostro",
+          "back": "cloister",
+          "example": "Ora, se volete seguirmi, passiamo al chiostro, uno dei luoghi più silenziosi della città."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l1-c2",
+          "stage": "learn",
+          "front": "la navata",
+          "back": "nave",
+          "example": "Vi prego di fare attenzione al pavimento: sotto la navata centrale sono stati scoperti, durante un restauro, i resti di un mosaico."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-02-l2",
+      "title": "Previsioni del tempo",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-02-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l2-e2",
+          "stage": "practise",
+          "audioText": "Ecco le previsioni per domani. Al nord, la giornata inizierà con nebbia fitta nelle pianure, che si dissolverà verso mezzogiorno lasciando spazio a un cielo parzialmente nuvoloso. Al centro sono attese piogge sparse, più intense sulla costa tirrenica, dove non si escludono temporali in serata. Il sud vivrà una giornata soleggiata, con temperature insolitamente alte per la stagione, fino a ventidue gradi a Palermo. I venti soffieranno da ovest, con raffiche sostenute sui mari. Nel fine settimana è previsto un brusco calo termico a causa dell'arrivo di una perturbazione dal nord Europa.",
+          "question": "Com'è il tempo al nord al mattino?",
+          "options": [
+            "Piovoso",
+            "Nebbioso",
+            "Soleggiato"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l2-e3",
+          "stage": "practise",
+          "audioText": "Ecco le previsioni per domani. Al nord, la giornata inizierà con nebbia fitta nelle pianure, che si dissolverà verso mezzogiorno lasciando spazio a un cielo parzialmente nuvoloso. Al centro sono attese piogge sparse, più intense sulla costa tirrenica, dove non si escludono temporali in serata. Il sud vivrà una giornata soleggiata, con temperature insolitamente alte per la stagione, fino a ventidue gradi a Palermo. I venti soffieranno da ovest, con raffiche sostenute sui mari. Nel fine settimana è previsto un brusco calo termico a causa dell'arrivo di una perturbazione dal nord Europa.",
+          "question": "Dove sono possibili temporali?",
+          "options": [
+            "Sulla costa tirrenica",
+            "Al nord",
+            "In Sicilia"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l2-e4",
+          "stage": "practise",
+          "audioText": "Ecco le previsioni per domani. Al nord, la giornata inizierà con nebbia fitta nelle pianure, che si dissolverà verso mezzogiorno lasciando spazio a un cielo parzialmente nuvoloso. Al centro sono attese piogge sparse, più intense sulla costa tirrenica, dove non si escludono temporali in serata. Il sud vivrà una giornata soleggiata, con temperature insolitamente alte per la stagione, fino a ventidue gradi a Palermo. I venti soffieranno da ovest, con raffiche sostenute sui mari. Nel fine settimana è previsto un brusco calo termico a causa dell'arrivo di una perturbazione dal nord Europa.",
+          "question": "Com'è la temperatura al sud?",
+          "options": [
+            "Insolitamente alta",
+            "Molto bassa",
+            "Normale"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l2-e5",
+          "stage": "practise",
+          "audioText": "Ecco le previsioni per domani. Al nord, la giornata inizierà con nebbia fitta nelle pianure, che si dissolverà verso mezzogiorno lasciando spazio a un cielo parzialmente nuvoloso. Al centro sono attese piogge sparse, più intense sulla costa tirrenica, dove non si escludono temporali in serata. Il sud vivrà una giornata soleggiata, con temperature insolitamente alte per la stagione, fino a ventidue gradi a Palermo. I venti soffieranno da ovest, con raffiche sostenute sui mari. Nel fine settimana è previsto un brusco calo termico a causa dell'arrivo di una perturbazione dal nord Europa.",
+          "question": "Che cosa arriva nel fine settimana?",
+          "options": [
+            "Un calo di temperatura",
+            "Un'ondata di caldo",
+            "Una tempesta di neve"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l2-c1",
+          "stage": "learn",
+          "front": "la nebbia",
+          "back": "fog"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l2-c2",
+          "stage": "learn",
+          "front": "la perturbazione",
+          "back": "weather system",
+          "example": "Nel fine settimana è previsto un brusco calo termico a causa dell'arrivo di una perturbazione dal nord Europa."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-02-l3",
+      "title": "Una vecchia osteria",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-02-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l3-e2",
+          "stage": "practise",
+          "audioText": "Mio nonno gestiva un'osteria in un paesino dell'Appennino. Non c'era un menù: la nonna cucinava quel che aveva, e i clienti, per lo più contadini, mangiavano ciò che trovavano nel piatto. Ricordo il profumo del sugo che usciva dalla cucina e il tintinnio dei bicchieri. Si giocava a carte fino a tardi, e guai a rovinare la partita! Negli anni Settanta, con l'emigrazione verso le città, l'osteria cominciò a svuotarsi, e il nonno la chiuse. Oggi al suo posto c'è un bar moderno, ma ogni volta che ci passo mi sembra ancora di sentire quel profumo.",
+          "question": "Che cosa gestiva il nonno?",
+          "options": [
+            "Un negozio",
+            "Una fattoria",
+            "Un'osteria"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l3-e3",
+          "stage": "practise",
+          "audioText": "Mio nonno gestiva un'osteria in un paesino dell'Appennino. Non c'era un menù: la nonna cucinava quel che aveva, e i clienti, per lo più contadini, mangiavano ciò che trovavano nel piatto. Ricordo il profumo del sugo che usciva dalla cucina e il tintinnio dei bicchieri. Si giocava a carte fino a tardi, e guai a rovinare la partita! Negli anni Settanta, con l'emigrazione verso le città, l'osteria cominciò a svuotarsi, e il nonno la chiuse. Oggi al suo posto c'è un bar moderno, ma ogni volta che ci passo mi sembra ancora di sentire quel profumo.",
+          "question": "Perché non c'era menù?",
+          "options": [
+            "Era troppo caro",
+            "La nonna cucinava quel che aveva",
+            "Era vietato"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l3-e4",
+          "stage": "practise",
+          "audioText": "Mio nonno gestiva un'osteria in un paesino dell'Appennino. Non c'era un menù: la nonna cucinava quel che aveva, e i clienti, per lo più contadini, mangiavano ciò che trovavano nel piatto. Ricordo il profumo del sugo che usciva dalla cucina e il tintinnio dei bicchieri. Si giocava a carte fino a tardi, e guai a rovinare la partita! Negli anni Settanta, con l'emigrazione verso le città, l'osteria cominciò a svuotarsi, e il nonno la chiuse. Oggi al suo posto c'è un bar moderno, ma ogni volta che ci passo mi sembra ancora di sentire quel profumo.",
+          "question": "Perché l'osteria si svuotò?",
+          "options": [
+            "Per la guerra",
+            "Per l'emigrazione verso le città",
+            "Per un incendio"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l3-e5",
+          "stage": "practise",
+          "audioText": "Mio nonno gestiva un'osteria in un paesino dell'Appennino. Non c'era un menù: la nonna cucinava quel che aveva, e i clienti, per lo più contadini, mangiavano ciò che trovavano nel piatto. Ricordo il profumo del sugo che usciva dalla cucina e il tintinnio dei bicchieri. Si giocava a carte fino a tardi, e guai a rovinare la partita! Negli anni Settanta, con l'emigrazione verso le città, l'osteria cominciò a svuotarsi, e il nonno la chiuse. Oggi al suo posto c'è un bar moderno, ma ogni volta che ci passo mi sembra ancora di sentire quel profumo.",
+          "question": "Che cosa c'è oggi nel locale?",
+          "options": [
+            "Una casa",
+            "Un museo",
+            "Un bar moderno"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l3-c1",
+          "stage": "learn",
+          "front": "l'osteria",
+          "back": "inn, tavern",
+          "example": "Mio nonno gestiva un'osteria in un paesino dell'Appennino."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l3-c2",
+          "stage": "learn",
+          "front": "il tintinnio",
+          "back": "clinking",
+          "example": "Ricordo il profumo del sugo che usciva dalla cucina e il tintinnio dei bicchieri."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-02-l4",
+      "title": "Festival e tradizioni",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-02-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l4-e2",
+          "stage": "practise",
+          "audioText": "Ogni anno, a metà agosto, il nostro paese celebra la festa del patrono con una processione che attraversa le vie del centro storico. Le famiglie espongono alle finestre coperte ricamate, e le strade si riempiono di bancarelle. Il momento più atteso è la corsa dei carretti, una gara che risale a prima dell'Ottocento. Negli ultimi anni, tuttavia, la festa ha rischiato di scomparire: molti giovani lavorano altrove e i costi di organizzazione sono saliti. Per questo l'associazione culturale ha lanciato una raccolta fondi e ha coinvolto le scuole, perché i ragazzi imparino le tradizioni. L'obiettivo è tramandarle senza trasformarle in uno spettacolo per turisti.",
+          "question": "Quando si celebra la festa?",
+          "options": [
+            "A metà agosto",
+            "A Natale",
+            "In primavera"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l4-e3",
+          "stage": "practise",
+          "audioText": "Ogni anno, a metà agosto, il nostro paese celebra la festa del patrono con una processione che attraversa le vie del centro storico. Le famiglie espongono alle finestre coperte ricamate, e le strade si riempiono di bancarelle. Il momento più atteso è la corsa dei carretti, una gara che risale a prima dell'Ottocento. Negli ultimi anni, tuttavia, la festa ha rischiato di scomparire: molti giovani lavorano altrove e i costi di organizzazione sono saliti. Per questo l'associazione culturale ha lanciato una raccolta fondi e ha coinvolto le scuole, perché i ragazzi imparino le tradizioni. L'obiettivo è tramandarle senza trasformarle in uno spettacolo per turisti.",
+          "question": "Che cosa espongono le famiglie?",
+          "options": [
+            "Bandiere",
+            "Coperte ricamate",
+            "Fiori"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l4-e4",
+          "stage": "practise",
+          "audioText": "Ogni anno, a metà agosto, il nostro paese celebra la festa del patrono con una processione che attraversa le vie del centro storico. Le famiglie espongono alle finestre coperte ricamate, e le strade si riempiono di bancarelle. Il momento più atteso è la corsa dei carretti, una gara che risale a prima dell'Ottocento. Negli ultimi anni, tuttavia, la festa ha rischiato di scomparire: molti giovani lavorano altrove e i costi di organizzazione sono saliti. Per questo l'associazione culturale ha lanciato una raccolta fondi e ha coinvolto le scuole, perché i ragazzi imparino le tradizioni. L'obiettivo è tramandarle senza trasformarle in uno spettacolo per turisti.",
+          "question": "Perché la festa ha rischiato di scomparire?",
+          "options": [
+            "Il maltempo",
+            "Mancanza di turisti",
+            "Giovani lontani e costi alti"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-02-l4-e5",
+          "stage": "practise",
+          "audioText": "Ogni anno, a metà agosto, il nostro paese celebra la festa del patrono con una processione che attraversa le vie del centro storico. Le famiglie espongono alle finestre coperte ricamate, e le strade si riempiono di bancarelle. Il momento più atteso è la corsa dei carretti, una gara che risale a prima dell'Ottocento. Negli ultimi anni, tuttavia, la festa ha rischiato di scomparire: molti giovani lavorano altrove e i costi di organizzazione sono saliti. Per questo l'associazione culturale ha lanciato una raccolta fondi e ha coinvolto le scuole, perché i ragazzi imparino le tradizioni. L'obiettivo è tramandarle senza trasformarle in uno spettacolo per turisti.",
+          "question": "Qual è l'obiettivo dell'associazione?",
+          "options": [
+            "Attirare più turisti",
+            "Tramandare le tradizioni senza spettacolarizzarle",
+            "Aumentare i prezzi"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l4-c1",
+          "stage": "learn",
+          "front": "il patrono",
+          "back": "patron saint",
+          "example": "Ogni anno, a metà agosto, il nostro paese celebra la festa del patrono con una processione che attraversa le vie del centro storico."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-02-l4-c2",
+          "stage": "learn",
+          "front": "tramandare",
+          "back": "to hand down"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il chiostro",
+      "en": "cloister",
+      "example": "Ora, se volete seguirmi, passiamo al chiostro, uno dei luoghi più silenziosi della città."
+    },
+    {
+      "it": "la navata",
+      "en": "nave",
+      "example": "Vi prego di fare attenzione al pavimento: sotto la navata centrale sono stati scoperti, durante un restauro, i resti di un mosaico."
+    },
+    {
+      "it": "la nebbia",
+      "en": "fog"
+    },
+    {
+      "it": "la perturbazione",
+      "en": "weather system",
+      "example": "Nel fine settimana è previsto un brusco calo termico a causa dell'arrivo di una perturbazione dal nord Europa."
+    },
+    {
+      "it": "l'osteria",
+      "en": "inn, tavern",
+      "example": "Mio nonno gestiva un'osteria in un paesino dell'Appennino."
+    },
+    {
+      "it": "il tintinnio",
+      "en": "clinking",
+      "example": "Ricordo il profumo del sugo che usciva dalla cucina e il tintinnio dei bicchieri."
+    },
+    {
+      "it": "il patrono",
+      "en": "patron saint",
+      "example": "Ogni anno, a metà agosto, il nostro paese celebra la festa del patrono con una processione che attraversa le vie del centro storico."
+    },
+    {
+      "it": "tramandare",
+      "en": "to hand down"
+    }
+  ]
+}

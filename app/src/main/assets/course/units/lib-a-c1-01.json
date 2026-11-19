@@ -1,0 +1,401 @@
+{
+  "id": "lib-a-c1-01",
+  "level": "ASC",
+  "title": "Lavoro e dibattito",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello C1 (circa 111 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-c1-01-l1",
+      "title": "Intervista sul lavoro agile",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-01-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l1-e2",
+          "stage": "practise",
+          "audioText": "Allora, dottoressa Bianchi, lei dirige un'azienda che da tre anni ha adottato il lavoro agile. Quali sono i risultati? Devo dire che sono stati superiori alle aspettative. All'inizio temevamo un calo della produttività, invece è successo il contrario: i dipendenti si sentono più responsabilizzati e le assenze per malattia sono diminuite di un quinto. Certo, non è tutto rose e fiori. Lavorare da casa rischia di isolare le persone, e abbiamo dovuto introdurre due giorni di presenza obbligatoria per mantenere coeso il gruppo. Inoltre, non tutte le mansioni si prestano a questa formula. Per chi lavora a contatto con il pubblico, per esempio, è impensabile. Quindi lo consiglierebbe a tutti? Non indistintamente: va calibrato sulle esigenze di ciascuna azienda.",
+          "question": "Come sono stati i risultati rispetto alle attese?",
+          "options": [
+            "Peggiori del previsto",
+            "Uguali alle attese",
+            "Migliori del previsto"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l1-e3",
+          "stage": "practise",
+          "audioText": "Allora, dottoressa Bianchi, lei dirige un'azienda che da tre anni ha adottato il lavoro agile. Quali sono i risultati? Devo dire che sono stati superiori alle aspettative. All'inizio temevamo un calo della produttività, invece è successo il contrario: i dipendenti si sentono più responsabilizzati e le assenze per malattia sono diminuite di un quinto. Certo, non è tutto rose e fiori. Lavorare da casa rischia di isolare le persone, e abbiamo dovuto introdurre due giorni di presenza obbligatoria per mantenere coeso il gruppo. Inoltre, non tutte le mansioni si prestano a questa formula. Per chi lavora a contatto con il pubblico, per esempio, è impensabile. Quindi lo consiglierebbe a tutti? Non indistintamente: va calibrato sulle esigenze di ciascuna azienda.",
+          "question": "Che cosa è successo alle assenze per malattia?",
+          "options": [
+            "Sono aumentate",
+            "Sono diminuite",
+            "Sono rimaste uguali"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l1-e4",
+          "stage": "practise",
+          "audioText": "Allora, dottoressa Bianchi, lei dirige un'azienda che da tre anni ha adottato il lavoro agile. Quali sono i risultati? Devo dire che sono stati superiori alle aspettative. All'inizio temevamo un calo della produttività, invece è successo il contrario: i dipendenti si sentono più responsabilizzati e le assenze per malattia sono diminuite di un quinto. Certo, non è tutto rose e fiori. Lavorare da casa rischia di isolare le persone, e abbiamo dovuto introdurre due giorni di presenza obbligatoria per mantenere coeso il gruppo. Inoltre, non tutte le mansioni si prestano a questa formula. Per chi lavora a contatto con il pubblico, per esempio, è impensabile. Quindi lo consiglierebbe a tutti? Non indistintamente: va calibrato sulle esigenze di ciascuna azienda.",
+          "question": "Perché sono stati introdotti due giorni di presenza?",
+          "options": [
+            "Per ridurre i costi",
+            "Per controllare i dipendenti",
+            "Per non isolare il gruppo"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l1-e5",
+          "stage": "practise",
+          "audioText": "Allora, dottoressa Bianchi, lei dirige un'azienda che da tre anni ha adottato il lavoro agile. Quali sono i risultati? Devo dire che sono stati superiori alle aspettative. All'inizio temevamo un calo della produttività, invece è successo il contrario: i dipendenti si sentono più responsabilizzati e le assenze per malattia sono diminuite di un quinto. Certo, non è tutto rose e fiori. Lavorare da casa rischia di isolare le persone, e abbiamo dovuto introdurre due giorni di presenza obbligatoria per mantenere coeso il gruppo. Inoltre, non tutte le mansioni si prestano a questa formula. Per chi lavora a contatto con il pubblico, per esempio, è impensabile. Quindi lo consiglierebbe a tutti? Non indistintamente: va calibrato sulle esigenze di ciascuna azienda.",
+          "question": "Qual è la posizione finale della dottoressa?",
+          "options": [
+            "Va adottato da tutti",
+            "Va abbandonato",
+            "Va adattato a ogni azienda"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l1-c1",
+          "stage": "learn",
+          "front": "le mansioni",
+          "back": "duties, tasks",
+          "example": "Inoltre, non tutte le mansioni si prestano a questa formula."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l1-c2",
+          "stage": "learn",
+          "front": "coeso",
+          "back": "cohesive"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-01-l2",
+      "title": "Dibattito sul dialetto",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-01-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l2-e2",
+          "stage": "practise",
+          "audioText": "Io non sono d'accordo con chi considera i dialetti un residuo del passato. Sono lingue vive, con una storia letteraria che risale al Medioevo. Certo, l'italiano standard ha unificato il paese, e sarebbe assurdo negarlo, ma l'unità non ha bisogno dell'uniformità. Ribatto, però, che molti giovani non parlano più il dialetto dei nonni, e la scuola ha poche risorse per recuperarlo. Verissimo, ma proprio per questo bisognerebbe intervenire: una lingua che muore porta con sé un modo di guardare il mondo. Concordo sul valore culturale, ma temo che imporre il dialetto a scuola creerebbe disparità tra le regioni. Forse la soluzione sta nel mezzo: laboratori facoltativi, senza obbligo né voti.",
+          "question": "Che cosa sostiene il primo interlocutore sui dialetti?",
+          "options": [
+            "Sono scomparsi",
+            "Sono lingue vive",
+            "Sono inferiori all'italiano"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l2-e3",
+          "stage": "practise",
+          "audioText": "Io non sono d'accordo con chi considera i dialetti un residuo del passato. Sono lingue vive, con una storia letteraria che risale al Medioevo. Certo, l'italiano standard ha unificato il paese, e sarebbe assurdo negarlo, ma l'unità non ha bisogno dell'uniformità. Ribatto, però, che molti giovani non parlano più il dialetto dei nonni, e la scuola ha poche risorse per recuperarlo. Verissimo, ma proprio per questo bisognerebbe intervenire: una lingua che muore porta con sé un modo di guardare il mondo. Concordo sul valore culturale, ma temo che imporre il dialetto a scuola creerebbe disparità tra le regioni. Forse la soluzione sta nel mezzo: laboratori facoltativi, senza obbligo né voti.",
+          "question": "Qual è la preoccupazione sui giovani?",
+          "options": [
+            "Parlano troppi dialetti",
+            "Non studiano l'italiano",
+            "Non parlano più il dialetto"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l2-e4",
+          "stage": "practise",
+          "audioText": "Io non sono d'accordo con chi considera i dialetti un residuo del passato. Sono lingue vive, con una storia letteraria che risale al Medioevo. Certo, l'italiano standard ha unificato il paese, e sarebbe assurdo negarlo, ma l'unità non ha bisogno dell'uniformità. Ribatto, però, che molti giovani non parlano più il dialetto dei nonni, e la scuola ha poche risorse per recuperarlo. Verissimo, ma proprio per questo bisognerebbe intervenire: una lingua che muore porta con sé un modo di guardare il mondo. Concordo sul valore culturale, ma temo che imporre il dialetto a scuola creerebbe disparità tra le regioni. Forse la soluzione sta nel mezzo: laboratori facoltativi, senza obbligo né voti.",
+          "question": "Che rischio vede il secondo interlocutore?",
+          "options": [
+            "Troppi costi",
+            "Disparità tra regioni",
+            "Confusione tra lingue"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l2-e5",
+          "stage": "practise",
+          "audioText": "Io non sono d'accordo con chi considera i dialetti un residuo del passato. Sono lingue vive, con una storia letteraria che risale al Medioevo. Certo, l'italiano standard ha unificato il paese, e sarebbe assurdo negarlo, ma l'unità non ha bisogno dell'uniformità. Ribatto, però, che molti giovani non parlano più il dialetto dei nonni, e la scuola ha poche risorse per recuperarlo. Verissimo, ma proprio per questo bisognerebbe intervenire: una lingua che muore porta con sé un modo di guardare il mondo. Concordo sul valore culturale, ma temo che imporre il dialetto a scuola creerebbe disparità tra le regioni. Forse la soluzione sta nel mezzo: laboratori facoltativi, senza obbligo né voti.",
+          "question": "Quale soluzione propongono alla fine?",
+          "options": [
+            "Corsi obbligatori",
+            "Laboratori facoltativi senza voti",
+            "Abolire i dialetti"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l2-c1",
+          "stage": "learn",
+          "front": "ribattere",
+          "back": "to retort"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l2-c2",
+          "stage": "learn",
+          "front": "la disparità",
+          "back": "inequality",
+          "example": "Concordo sul valore culturale, ma temo che imporre il dialetto a scuola creerebbe disparità tra le regioni."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-01-l3",
+      "title": "Il call center",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-01-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l3-e2",
+          "stage": "practise",
+          "audioText": "Scusi se la disturbo, ma sto ancora aspettando la risposta al mio reclamo di tre settimane fa. Capisco il suo disagio, signor Greco, e le chiedo scusa a nome dell'azienda. Purtroppo il suo fascicolo è stato assegnato al reparto sbagliato e questo ha causato il ritardo. Sa, non è la prima volta che mi capita: l'anno scorso ho dovuto telefonare cinque volte per un rimborso. Mi dispiace molto. Faccio così: segnalo la pratica come urgente e le garantisco una risposta scritta entro quarantotto ore. Se non la riceve, mi richiami direttamente e chieda di me. Mi chiamo Elisa. La ringrazio, ma preferirei un'indicazione più precisa sul rimborso. Entro venerdì, glielo assicuro.",
+          "question": "Perché il cliente telefona?",
+          "options": [
+            "Per aprire un contratto",
+            "Per un reclamo senza risposta",
+            "Per cambiare numero"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l3-e3",
+          "stage": "practise",
+          "audioText": "Scusi se la disturbo, ma sto ancora aspettando la risposta al mio reclamo di tre settimane fa. Capisco il suo disagio, signor Greco, e le chiedo scusa a nome dell'azienda. Purtroppo il suo fascicolo è stato assegnato al reparto sbagliato e questo ha causato il ritardo. Sa, non è la prima volta che mi capita: l'anno scorso ho dovuto telefonare cinque volte per un rimborso. Mi dispiace molto. Faccio così: segnalo la pratica come urgente e le garantisco una risposta scritta entro quarantotto ore. Se non la riceve, mi richiami direttamente e chieda di me. Mi chiamo Elisa. La ringrazio, ma preferirei un'indicazione più precisa sul rimborso. Entro venerdì, glielo assicuro.",
+          "question": "Che cosa ha causato il ritardo?",
+          "options": [
+            "Il fascicolo è finito nel reparto sbagliato",
+            "Un guasto informatico",
+            "Le ferie del personale"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l3-e4",
+          "stage": "practise",
+          "audioText": "Scusi se la disturbo, ma sto ancora aspettando la risposta al mio reclamo di tre settimane fa. Capisco il suo disagio, signor Greco, e le chiedo scusa a nome dell'azienda. Purtroppo il suo fascicolo è stato assegnato al reparto sbagliato e questo ha causato il ritardo. Sa, non è la prima volta che mi capita: l'anno scorso ho dovuto telefonare cinque volte per un rimborso. Mi dispiace molto. Faccio così: segnalo la pratica come urgente e le garantisco una risposta scritta entro quarantotto ore. Se non la riceve, mi richiami direttamente e chieda di me. Mi chiamo Elisa. La ringrazio, ma preferirei un'indicazione più precisa sul rimborso. Entro venerdì, glielo assicuro.",
+          "question": "Che cosa promette Elisa?",
+          "options": [
+            "Un rimborso immediato",
+            "Una telefonata ogni giorno",
+            "Una risposta scritta in quarantotto ore"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l3-e5",
+          "stage": "practise",
+          "audioText": "Scusi se la disturbo, ma sto ancora aspettando la risposta al mio reclamo di tre settimane fa. Capisco il suo disagio, signor Greco, e le chiedo scusa a nome dell'azienda. Purtroppo il suo fascicolo è stato assegnato al reparto sbagliato e questo ha causato il ritardo. Sa, non è la prima volta che mi capita: l'anno scorso ho dovuto telefonare cinque volte per un rimborso. Mi dispiace molto. Faccio così: segnalo la pratica come urgente e le garantisco una risposta scritta entro quarantotto ore. Se non la riceve, mi richiami direttamente e chieda di me. Mi chiamo Elisa. La ringrazio, ma preferirei un'indicazione più precisa sul rimborso. Entro venerdì, glielo assicuro.",
+          "question": "Entro quando verrà indicato il rimborso?",
+          "options": [
+            "Entro un mese",
+            "Entro venerdì",
+            "Entro stasera"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l3-c1",
+          "stage": "learn",
+          "front": "il reclamo",
+          "back": "complaint",
+          "example": "Scusi se la disturbo, ma sto ancora aspettando la risposta al mio reclamo di tre settimane fa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l3-c2",
+          "stage": "learn",
+          "front": "la pratica",
+          "back": "case file",
+          "example": "Faccio così: segnalo la pratica come urgente e le garantisco una risposta scritta entro quarantotto ore."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-c1-01-l4",
+      "title": "Radio: economia",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-c1-01-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l4-e2",
+          "stage": "practise",
+          "audioText": "Buonasera, ecco le notizie economiche. L'inflazione ha rallentato per il terzo mese consecutivo, attestandosi al due virgola cinque per cento, ma i prezzi dei prodotti alimentari continuano a salire. Secondo gli analisti, la ripresa dei consumi resta fragile: le famiglie spendono con cautela e preferiscono risparmiare. Sul fronte del lavoro, il tasso di disoccupazione scende leggermente, ma resta alto tra i giovani, dove supera il venti per cento. Il governo ha annunciato incentivi per le imprese che assumono under trenta, misura che i sindacati giudicano utile ma insufficiente. Per il prossimo trimestre si prevede una crescita contenuta, intorno allo zero virgola otto per cento.",
+          "question": "Che cosa è successo all'inflazione?",
+          "options": [
+            "Ha rallentato",
+            "È aumentata",
+            "È rimasta stabile"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l4-e3",
+          "stage": "practise",
+          "audioText": "Buonasera, ecco le notizie economiche. L'inflazione ha rallentato per il terzo mese consecutivo, attestandosi al due virgola cinque per cento, ma i prezzi dei prodotti alimentari continuano a salire. Secondo gli analisti, la ripresa dei consumi resta fragile: le famiglie spendono con cautela e preferiscono risparmiare. Sul fronte del lavoro, il tasso di disoccupazione scende leggermente, ma resta alto tra i giovani, dove supera il venti per cento. Il governo ha annunciato incentivi per le imprese che assumono under trenta, misura che i sindacati giudicano utile ma insufficiente. Per il prossimo trimestre si prevede una crescita contenuta, intorno allo zero virgola otto per cento.",
+          "question": "Che cosa continua a salire?",
+          "options": [
+            "Gli stipendi",
+            "I prezzi alimentari",
+            "I tassi di interesse"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l4-e4",
+          "stage": "practise",
+          "audioText": "Buonasera, ecco le notizie economiche. L'inflazione ha rallentato per il terzo mese consecutivo, attestandosi al due virgola cinque per cento, ma i prezzi dei prodotti alimentari continuano a salire. Secondo gli analisti, la ripresa dei consumi resta fragile: le famiglie spendono con cautela e preferiscono risparmiare. Sul fronte del lavoro, il tasso di disoccupazione scende leggermente, ma resta alto tra i giovani, dove supera il venti per cento. Il governo ha annunciato incentivi per le imprese che assumono under trenta, misura che i sindacati giudicano utile ma insufficiente. Per il prossimo trimestre si prevede una crescita contenuta, intorno allo zero virgola otto per cento.",
+          "question": "Dove la disoccupazione resta alta?",
+          "options": [
+            "Tra i pensionati",
+            "Nelle grandi città",
+            "Tra i giovani"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-c1-01-l4-e5",
+          "stage": "practise",
+          "audioText": "Buonasera, ecco le notizie economiche. L'inflazione ha rallentato per il terzo mese consecutivo, attestandosi al due virgola cinque per cento, ma i prezzi dei prodotti alimentari continuano a salire. Secondo gli analisti, la ripresa dei consumi resta fragile: le famiglie spendono con cautela e preferiscono risparmiare. Sul fronte del lavoro, il tasso di disoccupazione scende leggermente, ma resta alto tra i giovani, dove supera il venti per cento. Il governo ha annunciato incentivi per le imprese che assumono under trenta, misura che i sindacati giudicano utile ma insufficiente. Per il prossimo trimestre si prevede una crescita contenuta, intorno allo zero virgola otto per cento.",
+          "question": "Come giudicano gli incentivi i sindacati?",
+          "options": [
+            "Utili ma insufficienti",
+            "Inutili",
+            "Eccellenti"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l4-c1",
+          "stage": "learn",
+          "front": "attestarsi",
+          "back": "to settle at"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-c1-01-l4-c2",
+          "stage": "learn",
+          "front": "gli incentivi",
+          "back": "incentives",
+          "example": "Il governo ha annunciato incentivi per le imprese che assumono under trenta, misura che i sindacati giudicano utile ma insufficiente."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "le mansioni",
+      "en": "duties, tasks",
+      "example": "Inoltre, non tutte le mansioni si prestano a questa formula."
+    },
+    {
+      "it": "coeso",
+      "en": "cohesive"
+    },
+    {
+      "it": "ribattere",
+      "en": "to retort"
+    },
+    {
+      "it": "la disparità",
+      "en": "inequality",
+      "example": "Concordo sul valore culturale, ma temo che imporre il dialetto a scuola creerebbe disparità tra le regioni."
+    },
+    {
+      "it": "il reclamo",
+      "en": "complaint",
+      "example": "Scusi se la disturbo, ma sto ancora aspettando la risposta al mio reclamo di tre settimane fa."
+    },
+    {
+      "it": "la pratica",
+      "en": "case file",
+      "example": "Faccio così: segnalo la pratica come urgente e le garantisco una risposta scritta entro quarantotto ore."
+    },
+    {
+      "it": "attestarsi",
+      "en": "to settle at"
+    },
+    {
+      "it": "gli incentivi",
+      "en": "incentives",
+      "example": "Il governo ha annunciato incentivi per le imprese che assumono under trenta, misura che i sindacati giudicano utile ma insufficiente."
+    }
+  ]
+}
