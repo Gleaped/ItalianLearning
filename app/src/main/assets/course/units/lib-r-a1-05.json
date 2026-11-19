@@ -1,0 +1,581 @@
+{
+  "id": "lib-r-a1-05",
+  "level": "LET",
+  "title": "Salute, viaggi e lavoro",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A1 (circa 48 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a1-05-l1",
+      "title": "Dal medico",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-05-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Dal medico",
+          "passage": "Giulia non sta bene. Ha mal di testa e un po' di febbre. Va dal medico, il dottor Neri. Il dottore le controlla la gola e le dice: «Hai un'influenza. Devi riposare e bere molta acqua». Giulia prende una medicina due volte al giorno. Dopo tre giorni sta meglio.",
+          "questions": [
+            {
+              "question": "Che cosa ha Giulia?",
+              "options": [
+                "Mal di denti",
+                "Mal di schiena",
+                "Mal di testa e febbre"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa deve fare?",
+              "options": [
+                "Andare al lavoro",
+                "Riposare e bere acqua",
+                "Correre"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quando sta meglio?",
+              "options": [
+                "Subito",
+                "Dopo un mese",
+                "Dopo tre giorni"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-05-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Giulia non sta bene. Ha mal di ___ e un po' di febbre. Va dal medico, il ___ Neri. Il ___ le ___ la gola e le dice: «Hai un'influenza. Devi ___ e bere molta acqua».",
+          "gaps": [
+            {
+              "answers": [
+                "testa"
+              ],
+              "options": [
+                "dottor",
+                "controlla",
+                "testa",
+                "dottore",
+                "riposare"
+              ]
+            },
+            {
+              "answers": [
+                "dottor"
+              ],
+              "options": [
+                "dottor",
+                "controlla",
+                "testa",
+                "dottore",
+                "riposare"
+              ]
+            },
+            {
+              "answers": [
+                "dottore"
+              ],
+              "options": [
+                "dottor",
+                "controlla",
+                "testa",
+                "dottore",
+                "riposare"
+              ]
+            },
+            {
+              "answers": [
+                "controlla"
+              ],
+              "options": [
+                "dottor",
+                "controlla",
+                "testa",
+                "dottore",
+                "riposare"
+              ]
+            },
+            {
+              "answers": [
+                "riposare"
+              ],
+              "options": [
+                "dottor",
+                "controlla",
+                "testa",
+                "dottore",
+                "riposare"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l1-c1",
+          "stage": "learn",
+          "front": "la febbre",
+          "back": "fever",
+          "example": "Ha mal di testa e un po' di febbre."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l1-c2",
+          "stage": "learn",
+          "front": "la medicina",
+          "back": "medicine",
+          "example": "Giulia prende una medicina due volte al giorno."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-05-l2",
+      "title": "In treno",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-05-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "In treno",
+          "passage": "Sono sul treno per Firenze. Parte alle nove e dieci dal binario quattro. Il viaggio dura due ore. Ho un biglietto di seconda classe e un posto vicino al finestrino. Accanto a me c'è una signora anziana che legge un libro. Fuori vedo campi verdi e piccole case.",
+          "questions": [
+            {
+              "question": "A che ora parte il treno?",
+              "options": [
+                "Alle dieci",
+                "Alle nove e dieci",
+                "Alle otto"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quanto dura il viaggio?",
+              "options": [
+                "Due ore",
+                "Una ora",
+                "Quattro ore"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Dove è il posto?",
+              "options": [
+                "Vicino al finestrino",
+                "In prima classe",
+                "Nel corridoio"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-05-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Sono sul ___ per Firenze. Parte alle nove e dieci dal ___ quattro. Il viaggio dura due ore. Ho un ___ di seconda classe e un ___ vicino al finestrino. Accanto a me c'è una ___ anziana che legge un libro.",
+          "gaps": [
+            {
+              "answers": [
+                "treno"
+              ],
+              "options": [
+                "signora",
+                "treno",
+                "posto",
+                "biglietto",
+                "binario"
+              ]
+            },
+            {
+              "answers": [
+                "binario"
+              ],
+              "options": [
+                "signora",
+                "treno",
+                "posto",
+                "biglietto",
+                "binario"
+              ]
+            },
+            {
+              "answers": [
+                "biglietto"
+              ],
+              "options": [
+                "signora",
+                "treno",
+                "posto",
+                "biglietto",
+                "binario"
+              ]
+            },
+            {
+              "answers": [
+                "posto"
+              ],
+              "options": [
+                "signora",
+                "treno",
+                "posto",
+                "biglietto",
+                "binario"
+              ]
+            },
+            {
+              "answers": [
+                "signora"
+              ],
+              "options": [
+                "signora",
+                "treno",
+                "posto",
+                "biglietto",
+                "binario"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l2-c1",
+          "stage": "learn",
+          "front": "il binario",
+          "back": "platform",
+          "example": "Parte alle nove e dieci dal binario quattro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l2-c2",
+          "stage": "learn",
+          "front": "il finestrino",
+          "back": "train window",
+          "example": "Ho un biglietto di seconda classe e un posto vicino al finestrino."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-05-l3",
+      "title": "Una festa di compleanno",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-05-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una festa di compleanno",
+          "passage": "Sabato è il compleanno di Elena. Compie trent'anni e fa una festa a casa sua. Invita venti amici. Prepara una grande torta al cioccolato e compra molte bibite. Gli amici portano regali: un libro, un profumo e dei fiori. Tutti cantano «Tanti auguri» e Elena è molto contenta.",
+          "questions": [
+            {
+              "question": "Quanti anni compie Elena?",
+              "options": [
+                "Venti",
+                "Trenta",
+                "Ventidue"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che torta prepara?",
+              "options": [
+                "Al cioccolato",
+                "Alla frutta",
+                "Alla crema"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa cantano gli amici?",
+              "options": [
+                "Una canzone d'amore",
+                "Una canzone di Natale",
+                "Tanti auguri"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-05-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Sabato è il ___ di Elena. Compie trent'anni e fa una festa a casa sua. Invita ___ amici. Prepara una grande ___ al cioccolato e ___ molte bibite. Gli ___ portano regali: un libro, un profumo e dei fiori.",
+          "gaps": [
+            {
+              "answers": [
+                "compleanno"
+              ],
+              "options": [
+                "amici",
+                "compra",
+                "torta",
+                "venti",
+                "compleanno"
+              ]
+            },
+            {
+              "answers": [
+                "venti"
+              ],
+              "options": [
+                "amici",
+                "compra",
+                "torta",
+                "venti",
+                "compleanno"
+              ]
+            },
+            {
+              "answers": [
+                "torta"
+              ],
+              "options": [
+                "amici",
+                "compra",
+                "torta",
+                "venti",
+                "compleanno"
+              ]
+            },
+            {
+              "answers": [
+                "compra"
+              ],
+              "options": [
+                "amici",
+                "compra",
+                "torta",
+                "venti",
+                "compleanno"
+              ]
+            },
+            {
+              "answers": [
+                "amici"
+              ],
+              "options": [
+                "amici",
+                "compra",
+                "torta",
+                "venti",
+                "compleanno"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l3-c1",
+          "stage": "learn",
+          "front": "il regalo",
+          "back": "gift"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l3-c2",
+          "stage": "learn",
+          "front": "la torta",
+          "back": "cake",
+          "example": "Prepara una grande torta al cioccolato e compra molte bibite."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-05-l4",
+      "title": "Un colloquio",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-05-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un colloquio",
+          "passage": "Oggi Sara ha un colloquio di lavoro in un negozio di abbigliamento. Si veste bene e arriva dieci minuti prima. Il direttore le chiede: «Parla inglese?». Lei risponde: «Sì, abbastanza bene». Il direttore sorride e dice: «Può cominciare lunedì». Sara è felicissima e telefona subito a sua madre.",
+          "questions": [
+            {
+              "question": "Dove è il colloquio?",
+              "options": [
+                "In un negozio di abbigliamento",
+                "In una banca",
+                "In un ristorante"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quando arriva Sara?",
+              "options": [
+                "In ritardo",
+                "Alle dieci",
+                "Dieci minuti prima"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quando può cominciare?",
+              "options": [
+                "Lunedì",
+                "Domani",
+                "Venerdì"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-05-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Oggi Sara ha un ___ di lavoro in un ___ di abbigliamento. Si veste bene e ___ dieci minuti prima. Il ___ le chiede: «Parla inglese?». Lei risponde: «Sì, abbastanza bene». Il ___ sorride e dice: «Può cominciare lunedì».",
+          "gaps": [
+            {
+              "answers": [
+                "colloquio"
+              ],
+              "options": [
+                "direttore",
+                "direttore",
+                "colloquio",
+                "negozio",
+                "arriva"
+              ]
+            },
+            {
+              "answers": [
+                "negozio"
+              ],
+              "options": [
+                "direttore",
+                "direttore",
+                "colloquio",
+                "negozio",
+                "arriva"
+              ]
+            },
+            {
+              "answers": [
+                "arriva"
+              ],
+              "options": [
+                "direttore",
+                "direttore",
+                "colloquio",
+                "negozio",
+                "arriva"
+              ]
+            },
+            {
+              "answers": [
+                "direttore"
+              ],
+              "options": [
+                "direttore",
+                "direttore",
+                "colloquio",
+                "negozio",
+                "arriva"
+              ]
+            },
+            {
+              "answers": [
+                "direttore"
+              ],
+              "options": [
+                "direttore",
+                "direttore",
+                "colloquio",
+                "negozio",
+                "arriva"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l4-c1",
+          "stage": "learn",
+          "front": "il colloquio",
+          "back": "job interview",
+          "example": "Oggi Sara ha un colloquio di lavoro in un negozio di abbigliamento."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-05-l4-c2",
+          "stage": "learn",
+          "front": "abbastanza",
+          "back": "quite",
+          "example": "Lei risponde: «Sì, abbastanza bene»."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la febbre",
+      "en": "fever",
+      "example": "Ha mal di testa e un po' di febbre."
+    },
+    {
+      "it": "la medicina",
+      "en": "medicine",
+      "example": "Giulia prende una medicina due volte al giorno."
+    },
+    {
+      "it": "il binario",
+      "en": "platform",
+      "example": "Parte alle nove e dieci dal binario quattro."
+    },
+    {
+      "it": "il finestrino",
+      "en": "train window",
+      "example": "Ho un biglietto di seconda classe e un posto vicino al finestrino."
+    },
+    {
+      "it": "il regalo",
+      "en": "gift"
+    },
+    {
+      "it": "la torta",
+      "en": "cake",
+      "example": "Prepara una grande torta al cioccolato e compra molte bibite."
+    },
+    {
+      "it": "il colloquio",
+      "en": "job interview",
+      "example": "Oggi Sara ha un colloquio di lavoro in un negozio di abbigliamento."
+    },
+    {
+      "it": "abbastanza",
+      "en": "quite",
+      "example": "Lei risponde: «Sì, abbastanza bene»."
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "id": "lib-a-a1-05",
+  "level": "ASC",
+  "title": "Negozi, routine e informazioni",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A1 (circa 42 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a1-05-l1",
+      "title": "Il negozio di scarpe",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-05-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l1-e2",
+          "stage": "practise",
+          "audioText": "Buonasera. Cerco un paio di scarpe nere. Che numero porta? Il quarantadue. Ecco questo modello: costa ottanta euro. Sono belle, ma un po' care. Oggi c'è lo sconto del venti per cento. Allora le prendo. Paga in contanti o con la carta?",
+          "question": "Che colore cerca?",
+          "options": [
+            "Marrone",
+            "Bianco",
+            "Nero"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l1-e3",
+          "stage": "practise",
+          "audioText": "Buonasera. Cerco un paio di scarpe nere. Che numero porta? Il quarantadue. Ecco questo modello: costa ottanta euro. Sono belle, ma un po' care. Oggi c'è lo sconto del venti per cento. Allora le prendo. Paga in contanti o con la carta?",
+          "question": "Che numero porta?",
+          "options": [
+            "Quarantadue",
+            "Trentotto",
+            "Quaranta"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l1-e4",
+          "stage": "practise",
+          "audioText": "Buonasera. Cerco un paio di scarpe nere. Che numero porta? Il quarantadue. Ecco questo modello: costa ottanta euro. Sono belle, ma un po' care. Oggi c'è lo sconto del venti per cento. Allora le prendo. Paga in contanti o con la carta?",
+          "question": "Quanto è lo sconto?",
+          "options": [
+            "Dieci per cento",
+            "Cinquanta per cento",
+            "Venti per cento"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l1-c1",
+          "stage": "learn",
+          "front": "lo sconto",
+          "back": "discount",
+          "example": "Oggi c'è lo sconto del venti per cento."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l1-c2",
+          "stage": "learn",
+          "front": "in contanti",
+          "back": "in cash",
+          "example": "Paga in contanti o con la carta?"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-05-l2",
+      "title": "La mia routine",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-05-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l2-e2",
+          "stage": "practise",
+          "audioText": "Mi alzo alle sei e mezza e faccio una doccia. Bevo un caffè e vado al lavoro in bicicletta. Lavoro in un ufficio in centro. Mangio alle una con i colleghi. La sera vado in palestra e poi torno a casa. Guardo un po' di televisione e dormo alle undici.",
+          "question": "Come va al lavoro?",
+          "options": [
+            "In autobus",
+            "A piedi",
+            "In bicicletta"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l2-e3",
+          "stage": "practise",
+          "audioText": "Mi alzo alle sei e mezza e faccio una doccia. Bevo un caffè e vado al lavoro in bicicletta. Lavoro in un ufficio in centro. Mangio alle una con i colleghi. La sera vado in palestra e poi torno a casa. Guardo un po' di televisione e dormo alle undici.",
+          "question": "Dove va la sera?",
+          "options": [
+            "In palestra",
+            "Al cinema",
+            "Al bar"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l2-e4",
+          "stage": "practise",
+          "audioText": "Mi alzo alle sei e mezza e faccio una doccia. Bevo un caffè e vado al lavoro in bicicletta. Lavoro in un ufficio in centro. Mangio alle una con i colleghi. La sera vado in palestra e poi torno a casa. Guardo un po' di televisione e dormo alle undici.",
+          "question": "A che ora dorme?",
+          "options": [
+            "Alle undici",
+            "Alle dieci",
+            "Alla mezzanotte"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l2-c1",
+          "stage": "learn",
+          "front": "la palestra",
+          "back": "gym",
+          "example": "La sera vado in palestra e poi torno a casa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l2-c2",
+          "stage": "learn",
+          "front": "in centro",
+          "back": "downtown",
+          "example": "Lavoro in un ufficio in centro."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-05-l3",
+      "title": "Informazioni turistiche",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-05-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l3-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei una mappa della città. Certo, ecco. Siamo qui, in piazza Garibaldi. Il museo è a destra, vicino alla chiesa. È aperto dalle nove alle cinque. Il biglietto costa otto euro. Per gli studenti costa solo quattro euro. Grazie mille!",
+          "question": "Che cosa chiede il turista?",
+          "options": [
+            "Un taxi",
+            "Un hotel",
+            "Una mappa"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l3-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei una mappa della città. Certo, ecco. Siamo qui, in piazza Garibaldi. Il museo è a destra, vicino alla chiesa. È aperto dalle nove alle cinque. Il biglietto costa otto euro. Per gli studenti costa solo quattro euro. Grazie mille!",
+          "question": "Dov'è il museo?",
+          "options": [
+            "A sinistra",
+            "Dietro la stazione",
+            "A destra, vicino alla chiesa"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l3-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei una mappa della città. Certo, ecco. Siamo qui, in piazza Garibaldi. Il museo è a destra, vicino alla chiesa. È aperto dalle nove alle cinque. Il biglietto costa otto euro. Per gli studenti costa solo quattro euro. Grazie mille!",
+          "question": "Quanto costa per gli studenti?",
+          "options": [
+            "Otto euro",
+            "Due euro",
+            "Quattro euro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l3-c1",
+          "stage": "learn",
+          "front": "la mappa",
+          "back": "map",
+          "example": "Buongiorno, vorrei una mappa della città."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l3-c2",
+          "stage": "learn",
+          "front": "a destra",
+          "back": "on the right",
+          "example": "Il museo è a destra, vicino alla chiesa."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-05-l4",
+      "title": "Telefonata alla mamma",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-05-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l4-e2",
+          "stage": "practise",
+          "audioText": "Ciao mamma, come stai? Io sto bene. Oggi lavoro fino alle sei, poi vado a fare la spesa. Domenica vengo a pranzo da voi. Posso portare la mia amica Elisa? Ottimo! Salutami papà. Ti voglio bene, ciao!",
+          "question": "Fino a che ora lavora?",
+          "options": [
+            "Fino alle cinque",
+            "Fino a mezzogiorno",
+            "Fino alle sei"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l4-e3",
+          "stage": "practise",
+          "audioText": "Ciao mamma, come stai? Io sto bene. Oggi lavoro fino alle sei, poi vado a fare la spesa. Domenica vengo a pranzo da voi. Posso portare la mia amica Elisa? Ottimo! Salutami papà. Ti voglio bene, ciao!",
+          "question": "Quando va dai genitori?",
+          "options": [
+            "Domenica",
+            "Sabato",
+            "Lunedì"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-05-l4-e4",
+          "stage": "practise",
+          "audioText": "Ciao mamma, come stai? Io sto bene. Oggi lavoro fino alle sei, poi vado a fare la spesa. Domenica vengo a pranzo da voi. Posso portare la mia amica Elisa? Ottimo! Salutami papà. Ti voglio bene, ciao!",
+          "question": "Chi porta?",
+          "options": [
+            "Suo fratello",
+            "La sua amica Elisa",
+            "Un collega"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l4-c1",
+          "stage": "learn",
+          "front": "salutare",
+          "back": "to greet"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-05-l4-c2",
+          "stage": "learn",
+          "front": "ottimo",
+          "back": "great",
+          "example": "Ottimo!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "lo sconto",
+      "en": "discount",
+      "example": "Oggi c'è lo sconto del venti per cento."
+    },
+    {
+      "it": "in contanti",
+      "en": "in cash",
+      "example": "Paga in contanti o con la carta?"
+    },
+    {
+      "it": "la palestra",
+      "en": "gym",
+      "example": "La sera vado in palestra e poi torno a casa."
+    },
+    {
+      "it": "in centro",
+      "en": "downtown",
+      "example": "Lavoro in un ufficio in centro."
+    },
+    {
+      "it": "la mappa",
+      "en": "map",
+      "example": "Buongiorno, vorrei una mappa della città."
+    },
+    {
+      "it": "a destra",
+      "en": "on the right",
+      "example": "Il museo è a destra, vicino alla chiesa."
+    },
+    {
+      "it": "salutare",
+      "en": "to greet"
+    },
+    {
+      "it": "ottimo",
+      "en": "great",
+      "example": "Ottimo!"
+    }
+  ]
+}
