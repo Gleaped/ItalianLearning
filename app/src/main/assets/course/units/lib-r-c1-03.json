@@ -1,0 +1,337 @@
+{
+  "id": "lib-r-c1-03",
+  "level": "LET",
+  "title": "Letteratura e memoria",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello C1 (circa 116 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-c1-03-l1",
+      "title": "Un romanzo che divide",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-03-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un romanzo che divide",
+          "passage": "L'ultimo romanzo di una giovane autrice milanese sta facendo discutere. La storia segue un gruppo di amici trentenni, divisi tra precarietà lavorativa e desiderio di stabilità, in una Milano descritta con distacco quasi cinematografico. Per alcuni critici il libro è una fotografia lucida della generazione che non riesce a «mettere radici»; per altri, invece, è un'opera che indulge troppo ai luoghi comuni, con personaggi poco approfonditi e un finale prevedibile. Il successo di pubblico è comunque indiscutibile: in tre mesi sono state vendute oltre centomila copie. Forse la ragione sta nella capacità dell'autrice di rendere universale l'esperienza personale, senza retorica. Resta da vedere se, passata la moda, il romanzo reggerà alla prova del tempo.",
+          "questions": [
+            {
+              "question": "Di che cosa parla il romanzo?",
+              "options": [
+                "Di una guerra",
+                "Di amici trentenni tra precarietà e desiderio di stabilità",
+                "Di un viaggio",
+                "Di una famiglia nobile"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa rimproverano al libro alcuni critici?",
+              "options": [
+                "La lunghezza",
+                "Lo stile troppo elevato",
+                "I luoghi comuni e il finale prevedibile",
+                "L'ambientazione"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quante copie sono state vendute?",
+              "options": [
+                "Oltre centomila",
+                "Duemila",
+                "Quasi un milione",
+                "Poche centinaia"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa resta da vedere?",
+              "options": [
+                "Se sarà tradotto",
+                "Se il romanzo reggerà alla prova del tempo",
+                "Se vincerà un premio",
+                "Se avrà un seguito"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l1-c1",
+          "stage": "learn",
+          "front": "indulgere a",
+          "back": "to give in to"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l1-c2",
+          "stage": "learn",
+          "front": "reggere alla prova del tempo",
+          "back": "to stand the test of time"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-03-l2",
+      "title": "La memoria dei luoghi",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-03-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La memoria dei luoghi",
+          "passage": "Vi sono luoghi che sembrano trattenere la memoria di chi li ha attraversati. Penso alla stazione di Bologna, dove ogni anno, il due agosto, la città si raccoglie per ricordare le vittime dell'attentato del 1980. L'orologio fermo alle dieci e venticinque, i nomi incisi nel marmo e la crepa lasciata sul muro non sono semplici testimonianze: sono un invito a non dimenticare. La memoria, tuttavia, non è un patrimonio acquisito una volta per tutte. Ha bisogno di essere continuamente rielaborata, soprattutto da chi non ha vissuto quei fatti. Le scuole, i musei e le associazioni dei familiari svolgono in questo un ruolo prezioso, perché trasformano il ricordo individuale in responsabilità collettiva.",
+          "questions": [
+            {
+              "question": "Che cosa si ricorda a Bologna il due agosto?",
+              "options": [
+                "La liberazione",
+                "La fondazione della città",
+                "Un terremoto",
+                "Le vittime dell'attentato del 1980"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa segna l'orologio fermo?",
+              "options": [
+                "L'orario dei treni",
+                "L'ora dell'attentato",
+                "L'ora di chiusura",
+                "Un guasto"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché la memoria va rielaborata?",
+              "options": [
+                "Perché è falsa",
+                "Perché non è un patrimonio acquisito una volta per tutte",
+                "Perché si dimentica subito",
+                "Perché è troppo dolorosa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Chi ha un ruolo prezioso?",
+              "options": [
+                "Scuole, musei e associazioni dei familiari",
+                "Solo i politici",
+                "I giornalisti",
+                "I turisti"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l2-c1",
+          "stage": "learn",
+          "front": "l'attentato",
+          "back": "terrorist attack",
+          "example": "Penso alla stazione di Bologna, dove ogni anno, il due agosto, la città si raccoglie per ricordare le vittime dell'attentato del 1980."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l2-c2",
+          "stage": "learn",
+          "front": "incidere",
+          "back": "to engrave"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-03-l3",
+      "title": "Il silenzio come risorsa",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-03-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il silenzio come risorsa",
+          "passage": "In un'epoca di rumore continuo, il silenzio è diventato un bene raro e, per questo, prezioso. Alcune ricerche sostengono che anche pochi minuti di silenzio al giorno riducano lo stress e migliorino la concentrazione. Non si tratta soltanto dell'assenza di suoni: è la possibilità di ascoltare i propri pensieri senza interferenze. Sempre più persone scelgono ritiri in monasteri o weekend senza telefono, mentre alcune aziende hanno creato «stanze del silenzio» per i dipendenti. C'è chi vede in questa tendenza una moda passeggera, destinata a svanire; altri la considerano una reazione necessaria a un eccesso di stimoli. Probabilmente la verità sta nel mezzo: il silenzio non è una cura, ma un'abitudine, e come ogni abitudine va coltivata con regolarità.",
+          "questions": [
+            {
+              "question": "Perché il silenzio è prezioso oggi?",
+              "options": [
+                "Perché c'è rumore continuo",
+                "Perché è gratuito",
+                "Perché è facile",
+                "Perché è obbligatorio"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa fanno alcune aziende?",
+              "options": [
+                "Vietano le conversazioni",
+                "Riducono l'orario",
+                "Regalano cuffie",
+                "Creano stanze del silenzio"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Come la considerano alcuni?",
+              "options": [
+                "Una legge",
+                "Un obbligo",
+                "Una scienza",
+                "Una moda passeggera"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cos'è il silenzio per l'autore?",
+              "options": [
+                "Una cura",
+                "Un'abitudine da coltivare",
+                "Un lusso",
+                "Un danno"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l3-c1",
+          "stage": "learn",
+          "front": "passeggero",
+          "back": "passing, short-lived"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l3-c2",
+          "stage": "learn",
+          "front": "lo stimolo",
+          "back": "stimulus"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-03-l4",
+      "title": "L'ultimo viaggio di Pavese",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-03-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "L'ultimo viaggio di Pavese",
+          "passage": "Cesare Pavese, nato nel 1908 nelle Langhe, fu uno dei grandi scrittori del Novecento italiano. Traduttore dall'inglese, curatore per la casa editrice Einaudi e autore di romanzi come «La luna e i falò», visse con una malinconia profonda che attraversa tutta la sua opera. Nel 1950, a quarantadue anni, dopo aver vinto il premio Strega, si tolse la vita in una camera d'albergo a Torino. Molti hanno cercato di leggere in quel gesto una chiave per interpretare la sua scrittura, ma i critici più attenti invitano alla cautela: l'opera di Pavese è troppo ricca per essere ridotta a una biografia. Rimane la lezione di uno scrittore che ha saputo dire, con una lingua semplice e densa, la solitudine e la ricerca di un'appartenenza.",
+          "questions": [
+            {
+              "question": "Dove nacque Pavese?",
+              "options": [
+                "A Roma",
+                "A Napoli",
+                "A Palermo",
+                "Nelle Langhe"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa fece per la casa editrice Einaudi?",
+              "options": [
+                "Il tipografo",
+                "Il curatore",
+                "Il librario",
+                "Il giornalista"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa invitano a fare i critici più attenti?",
+              "options": [
+                "A dimenticare l'opera",
+                "A tradurre l'opera",
+                "A studiare solo la vita",
+                "A non ridurre l'opera alla biografia"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa esprime la sua lingua?",
+              "options": [
+                "La solitudine e la ricerca di un'appartenenza",
+                "La gioia",
+                "La politica",
+                "La storia antica"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l4-c1",
+          "stage": "learn",
+          "front": "la malinconia",
+          "back": "melancholy"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-03-l4-c2",
+          "stage": "learn",
+          "front": "la cautela",
+          "back": "caution"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "indulgere a",
+      "en": "to give in to"
+    },
+    {
+      "it": "reggere alla prova del tempo",
+      "en": "to stand the test of time"
+    },
+    {
+      "it": "l'attentato",
+      "en": "terrorist attack",
+      "example": "Penso alla stazione di Bologna, dove ogni anno, il due agosto, la città si raccoglie per ricordare le vittime dell'attentato del 1980."
+    },
+    {
+      "it": "incidere",
+      "en": "to engrave"
+    },
+    {
+      "it": "passeggero",
+      "en": "passing, short-lived"
+    },
+    {
+      "it": "lo stimolo",
+      "en": "stimulus"
+    },
+    {
+      "it": "la malinconia",
+      "en": "melancholy"
+    },
+    {
+      "it": "la cautela",
+      "en": "caution"
+    }
+  ]
+}
