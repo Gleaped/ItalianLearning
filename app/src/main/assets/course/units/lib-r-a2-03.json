@@ -1,0 +1,333 @@
+{
+  "id": "lib-r-a2-03",
+  "level": "LET",
+  "title": "Servizi e viaggi",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A2 (circa 78 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a2-03-l1",
+      "title": "Alla stazione di Napoli",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-03-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Alla stazione di Napoli",
+          "passage": "Il treno per Roma parte alle undici e dieci, ma io sono alla stazione già alle dieci e mezza. Devo comprare il biglietto, quindi faccio la fila alla biglietteria. La signora allo sportello mi dice che il treno ha quindici minuti di ritardo. Perciò vado al bar e prendo un caffè. Guardo il tabellone: il binario è il sette. Quando il treno arriva, salgo, trovo il mio posto vicino al finestrino e mi siedo. Il viaggio dura poco più di un'ora.",
+          "questions": [
+            {
+              "question": "A che ora parte il treno?",
+              "options": [
+                "Alle undici e dieci",
+                "Alle dieci e mezza",
+                "Alle undici e venti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa fa mentre aspetta?",
+              "options": [
+                "Legge un libro",
+                "Prende un caffè",
+                "Telefona"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è il binario?",
+              "options": [
+                "Il dieci",
+                "Il sette",
+                "Il quindici"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quanto dura il viaggio?",
+              "options": [
+                "Tre ore",
+                "Mezz'ora",
+                "Poco più di un'ora"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l1-c1",
+          "stage": "learn",
+          "front": "il tabellone",
+          "back": "departure board",
+          "example": "Guardo il tabellone: il binario è il sette."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l1-c2",
+          "stage": "learn",
+          "front": "il finestrino",
+          "back": "train window",
+          "example": "Quando il treno arriva, salgo, trovo il mio posto vicino al finestrino e mi siedo."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-03-l2",
+      "title": "Dal dottore",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-03-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Dal dottore",
+          "passage": "Mi chiamo Paola e da tre giorni ho la tosse e un forte mal di gola. Stamattina sono andata dal dottore. Mi ha visitata con attenzione e mi ha detto che non è niente di grave. Devo prendere uno sciroppo due volte al giorno e riposare. Mi ha consigliato di bere tanta acqua calda con il miele. Inoltre devo evitare le bevande fredde e restare a casa per due giorni. Se sto ancora male lunedì, devo tornare in studio.",
+          "questions": [
+            {
+              "question": "Da quanto tempo ha la tosse?",
+              "options": [
+                "Da tre giorni",
+                "Da una settimana",
+                "Da ieri"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa deve prendere?",
+              "options": [
+                "Delle pastiglie",
+                "Uno sciroppo",
+                "Un antibiotico"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa deve evitare?",
+              "options": [
+                "Il miele",
+                "L'acqua",
+                "Le bevande fredde"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quando deve tornare dal dottore?",
+              "options": [
+                "Domani",
+                "Tra un mese",
+                "Se sta ancora male lunedì"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l2-c1",
+          "stage": "learn",
+          "front": "lo sciroppo",
+          "back": "syrup, cough medicine",
+          "example": "Devo prendere uno sciroppo due volte al giorno e riposare."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l2-c2",
+          "stage": "learn",
+          "front": "evitare",
+          "back": "to avoid",
+          "example": "Inoltre devo evitare le bevande fredde e restare a casa per due giorni."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-03-l3",
+      "title": "In banca",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-03-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "In banca",
+          "passage": "Oggi devo aprire un conto in banca, perché ho un nuovo lavoro e il datore di lavoro versa lo stipendio sul conto. Allo sportello l'impiegato mi chiede un documento di identità e il codice fiscale. Dopo qualche minuto compilo un modulo con i miei dati. Il conto costa tre euro al mese, ma la carta è gratuita. L'impiegato mi spiega anche che posso usare l'applicazione sul telefono per pagare e controllare il saldo. Esco dalla banca molto soddisfatto.",
+          "questions": [
+            {
+              "question": "Perché apre un conto?",
+              "options": [
+                "Per ricevere lo stipendio",
+                "Per risparmiare per le vacanze",
+                "Per pagare l'affitto"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa chiede l'impiegato?",
+              "options": [
+                "Solo i soldi",
+                "Il contratto di lavoro",
+                "Un documento e il codice fiscale"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quanto costa il conto?",
+              "options": [
+                "Tre euro al mese",
+                "Gratis",
+                "Dieci euro al mese"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa si può fare con l'applicazione?",
+              "options": [
+                "Cambiare banca",
+                "Pagare e controllare il saldo",
+                "Chiedere un prestito"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l3-c1",
+          "stage": "learn",
+          "front": "lo stipendio",
+          "back": "salary",
+          "example": "Oggi devo aprire un conto in banca, perché ho un nuovo lavoro e il datore di lavoro versa lo stipendio sul conto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l3-c2",
+          "stage": "learn",
+          "front": "il saldo",
+          "back": "balance",
+          "example": "L'impiegato mi spiega anche che posso usare l'applicazione sul telefono per pagare e controllare il saldo."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-03-l4",
+      "title": "Un weekend a Firenze",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-03-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un weekend a Firenze",
+          "passage": "Sabato io e Marco siamo andati a Firenze in treno. Abbiamo visitato il Duomo e siamo saliti sulla cupola: i gradini erano quattrocentocinquanta, ma la vista era fantastica. Per pranzo abbiamo mangiato una bistecca alla fiorentina in una trattoria vicino al mercato. Nel pomeriggio abbiamo attraversato Ponte Vecchio e abbiamo comprato un piccolo regalo per la mamma. La sera siamo tornati a casa stanchi, ma felici. Vogliamo tornare in primavera, quando ci sono i fiori.",
+          "questions": [
+            {
+              "question": "Come sono andati a Firenze?",
+              "options": [
+                "In treno",
+                "In macchina",
+                "In autobus"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa hanno fatto al Duomo?",
+              "options": [
+                "Sono saliti sulla cupola",
+                "Hanno pranzato",
+                "Hanno comprato un regalo"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa hanno mangiato?",
+              "options": [
+                "Una pizza",
+                "Del pesce",
+                "Una bistecca alla fiorentina"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quando vogliono tornare?",
+              "options": [
+                "In estate",
+                "In primavera",
+                "In inverno"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l4-c1",
+          "stage": "learn",
+          "front": "la cupola",
+          "back": "dome",
+          "example": "Abbiamo visitato il Duomo e siamo saliti sulla cupola: i gradini erano quattrocentocinquanta, ma la vista era fantastica."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-03-l4-c2",
+          "stage": "learn",
+          "front": "attraversare",
+          "back": "to cross"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il tabellone",
+      "en": "departure board",
+      "example": "Guardo il tabellone: il binario è il sette."
+    },
+    {
+      "it": "il finestrino",
+      "en": "train window",
+      "example": "Quando il treno arriva, salgo, trovo il mio posto vicino al finestrino e mi siedo."
+    },
+    {
+      "it": "lo sciroppo",
+      "en": "syrup, cough medicine",
+      "example": "Devo prendere uno sciroppo due volte al giorno e riposare."
+    },
+    {
+      "it": "evitare",
+      "en": "to avoid",
+      "example": "Inoltre devo evitare le bevande fredde e restare a casa per due giorni."
+    },
+    {
+      "it": "lo stipendio",
+      "en": "salary",
+      "example": "Oggi devo aprire un conto in banca, perché ho un nuovo lavoro e il datore di lavoro versa lo stipendio sul conto."
+    },
+    {
+      "it": "il saldo",
+      "en": "balance",
+      "example": "L'impiegato mi spiega anche che posso usare l'applicazione sul telefono per pagare e controllare il saldo."
+    },
+    {
+      "it": "la cupola",
+      "en": "dome",
+      "example": "Abbiamo visitato il Duomo e siamo saliti sulla cupola: i gradini erano quattrocentocinquanta, ma la vista era fantastica."
+    },
+    {
+      "it": "attraversare",
+      "en": "to cross"
+    }
+  ]
+}

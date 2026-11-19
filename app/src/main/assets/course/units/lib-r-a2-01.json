@@ -1,0 +1,319 @@
+{
+  "id": "lib-r-a2-01",
+  "level": "LET",
+  "title": "Raccontare il passato",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A2 (circa 75 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a2-01-l1",
+      "title": "Il primo giorno di lavoro",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-01-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il primo giorno di lavoro",
+          "passage": "Ieri è stato il mio primo giorno di lavoro in un negozio di libri. Sono arrivato alle otto e mezza, ma ero già molto nervoso. La proprietaria, la signora Betti, mi ha accolto con un sorriso e mi ha presentato i colleghi. Per prima cosa ho imparato a usare la cassa. Poi ho sistemato i libri nuovi sugli scaffali. A pranzo ho mangiato un panino con Franco, un collega simpatico. Alle sei ero stanco, ma contento: il lavoro mi piace.",
+          "questions": [
+            {
+              "question": "Perché l'autore era nervoso?",
+              "options": [
+                "Era in ritardo",
+                "Non conosceva la città",
+                "Era il suo primo giorno di lavoro"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa ha imparato per prima cosa?",
+              "options": [
+                "A usare la cassa",
+                "A sistemare i libri",
+                "A parlare con i clienti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Con chi ha pranzato?",
+              "options": [
+                "Con la signora Betti",
+                "Da solo",
+                "Con Franco"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Come si sentiva alle sei?",
+              "options": [
+                "Stanco ma contento",
+                "Nervoso",
+                "Arrabbiato"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l1-c1",
+          "stage": "learn",
+          "front": "accogliere",
+          "back": "to welcome"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l1-c2",
+          "stage": "learn",
+          "front": "lo scaffale",
+          "back": "shelf"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-01-l2",
+      "title": "Una giornata di pioggia",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-01-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una giornata di pioggia",
+          "passage": "Domenica scorsa pioveva e non sapevamo che cosa fare. Mio figlio voleva andare al parco, ma era impossibile. Allora abbiamo deciso di restare a casa e di cucinare insieme. Abbiamo fatto i biscotti: mio figlio ha mescolato la farina e le uova, e io ho acceso il forno. Mentre i biscotti cuocevano, abbiamo giocato a carte. Alla fine abbiamo mangiato tutti i biscotti e abbiamo bevuto una cioccolata calda. È stata una bella domenica.",
+          "questions": [
+            {
+              "question": "Perché non sono andati al parco?",
+              "options": [
+                "Pioveva",
+                "Il figlio era malato",
+                "Il parco era chiuso"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa hanno cucinato?",
+              "options": [
+                "Una torta",
+                "Dei biscotti",
+                "La pasta"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa hanno fatto mentre i biscotti cuocevano?",
+              "options": [
+                "Hanno guardato un film",
+                "Hanno pulito la cucina",
+                "Hanno giocato a carte"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa hanno bevuto?",
+              "options": [
+                "Un tè",
+                "Un succo di frutta",
+                "Una cioccolata calda"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l2-c1",
+          "stage": "learn",
+          "front": "mescolare",
+          "back": "to mix"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l2-c2",
+          "stage": "learn",
+          "front": "cuocere",
+          "back": "to cook, bake"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-01-l3",
+      "title": "Le vacanze dei miei nonni",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-01-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Le vacanze dei miei nonni",
+          "passage": "I miei nonni raccontano sempre le loro vacanze di quando erano giovani. Negli anni sessanta non avevano la macchina, quindi viaggiavano in treno. Andavano sempre nello stesso paese in Liguria, dove affittavano una camera da una signora anziana. Passavano le giornate in spiaggia e la sera ballavano in piazza. Mia nonna dice che il mare era più pulito e che c'era meno gente. Oggi i nonni preferiscono stare a casa, ma sorridono quando ricordano quei giorni.",
+          "questions": [
+            {
+              "question": "Come viaggiavano i nonni?",
+              "options": [
+                "In macchina",
+                "In treno",
+                "In aereo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove andavano in vacanza?",
+              "options": [
+                "In montagna",
+                "In un paese in Liguria",
+                "In Sicilia"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa facevano la sera?",
+              "options": [
+                "Guardavano la televisione",
+                "Ballavano in piazza",
+                "Cenavano al ristorante"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa preferiscono oggi?",
+              "options": [
+                "Stare a casa",
+                "Viaggiare in treno",
+                "Andare al mare"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l3-c1",
+          "stage": "learn",
+          "front": "anziano",
+          "back": "elderly"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l3-c2",
+          "stage": "learn",
+          "front": "affittare",
+          "back": "to rent"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a2-01-l4",
+      "title": "Un incontro inaspettato",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a2-01-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un incontro inaspettato",
+          "passage": "Ieri, mentre aspettavo l'autobus, ho visto una vecchia amica. Si chiama Roberta e non la vedevo da dieci anni. Eravamo compagne di scuola e abitavamo nello stesso quartiere. Ci siamo abbracciate e abbiamo parlato per quasi un'ora. Lei adesso vive a Berlino e lavora come architetta. È tornata a Roma per visitare i genitori. Ci siamo scambiate i numeri di telefono e abbiamo promesso di vederci presto. Ho perso l'autobus, ma non importa!",
+          "questions": [
+            {
+              "question": "Dove ha incontrato Roberta?",
+              "options": [
+                "A scuola",
+                "Alla fermata dell'autobus",
+                "In ufficio"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Da quanto tempo non la vedeva?",
+              "options": [
+                "Da un anno",
+                "Da due mesi",
+                "Da dieci anni"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che lavoro fa Roberta?",
+              "options": [
+                "L'insegnante",
+                "L'architetta",
+                "La dottoressa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa ha perso l'autore?",
+              "options": [
+                "Il telefono",
+                "L'autobus",
+                "Il lavoro"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l4-c1",
+          "stage": "learn",
+          "front": "inaspettato",
+          "back": "unexpected"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a2-01-l4-c2",
+          "stage": "learn",
+          "front": "scambiarsi",
+          "back": "to exchange"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "accogliere",
+      "en": "to welcome"
+    },
+    {
+      "it": "lo scaffale",
+      "en": "shelf"
+    },
+    {
+      "it": "mescolare",
+      "en": "to mix"
+    },
+    {
+      "it": "cuocere",
+      "en": "to cook, bake"
+    },
+    {
+      "it": "anziano",
+      "en": "elderly"
+    },
+    {
+      "it": "affittare",
+      "en": "to rent"
+    },
+    {
+      "it": "inaspettato",
+      "en": "unexpected"
+    },
+    {
+      "it": "scambiarsi",
+      "en": "to exchange"
+    }
+  ]
+}

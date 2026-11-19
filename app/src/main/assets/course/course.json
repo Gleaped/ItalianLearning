@@ -765,6 +765,78 @@
       "summary": "4 listening texts at A1 (about 57 words each), with questions.",
       "available": true,
       "module": "asc-a1"
+    },
+    {
+      "id": "lib-r-a2-01",
+      "level": "LET",
+      "order": 4,
+      "title": "Raccontare il passato",
+      "summary": "4 reading texts at A2 (about 75 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-r-a2-02",
+      "level": "LET",
+      "order": 5,
+      "title": "Progetti e confronti",
+      "summary": "4 reading texts at A2 (about 72 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-r-a2-03",
+      "level": "LET",
+      "order": 6,
+      "title": "Servizi e viaggi",
+      "summary": "4 reading texts at A2 (about 78 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-r-a2-04",
+      "level": "LET",
+      "order": 7,
+      "title": "Tempo libero e cucina",
+      "summary": "4 reading texts at A2 (about 77 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-a-a2-01",
+      "level": "ASC",
+      "order": 4,
+      "title": "Messaggi e informazioni",
+      "summary": "4 listening texts at A2 (about 79 words each), with questions.",
+      "available": true,
+      "module": "asc-a2"
+    },
+    {
+      "id": "lib-a-a2-02",
+      "level": "ASC",
+      "order": 5,
+      "title": "Programmi e inviti",
+      "summary": "4 listening texts at A2 (about 76 words each), with questions.",
+      "available": true,
+      "module": "asc-a2"
+    },
+    {
+      "id": "lib-a-a2-03",
+      "level": "ASC",
+      "order": 6,
+      "title": "Viaggi e notizie",
+      "summary": "4 listening texts at A2 (about 83 words each), with questions.",
+      "available": true,
+      "module": "asc-a2"
+    },
+    {
+      "id": "lib-a-a2-04",
+      "level": "ASC",
+      "order": 7,
+      "title": "Emergenze e casa",
+      "summary": "4 listening texts at A2 (about 80 words each), with questions.",
+      "available": true,
+      "module": "asc-a2"
     }
   ],
   "modules": [
@@ -893,6 +965,18 @@
       "level": "ASC",
       "title": "Ascolto A1",
       "description": "Livello A1."
+    },
+    {
+      "id": "let-a2",
+      "level": "LET",
+      "title": "Lettura A2",
+      "description": "Livello A2."
+    },
+    {
+      "id": "asc-a2",
+      "level": "ASC",
+      "title": "Ascolto A2",
+      "description": "Livello A2."
     }
   ]
 }

@@ -1,0 +1,403 @@
+{
+  "id": "lib-a-a2-04",
+  "level": "ASC",
+  "title": "Emergenze e casa",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A2 (circa 80 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a2-04-l1",
+      "title": "Un incidente in casa",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-04-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l1-e2",
+          "stage": "practise",
+          "audioText": "Pronto, Pronto soccorso? Sono la signora Bianchi. Mio marito è caduto dalle scale e si è fatto male a una gamba. Non riesce a camminare e ha molto dolore. Siamo in via Roma, numero otto, al secondo piano. Sì, è cosciente e parla normalmente. No, non ha battuto la testa. L'ambulanza arriva tra dieci minuti? Va bene. Intanto lo lascio sdraiato sul divano e non lo muovo. Grazie mille, vi aspetto.",
+          "question": "Che cosa è successo al marito?",
+          "options": [
+            "Ha mal di testa",
+            "È caduto dalle scale",
+            "Ha la febbre"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l1-e3",
+          "stage": "practise",
+          "audioText": "Pronto, Pronto soccorso? Sono la signora Bianchi. Mio marito è caduto dalle scale e si è fatto male a una gamba. Non riesce a camminare e ha molto dolore. Siamo in via Roma, numero otto, al secondo piano. Sì, è cosciente e parla normalmente. No, non ha battuto la testa. L'ambulanza arriva tra dieci minuti? Va bene. Intanto lo lascio sdraiato sul divano e non lo muovo. Grazie mille, vi aspetto.",
+          "question": "Dove abitano?",
+          "options": [
+            "In via Roma, numero otto",
+            "In via Dante",
+            "In piazza Garibaldi"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l1-e4",
+          "stage": "practise",
+          "audioText": "Pronto, Pronto soccorso? Sono la signora Bianchi. Mio marito è caduto dalle scale e si è fatto male a una gamba. Non riesce a camminare e ha molto dolore. Siamo in via Roma, numero otto, al secondo piano. Sì, è cosciente e parla normalmente. No, non ha battuto la testa. L'ambulanza arriva tra dieci minuti? Va bene. Intanto lo lascio sdraiato sul divano e non lo muovo. Grazie mille, vi aspetto.",
+          "question": "Ha battuto la testa?",
+          "options": [
+            "Sì",
+            "No",
+            "Non si sa"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l1-e5",
+          "stage": "practise",
+          "audioText": "Pronto, Pronto soccorso? Sono la signora Bianchi. Mio marito è caduto dalle scale e si è fatto male a una gamba. Non riesce a camminare e ha molto dolore. Siamo in via Roma, numero otto, al secondo piano. Sì, è cosciente e parla normalmente. No, non ha battuto la testa. L'ambulanza arriva tra dieci minuti? Va bene. Intanto lo lascio sdraiato sul divano e non lo muovo. Grazie mille, vi aspetto.",
+          "question": "Quando arriva l'ambulanza?",
+          "options": [
+            "Domani",
+            "Tra un'ora",
+            "Tra dieci minuti"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l1-c1",
+          "stage": "learn",
+          "front": "il pronto soccorso",
+          "back": "emergency room",
+          "example": "Pronto, Pronto soccorso?"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l1-c2",
+          "stage": "learn",
+          "front": "sdraiato",
+          "back": "lying down",
+          "example": "Intanto lo lascio sdraiato sul divano e non lo muovo."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-04-l2",
+      "title": "Il bollettino del traffico",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-04-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l2-e2",
+          "stage": "practise",
+          "audioText": "Ecco la situazione del traffico alle otto. Sull'autostrada A uno, tra Bologna e Firenze, ci sono code per un incidente: il traffico è rallentato per otto chilometri. Si consiglia di uscire a Barberino e di seguire la strada statale. Sulla tangenziale di Milano il traffico è scorrevole. A Roma il Grande Raccordo Anulare è bloccato nel tratto est per lavori in corso, fino alle undici. Attenzione al ghiaccio sulle strade di montagna: viaggiate con catene a bordo e prudenza.",
+          "question": "Dove ci sono code?",
+          "options": [
+            "A Milano",
+            "Tra Bologna e Firenze",
+            "A Roma centro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l2-e3",
+          "stage": "practise",
+          "audioText": "Ecco la situazione del traffico alle otto. Sull'autostrada A uno, tra Bologna e Firenze, ci sono code per un incidente: il traffico è rallentato per otto chilometri. Si consiglia di uscire a Barberino e di seguire la strada statale. Sulla tangenziale di Milano il traffico è scorrevole. A Roma il Grande Raccordo Anulare è bloccato nel tratto est per lavori in corso, fino alle undici. Attenzione al ghiaccio sulle strade di montagna: viaggiate con catene a bordo e prudenza.",
+          "question": "Che cosa si consiglia?",
+          "options": [
+            "Di fermarsi",
+            "Di uscire a Barberino",
+            "Di tornare indietro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l2-e4",
+          "stage": "practise",
+          "audioText": "Ecco la situazione del traffico alle otto. Sull'autostrada A uno, tra Bologna e Firenze, ci sono code per un incidente: il traffico è rallentato per otto chilometri. Si consiglia di uscire a Barberino e di seguire la strada statale. Sulla tangenziale di Milano il traffico è scorrevole. A Roma il Grande Raccordo Anulare è bloccato nel tratto est per lavori in corso, fino alle undici. Attenzione al ghiaccio sulle strade di montagna: viaggiate con catene a bordo e prudenza.",
+          "question": "Fino a che ora dura il blocco a Roma?",
+          "options": [
+            "Fino alle undici",
+            "Fino alle otto",
+            "Fino a mezzogiorno"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l2-e5",
+          "stage": "practise",
+          "audioText": "Ecco la situazione del traffico alle otto. Sull'autostrada A uno, tra Bologna e Firenze, ci sono code per un incidente: il traffico è rallentato per otto chilometri. Si consiglia di uscire a Barberino e di seguire la strada statale. Sulla tangenziale di Milano il traffico è scorrevole. A Roma il Grande Raccordo Anulare è bloccato nel tratto est per lavori in corso, fino alle undici. Attenzione al ghiaccio sulle strade di montagna: viaggiate con catene a bordo e prudenza.",
+          "question": "Che cosa bisogna avere in montagna?",
+          "options": [
+            "Il gps",
+            "Le catene",
+            "Una mappa"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l2-c1",
+          "stage": "learn",
+          "front": "la coda",
+          "back": "queue, tailback"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l2-c2",
+          "stage": "learn",
+          "front": "scorrevole",
+          "back": "flowing",
+          "example": "Sulla tangenziale di Milano il traffico è scorrevole."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-04-l3",
+      "title": "Un colloquio per l'affitto",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-04-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l3-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono qui per la stanza in affitto. Sì, entri pure. La stanza è al primo piano ed è molto luminosa. L'affitto è quattrocento euro al mese, spese incluse. Ci sono altri due coinquilini: uno studente e una ragazza che lavora. La cucina è in comune, mentre il bagno è condiviso con loro. Può portare gli ospiti, ma non dopo mezzanotte. Se le interessa, deve lasciare una caparra di ottocento euro. Può pensarci fino a domani sera, poi la stanza va a un altro.",
+          "question": "Quanto costa l'affitto?",
+          "options": [
+            "Quattrocento euro al mese",
+            "Ottocento euro al mese",
+            "Trecento euro al mese"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l3-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono qui per la stanza in affitto. Sì, entri pure. La stanza è al primo piano ed è molto luminosa. L'affitto è quattrocento euro al mese, spese incluse. Ci sono altri due coinquilini: uno studente e una ragazza che lavora. La cucina è in comune, mentre il bagno è condiviso con loro. Può portare gli ospiti, ma non dopo mezzanotte. Se le interessa, deve lasciare una caparra di ottocento euro. Può pensarci fino a domani sera, poi la stanza va a un altro.",
+          "question": "Quanti coinquilini ci sono?",
+          "options": [
+            "Quattro",
+            "Due",
+            "Nessuno"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l3-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono qui per la stanza in affitto. Sì, entri pure. La stanza è al primo piano ed è molto luminosa. L'affitto è quattrocento euro al mese, spese incluse. Ci sono altri due coinquilini: uno studente e una ragazza che lavora. La cucina è in comune, mentre il bagno è condiviso con loro. Può portare gli ospiti, ma non dopo mezzanotte. Se le interessa, deve lasciare una caparra di ottocento euro. Può pensarci fino a domani sera, poi la stanza va a un altro.",
+          "question": "Fino a che ora si possono portare ospiti?",
+          "options": [
+            "Fino alle dieci",
+            "Senza limiti",
+            "Fino a mezzanotte"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l3-e5",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono qui per la stanza in affitto. Sì, entri pure. La stanza è al primo piano ed è molto luminosa. L'affitto è quattrocento euro al mese, spese incluse. Ci sono altri due coinquilini: uno studente e una ragazza che lavora. La cucina è in comune, mentre il bagno è condiviso con loro. Può portare gli ospiti, ma non dopo mezzanotte. Se le interessa, deve lasciare una caparra di ottocento euro. Può pensarci fino a domani sera, poi la stanza va a un altro.",
+          "question": "Quanto è la caparra?",
+          "options": [
+            "Ottocento euro",
+            "Quattrocento euro",
+            "Duecento euro"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l3-c1",
+          "stage": "learn",
+          "front": "la caparra",
+          "back": "deposit",
+          "example": "Se le interessa, deve lasciare una caparra di ottocento euro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l3-c2",
+          "stage": "learn",
+          "front": "i coinquilini",
+          "back": "flatmates",
+          "example": "Ci sono altri due coinquilini: uno studente e una ragazza che lavora."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-04-l4",
+      "title": "Auguri di Natale",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-04-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l4-e2",
+          "stage": "practise",
+          "audioText": "Cari amici, come ogni anno vi scrivo per augurarvi un buon Natale. Per noi è stato un anno ricco di cambiamenti: mia moglie ha cambiato lavoro, i bambini hanno cominciato la scuola media e noi ci siamo trasferiti in una casa più grande, con un giardino. A Natale saremo a casa dei nonni, in Toscana, dove prepareremo il tradizionale pranzo con i tortellini in brodo. Speriamo di vedervi presto: in primavera facciamo una grande festa nel nuovo giardino. Un caro abbraccio da tutta la famiglia Moretti.",
+          "question": "Che cosa ha cambiato la moglie?",
+          "options": [
+            "Il lavoro",
+            "La casa",
+            "La città"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l4-e3",
+          "stage": "practise",
+          "audioText": "Cari amici, come ogni anno vi scrivo per augurarvi un buon Natale. Per noi è stato un anno ricco di cambiamenti: mia moglie ha cambiato lavoro, i bambini hanno cominciato la scuola media e noi ci siamo trasferiti in una casa più grande, con un giardino. A Natale saremo a casa dei nonni, in Toscana, dove prepareremo il tradizionale pranzo con i tortellini in brodo. Speriamo di vedervi presto: in primavera facciamo una grande festa nel nuovo giardino. Un caro abbraccio da tutta la famiglia Moretti.",
+          "question": "Dove passeranno il Natale?",
+          "options": [
+            "A casa propria",
+            "Dai nonni in Toscana",
+            "In montagna"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l4-e4",
+          "stage": "practise",
+          "audioText": "Cari amici, come ogni anno vi scrivo per augurarvi un buon Natale. Per noi è stato un anno ricco di cambiamenti: mia moglie ha cambiato lavoro, i bambini hanno cominciato la scuola media e noi ci siamo trasferiti in una casa più grande, con un giardino. A Natale saremo a casa dei nonni, in Toscana, dove prepareremo il tradizionale pranzo con i tortellini in brodo. Speriamo di vedervi presto: in primavera facciamo una grande festa nel nuovo giardino. Un caro abbraccio da tutta la famiglia Moretti.",
+          "question": "Che cosa mangeranno a Natale?",
+          "options": [
+            "Lasagne",
+            "Tortellini in brodo",
+            "Pesce"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-04-l4-e5",
+          "stage": "practise",
+          "audioText": "Cari amici, come ogni anno vi scrivo per augurarvi un buon Natale. Per noi è stato un anno ricco di cambiamenti: mia moglie ha cambiato lavoro, i bambini hanno cominciato la scuola media e noi ci siamo trasferiti in una casa più grande, con un giardino. A Natale saremo a casa dei nonni, in Toscana, dove prepareremo il tradizionale pranzo con i tortellini in brodo. Speriamo di vedervi presto: in primavera facciamo una grande festa nel nuovo giardino. Un caro abbraccio da tutta la famiglia Moretti.",
+          "question": "Che cosa faranno in primavera?",
+          "options": [
+            "Un viaggio",
+            "Un trasloco",
+            "Una festa in giardino"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l4-c1",
+          "stage": "learn",
+          "front": "il cambiamento",
+          "back": "change"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-04-l4-c2",
+          "stage": "learn",
+          "front": "in brodo",
+          "back": "in broth",
+          "example": "A Natale saremo a casa dei nonni, in Toscana, dove prepareremo il tradizionale pranzo con i tortellini in brodo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il pronto soccorso",
+      "en": "emergency room",
+      "example": "Pronto, Pronto soccorso?"
+    },
+    {
+      "it": "sdraiato",
+      "en": "lying down",
+      "example": "Intanto lo lascio sdraiato sul divano e non lo muovo."
+    },
+    {
+      "it": "la coda",
+      "en": "queue, tailback"
+    },
+    {
+      "it": "scorrevole",
+      "en": "flowing",
+      "example": "Sulla tangenziale di Milano il traffico è scorrevole."
+    },
+    {
+      "it": "la caparra",
+      "en": "deposit",
+      "example": "Se le interessa, deve lasciare una caparra di ottocento euro."
+    },
+    {
+      "it": "i coinquilini",
+      "en": "flatmates",
+      "example": "Ci sono altri due coinquilini: uno studente e una ragazza che lavora."
+    },
+    {
+      "it": "il cambiamento",
+      "en": "change"
+    },
+    {
+      "it": "in brodo",
+      "en": "in broth",
+      "example": "A Natale saremo a casa dei nonni, in Toscana, dove prepareremo il tradizionale pranzo con i tortellini in brodo."
+    }
+  ]
+}

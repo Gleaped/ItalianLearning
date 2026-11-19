@@ -1,0 +1,407 @@
+{
+  "id": "lib-a-a2-02",
+  "level": "ASC",
+  "title": "Programmi e inviti",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A2 (circa 76 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a2-02-l1",
+      "title": "Il programma del weekend",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-02-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l1-e2",
+          "stage": "practise",
+          "audioText": "Allora, ragazzi, questo è il programma per il weekend. Sabato mattina ci troviamo alle nove alla stazione e prendiamo il treno per Bergamo. Visitiamo la città alta e pranziamo in una trattoria tipica. Nel pomeriggio facciamo una passeggiata sulle mura. Domenica, invece, ci riposiamo: chi vuole può andare in piscina, chi preferisce può restare in albergo. La cena di domenica è alle otto in un ristorante vicino al mare. Se avete domande, scrivetemi un messaggio entro giovedì.",
+          "question": "Dove si trovano sabato mattina?",
+          "options": [
+            "Alla stazione",
+            "Al ristorante",
+            "In albergo"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l1-e3",
+          "stage": "practise",
+          "audioText": "Allora, ragazzi, questo è il programma per il weekend. Sabato mattina ci troviamo alle nove alla stazione e prendiamo il treno per Bergamo. Visitiamo la città alta e pranziamo in una trattoria tipica. Nel pomeriggio facciamo una passeggiata sulle mura. Domenica, invece, ci riposiamo: chi vuole può andare in piscina, chi preferisce può restare in albergo. La cena di domenica è alle otto in un ristorante vicino al mare. Se avete domande, scrivetemi un messaggio entro giovedì.",
+          "question": "Dove vanno sabato?",
+          "options": [
+            "A Verona",
+            "Al mare",
+            "A Bergamo"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l1-e4",
+          "stage": "practise",
+          "audioText": "Allora, ragazzi, questo è il programma per il weekend. Sabato mattina ci troviamo alle nove alla stazione e prendiamo il treno per Bergamo. Visitiamo la città alta e pranziamo in una trattoria tipica. Nel pomeriggio facciamo una passeggiata sulle mura. Domenica, invece, ci riposiamo: chi vuole può andare in piscina, chi preferisce può restare in albergo. La cena di domenica è alle otto in un ristorante vicino al mare. Se avete domande, scrivetemi un messaggio entro giovedì.",
+          "question": "Che cosa si può fare domenica?",
+          "options": [
+            "Visitare un museo",
+            "Andare in piscina o riposare",
+            "Prendere il treno"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l1-e5",
+          "stage": "practise",
+          "audioText": "Allora, ragazzi, questo è il programma per il weekend. Sabato mattina ci troviamo alle nove alla stazione e prendiamo il treno per Bergamo. Visitiamo la città alta e pranziamo in una trattoria tipica. Nel pomeriggio facciamo una passeggiata sulle mura. Domenica, invece, ci riposiamo: chi vuole può andare in piscina, chi preferisce può restare in albergo. La cena di domenica è alle otto in un ristorante vicino al mare. Se avete domande, scrivetemi un messaggio entro giovedì.",
+          "question": "Entro quando devono scrivere?",
+          "options": [
+            "Entro sabato",
+            "Entro domenica",
+            "Entro giovedì"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l1-c1",
+          "stage": "learn",
+          "front": "la città alta",
+          "back": "upper town",
+          "example": "Visitiamo la città alta e pranziamo in una trattoria tipica."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l1-c2",
+          "stage": "learn",
+          "front": "le mura",
+          "back": "city walls",
+          "example": "Nel pomeriggio facciamo una passeggiata sulle mura."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-02-l2",
+      "title": "Una telefonata di lavoro",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-02-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l2-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, parlo con la signora Fabbri? Sono Luca Ricci, dell'azienda Tecnomed. Ho letto il suo curriculum e vorrei invitarla a un colloquio. Il colloquio è fissato per martedì prossimo alle dieci e trenta, nel nostro ufficio in via Milano, numero ventidue. Porti il documento di identità e una copia del curriculum. Il colloquio dura circa quarantacinque minuti e incontrerà due persone. Se la data non va bene, può scrivermi una mail. Grazie e a presto.",
+          "question": "Perché telefona Luca Ricci?",
+          "options": [
+            "Per invitarla a un colloquio",
+            "Per offrirle un prodotto",
+            "Per cancellare un appuntamento"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l2-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, parlo con la signora Fabbri? Sono Luca Ricci, dell'azienda Tecnomed. Ho letto il suo curriculum e vorrei invitarla a un colloquio. Il colloquio è fissato per martedì prossimo alle dieci e trenta, nel nostro ufficio in via Milano, numero ventidue. Porti il documento di identità e una copia del curriculum. Il colloquio dura circa quarantacinque minuti e incontrerà due persone. Se la data non va bene, può scrivermi una mail. Grazie e a presto.",
+          "question": "Quando è il colloquio?",
+          "options": [
+            "Giovedì alle nove",
+            "Lunedì alle undici",
+            "Martedì alle dieci e trenta"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l2-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, parlo con la signora Fabbri? Sono Luca Ricci, dell'azienda Tecnomed. Ho letto il suo curriculum e vorrei invitarla a un colloquio. Il colloquio è fissato per martedì prossimo alle dieci e trenta, nel nostro ufficio in via Milano, numero ventidue. Porti il documento di identità e una copia del curriculum. Il colloquio dura circa quarantacinque minuti e incontrerà due persone. Se la data non va bene, può scrivermi una mail. Grazie e a presto.",
+          "question": "Che cosa deve portare?",
+          "options": [
+            "Documento e curriculum",
+            "Solo il curriculum",
+            "Una lettera"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l2-e5",
+          "stage": "practise",
+          "audioText": "Buongiorno, parlo con la signora Fabbri? Sono Luca Ricci, dell'azienda Tecnomed. Ho letto il suo curriculum e vorrei invitarla a un colloquio. Il colloquio è fissato per martedì prossimo alle dieci e trenta, nel nostro ufficio in via Milano, numero ventidue. Porti il documento di identità e una copia del curriculum. Il colloquio dura circa quarantacinque minuti e incontrerà due persone. Se la data non va bene, può scrivermi una mail. Grazie e a presto.",
+          "question": "Quanto dura il colloquio?",
+          "options": [
+            "Due ore",
+            "Circa quarantacinque minuti",
+            "Dieci minuti"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l2-c1",
+          "stage": "learn",
+          "front": "il colloquio",
+          "back": "interview",
+          "example": "Ho letto il suo curriculum e vorrei invitarla a un colloquio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l2-c2",
+          "stage": "learn",
+          "front": "fissato",
+          "back": "scheduled",
+          "example": "Il colloquio è fissato per martedì prossimo alle dieci e trenta, nel nostro ufficio in via Milano, numero ventidue."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-02-l3",
+      "title": "Un'offerta speciale",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-02-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l3-e2",
+          "stage": "practise",
+          "audioText": "Solo per questa settimana, il negozio di elettrodomestici Casa Facile offre sconti straordinari. Il frigorifero costa seicento euro invece di ottocento. La lavatrice con trenta per cento di sconto costa quattrocentocinquanta euro. Chi compra due elettrodomestici ottiene il trasporto gratuito a casa. Inoltre, la garanzia dura tre anni invece di due. Il negozio è aperto dal lunedì al sabato, dalle nove alle diciannove. Venite a trovarci in via Dante, numero quindici, vicino al cinema.",
+          "question": "Quanto costa il frigorifero?",
+          "options": [
+            "Ottocento euro",
+            "Quattrocentocinquanta euro",
+            "Seicento euro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l3-e3",
+          "stage": "practise",
+          "audioText": "Solo per questa settimana, il negozio di elettrodomestici Casa Facile offre sconti straordinari. Il frigorifero costa seicento euro invece di ottocento. La lavatrice con trenta per cento di sconto costa quattrocentocinquanta euro. Chi compra due elettrodomestici ottiene il trasporto gratuito a casa. Inoltre, la garanzia dura tre anni invece di due. Il negozio è aperto dal lunedì al sabato, dalle nove alle diciannove. Venite a trovarci in via Dante, numero quindici, vicino al cinema.",
+          "question": "Che cosa si ottiene comprando due elettrodomestici?",
+          "options": [
+            "Un buono di cento euro",
+            "Una lavatrice in regalo",
+            "Il trasporto gratuito"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l3-e4",
+          "stage": "practise",
+          "audioText": "Solo per questa settimana, il negozio di elettrodomestici Casa Facile offre sconti straordinari. Il frigorifero costa seicento euro invece di ottocento. La lavatrice con trenta per cento di sconto costa quattrocentocinquanta euro. Chi compra due elettrodomestici ottiene il trasporto gratuito a casa. Inoltre, la garanzia dura tre anni invece di due. Il negozio è aperto dal lunedì al sabato, dalle nove alle diciannove. Venite a trovarci in via Dante, numero quindici, vicino al cinema.",
+          "question": "Quanto dura la garanzia?",
+          "options": [
+            "Due anni",
+            "Tre anni",
+            "Un anno"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l3-e5",
+          "stage": "practise",
+          "audioText": "Solo per questa settimana, il negozio di elettrodomestici Casa Facile offre sconti straordinari. Il frigorifero costa seicento euro invece di ottocento. La lavatrice con trenta per cento di sconto costa quattrocentocinquanta euro. Chi compra due elettrodomestici ottiene il trasporto gratuito a casa. Inoltre, la garanzia dura tre anni invece di due. Il negozio è aperto dal lunedì al sabato, dalle nove alle diciannove. Venite a trovarci in via Dante, numero quindici, vicino al cinema.",
+          "question": "Dov'è il negozio?",
+          "options": [
+            "In piazza",
+            "Vicino alla stazione",
+            "In via Dante, vicino al cinema"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l3-c1",
+          "stage": "learn",
+          "front": "lo sconto",
+          "back": "discount",
+          "example": "La lavatrice con trenta per cento di sconto costa quattrocentocinquanta euro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l3-c2",
+          "stage": "learn",
+          "front": "la garanzia",
+          "back": "warranty",
+          "example": "Inoltre, la garanzia dura tre anni invece di due."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-02-l4",
+      "title": "Al telefono con un'amica",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-02-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l4-e2",
+          "stage": "practise",
+          "audioText": "Ciao Silvia, sono io! Senti, sabato sera faccio una cena a casa mia. Vengono anche Paolo e Chiara. Ti va di venire? Cucino io: una lasagna e poi un dolce. Puoi portare del vino? Se hai tempo, portane una bottiglia di rosso. Comincio a cucinare alle cinque, quindi vieni pure prima, se vuoi aiutarmi! Davvero? Allora verso le sei e mezza. A sabato, allora. Ah, ricordati che il portone si apre solo con il codice: è il due, sette, uno, nove.",
+          "question": "Che cosa organizza la persona?",
+          "options": [
+            "Una gita",
+            "Una cena a casa",
+            "Una festa di compleanno"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l4-e3",
+          "stage": "practise",
+          "audioText": "Ciao Silvia, sono io! Senti, sabato sera faccio una cena a casa mia. Vengono anche Paolo e Chiara. Ti va di venire? Cucino io: una lasagna e poi un dolce. Puoi portare del vino? Se hai tempo, portane una bottiglia di rosso. Comincio a cucinare alle cinque, quindi vieni pure prima, se vuoi aiutarmi! Davvero? Allora verso le sei e mezza. A sabato, allora. Ah, ricordati che il portone si apre solo con il codice: è il due, sette, uno, nove.",
+          "question": "Che cosa cucina?",
+          "options": [
+            "Una pizza",
+            "Del pesce",
+            "Una lasagna e un dolce"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l4-e4",
+          "stage": "practise",
+          "audioText": "Ciao Silvia, sono io! Senti, sabato sera faccio una cena a casa mia. Vengono anche Paolo e Chiara. Ti va di venire? Cucino io: una lasagna e poi un dolce. Puoi portare del vino? Se hai tempo, portane una bottiglia di rosso. Comincio a cucinare alle cinque, quindi vieni pure prima, se vuoi aiutarmi! Davvero? Allora verso le sei e mezza. A sabato, allora. Ah, ricordati che il portone si apre solo con il codice: è il due, sette, uno, nove.",
+          "question": "Che cosa deve portare Silvia?",
+          "options": [
+            "Il dolce",
+            "Una bottiglia di vino rosso",
+            "Il pane"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-02-l4-e5",
+          "stage": "practise",
+          "audioText": "Ciao Silvia, sono io! Senti, sabato sera faccio una cena a casa mia. Vengono anche Paolo e Chiara. Ti va di venire? Cucino io: una lasagna e poi un dolce. Puoi portare del vino? Se hai tempo, portane una bottiglia di rosso. Comincio a cucinare alle cinque, quindi vieni pure prima, se vuoi aiutarmi! Davvero? Allora verso le sei e mezza. A sabato, allora. Ah, ricordati che il portone si apre solo con il codice: è il due, sette, uno, nove.",
+          "question": "Come si apre il portone?",
+          "options": [
+            "Con un codice",
+            "Con la chiave",
+            "Con il citofono"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l4-c1",
+          "stage": "learn",
+          "front": "il portone",
+          "back": "front door (of a building)",
+          "example": "Ah, ricordati che il portone si apre solo con il codice: è il due, sette, uno, nove."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-02-l4-c2",
+          "stage": "learn",
+          "front": "ti va di",
+          "back": "do you feel like",
+          "example": "Ti va di venire?"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la città alta",
+      "en": "upper town",
+      "example": "Visitiamo la città alta e pranziamo in una trattoria tipica."
+    },
+    {
+      "it": "le mura",
+      "en": "city walls",
+      "example": "Nel pomeriggio facciamo una passeggiata sulle mura."
+    },
+    {
+      "it": "il colloquio",
+      "en": "interview",
+      "example": "Ho letto il suo curriculum e vorrei invitarla a un colloquio."
+    },
+    {
+      "it": "fissato",
+      "en": "scheduled",
+      "example": "Il colloquio è fissato per martedì prossimo alle dieci e trenta, nel nostro ufficio in via Milano, numero ventidue."
+    },
+    {
+      "it": "lo sconto",
+      "en": "discount",
+      "example": "La lavatrice con trenta per cento di sconto costa quattrocentocinquanta euro."
+    },
+    {
+      "it": "la garanzia",
+      "en": "warranty",
+      "example": "Inoltre, la garanzia dura tre anni invece di due."
+    },
+    {
+      "it": "il portone",
+      "en": "front door (of a building)",
+      "example": "Ah, ricordati che il portone si apre solo con il codice: è il due, sette, uno, nove."
+    },
+    {
+      "it": "ti va di",
+      "en": "do you feel like",
+      "example": "Ti va di venire?"
+    }
+  ]
+}

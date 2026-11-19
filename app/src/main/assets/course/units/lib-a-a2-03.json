@@ -1,0 +1,403 @@
+{
+  "id": "lib-a-a2-03",
+  "level": "ASC",
+  "title": "Viaggi e notizie",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A2 (circa 83 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a2-03-l1",
+      "title": "In agenzia di viaggi",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-03-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l1-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei organizzare una vacanza al mare per luglio. Siamo in quattro: due adulti e due bambini. Abbiamo diverse proposte: Sardegna, Puglia o Calabria. In Puglia c'è un villaggio con piscina e animazione per i bambini: sette notti in pensione completa costano milleduecento euro a persona. In Sardegna i prezzi sono più alti. Per i bambini sotto i dieci anni c'è uno sconto del cinquanta per cento. Prenotando entro il quindici maggio, il viaggio in traghetto è gratis. Mi faccia pensare e domani le rispondo.",
+          "question": "Quante persone sono?",
+          "options": [
+            "Due",
+            "Quattro",
+            "Sei"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l1-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei organizzare una vacanza al mare per luglio. Siamo in quattro: due adulti e due bambini. Abbiamo diverse proposte: Sardegna, Puglia o Calabria. In Puglia c'è un villaggio con piscina e animazione per i bambini: sette notti in pensione completa costano milleduecento euro a persona. In Sardegna i prezzi sono più alti. Per i bambini sotto i dieci anni c'è uno sconto del cinquanta per cento. Prenotando entro il quindici maggio, il viaggio in traghetto è gratis. Mi faccia pensare e domani le rispondo.",
+          "question": "Quanto costa la settimana in Puglia?",
+          "options": [
+            "Milleduecento euro a persona",
+            "Seicento euro in tutto",
+            "Duemila euro in tutto"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l1-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei organizzare una vacanza al mare per luglio. Siamo in quattro: due adulti e due bambini. Abbiamo diverse proposte: Sardegna, Puglia o Calabria. In Puglia c'è un villaggio con piscina e animazione per i bambini: sette notti in pensione completa costano milleduecento euro a persona. In Sardegna i prezzi sono più alti. Per i bambini sotto i dieci anni c'è uno sconto del cinquanta per cento. Prenotando entro il quindici maggio, il viaggio in traghetto è gratis. Mi faccia pensare e domani le rispondo.",
+          "question": "Quanto è lo sconto per i bambini sotto i dieci anni?",
+          "options": [
+            "Il dieci per cento",
+            "Il cinquanta per cento",
+            "Il venti per cento"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l1-e5",
+          "stage": "practise",
+          "audioText": "Buongiorno, vorrei organizzare una vacanza al mare per luglio. Siamo in quattro: due adulti e due bambini. Abbiamo diverse proposte: Sardegna, Puglia o Calabria. In Puglia c'è un villaggio con piscina e animazione per i bambini: sette notti in pensione completa costano milleduecento euro a persona. In Sardegna i prezzi sono più alti. Per i bambini sotto i dieci anni c'è uno sconto del cinquanta per cento. Prenotando entro il quindici maggio, il viaggio in traghetto è gratis. Mi faccia pensare e domani le rispondo.",
+          "question": "Che cosa è gratis prenotando entro il quindici maggio?",
+          "options": [
+            "Il traghetto",
+            "La piscina",
+            "La colazione"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l1-c1",
+          "stage": "learn",
+          "front": "il traghetto",
+          "back": "ferry",
+          "example": "Prenotando entro il quindici maggio, il viaggio in traghetto è gratis."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l1-c2",
+          "stage": "learn",
+          "front": "la pensione completa",
+          "back": "full board",
+          "example": "In Puglia c'è un villaggio con piscina e animazione per i bambini: sette notti in pensione completa costano milleduecento euro a persona."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-03-l2",
+      "title": "Una notizia dal giornale radio",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-03-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l2-e2",
+          "stage": "practise",
+          "audioText": "Ecco le notizie delle dodici. A Milano è stato inaugurato il nuovo museo del design: è aperto da oggi e il biglietto costa dodici euro. Per i ragazzi sotto i diciotto anni l'ingresso è gratuito. A Firenze, invece, un forte temporale ha causato alcuni allagamenti nel centro, ma non ci sono feriti. In serata la situazione migliora. Passiamo allo sport: la squadra di basket cittadina ha vinto la partita di ieri per novanta a settantacinque. La prossima gara è sabato alle venti e trenta.",
+          "question": "Che cosa è stato inaugurato a Milano?",
+          "options": [
+            "Un museo del design",
+            "Un cinema",
+            "Un parco"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l2-e3",
+          "stage": "practise",
+          "audioText": "Ecco le notizie delle dodici. A Milano è stato inaugurato il nuovo museo del design: è aperto da oggi e il biglietto costa dodici euro. Per i ragazzi sotto i diciotto anni l'ingresso è gratuito. A Firenze, invece, un forte temporale ha causato alcuni allagamenti nel centro, ma non ci sono feriti. In serata la situazione migliora. Passiamo allo sport: la squadra di basket cittadina ha vinto la partita di ieri per novanta a settantacinque. La prossima gara è sabato alle venti e trenta.",
+          "question": "Chi non paga il biglietto?",
+          "options": [
+            "I pensionati",
+            "I ragazzi sotto i diciotto anni",
+            "Gli studenti universitari"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l2-e4",
+          "stage": "practise",
+          "audioText": "Ecco le notizie delle dodici. A Milano è stato inaugurato il nuovo museo del design: è aperto da oggi e il biglietto costa dodici euro. Per i ragazzi sotto i diciotto anni l'ingresso è gratuito. A Firenze, invece, un forte temporale ha causato alcuni allagamenti nel centro, ma non ci sono feriti. In serata la situazione migliora. Passiamo allo sport: la squadra di basket cittadina ha vinto la partita di ieri per novanta a settantacinque. La prossima gara è sabato alle venti e trenta.",
+          "question": "Che cosa è successo a Firenze?",
+          "options": [
+            "Un temporale ha causato allagamenti",
+            "C'è stato un incendio",
+            "C'è stata una festa"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l2-e5",
+          "stage": "practise",
+          "audioText": "Ecco le notizie delle dodici. A Milano è stato inaugurato il nuovo museo del design: è aperto da oggi e il biglietto costa dodici euro. Per i ragazzi sotto i diciotto anni l'ingresso è gratuito. A Firenze, invece, un forte temporale ha causato alcuni allagamenti nel centro, ma non ci sono feriti. In serata la situazione migliora. Passiamo allo sport: la squadra di basket cittadina ha vinto la partita di ieri per novanta a settantacinque. La prossima gara è sabato alle venti e trenta.",
+          "question": "Quando è la prossima partita di basket?",
+          "options": [
+            "Domani",
+            "Sabato alle venti e trenta",
+            "Domenica pomeriggio"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l2-c1",
+          "stage": "learn",
+          "front": "l'allagamento",
+          "back": "flooding"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l2-c2",
+          "stage": "learn",
+          "front": "il ferito",
+          "back": "injured person"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-03-l3",
+      "title": "Una ricetta alla radio",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-03-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l3-e2",
+          "stage": "practise",
+          "audioText": "Oggi prepariamo una zuppa di verdure, perfetta per le sere d'inverno. Servono due carote, due patate, una zucchina, una cipolla e un po' di sedano. Tagliate tutte le verdure a pezzetti. In una pentola scaldate l'olio e fate cuocere la cipolla per due minuti. Poi aggiungete le altre verdure e mezzo litro di acqua. Fate bollire per trenta minuti. Alla fine aggiungete sale, pepe e un po' di formaggio grattugiato. Servite la zuppa calda con una fetta di pane tostato. Buon appetito!",
+          "question": "Che piatto prepara la radio?",
+          "options": [
+            "Una zuppa di verdure",
+            "Una pasta",
+            "Un dolce"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l3-e3",
+          "stage": "practise",
+          "audioText": "Oggi prepariamo una zuppa di verdure, perfetta per le sere d'inverno. Servono due carote, due patate, una zucchina, una cipolla e un po' di sedano. Tagliate tutte le verdure a pezzetti. In una pentola scaldate l'olio e fate cuocere la cipolla per due minuti. Poi aggiungete le altre verdure e mezzo litro di acqua. Fate bollire per trenta minuti. Alla fine aggiungete sale, pepe e un po' di formaggio grattugiato. Servite la zuppa calda con una fetta di pane tostato. Buon appetito!",
+          "question": "Quanto tempo bolle la zuppa?",
+          "options": [
+            "Trenta minuti",
+            "Due minuti",
+            "Un'ora"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l3-e4",
+          "stage": "practise",
+          "audioText": "Oggi prepariamo una zuppa di verdure, perfetta per le sere d'inverno. Servono due carote, due patate, una zucchina, una cipolla e un po' di sedano. Tagliate tutte le verdure a pezzetti. In una pentola scaldate l'olio e fate cuocere la cipolla per due minuti. Poi aggiungete le altre verdure e mezzo litro di acqua. Fate bollire per trenta minuti. Alla fine aggiungete sale, pepe e un po' di formaggio grattugiato. Servite la zuppa calda con una fetta di pane tostato. Buon appetito!",
+          "question": "Che cosa si aggiunge alla fine?",
+          "options": [
+            "Pomodoro",
+            "Sale, pepe e formaggio",
+            "Vino"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l3-e5",
+          "stage": "practise",
+          "audioText": "Oggi prepariamo una zuppa di verdure, perfetta per le sere d'inverno. Servono due carote, due patate, una zucchina, una cipolla e un po' di sedano. Tagliate tutte le verdure a pezzetti. In una pentola scaldate l'olio e fate cuocere la cipolla per due minuti. Poi aggiungete le altre verdure e mezzo litro di acqua. Fate bollire per trenta minuti. Alla fine aggiungete sale, pepe e un po' di formaggio grattugiato. Servite la zuppa calda con una fetta di pane tostato. Buon appetito!",
+          "question": "Con che cosa si serve?",
+          "options": [
+            "Con riso",
+            "Con insalata",
+            "Con pane tostato"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l3-c1",
+          "stage": "learn",
+          "front": "a pezzetti",
+          "back": "in small pieces",
+          "example": "Tagliate tutte le verdure a pezzetti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l3-c2",
+          "stage": "learn",
+          "front": "grattugiato",
+          "back": "grated",
+          "example": "Alla fine aggiungete sale, pepe e un po' di formaggio grattugiato."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a2-03-l4",
+      "title": "Un messaggio dell'insegnante",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a2-03-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l4-e2",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, sono la professoressa Gallo. Vi scrivo per ricordarvi la gita di domani al museo archeologico. Il pullman parte alle otto e un quarto dal cortile della scuola, quindi arrivate con un po' di anticipo. Portate un panino, una bottiglia d'acqua e un quaderno per gli appunti. La visita guidata comincia alle dieci e dura due ore. Se qualcuno non può venire, deve avvisarmi stasera. Il ritorno a scuola è previsto per le quindici. Buona serata e a domani!",
+          "question": "A che ora parte il pullman?",
+          "options": [
+            "Alle otto e un quarto",
+            "Alle dieci",
+            "Alle quindici"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l4-e3",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, sono la professoressa Gallo. Vi scrivo per ricordarvi la gita di domani al museo archeologico. Il pullman parte alle otto e un quarto dal cortile della scuola, quindi arrivate con un po' di anticipo. Portate un panino, una bottiglia d'acqua e un quaderno per gli appunti. La visita guidata comincia alle dieci e dura due ore. Se qualcuno non può venire, deve avvisarmi stasera. Il ritorno a scuola è previsto per le quindici. Buona serata e a domani!",
+          "question": "Che cosa devono portare gli studenti?",
+          "options": [
+            "Il pranzo al sacco e una penna",
+            "Soldi e un telefono",
+            "Un panino, acqua e un quaderno"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l4-e4",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, sono la professoressa Gallo. Vi scrivo per ricordarvi la gita di domani al museo archeologico. Il pullman parte alle otto e un quarto dal cortile della scuola, quindi arrivate con un po' di anticipo. Portate un panino, una bottiglia d'acqua e un quaderno per gli appunti. La visita guidata comincia alle dieci e dura due ore. Se qualcuno non può venire, deve avvisarmi stasera. Il ritorno a scuola è previsto per le quindici. Buona serata e a domani!",
+          "question": "Quanto dura la visita guidata?",
+          "options": [
+            "Due ore",
+            "Mezz'ora",
+            "Tutta la giornata"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a2-03-l4-e5",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, sono la professoressa Gallo. Vi scrivo per ricordarvi la gita di domani al museo archeologico. Il pullman parte alle otto e un quarto dal cortile della scuola, quindi arrivate con un po' di anticipo. Portate un panino, una bottiglia d'acqua e un quaderno per gli appunti. La visita guidata comincia alle dieci e dura due ore. Se qualcuno non può venire, deve avvisarmi stasera. Il ritorno a scuola è previsto per le quindici. Buona serata e a domani!",
+          "question": "A che ora tornano a scuola?",
+          "options": [
+            "Alle dieci",
+            "Alle tredici",
+            "Alle quindici"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l4-c1",
+          "stage": "learn",
+          "front": "l'anticipo",
+          "back": "advance, early",
+          "example": "Il pullman parte alle otto e un quarto dal cortile della scuola, quindi arrivate con un po' di anticipo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a2-03-l4-c2",
+          "stage": "learn",
+          "front": "gli appunti",
+          "back": "notes",
+          "example": "Portate un panino, una bottiglia d'acqua e un quaderno per gli appunti."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il traghetto",
+      "en": "ferry",
+      "example": "Prenotando entro il quindici maggio, il viaggio in traghetto è gratis."
+    },
+    {
+      "it": "la pensione completa",
+      "en": "full board",
+      "example": "In Puglia c'è un villaggio con piscina e animazione per i bambini: sette notti in pensione completa costano milleduecento euro a persona."
+    },
+    {
+      "it": "l'allagamento",
+      "en": "flooding"
+    },
+    {
+      "it": "il ferito",
+      "en": "injured person"
+    },
+    {
+      "it": "a pezzetti",
+      "en": "in small pieces",
+      "example": "Tagliate tutte le verdure a pezzetti."
+    },
+    {
+      "it": "grattugiato",
+      "en": "grated",
+      "example": "Alla fine aggiungete sale, pepe e un po' di formaggio grattugiato."
+    },
+    {
+      "it": "l'anticipo",
+      "en": "advance, early",
+      "example": "Il pullman parte alle otto e un quarto dal cortile della scuola, quindi arrivate con un po' di anticipo."
+    },
+    {
+      "it": "gli appunti",
+      "en": "notes",
+      "example": "Portate un panino, una bottiglia d'acqua e un quaderno per gli appunti."
+    }
+  ]
+}
