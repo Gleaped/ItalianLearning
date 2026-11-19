@@ -63,6 +63,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-03-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "L'ultimo ___ di una giovane autrice milanese sta facendo discutere. La storia ___ un gruppo di amici trentenni, divisi tra precarietà lavorativa e ___ di stabilità, in una Milano descritta con distacco quasi cinematografico. Per alcuni critici il ___ è una fotografia lucida della generazione che non riesce a «mettere radici»; per altri, invece, è un'opera che ___ troppo ai luoghi comuni, con personaggi poco approfonditi e un finale prevedibile.",
+          "gaps": [
+            {
+              "answers": [
+                "romanzo"
+              ],
+              "options": [
+                "romanzo",
+                "libro",
+                "desiderio",
+                "indulge",
+                "segue"
+              ]
+            },
+            {
+              "answers": [
+                "segue"
+              ],
+              "options": [
+                "romanzo",
+                "libro",
+                "desiderio",
+                "indulge",
+                "segue"
+              ]
+            },
+            {
+              "answers": [
+                "desiderio"
+              ],
+              "options": [
+                "romanzo",
+                "libro",
+                "desiderio",
+                "indulge",
+                "segue"
+              ]
+            },
+            {
+              "answers": [
+                "libro"
+              ],
+              "options": [
+                "romanzo",
+                "libro",
+                "desiderio",
+                "indulge",
+                "segue"
+              ]
+            },
+            {
+              "answers": [
+                "indulge"
+              ],
+              "options": [
+                "romanzo",
+                "libro",
+                "desiderio",
+                "indulge",
+                "segue"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-03-l1-c1",
           "stage": "learn",
@@ -134,6 +205,77 @@
               "answer": 0
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-03-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Vi sono ___ che ___ trattenere la ___ di chi li ha attraversati. Penso alla stazione di Bologna, dove ogni anno, il due agosto, la ___ si raccoglie per ___ le vittime dell'attentato del 1980.",
+          "gaps": [
+            {
+              "answers": [
+                "luoghi"
+              ],
+              "options": [
+                "memoria",
+                "sembrano",
+                "città",
+                "ricordare",
+                "luoghi"
+              ]
+            },
+            {
+              "answers": [
+                "sembrano"
+              ],
+              "options": [
+                "memoria",
+                "sembrano",
+                "città",
+                "ricordare",
+                "luoghi"
+              ]
+            },
+            {
+              "answers": [
+                "memoria"
+              ],
+              "options": [
+                "memoria",
+                "sembrano",
+                "città",
+                "ricordare",
+                "luoghi"
+              ]
+            },
+            {
+              "answers": [
+                "città"
+              ],
+              "options": [
+                "memoria",
+                "sembrano",
+                "città",
+                "ricordare",
+                "luoghi"
+              ]
+            },
+            {
+              "answers": [
+                "ricordare"
+              ],
+              "options": [
+                "memoria",
+                "sembrano",
+                "città",
+                "ricordare",
+                "luoghi"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -210,6 +352,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-03-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "In un'epoca di ___ continuo, il silenzio è diventato un bene raro e, per questo, prezioso. Alcune ricerche ___ che anche pochi minuti di ___ al giorno riducano lo stress e ___ la concentrazione. Non si tratta soltanto dell'assenza di suoni: è la possibilità di ___ i propri pensieri senza interferenze.",
+          "gaps": [
+            {
+              "answers": [
+                "rumore"
+              ],
+              "options": [
+                "ascoltare",
+                "silenzio",
+                "migliorino",
+                "rumore",
+                "sostengono"
+              ]
+            },
+            {
+              "answers": [
+                "sostengono"
+              ],
+              "options": [
+                "ascoltare",
+                "silenzio",
+                "migliorino",
+                "rumore",
+                "sostengono"
+              ]
+            },
+            {
+              "answers": [
+                "silenzio"
+              ],
+              "options": [
+                "ascoltare",
+                "silenzio",
+                "migliorino",
+                "rumore",
+                "sostengono"
+              ]
+            },
+            {
+              "answers": [
+                "migliorino"
+              ],
+              "options": [
+                "ascoltare",
+                "silenzio",
+                "migliorino",
+                "rumore",
+                "sostengono"
+              ]
+            },
+            {
+              "answers": [
+                "ascoltare"
+              ],
+              "options": [
+                "ascoltare",
+                "silenzio",
+                "migliorino",
+                "rumore",
+                "sostengono"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-03-l3-c1",
           "stage": "learn",
@@ -281,6 +494,77 @@
               "answer": 0
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-03-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Cesare Pavese, nato nel 1908 ___ Langhe, fu uno dei grandi ___ del Novecento italiano. Traduttore dall'inglese, curatore per la casa ___ Einaudi e autore di romanzi come «La luna e i falò», ___ con una malinconia ___ che attraversa tutta la sua opera.",
+          "gaps": [
+            {
+              "answers": [
+                "nelle"
+              ],
+              "options": [
+                "nelle",
+                "visse",
+                "editrice",
+                "scrittori",
+                "profonda"
+              ]
+            },
+            {
+              "answers": [
+                "scrittori"
+              ],
+              "options": [
+                "nelle",
+                "visse",
+                "editrice",
+                "scrittori",
+                "profonda"
+              ]
+            },
+            {
+              "answers": [
+                "editrice"
+              ],
+              "options": [
+                "nelle",
+                "visse",
+                "editrice",
+                "scrittori",
+                "profonda"
+              ]
+            },
+            {
+              "answers": [
+                "visse"
+              ],
+              "options": [
+                "nelle",
+                "visse",
+                "editrice",
+                "scrittori",
+                "profonda"
+              ]
+            },
+            {
+              "answers": [
+                "profonda"
+              ],
+              "options": [
+                "nelle",
+                "visse",
+                "editrice",
+                "scrittori",
+                "profonda"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

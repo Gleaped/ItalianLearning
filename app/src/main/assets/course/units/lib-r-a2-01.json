@@ -59,6 +59,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-01-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Ieri è ___ il mio primo ___ di lavoro in un ___ di libri. Sono arrivato alle otto e mezza, ma ero già ___ nervoso. La proprietaria, la signora Betti, mi ha ___ con un sorriso e mi ha presentato i colleghi.",
+          "gaps": [
+            {
+              "answers": [
+                "stato"
+              ],
+              "options": [
+                "negozio",
+                "accolto",
+                "stato",
+                "molto",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "giorno"
+              ],
+              "options": [
+                "negozio",
+                "accolto",
+                "stato",
+                "molto",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "negozio"
+              ],
+              "options": [
+                "negozio",
+                "accolto",
+                "stato",
+                "molto",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "molto"
+              ],
+              "options": [
+                "negozio",
+                "accolto",
+                "stato",
+                "molto",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "accolto"
+              ],
+              "options": [
+                "negozio",
+                "accolto",
+                "stato",
+                "molto",
+                "giorno"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-01-l1-c1",
           "stage": "learn",
@@ -126,6 +197,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-01-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Domenica ___ pioveva e non sapevamo che cosa fare. Mio ___ voleva andare al parco, ma era impossibile. Allora ___ deciso di restare a casa e di ___ insieme. Abbiamo fatto i biscotti: mio figlio ha ___ la farina e le uova, e io ho acceso il forno.",
+          "gaps": [
+            {
+              "answers": [
+                "scorsa"
+              ],
+              "options": [
+                "abbiamo",
+                "mescolato",
+                "figlio",
+                "scorsa",
+                "cucinare"
+              ]
+            },
+            {
+              "answers": [
+                "figlio"
+              ],
+              "options": [
+                "abbiamo",
+                "mescolato",
+                "figlio",
+                "scorsa",
+                "cucinare"
+              ]
+            },
+            {
+              "answers": [
+                "abbiamo"
+              ],
+              "options": [
+                "abbiamo",
+                "mescolato",
+                "figlio",
+                "scorsa",
+                "cucinare"
+              ]
+            },
+            {
+              "answers": [
+                "cucinare"
+              ],
+              "options": [
+                "abbiamo",
+                "mescolato",
+                "figlio",
+                "scorsa",
+                "cucinare"
+              ]
+            },
+            {
+              "answers": [
+                "mescolato"
+              ],
+              "options": [
+                "abbiamo",
+                "mescolato",
+                "figlio",
+                "scorsa",
+                "cucinare"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -197,6 +339,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-01-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "I miei ___ raccontano sempre le loro ___ di quando erano giovani. Negli anni ___ non avevano la macchina, quindi viaggiavano in treno. Andavano ___ nello stesso ___ in Liguria, dove affittavano una camera da una signora anziana.",
+          "gaps": [
+            {
+              "answers": [
+                "nonni"
+              ],
+              "options": [
+                "nonni",
+                "sempre",
+                "sessanta",
+                "vacanze",
+                "paese"
+              ]
+            },
+            {
+              "answers": [
+                "vacanze"
+              ],
+              "options": [
+                "nonni",
+                "sempre",
+                "sessanta",
+                "vacanze",
+                "paese"
+              ]
+            },
+            {
+              "answers": [
+                "sessanta"
+              ],
+              "options": [
+                "nonni",
+                "sempre",
+                "sessanta",
+                "vacanze",
+                "paese"
+              ]
+            },
+            {
+              "answers": [
+                "sempre"
+              ],
+              "options": [
+                "nonni",
+                "sempre",
+                "sessanta",
+                "vacanze",
+                "paese"
+              ]
+            },
+            {
+              "answers": [
+                "paese"
+              ],
+              "options": [
+                "nonni",
+                "sempre",
+                "sessanta",
+                "vacanze",
+                "paese"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-01-l3-c1",
           "stage": "learn",
@@ -264,6 +477,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-01-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Ieri, ___ aspettavo l'autobus, ho visto una ___ amica. Si chiama Roberta e non la vedevo da ___ anni. Eravamo compagne di scuola e abitavamo ___ stesso quartiere. Ci siamo ___ e abbiamo parlato per quasi un'ora.",
+          "gaps": [
+            {
+              "answers": [
+                "mentre"
+              ],
+              "options": [
+                "mentre",
+                "vecchia",
+                "nello",
+                "abbracciate",
+                "dieci"
+              ]
+            },
+            {
+              "answers": [
+                "vecchia"
+              ],
+              "options": [
+                "mentre",
+                "vecchia",
+                "nello",
+                "abbracciate",
+                "dieci"
+              ]
+            },
+            {
+              "answers": [
+                "dieci"
+              ],
+              "options": [
+                "mentre",
+                "vecchia",
+                "nello",
+                "abbracciate",
+                "dieci"
+              ]
+            },
+            {
+              "answers": [
+                "nello"
+              ],
+              "options": [
+                "mentre",
+                "vecchia",
+                "nello",
+                "abbracciate",
+                "dieci"
+              ]
+            },
+            {
+              "answers": [
+                "abbracciate"
+              ],
+              "options": [
+                "mentre",
+                "vecchia",
+                "nello",
+                "abbracciate",
+                "dieci"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

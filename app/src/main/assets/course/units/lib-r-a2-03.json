@@ -59,6 +59,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-03-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Il ___ per Roma parte alle ___ e dieci, ma io sono alla stazione già alle dieci e mezza. Devo ___ il biglietto, quindi ___ la fila alla biglietteria. La signora allo sportello mi dice che il ___ ha quindici minuti di ritardo.",
+          "gaps": [
+            {
+              "answers": [
+                "treno"
+              ],
+              "options": [
+                "treno",
+                "treno",
+                "faccio",
+                "undici",
+                "comprare"
+              ]
+            },
+            {
+              "answers": [
+                "undici"
+              ],
+              "options": [
+                "treno",
+                "treno",
+                "faccio",
+                "undici",
+                "comprare"
+              ]
+            },
+            {
+              "answers": [
+                "comprare"
+              ],
+              "options": [
+                "treno",
+                "treno",
+                "faccio",
+                "undici",
+                "comprare"
+              ]
+            },
+            {
+              "answers": [
+                "faccio"
+              ],
+              "options": [
+                "treno",
+                "treno",
+                "faccio",
+                "undici",
+                "comprare"
+              ]
+            },
+            {
+              "answers": [
+                "treno"
+              ],
+              "options": [
+                "treno",
+                "treno",
+                "faccio",
+                "undici",
+                "comprare"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-03-l1-c1",
           "stage": "learn",
@@ -128,6 +199,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-03-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Mi ___ Paola e da tre ___ ho la tosse e un ___ mal di gola. Stamattina sono andata dal dottore. Mi ha ___ con attenzione e mi ha ___ che non è niente di grave.",
+          "gaps": [
+            {
+              "answers": [
+                "chiamo"
+              ],
+              "options": [
+                "chiamo",
+                "forte",
+                "detto",
+                "giorni",
+                "visitata"
+              ]
+            },
+            {
+              "answers": [
+                "giorni"
+              ],
+              "options": [
+                "chiamo",
+                "forte",
+                "detto",
+                "giorni",
+                "visitata"
+              ]
+            },
+            {
+              "answers": [
+                "forte"
+              ],
+              "options": [
+                "chiamo",
+                "forte",
+                "detto",
+                "giorni",
+                "visitata"
+              ]
+            },
+            {
+              "answers": [
+                "visitata"
+              ],
+              "options": [
+                "chiamo",
+                "forte",
+                "detto",
+                "giorni",
+                "visitata"
+              ]
+            },
+            {
+              "answers": [
+                "detto"
+              ],
+              "options": [
+                "chiamo",
+                "forte",
+                "detto",
+                "giorni",
+                "visitata"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -201,6 +343,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-03-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Oggi devo ___ un conto in banca, ___ ho un nuovo lavoro e il ___ di lavoro versa lo ___ sul conto. Allo sportello l'impiegato mi chiede un ___ di identità e il codice fiscale.",
+          "gaps": [
+            {
+              "answers": [
+                "aprire"
+              ],
+              "options": [
+                "documento",
+                "stipendio",
+                "perché",
+                "aprire",
+                "datore"
+              ]
+            },
+            {
+              "answers": [
+                "perché"
+              ],
+              "options": [
+                "documento",
+                "stipendio",
+                "perché",
+                "aprire",
+                "datore"
+              ]
+            },
+            {
+              "answers": [
+                "datore"
+              ],
+              "options": [
+                "documento",
+                "stipendio",
+                "perché",
+                "aprire",
+                "datore"
+              ]
+            },
+            {
+              "answers": [
+                "stipendio"
+              ],
+              "options": [
+                "documento",
+                "stipendio",
+                "perché",
+                "aprire",
+                "datore"
+              ]
+            },
+            {
+              "answers": [
+                "documento"
+              ],
+              "options": [
+                "documento",
+                "stipendio",
+                "perché",
+                "aprire",
+                "datore"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-03-l3-c1",
           "stage": "learn",
@@ -270,6 +483,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-03-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Sabato io e Marco ___ andati a Firenze in treno. Abbiamo visitato il Duomo e ___ saliti sulla cupola: i ___ erano quattrocentocinquanta, ma la vista era fantastica. Per ___ abbiamo mangiato una ___ alla fiorentina in una trattoria vicino al mercato.",
+          "gaps": [
+            {
+              "answers": [
+                "siamo"
+              ],
+              "options": [
+                "gradini",
+                "siamo",
+                "siamo",
+                "bistecca",
+                "pranzo"
+              ]
+            },
+            {
+              "answers": [
+                "siamo"
+              ],
+              "options": [
+                "gradini",
+                "siamo",
+                "siamo",
+                "bistecca",
+                "pranzo"
+              ]
+            },
+            {
+              "answers": [
+                "gradini"
+              ],
+              "options": [
+                "gradini",
+                "siamo",
+                "siamo",
+                "bistecca",
+                "pranzo"
+              ]
+            },
+            {
+              "answers": [
+                "pranzo"
+              ],
+              "options": [
+                "gradini",
+                "siamo",
+                "siamo",
+                "bistecca",
+                "pranzo"
+              ]
+            },
+            {
+              "answers": [
+                "bistecca"
+              ],
+              "options": [
+                "gradini",
+                "siamo",
+                "siamo",
+                "bistecca",
+                "pranzo"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

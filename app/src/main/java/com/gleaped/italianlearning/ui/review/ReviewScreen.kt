@@ -308,7 +308,7 @@ fun ReviewScreen(onDone: () -> Unit) {
         }
         val today = LocalDate.now().toEpochDay()
         val whenBack: (Rating) -> String = { r ->
-            if (r == Rating.AGAIN) "in this session" else Sm2.describeInterval(Sm2.review(card.toState(), r, today).intervalDays)
+            if (r == Rating.AGAIN) "in this session" else Sm2.describeInterval(com.gleaped.italianlearning.domain.srs.Fsrs.review(card.toState(), r, today).intervalDays)
         }
         // Each showing of a card starts clean, also when "Again" brings it back in this session.
         key(card.id, state.reviewed) {

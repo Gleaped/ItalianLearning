@@ -50,6 +50,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a1-01-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Mi ___ Luisa e ho venticinque anni. Sono di Verona, ma ___ a Milano. Sono infermiera e ___ in un ospedale grande. Ho una sorella, Marta. Lei è ___ e ha diciannove anni. Nel fine ___ io e Marta andiamo spesso al cinema.",
+          "gaps": [
+            {
+              "answers": [
+                "chiamo"
+              ],
+              "options": [
+                "abito",
+                "chiamo",
+                "studentessa",
+                "settimana",
+                "lavoro"
+              ]
+            },
+            {
+              "answers": [
+                "abito"
+              ],
+              "options": [
+                "abito",
+                "chiamo",
+                "studentessa",
+                "settimana",
+                "lavoro"
+              ]
+            },
+            {
+              "answers": [
+                "lavoro"
+              ],
+              "options": [
+                "abito",
+                "chiamo",
+                "studentessa",
+                "settimana",
+                "lavoro"
+              ]
+            },
+            {
+              "answers": [
+                "studentessa"
+              ],
+              "options": [
+                "abito",
+                "chiamo",
+                "studentessa",
+                "settimana",
+                "lavoro"
+              ]
+            },
+            {
+              "answers": [
+                "settimana"
+              ],
+              "options": [
+                "abito",
+                "chiamo",
+                "studentessa",
+                "settimana",
+                "lavoro"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a1-01-l1-c1",
           "stage": "learn",
@@ -110,6 +181,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-01-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Paolo ha una ___ numerosa. Ha due fratelli e una sorella. Suo ___ fa il tassista e sua madre è insegnante. La ___ tutti ___ dai nonni. La nonna cucina le ___ e il nonno prepara il caffè.",
+          "gaps": [
+            {
+              "answers": [
+                "famiglia"
+              ],
+              "options": [
+                "lasagne",
+                "padre",
+                "mangiano",
+                "famiglia",
+                "domenica"
+              ]
+            },
+            {
+              "answers": [
+                "padre"
+              ],
+              "options": [
+                "lasagne",
+                "padre",
+                "mangiano",
+                "famiglia",
+                "domenica"
+              ]
+            },
+            {
+              "answers": [
+                "domenica"
+              ],
+              "options": [
+                "lasagne",
+                "padre",
+                "mangiano",
+                "famiglia",
+                "domenica"
+              ]
+            },
+            {
+              "answers": [
+                "mangiano"
+              ],
+              "options": [
+                "lasagne",
+                "padre",
+                "mangiano",
+                "famiglia",
+                "domenica"
+              ]
+            },
+            {
+              "answers": [
+                "lasagne"
+              ],
+              "options": [
+                "lasagne",
+                "padre",
+                "mangiano",
+                "famiglia",
+                "domenica"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -173,6 +315,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a1-01-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Il mio ___ amico si ___ Karim. È alto e magro, ha i capelli neri e gli ___ marroni. Viene dal Marocco, ma vive in Italia da cinque anni. È ___ simpatico e ___ tre lingue: arabo, francese e italiano.",
+          "gaps": [
+            {
+              "answers": [
+                "migliore"
+              ],
+              "options": [
+                "parla",
+                "migliore",
+                "molto",
+                "chiama",
+                "occhi"
+              ]
+            },
+            {
+              "answers": [
+                "chiama"
+              ],
+              "options": [
+                "parla",
+                "migliore",
+                "molto",
+                "chiama",
+                "occhi"
+              ]
+            },
+            {
+              "answers": [
+                "occhi"
+              ],
+              "options": [
+                "parla",
+                "migliore",
+                "molto",
+                "chiama",
+                "occhi"
+              ]
+            },
+            {
+              "answers": [
+                "molto"
+              ],
+              "options": [
+                "parla",
+                "migliore",
+                "molto",
+                "chiama",
+                "occhi"
+              ]
+            },
+            {
+              "answers": [
+                "parla"
+              ],
+              "options": [
+                "parla",
+                "migliore",
+                "molto",
+                "chiama",
+                "occhi"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a1-01-l3-c1",
           "stage": "learn",
@@ -233,6 +446,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-01-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Oggi ___ un nuovo vicino. Si ___ signor Conti e ha sessant'anni. Abita al ___ piano, vicino a me. Ha un cane piccolo, che si chiama Briciola. Il ___ Conti è gentile: saluta ___ e porta il pane fresco ai vicini.",
+          "gaps": [
+            {
+              "answers": [
+                "arriva"
+              ],
+              "options": [
+                "arriva",
+                "signor",
+                "sempre",
+                "chiama",
+                "secondo"
+              ]
+            },
+            {
+              "answers": [
+                "chiama"
+              ],
+              "options": [
+                "arriva",
+                "signor",
+                "sempre",
+                "chiama",
+                "secondo"
+              ]
+            },
+            {
+              "answers": [
+                "secondo"
+              ],
+              "options": [
+                "arriva",
+                "signor",
+                "sempre",
+                "chiama",
+                "secondo"
+              ]
+            },
+            {
+              "answers": [
+                "signor"
+              ],
+              "options": [
+                "arriva",
+                "signor",
+                "sempre",
+                "chiama",
+                "secondo"
+              ]
+            },
+            {
+              "answers": [
+                "sempre"
+              ],
+              "options": [
+                "arriva",
+                "signor",
+                "sempre",
+                "chiama",
+                "secondo"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

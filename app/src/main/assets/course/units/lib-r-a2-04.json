@@ -59,6 +59,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-04-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Ieri ho ___ un telefono nuovo, perché il ___ non funzionava più bene: la batteria ___ poche ore. Il commesso mi ha ___ tre modelli e ho scelto ___ più piccolo, che costa trecento euro.",
+          "gaps": [
+            {
+              "answers": [
+                "comprato"
+              ],
+              "options": [
+                "mostrato",
+                "vecchio",
+                "durava",
+                "quello",
+                "comprato"
+              ]
+            },
+            {
+              "answers": [
+                "vecchio"
+              ],
+              "options": [
+                "mostrato",
+                "vecchio",
+                "durava",
+                "quello",
+                "comprato"
+              ]
+            },
+            {
+              "answers": [
+                "durava"
+              ],
+              "options": [
+                "mostrato",
+                "vecchio",
+                "durava",
+                "quello",
+                "comprato"
+              ]
+            },
+            {
+              "answers": [
+                "mostrato"
+              ],
+              "options": [
+                "mostrato",
+                "vecchio",
+                "durava",
+                "quello",
+                "comprato"
+              ]
+            },
+            {
+              "answers": [
+                "quello"
+              ],
+              "options": [
+                "mostrato",
+                "vecchio",
+                "durava",
+                "quello",
+                "comprato"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-04-l1-c1",
           "stage": "learn",
@@ -128,6 +199,77 @@
               "answer": 0
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-04-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Ogni ___ sera gioco a calcetto con i colleghi. Siamo ___ persone e giochiamo in un ___ vicino all'ufficio. Non siamo bravi, ma ci ___ molto. L'allenatore è Stefano, il più vecchio del gruppo, che dice sempre di ___ stato un grande calciatore.",
+          "gaps": [
+            {
+              "answers": [
+                "giovedì"
+              ],
+              "options": [
+                "campo",
+                "divertiamo",
+                "dieci",
+                "essere",
+                "giovedì"
+              ]
+            },
+            {
+              "answers": [
+                "dieci"
+              ],
+              "options": [
+                "campo",
+                "divertiamo",
+                "dieci",
+                "essere",
+                "giovedì"
+              ]
+            },
+            {
+              "answers": [
+                "campo"
+              ],
+              "options": [
+                "campo",
+                "divertiamo",
+                "dieci",
+                "essere",
+                "giovedì"
+              ]
+            },
+            {
+              "answers": [
+                "divertiamo"
+              ],
+              "options": [
+                "campo",
+                "divertiamo",
+                "dieci",
+                "essere",
+                "giovedì"
+              ]
+            },
+            {
+              "answers": [
+                "essere"
+              ],
+              "options": [
+                "campo",
+                "divertiamo",
+                "dieci",
+                "essere",
+                "giovedì"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -201,6 +343,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-04-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Oggi vi ___ come fare gli spaghetti aglio, olio e peperoncino. Ci ___ pochi ingredienti: spaghetti, aglio, olio d'oliva, peperoncino e prezzemolo. Prima ___ l'acqua a bollire e ___ il sale. Mentre la pasta cuoce, tagliate l'aglio a ___ e fatelo dorare nell'olio con il peperoncino.",
+          "gaps": [
+            {
+              "answers": [
+                "spiego"
+              ],
+              "options": [
+                "spiego",
+                "fettine",
+                "mettete",
+                "vogliono",
+                "aggiungete"
+              ]
+            },
+            {
+              "answers": [
+                "vogliono"
+              ],
+              "options": [
+                "spiego",
+                "fettine",
+                "mettete",
+                "vogliono",
+                "aggiungete"
+              ]
+            },
+            {
+              "answers": [
+                "mettete"
+              ],
+              "options": [
+                "spiego",
+                "fettine",
+                "mettete",
+                "vogliono",
+                "aggiungete"
+              ]
+            },
+            {
+              "answers": [
+                "aggiungete"
+              ],
+              "options": [
+                "spiego",
+                "fettine",
+                "mettete",
+                "vogliono",
+                "aggiungete"
+              ]
+            },
+            {
+              "answers": [
+                "fettine"
+              ],
+              "options": [
+                "spiego",
+                "fettine",
+                "mettete",
+                "vogliono",
+                "aggiungete"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-04-l3-c1",
           "stage": "learn",
@@ -269,6 +482,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-04-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Caro Lorenzo, come stai? Sono ___ due mesi da ___ sei partito per Londra e mi ___ molto. Qui è tutto come prima: ___ tanto e nel fine ___ vado al lago con gli altri amici.",
+          "gaps": [
+            {
+              "answers": [
+                "passati"
+              ],
+              "options": [
+                "lavoro",
+                "settimana",
+                "passati",
+                "manchi",
+                "quando"
+              ]
+            },
+            {
+              "answers": [
+                "quando"
+              ],
+              "options": [
+                "lavoro",
+                "settimana",
+                "passati",
+                "manchi",
+                "quando"
+              ]
+            },
+            {
+              "answers": [
+                "manchi"
+              ],
+              "options": [
+                "lavoro",
+                "settimana",
+                "passati",
+                "manchi",
+                "quando"
+              ]
+            },
+            {
+              "answers": [
+                "lavoro"
+              ],
+              "options": [
+                "lavoro",
+                "settimana",
+                "passati",
+                "manchi",
+                "quando"
+              ]
+            },
+            {
+              "answers": [
+                "settimana"
+              ],
+              "options": [
+                "lavoro",
+                "settimana",
+                "passati",
+                "manchi",
+                "quando"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

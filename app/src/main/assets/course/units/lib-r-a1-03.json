@@ -50,6 +50,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a1-03-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Vivo a Bologna, una ___ grande e bella. Il ___ è pieno di ___ e di negozi. Ci sono due torri ___ alte e una piazza con una fontana. Ogni ___ vado in bicicletta all'università, che è vicino alla stazione.",
+          "gaps": [
+            {
+              "answers": [
+                "città"
+              ],
+              "options": [
+                "molto",
+                "portici",
+                "città",
+                "centro",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "centro"
+              ],
+              "options": [
+                "molto",
+                "portici",
+                "città",
+                "centro",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "portici"
+              ],
+              "options": [
+                "molto",
+                "portici",
+                "città",
+                "centro",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "molto"
+              ],
+              "options": [
+                "molto",
+                "portici",
+                "città",
+                "centro",
+                "giorno"
+              ]
+            },
+            {
+              "answers": [
+                "giorno"
+              ],
+              "options": [
+                "molto",
+                "portici",
+                "città",
+                "centro",
+                "giorno"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a1-03-l1-c1",
           "stage": "learn",
@@ -108,6 +179,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-03-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Scusi, dov'è la stazione? Vada ___ dritto per ___ metri. Poi giri a destra in via Roma. Dopo il semaforo, giri a sinistra. La ___ è davanti alla ___ piazza, vicino alla farmacia. Può ___ a piedi: ci vogliono dieci minuti.",
+          "gaps": [
+            {
+              "answers": [
+                "sempre"
+              ],
+              "options": [
+                "cento",
+                "sempre",
+                "stazione",
+                "andare",
+                "grande"
+              ]
+            },
+            {
+              "answers": [
+                "cento"
+              ],
+              "options": [
+                "cento",
+                "sempre",
+                "stazione",
+                "andare",
+                "grande"
+              ]
+            },
+            {
+              "answers": [
+                "stazione"
+              ],
+              "options": [
+                "cento",
+                "sempre",
+                "stazione",
+                "andare",
+                "grande"
+              ]
+            },
+            {
+              "answers": [
+                "grande"
+              ],
+              "options": [
+                "cento",
+                "sempre",
+                "stazione",
+                "andare",
+                "grande"
+              ]
+            },
+            {
+              "answers": [
+                "andare"
+              ],
+              "options": [
+                "cento",
+                "sempre",
+                "stazione",
+                "andare",
+                "grande"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -172,6 +314,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a1-03-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Questo ___ vado a Roma con il treno. Parto sabato alle nove e ___ a mezzogiorno. Dormo in un piccolo ___ vicino al Colosseo. Il sabato ___ i musei e la ___ faccio una passeggiata nel centro.",
+          "gaps": [
+            {
+              "answers": [
+                "weekend"
+              ],
+              "options": [
+                "domenica",
+                "visito",
+                "albergo",
+                "arrivo",
+                "weekend"
+              ]
+            },
+            {
+              "answers": [
+                "arrivo"
+              ],
+              "options": [
+                "domenica",
+                "visito",
+                "albergo",
+                "arrivo",
+                "weekend"
+              ]
+            },
+            {
+              "answers": [
+                "albergo"
+              ],
+              "options": [
+                "domenica",
+                "visito",
+                "albergo",
+                "arrivo",
+                "weekend"
+              ]
+            },
+            {
+              "answers": [
+                "visito"
+              ],
+              "options": [
+                "domenica",
+                "visito",
+                "albergo",
+                "arrivo",
+                "weekend"
+              ]
+            },
+            {
+              "answers": [
+                "domenica"
+              ],
+              "options": [
+                "domenica",
+                "visito",
+                "albergo",
+                "arrivo",
+                "weekend"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a1-03-l3-c1",
           "stage": "learn",
@@ -232,6 +445,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-03-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Oggi a Napoli c'è il sole e fa caldo: ci sono ___ gradi. In montagna, invece, fa ___ e piove. Domani a Milano c'è ___ al mattino, poi il cielo è nuvoloso. Nel ___ ___ la neve sulle Alpi.",
+          "gaps": [
+            {
+              "answers": [
+                "venticinque"
+              ],
+              "options": [
+                "venticinque",
+                "freddo",
+                "weekend",
+                "arriva",
+                "nebbia"
+              ]
+            },
+            {
+              "answers": [
+                "freddo"
+              ],
+              "options": [
+                "venticinque",
+                "freddo",
+                "weekend",
+                "arriva",
+                "nebbia"
+              ]
+            },
+            {
+              "answers": [
+                "nebbia"
+              ],
+              "options": [
+                "venticinque",
+                "freddo",
+                "weekend",
+                "arriva",
+                "nebbia"
+              ]
+            },
+            {
+              "answers": [
+                "weekend"
+              ],
+              "options": [
+                "venticinque",
+                "freddo",
+                "weekend",
+                "arriva",
+                "nebbia"
+              ]
+            },
+            {
+              "answers": [
+                "arriva"
+              ],
+              "options": [
+                "venticinque",
+                "freddo",
+                "weekend",
+                "arriva",
+                "nebbia"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
