@@ -1,0 +1,632 @@
+{
+  "id": "celi-12",
+  "level": "CELI3",
+  "title": "Biblioteca di ascolto 2",
+  "objective": "Alla fine dell'unità hai ascoltato altri sei testi lunghi (circa 130–170 parole) come quelli della Parte D: un messaggio in segreteria, una rubrica radio, una telefonata, un'intervista, un racconto e un notiziario.",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli, numeri, orari, prezzi e motivi.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "celi-12-l1",
+      "title": "Messaggio in segreteria: lo studio dentistico",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 150 parole e rispondere a quattro domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-12-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l1-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Rossi, sono Marta dello studio dentistico Bianchi. La chiamo per l'appuntamento di giovedì prossimo alle quindici e trenta. Purtroppo la dottoressa Bianchi deve partecipare a un congresso a Milano e non potrà ricevere i pazienti quel giorno. Possiamo spostare la visita a venerdì mattina alle nove e quindici, oppure a lunedì pomeriggio alle diciassette. Se nessuna delle due date va bene, la prego di richiamarci entro mercoledì: lo studio è aperto dal lunedì al venerdì, dalle otto alle dodici e dalle quattordici alle diciotto. Le ricordo anche che, per il controllo, è meglio non mangiare nelle due ore precedenti. Per qualsiasi dubbio può scrivere a segreteria chiocciola studiobianchi punto it. Mi scuso per il disturbo e le auguro una buona giornata.",
+          "question": "Perché la segretaria telefona al signor Rossi?",
+          "options": [
+            "Per ricordargli di pagare",
+            "Per cambiare la data della visita",
+            "Per annullare definitivamente la visita",
+            "Per comunicargli il risultato di un esame"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l1-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Rossi, sono Marta dello studio dentistico Bianchi. La chiamo per l'appuntamento di giovedì prossimo alle quindici e trenta. Purtroppo la dottoressa Bianchi deve partecipare a un congresso a Milano e non potrà ricevere i pazienti quel giorno. Possiamo spostare la visita a venerdì mattina alle nove e quindici, oppure a lunedì pomeriggio alle diciassette. Se nessuna delle due date va bene, la prego di richiamarci entro mercoledì: lo studio è aperto dal lunedì al venerdì, dalle otto alle dodici e dalle quattordici alle diciotto. Le ricordo anche che, per il controllo, è meglio non mangiare nelle due ore precedenti. Per qualsiasi dubbio può scrivere a segreteria chiocciola studiobianchi punto it. Mi scuso per il disturbo e le auguro una buona giornata.",
+          "question": "Perché la dottoressa non può ricevere giovedì?",
+          "options": [
+            "È ammalata",
+            "Ha un congresso a Milano",
+            "È in vacanza",
+            "Lo studio è chiuso per lavori"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l1-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Rossi, sono Marta dello studio dentistico Bianchi. La chiamo per l'appuntamento di giovedì prossimo alle quindici e trenta. Purtroppo la dottoressa Bianchi deve partecipare a un congresso a Milano e non potrà ricevere i pazienti quel giorno. Possiamo spostare la visita a venerdì mattina alle nove e quindici, oppure a lunedì pomeriggio alle diciassette. Se nessuna delle due date va bene, la prego di richiamarci entro mercoledì: lo studio è aperto dal lunedì al venerdì, dalle otto alle dodici e dalle quattordici alle diciotto. Le ricordo anche che, per il controllo, è meglio non mangiare nelle due ore precedenti. Per qualsiasi dubbio può scrivere a segreteria chiocciola studiobianchi punto it. Mi scuso per il disturbo e le auguro una buona giornata.",
+          "question": "Quali alternative propone la segretaria?",
+          "options": [
+            "Venerdì alle 9.15 o lunedì alle 17",
+            "Mercoledì alle 9 o giovedì alle 17",
+            "Venerdì alle 17 o lunedì alle 9.15",
+            "Lunedì alle 8 o martedì alle 14"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l1-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Rossi, sono Marta dello studio dentistico Bianchi. La chiamo per l'appuntamento di giovedì prossimo alle quindici e trenta. Purtroppo la dottoressa Bianchi deve partecipare a un congresso a Milano e non potrà ricevere i pazienti quel giorno. Possiamo spostare la visita a venerdì mattina alle nove e quindici, oppure a lunedì pomeriggio alle diciassette. Se nessuna delle due date va bene, la prego di richiamarci entro mercoledì: lo studio è aperto dal lunedì al venerdì, dalle otto alle dodici e dalle quattordici alle diciotto. Le ricordo anche che, per il controllo, è meglio non mangiare nelle due ore precedenti. Per qualsiasi dubbio può scrivere a segreteria chiocciola studiobianchi punto it. Mi scuso per il disturbo e le auguro una buona giornata.",
+          "question": "Che cosa consiglia di fare prima del controllo?",
+          "options": [
+            "Prendere un farmaco",
+            "Non mangiare per due ore",
+            "Lavare i denti a lungo",
+            "Portare le radiografie"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l1-e06",
+          "stage": "learn",
+          "front": "spostare",
+          "back": "to move, to reschedule",
+          "example": "Possiamo spostare l'appuntamento a lunedì?"
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l1-e07",
+          "stage": "learn",
+          "front": "il congresso",
+          "back": "conference",
+          "example": "Il medico è a un congresso a Roma."
+        }
+      ]
+    },
+    {
+      "id": "celi-12-l2",
+      "title": "Rubrica radio: la mensa a scuola",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 150 parole e rispondere a quattro domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-12-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l2-e02",
+          "stage": "practise",
+          "audioText": "Oggi parliamo di mense scolastiche con la dottoressa Elena Conti, nutrizionista. Dottoressa, che cosa è cambiato negli ultimi anni? Molte scuole hanno ridotto la carne e aumentato verdura e legumi, e questo è un bene. In una scuola elementare di Bergamo, per esempio, i bambini mangiano frutta fresca ogni giorno e il pane viene da un forno del quartiere. Ma non tutto funziona: in alcune città gli studenti buttano via quasi un terzo del cibo, perché i piatti non piacciono. Come si risolve il problema? Coinvolgendo i ragazzi. Dove i bambini aiutano a scegliere il menù e visitano l'orto della scuola, lo spreco scende di oltre il quaranta per cento. Un ultimo consiglio per i genitori? Non commentate in modo negativo il cibo della mensa davanti ai figli, e chiedete alla scuola di poter assaggiare i piatti. Grazie, dottoressa. Grazie a voi.",
+          "question": "Che cosa è cambiato in molte mense?",
+          "options": [
+            "C'è più carne",
+            "Ci sono più verdura e legumi",
+            "I pasti sono più cari",
+            "I bambini mangiano a casa"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l2-e03",
+          "stage": "practise",
+          "audioText": "Oggi parliamo di mense scolastiche con la dottoressa Elena Conti, nutrizionista. Dottoressa, che cosa è cambiato negli ultimi anni? Molte scuole hanno ridotto la carne e aumentato verdura e legumi, e questo è un bene. In una scuola elementare di Bergamo, per esempio, i bambini mangiano frutta fresca ogni giorno e il pane viene da un forno del quartiere. Ma non tutto funziona: in alcune città gli studenti buttano via quasi un terzo del cibo, perché i piatti non piacciono. Come si risolve il problema? Coinvolgendo i ragazzi. Dove i bambini aiutano a scegliere il menù e visitano l'orto della scuola, lo spreco scende di oltre il quaranta per cento. Un ultimo consiglio per i genitori? Non commentate in modo negativo il cibo della mensa davanti ai figli, e chiedete alla scuola di poter assaggiare i piatti. Grazie, dottoressa. Grazie a voi.",
+          "question": "Quanto cibo buttano via gli studenti in alcune città?",
+          "options": [
+            "Circa un decimo",
+            "Circa un quarto",
+            "Quasi un terzo",
+            "Più della metà"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l2-e04",
+          "stage": "practise",
+          "audioText": "Oggi parliamo di mense scolastiche con la dottoressa Elena Conti, nutrizionista. Dottoressa, che cosa è cambiato negli ultimi anni? Molte scuole hanno ridotto la carne e aumentato verdura e legumi, e questo è un bene. In una scuola elementare di Bergamo, per esempio, i bambini mangiano frutta fresca ogni giorno e il pane viene da un forno del quartiere. Ma non tutto funziona: in alcune città gli studenti buttano via quasi un terzo del cibo, perché i piatti non piacciono. Come si risolve il problema? Coinvolgendo i ragazzi. Dove i bambini aiutano a scegliere il menù e visitano l'orto della scuola, lo spreco scende di oltre il quaranta per cento. Un ultimo consiglio per i genitori? Non commentate in modo negativo il cibo della mensa davanti ai figli, e chiedete alla scuola di poter assaggiare i piatti. Grazie, dottoressa. Grazie a voi.",
+          "question": "Che cosa riduce lo spreco?",
+          "options": [
+            "Porzioni più piccole",
+            "Coinvolgere i bambini nella scelta e nell'orto",
+            "Menù uguali ogni giorno",
+            "Orari più lunghi"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l2-e05",
+          "stage": "practise",
+          "audioText": "Oggi parliamo di mense scolastiche con la dottoressa Elena Conti, nutrizionista. Dottoressa, che cosa è cambiato negli ultimi anni? Molte scuole hanno ridotto la carne e aumentato verdura e legumi, e questo è un bene. In una scuola elementare di Bergamo, per esempio, i bambini mangiano frutta fresca ogni giorno e il pane viene da un forno del quartiere. Ma non tutto funziona: in alcune città gli studenti buttano via quasi un terzo del cibo, perché i piatti non piacciono. Come si risolve il problema? Coinvolgendo i ragazzi. Dove i bambini aiutano a scegliere il menù e visitano l'orto della scuola, lo spreco scende di oltre il quaranta per cento. Un ultimo consiglio per i genitori? Non commentate in modo negativo il cibo della mensa davanti ai figli, e chiedete alla scuola di poter assaggiare i piatti. Grazie, dottoressa. Grazie a voi.",
+          "question": "Che consiglio dà la dottoressa ai genitori?",
+          "options": [
+            "Non criticare il cibo della mensa davanti ai figli",
+            "Preparare il pranzo a casa",
+            "Portare dolci a scuola",
+            "Parlare con il cuoco ogni giorno"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l2-e06",
+          "stage": "learn",
+          "front": "lo spreco",
+          "back": "waste",
+          "example": "Dobbiamo ridurre lo spreco di cibo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l2-e07",
+          "stage": "learn",
+          "front": "i legumi",
+          "back": "legumes, pulses",
+          "example": "I legumi sono ricchi di proteine."
+        }
+      ]
+    },
+    {
+      "id": "celi-12-l3",
+      "title": "Telefonata all'ufficio turistico",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 150 parole e rispondere a quattro domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-12-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l3-e02",
+          "stage": "practise",
+          "audioText": "Ufficio turistico di Lucca, buongiorno. Buongiorno, vorrei informazioni sulla visita guidata alle mura. Certo. Le visite partono ogni giorno alle dieci e alle quindici dalla porta San Pietro e durano circa due ore. Il biglietto costa dodici euro, ma per i ragazzi sotto i quattordici anni è gratuito. Siamo in quattro: due adulti e due bambini. Allora pagherete ventiquattro euro in tutto. Dobbiamo prenotare? Consiglio di sì, soprattutto il sabato, perché i gruppi sono di venti persone al massimo. Può prenotare anche online, oppure passare di persona: siamo in piazza Santa Maria, aperti fino alle diciannove. Un'ultima cosa: la visita non si fa se piove forte, e in quel caso vi avvisiamo con un messaggio un'ora prima. Perfetto, allora prenoto per sabato alle dieci. Grazie e a presto.",
+          "question": "Quanto dura la visita guidata?",
+          "options": [
+            "Circa un'ora",
+            "Circa due ore",
+            "Circa tre ore",
+            "Tutta la mattina"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l3-e03",
+          "stage": "practise",
+          "audioText": "Ufficio turistico di Lucca, buongiorno. Buongiorno, vorrei informazioni sulla visita guidata alle mura. Certo. Le visite partono ogni giorno alle dieci e alle quindici dalla porta San Pietro e durano circa due ore. Il biglietto costa dodici euro, ma per i ragazzi sotto i quattordici anni è gratuito. Siamo in quattro: due adulti e due bambini. Allora pagherete ventiquattro euro in tutto. Dobbiamo prenotare? Consiglio di sì, soprattutto il sabato, perché i gruppi sono di venti persone al massimo. Può prenotare anche online, oppure passare di persona: siamo in piazza Santa Maria, aperti fino alle diciannove. Un'ultima cosa: la visita non si fa se piove forte, e in quel caso vi avvisiamo con un messaggio un'ora prima. Perfetto, allora prenoto per sabato alle dieci. Grazie e a presto.",
+          "question": "Quanto pagherà in tutto la famiglia?",
+          "options": [
+            "Dodici euro",
+            "Ventiquattro euro",
+            "Trentasei euro",
+            "Quarantotto euro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l3-e04",
+          "stage": "practise",
+          "audioText": "Ufficio turistico di Lucca, buongiorno. Buongiorno, vorrei informazioni sulla visita guidata alle mura. Certo. Le visite partono ogni giorno alle dieci e alle quindici dalla porta San Pietro e durano circa due ore. Il biglietto costa dodici euro, ma per i ragazzi sotto i quattordici anni è gratuito. Siamo in quattro: due adulti e due bambini. Allora pagherete ventiquattro euro in tutto. Dobbiamo prenotare? Consiglio di sì, soprattutto il sabato, perché i gruppi sono di venti persone al massimo. Può prenotare anche online, oppure passare di persona: siamo in piazza Santa Maria, aperti fino alle diciannove. Un'ultima cosa: la visita non si fa se piove forte, e in quel caso vi avvisiamo con un messaggio un'ora prima. Perfetto, allora prenoto per sabato alle dieci. Grazie e a presto.",
+          "question": "Perché conviene prenotare per sabato?",
+          "options": [
+            "Il biglietto costa meno",
+            "I gruppi sono limitati a venti persone",
+            "La visita dura di più",
+            "Ci sono più guide"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l3-e05",
+          "stage": "practise",
+          "audioText": "Ufficio turistico di Lucca, buongiorno. Buongiorno, vorrei informazioni sulla visita guidata alle mura. Certo. Le visite partono ogni giorno alle dieci e alle quindici dalla porta San Pietro e durano circa due ore. Il biglietto costa dodici euro, ma per i ragazzi sotto i quattordici anni è gratuito. Siamo in quattro: due adulti e due bambini. Allora pagherete ventiquattro euro in tutto. Dobbiamo prenotare? Consiglio di sì, soprattutto il sabato, perché i gruppi sono di venti persone al massimo. Può prenotare anche online, oppure passare di persona: siamo in piazza Santa Maria, aperti fino alle diciannove. Un'ultima cosa: la visita non si fa se piove forte, e in quel caso vi avvisiamo con un messaggio un'ora prima. Perfetto, allora prenoto per sabato alle dieci. Grazie e a presto.",
+          "question": "Che cosa succede se piove forte?",
+          "options": [
+            "La visita si fa lo stesso",
+            "La visita non si fa e li avvisano con un messaggio",
+            "Il biglietto costa meno",
+            "La visita si sposta alla sera"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l3-e06",
+          "stage": "learn",
+          "front": "gratuito",
+          "back": "free of charge",
+          "example": "L'ingresso è gratuito per i bambini."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l3-e07",
+          "stage": "learn",
+          "front": "avvisare",
+          "back": "to notify",
+          "example": "Vi avviseremo con un messaggio."
+        }
+      ]
+    },
+    {
+      "id": "celi-12-l4",
+      "title": "Intervista: dormire bene",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 150 parole e rispondere a quattro domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-12-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l4-e02",
+          "stage": "practise",
+          "audioText": "Professor Neri, quante ore bisogna dormire? Dipende dalla persona, ma per un adulto la media è di sette o otto ore. Dormire meno di sei ore per molte notti, invece, aumenta la stanchezza e riduce la concentrazione. Che cosa consiglia a chi dorme male? Prima di tutto, di andare a letto e di alzarsi sempre alla stessa ora, anche la domenica. Poi, di spegnere il telefono almeno mezz'ora prima di dormire, perché la luce dello schermo disturba il sonno. E il caffè? Meglio non berlo dopo le quindici, perché la caffeina resta nel corpo per molte ore. Molti pensano che un pisolino sia dannoso. Non è così, se è breve: venti minuti dopo pranzo possono aiutare. Se però dopo un mese i problemi continuano, conviene rivolgersi a un medico. Grazie, professore. Grazie a voi.",
+          "question": "Quante ore dorme in media un adulto?",
+          "options": [
+            "Quattro o cinque",
+            "Sei",
+            "Sette o otto",
+            "Dieci"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l4-e03",
+          "stage": "practise",
+          "audioText": "Professor Neri, quante ore bisogna dormire? Dipende dalla persona, ma per un adulto la media è di sette o otto ore. Dormire meno di sei ore per molte notti, invece, aumenta la stanchezza e riduce la concentrazione. Che cosa consiglia a chi dorme male? Prima di tutto, di andare a letto e di alzarsi sempre alla stessa ora, anche la domenica. Poi, di spegnere il telefono almeno mezz'ora prima di dormire, perché la luce dello schermo disturba il sonno. E il caffè? Meglio non berlo dopo le quindici, perché la caffeina resta nel corpo per molte ore. Molti pensano che un pisolino sia dannoso. Non è così, se è breve: venti minuti dopo pranzo possono aiutare. Se però dopo un mese i problemi continuano, conviene rivolgersi a un medico. Grazie, professore. Grazie a voi.",
+          "question": "Che cosa consiglia il professore per la sera?",
+          "options": [
+            "Fare sport",
+            "Spegnere il telefono mezz'ora prima",
+            "Mangiare molto",
+            "Leggere al computer"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l4-e04",
+          "stage": "practise",
+          "audioText": "Professor Neri, quante ore bisogna dormire? Dipende dalla persona, ma per un adulto la media è di sette o otto ore. Dormire meno di sei ore per molte notti, invece, aumenta la stanchezza e riduce la concentrazione. Che cosa consiglia a chi dorme male? Prima di tutto, di andare a letto e di alzarsi sempre alla stessa ora, anche la domenica. Poi, di spegnere il telefono almeno mezz'ora prima di dormire, perché la luce dello schermo disturba il sonno. E il caffè? Meglio non berlo dopo le quindici, perché la caffeina resta nel corpo per molte ore. Molti pensano che un pisolino sia dannoso. Non è così, se è breve: venti minuti dopo pranzo possono aiutare. Se però dopo un mese i problemi continuano, conviene rivolgersi a un medico. Grazie, professore. Grazie a voi.",
+          "question": "Dopo che ora è meglio non bere caffè?",
+          "options": [
+            "Dopo le undici",
+            "Dopo le tredici",
+            "Dopo le quindici",
+            "Dopo le diciotto"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l4-e05",
+          "stage": "practise",
+          "audioText": "Professor Neri, quante ore bisogna dormire? Dipende dalla persona, ma per un adulto la media è di sette o otto ore. Dormire meno di sei ore per molte notti, invece, aumenta la stanchezza e riduce la concentrazione. Che cosa consiglia a chi dorme male? Prima di tutto, di andare a letto e di alzarsi sempre alla stessa ora, anche la domenica. Poi, di spegnere il telefono almeno mezz'ora prima di dormire, perché la luce dello schermo disturba il sonno. E il caffè? Meglio non berlo dopo le quindici, perché la caffeina resta nel corpo per molte ore. Molti pensano che un pisolino sia dannoso. Non è così, se è breve: venti minuti dopo pranzo possono aiutare. Se però dopo un mese i problemi continuano, conviene rivolgersi a un medico. Grazie, professore. Grazie a voi.",
+          "question": "Quando conviene andare dal medico?",
+          "options": [
+            "Se i problemi continuano dopo un mese",
+            "Dopo una notte difficile",
+            "Solo se si dorme meno di tre ore",
+            "Quando si fa un pisolino"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l4-e06",
+          "stage": "learn",
+          "front": "il pisolino",
+          "back": "short nap",
+          "example": "Faccio un pisolino dopo pranzo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l4-e07",
+          "stage": "learn",
+          "front": "la concentrazione",
+          "back": "concentration",
+          "example": "Senza sonno la concentrazione cala."
+        }
+      ]
+    },
+    {
+      "id": "celi-12-l5",
+      "title": "Un racconto: il trasloco a Bologna",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 150 parole e rispondere a quattro domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-12-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l5-e02",
+          "stage": "practise",
+          "audioText": "Mi chiamo Sara e due anni fa ho lasciato Catania per trasferirmi a Bologna, dove ho trovato lavoro in una casa editrice. All'inizio ero spaventata: non conoscevo nessuno e il clima era molto diverso. In inverno la nebbia non finiva mai! Ho cercato una stanza per due mesi, perché gli affitti erano altissimi e quasi tutti volevano studenti. Alla fine ho diviso un appartamento con altre due ragazze, una di Napoli e una tedesca. Il momento più bello è stato la prima cena insieme: abbiamo cucinato la pasta alla norma e le mie coinquiline non volevano più smettere di mangiare. Oggi sento ancora nostalgia del mare, ma ho imparato ad amare i portici e le serate con gli amici in piazza. Il prossimo anno vorrei comprare una bicicletta e visitare l'Emilia in primavera.",
+          "question": "Perché Sara è andata a Bologna?",
+          "options": [
+            "Per studiare",
+            "Per lavoro",
+            "Per una vacanza",
+            "Per stare con la famiglia"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l5-e03",
+          "stage": "practise",
+          "audioText": "Mi chiamo Sara e due anni fa ho lasciato Catania per trasferirmi a Bologna, dove ho trovato lavoro in una casa editrice. All'inizio ero spaventata: non conoscevo nessuno e il clima era molto diverso. In inverno la nebbia non finiva mai! Ho cercato una stanza per due mesi, perché gli affitti erano altissimi e quasi tutti volevano studenti. Alla fine ho diviso un appartamento con altre due ragazze, una di Napoli e una tedesca. Il momento più bello è stato la prima cena insieme: abbiamo cucinato la pasta alla norma e le mie coinquiline non volevano più smettere di mangiare. Oggi sento ancora nostalgia del mare, ma ho imparato ad amare i portici e le serate con gli amici in piazza. Il prossimo anno vorrei comprare una bicicletta e visitare l'Emilia in primavera.",
+          "question": "Quale difficoltà ha avuto per la casa?",
+          "options": [
+            "Gli affitti erano alti e cercavano soprattutto studenti",
+            "Non c'erano appartamenti",
+            "Il padrone era antipatico",
+            "Le stanze erano piccole"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l5-e04",
+          "stage": "practise",
+          "audioText": "Mi chiamo Sara e due anni fa ho lasciato Catania per trasferirmi a Bologna, dove ho trovato lavoro in una casa editrice. All'inizio ero spaventata: non conoscevo nessuno e il clima era molto diverso. In inverno la nebbia non finiva mai! Ho cercato una stanza per due mesi, perché gli affitti erano altissimi e quasi tutti volevano studenti. Alla fine ho diviso un appartamento con altre due ragazze, una di Napoli e una tedesca. Il momento più bello è stato la prima cena insieme: abbiamo cucinato la pasta alla norma e le mie coinquiline non volevano più smettere di mangiare. Oggi sento ancora nostalgia del mare, ma ho imparato ad amare i portici e le serate con gli amici in piazza. Il prossimo anno vorrei comprare una bicicletta e visitare l'Emilia in primavera.",
+          "question": "Che cosa ha cucinato per la prima cena?",
+          "options": [
+            "La pizza",
+            "La pasta alla norma",
+            "Il risotto",
+            "Le lasagne"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l5-e05",
+          "stage": "practise",
+          "audioText": "Mi chiamo Sara e due anni fa ho lasciato Catania per trasferirmi a Bologna, dove ho trovato lavoro in una casa editrice. All'inizio ero spaventata: non conoscevo nessuno e il clima era molto diverso. In inverno la nebbia non finiva mai! Ho cercato una stanza per due mesi, perché gli affitti erano altissimi e quasi tutti volevano studenti. Alla fine ho diviso un appartamento con altre due ragazze, una di Napoli e una tedesca. Il momento più bello è stato la prima cena insieme: abbiamo cucinato la pasta alla norma e le mie coinquiline non volevano più smettere di mangiare. Oggi sento ancora nostalgia del mare, ma ho imparato ad amare i portici e le serate con gli amici in piazza. Il prossimo anno vorrei comprare una bicicletta e visitare l'Emilia in primavera.",
+          "question": "Che cosa le manca oggi?",
+          "options": [
+            "La sua famiglia",
+            "Il mare",
+            "Il clima",
+            "Il lavoro di prima"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l5-e06",
+          "stage": "learn",
+          "front": "la nebbia",
+          "back": "fog",
+          "example": "In pianura d'inverno c'è molta nebbia."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l5-e07",
+          "stage": "learn",
+          "front": "la coinquilina",
+          "back": "female flatmate",
+          "example": "La mia coinquilina cucina bene."
+        }
+      ]
+    },
+    {
+      "id": "celi-12-l6",
+      "title": "Notiziario: economia e meteo",
+      "minutes": 10,
+      "goal": "Ascoltare un testo di circa 150 parole e rispondere a quattro domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "celi-12-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l6-e02",
+          "stage": "practise",
+          "audioText": "Ecco le notizie di questa sera. Economia: a ottobre la disoccupazione è scesa al sette per cento, il dato più basso degli ultimi dieci anni. Il calo riguarda soprattutto i giovani tra i venticinque e i trentaquattro anni, mentre nel Sud le difficoltà restano. Il governo ha annunciato un fondo di cento milioni di euro per sostenere le piccole imprese che assumono a tempo indeterminato. Passiamo ai trasporti: da lunedì il biglietto dell'autobus a Torino costerà un euro e settanta, dieci centesimi in più rispetto a oggi, ma l'abbonamento mensile resterà invariato. Infine il meteo. Domani il cielo sarà nuvoloso al Nord, con nebbia in pianura al mattino. Al Centro sole e temperature in lieve aumento, fino a diciotto gradi. Al Sud possibili piogge sulle coste tirreniche. Buonasera da tutta la redazione.",
+          "question": "Che cosa è successo alla disoccupazione a ottobre?",
+          "options": [
+            "È salita al sette per cento",
+            "È scesa al sette per cento",
+            "È rimasta stabile",
+            "È scesa al diciassette per cento"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l6-e03",
+          "stage": "practise",
+          "audioText": "Ecco le notizie di questa sera. Economia: a ottobre la disoccupazione è scesa al sette per cento, il dato più basso degli ultimi dieci anni. Il calo riguarda soprattutto i giovani tra i venticinque e i trentaquattro anni, mentre nel Sud le difficoltà restano. Il governo ha annunciato un fondo di cento milioni di euro per sostenere le piccole imprese che assumono a tempo indeterminato. Passiamo ai trasporti: da lunedì il biglietto dell'autobus a Torino costerà un euro e settanta, dieci centesimi in più rispetto a oggi, ma l'abbonamento mensile resterà invariato. Infine il meteo. Domani il cielo sarà nuvoloso al Nord, con nebbia in pianura al mattino. Al Centro sole e temperature in lieve aumento, fino a diciotto gradi. Al Sud possibili piogge sulle coste tirreniche. Buonasera da tutta la redazione.",
+          "question": "A che cosa servirà il fondo da cento milioni?",
+          "options": [
+            "A costruire nuove strade",
+            "A sostenere le piccole imprese che assumono",
+            "A pagare gli studenti",
+            "A ridurre le tasse"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l6-e04",
+          "stage": "practise",
+          "audioText": "Ecco le notizie di questa sera. Economia: a ottobre la disoccupazione è scesa al sette per cento, il dato più basso degli ultimi dieci anni. Il calo riguarda soprattutto i giovani tra i venticinque e i trentaquattro anni, mentre nel Sud le difficoltà restano. Il governo ha annunciato un fondo di cento milioni di euro per sostenere le piccole imprese che assumono a tempo indeterminato. Passiamo ai trasporti: da lunedì il biglietto dell'autobus a Torino costerà un euro e settanta, dieci centesimi in più rispetto a oggi, ma l'abbonamento mensile resterà invariato. Infine il meteo. Domani il cielo sarà nuvoloso al Nord, con nebbia in pianura al mattino. Al Centro sole e temperature in lieve aumento, fino a diciotto gradi. Al Sud possibili piogge sulle coste tirreniche. Buonasera da tutta la redazione.",
+          "question": "Quanto costerà da lunedì il biglietto dell'autobus a Torino?",
+          "options": [
+            "Un euro e sessanta",
+            "Un euro e settanta",
+            "Un euro e ottanta",
+            "Due euro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "celi-12-l6-e05",
+          "stage": "practise",
+          "audioText": "Ecco le notizie di questa sera. Economia: a ottobre la disoccupazione è scesa al sette per cento, il dato più basso degli ultimi dieci anni. Il calo riguarda soprattutto i giovani tra i venticinque e i trentaquattro anni, mentre nel Sud le difficoltà restano. Il governo ha annunciato un fondo di cento milioni di euro per sostenere le piccole imprese che assumono a tempo indeterminato. Passiamo ai trasporti: da lunedì il biglietto dell'autobus a Torino costerà un euro e settanta, dieci centesimi in più rispetto a oggi, ma l'abbonamento mensile resterà invariato. Infine il meteo. Domani il cielo sarà nuvoloso al Nord, con nebbia in pianura al mattino. Al Centro sole e temperature in lieve aumento, fino a diciotto gradi. Al Sud possibili piogge sulle coste tirreniche. Buonasera da tutta la redazione.",
+          "question": "Che tempo farà domani al Centro?",
+          "options": [
+            "Nebbia",
+            "Pioggia",
+            "Sole e temperature in lieve aumento",
+            "Temporali"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l6-e06",
+          "stage": "learn",
+          "front": "a tempo indeterminato",
+          "back": "permanent (contract)",
+          "example": "Ha un contratto a tempo indeterminato."
+        },
+        {
+          "type": "flashcard",
+          "id": "celi-12-l6-e07",
+          "stage": "learn",
+          "front": "l'abbonamento",
+          "back": "season ticket, subscription",
+          "example": "L'abbonamento mensile costa trenta euro."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "spostare",
+      "en": "to move, to reschedule",
+      "example": "Possiamo spostare l'appuntamento a lunedì?"
+    },
+    {
+      "it": "il congresso",
+      "en": "conference",
+      "example": "Il medico è a un congresso a Roma."
+    },
+    {
+      "it": "lo spreco",
+      "en": "waste",
+      "example": "Dobbiamo ridurre lo spreco di cibo."
+    },
+    {
+      "it": "i legumi",
+      "en": "legumes, pulses",
+      "example": "I legumi sono ricchi di proteine."
+    },
+    {
+      "it": "gratuito",
+      "en": "free of charge",
+      "example": "L'ingresso è gratuito per i bambini."
+    },
+    {
+      "it": "avvisare",
+      "en": "to notify",
+      "example": "Vi avviseremo con un messaggio."
+    },
+    {
+      "it": "il pisolino",
+      "en": "short nap",
+      "example": "Faccio un pisolino dopo pranzo."
+    },
+    {
+      "it": "la concentrazione",
+      "en": "concentration",
+      "example": "Senza sonno la concentrazione cala."
+    },
+    {
+      "it": "la nebbia",
+      "en": "fog",
+      "example": "In pianura d'inverno c'è molta nebbia."
+    },
+    {
+      "it": "la coinquilina",
+      "en": "female flatmate",
+      "example": "La mia coinquilina cucina bene."
+    },
+    {
+      "it": "a tempo indeterminato",
+      "en": "permanent (contract)",
+      "example": "Ha un contratto a tempo indeterminato."
+    },
+    {
+      "it": "l'abbonamento",
+      "en": "season ticket, subscription",
+      "example": "L'abbonamento mensile costa trenta euro."
+    }
+  ]
+}

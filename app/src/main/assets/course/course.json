@@ -647,6 +647,15 @@
       "module": "celi-m2"
     },
     {
+      "id": "celi-12",
+      "level": "CELI3",
+      "order": 12,
+      "title": "Biblioteca di ascolto 2",
+      "summary": "Six more long recordings (130 to 170 words): a voicemail, a radio feature, a phone call, an interview, a personal story and a news bulletin, four questions each.",
+      "available": true,
+      "module": "celi-m2"
+    },
+    {
       "id": "sp-a1",
       "level": "A1",
       "order": 11,
