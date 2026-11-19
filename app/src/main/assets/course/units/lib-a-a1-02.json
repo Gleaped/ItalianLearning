@@ -1,0 +1,349 @@
+{
+  "id": "lib-a-a1-02",
+  "level": "ASC",
+  "title": "Vita di ogni giorno",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A1 (circa 56 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a1-02-l1",
+      "title": "Una giornata di Elena",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-02-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l1-e2",
+          "stage": "practise",
+          "audioText": "Mi chiamo Elena e sono impiegata. La mattina mi alzo alle sei e mezza, faccio la doccia e bevo un tè. Alle otto prendo la metropolitana per andare in ufficio. Lavoro dalle nove alle cinque. A pranzo mangio un'insalata con un collega. La sera torno a casa, cucino e guardo la televisione. Vado a letto verso le undici.",
+          "question": "A che ora si alza Elena?",
+          "options": [
+            "Alle otto",
+            "Alle nove",
+            "Alle sei e mezza"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l1-e3",
+          "stage": "practise",
+          "audioText": "Mi chiamo Elena e sono impiegata. La mattina mi alzo alle sei e mezza, faccio la doccia e bevo un tè. Alle otto prendo la metropolitana per andare in ufficio. Lavoro dalle nove alle cinque. A pranzo mangio un'insalata con un collega. La sera torno a casa, cucino e guardo la televisione. Vado a letto verso le undici.",
+          "question": "Come va in ufficio?",
+          "options": [
+            "In bicicletta",
+            "In metropolitana",
+            "A piedi"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l1-e4",
+          "stage": "practise",
+          "audioText": "Mi chiamo Elena e sono impiegata. La mattina mi alzo alle sei e mezza, faccio la doccia e bevo un tè. Alle otto prendo la metropolitana per andare in ufficio. Lavoro dalle nove alle cinque. A pranzo mangio un'insalata con un collega. La sera torno a casa, cucino e guardo la televisione. Vado a letto verso le undici.",
+          "question": "Che cosa fa la sera?",
+          "options": [
+            "Va al cinema",
+            "Studia",
+            "Cucina e guarda la televisione"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l1-c1",
+          "stage": "learn",
+          "front": "l'impiegata",
+          "back": "office worker",
+          "example": "Mi chiamo Elena e sono impiegata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l1-c2",
+          "stage": "learn",
+          "front": "il collega",
+          "back": "colleague",
+          "example": "A pranzo mangio un'insalata con un collega."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-02-l2",
+      "title": "Prenotare un tavolo",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-02-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l2-e2",
+          "stage": "practise",
+          "audioText": "Ristorante La Lanterna, buonasera. Buonasera, vorrei prenotare un tavolo per quattro persone, per sabato sera. A che ora? Alle otto, se possibile. Mi dispiace, alle otto siamo pieni. Abbiamo posto alle otto e mezza oppure alle nove. Alle nove va bene. A che nome? Bianchi, Luca Bianchi. Perfetto, signor Bianchi, il tavolo è prenotato.",
+          "question": "Per quante persone prenota?",
+          "options": [
+            "Due",
+            "Quattro",
+            "Sei"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l2-e3",
+          "stage": "practise",
+          "audioText": "Ristorante La Lanterna, buonasera. Buonasera, vorrei prenotare un tavolo per quattro persone, per sabato sera. A che ora? Alle otto, se possibile. Mi dispiace, alle otto siamo pieni. Abbiamo posto alle otto e mezza oppure alle nove. Alle nove va bene. A che nome? Bianchi, Luca Bianchi. Perfetto, signor Bianchi, il tavolo è prenotato.",
+          "question": "A che ora prenota alla fine?",
+          "options": [
+            "Alle nove",
+            "Alle otto",
+            "Alle otto e mezza"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l2-e4",
+          "stage": "practise",
+          "audioText": "Ristorante La Lanterna, buonasera. Buonasera, vorrei prenotare un tavolo per quattro persone, per sabato sera. A che ora? Alle otto, se possibile. Mi dispiace, alle otto siamo pieni. Abbiamo posto alle otto e mezza oppure alle nove. Alle nove va bene. A che nome? Bianchi, Luca Bianchi. Perfetto, signor Bianchi, il tavolo è prenotato.",
+          "question": "Come si chiama il cliente?",
+          "options": [
+            "Marco Rossi",
+            "Luca Bianchi",
+            "Luca Rossi"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l2-c1",
+          "stage": "learn",
+          "front": "prenotare",
+          "back": "to book",
+          "example": "Buonasera, vorrei prenotare un tavolo per quattro persone, per sabato sera."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l2-c2",
+          "stage": "learn",
+          "front": "il tavolo",
+          "back": "table",
+          "example": "Buonasera, vorrei prenotare un tavolo per quattro persone, per sabato sera."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-02-l3",
+      "title": "Al supermercato",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-02-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l3-e2",
+          "stage": "practise",
+          "audioText": "Offerta della settimana al supermercato Coop. Un chilo di mele costa un euro e novanta. La pasta, mezzo chilo, costa settantanove centesimi. Il latte fresco, un litro, costa un euro e dieci. Se compri tre bottiglie di acqua, la quarta è gratis. L'offerta vale fino a domenica. Il supermercato è aperto dalle otto alle venti, tutti i giorni.",
+          "question": "Quanto costa un chilo di mele?",
+          "options": [
+            "Un euro e dieci",
+            "Settantanove centesimi",
+            "Un euro e novanta"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l3-e3",
+          "stage": "practise",
+          "audioText": "Offerta della settimana al supermercato Coop. Un chilo di mele costa un euro e novanta. La pasta, mezzo chilo, costa settantanove centesimi. Il latte fresco, un litro, costa un euro e dieci. Se compri tre bottiglie di acqua, la quarta è gratis. L'offerta vale fino a domenica. Il supermercato è aperto dalle otto alle venti, tutti i giorni.",
+          "question": "Che cosa è gratis?",
+          "options": [
+            "Il latte",
+            "La quarta bottiglia d'acqua",
+            "La pasta"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l3-e4",
+          "stage": "practise",
+          "audioText": "Offerta della settimana al supermercato Coop. Un chilo di mele costa un euro e novanta. La pasta, mezzo chilo, costa settantanove centesimi. Il latte fresco, un litro, costa un euro e dieci. Se compri tre bottiglie di acqua, la quarta è gratis. L'offerta vale fino a domenica. Il supermercato è aperto dalle otto alle venti, tutti i giorni.",
+          "question": "Fino a quando vale l'offerta?",
+          "options": [
+            "Fino a venerdì",
+            "Fino a lunedì",
+            "Fino a domenica"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l3-c1",
+          "stage": "learn",
+          "front": "gratis",
+          "back": "free",
+          "example": "Se compri tre bottiglie di acqua, la quarta è gratis."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l3-c2",
+          "stage": "learn",
+          "front": "l'offerta",
+          "back": "special offer",
+          "example": "Offerta della settimana al supermercato Coop."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-02-l4",
+      "title": "Il compleanno di Sara",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-02-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l4-e2",
+          "stage": "practise",
+          "audioText": "Domani è il compleanno di Sara. Compie trent'anni! Facciamo una festa a casa mia, alle sette di sera. Invitiamo dieci amici. Io preparo una torta al cioccolato e Marco porta le bevande. Il regalo è una borsa rossa, perché Sara ama il colore rosso. Tu puoi portare i palloncini? Sono in vendita al negozio vicino alla stazione.",
+          "question": "Quanti anni compie Sara?",
+          "options": [
+            "Venti",
+            "Quaranta",
+            "Trenta"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l4-e3",
+          "stage": "practise",
+          "audioText": "Domani è il compleanno di Sara. Compie trent'anni! Facciamo una festa a casa mia, alle sette di sera. Invitiamo dieci amici. Io preparo una torta al cioccolato e Marco porta le bevande. Il regalo è una borsa rossa, perché Sara ama il colore rosso. Tu puoi portare i palloncini? Sono in vendita al negozio vicino alla stazione.",
+          "question": "Che cosa prepara l'autore?",
+          "options": [
+            "Una torta al cioccolato",
+            "Le bevande",
+            "I palloncini"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-02-l4-e4",
+          "stage": "practise",
+          "audioText": "Domani è il compleanno di Sara. Compie trent'anni! Facciamo una festa a casa mia, alle sette di sera. Invitiamo dieci amici. Io preparo una torta al cioccolato e Marco porta le bevande. Il regalo è una borsa rossa, perché Sara ama il colore rosso. Tu puoi portare i palloncini? Sono in vendita al negozio vicino alla stazione.",
+          "question": "Che regalo comprano?",
+          "options": [
+            "Una borsa rossa",
+            "Un libro",
+            "Un vestito"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l4-c1",
+          "stage": "learn",
+          "front": "il compleanno",
+          "back": "birthday",
+          "example": "Domani è il compleanno di Sara."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-02-l4-c2",
+          "stage": "learn",
+          "front": "il palloncino",
+          "back": "balloon"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'impiegata",
+      "en": "office worker",
+      "example": "Mi chiamo Elena e sono impiegata."
+    },
+    {
+      "it": "il collega",
+      "en": "colleague",
+      "example": "A pranzo mangio un'insalata con un collega."
+    },
+    {
+      "it": "prenotare",
+      "en": "to book",
+      "example": "Buonasera, vorrei prenotare un tavolo per quattro persone, per sabato sera."
+    },
+    {
+      "it": "il tavolo",
+      "en": "table",
+      "example": "Buonasera, vorrei prenotare un tavolo per quattro persone, per sabato sera."
+    },
+    {
+      "it": "gratis",
+      "en": "free",
+      "example": "Se compri tre bottiglie di acqua, la quarta è gratis."
+    },
+    {
+      "it": "l'offerta",
+      "en": "special offer",
+      "example": "Offerta della settimana al supermercato Coop."
+    },
+    {
+      "it": "il compleanno",
+      "en": "birthday",
+      "example": "Domani è il compleanno di Sara."
+    },
+    {
+      "it": "il palloncino",
+      "en": "balloon"
+    }
+  ]
+}

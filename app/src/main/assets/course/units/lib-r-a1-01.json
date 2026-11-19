@@ -1,0 +1,297 @@
+{
+  "id": "lib-r-a1-01",
+  "level": "LET",
+  "title": "Persone e famiglia",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A1 (circa 49 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a1-01-l1",
+      "title": "Mi chiamo Luisa",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-01-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Mi chiamo Luisa",
+          "passage": "Mi chiamo Luisa e ho venticinque anni. Sono di Verona, ma abito a Milano. Sono infermiera e lavoro in un ospedale grande. Ho una sorella, Marta. Lei è studentessa e ha diciannove anni. Nel fine settimana io e Marta andiamo spesso al cinema. Il nostro film preferito è una commedia italiana.",
+          "questions": [
+            {
+              "question": "Dove abita Luisa?",
+              "options": [
+                "A Milano",
+                "A Verona",
+                "In ospedale"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che lavoro fa Luisa?",
+              "options": [
+                "La studentessa",
+                "La maestra",
+                "L'infermiera"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa fanno Luisa e Marta nel fine settimana?",
+              "options": [
+                "Vanno al cinema",
+                "Studiano",
+                "Lavorano"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l1-c1",
+          "stage": "learn",
+          "front": "l'infermiera",
+          "back": "nurse (female)",
+          "example": "Sono infermiera e lavoro in un ospedale grande."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l1-c2",
+          "stage": "learn",
+          "front": "spesso",
+          "back": "often",
+          "example": "Nel fine settimana io e Marta andiamo spesso al cinema."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-01-l2",
+      "title": "La famiglia di Paolo",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-01-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La famiglia di Paolo",
+          "passage": "Paolo ha una famiglia numerosa. Ha due fratelli e una sorella. Suo padre fa il tassista e sua madre è insegnante. La domenica tutti mangiano dai nonni. La nonna cucina le lasagne e il nonno prepara il caffè. Paolo è felice, perché ama stare con la famiglia.",
+          "questions": [
+            {
+              "question": "Quanti fratelli ha Paolo?",
+              "options": [
+                "Due",
+                "Uno",
+                "Tre"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che lavoro fa il padre di Paolo?",
+              "options": [
+                "L'insegnante",
+                "Il cuoco",
+                "Il tassista"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Dove mangiano la domenica?",
+              "options": [
+                "Al ristorante",
+                "A casa di Paolo",
+                "Dai nonni"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l2-c1",
+          "stage": "learn",
+          "front": "i nonni",
+          "back": "grandparents",
+          "example": "La domenica tutti mangiano dai nonni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l2-c2",
+          "stage": "learn",
+          "front": "numeroso",
+          "back": "large"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-01-l3",
+      "title": "Il mio migliore amico",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-01-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il mio migliore amico",
+          "passage": "Il mio migliore amico si chiama Karim. È alto e magro, ha i capelli neri e gli occhi marroni. Viene dal Marocco, ma vive in Italia da cinque anni. È molto simpatico e parla tre lingue: arabo, francese e italiano. Il sabato sera giochiamo a calcio con altri amici.",
+          "questions": [
+            {
+              "question": "Come si chiama l'amico?",
+              "options": [
+                "Paolo",
+                "Karim",
+                "Marco"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Da dove viene Karim?",
+              "options": [
+                "Dal Marocco",
+                "Dalla Francia",
+                "Dall'Italia"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quante lingue parla?",
+              "options": [
+                "Due",
+                "Tre",
+                "Cinque"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l3-c1",
+          "stage": "learn",
+          "front": "simpatico",
+          "back": "nice, likeable",
+          "example": "È molto simpatico e parla tre lingue: arabo, francese e italiano."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l3-c2",
+          "stage": "learn",
+          "front": "i capelli",
+          "back": "hair",
+          "example": "È alto e magro, ha i capelli neri e gli occhi marroni."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-01-l4",
+      "title": "Un nuovo vicino",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-01-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un nuovo vicino",
+          "passage": "Oggi arriva un nuovo vicino. Si chiama signor Conti e ha sessant'anni. Abita al secondo piano, vicino a me. Ha un cane piccolo, che si chiama Briciola. Il signor Conti è gentile: saluta sempre e porta il pane fresco ai vicini. Domani gli porto un dolce per dire benvenuto.",
+          "questions": [
+            {
+              "question": "Dove abita il signor Conti?",
+              "options": [
+                "Al secondo piano",
+                "Al primo piano",
+                "Al terzo piano"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come si chiama il cane?",
+              "options": [
+                "Conti",
+                "Briciola",
+                "Pane"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa porta l'autore domani?",
+              "options": [
+                "Il pane",
+                "Un dolce",
+                "Un cane"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l4-c1",
+          "stage": "learn",
+          "front": "il vicino",
+          "back": "neighbour",
+          "example": "Oggi arriva un nuovo vicino."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-01-l4-c2",
+          "stage": "learn",
+          "front": "gentile",
+          "back": "kind",
+          "example": "Il signor Conti è gentile: saluta sempre e porta il pane fresco ai vicini."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'infermiera",
+      "en": "nurse (female)",
+      "example": "Sono infermiera e lavoro in un ospedale grande."
+    },
+    {
+      "it": "spesso",
+      "en": "often",
+      "example": "Nel fine settimana io e Marta andiamo spesso al cinema."
+    },
+    {
+      "it": "i nonni",
+      "en": "grandparents",
+      "example": "La domenica tutti mangiano dai nonni."
+    },
+    {
+      "it": "numeroso",
+      "en": "large"
+    },
+    {
+      "it": "simpatico",
+      "en": "nice, likeable",
+      "example": "È molto simpatico e parla tre lingue: arabo, francese e italiano."
+    },
+    {
+      "it": "i capelli",
+      "en": "hair",
+      "example": "È alto e magro, ha i capelli neri e gli occhi marroni."
+    },
+    {
+      "it": "il vicino",
+      "en": "neighbour",
+      "example": "Oggi arriva un nuovo vicino."
+    },
+    {
+      "it": "gentile",
+      "en": "kind",
+      "example": "Il signor Conti è gentile: saluta sempre e porta il pane fresco ai vicini."
+    }
+  ]
+}

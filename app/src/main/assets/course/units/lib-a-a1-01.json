@@ -1,0 +1,351 @@
+{
+  "id": "lib-a-a1-01",
+  "level": "ASC",
+  "title": "Messaggi e annunci",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A1 (circa 54 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a1-01-l1",
+      "title": "Messaggio di Anna",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-01-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l1-e2",
+          "stage": "practise",
+          "audioText": "Ciao Marco, sono Anna. Stasera vado al cinema con Giulia. Il film comincia alle nove, ma ci vediamo alle otto e mezza davanti al cinema Odeon. Vieni anche tu? Il biglietto costa otto euro. Dopo il film possiamo mangiare una pizza. Rispondimi entro le cinque, per favore. Ciao, a stasera!",
+          "question": "A che ora comincia il film?",
+          "options": [
+            "Alle nove",
+            "Alle otto e mezza",
+            "Alle cinque"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l1-e3",
+          "stage": "practise",
+          "audioText": "Ciao Marco, sono Anna. Stasera vado al cinema con Giulia. Il film comincia alle nove, ma ci vediamo alle otto e mezza davanti al cinema Odeon. Vieni anche tu? Il biglietto costa otto euro. Dopo il film possiamo mangiare una pizza. Rispondimi entro le cinque, per favore. Ciao, a stasera!",
+          "question": "Quanto costa il biglietto?",
+          "options": [
+            "Nove euro",
+            "Otto euro",
+            "Cinque euro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l1-e4",
+          "stage": "practise",
+          "audioText": "Ciao Marco, sono Anna. Stasera vado al cinema con Giulia. Il film comincia alle nove, ma ci vediamo alle otto e mezza davanti al cinema Odeon. Vieni anche tu? Il biglietto costa otto euro. Dopo il film possiamo mangiare una pizza. Rispondimi entro le cinque, per favore. Ciao, a stasera!",
+          "question": "Che cosa fanno dopo il film?",
+          "options": [
+            "Mangiano una pizza",
+            "Tornano a casa",
+            "Vanno al bar"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l1-c1",
+          "stage": "learn",
+          "front": "entro",
+          "back": "by (a time)",
+          "example": "Rispondimi entro le cinque, per favore."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l1-c2",
+          "stage": "learn",
+          "front": "davanti a",
+          "back": "in front of",
+          "example": "Il film comincia alle nove, ma ci vediamo alle otto e mezza davanti al cinema Odeon."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-01-l2",
+      "title": "Al telefono",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-01-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l2-e2",
+          "stage": "practise",
+          "audioText": "Pronto? Buongiorno, parlo con il signor Rossi? Sono Chiara, della scuola di lingue Dante. Il corso di italiano comincia lunedì prossimo, il quattro ottobre, alle diciotto. L'aula è la numero sette, al secondo piano. Porti un quaderno e una penna. Se ha domande, mi può chiamare al numero zero sei, due tre quattro, cinque sei sette. Grazie e buona giornata!",
+          "question": "Quando comincia il corso?",
+          "options": [
+            "Lunedì alle diciotto",
+            "Martedì alle diciotto",
+            "Lunedì alle otto"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l2-e3",
+          "stage": "practise",
+          "audioText": "Pronto? Buongiorno, parlo con il signor Rossi? Sono Chiara, della scuola di lingue Dante. Il corso di italiano comincia lunedì prossimo, il quattro ottobre, alle diciotto. L'aula è la numero sette, al secondo piano. Porti un quaderno e una penna. Se ha domande, mi può chiamare al numero zero sei, due tre quattro, cinque sei sette. Grazie e buona giornata!",
+          "question": "Qual è il numero dell'aula?",
+          "options": [
+            "Sette",
+            "Due",
+            "Sei"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l2-e4",
+          "stage": "practise",
+          "audioText": "Pronto? Buongiorno, parlo con il signor Rossi? Sono Chiara, della scuola di lingue Dante. Il corso di italiano comincia lunedì prossimo, il quattro ottobre, alle diciotto. L'aula è la numero sette, al secondo piano. Porti un quaderno e una penna. Se ha domande, mi può chiamare al numero zero sei, due tre quattro, cinque sei sette. Grazie e buona giornata!",
+          "question": "Che cosa deve portare il signor Rossi?",
+          "options": [
+            "Un libro",
+            "Un quaderno e una penna",
+            "Il computer"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l2-c1",
+          "stage": "learn",
+          "front": "l'aula",
+          "back": "classroom",
+          "example": "L'aula è la numero sette, al secondo piano."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l2-c2",
+          "stage": "learn",
+          "front": "buona giornata",
+          "back": "have a good day",
+          "example": "Grazie e buona giornata!"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-01-l3",
+      "title": "Annuncio in stazione",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-01-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l3-e2",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno regionale per Firenze parte dal binario quattro alle quattordici e venti. Il treno ha dieci minuti di ritardo. Fermate: Prato e Firenze Santa Maria Novella. Il biglietto si compra alla biglietteria o alla macchinetta automatica. Vi ricordiamo di convalidare il biglietto prima della partenza. Buon viaggio.",
+          "question": "Da quale binario parte il treno?",
+          "options": [
+            "Dal binario due",
+            "Dal binario quattro",
+            "Dal binario dieci"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l3-e3",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno regionale per Firenze parte dal binario quattro alle quattordici e venti. Il treno ha dieci minuti di ritardo. Fermate: Prato e Firenze Santa Maria Novella. Il biglietto si compra alla biglietteria o alla macchinetta automatica. Vi ricordiamo di convalidare il biglietto prima della partenza. Buon viaggio.",
+          "question": "Quanto ritardo ha il treno?",
+          "options": [
+            "Venti minuti",
+            "Dieci minuti",
+            "Quattro minuti"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l3-e4",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno regionale per Firenze parte dal binario quattro alle quattordici e venti. Il treno ha dieci minuti di ritardo. Fermate: Prato e Firenze Santa Maria Novella. Il biglietto si compra alla biglietteria o alla macchinetta automatica. Vi ricordiamo di convalidare il biglietto prima della partenza. Buon viaggio.",
+          "question": "Dove si compra il biglietto?",
+          "options": [
+            "Alla biglietteria o alla macchinetta",
+            "Sul treno",
+            "Al bar"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l3-c1",
+          "stage": "learn",
+          "front": "il binario",
+          "back": "platform",
+          "example": "Il treno regionale per Firenze parte dal binario quattro alle quattordici e venti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l3-c2",
+          "stage": "learn",
+          "front": "il ritardo",
+          "back": "delay",
+          "example": "Il treno ha dieci minuti di ritardo."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-01-l4",
+      "title": "Al negozio di abiti",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-01-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l4-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, posso aiutarla? Cerco una giacca nera, taglia quarantotto. Abbiamo questa a centoventi euro e quest'altra a novanta. Quella a novanta euro è in saldo: costa il venti per cento in meno. Il camerino è là, in fondo a destra. Va bene, provo la giacca da novanta euro. Può pagare con la carta o in contanti.",
+          "question": "Che cosa cerca il cliente?",
+          "options": [
+            "Un paio di scarpe",
+            "Una giacca nera",
+            "Una camicia bianca"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l4-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, posso aiutarla? Cerco una giacca nera, taglia quarantotto. Abbiamo questa a centoventi euro e quest'altra a novanta. Quella a novanta euro è in saldo: costa il venti per cento in meno. Il camerino è là, in fondo a destra. Va bene, provo la giacca da novanta euro. Può pagare con la carta o in contanti.",
+          "question": "Quanto costa la giacca in saldo?",
+          "options": [
+            "Novanta euro",
+            "Centoventi euro",
+            "Cinquanta euro"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-01-l4-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, posso aiutarla? Cerco una giacca nera, taglia quarantotto. Abbiamo questa a centoventi euro e quest'altra a novanta. Quella a novanta euro è in saldo: costa il venti per cento in meno. Il camerino è là, in fondo a destra. Va bene, provo la giacca da novanta euro. Può pagare con la carta o in contanti.",
+          "question": "Dov'è il camerino?",
+          "options": [
+            "Vicino alla cassa",
+            "Al secondo piano",
+            "In fondo a destra"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l4-c1",
+          "stage": "learn",
+          "front": "in saldo",
+          "back": "on sale",
+          "example": "Quella a novanta euro è in saldo: costa il venti per cento in meno."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-01-l4-c2",
+          "stage": "learn",
+          "front": "in contanti",
+          "back": "in cash",
+          "example": "Può pagare con la carta o in contanti."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "entro",
+      "en": "by (a time)",
+      "example": "Rispondimi entro le cinque, per favore."
+    },
+    {
+      "it": "davanti a",
+      "en": "in front of",
+      "example": "Il film comincia alle nove, ma ci vediamo alle otto e mezza davanti al cinema Odeon."
+    },
+    {
+      "it": "l'aula",
+      "en": "classroom",
+      "example": "L'aula è la numero sette, al secondo piano."
+    },
+    {
+      "it": "buona giornata",
+      "en": "have a good day",
+      "example": "Grazie e buona giornata!"
+    },
+    {
+      "it": "il binario",
+      "en": "platform",
+      "example": "Il treno regionale per Firenze parte dal binario quattro alle quattordici e venti."
+    },
+    {
+      "it": "il ritardo",
+      "en": "delay",
+      "example": "Il treno ha dieci minuti di ritardo."
+    },
+    {
+      "it": "in saldo",
+      "en": "on sale",
+      "example": "Quella a novanta euro è in saldo: costa il venti per cento in meno."
+    },
+    {
+      "it": "in contanti",
+      "en": "in cash",
+      "example": "Può pagare con la carta o in contanti."
+    }
+  ]
+}

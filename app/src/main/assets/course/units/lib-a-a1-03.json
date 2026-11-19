@@ -1,0 +1,347 @@
+{
+  "id": "lib-a-a1-03",
+  "level": "ASC",
+  "title": "Viaggi e salute",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A1 (circa 57 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a1-03-l1",
+      "title": "Come si arriva al museo",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-03-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l1-e2",
+          "stage": "practise",
+          "audioText": "Scusi, come arrivo al museo? Prenda la metropolitana, linea gialla, e scenda alla fermata Duomo. Poi cammini per cinque minuti in via Torino. Il museo è a sinistra, dopo la chiesa. Costa dodici euro, ma per gli studenti l'ingresso costa sei euro. Il museo è aperto dal martedì alla domenica, dalle dieci alle diciotto. Il lunedì è chiuso.",
+          "question": "Quale metropolitana prende?",
+          "options": [
+            "La linea rossa",
+            "La linea gialla",
+            "L'autobus"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l1-e3",
+          "stage": "practise",
+          "audioText": "Scusi, come arrivo al museo? Prenda la metropolitana, linea gialla, e scenda alla fermata Duomo. Poi cammini per cinque minuti in via Torino. Il museo è a sinistra, dopo la chiesa. Costa dodici euro, ma per gli studenti l'ingresso costa sei euro. Il museo è aperto dal martedì alla domenica, dalle dieci alle diciotto. Il lunedì è chiuso.",
+          "question": "Quanto pagano gli studenti?",
+          "options": [
+            "Dodici euro",
+            "Sei euro",
+            "Dieci euro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l1-e4",
+          "stage": "practise",
+          "audioText": "Scusi, come arrivo al museo? Prenda la metropolitana, linea gialla, e scenda alla fermata Duomo. Poi cammini per cinque minuti in via Torino. Il museo è a sinistra, dopo la chiesa. Costa dodici euro, ma per gli studenti l'ingresso costa sei euro. Il museo è aperto dal martedì alla domenica, dalle dieci alle diciotto. Il lunedì è chiuso.",
+          "question": "Quando è chiuso il museo?",
+          "options": [
+            "La domenica",
+            "Il lunedì",
+            "Il martedì"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l1-c1",
+          "stage": "learn",
+          "front": "scendere",
+          "back": "to get off"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l1-c2",
+          "stage": "learn",
+          "front": "l'ingresso",
+          "back": "admission, entrance",
+          "example": "Costa dodici euro, ma per gli studenti l'ingresso costa sei euro."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-03-l2",
+      "title": "In albergo",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-03-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l2-e2",
+          "stage": "practise",
+          "audioText": "Buonasera, ho una prenotazione a nome Verdi. Una camera singola per tre notti. Sì, signor Verdi: camera duecentodieci, al secondo piano. La colazione è dalle sette alle dieci, nella sala al piano terra. Il Wi-Fi è gratuito e la password è scritta sulla chiave. Se ha bisogno di qualcosa, chiami la reception. Grazie, buonanotte.",
+          "question": "Quante notti rimane il signor Verdi?",
+          "options": [
+            "Tre",
+            "Due",
+            "Cinque"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l2-e3",
+          "stage": "practise",
+          "audioText": "Buonasera, ho una prenotazione a nome Verdi. Una camera singola per tre notti. Sì, signor Verdi: camera duecentodieci, al secondo piano. La colazione è dalle sette alle dieci, nella sala al piano terra. Il Wi-Fi è gratuito e la password è scritta sulla chiave. Se ha bisogno di qualcosa, chiami la reception. Grazie, buonanotte.",
+          "question": "Qual è il numero della camera?",
+          "options": [
+            "Duecentoventi",
+            "Centodieci",
+            "Duecentodieci"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l2-e4",
+          "stage": "practise",
+          "audioText": "Buonasera, ho una prenotazione a nome Verdi. Una camera singola per tre notti. Sì, signor Verdi: camera duecentodieci, al secondo piano. La colazione è dalle sette alle dieci, nella sala al piano terra. Il Wi-Fi è gratuito e la password è scritta sulla chiave. Se ha bisogno di qualcosa, chiami la reception. Grazie, buonanotte.",
+          "question": "Fino a che ora è la colazione?",
+          "options": [
+            "Fino alle sette",
+            "Fino alle undici",
+            "Fino alle dieci"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l2-c1",
+          "stage": "learn",
+          "front": "la camera",
+          "back": "room",
+          "example": "Una camera singola per tre notti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l2-c2",
+          "stage": "learn",
+          "front": "gratuito",
+          "back": "free",
+          "example": "Il Wi-Fi è gratuito e la password è scritta sulla chiave."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-03-l3",
+      "title": "Previsioni del tempo",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-03-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l3-e2",
+          "stage": "practise",
+          "audioText": "Ecco il tempo per domani. Al Nord il cielo è nuvoloso, con pioggia nel pomeriggio. Le temperature sono basse: dieci gradi a Torino e undici a Milano. Al Centro c'è il sole, con quindici gradi a Roma. Al Sud fa caldo: venti gradi a Napoli e ventidue a Palermo. Nel fine settimana il tempo migliora in tutta Italia.",
+          "question": "Che tempo fa al Nord?",
+          "options": [
+            "Sole",
+            "Nuvoloso, con pioggia",
+            "Neve"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l3-e3",
+          "stage": "practise",
+          "audioText": "Ecco il tempo per domani. Al Nord il cielo è nuvoloso, con pioggia nel pomeriggio. Le temperature sono basse: dieci gradi a Torino e undici a Milano. Al Centro c'è il sole, con quindici gradi a Roma. Al Sud fa caldo: venti gradi a Napoli e ventidue a Palermo. Nel fine settimana il tempo migliora in tutta Italia.",
+          "question": "Quanti gradi ci sono a Roma?",
+          "options": [
+            "Dieci",
+            "Quindici",
+            "Venti"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l3-e4",
+          "stage": "practise",
+          "audioText": "Ecco il tempo per domani. Al Nord il cielo è nuvoloso, con pioggia nel pomeriggio. Le temperature sono basse: dieci gradi a Torino e undici a Milano. Al Centro c'è il sole, con quindici gradi a Roma. Al Sud fa caldo: venti gradi a Napoli e ventidue a Palermo. Nel fine settimana il tempo migliora in tutta Italia.",
+          "question": "Quando migliora il tempo?",
+          "options": [
+            "Domani",
+            "Lunedì",
+            "Nel fine settimana"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l3-c1",
+          "stage": "learn",
+          "front": "nuvoloso",
+          "back": "cloudy",
+          "example": "Al Nord il cielo è nuvoloso, con pioggia nel pomeriggio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l3-c2",
+          "stage": "learn",
+          "front": "migliorare",
+          "back": "to improve"
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-03-l4",
+      "title": "Dal medico",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-03-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l4-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno, dottore. Non sto bene: ho mal di testa e un po' di febbre da due giorni. Capisco. Ha tosse? No, ma ho mal di gola. Allora è un'influenza. Deve stare a letto e bere molta acqua. Prenda una pastiglia la mattina e una la sera. Se la febbre sale, mi richiami. Torni da me tra una settimana. Grazie, dottore, arrivederci.",
+          "question": "Da quanto tempo ha la febbre?",
+          "options": [
+            "Da una settimana",
+            "Da ieri",
+            "Da due giorni"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l4-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno, dottore. Non sto bene: ho mal di testa e un po' di febbre da due giorni. Capisco. Ha tosse? No, ma ho mal di gola. Allora è un'influenza. Deve stare a letto e bere molta acqua. Prenda una pastiglia la mattina e una la sera. Se la febbre sale, mi richiami. Torni da me tra una settimana. Grazie, dottore, arrivederci.",
+          "question": "Quante pastiglie prende al giorno?",
+          "options": [
+            "Tre",
+            "Una",
+            "Due"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-03-l4-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno, dottore. Non sto bene: ho mal di testa e un po' di febbre da due giorni. Capisco. Ha tosse? No, ma ho mal di gola. Allora è un'influenza. Deve stare a letto e bere molta acqua. Prenda una pastiglia la mattina e una la sera. Se la febbre sale, mi richiami. Torni da me tra una settimana. Grazie, dottore, arrivederci.",
+          "question": "Quando torna dal dottore?",
+          "options": [
+            "Tra una settimana",
+            "Domani",
+            "Tra un mese"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l4-c1",
+          "stage": "learn",
+          "front": "il mal di testa",
+          "back": "headache",
+          "example": "Non sto bene: ho mal di testa e un po' di febbre da due giorni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-03-l4-c2",
+          "stage": "learn",
+          "front": "la pastiglia",
+          "back": "tablet, pill",
+          "example": "Prenda una pastiglia la mattina e una la sera."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "scendere",
+      "en": "to get off"
+    },
+    {
+      "it": "l'ingresso",
+      "en": "admission, entrance",
+      "example": "Costa dodici euro, ma per gli studenti l'ingresso costa sei euro."
+    },
+    {
+      "it": "la camera",
+      "en": "room",
+      "example": "Una camera singola per tre notti."
+    },
+    {
+      "it": "gratuito",
+      "en": "free",
+      "example": "Il Wi-Fi è gratuito e la password è scritta sulla chiave."
+    },
+    {
+      "it": "nuvoloso",
+      "en": "cloudy",
+      "example": "Al Nord il cielo è nuvoloso, con pioggia nel pomeriggio."
+    },
+    {
+      "it": "migliorare",
+      "en": "to improve"
+    },
+    {
+      "it": "il mal di testa",
+      "en": "headache",
+      "example": "Non sto bene: ho mal di testa e un po' di febbre da due giorni."
+    },
+    {
+      "it": "la pastiglia",
+      "en": "tablet, pill",
+      "example": "Prenda una pastiglia la mattina e una la sera."
+    }
+  ]
+}
