@@ -1,0 +1,351 @@
+{
+  "id": "lib-a-a1-04",
+  "level": "ASC",
+  "title": "Inviti e annunci",
+  "objective": "Alla fine dell'unità hai ascoltato 4 testi di livello A1 (circa 36 parole ciascuno).",
+  "grammarFocus": "Ascolto esteso: leggere le domande prima, idea generale e dettagli.",
+  "lessons": [
+    {
+      "id": "lib-a-a1-04-l1",
+      "title": "Un invito",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-04-l1-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l1-e2",
+          "stage": "practise",
+          "audioText": "Ciao Luca, sono Paola. Sabato sera faccio una cena a casa mia. Comincia alle otto. Cucino io: pasta al pomodoro e pollo con patate. Vengono anche Marco e Sara. Puoi portare il vino? Grazie! Chiamami domani, per favore. Ciao!",
+          "question": "Quando è la cena?",
+          "options": [
+            "Sabato sera",
+            "Domenica",
+            "Venerdì"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l1-e3",
+          "stage": "practise",
+          "audioText": "Ciao Luca, sono Paola. Sabato sera faccio una cena a casa mia. Comincia alle otto. Cucino io: pasta al pomodoro e pollo con patate. Vengono anche Marco e Sara. Puoi portare il vino? Grazie! Chiamami domani, per favore. Ciao!",
+          "question": "Che cosa cucina Paola?",
+          "options": [
+            "Pasta e pollo",
+            "Pizza",
+            "Pesce"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l1-e4",
+          "stage": "practise",
+          "audioText": "Ciao Luca, sono Paola. Sabato sera faccio una cena a casa mia. Comincia alle otto. Cucino io: pasta al pomodoro e pollo con patate. Vengono anche Marco e Sara. Puoi portare il vino? Grazie! Chiamami domani, per favore. Ciao!",
+          "question": "Che cosa deve portare Luca?",
+          "options": [
+            "Il vino",
+            "Il dolce",
+            "Il pane"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l1-c1",
+          "stage": "learn",
+          "front": "la cena",
+          "back": "dinner",
+          "example": "Sabato sera faccio una cena a casa mia."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l1-c2",
+          "stage": "learn",
+          "front": "il pollo",
+          "back": "chicken",
+          "example": "Cucino io: pasta al pomodoro e pollo con patate."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-04-l2",
+      "title": "Annuncio in stazione",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-04-l2-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l2-e2",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno per Bologna delle dieci e trenta parte dal binario sei. Il treno ha venti minuti di ritardo. Ripetiamo: binario sei, ritardo di venti minuti. Gli altri treni sono in orario. Grazie.",
+          "question": "Dove va il treno?",
+          "options": [
+            "A Roma",
+            "A Napoli",
+            "A Bologna"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l2-e3",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno per Bologna delle dieci e trenta parte dal binario sei. Il treno ha venti minuti di ritardo. Ripetiamo: binario sei, ritardo di venti minuti. Gli altri treni sono in orario. Grazie.",
+          "question": "Da quale binario parte?",
+          "options": [
+            "Dal dieci",
+            "Dal tre",
+            "Dal sei"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l2-e4",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Il treno per Bologna delle dieci e trenta parte dal binario sei. Il treno ha venti minuti di ritardo. Ripetiamo: binario sei, ritardo di venti minuti. Gli altri treni sono in orario. Grazie.",
+          "question": "Quanto ritardo ha?",
+          "options": [
+            "Un'ora",
+            "Venti minuti",
+            "Dieci minuti"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l2-c1",
+          "stage": "learn",
+          "front": "il ritardo",
+          "back": "delay",
+          "example": "Il treno ha venti minuti di ritardo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l2-c2",
+          "stage": "learn",
+          "front": "in orario",
+          "back": "on time",
+          "example": "Gli altri treni sono in orario."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-04-l3",
+      "title": "Al bar",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-04-l3-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l3-e2",
+          "stage": "practise",
+          "audioText": "Buongiorno! Vorrei un caffè e un cornetto, per favore. Subito. Altro? Sì, un bicchiere d'acqua. Sono due euro e cinquanta. Ecco a lei. Grazie, buona giornata! Anche a lei!",
+          "question": "Che cosa ordina il cliente?",
+          "options": [
+            "Un caffè e un cornetto",
+            "Un tè",
+            "Un panino"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l3-e3",
+          "stage": "practise",
+          "audioText": "Buongiorno! Vorrei un caffè e un cornetto, per favore. Subito. Altro? Sì, un bicchiere d'acqua. Sono due euro e cinquanta. Ecco a lei. Grazie, buona giornata! Anche a lei!",
+          "question": "Che cosa chiede in più?",
+          "options": [
+            "Un succo",
+            "Un gelato",
+            "Un bicchiere d'acqua"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l3-e4",
+          "stage": "practise",
+          "audioText": "Buongiorno! Vorrei un caffè e un cornetto, per favore. Subito. Altro? Sì, un bicchiere d'acqua. Sono due euro e cinquanta. Ecco a lei. Grazie, buona giornata! Anche a lei!",
+          "question": "Quanto costa?",
+          "options": [
+            "Tre euro",
+            "Un euro",
+            "Due euro e cinquanta"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l3-c1",
+          "stage": "learn",
+          "front": "il cornetto",
+          "back": "croissant",
+          "example": "Vorrei un caffè e un cornetto, per favore."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l3-c2",
+          "stage": "learn",
+          "front": "subito",
+          "back": "right away",
+          "example": "Subito."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-a1-04-l4",
+      "title": "Messaggio di Giorgio",
+      "minutes": 8,
+      "goal": "Ascoltare un testo e rispondere alle domande.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, giorni e motivi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-a1-04-l4-e1",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l4-e2",
+          "stage": "practise",
+          "audioText": "Ciao Anna, sono Giorgio. Arrivo domani alle quattro con il treno. Puoi venire alla stazione? Ho una valigia grande. Poi andiamo a casa tua e mangiamo insieme. Il mio numero è tre tre tre, uno due tre, quattro cinque sei. A domani!",
+          "question": "Quando arriva Giorgio?",
+          "options": [
+            "Oggi",
+            "Stasera",
+            "Domani alle quattro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l4-e3",
+          "stage": "practise",
+          "audioText": "Ciao Anna, sono Giorgio. Arrivo domani alle quattro con il treno. Puoi venire alla stazione? Ho una valigia grande. Poi andiamo a casa tua e mangiamo insieme. Il mio numero è tre tre tre, uno due tre, quattro cinque sei. A domani!",
+          "question": "Come viaggia?",
+          "options": [
+            "In aereo",
+            "In macchina",
+            "In treno"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-a1-04-l4-e4",
+          "stage": "practise",
+          "audioText": "Ciao Anna, sono Giorgio. Arrivo domani alle quattro con il treno. Puoi venire alla stazione? Ho una valigia grande. Poi andiamo a casa tua e mangiamo insieme. Il mio numero è tre tre tre, uno due tre, quattro cinque sei. A domani!",
+          "question": "Che cosa ha?",
+          "options": [
+            "Due borse",
+            "Un cane",
+            "Una valigia grande"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l4-c1",
+          "stage": "learn",
+          "front": "la valigia",
+          "back": "suitcase",
+          "example": "Ho una valigia grande."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-a1-04-l4-c2",
+          "stage": "learn",
+          "front": "a domani",
+          "back": "see you tomorrow",
+          "example": "A domani!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la cena",
+      "en": "dinner",
+      "example": "Sabato sera faccio una cena a casa mia."
+    },
+    {
+      "it": "il pollo",
+      "en": "chicken",
+      "example": "Cucino io: pasta al pomodoro e pollo con patate."
+    },
+    {
+      "it": "il ritardo",
+      "en": "delay",
+      "example": "Il treno ha venti minuti di ritardo."
+    },
+    {
+      "it": "in orario",
+      "en": "on time",
+      "example": "Gli altri treni sono in orario."
+    },
+    {
+      "it": "il cornetto",
+      "en": "croissant",
+      "example": "Vorrei un caffè e un cornetto, per favore."
+    },
+    {
+      "it": "subito",
+      "en": "right away",
+      "example": "Subito."
+    },
+    {
+      "it": "la valigia",
+      "en": "suitcase",
+      "example": "Ho una valigia grande."
+    },
+    {
+      "it": "a domani",
+      "en": "see you tomorrow",
+      "example": "A domani!"
+    }
+  ]
+}

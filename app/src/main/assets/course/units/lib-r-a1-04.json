@@ -1,0 +1,583 @@
+{
+  "id": "lib-r-a1-04",
+  "level": "LET",
+  "title": "Casa, giorni e spesa",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A1 (circa 52 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a1-04-l1",
+      "title": "Il mio appartamento",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-04-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il mio appartamento",
+          "passage": "Abito in un appartamento al secondo piano. Ha una camera, un bagno e una piccola cucina. Il salotto è luminoso e ha un grande balcone. Sul balcone ho molti fiori rossi e gialli. Non c'è l'ascensore, ma non è un problema: faccio le scale ogni giorno. Pago trecento euro al mese di affitto.",
+          "questions": [
+            {
+              "question": "A che piano abita?",
+              "options": [
+                "Al terzo",
+                "Al secondo",
+                "Al primo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa c'è sul balcone?",
+              "options": [
+                "Fiori",
+                "Una sedia",
+                "Una bicicletta"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "C'è l'ascensore?",
+              "options": [
+                "No",
+                "Sì",
+                "Solo la sera"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-04-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Abito in un ___ al secondo piano. Ha una camera, un ___ e una piccola cucina. Il salotto è ___ e ha un grande balcone. Sul ___ ho molti fiori ___ e gialli. Non c'è l'ascensore, ma non è un problema: faccio le scale ogni giorno.",
+          "gaps": [
+            {
+              "answers": [
+                "appartamento"
+              ],
+              "options": [
+                "balcone",
+                "appartamento",
+                "bagno",
+                "rossi",
+                "luminoso"
+              ]
+            },
+            {
+              "answers": [
+                "bagno"
+              ],
+              "options": [
+                "balcone",
+                "appartamento",
+                "bagno",
+                "rossi",
+                "luminoso"
+              ]
+            },
+            {
+              "answers": [
+                "luminoso"
+              ],
+              "options": [
+                "balcone",
+                "appartamento",
+                "bagno",
+                "rossi",
+                "luminoso"
+              ]
+            },
+            {
+              "answers": [
+                "balcone"
+              ],
+              "options": [
+                "balcone",
+                "appartamento",
+                "bagno",
+                "rossi",
+                "luminoso"
+              ]
+            },
+            {
+              "answers": [
+                "rossi"
+              ],
+              "options": [
+                "balcone",
+                "appartamento",
+                "bagno",
+                "rossi",
+                "luminoso"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l1-c1",
+          "stage": "learn",
+          "front": "l'affitto",
+          "back": "rent",
+          "example": "Pago trecento euro al mese di affitto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l1-c2",
+          "stage": "learn",
+          "front": "il balcone",
+          "back": "balcony",
+          "example": "Il salotto è luminoso e ha un grande balcone."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-04-l2",
+      "title": "Una giornata di Anna",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-04-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una giornata di Anna",
+          "passage": "Anna si alza alle sette e fa colazione con latte e biscotti. Alle otto prende l'autobus e va in ufficio. A mezzogiorno mangia un panino con una collega. Il pomeriggio lavora al computer fino alle cinque. La sera torna a casa, cucina la cena e guarda un film. Va a letto alle undici.",
+          "questions": [
+            {
+              "question": "A che ora si alza Anna?",
+              "options": [
+                "Alle otto",
+                "Alle sette",
+                "Alle cinque"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa mangia a mezzogiorno?",
+              "options": [
+                "Un panino",
+                "La pasta",
+                "Una pizza"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa fa la sera?",
+              "options": [
+                "Cucina e guarda un film",
+                "Va in palestra",
+                "Studia"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-04-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Anna si alza alle ___ e fa colazione con ___ e biscotti. Alle otto prende l'autobus e va in ufficio. A ___ mangia un ___ con una collega. Il pomeriggio ___ al computer fino alle cinque.",
+          "gaps": [
+            {
+              "answers": [
+                "sette"
+              ],
+              "options": [
+                "panino",
+                "lavora",
+                "mezzogiorno",
+                "sette",
+                "latte"
+              ]
+            },
+            {
+              "answers": [
+                "latte"
+              ],
+              "options": [
+                "panino",
+                "lavora",
+                "mezzogiorno",
+                "sette",
+                "latte"
+              ]
+            },
+            {
+              "answers": [
+                "mezzogiorno"
+              ],
+              "options": [
+                "panino",
+                "lavora",
+                "mezzogiorno",
+                "sette",
+                "latte"
+              ]
+            },
+            {
+              "answers": [
+                "panino"
+              ],
+              "options": [
+                "panino",
+                "lavora",
+                "mezzogiorno",
+                "sette",
+                "latte"
+              ]
+            },
+            {
+              "answers": [
+                "lavora"
+              ],
+              "options": [
+                "panino",
+                "lavora",
+                "mezzogiorno",
+                "sette",
+                "latte"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l2-c1",
+          "stage": "learn",
+          "front": "la colazione",
+          "back": "breakfast",
+          "example": "Anna si alza alle sette e fa colazione con latte e biscotti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l2-c2",
+          "stage": "learn",
+          "front": "la collega",
+          "back": "colleague (female)",
+          "example": "A mezzogiorno mangia un panino con una collega."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-04-l3",
+      "title": "Al supermercato",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-04-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Al supermercato",
+          "passage": "Marco va al supermercato con la lista della spesa. Compra due chili di pane, una bottiglia di latte e sei uova. Poi prende un po' di frutta: tre mele e quattro banane. Alla cassa paga ventidue euro. Il cassiere è gentile e dà a Marco un sacchetto gratis.",
+          "questions": [
+            {
+              "question": "Quante uova compra Marco?",
+              "options": [
+                "Due",
+                "Sei",
+                "Quattro"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quanto paga?",
+              "options": [
+                "Dodici euro",
+                "Trenta euro",
+                "Ventidue euro"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Com'è il cassiere?",
+              "options": [
+                "Gentile",
+                "Antipatico",
+                "Stanco"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-04-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Marco va al ___ con la lista ___ spesa. Compra due chili di pane, una ___ di latte e sei uova. Poi ___ un po' di frutta: tre mele e quattro banane. Alla ___ paga ventidue euro.",
+          "gaps": [
+            {
+              "answers": [
+                "supermercato"
+              ],
+              "options": [
+                "bottiglia",
+                "della",
+                "prende",
+                "cassa",
+                "supermercato"
+              ]
+            },
+            {
+              "answers": [
+                "della"
+              ],
+              "options": [
+                "bottiglia",
+                "della",
+                "prende",
+                "cassa",
+                "supermercato"
+              ]
+            },
+            {
+              "answers": [
+                "bottiglia"
+              ],
+              "options": [
+                "bottiglia",
+                "della",
+                "prende",
+                "cassa",
+                "supermercato"
+              ]
+            },
+            {
+              "answers": [
+                "prende"
+              ],
+              "options": [
+                "bottiglia",
+                "della",
+                "prende",
+                "cassa",
+                "supermercato"
+              ]
+            },
+            {
+              "answers": [
+                "cassa"
+              ],
+              "options": [
+                "bottiglia",
+                "della",
+                "prende",
+                "cassa",
+                "supermercato"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l3-c1",
+          "stage": "learn",
+          "front": "la spesa",
+          "back": "shopping (groceries)",
+          "example": "Marco va al supermercato con la lista della spesa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l3-c2",
+          "stage": "learn",
+          "front": "la cassa",
+          "back": "checkout",
+          "example": "Alla cassa paga ventidue euro."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-04-l4",
+      "title": "Il tempo oggi",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-04-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il tempo oggi",
+          "passage": "Oggi a Roma fa bel tempo. Il cielo è azzurro e c'è il sole, ma non fa caldo: ci sono quindici gradi. A Milano, invece, piove e c'è molta nebbia. Domani a Roma ci sono le nuvole e un po' di vento. Per il fine settimana, però, tornano il sole e la temperatura sale.",
+          "questions": [
+            {
+              "question": "Com'è il tempo oggi a Roma?",
+              "options": [
+                "Piove",
+                "C'è il sole",
+                "C'è la nebbia"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che tempo fa a Milano?",
+              "options": [
+                "Nevica",
+                "Piove",
+                "C'è il sole"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Com'è il tempo domani a Roma?",
+              "options": [
+                "Soleggiato",
+                "Nuvoloso",
+                "Piovoso"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-04-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Oggi a Roma fa bel tempo. Il ___ è ___ e c'è il sole, ma non fa caldo: ci sono ___ gradi. A Milano, invece, ___ e c'è ___ nebbia. Domani a Roma ci sono le nuvole e un po' di vento.",
+          "gaps": [
+            {
+              "answers": [
+                "cielo"
+              ],
+              "options": [
+                "piove",
+                "cielo",
+                "azzurro",
+                "molta",
+                "quindici"
+              ]
+            },
+            {
+              "answers": [
+                "azzurro"
+              ],
+              "options": [
+                "piove",
+                "cielo",
+                "azzurro",
+                "molta",
+                "quindici"
+              ]
+            },
+            {
+              "answers": [
+                "quindici"
+              ],
+              "options": [
+                "piove",
+                "cielo",
+                "azzurro",
+                "molta",
+                "quindici"
+              ]
+            },
+            {
+              "answers": [
+                "piove"
+              ],
+              "options": [
+                "piove",
+                "cielo",
+                "azzurro",
+                "molta",
+                "quindici"
+              ]
+            },
+            {
+              "answers": [
+                "molta"
+              ],
+              "options": [
+                "piove",
+                "cielo",
+                "azzurro",
+                "molta",
+                "quindici"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l4-c1",
+          "stage": "learn",
+          "front": "la nebbia",
+          "back": "fog",
+          "example": "A Milano, invece, piove e c'è molta nebbia."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-04-l4-c2",
+          "stage": "learn",
+          "front": "il vento",
+          "back": "wind",
+          "example": "Domani a Roma ci sono le nuvole e un po' di vento."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'affitto",
+      "en": "rent",
+      "example": "Pago trecento euro al mese di affitto."
+    },
+    {
+      "it": "il balcone",
+      "en": "balcony",
+      "example": "Il salotto è luminoso e ha un grande balcone."
+    },
+    {
+      "it": "la colazione",
+      "en": "breakfast",
+      "example": "Anna si alza alle sette e fa colazione con latte e biscotti."
+    },
+    {
+      "it": "la collega",
+      "en": "colleague (female)",
+      "example": "A mezzogiorno mangia un panino con una collega."
+    },
+    {
+      "it": "la spesa",
+      "en": "shopping (groceries)",
+      "example": "Marco va al supermercato con la lista della spesa."
+    },
+    {
+      "it": "la cassa",
+      "en": "checkout",
+      "example": "Alla cassa paga ventidue euro."
+    },
+    {
+      "it": "la nebbia",
+      "en": "fog",
+      "example": "A Milano, invece, piove e c'è molta nebbia."
+    },
+    {
+      "it": "il vento",
+      "en": "wind",
+      "example": "Domani a Roma ci sono le nuvole e un po' di vento."
+    }
+  ]
+}

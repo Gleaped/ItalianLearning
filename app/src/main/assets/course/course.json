@@ -1143,6 +1143,42 @@
       "summary": "4 reading texts at B2, with questions and key words.",
       "available": true,
       "module": "let-b2"
+    },
+    {
+      "id": "lib-r-a1-04",
+      "level": "LET",
+      "order": 26,
+      "title": "Casa, giorni e spesa",
+      "summary": "4 reading texts at A1 (about 52 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a1"
+    },
+    {
+      "id": "lib-r-a1-05",
+      "level": "LET",
+      "order": 27,
+      "title": "Salute, viaggi e lavoro",
+      "summary": "4 reading texts at A1 (about 48 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a1"
+    },
+    {
+      "id": "lib-a-a1-04",
+      "level": "ASC",
+      "order": 28,
+      "title": "Inviti e annunci",
+      "summary": "4 listening texts at A1 (about 36 words each), with questions.",
+      "available": true,
+      "module": "asc-a1"
+    },
+    {
+      "id": "lib-a-a1-05",
+      "level": "ASC",
+      "order": 29,
+      "title": "Negozi, routine e informazioni",
+      "summary": "4 listening texts at A1 (about 42 words each), with questions.",
+      "available": true,
+      "module": "asc-a1"
     }
   ],
   "modules": [
