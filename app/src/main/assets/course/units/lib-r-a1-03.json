@@ -1,0 +1,295 @@
+{
+  "id": "lib-r-a1-03",
+  "level": "LET",
+  "title": "Città e viaggi",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A1 (circa 56 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a1-03-l1",
+      "title": "La mia città",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-03-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La mia città",
+          "passage": "Vivo a Bologna, una città grande e bella. Il centro è pieno di portici e di negozi. Ci sono due torri molto alte e una piazza con una fontana. Ogni giorno vado in bicicletta all'università, che è vicino alla stazione. La sera mangio spesso in una trattoria con gli amici. Mi piace molto vivere qui.",
+          "questions": [
+            {
+              "question": "Dove vive l'autore?",
+              "options": [
+                "A Bologna",
+                "A Roma",
+                "A Torino"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come va all'università?",
+              "options": [
+                "In autobus",
+                "In treno",
+                "In bicicletta"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Dove mangia la sera?",
+              "options": [
+                "In una trattoria",
+                "A casa",
+                "Al bar"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l1-c1",
+          "stage": "learn",
+          "front": "il portico",
+          "back": "arcade"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l1-c2",
+          "stage": "learn",
+          "front": "la torre",
+          "back": "tower"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-03-l2",
+      "title": "Per andare in stazione",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-03-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Per andare in stazione",
+          "passage": "Scusi, dov'è la stazione? Vada sempre dritto per cento metri. Poi giri a destra in via Roma. Dopo il semaforo, giri a sinistra. La stazione è davanti alla grande piazza, vicino alla farmacia. Può andare a piedi: ci vogliono dieci minuti. Se preferisce, c'è anche l'autobus numero cinque. Grazie mille, è molto gentile!",
+          "questions": [
+            {
+              "question": "Quanto tempo ci vuole a piedi?",
+              "options": [
+                "Cinque minuti",
+                "Dieci minuti",
+                "Venti minuti"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove giri a destra?",
+              "options": [
+                "In via Roma",
+                "Alla farmacia",
+                "In piazza"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che numero ha l'autobus?",
+              "options": [
+                "Dieci",
+                "Quindici",
+                "Cinque"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l2-c1",
+          "stage": "learn",
+          "front": "sempre dritto",
+          "back": "straight on",
+          "example": "Vada sempre dritto per cento metri."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l2-c2",
+          "stage": "learn",
+          "front": "il semaforo",
+          "back": "traffic light",
+          "example": "Dopo il semaforo, giri a sinistra."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-03-l3",
+      "title": "Un weekend a Roma",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-03-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un weekend a Roma",
+          "passage": "Questo weekend vado a Roma con il treno. Parto sabato alle nove e arrivo a mezzogiorno. Dormo in un piccolo albergo vicino al Colosseo. Il sabato visito i musei e la domenica faccio una passeggiata nel centro. Mangio la pizza e un gelato in piazza Navona. Il treno del ritorno parte domenica alle sei di sera.",
+          "questions": [
+            {
+              "question": "Quando arriva a Roma?",
+              "options": [
+                "Sabato a mezzogiorno",
+                "Domenica mattina",
+                "Sabato sera"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Dove dorme?",
+              "options": [
+                "A casa di amici",
+                "In campeggio",
+                "In un albergo vicino al Colosseo"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quando parte il treno del ritorno?",
+              "options": [
+                "Sabato alle nove",
+                "Domenica alle sei",
+                "Domenica alle nove"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l3-c1",
+          "stage": "learn",
+          "front": "l'albergo",
+          "back": "hotel",
+          "example": "Dormo in un piccolo albergo vicino al Colosseo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l3-c2",
+          "stage": "learn",
+          "front": "il ritorno",
+          "back": "return trip",
+          "example": "Il treno del ritorno parte domenica alle sei di sera."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-03-l4",
+      "title": "Il tempo oggi",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-03-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il tempo oggi",
+          "passage": "Oggi a Napoli c'è il sole e fa caldo: ci sono venticinque gradi. In montagna, invece, fa freddo e piove. Domani a Milano c'è nebbia al mattino, poi il cielo è nuvoloso. Nel weekend arriva la neve sulle Alpi. Se vai al mare, porta il costume e la crema solare. Se vai in montagna, porta una giacca e un ombrello.",
+          "questions": [
+            {
+              "question": "Che tempo fa oggi a Napoli?",
+              "options": [
+                "C'è il sole",
+                "Piove",
+                "Nevica"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa c'è a Milano al mattino?",
+              "options": [
+                "Sole",
+                "Neve",
+                "Nebbia"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa porti in montagna?",
+              "options": [
+                "Il costume",
+                "La crema solare",
+                "Una giacca e un ombrello"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l4-c1",
+          "stage": "learn",
+          "front": "la nebbia",
+          "back": "fog",
+          "example": "Domani a Milano c'è nebbia al mattino, poi il cielo è nuvoloso."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-03-l4-c2",
+          "stage": "learn",
+          "front": "l'ombrello",
+          "back": "umbrella",
+          "example": "Se vai in montagna, porta una giacca e un ombrello."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il portico",
+      "en": "arcade"
+    },
+    {
+      "it": "la torre",
+      "en": "tower"
+    },
+    {
+      "it": "sempre dritto",
+      "en": "straight on",
+      "example": "Vada sempre dritto per cento metri."
+    },
+    {
+      "it": "il semaforo",
+      "en": "traffic light",
+      "example": "Dopo il semaforo, giri a sinistra."
+    },
+    {
+      "it": "l'albergo",
+      "en": "hotel",
+      "example": "Dormo in un piccolo albergo vicino al Colosseo."
+    },
+    {
+      "it": "il ritorno",
+      "en": "return trip",
+      "example": "Il treno del ritorno parte domenica alle sei di sera."
+    },
+    {
+      "it": "la nebbia",
+      "en": "fog",
+      "example": "Domani a Milano c'è nebbia al mattino, poi il cielo è nuvoloso."
+    },
+    {
+      "it": "l'ombrello",
+      "en": "umbrella",
+      "example": "Se vai in montagna, porta una giacca e un ombrello."
+    }
+  ]
+}

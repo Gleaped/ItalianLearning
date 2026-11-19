@@ -1,0 +1,295 @@
+{
+  "id": "lib-r-a1-02",
+  "level": "LET",
+  "title": "Giornate e cibo",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello A1 (circa 50 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-a1-02-l1",
+      "title": "La colazione",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-02-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La colazione",
+          "passage": "Ogni mattina mi alzo alle sette. Faccio colazione al bar vicino a casa. Prendo un cappuccino e un cornetto con la marmellata. Il barista si chiama Gino ed è molto simpatico. Pago due euro e cinquanta. Poi vado a lavorare in autobus. La colazione al bar è il momento più bello della mia giornata.",
+          "questions": [
+            {
+              "question": "A che ora si alza l'autore?",
+              "options": [
+                "Alle otto",
+                "Alle sette",
+                "Alle sei"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa prende al bar?",
+              "options": [
+                "Un tè e un panino",
+                "Un caffè e un succo",
+                "Un cappuccino e un cornetto"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Come va a lavorare?",
+              "options": [
+                "A piedi",
+                "In autobus",
+                "In macchina"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l1-c1",
+          "stage": "learn",
+          "front": "il cornetto",
+          "back": "croissant",
+          "example": "Prendo un cappuccino e un cornetto con la marmellata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l1-c2",
+          "stage": "learn",
+          "front": "la marmellata",
+          "back": "jam",
+          "example": "Prendo un cappuccino e un cornetto con la marmellata."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-02-l2",
+      "title": "Al mercato",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-02-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Al mercato",
+          "passage": "Il sabato vado al mercato con mia madre. Compriamo la frutta e la verdura: mele, arance, pomodori e insalata. Il fruttivendolo ci dà un chilo di patate in regalo. Poi andiamo dal panettiere e compriamo il pane. A mezzogiorno torniamo a casa con le borse piene. Che bella mattina!",
+          "questions": [
+            {
+              "question": "Quando va al mercato?",
+              "options": [
+                "La domenica",
+                "Il sabato",
+                "Il lunedì"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa regala il fruttivendolo?",
+              "options": [
+                "Un chilo di mele",
+                "Un'insalata",
+                "Un chilo di patate"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Dove compra il pane?",
+              "options": [
+                "Al supermercato",
+                "Dal panettiere",
+                "Al bar"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l2-c1",
+          "stage": "learn",
+          "front": "il fruttivendolo",
+          "back": "greengrocer",
+          "example": "Il fruttivendolo ci dà un chilo di patate in regalo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l2-c2",
+          "stage": "learn",
+          "front": "in regalo",
+          "back": "as a gift",
+          "example": "Il fruttivendolo ci dà un chilo di patate in regalo."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-02-l3",
+      "title": "Una cena in famiglia",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-02-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una cena in famiglia",
+          "passage": "Stasera cucino io. Preparo la pasta al pomodoro e poi una carne con le patate. Mia moglie compra il vino e il dolce. I bambini apparecchiano la tavola: mettono i piatti, i bicchieri e le forchette. Alle otto siamo tutti a tavola. Dopo cena guardiamo un film insieme.",
+          "questions": [
+            {
+              "question": "Che cosa cucina l'autore?",
+              "options": [
+                "La pasta e la carne",
+                "La pizza",
+                "Il pesce"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa fanno i bambini?",
+              "options": [
+                "Apparecchiano la tavola",
+                "Lavano i piatti",
+                "Comprano il vino"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "A che ora cenano?",
+              "options": [
+                "Alle sette",
+                "Alle nove",
+                "Alle otto"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l3-c1",
+          "stage": "learn",
+          "front": "apparecchiare",
+          "back": "to set the table"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l3-c2",
+          "stage": "learn",
+          "front": "il bicchiere",
+          "back": "glass"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-a1-02-l4",
+      "title": "Al ristorante",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-a1-02-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Al ristorante",
+          "passage": "Io e Anna siamo al ristorante «Da Mario». Il cameriere porta il menù. Io prendo gli spaghetti alle vongole e Anna sceglie una pizza margherita. Beviamo acqua naturale e un bicchiere di vino bianco. Il conto è di trentacinque euro. Il cameriere è gentile e ci porta anche un caffè in regalo.",
+          "questions": [
+            {
+              "question": "Che cosa prende l'autore?",
+              "options": [
+                "La pizza margherita",
+                "Gli spaghetti alle vongole",
+                "Una carne"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quanto costa il conto?",
+              "options": [
+                "Venticinque euro",
+                "Quarantacinque euro",
+                "Trentacinque euro"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa regala il cameriere?",
+              "options": [
+                "Un dolce",
+                "Un caffè",
+                "Un bicchiere di vino"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l4-c1",
+          "stage": "learn",
+          "front": "il conto",
+          "back": "the bill",
+          "example": "Il conto è di trentacinque euro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-a1-02-l4-c2",
+          "stage": "learn",
+          "front": "il cameriere",
+          "back": "waiter",
+          "example": "Il cameriere porta il menù."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il cornetto",
+      "en": "croissant",
+      "example": "Prendo un cappuccino e un cornetto con la marmellata."
+    },
+    {
+      "it": "la marmellata",
+      "en": "jam",
+      "example": "Prendo un cappuccino e un cornetto con la marmellata."
+    },
+    {
+      "it": "il fruttivendolo",
+      "en": "greengrocer",
+      "example": "Il fruttivendolo ci dà un chilo di patate in regalo."
+    },
+    {
+      "it": "in regalo",
+      "en": "as a gift",
+      "example": "Il fruttivendolo ci dà un chilo di patate in regalo."
+    },
+    {
+      "it": "apparecchiare",
+      "en": "to set the table"
+    },
+    {
+      "it": "il bicchiere",
+      "en": "glass"
+    },
+    {
+      "it": "il conto",
+      "en": "the bill",
+      "example": "Il conto è di trentacinque euro."
+    },
+    {
+      "it": "il cameriere",
+      "en": "waiter",
+      "example": "Il cameriere porta il menù."
+    }
+  ]
+}
