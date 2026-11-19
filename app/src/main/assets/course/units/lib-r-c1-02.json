@@ -1,0 +1,339 @@
+{
+  "id": "lib-r-c1-02",
+  "level": "LET",
+  "title": "Territorio e cultura",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello C1 (circa 119 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-c1-02-l1",
+      "title": "Il fascino discreto dei borghi",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-02-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il fascino discreto dei borghi",
+          "passage": "Nel 2017 il governo italiano ha dedicato un anno ai borghi, i piccoli centri storici sparsi lungo la penisola. L'iniziativa nasce dalla consapevolezza che oltre la metà dei comuni italiani conta meno di cinquemila abitanti e che molti di essi rischiano lo spopolamento. Il turismo lento, fatto di cammini, prodotti locali e ospitalità diffusa, viene indicato come una possibile risorsa. Tuttavia, osservano gli economisti, il turismo da solo non basta a mantenere vive le comunità: servono scuole, trasporti e connessioni digitali. Alcuni esperimenti, come l'albergo diffuso, in cui le camere sono distribuite in case restaurate del paese, mostrano che è possibile conciliare accoglienza e vita quotidiana. Il rischio, dunque, non è tanto che i borghi siano dimenticati, quanto che diventino scenografie senza abitanti.",
+          "questions": [
+            {
+              "question": "Perché è stato dedicato un anno ai borghi?",
+              "options": [
+                "Perché molti piccoli comuni rischiano lo spopolamento",
+                "Per promuovere le grandi città",
+                "Per ridurre i costi",
+                "Per aumentare le tasse"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa viene indicato come risorsa?",
+              "options": [
+                "Il turismo di massa",
+                "L'industria pesante",
+                "Il turismo lento",
+                "L'emigrazione"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cos'è l'albergo diffuso?",
+              "options": [
+                "Un grande hotel",
+                "Camere distribuite in case restaurate del paese",
+                "Un campeggio",
+                "Un ostello giovanile"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è il rischio indicato alla fine?",
+              "options": [
+                "Che siano dimenticati",
+                "Che i borghi diventino scenografie senza abitanti",
+                "Che costino troppo",
+                "Che siano troppo affollati"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l1-c1",
+          "stage": "learn",
+          "front": "lo spopolamento",
+          "back": "depopulation"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l1-c2",
+          "stage": "learn",
+          "front": "la scenografia",
+          "back": "set, scenery"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-02-l2",
+      "title": "Una lingua in movimento",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-02-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una lingua in movimento",
+          "passage": "Ogni anno nuove parole entrano nei dizionari italiani, e il dibattito che ne segue è puntuale quanto passionale. Da un lato ci sono i puristi, che denunciano l'invasione di anglicismi come «smart working» o «green pass», sostenendo che esistano alternative italiane altrettanto efficaci. Dall'altro, linguisti come Tullio De Mauro hanno più volte ricordato che le lingue vive si arricchiscono sempre attraverso il contatto con altre culture: l'italiano stesso, nei secoli, ha preso termini dall'arabo, dal francese e dallo spagnolo. Il vero problema, probabilmente, non è l'ingresso di parole straniere, ma la rapidità con cui sostituiscono senza motivo termini già esistenti. Una lingua, conclude il linguista, non si difende con i divieti, ma con la qualità di chi la usa.",
+          "questions": [
+            {
+              "question": "Che cosa denunciano i puristi?",
+              "options": [
+                "L'uso dei dialetti",
+                "La scomparsa del latino",
+                "L'invasione di anglicismi",
+                "Le parole straniere antiche"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa ricordano i linguisti come De Mauro?",
+              "options": [
+                "Le lingue non cambiano",
+                "Le lingue vive si arricchiscono con il contatto",
+                "L'italiano è una lingua pura",
+                "Le parole straniere vanno vietate"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Qual è il vero problema secondo il testo?",
+              "options": [
+                "La sostituzione rapida di termini esistenti",
+                "L'ingresso di parole straniere",
+                "Il costo dei dizionari",
+                "L'uso di dialetti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come si difende una lingua?",
+              "options": [
+                "Con i divieti",
+                "Con le leggi",
+                "Con la qualità di chi la usa",
+                "Con la scuola obbligatoria"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l2-c1",
+          "stage": "learn",
+          "front": "l'anglicismo",
+          "back": "anglicism"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l2-c2",
+          "stage": "learn",
+          "front": "passionale",
+          "back": "passionate, heated",
+          "example": "Ogni anno nuove parole entrano nei dizionari italiani, e il dibattito che ne segue è puntuale quanto passionale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-02-l3",
+      "title": "Il lavoro che cambia",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-02-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il lavoro che cambia",
+          "passage": "L'automazione e l'intelligenza artificiale stanno ridisegnando il mercato del lavoro a una velocità senza precedenti. Secondo alcune stime, entro dieci anni quasi un lavoratore su quattro dovrà cambiare mansione o acquisire competenze nuove. Le professioni più esposte sono quelle ripetitive, come l'inserimento dati o certe attività amministrative, mentre le funzioni che richiedono creatività, empatia e capacità di giudizio sembrano più al riparo. Non mancano, però, i motivi di preoccupazione: la riqualificazione dei lavoratori più anziani è costosa e i sistemi di formazione italiani, osservano molti esperti, sono ancora troppo lenti. Il rischio è che si crei una frattura tra chi sa servirsi delle nuove tecnologie e chi ne è escluso, con conseguenze sociali ed economiche difficili da prevedere.",
+          "questions": [
+            {
+              "question": "Quanti lavoratori dovranno cambiare mansione entro dieci anni?",
+              "options": [
+                "Quasi tutti",
+                "Uno su dieci",
+                "Quasi uno su quattro",
+                "Nessuno"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quali professioni sono più esposte?",
+              "options": [
+                "Quelle creative",
+                "Quelle sanitarie",
+                "Quelle educative",
+                "Quelle ripetitive"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa osservano molti esperti sulla formazione italiana?",
+              "options": [
+                "È ancora troppo lenta",
+                "È ottima",
+                "È inutile",
+                "È troppo cara per le aziende"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è il rischio finale?",
+              "options": [
+                "Una crisi energetica",
+                "Una crescita eccessiva",
+                "Un'ondata di assunzioni",
+                "Una frattura tra chi usa le tecnologie e chi ne è escluso"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l3-c1",
+          "stage": "learn",
+          "front": "la mansione",
+          "back": "task, duties",
+          "example": "Secondo alcune stime, entro dieci anni quasi un lavoratore su quattro dovrà cambiare mansione o acquisire competenze nuove."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l3-c2",
+          "stage": "learn",
+          "front": "la frattura",
+          "back": "rift, gap"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-02-l4",
+      "title": "Il cibo come identità",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-02-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il cibo come identità",
+          "passage": "In Italia il cibo non è soltanto nutrimento: è un linguaggio attraverso cui le comunità raccontano se stesse. Ogni regione custodisce ricette che, tramandate di generazione in generazione, sono diventate simboli identitari. Eppure l'idea di una cucina italiana unitaria è relativamente recente: fu Pellegrino Artusi, nel 1891, con il celebre manuale «La scienza in cucina», a mettere insieme per la prima volta piatti di tutto il paese, contribuendo a creare una cultura gastronomica nazionale. Oggi, in un mondo globalizzato, il dibattito riguarda la tutela delle tradizioni: i marchi di origine proteggono i prodotti tipici, ma c'è anche chi sostiene che un'eccessiva rigidità impedisca alla cucina di evolversi. Forse la tradizione, più che un museo, è un laboratorio permanente.",
+          "questions": [
+            {
+              "question": "Che cos'è il cibo per le comunità italiane?",
+              "options": [
+                "Solo nutrimento",
+                "Un linguaggio che racconta la comunità",
+                "Un'industria",
+                "Un lusso"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Chi era Pellegrino Artusi?",
+              "options": [
+                "Un ristoratore",
+                "L'autore di un celebre manuale di cucina",
+                "Un cuoco televisivo",
+                "Un politico"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa fanno i marchi di origine?",
+              "options": [
+                "Proteggono i prodotti tipici",
+                "Vietano le novità",
+                "Limitano l'esportazione",
+                "Fissano i prezzi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è la conclusione del testo?",
+              "options": [
+                "La tradizione è un museo",
+                "La tradizione è un laboratorio permanente",
+                "La cucina non cambia",
+                "L'identità è perduta"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l4-c1",
+          "stage": "learn",
+          "front": "tramandare",
+          "back": "to hand down"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-02-l4-c2",
+          "stage": "learn",
+          "front": "la tutela",
+          "back": "protection"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "lo spopolamento",
+      "en": "depopulation"
+    },
+    {
+      "it": "la scenografia",
+      "en": "set, scenery"
+    },
+    {
+      "it": "l'anglicismo",
+      "en": "anglicism"
+    },
+    {
+      "it": "passionale",
+      "en": "passionate, heated",
+      "example": "Ogni anno nuove parole entrano nei dizionari italiani, e il dibattito che ne segue è puntuale quanto passionale."
+    },
+    {
+      "it": "la mansione",
+      "en": "task, duties",
+      "example": "Secondo alcune stime, entro dieci anni quasi un lavoratore su quattro dovrà cambiare mansione o acquisire competenze nuove."
+    },
+    {
+      "it": "la frattura",
+      "en": "rift, gap"
+    },
+    {
+      "it": "tramandare",
+      "en": "to hand down"
+    },
+    {
+      "it": "la tutela",
+      "en": "protection"
+    }
+  ]
+}

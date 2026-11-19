@@ -1,0 +1,339 @@
+{
+  "id": "lib-r-c1-04",
+  "level": "LET",
+  "title": "Istituzioni e società",
+  "objective": "Alla fine dell'unità hai letto 4 testi di livello C1 (circa 115 parole ciascuno).",
+  "grammarFocus": "Lettura estensiva: idea generale, dettagli e parole chiave.",
+  "lessons": [
+    {
+      "id": "lib-r-c1-04-l1",
+      "title": "L'Europa e le sue lingue",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-04-l1-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "L'Europa e le sue lingue",
+          "passage": "L'Unione europea riconosce ventiquattro lingue ufficiali e promuove il multilinguismo come uno dei suoi valori fondanti. Nella pratica, però, la situazione è più sfumata: nelle riunioni quotidiane si usano soprattutto l'inglese, il francese e il tedesco, mentre molte lingue minori rischiano di restare ai margini. Il costo della traduzione, che supera il miliardo di euro l'anno, viene spesso criticato, ma i sostenitori del sistema ribattono che ogni cittadino ha il diritto di rivolgersi alle istituzioni nella propria lingua. La questione, in fondo, tocca l'identità: una lingua non è soltanto un mezzo di comunicazione, ma un modo di guardare il mondo. Tutelarla significa, in un certo senso, tutelare la diversità su cui l'Europa ha costruito il proprio progetto.",
+          "questions": [
+            {
+              "question": "Quante lingue ufficiali riconosce l'Unione europea?",
+              "options": [
+                "Ventiquattro",
+                "Tre",
+                "Dodici",
+                "Cinquanta"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quali lingue si usano di più nelle riunioni?",
+              "options": [
+                "Italiano e spagnolo",
+                "Latino e greco",
+                "Polacco e olandese",
+                "Inglese, francese e tedesco"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa ribattono i sostenitori del sistema?",
+              "options": [
+                "Il costo è irrilevante",
+                "Basta una lingua sola",
+                "Le traduzioni sono gratuite",
+                "Ogni cittadino ha diritto di usare la propria lingua"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cos'è una lingua, secondo il testo?",
+              "options": [
+                "Solo uno strumento",
+                "Una moda",
+                "Un costo",
+                "Un modo di guardare il mondo"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l1-c1",
+          "stage": "learn",
+          "front": "ai margini",
+          "back": "on the margins"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l1-c2",
+          "stage": "learn",
+          "front": "tutelare",
+          "back": "to protect",
+          "example": "Tutelarla significa, in un certo senso, tutelare la diversità su cui l'Europa ha costruito il proprio progetto."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-04-l2",
+      "title": "Un'idea di giustizia",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-04-l2-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un'idea di giustizia",
+          "passage": "Il sistema giudiziario italiano è da tempo oggetto di critiche per la lentezza dei processi: in media un procedimento civile dura più di cinque anni, ben oltre la media europea. Le cause sono molteplici: un numero elevato di cause, personale insufficiente e procedure complesse. Le riforme degli ultimi anni hanno cercato di accelerare i tempi, introducendo limiti di durata e incentivi alla conciliazione. Alcuni giuristi, tuttavia, avvertono che la rapidità non può diventare un fine in sé: la giustizia deve essere anche accurata, perché una sentenza sbrigativa rischia di sacrificare i diritti delle parti. L'equilibrio tra efficienza e garanzie resta, dunque, la vera sfida, e richiede investimenti, ma anche una cultura della legalità condivisa.",
+          "questions": [
+            {
+              "question": "Quanto dura in media un procedimento civile?",
+              "options": [
+                "Sei mesi",
+                "Più di cinque anni",
+                "Un anno",
+                "Dieci anni esatti"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa hanno introdotto le riforme?",
+              "options": [
+                "Limiti di durata e incentivi alla conciliazione",
+                "Più tribunali",
+                "Meno giudici",
+                "Nuove tasse"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa avvertono alcuni giuristi?",
+              "options": [
+                "La rapidità non può diventare un fine in sé",
+                "Bisogna abolire i processi",
+                "Servono più avvocati",
+                "Le sentenze devono essere brevi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è la vera sfida?",
+              "options": [
+                "Equilibrare efficienza e garanzie",
+                "Costruire tribunali",
+                "Ridurre le cause",
+                "Cambiare le leggi"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l2-c1",
+          "stage": "learn",
+          "front": "sbrigativo",
+          "back": "hasty, perfunctory"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l2-c2",
+          "stage": "learn",
+          "front": "la conciliazione",
+          "back": "settlement, conciliation",
+          "example": "Le riforme degli ultimi anni hanno cercato di accelerare i tempi, introducendo limiti di durata e incentivi alla conciliazione."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-04-l3",
+      "title": "Le piazze italiane",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-04-l3-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Le piazze italiane",
+          "passage": "La piazza è, nell'urbanistica italiana, molto più di uno spazio libero: è il cuore civile, religioso e commerciale della città. Nelle città medievali, attorno al municipio e alla cattedrale, si svolgevano mercati, cerimonie e assemblee. Ancora oggi molte piazze mantengono questa funzione, e il passeggio serale, la «passeggiata», è una pratica sociale che sopravvive nonostante i cambiamenti. Tuttavia le piazze affrontano nuove sfide: il traffico, la pressione turistica e la trasformazione dei locali storici in catene commerciali ne alterano il carattere. Alcune amministrazioni hanno risposto limitando il passaggio dei veicoli e promuovendo eventi culturali, nella convinzione che una piazza viva sia quella in cui i cittadini continuano a riconoscersi.",
+          "questions": [
+            {
+              "question": "Che cos'è la piazza nell'urbanistica italiana?",
+              "options": [
+                "Un parcheggio",
+                "Uno spazio senza funzione",
+                "Il cuore civile, religioso e commerciale",
+                "Un mercato soltanto"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cos'è la «passeggiata»?",
+              "options": [
+                "Una gara",
+                "Un obbligo",
+                "Una festa religiosa",
+                "Una pratica sociale serale"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Quali sono alcune sfide attuali?",
+              "options": [
+                "Mancanza di verde",
+                "Troppe chiese",
+                "Traffico, turismo e catene commerciali",
+                "Il clima"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Come hanno risposto alcune amministrazioni?",
+              "options": [
+                "Costruendo parcheggi",
+                "Limitando i veicoli e promuovendo eventi culturali",
+                "Vietando i locali",
+                "Chiudendo le piazze"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l3-c1",
+          "stage": "learn",
+          "front": "il passeggio",
+          "back": "strolling"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l3-c2",
+          "stage": "learn",
+          "front": "alterare",
+          "back": "to alter"
+        }
+      ]
+    },
+    {
+      "id": "lib-r-c1-04-l4",
+      "title": "La scuola e il merito",
+      "minutes": 8,
+      "goal": "Leggere un testo e rispondere alle domande.",
+      "takeaway": "Cerca la risposta nel testo, non nella tua opinione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-c1-04-l4-e1",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La scuola e il merito",
+          "passage": "Il dibattito sul merito nella scuola italiana è antico e carico di significati politici. Per i sostenitori, premiare i risultati dei migliori stimola l'impegno e riconosce il valore dello studio. I critici, invece, ricordano che il punto di partenza degli studenti non è uguale: chi proviene da famiglie con meno risorse parte spesso da una condizione di svantaggio, che non dipende dall'impegno. L'articolo 34 della Costituzione, che garantisce ai «capaci e meritevoli», anche se privi di mezzi, il diritto di raggiungere i gradi più alti degli studi, tiene insieme le due istanze. Il problema, dunque, non è scegliere tra merito ed equità, ma costruire un sistema in cui il merito sia davvero misurabile, perché le condizioni di partenza siano il più possibile riequilibrate.",
+          "questions": [
+            {
+              "question": "Che cosa sostengono i fautori del merito?",
+              "options": [
+                "Il merito non esiste",
+                "Tutti devono avere lo stesso voto",
+                "Serve solo equità",
+                "Premiare i migliori stimola l'impegno"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa ricordano i critici?",
+              "options": [
+                "I voti sono troppo alti",
+                "Gli insegnanti sono pochi",
+                "Gli studenti non studiano",
+                "Gli studenti partono da condizioni diverse"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa garantisce l'articolo 34?",
+              "options": [
+                "Il diritto agli studi più alti ai capaci e meritevoli privi di mezzi",
+                "Il voto minimo",
+                "La scuola privata",
+                "L'esame di maturità"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è la conclusione?",
+              "options": [
+                "Abolire il merito",
+                "Costruire un sistema in cui il merito sia misurabile e le condizioni riequilibrate",
+                "Eliminare i voti",
+                "Aumentare le tasse"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l4-c1",
+          "stage": "learn",
+          "front": "il fautore",
+          "back": "supporter"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-c1-04-l4-c2",
+          "stage": "learn",
+          "front": "l'istanza",
+          "back": "demand, requirement"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "ai margini",
+      "en": "on the margins"
+    },
+    {
+      "it": "tutelare",
+      "en": "to protect",
+      "example": "Tutelarla significa, in un certo senso, tutelare la diversità su cui l'Europa ha costruito il proprio progetto."
+    },
+    {
+      "it": "sbrigativo",
+      "en": "hasty, perfunctory"
+    },
+    {
+      "it": "la conciliazione",
+      "en": "settlement, conciliation",
+      "example": "Le riforme degli ultimi anni hanno cercato di accelerare i tempi, introducendo limiti di durata e incentivi alla conciliazione."
+    },
+    {
+      "it": "il passeggio",
+      "en": "strolling"
+    },
+    {
+      "it": "alterare",
+      "en": "to alter"
+    },
+    {
+      "it": "il fautore",
+      "en": "supporter"
+    },
+    {
+      "it": "l'istanza",
+      "en": "demand, requirement"
+    }
+  ]
+}
