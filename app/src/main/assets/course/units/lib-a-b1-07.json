@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b1-07",
+  "level": "ASC",
+  "title": "Famiglia e feste",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni su famiglia e feste (circa 100–140 parole): un messaggio di compleanno, un invito di nozze, un avviso della scuola, il ricordo di un nonno, un messaggio dell'agenzia di viaggi e un messaggio per un trasloco.",
+  "grammarFocus": "Ascolto: messaggi personali, racconti al passato, inviti, organizzazione e piani.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b1-07-l1",
+      "title": "Messaggio di compleanno per la nonna",
+      "minutes": 6,
+      "goal": "Capire un messaggio personale di auguri con piani per la sera.",
+      "takeaway": "Nei messaggi personali ascolta i motivi e i piani per dopo.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-07-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l1-e02",
+          "stage": "practise",
+          "audioText": "Ciao nonna, sono Chiara, tanti auguri di buon compleanno! Settantacinque anni, non ci credo, non li dimostri per niente. Ehm, ti chiamo perché stamattina non sono riuscita a venire: ho l'esame alle dieci, e sono ancora in università. Però vengo stasera, verso le sei, e porto la torta che ti piace, quella al cioccolato con le nocciole. Ho chiamato anche lo zio Franco, mi ha detto che arriva da Torino con il treno delle quattro. Non dire niente a mamma, ma ho comprato anche un regalo, una sciarpa azzurra, spero che ti piaccia. Se hai bisogno di qualcosa dal supermercato, scrivimi, passo prima di arrivare. Non ti stancare in cucina, per favore: ordiniamo la pizza. Un bacione grande, a stasera!",
+          "question": "Quanti anni compie la nonna?",
+          "options": [
+            "Settantacinque",
+            "Sessantacinque",
+            "Ottantacinque",
+            "Settant'anni"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l1-e03",
+          "stage": "practise",
+          "audioText": "Ciao nonna, sono Chiara, tanti auguri di buon compleanno! Settantacinque anni, non ci credo, non li dimostri per niente. Ehm, ti chiamo perché stamattina non sono riuscita a venire: ho l'esame alle dieci, e sono ancora in università. Però vengo stasera, verso le sei, e porto la torta che ti piace, quella al cioccolato con le nocciole. Ho chiamato anche lo zio Franco, mi ha detto che arriva da Torino con il treno delle quattro. Non dire niente a mamma, ma ho comprato anche un regalo, una sciarpa azzurra, spero che ti piaccia. Se hai bisogno di qualcosa dal supermercato, scrivimi, passo prima di arrivare. Non ti stancare in cucina, per favore: ordiniamo la pizza. Un bacione grande, a stasera!",
+          "question": "Perché Chiara non è venuta stamattina?",
+          "options": [
+            "È malata",
+            "Ha perso il treno",
+            "Ha un esame",
+            "Deve lavorare"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l1-e04",
+          "stage": "practise",
+          "audioText": "Ciao nonna, sono Chiara, tanti auguri di buon compleanno! Settantacinque anni, non ci credo, non li dimostri per niente. Ehm, ti chiamo perché stamattina non sono riuscita a venire: ho l'esame alle dieci, e sono ancora in università. Però vengo stasera, verso le sei, e porto la torta che ti piace, quella al cioccolato con le nocciole. Ho chiamato anche lo zio Franco, mi ha detto che arriva da Torino con il treno delle quattro. Non dire niente a mamma, ma ho comprato anche un regalo, una sciarpa azzurra, spero che ti piaccia. Se hai bisogno di qualcosa dal supermercato, scrivimi, passo prima di arrivare. Non ti stancare in cucina, per favore: ordiniamo la pizza. Un bacione grande, a stasera!",
+          "question": "Che torta porta Chiara?",
+          "options": [
+            "Alla frutta",
+            "Al cioccolato con le nocciole",
+            "Alla crema",
+            "Di mele"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l1-e05",
+          "stage": "practise",
+          "audioText": "Ciao nonna, sono Chiara, tanti auguri di buon compleanno! Settantacinque anni, non ci credo, non li dimostri per niente. Ehm, ti chiamo perché stamattina non sono riuscita a venire: ho l'esame alle dieci, e sono ancora in università. Però vengo stasera, verso le sei, e porto la torta che ti piace, quella al cioccolato con le nocciole. Ho chiamato anche lo zio Franco, mi ha detto che arriva da Torino con il treno delle quattro. Non dire niente a mamma, ma ho comprato anche un regalo, una sciarpa azzurra, spero che ti piaccia. Se hai bisogno di qualcosa dal supermercato, scrivimi, passo prima di arrivare. Non ti stancare in cucina, per favore: ordiniamo la pizza. Un bacione grande, a stasera!",
+          "question": "Che cosa mangeranno la sera?",
+          "options": [
+            "Un arrosto",
+            "La pasta fatta dalla nonna",
+            "Solo la torta",
+            "La pizza"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l1-e06",
+          "stage": "learn",
+          "front": "gli auguri",
+          "back": "best wishes, greetings",
+          "example": "Tanti auguri per il tuo compleanno!"
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l1-e07",
+          "stage": "learn",
+          "front": "la sciarpa",
+          "back": "scarf",
+          "example": "Ho regalato una sciarpa a mia nonna."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-07-l2",
+      "title": "Invito al matrimonio",
+      "minutes": 6,
+      "goal": "Capire un messaggio che invita a un matrimonio.",
+      "takeaway": "Negli inviti ascolta data, luogo, abbigliamento e scadenza.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-07-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l2-e02",
+          "stage": "practise",
+          "audioText": "Ciao Paola, sono Andrea, hai un minuto? Ti volevo dare una bella notizia: ci sposiamo! Io e Laura abbiamo deciso di fare la festa il ventitré maggio, un sabato, in una cascina vicino al fiume. La cerimonia è alle quattro del pomeriggio, ehm, nel giardino, e poi c'è la cena. Se piove, ci spostiamo nella sala interna, quindi non preoccuparti. Ti prego, non portare regali grandi: abbiamo già tutto in casa, e preferiamo un contributo per il viaggio di nozze. Vestito? Elegante ma comodo, perché alla fine si balla! Per la cascina ci sono pochi posti, quindi ti chiedo di confermare entro la fine del mese. Se vuoi dormire lì, ci sono sei camere, però si prenotano subito. Ti abbraccio forte, e scusa se sono emozionato.",
+          "question": "Dove si fa la festa?",
+          "options": [
+            "In un ristorante in città",
+            "In una cascina vicino al fiume",
+            "In una chiesa",
+            "Al mare"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l2-e03",
+          "stage": "practise",
+          "audioText": "Ciao Paola, sono Andrea, hai un minuto? Ti volevo dare una bella notizia: ci sposiamo! Io e Laura abbiamo deciso di fare la festa il ventitré maggio, un sabato, in una cascina vicino al fiume. La cerimonia è alle quattro del pomeriggio, ehm, nel giardino, e poi c'è la cena. Se piove, ci spostiamo nella sala interna, quindi non preoccuparti. Ti prego, non portare regali grandi: abbiamo già tutto in casa, e preferiamo un contributo per il viaggio di nozze. Vestito? Elegante ma comodo, perché alla fine si balla! Per la cascina ci sono pochi posti, quindi ti chiedo di confermare entro la fine del mese. Se vuoi dormire lì, ci sono sei camere, però si prenotano subito. Ti abbraccio forte, e scusa se sono emozionato.",
+          "question": "A che ora è la cerimonia?",
+          "options": [
+            "Alle quattro del pomeriggio",
+            "Alle sei di sera",
+            "A mezzogiorno",
+            "Alle tre di notte"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l2-e04",
+          "stage": "practise",
+          "audioText": "Ciao Paola, sono Andrea, hai un minuto? Ti volevo dare una bella notizia: ci sposiamo! Io e Laura abbiamo deciso di fare la festa il ventitré maggio, un sabato, in una cascina vicino al fiume. La cerimonia è alle quattro del pomeriggio, ehm, nel giardino, e poi c'è la cena. Se piove, ci spostiamo nella sala interna, quindi non preoccuparti. Ti prego, non portare regali grandi: abbiamo già tutto in casa, e preferiamo un contributo per il viaggio di nozze. Vestito? Elegante ma comodo, perché alla fine si balla! Per la cascina ci sono pochi posti, quindi ti chiedo di confermare entro la fine del mese. Se vuoi dormire lì, ci sono sei camere, però si prenotano subito. Ti abbraccio forte, e scusa se sono emozionato.",
+          "question": "Che cosa preferiscono gli sposi come regalo?",
+          "options": [
+            "Un oggetto per la casa",
+            "Un grande regalo",
+            "Dei fiori",
+            "Un contributo per il viaggio di nozze"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l2-e05",
+          "stage": "practise",
+          "audioText": "Ciao Paola, sono Andrea, hai un minuto? Ti volevo dare una bella notizia: ci sposiamo! Io e Laura abbiamo deciso di fare la festa il ventitré maggio, un sabato, in una cascina vicino al fiume. La cerimonia è alle quattro del pomeriggio, ehm, nel giardino, e poi c'è la cena. Se piove, ci spostiamo nella sala interna, quindi non preoccuparti. Ti prego, non portare regali grandi: abbiamo già tutto in casa, e preferiamo un contributo per il viaggio di nozze. Vestito? Elegante ma comodo, perché alla fine si balla! Per la cascina ci sono pochi posti, quindi ti chiedo di confermare entro la fine del mese. Se vuoi dormire lì, ci sono sei camere, però si prenotano subito. Ti abbraccio forte, e scusa se sono emozionato.",
+          "question": "Entro quando deve rispondere Paola?",
+          "options": [
+            "Entro domani",
+            "Entro il ventitré maggio",
+            "Entro la fine del mese",
+            "Entro una settimana"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l2-e06",
+          "stage": "learn",
+          "front": "lo sposo, la sposa",
+          "back": "groom, bride",
+          "example": "Gli sposi escono dalla chiesa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l2-e07",
+          "stage": "learn",
+          "front": "la cerimonia",
+          "back": "ceremony",
+          "example": "La cerimonia dura mezz'ora."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-07-l3",
+      "title": "Avviso della scuola",
+      "minutes": 6,
+      "goal": "Capire un avviso della scuola per i genitori.",
+      "takeaway": "Negli avvisi cerca data, luogo e che cosa si deve fare.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-07-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l3-e02",
+          "stage": "practise",
+          "audioText": "Gentili genitori, vi scrive la scuola primaria Rodari per ricordarvi la riunione di giovedì prossimo. L'incontro è alle diciassette e trenta, nell'aula magna, e non nelle classi, perché ci sono tanti argomenti. Prima parlerà la preside, che spiegherà le date delle gite, ehm, e poi le maestre presenteranno il progetto di lettura. Dovete sapere che quest'anno la mensa cambia fornitore: il menù sarà più vario, con più verdura e meno fritti. Un favore: se avete bambini piccoli, non potete portarli, perché non c'è nessuno per sorvegliarli. Chi non può venire può mandare una delega firmata a un altro genitore. Infine, cercano due volontari per aiutare nell'organizzazione della festa di fine anno. Se siete interessati, scrivete alla segreteria entro lunedì. Grazie per l'attenzione e cordiali saluti.",
+          "question": "Dove si tiene la riunione?",
+          "options": [
+            "Nelle classi",
+            "In mensa",
+            "Nell'aula magna",
+            "In palestra"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l3-e03",
+          "stage": "practise",
+          "audioText": "Gentili genitori, vi scrive la scuola primaria Rodari per ricordarvi la riunione di giovedì prossimo. L'incontro è alle diciassette e trenta, nell'aula magna, e non nelle classi, perché ci sono tanti argomenti. Prima parlerà la preside, che spiegherà le date delle gite, ehm, e poi le maestre presenteranno il progetto di lettura. Dovete sapere che quest'anno la mensa cambia fornitore: il menù sarà più vario, con più verdura e meno fritti. Un favore: se avete bambini piccoli, non potete portarli, perché non c'è nessuno per sorvegliarli. Chi non può venire può mandare una delega firmata a un altro genitore. Infine, cercano due volontari per aiutare nell'organizzazione della festa di fine anno. Se siete interessati, scrivete alla segreteria entro lunedì. Grazie per l'attenzione e cordiali saluti.",
+          "question": "Che cosa cambia con la mensa?",
+          "options": [
+            "Il fornitore e il menù",
+            "L'orario del pranzo",
+            "Il prezzo dei pasti",
+            "Il numero dei bambini"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l3-e04",
+          "stage": "practise",
+          "audioText": "Gentili genitori, vi scrive la scuola primaria Rodari per ricordarvi la riunione di giovedì prossimo. L'incontro è alle diciassette e trenta, nell'aula magna, e non nelle classi, perché ci sono tanti argomenti. Prima parlerà la preside, che spiegherà le date delle gite, ehm, e poi le maestre presenteranno il progetto di lettura. Dovete sapere che quest'anno la mensa cambia fornitore: il menù sarà più vario, con più verdura e meno fritti. Un favore: se avete bambini piccoli, non potete portarli, perché non c'è nessuno per sorvegliarli. Chi non può venire può mandare una delega firmata a un altro genitore. Infine, cercano due volontari per aiutare nell'organizzazione della festa di fine anno. Se siete interessati, scrivete alla segreteria entro lunedì. Grazie per l'attenzione e cordiali saluti.",
+          "question": "Che cosa può fare un genitore che non può venire?",
+          "options": [
+            "Portare i bambini",
+            "Chiamare la preside",
+            "Venire il giorno dopo",
+            "Mandare una delega firmata"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l3-e05",
+          "stage": "practise",
+          "audioText": "Gentili genitori, vi scrive la scuola primaria Rodari per ricordarvi la riunione di giovedì prossimo. L'incontro è alle diciassette e trenta, nell'aula magna, e non nelle classi, perché ci sono tanti argomenti. Prima parlerà la preside, che spiegherà le date delle gite, ehm, e poi le maestre presenteranno il progetto di lettura. Dovete sapere che quest'anno la mensa cambia fornitore: il menù sarà più vario, con più verdura e meno fritti. Un favore: se avete bambini piccoli, non potete portarli, perché non c'è nessuno per sorvegliarli. Chi non può venire può mandare una delega firmata a un altro genitore. Infine, cercano due volontari per aiutare nell'organizzazione della festa di fine anno. Se siete interessati, scrivete alla segreteria entro lunedì. Grazie per l'attenzione e cordiali saluti.",
+          "question": "Per che cosa cercano volontari?",
+          "options": [
+            "Per le gite",
+            "Per la festa di fine anno",
+            "Per la mensa",
+            "Per il progetto di lettura"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l3-e06",
+          "stage": "learn",
+          "front": "la mensa",
+          "back": "canteen, school lunch",
+          "example": "Mio figlio mangia alla mensa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l3-e07",
+          "stage": "learn",
+          "front": "la delega",
+          "back": "proxy, authorisation",
+          "example": "Ho firmato una delega per mio marito."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-07-l4",
+      "title": "Il racconto del nonno",
+      "minutes": 6,
+      "goal": "Capire il ricordo di un nonno sull'infanzia.",
+      "takeaway": "Nei racconti al passato segui l'ordine degli eventi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-07-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l4-e02",
+          "stage": "practise",
+          "audioText": "Quando avevo dieci anni, abitavamo in campagna, in una casa senza riscaldamento. D'inverno, ehm, la mattina l'acqua nel secchio era ghiacciata. Mio padre si alzava alle cinque per andare dalle mucche, e io lo aiutavo prima di andare a scuola, che era lontana: facevo quattro chilometri a piedi, con qualsiasi tempo. Un giorno nevicava forte e il maestro ci ha mandati a casa a metà mattina. Sono tornato con un amico, e ci siamo persi nel bosco, perché la neve copriva la strada. Abbiamo camminato per due ore, finché abbiamo visto una luce: era la lanterna di mia madre, che ci aspettava davanti alla porta. Non ho mai dimenticato quel momento. Mi ha dato una tazza di latte caldo e una coperta, e non ha detto niente. Ecco perché oggi non mi lamento mai del freddo.",
+          "question": "Quanti anni aveva il nonno nel racconto?",
+          "options": [
+            "Quindici",
+            "Dieci",
+            "Sette",
+            "Dodici"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l4-e03",
+          "stage": "practise",
+          "audioText": "Quando avevo dieci anni, abitavamo in campagna, in una casa senza riscaldamento. D'inverno, ehm, la mattina l'acqua nel secchio era ghiacciata. Mio padre si alzava alle cinque per andare dalle mucche, e io lo aiutavo prima di andare a scuola, che era lontana: facevo quattro chilometri a piedi, con qualsiasi tempo. Un giorno nevicava forte e il maestro ci ha mandati a casa a metà mattina. Sono tornato con un amico, e ci siamo persi nel bosco, perché la neve copriva la strada. Abbiamo camminato per due ore, finché abbiamo visto una luce: era la lanterna di mia madre, che ci aspettava davanti alla porta. Non ho mai dimenticato quel momento. Mi ha dato una tazza di latte caldo e una coperta, e non ha detto niente. Ecco perché oggi non mi lamento mai del freddo.",
+          "question": "Quanto era lontana la scuola?",
+          "options": [
+            "Quattro chilometri",
+            "Due chilometri",
+            "Dieci chilometri",
+            "Mezzo chilometro"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l4-e04",
+          "stage": "practise",
+          "audioText": "Quando avevo dieci anni, abitavamo in campagna, in una casa senza riscaldamento. D'inverno, ehm, la mattina l'acqua nel secchio era ghiacciata. Mio padre si alzava alle cinque per andare dalle mucche, e io lo aiutavo prima di andare a scuola, che era lontana: facevo quattro chilometri a piedi, con qualsiasi tempo. Un giorno nevicava forte e il maestro ci ha mandati a casa a metà mattina. Sono tornato con un amico, e ci siamo persi nel bosco, perché la neve copriva la strada. Abbiamo camminato per due ore, finché abbiamo visto una luce: era la lanterna di mia madre, che ci aspettava davanti alla porta. Non ho mai dimenticato quel momento. Mi ha dato una tazza di latte caldo e una coperta, e non ha detto niente. Ecco perché oggi non mi lamento mai del freddo.",
+          "question": "Che cosa è successo quel giorno di neve?",
+          "options": [
+            "La scuola è rimasta chiusa",
+            "Il padre è venuto a prenderli",
+            "Hanno preso l'autobus",
+            "Si sono persi nel bosco"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l4-e05",
+          "stage": "practise",
+          "audioText": "Quando avevo dieci anni, abitavamo in campagna, in una casa senza riscaldamento. D'inverno, ehm, la mattina l'acqua nel secchio era ghiacciata. Mio padre si alzava alle cinque per andare dalle mucche, e io lo aiutavo prima di andare a scuola, che era lontana: facevo quattro chilometri a piedi, con qualsiasi tempo. Un giorno nevicava forte e il maestro ci ha mandati a casa a metà mattina. Sono tornato con un amico, e ci siamo persi nel bosco, perché la neve copriva la strada. Abbiamo camminato per due ore, finché abbiamo visto una luce: era la lanterna di mia madre, che ci aspettava davanti alla porta. Non ho mai dimenticato quel momento. Mi ha dato una tazza di latte caldo e una coperta, e non ha detto niente. Ecco perché oggi non mi lamento mai del freddo.",
+          "question": "Che cosa ha visto il bambino dopo due ore?",
+          "options": [
+            "Una casa illuminata",
+            "La luce di un'auto",
+            "La lanterna della madre",
+            "La luna"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l4-e06",
+          "stage": "learn",
+          "front": "la neve",
+          "back": "snow",
+          "example": "Oggi c'è la neve in montagna."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l4-e07",
+          "stage": "learn",
+          "front": "lamentarsi",
+          "back": "to complain",
+          "example": "Non mi lamento mai del caldo."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-07-l5",
+      "title": "Messaggio dell'agenzia di viaggi",
+      "minutes": 6,
+      "goal": "Capire un messaggio con una notizia buona e una cattiva.",
+      "takeaway": "Quando ci sono cambiamenti, ascolta che cosa è nuovo e che cosa resta uguale.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-07-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l5-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Bianchi, sono Elena dell'agenzia Orizzonti, la chiamo per il viaggio in Puglia. Ho una notizia buona e una meno buona. Quella buona è che l'albergo ci ha dato una camera con vista sul mare, senza costi in più. Quella meno buona è che il volo di andata è stato spostato: non parte più alle otto, ma alle dieci e venti, ehm, quindi arriverete a Bari verso mezzogiorno. Il noleggio dell'auto resta prenotato, con ritiro in aeroporto, e costa trecento euro per cinque giorni. Vi ricordo che serve la patente e una carta di credito, non basta il bancomat. Il saldo, cioè il resto da pagare, è di ottocento euro, e va versato entro dieci giorni. Se ha dubbi, mi scriva, oppure venga in agenzia: siamo aperti anche il sabato mattina. Buona giornata e grazie.",
+          "question": "Qual è la notizia buona?",
+          "options": [
+            "Hanno una camera con vista sul mare senza costi in più",
+            "Il volo parte prima",
+            "L'auto è gratis",
+            "L'albergo costa meno"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l5-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Bianchi, sono Elena dell'agenzia Orizzonti, la chiamo per il viaggio in Puglia. Ho una notizia buona e una meno buona. Quella buona è che l'albergo ci ha dato una camera con vista sul mare, senza costi in più. Quella meno buona è che il volo di andata è stato spostato: non parte più alle otto, ma alle dieci e venti, ehm, quindi arriverete a Bari verso mezzogiorno. Il noleggio dell'auto resta prenotato, con ritiro in aeroporto, e costa trecento euro per cinque giorni. Vi ricordo che serve la patente e una carta di credito, non basta il bancomat. Il saldo, cioè il resto da pagare, è di ottocento euro, e va versato entro dieci giorni. Se ha dubbi, mi scriva, oppure venga in agenzia: siamo aperti anche il sabato mattina. Buona giornata e grazie.",
+          "question": "A che ora parte adesso il volo?",
+          "options": [
+            "Alle otto",
+            "Alle dodici",
+            "Alle dieci e venti",
+            "Alle otto e venti"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l5-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Bianchi, sono Elena dell'agenzia Orizzonti, la chiamo per il viaggio in Puglia. Ho una notizia buona e una meno buona. Quella buona è che l'albergo ci ha dato una camera con vista sul mare, senza costi in più. Quella meno buona è che il volo di andata è stato spostato: non parte più alle otto, ma alle dieci e venti, ehm, quindi arriverete a Bari verso mezzogiorno. Il noleggio dell'auto resta prenotato, con ritiro in aeroporto, e costa trecento euro per cinque giorni. Vi ricordo che serve la patente e una carta di credito, non basta il bancomat. Il saldo, cioè il resto da pagare, è di ottocento euro, e va versato entro dieci giorni. Se ha dubbi, mi scriva, oppure venga in agenzia: siamo aperti anche il sabato mattina. Buona giornata e grazie.",
+          "question": "Che cosa serve per noleggiare l'auto?",
+          "options": [
+            "Il passaporto e il bancomat",
+            "La patente e una carta di credito",
+            "Solo la patente",
+            "Una prenotazione dell'albergo"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l5-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, signor Bianchi, sono Elena dell'agenzia Orizzonti, la chiamo per il viaggio in Puglia. Ho una notizia buona e una meno buona. Quella buona è che l'albergo ci ha dato una camera con vista sul mare, senza costi in più. Quella meno buona è che il volo di andata è stato spostato: non parte più alle otto, ma alle dieci e venti, ehm, quindi arriverete a Bari verso mezzogiorno. Il noleggio dell'auto resta prenotato, con ritiro in aeroporto, e costa trecento euro per cinque giorni. Vi ricordo che serve la patente e una carta di credito, non basta il bancomat. Il saldo, cioè il resto da pagare, è di ottocento euro, e va versato entro dieci giorni. Se ha dubbi, mi scriva, oppure venga in agenzia: siamo aperti anche il sabato mattina. Buona giornata e grazie.",
+          "question": "Entro quando bisogna pagare il saldo?",
+          "options": [
+            "Entro il sabato",
+            "Entro cinque giorni",
+            "Entro un mese",
+            "Entro dieci giorni"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l5-e06",
+          "stage": "learn",
+          "front": "il saldo",
+          "back": "balance (to pay)",
+          "example": "Il saldo si paga prima della partenza."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l5-e07",
+          "stage": "learn",
+          "front": "il noleggio",
+          "back": "hire, rental",
+          "example": "Il noleggio dell'auto costa poco."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-07-l6",
+      "title": "Messaggio per un trasloco",
+      "minutes": 6,
+      "goal": "Capire un messaggio vocale di un amico che organizza un trasloco.",
+      "takeaway": "Nell'organizzazione ascolta chi fa che cosa e a che ora.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-07-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l6-e02",
+          "stage": "practise",
+          "audioText": "Ciao Matteo, sono Luca, ti scrivo un messaggio vocale perché sto portando scatole da stamattina e non ho le mani libere. Allora, il trasloco è sabato, finalmente! Il furgone arriva alle otto, e speriamo di finire per l'ora di pranzo. Ci servono due o tre persone per portare il divano, che è molto pesante, ehm, e la libreria, che dobbiamo smontare. Io ho già comprato le pizze per tutti, e le birre le porta Sara. La casa nuova è al terzo piano e l'ascensore è piccolo: il divano non ci entra, quindi lo portiamo dalle scale. Se hai un carrello, portalo, ci salva la vita. Ah, il parcheggio: in via Mazzini c'è il divieto di sosta dalle sette alle nove per la pulizia, perciò il furgone si ferma nel cortile. Fammi sapere se ci sei. Grazie mille, sei un amico!",
+          "question": "A che ora arriva il furgone?",
+          "options": [
+            "Alle sette",
+            "Alle nove",
+            "A mezzogiorno",
+            "Alle otto"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l6-e03",
+          "stage": "practise",
+          "audioText": "Ciao Matteo, sono Luca, ti scrivo un messaggio vocale perché sto portando scatole da stamattina e non ho le mani libere. Allora, il trasloco è sabato, finalmente! Il furgone arriva alle otto, e speriamo di finire per l'ora di pranzo. Ci servono due o tre persone per portare il divano, che è molto pesante, ehm, e la libreria, che dobbiamo smontare. Io ho già comprato le pizze per tutti, e le birre le porta Sara. La casa nuova è al terzo piano e l'ascensore è piccolo: il divano non ci entra, quindi lo portiamo dalle scale. Se hai un carrello, portalo, ci salva la vita. Ah, il parcheggio: in via Mazzini c'è il divieto di sosta dalle sette alle nove per la pulizia, perciò il furgone si ferma nel cortile. Fammi sapere se ci sei. Grazie mille, sei un amico!",
+          "question": "Che cosa bisogna smontare?",
+          "options": [
+            "La libreria",
+            "Il divano",
+            "Il letto",
+            "L'ascensore"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l6-e04",
+          "stage": "practise",
+          "audioText": "Ciao Matteo, sono Luca, ti scrivo un messaggio vocale perché sto portando scatole da stamattina e non ho le mani libere. Allora, il trasloco è sabato, finalmente! Il furgone arriva alle otto, e speriamo di finire per l'ora di pranzo. Ci servono due o tre persone per portare il divano, che è molto pesante, ehm, e la libreria, che dobbiamo smontare. Io ho già comprato le pizze per tutti, e le birre le porta Sara. La casa nuova è al terzo piano e l'ascensore è piccolo: il divano non ci entra, quindi lo portiamo dalle scale. Se hai un carrello, portalo, ci salva la vita. Ah, il parcheggio: in via Mazzini c'è il divieto di sosta dalle sette alle nove per la pulizia, perciò il furgone si ferma nel cortile. Fammi sapere se ci sei. Grazie mille, sei un amico!",
+          "question": "Perché portano il divano dalle scale?",
+          "options": [
+            "Il divano è rotto",
+            "L'ascensore è troppo piccolo",
+            "L'ascensore non funziona",
+            "Al terzo piano non c'è l'ascensore"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-07-l6-e05",
+          "stage": "practise",
+          "audioText": "Ciao Matteo, sono Luca, ti scrivo un messaggio vocale perché sto portando scatole da stamattina e non ho le mani libere. Allora, il trasloco è sabato, finalmente! Il furgone arriva alle otto, e speriamo di finire per l'ora di pranzo. Ci servono due o tre persone per portare il divano, che è molto pesante, ehm, e la libreria, che dobbiamo smontare. Io ho già comprato le pizze per tutti, e le birre le porta Sara. La casa nuova è al terzo piano e l'ascensore è piccolo: il divano non ci entra, quindi lo portiamo dalle scale. Se hai un carrello, portalo, ci salva la vita. Ah, il parcheggio: in via Mazzini c'è il divieto di sosta dalle sette alle nove per la pulizia, perciò il furgone si ferma nel cortile. Fammi sapere se ci sei. Grazie mille, sei un amico!",
+          "question": "Che cosa deve portare Matteo, se può?",
+          "options": [
+            "Le pizze",
+            "Le birre",
+            "Un carrello",
+            "Un divano"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l6-e06",
+          "stage": "learn",
+          "front": "il trasloco",
+          "back": "house move, removal",
+          "example": "Il trasloco è sabato mattina."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-07-l6-e07",
+          "stage": "learn",
+          "front": "il furgone",
+          "back": "van",
+          "example": "Carichiamo tutto sul furgone."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "gli auguri",
+      "en": "best wishes, greetings",
+      "example": "Tanti auguri per il tuo compleanno!"
+    },
+    {
+      "it": "la sciarpa",
+      "en": "scarf",
+      "example": "Ho regalato una sciarpa a mia nonna."
+    },
+    {
+      "it": "lo sposo, la sposa",
+      "en": "groom, bride",
+      "example": "Gli sposi escono dalla chiesa."
+    },
+    {
+      "it": "la cerimonia",
+      "en": "ceremony",
+      "example": "La cerimonia dura mezz'ora."
+    },
+    {
+      "it": "la mensa",
+      "en": "canteen, school lunch",
+      "example": "Mio figlio mangia alla mensa."
+    },
+    {
+      "it": "la delega",
+      "en": "proxy, authorisation",
+      "example": "Ho firmato una delega per mio marito."
+    },
+    {
+      "it": "la neve",
+      "en": "snow",
+      "example": "Oggi c'è la neve in montagna."
+    },
+    {
+      "it": "lamentarsi",
+      "en": "to complain",
+      "example": "Non mi lamento mai del caldo."
+    },
+    {
+      "it": "il saldo",
+      "en": "balance (to pay)",
+      "example": "Il saldo si paga prima della partenza."
+    },
+    {
+      "it": "il noleggio",
+      "en": "hire, rental",
+      "example": "Il noleggio dell'auto costa poco."
+    },
+    {
+      "it": "il trasloco",
+      "en": "house move, removal",
+      "example": "Il trasloco è sabato mattina."
+    },
+    {
+      "it": "il furgone",
+      "en": "van",
+      "example": "Carichiamo tutto sul furgone."
+    }
+  ]
+}

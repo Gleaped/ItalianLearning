@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b1-02",
+  "level": "LET",
+  "title": "Società e cultura",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi su società e cultura (circa 200 parole): un'intervista, un volantino, una recensione e un racconto breve.",
+  "grammarFocus": "Lettura estensiva di livello B1: domande e risposte, informazioni pratiche, giudizi e consigli, sequenza di eventi al passato; connettivi come però, inoltre, invece, così.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b1-02-l1",
+      "title": "Il falegname",
+      "minutes": 8,
+      "goal": "Leggere un'intervista di circa 200 parole e capire domande, risposte e opinioni dell'intervistato.",
+      "takeaway": "In un'intervista ogni risposta dipende dalla domanda: leggi prima la domanda, poi cerca la risposta nelle righe sotto.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-02-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il falegname",
+          "passage": "Abbiamo incontrato Davide, falegname da trent'anni, nella sua bottega alla periferia della città.\n\nCome ha cominciato questo mestiere?\nPer caso. Da ragazzo non avevo voglia di studiare, e mio zio mi ha preso come apprendista. Il primo anno ho solo spazzato il pavimento e guardato, ma ho imparato più cose che a scuola.\n\nOggi i giovani vogliono fare questo lavoro?\nPochi, purtroppo. Molti pensano che sia faticoso e poco pagato, e in parte hanno ragione. Però chi ha pazienza trova clienti che apprezzano un mobile fatto a mano e sono disposti ad aspettare qualche mese.\n\nCome è cambiato il lavoro negli anni?\nLe macchine ci aiutano molto: tagliano più in fretta e con più precisione. Ma la parte più importante, scegliere il legno e immaginare il mobile in una casa vera, la faccio ancora con le mani e con gli occhi. Inoltre molti clienti mi mandano le foto delle loro stanze con il telefono, e questo prima non succedeva.\n\nChe consiglio darebbe a un giovane?\nDi non avere fretta. Un tavolo non si improvvisa. E di accettare gli errori: ne ho fatti tanti, e ogni volta ho imparato qualcosa. Se potessi tornare indietro, comincerei di nuovo.",
+          "questions": [
+            {
+              "question": "Come è diventato falegname Davide?",
+              "options": [
+                "Ha frequentato una scuola professionale",
+                "Suo zio lo ha preso come apprendista",
+                "Ha ereditato la bottega dal padre",
+                "Ha risposto a un annuncio"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché pochi giovani scelgono questo mestiere?",
+              "options": [
+                "Richiede troppi anni di studio",
+                "Le macchine hanno sostituito i falegnami",
+                "Non ci sono clienti",
+                "Lo considerano faticoso e poco pagato"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa fa ancora senza l'aiuto delle macchine?",
+              "options": [
+                "Sceglie il legno e immagina il mobile",
+                "Taglia le tavole",
+                "Manda le foto ai clienti",
+                "Dipinge i mobili"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che consiglio dà ai giovani?",
+              "options": [
+                "Comprare macchine moderne",
+                "Studiare all'università prima",
+                "Non avere fretta e accettare gli errori",
+                "Lavorare solo per clienti ricchi"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l1-e02",
+          "stage": "learn",
+          "front": "il falegname",
+          "back": "carpenter, joiner",
+          "example": "Il falegname ha costruito una libreria su misura."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l1-e03",
+          "stage": "learn",
+          "front": "l'apprendista",
+          "back": "apprentice",
+          "example": "Da apprendista imparava guardando i più esperti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l1-e04",
+          "stage": "learn",
+          "front": "improvvisare",
+          "back": "to improvise",
+          "example": "Non si improvvisa un buon pasto: ci vuole tempo."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-02-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "apprendista",
+            "giovani",
+            "macchine",
+            "errori"
+          ],
+          "modelAnswer": "Davide fa il falegname da trent'anni e ha cominciato come apprendista di suo zio. Dice che pochi giovani vogliono questo lavoro perché è faticoso. Le macchine aiutano, ma scegliere il legno si fa ancora a mano, e consiglia ai giovani di avere pazienza.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-02-l2",
+      "title": "Una giornata per il parco",
+      "minutes": 8,
+      "goal": "Leggere un volantino di circa 200 parole e trovare informazioni pratiche: quando, che cosa, che cosa serve.",
+      "takeaway": "Un volantino usa titoli e brevi paragrafi: cerca le informazioni pratiche sotto il titolo giusto.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-02-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una giornata per il parco",
+          "passage": "GIORNATA DEL PARCO: DAI UNA MANO AL TUO QUARTIERE\n\nSabato prossimo, dalle 9 alle 13, l'associazione di quartiere «Insieme» organizza una giornata di pulizia e di cura del parco giochi di via Verdi. Cerchiamo volontari di tutte le età: bambini accompagnati, genitori, nonni, studenti e chiunque abbia voglia di passare una mattina all'aria aperta.\n\nCHE COSA FAREMO\nRaccoglieremo le foglie e i rifiuti, ridipingeremo le panchine e pianteremo fiori nelle aiuole vicino all'ingresso. Per i più piccoli ci sarà un laboratorio di disegno: ogni bambino potrà decorare un vaso di terracotta e portarlo a casa.\n\nCHE COSA SERVE\nBasta indossare abiti comodi, che si possano sporcare, e scarpe chiuse. Guanti, sacchi e pennelli saranno forniti dall'associazione, ma se avete degli attrezzi da giardino, portateli pure. Non è necessario iscriversi, tuttavia vi chiediamo di avvisarci se arrivate con un gruppo numeroso.\n\nALLA FINE\nAlle 12:30 offriremo a tutti un piccolo rinfresco con pane, frutta e succhi. In caso di pioggia l'incontro sarà rimandato alla domenica successiva.\n\nPer informazioni potete lasciare un messaggio nella cassetta dell'associazione, davanti al bar del quartiere. Vi aspettiamo!",
+          "questions": [
+            {
+              "question": "Qual è lo scopo del volantino?",
+              "options": [
+                "Vendere piante e fiori",
+                "Annunciare la chiusura del parco",
+                "Cercare volontari per curare il parco",
+                "Pubblicizzare un corso di disegno"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa potranno fare i bambini?",
+              "options": [
+                "Decorare un vaso e portarlo a casa",
+                "Raccogliere i rifiuti da soli",
+                "Piantare un albero",
+                "Ridipingere le panchine"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa devono portare i partecipanti?",
+              "options": [
+                "Guanti e sacchi",
+                "Abiti comodi e scarpe chiuse",
+                "Un contributo in denaro",
+                "Il pranzo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa succede in caso di pioggia?",
+              "options": [
+                "Si svolge in una sala chiusa",
+                "Viene cancellata",
+                "Si anticipa a venerdì",
+                "La giornata si sposta alla domenica successiva"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l2-e02",
+          "stage": "learn",
+          "front": "il volontario",
+          "back": "volunteer (fem. la volontaria)",
+          "example": "Cerchiamo volontari per la festa della scuola."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l2-e03",
+          "stage": "learn",
+          "front": "l'aiuola",
+          "back": "flower bed",
+          "example": "I bambini hanno piantato fiori nell'aiuola."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l2-e04",
+          "stage": "learn",
+          "front": "il rinfresco",
+          "back": "light refreshments (after an event)",
+          "example": "Dopo la cerimonia c'è stato un rinfresco."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-02-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "volontari",
+            "sabato",
+            "rinfresco",
+            "pioggia"
+          ],
+          "modelAnswer": "Un'associazione organizza sabato una giornata per pulire il parco giochi del quartiere e cerca volontari di tutte le età. Si raccolgono rifiuti, si dipingono le panchine e si piantano fiori. Alla fine c'è un rinfresco, e se piove la giornata si sposta a domenica.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-02-l3",
+      "title": "Il treno delle sette",
+      "minutes": 8,
+      "goal": "Leggere una recensione di circa 200 parole e distinguere descrizione, giudizi positivi e negativi, consiglio finale.",
+      "takeaway": "In una recensione cerca le parole del giudizio (mi è piaciuto, mi ha deluso) e i connettivi come però, invece, inoltre.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-02-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il treno delle sette",
+          "passage": "Ho comprato «Il treno delle sette» perché me l'aveva consigliato una collega, e devo ammettere che all'inizio ero scettica: di solito non amo i romanzi con troppi misteri. Mi sono dovuta ricredere.\n\nLa storia è semplice. Anna è un'insegnante che ogni mattina prende lo stesso treno per raggiungere una scuola di provincia. Un giorno trova sul sedile accanto al suo un biglietto con una frase misteriosa, e da quel momento cerca di capire chi lo abbia scritto. Non è un giallo tradizionale, perché la vera protagonista è la vita quotidiana dei pendolari: i ritardi, le conversazioni brevi, i caffè presi di corsa.\n\nLo stile mi è piaciuto molto. Le frasi sono brevi e le descrizioni, anche quando parlano di cose banali, hanno un tono quasi poetico. Il finale, invece, mi ha deluso un po': è troppo rapido e lascia alcune domande senza risposta. Inoltre, a metà libro, alcuni capitoli sembrano ripetere le stesse scene.\n\nLo consiglierei a chi cerca una lettura leggera ma non superficiale, magari per un lungo viaggio in treno. Chi preferisce una trama piena di azione, invece, probabilmente si annoierà. Do quattro stelle su cinque.",
+          "questions": [
+            {
+              "question": "Perché la lettrice era scettica all'inizio?",
+              "options": [
+                "Non conosceva la collega",
+                "Il libro era troppo lungo",
+                "Di solito non ama i romanzi con troppi misteri",
+                "La copertina non le piaceva"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Di che cosa parla soprattutto il libro?",
+              "options": [
+                "Della vita quotidiana dei pendolari",
+                "Di un crimine violento",
+                "Di un viaggio all'estero",
+                "Della storia delle ferrovie"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa non le è piaciuto?",
+              "options": [
+                "Lo stile",
+                "Le descrizioni",
+                "Il titolo",
+                "Il finale troppo rapido"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "A chi consiglia il libro?",
+              "options": [
+                "A chi ama le trame piene di azione",
+                "A chi vuole una lettura leggera ma non superficiale",
+                "A chi non ama leggere",
+                "Solo a chi lavora come insegnante"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l3-e02",
+          "stage": "learn",
+          "front": "ricredersi",
+          "back": "to change one's mind, to be proved wrong",
+          "example": "Pensavo che il film fosse noioso, ma mi sono ricreduto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l3-e03",
+          "stage": "learn",
+          "front": "il pendolare",
+          "back": "commuter (fem. la pendolare)",
+          "example": "I pendolari prendono il treno delle sette."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l3-e04",
+          "stage": "learn",
+          "front": "deludere",
+          "back": "to disappoint",
+          "example": "Il finale mi ha deluso."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-02-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "romanzo",
+            "pendolari",
+            "stile",
+            "finale"
+          ],
+          "modelAnswer": "La lettrice recensisce un romanzo su un'insegnante che trova un biglietto misterioso sul treno. Le è piaciuto lo stile, ma il finale è troppo rapido. Lo consiglia a chi vuole una lettura leggera e non cerca molta azione.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-02-l4",
+      "title": "L'ombrello giallo",
+      "minutes": 8,
+      "goal": "Leggere un racconto breve di circa 200 parole e seguire la successione degli eventi.",
+      "takeaway": "In un racconto al passato il passato remoto e il passato prossimo raccontano gli eventi, l'imperfetto descrive la scena.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-02-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "L'ombrello giallo",
+          "passage": "Quel pomeriggio di novembre pioveva a dirotto, e Luca camminava in fretta verso la stazione quando vide un ombrello giallo dimenticato su una panchina. Era vecchio, con il manico di legno consumato, ma sembrava ancora in buono stato. Luca esitò un attimo. Poi lo prese, pensando che qualcuno sarebbe tornato a cercarlo.\n\nAspettò dieci minuti, ma non arrivò nessuno. Il suo treno stava per partire, così mise l'ombrello sotto il braccio e corse al binario. Sul manico, scritto con un pennarello quasi cancellato, c'era un numero di telefono.\n\nPer due giorni Luca non ebbe il coraggio di chiamare. Il terzo giorno compose il numero e rispose una voce anziana e un po' stanca. «L'ho cercato dappertutto», disse la signora. «Me l'ha regalato mio marito, tanti anni fa.»\n\nSi incontrarono il sabato in un piccolo bar vicino alla stazione. La signora lo ringraziò con un sorriso così grande che Luca si sentì quasi in imbarazzo. Volle offrirgli un caffè e una fetta di torta, e gli raccontò come aveva conosciuto suo marito proprio sotto quell'ombrello, durante un temporale.\n\nQuando tornò a casa, Luca pensava ancora a quella storia. Non aveva fatto niente di straordinario, eppure aveva avuto l'impressione di restituire qualcosa di molto più importante di un semplice oggetto.",
+          "questions": [
+            {
+              "question": "Perché Luca prende l'ombrello?",
+              "options": [
+                "Non ne ha uno suo",
+                "Gli piace il colore",
+                "Pensa che qualcuno tornerà a cercarlo",
+                "Vuole venderlo"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Come trova la proprietaria?",
+              "options": [
+                "Chiama il numero scritto sul manico",
+                "Chiede alla biglietteria",
+                "Mette un annuncio",
+                "Torna ad aspettare sulla panchina"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché Luca aspetta due giorni prima di chiamare?",
+              "options": [
+                "Ha perso il numero",
+                "È partito per un viaggio",
+                "Vuole tenere l'ombrello",
+                "Non ha il coraggio"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa racconta la signora al bar?",
+              "options": [
+                "Ha comprato l'ombrello in un mercato",
+                "Ha conosciuto suo marito sotto quell'ombrello durante un temporale",
+                "Ha perso l'ombrello altre volte",
+                "Suo marito lavora in stazione"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l4-e02",
+          "stage": "learn",
+          "front": "la panchina",
+          "back": "bench",
+          "example": "Ci siamo seduti su una panchina del parco."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l4-e03",
+          "stage": "learn",
+          "front": "esitare",
+          "back": "to hesitate",
+          "example": "Ho esitato un attimo prima di rispondere."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-02-l4-e04",
+          "stage": "learn",
+          "front": "restituire",
+          "back": "to give back, to return",
+          "example": "Devo restituire il libro alla biblioteca."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-02-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "ombrello",
+            "numero di telefono",
+            "signora",
+            "caffè"
+          ],
+          "modelAnswer": "Luca trova un ombrello giallo su una panchina e lo prende. Sul manico c'è un numero di telefono, così chiama la proprietaria, una signora anziana. Si incontrano al bar e lei gli racconta che l'ombrello era un regalo del marito.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il falegname",
+      "en": "carpenter, joiner",
+      "example": "Il falegname ha costruito una libreria su misura."
+    },
+    {
+      "it": "l'apprendista",
+      "en": "apprentice",
+      "example": "Da apprendista imparava guardando i più esperti."
+    },
+    {
+      "it": "improvvisare",
+      "en": "to improvise",
+      "example": "Non si improvvisa un buon pasto: ci vuole tempo."
+    },
+    {
+      "it": "il volontario",
+      "en": "volunteer (fem. la volontaria)",
+      "example": "Cerchiamo volontari per la festa della scuola."
+    },
+    {
+      "it": "l'aiuola",
+      "en": "flower bed",
+      "example": "I bambini hanno piantato fiori nell'aiuola."
+    },
+    {
+      "it": "il rinfresco",
+      "en": "light refreshments (after an event)",
+      "example": "Dopo la cerimonia c'è stato un rinfresco."
+    },
+    {
+      "it": "ricredersi",
+      "en": "to change one's mind, to be proved wrong",
+      "example": "Pensavo che il film fosse noioso, ma mi sono ricreduto."
+    },
+    {
+      "it": "il pendolare",
+      "en": "commuter (fem. la pendolare)",
+      "example": "I pendolari prendono il treno delle sette."
+    },
+    {
+      "it": "deludere",
+      "en": "to disappoint",
+      "example": "Il finale mi ha deluso."
+    },
+    {
+      "it": "la panchina",
+      "en": "bench",
+      "example": "Ci siamo seduti su una panchina del parco."
+    },
+    {
+      "it": "esitare",
+      "en": "to hesitate",
+      "example": "Ho esitato un attimo prima di rispondere."
+    },
+    {
+      "it": "restituire",
+      "en": "to give back, to return",
+      "example": "Devo restituire il libro alla biblioteca."
+    }
+  ]
+}

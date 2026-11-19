@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b2-02",
+  "level": "LET",
+  "title": "Lavoro e ambiente",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 250 parole) su lavoro e ambiente: un resoconto di sondaggio, una recensione, un avviso del comune e un reportage.",
+  "grammarFocus": "Lettura estensiva B2: linguaggio dei dati e dei documenti ufficiali, passivo e futuro nell'avviso, giudizio e riserva nella recensione, connettivi (però, inoltre, a patto che, a condizione che).",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b2-02-l1",
+      "title": "Il lavoro da casa dopo l'emergenza",
+      "minutes": 10,
+      "goal": "Leggere un resoconto di sondaggio e interpretare percentuali, vantaggi e rischi.",
+      "takeaway": "In un resoconto di sondaggio le percentuali vanno lette insieme ai connettivi (però, inoltre, invece) che ne ribaltano o completano il senso.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-02-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il lavoro da casa dopo l'emergenza",
+          "passage": "Un sondaggio condotto tra mille lavoratori dipendenti, svolto in primavera e basato su questionari anonimi, fotografa il rapporto tra gli italiani e il lavoro da casa a qualche anno dalla fase più acuta dell'emergenza sanitaria. I risultati, pur non rappresentando l'intero Paese, offrono alcune indicazioni interessanti.\n\nIl dato più evidente è che il 62 per cento degli intervistati vorrebbe lavorare da remoto almeno due giorni a settimana. Tra i motivi indicati prevalgono il risparmio di tempo negli spostamenti (citato dal 71 per cento) e la possibilità di conciliare meglio lavoro e famiglia. Tra chi ha figli piccoli, la percentuale sale all'80 per cento circa.\n\nIl quadro, però, non è privo di ombre. Il 38 per cento degli intervistati afferma di fare fatica a staccare dal lavoro a fine giornata, mentre uno su quattro dichiara di sentirsi isolato dai colleghi. Gli autori dell'indagine sottolineano inoltre che i più giovani, spesso alle prime esperienze, si ritengono penalizzati: senza qualcuno vicino che mostri come si fa, imparare il mestiere diventa più lento.\n\nInteressante anche la differenza tra aziende. Dove i dirigenti valutano i risultati e non le ore di presenza, la soddisfazione è molto più alta. Dove invece si pretende di controllare ogni movimento, molti lavoratori preferirebbero tornare in ufficio.\n\nSecondo i ricercatori, il futuro sarà probabilmente un modello ibrido, a patto che le imprese definiscano regole chiare sul diritto alla disconnessione. Senza questa garanzia, avvertono, la flessibilità rischia di trasformarsi in disponibilità permanente.",
+          "questions": [
+            {
+              "question": "Qual è il risultato principale del sondaggio?",
+              "options": [
+                "Pochi vogliono lavorare da casa",
+                "Molti lavoratori vorrebbero lavorare da remoto per alcuni giorni",
+                "La maggioranza preferisce l'ufficio",
+                "Tutti i lavoratori sono isolati"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa lamenta uno su quattro degli intervistati?",
+              "options": [
+                "Gli stipendi troppo bassi",
+                "I tempi di viaggio",
+                "Di sentirsi isolato dai colleghi",
+                "La mancanza di computer"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché i giovani si sentono penalizzati?",
+              "options": [
+                "Hanno meno occasioni di imparare dai colleghi",
+                "Guadagnano meno degli altri",
+                "Non sanno usare il computer",
+                "Devono lavorare più ore"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa significa l'avvertimento finale dei ricercatori?",
+              "options": [
+                "Il lavoro ibrido costa troppo",
+                "Le imprese dovrebbero chiudere gli uffici",
+                "I lavoratori sono sempre disponibili per scelta",
+                "Senza regole, il lavoro agile può non avere più limiti di orario"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l1-e02",
+          "stage": "learn",
+          "front": "il sondaggio",
+          "back": "survey, poll",
+          "example": "Il sondaggio ha coinvolto mille persone."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l1-e03",
+          "stage": "learn",
+          "front": "conciliare",
+          "back": "to reconcile, combine",
+          "example": "Non è facile conciliare lavoro e famiglia."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l1-e04",
+          "stage": "learn",
+          "front": "il diritto alla disconnessione",
+          "back": "right to disconnect",
+          "example": "Il diritto alla disconnessione protegge il tempo libero."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-02-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "sondaggio",
+            "due giorni",
+            "isolato",
+            "disconnessione"
+          ],
+          "modelAnswer": "Un sondaggio mostra che molti lavoratori vorrebbero lavorare da remoto, soprattutto per risparmiare tempo e conciliare famiglia e lavoro. Alcuni, però, si sentono isolati e i giovani imparano più lentamente. Servono regole chiare sul diritto alla disconnessione.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-02-l2",
+      "title": "Recensione: «L'acqua che resta»",
+      "minutes": 10,
+      "goal": "Leggere una recensione e distinguere giudizio positivo, critiche e consiglio finale.",
+      "takeaway": "Una recensione alterna elogi e critiche: i connettivi come però, inoltre e nonostante ciò indicano il cambio di giudizio.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-02-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Recensione: «L'acqua che resta»",
+          "passage": "Il documentario «L'acqua che resta», disponibile da questa settimana sulle piattaforme digitali, segue per un anno la vita di un piccolo paese di pianura che ogni estate deve fare i conti con la siccità. Non c'è narratore: la regia sceglie di lasciare la parola agli abitanti, agli agricoltori, a un idraulico comunale e a un'insegnante in pensione che conserva le fotografie dei fiumi di cinquant'anni fa.\n\nLa forza del film sta nelle immagini. I campi spaccati dal sole, i pozzi sempre più profondi, i bambini che giocano in una piscina gonfiabile come unico rimedio al caldo: nulla è spiegato, tutto è mostrato. Se la regia avesse aggiunto commenti o grafici, probabilmente avrebbe perso questa semplicità, che è anche il suo pregio maggiore.\n\nNon mancano però i difetti. Il ritmo, soprattutto nella parte centrale, è molto lento, e alcune scene si ripetono quasi senza variazioni. Chi cerca dati precisi sulle cause del fenomeno resterà deluso: il film accenna al cambiamento climatico e allo spreco nelle reti idriche, ma non approfondisce nessuno dei due temi. Inoltre il finale, volutamente aperto, lascerà insoddisfatto chi desidera una conclusione chiara.\n\nNonostante ciò, il documentario ha il merito di rendere concreto un problema che di solito viene ridotto a numeri. Si esce dalla sala, o ci si alza dal divano, con una domanda precisa: che cosa faremmo noi, se il rubinetto smettesse di funzionare? Lo consiglierei soprattutto a chi ama il cinema d'osservazione e non teme i silenzi, meno a chi preferisce un racconto rapido e ricco di spiegazioni.",
+          "questions": [
+            {
+              "question": "Che giudizio dà il recensore sul documentario?",
+              "options": [
+                "Totalmente negativo",
+                "Indifferente",
+                "Molto divertente",
+                "Positivo, ma con alcune riserve"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Quale scelta della regia viene lodata?",
+              "options": [
+                "Mostrare le situazioni senza spiegarle",
+                "Usare un narratore famoso",
+                "Inserire molti grafici",
+                "Cambiare spesso ritmo"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quale critica viene rivolta al film?",
+              "options": [
+                "Dura troppo poco",
+                "Ha troppi commenti",
+                "Tratta in modo superficiale le cause della siccità",
+                "Non ha immagini belle"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "A chi consiglia il documentario?",
+              "options": [
+                "A chi vuole informazioni tecniche",
+                "A chi apprezza un cinema lento e di osservazione",
+                "A chi cerca un film d'azione",
+                "A chi non ama i documentari"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l2-e02",
+          "stage": "learn",
+          "front": "la siccità",
+          "back": "drought",
+          "example": "Quest'estate la siccità ha danneggiato i raccolti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l2-e03",
+          "stage": "learn",
+          "front": "lo spreco",
+          "back": "waste",
+          "example": "Dobbiamo ridurre lo spreco di acqua."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l2-e04",
+          "stage": "learn",
+          "front": "il pregio",
+          "back": "merit, good quality",
+          "example": "Il pregio di questo libro è la chiarezza."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-02-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "siccità",
+            "senza narratore",
+            "ritmo lento",
+            "consiglio"
+          ],
+          "modelAnswer": "Il documentario racconta un paese colpito dalla siccità senza narratore e con immagini molto efficaci. Il ritmo è lento e le cause del fenomeno non sono approfondite, ma il film rende concreto il problema. Lo consiglia a chi ama il cinema d'osservazione.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-02-l3",
+      "title": "Nuova raccolta dei rifiuti: avviso",
+      "minutes": 10,
+      "goal": "Leggere un avviso istituzionale e trovare scadenze, documenti richiesti e conseguenze.",
+      "takeaway": "Gli avvisi usano il passivo e il futuro (sarà riorganizzato, saranno distribuiti) e formule come previa presentazione e a condizione che.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-02-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Nuova raccolta dei rifiuti: avviso",
+          "passage": "COMUNE – UFFICIO AMBIENTE\nAVVISO ALLA CITTADINANZA: nuovo sistema di raccolta dei rifiuti\n\nSi informano i cittadini che, a partire dal primo marzo, il servizio di raccolta dei rifiuti domestici sarà riorganizzato su tutto il territorio comunale. La modifica è stata approvata dal consiglio comunale allo scopo di aumentare la quota di rifiuti riciclati e di ridurre i costi per le famiglie.\n\nChe cosa cambia. I contenitori stradali saranno gradualmente sostituiti da sacchi e bidoncini consegnati a ciascuna abitazione. Il ritiro avverrà porta a porta, secondo un calendario che verrà distribuito nelle prossime settimane. Il vetro e la plastica saranno raccolti insieme, mentre carta e cartone continueranno a essere ritirati separatamente.\n\nCome ritirare i materiali. I kit saranno distribuiti presso gli sportelli di quartiere dal 10 al 28 febbraio, previa presentazione di un documento di identità e dell'ultima bolletta dei rifiuti. Le persone che non possono recarsi allo sportello, ad esempio perché anziane o con disabilità, potranno richiedere la consegna a domicilio telefonando al numero verde indicato sul sito.\n\nSanzioni. Per i primi due mesi non saranno applicate multe, a condizione che i rifiuti siano esposti negli orari previsti. Dal primo maggio, invece, chi abbandonerà sacchi sul marciapiede fuori orario o conferirà rifiuti non correttamente separati potrà ricevere una sanzione amministrativa.\n\nUlteriori informazioni. Gli operatori del servizio saranno presenti nei mercati rionali ogni sabato mattina per rispondere alle domande dei cittadini. Si ringrazia fin d'ora per la collaborazione, indispensabile affinché il nuovo sistema funzioni.\n\nIl Dirigente dell'Ufficio Ambiente",
+          "questions": [
+            {
+              "question": "Qual è lo scopo dell'avviso?",
+              "options": [
+                "Annunciare nuove tasse",
+                "Chiedere volontari",
+                "Informare sul nuovo sistema di raccolta dei rifiuti",
+                "Aprire un concorso"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa serve per ritirare il kit allo sportello?",
+              "options": [
+                "Solo il codice fiscale",
+                "Un documento di identità e l'ultima bolletta dei rifiuti",
+                "Una richiesta scritta",
+                "Un appuntamento telefonico"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa possono fare le persone che non possono andare allo sportello?",
+              "options": [
+                "Rinunciare al servizio",
+                "Chiedere a un vicino",
+                "Aspettare il 28 febbraio",
+                "Chiedere la consegna a domicilio"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa è previsto per i primi due mesi del nuovo sistema?",
+              "options": [
+                "Chi sbaglia non riceve ancora multe, se rispetta gli orari",
+                "Le multe sono raddoppiate",
+                "Il servizio è sospeso",
+                "Il ritiro è solo il sabato"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l3-e02",
+          "stage": "learn",
+          "front": "la sanzione",
+          "back": "penalty, fine",
+          "example": "Chi non rispetta le regole riceve una sanzione."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l3-e03",
+          "stage": "learn",
+          "front": "porta a porta",
+          "back": "door to door",
+          "example": "Il ritiro dei rifiuti avviene porta a porta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l3-e04",
+          "stage": "learn",
+          "front": "conferire",
+          "back": "to hand over, deposit (waste)",
+          "example": "I rifiuti vanno conferiti negli orari indicati."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-02-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "porta a porta",
+            "kit",
+            "documento",
+            "sanzione"
+          ],
+          "modelAnswer": "Dal primo marzo il comune introduce la raccolta porta a porta. I kit si ritirano a febbraio con documento e bolletta, oppure a domicilio per chi non può muoversi. Per due mesi non ci sono multe, poi scattano le sanzioni.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-02-l4",
+      "title": "L'orto sul tetto",
+      "minutes": 10,
+      "goal": "Leggere un reportage su una scelta di vita e cogliere motivi, difficoltà e progetti futuri.",
+      "takeaway": "In un reportage le citazioni dirette danno la voce del protagonista, mentre il giornalista collega i fatti con connettivi come tuttavia e inoltre.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-02-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "L'orto sul tetto",
+          "passage": "Alle sei del mattino, quando la città è ancora silenziosa, Elena sale sul tetto di un vecchio edificio ex industriale e comincia a controllare le cassette di insalata, pomodori ed erbe aromatiche. Fino a tre anni fa lavorava come impiegata amministrativa in una società di assicurazioni; oggi coordina un piccolo orto urbano che rifornisce due ristoranti e un gruppo di famiglie del quartiere.\n\n«Non ho lasciato il posto per un colpo di testa», precisa. «Avevo un contratto stabile, ma sentivo che qualcosa mancava. Se non avessi seguito un corso di agricoltura sostenibile, forse sarei ancora davanti a un computer.» La decisione non è stata facile: il primo anno i guadagni sono stati minimi e la famiglia ha dovuto rinunciare a molte spese.\n\nIl progetto è nato con l'aiuto di un bando regionale e di alcuni volontari, in gran parte pensionati e studenti. Le cassette sono riempite con terra riciclata e l'acqua piovana viene raccolta in grandi serbatoi, così da ridurre gli sprechi. Secondo Elena, il vantaggio non è soltanto economico: le piante sul tetto abbassano la temperatura dell'edificio d'estate e attirano api e farfalle, un fatto sorprendente in pieno centro.\n\nNon mancano tuttavia i problemi. Il vento rovina spesso le coltivazioni più delicate e la burocrazia per ottenere i permessi è stata lunga. Inoltre il raccolto, per quanto buono, non basterebbe a sfamare un quartiere intero. «Non pretendo di cambiare il mondo», sorride, «ma mi piace che i bambini vedano da dove arriva ciò che mangiano».\n\nIl suo prossimo obiettivo è assumere due persone con regolare contratto, a patto che le vendite continuino a crescere.",
+          "questions": [
+            {
+              "question": "Che cosa è cambiato nella vita di Elena?",
+              "options": [
+                "Ha cambiato lavoro e ora coltiva un orto sul tetto",
+                "Ha aperto un ristorante",
+                "Si è trasferita in campagna",
+                "È diventata insegnante"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come è nato il progetto dell'orto?",
+              "options": [
+                "Con un prestito bancario",
+                "Con i risparmi di una società",
+                "Con la vendita di un'assicurazione",
+                "Con un bando regionale e l'aiuto di volontari"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa significa «Non pretendo di cambiare il mondo»?",
+              "options": [
+                "Vuole diventare famosa",
+                "Ha obiettivi realistici e limitati",
+                "Pensa che l'ambiente non sia importante",
+                "Ha deciso di smettere"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quale problema è citato nel testo?",
+              "options": [
+                "La mancanza di volontari",
+                "Il costo dell'acqua",
+                "I tempi lunghi per ottenere i permessi",
+                "La scarsità di clienti"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l4-e02",
+          "stage": "learn",
+          "front": "il bando",
+          "back": "call for applications, tender",
+          "example": "Abbiamo partecipato a un bando per ottenere i fondi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l4-e03",
+          "stage": "learn",
+          "front": "il raccolto",
+          "back": "harvest, crop",
+          "example": "Quest'anno il raccolto di olive è stato buono."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-02-l4-e04",
+          "stage": "learn",
+          "front": "un colpo di testa",
+          "back": "a rash impulse",
+          "example": "Comprare quella moto è stato un colpo di testa."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-02-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "impiegata",
+            "orto sul tetto",
+            "bando",
+            "due assunzioni"
+          ],
+          "modelAnswer": "Elena ha lasciato un lavoro d'ufficio per creare un orto urbano sul tetto, con un bando e l'aiuto di volontari. Il progetto riduce gli sprechi e raccoglie ortaggi per ristoranti e famiglie, ma ha problemi di vento e permessi. Vuole assumere due persone.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il sondaggio",
+      "en": "survey, poll",
+      "example": "Il sondaggio ha coinvolto mille persone."
+    },
+    {
+      "it": "conciliare",
+      "en": "to reconcile, combine",
+      "example": "Non è facile conciliare lavoro e famiglia."
+    },
+    {
+      "it": "il diritto alla disconnessione",
+      "en": "right to disconnect",
+      "example": "Il diritto alla disconnessione protegge il tempo libero."
+    },
+    {
+      "it": "la siccità",
+      "en": "drought",
+      "example": "Quest'estate la siccità ha danneggiato i raccolti."
+    },
+    {
+      "it": "lo spreco",
+      "en": "waste",
+      "example": "Dobbiamo ridurre lo spreco di acqua."
+    },
+    {
+      "it": "il pregio",
+      "en": "merit, good quality",
+      "example": "Il pregio di questo libro è la chiarezza."
+    },
+    {
+      "it": "la sanzione",
+      "en": "penalty, fine",
+      "example": "Chi non rispetta le regole riceve una sanzione."
+    },
+    {
+      "it": "porta a porta",
+      "en": "door to door",
+      "example": "Il ritiro dei rifiuti avviene porta a porta."
+    },
+    {
+      "it": "conferire",
+      "en": "to hand over, deposit (waste)",
+      "example": "I rifiuti vanno conferiti negli orari indicati."
+    },
+    {
+      "it": "il bando",
+      "en": "call for applications, tender",
+      "example": "Abbiamo partecipato a un bando per ottenere i fondi."
+    },
+    {
+      "it": "il raccolto",
+      "en": "harvest, crop",
+      "example": "Quest'anno il raccolto di olive è stato buono."
+    },
+    {
+      "it": "un colpo di testa",
+      "en": "a rash impulse",
+      "example": "Comprare quella moto è stato un colpo di testa."
+    }
+  ]
+}

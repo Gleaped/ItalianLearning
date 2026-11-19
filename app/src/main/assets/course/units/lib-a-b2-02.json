@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b2-02",
+  "level": "ASC",
+  "title": "Voci e opinioni",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni di livello B2 (circa 150–190 parole) in cui le persone discutono, raccontano e giudicano: un dibattito radiofonico, un podcast su un hobby, una telefonata al servizio clienti, una recensione, un'assemblea di quartiere e un'esperienza personale.",
+  "grammarFocus": "Ascolto esteso B2: riconoscere opinioni e atteggiamenti, distinguere i parlanti, seguire un'argomentazione e capire il non detto.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b2-02-l1",
+      "title": "Dibattito radiofonico: lavorare da casa",
+      "minutes": 8,
+      "goal": "Seguire un dibattito tra due ospiti e riconoscere argomenti e atteggiamenti.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-02-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nIn un dibattito parlano due persone con idee diverse. Chiediti: chi sta parlando? Ascolta «però», «appunto», «può darsi», che segnano accordo o disaccordo.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l1-e02",
+          "stage": "practise",
+          "audioText": "Abbiamo in studio una consulente del lavoro e un imprenditore. Cominciamo da lei, consulente: il lavoro da casa funziona? Funziona, certo, ma non è una bacchetta magica. Meno traffico, più tempo per la famiglia, nessuno lo nega; però chi lavora sempre da casa perde il contatto con i colleghi, e per i più giovani, che devono ancora imparare il mestiere, è un problema serio. Imprenditore? Dipende da come ci si organizza. Nella mia azienda abbiamo fissato due giorni in ufficio, uguali per tutti, così ci si vede davvero. E i risultati? Un sondaggio interno dice che l'ottanta per cento dei dipendenti è più soddisfatto. Un sondaggio interno, appunto! Io sarei più cauta: chi risponde ha forse paura di dire che non gli piace. Può darsi, ma i dati sulle assenze, quelli sì, sono oggettivi: sono diminuite di un quinto. Su questo, devo ammetterlo, non ho obiezioni.",
+          "question": "Qual è la principale preoccupazione della consulente?",
+          "options": [
+            "Il costo della connessione",
+            "Il contatto con i colleghi, soprattutto per i giovani",
+            "Il traffico in città",
+            "La produttività degli anziani"
+          ],
+          "answer": 1,
+          "explanation": "Parla dei giovani che devono imparare il mestiere."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l1-e03",
+          "stage": "practise",
+          "audioText": "Abbiamo in studio una consulente del lavoro e un imprenditore. Cominciamo da lei, consulente: il lavoro da casa funziona? Funziona, certo, ma non è una bacchetta magica. Meno traffico, più tempo per la famiglia, nessuno lo nega; però chi lavora sempre da casa perde il contatto con i colleghi, e per i più giovani, che devono ancora imparare il mestiere, è un problema serio. Imprenditore? Dipende da come ci si organizza. Nella mia azienda abbiamo fissato due giorni in ufficio, uguali per tutti, così ci si vede davvero. E i risultati? Un sondaggio interno dice che l'ottanta per cento dei dipendenti è più soddisfatto. Un sondaggio interno, appunto! Io sarei più cauta: chi risponde ha forse paura di dire che non gli piace. Può darsi, ma i dati sulle assenze, quelli sì, sono oggettivi: sono diminuite di un quinto. Su questo, devo ammetterlo, non ho obiezioni.",
+          "question": "Come ha organizzato il lavoro l'imprenditore?",
+          "options": [
+            "Tre giorni a casa a scelta",
+            "Solo lavoro in ufficio",
+            "Nessuna regola fissa",
+            "Due giorni in ufficio uguali per tutti"
+          ],
+          "answer": 3,
+          "explanation": "Dice «due giorni in ufficio, uguali per tutti»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l1-e04",
+          "stage": "practise",
+          "audioText": "Abbiamo in studio una consulente del lavoro e un imprenditore. Cominciamo da lei, consulente: il lavoro da casa funziona? Funziona, certo, ma non è una bacchetta magica. Meno traffico, più tempo per la famiglia, nessuno lo nega; però chi lavora sempre da casa perde il contatto con i colleghi, e per i più giovani, che devono ancora imparare il mestiere, è un problema serio. Imprenditore? Dipende da come ci si organizza. Nella mia azienda abbiamo fissato due giorni in ufficio, uguali per tutti, così ci si vede davvero. E i risultati? Un sondaggio interno dice che l'ottanta per cento dei dipendenti è più soddisfatto. Un sondaggio interno, appunto! Io sarei più cauta: chi risponde ha forse paura di dire che non gli piace. Può darsi, ma i dati sulle assenze, quelli sì, sono oggettivi: sono diminuite di un quinto. Su questo, devo ammetterlo, non ho obiezioni.",
+          "question": "Che atteggiamento ha la consulente verso il sondaggio?",
+          "options": [
+            "Entusiasta",
+            "Indifferente",
+            "Scettico",
+            "Arrabbiato"
+          ],
+          "answer": 2,
+          "explanation": "Dice «appunto!» e «sarei più cauta»: non si fida troppo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l1-e05",
+          "stage": "practise",
+          "audioText": "Abbiamo in studio una consulente del lavoro e un imprenditore. Cominciamo da lei, consulente: il lavoro da casa funziona? Funziona, certo, ma non è una bacchetta magica. Meno traffico, più tempo per la famiglia, nessuno lo nega; però chi lavora sempre da casa perde il contatto con i colleghi, e per i più giovani, che devono ancora imparare il mestiere, è un problema serio. Imprenditore? Dipende da come ci si organizza. Nella mia azienda abbiamo fissato due giorni in ufficio, uguali per tutti, così ci si vede davvero. E i risultati? Un sondaggio interno dice che l'ottanta per cento dei dipendenti è più soddisfatto. Un sondaggio interno, appunto! Io sarei più cauta: chi risponde ha forse paura di dire che non gli piace. Può darsi, ma i dati sulle assenze, quelli sì, sono oggettivi: sono diminuite di un quinto. Su questo, devo ammetterlo, non ho obiezioni.",
+          "question": "Che cosa riconosce la consulente alla fine?",
+          "options": [
+            "I dati sulle assenze sono convincenti",
+            "Il sondaggio è affidabile",
+            "Il lavoro da casa non funziona",
+            "L'imprenditore ha sbagliato i numeri"
+          ],
+          "answer": 0,
+          "explanation": "Dice «non ho obiezioni» sui dati oggettivi sulle assenze."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l1-e06",
+          "stage": "learn",
+          "front": "lo scettico",
+          "back": "skeptical",
+          "example": "Sono scettico sui risultati del sondaggio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l1-e07",
+          "stage": "learn",
+          "front": "il sondaggio",
+          "back": "survey, poll",
+          "example": "Il sondaggio ha coinvolto cento persone."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-02-l2",
+      "title": "Podcast di un appassionato: il pane con il lievito madre",
+      "minutes": 8,
+      "goal": "Seguire un monologo informale e distinguere consigli, errori e atteggiamento personale.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-02-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nIn un podcast la persona parla in modo informale e si corregge («cioè», «insomma»). Non fermarti sulle esitazioni: cerca consigli, errori tipici e come si sente chi parla.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l2-e02",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentornati a Mani in pasta, il podcast per chi ama fare il pane in casa. Oggi parliamo di lievito madre, cioè, insomma, quella pasta acida che molti trovano spaventosa. Io ci ho messo mesi a farmi coraggio, lo confesso. Il segreto, in realtà, è la regolarità: bisogna rinfrescarlo, cioè dargli da mangiare farina e acqua, ogni giorno se lo tieni a temperatura ambiente, oppure una volta a settimana se lo conservi in frigorifero. Un errore tipico dei principianti? Usare l'acqua del rubinetto appena aperta, con molto cloro, che rallenta i batteri buoni; meglio lasciarla riposare una notte in una brocca. Poi c'è la pazienza: un pane con il lievito madre può lievitare anche dodici ore, e a me, all'inizio, sembrava un'eternità. Ma il risultato, credetemi, ripaga: la crosta croccante, il profumo in tutta la casa... Nella prossima puntata avremo un fornaio che ci mostrerà come tagliare la pagnotta prima di infornarla. A presto!",
+          "question": "Ogni quanto va rinfrescato il lievito se è in frigorifero?",
+          "options": [
+            "Ogni giorno",
+            "Ogni dodici ore",
+            "Una volta a settimana",
+            "Una volta al mese"
+          ],
+          "answer": 2,
+          "explanation": "In frigorifero basta una volta a settimana."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l2-e03",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentornati a Mani in pasta, il podcast per chi ama fare il pane in casa. Oggi parliamo di lievito madre, cioè, insomma, quella pasta acida che molti trovano spaventosa. Io ci ho messo mesi a farmi coraggio, lo confesso. Il segreto, in realtà, è la regolarità: bisogna rinfrescarlo, cioè dargli da mangiare farina e acqua, ogni giorno se lo tieni a temperatura ambiente, oppure una volta a settimana se lo conservi in frigorifero. Un errore tipico dei principianti? Usare l'acqua del rubinetto appena aperta, con molto cloro, che rallenta i batteri buoni; meglio lasciarla riposare una notte in una brocca. Poi c'è la pazienza: un pane con il lievito madre può lievitare anche dodici ore, e a me, all'inizio, sembrava un'eternità. Ma il risultato, credetemi, ripaga: la crosta croccante, il profumo in tutta la casa... Nella prossima puntata avremo un fornaio che ci mostrerà come tagliare la pagnotta prima di infornarla. A presto!",
+          "question": "Qual è un errore tipico dei principianti?",
+          "options": [
+            "Usare acqua del rubinetto appena aperta",
+            "Usare troppa farina",
+            "Conservare il lievito al caldo",
+            "Rinfrescarlo troppo spesso"
+          ],
+          "answer": 0,
+          "explanation": "L'errore è l'acqua con molto cloro."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l2-e04",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentornati a Mani in pasta, il podcast per chi ama fare il pane in casa. Oggi parliamo di lievito madre, cioè, insomma, quella pasta acida che molti trovano spaventosa. Io ci ho messo mesi a farmi coraggio, lo confesso. Il segreto, in realtà, è la regolarità: bisogna rinfrescarlo, cioè dargli da mangiare farina e acqua, ogni giorno se lo tieni a temperatura ambiente, oppure una volta a settimana se lo conservi in frigorifero. Un errore tipico dei principianti? Usare l'acqua del rubinetto appena aperta, con molto cloro, che rallenta i batteri buoni; meglio lasciarla riposare una notte in una brocca. Poi c'è la pazienza: un pane con il lievito madre può lievitare anche dodici ore, e a me, all'inizio, sembrava un'eternità. Ma il risultato, credetemi, ripaga: la crosta croccante, il profumo in tutta la casa... Nella prossima puntata avremo un fornaio che ci mostrerà come tagliare la pagnotta prima di infornarla. A presto!",
+          "question": "Come si sentiva all'inizio chi parla?",
+          "options": [
+            "Sicuro di sé",
+            "Annoiato",
+            "Indifferente",
+            "Intimorito, ma poi si è appassionato"
+          ],
+          "answer": 3,
+          "explanation": "Dice «ci ho messo mesi a farmi coraggio» e poi parla con entusiasmo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l2-e05",
+          "stage": "practise",
+          "audioText": "Ciao a tutti e bentornati a Mani in pasta, il podcast per chi ama fare il pane in casa. Oggi parliamo di lievito madre, cioè, insomma, quella pasta acida che molti trovano spaventosa. Io ci ho messo mesi a farmi coraggio, lo confesso. Il segreto, in realtà, è la regolarità: bisogna rinfrescarlo, cioè dargli da mangiare farina e acqua, ogni giorno se lo tieni a temperatura ambiente, oppure una volta a settimana se lo conservi in frigorifero. Un errore tipico dei principianti? Usare l'acqua del rubinetto appena aperta, con molto cloro, che rallenta i batteri buoni; meglio lasciarla riposare una notte in una brocca. Poi c'è la pazienza: un pane con il lievito madre può lievitare anche dodici ore, e a me, all'inizio, sembrava un'eternità. Ma il risultato, credetemi, ripaga: la crosta croccante, il profumo in tutta la casa... Nella prossima puntata avremo un fornaio che ci mostrerà come tagliare la pagnotta prima di infornarla. A presto!",
+          "question": "Che cosa ci sarà nella prossima puntata?",
+          "options": [
+            "Una ricetta di dolci",
+            "Un fornaio che spiega come tagliare la pagnotta",
+            "Un viaggio in una fabbrica",
+            "Un'intervista a un medico"
+          ],
+          "answer": 1,
+          "explanation": "Lo annuncia alla fine del podcast."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l2-e06",
+          "stage": "learn",
+          "front": "la pagnotta",
+          "back": "loaf (of bread)",
+          "example": "La pagnotta è ancora calda."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l2-e07",
+          "stage": "learn",
+          "front": "lievitare",
+          "back": "to rise (dough)",
+          "example": "L'impasto deve lievitare per ore."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-02-l3",
+      "title": "Servizio clienti: la connessione non funziona",
+      "minutes": 8,
+      "goal": "Seguire una telefonata di reclamo e capire richieste, offerte e condizioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-02-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nIn un reclamo il cliente e l'operatore hanno obiettivi diversi. Ascolta che cosa chiede il cliente, che cosa offre l'operatore e che cosa succede «se» il problema continua.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l3-e02",
+          "stage": "practise",
+          "audioText": "Servizio clienti, buongiorno, sono Elisa, come posso aiutarla? Buongiorno, chiamo perché da dieci giorni la connessione va e viene, e due volte ho già riavviato il modem come mi avevate detto. Capisco, mi dispiace per il disagio. Mi dia un attimo, controllo la sua linea. Vedo che c'è effettivamente una segnalazione di guasto nella sua zona. I tecnici stanno lavorando e il problema dovrebbe risolversi entro domani sera. Entro domani sera? Ma io lavoro da casa, ho bisogno di internet adesso! Lo so, e ha ragione ad arrabbiarsi. Posso offrirle, come gesto commerciale, un rimborso di dieci euro sulla prossima bolletta. Dieci euro? Per dieci giorni di disservizio mi sembra poco. Allora facciamo così: se il guasto non si risolve entro domani sera, passo la pratica a un responsabile e chiedo un rimborso maggiore. Va bene, ma voglio una conferma scritta. Certo, le arriverà un messaggio entro un'ora. Grazie, arrivederci.",
+          "question": "Perché il cliente telefona?",
+          "options": [
+            "Perché non ha ricevuto la bolletta",
+            "Perché vuole cambiare operatore",
+            "Perché il modem è rotto",
+            "Perché la connessione è instabile da dieci giorni"
+          ],
+          "answer": 3,
+          "explanation": "Dice che la connessione «va e viene» da dieci giorni."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l3-e03",
+          "stage": "practise",
+          "audioText": "Servizio clienti, buongiorno, sono Elisa, come posso aiutarla? Buongiorno, chiamo perché da dieci giorni la connessione va e viene, e due volte ho già riavviato il modem come mi avevate detto. Capisco, mi dispiace per il disagio. Mi dia un attimo, controllo la sua linea. Vedo che c'è effettivamente una segnalazione di guasto nella sua zona. I tecnici stanno lavorando e il problema dovrebbe risolversi entro domani sera. Entro domani sera? Ma io lavoro da casa, ho bisogno di internet adesso! Lo so, e ha ragione ad arrabbiarsi. Posso offrirle, come gesto commerciale, un rimborso di dieci euro sulla prossima bolletta. Dieci euro? Per dieci giorni di disservizio mi sembra poco. Allora facciamo così: se il guasto non si risolve entro domani sera, passo la pratica a un responsabile e chiedo un rimborso maggiore. Va bene, ma voglio una conferma scritta. Certo, le arriverà un messaggio entro un'ora. Grazie, arrivederci.",
+          "question": "Che cosa scopre l'operatrice controllando la linea?",
+          "options": [
+            "Il modem del cliente è difettoso",
+            "C'è un guasto che riguarda tutta la zona",
+            "La bolletta non è stata pagata",
+            "Il contratto è scaduto"
+          ],
+          "answer": 1,
+          "explanation": "Vede «una segnalazione di guasto nella sua zona»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l3-e04",
+          "stage": "practise",
+          "audioText": "Servizio clienti, buongiorno, sono Elisa, come posso aiutarla? Buongiorno, chiamo perché da dieci giorni la connessione va e viene, e due volte ho già riavviato il modem come mi avevate detto. Capisco, mi dispiace per il disagio. Mi dia un attimo, controllo la sua linea. Vedo che c'è effettivamente una segnalazione di guasto nella sua zona. I tecnici stanno lavorando e il problema dovrebbe risolversi entro domani sera. Entro domani sera? Ma io lavoro da casa, ho bisogno di internet adesso! Lo so, e ha ragione ad arrabbiarsi. Posso offrirle, come gesto commerciale, un rimborso di dieci euro sulla prossima bolletta. Dieci euro? Per dieci giorni di disservizio mi sembra poco. Allora facciamo così: se il guasto non si risolve entro domani sera, passo la pratica a un responsabile e chiedo un rimborso maggiore. Va bene, ma voglio una conferma scritta. Certo, le arriverà un messaggio entro un'ora. Grazie, arrivederci.",
+          "question": "Che cosa pensa il cliente dell'offerta di dieci euro?",
+          "options": [
+            "È insufficiente",
+            "È generosa",
+            "È adatta al problema",
+            "Non gli interessa nessun rimborso"
+          ],
+          "answer": 0,
+          "explanation": "Risponde «mi sembra poco»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l3-e05",
+          "stage": "practise",
+          "audioText": "Servizio clienti, buongiorno, sono Elisa, come posso aiutarla? Buongiorno, chiamo perché da dieci giorni la connessione va e viene, e due volte ho già riavviato il modem come mi avevate detto. Capisco, mi dispiace per il disagio. Mi dia un attimo, controllo la sua linea. Vedo che c'è effettivamente una segnalazione di guasto nella sua zona. I tecnici stanno lavorando e il problema dovrebbe risolversi entro domani sera. Entro domani sera? Ma io lavoro da casa, ho bisogno di internet adesso! Lo so, e ha ragione ad arrabbiarsi. Posso offrirle, come gesto commerciale, un rimborso di dieci euro sulla prossima bolletta. Dieci euro? Per dieci giorni di disservizio mi sembra poco. Allora facciamo così: se il guasto non si risolve entro domani sera, passo la pratica a un responsabile e chiedo un rimborso maggiore. Va bene, ma voglio una conferma scritta. Certo, le arriverà un messaggio entro un'ora. Grazie, arrivederci.",
+          "question": "Che cosa succede se il guasto non si risolve entro domani sera?",
+          "options": [
+            "Il cliente cambierà contratto",
+            "Il cliente riceverà un nuovo modem",
+            "L'operatrice chiederà un rimborso maggiore a un responsabile",
+            "La linea sarà disattivata"
+          ],
+          "answer": 2,
+          "explanation": "Passerà la pratica a un responsabile per un rimborso maggiore."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l3-e06",
+          "stage": "learn",
+          "front": "il disservizio",
+          "back": "service failure, disruption",
+          "example": "Abbiamo avuto dieci giorni di disservizio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l3-e07",
+          "stage": "learn",
+          "front": "il rimborso",
+          "back": "refund",
+          "example": "Ho chiesto un rimborso sulla bolletta."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-02-l4",
+      "title": "Recensione di un romanzo",
+      "minutes": 8,
+      "goal": "Seguire una recensione orale e distinguere giudizi positivi, critiche e consigli.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-02-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nUna recensione mescola fatti e giudizi. Ascolta gli aggettivi di valutazione e i contrasti («invece», «però»): ti dicono che cosa piace e che cosa no.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l4-e02",
+          "stage": "practise",
+          "audioText": "Questa settimana vi parlo di un romanzo uscito da poco, una storia di famiglia ambientata in un paesino di montagna. Comincio dal lato positivo: la scrittura è asciutta, quasi senza aggettivi, e i dialoghi sono molto credibili, sembra di sentire parlare i vicini di casa. La trama, invece, mi ha lasciato perplesso: nella prima metà non succede quasi nulla, e l'autore sembra più interessato ai silenzi che agli eventi. Ci sono poi due personaggi secondari, la farmacista e il nonno, che da soli valgono la lettura. Il finale? Non lo rivelo, dico solo che è aperto, e a me, che amo le storie ben chiuse, è piaciuto meno. Lo consiglio? Sì, ma a chi ha pazienza e non cerca l'azione. Insomma, un libro che non convince del tutto ma che resta in testa. Tre stelle su cinque, e forse un quarto di stella in più per la farmacista.",
+          "question": "Che cosa apprezza di più il recensore?",
+          "options": [
+            "Lo stile e i dialoghi",
+            "La trama avvincente",
+            "Il finale a sorpresa",
+            "L'ambientazione in città"
+          ],
+          "answer": 0,
+          "explanation": "Il «lato positivo» è la scrittura asciutta e i dialoghi credibili."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l4-e03",
+          "stage": "practise",
+          "audioText": "Questa settimana vi parlo di un romanzo uscito da poco, una storia di famiglia ambientata in un paesino di montagna. Comincio dal lato positivo: la scrittura è asciutta, quasi senza aggettivi, e i dialoghi sono molto credibili, sembra di sentire parlare i vicini di casa. La trama, invece, mi ha lasciato perplesso: nella prima metà non succede quasi nulla, e l'autore sembra più interessato ai silenzi che agli eventi. Ci sono poi due personaggi secondari, la farmacista e il nonno, che da soli valgono la lettura. Il finale? Non lo rivelo, dico solo che è aperto, e a me, che amo le storie ben chiuse, è piaciuto meno. Lo consiglio? Sì, ma a chi ha pazienza e non cerca l'azione. Insomma, un libro che non convince del tutto ma che resta in testa. Tre stelle su cinque, e forse un quarto di stella in più per la farmacista.",
+          "question": "Che cosa critica della trama?",
+          "options": [
+            "È troppo violenta",
+            "È piena di personaggi",
+            "Nella prima parte succede pochissimo",
+            "È troppo breve"
+          ],
+          "answer": 2,
+          "explanation": "Dice che nella prima metà non succede quasi nulla."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l4-e04",
+          "stage": "practise",
+          "audioText": "Questa settimana vi parlo di un romanzo uscito da poco, una storia di famiglia ambientata in un paesino di montagna. Comincio dal lato positivo: la scrittura è asciutta, quasi senza aggettivi, e i dialoghi sono molto credibili, sembra di sentire parlare i vicini di casa. La trama, invece, mi ha lasciato perplesso: nella prima metà non succede quasi nulla, e l'autore sembra più interessato ai silenzi che agli eventi. Ci sono poi due personaggi secondari, la farmacista e il nonno, che da soli valgono la lettura. Il finale? Non lo rivelo, dico solo che è aperto, e a me, che amo le storie ben chiuse, è piaciuto meno. Lo consiglio? Sì, ma a chi ha pazienza e non cerca l'azione. Insomma, un libro che non convince del tutto ma che resta in testa. Tre stelle su cinque, e forse un quarto di stella in più per la farmacista.",
+          "question": "Perché il finale gli è piaciuto meno?",
+          "options": [
+            "Perché è troppo triste",
+            "Perché è aperto e lui preferisce le storie chiuse",
+            "Perché è prevedibile",
+            "Perché è troppo lungo"
+          ],
+          "answer": 1,
+          "explanation": "Dice che il finale è aperto e che ama le storie ben chiuse."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l4-e05",
+          "stage": "practise",
+          "audioText": "Questa settimana vi parlo di un romanzo uscito da poco, una storia di famiglia ambientata in un paesino di montagna. Comincio dal lato positivo: la scrittura è asciutta, quasi senza aggettivi, e i dialoghi sono molto credibili, sembra di sentire parlare i vicini di casa. La trama, invece, mi ha lasciato perplesso: nella prima metà non succede quasi nulla, e l'autore sembra più interessato ai silenzi che agli eventi. Ci sono poi due personaggi secondari, la farmacista e il nonno, che da soli valgono la lettura. Il finale? Non lo rivelo, dico solo che è aperto, e a me, che amo le storie ben chiuse, è piaciuto meno. Lo consiglio? Sì, ma a chi ha pazienza e non cerca l'azione. Insomma, un libro che non convince del tutto ma che resta in testa. Tre stelle su cinque, e forse un quarto di stella in più per la farmacista.",
+          "question": "A chi consiglia il libro?",
+          "options": [
+            "A chi ama i gialli",
+            "A chi ha poco tempo",
+            "A chi non legge mai",
+            "A chi ha pazienza e non cerca azione"
+          ],
+          "answer": 3,
+          "explanation": "Lo consiglia a chi ha pazienza e non cerca l'azione."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l4-e06",
+          "stage": "learn",
+          "front": "asciutto",
+          "back": "dry, spare (of style)",
+          "example": "Ha uno stile asciutto e preciso."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l4-e07",
+          "stage": "learn",
+          "front": "perplesso",
+          "back": "puzzled, doubtful",
+          "example": "Sono rimasto perplesso dal finale."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-02-l5",
+      "title": "Assemblea di quartiere: biciclette e festa",
+      "minutes": 8,
+      "goal": "Seguire una riunione di condominio: proposte, obiezioni, voto e decisioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-02-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nIn una riunione ci sono proposte, obiezioni e decisioni. Ascolta chi propone, chi protesta, quanti votano a favore e che cosa viene deciso alla fine.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l5-e02",
+          "stage": "practise",
+          "audioText": "Allora, se siamo tutti, direi di cominciare. Il primo punto riguarda il cortile. Come sapete, da settimane le biciclette bloccano l'ingresso, e la signora del secondo piano, che fa fatica a camminare, mi ha detto che è quasi impossibile passare con il bastone. Io proporrei di mettere dei portabici lungo il muro. Costa, sì, circa trecento euro, ma la spesa si divide in parti uguali. Scusi, ma perché dobbiamo pagare anche noi che la bicicletta non ce l'abbiamo? Eh, capisco, ma è un servizio per tutto il palazzo, no? Comunque mettiamolo ai voti. Chi è favorevole? Otto su undici, quindi approvato. Secondo punto: la festa di quartiere. L'anno scorso è venuta poca gente, perché era a metà giugno e molti erano già in vacanza. Quest'anno la farei a fine maggio. Ci sono obiezioni? Nessuna? Bene. Allora ognuno porta qualcosa da mangiare, e per la musica ci pensa il ragazzo del terzo piano. La prossima riunione sarà a settembre.",
+          "question": "Qual è il problema nel cortile?",
+          "options": [
+            "Manca l'illuminazione",
+            "Le biciclette bloccano l'ingresso",
+            "C'è troppo rumore",
+            "Il muro è danneggiato"
+          ],
+          "answer": 1,
+          "explanation": "Il testo dice che le biciclette bloccano l'ingresso."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l5-e03",
+          "stage": "practise",
+          "audioText": "Allora, se siamo tutti, direi di cominciare. Il primo punto riguarda il cortile. Come sapete, da settimane le biciclette bloccano l'ingresso, e la signora del secondo piano, che fa fatica a camminare, mi ha detto che è quasi impossibile passare con il bastone. Io proporrei di mettere dei portabici lungo il muro. Costa, sì, circa trecento euro, ma la spesa si divide in parti uguali. Scusi, ma perché dobbiamo pagare anche noi che la bicicletta non ce l'abbiamo? Eh, capisco, ma è un servizio per tutto il palazzo, no? Comunque mettiamolo ai voti. Chi è favorevole? Otto su undici, quindi approvato. Secondo punto: la festa di quartiere. L'anno scorso è venuta poca gente, perché era a metà giugno e molti erano già in vacanza. Quest'anno la farei a fine maggio. Ci sono obiezioni? Nessuna? Bene. Allora ognuno porta qualcosa da mangiare, e per la musica ci pensa il ragazzo del terzo piano. La prossima riunione sarà a settembre.",
+          "question": "Perché un condomino protesta contro la spesa?",
+          "options": [
+            "Il costo è troppo alto",
+            "Vuole un'altra soluzione",
+            "Abita al piano terra",
+            "Non ha la bicicletta"
+          ],
+          "answer": 3,
+          "explanation": "Dice «noi che la bicicletta non ce l'abbiamo»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l5-e04",
+          "stage": "practise",
+          "audioText": "Allora, se siamo tutti, direi di cominciare. Il primo punto riguarda il cortile. Come sapete, da settimane le biciclette bloccano l'ingresso, e la signora del secondo piano, che fa fatica a camminare, mi ha detto che è quasi impossibile passare con il bastone. Io proporrei di mettere dei portabici lungo il muro. Costa, sì, circa trecento euro, ma la spesa si divide in parti uguali. Scusi, ma perché dobbiamo pagare anche noi che la bicicletta non ce l'abbiamo? Eh, capisco, ma è un servizio per tutto il palazzo, no? Comunque mettiamolo ai voti. Chi è favorevole? Otto su undici, quindi approvato. Secondo punto: la festa di quartiere. L'anno scorso è venuta poca gente, perché era a metà giugno e molti erano già in vacanza. Quest'anno la farei a fine maggio. Ci sono obiezioni? Nessuna? Bene. Allora ognuno porta qualcosa da mangiare, e per la musica ci pensa il ragazzo del terzo piano. La prossima riunione sarà a settembre.",
+          "question": "Com'è andato il voto sui portabici?",
+          "options": [
+            "Il voto è finito in parità",
+            "Non si è votato",
+            "Otto persone su undici hanno votato a favore",
+            "Solo tre persone erano favorevoli"
+          ],
+          "answer": 2,
+          "explanation": "Dice «otto su undici, quindi approvato»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l5-e05",
+          "stage": "practise",
+          "audioText": "Allora, se siamo tutti, direi di cominciare. Il primo punto riguarda il cortile. Come sapete, da settimane le biciclette bloccano l'ingresso, e la signora del secondo piano, che fa fatica a camminare, mi ha detto che è quasi impossibile passare con il bastone. Io proporrei di mettere dei portabici lungo il muro. Costa, sì, circa trecento euro, ma la spesa si divide in parti uguali. Scusi, ma perché dobbiamo pagare anche noi che la bicicletta non ce l'abbiamo? Eh, capisco, ma è un servizio per tutto il palazzo, no? Comunque mettiamolo ai voti. Chi è favorevole? Otto su undici, quindi approvato. Secondo punto: la festa di quartiere. L'anno scorso è venuta poca gente, perché era a metà giugno e molti erano già in vacanza. Quest'anno la farei a fine maggio. Ci sono obiezioni? Nessuna? Bene. Allora ognuno porta qualcosa da mangiare, e per la musica ci pensa il ragazzo del terzo piano. La prossima riunione sarà a settembre.",
+          "question": "Perché si vuole spostare la festa a fine maggio?",
+          "options": [
+            "A giugno molte persone sono già in vacanza",
+            "A maggio costa meno",
+            "Il cortile sarà in lavori a giugno",
+            "Il tempo è migliore in maggio"
+          ],
+          "answer": 0,
+          "explanation": "L'anno scorso a metà giugno era venuta poca gente perché molti erano in vacanza."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l5-e06",
+          "stage": "learn",
+          "front": "il condominio",
+          "back": "apartment building, co-owners",
+          "example": "Domani c'è la riunione di condominio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l5-e07",
+          "stage": "learn",
+          "front": "il portabici",
+          "back": "bike rack",
+          "example": "Il portabici è lungo il muro."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-02-l6",
+      "title": "Un'esperienza personale: un mese in rifugio",
+      "minutes": 8,
+      "goal": "Seguire un racconto personale e capire motivi, difficoltà e riflessioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-02-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nIn un racconto personale cerca la sequenza (prima, poi, una sera, oggi) e i sentimenti. Le frasi come «ho capito che» e «non so se» rivelano la riflessione finale.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l6-e02",
+          "stage": "practise",
+          "audioText": "L'anno scorso ho fatto una cosa che non avrei mai pensato di fare: ho passato un mese in un rifugio di montagna come volontario. Ero stanco della città, del lavoro, e un amico mi ha parlato di questa possibilità. Beh, i primi giorni sono stati durissimi: ci si alzava alle cinque, c'erano da pulire le camere, preparare la colazione per i camminatori, e io non ero abituato a stare in piedi tutto il giorno. Una sera, poi, è arrivata una tempesta e abbiamo dovuto ospitare quindici persone in più, anche se i letti erano finiti. Abbiamo dormito sul pavimento, tutti insieme, e, strano a dirsi, è stata la notte più bella. Ho capito che quello che mi mancava in città non era il riposo, ma il sentirmi utile. Non so se lo rifarei: un mese è tanto. Però, forse, tra un paio d'anni, un'altra estate lassù... chissà.",
+          "question": "Perché ha deciso di fare il volontario?",
+          "options": [
+            "Voleva imparare a cucinare",
+            "Cercava un nuovo lavoro",
+            "Era stanco della vita di città",
+            "Voleva stare con la famiglia"
+          ],
+          "answer": 2,
+          "explanation": "Dice «ero stanco della città, del lavoro»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l6-e03",
+          "stage": "practise",
+          "audioText": "L'anno scorso ho fatto una cosa che non avrei mai pensato di fare: ho passato un mese in un rifugio di montagna come volontario. Ero stanco della città, del lavoro, e un amico mi ha parlato di questa possibilità. Beh, i primi giorni sono stati durissimi: ci si alzava alle cinque, c'erano da pulire le camere, preparare la colazione per i camminatori, e io non ero abituato a stare in piedi tutto il giorno. Una sera, poi, è arrivata una tempesta e abbiamo dovuto ospitare quindici persone in più, anche se i letti erano finiti. Abbiamo dormito sul pavimento, tutti insieme, e, strano a dirsi, è stata la notte più bella. Ho capito che quello che mi mancava in città non era il riposo, ma il sentirmi utile. Non so se lo rifarei: un mese è tanto. Però, forse, tra un paio d'anni, un'altra estate lassù... chissà.",
+          "question": "Perché i primi giorni sono stati duri?",
+          "options": [
+            "Si alzava presto e lavorava in piedi tutto il giorno",
+            "Faceva troppo freddo",
+            "Non c'era da mangiare",
+            "Aveva paura delle tempeste"
+          ],
+          "answer": 0,
+          "explanation": "Parla della sveglia alle cinque e del lavoro in piedi."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l6-e04",
+          "stage": "practise",
+          "audioText": "L'anno scorso ho fatto una cosa che non avrei mai pensato di fare: ho passato un mese in un rifugio di montagna come volontario. Ero stanco della città, del lavoro, e un amico mi ha parlato di questa possibilità. Beh, i primi giorni sono stati durissimi: ci si alzava alle cinque, c'erano da pulire le camere, preparare la colazione per i camminatori, e io non ero abituato a stare in piedi tutto il giorno. Una sera, poi, è arrivata una tempesta e abbiamo dovuto ospitare quindici persone in più, anche se i letti erano finiti. Abbiamo dormito sul pavimento, tutti insieme, e, strano a dirsi, è stata la notte più bella. Ho capito che quello che mi mancava in città non era il riposo, ma il sentirmi utile. Non so se lo rifarei: un mese è tanto. Però, forse, tra un paio d'anni, un'altra estate lassù... chissà.",
+          "question": "Che cosa è successo durante la tempesta?",
+          "options": [
+            "Il rifugio è stato evacuato",
+            "Un camminatore si è ferito",
+            "Il tetto è crollato",
+            "Il rifugio ha ospitato quindici persone in più"
+          ],
+          "answer": 3,
+          "explanation": "Hanno ospitato quindici persone in più, dormendo sul pavimento."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-02-l6-e05",
+          "stage": "practise",
+          "audioText": "L'anno scorso ho fatto una cosa che non avrei mai pensato di fare: ho passato un mese in un rifugio di montagna come volontario. Ero stanco della città, del lavoro, e un amico mi ha parlato di questa possibilità. Beh, i primi giorni sono stati durissimi: ci si alzava alle cinque, c'erano da pulire le camere, preparare la colazione per i camminatori, e io non ero abituato a stare in piedi tutto il giorno. Una sera, poi, è arrivata una tempesta e abbiamo dovuto ospitare quindici persone in più, anche se i letti erano finiti. Abbiamo dormito sul pavimento, tutti insieme, e, strano a dirsi, è stata la notte più bella. Ho capito che quello che mi mancava in città non era il riposo, ma il sentirmi utile. Non so se lo rifarei: un mese è tanto. Però, forse, tra un paio d'anni, un'altra estate lassù... chissà.",
+          "question": "Che cosa pensa oggi di un'altra esperienza simile?",
+          "options": [
+            "La rifarà sicuramente l'anno prossimo",
+            "Non è sicuro, ma non la esclude",
+            "La esclude del tutto",
+            "L'ha già programmata"
+          ],
+          "answer": 1,
+          "explanation": "«Non so se lo rifarei... forse tra un paio d'anni... chissà»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l6-e06",
+          "stage": "learn",
+          "front": "il rifugio",
+          "back": "mountain hut",
+          "example": "Il rifugio è a duemila metri."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-02-l6-e07",
+          "stage": "learn",
+          "front": "sentirsi utile",
+          "back": "to feel useful",
+          "example": "Mi manca sentirmi utile."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "lo scettico",
+      "en": "skeptical",
+      "example": "Sono scettico sui risultati del sondaggio."
+    },
+    {
+      "it": "il sondaggio",
+      "en": "survey, poll",
+      "example": "Il sondaggio ha coinvolto cento persone."
+    },
+    {
+      "it": "la pagnotta",
+      "en": "loaf (of bread)",
+      "example": "La pagnotta è ancora calda."
+    },
+    {
+      "it": "lievitare",
+      "en": "to rise (dough)",
+      "example": "L'impasto deve lievitare per ore."
+    },
+    {
+      "it": "il disservizio",
+      "en": "service failure, disruption",
+      "example": "Abbiamo avuto dieci giorni di disservizio."
+    },
+    {
+      "it": "il rimborso",
+      "en": "refund",
+      "example": "Ho chiesto un rimborso sulla bolletta."
+    },
+    {
+      "it": "asciutto",
+      "en": "dry, spare (of style)",
+      "example": "Ha uno stile asciutto e preciso."
+    },
+    {
+      "it": "perplesso",
+      "en": "puzzled, doubtful",
+      "example": "Sono rimasto perplesso dal finale."
+    },
+    {
+      "it": "il condominio",
+      "en": "apartment building, co-owners",
+      "example": "Domani c'è la riunione di condominio."
+    },
+    {
+      "it": "il portabici",
+      "en": "bike rack",
+      "example": "Il portabici è lungo il muro."
+    },
+    {
+      "it": "il rifugio",
+      "en": "mountain hut",
+      "example": "Il rifugio è a duemila metri."
+    },
+    {
+      "it": "sentirsi utile",
+      "en": "to feel useful",
+      "example": "Mi manca sentirmi utile."
+    }
+  ]
+}

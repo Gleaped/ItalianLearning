@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b1-05",
+  "level": "LET",
+  "title": "Amici, cibo e natura",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi su famiglia, cucina, natura e tecnologia (circa 200 parole): un'e-mail, un post di blog, una notizia e un messaggio di forum.",
+  "grammarFocus": "Lettura estensiva di livello B1: organizzare e raccontare, ricordi e procedimenti, spiegazioni e consigli; connettivi come perché, quindi, però, intanto, soprattutto.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b1-05-l1",
+      "title": "Una festa a sorpresa per la nonna",
+      "minutes": 8,
+      "goal": "Leggere un'e-mail informale di circa 200 parole e capire scopo, organizzazione e richieste.",
+      "takeaway": "In un'e-mail tra parenti cerca lo scopo, chi fa che cosa e la scadenza: sono le informazioni pratiche.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-05-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una festa a sorpresa per la nonna",
+          "passage": "Oggetto: Festa a sorpresa per la nonna\n\nCiao a tutti,\n\ncome sapete, il 18 marzo la nonna compie ottant'anni e vorrei organizzare una festa a sorpresa. Ho pensato di farla sabato 16, a pranzo, a casa dei miei genitori, perché il giardino è grande e, se farà bel tempo, potremo mangiare fuori. Mia madre ha già detto di sì, ma ovviamente la nonna non deve sapere niente!\n\nEcco come possiamo dividerci i compiti. Zio Marco e zia Anna porteranno gli antipasti e il vino. Io e Silvia prepareremo le lasagne, che sono il piatto preferito della nonna. I cugini più giovani, Matteo e Chiara, si occuperanno di sedie e tavoli. Per la torta avevo pensato a una pasticceria del centro, ma se qualcuno ha un'idea migliore sono pronta ad ascoltarla. Io porterò anche i palloncini e le candeline.\n\nVorrei anche fare un regalo insieme: un album con le vecchie fotografie di famiglia. Se avete foto di quando eravamo piccoli, mandatemele entro domenica prossima, per favore. Quando le avrò tutte, andrò in copisteria a stamparle.\n\nFatemi sapere al più presto se venite e quante persone sarete. Grazie, e non dite niente alla nonna!\n\nUn abbraccio,\nGiulia",
+          "questions": [
+            {
+              "question": "Perché scrive Giulia?",
+              "options": [
+                "Per organizzare una festa a sorpresa per la nonna",
+                "Per annunciare un matrimonio",
+                "Per invitare i parenti in vacanza",
+                "Per chiedere dei soldi in prestito"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché la festa sarà a casa dei genitori?",
+              "options": [
+                "Perché la nonna abita lì",
+                "Perché il ristorante è chiuso",
+                "Perché il giardino è grande",
+                "Perché la casa è vicina al centro"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa preparerà Giulia con Silvia?",
+              "options": [
+                "Gli antipasti",
+                "Le lasagne",
+                "La torta",
+                "Il vino"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa devono fare i parenti per l'album?",
+              "options": [
+                "Comprare una cornice",
+                "Scrivere una poesia",
+                "Portare l'album sabato",
+                "Mandare le vecchie foto entro domenica"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l1-e02",
+          "stage": "learn",
+          "front": "a sorpresa",
+          "back": "as a surprise",
+          "example": "Mi hanno organizzato una festa a sorpresa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l1-e03",
+          "stage": "learn",
+          "front": "occuparsi di",
+          "back": "to take care of, to handle",
+          "example": "Mi occupo io dei biglietti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l1-e04",
+          "stage": "learn",
+          "front": "la copisteria",
+          "back": "copy shop, print shop",
+          "example": "Vado in copisteria a stampare le foto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-05-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "festa",
+            "nonna",
+            "compiti",
+            "fotografie"
+          ],
+          "modelAnswer": "Giulia scrive ai parenti per organizzare una festa a sorpresa per gli ottant'anni della nonna. La festa sarà sabato a pranzo a casa dei genitori. Ognuno avrà un compito, e tutti devono mandare le vecchie foto per fare un album.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-05-l2",
+      "title": "Il ragù della domenica",
+      "minutes": 8,
+      "goal": "Leggere un post di blog di cucina di circa 200 parole e capire ricordi, procedimento e ingredienti.",
+      "takeaway": "In un blog di cucina il ricordo personale spiega perché la ricetta è importante: poi arrivano gli ingredienti e i consigli.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-05-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il ragù della domenica",
+          "passage": "Da piccola, il sabato sera la casa dei miei nonni profumava già di pomodoro e cipolla. La nonna Rosa metteva il ragù sul fuoco molto presto e lo lasciava cuocere per quasi quattro ore, mescolando ogni tanto con un cucchiaio di legno. Per me quel profumo era la domenica.\n\nQualche mese fa ho trovato il suo quaderno di ricette e ho deciso di provare. Non c'erano le quantità precise, solo frasi come \"un po' di sedano\" e \"fino a quando è pronto\". Ho dovuto fare molti tentativi! La prima volta era troppo acido, la seconda si è attaccato alla pentola. Alla terza ho capito il segreto: la pazienza. Bisogna far soffriggere bene le verdure, aggiungere la carne a pezzetti e il vino rosso, e poi abbassare il fuoco al minimo.\n\nOggi uso un chilo di polpa di manzo, una scatola di pomodori pelati, una carota, una cipolla e una costa di sedano. Non aggiungo zucchero, perché la carota dà già il sapore dolce. Il ragù è ancora più buono il giorno dopo, quindi lo preparo il sabato.\n\nIeri l'ho assaggiato con mio padre. Ha chiuso gli occhi e ha detto: \"È uguale a quello di mamma\". Non potevo ricevere un complimento migliore.",
+          "questions": [
+            {
+              "question": "Quanto tempo cuoceva il ragù la nonna?",
+              "options": [
+                "Circa un'ora",
+                "Quasi quattro ore",
+                "Tutta la notte",
+                "Una mezz'ora"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché l'autrice ha dovuto fare molti tentativi?",
+              "options": [
+                "Non aveva gli ingredienti giusti",
+                "Il quaderno era scritto in dialetto",
+                "La pentola era troppo piccola",
+                "Nel quaderno non c'erano le quantità precise"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Qual è il segreto del ragù, secondo l'autrice?",
+              "options": [
+                "La pazienza",
+                "Lo zucchero",
+                "Il fuoco alto",
+                "Un vino costoso"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché prepara il ragù il sabato?",
+              "options": [
+                "Perché il sabato ha più tempo libero",
+                "Perché suo padre lo vuole fresco",
+                "Perché il giorno dopo è ancora più buono",
+                "Perché la domenica i negozi sono chiusi"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l2-e02",
+          "stage": "learn",
+          "front": "il ragù",
+          "back": "meat sauce (Italian ragù)",
+          "example": "La domenica mia madre prepara il ragù."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l2-e03",
+          "stage": "learn",
+          "front": "soffriggere",
+          "back": "to fry lightly (as a base for a sauce)",
+          "example": "Fai soffriggere la cipolla con un po' d'olio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l2-e04",
+          "stage": "learn",
+          "front": "l'assaggio / assaggiare",
+          "back": "to taste, to try (food)",
+          "example": "Posso assaggiare la tua torta?"
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-05-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "ragù",
+            "nonna",
+            "quaderno",
+            "pazienza"
+          ],
+          "modelAnswer": "L'autrice ricorda il ragù che la nonna cucinava la domenica. Ha trovato il suo quaderno di ricette, ma senza quantità precise, e ha fatto molti tentativi. Alla fine ha capito che il segreto è la pazienza, e suo padre ha detto che il ragù è uguale a quello di sua madre.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-05-l3",
+      "title": "Le cicogne tornano a Pieve Alta",
+      "minutes": 8,
+      "goal": "Leggere una notizia di circa 200 parole sulla natura e distinguere fatti, spiegazioni e progetti.",
+      "takeaway": "In una notizia di natura si trovano il fatto, il parere di un esperto e le misure per il futuro.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-05-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Le cicogne tornano a Pieve Alta",
+          "passage": "Dopo quasi trent'anni, una coppia di cicogne ha costruito il nido sul campanile della chiesa di Pieve Alta, un piccolo paese di campagna. Gli abitanti se ne sono accorti all'inizio di marzo, quando hanno visto i due grandi uccelli portare rami e paglia sul tetto. Da allora molte persone si fermano in piazza con il naso all'insù, e qualcuno ha portato anche un binocolo.\n\nSecondo un biologo che lavora per la provincia, il ritorno delle cicogne è un buon segno. \"Negli ultimi anni le zone umide intorno al paese sono state ripulite e protette\", ha spiegato, \"e adesso gli uccelli trovano più rane e insetti da mangiare\". Il biologo ha però invitato tutti alla prudenza: bisogna restare a distanza e non fare rumore, soprattutto nel periodo in cui le femmine covano le uova.\n\nIl sindaco ha annunciato che il comune metterà una piccola telecamera vicino al nido, così i cittadini potranno seguire la vita delle cicogne dal sito internet senza disturbarle. Intanto i bambini della scuola elementare hanno già scelto i nomi: lui si chiama Gino e lei Matilde. Se tutto andrà bene, a maggio nasceranno i primi piccoli e il paese organizzerà una festa.",
+          "questions": [
+            {
+              "question": "Che cosa è successo a Pieve Alta?",
+              "options": [
+                "Sono arrivati molti turisti in autobus",
+                "È stato aperto un parco naturale",
+                "Due cicogne hanno fatto il nido sul campanile",
+                "Una cicogna è stata salvata da un bambino"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Perché il ritorno delle cicogne è un buon segno?",
+              "options": [
+                "Le zone umide sono state protette e c'è più cibo",
+                "Il paese ha meno abitanti",
+                "Il clima è diventato più freddo",
+                "Ci sono meno rane nei campi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa raccomanda il biologo?",
+              "options": [
+                "Dare da mangiare agli uccelli",
+                "Stare a distanza e non fare rumore",
+                "Costruire un secondo nido",
+                "Salire sul campanile con il binocolo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "A che cosa servirà la telecamera?",
+              "options": [
+                "A controllare il traffico in piazza",
+                "A fotografare i turisti",
+                "A contare le rane",
+                "A seguire la vita delle cicogne dal sito internet"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l3-e02",
+          "stage": "learn",
+          "front": "il nido",
+          "back": "nest",
+          "example": "Gli uccelli fanno il nido sul tetto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l3-e03",
+          "stage": "learn",
+          "front": "il campanile",
+          "back": "bell tower",
+          "example": "Dal campanile si vede tutta la valle."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l3-e04",
+          "stage": "learn",
+          "front": "covare",
+          "back": "to hatch, to sit on eggs",
+          "example": "La gallina cova le uova per tre settimane."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-05-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "cicogne",
+            "nido",
+            "biologo",
+            "telecamera"
+          ],
+          "modelAnswer": "Due cicogne hanno costruito il nido sul campanile di un paese, dopo quasi trent'anni. Il biologo dice che è un buon segno perché le zone umide sono state protette. Il comune metterà una telecamera, e se tutto va bene a maggio nasceranno i piccoli.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-05-l4",
+      "title": "Wi-Fi lentissimo la sera",
+      "minutes": 8,
+      "goal": "Leggere un messaggio di forum sulla tecnologia di circa 200 parole e capire problema, tentativi e consigli.",
+      "takeaway": "In un forum una persona espone il problema e un'altra risponde con un consiglio: cerca che cosa è stato già provato.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-05-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Wi-Fi lentissimo la sera",
+          "passage": "Oggetto: Wi-Fi lentissimo la sera, che cosa posso fare?\n\nBuonasera a tutti, vi scrivo perché non so più a chi chiedere. Ho cambiato operatore a gennaio e il contratto promette una connessione veloce, ma la sera, tra le otto e le dieci, internet diventa lentissimo. I video si bloccano, le videochiamate con i miei genitori si interrompono e mio figlio si lamenta perché i giochi online non funzionano.\n\nIl modem è nel ripostiglio in fondo al corridoio, mentre il computer e la televisione sono in salotto. Ho pensato che il problema fosse la distanza, ma anche vicino al modem la velocità resta bassa. Ho provato a spegnere e riaccendere tutto, e ho anche telefonato al servizio clienti: l'operatore mi ha detto di aspettare qualche giorno, ma sono passate due settimane.\n\nChe cosa ne pensate? Dovrei comprare un ripetitore o cambiare di nuovo operatore? Preferirei evitare di spendere altri soldi.\n\nRisposta di Franco: Ciao! Anch'io avevo lo stesso problema. La sera molte famiglie usano la rete nello stesso momento, ma spesso il guaio è la frequenza. Prova a collegare i dispositivi alla rete a 5 GHz, se il modem la offre, e metti il modem in un posto aperto, non in un ripostiglio. Per me ha funzionato!",
+          "questions": [
+            {
+              "question": "Quando il problema è più evidente?",
+              "options": [
+                "La sera, tra le otto e le dieci",
+                "Al mattino presto",
+                "Solo nel fine settimana",
+                "Tutto il giorno"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa ha già provato l'autore del messaggio?",
+              "options": [
+                "Ha comprato un ripetitore",
+                "Ha riavviato tutto e ha chiamato il servizio clienti",
+                "Ha cambiato il modem",
+                "Ha spostato il computer in cucina"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove si trova il modem?",
+              "options": [
+                "In un ripostiglio in fondo al corridoio",
+                "In salotto vicino alla televisione",
+                "Nella camera del figlio",
+                "Sul balcone"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa consiglia Franco?",
+              "options": [
+                "Cambiare subito operatore",
+                "Spegnere il modem la sera",
+                "Usare la rete a 5 GHz e mettere il modem in un posto aperto",
+                "Collegare il computer al telefono"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l4-e02",
+          "stage": "learn",
+          "front": "il modem",
+          "back": "modem, router",
+          "example": "Il modem è vecchio e va cambiato."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l4-e03",
+          "stage": "learn",
+          "front": "lamentarsi",
+          "back": "to complain",
+          "example": "Mia sorella si lamenta sempre del rumore."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-05-l4-e04",
+          "stage": "learn",
+          "front": "il ripostiglio",
+          "back": "storage closet, utility room",
+          "example": "Le scope sono nel ripostiglio."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-05-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "internet",
+            "modem",
+            "operatore",
+            "consiglio"
+          ],
+          "modelAnswer": "Un utente scrive che la sera internet è lentissimo da quando ha cambiato operatore. Ha spento il modem e ha chiamato l'assistenza, ma non è cambiato niente. Franco risponde che bisogna usare la rete a 5 GHz e mettere il modem in un posto aperto.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "a sorpresa",
+      "en": "as a surprise",
+      "example": "Mi hanno organizzato una festa a sorpresa."
+    },
+    {
+      "it": "occuparsi di",
+      "en": "to take care of, to handle",
+      "example": "Mi occupo io dei biglietti."
+    },
+    {
+      "it": "la copisteria",
+      "en": "copy shop, print shop",
+      "example": "Vado in copisteria a stampare le foto."
+    },
+    {
+      "it": "il ragù",
+      "en": "meat sauce (Italian ragù)",
+      "example": "La domenica mia madre prepara il ragù."
+    },
+    {
+      "it": "soffriggere",
+      "en": "to fry lightly (as a base for a sauce)",
+      "example": "Fai soffriggere la cipolla con un po' d'olio."
+    },
+    {
+      "it": "l'assaggio / assaggiare",
+      "en": "to taste, to try (food)",
+      "example": "Posso assaggiare la tua torta?"
+    },
+    {
+      "it": "il nido",
+      "en": "nest",
+      "example": "Gli uccelli fanno il nido sul tetto."
+    },
+    {
+      "it": "il campanile",
+      "en": "bell tower",
+      "example": "Dal campanile si vede tutta la valle."
+    },
+    {
+      "it": "covare",
+      "en": "to hatch, to sit on eggs",
+      "example": "La gallina cova le uova per tre settimane."
+    },
+    {
+      "it": "il modem",
+      "en": "modem, router",
+      "example": "Il modem è vecchio e va cambiato."
+    },
+    {
+      "it": "lamentarsi",
+      "en": "to complain",
+      "example": "Mia sorella si lamenta sempre del rumore."
+    },
+    {
+      "it": "il ripostiglio",
+      "en": "storage closet, utility room",
+      "example": "Le scope sono nel ripostiglio."
+    }
+  ]
+}

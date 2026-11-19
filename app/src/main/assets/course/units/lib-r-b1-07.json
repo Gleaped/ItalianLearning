@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b1-07",
+  "level": "LET",
+  "title": "Scuola, paese e mare",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi su scuola, vita di paese, trasporti e vacanze (circa 200 parole): una lettera, una notizia, un avviso e una pubblicità.",
+  "grammarFocus": "Lettura estensiva di livello B1: ricordi e gratitudine, cause e soluzioni, informazioni pratiche e condizioni (se, a condizione che, prima di).",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b1-07-l1",
+      "title": "Una lettera alla maestra",
+      "minutes": 8,
+      "goal": "Leggere una lettera personale di circa 200 parole e capire ricordi, ringraziamenti e invito.",
+      "takeaway": "In una lettera personale ricordi, gratitudine e invito sono spesso in paragrafi diversi.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-07-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una lettera alla maestra",
+          "passage": "Cara maestra Lucia,\n\nsono passati vent'anni da quando ero nella sua classe, ma ho pensato spesso a lei in questi giorni. Sono Anna, si ricorda? Sedevo all'ultimo banco, vicino alla finestra, e non parlavo mai. Forse non ricorda il mio viso, ma io ricordo bene la sua voce.\n\nLe scrivo perché ho appena cominciato a lavorare come insegnante in una scuola elementare di un paese di montagna. Il primo giorno ero molto agitata: ventidue bambini mi guardavano e io non sapevo da dove cominciare. Poi mi è tornata in mente una cosa che lei diceva sempre: \"Prima di spiegare, ascolta\". Così ho chiesto a ogni bambino di dirmi il suo animale preferito. In dieci minuti l'atmosfera era cambiata.\n\nVoglio ringraziarla anche per un altro motivo. Un giorno ho letto ad alta voce una poesia e tremavo dalla vergogna; lei mi ha detto che avevo una bella voce. Quelle parole non le ho mai dimenticate. Oggi credo che un insegnante possa cambiare la vita di un bambino anche con una frase sola.\n\nSe un giorno passa dalle mie parti, sarei felicissima di invitarla a scuola e a pranzo. Mi piacerebbe presentarle la mia classe.\n\nCon affetto e gratitudine,\nAnna",
+          "questions": [
+            {
+              "question": "Perché Anna scrive alla maestra?",
+              "options": [
+                "Vuole chiedere un lavoro",
+                "Ha cominciato a insegnare e vuole ringraziarla",
+                "Cerca un vecchio compagno di classe",
+                "Vuole vendere un libro"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove lavora adesso Anna?",
+              "options": [
+                "In una scuola media di città",
+                "In una biblioteca",
+                "In una scuola elementare di un paese di montagna",
+                "In un asilo al mare"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa ha chiesto ai bambini il primo giorno?",
+              "options": [
+                "Qual era il loro animale preferito",
+                "Il loro nome e la loro età",
+                "Che cosa volevano fare da grandi",
+                "Di leggere una poesia"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa propone Anna alla fine?",
+              "options": [
+                "Di organizzare una riunione di classe",
+                "Di scrivere un libro insieme",
+                "Di andare in vacanza in montagna",
+                "Di invitare la maestra a scuola e a pranzo"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l1-e02",
+          "stage": "learn",
+          "front": "agitato/a",
+          "back": "nervous, restless",
+          "example": "Prima dell'esame ero molto agitata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l1-e03",
+          "stage": "learn",
+          "front": "la vergogna",
+          "back": "shame, embarrassment",
+          "example": "Ho sentito vergogna a parlare davanti a tutti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l1-e04",
+          "stage": "learn",
+          "front": "ringraziare",
+          "back": "to thank",
+          "example": "Voglio ringraziarvi per l'aiuto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-07-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "maestra",
+            "insegnante",
+            "bambini",
+            "invito"
+          ],
+          "modelAnswer": "Anna scrive alla sua vecchia maestra perché ha cominciato a insegnare in un paese di montagna. La ringrazia per un consiglio e per una frase che non ha mai dimenticato. Alla fine la invita a scuola e a pranzo.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-07-l2",
+      "title": "Il bar della piazza riapre",
+      "minutes": 8,
+      "goal": "Leggere una notizia di paese di circa 200 parole e capire cause, soluzione e conseguenze.",
+      "takeaway": "In una notizia locale cerca che cosa è successo, chi ha agito e che cosa cambia per gli abitanti.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-07-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il bar della piazza riapre",
+          "passage": "Dopo due anni di chiusura, sabato scorso il bar della piazza di Villa Serena ha riaperto le porte. Per molti abitanti non era solo un locale dove bere un caffè: era il posto dove ci si incontrava dopo la messa, dove gli anziani giocavano a carte e dove i ragazzi aspettavano l'autobus per la scuola. Quando aveva chiuso, i proprietari erano andati in pensione e nessuno aveva voluto continuare l'attività.\n\nA salvare il bar è stata una piccola cooperativa formata da dodici persone del paese, tra cui una maestra, due operai e uno studente. Ognuno ha messo mille euro, e il comune ha concesso i locali con un affitto ridotto per i primi tre anni. \"Non abbiamo cercato di guadagnare tanto\", ha detto una delle socie, \"ma di non perdere un luogo che ci appartiene\".\n\nIl nuovo bar non serve solo colazioni e aperitivi. Al mattino vende anche pane, latte e giornali, perché in paese non ci sono più né un panificio né un'edicola. Il giovedì pomeriggio ospita un corso gratuito di computer per anziani e d'estate, la domenica sera, c'è il cinema all'aperto. Alla festa di apertura hanno partecipato più di duecento persone. Il vecchio proprietario, quasi commosso, ha detto: \"Finalmente il paese respira di nuovo\".",
+          "questions": [
+            {
+              "question": "Perché il bar aveva chiuso?",
+              "options": [
+                "Il comune aveva aumentato l'affitto",
+                "Non c'erano più clienti",
+                "Il locale era stato danneggiato",
+                "I proprietari erano andati in pensione e nessuno continuava"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Chi ha salvato il bar?",
+              "options": [
+                "Una cooperativa di dodici persone del paese",
+                "Un grande gruppo di ristoranti",
+                "Il vecchio proprietario",
+                "Un'azienda straniera"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Perché il bar vende anche pane e giornali?",
+              "options": [
+                "Perché costa meno",
+                "Perché lo chiede il comune",
+                "Perché in paese non ci sono più il panificio e l'edicola",
+                "Perché i clienti sono turisti"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa si fa il giovedì pomeriggio?",
+              "options": [
+                "Il cinema all'aperto",
+                "Un corso gratuito di computer per anziani",
+                "Una partita a carte",
+                "Una festa per i ragazzi"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l2-e02",
+          "stage": "learn",
+          "front": "la cooperativa",
+          "back": "cooperative",
+          "example": "La cooperativa produce formaggio e miele."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l2-e03",
+          "stage": "learn",
+          "front": "l'edicola",
+          "back": "newsstand",
+          "example": "Compro il giornale all'edicola."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l2-e04",
+          "stage": "learn",
+          "front": "commosso/a",
+          "back": "moved, touched (emotionally)",
+          "example": "Era commosso e non riusciva a parlare."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-07-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "bar",
+            "paese",
+            "cooperativa",
+            "corso"
+          ],
+          "modelAnswer": "Il bar di un paese ha riaperto dopo due anni grazie a una cooperativa di dodici abitanti. Oltre ai caffè vende pane, latte e giornali, perché il paese non ha più né panificio né edicola. Organizza anche un corso di computer per anziani e il cinema all'aperto.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-07-l3",
+      "title": "Avviso: cambia la linea 12",
+      "minutes": 8,
+      "goal": "Leggere un avviso sui trasporti pubblici di circa 200 parole e trovare orari, percorsi e regole.",
+      "takeaway": "In un avviso cerca che cosa cambia, che cosa non cambia e che cosa deve fare il passeggero.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-07-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Avviso: cambia la linea 12",
+          "passage": "AVVISO AI PASSEGGERI\nDal 3 settembre cambia la linea 12\n\nL'azienda dei trasporti informa che, a partire dal 3 settembre, la linea 12 (stazione, ospedale, Borgo Nuovo) avrà un percorso e degli orari diversi. Abbiamo ascoltato le richieste dei passeggeri e abbiamo deciso di fare alcune modifiche.\n\nChe cosa cambia. L'autobus passerà ogni dieci minuti nelle ore di punta, dalle 7 alle 9 e dalle 17 alle 19, e ogni venti minuti negli altri orari. L'ultima corsa partirà dalla stazione alle 23.30 e non più alle 22.30. Inoltre la linea arriverà fino al nuovo centro sportivo, mentre la fermata di via Roma sarà spostata di cento metri, davanti alla biblioteca.\n\nBiglietti. Il prezzo del biglietto singolo non cambia e resta 1,50 euro. Chi ha un abbonamento mensile non deve fare niente: è valido su tutte le linee. Si può comprare il biglietto anche con l'applicazione dell'azienda, ma attenzione: bisogna convalidarlo prima di salire, altrimenti si rischia una multa.\n\nPer i primi quindici giorni alcuni addetti saranno presenti alle fermate principali per dare informazioni. Se vuoi più dettagli, puoi telefonare al numero verde o visitare il sito dell'azienda. Ci scusiamo per eventuali disagi e ti ringraziamo della collaborazione.",
+          "questions": [
+            {
+              "question": "Quando passerà l'autobus nelle ore di punta?",
+              "options": [
+                "Ogni cinque minuti",
+                "Ogni venti minuti",
+                "Ogni dieci minuti",
+                "Ogni mezz'ora"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "A che ora partirà l'ultima corsa dalla stazione?",
+              "options": [
+                "Alle 22.30",
+                "Alle 23.30",
+                "Alle 24.00",
+                "Alle 21.30"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa cambia per la fermata di via Roma?",
+              "options": [
+                "Sarà eliminata",
+                "Sarà davanti all'ospedale",
+                "Resterà dov'è",
+                "Sarà spostata di cento metri, davanti alla biblioteca"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa bisogna fare con il biglietto dell'applicazione?",
+              "options": [
+                "Convalidarlo prima di salire",
+                "Stamparlo",
+                "Comprarlo sull'autobus",
+                "Mostrarlo all'autista alla fine"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l3-e02",
+          "stage": "learn",
+          "front": "l'ora di punta",
+          "back": "rush hour",
+          "example": "In ora di punta il traffico è terribile."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l3-e03",
+          "stage": "learn",
+          "front": "convalidare",
+          "back": "to validate (a ticket)",
+          "example": "Ricorda di convalidare il biglietto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l3-e04",
+          "stage": "learn",
+          "front": "l'abbonamento",
+          "back": "season ticket, subscription",
+          "example": "Ho un abbonamento mensile all'autobus."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-07-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "linea",
+            "orari",
+            "biglietto",
+            "multa"
+          ],
+          "modelAnswer": "L'azienda dei trasporti annuncia che dal 3 settembre cambia la linea 12. Nelle ore di punta l'autobus passerà ogni dieci minuti e l'ultima corsa sarà alle 23.30. Il biglietto costa sempre 1,50 euro, ma quello dell'applicazione va convalidato prima di salire.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-07-l4",
+      "title": "Una settimana al Villaggio Le Onde",
+      "minutes": 8,
+      "goal": "Leggere una pubblicità di vacanze al mare di circa 200 parole e capire servizi, offerta e condizioni.",
+      "takeaway": "In una pubblicità cerca i vantaggi, l'offerta con la scadenza e le condizioni (per esempio la cancellazione).",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-07-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Una settimana al Villaggio Le Onde",
+          "passage": "Villaggio Le Onde: la tua settimana al mare\n\nSogni una vacanza tranquilla, con il rumore delle onde al posto del traffico? Al Villaggio Le Onde puoi averla a prezzi onesti e, per le famiglie, c'è anche un'offerta speciale.\n\nSiamo a duecento metri da una spiaggia lunga e sabbiosa, con un tratto libero e uno attrezzato. Ogni appartamento ha una piccola cucina, un balcone e l'aria condizionata. Se preferisci non cucinare, il nostro ristorante propone ogni sera piatti di pesce fresco, comprato la mattina dai pescatori del porto vicino.\n\nPer i bambini organizziamo giochi sulla spiaggia, laboratori di disegno e gite in barca, sempre con animatori esperti. I più grandi possono provare gratis il windsurf o il kayak. E per i genitori? Ogni mattina c'è un'ora di yoga all'alba, davanti al mare, perché non c'è niente di meglio per cominciare bene la giornata.\n\nL'offerta di giugno: se prenoti sette notti entro il 30 aprile, i bambini sotto i dodici anni non pagano e ricevi un ombrellone gratuito per tutta la settimana. Se cambi idea, puoi annullare fino a quindici giorni prima senza spese.\n\nPrenota subito sul nostro sito o telefona ai numeri indicati. I posti sono limitati e l'anno scorso eravamo al completo già a maggio. Ti aspettiamo!",
+          "questions": [
+            {
+              "question": "A quale distanza dalla spiaggia si trova il villaggio?",
+              "options": [
+                "A duecento metri",
+                "A due chilometri",
+                "Sulla spiaggia",
+                "A venti minuti di autobus"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Da dove viene il pesce del ristorante?",
+              "options": [
+                "Da un supermercato",
+                "Da un allevamento di montagna",
+                "Dal mercato della città",
+                "Dai pescatori del porto vicino"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa include l'offerta di giugno?",
+              "options": [
+                "Una cena gratis ogni sera",
+                "Bambini sotto i dodici anni gratis e ombrellone gratuito",
+                "Il noleggio di una barca",
+                "Uno sconto del cinquanta per cento"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Fino a quando si può annullare senza spese?",
+              "options": [
+                "Fino al giorno prima",
+                "Fino al 30 aprile",
+                "Fino a quindici giorni prima",
+                "Non si può annullare"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l4-e02",
+          "stage": "learn",
+          "front": "attrezzato/a",
+          "back": "equipped (e.g. beach with facilities)",
+          "example": "Preferiamo una spiaggia attrezzata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l4-e03",
+          "stage": "learn",
+          "front": "all'alba",
+          "back": "at dawn",
+          "example": "Ci svegliamo all'alba per vedere il sole."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-07-l4-e04",
+          "stage": "learn",
+          "front": "annullare",
+          "back": "to cancel",
+          "example": "Dobbiamo annullare la prenotazione."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-07-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "villaggio",
+            "spiaggia",
+            "offerta",
+            "annullare"
+          ],
+          "modelAnswer": "È la pubblicità di un villaggio vacanze a duecento metri dalla spiaggia. Ci sono appartamenti, un ristorante di pesce e attività per bambini e adulti. Se si prenota presto, i bambini sotto i dodici anni non pagano, e si può annullare fino a quindici giorni prima.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "agitato/a",
+      "en": "nervous, restless",
+      "example": "Prima dell'esame ero molto agitata."
+    },
+    {
+      "it": "la vergogna",
+      "en": "shame, embarrassment",
+      "example": "Ho sentito vergogna a parlare davanti a tutti."
+    },
+    {
+      "it": "ringraziare",
+      "en": "to thank",
+      "example": "Voglio ringraziarvi per l'aiuto."
+    },
+    {
+      "it": "la cooperativa",
+      "en": "cooperative",
+      "example": "La cooperativa produce formaggio e miele."
+    },
+    {
+      "it": "l'edicola",
+      "en": "newsstand",
+      "example": "Compro il giornale all'edicola."
+    },
+    {
+      "it": "commosso/a",
+      "en": "moved, touched (emotionally)",
+      "example": "Era commosso e non riusciva a parlare."
+    },
+    {
+      "it": "l'ora di punta",
+      "en": "rush hour",
+      "example": "In ora di punta il traffico è terribile."
+    },
+    {
+      "it": "convalidare",
+      "en": "to validate (a ticket)",
+      "example": "Ricorda di convalidare il biglietto."
+    },
+    {
+      "it": "l'abbonamento",
+      "en": "season ticket, subscription",
+      "example": "Ho un abbonamento mensile all'autobus."
+    },
+    {
+      "it": "attrezzato/a",
+      "en": "equipped (e.g. beach with facilities)",
+      "example": "Preferiamo una spiaggia attrezzata."
+    },
+    {
+      "it": "all'alba",
+      "en": "at dawn",
+      "example": "Ci svegliamo all'alba per vedere il sole."
+    },
+    {
+      "it": "annullare",
+      "en": "to cancel",
+      "example": "Dobbiamo annullare la prenotazione."
+    }
+  ]
+}

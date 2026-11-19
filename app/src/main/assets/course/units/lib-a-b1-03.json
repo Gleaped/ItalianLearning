@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b1-03",
+  "level": "ASC",
+  "title": "In città",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni di vita in città (circa 100–140 parole): un annuncio sull'autobus, una telefonata alla banca, indicazioni per un negozio, un dialogo in farmacia, un messaggio del ristorante e le informazioni di un museo.",
+  "grammarFocus": "Ascolto: leggere le domande prima, idea generale e dettagli, direzioni, orari, prezzi e motivi.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b1-03-l1",
+      "title": "Annuncio sull'autobus",
+      "minutes": 6,
+      "goal": "Capire un annuncio su un cambio di percorso.",
+      "takeaway": "Negli annunci cerca il motivo del cambio, gli orari e le alternative.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-03-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l1-e02",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, vi informiamo che, a causa della festa del quartiere, domenica prossima la linea dodici cambia percorso. Dalle otto del mattino alle sei di sera l'autobus non passa da via Roma e da piazza del Mercato. Le fermate provvisorie sono davanti alla biblioteca e vicino al parco. Chi deve andare all'ospedale può prendere la linea quattordici, che passa ogni dieci minuti e costa come un biglietto normale. Ricordiamo che il biglietto si può comprare anche con l'applicazione del telefono, ma bisogna convalidarlo prima di salire. I bambini sotto i sei anni viaggiano gratis. Per informazioni, telefonate al numero verde dell'azienda dei trasporti, aperto tutti i giorni fino alle otto di sera. Ci scusiamo per il disagio e vi auguriamo buon viaggio.",
+          "question": "Perché la linea dodici cambia percorso?",
+          "options": [
+            "C'è la festa del quartiere",
+            "C'è uno sciopero",
+            "Ci sono lavori sulla strada",
+            "C'è una partita di calcio"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l1-e03",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, vi informiamo che, a causa della festa del quartiere, domenica prossima la linea dodici cambia percorso. Dalle otto del mattino alle sei di sera l'autobus non passa da via Roma e da piazza del Mercato. Le fermate provvisorie sono davanti alla biblioteca e vicino al parco. Chi deve andare all'ospedale può prendere la linea quattordici, che passa ogni dieci minuti e costa come un biglietto normale. Ricordiamo che il biglietto si può comprare anche con l'applicazione del telefono, ma bisogna convalidarlo prima di salire. I bambini sotto i sei anni viaggiano gratis. Per informazioni, telefonate al numero verde dell'azienda dei trasporti, aperto tutti i giorni fino alle otto di sera. Ci scusiamo per il disagio e vi auguriamo buon viaggio.",
+          "question": "Quale linea può prendere chi va all'ospedale?",
+          "options": [
+            "La dodici",
+            "La quattro",
+            "La quattordici",
+            "La quaranta"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l1-e04",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, vi informiamo che, a causa della festa del quartiere, domenica prossima la linea dodici cambia percorso. Dalle otto del mattino alle sei di sera l'autobus non passa da via Roma e da piazza del Mercato. Le fermate provvisorie sono davanti alla biblioteca e vicino al parco. Chi deve andare all'ospedale può prendere la linea quattordici, che passa ogni dieci minuti e costa come un biglietto normale. Ricordiamo che il biglietto si può comprare anche con l'applicazione del telefono, ma bisogna convalidarlo prima di salire. I bambini sotto i sei anni viaggiano gratis. Per informazioni, telefonate al numero verde dell'azienda dei trasporti, aperto tutti i giorni fino alle otto di sera. Ci scusiamo per il disagio e vi auguriamo buon viaggio.",
+          "question": "Fino a che ora non passa l'autobus da via Roma?",
+          "options": [
+            "Fino alle sei di sera",
+            "Fino alle otto di mattina",
+            "Fino a mezzogiorno",
+            "Fino alle otto di sera"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l1-e05",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, vi informiamo che, a causa della festa del quartiere, domenica prossima la linea dodici cambia percorso. Dalle otto del mattino alle sei di sera l'autobus non passa da via Roma e da piazza del Mercato. Le fermate provvisorie sono davanti alla biblioteca e vicino al parco. Chi deve andare all'ospedale può prendere la linea quattordici, che passa ogni dieci minuti e costa come un biglietto normale. Ricordiamo che il biglietto si può comprare anche con l'applicazione del telefono, ma bisogna convalidarlo prima di salire. I bambini sotto i sei anni viaggiano gratis. Per informazioni, telefonate al numero verde dell'azienda dei trasporti, aperto tutti i giorni fino alle otto di sera. Ci scusiamo per il disagio e vi auguriamo buon viaggio.",
+          "question": "Chi viaggia gratis?",
+          "options": [
+            "Gli studenti",
+            "Gli anziani",
+            "Tutti la domenica",
+            "I bambini sotto i sei anni"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l1-e06",
+          "stage": "learn",
+          "front": "la fermata",
+          "back": "stop (bus stop)",
+          "example": "Scendo alla prossima fermata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l1-e07",
+          "stage": "learn",
+          "front": "convalidare",
+          "back": "to validate (a ticket)",
+          "example": "Devi convalidare il biglietto prima di salire."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-03-l2",
+      "title": "Telefonata alla banca",
+      "minutes": 6,
+      "goal": "Capire una telefonata su una carta bloccata.",
+      "takeaway": "Nelle telefonate di servizio cerca il problema, la soluzione e i tempi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-03-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l2-e02",
+          "stage": "practise",
+          "audioText": "Banca Colle Verde, buongiorno, sono Elena, come posso aiutarla? — Buongiorno, ehm, ho ricevuto un messaggio: dice che la mia carta è stata bloccata. — Sì, signor Neri, abbiamo notato due pagamenti strani, uno a Madrid e uno a Berlino, la scorsa notte. Lei li ha fatti? — No, assolutamente, io sono a casa da lunedì. — Allora è meglio lasciare la carta bloccata. Le mandiamo una carta nuova per posta, arriverà entro cinque giorni lavorativi e non costa niente. — E intanto come faccio a pagare? — Può usare l'applicazione sul telefono oppure venire in filiale con un documento: ritira i contanti allo sportello. La filiale chiude alle quattro e un quarto. — Va bene, passo oggi pomeriggio. Grazie mille.",
+          "question": "Perché la carta è stata bloccata?",
+          "options": [
+            "Il cliente l'ha persa",
+            "È scaduta",
+            "Ci sono stati pagamenti strani all'estero",
+            "Il conto è vuoto"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l2-e03",
+          "stage": "practise",
+          "audioText": "Banca Colle Verde, buongiorno, sono Elena, come posso aiutarla? — Buongiorno, ehm, ho ricevuto un messaggio: dice che la mia carta è stata bloccata. — Sì, signor Neri, abbiamo notato due pagamenti strani, uno a Madrid e uno a Berlino, la scorsa notte. Lei li ha fatti? — No, assolutamente, io sono a casa da lunedì. — Allora è meglio lasciare la carta bloccata. Le mandiamo una carta nuova per posta, arriverà entro cinque giorni lavorativi e non costa niente. — E intanto come faccio a pagare? — Può usare l'applicazione sul telefono oppure venire in filiale con un documento: ritira i contanti allo sportello. La filiale chiude alle quattro e un quarto. — Va bene, passo oggi pomeriggio. Grazie mille.",
+          "question": "Dov'era il signor Neri la scorsa notte?",
+          "options": [
+            "A casa",
+            "A Madrid",
+            "A Berlino",
+            "In filiale"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l2-e04",
+          "stage": "practise",
+          "audioText": "Banca Colle Verde, buongiorno, sono Elena, come posso aiutarla? — Buongiorno, ehm, ho ricevuto un messaggio: dice che la mia carta è stata bloccata. — Sì, signor Neri, abbiamo notato due pagamenti strani, uno a Madrid e uno a Berlino, la scorsa notte. Lei li ha fatti? — No, assolutamente, io sono a casa da lunedì. — Allora è meglio lasciare la carta bloccata. Le mandiamo una carta nuova per posta, arriverà entro cinque giorni lavorativi e non costa niente. — E intanto come faccio a pagare? — Può usare l'applicazione sul telefono oppure venire in filiale con un documento: ritira i contanti allo sportello. La filiale chiude alle quattro e un quarto. — Va bene, passo oggi pomeriggio. Grazie mille.",
+          "question": "Quando arriva la carta nuova?",
+          "options": [
+            "Domani mattina",
+            "Entro cinque giorni lavorativi",
+            "Entro due settimane",
+            "Il lunedì prossimo"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l2-e05",
+          "stage": "practise",
+          "audioText": "Banca Colle Verde, buongiorno, sono Elena, come posso aiutarla? — Buongiorno, ehm, ho ricevuto un messaggio: dice che la mia carta è stata bloccata. — Sì, signor Neri, abbiamo notato due pagamenti strani, uno a Madrid e uno a Berlino, la scorsa notte. Lei li ha fatti? — No, assolutamente, io sono a casa da lunedì. — Allora è meglio lasciare la carta bloccata. Le mandiamo una carta nuova per posta, arriverà entro cinque giorni lavorativi e non costa niente. — E intanto come faccio a pagare? — Può usare l'applicazione sul telefono oppure venire in filiale con un documento: ritira i contanti allo sportello. La filiale chiude alle quattro e un quarto. — Va bene, passo oggi pomeriggio. Grazie mille.",
+          "question": "A che ora chiude la filiale?",
+          "options": [
+            "Alle quattro e mezza",
+            "Alle cinque",
+            "Alle tre e un quarto",
+            "Alle quattro e un quarto"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l2-e06",
+          "stage": "learn",
+          "front": "la filiale",
+          "back": "branch (of a bank)",
+          "example": "Passo in filiale dopo il lavoro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l2-e07",
+          "stage": "learn",
+          "front": "i contanti",
+          "back": "cash",
+          "example": "Preferisco pagare con i contanti."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-03-l3",
+      "title": "Indicazioni per un negozio",
+      "minutes": 6,
+      "goal": "Capire come arrivare a un negozio a piedi.",
+      "takeaway": "Nelle indicazioni segui l'ordine: dritto, semaforo, destra o sinistra, punto di riferimento.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-03-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l3-e02",
+          "stage": "practise",
+          "audioText": "Allora, il negozio di scarpe è facilissimo da trovare. Dalla stazione vai dritto per via Mazzini fino al semaforo, poi giri a sinistra e continui per circa duecento metri. Dopo la farmacia c'è una piazzetta con una fontana: attraversala e prendi la seconda strada a destra, via dei Tigli. Il negozio è al numero ventitré, proprio di fronte alla panetteria, e ha una vetrina blu. Se arrivi in macchina, non parcheggiare davanti, perché c'è la zona a traffico limitato: lascia l'auto nel parcheggio del mercato, che è a cinque minuti a piedi. Il negozio apre alle nove e mezza, ma chiude per la pausa pranzo dall'una alle tre. Comunque, se ti perdi, chiamami e vengo a prenderti.",
+          "question": "Dove giri dopo il semaforo?",
+          "options": [
+            "A destra",
+            "A sinistra",
+            "Vai dritto",
+            "Torni indietro"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l3-e03",
+          "stage": "practise",
+          "audioText": "Allora, il negozio di scarpe è facilissimo da trovare. Dalla stazione vai dritto per via Mazzini fino al semaforo, poi giri a sinistra e continui per circa duecento metri. Dopo la farmacia c'è una piazzetta con una fontana: attraversala e prendi la seconda strada a destra, via dei Tigli. Il negozio è al numero ventitré, proprio di fronte alla panetteria, e ha una vetrina blu. Se arrivi in macchina, non parcheggiare davanti, perché c'è la zona a traffico limitato: lascia l'auto nel parcheggio del mercato, che è a cinque minuti a piedi. Il negozio apre alle nove e mezza, ma chiude per la pausa pranzo dall'una alle tre. Comunque, se ti perdi, chiamami e vengo a prenderti.",
+          "question": "Che cosa c'è dopo la farmacia?",
+          "options": [
+            "Una piazzetta con una fontana",
+            "Una panetteria",
+            "Il semaforo",
+            "Il parcheggio"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l3-e04",
+          "stage": "practise",
+          "audioText": "Allora, il negozio di scarpe è facilissimo da trovare. Dalla stazione vai dritto per via Mazzini fino al semaforo, poi giri a sinistra e continui per circa duecento metri. Dopo la farmacia c'è una piazzetta con una fontana: attraversala e prendi la seconda strada a destra, via dei Tigli. Il negozio è al numero ventitré, proprio di fronte alla panetteria, e ha una vetrina blu. Se arrivi in macchina, non parcheggiare davanti, perché c'è la zona a traffico limitato: lascia l'auto nel parcheggio del mercato, che è a cinque minuti a piedi. Il negozio apre alle nove e mezza, ma chiude per la pausa pranzo dall'una alle tre. Comunque, se ti perdi, chiamami e vengo a prenderti.",
+          "question": "Dove si trova il negozio?",
+          "options": [
+            "Accanto alla farmacia",
+            "Di fronte alla stazione",
+            "Dentro il mercato",
+            "Di fronte alla panetteria"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l3-e05",
+          "stage": "practise",
+          "audioText": "Allora, il negozio di scarpe è facilissimo da trovare. Dalla stazione vai dritto per via Mazzini fino al semaforo, poi giri a sinistra e continui per circa duecento metri. Dopo la farmacia c'è una piazzetta con una fontana: attraversala e prendi la seconda strada a destra, via dei Tigli. Il negozio è al numero ventitré, proprio di fronte alla panetteria, e ha una vetrina blu. Se arrivi in macchina, non parcheggiare davanti, perché c'è la zona a traffico limitato: lascia l'auto nel parcheggio del mercato, che è a cinque minuti a piedi. Il negozio apre alle nove e mezza, ma chiude per la pausa pranzo dall'una alle tre. Comunque, se ti perdi, chiamami e vengo a prenderti.",
+          "question": "Dove conviene lasciare la macchina?",
+          "options": [
+            "Davanti al negozio",
+            "In via Mazzini",
+            "Nel parcheggio del mercato",
+            "Davanti alla stazione"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l3-e06",
+          "stage": "learn",
+          "front": "il semaforo",
+          "back": "traffic light",
+          "example": "Al semaforo giri a destra."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l3-e07",
+          "stage": "learn",
+          "front": "la vetrina",
+          "back": "shop window",
+          "example": "Nella vetrina ci sono scarpe bellissime."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-03-l4",
+      "title": "In farmacia",
+      "minutes": 6,
+      "goal": "Capire un dialogo in farmacia con consigli e prezzi.",
+      "takeaway": "In farmacia ascolta sintomi, dosi, prezzi e cosa richiede la ricetta.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-03-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l4-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, desidera? — Buongiorno, ho mal di gola da due giorni e un po' di tosse. Che cosa mi consiglia? — Ha la febbre? — No, solo un po' di raffreddore. — Allora le do queste pastiglie per la gola: ne prende una ogni tre ore, ma non più di sei al giorno. Costano otto euro e cinquanta. E poi uno sciroppo per la tosse, da prendere la sera prima di dormire: costa sei euro e cinquanta. — Ho anche bisogno di un antibiotico, mi pare. — Senza ricetta del medico non posso darglielo. Se tra tre giorni sta ancora male, vada dal suo medico. — Capisco. Prendo le pastiglie e lo sciroppo. — Sono in tutto quindici euro. — Ecco a lei. — Grazie, arrivederci e si riguardi!",
+          "question": "Che sintomi ha il cliente?",
+          "options": [
+            "Febbre alta e mal di testa",
+            "Mal di gola e tosse",
+            "Mal di stomaco",
+            "Solo mal di schiena"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l4-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, desidera? — Buongiorno, ho mal di gola da due giorni e un po' di tosse. Che cosa mi consiglia? — Ha la febbre? — No, solo un po' di raffreddore. — Allora le do queste pastiglie per la gola: ne prende una ogni tre ore, ma non più di sei al giorno. Costano otto euro e cinquanta. E poi uno sciroppo per la tosse, da prendere la sera prima di dormire: costa sei euro e cinquanta. — Ho anche bisogno di un antibiotico, mi pare. — Senza ricetta del medico non posso darglielo. Se tra tre giorni sta ancora male, vada dal suo medico. — Capisco. Prendo le pastiglie e lo sciroppo. — Sono in tutto quindici euro. — Ecco a lei. — Grazie, arrivederci e si riguardi!",
+          "question": "Quante pastiglie può prendere al massimo al giorno?",
+          "options": [
+            "Sei",
+            "Tre",
+            "Otto",
+            "Una ogni ora"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l4-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, desidera? — Buongiorno, ho mal di gola da due giorni e un po' di tosse. Che cosa mi consiglia? — Ha la febbre? — No, solo un po' di raffreddore. — Allora le do queste pastiglie per la gola: ne prende una ogni tre ore, ma non più di sei al giorno. Costano otto euro e cinquanta. E poi uno sciroppo per la tosse, da prendere la sera prima di dormire: costa sei euro e cinquanta. — Ho anche bisogno di un antibiotico, mi pare. — Senza ricetta del medico non posso darglielo. Se tra tre giorni sta ancora male, vada dal suo medico. — Capisco. Prendo le pastiglie e lo sciroppo. — Sono in tutto quindici euro. — Ecco a lei. — Grazie, arrivederci e si riguardi!",
+          "question": "Perché la farmacista non dà l'antibiotico?",
+          "options": [
+            "È troppo caro",
+            "È finito",
+            "Serve la ricetta del medico",
+            "Il cliente non ha soldi"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l4-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, desidera? — Buongiorno, ho mal di gola da due giorni e un po' di tosse. Che cosa mi consiglia? — Ha la febbre? — No, solo un po' di raffreddore. — Allora le do queste pastiglie per la gola: ne prende una ogni tre ore, ma non più di sei al giorno. Costano otto euro e cinquanta. E poi uno sciroppo per la tosse, da prendere la sera prima di dormire: costa sei euro e cinquanta. — Ho anche bisogno di un antibiotico, mi pare. — Senza ricetta del medico non posso darglielo. Se tra tre giorni sta ancora male, vada dal suo medico. — Capisco. Prendo le pastiglie e lo sciroppo. — Sono in tutto quindici euro. — Ecco a lei. — Grazie, arrivederci e si riguardi!",
+          "question": "Quanto paga il cliente in tutto?",
+          "options": [
+            "Otto euro e cinquanta",
+            "Sei euro e cinquanta",
+            "Venti euro",
+            "Quindici euro"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l4-e06",
+          "stage": "learn",
+          "front": "la tosse",
+          "back": "cough",
+          "example": "Ho la tosse da due giorni."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l4-e07",
+          "stage": "learn",
+          "front": "la ricetta",
+          "back": "prescription",
+          "example": "Per questa medicina serve la ricetta."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-03-l5",
+      "title": "Messaggio del ristorante",
+      "minutes": 6,
+      "goal": "Capire un messaggio che cambia una prenotazione.",
+      "takeaway": "Nei messaggi di prenotazione cerca il problema, le alternative e la scadenza.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-03-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l5-e02",
+          "stage": "practise",
+          "audioText": "Buonasera, sono Marta Colombo e la chiamo dalla trattoria del Pozzo per la vostra prenotazione di sabato sera. Purtroppo il tavolo per sei persone alle otto non è più disponibile, perché una parte della sala è stata prenotata per una festa privata. Possiamo offrirvi un tavolo sul terrazzo, alle otto e mezza, oppure un tavolo in sala alle sette e mezza. Sul terrazzo la sera fa fresco, ma abbiamo le stufe e le coperte. Il menù degustazione costa trentacinque euro a persona, vino escluso. Se ci sono persone vegetariane o allergie, ditecelo in anticipo. Vi chiedo di richiamare entro domani a mezzogiorno, altrimenti devo liberare il tavolo. Grazie e a presto.",
+          "question": "Perché il tavolo delle otto non è disponibile?",
+          "options": [
+            "Il ristorante è chiuso",
+            "Mancano i camerieri",
+            "C'è un problema in cucina",
+            "La sala è prenotata per una festa privata"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l5-e03",
+          "stage": "practise",
+          "audioText": "Buonasera, sono Marta Colombo e la chiamo dalla trattoria del Pozzo per la vostra prenotazione di sabato sera. Purtroppo il tavolo per sei persone alle otto non è più disponibile, perché una parte della sala è stata prenotata per una festa privata. Possiamo offrirvi un tavolo sul terrazzo, alle otto e mezza, oppure un tavolo in sala alle sette e mezza. Sul terrazzo la sera fa fresco, ma abbiamo le stufe e le coperte. Il menù degustazione costa trentacinque euro a persona, vino escluso. Se ci sono persone vegetariane o allergie, ditecelo in anticipo. Vi chiedo di richiamare entro domani a mezzogiorno, altrimenti devo liberare il tavolo. Grazie e a presto.",
+          "question": "Che cosa offre il ristorante per le otto e mezza?",
+          "options": [
+            "Un tavolo sul terrazzo",
+            "Un tavolo in sala",
+            "Un tavolo per otto persone",
+            "Un tavolo per domenica"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l5-e04",
+          "stage": "practise",
+          "audioText": "Buonasera, sono Marta Colombo e la chiamo dalla trattoria del Pozzo per la vostra prenotazione di sabato sera. Purtroppo il tavolo per sei persone alle otto non è più disponibile, perché una parte della sala è stata prenotata per una festa privata. Possiamo offrirvi un tavolo sul terrazzo, alle otto e mezza, oppure un tavolo in sala alle sette e mezza. Sul terrazzo la sera fa fresco, ma abbiamo le stufe e le coperte. Il menù degustazione costa trentacinque euro a persona, vino escluso. Se ci sono persone vegetariane o allergie, ditecelo in anticipo. Vi chiedo di richiamare entro domani a mezzogiorno, altrimenti devo liberare il tavolo. Grazie e a presto.",
+          "question": "Che cosa è escluso dal prezzo del menù?",
+          "options": [
+            "Il dolce",
+            "Il vino",
+            "Il caffè",
+            "Il pane"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l5-e05",
+          "stage": "practise",
+          "audioText": "Buonasera, sono Marta Colombo e la chiamo dalla trattoria del Pozzo per la vostra prenotazione di sabato sera. Purtroppo il tavolo per sei persone alle otto non è più disponibile, perché una parte della sala è stata prenotata per una festa privata. Possiamo offrirvi un tavolo sul terrazzo, alle otto e mezza, oppure un tavolo in sala alle sette e mezza. Sul terrazzo la sera fa fresco, ma abbiamo le stufe e le coperte. Il menù degustazione costa trentacinque euro a persona, vino escluso. Se ci sono persone vegetariane o allergie, ditecelo in anticipo. Vi chiedo di richiamare entro domani a mezzogiorno, altrimenti devo liberare il tavolo. Grazie e a presto.",
+          "question": "Entro quando bisogna richiamare?",
+          "options": [
+            "Stasera",
+            "Sabato mattina",
+            "Domani a mezzogiorno",
+            "Domani sera"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l5-e06",
+          "stage": "learn",
+          "front": "il terrazzo",
+          "back": "terrace",
+          "example": "Cenia­mo sul terrazzo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l5-e07",
+          "stage": "learn",
+          "front": "l'allergia",
+          "back": "allergy",
+          "example": "Ho un'allergia alle noci."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-03-l6",
+      "title": "Orari e prezzi del museo",
+      "minutes": 6,
+      "goal": "Capire le informazioni per visitare un museo.",
+      "takeaway": "Per le visite ascolta i giorni di chiusura, i prezzi e le regole.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-03-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l6-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo civico del Borgo. Informiamo i visitatori che da lunedì scorso l'orario è cambiato. Il museo è aperto dal martedì alla domenica, dalle nove alle diciassette, e il lunedì è chiuso. L'ultimo ingresso è mezz'ora prima della chiusura. Il biglietto intero costa dieci euro, il ridotto cinque euro per studenti e per chi ha più di sessantacinque anni, mentre la prima domenica del mese l'ingresso è gratuito per tutti. Al secondo piano c'è la nuova sala dei minerali, dove le visite guidate partono ogni ora, tranne all'una. Gli zaini grandi vanno lasciati al guardaroba, che è gratuito. Si può fotografare, ma senza flash. Per le scuole è necessario prenotare, scrivendo all'ufficio educazione. Buona visita!",
+          "question": "Quando il museo è chiuso?",
+          "options": [
+            "La domenica",
+            "Il martedì",
+            "Il lunedì",
+            "Il sabato"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l6-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo civico del Borgo. Informiamo i visitatori che da lunedì scorso l'orario è cambiato. Il museo è aperto dal martedì alla domenica, dalle nove alle diciassette, e il lunedì è chiuso. L'ultimo ingresso è mezz'ora prima della chiusura. Il biglietto intero costa dieci euro, il ridotto cinque euro per studenti e per chi ha più di sessantacinque anni, mentre la prima domenica del mese l'ingresso è gratuito per tutti. Al secondo piano c'è la nuova sala dei minerali, dove le visite guidate partono ogni ora, tranne all'una. Gli zaini grandi vanno lasciati al guardaroba, che è gratuito. Si può fotografare, ma senza flash. Per le scuole è necessario prenotare, scrivendo all'ufficio educazione. Buona visita!",
+          "question": "Quanto costa il biglietto ridotto?",
+          "options": [
+            "Cinque euro",
+            "Dieci euro",
+            "Tre euro",
+            "È gratuito"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l6-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo civico del Borgo. Informiamo i visitatori che da lunedì scorso l'orario è cambiato. Il museo è aperto dal martedì alla domenica, dalle nove alle diciassette, e il lunedì è chiuso. L'ultimo ingresso è mezz'ora prima della chiusura. Il biglietto intero costa dieci euro, il ridotto cinque euro per studenti e per chi ha più di sessantacinque anni, mentre la prima domenica del mese l'ingresso è gratuito per tutti. Al secondo piano c'è la nuova sala dei minerali, dove le visite guidate partono ogni ora, tranne all'una. Gli zaini grandi vanno lasciati al guardaroba, che è gratuito. Si può fotografare, ma senza flash. Per le scuole è necessario prenotare, scrivendo all'ufficio educazione. Buona visita!",
+          "question": "Quando l'ingresso è gratuito per tutti?",
+          "options": [
+            "Ogni sabato",
+            "La prima domenica del mese",
+            "L'ultima domenica del mese",
+            "Il martedì mattina"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-03-l6-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti al Museo civico del Borgo. Informiamo i visitatori che da lunedì scorso l'orario è cambiato. Il museo è aperto dal martedì alla domenica, dalle nove alle diciassette, e il lunedì è chiuso. L'ultimo ingresso è mezz'ora prima della chiusura. Il biglietto intero costa dieci euro, il ridotto cinque euro per studenti e per chi ha più di sessantacinque anni, mentre la prima domenica del mese l'ingresso è gratuito per tutti. Al secondo piano c'è la nuova sala dei minerali, dove le visite guidate partono ogni ora, tranne all'una. Gli zaini grandi vanno lasciati al guardaroba, che è gratuito. Si può fotografare, ma senza flash. Per le scuole è necessario prenotare, scrivendo all'ufficio educazione. Buona visita!",
+          "question": "Dove si lasciano gli zaini grandi?",
+          "options": [
+            "Alla biglietteria",
+            "Al secondo piano",
+            "Nella sala dei minerali",
+            "Al guardaroba"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l6-e06",
+          "stage": "learn",
+          "front": "il biglietto ridotto",
+          "back": "reduced-price ticket",
+          "example": "Gli studenti pagano il biglietto ridotto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-03-l6-e07",
+          "stage": "learn",
+          "front": "il guardaroba",
+          "back": "cloakroom",
+          "example": "Lascio la giacca al guardaroba."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la fermata",
+      "en": "stop (bus stop)",
+      "example": "Scendo alla prossima fermata."
+    },
+    {
+      "it": "convalidare",
+      "en": "to validate (a ticket)",
+      "example": "Devi convalidare il biglietto prima di salire."
+    },
+    {
+      "it": "la filiale",
+      "en": "branch (of a bank)",
+      "example": "Passo in filiale dopo il lavoro."
+    },
+    {
+      "it": "i contanti",
+      "en": "cash",
+      "example": "Preferisco pagare con i contanti."
+    },
+    {
+      "it": "il semaforo",
+      "en": "traffic light",
+      "example": "Al semaforo giri a destra."
+    },
+    {
+      "it": "la vetrina",
+      "en": "shop window",
+      "example": "Nella vetrina ci sono scarpe bellissime."
+    },
+    {
+      "it": "la tosse",
+      "en": "cough",
+      "example": "Ho la tosse da due giorni."
+    },
+    {
+      "it": "la ricetta",
+      "en": "prescription",
+      "example": "Per questa medicina serve la ricetta."
+    },
+    {
+      "it": "il terrazzo",
+      "en": "terrace",
+      "example": "Cenia­mo sul terrazzo."
+    },
+    {
+      "it": "l'allergia",
+      "en": "allergy",
+      "example": "Ho un'allergia alle noci."
+    },
+    {
+      "it": "il biglietto ridotto",
+      "en": "reduced-price ticket",
+      "example": "Gli studenti pagano il biglietto ridotto."
+    },
+    {
+      "it": "il guardaroba",
+      "en": "cloakroom",
+      "example": "Lascio la giacca al guardaroba."
+    }
+  ]
+}

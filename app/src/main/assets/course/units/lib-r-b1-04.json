@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b1-04",
+  "level": "LET",
+  "title": "Salute e sport",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi su salute e sport (circa 200 parole): un volantino, un'intervista, un avviso e un racconto.",
+  "grammarFocus": "Lettura estensiva di livello B1: consigli e divieti, racconti di esperienze, regole e avvisi, narrazione al passato; imperativo, condizionale, passato prossimo e imperfetto.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b1-04-l1",
+      "title": "Mal di schiena: che cosa fare",
+      "minutes": 8,
+      "goal": "Leggere un volantino sanitario di circa 200 parole e capire consigli, avvertenze e servizi.",
+      "takeaway": "Un volantino dà consigli (fate, evitate) e avvertenze: distingui che cosa fare, che cosa evitare e quando chiamare il medico.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-04-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Mal di schiena: che cosa fare",
+          "passage": "Il mal di schiena è uno dei disturbi più comuni e molte persone ne soffrono almeno una volta nella vita. Spesso non è grave, ma può rovinare la giornata. Questo volantino spiega che cosa fare e che cosa evitare.\n\nSe il dolore arriva all'improvviso, non state a letto per giorni. Molti pensano che il riposo assoluto sia la soluzione, invece i medici consigliano di muoversi un po': una breve camminata aiuta la schiena a guarire più in fretta. Un impacco caldo sulla zona dolorante può dare sollievo, soprattutto la sera.\n\nPer prevenire il problema, fate attenzione alla posizione quando lavorate. Se passate otto ore al computer, alzatevi ogni ora e fate qualche passo. Quando sollevate un peso, piegate le ginocchia e non la schiena. Anche il materasso conta: non deve essere né troppo duro né troppo morbido.\n\nRivolgetevi subito al medico se il dolore dura più di due settimane, se sentite formicolio alle gambe o se avete anche la febbre. Non prendete medicine per molto tempo senza chiedere consiglio al farmacista.\n\nNel nostro ambulatorio, il martedì e il giovedì pomeriggio, una fisioterapista tiene incontri gratuiti di ginnastica dolce. Non serve prenotare.",
+          "questions": [
+            {
+              "question": "Che cosa consigliano i medici in caso di dolore improvviso?",
+              "options": [
+                "Restare a letto per giorni",
+                "Prendere medicine per un mese",
+                "Muoversi un po', per esempio camminare",
+                "Non fare nessuna attività"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Quando bisogna andare subito dal medico?",
+              "options": [
+                "Se il dolore dura più di due settimane",
+                "Se il materasso è duro",
+                "Se si lavora al computer",
+                "Se si solleva un peso"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come bisogna sollevare un peso?",
+              "options": [
+                "Con la schiena dritta e le gambe tese",
+                "Piegando le ginocchia e non la schiena",
+                "Con una mano sola",
+                "Solo con l'aiuto del farmacista"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa offre l'ambulatorio?",
+              "options": [
+                "Visite a pagamento il sabato",
+                "Medicine gratuite",
+                "Incontri gratuiti di ginnastica dolce, senza prenotazione",
+                "Un corso di cucina"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l1-e02",
+          "stage": "learn",
+          "front": "il sollievo",
+          "back": "relief",
+          "example": "Una doccia calda mi ha dato sollievo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l1-e03",
+          "stage": "learn",
+          "front": "sollevare",
+          "back": "to lift, to raise",
+          "example": "Non sollevare pesi con la schiena."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l1-e04",
+          "stage": "learn",
+          "front": "il formicolio",
+          "back": "pins and needles, tingling",
+          "example": "Sento un formicolio al braccio."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-04-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "schiena",
+            "muoversi",
+            "medico",
+            "ginnastica"
+          ],
+          "modelAnswer": "Il volantino spiega che per il mal di schiena è meglio muoversi che restare a letto. Per prevenirlo bisogna lavorare in buona posizione e sollevare bene i pesi. Se il dolore dura più di due settimane, bisogna andare dal medico; l'ambulatorio offre ginnastica dolce gratuita.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-04-l2",
+      "title": "Intervista a una maratoneta",
+      "minutes": 8,
+      "goal": "Leggere un'intervista di circa 200 parole e seguire domande, risposte ed esperienze.",
+      "takeaway": "In un'intervista ogni domanda introduce un tema: leggi prima le domande per orientarti, poi cerca i dettagli nelle risposte.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-04-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Intervista a una maratoneta",
+          "passage": "Sara Venturi ha quarantadue anni, fa l'infermiera e due mesi fa ha corso la sua prima maratona.\n\nQuando ha iniziato a correre?\n«Cinque anni fa, quasi per caso. Dopo la nascita del mio secondo figlio mi sentivo sempre stanca. Una collega mi ha invitata a correre con lei e io ho accettato per educazione. Dopo dieci minuti ero senza fiato, ma il giorno dopo volevo riprovare.»\n\nCome si è preparata?\n«Per sei mesi mi sono allenata quattro volte a settimana, quasi sempre alle sei, prima che i bambini si svegliassero. Il fine settimana facevo il lungo, cioè un'uscita di due o tre ore. Mio marito mi ha aiutata molto: senza di lui non ce l'avrei fatta.»\n\nCom'è andata la gara?\n«Fino al trentesimo chilometro benissimo, poi ho avuto una crisi e ho pensato di fermarmi. Ho camminato un po', ho bevuto e alla fine ho tagliato il traguardo in quattro ore e venti. Piangevo dalla felicità.»\n\nChe consiglio darebbe a chi vuole cominciare?\n«Di andare piano. Meglio correre poco ma spesso, che troppo e una volta sola. E di scegliere scarpe adatte.»",
+          "questions": [
+            {
+              "question": "Perché Sara ha cominciato a correre?",
+              "options": [
+                "Voleva vincere una gara",
+                "Una collega l'ha invitata e si sentiva stanca",
+                "Il medico gliel'aveva ordinato",
+                "Suo marito correva già"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quando si allenava durante la settimana?",
+              "options": [
+                "Di sera, dopo il lavoro",
+                "Nella pausa pranzo",
+                "Di notte",
+                "Quasi sempre alle sei, prima che i bambini si svegliassero"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa è successo dopo il trentesimo chilometro?",
+              "options": [
+                "Ha avuto una crisi, ma è arrivata al traguardo",
+                "Si è fermata e ha abbandonato la gara",
+                "Ha vinto la gara",
+                "È caduta e si è fatta male"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Quale consiglio dà a chi comincia?",
+              "options": [
+                "Di correre molto una volta alla settimana",
+                "Di correre con tanti amici",
+                "Di correre poco ma spesso, andando piano",
+                "Di comprare scarpe economiche"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l2-e02",
+          "stage": "learn",
+          "front": "allenarsi",
+          "back": "to train",
+          "example": "Mi alleno tre volte a settimana."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l2-e03",
+          "stage": "learn",
+          "front": "il traguardo",
+          "back": "finish line; goal",
+          "example": "Ha tagliato il traguardo per primo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l2-e04",
+          "stage": "learn",
+          "front": "senza fiato",
+          "back": "out of breath",
+          "example": "Sono salito in fretta e sono rimasto senza fiato."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-04-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "maratona",
+            "allenarsi",
+            "crisi",
+            "consiglio"
+          ],
+          "modelAnswer": "Sara ha cominciato a correre cinque anni fa, quasi per caso, e si è allenata sei mesi per la maratona. Si svegliava presto e il marito l'ha aiutata. Dopo il trentesimo chilometro ha avuto una crisi, ma è arrivata al traguardo e consiglia di andare piano.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-04-l3",
+      "title": "Avviso agli iscritti della palestra",
+      "minutes": 8,
+      "goal": "Leggere un avviso di circa 200 parole e capire orari, regole e conseguenze.",
+      "takeaway": "Un avviso è diviso in sezioni con parole chiave (orari, corsi, regole): cerca prima la sezione che ti interessa.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-04-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Avviso agli iscritti della palestra",
+          "passage": "AVVISO AGLI ISCRITTI\n\nGentili soci, vi informiamo che dal 1° ottobre la palestra Aurora cambierà alcuni orari e introdurrà alcune novità. Vi preghiamo di leggere con attenzione.\n\nOrari. Da lunedì a venerdì apriremo alle 6.30, un'ora prima di adesso, per chi lavora presto. La domenica la palestra resterà chiusa tutto il giorno, perché i frequentatori sono pochi. Il sabato l'orario non cambia: dalle 9 alle 18.\n\nCorsi. Il corso di yoga del giovedì sera passerà al mercoledì, alla stessa ora, mentre il pilates raddoppia: avremo due lezioni a settimana. Per i corsi è obbligatorio prenotare dall'applicazione almeno un'ora prima. Chi prenota e non viene, senza avvisare, riceverà un richiamo, e dopo tre assenze non potrà prenotare per una settimana.\n\nRegole. Bisogna portare un asciugamano personale e lasciare le attrezzature pulite dopo l'uso. Gli armadietti sono disponibili solo durante l'allenamento: il lucchetto lasciato la notte sarà tagliato. Le docce del piano interrato sono in manutenzione fino al 15 ottobre; in questo periodo potete usare quelle del primo piano.\n\nPer domande, rivolgetevi alla segreteria. Grazie della collaborazione!\n\nLa direzione",
+          "questions": [
+            {
+              "question": "Che cosa cambia da lunedì a venerdì?",
+              "options": [
+                "La palestra chiude un'ora prima",
+                "La palestra apre un'ora prima, alle 6.30",
+                "La palestra apre solo di pomeriggio",
+                "Il sabato la palestra resta chiusa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa succede la domenica?",
+              "options": [
+                "La palestra apre dalle 9 alle 18",
+                "Ci sono solo corsi di yoga",
+                "L'ingresso è gratuito",
+                "La palestra resta chiusa tutto il giorno"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa succede dopo tre assenze senza avviso?",
+              "options": [
+                "Si paga una multa",
+                "Non si può prenotare per una settimana",
+                "Si perde l'iscrizione",
+                "Si cambia corso"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Dove si possono fare la doccia fino al 15 ottobre?",
+              "options": [
+                "Al piano interrato",
+                "Nello spogliatoio del sabato",
+                "Al primo piano",
+                "Non è possibile"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l3-e02",
+          "stage": "learn",
+          "front": "l'iscritto/a",
+          "back": "member, registered person",
+          "example": "Gli iscritti ricevono un'e-mail ogni mese."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l3-e03",
+          "stage": "learn",
+          "front": "l'armadietto",
+          "back": "locker",
+          "example": "Ho lasciato la borsa nell'armadietto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l3-e04",
+          "stage": "learn",
+          "front": "la manutenzione",
+          "back": "maintenance",
+          "example": "L'ascensore è in manutenzione fino a lunedì."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-04-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "orari",
+            "corsi",
+            "prenotare",
+            "docce"
+          ],
+          "modelAnswer": "L'avviso informa i soci che dal primo ottobre la palestra apre prima la mattina e resta chiusa la domenica. Cambiano i corsi di yoga e pilates, bisogna prenotare e chi non viene viene richiamato. Le docce del piano interrato sono in manutenzione.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-04-l4",
+      "title": "Il sentiero della domenica",
+      "minutes": 8,
+      "goal": "Leggere un racconto di circa 200 parole e seguire sequenza di eventi e cambiamento.",
+      "takeaway": "In un racconto l'imperfetto descrive la situazione e il passato prossimo racconta gli eventi: osserva come si alternano.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-04-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Il sentiero della domenica",
+          "passage": "Ogni domenica mattina Franco faceva lo stesso giro: usciva di casa alle sette, comprava il giornale e tornava a sedersi in poltrona. Aveva settant'anni e, dopo la morte della moglie, la sua vita era diventata molto tranquilla, forse troppo.\n\nUn giorno, però, l'edicola non aveva più copie e Franco ha deciso di camminare fino al paese vicino, dove ce n'era un'altra. Ha imboccato un sentiero tra gli ulivi che non conosceva. Dopo mezz'ora ha incontrato una donna con un cane stanco, fermi su un muretto.\n\n«Mi scusi, sa se c'è una fontana qui vicino?» ha chiesto lei. Franco aveva con sé una bottiglietta d'acqua e gliel'ha offerta. Hanno fatto insieme l'ultimo tratto, e lei gli ha raccontato che ogni domenica portava il cane in collina, perché il veterinario le aveva consigliato di fargli fare un po' di esercizio.\n\nQuella mattina Franco non ha comprato il giornale, ma è tornato a casa più contento del solito. La domenica dopo ha preso lo stesso sentiero e ha portato anche una ciotola per il cane. Adesso, quando piove, guarda fuori dalla finestra con un po' di dispiacere: ha capito che le cose più belle sono spesso quelle che non programmiamo.",
+          "questions": [
+            {
+              "question": "Che cosa faceva Franco ogni domenica prima?",
+              "options": [
+                "Andava in collina con il cane",
+                "Comprava il giornale e tornava a casa",
+                "Cucinava per i vicini",
+                "Visitava la moglie"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché è andato al paese vicino?",
+              "options": [
+                "Perché voleva incontrare una donna",
+                "Perché doveva andare dal veterinario",
+                "Perché aveva sete",
+                "Perché l'edicola sotto casa non aveva più copie del giornale"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa ha offerto Franco alla donna?",
+              "options": [
+                "Un po' d'acqua",
+                "Il giornale",
+                "Un passaggio in macchina",
+                "Un panino"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa ha capito alla fine?",
+              "options": [
+                "Che il paese vicino è meglio",
+                "Che i cani sono difficili da educare",
+                "Che le cose più belle sono spesso quelle non programmate",
+                "Che bisogna sempre comprare il giornale"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l4-e02",
+          "stage": "learn",
+          "front": "l'edicola",
+          "back": "newsstand, kiosk",
+          "example": "Compro il giornale all'edicola della stazione."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l4-e03",
+          "stage": "learn",
+          "front": "imboccare",
+          "back": "to take (a road, a path), to turn into",
+          "example": "Abbiamo imboccato una strada di campagna."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-04-l4-e04",
+          "stage": "learn",
+          "front": "il sentiero",
+          "back": "path, trail",
+          "example": "Il sentiero sale tra i boschi."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-04-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "Franco",
+            "edicola",
+            "sentiero",
+            "domenica"
+          ],
+          "modelAnswer": "Franco aveva una vita tranquilla e ogni domenica comprava il giornale. Un giorno ha camminato fino a un altro paese e ha incontrato una donna con un cane, a cui ha dato l'acqua. Da allora fa il sentiero ogni domenica e ha capito che le cose più belle non si programmano.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il sollievo",
+      "en": "relief",
+      "example": "Una doccia calda mi ha dato sollievo."
+    },
+    {
+      "it": "sollevare",
+      "en": "to lift, to raise",
+      "example": "Non sollevare pesi con la schiena."
+    },
+    {
+      "it": "il formicolio",
+      "en": "pins and needles, tingling",
+      "example": "Sento un formicolio al braccio."
+    },
+    {
+      "it": "allenarsi",
+      "en": "to train",
+      "example": "Mi alleno tre volte a settimana."
+    },
+    {
+      "it": "il traguardo",
+      "en": "finish line; goal",
+      "example": "Ha tagliato il traguardo per primo."
+    },
+    {
+      "it": "senza fiato",
+      "en": "out of breath",
+      "example": "Sono salito in fretta e sono rimasto senza fiato."
+    },
+    {
+      "it": "l'iscritto/a",
+      "en": "member, registered person",
+      "example": "Gli iscritti ricevono un'e-mail ogni mese."
+    },
+    {
+      "it": "l'armadietto",
+      "en": "locker",
+      "example": "Ho lasciato la borsa nell'armadietto."
+    },
+    {
+      "it": "la manutenzione",
+      "en": "maintenance",
+      "example": "L'ascensore è in manutenzione fino a lunedì."
+    },
+    {
+      "it": "l'edicola",
+      "en": "newsstand, kiosk",
+      "example": "Compro il giornale all'edicola della stazione."
+    },
+    {
+      "it": "imboccare",
+      "en": "to take (a road, a path), to turn into",
+      "example": "Abbiamo imboccato una strada di campagna."
+    },
+    {
+      "it": "il sentiero",
+      "en": "path, trail",
+      "example": "Il sentiero sale tra i boschi."
+    }
+  ]
+}

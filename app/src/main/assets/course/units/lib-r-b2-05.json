@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b2-05",
+  "level": "LET",
+  "title": "Società e scoperte",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi (circa 250-300 parole): un articolo sugli affitti, una lettera al giornale sulla sanità, un'intervista scientifica e un breve saggio storico.",
+  "grammarFocus": "Lettura estensiva B2: periodo ipotetico (se avessi avuto... avrei pagato), congiuntivo nel testo d'opinione, connettivi di contrasto e conseguenza (tuttavia, nonostante, di conseguenza), forma passiva.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b2-05-l1",
+      "title": "Affitti alle stelle",
+      "minutes": 10,
+      "goal": "Leggere un articolo sul mercato degli affitti e distinguere cause, misure proposte e critiche.",
+      "takeaway": "Di conseguenza introduce un effetto, tuttavia e nonostante introducono un'obiezione: seguili per ricostruire chi dice che cosa.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-05-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Affitti alle stelle",
+          "passage": "In molte città medie italiane trovare un appartamento in affitto è diventato un'impresa per chi guadagna meno di duemila euro al mese. Secondo un'indagine di un centro studi di Valmora, un monolocale costa oggi il trenta per cento in più rispetto a cinque anni fa, mentre gli stipendi sono rimasti quasi fermi.\n\nLe cause sono diverse. Da un lato molti proprietari preferiscono gli affitti brevi ai turisti, che garantiscono guadagni più alti e contratti più flessibili; dall'altro gli studenti fuori sede, sempre più numerosi, fanno salire la domanda nei quartieri vicini all'università. Di conseguenza, le famiglie con un reddito medio sono spinte verso la periferia o verso i comuni limitrofi, dove però i trasporti sono scarsi.\n\nIl Comune ha annunciato un piano che prevede sgravi fiscali per i proprietari che sottoscrivano contratti a canone concordato. «Se non intervenissimo, rischieremmo di perdere i residenti più giovani», ha dichiarato l'assessore alla casa. Le associazioni degli inquilini, tuttavia, giudicano il provvedimento insufficiente: nonostante gli sconti promessi, pochi proprietari rinunceranno, a loro avviso, a un guadagno sicuro.\n\nAnche i costruttori sono scettici. Ricordano che sul territorio comunale ci sono migliaia di appartamenti sfitti, ma che molti andrebbero ristrutturati prima di essere affittati e che i costi dei lavori sono aumentati. Un architetto sostiene che sarebbe più efficace recuperare gli edifici abbandonati che costruirne di nuovi, purché le procedure burocratiche fossero più rapide.\n\nIntanto c'è chi ha già cambiato abitudini. Una coppia intervistata ha deciso di condividere l'appartamento con altri due amici, mentre un giovane infermiere ha rinunciato a trasferirsi in città e continua a fare il pendolare ogni giorno. «Non è una scelta», dice, «ma una necessità.»",
+          "questions": [
+            {
+              "question": "Che cosa mostra l'indagine citata all'inizio?",
+              "options": [
+                "Gli stipendi sono aumentati del trenta per cento",
+                "Gli affitti sono cresciuti molto più degli stipendi",
+                "Gli affitti sono scesi negli ultimi cinque anni",
+                "Gli studenti guadagnano più delle famiglie"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché molti proprietari scelgono gli affitti brevi?",
+              "options": [
+                "Sono vietati ai turisti stranieri",
+                "Richiedono lavori di ristrutturazione",
+                "Sono obbligatori per legge nel centro",
+                "Garantiscono guadagni più alti e più flessibilità"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Qual è la critica delle associazioni degli inquilini al piano del Comune?",
+              "options": [
+                "Gli sconti non basteranno a convincere i proprietari",
+                "Il piano favorisce solo gli studenti",
+                "Il Comune non ha previsto alcun incentivo",
+                "Il piano costa troppo ai cittadini"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa sostiene l'architetto citato nell'articolo?",
+              "options": [
+                "Bisogna vietare ogni nuova costruzione",
+                "I costi dei lavori sono diminuiti",
+                "Conviene recuperare gli edifici abbandonati, se la burocrazia è più rapida",
+                "Gli appartamenti sfitti sono già pronti per essere affittati"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l1-e02",
+          "stage": "learn",
+          "front": "sgravio fiscale",
+          "back": "tax relief",
+          "example": "Il governo ha introdotto uno sgravio fiscale per le giovani coppie."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l1-e03",
+          "stage": "learn",
+          "front": "sfitto",
+          "back": "vacant, unlet",
+          "example": "Nel quartiere ci sono molti negozi sfitti."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l1-e04",
+          "stage": "learn",
+          "front": "il pendolare",
+          "back": "commuter",
+          "example": "Ogni mattina il pendolare prende il treno delle sei."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-05-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "affitti",
+            "stipendi",
+            "proprietari",
+            "Comune"
+          ],
+          "modelAnswer": "Gli affitti sono aumentati molto, mentre gli stipendi sono rimasti fermi, anche perché molti proprietari preferiscono gli affitti brevi per i turisti. Il Comune propone sgravi fiscali, ma gli inquilini li ritengono insufficienti. Alcuni giovani condividono la casa o fanno i pendolari.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-05-l2",
+      "title": "Lettera: attese infinite",
+      "minutes": 10,
+      "goal": "Leggere una lettera al giornale sulle liste d'attesa e riconoscere lamentela, esempio personale e richieste.",
+      "takeaway": "Nella lettera di protesta il periodo ipotetico (se avessi avuto... avrei pagato) mostra ciò che non è successo: nota anche come si passa dal caso personale alle proposte.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-05-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Lettera: attese infinite",
+          "passage": "Gentile direttore,\n\nLe scrivo dopo aver passato tre mesi a cercare di prenotare una visita cardiologica per mia madre, che ha settantotto anni e soffre di aritmia. Il medico di base l'ha giudicata «urgente, da fare entro trenta giorni»; al centro prenotazioni, però, mi hanno proposto la prima data disponibile: otto mesi dopo.\n\nNon sono una persona che si lamenta per principio. So che il personale sanitario è sotto organico e che molti medici sono andati in pensione senza essere sostituiti. Tuttavia non capisco perché, se esiste una priorità stabilita dal medico, questa non venga rispettata. Se avessi avuto la disponibilità economica, avrei pagato una visita privata, che si prenota in due giorni; ma non tutti possono permetterselo, e così il diritto alla cura finisce per dipendere dal portafoglio.\n\nAlla fine ho telefonato al numero verde della Regione, dove un'operatrice gentilissima mi ha spiegato che le agende sono chiuse e che l'unica possibilità è controllare ogni mattina le disdette. L'ho fatto per due settimane, finché un giorno si è liberato un posto per l'indomani. Mia madre è stata visitata e, per fortuna, non ha nulla di grave. Ma è giusto che ci si debba affidare alla fortuna?\n\nNon chiedo miracoli. Chiedo che le liste d'attesa siano pubbliche e trasparenti, che i pazienti vengano avvisati quando una visita è spostata e che i posti liberati dalle disdette siano riassegnati automaticamente. Sono misure che non costerebbero molto e che, a mio parere, restituirebbero un po' di fiducia a chi ogni giorno si rivolge al servizio sanitario. Nonostante tutto, continuo a pensare che la sanità pubblica sia una conquista da difendere.\n\nCordiali saluti,\nMarina Castelli, Valdoro",
+          "questions": [
+            {
+              "question": "Perché la scrivente si rivolge al giornale?",
+              "options": [
+                "Per ringraziare un medico di base",
+                "Per proporre l'apertura di un nuovo ospedale",
+                "Per protestare contro i tempi di attesa per una visita",
+                "Per raccontare la malattia di un parente lontano"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa è successo dopo il numero verde della Regione?",
+              "options": [
+                "Ha ottenuto subito la data di otto mesi dopo",
+                "Ha controllato le disdette finché si è liberato un posto",
+                "Ha prenotato una visita privata",
+                "Ha rinunciato alla visita"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa si può dedurre dalla frase «Se avessi avuto la disponibilità economica, avrei pagato una visita privata»?",
+              "options": [
+                "Ha già pagato una visita privata",
+                "Preferisce sempre le strutture private",
+                "Il medico le ha consigliato un privato",
+                "Non poteva permettersi una visita privata"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Qual è l'atteggiamento finale della lettera?",
+              "options": [
+                "Critico ma fiducioso nella sanità pubblica",
+                "Rassegnato e ostile ai medici",
+                "Entusiasta del servizio ricevuto",
+                "Indifferente verso le proposte"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l2-e02",
+          "stage": "learn",
+          "front": "la disdetta",
+          "back": "cancellation",
+          "example": "Grazie a una disdetta ho trovato un posto per domani."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l2-e03",
+          "stage": "learn",
+          "front": "sotto organico",
+          "back": "understaffed",
+          "example": "Il reparto è sotto organico da mesi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l2-e04",
+          "stage": "learn",
+          "front": "la lista d'attesa",
+          "back": "waiting list",
+          "example": "La lista d'attesa per la risonanza è lunghissima."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-05-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "visita",
+            "otto mesi",
+            "disdette",
+            "liste d'attesa"
+          ],
+          "modelAnswer": "Una donna racconta di aver aspettato mesi per prenotare una visita cardiologica urgente per la madre. Alla fine ha trovato un posto grazie a una disdetta, ma ritiene ingiusto dipendere dalla fortuna. Chiede liste d'attesa pubbliche, avvisi ai pazienti e riassegnazione automatica dei posti.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-05-l3",
+      "title": "Un fungo sorprendente",
+      "minutes": 10,
+      "goal": "Seguire un'intervista scientifica e distinguere ciò che la ricerca ha dimostrato da ciò che è stato esagerato.",
+      "takeaway": "Nelle interviste le domande guidano il testo: leggi prima le domande per cogliere la struttura, poi cerca nelle risposte cautele e limiti.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-05-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Un fungo sorprendente",
+          "passage": "Dottoressa Brandi, il suo gruppo ha identificato un fungo capace di decomporre alcuni tipi di plastica. Come è successo?\n\n«Per caso, come spesso accade. Stavamo analizzando campioni di terreno prelevati vicino a una vecchia discarica per un altro progetto. Una studentessa ha notato che un frammento di sacchetto, dimenticato in una provetta, era quasi scomparso dopo tre settimane. Se non avesse avuto l'abitudine di controllare ogni dettaglio, non ce ne saremmo mai accorti.»\n\nQuanto è stato difficile confermare il risultato?\n\n«Molto. All'inizio pensavamo a un errore, perciò abbiamo ripetuto l'esperimento più di venti volte. Il fungo non “mangia” la plastica in modo spettacolare: la degrada lentamente e solo a determinate temperature. Con altre plastiche abbiamo ottenuto risultati molto diversi e, in diversi casi, nessun effetto. Di conseguenza, non possiamo certo parlare di una soluzione al problema dei rifiuti.»\n\nEppure alcuni giornali hanno titolato sulla fine dell'inquinamento da plastica.\n\n«Purtroppo è un errore frequente. Nonostante l'entusiasmo, bisogna ricordare che i nostri dati riguardano il laboratorio, non l'ambiente. Prima che il fungo possa essere usato su larga scala, dovrà essere verificato che non danneggi altri organismi. Sarebbe un paradosso risolvere un problema creandone un altro.»\n\nChe cosa farete adesso?\n\n«Cercheremo di capire quale enzima produca l'effetto, così da poterlo riprodurre in modo più rapido e controllato. Se ci riuscissimo, potremmo trattare certi rifiuti in impianti dedicati, senza liberare il fungo nell'ambiente. Ma servono anni di lavoro e fondi che, per il momento, sono limitati. Il mio timore è che l'attenzione dei media svanisca prima che arrivino risposte solide.»",
+          "questions": [
+            {
+              "question": "Come è stata notata la capacità del fungo?",
+              "options": [
+                "Con un esperimento progettato da anni",
+                "Un frammento di plastica era quasi sparito in una provetta",
+                "Analizzando l'acqua di un fiume",
+                "Grazie a un articolo di un altro gruppo"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Perché la ricercatrice non parla di una soluzione ai rifiuti?",
+              "options": [
+                "La degradazione è lenta e avviene solo in certe condizioni",
+                "Il fungo mangia troppa plastica",
+                "Il fungo è già usato su larga scala",
+                "Gli esperimenti non sono mai stati ripetuti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Qual è la sua critica ai giornali?",
+              "options": [
+                "Non hanno parlato della scoperta",
+                "Hanno attribuito la scoperta a un'altra squadra",
+                "Hanno criticato la studentessa",
+                "Hanno trasformato un risultato di laboratorio in una promessa eccessiva"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Che cosa si può dedurre dalla fine dell'intervista?",
+              "options": [
+                "Il progetto è ormai concluso",
+                "I fondi sono più che sufficienti",
+                "Servono tempo e finanziamenti prima di ottenere applicazioni concrete",
+                "Il fungo sarà liberato presto nell'ambiente"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l3-e02",
+          "stage": "learn",
+          "front": "la provetta",
+          "back": "test tube",
+          "example": "Il campione è stato conservato in una provetta."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l3-e03",
+          "stage": "learn",
+          "front": "la discarica",
+          "back": "landfill",
+          "example": "La discarica è stata chiusa dieci anni fa."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l3-e04",
+          "stage": "learn",
+          "front": "su larga scala",
+          "back": "on a large scale",
+          "example": "Il progetto non può ancora essere applicato su larga scala."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-05-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "fungo",
+            "plastica",
+            "laboratorio",
+            "fondi"
+          ],
+          "modelAnswer": "Una ricercatrice racconta che il suo gruppo ha scoperto per caso un fungo che degrada lentamente la plastica. I risultati sono di laboratorio e non risolvono il problema dei rifiuti, nonostante l'entusiasmo dei giornali. Per ora servono anni di studio e fondi.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b2-05-l4",
+      "title": "L'ora del treno",
+      "minutes": 10,
+      "goal": "Leggere un breve saggio su un aneddoto storico e capire come l'esempio sostiene una riflessione generale.",
+      "takeaway": "Il saggio parte da un fatto concreto e arriva a un'idea generale: cerca la frase in cui l'autore passa dal racconto alla riflessione.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b2-05-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "L'ora del treno",
+          "passage": "Nel 1866, secondo una cronaca locale, l'arrivo della ferrovia a Roccalta, un paese di collina, provocò una piccola crisi. La stazione, infatti, segnava l'ora dettata dalla capitale, mentre l'orologio del campanile seguiva il sole, e tra i due c'erano quasi venti minuti di differenza. Gli abitanti, abituati a regolare la giornata sul suono delle campane, si ritrovarono a perdere il treno senza capire perché.\n\nLa soluzione fu trovata dopo mesi di proteste. Il sindaco, un notaio prudente, fece spostare le lancette del campanile e ordinò che le campane suonassero secondo l'orario della stazione. Molti anziani si rifiutarono di adeguarsi: dicevano che l'ora «vera» era quella del sole e che il treno, se voleva, poteva aspettare. Ma il treno non aspettava, e nel giro di qualche anno anche i più testardi impararono a guardare l'orologio della stazione.\n\nL'aneddoto ci fa sorridere, eppure racconta qualcosa di serio. Ogni volta che una tecnologia nuova entra nella vita quotidiana, di conseguenza cambiano anche le abitudini più profonde, compreso il modo di misurare il tempo. Non siamo noi a decidere in che momento un'innovazione diventa indispensabile: spesso lo capiamo solo quando ne siamo diventati dipendenti.\n\nOggi tocca agli schermi e alle reti. Se oggi qualcuno proponesse di tornare all'ora del sole, verrebbe preso per un nostalgico, esattamente come i vecchi di Roccalta. Tuttavia ricordare quella vicenda può aiutarci a guardare con meno ansia le novità del nostro tempo. Ogni epoca ha avuto i suoi orologi da spostare, e a ogni epoca è sembrato che il mondo stesse perdendo qualcosa. Forse è inevitabile che sia così; ciò che conta è decidere, ogni volta, che cosa vale la pena di conservare.",
+          "questions": [
+            {
+              "question": "Qual era il problema a Roccalta dopo l'arrivo della ferrovia?",
+              "options": [
+                "L'ora della stazione e quella del campanile non coincidevano",
+                "Il treno non si fermava mai in paese",
+                "Le campane erano state tolte dal campanile",
+                "Il sindaco aveva vietato i treni"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Come reagirono molti anziani alla soluzione del sindaco?",
+              "options": [
+                "Applaudirono la decisione",
+                "Smisero di prendere il treno",
+                "Si rifiutarono di adeguarsi, ritenendo vera l'ora del sole",
+                "Chiesero di costruire un nuovo campanile"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che idea generale ricava l'autore dall'aneddoto?",
+              "options": [
+                "Il passato era migliore del presente",
+                "Le innovazioni cambiano anche le abitudini più radicate",
+                "La tecnologia non cambia mai la vita quotidiana",
+                "Il tempo è sempre misurato dal sole"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa suggerisce il tono dell'ultimo paragrafo?",
+              "options": [
+                "Un rimpianto per il passato",
+                "Un rifiuto netto degli schermi",
+                "Una critica al sindaco",
+                "Un invito a guardare le novità con meno ansia"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l4-e02",
+          "stage": "learn",
+          "front": "la lancetta",
+          "back": "clock hand",
+          "example": "La lancetta dei minuti si è fermata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l4-e03",
+          "stage": "learn",
+          "front": "testardo",
+          "back": "stubborn",
+          "example": "È così testardo che non ascolta nessuno."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b2-05-l4-e04",
+          "stage": "learn",
+          "front": "il campanile",
+          "back": "bell tower",
+          "example": "Dal campanile si vede tutta la valle."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b2-05-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "ferrovia",
+            "campanile",
+            "anziani",
+            "innovazione"
+          ],
+          "modelAnswer": "Nel 1866 l'arrivo del treno a Roccalta creò un conflitto tra l'ora della stazione e quella del campanile. Il sindaco fece cambiare l'orologio, anche se molti anziani protestarono. L'autore conclude che ogni novità cambia le abitudini e che conviene guardarla con meno ansia.",
+          "explanation": "Riassumere a voce senza guardare il testo allena il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "sgravio fiscale",
+      "en": "tax relief",
+      "example": "Il governo ha introdotto uno sgravio fiscale per le giovani coppie."
+    },
+    {
+      "it": "sfitto",
+      "en": "vacant, unlet",
+      "example": "Nel quartiere ci sono molti negozi sfitti."
+    },
+    {
+      "it": "il pendolare",
+      "en": "commuter",
+      "example": "Ogni mattina il pendolare prende il treno delle sei."
+    },
+    {
+      "it": "la disdetta",
+      "en": "cancellation",
+      "example": "Grazie a una disdetta ho trovato un posto per domani."
+    },
+    {
+      "it": "sotto organico",
+      "en": "understaffed",
+      "example": "Il reparto è sotto organico da mesi."
+    },
+    {
+      "it": "la lista d'attesa",
+      "en": "waiting list",
+      "example": "La lista d'attesa per la risonanza è lunghissima."
+    },
+    {
+      "it": "la provetta",
+      "en": "test tube",
+      "example": "Il campione è stato conservato in una provetta."
+    },
+    {
+      "it": "la discarica",
+      "en": "landfill",
+      "example": "La discarica è stata chiusa dieci anni fa."
+    },
+    {
+      "it": "su larga scala",
+      "en": "on a large scale",
+      "example": "Il progetto non può ancora essere applicato su larga scala."
+    },
+    {
+      "it": "la lancetta",
+      "en": "clock hand",
+      "example": "La lancetta dei minuti si è fermata."
+    },
+    {
+      "it": "testardo",
+      "en": "stubborn",
+      "example": "È così testardo che non ascolta nessuno."
+    },
+    {
+      "it": "il campanile",
+      "en": "bell tower",
+      "example": "Dal campanile si vede tutta la valle."
+    }
+  ]
+}

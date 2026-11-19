@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b1-05",
+  "level": "ASC",
+  "title": "Servizi in città",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni sui servizi della città (circa 100–140 parole): un taxi, un ufficio oggetti smarriti, un negozio di telefonia, una ciclofficina, un annuncio in palestra e gli orari di un traghetto.",
+  "grammarFocus": "Ascolto: orari, prezzi, condizioni e consigli nei messaggi di servizio.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b1-05-l1",
+      "title": "Prenotazione del taxi",
+      "minutes": 6,
+      "goal": "Capire una conferma di prenotazione di un taxi.",
+      "takeaway": "Nelle conferme ascolta ora, indirizzo e prezzo.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-05-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l1-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Ferrari, sono Paolo della cooperativa taxi Azzurra, ehm, la chiamo per la prenotazione di domani. Allora, il taxi passerà a prendere lei in via dei Tigli, al numero dodici, alle sei e quarantacinque, quindi un po' prima delle sette. Per l'aeroporto ci vogliono circa quaranta minuti, ma domani mattina c'è un mercato in centro e il traffico può essere più lento, quindi meglio partire presto. Ha due valigie grandi e un passeggino, giusto? Va benissimo, il nostro furgone ha molto spazio. Il prezzo è fisso: quarantacinque euro, e può pagare anche con la carta. Se cambia idea, mi richiami entro stasera. Altrimenti ci vediamo domani. Buona serata e buon viaggio.",
+          "question": "Dove deve andare la signora?",
+          "options": [
+            "Alla stazione",
+            "All'ospedale",
+            "All'aeroporto",
+            "Al mercato in centro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l1-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Ferrari, sono Paolo della cooperativa taxi Azzurra, ehm, la chiamo per la prenotazione di domani. Allora, il taxi passerà a prendere lei in via dei Tigli, al numero dodici, alle sei e quarantacinque, quindi un po' prima delle sette. Per l'aeroporto ci vogliono circa quaranta minuti, ma domani mattina c'è un mercato in centro e il traffico può essere più lento, quindi meglio partire presto. Ha due valigie grandi e un passeggino, giusto? Va benissimo, il nostro furgone ha molto spazio. Il prezzo è fisso: quarantacinque euro, e può pagare anche con la carta. Se cambia idea, mi richiami entro stasera. Altrimenti ci vediamo domani. Buona serata e buon viaggio.",
+          "question": "A che ora passa il taxi?",
+          "options": [
+            "Alle sei e quarantacinque",
+            "Alle sette",
+            "Alle sei e un quarto",
+            "Alle sette e quaranta"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l1-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Ferrari, sono Paolo della cooperativa taxi Azzurra, ehm, la chiamo per la prenotazione di domani. Allora, il taxi passerà a prendere lei in via dei Tigli, al numero dodici, alle sei e quarantacinque, quindi un po' prima delle sette. Per l'aeroporto ci vogliono circa quaranta minuti, ma domani mattina c'è un mercato in centro e il traffico può essere più lento, quindi meglio partire presto. Ha due valigie grandi e un passeggino, giusto? Va benissimo, il nostro furgone ha molto spazio. Il prezzo è fisso: quarantacinque euro, e può pagare anche con la carta. Se cambia idea, mi richiami entro stasera. Altrimenti ci vediamo domani. Buona serata e buon viaggio.",
+          "question": "Perché conviene partire presto?",
+          "options": [
+            "Il taxi è molto lento",
+            "L'aeroporto chiude presto",
+            "Ci sono poche macchine",
+            "Il mercato può rallentare il traffico"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l1-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Ferrari, sono Paolo della cooperativa taxi Azzurra, ehm, la chiamo per la prenotazione di domani. Allora, il taxi passerà a prendere lei in via dei Tigli, al numero dodici, alle sei e quarantacinque, quindi un po' prima delle sette. Per l'aeroporto ci vogliono circa quaranta minuti, ma domani mattina c'è un mercato in centro e il traffico può essere più lento, quindi meglio partire presto. Ha due valigie grandi e un passeggino, giusto? Va benissimo, il nostro furgone ha molto spazio. Il prezzo è fisso: quarantacinque euro, e può pagare anche con la carta. Se cambia idea, mi richiami entro stasera. Altrimenti ci vediamo domani. Buona serata e buon viaggio.",
+          "question": "Come può pagare la signora?",
+          "options": [
+            "Solo in contanti",
+            "Con la carta, con un prezzo fisso",
+            "Con il tassametro",
+            "Al ritorno"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l1-e06",
+          "stage": "learn",
+          "front": "la valigia",
+          "back": "suitcase",
+          "example": "Ho preparato una valigia piccola."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l1-e07",
+          "stage": "learn",
+          "front": "il passeggino",
+          "back": "pushchair, stroller",
+          "example": "Il passeggino sta nel bagagliaio."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-05-l2",
+      "title": "Ufficio oggetti smarriti",
+      "minutes": 6,
+      "goal": "Capire un messaggio dall'ufficio oggetti smarriti.",
+      "takeaway": "Per recuperare un oggetto controlla orari, luogo e scadenze.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-05-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l2-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, qui è l'ufficio oggetti smarriti del comune, ehm, parla Marta. Lei ha lasciato una denuncia per uno zaino blu perso sull'autobus, giusto? Ecco, abbiamo trovato uno zaino che somiglia al suo. Dentro ci sono un quaderno, una bottiglia d'acqua e un paio di occhiali da sole, ma non c'è nessun documento. Per controllare che sia davvero il suo, deve dirci che cosa c'era nella tasca davanti. L'ufficio è aperto dal lunedì al venerdì, dalle nove a mezzogiorno e dalle quindici alle diciassette, mentre il sabato è chiuso. Attenzione: dopo trenta giorni gli oggetti vengono dati a un'associazione, quindi non aspetti troppo. Si trova in via Garibaldi, al secondo piano, e c'è anche l'ascensore. A presto, grazie.",
+          "question": "Che cosa ha perso il cliente?",
+          "options": [
+            "Un paio di occhiali",
+            "Uno zaino blu",
+            "Una bottiglia d'acqua",
+            "Un quaderno blu"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l2-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, qui è l'ufficio oggetti smarriti del comune, ehm, parla Marta. Lei ha lasciato una denuncia per uno zaino blu perso sull'autobus, giusto? Ecco, abbiamo trovato uno zaino che somiglia al suo. Dentro ci sono un quaderno, una bottiglia d'acqua e un paio di occhiali da sole, ma non c'è nessun documento. Per controllare che sia davvero il suo, deve dirci che cosa c'era nella tasca davanti. L'ufficio è aperto dal lunedì al venerdì, dalle nove a mezzogiorno e dalle quindici alle diciassette, mentre il sabato è chiuso. Attenzione: dopo trenta giorni gli oggetti vengono dati a un'associazione, quindi non aspetti troppo. Si trova in via Garibaldi, al secondo piano, e c'è anche l'ascensore. A presto, grazie.",
+          "question": "Che cosa manca nello zaino?",
+          "options": [
+            "Il quaderno",
+            "Gli occhiali da sole",
+            "I documenti",
+            "La bottiglia"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l2-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, qui è l'ufficio oggetti smarriti del comune, ehm, parla Marta. Lei ha lasciato una denuncia per uno zaino blu perso sull'autobus, giusto? Ecco, abbiamo trovato uno zaino che somiglia al suo. Dentro ci sono un quaderno, una bottiglia d'acqua e un paio di occhiali da sole, ma non c'è nessun documento. Per controllare che sia davvero il suo, deve dirci che cosa c'era nella tasca davanti. L'ufficio è aperto dal lunedì al venerdì, dalle nove a mezzogiorno e dalle quindici alle diciassette, mentre il sabato è chiuso. Attenzione: dopo trenta giorni gli oggetti vengono dati a un'associazione, quindi non aspetti troppo. Si trova in via Garibaldi, al secondo piano, e c'è anche l'ascensore. A presto, grazie.",
+          "question": "Che cosa deve dire il cliente?",
+          "options": [
+            "Che cosa c'era nella tasca davanti",
+            "Dove ha perso lo zaino",
+            "Il suo numero di telefono",
+            "Il colore degli occhiali"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l2-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, qui è l'ufficio oggetti smarriti del comune, ehm, parla Marta. Lei ha lasciato una denuncia per uno zaino blu perso sull'autobus, giusto? Ecco, abbiamo trovato uno zaino che somiglia al suo. Dentro ci sono un quaderno, una bottiglia d'acqua e un paio di occhiali da sole, ma non c'è nessun documento. Per controllare che sia davvero il suo, deve dirci che cosa c'era nella tasca davanti. L'ufficio è aperto dal lunedì al venerdì, dalle nove a mezzogiorno e dalle quindici alle diciassette, mentre il sabato è chiuso. Attenzione: dopo trenta giorni gli oggetti vengono dati a un'associazione, quindi non aspetti troppo. Si trova in via Garibaldi, al secondo piano, e c'è anche l'ascensore. A presto, grazie.",
+          "question": "Quando l'ufficio è aperto al pomeriggio?",
+          "options": [
+            "Dalle nove a mezzogiorno",
+            "Il sabato dopo le quindici",
+            "Dalle diciassette in poi",
+            "Dalle quindici alle diciassette"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l2-e06",
+          "stage": "learn",
+          "front": "lo zaino",
+          "back": "backpack",
+          "example": "Nello zaino ho il pranzo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l2-e07",
+          "stage": "learn",
+          "front": "smarrito",
+          "back": "lost, mislaid",
+          "example": "Ho smarrito le chiavi di casa."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-05-l3",
+      "title": "Negozio di telefonia",
+      "minutes": 6,
+      "goal": "Capire un messaggio sulla riparazione di un telefono.",
+      "takeaway": "Quando confronti due opzioni, ascolta quale conviene e perché.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-05-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l3-e02",
+          "stage": "practise",
+          "audioText": "Salve, sono Davide del negozio Telefonia Sereni, la chiamo riguardo al suo telefono. Abbiamo guardato lo schermo e, purtroppo, è rotto in due punti, quindi bisogna sostituirlo. La riparazione costa novanta euro e ci vogliono due giorni, quindi sarà pronto lunedì, ehm, lunedì pomeriggio. Se invece preferisce un telefono nuovo, adesso c'è una promozione: un modello semplice a centosettanta euro, con una custodia in regalo. Però, sinceramente, per lei la riparazione conviene, perché la batteria è ancora buona. Una cosa importante: prima di venire, faccia una copia delle foto, perché a volte durante la riparazione si cancellano i dati. Il negozio chiude alle diciannove e trenta. Mi faccia sapere cosa decide, grazie e a presto.",
+          "question": "Qual è il problema del telefono?",
+          "options": [
+            "Lo schermo è rotto",
+            "La batteria è finita",
+            "Non si accende più",
+            "Ha perso i dati"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l3-e03",
+          "stage": "practise",
+          "audioText": "Salve, sono Davide del negozio Telefonia Sereni, la chiamo riguardo al suo telefono. Abbiamo guardato lo schermo e, purtroppo, è rotto in due punti, quindi bisogna sostituirlo. La riparazione costa novanta euro e ci vogliono due giorni, quindi sarà pronto lunedì, ehm, lunedì pomeriggio. Se invece preferisce un telefono nuovo, adesso c'è una promozione: un modello semplice a centosettanta euro, con una custodia in regalo. Però, sinceramente, per lei la riparazione conviene, perché la batteria è ancora buona. Una cosa importante: prima di venire, faccia una copia delle foto, perché a volte durante la riparazione si cancellano i dati. Il negozio chiude alle diciannove e trenta. Mi faccia sapere cosa decide, grazie e a presto.",
+          "question": "Quanto costa la riparazione?",
+          "options": [
+            "Centosettanta euro",
+            "Cinquanta euro",
+            "Novanta euro",
+            "Duecento euro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l3-e04",
+          "stage": "practise",
+          "audioText": "Salve, sono Davide del negozio Telefonia Sereni, la chiamo riguardo al suo telefono. Abbiamo guardato lo schermo e, purtroppo, è rotto in due punti, quindi bisogna sostituirlo. La riparazione costa novanta euro e ci vogliono due giorni, quindi sarà pronto lunedì, ehm, lunedì pomeriggio. Se invece preferisce un telefono nuovo, adesso c'è una promozione: un modello semplice a centosettanta euro, con una custodia in regalo. Però, sinceramente, per lei la riparazione conviene, perché la batteria è ancora buona. Una cosa importante: prima di venire, faccia una copia delle foto, perché a volte durante la riparazione si cancellano i dati. Il negozio chiude alle diciannove e trenta. Mi faccia sapere cosa decide, grazie e a presto.",
+          "question": "Perché per il cliente conviene riparare?",
+          "options": [
+            "Il telefono nuovo costa troppo",
+            "La batteria è ancora buona",
+            "C'è uno sconto sulla riparazione",
+            "La custodia è in regalo"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l3-e05",
+          "stage": "practise",
+          "audioText": "Salve, sono Davide del negozio Telefonia Sereni, la chiamo riguardo al suo telefono. Abbiamo guardato lo schermo e, purtroppo, è rotto in due punti, quindi bisogna sostituirlo. La riparazione costa novanta euro e ci vogliono due giorni, quindi sarà pronto lunedì, ehm, lunedì pomeriggio. Se invece preferisce un telefono nuovo, adesso c'è una promozione: un modello semplice a centosettanta euro, con una custodia in regalo. Però, sinceramente, per lei la riparazione conviene, perché la batteria è ancora buona. Una cosa importante: prima di venire, faccia una copia delle foto, perché a volte durante la riparazione si cancellano i dati. Il negozio chiude alle diciannove e trenta. Mi faccia sapere cosa decide, grazie e a presto.",
+          "question": "Che cosa deve fare il cliente prima di venire?",
+          "options": [
+            "Pagare in anticipo",
+            "Comprare una custodia",
+            "Cancellare i dati",
+            "Fare una copia delle foto"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l3-e06",
+          "stage": "learn",
+          "front": "lo schermo",
+          "back": "screen",
+          "example": "Lo schermo del telefono è rotto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l3-e07",
+          "stage": "learn",
+          "front": "la batteria",
+          "back": "battery",
+          "example": "La batteria dura tutto il giorno."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-05-l4",
+      "title": "Ciclofficina",
+      "minutes": 6,
+      "goal": "Capire un messaggio sulla riparazione di una bicicletta.",
+      "takeaway": "Distingui che cosa è già fatto, che cosa costa extra e che cosa è un consiglio.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-05-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l4-e02",
+          "stage": "practise",
+          "audioText": "Ciao Elisa, sono Tommaso della ciclofficina, ehm, volevo dirti due cose sulla tua bici. Allora, la ruota dietro era storta e l'ho sistemata, ho cambiato anche la camera d'aria, perché c'era un buco. I freni, invece, vanno ancora bene, non serve toccarli. Però la catena è molto vecchia e fa rumore: se vuoi, la cambio, ma costa venticinque euro in più. Per ora il conto è di diciotto euro. Puoi passare oggi fino alle sei, oppure domani mattina, io apro alle nove. Ah, un consiglio: porta un lucchetto più robusto, perché in questa zona rubano parecchie bici. Se ti serve il cestino per la spesa, ne ho uno usato che ti regalo. Fammi sapere, ciao ciao.",
+          "question": "Che cosa ha sistemato Tommaso?",
+          "options": [
+            "I freni",
+            "La ruota dietro",
+            "Il cestino",
+            "La catena"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l4-e03",
+          "stage": "practise",
+          "audioText": "Ciao Elisa, sono Tommaso della ciclofficina, ehm, volevo dirti due cose sulla tua bici. Allora, la ruota dietro era storta e l'ho sistemata, ho cambiato anche la camera d'aria, perché c'era un buco. I freni, invece, vanno ancora bene, non serve toccarli. Però la catena è molto vecchia e fa rumore: se vuoi, la cambio, ma costa venticinque euro in più. Per ora il conto è di diciotto euro. Puoi passare oggi fino alle sei, oppure domani mattina, io apro alle nove. Ah, un consiglio: porta un lucchetto più robusto, perché in questa zona rubano parecchie bici. Se ti serve il cestino per la spesa, ne ho uno usato che ti regalo. Fammi sapere, ciao ciao.",
+          "question": "Che cosa costa venticinque euro in più?",
+          "options": [
+            "La catena nuova",
+            "La camera d'aria",
+            "Il lucchetto",
+            "Il cestino"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l4-e04",
+          "stage": "practise",
+          "audioText": "Ciao Elisa, sono Tommaso della ciclofficina, ehm, volevo dirti due cose sulla tua bici. Allora, la ruota dietro era storta e l'ho sistemata, ho cambiato anche la camera d'aria, perché c'era un buco. I freni, invece, vanno ancora bene, non serve toccarli. Però la catena è molto vecchia e fa rumore: se vuoi, la cambio, ma costa venticinque euro in più. Per ora il conto è di diciotto euro. Puoi passare oggi fino alle sei, oppure domani mattina, io apro alle nove. Ah, un consiglio: porta un lucchetto più robusto, perché in questa zona rubano parecchie bici. Se ti serve il cestino per la spesa, ne ho uno usato che ti regalo. Fammi sapere, ciao ciao.",
+          "question": "Quanto costa il lavoro già fatto?",
+          "options": [
+            "Venticinque euro",
+            "Quarantatré euro",
+            "Otto euro",
+            "Diciotto euro"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l4-e05",
+          "stage": "practise",
+          "audioText": "Ciao Elisa, sono Tommaso della ciclofficina, ehm, volevo dirti due cose sulla tua bici. Allora, la ruota dietro era storta e l'ho sistemata, ho cambiato anche la camera d'aria, perché c'era un buco. I freni, invece, vanno ancora bene, non serve toccarli. Però la catena è molto vecchia e fa rumore: se vuoi, la cambio, ma costa venticinque euro in più. Per ora il conto è di diciotto euro. Puoi passare oggi fino alle sei, oppure domani mattina, io apro alle nove. Ah, un consiglio: porta un lucchetto più robusto, perché in questa zona rubano parecchie bici. Se ti serve il cestino per la spesa, ne ho uno usato che ti regalo. Fammi sapere, ciao ciao.",
+          "question": "Che consiglio dà Tommaso?",
+          "options": [
+            "Cambiare i freni",
+            "Usare la bici di meno",
+            "Comprare un lucchetto più robusto",
+            "Passare dopo le sei"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l4-e06",
+          "stage": "learn",
+          "front": "la catena",
+          "back": "chain",
+          "example": "La catena della bici è arrugginita."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l4-e07",
+          "stage": "learn",
+          "front": "il lucchetto",
+          "back": "padlock",
+          "example": "Chiudo la bici con un lucchetto."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-05-l5",
+      "title": "Annuncio in palestra",
+      "minutes": 6,
+      "goal": "Capire un annuncio con cambi di orario e corsi.",
+      "takeaway": "Negli annunci cerca che cosa cambia, quando e perché.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-05-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l5-e02",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, qui la palestra Energia. Vi ricordiamo alcune novità per il nuovo mese. Da lunedì il corso di yoga si sposta dalla sala grande alla sala piccola, perché la sala grande è in ristrutturazione. Il corso resta alle diciotto e trenta, ma dura cinquanta minuti, non più un'ora. Invece il corso di spinning del martedì, ehm, è cancellato, perché l'istruttore è in vacanza fino al quindici. Lo sostituiamo con una lezione di stretching, sempre alle venti. Per le lezioni bisogna prenotarsi sull'applicazione entro le due del pomeriggio, altrimenti si perde il posto. Ricordiamo anche che gli armadietti devono essere liberati ogni sera: gli oggetti lasciati vengono tolti il venerdì. Grazie e buon allenamento.",
+          "question": "Perché il corso di yoga cambia sala?",
+          "options": [
+            "La sala piccola è più calda",
+            "Ci sono meno iscritti",
+            "La sala grande è in ristrutturazione",
+            "L'istruttore è in vacanza"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l5-e03",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, qui la palestra Energia. Vi ricordiamo alcune novità per il nuovo mese. Da lunedì il corso di yoga si sposta dalla sala grande alla sala piccola, perché la sala grande è in ristrutturazione. Il corso resta alle diciotto e trenta, ma dura cinquanta minuti, non più un'ora. Invece il corso di spinning del martedì, ehm, è cancellato, perché l'istruttore è in vacanza fino al quindici. Lo sostituiamo con una lezione di stretching, sempre alle venti. Per le lezioni bisogna prenotarsi sull'applicazione entro le due del pomeriggio, altrimenti si perde il posto. Ricordiamo anche che gli armadietti devono essere liberati ogni sera: gli oggetti lasciati vengono tolti il venerdì. Grazie e buon allenamento.",
+          "question": "Quanto dura adesso il corso di yoga?",
+          "options": [
+            "Cinquanta minuti",
+            "Un'ora",
+            "Quaranta minuti",
+            "Un'ora e mezza"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l5-e04",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, qui la palestra Energia. Vi ricordiamo alcune novità per il nuovo mese. Da lunedì il corso di yoga si sposta dalla sala grande alla sala piccola, perché la sala grande è in ristrutturazione. Il corso resta alle diciotto e trenta, ma dura cinquanta minuti, non più un'ora. Invece il corso di spinning del martedì, ehm, è cancellato, perché l'istruttore è in vacanza fino al quindici. Lo sostituiamo con una lezione di stretching, sempre alle venti. Per le lezioni bisogna prenotarsi sull'applicazione entro le due del pomeriggio, altrimenti si perde il posto. Ricordiamo anche che gli armadietti devono essere liberati ogni sera: gli oggetti lasciati vengono tolti il venerdì. Grazie e buon allenamento.",
+          "question": "Che cosa sostituisce lo spinning del martedì?",
+          "options": [
+            "Un corso di yoga",
+            "Una lezione di stretching",
+            "Una lezione di nuoto",
+            "Niente"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l5-e05",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti, qui la palestra Energia. Vi ricordiamo alcune novità per il nuovo mese. Da lunedì il corso di yoga si sposta dalla sala grande alla sala piccola, perché la sala grande è in ristrutturazione. Il corso resta alle diciotto e trenta, ma dura cinquanta minuti, non più un'ora. Invece il corso di spinning del martedì, ehm, è cancellato, perché l'istruttore è in vacanza fino al quindici. Lo sostituiamo con una lezione di stretching, sempre alle venti. Per le lezioni bisogna prenotarsi sull'applicazione entro le due del pomeriggio, altrimenti si perde il posto. Ricordiamo anche che gli armadietti devono essere liberati ogni sera: gli oggetti lasciati vengono tolti il venerdì. Grazie e buon allenamento.",
+          "question": "Entro quando bisogna prenotarsi?",
+          "options": [
+            "Entro le otto di sera",
+            "Entro il venerdì",
+            "Entro mezzogiorno",
+            "Entro le due del pomeriggio"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l5-e06",
+          "stage": "learn",
+          "front": "l'armadietto",
+          "back": "locker",
+          "example": "Metto la borsa nell'armadietto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l5-e07",
+          "stage": "learn",
+          "front": "prenotarsi",
+          "back": "to sign up, to book a place",
+          "example": "Ci si prenota sull'applicazione."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-05-l6",
+      "title": "Orari del traghetto",
+      "minutes": 6,
+      "goal": "Capire gli orari e le regole di un traghetto.",
+      "takeaway": "Con gli orari ascolta bene che cosa è cambiato e quanto si paga.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-05-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l6-e02",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, ecco gli orari del traghetto per l'isola per la giornata di sabato. Le partenze dal porto sono alle sette e quindici, alle undici, alle quindici e trenta e alle diciannove. Attenzione: l'ultima corsa dall'isola al porto parte alle venti, e non alle ventuno come nei mesi scorsi. La traversata dura circa quaranta minuti, ma se il mare è mosso può durare di più. Il biglietto per un adulto costa nove euro, i bambini sotto i sei anni viaggiano gratis, mentre per la bicicletta si pagano due euro. Le auto non possono salire sul traghetto delle undici, perché è già pieno di merci. Vi consigliamo di arrivare al molo venti minuti prima. Per sapere se il traghetto parte, ascoltate sempre il nostro messaggio registrato. Buon viaggio.",
+          "question": "A che ora parte l'ultima corsa dall'isola?",
+          "options": [
+            "Alle ventuno",
+            "Alle venti",
+            "Alle diciannove",
+            "Alle quindici e trenta"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l6-e03",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, ecco gli orari del traghetto per l'isola per la giornata di sabato. Le partenze dal porto sono alle sette e quindici, alle undici, alle quindici e trenta e alle diciannove. Attenzione: l'ultima corsa dall'isola al porto parte alle venti, e non alle ventuno come nei mesi scorsi. La traversata dura circa quaranta minuti, ma se il mare è mosso può durare di più. Il biglietto per un adulto costa nove euro, i bambini sotto i sei anni viaggiano gratis, mentre per la bicicletta si pagano due euro. Le auto non possono salire sul traghetto delle undici, perché è già pieno di merci. Vi consigliamo di arrivare al molo venti minuti prima. Per sapere se il traghetto parte, ascoltate sempre il nostro messaggio registrato. Buon viaggio.",
+          "question": "Quanto si paga per la bicicletta?",
+          "options": [
+            "Due euro",
+            "Nove euro",
+            "Niente",
+            "Sei euro"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l6-e04",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, ecco gli orari del traghetto per l'isola per la giornata di sabato. Le partenze dal porto sono alle sette e quindici, alle undici, alle quindici e trenta e alle diciannove. Attenzione: l'ultima corsa dall'isola al porto parte alle venti, e non alle ventuno come nei mesi scorsi. La traversata dura circa quaranta minuti, ma se il mare è mosso può durare di più. Il biglietto per un adulto costa nove euro, i bambini sotto i sei anni viaggiano gratis, mentre per la bicicletta si pagano due euro. Le auto non possono salire sul traghetto delle undici, perché è già pieno di merci. Vi consigliamo di arrivare al molo venti minuti prima. Per sapere se il traghetto parte, ascoltate sempre il nostro messaggio registrato. Buon viaggio.",
+          "question": "Chi viaggia gratis?",
+          "options": [
+            "Gli anziani",
+            "Chi ha la bicicletta",
+            "I bambini sotto i sei anni",
+            "I ragazzi sotto i dodici anni"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-05-l6-e05",
+          "stage": "practise",
+          "audioText": "Gentili passeggeri, ecco gli orari del traghetto per l'isola per la giornata di sabato. Le partenze dal porto sono alle sette e quindici, alle undici, alle quindici e trenta e alle diciannove. Attenzione: l'ultima corsa dall'isola al porto parte alle venti, e non alle ventuno come nei mesi scorsi. La traversata dura circa quaranta minuti, ma se il mare è mosso può durare di più. Il biglietto per un adulto costa nove euro, i bambini sotto i sei anni viaggiano gratis, mentre per la bicicletta si pagano due euro. Le auto non possono salire sul traghetto delle undici, perché è già pieno di merci. Vi consigliamo di arrivare al molo venti minuti prima. Per sapere se il traghetto parte, ascoltate sempre il nostro messaggio registrato. Buon viaggio.",
+          "question": "Quando conviene arrivare al molo?",
+          "options": [
+            "Quaranta minuti prima",
+            "Un'ora prima",
+            "Cinque minuti prima",
+            "Venti minuti prima"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l6-e06",
+          "stage": "learn",
+          "front": "il traghetto",
+          "back": "ferry",
+          "example": "Il traghetto parte dal porto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-05-l6-e07",
+          "stage": "learn",
+          "front": "il molo",
+          "back": "pier, quay",
+          "example": "Ti aspetto sul molo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la valigia",
+      "en": "suitcase",
+      "example": "Ho preparato una valigia piccola."
+    },
+    {
+      "it": "il passeggino",
+      "en": "pushchair, stroller",
+      "example": "Il passeggino sta nel bagagliaio."
+    },
+    {
+      "it": "lo zaino",
+      "en": "backpack",
+      "example": "Nello zaino ho il pranzo."
+    },
+    {
+      "it": "smarrito",
+      "en": "lost, mislaid",
+      "example": "Ho smarrito le chiavi di casa."
+    },
+    {
+      "it": "lo schermo",
+      "en": "screen",
+      "example": "Lo schermo del telefono è rotto."
+    },
+    {
+      "it": "la batteria",
+      "en": "battery",
+      "example": "La batteria dura tutto il giorno."
+    },
+    {
+      "it": "la catena",
+      "en": "chain",
+      "example": "La catena della bici è arrugginita."
+    },
+    {
+      "it": "il lucchetto",
+      "en": "padlock",
+      "example": "Chiudo la bici con un lucchetto."
+    },
+    {
+      "it": "l'armadietto",
+      "en": "locker",
+      "example": "Metto la borsa nell'armadietto."
+    },
+    {
+      "it": "prenotarsi",
+      "en": "to sign up, to book a place",
+      "example": "Ci si prenota sull'applicazione."
+    },
+    {
+      "it": "il traghetto",
+      "en": "ferry",
+      "example": "Il traghetto parte dal porto."
+    },
+    {
+      "it": "il molo",
+      "en": "pier, quay",
+      "example": "Ti aspetto sul molo."
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b1-04",
+  "level": "ASC",
+  "title": "Casa e lavoro",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni su casa e lavoro (circa 100–140 parole): un messaggio del padrone di casa, un invito a un colloquio, la segreteria di una collega, un'offerta del supermercato, il programma di un cinema e un biglietto per i vicini.",
+  "grammarFocus": "Ascolto: leggere le domande prima, idea generale e dettagli, scadenze, richieste, condizioni e prezzi.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b1-04-l1",
+      "title": "Messaggio del padrone di casa",
+      "minutes": 6,
+      "goal": "Capire un messaggio sull'appartamento in affitto.",
+      "takeaway": "Nei messaggi del padrone di casa cerca i lavori, gli orari e che cosa devi fare tu.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-04-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l1-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Paolo Ferrari, il proprietario dell'appartamento di via dei Gelsi. La chiamo perché domani mattina viene l'idraulico per riparare la perdita nel bagno. Arriverà tra le otto e le nove e il lavoro dura circa due ore. Se lei non è a casa, può lasciare le chiavi alla portinaia, la signora Rosa, che sta al piano terra. Poi, un'altra cosa: l'affitto di questo mese è arrivato con tre giorni di ritardo. Non è un problema, ma la prossima volta mi avvisi. Infine, la caldaia va controllata entro la fine del mese: il tecnico telefonerà direttamente a lei per fissare l'appuntamento. Mi richiami quando può, ma non dopo le sette di sera. Grazie e buona giornata.",
+          "question": "Perché viene l'idraulico?",
+          "options": [
+            "Per cambiare la caldaia",
+            "Per controllare il gas",
+            "Per montare la cucina",
+            "Per riparare una perdita nel bagno"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l1-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Paolo Ferrari, il proprietario dell'appartamento di via dei Gelsi. La chiamo perché domani mattina viene l'idraulico per riparare la perdita nel bagno. Arriverà tra le otto e le nove e il lavoro dura circa due ore. Se lei non è a casa, può lasciare le chiavi alla portinaia, la signora Rosa, che sta al piano terra. Poi, un'altra cosa: l'affitto di questo mese è arrivato con tre giorni di ritardo. Non è un problema, ma la prossima volta mi avvisi. Infine, la caldaia va controllata entro la fine del mese: il tecnico telefonerà direttamente a lei per fissare l'appuntamento. Mi richiami quando può, ma non dopo le sette di sera. Grazie e buona giornata.",
+          "question": "A chi può lasciare le chiavi l'inquilino?",
+          "options": [
+            "Alla portinaia",
+            "Al vicino",
+            "All'idraulico",
+            "Al proprietario"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l1-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Paolo Ferrari, il proprietario dell'appartamento di via dei Gelsi. La chiamo perché domani mattina viene l'idraulico per riparare la perdita nel bagno. Arriverà tra le otto e le nove e il lavoro dura circa due ore. Se lei non è a casa, può lasciare le chiavi alla portinaia, la signora Rosa, che sta al piano terra. Poi, un'altra cosa: l'affitto di questo mese è arrivato con tre giorni di ritardo. Non è un problema, ma la prossima volta mi avvisi. Infine, la caldaia va controllata entro la fine del mese: il tecnico telefonerà direttamente a lei per fissare l'appuntamento. Mi richiami quando può, ma non dopo le sette di sera. Grazie e buona giornata.",
+          "question": "Che cosa è successo all'affitto?",
+          "options": [
+            "Non è stato pagato",
+            "È arrivato con tre giorni di ritardo",
+            "È aumentato",
+            "È arrivato in anticipo"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l1-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, sono Paolo Ferrari, il proprietario dell'appartamento di via dei Gelsi. La chiamo perché domani mattina viene l'idraulico per riparare la perdita nel bagno. Arriverà tra le otto e le nove e il lavoro dura circa due ore. Se lei non è a casa, può lasciare le chiavi alla portinaia, la signora Rosa, che sta al piano terra. Poi, un'altra cosa: l'affitto di questo mese è arrivato con tre giorni di ritardo. Non è un problema, ma la prossima volta mi avvisi. Infine, la caldaia va controllata entro la fine del mese: il tecnico telefonerà direttamente a lei per fissare l'appuntamento. Mi richiami quando può, ma non dopo le sette di sera. Grazie e buona giornata.",
+          "question": "Chi telefonerà per il controllo della caldaia?",
+          "options": [
+            "Il proprietario",
+            "La portinaia",
+            "Il tecnico",
+            "L'idraulico"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l1-e06",
+          "stage": "learn",
+          "front": "l'affitto",
+          "back": "rent",
+          "example": "L'affitto si paga il primo del mese."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l1-e07",
+          "stage": "learn",
+          "front": "la perdita",
+          "back": "leak",
+          "example": "C'è una perdita d'acqua in bagno."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-04-l2",
+      "title": "Invito a un colloquio",
+      "minutes": 6,
+      "goal": "Capire un messaggio che invita a un colloquio di lavoro.",
+      "takeaway": "Negli inviti di lavoro cerca giorno, ora, durata e che cosa portare.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-04-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l2-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Bianchi, sono Chiara Gallo dell'ufficio personale della ditta Casaluce. La chiamo per la sua candidatura come addetta alla segreteria. Il suo curriculum ci è piaciuto e vorremmo conoscerla. Può venire per un colloquio giovedì prossimo alle quindici? Il colloquio dura circa quarantacinque minuti e sarà con la responsabile, la dottoressa Serra. La nostra sede è in via Galilei, al terzo piano, e c'è l'ascensore. Porti con sé un documento di identità e, se può, qualche lettera di referenza. Durante il colloquio le chiederemo anche di fare un breve test al computer. Se giovedì non va bene, possiamo spostare a venerdì mattina, ma solo prima di mezzogiorno. Mi faccia sapere entro domani sera, per favore. Grazie e a presto.",
+          "question": "Per quale lavoro è il colloquio?",
+          "options": [
+            "Responsabile del personale",
+            "Addetta alla segreteria",
+            "Commessa",
+            "Contabile"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l2-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Bianchi, sono Chiara Gallo dell'ufficio personale della ditta Casaluce. La chiamo per la sua candidatura come addetta alla segreteria. Il suo curriculum ci è piaciuto e vorremmo conoscerla. Può venire per un colloquio giovedì prossimo alle quindici? Il colloquio dura circa quarantacinque minuti e sarà con la responsabile, la dottoressa Serra. La nostra sede è in via Galilei, al terzo piano, e c'è l'ascensore. Porti con sé un documento di identità e, se può, qualche lettera di referenza. Durante il colloquio le chiederemo anche di fare un breve test al computer. Se giovedì non va bene, possiamo spostare a venerdì mattina, ma solo prima di mezzogiorno. Mi faccia sapere entro domani sera, per favore. Grazie e a presto.",
+          "question": "Quanto dura circa il colloquio?",
+          "options": [
+            "Quindici minuti",
+            "Un'ora e mezza",
+            "Quarantacinque minuti",
+            "Venti minuti"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l2-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Bianchi, sono Chiara Gallo dell'ufficio personale della ditta Casaluce. La chiamo per la sua candidatura come addetta alla segreteria. Il suo curriculum ci è piaciuto e vorremmo conoscerla. Può venire per un colloquio giovedì prossimo alle quindici? Il colloquio dura circa quarantacinque minuti e sarà con la responsabile, la dottoressa Serra. La nostra sede è in via Galilei, al terzo piano, e c'è l'ascensore. Porti con sé un documento di identità e, se può, qualche lettera di referenza. Durante il colloquio le chiederemo anche di fare un breve test al computer. Se giovedì non va bene, possiamo spostare a venerdì mattina, ma solo prima di mezzogiorno. Mi faccia sapere entro domani sera, per favore. Grazie e a presto.",
+          "question": "Che cosa dovrà fare la signora durante il colloquio?",
+          "options": [
+            "Un breve test al computer",
+            "Una presentazione",
+            "Una prova di traduzione",
+            "Un test scritto a mano"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l2-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, signora Bianchi, sono Chiara Gallo dell'ufficio personale della ditta Casaluce. La chiamo per la sua candidatura come addetta alla segreteria. Il suo curriculum ci è piaciuto e vorremmo conoscerla. Può venire per un colloquio giovedì prossimo alle quindici? Il colloquio dura circa quarantacinque minuti e sarà con la responsabile, la dottoressa Serra. La nostra sede è in via Galilei, al terzo piano, e c'è l'ascensore. Porti con sé un documento di identità e, se può, qualche lettera di referenza. Durante il colloquio le chiederemo anche di fare un breve test al computer. Se giovedì non va bene, possiamo spostare a venerdì mattina, ma solo prima di mezzogiorno. Mi faccia sapere entro domani sera, per favore. Grazie e a presto.",
+          "question": "Quando si può spostare il colloquio?",
+          "options": [
+            "Giovedì sera",
+            "Venerdì pomeriggio",
+            "Lunedì mattina",
+            "Venerdì mattina"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l2-e06",
+          "stage": "learn",
+          "front": "il colloquio",
+          "back": "interview",
+          "example": "Domani ho un colloquio di lavoro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l2-e07",
+          "stage": "learn",
+          "front": "la candidatura",
+          "back": "application (for a job)",
+          "example": "Ho mandato la mia candidatura ieri."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-04-l3",
+      "title": "Segreteria telefonica della collega",
+      "minutes": 6,
+      "goal": "Capire un messaggio di una collega con richieste di lavoro.",
+      "takeaway": "Nei messaggi di lavoro separa il motivo, la richiesta e la scadenza.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-04-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l3-e02",
+          "stage": "practise",
+          "audioText": "Ciao Andrea, sono Silvia. Ti lascio un messaggio perché oggi non riesco a venire in ufficio: mia figlia ha la febbre e devo portarla dal pediatra. Purtroppo alle undici ho una riunione con i clienti di Torino e non posso partecipare. Puoi sostituirmi tu? La presentazione è nella cartella condivisa e si chiama preventivo finale. Devi solo spiegare i prezzi e dire che la consegna è prevista per la fine di marzo. Se chiedono lo sconto, di' che dobbiamo parlarne con il direttore. Inoltre domani c'è la scadenza per i rimborsi spese, quindi mandami le tue ricevute entro stasera. Scusa il disturbo, ti devo un caffè. Grazie mille, a domani!",
+          "question": "Perché Silvia non va in ufficio?",
+          "options": [
+            "È in ferie",
+            "Ha un guasto alla macchina",
+            "Sua figlia ha la febbre",
+            "Ha un'altra riunione"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l3-e03",
+          "stage": "practise",
+          "audioText": "Ciao Andrea, sono Silvia. Ti lascio un messaggio perché oggi non riesco a venire in ufficio: mia figlia ha la febbre e devo portarla dal pediatra. Purtroppo alle undici ho una riunione con i clienti di Torino e non posso partecipare. Puoi sostituirmi tu? La presentazione è nella cartella condivisa e si chiama preventivo finale. Devi solo spiegare i prezzi e dire che la consegna è prevista per la fine di marzo. Se chiedono lo sconto, di' che dobbiamo parlarne con il direttore. Inoltre domani c'è la scadenza per i rimborsi spese, quindi mandami le tue ricevute entro stasera. Scusa il disturbo, ti devo un caffè. Grazie mille, a domani!",
+          "question": "Che cosa chiede ad Andrea?",
+          "options": [
+            "Di sostituirla alla riunione",
+            "Di preparare la presentazione",
+            "Di chiamare il pediatra",
+            "Di scrivere ai clienti"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l3-e04",
+          "stage": "practise",
+          "audioText": "Ciao Andrea, sono Silvia. Ti lascio un messaggio perché oggi non riesco a venire in ufficio: mia figlia ha la febbre e devo portarla dal pediatra. Purtroppo alle undici ho una riunione con i clienti di Torino e non posso partecipare. Puoi sostituirmi tu? La presentazione è nella cartella condivisa e si chiama preventivo finale. Devi solo spiegare i prezzi e dire che la consegna è prevista per la fine di marzo. Se chiedono lo sconto, di' che dobbiamo parlarne con il direttore. Inoltre domani c'è la scadenza per i rimborsi spese, quindi mandami le tue ricevute entro stasera. Scusa il disturbo, ti devo un caffè. Grazie mille, a domani!",
+          "question": "Quando è prevista la consegna?",
+          "options": [
+            "A metà marzo",
+            "Alla fine di marzo",
+            "Domani",
+            "All'inizio di aprile"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l3-e05",
+          "stage": "practise",
+          "audioText": "Ciao Andrea, sono Silvia. Ti lascio un messaggio perché oggi non riesco a venire in ufficio: mia figlia ha la febbre e devo portarla dal pediatra. Purtroppo alle undici ho una riunione con i clienti di Torino e non posso partecipare. Puoi sostituirmi tu? La presentazione è nella cartella condivisa e si chiama preventivo finale. Devi solo spiegare i prezzi e dire che la consegna è prevista per la fine di marzo. Se chiedono lo sconto, di' che dobbiamo parlarne con il direttore. Inoltre domani c'è la scadenza per i rimborsi spese, quindi mandami le tue ricevute entro stasera. Scusa il disturbo, ti devo un caffè. Grazie mille, a domani!",
+          "question": "Che cosa deve mandare Andrea entro stasera?",
+          "options": [
+            "Il preventivo finale",
+            "Il curriculum",
+            "La fattura del cliente",
+            "Le ricevute per i rimborsi"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l3-e06",
+          "stage": "learn",
+          "front": "la riunione",
+          "back": "meeting",
+          "example": "La riunione comincia alle undici."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l3-e07",
+          "stage": "learn",
+          "front": "la scadenza",
+          "back": "deadline",
+          "example": "La scadenza è domani sera."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-04-l4",
+      "title": "Offerte del supermercato",
+      "minutes": 6,
+      "goal": "Capire una pubblicità con offerte e condizioni.",
+      "takeaway": "Nelle offerte cerca prezzi, giorni validi e condizioni per lo sconto.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-04-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l4-e02",
+          "stage": "practise",
+          "audioText": "Settimana di offerte al supermercato Il Girasole! Da lunedì a domenica trovi la pasta a ottanta centesimi al pacco, l'olio d'oliva a sei euro e novanta la bottiglia e due scatole di pomodori pelati al prezzo di una. La frutta e la verdura fresca hanno lo sconto del venti per cento, ma solo il mercoledì e il giovedì. Con la tessera del supermercato, ogni dieci euro di spesa ricevi un punto, e con cento punti puoi avere un buono da cinque euro. Inoltre, per chi spende più di quaranta euro, la consegna a domicilio è gratuita. Il servizio funziona dal lunedì al venerdì, e bisogna ordinare entro le due del pomeriggio. Il sabato il reparto del pane apre alle sette. Vi aspettiamo!",
+          "question": "Che cosa costa ottanta centesimi?",
+          "options": [
+            "Un pacco di pasta",
+            "Una bottiglia d'olio",
+            "Una scatola di pomodori",
+            "Un chilo di mele"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l4-e03",
+          "stage": "practise",
+          "audioText": "Settimana di offerte al supermercato Il Girasole! Da lunedì a domenica trovi la pasta a ottanta centesimi al pacco, l'olio d'oliva a sei euro e novanta la bottiglia e due scatole di pomodori pelati al prezzo di una. La frutta e la verdura fresca hanno lo sconto del venti per cento, ma solo il mercoledì e il giovedì. Con la tessera del supermercato, ogni dieci euro di spesa ricevi un punto, e con cento punti puoi avere un buono da cinque euro. Inoltre, per chi spende più di quaranta euro, la consegna a domicilio è gratuita. Il servizio funziona dal lunedì al venerdì, e bisogna ordinare entro le due del pomeriggio. Il sabato il reparto del pane apre alle sette. Vi aspettiamo!",
+          "question": "Quando c'è lo sconto su frutta e verdura?",
+          "options": [
+            "Tutta la settimana",
+            "Il mercoledì e il giovedì",
+            "Il sabato e la domenica",
+            "Il lunedì e il martedì"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l4-e04",
+          "stage": "practise",
+          "audioText": "Settimana di offerte al supermercato Il Girasole! Da lunedì a domenica trovi la pasta a ottanta centesimi al pacco, l'olio d'oliva a sei euro e novanta la bottiglia e due scatole di pomodori pelati al prezzo di una. La frutta e la verdura fresca hanno lo sconto del venti per cento, ma solo il mercoledì e il giovedì. Con la tessera del supermercato, ogni dieci euro di spesa ricevi un punto, e con cento punti puoi avere un buono da cinque euro. Inoltre, per chi spende più di quaranta euro, la consegna a domicilio è gratuita. Il servizio funziona dal lunedì al venerdì, e bisogna ordinare entro le due del pomeriggio. Il sabato il reparto del pane apre alle sette. Vi aspettiamo!",
+          "question": "Quando la consegna a domicilio è gratuita?",
+          "options": [
+            "Per chi ha la tessera",
+            "Il sabato mattina",
+            "Se si ordina dopo le due",
+            "Se si spendono più di quaranta euro"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l4-e05",
+          "stage": "practise",
+          "audioText": "Settimana di offerte al supermercato Il Girasole! Da lunedì a domenica trovi la pasta a ottanta centesimi al pacco, l'olio d'oliva a sei euro e novanta la bottiglia e due scatole di pomodori pelati al prezzo di una. La frutta e la verdura fresca hanno lo sconto del venti per cento, ma solo il mercoledì e il giovedì. Con la tessera del supermercato, ogni dieci euro di spesa ricevi un punto, e con cento punti puoi avere un buono da cinque euro. Inoltre, per chi spende più di quaranta euro, la consegna a domicilio è gratuita. Il servizio funziona dal lunedì al venerdì, e bisogna ordinare entro le due del pomeriggio. Il sabato il reparto del pane apre alle sette. Vi aspettiamo!",
+          "question": "Quanti punti servono per un buono da cinque euro?",
+          "options": [
+            "Dieci punti",
+            "Cinquanta punti",
+            "Cento punti",
+            "Cinque punti"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l4-e06",
+          "stage": "learn",
+          "front": "la consegna a domicilio",
+          "back": "home delivery",
+          "example": "La consegna a domicilio è gratuita."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l4-e07",
+          "stage": "learn",
+          "front": "il buono",
+          "back": "voucher",
+          "example": "Ho un buono da cinque euro."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-04-l5",
+      "title": "Il programma del cinema",
+      "minutes": 6,
+      "goal": "Capire il programma settimanale di un cinema.",
+      "takeaway": "Nei programmi collega ogni film al suo giorno, orario e prezzo.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-04-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l5-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti al cinema Stella, ecco il programma della settimana. Da giovedì a domenica proiettiamo Il ritorno dell'estate, una commedia italiana sulla vita di una famiglia al mare: le proiezioni sono alle diciotto e alle venti e trenta. Il film d'animazione per tutta la famiglia, La luna di Pietro, si vede solo sabato e domenica alle quindici. Il lunedì è la serata del cinema d'autore: un film in lingua originale con i sottotitoli in italiano, alle venti e quarantacinque. Il biglietto costa otto euro, sei per i ragazzi sotto i diciotto anni e per chi ha la tessera del cinema. Il mercoledì il prezzo è ridotto a cinque euro per tutti. I biglietti si possono comprare alla cassa oppure sul sito. Il bar apre mezz'ora prima del primo spettacolo. Buona visione!",
+          "question": "Quando si vede il film d'animazione?",
+          "options": [
+            "Ogni sera alle venti e trenta",
+            "Sabato e domenica alle quindici",
+            "Il lunedì sera",
+            "Giovedì alle diciotto"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l5-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti al cinema Stella, ecco il programma della settimana. Da giovedì a domenica proiettiamo Il ritorno dell'estate, una commedia italiana sulla vita di una famiglia al mare: le proiezioni sono alle diciotto e alle venti e trenta. Il film d'animazione per tutta la famiglia, La luna di Pietro, si vede solo sabato e domenica alle quindici. Il lunedì è la serata del cinema d'autore: un film in lingua originale con i sottotitoli in italiano, alle venti e quarantacinque. Il biglietto costa otto euro, sei per i ragazzi sotto i diciotto anni e per chi ha la tessera del cinema. Il mercoledì il prezzo è ridotto a cinque euro per tutti. I biglietti si possono comprare alla cassa oppure sul sito. Il bar apre mezz'ora prima del primo spettacolo. Buona visione!",
+          "question": "Quanto costa il biglietto il mercoledì?",
+          "options": [
+            "Otto euro",
+            "Sei euro",
+            "Cinque euro",
+            "Tre euro"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l5-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti al cinema Stella, ecco il programma della settimana. Da giovedì a domenica proiettiamo Il ritorno dell'estate, una commedia italiana sulla vita di una famiglia al mare: le proiezioni sono alle diciotto e alle venti e trenta. Il film d'animazione per tutta la famiglia, La luna di Pietro, si vede solo sabato e domenica alle quindici. Il lunedì è la serata del cinema d'autore: un film in lingua originale con i sottotitoli in italiano, alle venti e quarantacinque. Il biglietto costa otto euro, sei per i ragazzi sotto i diciotto anni e per chi ha la tessera del cinema. Il mercoledì il prezzo è ridotto a cinque euro per tutti. I biglietti si possono comprare alla cassa oppure sul sito. Il bar apre mezz'ora prima del primo spettacolo. Buona visione!",
+          "question": "Che cosa si vede il lunedì sera?",
+          "options": [
+            "Un film in lingua originale con sottotitoli",
+            "Una commedia italiana",
+            "Un film per bambini",
+            "Un documentario in italiano"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l5-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti al cinema Stella, ecco il programma della settimana. Da giovedì a domenica proiettiamo Il ritorno dell'estate, una commedia italiana sulla vita di una famiglia al mare: le proiezioni sono alle diciotto e alle venti e trenta. Il film d'animazione per tutta la famiglia, La luna di Pietro, si vede solo sabato e domenica alle quindici. Il lunedì è la serata del cinema d'autore: un film in lingua originale con i sottotitoli in italiano, alle venti e quarantacinque. Il biglietto costa otto euro, sei per i ragazzi sotto i diciotto anni e per chi ha la tessera del cinema. Il mercoledì il prezzo è ridotto a cinque euro per tutti. I biglietti si possono comprare alla cassa oppure sul sito. Il bar apre mezz'ora prima del primo spettacolo. Buona visione!",
+          "question": "Chi paga sei euro?",
+          "options": [
+            "Gli studenti universitari",
+            "Chi compra online",
+            "Chi arriva presto",
+            "I ragazzi sotto i diciotto anni"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l5-e06",
+          "stage": "learn",
+          "front": "la proiezione",
+          "back": "screening",
+          "example": "La proiezione comincia alle diciotto."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l5-e07",
+          "stage": "learn",
+          "front": "i sottotitoli",
+          "back": "subtitles",
+          "example": "Guardo i film con i sottotitoli in italiano."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-04-l6",
+      "title": "Un biglietto per i vicini",
+      "minutes": 6,
+      "goal": "Capire un biglietto letto ad alta voce da una vicina.",
+      "takeaway": "Nei biglietti tra vicini cerca la richiesta, l'orario e le scuse.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-04-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l6-e02",
+          "stage": "practise",
+          "audioText": "Cari vicini, vi scrivo questo biglietto perché sabato sera faccio una piccola festa per i miei quarant'anni, al terzo piano, interno otto. Gli invitati saranno circa venti, e la musica non sarà alta, ma forse ci sarà un po' di rumore fino a mezzanotte. Se vi dà fastidio, suonate pure il campanello: abbasseremo subito il volume. Vi lascio qui anche un vassoio di dolci fatti in casa, e siete tutti invitati a passare per un brindisi, anche solo per cinque minuti. Un'altra cosa: la settimana scorsa ho trovato nella cassetta della posta un pacco per la signora del secondo piano. Lo tengo io, e lei può passare a prenderlo quando vuole. Grazie per la pazienza e a presto! Giulia.",
+          "question": "Perché Giulia fa la festa?",
+          "options": [
+            "Si trasferisce",
+            "Ha trovato un lavoro",
+            "È il compleanno del figlio",
+            "Compie quarant'anni"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l6-e03",
+          "stage": "practise",
+          "audioText": "Cari vicini, vi scrivo questo biglietto perché sabato sera faccio una piccola festa per i miei quarant'anni, al terzo piano, interno otto. Gli invitati saranno circa venti, e la musica non sarà alta, ma forse ci sarà un po' di rumore fino a mezzanotte. Se vi dà fastidio, suonate pure il campanello: abbasseremo subito il volume. Vi lascio qui anche un vassoio di dolci fatti in casa, e siete tutti invitati a passare per un brindisi, anche solo per cinque minuti. Un'altra cosa: la settimana scorsa ho trovato nella cassetta della posta un pacco per la signora del secondo piano. Lo tengo io, e lei può passare a prenderlo quando vuole. Grazie per la pazienza e a presto! Giulia.",
+          "question": "Fino a che ora ci sarà rumore?",
+          "options": [
+            "Fino a mezzanotte",
+            "Fino alle undici",
+            "Fino alle due di notte",
+            "Fino all'alba"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l6-e04",
+          "stage": "practise",
+          "audioText": "Cari vicini, vi scrivo questo biglietto perché sabato sera faccio una piccola festa per i miei quarant'anni, al terzo piano, interno otto. Gli invitati saranno circa venti, e la musica non sarà alta, ma forse ci sarà un po' di rumore fino a mezzanotte. Se vi dà fastidio, suonate pure il campanello: abbasseremo subito il volume. Vi lascio qui anche un vassoio di dolci fatti in casa, e siete tutti invitati a passare per un brindisi, anche solo per cinque minuti. Un'altra cosa: la settimana scorsa ho trovato nella cassetta della posta un pacco per la signora del secondo piano. Lo tengo io, e lei può passare a prenderlo quando vuole. Grazie per la pazienza e a presto! Giulia.",
+          "question": "Che cosa devono fare i vicini se il rumore dà fastidio?",
+          "options": [
+            "Chiamare la polizia",
+            "Suonare il campanello",
+            "Scrivere un biglietto",
+            "Bussare al portone"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-04-l6-e05",
+          "stage": "practise",
+          "audioText": "Cari vicini, vi scrivo questo biglietto perché sabato sera faccio una piccola festa per i miei quarant'anni, al terzo piano, interno otto. Gli invitati saranno circa venti, e la musica non sarà alta, ma forse ci sarà un po' di rumore fino a mezzanotte. Se vi dà fastidio, suonate pure il campanello: abbasseremo subito il volume. Vi lascio qui anche un vassoio di dolci fatti in casa, e siete tutti invitati a passare per un brindisi, anche solo per cinque minuti. Un'altra cosa: la settimana scorsa ho trovato nella cassetta della posta un pacco per la signora del secondo piano. Lo tengo io, e lei può passare a prenderlo quando vuole. Grazie per la pazienza e a presto! Giulia.",
+          "question": "Chi deve ritirare un pacco?",
+          "options": [
+            "Giulia",
+            "Il portiere",
+            "La signora del secondo piano",
+            "Il vicino del terzo piano"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l6-e06",
+          "stage": "learn",
+          "front": "il vicino",
+          "back": "neighbour",
+          "example": "Il mio vicino è molto gentile."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-04-l6-e07",
+          "stage": "learn",
+          "front": "il campanello",
+          "back": "doorbell",
+          "example": "Suona il campanello due volte."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "l'affitto",
+      "en": "rent",
+      "example": "L'affitto si paga il primo del mese."
+    },
+    {
+      "it": "la perdita",
+      "en": "leak",
+      "example": "C'è una perdita d'acqua in bagno."
+    },
+    {
+      "it": "il colloquio",
+      "en": "interview",
+      "example": "Domani ho un colloquio di lavoro."
+    },
+    {
+      "it": "la candidatura",
+      "en": "application (for a job)",
+      "example": "Ho mandato la mia candidatura ieri."
+    },
+    {
+      "it": "la riunione",
+      "en": "meeting",
+      "example": "La riunione comincia alle undici."
+    },
+    {
+      "it": "la scadenza",
+      "en": "deadline",
+      "example": "La scadenza è domani sera."
+    },
+    {
+      "it": "la consegna a domicilio",
+      "en": "home delivery",
+      "example": "La consegna a domicilio è gratuita."
+    },
+    {
+      "it": "il buono",
+      "en": "voucher",
+      "example": "Ho un buono da cinque euro."
+    },
+    {
+      "it": "la proiezione",
+      "en": "screening",
+      "example": "La proiezione comincia alle diciotto."
+    },
+    {
+      "it": "i sottotitoli",
+      "en": "subtitles",
+      "example": "Guardo i film con i sottotitoli in italiano."
+    },
+    {
+      "it": "il vicino",
+      "en": "neighbour",
+      "example": "Il mio vicino è molto gentile."
+    },
+    {
+      "it": "il campanello",
+      "en": "doorbell",
+      "example": "Suona il campanello due volte."
+    }
+  ]
+}

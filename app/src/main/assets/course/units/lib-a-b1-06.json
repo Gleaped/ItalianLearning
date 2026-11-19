@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b1-06",
+  "level": "ASC",
+  "title": "Tempo libero",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni sul tempo libero (circa 100–140 parole): un podcast sull'orto, i risultati sportivi, un sentiero di montagna, un programma di cucina, un messaggio del club del libro e il programma di una sagra.",
+  "grammarFocus": "Ascolto: descrizioni, consigli, risultati, ingredienti e programmi di eventi.",
+  "remedialUnitIds": [
+    "celi-02"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b1-06-l1",
+      "title": "Podcast: l'orto sul balcone",
+      "minutes": 6,
+      "goal": "Capire un podcast sul giardinaggio.",
+      "takeaway": "Nei consigli ascolta i numeri (ore, centimetri) e i mesi.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-06-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l1-e02",
+          "stage": "practise",
+          "audioText": "Benvenuti a un nuovo episodio di Mani nella terra, il podcast per chi ama l'orto, anche se ha solo un balcone. Oggi parliamo di pomodori, ehm, perché ho ricevuto tante domande. Primo: i pomodori vogliono sole, almeno sei ore al giorno, quindi mettete i vasi a sud. Secondo: non annaffiate le foglie, ma solo la terra, e meglio la mattina presto. Terzo errore comune, quello che faccio anch'io ogni anno: piantare troppo presto. Il freddo di aprile fa male alle piantine, quindi aspettate maggio. Se avete poco spazio, scegliete i pomodorini, che crescono bene anche in un vaso di quaranta centimetri. Alla fine dell'estate, lasciate seccare un pomodoro e conservate i semi per l'anno dopo. Nella prossima puntata parleremo di basilico. Ciao a tutti, e buon lavoro nell'orto.",
+          "question": "Per chi è il podcast?",
+          "options": [
+            "Per chi ama l'orto, anche con un balcone",
+            "Per chi ha un grande giardino",
+            "Per i cuochi professionisti",
+            "Per chi vende pomodori"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l1-e03",
+          "stage": "practise",
+          "audioText": "Benvenuti a un nuovo episodio di Mani nella terra, il podcast per chi ama l'orto, anche se ha solo un balcone. Oggi parliamo di pomodori, ehm, perché ho ricevuto tante domande. Primo: i pomodori vogliono sole, almeno sei ore al giorno, quindi mettete i vasi a sud. Secondo: non annaffiate le foglie, ma solo la terra, e meglio la mattina presto. Terzo errore comune, quello che faccio anch'io ogni anno: piantare troppo presto. Il freddo di aprile fa male alle piantine, quindi aspettate maggio. Se avete poco spazio, scegliete i pomodorini, che crescono bene anche in un vaso di quaranta centimetri. Alla fine dell'estate, lasciate seccare un pomodoro e conservate i semi per l'anno dopo. Nella prossima puntata parleremo di basilico. Ciao a tutti, e buon lavoro nell'orto.",
+          "question": "Quante ore di sole vogliono i pomodori?",
+          "options": [
+            "Almeno due ore",
+            "Otto ore al giorno",
+            "Almeno sei ore al giorno",
+            "Solo la mattina"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l1-e04",
+          "stage": "practise",
+          "audioText": "Benvenuti a un nuovo episodio di Mani nella terra, il podcast per chi ama l'orto, anche se ha solo un balcone. Oggi parliamo di pomodori, ehm, perché ho ricevuto tante domande. Primo: i pomodori vogliono sole, almeno sei ore al giorno, quindi mettete i vasi a sud. Secondo: non annaffiate le foglie, ma solo la terra, e meglio la mattina presto. Terzo errore comune, quello che faccio anch'io ogni anno: piantare troppo presto. Il freddo di aprile fa male alle piantine, quindi aspettate maggio. Se avete poco spazio, scegliete i pomodorini, che crescono bene anche in un vaso di quaranta centimetri. Alla fine dell'estate, lasciate seccare un pomodoro e conservate i semi per l'anno dopo. Nella prossima puntata parleremo di basilico. Ciao a tutti, e buon lavoro nell'orto.",
+          "question": "Quando conviene piantare?",
+          "options": [
+            "Ad aprile",
+            "A maggio",
+            "A giugno",
+            "Alla fine dell'estate"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l1-e05",
+          "stage": "practise",
+          "audioText": "Benvenuti a un nuovo episodio di Mani nella terra, il podcast per chi ama l'orto, anche se ha solo un balcone. Oggi parliamo di pomodori, ehm, perché ho ricevuto tante domande. Primo: i pomodori vogliono sole, almeno sei ore al giorno, quindi mettete i vasi a sud. Secondo: non annaffiate le foglie, ma solo la terra, e meglio la mattina presto. Terzo errore comune, quello che faccio anch'io ogni anno: piantare troppo presto. Il freddo di aprile fa male alle piantine, quindi aspettate maggio. Se avete poco spazio, scegliete i pomodorini, che crescono bene anche in un vaso di quaranta centimetri. Alla fine dell'estate, lasciate seccare un pomodoro e conservate i semi per l'anno dopo. Nella prossima puntata parleremo di basilico. Ciao a tutti, e buon lavoro nell'orto.",
+          "question": "Che cosa si può fare con un pomodoro seccato?",
+          "options": [
+            "Mangiarlo subito",
+            "Metterlo nel basilico",
+            "Venderlo al mercato",
+            "Conservare i semi per l'anno dopo"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l1-e06",
+          "stage": "learn",
+          "front": "il pomodoro",
+          "back": "tomato",
+          "example": "Il pomodoro cresce bene al sole."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l1-e07",
+          "stage": "learn",
+          "front": "annaffiare",
+          "back": "to water",
+          "example": "Annaffio le piante ogni mattina."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-06-l2",
+      "title": "Risultati sportivi",
+      "minutes": 6,
+      "goal": "Capire un bollettino con risultati e un avviso.",
+      "takeaway": "Nei risultati ascolta chi vince, il punteggio e il luogo.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-06-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l2-e02",
+          "stage": "practise",
+          "audioText": "Ed ecco i risultati sportivi del fine settimana. Nel calcio, la squadra di Montebello ha vinto tre a due contro Riva Alta, con il gol decisivo negli ultimi minuti. Sconfitta invece per il Pontevecchio, che ha perso uno a zero in casa, davanti a più di mille tifosi. Nella pallavolo femminile, ehm, vittoria netta per la squadra del Lago, tre set a zero. Nel ciclismo, la gara di domenica è stata vinta da Matteo Rinaldi, che ha percorso centoventi chilometri in tre ore. La corsa però è stata rovinata dalla pioggia, e molti ciclisti si sono ritirati. Un ultimo avviso: il torneo di tennis del circolo comincia sabato prossimo, e ci si può iscrivere fino a giovedì, pagando venti euro. Questo è tutto, a più tardi con altre notizie.",
+          "question": "Come è finita la partita di Montebello?",
+          "options": [
+            "Ha perso tre a due",
+            "Ha vinto tre a due",
+            "Ha pareggiato due a due",
+            "Ha vinto uno a zero"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l2-e03",
+          "stage": "practise",
+          "audioText": "Ed ecco i risultati sportivi del fine settimana. Nel calcio, la squadra di Montebello ha vinto tre a due contro Riva Alta, con il gol decisivo negli ultimi minuti. Sconfitta invece per il Pontevecchio, che ha perso uno a zero in casa, davanti a più di mille tifosi. Nella pallavolo femminile, ehm, vittoria netta per la squadra del Lago, tre set a zero. Nel ciclismo, la gara di domenica è stata vinta da Matteo Rinaldi, che ha percorso centoventi chilometri in tre ore. La corsa però è stata rovinata dalla pioggia, e molti ciclisti si sono ritirati. Un ultimo avviso: il torneo di tennis del circolo comincia sabato prossimo, e ci si può iscrivere fino a giovedì, pagando venti euro. Questo è tutto, a più tardi con altre notizie.",
+          "question": "Quale squadra ha perso in casa?",
+          "options": [
+            "Montebello",
+            "Riva Alta",
+            "La squadra del Lago",
+            "Il Pontevecchio"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l2-e04",
+          "stage": "practise",
+          "audioText": "Ed ecco i risultati sportivi del fine settimana. Nel calcio, la squadra di Montebello ha vinto tre a due contro Riva Alta, con il gol decisivo negli ultimi minuti. Sconfitta invece per il Pontevecchio, che ha perso uno a zero in casa, davanti a più di mille tifosi. Nella pallavolo femminile, ehm, vittoria netta per la squadra del Lago, tre set a zero. Nel ciclismo, la gara di domenica è stata vinta da Matteo Rinaldi, che ha percorso centoventi chilometri in tre ore. La corsa però è stata rovinata dalla pioggia, e molti ciclisti si sono ritirati. Un ultimo avviso: il torneo di tennis del circolo comincia sabato prossimo, e ci si può iscrivere fino a giovedì, pagando venti euro. Questo è tutto, a più tardi con altre notizie.",
+          "question": "Che cosa ha rovinato la gara di ciclismo?",
+          "options": [
+            "La pioggia",
+            "Un incidente",
+            "Il caldo",
+            "Il vento forte"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l2-e05",
+          "stage": "practise",
+          "audioText": "Ed ecco i risultati sportivi del fine settimana. Nel calcio, la squadra di Montebello ha vinto tre a due contro Riva Alta, con il gol decisivo negli ultimi minuti. Sconfitta invece per il Pontevecchio, che ha perso uno a zero in casa, davanti a più di mille tifosi. Nella pallavolo femminile, ehm, vittoria netta per la squadra del Lago, tre set a zero. Nel ciclismo, la gara di domenica è stata vinta da Matteo Rinaldi, che ha percorso centoventi chilometri in tre ore. La corsa però è stata rovinata dalla pioggia, e molti ciclisti si sono ritirati. Un ultimo avviso: il torneo di tennis del circolo comincia sabato prossimo, e ci si può iscrivere fino a giovedì, pagando venti euro. Questo è tutto, a più tardi con altre notizie.",
+          "question": "Quanto costa iscriversi al torneo di tennis?",
+          "options": [
+            "Dieci euro",
+            "Centoventi euro",
+            "Venti euro",
+            "Niente"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l2-e06",
+          "stage": "learn",
+          "front": "la sconfitta",
+          "back": "defeat",
+          "example": "Dopo la sconfitta erano tutti tristi."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l2-e07",
+          "stage": "learn",
+          "front": "il tifoso",
+          "back": "fan, supporter",
+          "example": "I tifosi cantano durante la partita."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-06-l3",
+      "title": "Descrizione di un sentiero",
+      "minutes": 6,
+      "goal": "Capire la descrizione di un'escursione in montagna.",
+      "takeaway": "Nelle descrizioni ascolta durata, difficoltà e consigli pratici.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-06-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l3-e02",
+          "stage": "practise",
+          "audioText": "Allora, oggi vi racconto un'escursione che ho fatto domenica scorsa, il sentiero del Falco. Si parte dal parcheggio del paese, a milleduecento metri, e si cammina per circa tre ore fino al rifugio. All'inizio il sentiero è facile, in mezzo ai boschi, ma dopo un'ora, ehm, diventa ripido e ci sono molte pietre, quindi servono scarponi buoni. A metà strada c'è una fontana, dove si può riempire la borraccia, perché dopo non c'è più acqua. Dal rifugio si vede tutta la valle, ed è uno spettacolo, specialmente al tramonto. Io ho mangiato una zuppa calda, costa otto euro. Consiglio di partire presto, prima delle otto, perché nel pomeriggio d'estate arrivano spesso i temporali. Portate anche una giacca, anche se fa caldo. Alla prossima!",
+          "question": "Quanto dura la camminata fino al rifugio?",
+          "options": [
+            "Circa un'ora",
+            "Circa cinque ore",
+            "Circa tre ore",
+            "Circa milleduecento minuti"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l3-e03",
+          "stage": "practise",
+          "audioText": "Allora, oggi vi racconto un'escursione che ho fatto domenica scorsa, il sentiero del Falco. Si parte dal parcheggio del paese, a milleduecento metri, e si cammina per circa tre ore fino al rifugio. All'inizio il sentiero è facile, in mezzo ai boschi, ma dopo un'ora, ehm, diventa ripido e ci sono molte pietre, quindi servono scarponi buoni. A metà strada c'è una fontana, dove si può riempire la borraccia, perché dopo non c'è più acqua. Dal rifugio si vede tutta la valle, ed è uno spettacolo, specialmente al tramonto. Io ho mangiato una zuppa calda, costa otto euro. Consiglio di partire presto, prima delle otto, perché nel pomeriggio d'estate arrivano spesso i temporali. Portate anche una giacca, anche se fa caldo. Alla prossima!",
+          "question": "Com'è il sentiero dopo la prima ora?",
+          "options": [
+            "Ripido e con molte pietre",
+            "Facile e in discesa",
+            "Largo e pianeggiante",
+            "Chiuso per lavori"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l3-e04",
+          "stage": "practise",
+          "audioText": "Allora, oggi vi racconto un'escursione che ho fatto domenica scorsa, il sentiero del Falco. Si parte dal parcheggio del paese, a milleduecento metri, e si cammina per circa tre ore fino al rifugio. All'inizio il sentiero è facile, in mezzo ai boschi, ma dopo un'ora, ehm, diventa ripido e ci sono molte pietre, quindi servono scarponi buoni. A metà strada c'è una fontana, dove si può riempire la borraccia, perché dopo non c'è più acqua. Dal rifugio si vede tutta la valle, ed è uno spettacolo, specialmente al tramonto. Io ho mangiato una zuppa calda, costa otto euro. Consiglio di partire presto, prima delle otto, perché nel pomeriggio d'estate arrivano spesso i temporali. Portate anche una giacca, anche se fa caldo. Alla prossima!",
+          "question": "Dove si trova l'acqua?",
+          "options": [
+            "Al parcheggio",
+            "Dopo il rifugio",
+            "In cima alla valle",
+            "A una fontana a metà strada"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l3-e05",
+          "stage": "practise",
+          "audioText": "Allora, oggi vi racconto un'escursione che ho fatto domenica scorsa, il sentiero del Falco. Si parte dal parcheggio del paese, a milleduecento metri, e si cammina per circa tre ore fino al rifugio. All'inizio il sentiero è facile, in mezzo ai boschi, ma dopo un'ora, ehm, diventa ripido e ci sono molte pietre, quindi servono scarponi buoni. A metà strada c'è una fontana, dove si può riempire la borraccia, perché dopo non c'è più acqua. Dal rifugio si vede tutta la valle, ed è uno spettacolo, specialmente al tramonto. Io ho mangiato una zuppa calda, costa otto euro. Consiglio di partire presto, prima delle otto, perché nel pomeriggio d'estate arrivano spesso i temporali. Portate anche una giacca, anche se fa caldo. Alla prossima!",
+          "question": "Perché conviene partire presto?",
+          "options": [
+            "Il rifugio chiude alle otto",
+            "Nel pomeriggio ci sono spesso temporali",
+            "Fa troppo freddo la mattina",
+            "Il parcheggio è piccolo"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l3-e06",
+          "stage": "learn",
+          "front": "il sentiero",
+          "back": "path, trail",
+          "example": "Il sentiero passa nel bosco."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l3-e07",
+          "stage": "learn",
+          "front": "la borraccia",
+          "back": "water bottle",
+          "example": "Riempio la borraccia alla fontana."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-06-l4",
+      "title": "Programma di cucina: la torta di mele",
+      "minutes": 6,
+      "goal": "Capire le istruzioni di una ricetta in televisione.",
+      "takeaway": "Nelle ricette ascolta quantità, tempi e temperature.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-06-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l4-e02",
+          "stage": "practise",
+          "audioText": "Bentornati in cucina! Oggi facciamo una torta di mele, semplice ma buonissima. Allora, prendete tre mele, non troppo mature, e tagliatele a fette sottili. In una ciotola mescolate due uova con centocinquanta grammi di zucchero, finché diventano chiare, quindi aggiungete cento grammi di burro sciolto, ma non caldo, mi raccomando. Poi la farina, duecento grammi, e una bustina di lievito. Ecco, l'impasto deve essere morbido, ma non liquido. Mettete tutto in una teglia, sopra le mele, e cuocete per quaranta minuti a centottanta gradi. Un trucco: se volete un profumo in più, aggiungete un po' di scorza di limone. Prima di tagliare la torta, aspettate dieci minuti, altrimenti si rompe. Buon appetito!",
+          "question": "Quante mele servono?",
+          "options": [
+            "Due",
+            "Tre",
+            "Cinque",
+            "Una"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l4-e03",
+          "stage": "practise",
+          "audioText": "Bentornati in cucina! Oggi facciamo una torta di mele, semplice ma buonissima. Allora, prendete tre mele, non troppo mature, e tagliatele a fette sottili. In una ciotola mescolate due uova con centocinquanta grammi di zucchero, finché diventano chiare, quindi aggiungete cento grammi di burro sciolto, ma non caldo, mi raccomando. Poi la farina, duecento grammi, e una bustina di lievito. Ecco, l'impasto deve essere morbido, ma non liquido. Mettete tutto in una teglia, sopra le mele, e cuocete per quaranta minuti a centottanta gradi. Un trucco: se volete un profumo in più, aggiungete un po' di scorza di limone. Prima di tagliare la torta, aspettate dieci minuti, altrimenti si rompe. Buon appetito!",
+          "question": "Com'è il burro da aggiungere?",
+          "options": [
+            "Sciolto, ma non caldo",
+            "Freddo e duro",
+            "Molto caldo",
+            "In pezzi"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l4-e04",
+          "stage": "practise",
+          "audioText": "Bentornati in cucina! Oggi facciamo una torta di mele, semplice ma buonissima. Allora, prendete tre mele, non troppo mature, e tagliatele a fette sottili. In una ciotola mescolate due uova con centocinquanta grammi di zucchero, finché diventano chiare, quindi aggiungete cento grammi di burro sciolto, ma non caldo, mi raccomando. Poi la farina, duecento grammi, e una bustina di lievito. Ecco, l'impasto deve essere morbido, ma non liquido. Mettete tutto in una teglia, sopra le mele, e cuocete per quaranta minuti a centottanta gradi. Un trucco: se volete un profumo in più, aggiungete un po' di scorza di limone. Prima di tagliare la torta, aspettate dieci minuti, altrimenti si rompe. Buon appetito!",
+          "question": "Quanto tempo si cuoce la torta?",
+          "options": [
+            "Dieci minuti",
+            "Un'ora",
+            "Quaranta minuti",
+            "Centottanta minuti"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l4-e05",
+          "stage": "practise",
+          "audioText": "Bentornati in cucina! Oggi facciamo una torta di mele, semplice ma buonissima. Allora, prendete tre mele, non troppo mature, e tagliatele a fette sottili. In una ciotola mescolate due uova con centocinquanta grammi di zucchero, finché diventano chiare, quindi aggiungete cento grammi di burro sciolto, ma non caldo, mi raccomando. Poi la farina, duecento grammi, e una bustina di lievito. Ecco, l'impasto deve essere morbido, ma non liquido. Mettete tutto in una teglia, sopra le mele, e cuocete per quaranta minuti a centottanta gradi. Un trucco: se volete un profumo in più, aggiungete un po' di scorza di limone. Prima di tagliare la torta, aspettate dieci minuti, altrimenti si rompe. Buon appetito!",
+          "question": "Perché bisogna aspettare dieci minuti prima di tagliarla?",
+          "options": [
+            "Per aggiungere il limone",
+            "Perché è ancora cruda",
+            "Per fare lievitare l'impasto",
+            "Altrimenti la torta si rompe"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l4-e06",
+          "stage": "learn",
+          "front": "la farina",
+          "back": "flour",
+          "example": "Per la torta serve la farina."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l4-e07",
+          "stage": "learn",
+          "front": "sciolto",
+          "back": "melted",
+          "example": "Aggiungi il burro sciolto."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-06-l5",
+      "title": "Messaggio del club del libro",
+      "minutes": 6,
+      "goal": "Capire un messaggio che organizza un incontro.",
+      "takeaway": "Nei messaggi di gruppo cerca che cosa cambia rispetto al solito.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-06-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l5-e02",
+          "stage": "practise",
+          "audioText": "Ciao a tutti, sono Silvia, del club del libro della biblioteca di quartiere. Vi scrivo per l'incontro di questo mese. Ci vediamo giovedì sera, alle venti e trenta, e non alle venti come al solito, perché la sala è occupata da un corso di disegno. Il libro è, ehm, quello che abbiamo scelto a giugno, un romanzo sulla vita di una famiglia di pescatori. Chi non è riuscito a finirlo non deve preoccuparsi, perché parleremo soprattutto dei primi capitoli. Come sempre, ognuno porta qualcosa da bere o da mangiare, ma questa volta niente dolci, perché ne abbiamo già troppi! Ah, una novità: il mese prossimo l'autrice del libro verrà a trovarci, quindi preparate tante domande. Rispondete a questo messaggio se venite, così sappiamo quante sedie servono. Grazie, a giovedì!",
+          "question": "Perché l'orario è diverso dal solito?",
+          "options": [
+            "Silvia ha un impegno",
+            "La biblioteca chiude presto",
+            "C'è poco tempo per leggere",
+            "La sala è occupata da un corso di disegno"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l5-e03",
+          "stage": "practise",
+          "audioText": "Ciao a tutti, sono Silvia, del club del libro della biblioteca di quartiere. Vi scrivo per l'incontro di questo mese. Ci vediamo giovedì sera, alle venti e trenta, e non alle venti come al solito, perché la sala è occupata da un corso di disegno. Il libro è, ehm, quello che abbiamo scelto a giugno, un romanzo sulla vita di una famiglia di pescatori. Chi non è riuscito a finirlo non deve preoccuparsi, perché parleremo soprattutto dei primi capitoli. Come sempre, ognuno porta qualcosa da bere o da mangiare, ma questa volta niente dolci, perché ne abbiamo già troppi! Ah, una novità: il mese prossimo l'autrice del libro verrà a trovarci, quindi preparate tante domande. Rispondete a questo messaggio se venite, così sappiamo quante sedie servono. Grazie, a giovedì!",
+          "question": "A che ora è l'incontro?",
+          "options": [
+            "Alle venti e trenta",
+            "Alle venti",
+            "Alle diciotto e trenta",
+            "Alle ventuno"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l5-e04",
+          "stage": "practise",
+          "audioText": "Ciao a tutti, sono Silvia, del club del libro della biblioteca di quartiere. Vi scrivo per l'incontro di questo mese. Ci vediamo giovedì sera, alle venti e trenta, e non alle venti come al solito, perché la sala è occupata da un corso di disegno. Il libro è, ehm, quello che abbiamo scelto a giugno, un romanzo sulla vita di una famiglia di pescatori. Chi non è riuscito a finirlo non deve preoccuparsi, perché parleremo soprattutto dei primi capitoli. Come sempre, ognuno porta qualcosa da bere o da mangiare, ma questa volta niente dolci, perché ne abbiamo già troppi! Ah, una novità: il mese prossimo l'autrice del libro verrà a trovarci, quindi preparate tante domande. Rispondete a questo messaggio se venite, così sappiamo quante sedie servono. Grazie, a giovedì!",
+          "question": "Che cosa non bisogna portare?",
+          "options": [
+            "Le bevande",
+            "Il libro",
+            "I dolci",
+            "Il cibo salato"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l5-e05",
+          "stage": "practise",
+          "audioText": "Ciao a tutti, sono Silvia, del club del libro della biblioteca di quartiere. Vi scrivo per l'incontro di questo mese. Ci vediamo giovedì sera, alle venti e trenta, e non alle venti come al solito, perché la sala è occupata da un corso di disegno. Il libro è, ehm, quello che abbiamo scelto a giugno, un romanzo sulla vita di una famiglia di pescatori. Chi non è riuscito a finirlo non deve preoccuparsi, perché parleremo soprattutto dei primi capitoli. Come sempre, ognuno porta qualcosa da bere o da mangiare, ma questa volta niente dolci, perché ne abbiamo già troppi! Ah, una novità: il mese prossimo l'autrice del libro verrà a trovarci, quindi preparate tante domande. Rispondete a questo messaggio se venite, così sappiamo quante sedie servono. Grazie, a giovedì!",
+          "question": "Quale novità annuncia Silvia?",
+          "options": [
+            "Cambia il libro",
+            "Il mese prossimo verrà l'autrice",
+            "Si cambia sala per sempre",
+            "Ci sarà una cena"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l5-e06",
+          "stage": "learn",
+          "front": "il romanzo",
+          "back": "novel",
+          "example": "Sto leggendo un romanzo bellissimo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l5-e07",
+          "stage": "learn",
+          "front": "il pescatore",
+          "back": "fisherman",
+          "example": "Il pescatore torna al porto all'alba."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b1-06-l6",
+      "title": "Programma della sagra",
+      "minutes": 6,
+      "goal": "Capire il programma di una festa di paese.",
+      "takeaway": "Nei programmi ascolta giorni, orari, prezzi e come arrivare.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b1-06-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, giorni e nomi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l6-e02",
+          "stage": "practise",
+          "audioText": "Cari amici, vi invitiamo alla sagra della castagna, che quest'anno si tiene a Colle Alto da venerdì a domenica. Venerdì sera apre la festa con una cena in piazza, ehm, il menù è semplice: zuppa, castagne arrostite e vino nuovo. Il sabato c'è il mercato dei prodotti locali e, nel pomeriggio, una sfilata di trattori antichi per i bambini. Domenica, alle undici, la messa nella chiesetta, poi il pranzo con musica dal vivo e balli fino alle diciassette. L'ingresso è libero, ma per il pranzo bisogna prenotare entro giovedì: costa quindici euro, ridotto a otto per i bambini. Il parcheggio vicino alla piazza è piccolo, quindi vi consigliamo di lasciare l'auto al campo sportivo, dove parte una navetta gratuita ogni quindici minuti. Vi aspettiamo numerosi!",
+          "question": "Quando c'è la cena in piazza?",
+          "options": [
+            "Sabato sera",
+            "Domenica a pranzo",
+            "Venerdì sera",
+            "Giovedì sera"
+          ],
+          "answer": 2,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l6-e03",
+          "stage": "practise",
+          "audioText": "Cari amici, vi invitiamo alla sagra della castagna, che quest'anno si tiene a Colle Alto da venerdì a domenica. Venerdì sera apre la festa con una cena in piazza, ehm, il menù è semplice: zuppa, castagne arrostite e vino nuovo. Il sabato c'è il mercato dei prodotti locali e, nel pomeriggio, una sfilata di trattori antichi per i bambini. Domenica, alle undici, la messa nella chiesetta, poi il pranzo con musica dal vivo e balli fino alle diciassette. L'ingresso è libero, ma per il pranzo bisogna prenotare entro giovedì: costa quindici euro, ridotto a otto per i bambini. Il parcheggio vicino alla piazza è piccolo, quindi vi consigliamo di lasciare l'auto al campo sportivo, dove parte una navetta gratuita ogni quindici minuti. Vi aspettiamo numerosi!",
+          "question": "Che cosa c'è sabato pomeriggio?",
+          "options": [
+            "Una sfilata di trattori antichi",
+            "La messa",
+            "Il pranzo con musica",
+            "Una gara di corsa"
+          ],
+          "answer": 0,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l6-e04",
+          "stage": "practise",
+          "audioText": "Cari amici, vi invitiamo alla sagra della castagna, che quest'anno si tiene a Colle Alto da venerdì a domenica. Venerdì sera apre la festa con una cena in piazza, ehm, il menù è semplice: zuppa, castagne arrostite e vino nuovo. Il sabato c'è il mercato dei prodotti locali e, nel pomeriggio, una sfilata di trattori antichi per i bambini. Domenica, alle undici, la messa nella chiesetta, poi il pranzo con musica dal vivo e balli fino alle diciassette. L'ingresso è libero, ma per il pranzo bisogna prenotare entro giovedì: costa quindici euro, ridotto a otto per i bambini. Il parcheggio vicino alla piazza è piccolo, quindi vi consigliamo di lasciare l'auto al campo sportivo, dove parte una navetta gratuita ogni quindici minuti. Vi aspettiamo numerosi!",
+          "question": "Quanto costa il pranzo per i bambini?",
+          "options": [
+            "Quindici euro",
+            "Otto euro",
+            "Cinque euro",
+            "Niente"
+          ],
+          "answer": 1,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b1-06-l6-e05",
+          "stage": "practise",
+          "audioText": "Cari amici, vi invitiamo alla sagra della castagna, che quest'anno si tiene a Colle Alto da venerdì a domenica. Venerdì sera apre la festa con una cena in piazza, ehm, il menù è semplice: zuppa, castagne arrostite e vino nuovo. Il sabato c'è il mercato dei prodotti locali e, nel pomeriggio, una sfilata di trattori antichi per i bambini. Domenica, alle undici, la messa nella chiesetta, poi il pranzo con musica dal vivo e balli fino alle diciassette. L'ingresso è libero, ma per il pranzo bisogna prenotare entro giovedì: costa quindici euro, ridotto a otto per i bambini. Il parcheggio vicino alla piazza è piccolo, quindi vi consigliamo di lasciare l'auto al campo sportivo, dove parte una navetta gratuita ogni quindici minuti. Vi aspettiamo numerosi!",
+          "question": "Dove conviene lasciare l'auto?",
+          "options": [
+            "In piazza",
+            "Vicino alla chiesetta",
+            "Al mercato",
+            "Al campo sportivo"
+          ],
+          "answer": 3,
+          "explanation": "La risposta è detta nel testo: riascolta la parte con il numero, il nome o il motivo."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l6-e06",
+          "stage": "learn",
+          "front": "la castagna",
+          "back": "chestnut",
+          "example": "D'autunno mangiamo le castagne."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b1-06-l6-e07",
+          "stage": "learn",
+          "front": "la sfilata",
+          "back": "parade",
+          "example": "La sfilata passa per la piazza."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "il pomodoro",
+      "en": "tomato",
+      "example": "Il pomodoro cresce bene al sole."
+    },
+    {
+      "it": "annaffiare",
+      "en": "to water",
+      "example": "Annaffio le piante ogni mattina."
+    },
+    {
+      "it": "la sconfitta",
+      "en": "defeat",
+      "example": "Dopo la sconfitta erano tutti tristi."
+    },
+    {
+      "it": "il tifoso",
+      "en": "fan, supporter",
+      "example": "I tifosi cantano durante la partita."
+    },
+    {
+      "it": "il sentiero",
+      "en": "path, trail",
+      "example": "Il sentiero passa nel bosco."
+    },
+    {
+      "it": "la borraccia",
+      "en": "water bottle",
+      "example": "Riempio la borraccia alla fontana."
+    },
+    {
+      "it": "la farina",
+      "en": "flour",
+      "example": "Per la torta serve la farina."
+    },
+    {
+      "it": "sciolto",
+      "en": "melted",
+      "example": "Aggiungi il burro sciolto."
+    },
+    {
+      "it": "il romanzo",
+      "en": "novel",
+      "example": "Sto leggendo un romanzo bellissimo."
+    },
+    {
+      "it": "il pescatore",
+      "en": "fisherman",
+      "example": "Il pescatore torna al porto all'alba."
+    },
+    {
+      "it": "la castagna",
+      "en": "chestnut",
+      "example": "D'autunno mangiamo le castagne."
+    },
+    {
+      "it": "la sfilata",
+      "en": "parade",
+      "example": "La sfilata passa per la piazza."
+    }
+  ]
+}

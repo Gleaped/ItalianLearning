@@ -1,0 +1,632 @@
+{
+  "id": "lib-a-b2-01",
+  "level": "ASC",
+  "title": "Informazione",
+  "objective": "Alla fine dell'unità hai ascoltato sei registrazioni informative di livello B2 (circa 150–190 parole): un notiziario locale, l'inizio di una lezione universitaria, un annuncio ufficiale, un'intervista a un'esperta, un documentario e la presentazione di un progetto.",
+  "grammarFocus": "Ascolto esteso B2: riconoscere la struttura di un testo informativo, distinguere fatti e opinioni, cogliere numeri e condizioni e fare inferenze.",
+  "remedialUnitIds": [
+    "celi-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-a-b2-01-l1",
+      "title": "Notiziario locale: tram, ambulatorio e anatre",
+      "minutes": 8,
+      "goal": "Ascoltare un notiziario locale e cogliere argomenti, durate e orari.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-01-l1-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nNel notiziario ogni notizia ha un argomento: segna mentalmente i temi (trasporti, sanità, cronaca) e poi cerca numeri, durate e orari.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l1-e02",
+          "stage": "practise",
+          "audioText": "Buongiorno, ecco le notizie locali delle sette e trenta. Comincio dai trasporti: da domani, per tre settimane, la linea tranviaria sarà sospesa tra la stazione e il viale dei Tigli, a causa di lavori sui binari. Al suo posto circoleranno autobus sostitutivi, uno ogni otto minuti, ma l'azienda avverte che nelle ore di punta i tempi di viaggio potrebbero aumentare di un quarto d'ora. Passiamo alla sanità: l'ospedale cittadino ha aperto un nuovo ambulatorio per le visite senza prenotazione, attivo dal lunedì al sabato, dalle otto alle dodici. La direzione spera che in questo modo l'attesa al pronto soccorso si riduca, ma ammette che per ora è presto per dirlo. Chiudiamo con una notizia curiosa: ieri sera, durante il temporale, un gruppo di cittadini ha salvato tre anatre rimaste intrappolate in un sottopasso allagato. Gli animali stanno bene. Per il momento non sono previsti altri disagi. Ci risentiamo alle otto.",
+          "question": "Di che cosa parla il notiziario?",
+          "options": [
+            "Di politica nazionale e di economia",
+            "Di trasporti, sanità e un fatto di cronaca locale",
+            "Di sport e di spettacolo",
+            "Di meteo e di agricoltura"
+          ],
+          "answer": 1,
+          "explanation": "Il giornalista cita tram, ospedale e un salvataggio: sono notizie locali."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l1-e03",
+          "stage": "practise",
+          "audioText": "Buongiorno, ecco le notizie locali delle sette e trenta. Comincio dai trasporti: da domani, per tre settimane, la linea tranviaria sarà sospesa tra la stazione e il viale dei Tigli, a causa di lavori sui binari. Al suo posto circoleranno autobus sostitutivi, uno ogni otto minuti, ma l'azienda avverte che nelle ore di punta i tempi di viaggio potrebbero aumentare di un quarto d'ora. Passiamo alla sanità: l'ospedale cittadino ha aperto un nuovo ambulatorio per le visite senza prenotazione, attivo dal lunedì al sabato, dalle otto alle dodici. La direzione spera che in questo modo l'attesa al pronto soccorso si riduca, ma ammette che per ora è presto per dirlo. Chiudiamo con una notizia curiosa: ieri sera, durante il temporale, un gruppo di cittadini ha salvato tre anatre rimaste intrappolate in un sottopasso allagato. Gli animali stanno bene. Per il momento non sono previsti altri disagi. Ci risentiamo alle otto.",
+          "question": "Per quanto tempo sarà sospesa la linea tranviaria?",
+          "options": [
+            "Per un giorno",
+            "Per otto giorni",
+            "Per tre mesi",
+            "Per tre settimane"
+          ],
+          "answer": 3,
+          "explanation": "Ascolta la durata subito dopo «da domani»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l1-e04",
+          "stage": "practise",
+          "audioText": "Buongiorno, ecco le notizie locali delle sette e trenta. Comincio dai trasporti: da domani, per tre settimane, la linea tranviaria sarà sospesa tra la stazione e il viale dei Tigli, a causa di lavori sui binari. Al suo posto circoleranno autobus sostitutivi, uno ogni otto minuti, ma l'azienda avverte che nelle ore di punta i tempi di viaggio potrebbero aumentare di un quarto d'ora. Passiamo alla sanità: l'ospedale cittadino ha aperto un nuovo ambulatorio per le visite senza prenotazione, attivo dal lunedì al sabato, dalle otto alle dodici. La direzione spera che in questo modo l'attesa al pronto soccorso si riduca, ma ammette che per ora è presto per dirlo. Chiudiamo con una notizia curiosa: ieri sera, durante il temporale, un gruppo di cittadini ha salvato tre anatre rimaste intrappolate in un sottopasso allagato. Gli animali stanno bene. Per il momento non sono previsti altri disagi. Ci risentiamo alle otto.",
+          "question": "Che cosa pensa la direzione dell'ospedale del nuovo ambulatorio?",
+          "options": [
+            "È sicura che l'attesa sparirà",
+            "Pensa che sia inutile",
+            "Spera in un miglioramento, ma è prudente",
+            "Ha già dei dati che dimostrano il successo"
+          ],
+          "answer": 2,
+          "explanation": "Dice «spera» e poi «è presto per dirlo»: è un ottimismo prudente."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l1-e05",
+          "stage": "practise",
+          "audioText": "Buongiorno, ecco le notizie locali delle sette e trenta. Comincio dai trasporti: da domani, per tre settimane, la linea tranviaria sarà sospesa tra la stazione e il viale dei Tigli, a causa di lavori sui binari. Al suo posto circoleranno autobus sostitutivi, uno ogni otto minuti, ma l'azienda avverte che nelle ore di punta i tempi di viaggio potrebbero aumentare di un quarto d'ora. Passiamo alla sanità: l'ospedale cittadino ha aperto un nuovo ambulatorio per le visite senza prenotazione, attivo dal lunedì al sabato, dalle otto alle dodici. La direzione spera che in questo modo l'attesa al pronto soccorso si riduca, ma ammette che per ora è presto per dirlo. Chiudiamo con una notizia curiosa: ieri sera, durante il temporale, un gruppo di cittadini ha salvato tre anatre rimaste intrappolate in un sottopasso allagato. Gli animali stanno bene. Per il momento non sono previsti altri disagi. Ci risentiamo alle otto.",
+          "question": "Quando si può andare all'ambulatorio senza prenotare?",
+          "options": [
+            "Dal lunedì al sabato mattina",
+            "Tutti i giorni, anche la domenica",
+            "Solo nel pomeriggio",
+            "Dal lunedì al venerdì sera"
+          ],
+          "answer": 0,
+          "explanation": "Gli orari sono dalle otto alle dodici, da lunedì a sabato."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l1-e06",
+          "stage": "learn",
+          "front": "sostitutivo",
+          "back": "replacement (adj.), e.g. bus service",
+          "example": "Ci sono autobus sostitutivi al posto del tram."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l1-e07",
+          "stage": "learn",
+          "front": "l'ora di punta",
+          "back": "rush hour",
+          "example": "Nelle ore di punta il traffico è intenso."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-01-l2",
+      "title": "Lezione universitaria: apertura del corso",
+      "minutes": 8,
+      "goal": "Seguire l'inizio di una lezione e capire organizzazione, esame e atteggiamento del docente.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-01-l2-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nAll'inizio di una lezione il docente spiega la struttura del corso: ascolta le parole d'ordine (prima, poi, infine) e le frasi con «però» e «anche se», che introducono il suo vero parere.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l2-e02",
+          "stage": "practise",
+          "audioText": "Allora, buongiorno a tutti. Prima di cominciare, vorrei dire due parole su come lavoreremo in questo corso di sociologia urbana. Il corso è diviso in tre parti: nella prima parleremo di come sono cambiate le città dopo la rivoluzione industriale; nella seconda, cioè, diciamo, la più impegnativa, affronteremo il tema delle periferie; nella terza vedremo alcuni casi concreti, che sceglierete voi. L'esame sarà orale, ma chi vuole può presentare una ricerca di gruppo, che conta per un terzo del voto. Vi avviso subito: le lezioni non sono obbligatorie, però, secondo la mia esperienza, chi salta più di metà delle lezioni fa molta fatica a passare l'esame. Il materiale è sulla piattaforma, mentre il libro di testo, quello grigio, non è indispensabile, anche se lo consiglio. Se avete dubbi, interrompetemi pure, non c'è problema. Bene, cominciamo con una domanda: quanti di voi abitano ancora nel quartiere in cui sono nati?",
+          "question": "Qual è la parte del corso che il docente considera più impegnativa?",
+          "options": [
+            "La prima, sulla rivoluzione industriale",
+            "La terza, sui casi concreti",
+            "La seconda, sulle periferie",
+            "L'esame orale finale"
+          ],
+          "answer": 2,
+          "explanation": "Dice «la più impegnativa» parlando della seconda parte."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l2-e03",
+          "stage": "practise",
+          "audioText": "Allora, buongiorno a tutti. Prima di cominciare, vorrei dire due parole su come lavoreremo in questo corso di sociologia urbana. Il corso è diviso in tre parti: nella prima parleremo di come sono cambiate le città dopo la rivoluzione industriale; nella seconda, cioè, diciamo, la più impegnativa, affronteremo il tema delle periferie; nella terza vedremo alcuni casi concreti, che sceglierete voi. L'esame sarà orale, ma chi vuole può presentare una ricerca di gruppo, che conta per un terzo del voto. Vi avviso subito: le lezioni non sono obbligatorie, però, secondo la mia esperienza, chi salta più di metà delle lezioni fa molta fatica a passare l'esame. Il materiale è sulla piattaforma, mentre il libro di testo, quello grigio, non è indispensabile, anche se lo consiglio. Se avete dubbi, interrompetemi pure, non c'è problema. Bene, cominciamo con una domanda: quanti di voi abitano ancora nel quartiere in cui sono nati?",
+          "question": "Quanto conta la ricerca di gruppo sul voto finale?",
+          "options": [
+            "Un terzo",
+            "Metà",
+            "Un quarto",
+            "Tutto il voto"
+          ],
+          "answer": 0,
+          "explanation": "La ricerca è facoltativa e conta per un terzo."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l2-e04",
+          "stage": "practise",
+          "audioText": "Allora, buongiorno a tutti. Prima di cominciare, vorrei dire due parole su come lavoreremo in questo corso di sociologia urbana. Il corso è diviso in tre parti: nella prima parleremo di come sono cambiate le città dopo la rivoluzione industriale; nella seconda, cioè, diciamo, la più impegnativa, affronteremo il tema delle periferie; nella terza vedremo alcuni casi concreti, che sceglierete voi. L'esame sarà orale, ma chi vuole può presentare una ricerca di gruppo, che conta per un terzo del voto. Vi avviso subito: le lezioni non sono obbligatorie, però, secondo la mia esperienza, chi salta più di metà delle lezioni fa molta fatica a passare l'esame. Il materiale è sulla piattaforma, mentre il libro di testo, quello grigio, non è indispensabile, anche se lo consiglio. Se avete dubbi, interrompetemi pure, non c'è problema. Bene, cominciamo con una domanda: quanti di voi abitano ancora nel quartiere in cui sono nati?",
+          "question": "Che cosa pensa il docente della frequenza alle lezioni?",
+          "options": [
+            "La considera inutile",
+            "La rende obbligatoria per tutti",
+            "È indifferente al problema",
+            "Non è obbligatoria, ma la ritiene molto utile"
+          ],
+          "answer": 3,
+          "explanation": "«Non sono obbligatorie, però...»: il «però» rivela il suo parere."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l2-e05",
+          "stage": "practise",
+          "audioText": "Allora, buongiorno a tutti. Prima di cominciare, vorrei dire due parole su come lavoreremo in questo corso di sociologia urbana. Il corso è diviso in tre parti: nella prima parleremo di come sono cambiate le città dopo la rivoluzione industriale; nella seconda, cioè, diciamo, la più impegnativa, affronteremo il tema delle periferie; nella terza vedremo alcuni casi concreti, che sceglierete voi. L'esame sarà orale, ma chi vuole può presentare una ricerca di gruppo, che conta per un terzo del voto. Vi avviso subito: le lezioni non sono obbligatorie, però, secondo la mia esperienza, chi salta più di metà delle lezioni fa molta fatica a passare l'esame. Il materiale è sulla piattaforma, mentre il libro di testo, quello grigio, non è indispensabile, anche se lo consiglio. Se avete dubbi, interrompetemi pure, non c'è problema. Bene, cominciamo con una domanda: quanti di voi abitano ancora nel quartiere in cui sono nati?",
+          "question": "Che cosa si può dedurre sul libro di testo?",
+          "options": [
+            "È obbligatorio comprarlo",
+            "Si può superare il corso anche senza, ma conviene averlo",
+            "Il docente lo sconsiglia",
+            "Non esiste un libro di testo"
+          ],
+          "answer": 1,
+          "explanation": "«Non è indispensabile, anche se lo consiglio»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l2-e06",
+          "stage": "learn",
+          "front": "impegnativo",
+          "back": "demanding, challenging",
+          "example": "È un corso impegnativo ma interessante."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l2-e07",
+          "stage": "learn",
+          "front": "saltare una lezione",
+          "back": "to skip a class",
+          "example": "Chi salta troppe lezioni resta indietro."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-01-l3",
+      "title": "Annuncio in stazione: un treno in ritardo",
+      "minutes": 8,
+      "goal": "Capire un annuncio ufficiale con cambio di binario, ritardo e istruzioni.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-01-l3-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nGli annunci ufficiali ripetono le informazioni importanti. Cerca la parola «ripetiamo» e ascolta bene numeri, binari e orari: poi calcola con calma.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l3-e02",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Si informano i signori viaggiatori che il treno regionale delle diciotto e quaranta per Verona, in partenza dal binario quattro, viaggia con un ritardo di circa venticinque minuti a causa di un guasto alla linea elettrica. Ripetiamo: il treno per Verona partirà dal binario sei, e non più dal binario quattro. Si prega di prestare attenzione. I viaggiatori con coincidenza per Venezia sono invitati a rivolgersi al personale presso la biglietteria, dove sarà possibile cambiare il biglietto senza spese. Inoltre si ricorda che, per motivi di sicurezza, è vietato attraversare i binari e sostare oltre la linea gialla. Per chi lo desidera, il bar della stazione resta aperto fino alle ventidue. Ripetiamo ancora una volta: il treno regionale per Verona è in ritardo di venticinque minuti circa e partirà dal binario sei. Ci scusiamo ancora per il disagio e vi ringraziamo per la pazienza.",
+          "question": "Qual è la causa del ritardo?",
+          "options": [
+            "Uno sciopero del personale",
+            "Il maltempo",
+            "Un incidente sul binario quattro",
+            "Un guasto alla linea elettrica"
+          ],
+          "answer": 3,
+          "explanation": "Il motivo segue «a causa di»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l3-e03",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Si informano i signori viaggiatori che il treno regionale delle diciotto e quaranta per Verona, in partenza dal binario quattro, viaggia con un ritardo di circa venticinque minuti a causa di un guasto alla linea elettrica. Ripetiamo: il treno per Verona partirà dal binario sei, e non più dal binario quattro. Si prega di prestare attenzione. I viaggiatori con coincidenza per Venezia sono invitati a rivolgersi al personale presso la biglietteria, dove sarà possibile cambiare il biglietto senza spese. Inoltre si ricorda che, per motivi di sicurezza, è vietato attraversare i binari e sostare oltre la linea gialla. Per chi lo desidera, il bar della stazione resta aperto fino alle ventidue. Ripetiamo ancora una volta: il treno regionale per Verona è in ritardo di venticinque minuti circa e partirà dal binario sei. Ci scusiamo ancora per il disagio e vi ringraziamo per la pazienza.",
+          "question": "Che cosa è cambiato per i passeggeri del treno per Verona?",
+          "options": [
+            "La stazione di arrivo",
+            "Il binario di partenza",
+            "Il prezzo del biglietto",
+            "La destinazione finale"
+          ],
+          "answer": 1,
+          "explanation": "L'annuncio dice «non più dal binario quattro»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l3-e04",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Si informano i signori viaggiatori che il treno regionale delle diciotto e quaranta per Verona, in partenza dal binario quattro, viaggia con un ritardo di circa venticinque minuti a causa di un guasto alla linea elettrica. Ripetiamo: il treno per Verona partirà dal binario sei, e non più dal binario quattro. Si prega di prestare attenzione. I viaggiatori con coincidenza per Venezia sono invitati a rivolgersi al personale presso la biglietteria, dove sarà possibile cambiare il biglietto senza spese. Inoltre si ricorda che, per motivi di sicurezza, è vietato attraversare i binari e sostare oltre la linea gialla. Per chi lo desidera, il bar della stazione resta aperto fino alle ventidue. Ripetiamo ancora una volta: il treno regionale per Verona è in ritardo di venticinque minuti circa e partirà dal binario sei. Ci scusiamo ancora per il disagio e vi ringraziamo per la pazienza.",
+          "question": "Che cosa devono fare i viaggiatori con coincidenza per Venezia?",
+          "options": [
+            "Rivolgersi al personale alla biglietteria",
+            "Aspettare sul binario quattro",
+            "Chiamare un numero verde",
+            "Prendere un altro treno senza informare nessuno"
+          ],
+          "answer": 0,
+          "explanation": "Sono «invitati a rivolgersi al personale»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l3-e05",
+          "stage": "practise",
+          "audioText": "Attenzione, prego. Si informano i signori viaggiatori che il treno regionale delle diciotto e quaranta per Verona, in partenza dal binario quattro, viaggia con un ritardo di circa venticinque minuti a causa di un guasto alla linea elettrica. Ripetiamo: il treno per Verona partirà dal binario sei, e non più dal binario quattro. Si prega di prestare attenzione. I viaggiatori con coincidenza per Venezia sono invitati a rivolgersi al personale presso la biglietteria, dove sarà possibile cambiare il biglietto senza spese. Inoltre si ricorda che, per motivi di sicurezza, è vietato attraversare i binari e sostare oltre la linea gialla. Per chi lo desidera, il bar della stazione resta aperto fino alle ventidue. Ripetiamo ancora una volta: il treno regionale per Verona è in ritardo di venticinque minuti circa e partirà dal binario sei. Ci scusiamo ancora per il disagio e vi ringraziamo per la pazienza.",
+          "question": "A che ora, più o meno, partirà il treno?",
+          "options": [
+            "Alle diciotto e quaranta",
+            "Verso le diciotto e cinquanta",
+            "Poco dopo le diciannove",
+            "Dopo le venti"
+          ],
+          "answer": 2,
+          "explanation": "Diciotto e quaranta più circa venticinque minuti fa le diciannove e cinque."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l3-e06",
+          "stage": "learn",
+          "front": "il guasto",
+          "back": "breakdown, fault",
+          "example": "C'è un guasto alla linea elettrica."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l3-e07",
+          "stage": "learn",
+          "front": "la coincidenza",
+          "back": "connection (train)",
+          "example": "Ho una coincidenza per Venezia."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-01-l4",
+      "title": "Intervista a un'esperta di energia",
+      "minutes": 8,
+      "goal": "Seguire un'intervista, distinguere i consigli e capire la posizione dell'esperta.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-01-l4-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nIn un'intervista la risposta più importante spesso contiene «dipende», «ma» o «invece»: sono i segnali di una sfumatura. Ascolta se l'esperta consiglia, sconsiglia o resta prudente.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l4-e02",
+          "stage": "practise",
+          "audioText": "Ingegnera, molte famiglie si lamentano delle bollette. Da dove si comincia? Beh, innanzitutto dalle cose semplici, quelle che non costano niente. Per esempio, abbassare il riscaldamento di un grado può far risparmiare circa il sette per cento, e non è poco. E gli elettrodomestici? Qui bisogna distinguere: sostituire il frigorifero, se ha più di quindici anni, conviene quasi sempre, perché i modelli nuovi consumano la metà. La lavatrice, invece, no, a meno che non sia proprio rotta. E i pannelli solari? Ecco, su questo sono prudente: dipende dal tetto, dall'orientamento e, in condominio, le decisioni sono più complicate. Quindi, diciamo, non li consiglio a tutti. Un ultimo errore frequente? Lasciare gli apparecchi sempre in attesa, con la lucina rossa accesa. Sembra poco, ma in un anno può pesare per una cinquantina di euro. Insomma, prima di spendere molto, conviene guardare dove si spreca già adesso. Grazie, ingegnera. Grazie a voi.",
+          "question": "Quanto si può risparmiare abbassando il riscaldamento di un grado?",
+          "options": [
+            "Circa il sette per cento",
+            "Circa il cinquanta per cento",
+            "Circa il quindici per cento",
+            "Quasi niente"
+          ],
+          "answer": 0,
+          "explanation": "È il primo numero citato, nella risposta sulle cose semplici."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l4-e03",
+          "stage": "practise",
+          "audioText": "Ingegnera, molte famiglie si lamentano delle bollette. Da dove si comincia? Beh, innanzitutto dalle cose semplici, quelle che non costano niente. Per esempio, abbassare il riscaldamento di un grado può far risparmiare circa il sette per cento, e non è poco. E gli elettrodomestici? Qui bisogna distinguere: sostituire il frigorifero, se ha più di quindici anni, conviene quasi sempre, perché i modelli nuovi consumano la metà. La lavatrice, invece, no, a meno che non sia proprio rotta. E i pannelli solari? Ecco, su questo sono prudente: dipende dal tetto, dall'orientamento e, in condominio, le decisioni sono più complicate. Quindi, diciamo, non li consiglio a tutti. Un ultimo errore frequente? Lasciare gli apparecchi sempre in attesa, con la lucina rossa accesa. Sembra poco, ma in un anno può pesare per una cinquantina di euro. Insomma, prima di spendere molto, conviene guardare dove si spreca già adesso. Grazie, ingegnera. Grazie a voi.",
+          "question": "Quando conviene sostituire il frigorifero?",
+          "options": [
+            "Ogni cinque anni",
+            "Solo quando si rompe",
+            "Quando ha più di quindici anni",
+            "Mai"
+          ],
+          "answer": 2,
+          "explanation": "Dice «se ha più di quindici anni, conviene quasi sempre»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l4-e04",
+          "stage": "practise",
+          "audioText": "Ingegnera, molte famiglie si lamentano delle bollette. Da dove si comincia? Beh, innanzitutto dalle cose semplici, quelle che non costano niente. Per esempio, abbassare il riscaldamento di un grado può far risparmiare circa il sette per cento, e non è poco. E gli elettrodomestici? Qui bisogna distinguere: sostituire il frigorifero, se ha più di quindici anni, conviene quasi sempre, perché i modelli nuovi consumano la metà. La lavatrice, invece, no, a meno che non sia proprio rotta. E i pannelli solari? Ecco, su questo sono prudente: dipende dal tetto, dall'orientamento e, in condominio, le decisioni sono più complicate. Quindi, diciamo, non li consiglio a tutti. Un ultimo errore frequente? Lasciare gli apparecchi sempre in attesa, con la lucina rossa accesa. Sembra poco, ma in un anno può pesare per una cinquantina di euro. Insomma, prima di spendere molto, conviene guardare dove si spreca già adesso. Grazie, ingegnera. Grazie a voi.",
+          "question": "Qual è la posizione dell'esperta sui pannelli solari?",
+          "options": [
+            "Entusiasta: li consiglia a tutte le famiglie",
+            "Prudente: non li consiglia a tutti",
+            "Contraria in ogni caso",
+            "Non esprime nessuna opinione"
+          ],
+          "answer": 1,
+          "explanation": "Dice «sono prudente» e «non li consiglio a tutti»."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l4-e05",
+          "stage": "practise",
+          "audioText": "Ingegnera, molte famiglie si lamentano delle bollette. Da dove si comincia? Beh, innanzitutto dalle cose semplici, quelle che non costano niente. Per esempio, abbassare il riscaldamento di un grado può far risparmiare circa il sette per cento, e non è poco. E gli elettrodomestici? Qui bisogna distinguere: sostituire il frigorifero, se ha più di quindici anni, conviene quasi sempre, perché i modelli nuovi consumano la metà. La lavatrice, invece, no, a meno che non sia proprio rotta. E i pannelli solari? Ecco, su questo sono prudente: dipende dal tetto, dall'orientamento e, in condominio, le decisioni sono più complicate. Quindi, diciamo, non li consiglio a tutti. Un ultimo errore frequente? Lasciare gli apparecchi sempre in attesa, con la lucina rossa accesa. Sembra poco, ma in un anno può pesare per una cinquantina di euro. Insomma, prima di spendere molto, conviene guardare dove si spreca già adesso. Grazie, ingegnera. Grazie a voi.",
+          "question": "Che cosa si può dedurre sulla lavatrice?",
+          "options": [
+            "Consuma più del frigorifero",
+            "Va sostituita ogni anno",
+            "È l'apparecchio più costoso",
+            "Se funziona ancora, non serve cambiarla"
+          ],
+          "answer": 3,
+          "explanation": "«La lavatrice, invece, no, a meno che non sia rotta»."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l4-e06",
+          "stage": "learn",
+          "front": "la bolletta",
+          "back": "utility bill",
+          "example": "La bolletta della luce è aumentata."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l4-e07",
+          "stage": "learn",
+          "front": "risparmiare",
+          "back": "to save (money, energy)",
+          "example": "Spegnendo le luci si risparmia energia."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-01-l5",
+      "title": "Documentario: la vita di un alveare",
+      "minutes": 8,
+      "goal": "Seguire una narrazione documentaria e collegare cause, effetti e speranze.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-01-l5-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nUn documentario spiega processi e cause. Ascolta le parole che collegano: «poi», «eppure», «ma», «dove»: ti dicono dove cambia l'idea.\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l5-e02",
+          "stage": "practise",
+          "audioText": "Alle prime luci dell'alba, l'alveare si risveglia. Dentro, più di cinquantamila api lavorano senza sosta, ognuna con un compito preciso. Le più giovani puliscono le celle e si occupano delle larve; poi, dopo circa tre settimane, diventano bottinatrici e cominciano a volare in cerca di nettare. Per produrre un solo chilo di miele, le api di un alveare devono percorrere, tutte insieme, decine di migliaia di chilometri: un'impresa che, a guardarla da vicino, ha quasi dell'incredibile. Eppure, negli ultimi anni, gli apicoltori osservano un fenomeno preoccupante: sempre più colonie non sopravvivono all'inverno. Le cause sono diverse: i pesticidi, i parassiti e un clima che cambia troppo in fretta, ingannando le api, che escono dall'alveare quando i fiori non sono ancora sbocciati. Ma non tutto è perduto: dove si lasciano prati fioriti ai bordi dei campi, le api tornano a prosperare, e con loro tornano anche gli uccelli e le farfalle.",
+          "question": "Che cosa fanno le api più giovani?",
+          "options": [
+            "Cercano il nettare nei campi",
+            "Puliscono le celle e curano le larve",
+            "Producono il miele da sole",
+            "Proteggono l'alveare dai parassiti"
+          ],
+          "answer": 1,
+          "explanation": "Il testo dice che le giovani puliscono le celle e si occupano delle larve."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l5-e03",
+          "stage": "practise",
+          "audioText": "Alle prime luci dell'alba, l'alveare si risveglia. Dentro, più di cinquantamila api lavorano senza sosta, ognuna con un compito preciso. Le più giovani puliscono le celle e si occupano delle larve; poi, dopo circa tre settimane, diventano bottinatrici e cominciano a volare in cerca di nettare. Per produrre un solo chilo di miele, le api di un alveare devono percorrere, tutte insieme, decine di migliaia di chilometri: un'impresa che, a guardarla da vicino, ha quasi dell'incredibile. Eppure, negli ultimi anni, gli apicoltori osservano un fenomeno preoccupante: sempre più colonie non sopravvivono all'inverno. Le cause sono diverse: i pesticidi, i parassiti e un clima che cambia troppo in fretta, ingannando le api, che escono dall'alveare quando i fiori non sono ancora sbocciati. Ma non tutto è perduto: dove si lasciano prati fioriti ai bordi dei campi, le api tornano a prosperare, e con loro tornano anche gli uccelli e le farfalle.",
+          "question": "Perché alcune api escono troppo presto dall'alveare?",
+          "options": [
+            "Hanno finito il miele",
+            "Sono disturbate dagli apicoltori",
+            "Non trovano più l'alveare",
+            "Il clima cambia e le inganna prima della fioritura"
+          ],
+          "answer": 3,
+          "explanation": "Il clima le inganna: escono quando i fiori non sono ancora sbocciati."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l5-e04",
+          "stage": "practise",
+          "audioText": "Alle prime luci dell'alba, l'alveare si risveglia. Dentro, più di cinquantamila api lavorano senza sosta, ognuna con un compito preciso. Le più giovani puliscono le celle e si occupano delle larve; poi, dopo circa tre settimane, diventano bottinatrici e cominciano a volare in cerca di nettare. Per produrre un solo chilo di miele, le api di un alveare devono percorrere, tutte insieme, decine di migliaia di chilometri: un'impresa che, a guardarla da vicino, ha quasi dell'incredibile. Eppure, negli ultimi anni, gli apicoltori osservano un fenomeno preoccupante: sempre più colonie non sopravvivono all'inverno. Le cause sono diverse: i pesticidi, i parassiti e un clima che cambia troppo in fretta, ingannando le api, che escono dall'alveare quando i fiori non sono ancora sbocciati. Ma non tutto è perduto: dove si lasciano prati fioriti ai bordi dei campi, le api tornano a prosperare, e con loro tornano anche gli uccelli e le farfalle.",
+          "question": "Che tono ha il narratore quando parla della produzione del miele?",
+          "options": [
+            "Annoiato",
+            "Ironico",
+            "Ammirato",
+            "Critico"
+          ],
+          "answer": 2,
+          "explanation": "Dice che l'impresa «ha quasi dell'incredibile»: è un tono di ammirazione."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l5-e05",
+          "stage": "practise",
+          "audioText": "Alle prime luci dell'alba, l'alveare si risveglia. Dentro, più di cinquantamila api lavorano senza sosta, ognuna con un compito preciso. Le più giovani puliscono le celle e si occupano delle larve; poi, dopo circa tre settimane, diventano bottinatrici e cominciano a volare in cerca di nettare. Per produrre un solo chilo di miele, le api di un alveare devono percorrere, tutte insieme, decine di migliaia di chilometri: un'impresa che, a guardarla da vicino, ha quasi dell'incredibile. Eppure, negli ultimi anni, gli apicoltori osservano un fenomeno preoccupante: sempre più colonie non sopravvivono all'inverno. Le cause sono diverse: i pesticidi, i parassiti e un clima che cambia troppo in fretta, ingannando le api, che escono dall'alveare quando i fiori non sono ancora sbocciati. Ma non tutto è perduto: dove si lasciano prati fioriti ai bordi dei campi, le api tornano a prosperare, e con loro tornano anche gli uccelli e le farfalle.",
+          "question": "Che cosa aiuta le api secondo il documentario?",
+          "options": [
+            "Lasciare prati fioriti ai bordi dei campi",
+            "Spostare gli alveari in città",
+            "Usare più pesticidi",
+            "Coprire gli alveari d'inverno"
+          ],
+          "answer": 0,
+          "explanation": "L'ultima frase indica i prati fioriti come soluzione."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l5-e06",
+          "stage": "learn",
+          "front": "l'alveare",
+          "back": "beehive",
+          "example": "L'alveare è pieno di api."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l5-e07",
+          "stage": "learn",
+          "front": "sopravvivere",
+          "back": "to survive",
+          "example": "Poche colonie sopravvivono all'inverno."
+        }
+      ]
+    },
+    {
+      "id": "lib-a-b2-01-l6",
+      "title": "Presentazione di un progetto: orti sui tetti",
+      "minutes": 8,
+      "goal": "Capire la presentazione di un progetto: scopo, costi, rischi e tempi.",
+      "takeaway": "Leggi le domande prima di ascoltare e cerca numeri, motivi e atteggiamenti.",
+      "exercises": [
+        {
+          "type": "grammar_note",
+          "id": "lib-a-b2-01-l6-e01",
+          "stage": "learn",
+          "title": "Come ascoltare",
+          "body": "Prima di ascoltare, leggi le domande.\n\nIn una presentazione l'oratore elenca vantaggi («primo, secondo, terzo») e poi rischi. Segna i numeri (costi, metri quadrati) e ascolta la frase che inizia con «il rischio».\n\n- La prima volta cerca l'idea generale.\n- La seconda volta cerca numeri, nomi e motivi.\n- Se perdi una parola, vai avanti.",
+          "examples": []
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l6-e02",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti e grazie di essere venuti. Vi presento brevemente il progetto «Orti sui tetti», che abbiamo preparato insieme alla scuola media del quartiere. L'idea è semplice: trasformare il tetto piatto della scuola in un orto didattico di circa duecento metri quadrati. Lì i ragazzi, seguiti da due agronomi, coltiveranno ortaggi e aromi, che poi useranno nella mensa. I vantaggi sono almeno tre: primo, un tetto verde isola meglio l'edificio e riduce i costi del riscaldamento; secondo, i ragazzi imparano da dove viene il cibo; terzo, si crea uno spazio di incontro anche per le famiglie. Quanto costa? Il preventivo è di circa quarantamila euro, di cui metà già coperta da un bando regionale. Per il resto, contiamo su donazioni e su una raccolta di fondi che partirà a gennaio. Il rischio principale, lo dico con sincerità, è il peso: prima dei lavori, un ingegnere dovrà verificare che il tetto regga. Se la verifica andrà bene, partiremo in primavera.",
+          "question": "Qual è l'idea del progetto?",
+          "options": [
+            "Costruire una nuova mensa",
+            "Aprire un negozio di ortaggi",
+            "Fare un orto didattico sul tetto della scuola",
+            "Piantare alberi in cortile"
+          ],
+          "answer": 2,
+          "explanation": "L'oratore parla di trasformare il tetto in un orto didattico."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l6-e03",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti e grazie di essere venuti. Vi presento brevemente il progetto «Orti sui tetti», che abbiamo preparato insieme alla scuola media del quartiere. L'idea è semplice: trasformare il tetto piatto della scuola in un orto didattico di circa duecento metri quadrati. Lì i ragazzi, seguiti da due agronomi, coltiveranno ortaggi e aromi, che poi useranno nella mensa. I vantaggi sono almeno tre: primo, un tetto verde isola meglio l'edificio e riduce i costi del riscaldamento; secondo, i ragazzi imparano da dove viene il cibo; terzo, si crea uno spazio di incontro anche per le famiglie. Quanto costa? Il preventivo è di circa quarantamila euro, di cui metà già coperta da un bando regionale. Per il resto, contiamo su donazioni e su una raccolta di fondi che partirà a gennaio. Il rischio principale, lo dico con sincerità, è il peso: prima dei lavori, un ingegnere dovrà verificare che il tetto regga. Se la verifica andrà bene, partiremo in primavera.",
+          "question": "Quanto manca ancora da finanziare?",
+          "options": [
+            "Circa ventimila euro",
+            "Quarantamila euro",
+            "Circa diecimila euro",
+            "Nulla, è già tutto coperto"
+          ],
+          "answer": 0,
+          "explanation": "Il preventivo è di quarantamila euro e la metà è già coperta."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l6-e04",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti e grazie di essere venuti. Vi presento brevemente il progetto «Orti sui tetti», che abbiamo preparato insieme alla scuola media del quartiere. L'idea è semplice: trasformare il tetto piatto della scuola in un orto didattico di circa duecento metri quadrati. Lì i ragazzi, seguiti da due agronomi, coltiveranno ortaggi e aromi, che poi useranno nella mensa. I vantaggi sono almeno tre: primo, un tetto verde isola meglio l'edificio e riduce i costi del riscaldamento; secondo, i ragazzi imparano da dove viene il cibo; terzo, si crea uno spazio di incontro anche per le famiglie. Quanto costa? Il preventivo è di circa quarantamila euro, di cui metà già coperta da un bando regionale. Per il resto, contiamo su donazioni e su una raccolta di fondi che partirà a gennaio. Il rischio principale, lo dico con sincerità, è il peso: prima dei lavori, un ingegnere dovrà verificare che il tetto regga. Se la verifica andrà bene, partiremo in primavera.",
+          "question": "Quale vantaggio NON viene citato?",
+          "options": [
+            "Un risparmio sul riscaldamento",
+            "Un valore educativo per i ragazzi",
+            "Uno spazio di incontro per le famiglie",
+            "Un guadagno economico per la scuola"
+          ],
+          "answer": 3,
+          "explanation": "I vantaggi citati sono tre; i profitti non sono tra questi."
+        },
+        {
+          "type": "listen_choose",
+          "id": "lib-a-b2-01-l6-e05",
+          "stage": "practise",
+          "audioText": "Buonasera a tutti e grazie di essere venuti. Vi presento brevemente il progetto «Orti sui tetti», che abbiamo preparato insieme alla scuola media del quartiere. L'idea è semplice: trasformare il tetto piatto della scuola in un orto didattico di circa duecento metri quadrati. Lì i ragazzi, seguiti da due agronomi, coltiveranno ortaggi e aromi, che poi useranno nella mensa. I vantaggi sono almeno tre: primo, un tetto verde isola meglio l'edificio e riduce i costi del riscaldamento; secondo, i ragazzi imparano da dove viene il cibo; terzo, si crea uno spazio di incontro anche per le famiglie. Quanto costa? Il preventivo è di circa quarantamila euro, di cui metà già coperta da un bando regionale. Per il resto, contiamo su donazioni e su una raccolta di fondi che partirà a gennaio. Il rischio principale, lo dico con sincerità, è il peso: prima dei lavori, un ingegnere dovrà verificare che il tetto regga. Se la verifica andrà bene, partiremo in primavera.",
+          "question": "Che cosa si può dedurre sull'inizio dei lavori?",
+          "options": [
+            "Partiranno a gennaio",
+            "Dipende dal controllo sulla resistenza del tetto",
+            "Sono già cominciati",
+            "Non sono previsti per quest'anno"
+          ],
+          "answer": 1,
+          "explanation": "Se la verifica andrà bene, partiranno in primavera."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l6-e06",
+          "stage": "learn",
+          "front": "il preventivo",
+          "back": "estimate, quote",
+          "example": "Il preventivo è di quarantamila euro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-a-b2-01-l6-e07",
+          "stage": "learn",
+          "front": "il bando",
+          "back": "public call (for funding)",
+          "example": "Abbiamo vinto un bando regionale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "sostitutivo",
+      "en": "replacement (adj.), e.g. bus service",
+      "example": "Ci sono autobus sostitutivi al posto del tram."
+    },
+    {
+      "it": "l'ora di punta",
+      "en": "rush hour",
+      "example": "Nelle ore di punta il traffico è intenso."
+    },
+    {
+      "it": "impegnativo",
+      "en": "demanding, challenging",
+      "example": "È un corso impegnativo ma interessante."
+    },
+    {
+      "it": "saltare una lezione",
+      "en": "to skip a class",
+      "example": "Chi salta troppe lezioni resta indietro."
+    },
+    {
+      "it": "il guasto",
+      "en": "breakdown, fault",
+      "example": "C'è un guasto alla linea elettrica."
+    },
+    {
+      "it": "la coincidenza",
+      "en": "connection (train)",
+      "example": "Ho una coincidenza per Venezia."
+    },
+    {
+      "it": "la bolletta",
+      "en": "utility bill",
+      "example": "La bolletta della luce è aumentata."
+    },
+    {
+      "it": "risparmiare",
+      "en": "to save (money, energy)",
+      "example": "Spegnendo le luci si risparmia energia."
+    },
+    {
+      "it": "l'alveare",
+      "en": "beehive",
+      "example": "L'alveare è pieno di api."
+    },
+    {
+      "it": "sopravvivere",
+      "en": "to survive",
+      "example": "Poche colonie sopravvivono all'inverno."
+    },
+    {
+      "it": "il preventivo",
+      "en": "estimate, quote",
+      "example": "Il preventivo è di quarantamila euro."
+    },
+    {
+      "it": "il bando",
+      "en": "public call (for funding)",
+      "example": "Abbiamo vinto un bando regionale."
+    }
+  ]
+}

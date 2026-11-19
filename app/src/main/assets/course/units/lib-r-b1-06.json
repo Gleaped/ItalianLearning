@@ -1,0 +1,462 @@
+{
+  "id": "lib-r-b1-06",
+  "level": "LET",
+  "title": "Ricordi, feste e passioni",
+  "objective": "Alla fine dell'unità hai letto quattro testi lunghi su ricordi, tradizioni, acquisti e hobby (circa 200 parole): un racconto, un volantino, una recensione e un'intervista.",
+  "grammarFocus": "Lettura estensiva di livello B1: ricordi d'infanzia (imperfetto e passato prossimo), programmi e regole, giudizi con pregi e difetti, risposte in un'intervista.",
+  "remedialUnitIds": [
+    "a2r-01"
+  ],
+  "lessons": [
+    {
+      "id": "lib-r-b1-06-l1",
+      "title": "La scatola dei giochi",
+      "minutes": 8,
+      "goal": "Leggere un racconto di ricordi d'infanzia di circa 200 parole e capire passato, confronti e presente.",
+      "takeaway": "Nei ricordi d'infanzia l'imperfetto descrive le abitudini del passato; il passato prossimo racconta ciò che è successo di recente.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-06-l1-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "La scatola dei giochi",
+          "passage": "L'altro giorno, in soffitta, ho trovato una scatola di cartone coperta di polvere. Sopra, con la calligrafia di mia madre, c'era scritto: \"Giochi di Luca\". Quando l'ho aperta, sono tornato bambino in un secondo.\n\nDentro c'erano le macchinine che collezionavo a sei anni, un orso di peluche senza un occhio e un vecchio album di figurine. Ho riconosciuto subito anche il piccolo telescopio di plastica che mi aveva regalato mio zio: la sera, d'estate, lo puntavo verso la luna e fingevo di essere un astronauta.\n\nDa bambino passavo interi pomeriggi nel cortile del palazzo. Giocavamo a nascondino e a calcio finché non faceva buio, e le mamme ci chiamavano dai balconi per la cena. Non avevamo né telefonini né videogiochi, ma non ci annoiavamo mai: bastavano un pallone, un pezzo di gesso e un po' di fantasia.\n\nHo mostrato la scatola a mia figlia, che ha otto anni. All'inizio guardava le macchinine con un po' di sospetto, poi ha cominciato a farle correre sul tavolo. Adesso vuole che le racconti i giochi del cortile. Forse sabato proveremo a giocare a nascondino in giardino, anche se io, con la schiena che ho, dovrò scegliere un nascondiglio comodo!",
+          "questions": [
+            {
+              "question": "Dove ha trovato la scatola l'autore?",
+              "options": [
+                "In cantina",
+                "In soffitta",
+                "In garage",
+                "In camera di sua figlia"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa faceva con il telescopio?",
+              "options": [
+                "Osservava i vicini",
+                "Guardava le macchine in strada",
+                "Cercava gli uccelli",
+                "Guardava la luna e fingeva di essere un astronauta"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Com'era il gioco quando era bambino?",
+              "options": [
+                "Costoso e moderno",
+                "Solo in casa, davanti alla televisione",
+                "Semplice: bastavano un pallone, del gesso e la fantasia",
+                "Sempre con un adulto"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa vuole fare adesso la figlia?",
+              "options": [
+                "Sentire i racconti dei giochi del cortile",
+                "Vendere le macchinine",
+                "Comprare un telescopio",
+                "Dormire in soffitta"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l1-e02",
+          "stage": "learn",
+          "front": "la soffitta",
+          "back": "attic",
+          "example": "In soffitta ci sono molti vecchi libri."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l1-e03",
+          "stage": "learn",
+          "front": "nascondino",
+          "back": "hide-and-seek",
+          "example": "I bambini giocano a nascondino in giardino."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l1-e04",
+          "stage": "learn",
+          "front": "fingere",
+          "back": "to pretend",
+          "example": "Il bambino fingeva di dormire."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-06-l1-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "scatola",
+            "soffitta",
+            "cortile",
+            "figlia"
+          ],
+          "modelAnswer": "L'autore ha trovato in soffitta una scatola con i giochi della sua infanzia. Da bambino giocava nel cortile con gli amici e non aveva né telefonino né videogiochi. Adesso la figlia vuole che le racconti quei giochi, e forse sabato giocheranno a nascondino.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-06-l2",
+      "title": "Festa di San Fermo",
+      "minutes": 8,
+      "goal": "Leggere un volantino di festa di paese di circa 200 parole e trovare orari, costi e regole.",
+      "takeaway": "In un volantino cerca giorno, ora, prezzo e condizioni: sono le informazioni che servono per partecipare.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-06-l2-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Festa di San Fermo",
+          "passage": "Festa di San Fermo a Rocca Verde\nSabato 14 e domenica 15 settembre\n\nAnche quest'anno Rocca Verde ti aspetta per la festa del santo patrono, una tradizione che si ripete da più di duecento anni. Il programma è ricco e adatto a tutta la famiglia.\n\nSabato. Alle 10 apre il mercato artigianale in piazza del Municipio, con i prodotti dei laboratori della zona. Nel pomeriggio, alle 16, i bambini potranno partecipare alla caccia al tesoro per le vie del centro; ogni squadra riceverà una mappa all'ingresso. Alle 21 la banda del paese suonerà in piazza e subito dopo ci sarà la cena sotto le stelle: il menu costa 15 euro, bevande incluse, e bisogna prenotare entro giovedì.\n\nDomenica. Alle 11 si terrà la processione con la statua del santo, che attraversa le strade del paese. Alle 13 il pranzo sarà preparato dai volontari della pro loco. Per finire, alle 22, spettacolo di fuochi d'artificio dal ponte vecchio.\n\nInformazioni utili. Le strade del centro resteranno chiuse al traffico dalle 9 alle 24. Si può parcheggiare nel campo sportivo, dove un servizio gratuito di navetta porta in piazza ogni quindici minuti. In caso di pioggia, la caccia al tesoro sarà rimandata a domenica pomeriggio. Vi aspettiamo numerosi!",
+          "questions": [
+            {
+              "question": "Che cosa si festeggia a Rocca Verde?",
+              "options": [
+                "Il santo patrono del paese",
+                "Il carnevale",
+                "La fine dell'estate",
+                "Il compleanno del sindaco"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa bisogna fare per la cena del sabato?",
+              "options": [
+                "Portare il cibo da casa",
+                "Comprare il biglietto della navetta",
+                "Prenotare entro giovedì",
+                "Arrivare prima delle nove"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa succede se piove?",
+              "options": [
+                "La festa sarà annullata",
+                "I fuochi d'artificio saranno anticipati",
+                "Il mercato resterà chiuso tutto il weekend",
+                "La caccia al tesoro si farà domenica pomeriggio"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Come si può evitare di cercare parcheggio in centro?",
+              "options": [
+                "Entrando in macchina in piazza",
+                "Lasciando l'auto al campo sportivo e usando la navetta",
+                "Pagando un parcheggio vicino al municipio",
+                "Arrivando dopo mezzanotte"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l2-e02",
+          "stage": "learn",
+          "front": "il santo patrono",
+          "back": "patron saint",
+          "example": "Il santo patrono della mia città si festeggia in estate."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l2-e03",
+          "stage": "learn",
+          "front": "la navetta",
+          "back": "shuttle bus",
+          "example": "Una navetta gratuita porta al centro."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l2-e04",
+          "stage": "learn",
+          "front": "la pro loco",
+          "back": "local tourist association (volunteer)",
+          "example": "La pro loco organizza la sagra ogni anno."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-06-l2-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "festa",
+            "programma",
+            "prenotare",
+            "navetta"
+          ],
+          "modelAnswer": "È il programma della festa del santo patrono di Rocca Verde. Sabato c'è il mercato, la caccia al tesoro per i bambini e la cena in piazza, con prenotazione. Domenica ci sono la processione, il pranzo e i fuochi d'artificio, e per parcheggiare c'è una navetta gratuita.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-06-l3",
+      "title": "Recensione: il negozio Seconda Vita",
+      "minutes": 8,
+      "goal": "Leggere una recensione di un negozio di circa 200 parole e distinguere pregi, difetti e consiglio finale.",
+      "takeaway": "In una recensione cerca pregi e difetti, e poi il consiglio finale: spesso è introdotto da se o da chi.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-06-l3-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Recensione: il negozio Seconda Vita",
+          "passage": "Cinque stelle su cinque? Quasi. Vi racconto la mia esperienza, così decidete voi.\n\nSono entrata da «Seconda Vita» due settimane fa, perché cercavo una giacca di jeans e non volevo spendere molto. Il negozio vende abiti e oggetti usati, ma selezionati con cura: tutto è pulito, stirato e sistemato per colore. Ho trovato subito una giacca quasi nuova a 18 euro, e una signora molto gentile mi ha aiutata a scegliere la taglia. Ho anche comprato una borsa di pelle per 25 euro; in un negozio normale la stessa borsa costerebbe il triplo.\n\nI punti di forza sono i prezzi e la qualità. Inoltre, chi porta vestiti che non usa più può ricevere un buono sconto: io ne ho portati quattro e ho avuto cinque euro di sconto sul prossimo acquisto.\n\nIl lato negativo è lo spazio. Il negozio è piccolo e il sabato pomeriggio c'è così tanta gente che è difficile muoversi. Inoltre non c'è un camerino vero e proprio, solo una tenda in fondo al locale, e questo non mi è piaciuto molto. Se potete, andate di mattina nei giorni feriali.\n\nConsiglio il negozio a chi ama i buoni affari e vuole ridurre gli sprechi. Tornerò di sicuro!",
+          "questions": [
+            {
+              "question": "Perché l'autrice è entrata nel negozio?",
+              "options": [
+                "Voleva vendere dei vestiti",
+                "Cercava un regalo di compleanno",
+                "Aspettava un'amica",
+                "Cercava una giacca di jeans a poco prezzo"
+              ],
+              "answer": 3
+            },
+            {
+              "question": "Quali sono i punti di forza del negozio?",
+              "options": [
+                "La grandezza e i camerini",
+                "I prezzi bassi e la qualità degli articoli",
+                "L'orario di apertura",
+                "I vestiti di marca nuovi"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che cosa ottiene chi porta vestiti che non usa più?",
+              "options": [
+                "Un buono sconto",
+                "Dei soldi in contanti",
+                "Un abito gratis",
+                "Una borsa di pelle"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa consiglia di fare l'autrice?",
+              "options": [
+                "Andare il sabato pomeriggio",
+                "Comprare solo borse",
+                "Andare di mattina nei giorni feriali",
+                "Portare una tenda"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l3-e02",
+          "stage": "learn",
+          "front": "usato",
+          "back": "second-hand, used",
+          "example": "Compro i libri usati al mercatino."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l3-e03",
+          "stage": "learn",
+          "front": "il camerino",
+          "back": "fitting room",
+          "example": "Il camerino è in fondo al negozio."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l3-e04",
+          "stage": "learn",
+          "front": "lo sconto",
+          "back": "discount",
+          "example": "Con la tessera hai il dieci per cento di sconto."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-06-l3-e05",
+          "stage": "use",
+          "prompt": "Riassumi il testo in tre o quattro frasi, senza guardarlo.",
+          "keywords": [
+            "negozio",
+            "usato",
+            "prezzi",
+            "consiglio"
+          ],
+          "modelAnswer": "L'autrice recensisce un negozio di abiti usati. Ha speso poco per una giacca e una borsa, e i prezzi e la qualità sono i punti di forza. Il difetto è lo spazio piccolo, senza camerino vero, ma il negozio le piace e lo consiglia.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    },
+    {
+      "id": "lib-r-b1-06-l4",
+      "title": "Intervista a una ceramista per passione",
+      "minutes": 8,
+      "goal": "Leggere un'intervista sugli hobby di circa 200 parole e capire motivi, abitudini e consigli.",
+      "takeaway": "In un'intervista le domande guidano la lettura: usa ogni domanda per trovare la risposta nel testo.",
+      "exercises": [
+        {
+          "type": "reading",
+          "id": "lib-r-b1-06-l4-e01",
+          "stage": "practise",
+          "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
+          "title": "Intervista a una ceramista per passione",
+          "passage": "Intervista a Marta, infermiera e ceramista per passione\n\nD: Marta, lei lavora in ospedale. Come è nata la passione per la ceramica?\nR: Per caso. Tre anni fa mi sono iscritta a un corso serale perché dopo i turni di notte non riuscivo a rilassarmi. Pensavo di restare un mese, e invece sono ancora lì.\n\nD: Che cosa le piace di più?\nR: Il contatto con l'argilla. Quando lavoro con le mani, il telefono resta in borsa e la testa si svuota. Inoltre, con la ceramica non si può avere fretta: se il pezzo non è asciutto, si rompe nel forno. Mi ha insegnato ad aspettare.\n\nD: Quanto tempo dedica a questo hobby?\nR: Di solito due sere a settimana, più qualche ora la domenica mattina. Il laboratorio è vicino a casa, quindi vado a piedi.\n\nD: Vende i suoi lavori?\nR: Qualche volta. Faccio soprattutto tazze e piatti, e li vendo a colleghi e amici. Il ricavato va a un'associazione che aiuta le famiglie dei malati. Non vorrei mai trasformare l'hobby in un lavoro: perderebbe la magia.\n\nD: Che cosa consiglia a chi vuole cominciare?\nR: Di non aspettarsi subito risultati perfetti. I miei primi vasi sembravano cappelli storti! Ma con un po' di pazienza e un buon insegnante si migliora presto.",
+          "questions": [
+            {
+              "question": "Perché Marta si è iscritta al corso?",
+              "options": [
+                "Voleva cambiare lavoro",
+                "Un'amica glielo aveva consigliato",
+                "Dopo i turni di notte non riusciva a rilassarsi",
+                "Cercava un modo per guadagnare"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Che cosa le ha insegnato la ceramica?",
+              "options": [
+                "Ad aspettare",
+                "A cucinare",
+                "A parlare in pubblico",
+                "A risparmiare"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Che cosa fa con i soldi delle vendite?",
+              "options": [
+                "Compra nuovi attrezzi",
+                "Li dà a un'associazione che aiuta le famiglie dei malati",
+                "Paga il corso",
+                "Li tiene per le vacanze"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Che consiglio dà a chi comincia?",
+              "options": [
+                "Comprare un forno",
+                "Lasciare il lavoro",
+                "Vendere subito i pezzi",
+                "Non aspettarsi subito risultati perfetti"
+              ],
+              "answer": 3
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l4-e02",
+          "stage": "learn",
+          "front": "l'argilla",
+          "back": "clay",
+          "example": "Con l'argilla si fanno vasi e tazze."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l4-e03",
+          "stage": "learn",
+          "front": "iscriversi",
+          "back": "to enrol, to sign up",
+          "example": "Mi sono iscritto a un corso di cucina."
+        },
+        {
+          "type": "flashcard",
+          "id": "lib-r-b1-06-l4-e04",
+          "stage": "learn",
+          "front": "il ricavato",
+          "back": "proceeds, takings",
+          "example": "Il ricavato va in beneficenza."
+        },
+        {
+          "type": "speak_respond",
+          "id": "lib-r-b1-06-l4-e05",
+          "stage": "use",
+          "prompt": "Riassumi l'intervista in tre o quattro frasi, senza guardarla.",
+          "keywords": [
+            "ceramica",
+            "corso",
+            "argilla",
+            "consiglio"
+          ],
+          "modelAnswer": "Marta è infermiera e fa la ceramica per rilassarsi dopo i turni di notte. Le piace lavorare con le mani e ha imparato ad aspettare. Vende qualche pezzo e dà il ricavato a un'associazione, e consiglia ai principianti di avere pazienza.",
+          "explanation": "Riassumere a voce senza guardare il testo allena la comprensione e il compito della prova orale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "it": "la soffitta",
+      "en": "attic",
+      "example": "In soffitta ci sono molti vecchi libri."
+    },
+    {
+      "it": "nascondino",
+      "en": "hide-and-seek",
+      "example": "I bambini giocano a nascondino in giardino."
+    },
+    {
+      "it": "fingere",
+      "en": "to pretend",
+      "example": "Il bambino fingeva di dormire."
+    },
+    {
+      "it": "il santo patrono",
+      "en": "patron saint",
+      "example": "Il santo patrono della mia città si festeggia in estate."
+    },
+    {
+      "it": "la navetta",
+      "en": "shuttle bus",
+      "example": "Una navetta gratuita porta al centro."
+    },
+    {
+      "it": "la pro loco",
+      "en": "local tourist association (volunteer)",
+      "example": "La pro loco organizza la sagra ogni anno."
+    },
+    {
+      "it": "usato",
+      "en": "second-hand, used",
+      "example": "Compro i libri usati al mercatino."
+    },
+    {
+      "it": "il camerino",
+      "en": "fitting room",
+      "example": "Il camerino è in fondo al negozio."
+    },
+    {
+      "it": "lo sconto",
+      "en": "discount",
+      "example": "Con la tessera hai il dieci per cento di sconto."
+    },
+    {
+      "it": "l'argilla",
+      "en": "clay",
+      "example": "Con l'argilla si fanno vasi e tazze."
+    },
+    {
+      "it": "iscriversi",
+      "en": "to enrol, to sign up",
+      "example": "Mi sono iscritto a un corso di cucina."
+    },
+    {
+      "it": "il ricavato",
+      "en": "proceeds, takings",
+      "example": "Il ricavato va in beneficenza."
+    }
+  ]
+}
