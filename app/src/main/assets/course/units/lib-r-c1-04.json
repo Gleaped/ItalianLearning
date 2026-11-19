@@ -63,6 +63,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-04-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "L'Unione ___ riconosce ventiquattro lingue ___ e promuove il multilinguismo come uno dei suoi valori fondanti. Nella pratica, però, la ___ è più sfumata: nelle riunioni quotidiane si ___ soprattutto l'inglese, il francese e il tedesco, mentre ___ lingue minori rischiano di restare ai margini.",
+          "gaps": [
+            {
+              "answers": [
+                "europea"
+              ],
+              "options": [
+                "molte",
+                "usano",
+                "ufficiali",
+                "europea",
+                "situazione"
+              ]
+            },
+            {
+              "answers": [
+                "ufficiali"
+              ],
+              "options": [
+                "molte",
+                "usano",
+                "ufficiali",
+                "europea",
+                "situazione"
+              ]
+            },
+            {
+              "answers": [
+                "situazione"
+              ],
+              "options": [
+                "molte",
+                "usano",
+                "ufficiali",
+                "europea",
+                "situazione"
+              ]
+            },
+            {
+              "answers": [
+                "usano"
+              ],
+              "options": [
+                "molte",
+                "usano",
+                "ufficiali",
+                "europea",
+                "situazione"
+              ]
+            },
+            {
+              "answers": [
+                "molte"
+              ],
+              "options": [
+                "molte",
+                "usano",
+                "ufficiali",
+                "europea",
+                "situazione"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-04-l1-c1",
           "stage": "learn",
@@ -135,6 +206,77 @@
               "answer": 0
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-04-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Il ___ giudiziario italiano è da ___ oggetto di critiche per la lentezza dei processi: in ___ un procedimento civile dura più di cinque anni, ben ___ la media europea. Le cause sono molteplici: un numero ___ di cause, personale insufficiente e procedure complesse.",
+          "gaps": [
+            {
+              "answers": [
+                "sistema"
+              ],
+              "options": [
+                "tempo",
+                "oltre",
+                "elevato",
+                "media",
+                "sistema"
+              ]
+            },
+            {
+              "answers": [
+                "tempo"
+              ],
+              "options": [
+                "tempo",
+                "oltre",
+                "elevato",
+                "media",
+                "sistema"
+              ]
+            },
+            {
+              "answers": [
+                "media"
+              ],
+              "options": [
+                "tempo",
+                "oltre",
+                "elevato",
+                "media",
+                "sistema"
+              ]
+            },
+            {
+              "answers": [
+                "oltre"
+              ],
+              "options": [
+                "tempo",
+                "oltre",
+                "elevato",
+                "media",
+                "sistema"
+              ]
+            },
+            {
+              "answers": [
+                "elevato"
+              ],
+              "options": [
+                "tempo",
+                "oltre",
+                "elevato",
+                "media",
+                "sistema"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -211,6 +353,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-04-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "La ___ è, nell'urbanistica italiana, molto più di uno ___ libero: è il cuore civile, ___ e commerciale della città. Nelle ___ medievali, attorno al ___ e alla cattedrale, si svolgevano mercati, cerimonie e assemblee.",
+          "gaps": [
+            {
+              "answers": [
+                "piazza"
+              ],
+              "options": [
+                "spazio",
+                "piazza",
+                "municipio",
+                "religioso",
+                "città"
+              ]
+            },
+            {
+              "answers": [
+                "spazio"
+              ],
+              "options": [
+                "spazio",
+                "piazza",
+                "municipio",
+                "religioso",
+                "città"
+              ]
+            },
+            {
+              "answers": [
+                "religioso"
+              ],
+              "options": [
+                "spazio",
+                "piazza",
+                "municipio",
+                "religioso",
+                "città"
+              ]
+            },
+            {
+              "answers": [
+                "città"
+              ],
+              "options": [
+                "spazio",
+                "piazza",
+                "municipio",
+                "religioso",
+                "città"
+              ]
+            },
+            {
+              "answers": [
+                "municipio"
+              ],
+              "options": [
+                "spazio",
+                "piazza",
+                "municipio",
+                "religioso",
+                "città"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-04-l3-c1",
           "stage": "learn",
@@ -282,6 +495,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-04-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Il ___ sul merito nella scuola italiana è ___ e carico di significati politici. Per i sostenitori, premiare i risultati dei ___ stimola l'impegno e riconosce il valore dello studio. I critici, invece, ricordano che il ___ di partenza degli studenti non è uguale: chi proviene da ___ con meno risorse parte spesso da una condizione di svantaggio, che non dipende dall'impegno.",
+          "gaps": [
+            {
+              "answers": [
+                "dibattito"
+              ],
+              "options": [
+                "dibattito",
+                "famiglie",
+                "migliori",
+                "antico",
+                "punto"
+              ]
+            },
+            {
+              "answers": [
+                "antico"
+              ],
+              "options": [
+                "dibattito",
+                "famiglie",
+                "migliori",
+                "antico",
+                "punto"
+              ]
+            },
+            {
+              "answers": [
+                "migliori"
+              ],
+              "options": [
+                "dibattito",
+                "famiglie",
+                "migliori",
+                "antico",
+                "punto"
+              ]
+            },
+            {
+              "answers": [
+                "punto"
+              ],
+              "options": [
+                "dibattito",
+                "famiglie",
+                "migliori",
+                "antico",
+                "punto"
+              ]
+            },
+            {
+              "answers": [
+                "famiglie"
+              ],
+              "options": [
+                "dibattito",
+                "famiglie",
+                "migliori",
+                "antico",
+                "punto"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

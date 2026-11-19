@@ -56,6 +56,34 @@ def _cards(prefix, cards, text):
     return out
 
 
+def _cloze(lid, text):
+    """A gap-fill from the opening of a reading text: five plain lowercase words, spaced out."""
+    import re
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    chosen, words = [], 0
+    for s in sentences:
+        chosen.append(s)
+        words += len(s.split())
+        if words >= 35:
+            break
+    passage = " ".join(chosen)
+    tokens = passage.split(" ")
+    cands = [i for i, tok in enumerate(tokens)
+             if i > 0 and re.fullmatch(r"[a-zàèéìòù]{5,}", tok) and not tokens[i - 1].endswith((".", "!", "?"))]
+    if len(cands) < 4:
+        return None
+    n = min(5, len(cands))
+    picks = sorted({cands[(k * len(cands)) // n] for k in range(n)})
+    answers = [tokens[i] for i in picks]
+    for i in picks:
+        tokens[i] = "___"
+    options = sorted(answers, key=lambda a: hashlib.md5((lid + a).encode()).hexdigest())
+    return {"type": "cloze_text", "id": f"{lid}-e2", "stage": "practise", "title": "Completa il testo",
+            "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+            "text": " ".join(tokens), "gaps": [{"answers": [a], "options": options} for a in answers],
+            "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."}
+
+
 def reading_lesson(uid, n, title, text, qs, cards):
     lid = f"{uid}-l{n}"
     questions = []
@@ -65,6 +93,9 @@ def reading_lesson(uid, n, title, text, qs, cards):
     ex = [{"type": "reading", "id": f"{lid}-e1", "stage": "practise",
            "instruction": "Leggi il testo con calma, poi rispondi. Cerca nel testo la frase che conferma la tua scelta.",
            "title": title, "passage": text, "questions": questions}]
+    cloze = _cloze(lid, text)
+    if cloze:
+        ex.append(cloze)
     ex += _cards(lid, cards, text)
     return {"id": lid, "title": title, "minutes": 8,
             "goal": "Leggere un testo e rispondere alle domande.",

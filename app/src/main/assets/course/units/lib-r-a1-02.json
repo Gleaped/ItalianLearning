@@ -50,6 +50,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a1-02-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Ogni ___ mi alzo alle sette. Faccio ___ al bar vicino a casa. Prendo un ___ e un ___ con la marmellata. Il barista si ___ Gino ed è molto simpatico. Pago due euro e cinquanta.",
+          "gaps": [
+            {
+              "answers": [
+                "mattina"
+              ],
+              "options": [
+                "mattina",
+                "colazione",
+                "chiama",
+                "cappuccino",
+                "cornetto"
+              ]
+            },
+            {
+              "answers": [
+                "colazione"
+              ],
+              "options": [
+                "mattina",
+                "colazione",
+                "chiama",
+                "cappuccino",
+                "cornetto"
+              ]
+            },
+            {
+              "answers": [
+                "cappuccino"
+              ],
+              "options": [
+                "mattina",
+                "colazione",
+                "chiama",
+                "cappuccino",
+                "cornetto"
+              ]
+            },
+            {
+              "answers": [
+                "cornetto"
+              ],
+              "options": [
+                "mattina",
+                "colazione",
+                "chiama",
+                "cappuccino",
+                "cornetto"
+              ]
+            },
+            {
+              "answers": [
+                "chiama"
+              ],
+              "options": [
+                "mattina",
+                "colazione",
+                "chiama",
+                "cappuccino",
+                "cornetto"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a1-02-l1-c1",
           "stage": "learn",
@@ -110,6 +181,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-02-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Il ___ vado al mercato con mia madre. Compriamo la ___ e la verdura: mele, arance, pomodori e insalata. Il ___ ci dà un chilo di ___ in regalo. Poi andiamo dal ___ e compriamo il pane.",
+          "gaps": [
+            {
+              "answers": [
+                "sabato"
+              ],
+              "options": [
+                "frutta",
+                "sabato",
+                "patate",
+                "fruttivendolo",
+                "panettiere"
+              ]
+            },
+            {
+              "answers": [
+                "frutta"
+              ],
+              "options": [
+                "frutta",
+                "sabato",
+                "patate",
+                "fruttivendolo",
+                "panettiere"
+              ]
+            },
+            {
+              "answers": [
+                "fruttivendolo"
+              ],
+              "options": [
+                "frutta",
+                "sabato",
+                "patate",
+                "fruttivendolo",
+                "panettiere"
+              ]
+            },
+            {
+              "answers": [
+                "patate"
+              ],
+              "options": [
+                "frutta",
+                "sabato",
+                "patate",
+                "fruttivendolo",
+                "panettiere"
+              ]
+            },
+            {
+              "answers": [
+                "panettiere"
+              ],
+              "options": [
+                "frutta",
+                "sabato",
+                "patate",
+                "fruttivendolo",
+                "panettiere"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -174,6 +316,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a1-02-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Stasera ___ io. Preparo la pasta al ___ e poi una carne con le patate. Mia ___ compra il vino e il dolce. I ___ apparecchiano la tavola: ___ i piatti, i bicchieri e le forchette.",
+          "gaps": [
+            {
+              "answers": [
+                "cucino"
+              ],
+              "options": [
+                "pomodoro",
+                "moglie",
+                "bambini",
+                "mettono",
+                "cucino"
+              ]
+            },
+            {
+              "answers": [
+                "pomodoro"
+              ],
+              "options": [
+                "pomodoro",
+                "moglie",
+                "bambini",
+                "mettono",
+                "cucino"
+              ]
+            },
+            {
+              "answers": [
+                "moglie"
+              ],
+              "options": [
+                "pomodoro",
+                "moglie",
+                "bambini",
+                "mettono",
+                "cucino"
+              ]
+            },
+            {
+              "answers": [
+                "bambini"
+              ],
+              "options": [
+                "pomodoro",
+                "moglie",
+                "bambini",
+                "mettono",
+                "cucino"
+              ]
+            },
+            {
+              "answers": [
+                "mettono"
+              ],
+              "options": [
+                "pomodoro",
+                "moglie",
+                "bambini",
+                "mettono",
+                "cucino"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a1-02-l3-c1",
           "stage": "learn",
@@ -232,6 +445,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a1-02-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Io e Anna ___ al ristorante «Da Mario». Il ___ porta il menù. Io prendo gli ___ alle vongole e Anna sceglie una ___ margherita. Beviamo acqua naturale e un ___ di vino bianco. Il conto è di trentacinque euro.",
+          "gaps": [
+            {
+              "answers": [
+                "siamo"
+              ],
+              "options": [
+                "bicchiere",
+                "spaghetti",
+                "siamo",
+                "pizza",
+                "cameriere"
+              ]
+            },
+            {
+              "answers": [
+                "cameriere"
+              ],
+              "options": [
+                "bicchiere",
+                "spaghetti",
+                "siamo",
+                "pizza",
+                "cameriere"
+              ]
+            },
+            {
+              "answers": [
+                "spaghetti"
+              ],
+              "options": [
+                "bicchiere",
+                "spaghetti",
+                "siamo",
+                "pizza",
+                "cameriere"
+              ]
+            },
+            {
+              "answers": [
+                "pizza"
+              ],
+              "options": [
+                "bicchiere",
+                "spaghetti",
+                "siamo",
+                "pizza",
+                "cameriere"
+              ]
+            },
+            {
+              "answers": [
+                "bicchiere"
+              ],
+              "options": [
+                "bicchiere",
+                "spaghetti",
+                "siamo",
+                "pizza",
+                "cameriere"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

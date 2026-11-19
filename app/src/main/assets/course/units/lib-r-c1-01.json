@@ -63,6 +63,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-01-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "In Italia ___ l'italiano standard e una straordinaria varietà di dialetti, che non sono, come si ___ spesso, forme «sbagliate» della lingua nazionale, ma sistemi ___ autonomi nati dal latino parallelamente al toscano. Fino al secondo ___ gran parte della popolazione parlava il ___ in famiglia e usava l'italiano solo a scuola o negli uffici.",
+          "gaps": [
+            {
+              "answers": [
+                "convivono"
+              ],
+              "options": [
+                "dopoguerra",
+                "convivono",
+                "crede",
+                "linguistici",
+                "dialetto"
+              ]
+            },
+            {
+              "answers": [
+                "crede"
+              ],
+              "options": [
+                "dopoguerra",
+                "convivono",
+                "crede",
+                "linguistici",
+                "dialetto"
+              ]
+            },
+            {
+              "answers": [
+                "linguistici"
+              ],
+              "options": [
+                "dopoguerra",
+                "convivono",
+                "crede",
+                "linguistici",
+                "dialetto"
+              ]
+            },
+            {
+              "answers": [
+                "dopoguerra"
+              ],
+              "options": [
+                "dopoguerra",
+                "convivono",
+                "crede",
+                "linguistici",
+                "dialetto"
+              ]
+            },
+            {
+              "answers": [
+                "dialetto"
+              ],
+              "options": [
+                "dopoguerra",
+                "convivono",
+                "crede",
+                "linguistici",
+                "dialetto"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-01-l1-c1",
           "stage": "learn",
@@ -134,6 +205,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-01-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Secondo le ___ dell'Istituto di statistica, in Italia l'economia non osservata vale circa il dodici per ___ del prodotto interno lordo, e una parte ___ è costituita da lavoro irregolare. Il fenomeno è ___ diffuso in agricoltura, nell'edilizia e nei servizi alla persona, dove molte ___ assumono collaboratrici domestiche senza contratto.",
+          "gaps": [
+            {
+              "answers": [
+                "stime"
+              ],
+              "options": [
+                "stime",
+                "famiglie",
+                "cento",
+                "particolarmente",
+                "considerevole"
+              ]
+            },
+            {
+              "answers": [
+                "cento"
+              ],
+              "options": [
+                "stime",
+                "famiglie",
+                "cento",
+                "particolarmente",
+                "considerevole"
+              ]
+            },
+            {
+              "answers": [
+                "considerevole"
+              ],
+              "options": [
+                "stime",
+                "famiglie",
+                "cento",
+                "particolarmente",
+                "considerevole"
+              ]
+            },
+            {
+              "answers": [
+                "particolarmente"
+              ],
+              "options": [
+                "stime",
+                "famiglie",
+                "cento",
+                "particolarmente",
+                "considerevole"
+              ]
+            },
+            {
+              "answers": [
+                "famiglie"
+              ],
+              "options": [
+                "stime",
+                "famiglie",
+                "cento",
+                "particolarmente",
+                "considerevole"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -211,6 +353,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-01-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Negli ___ vent'anni il quartiere Bicocca, a Milano, ha vissuto una ___ radicale. Dove sorgevano stabilimenti industriali dismessi, sono ___ un'università, un teatro e centinaia di nuove abitazioni. I ___ parlano di un modello di rigenerazione urbana: ___ inutilizzati restituiti alla collettività, con verde e servizi.",
+          "gaps": [
+            {
+              "answers": [
+                "ultimi"
+              ],
+              "options": [
+                "promotori",
+                "trasformazione",
+                "spazi",
+                "comparsi",
+                "ultimi"
+              ]
+            },
+            {
+              "answers": [
+                "trasformazione"
+              ],
+              "options": [
+                "promotori",
+                "trasformazione",
+                "spazi",
+                "comparsi",
+                "ultimi"
+              ]
+            },
+            {
+              "answers": [
+                "comparsi"
+              ],
+              "options": [
+                "promotori",
+                "trasformazione",
+                "spazi",
+                "comparsi",
+                "ultimi"
+              ]
+            },
+            {
+              "answers": [
+                "promotori"
+              ],
+              "options": [
+                "promotori",
+                "trasformazione",
+                "spazi",
+                "comparsi",
+                "ultimi"
+              ]
+            },
+            {
+              "answers": [
+                "spazi"
+              ],
+              "options": [
+                "promotori",
+                "trasformazione",
+                "spazi",
+                "comparsi",
+                "ultimi"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-01-l3-c1",
           "stage": "learn",
@@ -283,6 +496,77 @@
               "answer": 0
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-01-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Parlare in ___ è una competenza che si può imparare, ma che ___ coltivano con metodo. Gli esperti di ___ distinguono tre livelli: i contenuti, la struttura e la presenza. Quanto ai contenuti, è ___ conoscere l'uditorio e selezionare ___ idee, ripetute in forme diverse.",
+          "gaps": [
+            {
+              "answers": [
+                "pubblico"
+              ],
+              "options": [
+                "pochi",
+                "poche",
+                "comunicazione",
+                "pubblico",
+                "fondamentale"
+              ]
+            },
+            {
+              "answers": [
+                "pochi"
+              ],
+              "options": [
+                "pochi",
+                "poche",
+                "comunicazione",
+                "pubblico",
+                "fondamentale"
+              ]
+            },
+            {
+              "answers": [
+                "comunicazione"
+              ],
+              "options": [
+                "pochi",
+                "poche",
+                "comunicazione",
+                "pubblico",
+                "fondamentale"
+              ]
+            },
+            {
+              "answers": [
+                "fondamentale"
+              ],
+              "options": [
+                "pochi",
+                "poche",
+                "comunicazione",
+                "pubblico",
+                "fondamentale"
+              ]
+            },
+            {
+              "answers": [
+                "poche"
+              ],
+              "options": [
+                "pochi",
+                "poche",
+                "comunicazione",
+                "pubblico",
+                "fondamentale"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

@@ -59,6 +59,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-02-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Il mese ___ Giulia ___ trent'anni e ___ farle un bel regalo. Ho ___ a un libro, ma lei ne ha già tanti. Poi ho ___ a un profumo, però non conosco i suoi gusti.",
+          "gaps": [
+            {
+              "answers": [
+                "prossimo"
+              ],
+              "options": [
+                "vorrei",
+                "pensato",
+                "pensato",
+                "compie",
+                "prossimo"
+              ]
+            },
+            {
+              "answers": [
+                "compie"
+              ],
+              "options": [
+                "vorrei",
+                "pensato",
+                "pensato",
+                "compie",
+                "prossimo"
+              ]
+            },
+            {
+              "answers": [
+                "vorrei"
+              ],
+              "options": [
+                "vorrei",
+                "pensato",
+                "pensato",
+                "compie",
+                "prossimo"
+              ]
+            },
+            {
+              "answers": [
+                "pensato"
+              ],
+              "options": [
+                "vorrei",
+                "pensato",
+                "pensato",
+                "compie",
+                "prossimo"
+              ]
+            },
+            {
+              "answers": [
+                "pensato"
+              ],
+              "options": [
+                "vorrei",
+                "pensato",
+                "pensato",
+                "compie",
+                "prossimo"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-02-l1-c1",
           "stage": "learn",
@@ -127,6 +198,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-02-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Quest'estate ___ cambiare vita. Prima di tutto, ___ a correre tre volte alla settimana: ho già ___ le scarpe. In luglio partirò per la Sardegna con due amici. Dormiremo in una ___ sulla spiaggia e ___ pesce fresco ogni giorno.",
+          "gaps": [
+            {
+              "answers": [
+                "voglio"
+              ],
+              "options": [
+                "mangeremo",
+                "comprato",
+                "comincerò",
+                "voglio",
+                "tenda"
+              ]
+            },
+            {
+              "answers": [
+                "comincerò"
+              ],
+              "options": [
+                "mangeremo",
+                "comprato",
+                "comincerò",
+                "voglio",
+                "tenda"
+              ]
+            },
+            {
+              "answers": [
+                "comprato"
+              ],
+              "options": [
+                "mangeremo",
+                "comprato",
+                "comincerò",
+                "voglio",
+                "tenda"
+              ]
+            },
+            {
+              "answers": [
+                "tenda"
+              ],
+              "options": [
+                "mangeremo",
+                "comprato",
+                "comincerò",
+                "voglio",
+                "tenda"
+              ]
+            },
+            {
+              "answers": [
+                "mangeremo"
+              ],
+              "options": [
+                "mangeremo",
+                "comprato",
+                "comincerò",
+                "voglio",
+                "tenda"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -200,6 +342,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-a2-02-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Per ___ in ufficio uso la ___ da due anni. È più veloce della macchina, ___ in centro c'è sempre traffico. Inoltre è più economica: non pago la ___ né il parcheggio. Certo, quando piove è meno ___ e a volte arrivo bagnato.",
+          "gaps": [
+            {
+              "answers": [
+                "andare"
+              ],
+              "options": [
+                "comoda",
+                "perché",
+                "bicicletta",
+                "andare",
+                "benzina"
+              ]
+            },
+            {
+              "answers": [
+                "bicicletta"
+              ],
+              "options": [
+                "comoda",
+                "perché",
+                "bicicletta",
+                "andare",
+                "benzina"
+              ]
+            },
+            {
+              "answers": [
+                "perché"
+              ],
+              "options": [
+                "comoda",
+                "perché",
+                "bicicletta",
+                "andare",
+                "benzina"
+              ]
+            },
+            {
+              "answers": [
+                "benzina"
+              ],
+              "options": [
+                "comoda",
+                "perché",
+                "bicicletta",
+                "andare",
+                "benzina"
+              ]
+            },
+            {
+              "answers": [
+                "comoda"
+              ],
+              "options": [
+                "comoda",
+                "perché",
+                "bicicletta",
+                "andare",
+                "benzina"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-a2-02-l3-c1",
           "stage": "learn",
@@ -268,6 +481,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-a2-02-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "La mia casa ___ sarà piccola, ma luminosa. Avrà due camere, un bagno ___ e una cucina moderna. Mi piacerebbe un ___ per mettere le ___ e per fare colazione la mattina. Sarà vicina alla ___ e a un parco, così potrò correre dopo il lavoro.",
+          "gaps": [
+            {
+              "answers": [
+                "ideale"
+              ],
+              "options": [
+                "metropolitana",
+                "ideale",
+                "grande",
+                "piante",
+                "balcone"
+              ]
+            },
+            {
+              "answers": [
+                "grande"
+              ],
+              "options": [
+                "metropolitana",
+                "ideale",
+                "grande",
+                "piante",
+                "balcone"
+              ]
+            },
+            {
+              "answers": [
+                "balcone"
+              ],
+              "options": [
+                "metropolitana",
+                "ideale",
+                "grande",
+                "piante",
+                "balcone"
+              ]
+            },
+            {
+              "answers": [
+                "piante"
+              ],
+              "options": [
+                "metropolitana",
+                "ideale",
+                "grande",
+                "piante",
+                "balcone"
+              ]
+            },
+            {
+              "answers": [
+                "metropolitana"
+              ],
+              "options": [
+                "metropolitana",
+                "ideale",
+                "grande",
+                "piante",
+                "balcone"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

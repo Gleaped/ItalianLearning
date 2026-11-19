@@ -63,6 +63,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-02-l1-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Nel 2017 il ___ italiano ha dedicato un anno ai borghi, i ___ centri storici sparsi ___ la penisola. L'iniziativa nasce dalla consapevolezza che ___ la metà dei comuni italiani conta meno di ___ abitanti e che molti di essi rischiano lo spopolamento.",
+          "gaps": [
+            {
+              "answers": [
+                "governo"
+              ],
+              "options": [
+                "oltre",
+                "cinquemila",
+                "governo",
+                "lungo",
+                "piccoli"
+              ]
+            },
+            {
+              "answers": [
+                "piccoli"
+              ],
+              "options": [
+                "oltre",
+                "cinquemila",
+                "governo",
+                "lungo",
+                "piccoli"
+              ]
+            },
+            {
+              "answers": [
+                "lungo"
+              ],
+              "options": [
+                "oltre",
+                "cinquemila",
+                "governo",
+                "lungo",
+                "piccoli"
+              ]
+            },
+            {
+              "answers": [
+                "oltre"
+              ],
+              "options": [
+                "oltre",
+                "cinquemila",
+                "governo",
+                "lungo",
+                "piccoli"
+              ]
+            },
+            {
+              "answers": [
+                "cinquemila"
+              ],
+              "options": [
+                "oltre",
+                "cinquemila",
+                "governo",
+                "lungo",
+                "piccoli"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-02-l1-c1",
           "stage": "learn",
@@ -134,6 +205,77 @@
               "answer": 2
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-02-l2-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "Ogni anno ___ parole entrano nei ___ italiani, e il dibattito che ne segue è ___ quanto passionale. Da un lato ci sono i puristi, che denunciano l'invasione di ___ come «smart working» o «green pass», sostenendo che esistano ___ italiane altrettanto efficaci.",
+          "gaps": [
+            {
+              "answers": [
+                "nuove"
+              ],
+              "options": [
+                "puntuale",
+                "anglicismi",
+                "dizionari",
+                "nuove",
+                "alternative"
+              ]
+            },
+            {
+              "answers": [
+                "dizionari"
+              ],
+              "options": [
+                "puntuale",
+                "anglicismi",
+                "dizionari",
+                "nuove",
+                "alternative"
+              ]
+            },
+            {
+              "answers": [
+                "puntuale"
+              ],
+              "options": [
+                "puntuale",
+                "anglicismi",
+                "dizionari",
+                "nuove",
+                "alternative"
+              ]
+            },
+            {
+              "answers": [
+                "anglicismi"
+              ],
+              "options": [
+                "puntuale",
+                "anglicismi",
+                "dizionari",
+                "nuove",
+                "alternative"
+              ]
+            },
+            {
+              "answers": [
+                "alternative"
+              ],
+              "options": [
+                "puntuale",
+                "anglicismi",
+                "dizionari",
+                "nuove",
+                "alternative"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",
@@ -210,6 +352,77 @@
           ]
         },
         {
+          "type": "cloze_text",
+          "id": "lib-r-c1-02-l3-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "L'automazione e l'intelligenza ___ stanno ridisegnando il mercato del lavoro a una velocità ___ precedenti. Secondo alcune stime, entro dieci anni quasi un lavoratore su ___ dovrà cambiare mansione o acquisire competenze nuove. Le ___ più esposte sono quelle ripetitive, come l'inserimento dati o certe attività amministrative, mentre le ___ che richiedono creatività, empatia e capacità di giudizio sembrano più al riparo.",
+          "gaps": [
+            {
+              "answers": [
+                "artificiale"
+              ],
+              "options": [
+                "quattro",
+                "artificiale",
+                "funzioni",
+                "professioni",
+                "senza"
+              ]
+            },
+            {
+              "answers": [
+                "senza"
+              ],
+              "options": [
+                "quattro",
+                "artificiale",
+                "funzioni",
+                "professioni",
+                "senza"
+              ]
+            },
+            {
+              "answers": [
+                "quattro"
+              ],
+              "options": [
+                "quattro",
+                "artificiale",
+                "funzioni",
+                "professioni",
+                "senza"
+              ]
+            },
+            {
+              "answers": [
+                "professioni"
+              ],
+              "options": [
+                "quattro",
+                "artificiale",
+                "funzioni",
+                "professioni",
+                "senza"
+              ]
+            },
+            {
+              "answers": [
+                "funzioni"
+              ],
+              "options": [
+                "quattro",
+                "artificiale",
+                "funzioni",
+                "professioni",
+                "senza"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
+        },
+        {
           "type": "flashcard",
           "id": "lib-r-c1-02-l3-c1",
           "stage": "learn",
@@ -282,6 +495,77 @@
               "answer": 1
             }
           ]
+        },
+        {
+          "type": "cloze_text",
+          "id": "lib-r-c1-02-l4-e2",
+          "stage": "practise",
+          "title": "Completa il testo",
+          "instruction": "Completa il brano con le parole che mancano (le trovi qui sotto, in disordine).",
+          "text": "In Italia il cibo non è ___ nutrimento: è un linguaggio attraverso cui le comunità raccontano se stesse. Ogni ___ custodisce ricette che, tramandate di generazione in generazione, sono diventate ___ identitari. Eppure l'idea di una cucina italiana unitaria è relativamente recente: fu Pellegrino Artusi, nel 1891, con il celebre ___ «La scienza in cucina», a mettere insieme per la prima volta ___ di tutto il paese, contribuendo a creare una cultura gastronomica nazionale.",
+          "gaps": [
+            {
+              "answers": [
+                "soltanto"
+              ],
+              "options": [
+                "soltanto",
+                "piatti",
+                "simboli",
+                "regione",
+                "manuale"
+              ]
+            },
+            {
+              "answers": [
+                "regione"
+              ],
+              "options": [
+                "soltanto",
+                "piatti",
+                "simboli",
+                "regione",
+                "manuale"
+              ]
+            },
+            {
+              "answers": [
+                "simboli"
+              ],
+              "options": [
+                "soltanto",
+                "piatti",
+                "simboli",
+                "regione",
+                "manuale"
+              ]
+            },
+            {
+              "answers": [
+                "manuale"
+              ],
+              "options": [
+                "soltanto",
+                "piatti",
+                "simboli",
+                "regione",
+                "manuale"
+              ]
+            },
+            {
+              "answers": [
+                "piatti"
+              ],
+              "options": [
+                "soltanto",
+                "piatti",
+                "simboli",
+                "regione",
+                "manuale"
+              ]
+            }
+          ],
+          "explanation": "Rileggi la frase intera: la parola giusta dipende da quello che viene prima e dopo."
         },
         {
           "type": "flashcard",

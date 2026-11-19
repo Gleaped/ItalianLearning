@@ -713,33 +713,6 @@
       "module": "c1-m3"
     },
     {
-      "id": "lib-r-a1-01",
-      "level": "LET",
-      "order": 1,
-      "title": "Persone e famiglia",
-      "summary": "4 reading texts at A1 (about 49 words each), with questions and key words.",
-      "available": true,
-      "module": "let-a1"
-    },
-    {
-      "id": "lib-r-a1-02",
-      "level": "LET",
-      "order": 2,
-      "title": "Giornate e cibo",
-      "summary": "4 reading texts at A1 (about 50 words each), with questions and key words.",
-      "available": true,
-      "module": "let-a1"
-    },
-    {
-      "id": "lib-r-a1-03",
-      "level": "LET",
-      "order": 3,
-      "title": "Città e viaggi",
-      "summary": "4 reading texts at A1 (about 56 words each), with questions and key words.",
-      "available": true,
-      "module": "let-a1"
-    },
-    {
       "id": "lib-a-a1-01",
       "level": "ASC",
       "order": 1,
@@ -765,42 +738,6 @@
       "summary": "4 listening texts at A1 (about 57 words each), with questions.",
       "available": true,
       "module": "asc-a1"
-    },
-    {
-      "id": "lib-r-a2-01",
-      "level": "LET",
-      "order": 4,
-      "title": "Raccontare il passato",
-      "summary": "4 reading texts at A2 (about 75 words each), with questions and key words.",
-      "available": true,
-      "module": "let-a2"
-    },
-    {
-      "id": "lib-r-a2-02",
-      "level": "LET",
-      "order": 5,
-      "title": "Progetti e confronti",
-      "summary": "4 reading texts at A2 (about 72 words each), with questions and key words.",
-      "available": true,
-      "module": "let-a2"
-    },
-    {
-      "id": "lib-r-a2-03",
-      "level": "LET",
-      "order": 6,
-      "title": "Servizi e viaggi",
-      "summary": "4 reading texts at A2 (about 78 words each), with questions and key words.",
-      "available": true,
-      "module": "let-a2"
-    },
-    {
-      "id": "lib-r-a2-04",
-      "level": "LET",
-      "order": 7,
-      "title": "Tempo libero e cucina",
-      "summary": "4 reading texts at A2 (about 77 words each), with questions and key words.",
-      "available": true,
-      "module": "let-a2"
     },
     {
       "id": "lib-a-a2-01",
@@ -839,42 +776,6 @@
       "module": "asc-a2"
     },
     {
-      "id": "lib-r-c1-01",
-      "level": "LET",
-      "order": 8,
-      "title": "Lingua, società e lavoro",
-      "summary": "4 reading texts at C1 (about 121 words each), with questions and key words.",
-      "available": true,
-      "module": "let-c1"
-    },
-    {
-      "id": "lib-r-c1-02",
-      "level": "LET",
-      "order": 9,
-      "title": "Territorio e cultura",
-      "summary": "4 reading texts at C1 (about 119 words each), with questions and key words.",
-      "available": true,
-      "module": "let-c1"
-    },
-    {
-      "id": "lib-r-c1-03",
-      "level": "LET",
-      "order": 10,
-      "title": "Letteratura e memoria",
-      "summary": "4 reading texts at C1 (about 116 words each), with questions and key words.",
-      "available": true,
-      "module": "let-c1"
-    },
-    {
-      "id": "lib-r-c1-04",
-      "level": "LET",
-      "order": 11,
-      "title": "Istituzioni e società",
-      "summary": "4 reading texts at C1 (about 115 words each), with questions and key words.",
-      "available": true,
-      "module": "let-c1"
-    },
-    {
       "id": "lib-a-c1-01",
       "level": "ASC",
       "order": 12,
@@ -909,6 +810,105 @@
       "summary": "4 listening texts at C1 (about 99 words each), with questions.",
       "available": true,
       "module": "asc-c1"
+    },
+    {
+      "id": "lib-r-a1-01",
+      "level": "LET",
+      "order": 12,
+      "title": "Persone e famiglia",
+      "summary": "4 reading texts at A1 (about 49 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a1"
+    },
+    {
+      "id": "lib-r-a1-02",
+      "level": "LET",
+      "order": 13,
+      "title": "Giornate e cibo",
+      "summary": "4 reading texts at A1 (about 50 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a1"
+    },
+    {
+      "id": "lib-r-a1-03",
+      "level": "LET",
+      "order": 14,
+      "title": "Città e viaggi",
+      "summary": "4 reading texts at A1 (about 56 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a1"
+    },
+    {
+      "id": "lib-r-a2-01",
+      "level": "LET",
+      "order": 15,
+      "title": "Raccontare il passato",
+      "summary": "4 reading texts at A2 (about 75 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-r-a2-02",
+      "level": "LET",
+      "order": 16,
+      "title": "Progetti e confronti",
+      "summary": "4 reading texts at A2 (about 72 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-r-a2-03",
+      "level": "LET",
+      "order": 17,
+      "title": "Servizi e viaggi",
+      "summary": "4 reading texts at A2 (about 78 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-r-a2-04",
+      "level": "LET",
+      "order": 18,
+      "title": "Tempo libero e cucina",
+      "summary": "4 reading texts at A2 (about 77 words each), with questions and key words.",
+      "available": true,
+      "module": "let-a2"
+    },
+    {
+      "id": "lib-r-c1-01",
+      "level": "LET",
+      "order": 19,
+      "title": "Lingua, società e lavoro",
+      "summary": "4 reading texts at C1 (about 121 words each), with questions and key words.",
+      "available": true,
+      "module": "let-c1"
+    },
+    {
+      "id": "lib-r-c1-02",
+      "level": "LET",
+      "order": 20,
+      "title": "Territorio e cultura",
+      "summary": "4 reading texts at C1 (about 119 words each), with questions and key words.",
+      "available": true,
+      "module": "let-c1"
+    },
+    {
+      "id": "lib-r-c1-03",
+      "level": "LET",
+      "order": 21,
+      "title": "Letteratura e memoria",
+      "summary": "4 reading texts at C1 (about 116 words each), with questions and key words.",
+      "available": true,
+      "module": "let-c1"
+    },
+    {
+      "id": "lib-r-c1-04",
+      "level": "LET",
+      "order": 22,
+      "title": "Istituzioni e società",
+      "summary": "4 reading texts at C1 (about 115 words each), with questions and key words.",
+      "available": true,
+      "module": "let-c1"
     }
   ],
   "modules": [

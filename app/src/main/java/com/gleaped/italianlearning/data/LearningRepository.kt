@@ -16,6 +16,7 @@ import com.gleaped.italianlearning.domain.srs.CoreDeck
 import com.gleaped.italianlearning.domain.srs.Rating
 import com.gleaped.italianlearning.domain.srs.ReviewCounts
 import com.gleaped.italianlearning.domain.srs.ReviewLoad
+import com.gleaped.italianlearning.domain.srs.Fsrs
 import com.gleaped.italianlearning.domain.srs.Sm2
 import com.gleaped.italianlearning.domain.srs.SrsState
 import kotlinx.coroutines.flow.Flow
@@ -291,7 +292,7 @@ class LearningRepository(private val db: AppDatabase) {
 
     suspend fun review(card: SrsCardEntity, rating: Rating): SrsCardEntity {
         val day = today()
-        val next = Sm2.review(card.toState(), rating, day)
+        val next = Fsrs.review(card.toState(), rating, day)
         val updated = card.copy(
             easiness = next.easiness,
             repetitions = next.repetitions,
