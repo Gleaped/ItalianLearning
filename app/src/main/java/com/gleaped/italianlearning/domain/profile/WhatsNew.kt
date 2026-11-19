@@ -7,6 +7,7 @@ object WhatsNew {
     /** Oldest first. Add a note with the next id when a release changes something a learner would notice. */
     val notes: List<WhatsNewNote> = listOf(
         WhatsNewNote(1, "New: after a few days away, Ripasso shows a lighter day instead of a pile of cards. Settings now folds the rarely used options away."),
+        WhatsNewNote(2, "New: the Lettura and Ascolto libraries now reach B1 and B2, with over 100 reading texts and 120 recordings in all. Find them in the course map."),
     )
 
     /** The newest note the learner has not dismissed yet. */
